@@ -1,0 +1,29 @@
+{
+  "variantId": "earth-warrior-lvl51",
+  "name": "Earth warrior",
+  "npcIds": [
+    2840
+  ],
+  "combatLevel": 51,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 42,
+    "stab": 30,
+    "slash": 40,
+    "crush": 20,
+    "magic": 10,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "North-eastern Edgeville Dungeon (Wilderness)",
+  "requirement": "15 Agility to cross the monkey bars; must be killed in the Wilderness to count towards a Krystilia task",
+  "bossId": null,
+  "strategyId": "earth-warriors"
+}

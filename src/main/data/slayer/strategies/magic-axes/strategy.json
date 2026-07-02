@@ -1,0 +1,97 @@
+{
+  "strategyId": "magic-axes",
+  "variantIds": [
+    "magic-axe"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Magic_axe",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "viggora-s-chainmace",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Magic axes have low defences (slash and magic +5); a slash weapon works well. Reaching them needs 23 Thieving and a lockpick to open the hut door. Bring only cheap Wilderness-appropriate gear."
+  },
+  "requirements": [
+    "Kills must be made in the Wilderness to count for the Krystilia assignment.",
+    "23 Thieving and a lockpick are needed to open the Axe Hut door.",
+    "No Slayer level or quest requirement."
+  ],
+  "mechanics": [
+    "Magic axes (npc 2844) are combat level 42 with 44 Hitpoints and grant 44 Slayer XP.",
+    "They attack with slash melee at a 4-tick speed.",
+    "Defence level 29 with slash (+5) and magic (+5) their lowest defences; crush (+15) is highest."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-slash",
+      "label": "Slash melee",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the 9 Axe Hut spawns with a slash weapon against their low slash defence (+5).",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Slash melee weapon",
+        "Lockpick (23 Thieving)"
+      ],
+      "steps": [
+        "Open the Axe Hut door with 23 Thieving and a lockpick.",
+        "Kill the magic axes with a slash weapon.",
+        "Avoid crush weapons (their highest defence, +15)."
+      ],
+      "notes": [
+        "Bring only cheap gear; this is a Wilderness spot with PKer risk."
+      ]
+    },
+    {
+      "methodId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Range the axes against their low magic (+5) and moderate ranged (+10) defences.",
+      "recommendedFor": [
+        "players who prefer ranged",
+        "keeping distance in the hut"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged weapon",
+        "Lockpick (23 Thieving)"
+      ],
+      "steps": [
+        "Open the Axe Hut door with 23 Thieving and a lockpick.",
+        "Attack the magic axes with ranged.",
+        "Avoid crush weapons (their highest defence, +15)."
+      ],
+      "notes": [
+        "Slash melee is still faster against their +5 slash defence."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-slash",
+      "label": "Slash melee",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Slash exploits their lowest melee defence (+5).",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon scimitar",
+            "Viggora's chainmace",
+            "Abyssal whip"
+          ]
+        }
+      }
+    }
+  ]
+}

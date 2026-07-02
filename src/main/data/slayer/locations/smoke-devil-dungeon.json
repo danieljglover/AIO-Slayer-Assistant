@@ -1,0 +1,11 @@
+{
+  "locationId": "smoke-devil-dungeon",
+  "name": "Smoke Devil Dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "task-only dungeon south of Castle Wars, also reachable by fairy ring BKP. The main Smoke devil room is multicombat, cannonable, and used for Ice Burst or Ice Barrage grouping; a cannon placed in the Thermonuclear smoke devil boss room is destroyed."
+}

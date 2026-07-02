@@ -1,0 +1,68 @@
+{
+  "strategyId": "hobgoblins",
+  "variantIds": [
+    "hobgoblin"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Hobgoblin",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Hobgoblins have 29 hitpoints and Defence 24 with all defensive bonuses +0, so any melee style is equally accurate - use your best melee weapon. They hit up to 3 with melee, so minimal food is needed. Both the level-28 unarmed and level-42 armed forms count for the task."
+  },
+  "requirements": [
+    "No Slayer level is required to receive or kill Hobgoblins.",
+    "Access to the Edgeville Dungeon (via the trapdoor in the house north of the Edgeville bank) or the peninsula west of the Crafting Guild."
+  ],
+  "mechanics": [
+    "Hobgoblins attack with melee for up to 3 damage at a 4-tick speed (the armed form uses stab at 6 ticks).",
+    "They have 29 Hitpoints and Defence 24, with all defensive bonuses +0 - no style is favoured and there is no elemental weakness.",
+    "Both the level-28 unarmed and level-42 armed hobgoblins count toward the task."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Attack Hobgoblins with your best melee weapon; with all defensive bonuses at +0, any melee style is equally accurate.",
+      "recommendedFor": [
+        "all Hobgoblin tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon (Dragon scimitar or better)",
+        "Slayer helmet",
+        "A little food"
+      ],
+      "steps": [
+        "Travel to the Edgeville Dungeon or the peninsula west of the Crafting Guild.",
+        "Attack Hobgoblins with a melee weapon; no style is favoured over another.",
+        "Eat as needed; they hit up to 3 with melee."
+      ]
+    },
+    {
+      "methodId": "low-level-training",
+      "label": "Low-level training",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use the dense Edgeville Dungeon hobgoblins as low-level combat and Slayer training since no Slayer level is required.",
+      "recommendedFor": [
+        "low-combat accounts",
+        "early Mazchna tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Food",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Bring food and clear Hobgoblins for combat and Slayer XP.",
+        "Both unarmed level-28 and armed level-42 forms count.",
+        "Complete the 30-50 assignment before returning to Mazchna."
+      ]
+    }
+  ],
+  "body": "# Hobgoblin\n\nHobgoblins are a low-level Slayer task assigned by Mazchna (and, on the live wiki, Vannaka), found in the Edgeville Dungeon and on the peninsula west of the Crafting Guild. They have 29 Hitpoints and Defence 24 with all defensive bonuses +0, so any melee style is equally accurate - use your best melee weapon and a Slayer helmet. They hit up to 3 with melee, so minimal food is needed. Both the level-28 unarmed and level-42 armed forms count for the task."
+}

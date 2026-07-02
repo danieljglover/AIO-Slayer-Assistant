@@ -1,0 +1,11 @@
+{
+  "locationId": "lunar-isle-north-suqah",
+  "name": "North Lunar Isle",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 16 Suqah north of Lunar Isle. This is the dense cannon and Ranged safespot area; northern Suqah use melee plus weak Ice Barrage and Water Wave, so Protect from Magic and high Melee defence are recommended."
+}

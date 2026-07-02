@@ -1,0 +1,151 @@
+{
+  "taskId": "scorpions",
+  "name": "Scorpions",
+  "wikiPageId": null,
+  "combatLevel": 14,
+  "slayerTargetId": 270,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      65,
+      100
+    ],
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6,
+    "turael": 7,
+    "spria": 7,
+    "mazchna": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "scorpions"
+  ],
+  "variantIds": [
+    "scorpion-wilderness",
+    "scorpion",
+    "king-scorpion"
+  ],
+  "defaultVariantId": "scorpion-wilderness",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": -53,
+    "slash": -53,
+    "crush": -53,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "scorpions-wilderness",
+    "scorpions-area"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "scorpion-wilderness",
+      "name": "Scorpion",
+      "combatLevel": 14,
+      "slayerXp": 17.0,
+      "locations": [
+        "Wilderness (e.g. near the Bandit Camp / south-east Wildy)"
+      ],
+      "notes": [
+        "NPC ids 3024, 13001 (level 14); very low defence (-53 melee bonuses).",
+        "Attacks with stab melee; 25% weakness to fire spells.",
+        "Wilderness scorpions count for Krystilia's task."
+      ]
+    },
+    {
+      "variantId": "scorpion",
+      "name": "Scorpion",
+      "combatLevel": 14,
+      "slayerXp": 17.0,
+      "locations": [
+        "Al Kharid mine",
+        "Dwarven Mine",
+        "Karamja"
+      ],
+      "notes": [
+        "Same level 14 scorpion found in non-Wilderness areas for the starter masters.",
+        "Counts for Turael/Spria/Mazchna Scorpions tasks but not Krystilia."
+      ]
+    },
+    {
+      "variantId": "king-scorpion",
+      "name": "King scorpion",
+      "combatLevel": 32,
+      "slayerXp": 30.0,
+      "locations": [
+        "Asgarnian Ice Dungeon",
+        "Keldagrim (scorpion mine)"
+      ],
+      "notes": [
+        "NPC id 3027 (level 32); 30 Hitpoints, Defence 23, max hit 4.",
+        "Stab melee; 20% weakness to fire spells (June 2025). Counts for a Scorpions task."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "scorpions-wilderness",
+      "name": "Wilderness scorpions",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Wilderness scorpion spawns for Krystilia; multi/cannon status not wiki-stated (conservative false).",
+        "Bring risk-appropriate gear and an escape teleport."
+      ]
+    },
+    {
+      "locationId": "scorpions-area",
+      "name": "Non-Wilderness scorpions",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Al Kharid mine and the Dwarven Mine hold scorpions for the starter masters.",
+        "Multi and cannon status not wiki-stated (conservative false)."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 270 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Scorpions is not wiki-published; QA live-verify.",
+    "SHARED family: Krystilia (Wilderness, 65-100) plus Turael/Spria (15-30) and Mazchna (30-50) starter masters all assign scorpions.",
+    "Scorpions have very low defence and a 25% fire weakness; any melee weapon clears them instantly.",
+    "King scorpions (level 32) also count and have a 20% fire weakness.",
+    "Krystilia's task counts only Wilderness scorpion kills; bring risk-appropriate gear."
+  ],
+  "recommendedMethod": "Scorpions have negligible defence, so any melee weapon (a Dragon scimitar or even cheaper) kills them in one or two hits; fire spells exploit their small fire weakness if training Magic. For Krystilia, kill Wilderness scorpions with risk-appropriate gear and an escape teleport; starter masters can be finished safely at the Al Kharid mine or Dwarven Mine."
+}

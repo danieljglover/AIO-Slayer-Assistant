@@ -1,0 +1,11 @@
+{
+  "locationId": "fremennik-slayer-dungeon-rockslugs",
+  "name": "Fremennik Slayer Dungeon (rockslugs)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Rockslugs (7 spawns) in the Fremennik Slayer Dungeon, reached from Rellekka. A light source is required. Family-tuned copy of the fremennik-slayer-dungeon base file, whose basilisk-specific flags (safeSpot/konarLockable) do not apply to rockslugs. Multi, cannon and safespot status are not wiki-stated and left conservative (false)."
+}

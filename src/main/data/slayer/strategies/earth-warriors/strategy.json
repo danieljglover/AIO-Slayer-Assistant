@@ -1,0 +1,99 @@
+{
+  "strategyId": "earth-warriors",
+  "variantIds": [
+    "earth-warrior-lvl51"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Earth_warrior",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-mace",
+      "sarachnis-cudgel",
+      "inquisitor-s-mace"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Earth warriors' crush defence (+20) is their weakest melee defence, so crush weapons work best; magic defence is +10. A cannon can be used in the single-combat chamber, and a safespot exists for lower-level players. Bring Wilderness risk gear."
+  },
+  "requirements": [
+    "No combat, Slayer or quest requirement; assigned by Krystilia only.",
+    "15 Agility to cross the Edgeville Dungeon monkey bars to reach the chamber.",
+    "Kills must occur in the Wilderness to count."
+  ],
+  "mechanics": [
+    "11 Earth warriors spawn in the north-eastern chamber of the Edgeville Dungeon (Wilderness levels 7-10).",
+    "54 hitpoints; defence level 42; max hit 5 at 4-tick speed.",
+    "Crush is their weakest melee defence (+20).",
+    "Single-combat area; a cannon can be used; a safespot exists in the first chamber."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-crush",
+      "label": "Crush melee",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the Earth warriors with a crush weapon against their weakest defence.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Crush melee weapon",
+        "Wilderness risk gear"
+      ],
+      "steps": [
+        "Cross the Edgeville Dungeon monkey bars (15 Agility) to the north-eastern chamber.",
+        "Fight the Earth warriors with a crush weapon.",
+        "Optionally set up a Dwarf multicannon in the single-combat chamber."
+      ],
+      "notes": [
+        "A safespot exists for lower-level players in the bottom-right corner or top of the first chamber."
+      ]
+    },
+    {
+      "methodId": "cannon-or-safespot",
+      "label": "Cannon or safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Set up a Dwarf multicannon in the single-combat chamber, or safespot with ranged from the first chamber.",
+      "recommendedFor": [
+        "lower-level players",
+        "faster clears with a cannon"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon (optional)",
+        "Ranged weapon for safespotting",
+        "Wilderness risk gear"
+      ],
+      "steps": [
+        "Cross the monkey bars (15 Agility) into the chamber.",
+        "Place a Dwarf multicannon in the single-combat chamber, or take the safespot in the bottom-right corner or top of the first chamber.",
+        "Whittle the 11 spawns down with ranged or the cannon."
+      ],
+      "notes": [
+        "The area is single-combat, so a cannon only tags one target at a time but still speeds kills."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-crush",
+      "label": "Crush melee",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Crush weapons exploit their weakest defence (+20).",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon mace",
+            "Sarachnis cudgel",
+            "Inquisitor's mace"
+          ]
+        }
+      }
+    }
+  ]
+}

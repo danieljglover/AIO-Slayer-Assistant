@@ -1,0 +1,510 @@
+{
+  "strategyId": "fossil-island-wyverns",
+  "variantIds": [
+    "spitting-wyvern",
+    "taloned-wyvern",
+    "long-tailed-wyvern",
+    "ancient-wyvern"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Fossil_Island_wyverns",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "zamorakian-hasta",
+      "abyssal-whip",
+      "abyssal-tentacle"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "sanguinesti-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Use an anti-icy-breath shield: elemental, mind, dragonfire shield, dragonfire ward, or ancient wyvern shield. Spitting Wyverns are fastest for quick clears; avoid Taloned and Ancient Wyverns unless accepting slower kills or targeting better drops."
+  },
+  "requirements": [
+    "66 Slayer to kill Spitting, Taloned, and Long-tailed Wyverns",
+    "82 Slayer to kill Ancient Wyverns",
+    "60 combat to receive the assignment",
+    "Bone Voyage completion",
+    "Elemental Workshop I completion for the basic shield requirement",
+    "Elemental, mind, dragonfire shield, dragonfire ward, or ancient wyvern shield equipped for icy breath reduction",
+    "Fossil Island Wyverns Slayer task for the task-only cave"
+  ],
+  "mechanics": [
+    "Fossil Island wyverns are draconic and dragonbane weapons are effective.",
+    "All variants use icy breath, which can hit extremely hard without the right shield.",
+    "Elemental shield, mind shield, dragonfire shield, dragonfire ward, and ancient wyvern shield reduce icy breath damage.",
+    "Only the ancient wyvern shield prevents the freezing effect from icy breath.",
+    "Anti-dragon shield and antifire potions do not work against Fossil Island wyvern icy breath.",
+    "Protect from Magic only provides half the damage reduction of shield protections.",
+    "Spitting Wyverns use melee, ranged, and icy breath; their ranged attack is weak and can hit multiple times.",
+    "Taloned, Long-tailed, and Ancient Wyverns use typeless magic that ignores protection prayers.",
+    "Long-tailed Wyverns only use their typeless magic attack when the player is out of melee distance.",
+    "Ancient Wyverns have higher stats and better drops than the other variants."
+  ],
+  "methods": [
+    {
+      "methodId": "travel-and-locations",
+      "label": "Travel and locations",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Choose between the regular cave near Museum Camp and the task-only cave in Mushroom Forest.",
+      "recommendedFor": [
+        "All Fossil Island wyvern tasks",
+        "Players with Magic Mushtree access",
+        "Players using task-only cave spawns"
+      ],
+      "requiredOrKeyItems": [
+        "Digsite pendant",
+        "Mounted digsite pendant",
+        "Magic Mushtree",
+        "Fossil Island Wyverns Slayer task"
+      ],
+      "steps": [
+        "Use a Digsite pendant on the House on the Hill strange machine teleport, or use a mounted digsite pendant in a Portal Nexus.",
+        "For the regular cave, run south-east from House on the Hill or use the barge and run east past the bank then south-east.",
+        "For the task-only cave, use the Magic Mushtree near House on the Hill to appear just north of the Mushroom Forest trapdoor.",
+        "Use the regular cave east of Museum Camp for 4 Spitting, 4 Taloned, 4 Long-tailed, and 2 Ancient Wyverns.",
+        "Use the task-only cave for 4 Spitting, 4 Taloned, 4 Long-tailed, and 3 Ancient Wyverns.",
+        "Use the Fossil Storage box by either entrance for fossils."
+      ],
+      "notes": [
+        "Weve stops players from attacking in the task-only area without a Fossil Island Wyverns task."
+      ]
+    },
+    {
+      "methodId": "shield-protection",
+      "label": "Shield protection",
+      "combatStyle": "MELEE",
+      "role": "survival",
+      "summary": "Carry the right shield for icy breath; anti-dragon and antifire protection do not work.",
+      "recommendedFor": [
+        "Every Fossil Island wyvern kill"
+      ],
+      "requiredOrKeyItems": [
+        "Elemental shield",
+        "Mind shield",
+        "Dragonfire shield",
+        "Dragonfire ward",
+        "Ancient wyvern shield"
+      ],
+      "steps": [
+        "Equip an elemental shield, mind shield, dragonfire shield, dragonfire ward, or ancient wyvern shield before attacking.",
+        "Use ancient wyvern shield when possible because it is the only listed shield that prevents freezing from icy breath.",
+        "Do not use Anti-dragon shield for this task; Anti-dragon shield does not reduce Fossil Island wyvern icy breath.",
+        "Do not rely on antifire potions of any type; they do not mitigate icy breath.",
+        "Protect from Magic can help only partially and gives half the damage reduction of the proper shield protections."
+      ],
+      "risks": [
+        "Two-handed special attacks must be timed carefully so the shield is equipped before icy breath.",
+        "Using the wrong shield can result in very high icy breath damage."
+      ]
+    },
+    {
+      "methodId": "spitting-quick-clear",
+      "label": "Spitting Wyvern quick clear",
+      "combatStyle": "RANGED",
+      "role": "fast-clear",
+      "summary": "Kill Spitting Wyverns when the goal is to finish the task quickly.",
+      "recommendedFor": [
+        "Quick task completion",
+        "Players avoiding Taloned and Ancient Wyverns",
+        "Ranged distance setups"
+      ],
+      "requiredOrKeyItems": [
+        "Anti-icy-breath shield",
+        "Dragon hunter crossbow",
+        "Hunters' sunlight crossbow",
+        "Ranged armour"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Eagle Eye",
+        "Rigour"
+      ],
+      "steps": [
+        "Choose Spitting Wyverns because the task page identifies them as best for quick clears.",
+        "Fight from a distance and keep the anti-icy-breath shield equipped.",
+        "Use Protect from Missiles to negate their ranged attack, leaving only icy breath and any melee hits to manage.",
+        "Avoid standing in melee range if using Ranged.",
+        "Use expeditious bracelet swaps before finishing kills if completing the task as quickly as possible."
+      ],
+      "risks": [
+        "Protect from Missiles does not block icy breath.",
+        "The ranged attack is weak but can hit multiple times on a successful hit."
+      ]
+    },
+    {
+      "methodId": "melee-tank",
+      "label": "Melee tank",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Tank wyverns in high ranged-defence gear with dragonbane melee and Protect from Melee.",
+      "recommendedFor": [
+        "Profitable normal kills",
+        "Dragon hunter lance users",
+        "Long-tailed Wyverns at melee distance"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter lance",
+        "Osmumten's fang",
+        "Ghrazi rapier",
+        "Zamorakian hasta",
+        "Abyssal whip",
+        "Barrows armour",
+        "Bandos armour",
+        "Justiciar armour",
+        "Anti-icy-breath shield"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Maximise ranged Defence with Barrows, Bandos, or Justiciar-style armour.",
+        "Use a one-handed melee weapon so an anti-icy-breath shield stays equipped.",
+        "Use Protect from Melee because ranged and icy breath damage can still matter through other prayers.",
+        "Keep Long-tailed Wyverns in melee distance so they do not use their typeless magic attack.",
+        "Use Piety if the additional prayer cost is worthwhile.",
+        "Bring high-level food such as sharks or anglerfish."
+      ],
+      "risks": [
+        "The ranged attack hits through protection prayers.",
+        "Removing the shield for two-handed special attacks can expose the player to icy breath."
+      ]
+    },
+    {
+      "methodId": "prayer-melee",
+      "label": "Prayer melee",
+      "combatStyle": "MELEE",
+      "role": "prayer",
+      "summary": "Use prayer-bonus armour to sustain Protect from Melee and optional boosting prayers.",
+      "recommendedFor": [
+        "Lower supply trips",
+        "Players using Proselyte or Sunfire fanatic",
+        "Players balancing Defence and Prayer bonus"
+      ],
+      "requiredOrKeyItems": [
+        "Sunfire fanatic armour",
+        "Proselyte armour",
+        "Initiate armour",
+        "Verac's equipment",
+        "Prayer potions",
+        "Anti-icy-breath shield"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety",
+        "Preserve"
+      ],
+      "steps": [
+        "Wear prayer-bonus gear such as Sunfire fanatic, Proselyte, or Initiate armour.",
+        "Use Protect from Melee throughout kills.",
+        "Use Piety and optionally Preserve when faster kills justify the prayer cost.",
+        "Use Verac's equipment as a compromise when more Defence is needed with some Prayer bonus.",
+        "Bring at least one prayer potion, and more when using boosting prayers."
+      ],
+      "notes": [
+        "Wyvern bones can help pay for prayer potion use."
+      ]
+    },
+    {
+      "methodId": "magic-powered-staves",
+      "label": "Magic powered staves",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use Magic if high Magic and upkeep budget make powered staves worthwhile.",
+      "recommendedFor": [
+        "High Magic accounts",
+        "Players using powered staves",
+        "Players using air weakness"
+      ],
+      "requiredOrKeyItems": [
+        "Eye of ayak",
+        "Dragon hunter wand",
+        "Sanguinesti staff",
+        "Trident of the swamp",
+        "Trident of the seas",
+        "Twinflame staff",
+        "Anti-icy-breath shield",
+        "Rune pouch",
+        "Book of the dead"
+      ],
+      "prayers": [
+        "Mystic Might",
+        "Augury"
+      ],
+      "steps": [
+        "Use Magic only if the upkeep cost is acceptable.",
+        "Stand several spaces away from the wyvern to avoid melee damage.",
+        "Use Mystic Might or Augury to speed up kills.",
+        "Use Eye of ayak or Dragon hunter wand with wind spells where appropriate.",
+        "Carry rune pouch support for thralls or Wind Surge plus High Level Alchemy."
+      ],
+      "risks": [
+        "Melee is usually more profitable than Magic.",
+        "Standing at distance can trigger typeless attacks from Taloned, Long-tailed, and Ancient Wyverns."
+      ]
+    },
+    {
+      "methodId": "ranged-distance",
+      "label": "Ranged distance",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use Ranged at distance, especially against Spitting Wyverns, while managing shield penalties.",
+      "recommendedFor": [
+        "Dragon hunter crossbow users",
+        "Spitting Wyvern quick clears",
+        "Players accepting slower kills"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter crossbow",
+        "Hunters' sunlight crossbow",
+        "Zaryte crossbow",
+        "Dragon crossbow",
+        "Rune crossbow",
+        "Dragonfire ward",
+        "Mind shield",
+        "Elemental shield"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Eagle Eye",
+        "Rigour"
+      ],
+      "steps": [
+        "Use Ranged if slower but safer distance kills are acceptable.",
+        "Keep several spaces away from the wyvern to avoid melee damage.",
+        "Use Protect from Missiles specifically when killing Spitting Wyverns.",
+        "Account for the negative ranged bonuses on ancient wyvern shield and dragonfire shield.",
+        "Use dragonbane ranged weapons where available."
+      ],
+      "risks": [
+        "Ranged kills are slower than melee in many setups.",
+        "Distance fighting can trigger typeless attacks from non-Spitting variants."
+      ]
+    },
+    {
+      "methodId": "ancient-wyverns",
+      "label": "Ancient Wyverns",
+      "combatStyle": "MELEE",
+      "role": "high-level",
+      "summary": "Kill Ancient Wyverns only when 82 Slayer and slower, harder kills are acceptable for better drops.",
+      "recommendedFor": [
+        "82+ Slayer players",
+        "Players targeting Ancient Wyvern drops",
+        "High-stat melee tank setups"
+      ],
+      "requiredOrKeyItems": [
+        "82 Slayer",
+        "Anti-icy-breath shield",
+        "High ranged-defence armour",
+        "Dragon hunter lance",
+        "Food"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Only choose Ancient Wyverns if the player has 82 Slayer or accepts boosted wild-pie kills from 77 Slayer.",
+        "Use high defensive armour because Ancient Wyverns have higher Attack, Defence, and Hitpoints.",
+        "Fight in melee range with Protect from Melee when using Ranged after de-aggroing.",
+        "Use tolerance-zone setup to remove aggression if needed.",
+        "Expect better drops but slower kills than lower-level Fossil Island wyverns."
+      ],
+      "risks": [
+        "Ancient Wyverns are much stronger than other Fossil Island wyverns.",
+        "Boosted kills below 82 Slayer are extremely long."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Bring shield, sustain, storage items, and optional alchemy or thrall support.",
+      "recommendedFor": [
+        "Every Fossil Island wyvern task",
+        "Ancient Wyvern trips",
+        "Long task-only cave trips"
+      ],
+      "requiredOrKeyItems": [
+        "Anti-icy-breath shield",
+        "Divine super combat potion",
+        "Divine ranging potion",
+        "Imbued heart",
+        "Prayer potions",
+        "Food",
+        "Herb sack",
+        "Seed box",
+        "Rune pouch",
+        "Bonecrusher"
+      ],
+      "inventory": [
+        "Anti-icy-breath shield: elemental, mind, dragonfire shield, dragonfire ward, or ancient wyvern shield",
+        "1 divine super combat potion, divine ranging potion, or imbued heart depending on style",
+        "3-4 Prayer potions",
+        "Emergency teleport",
+        "Sharks, anglerfish, or better food",
+        "Herb sack, especially for Ancient Wyverns",
+        "Seed box",
+        "Rune pouch",
+        "Bonecrusher if not selling wyvern bones",
+        "Book of the dead and thrall runes for Magic setups"
+      ],
+      "steps": [
+        "Keep the shield equipped before each icy breath attack.",
+        "Use expeditious bracelet swaps before finishing kills when trying to complete the task quickly.",
+        "Store fossils in the Fossil Storage box by the cave entrance.",
+        "Use High Level Alchemy runes where carrying alchable drops is useful."
+      ],
+      "notes": [
+        "The task page lists Herb sack, Seed box, Rune pouch, and Bonecrusher as optional inventory support."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-tank",
+      "label": "Melee tank",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use dragonbane melee, high ranged Defence, and Protect from Melee while keeping an anti-icy-breath shield equipped.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter lance",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Zamorakian hasta",
+            "Abyssal whip"
+          ],
+          "shield": [
+            "Ancient wyvern shield",
+            "Dragonfire shield",
+            "Mind shield",
+            "Elemental shield"
+          ],
+          "body": [
+            "Barrows armour",
+            "Bandos armour",
+            "Justiciar armour"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "prayer-melee",
+      "label": "Prayer melee",
+      "combatStyle": "MELEE",
+      "role": "prayer",
+      "summary": "Use prayer-bonus armour for sustained Protect from Melee and optional Piety.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Osmumten's fang",
+            "Dragon hunter lance",
+            "Ghrazi rapier",
+            "Zamorakian hasta",
+            "Abyssal tentacle"
+          ],
+          "body": [
+            "Sunfire fanatic armour",
+            "Proselyte armour",
+            "Initiate armour",
+            "Verac's equipment"
+          ],
+          "shield": [
+            "Dragonfire shield",
+            "Ancient wyvern shield",
+            "Mind shield",
+            "Elemental shield"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-powered-staves",
+      "label": "Magic powered staves",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use powered staves or dragonbane magic if the upkeep cost is acceptable.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Dragon hunter wand",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Twinflame staff"
+          ],
+          "shield": [
+            "Ancient wyvern shield",
+            "Mind shield",
+            "Elemental shield",
+            "Dragonfire shield"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-distance",
+      "label": "Ranged distance",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use dragonbane ranged or crossbows from distance, especially for Spitting Wyverns.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter crossbow",
+            "Hunters' sunlight crossbow",
+            "Zaryte crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "shield": [
+            "Dragonfire ward",
+            "Mind shield",
+            "Elemental shield",
+            "Dragonfire shield",
+            "Ancient wyvern shield"
+          ]
+        }
+      }
+    }
+  ]
+}

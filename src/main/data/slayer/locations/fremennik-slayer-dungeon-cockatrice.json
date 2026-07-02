@@ -1,0 +1,11 @@
+{
+  "locationId": "fremennik-slayer-dungeon-cockatrice",
+  "name": "Fremennik Slayer Dungeon (Cockatrice)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Cockatrice section of the Fremennik Slayer Dungeon, entered from Rellekka (7 spawns). A mirror shield or V's shield must be equipped to avoid the petrifying gaze. Cannon usability here is not wiki-confirmed (conservative default: off)."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "dark-warriors-fortress",
+  "name": "Dark Warriors' Fortress",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "The Dark Warriors' Fortress sits in the low-level Wilderness north-west of Edgeville; level 8 Dark warriors roam its corridors. Multicombat, cannon placement and safespots are not definitively wiki-stated, so conservative defaults are used. This is a PvP zone; bring risk-appropriate gear."
+}

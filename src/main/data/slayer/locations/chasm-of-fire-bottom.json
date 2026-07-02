@@ -1,0 +1,11 @@
+{
+  "locationId": "chasm-of-fire-bottom",
+  "name": "Chasm of Fire (Bottom level)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Bottom level Black demon area with stalagmite safespots and another safespot near the Voice of Yama; Yama contracts are available after A Kingdom Divided and signing with Yama."
+}

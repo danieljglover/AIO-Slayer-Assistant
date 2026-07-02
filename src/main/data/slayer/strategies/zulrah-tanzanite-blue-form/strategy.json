@@ -1,0 +1,195 @@
+{
+  "strategyId": "zulrah-tanzanite-blue-form",
+  "variantIds": [
+    "zulrah-tanzanite-blue-form"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Zulrah/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "twisted-bow",
+      "toxic-blowpipe",
+      "bow-of-faerdhinen",
+      "hunters-sunlight-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Tanzanite (blue) form is weak to ranged; magic is near-useless on it. Use ranged here even in an otherwise magic-led trip."
+  },
+  "requirements": [
+    "Access to Zulrah Tanzanite Blue Form's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Tanzanite (blue) form is weak to ranged; magic is near-useless on it. Use ranged here even in an otherwise magic-led trip.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Tanzanite (blue) form is weak to ranged; magic is near-useless on it. Use ranged here even in an otherwise magic-led trip.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "twisted-bow",
+        "toxic-blowpipe",
+        "bow-of-faerdhinen",
+        "hunters-sunlight-crossbow",
+        "tumeken-s-shadow"
+      ],
+      "steps": [
+        "Tanzanite (blue) form is weak to ranged; magic is near-useless on it. Use ranged here even in an otherwise magic-led trip.",
+        "Use ranged on blue form and keep Protect from Magic active while learning."
+      ]
+    },
+    {
+      "methodId": "blue-ranged",
+      "label": "Blue form ranged",
+      "combatStyle": "RANGED",
+      "role": "form",
+      "summary": "Use ranged against tanzanite form because it is weak to ranged and magic performs poorly.",
+      "recommendedFor": [
+        "blue Zulrah phases",
+        "hybrid magic and ranged kills",
+        "ranged-only kills with strong bows"
+      ],
+      "requiredOrKeyItems": [
+        "Twisted bow",
+        "Toxic blowpipe",
+        "Bow of faerdhinen",
+        "Hunter's sunlight crossbow",
+        "Ranging potion"
+      ],
+      "prayers": [
+        "Protect from Magic when learning",
+        "Eagle Eye or Rigour"
+      ],
+      "steps": [
+        "Switch to ranged gear when Zulrah surfaces in tanzanite form.",
+        "Use Twisted bow, Toxic blowpipe, Bow of faerdhinen, or another strong ranged weapon.",
+        "Keep Protect from Magic active while learning because blue form uses magic more often than ranged.",
+        "Do not rely on ordinary magic damage against this form."
+      ],
+      "risks": [
+        "Tanzanite form can use both magic and ranged attacks.",
+        "Its ranged hits can punish players camping Protect from Magic."
+      ],
+      "notes": [
+        "Magic is near-useless on tanzanite form except for unusual high-end setups already accounted for by the broader strategy.",
+        "Twisted bow and Bow of faerdhinen are strong enough to reduce switches in some setups."
+      ]
+    },
+    {
+      "methodId": "hide-or-tank-blue-phase",
+      "label": "Hide or tank blue phase",
+      "combatStyle": "RANGED",
+      "role": "defensive",
+      "summary": "Either tank blue phases with Protect from Magic and food or hide behind pillars during slower learning or magic-only kills.",
+      "recommendedFor": [
+        "learners",
+        "magic-only diary kills",
+        "low-supply rotations"
+      ],
+      "requiredOrKeyItems": [
+        "Food",
+        "Prayer potion",
+        "Extended anti-venom+",
+        "Pillar safespot knowledge"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "If using ranged, attack through the blue phase while praying Protect from Magic and eating as needed.",
+        "If using magic-only or learning, hide behind a pillar for dangerous tanzanite phases to reduce damage.",
+        "Use the downtime while hidden to kill snakelings or heal.",
+        "Reposition before the next phase according to the active rotation."
+      ],
+      "risks": [
+        "Hiding lowers damage output and can extend the rotation.",
+        "Late movement through venom clouds can cost more health than tanking a small amount of damage."
+      ],
+      "notes": [
+        "The Wiki suggests hiding from tanzanite phases for slower magic-only diary kills.",
+        "Protect from Magic is the default learner prayer because tanzanite uses magic more frequently."
+      ]
+    },
+    {
+      "methodId": "venom-and-snakelings",
+      "label": "Venom and snakelings",
+      "combatStyle": "RANGED",
+      "role": "hazards",
+      "summary": "Manage venom cloud and snakeling spawns while prioritising Zulrah's high-damage attacks.",
+      "recommendedFor": [
+        "all Zulrah rotations",
+        "blue phases with snakeling pressure"
+      ],
+      "requiredOrKeyItems": [
+        "Serpentine helm",
+        "Extended anti-venom+",
+        "Ring of suffering (ri)",
+        "Food"
+      ],
+      "steps": [
+        "Move out of venom cloud 3x3 areas before repeated damage starts.",
+        "Run through a cloud only when it prevents more dangerous positioning or Zulrah damage.",
+        "Let recoil effects or incidental attacks clear snakelings where possible.",
+        "Kill snakelings during hide phases if they are accumulating.",
+        "Keep protection prayer focused on Zulrah rather than trying to flick every snakeling."
+      ],
+      "risks": [
+        "Snakeling chip damage can combine with blue-form ranged hits.",
+        "Venom clouds can block intended rotation movement."
+      ],
+      "notes": [
+        "Venom clouds deal venom-type damage but do not envenom the player.",
+        "Some snakelings spawn only after Zulrah dives and resurfaces."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Zulrah Tanzanite Blue Form setup using Twisted bow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twisted bow",
+            "Toxic blowpipe",
+            "Bow of faerdhinen",
+            "Hunters' sunlight crossbow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-secondary",
+      "label": "Magic alternative",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Alternative magic option for Zulrah Tanzanite Blue Form when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Zulrah - tanzanite (blue) form\n\nTanzanite (blue) form is weak to ranged; magic is near-useless on it. Use ranged here even in an otherwise magic-led trip."
+}

@@ -1,0 +1,800 @@
+{
+ "Abyssal demons": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 135,
+   "stab": 20,
+   "slash": 20,
+   "crush": 20,
+   "magic": 0,
+   "range": 20
+  },
+  "flags": {
+   "demon": true,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Smoke devils": {
+  "preservedStyle": "MAGIC",
+  "currentElement": "air",
+  "monsterDefence": {
+   "defenceLevel": 80,
+   "stab": 0,
+   "slash": 0,
+   "crush": 0,
+   "magic": 0,
+   "range": 0
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Aberrant spectres": {
+  "preservedStyle": "MAGIC",
+  "currentElement": "air",
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 30,
+   "range": 30
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": true
+  },
+  "slayerHelmApplies": true
+ },
+ "Ankou": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 25,
+   "stab": 15,
+   "slash": 15,
+   "crush": 15,
+   "magic": 20,
+   "range": 15
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": true
+  },
+  "slayerHelmApplies": true
+ },
+ "Aquanites": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 40,
+   "slash": 40,
+   "crush": 20,
+   "magic": 40,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Araxytes": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 200,
+   "stab": 60,
+   "slash": 60,
+   "crush": 60,
+   "magic": 100,
+   "range": 60
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Aviansie": {
+  "preservedStyle": "RANGED",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 40,
+   "range": 30
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Basilisks": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 40,
+   "stab": 20,
+   "slash": 20,
+   "crush": 20,
+   "magic": 20,
+   "range": 20
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Black demons": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 40,
+   "range": 30
+  },
+  "flags": {
+   "demon": true,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Black dragons": {
+  "preservedStyle": "RANGED",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 80,
+   "stab": 40,
+   "slash": 40,
+   "crush": 40,
+   "magic": 60,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": true,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Bloodveld": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 25,
+   "stab": 15,
+   "slash": 15,
+   "crush": 15,
+   "magic": 20,
+   "range": 15
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Blue dragons": {
+  "preservedStyle": "RANGED",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 50,
+   "range": 30
+  },
+  "flags": {
+   "demon": false,
+   "dragon": true,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Boss": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 150,
+   "stab": 50,
+   "slash": 50,
+   "crush": 50,
+   "magic": 60,
+   "range": 50
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Cave horrors": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 25,
+   "slash": 25,
+   "crush": 25,
+   "magic": 30,
+   "range": 25
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Cave kraken": {
+  "preservedStyle": "MAGIC",
+  "currentElement": "air",
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 0,
+   "slash": 0,
+   "crush": 0,
+   "magic": 0,
+   "range": 0
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Dagannoth": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 20,
+   "slash": 20,
+   "crush": 20,
+   "magic": 30,
+   "range": 20
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Dark beasts": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 100,
+   "stab": 50,
+   "slash": 50,
+   "crush": 50,
+   "magic": 60,
+   "range": 50
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Drakes": {
+  "preservedStyle": "RANGED",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 130,
+   "stab": 50,
+   "slash": 50,
+   "crush": 50,
+   "magic": 60,
+   "range": 50
+  },
+  "flags": {
+   "demon": false,
+   "dragon": true,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Dust devils": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 20,
+   "slash": 20,
+   "crush": 20,
+   "magic": 30,
+   "range": 20
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Elves": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 30,
+   "range": 30
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Fire giants": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 65,
+   "stab": 25,
+   "slash": 25,
+   "crush": 25,
+   "magic": 30,
+   "range": 25
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Fossil Island wyverns": {
+  "preservedStyle": "RANGED",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 100,
+   "stab": 40,
+   "slash": 40,
+   "crush": 40,
+   "magic": 50,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": true,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Gargoyles": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 80,
+   "stab": 40,
+   "slash": 40,
+   "crush": 20,
+   "magic": 100,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Greater demons": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 40,
+   "range": 30
+  },
+  "flags": {
+   "demon": true,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Gryphons": {
+  "preservedStyle": "RANGED",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 80,
+   "stab": 40,
+   "slash": 40,
+   "crush": 40,
+   "magic": 40,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Hellhounds": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 20,
+   "slash": 20,
+   "crush": 20,
+   "magic": 50,
+   "range": 20
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Kalphite": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 50,
+   "stab": 20,
+   "slash": 20,
+   "crush": 20,
+   "magic": 25,
+   "range": 20
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": true,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Kurask": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 40,
+   "range": 30
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Lizardmen": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 50,
+   "stab": 20,
+   "slash": 20,
+   "crush": 20,
+   "magic": 25,
+   "range": 20
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Metal dragons": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 100,
+   "stab": 50,
+   "slash": 50,
+   "crush": 50,
+   "magic": 60,
+   "range": 50
+  },
+  "flags": {
+   "demon": false,
+   "dragon": true,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Mutated zygomites": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 25,
+   "slash": 25,
+   "crush": 25,
+   "magic": 30,
+   "range": 25
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Nechryael": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 100,
+   "stab": 40,
+   "slash": 40,
+   "crush": 40,
+   "magic": 50,
+   "range": 40
+  },
+  "flags": {
+   "demon": true,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Red dragons": {
+  "preservedStyle": "RANGED",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 80,
+   "stab": 40,
+   "slash": 40,
+   "crush": 40,
+   "magic": 50,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": true,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Skeletal wyverns": {
+  "preservedStyle": "RANGED",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 40,
+   "slash": 40,
+   "crush": 30,
+   "magic": 50,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": true,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Spiritual creatures": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 80,
+   "stab": 35,
+   "slash": 35,
+   "crush": 35,
+   "magic": 40,
+   "range": 35
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Suqahs": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 40,
+   "range": 30
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Trolls": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 25,
+   "slash": 25,
+   "crush": 25,
+   "magic": 30,
+   "range": 25
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "TzHaar": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 80,
+   "stab": 40,
+   "slash": 40,
+   "crush": 40,
+   "magic": 40,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Vampyres": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 100,
+   "stab": 40,
+   "slash": 40,
+   "crush": 40,
+   "magic": 50,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Warped creatures": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 90,
+   "stab": 40,
+   "slash": 40,
+   "crush": 40,
+   "magic": 40,
+   "range": 40
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Waterfiends": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 70,
+   "stab": 50,
+   "slash": 50,
+   "crush": 10,
+   "magic": 40,
+   "range": 50
+  },
+  "flags": {
+   "demon": false,
+   "dragon": false,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ },
+ "Wyrms": {
+  "preservedStyle": "MELEE",
+  "currentElement": null,
+  "monsterDefence": {
+   "defenceLevel": 60,
+   "stab": 30,
+   "slash": 30,
+   "crush": 30,
+   "magic": 40,
+   "range": 30
+  },
+  "flags": {
+   "demon": false,
+   "dragon": true,
+   "kalphite": false,
+   "undead": false
+  },
+  "slayerHelmApplies": true
+ }
+}

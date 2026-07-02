@@ -1,0 +1,118 @@
+{
+  "taskId": "crawling-hands",
+  "name": "Crawling Hands",
+  "wikiPageId": 11874,
+  "combatLevel": null,
+  "slayerTargetId": 285,
+  "slayerLevel": 5,
+  "questReqs": [
+    "Priest in Peril"
+  ],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "turael": 8,
+    "spria": 8,
+    "mazchna": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "crawling-hands"
+  ],
+  "variantIds": [
+    "crawling-hand-lvl8",
+    "crawling-hand-lvl12"
+  ],
+  "defaultVariantId": "crawling-hand-lvl8",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 3,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "slayer-tower"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "crawling-hand-lvl8",
+      "name": "Crawling Hand",
+      "combatLevel": 8,
+      "slayerXp": 12,
+      "locations": [
+        "Slayer Tower (ground floor)"
+      ],
+      "notes": [
+        "Requires 5 Slayer to harm and Priest in Peril to enter the Slayer Tower.",
+        "Max hit 1 and 15 Hitpoints; a very safe low-level starter task."
+      ]
+    },
+    {
+      "variantId": "crawling-hand-lvl12",
+      "name": "Crawling Hand",
+      "combatLevel": 12,
+      "slayerXp": 12,
+      "locations": [
+        "Slayer Tower (ground floor)"
+      ],
+      "notes": [
+        "Higher-level Crawling Hand spawn on the Slayer Tower ground floor; same 15 Hitpoints and max hit 1.",
+        "Undead: the salve amulet and Crumble Undead both apply."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "slayer-tower",
+      "name": "Slayer Tower (ground floor)",
+      "amount": 24,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "24 Crawling Hand spawns of levels 8 and 12 on the ground floor.",
+        "Cannon placement is not wiki-stated for this room, so the conservative default is used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Crawling Hands require 5 Slayer and Priest in Peril (for Slayer Tower access) to be assigned by Turael, Spria, or Mazchna.",
+    "slayerTargetId 285 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "All Crawling Hand variants share 15 Hitpoints, max hit 1 (crush), 4-tick attack speed, and Defence level 3.",
+    "Crawling Hands are undead: the salve amulet and Crumble Undead both apply.",
+    "They have no elemental weakness; any melee weapon clears them trivially.",
+    "No required protective item and no task extension unlock exist for Crawling Hands."
+  ],
+  "recommendedMethod": "A trivial starter task: kill the ground-floor Crawling Hands with any melee weapon. They have max hit 1 and 15 Hitpoints, so no protection prayers or special gear are needed; a salve amulet gives a small undead damage bonus."
+}

@@ -1,0 +1,7 @@
+{
+  "rewardId": "like-a-boss",
+  "name": "Like a Boss",
+  "pointsCost": 200,
+  "effect": "TASK_UNLOCK",
+  "notes": "Boss monsters can be assigned as slayer tasks by Konar, Nieve/Steve, Duradel and Krystilia."
+}

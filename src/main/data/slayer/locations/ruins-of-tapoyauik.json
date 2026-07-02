@@ -1,0 +1,11 @@
+{
+  "locationId": "ruins-of-tapoyauik",
+  "name": "Ruins of Tapoyauik",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires The Heart of Darkness. Contains 7 adult Blue dragons, 7 baby Blue dragons, and 5 Brutal blue dragons; charged Pendant of ates gives very fast access, and nearby moonlight moths can provide prayer."
+}

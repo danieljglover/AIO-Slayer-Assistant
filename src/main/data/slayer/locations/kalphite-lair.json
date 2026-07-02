@@ -1,0 +1,11 @@
+{
+  "locationId": "kalphite-lair",
+  "name": "Kalphite Lair",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 13 Workers, 7 Soldiers, 4 Guardians, and 1 Queen. A rope is required to access the lair unless the Hard Desert Diary has made the entrance permanent; a second rope is needed for the Queen's lair."
+}

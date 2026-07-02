@@ -1,0 +1,29 @@
+{
+  "variantId": "flockleader-geerin",
+  "name": "Flockleader Geerin",
+  "npcIds": [
+    3164
+  ],
+  "combatLevel": 149,
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 175,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "GWD - Armadyl boss room",
+  "requirement": "boss room (separate trip); counts toward aviansie task",
+  "bossId": null,
+  "strategyId": "flockleader-geerin"
+}

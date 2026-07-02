@@ -1,0 +1,29 @@
+{
+  "variantId": "tzhaar-ket-level-221",
+  "name": "TzHaar-Ket (Level 221)",
+  "npcIds": [
+    7679
+  ],
+  "combatLevel": 221,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 190,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mor Ul Rek inner area",
+  "requirement": "show a fire cape to enter inner area",
+  "bossId": null,
+  "strategyId": "tzhaar"
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "jormungand-s-prison-dagannoth",
+  "name": "Jormungand's Prison",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires The Fremennik Exiles. The Dagannoth section is multicombat, cannonable, safespottable, and contains melee-only Dagannoth for straightforward Protect from Melee tasks."
+}

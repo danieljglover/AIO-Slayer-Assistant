@@ -1,0 +1,11 @@
+{
+  "locationId": "lava-dragon-isle",
+  "name": "Lava Dragon Isle",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Lava Dragon Isle in the deep Wilderness (around levels 36-42), reached across the lava in the north-east Wilderness. A well-known player-killing hotspot; multi and cannon status are not wiki-stated, so treated conservatively as false. Bring only low-risk gear and a one-click escape teleport."
+}

@@ -1,0 +1,106 @@
+{
+  "taskId": "bandits",
+  "name": "Bandits",
+  "wikiPageId": 20203,
+  "combatLevel": null,
+  "slayerTargetId": 252,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 4
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "bandits"
+  ],
+  "variantIds": [
+    "bandit-lvl22",
+    "bandit-lvl130"
+  ],
+  "defaultVariantId": "bandit-lvl130",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 55,
+    "stab": 0,
+    "slash": 2,
+    "crush": 2,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "bandit-camp-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "bandit-lvl22",
+      "name": "Bandit",
+      "combatLevel": 22,
+      "slayerXp": 29,
+      "locations": [
+        "Bandit Camp (Wilderness)"
+      ],
+      "notes": [
+        "Level 22 Wilderness bandit at the Bandit Camp east of the Ruins; 27 hitpoints, negligible defensive bonuses.",
+        "Aggressive to all players regardless of combat level."
+      ]
+    },
+    {
+      "variantId": "bandit-lvl130",
+      "name": "Bandit",
+      "combatLevel": 130,
+      "slayerXp": 159,
+      "locations": [
+        "Bandit Camp (Wilderness)",
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Level 130 Wilderness bandit; 155 hitpoints, defence level 55 with negligible defensive bonuses.",
+        "Drops Larran's keys and Slayer's enchantments while on a Krystilia task; also has a single spawn in the Wilderness Slayer Cave."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "bandit-camp-wilderness",
+      "name": "Bandit Camp (Wilderness)",
+      "amount": 23,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "The Bandit Camp east of the Ruins holds both the level 22 and level 130 bandits.",
+        "Bandits are aggressive; approach with caution.",
+        "Multicombat, cannon placement and safespots are not wiki-stated for this camp; conservative defaults are used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Bandits are assigned only by Krystilia and must be killed in the Wilderness to count; there is no combat, Slayer or quest requirement.",
+    "slayerTargetId 252 is SYNTHETIC (C2/C3 allocation contract: 252 + worklist index); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "This task refers to the Wilderness Bandit Camp bandits (level 22 and level 130) east of the Ruins, NOT the Kharidian Desert or Pollnivneach bandits, which do not count.",
+    "The bandits are aggressive to all players; take caution when approaching the camp.",
+    "Their defensive bonuses are negligible, so any accurate melee weapon works well; magic and ranged are also viable given zero magic/ranged defence.",
+    "No task extension unlock exists for Bandits."
+  ],
+  "recommendedMethod": "Kill the aggressive Wilderness Bandit Camp bandits (level 22 and level 130) with any accurate melee weapon; their defensive bonuses are negligible. Bring Wilderness-appropriate risk gear as the camp is deep in a PvP zone."
+}

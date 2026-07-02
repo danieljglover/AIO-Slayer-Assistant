@@ -1,0 +1,42 @@
+{
+  "variantId": "desert-lizard",
+  "name": "Desert Lizard",
+  "npcIds": [
+    459,
+    12003,
+    460,
+    461
+  ],
+  "combatLevel": 24,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 20,
+    "stab": 5,
+    "slash": 15,
+    "crush": 15,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Kharidian Desert",
+  "requirement": "Slayer 22; an ice cooler to finish each lizard below 5 Hitpoints",
+  "bossId": null,
+  "strategyId": "lizards",
+  "offence": {
+    "hitpoints": 25,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

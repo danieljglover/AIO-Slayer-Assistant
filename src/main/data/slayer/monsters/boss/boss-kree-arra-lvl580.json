@@ -1,0 +1,29 @@
+{
+  "variantId": "boss-kree-arra",
+  "name": "Kree'arra",
+  "npcIds": [
+    3162
+  ],
+  "combatLevel": 580,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 260,
+    "stab": 180,
+    "slash": 180,
+    "crush": 180,
+    "magic": 200,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "God Wars Dungeon - Armadyl's Eyrie (flying; ranged/magic in practice) (40 Armadyl KC + GWD access)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "kree-arra"
+}

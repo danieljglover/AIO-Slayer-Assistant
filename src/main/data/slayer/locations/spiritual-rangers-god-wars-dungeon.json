@@ -1,0 +1,11 @@
+{
+  "locationId": "spiritual-rangers-god-wars-dungeon",
+  "name": "God Wars Dungeon - Spiritual rangers",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Main God Wars Dungeon Spiritual rangers; multicombat and safespottable but not cannonable. Requires Death Plateau and 60 Strength or 60 Agility for assignment, plus god-affiliated protection items (Zamorak and usually Saradomin) for follower tolerance."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "zanaris-furnace-zygomites",
+  "name": "Zanaris east of the furnace",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 5 level 74 and 86 Zygomites east of the Zanaris furnace. Requires Lost City access, 57 Slayer, and Fungicide spray to finish kills."
+}

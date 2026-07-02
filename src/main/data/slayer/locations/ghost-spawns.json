@@ -1,0 +1,11 @@
+{
+  "locationId": "ghost-spawns",
+  "name": "Ghost spawns (various)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Level-19 Ghosts are common at low-level spots such as the Draynor Manor basement, the Wilderness graveyards, and the Haunted Woods; higher-level Ghosts (levels 25 and 76/77) appear in the Sepulchre of Death within the Stronghold of Security. Some ghost spawns are inside the Wilderness, but a non-Wilderness spot (e.g. Draynor Manor basement) is the safe default. Multi, cannon and safespot availability vary by spot and are not wiki-confirmed for a single canonical location (conservative defaults)."
+}

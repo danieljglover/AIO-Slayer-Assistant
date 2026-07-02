@@ -1,0 +1,173 @@
+{
+  "strategyId": "general-graardor",
+  "variantIds": [
+    "general-graardor"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/General_Graardor/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "osmumten-s-fang",
+      "inquisitor-s-mace",
+      "ghrazi-rapier",
+      "blade-of-saeldor",
+      "abyssal-tentacle",
+      "zamorakian-hasta"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Melee solo is generally not recommended vs magic/ranged kiting; if meleeing, Osmumten's fang is strongly recommended."
+  },
+  "requirements": [
+    "Access to General Graardor's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Melee solo is generally not recommended vs magic/ranged kiting; if meleeing, Osmumten's fang is strongly recommended.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Melee solo is generally not recommended vs magic/ranged kiting; if meleeing, Osmumten's fang is strongly recommended.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "osmumten-s-fang",
+        "inquisitor-s-mace",
+        "ghrazi-rapier",
+        "blade-of-saeldor",
+        "abyssal-tentacle",
+        "zamorakian-hasta",
+        "bow-of-faerdhinen",
+        "tumeken-s-shadow"
+      ],
+      "steps": [
+        "Melee solo is generally not recommended vs magic/ranged kiting; if meleeing, Osmumten's fang is strongly recommended."
+      ]
+    },
+    {
+      "methodId": "melee-tank-kill",
+      "label": "Melee tank kill",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use Fang or strong melee gear when choosing direct Graardor kills, accepting that kiting methods are often stronger.",
+      "recommendedFor": [
+        "Bandos boss tasks",
+        "players using melee teams or tank setups"
+      ],
+      "requiredOrKeyItems": [
+        "Osmumten's fang",
+        "Inquisitor's mace",
+        "Zamorakian hasta",
+        "Bandos killcount access"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Enter the Bandos encampment with required killcount or access methods.",
+        "Use a tank setup or team role when meleeing Graardor directly.",
+        "Prioritise Osmumten's fang for accuracy if using melee.",
+        "Kill or manage minions after Graardor dies before looting."
+      ],
+      "risks": [
+        "Direct melee solo takes heavy damage compared with kiting.",
+        "Minions continue dealing damage after the boss dies."
+      ]
+    },
+    {
+      "methodId": "ranged-or-magic-kiting-alternative",
+      "label": "Ranged or magic kiting alternative",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use ranged or magic kiting methods when prioritising solo trip length over direct melee simplicity.",
+      "recommendedFor": [
+        "solo Bandos learners",
+        "players with Bow of faerdhinen, Shadow, or ranged kiting gear"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged or magic weapon",
+        "Stamina or run energy management",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Missiles or Magic depending method"
+      ],
+      "steps": [
+        "Choose a kiting route and keep Graardor moving instead of trading melee hits.",
+        "Attack on the correct tiles and preserve run energy.",
+        "Handle minions consistently between boss kills."
+      ],
+      "notes": [
+        "The plugin primary style remains melee for the direct task recommendation, but the source preserves kiting as an important alternative."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary General Graardor setup using Osmumten's fang.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Osmumten's fang",
+            "Inquisitor's mace",
+            "Ghrazi rapier",
+            "Blade of saeldor",
+            "Abyssal tentacle",
+            "Zamorakian hasta"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for General Graardor when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Bow of faerdhinen"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-secondary",
+      "label": "Magic alternative",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Alternative magic option for General Graardor when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# General Graardor\n\nMelee solo is generally not recommended vs magic/ranged kiting; if meleeing, Osmumten's fang is strongly recommended."
+}

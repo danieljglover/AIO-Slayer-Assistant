@@ -1,0 +1,14 @@
+{
+  "masterId": "turael",
+  "name": "Turael",
+  "aliases": [
+    "Aya"
+  ],
+  "location": "Burthorpe",
+  "economy": {
+    "basePoints": 0,
+    "blockCost": 40,
+    "zeroPoints": true,
+    "streakResets": true
+  }
+}

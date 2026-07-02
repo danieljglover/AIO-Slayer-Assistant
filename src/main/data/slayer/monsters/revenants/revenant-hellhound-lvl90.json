@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-hellhound",
+  "name": "Revenant hellhound",
+  "npcIds": [
+    7935
+  ],
+  "combatLevel": 90,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 98,
+    "slash": 140,
+    "crush": 142,
+    "magic": 62,
+    "range": 140
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 80,
+    "maxHit": 14,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 104
+  }
+}

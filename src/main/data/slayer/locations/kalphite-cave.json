@@ -1,0 +1,11 @@
+{
+  "locationId": "kalphite-cave",
+  "name": "Kalphite Cave",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Slayer task-exclusive Kalphite area east of Shantay Pass with 18 Workers, 20 Soldiers, and 5 Guardians across five open chambers. Recommended for normal Kalphite tasks."
+}

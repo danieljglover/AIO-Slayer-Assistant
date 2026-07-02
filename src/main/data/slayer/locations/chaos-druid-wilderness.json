@@ -1,0 +1,11 @@
+{
+  "locationId": "chaos-druid-wilderness",
+  "name": "Edgeville Dungeon (Wilderness)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "11 Chaos druid spawns in the Wilderness section of Edgeville Dungeon, reached past the wilderness lever/ditch. Krystilia only counts Wilderness kills, so the non-Wilderness Chaos Druid Tower, Taverley Dungeon and Yanille Agility Dungeon spawns do not count. Multicombat, cannon and safespot are not wiki-stated for this spot; conservative defaults are used."
+}

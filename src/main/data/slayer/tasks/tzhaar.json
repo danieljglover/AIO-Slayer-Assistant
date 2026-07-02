@@ -1,0 +1,226 @@
+{
+  "taskId": "tzhaar",
+  "name": "TzHaar",
+  "wikiPageId": 514851,
+  "combatLevel": null,
+  "slayerTargetId": 236,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "chaeldar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      90,
+      150
+    ],
+    "nieve": [
+      110,
+      180
+    ],
+    "duradel": [
+      130,
+      199
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 8,
+    "nieve": 10,
+    "duradel": 10
+  },
+  "extendedAmount": {},
+  "unlocks": [
+    {
+      "unlockId": "hot-stuff",
+      "name": "Hot Stuff",
+      "pointsCost": 100,
+      "notes": "Allows Chaeldar, Nieve/Steve, and Duradel/Kuradal to assign TzHaar."
+    }
+  ],
+  "monsterIds": [
+    "tzhaar"
+  ],
+  "variantIds": [
+    "tzhaar-xil",
+    "tzhaar-hur",
+    "tzhaar-mej",
+    "tzhaar-ket-level-149",
+    "tzhaar-ket-level-221",
+    "tztok-jad",
+    "tzkal-zuk"
+  ],
+  "defaultVariantId": "tzhaar-xil",
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "mor-ul-rek-tzhaar-city",
+    "mor-ul-rek-inner-tzhaar-ket",
+    "tzhaar-fight-cave",
+    "inferno"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "tzhaar-hur",
+      "name": "TzHaar-Hur",
+      "combatLevel": 74,
+      "slayerXp": 80,
+      "locations": [
+        "Mor Ul Rek"
+      ],
+      "notes": [
+        "Attacking a TzHaar-Hur can cause nearby Mej, Xil, and Ket to become aggressive.",
+        "Uses melee and is one of the lower-level city varieties."
+      ]
+    },
+    {
+      "variantId": "tzhaar-mej",
+      "name": "TzHaar-Mej",
+      "combatLevel": 103,
+      "slayerXp": 100,
+      "locations": [
+        "Mor Ul Rek"
+      ],
+      "notes": [
+        "Uses magic and melee.",
+        "Attacking one near higher-ranked TzHaar can call nearby Xil and Ket to help."
+      ]
+    },
+    {
+      "variantId": "tzhaar-xil",
+      "name": "TzHaar-Xil",
+      "combatLevel": 133,
+      "slayerXp": 120,
+      "locations": [
+        "Mor Ul Rek"
+      ],
+      "notes": [
+        "Two variants use melee and one melee/range variant uses a ring or disc.",
+        "The melee-using Xil are a recommended city target because they can be safespotted through vents."
+      ]
+    },
+    {
+      "variantId": "tzhaar-ket",
+      "name": "TzHaar-Ket",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "Mor Ul Rek",
+        "Mor Ul Rek inner area"
+      ],
+      "notes": [
+        "Combat levels are 149 and 221; Slayer XP values are 140 and 200.",
+        "The level 221 inner-area TzHaar-Ket requires a one-time fire cape show and can drop obsidian armour.",
+        "Ket are primarily melee and can be safespotted through vents or bursted around TzHaar-Ket-Rak's Challenges."
+      ]
+    },
+    {
+      "variantId": "tztok-jad",
+      "name": "TzTok-Jad",
+      "combatLevel": 702,
+      "slayerXp": 25250,
+      "locations": [
+        "TzHaar Fight Cave"
+      ],
+      "notes": [
+        "Can be offered as a TzHaar assignment alternative even before the first Jad kill.",
+        "Completing the Fight Cave gives 37,010 total Slayer XP on task.",
+        "Task status improves the Jad pet rate by 50%."
+      ]
+    },
+    {
+      "variantId": "tzkal-zuk",
+      "name": "TzKal-Zuk",
+      "combatLevel": 1400,
+      "slayerXp": 101890,
+      "locations": [
+        "Inferno"
+      ],
+      "notes": [
+        "Can be offered as a TzHaar assignment alternative only after at least one off-task TzKal-Zuk kill.",
+        "Completing the Inferno gives about 125,000 total Slayer XP on task, with 101,890 XP from Zuk.",
+        "Combat achievement rewards can increase a Zuk task to two or three kills."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "mor-ul-rek-tzhaar-city",
+      "name": "Mor Ul Rek (TzHaar City)",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main city TzHaar task area.",
+        "TzHaar-Ket and melee-using TzHaar-Xil can be safespotted through vents.",
+        "Ring of wealth increases the chance of gems and onyx bolt tips from eligible TzHaar drops."
+      ]
+    },
+    {
+      "locationId": "mor-ul-rek-inner-tzhaar-ket",
+      "name": "Mor Ul Rek inner TzHaar-Ket",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Requires showing a fire cape once to enter the inner area.",
+        "Level 221 TzHaar-Ket around TzHaar-Ket-Rak's Challenges can be stacked for burst or barrage tasks.",
+        "Protect from Melee avoids all damage in the inner Ket area when Ket heavily outnumber Mej and Xil."
+      ]
+    },
+    {
+      "locationId": "tzhaar-fight-cave",
+      "name": "TzHaar Fight Cave",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "TzTok-Jad may be selected instead of regular city TzHaar when the Slayer master offers the Jad alternative.",
+        "Leaving or dying in the Fight Cave ends the run, so treat this as a separate boss trip."
+      ]
+    },
+    {
+      "locationId": "inferno",
+      "name": "Inferno",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "TzKal-Zuk may be selected instead of regular city TzHaar after at least one previous off-task Zuk kill.",
+        "Combat achievement rewards can increase the TzKal-Zuk task size."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "The Hot Stuff unlock costs 100 slayer points and enables TzHaar assignments from Chaeldar, Nieve/Steve, and Duradel/Kuradal.",
+    "A Ring of wealth increases chances for gems from TzHaar drops and improves access to onyx bolt tips from the eligible level 221 Ket.",
+    "Attacking TzHaar-Hur can make nearby TzHaar aggressive, while attacking TzHaar-Mej can call nearby Xil and Ket.",
+    "TzHaar-Ket and melee-using TzHaar-Xil are the preferred city kills because Ket can be safespotted through vents.",
+    "Showing a fire cape once unlocks the inner area with level 221 TzHaar-Ket.",
+    "The Slayer master may offer TzTok-Jad or TzKal-Zuk instead of a regular city task; Zuk requires a prior off-task Zuk kill.",
+    "The TzHaar-Ket-Rak inner-area Ket group supports burst and barrage methods with Protect from Melee."
+  ],
+  "recommendedMethod": "Use melee against Ket or melee-using Xil in Mor Ul Rek, safespot through vents where possible, or choose the Jad/Zuk task alternative when offered and prepared."
+}

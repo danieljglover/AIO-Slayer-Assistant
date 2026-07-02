@@ -1,0 +1,94 @@
+{
+  "taskId": "magic-axes",
+  "name": "Magic axes",
+  "wikiPageId": null,
+  "combatLevel": 42,
+  "slayerTargetId": 264,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "magic-axes"
+  ],
+  "variantIds": [
+    "magic-axe"
+  ],
+  "defaultVariantId": "magic-axe",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 29,
+    "stab": 10,
+    "slash": 5,
+    "crush": 15,
+    "magic": 5,
+    "range": 10
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "axe-hut"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "magic-axe",
+      "name": "Magic axe",
+      "combatLevel": 42,
+      "slayerXp": 44,
+      "locations": [
+        "Magic Axe Hut (Wilderness)"
+      ],
+      "notes": [
+        "Krystilia only counts Wilderness kills; the Magic Axe Hut holds 9 spawns.",
+        "The hut door requires 23 Thieving and a lockpick to open.",
+        "Attacks with slash melee at a 4-tick speed; slash (+5) and magic (+5) are its lowest defences.",
+        "The Taverley Dungeon and Catacombs of Kourend spawns do NOT count for Krystilia."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "axe-hut",
+      "name": "Magic Axe Hut (Wilderness)",
+      "amount": 9,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "9 Magic axe spawns inside the Wilderness Axe Hut; the door needs 23 Thieving and a lockpick.",
+        "Multicombat, cannon and safespot are not wiki-stated for this spot; conservative defaults are used.",
+        "The non-Wilderness Taverley Dungeon and Catacombs of Kourend spawns do not count for Krystilia."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Magic axes are a Krystilia (Wilderness) Slayer assignment: 75-125 per task, weight 7, no Slayer requirement.",
+    "slayerTargetId 264 is SYNTHETIC (C2/C3 allocation contract: worklist id table, 252-305); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "wikiPageId is null (honest UNKNOWN - not captured at authoring time); sourced from https://oldschool.runescape.wiki/w/Magic_axe.",
+    "Krystilia only counts Wilderness kills. Only the Magic Axe Hut spawns (npc 2844) count; the Taverley Dungeon and Catacombs of Kourend spawns do not.",
+    "Magic axes are combat level 42 with 44 Hitpoints and grant 44 Slayer XP; defence level 29 with slash (+5) and magic (+5) their lowest defences.",
+    "Reaching the axes requires opening the hut door with 23 Thieving and a lockpick.",
+    "No task extension unlock exists for Magic axes."
+  ],
+  "recommendedMethod": "Open the Wilderness Axe Hut door (23 Thieving + lockpick) and kill the 9 magic axes with a slash weapon against their low slash defence (+5). Bring only cheap gear for the Wilderness."
+}

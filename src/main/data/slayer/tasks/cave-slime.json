@@ -1,0 +1,106 @@
+{
+  "taskId": "cave-slime",
+  "name": "Cave slime",
+  "wikiPageId": 13094,
+  "combatLevel": 15,
+  "slayerTargetId": 281,
+  "slayerLevel": 17,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      10,
+      20
+    ],
+    "spria": [
+      10,
+      20
+    ],
+    "mazchna": [
+      10,
+      20
+    ]
+  },
+  "weightByMaster": {
+    "turael": 8,
+    "spria": 8,
+    "mazchna": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "cave-slime"
+  ],
+  "variantIds": [
+    "cave-slime"
+  ],
+  "defaultVariantId": "cave-slime",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 35,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "Light source",
+  "locationIds": [
+    "lumbridge-swamp-caves"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "cave-slime",
+      "name": "Cave slime",
+      "combatLevel": 23,
+      "slayerXp": 25,
+      "locations": [
+        "Lumbridge Swamp Caves",
+        "Dorgesh-Kaan South Dungeon"
+      ],
+      "notes": [
+        "Requires 17 Slayer and combat level 15 to be assigned.",
+        "25 Hitpoints, max hit 2 (stab); poisonous (damage level 3).",
+        "50% elemental weakness to earth spells despite Defence level 35 (all defensive bonuses 0)."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "lumbridge-swamp-caves",
+      "name": "Lumbridge Swamp Caves",
+      "amount": 17,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "17 Cave slime spawns; a Dwarf multicannon can be used in the caves.",
+        "A light source is required; open flames (e.g. a candle) can be extinguished by swamp gas, so an enclosed lantern is safer.",
+        "Dorgesh-Kaan South Dungeon (9 spawns) is an alternative that requires The Lost Tribe."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Cave slime requires 17 Slayer and combat level 15 to be assigned by Turael, Spria, or Mazchna.",
+    "slayerTargetId 281 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "A light source is required to enter the Lumbridge Swamp Caves; the specific item id is honest-UNKNOWN because any light source (candle, lantern, etc.) works, so requiredItemId is null with the name 'Light source'.",
+    "Cave slime is poisonous (poison damage level 3) and is NOT undead, so the salve amulet does not apply.",
+    "Cave slime has 25 Hitpoints, max hit 2 (stab), 4-tick attack speed, and Defence level 35 with all defensive bonuses 0.",
+    "It has a 50% elemental weakness to earth spells; a Dwarf multicannon is usable in the Lumbridge Swamp Caves.",
+    "No task extension unlock exists for Cave slime."
+  ],
+  "recommendedMethod": "Bring a light source (an enclosed lantern is safest, since swamp gas can extinguish open flames) and enter the Lumbridge Swamp Caves. Cave slime has no defensive bonuses, so any melee weapon works; earth spells exploit the 50% elemental weakness for a Magic alternative. A Dwarf multicannon speeds the task. Carry antipoison, as Cave slime poisons on hit."
+}

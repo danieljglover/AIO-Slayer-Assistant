@@ -1,0 +1,194 @@
+{
+  "strategyId": "cave-kraken",
+  "variantIds": [
+    "cave-kraken"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Cave_krakens",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "eye-of-ayak",
+      "tumeken-s-shadow",
+      "harmonised-nightmare-staff",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "staff-of-the-dead",
+      "trident-of-the-seas",
+      "twinflame-staff",
+      "warped-sceptre"
+    ],
+    "secondaryWeapons": [],
+    "note": "Magic only. Regular Cave krakens and Kraken are weak to earth spells; Ranged deals 1/7 damage and Melee cannot reach them. Regular Cave krakens can be protected against with Protect from Magic, while the Kraken boss uses typeless attacks."
+  },
+  "requirements": [
+    "87 Slayer",
+    "80 combat to receive the assignment",
+    "50 Magic",
+    "Cave kraken or Kraken task",
+    "Krack on unlock for 150-200 extended assignments"
+  ],
+  "mechanics": [
+    "Regular Cave krakens must be disturbed from whirlpools before they can be attacked.",
+    "Fishing explosives cannot be used to surface regular Cave krakens.",
+    "Magic is the only reliable damage style: Ranged deals 1/7 damage and Melee cannot reach them.",
+    "Regular Cave kraken attacks are magic damage and can be reduced with Protect from Magic.",
+    "Regular Cave krakens have a 50% elemental weakness to earth spells after surfacing.",
+    "The Kraken boss can be killed instead on the same assignment and is generally more profitable.",
+    "The Kraken boss uses typeless magic attacks, so protection prayers do not reduce damage."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Use magic for all Cave kraken task variants, choosing regular Cave krakens for the uncharged trident or collection log and Kraken boss for profit.",
+      "recommendedFor": [
+        "baseline Cave kraken task planning",
+        "choosing regular Kraken Cove kills or Kraken boss"
+      ],
+      "requiredOrKeyItems": [
+        "Magic weapon",
+        "Earth spells or powered staff",
+        "Teleport to Kraken Cove",
+        "Fishing explosive for Kraken boss"
+      ],
+      "prayers": [
+        "Protect from Magic against regular Cave krakens",
+        "Offensive magic prayers for Kraken boss if bringing prayer potions"
+      ],
+      "steps": [
+        "Confirm the task is Cave kraken or Kraken before entering Kraken Cove.",
+        "Use magic only because Ranged and Melee are heavily penalised.",
+        "Use earth spells where practical to exploit the elemental weakness.",
+        "Kill regular Cave krakens only when pursuing uncharged trident or collection log goals.",
+        "Use the Kraken boss alternative for better profit and a simple boss fight."
+      ],
+      "notes": [
+        "The task page links Kraken/Strategies for the full boss method.",
+        "Regular Cave krakens drop the uncharged trident at 1/200."
+      ]
+    },
+    {
+      "methodId": "regular-cave-kraken",
+      "label": "Regular Cave kraken",
+      "combatStyle": "MAGIC",
+      "role": "regular",
+      "summary": "Disturb regular whirlpools and kill surfaced Cave krakens with magic, usually only for uncharged trident or collection log goals.",
+      "recommendedFor": [
+        "ironmen seeking an uncharged trident",
+        "collection log completion",
+        "players avoiding the boss"
+      ],
+      "requiredOrKeyItems": [
+        "Magic weapon",
+        "Protect from Magic",
+        "Earth spell runes or powered staff"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Attack or disturb a regular Cave kraken whirlpool to surface it.",
+        "Do not use fishing explosives for regular Cave krakens because they cannot surface these whirlpools.",
+        "Use magic, preferably earth spells or a strong powered staff.",
+        "Keep Protect from Magic active to reduce the regular Cave kraken's magic damage.",
+        "Loot uncharged trident, Kraken tentacle, clues, and Konar brimstone keys where applicable."
+      ],
+      "risks": [
+        "Regular Cave krakens have low-value drops compared with the boss.",
+        "Ranged and Melee are not effective."
+      ]
+    },
+    {
+      "methodId": "kraken-boss-alternative",
+      "label": "Kraken boss alternative",
+      "combatStyle": "MAGIC",
+      "role": "boss",
+      "summary": "Kill Kraken instead of regular Cave krakens when choosing the profitable boss option on the same assignment.",
+      "recommendedFor": [
+        "profit-focused tasks",
+        "simple boss kills",
+        "pet and jar rolls"
+      ],
+      "requiredOrKeyItems": [
+        "Fishing explosive",
+        "Magic gear",
+        "Food",
+        "Optional private instance coins"
+      ],
+      "steps": [
+        "Enter the Kraken boss room in Kraken Cove.",
+        "Use a fishing explosive on the large whirlpool to release Kraken and the four tentacles immediately.",
+        "Attack the Kraken directly and tank the tentacles.",
+        "Follow the dedicated Kraken/Strategies source for full inventory, instance, and sustain details."
+      ],
+      "notes": [
+        "Kraken/Strategies is the authoritative boss method source.",
+        "Kraken's typeless magic damage cannot be blocked by protection prayers."
+      ]
+    },
+    {
+      "methodId": "konar-and-krack-on",
+      "label": "Konar and Krack on",
+      "combatStyle": "MAGIC",
+      "role": "task-management",
+      "summary": "Use the page's assignment ranges and extension unlock when choosing whether to extend or Konar-lock Cave kraken tasks.",
+      "recommendedFor": [
+        "assignment planning",
+        "Konar tasks",
+        "extended Cave kraken tasks"
+      ],
+      "steps": [
+        "Use Chaeldar's smaller 30-50 assignment range for shorter tasks.",
+        "Expect Konar 80-100 and Nieve/Duradel 100-120 base assignment ranges.",
+        "Enable Krack on only if the player wants 150-200 Cave kraken assignments.",
+        "On Konar tasks, stay within Kraken Cove and expect brimstone key eligibility."
+      ],
+      "notes": [
+        "Krack on costs 100 Slayer reward points."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic-earth-spells",
+      "label": "Magic earth spells",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use earth spells to exploit the 50% elemental weakness.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Harmonised nightmare staff",
+            "Staff of the dead",
+            "Twinflame staff"
+          ],
+          "spell": [
+            "Best available earth spell"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "powered-staff",
+      "label": "Powered staff",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use high-tier powered magic weapons when they outperform or simplify standard earth spell setups.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Tumeken's shadow",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Warped sceptre"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "Cave krakens are a magic-only task in Kraken Cove. The task page recommends magic, notes the earth elemental weakness, contrasts regular Cave krakens with the more profitable Kraken boss, and points to Kraken/Strategies for the full boss method."
+}

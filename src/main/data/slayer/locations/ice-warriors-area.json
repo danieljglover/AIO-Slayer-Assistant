@@ -1,0 +1,11 @@
+{
+  "locationId": "ice-warriors-area",
+  "name": "Non-Wilderness ice warriors",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Non-Wilderness ice warriors for Mazchna's starter task: the Asgarnian Ice Dungeon (south of Port Sarim) and White Wolf Mountain, plus God Wars Dungeon routes. Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative (false)."
+}

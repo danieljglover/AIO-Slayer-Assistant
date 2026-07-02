@@ -1,0 +1,132 @@
+{
+  "strategyId": "chaos-fanatic",
+  "variantIds": [
+    "chaos-fanatic"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Chaos_Fanatic/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "webweaver-bow",
+      "craw-s-bow",
+      "twisted-bow",
+      "bow-of-faerdhinen",
+      "scorching-bow",
+      "magic-shortbow-i",
+      "crystal-bow"
+    ],
+    "secondaryWeapons": [],
+    "note": "High magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons."
+  },
+  "requirements": [
+    "Access to Chaos Fanatic's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "High magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "High magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "webweaver-bow",
+        "craw-s-bow",
+        "twisted-bow",
+        "bow-of-faerdhinen",
+        "scorching-bow",
+        "magic-shortbow-i",
+        "crystal-bow"
+      ],
+      "steps": [
+        "High magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons."
+      ]
+    },
+    {
+      "methodId": "ranged-fanatic-kill",
+      "label": "Ranged Fanatic kill",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Range Chaos Fanatic from a distance while dodging explosive green magic attacks.",
+      "recommendedFor": [
+        "Chaos Fanatic boss tasks",
+        "Wilderness ranged setups"
+      ],
+      "requiredOrKeyItems": [
+        "Webweaver bow",
+        "Craw's bow",
+        "Magic shortbow (i)",
+        "Escape teleport"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Eagle Eye or Rigour",
+        "Protect Item if risking gear"
+      ],
+      "steps": [
+        "Fight with ranged because Chaos Fanatic has high magic level and defence.",
+        "Move away from the green explosive attack rather than tanking stacked damage.",
+        "Keep enough distance and supplies to react to player-killers.",
+        "Pick up valuable drops quickly and reset if the area becomes unsafe."
+      ],
+      "risks": [
+        "The explosive attack can hit hard if the player does not move.",
+        "Wilderness interruptions are a primary risk."
+      ]
+    },
+    {
+      "methodId": "wilderness-risk-control",
+      "label": "Wilderness risk control",
+      "combatStyle": "RANGED",
+      "role": "risk",
+      "summary": "Limit carried risk and use fast banking or teleport routes because the boss is in the Wilderness.",
+      "recommendedFor": [
+        "low-risk bossing",
+        "players completing collection slots"
+      ],
+      "requiredOrKeyItems": [
+        "Royal seed pod or other escape route",
+        "Looting bag",
+        "Stamina potion"
+      ],
+      "steps": [
+        "Choose gear around acceptable risk instead of maximum theoretical DPS.",
+        "Keep protect item available when carrying a valuable weapon.",
+        "Leave immediately if a hostile player appears and escape is still possible."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Chaos Fanatic setup using Webweaver bow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Twisted bow",
+            "Bow of faerdhinen",
+            "Scorching bow",
+            "Magic shortbow (i)",
+            "Crystal bow"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Chaos Fanatic\n\nHigh magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons."
+}

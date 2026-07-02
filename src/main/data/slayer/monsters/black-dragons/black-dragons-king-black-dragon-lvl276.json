@@ -1,0 +1,30 @@
+{
+  "variantId": "black-dragons-king-black-dragon",
+  "name": "King Black Dragon",
+  "npcIds": [
+    239,
+    2642
+  ],
+  "combatLevel": 276,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 240,
+    "stab": 40,
+    "slash": 90,
+    "crush": 90,
+    "magic": 80,
+    "range": 70
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "King Black Dragon Lair (Wilderness, via lever); also Nightmare Zone",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "king-black-dragon"
+}

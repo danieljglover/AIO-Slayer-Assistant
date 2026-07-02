@@ -1,0 +1,28 @@
+{
+  "variantId": "skeleton-hellhound-tarn-s-lair",
+  "name": "Skeleton Hellhound (Tarn's Lair)",
+  "npcIds": [
+    5054
+  ],
+  "combatLevel": 97,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Tarn's Lair",
+  "requirement": "none",
+  "bossId": null
+}

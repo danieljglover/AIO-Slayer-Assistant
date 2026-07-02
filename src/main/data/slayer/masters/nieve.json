@@ -1,0 +1,22 @@
+{
+  "masterId": "nieve",
+  "name": "Nieve",
+  "aliases": [
+    "Steve"
+  ],
+  "location": "Tree Gnome Stronghold",
+  "requirements": {
+    "combatLevel": 85
+  },
+  "economy": {
+    "basePoints": 12,
+    "streakMultipliers": {
+      "10": 5,
+      "50": 15,
+      "100": 25,
+      "250": 35,
+      "1000": 50
+    },
+    "blockCost": 90
+  }
+}

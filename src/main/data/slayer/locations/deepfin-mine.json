@@ -1,0 +1,11 @@
+{
+  "locationId": "deepfin-mine",
+  "name": "Deepfin Mine",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Aberrant spectres can be safespotted from the eastern side near the standing torch. A bank chest can be built in a Deepfin Mine hotspot, and quick access uses an 84 Agility shortcut."
+}

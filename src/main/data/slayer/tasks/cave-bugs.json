@@ -1,0 +1,104 @@
+{
+  "taskId": "cave-bugs",
+  "name": "Cave bugs",
+  "wikiPageId": null,
+  "combatLevel": null,
+  "slayerTargetId": 279,
+  "slayerLevel": 7,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      10,
+      30
+    ],
+    "spria": [
+      10,
+      30
+    ],
+    "mazchna": [
+      10,
+      20
+    ]
+  },
+  "weightByMaster": {
+    "turael": 8,
+    "spria": 8,
+    "mazchna": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "cave-bugs"
+  ],
+  "variantIds": [
+    "cave-bug"
+  ],
+  "defaultVariantId": "cave-bug",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 6,
+    "stab": 10,
+    "slash": 10,
+    "crush": 5,
+    "magic": 5,
+    "range": 10
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "lumbridge-swamp-caves"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "cave-bug",
+      "name": "Cave bug",
+      "combatLevel": 6,
+      "slayerXp": 5,
+      "locations": [
+        "Lumbridge Swamp Caves"
+      ],
+      "notes": [
+        "Standard level 6 cave bug (npc 481), the Slayer-task target in the Lumbridge Swamp Caves.",
+        "A larger level 96 cave bug (npc 483, 93 Slayer XP) lives in the Dorgesh-Kaan South Dungeon and also counts.",
+        "Weak, low-HP monster; killed almost incidentally once a light source is carried."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "lumbridge-swamp-caves",
+      "name": "Lumbridge Swamp Caves",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Primary cave bug location; requires a rope to enter and a light source inside.",
+        "A Dwarf multicannon can be used here.",
+        "Spawn count not stated on the wiki (honest UNKNOWN)."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Cave bugs are assigned by Turael, Spria, and Mazchna and require 7 Slayer.",
+    "A light source is required to enter and fight in the Lumbridge Swamp Caves; open flames are extinguished by the swamp gas, so an oil/bullseye lantern or a light-emitting alternative is needed.",
+    "Cave bugs have only 5 hitpoints and a max hit of 1; they are trivial once you are in the caves.",
+    "The standard cave bug (npc 481) is level 6; a level 96 variant (npc 483) in the Dorgesh-Kaan South Dungeon also counts for the task.",
+    "Cave bugs have a 50% weakness to fire spells; melee is the simplest option for such a low-HP monster.",
+    "The slayerTargetId 279 is SYNTHETIC (C2/C3 allocation contract, worklist section 1); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The wikiPageId was not captured at authoring time (honest UNKNOWN); sourceUrl is https://oldschool.runescape.wiki/w/Cave_bug."
+  ],
+  "recommendedMethod": "Bring a light source (oil or bullseye lantern) and any melee weapon; cave bugs have 5 HP and a max hit of 1, so kill them with whatever you are carrying. Fire spells hit them for 50% extra if training Magic in the caves."
+}

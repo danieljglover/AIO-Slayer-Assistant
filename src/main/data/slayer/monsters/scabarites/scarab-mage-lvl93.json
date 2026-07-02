@@ -1,0 +1,31 @@
+{
+  "variantId": "scarab-mage",
+  "name": "Scarab mage",
+  "npcIds": [
+    794,
+    799,
+    11508
+  ],
+  "combatLevel": 93,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 90,
+    "stab": 40,
+    "slash": 90,
+    "crush": 90,
+    "magic": 34,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": false,
+  "location": "Sophanem Dungeon (cavern and maze levels)",
+  "requirement": "Contact! (partial completion); the level 66 and 119 quest variants also exist",
+  "bossId": null,
+  "strategyId": "scabarites"
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "slayer-tower",
+  "name": "Slayer Tower",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Bloodvelds on the first floor can be safespotted and receive additional Slayer experience from completed Morytania Diary tiers; other Slayer Tower tasks may have different floor-specific mechanics."
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "boss-grotesque-guardians-dawn",
+  "name": "Grotesque Guardians - Dawn",
+  "npcIds": [
+    7852,
+    7853,
+    7884,
+    7885
+  ],
+  "combatLevel": 228,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 80,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Slayer Tower roof (fought alongside Dusk; gargoyle task + brittle key)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "grotesque-guardians-dawn"
+}

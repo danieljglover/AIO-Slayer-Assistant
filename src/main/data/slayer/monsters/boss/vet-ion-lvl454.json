@@ -1,0 +1,30 @@
+{
+  "variantId": "vet-ion",
+  "name": "Vet'ion",
+  "npcIds": [
+    6611,
+    6612
+  ],
+  "combatLevel": 454,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 395,
+    "stab": 201,
+    "slash": 200,
+    "crush": -10,
+    "magic": 250,
+    "range": 1
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": true,
+  "location": "Vet'ion's Rest, ~Level 30+ Wilderness (Calvar'ion is the singles-plus alternative)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "vet-ion"
+}

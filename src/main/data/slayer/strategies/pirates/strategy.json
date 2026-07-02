@@ -1,0 +1,109 @@
+{
+  "strategyId": "pirates",
+  "variantIds": [
+    "pirate",
+    "zombie-pirate"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Pirate",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Pirates are low-level and have poor Defence; any decent melee weapon such as a Dragon scimitar kills them quickly. The main assignable pirates are in the single-way Pirates' Hideout (lockpick + 39 Thieving). Zombie pirates at the Chaos Temple are undead and 50% weak to fire, so a Salve amulet and fire spells (or any melee with the Salve) speed them up as a lower-risk alternative. Always beware PKers in the Wilderness."
+  },
+  "requirements": [
+    "Pirates are assigned only by Krystilia and only count when killed inside the Wilderness.",
+    "A lockpick and 39 Thieving are required to enter the Pirates' Hideout."
+  ],
+  "mechanics": [
+    "Pirates at the Pirates' Hideout are aggressive, attack with slash, and hit up to 4.",
+    "The Pirates' Hideout is a single-way combat building in deep Wilderness (level 54).",
+    "Zombie pirates at the Chaos Temple are undead and 50% weak to fire.",
+    "All kills must occur inside the Wilderness to count towards the task."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-hideout",
+      "label": "Melee (Pirates' Hideout)",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill the aggressive pirates in the single-way Pirates' Hideout with any decent melee weapon.",
+      "recommendedFor": [
+        "default Krystilia Pirates tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon scimitar or any decent melee weapon",
+        "Lockpick",
+        "39 Thieving",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Bring a lockpick and travel to the Pirates' Hideout in the deep Wilderness (level 54).",
+        "Pick the door lock (39 Thieving) and enter.",
+        "Kill the aggressive pirates with melee; carry only low-risk gear due to PKer risk."
+      ]
+    },
+    {
+      "methodId": "zombie-pirates-chaos-temple",
+      "label": "Zombie pirates (Chaos Temple)",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Kill the undead Zombie pirates at the Chaos Temple; they are fire-weak and lower-risk.",
+      "recommendedFor": [
+        "lower Wilderness risk",
+        "undead-boosting setups"
+      ],
+      "requiredOrKeyItems": [
+        "Salve amulet (e or ei) for the undead boost",
+        "Fire spells or any decent melee weapon"
+      ],
+      "steps": [
+        "Travel to the Chaos Temple in the low-level Wilderness.",
+        "Use a Salve amulet and fire spells or melee to kill the undead Zombie pirates.",
+        "These count towards the task and carry lower PKer risk than the Hideout."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-primary",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary melee setup for the Pirates' Hideout.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon scimitar",
+            "Any decent melee weapon"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-zombie-pirates",
+      "label": "Fire magic (Zombie pirates)",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Fire spells with a Salve amulet against the undead Zombie pirates.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Any staff casting fire spells"
+          ],
+          "neck": [
+            "Salve amulet (ei)",
+            "Salve amulet (e)"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Pirates\n\nPirates are a low-level Krystilia Wilderness task. The main assignable pirates live in the single-way Pirates' Hideout (Wilderness level 54); a lockpick and 39 Thieving are needed to open the door. They have poor Defence, so any decent melee weapon such as a Dragon scimitar kills them quickly. Zombie pirates around the Chaos Temple also count and are a lower-risk alternative: they are undead and 50% weak to fire, so a Salve amulet and fire spells boost damage. All kills must occur inside the Wilderness, and PKers are a constant risk - carry only what you can afford to lose."
+}

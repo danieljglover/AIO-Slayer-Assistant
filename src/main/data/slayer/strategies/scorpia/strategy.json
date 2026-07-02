@@ -1,0 +1,132 @@
+{
+  "strategyId": "scorpia",
+  "variantIds": [
+    "scorpia"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Scorpia/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "accursed-sceptre",
+      "thammaron-s-sceptre",
+      "eye-of-ayak",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "trident-of-the-seas",
+      "warped-sceptre"
+    ],
+    "secondaryWeapons": [],
+    "note": "Very low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons."
+  },
+  "requirements": [
+    "Access to Scorpia's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Very low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Very low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "accursed-sceptre",
+        "thammaron-s-sceptre",
+        "eye-of-ayak",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "trident-of-the-seas",
+        "warped-sceptre"
+      ],
+      "steps": [
+        "Very low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons."
+      ]
+    },
+    {
+      "methodId": "freeze-and-magic-kill",
+      "label": "Freeze and magic kill",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Freeze Scorpia and kill it with magic while controlling Wilderness risk.",
+      "recommendedFor": [
+        "Scorpia boss tasks",
+        "Wilderness magic setups"
+      ],
+      "requiredOrKeyItems": [
+        "Accursed sceptre",
+        "Thammaron's sceptre",
+        "Trident of the swamp",
+        "Ice spells or freezes",
+        "Escape teleport"
+      ],
+      "prayers": [
+        "Protect from Missiles or Magic as needed",
+        "Protect Item if risking gear"
+      ],
+      "steps": [
+        "Use magic because Scorpia has very low magic defence.",
+        "Freeze Scorpia to reduce incoming melee pressure and keep distance.",
+        "Attack with Wilderness sceptres or trident-class weapons.",
+        "Stay alert for player-killers and leave before being pinned."
+      ],
+      "risks": [
+        "Scorpia is in deep Wilderness.",
+        "A failed freeze can force extra food use."
+      ]
+    },
+    {
+      "methodId": "healer-control-and-risk",
+      "label": "Healer control and risk",
+      "combatStyle": "MAGIC",
+      "role": "adds",
+      "summary": "Respond to Scorpia guardian healing and keep trips short enough to protect loot.",
+      "recommendedFor": [
+        "consistent Scorpia kills",
+        "low-risk trips"
+      ],
+      "requiredOrKeyItems": [
+        "Magic weapon",
+        "Food",
+        "Looting bag"
+      ],
+      "steps": [
+        "Watch for Scorpia guardians and prevent them from undoing too much damage.",
+        "Re-freeze or reposition when adds disrupt the fight.",
+        "Bank valuable drops instead of extending in deep Wilderness."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Scorpia setup using Accursed sceptre.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Accursed sceptre",
+            "Thammaron's sceptre",
+            "Eye of ayak",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Warped sceptre"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Scorpia\n\nVery low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons."
+}

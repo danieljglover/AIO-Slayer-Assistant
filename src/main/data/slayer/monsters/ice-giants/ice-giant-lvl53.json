@@ -1,0 +1,35 @@
+{
+  "variantId": "ice-giant",
+  "name": "Ice giant",
+  "npcIds": [
+    2085,
+    2086,
+    2087,
+    2088,
+    2089,
+    13796,
+    13797
+  ],
+  "combatLevel": 53,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 3,
+    "crush": 2,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Frozen Waste Plateau (Wilderness), Asgarnian Ice Dungeon, Ice Queen's Lair, and other non-Wilderness spots. Krystilia counts only the Wilderness spawns.",
+  "requirement": "none",
+  "strategyId": "ice-giants",
+  "bossId": null
+}

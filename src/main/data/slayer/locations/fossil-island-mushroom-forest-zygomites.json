@@ -1,0 +1,11 @@
+{
+  "locationId": "fossil-island-mushroom-forest-zygomites",
+  "name": "Mushroom Forest",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 27 Ancient Zygomites in the Mushroom Forest on Fossil Island. Valid for Zygomites tasks unless Konar locks the assignment to Zanaris."
+}

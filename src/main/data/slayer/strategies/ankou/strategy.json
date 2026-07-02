@@ -1,0 +1,353 @@
+{
+  "strategyId": "ankou",
+  "variantIds": [
+    "ankou-level-75",
+    "ankou-level-82",
+    "ankou-level-86",
+    "ankou-level-95",
+    "ankou-level-98"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Ankous",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "abyssal-tentacle",
+      "zombie-axe",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "ancient-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Salve amulet works because Ankou are undead, but it does not stack with Slayer helmet or Black mask. Melee is fast in single combat, while Catacombs/Wilderness multicombat can use Burst, Barrage, or Venator bow. Cannon works in every listed location except Catacombs; Wilderness locations require low risk and a one-click teleport."
+  },
+  "requirements": [
+    "40 combat is required to receive Ankou assignments.",
+    "No Slayer level or quest requirement.",
+    "Ankou very much extends assignments to 91-150 Ankou.",
+    "Wilderness Slayer Cave and The Forgotten Cemetery require accepting Wilderness player-killing risk."
+  ],
+  "mechanics": [
+    "Ankou use a relatively inaccurate melee attack with a max hit from 8 to 10.",
+    "Protect from Melee negates all Ankou damage.",
+    "Ankou are undead, so Salve amulet variants can boost accuracy and damage.",
+    "Salve amulet bonuses do not stack with Slayer helmet or Black mask bonuses; only the best applicable multiplier should matter.",
+    "Ankou are Spectral creatures, so Ectoplasmator gives Prayer experience on kills.",
+    "Ankou are the only spectral monster that also drops bones, so Bonecrusher or Bonecrusher necklace adds Prayer experience.",
+    "In the Catacombs of Kourend, Bonecrusher restores one Prayer point per Ankou kill.",
+    "Area-of-effect Salve necklace bonuses apply only to the primary target, not to secondary monsters hit by the spell.",
+    "Dark Ankou are Skotizo summons and are normally ignored; damaged Dark Ankous that die when Skotizo dies do not count for task progress."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "role": "general",
+      "summary": "Use Protect from Melee and choose between quick single-combat melee, cannon-assisted locations, or fast multicombat magic/ranged methods depending on cost and risk.",
+      "recommendedFor": [
+        "baseline task planning",
+        "choosing Salve versus Slayer helmet",
+        "choosing safe locations versus Wilderness locations"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet or Black mask",
+        "Salve amulet variant",
+        "Ectoplasmator",
+        "Bonecrusher or Bonecrusher necklace",
+        "Herb/rune pickup space for Death runes and Blood runes"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Pick a location based on assignment source, cannon preference, and Wilderness tolerance.",
+        "Use Protect from Melee if taking damage.",
+        "Choose between Slayer helmet or Salve amulet using current stats and gear; their bonuses do not stack.",
+        "Bring Ectoplasmator for extra Prayer experience.",
+        "Bring Bonecrusher or Bonecrusher necklace if Prayer experience or Catacombs Prayer restoration is useful.",
+        "Expect Death runes and Blood runes over a typical task.",
+        "In Catacombs, also expect Ancient shard and Dark totem piece drops."
+      ],
+      "risks": [
+        "Wilderness Slayer Cave and Forgotten Cemetery are player-killing hotspots.",
+        "Area-of-effect methods can consume even extended tasks quickly."
+      ],
+      "notes": [
+        "Salve amulet bonuses apply because Ankou are undead.",
+        "Slayer helmet and Black mask do not stack with Salve amulet bonuses."
+      ]
+    },
+    {
+      "methodId": "single-combat-melee",
+      "label": "Single-combat melee",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Melee is a fast, simple option for unextended Ankou tasks in single-combat locations.",
+      "recommendedFor": [
+        "short unextended tasks",
+        "Stronghold of Security",
+        "Stronghold Slayer Cave",
+        "Konar or location-locked tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet or Salve amulet",
+        "Best available melee weapon",
+        "Ectoplasmator",
+        "Bonecrusher or Bonecrusher necklace"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use single-target melee in Stronghold of Security, Stronghold Slayer Cave, Deepfin Mine, or other single-combat assignments.",
+        "Protect from Melee removes incoming damage when needed.",
+        "Use Salve amulet if it is better than the Slayer helmet or Black mask for the player's current gear.",
+        "Use Ectoplasmator and Bonecrusher for passive Prayer experience.",
+        "Pick up Death runes and Blood runes if desired."
+      ],
+      "fallbacks": [
+        "If melee gear is poor, use magic or ranged in Catacombs or Wilderness multicombat areas."
+      ],
+      "risks": [
+        "Single-combat is slower than multicombat AoE but uses fewer supplies."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet",
+            "Black mask"
+          ],
+          "neck": [
+            "Salve amulet (ei)",
+            "Salve amulet (e)",
+            "Salve amulet (i)",
+            "Salve amulet"
+          ],
+          "weapon": [
+            "Abyssal whip",
+            "Abyssal tentacle",
+            "Zombie axe",
+            "Dragon scimitar"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "multicombat-magic",
+      "label": "Multicombat magic",
+      "combatStyle": "MAGIC",
+      "role": "aoe",
+      "summary": "Use Burst or Barrage spells in Catacombs of Kourend or Wilderness Slayer Cave for a very fast task.",
+      "recommendedFor": [
+        "Catacombs of Kourend",
+        "Wilderness Slayer Cave",
+        "players prioritizing speed over task length"
+      ],
+      "requiredOrKeyItems": [
+        "Ancient Magicks",
+        "Kodai wand or Ancient sceptre",
+        "Slayer helmet or Salve amulet",
+        "Bonecrusher in Catacombs",
+        "Ectoplasmator"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use Catacombs of Kourend or Wilderness Slayer Cave because both are multicombat Ankou locations.",
+        "Group Ankou where practical and cast Burst or Barrage spells.",
+        "Expect the task to finish quickly, even when extended.",
+        "Remember Salve necklace effects do not apply to secondary monsters hit by area-of-effect spells.",
+        "In Catacombs, use Bonecrusher for Prayer restoration from buried bones."
+      ],
+      "risks": [
+        "Wilderness Slayer Cave adds player-killing risk.",
+        "Area-of-effect spells consume assignments quickly and cost runes."
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Kodai wand",
+            "Ancient sceptre",
+            "Nightmare staff",
+            "Master wand",
+            "Ancient staff"
+          ],
+          "neck": [
+            "Salve amulet (ei)",
+            "Occult necklace"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "multicombat-ranged",
+      "label": "Multicombat ranged",
+      "combatStyle": "RANGED",
+      "role": "aoe",
+      "summary": "Venator bow is viable in multicombat Ankou areas and can clear even extended assignments quickly.",
+      "recommendedFor": [
+        "Catacombs of Kourend",
+        "Wilderness Slayer Cave",
+        "players with Venator bow"
+      ],
+      "requiredOrKeyItems": [
+        "Venator bow",
+        "Slayer helmet or Salve amulet",
+        "Ectoplasmator",
+        "Bonecrusher in Catacombs"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use Venator bow in Catacombs or Wilderness Slayer Cave to bounce between nearby Ankou.",
+        "Keep Protect from Melee active if taking damage.",
+        "Use Bonecrusher in Catacombs for Prayer restoration.",
+        "Expect rapid task completion."
+      ],
+      "risks": [
+        "Wilderness Slayer Cave adds player-killing risk.",
+        "The task can end very quickly when using Venator bow in multicombat."
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Venator bow"
+          ],
+          "neck": [
+            "Salve amulet (ei)",
+            "Necklace of anguish"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "cannon",
+      "label": "Cannon",
+      "role": "speed",
+      "summary": "Cannon can speed up Ankou tasks in every listed location except the Catacombs of Kourend.",
+      "recommendedFor": [
+        "Stronghold of Security",
+        "Stronghold Slayer Cave",
+        "Wilderness Slayer Cave",
+        "The Forgotten Cemetery",
+        "Deepfin Mine"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs"
+      ],
+      "steps": [
+        "Use a cannon when the location allows it and the higher cost is acceptable.",
+        "Do not use cannon in the Catacombs of Kourend because it is not allowed there.",
+        "Stronghold Slayer Cave and Wilderness Slayer Cave are explicitly useful cannon locations from the variant notes."
+      ],
+      "risks": [
+        "Higher cost than melee-only task completion.",
+        "Wilderness cannoning increases exposure to player killers."
+      ]
+    },
+    {
+      "methodId": "wilderness",
+      "label": "Wilderness",
+      "combatStyle": "MELEE",
+      "role": "wilderness",
+      "summary": "Keep risk low in Wilderness Slayer Cave or The Forgotten Cemetery, bring a one-click teleport, and watch Wilderness level restrictions.",
+      "recommendedFor": [
+        "Krystilia tasks",
+        "Wilderness Slayer Cave",
+        "The Forgotten Cemetery"
+      ],
+      "requiredOrKeyItems": [
+        "One-click teleport",
+        "Royal seed pod",
+        "Low-risk gear",
+        "Optional cannon"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Protect Item when risking an extra item"
+      ],
+      "steps": [
+        "Minimise risk before entering the Wilderness.",
+        "Carry a one-click teleport usable in the 20-30 Wilderness range, such as a Royal seed pod.",
+        "Remember Wilderness Slayer Cave Ankou straddle level 20 Wilderness.",
+        "Remember Forgotten Cemetery Ankou straddle level 30 Wilderness.",
+        "Leave quickly if player killers appear."
+      ],
+      "risks": [
+        "Player killing hotspots.",
+        "Teleport restrictions become more dangerous around level 30 Wilderness."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Fast, low-cost default for Ankou tasks, especially in single-combat areas.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Abyssal whip",
+            "Abyssal tentacle",
+            "Zombie axe",
+            "Dragon scimitar"
+          ],
+          "neck": [
+            "Salve amulet (ei)",
+            "Salve amulet (e)",
+            "Salve amulet (i)",
+            "Salve amulet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic",
+      "label": "Magic",
+      "combatStyle": "MAGIC",
+      "role": "aoe",
+      "summary": "Burst or Barrage Ankou in Catacombs or Wilderness Slayer Cave for a fast assignment.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Kodai wand",
+            "Ancient sceptre",
+            "Nightmare staff",
+            "Master wand",
+            "Ancient staff"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "aoe",
+      "summary": "Venator bow is the relevant ranged method in multicombat Ankou areas.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Venator bow"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "brimhaven-dungeon-metal-dragons-task-only",
+  "name": "Brimhaven Dungeon (task-only metal dragons)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Task-only area with 5 bronze, 9 iron, and 9 steel dragons. Requires dungeon access payment and an axe from the north entrance; Elite Karamja Diary can toggle noted bar drops."
+}

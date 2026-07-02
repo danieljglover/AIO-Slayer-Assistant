@@ -1,0 +1,11 @@
+{
+  "locationId": "wyvern-cave-fossil-island",
+  "name": "Wyvern Cave (Fossil Island)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Regular Fossil Island Wyvern Cave entrance east of Museum Camp. Contains 4 Spitting, 4 Taloned, 4 Long-tailed, and 2 Ancient Wyverns; no multicombat, cannon, or safespot support. A Fossil Storage box is by the entrance."
+}

@@ -1,0 +1,130 @@
+{
+  "taskId": "wolves",
+  "name": "Wolves",
+  "wikiPageId": 16539,
+  "combatLevel": 20,
+  "slayerTargetId": 305,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "turael": 7,
+    "spria": 7,
+    "mazchna": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "wolves"
+  ],
+  "variantIds": [
+    "wolf-lvl25",
+    "white-wolf",
+    "big-wolf"
+  ],
+  "defaultVariantId": "wolf-lvl25",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 16,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "white-wolf-mountain"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "wolf-lvl25",
+      "name": "Wolf",
+      "combatLevel": 25,
+      "slayerXp": 34,
+      "locations": [
+        "White Wolf Mountain",
+        "Feldip Hills",
+        "Fremennik Province"
+      ],
+      "notes": [
+        "The level-25 Wolf (npc 110) on White Wolf Mountain has 20 Hitpoints, max hit 3 (stab), a 4-tick attack and gives 34 Slayer XP; it is the representative default.",
+        "Other wolf levels also count: level 11 (10 HP, 10 XP), level 14 (10 HP, 15 XP) and level 64 (52 HP, 69 XP)."
+      ]
+    },
+    {
+      "variantId": "white-wolf",
+      "name": "White wolf",
+      "combatLevel": 25,
+      "slayerXp": 34,
+      "locations": [
+        "White Wolf Mountain"
+      ],
+      "notes": [
+        "White wolves (npcs 107-108) have 34 Hitpoints, max hit 3 (stab), Defence 22 and give 34 Slayer XP."
+      ]
+    },
+    {
+      "variantId": "big-wolf",
+      "name": "Big wolf",
+      "combatLevel": 73,
+      "slayerXp": 74,
+      "locations": [
+        "White Wolf Mountain",
+        "Feldip Hills"
+      ],
+      "notes": [
+        "Big wolves (npcs 109/115) have 74 Hitpoints, max hit 7 (stab), Defence 62 and give 74 Slayer XP; they are the toughest wolf variant."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "white-wolf-mountain",
+      "name": "White Wolf Mountain",
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "White Wolf Mountain (between Taverley and Catherby) has a dense pack of wolves, white wolves and big wolves.",
+        "No single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Wolves are assigned by Turael, Spria and Mazchna (Turael/Spria 15-30, Mazchna 30-50; weight 7 each).",
+    "A combat level of 20 is required to be assigned wolves (mapped to combatLevel).",
+    "slayerTargetId 305 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Wolves have a 25% weakness to fire spells (20% for Big wolves, added 25 June 2025); their melee/ranged Defence bonuses are all +0, so any weapon is accurate but fire magic exploits the elemental weakness.",
+    "Representative variants authored: Wolf (level 25, default), White wolf (level 25) and Big wolf (level 73). Other wolf levels (11/14/64) count and are documented in variantInfo/notes.",
+    "No required protective item and no task extension unlock exist for Wolves."
+  ],
+  "recommendedMethod": "A fast starter task once you reach combat level 20: kill the wolves on White Wolf Mountain between Taverley and Catherby. Their Defence bonuses are all +0 so any melee weapon lands reliably; fire spells (Fire Strike/Bolt/Blast) exploit the 25% fire weakness if you are training Magic. Bring a little food for the level-64 and Big wolf variants."
+}

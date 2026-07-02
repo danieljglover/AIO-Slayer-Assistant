@@ -1,0 +1,11 @@
+{
+  "locationId": "karuulm-slayer-dungeon-greater-demons",
+  "name": "Karuulm Slayer Dungeon - Greater demons",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Greater demon area with a safespot between two stone chests on the northern side. Stone boots or equivalent heat protection are required unless the relevant diary protection applies."
+}

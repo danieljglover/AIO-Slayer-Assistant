@@ -1,0 +1,29 @@
+{
+  "variantId": "dagannoth-fledgeling",
+  "name": "Dagannoth fledgeling",
+  "npcIds": [
+    2264
+  ],
+  "combatLevel": 70,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Waterbirth Island / Lighthouse (Horror from the Deep area)",
+  "requirement": "none (counts as Dagannoth, yields 0 slayer XP)",
+  "bossId": null,
+  "strategyId": "dagannoth"
+}

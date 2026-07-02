@@ -1,0 +1,11 @@
+{
+  "locationId": "temple-of-ikov",
+  "name": "Temple of Ikov",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Temple of Ikov holds 3 Lesser demons; multicombat, cannonable and safespottable. Requires a shiny key and partial Temple of Ikov to reach."
+}

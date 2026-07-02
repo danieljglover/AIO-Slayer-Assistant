@@ -1,0 +1,69 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = 'https://repo.runelite.net'
+    }
+    mavenCentral()
+}
+
+def runeLiteVersion = 'latest.release'
+
+dependencies {
+    compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
+
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
+    testImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.mockito:mockito-core:3.12.4'
+    testImplementation 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+}
+
+group = 'com.danieljglover.allinslayer'
+version = '1.0-SNAPSHOT'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+    options.release.set(11)
+}
+
+tasks.register('run', JavaExec) {
+    dependsOn 'build'
+    mainClass = 'com.danieljglover.allinslayer.AllInSlayerPluginTest'
+    classpath = sourceSets.main.runtimeClasspath + sourceSets.test.runtimeClasspath
+    jvmArgs '-ea'
+}
+
+def generatedSlayerDataDir = layout.buildDirectory.dir('generated/resources/slayer')
+
+sourceSets {
+    main {
+        resources {
+            srcDir generatedSlayerDataDir
+        }
+    }
+}
+
+tasks.register('generateSlayerData', JavaExec) {
+    dependsOn 'compileJava'
+    mainClass = 'com.danieljglover.allinslayer.data.source.ModularSlayerDataCli'
+    classpath = sourceSets.main.output.classesDirs + configurations.compileClasspath
+    args file('src/main/data/slayer').absolutePath,
+        generatedSlayerDataDir.get().file('data/slayer-data.json').asFile.absolutePath,
+        generatedSlayerDataDir.get().file('data/slayer-meta.json').asFile.absolutePath
+}
+
+tasks.named('processResources') {
+    dependsOn 'generateSlayerData'
+}
+
+tasks.named('test') {
+    dependsOn 'generateSlayerData'
+}

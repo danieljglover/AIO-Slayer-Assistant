@@ -1,0 +1,11 @@
+{
+  "locationId": "revenant-caves",
+  "name": "Revenant Caves",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "The Revenant Caves sit in the Wilderness (levels 17-40), entered from the Wilderness or via the Ferox Enclave shortcut. The caves are singles-plus combat, so a dwarf multicannon cannot be placed and player killers can attack you while you fight a revenant. Safe-spotting is not wiki-documented and treated conservatively as false. Bring only low-risk gear and a one-click escape teleport."
+}

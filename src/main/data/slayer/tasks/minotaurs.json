@@ -1,0 +1,94 @@
+{
+  "taskId": "minotaurs",
+  "name": "Minotaur",
+  "wikiPageId": 12310,
+  "combatLevel": 7,
+  "slayerTargetId": 296,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria"
+  ],
+  "amountByMaster": {
+    "turael": [
+      10,
+      20
+    ],
+    "spria": [
+      10,
+      20
+    ]
+  },
+  "weightByMaster": {
+    "turael": 7,
+    "spria": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "minotaur"
+  ],
+  "variantIds": [
+    "minotaur"
+  ],
+  "defaultVariantId": "minotaur",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 10,
+    "stab": -21,
+    "slash": -21,
+    "crush": -21,
+    "magic": -21,
+    "range": -21
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "stronghold-of-security-minotaurs"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "minotaur",
+      "name": "Minotaur",
+      "combatLevel": 12,
+      "slayerXp": 11.0,
+      "locations": [
+        "Stronghold of Security (Vault of War, first level)"
+      ],
+      "notes": [
+        "NPC ids 2481/2482/2483; combat level 12, 10 Hitpoints, max hit 2, 4-tick melee (crush).",
+        "Defence 10 with all defensive bonuses -21, so every style hits them easily; no elemental weakness.",
+        "Free-to-play; found on the first level of the Stronghold of Security beneath Barbarian Village."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "stronghold-of-security-minotaurs",
+      "name": "Stronghold of Security (Minotaurs)",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Minotaurs spawn densely in the Vault of War (first level) of the Stronghold of Security.",
+        "Multi, cannon and safespot status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 296 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Minotaurs is not wiki-published; QA live-verify.",
+    "Assigned by Turael (10-20) and Spria (10-20) in this dataset; no Slayer level required (slayerLevel 1). Their combat-level threshold is around 7.",
+    "All defensive bonuses are -21, so any combat style is highly accurate against them; there is no elemental weakness (weakness.element honest null).",
+    "Free-to-play task on the first level (Vault of War) of the Stronghold of Security. Uses a tuned copy stronghold-of-security-minotaurs rather than the Ankou-specific base file (whose safespot/konarLockable/cannon flags do not apply)."
+  ],
+  "recommendedMethod": "Minotaurs are a free-to-play Turael/Spria task on the first level (Vault of War) of the Stronghold of Security beneath Barbarian Village. Their defensive bonuses are all -21, so any weapon is extremely accurate - bring whatever you train with and a Slayer helmet. Their max hit is only 2, so barely any food is needed; they are ideal early combat and Slayer training."
+}

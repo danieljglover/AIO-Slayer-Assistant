@@ -1,0 +1,29 @@
+{
+  "variantId": "skotizo",
+  "name": "Skotizo",
+  "npcIds": [
+    7286
+  ],
+  "combatLevel": 321,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 200,
+    "stab": 80,
+    "slash": 80,
+    "crush": 80,
+    "magic": 80,
+    "range": 130
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Skotizo's Lair, beneath Catacombs of Kourend",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "skotizo"
+}

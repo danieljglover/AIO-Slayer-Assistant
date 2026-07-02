@@ -1,0 +1,30 @@
+{
+  "variantId": "cave-kraken",
+  "name": "Cave kraken",
+  "npcIds": [
+    492,
+    493
+  ],
+  "combatLevel": 127,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -63,
+    "range": 100
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Kraken Cove",
+  "requirement": "must attack the whirlpool to surface the kraken; magic only",
+  "bossId": null,
+  "strategyId": "cave-kraken"
+}

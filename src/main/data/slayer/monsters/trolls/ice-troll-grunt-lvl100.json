@@ -1,0 +1,31 @@
+{
+  "variantId": "ice-troll-grunt",
+  "name": "Ice troll grunt",
+  "npcIds": [
+    1877,
+    5831
+  ],
+  "combatLevel": 100,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 60,
+    "stab": 30,
+    "slash": 60,
+    "crush": 30,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Isles / Ice Troll Caves",
+  "locationId": "fremennik-isles-ice-trolls",
+  "requirement": "The Fremennik Trials (Jatizso access)",
+  "bossId": null,
+  "strategyId": "trolls"
+}

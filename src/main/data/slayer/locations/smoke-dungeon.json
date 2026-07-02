@@ -1,0 +1,11 @@
+{
+  "locationId": "smoke-dungeon",
+  "name": "Smoke Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Beneath the Kharidian Desert via the smoky well near Pollnivneach (not Wilderness). A facemask or Slayer helmet is needed for the smoke; dust devils here can be safespotted."
+}

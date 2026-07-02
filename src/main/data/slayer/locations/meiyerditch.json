@@ -1,0 +1,11 @@
+{
+  "locationId": "meiyerditch",
+  "name": "Meiyerditch",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires starting Darkness of Hallowvale. Contains Vampyre Juvinates and many Vyrewatch across the city."
+}

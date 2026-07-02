@@ -1,0 +1,11 @@
+{
+  "locationId": "hobgoblin-area",
+  "name": "Hobgoblin area",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Hobgoblins in the Edgeville Dungeon (non-Wilderness section) and on the peninsula west of the Crafting Guild. Not the Wilderness hobgoblin spawns. Multi, cannon and safespot status are not wiki-stated and left conservative (false)."
+}

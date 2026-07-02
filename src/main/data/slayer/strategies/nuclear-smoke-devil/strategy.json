@@ -1,0 +1,222 @@
+{
+  "strategyId": "nuclear-smoke-devil",
+  "variantIds": [
+    "nuclear-smoke-devil"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Smoke_devil/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "kodai-wand",
+      "volatile-nightmare-staff",
+      "nightmare-staff",
+      "dragon-hunter-wand",
+      "ancient-sceptre",
+      "blue-moon-spear",
+      "accursed-sceptre"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "crystal-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "saradomin-godsword",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Nuclear smoke devil uses the same Smoke devil Ice Barrage and cannon guide, with extra attention to the superior spawn. Keep facemask or Slayer helmet equipped and Protect from Missiles active."
+  },
+  "requirements": [
+    "93 Slayer",
+    "Active Smoke devils Slayer task",
+    "Bigger and Badder unlock for 50 Slayer reward points",
+    "40 Prayer for Protect from Missiles",
+    "Facemask or Slayer helmet for smoke protection",
+    "94 Magic for Ice Barrage; Ice Burst can be used at lower Magic",
+    "Dwarf multicannon and cannonballs for efficient grouping"
+  ],
+  "mechanics": [
+    "Nuclear smoke devil is the superior variant of the Smoke devil.",
+    "It can spawn after a Smoke devil dies when Bigger and Badder is unlocked.",
+    "It attacks with magical ranged and is handled with the same smoke protection and Protect from Missiles plan as normal Smoke devils.",
+    "It has 240 Hitpoints, high Defence, very high magic defence bonus, and a 20% Air elemental weakness.",
+    "Superior slayer monsters always roll three additional items, with only one roll eligible for the superior unique table."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-transportation",
+      "label": "Requirements and transportation",
+      "combatStyle": "MAGIC",
+      "role": "setup",
+      "summary": "Use the normal Smoke devil route and supplies, with Bigger and Badder unlocked for superior spawns.",
+      "requiredOrKeyItems": [
+        "Facemask or Slayer helmet",
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Rune pouch",
+        "Ring of dueling",
+        "Teleport to house"
+      ],
+      "steps": [
+        "Bank at Castle Wars and run south-west to the Smoke Devil Dungeon entrance, or use fairy ring BKP.",
+        "Equip a facemask or Slayer helmet before combat.",
+        "Place the cannon in the main room as normal; the superior appears from regular Smoke devil kills.",
+        "Keep a teleport and restoration route available because the superior has much higher stats than the regular monster."
+      ]
+    },
+    {
+      "methodId": "smoke-protection",
+      "label": "Smoke protection",
+      "combatStyle": "MAGIC",
+      "role": "survival",
+      "summary": "Keep smoke protection and Protect from Missiles active during the superior spawn.",
+      "requiredOrKeyItems": [
+        "Facemask",
+        "Slayer helmet",
+        "Prayer potion"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Keep Protect from Missiles active because Nuclear smoke devil uses magical ranged.",
+        "Keep the facemask or Slayer helmet equipped throughout the kill.",
+        "Avoid misclicking rune full helm drops or unequipping the Slayer helmet while the superior is active.",
+        "Eat or teleport if the spawn disrupts the barrage stack and multiple monsters are attacking."
+      ]
+    },
+    {
+      "methodId": "cannon-barrage-grouping",
+      "label": "Cannon barrage grouping",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Continue the normal cannon and barrage setup, focusing the superior when it appears.",
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Ice Barrage",
+        "Ice Burst",
+        "Kodai wand",
+        "Ancient Magicks autocast staff"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Keep the cannon in the centre of the room and maintain the grouped stack around the skeleton to the west.",
+        "When a Nuclear smoke devil spawns, keep Protect from Missiles and face protection active.",
+        "Continue using Ice Barrage or Ice Burst; the superior has a 20% Air elemental weakness but the normal guide remains Magic-focused.",
+        "Rebuild the stack after the superior dies if the fight split the lured Smoke devils."
+      ],
+      "risks": [
+        "The superior has much higher Defence and max hit than regular Smoke devils.",
+        "Losing prayer or face protection during the superior spawn is dangerous."
+      ]
+    },
+    {
+      "methodId": "magic-equipment",
+      "label": "Magic equipment",
+      "combatStyle": "MAGIC",
+      "role": "damage",
+      "summary": "Use the same Ancient Magicks autocast and magic-damage equipment as the regular Smoke devil guide.",
+      "requiredOrKeyItems": [
+        "Slayer helmet (i)",
+        "Facemask",
+        "Occult necklace",
+        "Kodai wand",
+        "Volatile nightmare staff",
+        "Nightmare staff",
+        "Dragon hunter wand",
+        "Ancient sceptre",
+        "Blue moon spear",
+        "Accursed sceptre",
+        "Virtus robes",
+        "Ancestral robes",
+        "Bracelet of slaughter"
+      ],
+      "steps": [
+        "Use Kodai wand where available because it can autocast Ancient Magicks, gives +15% magic damage, provides infinite water runes, and can save runes.",
+        "Use Volatile nightmare staff, Nightmare staff, Dragon hunter wand, Ancient sceptre, Blue moon spear, or Accursed sceptre as downgrade paths.",
+        "Use Slayer helmet (i) on task, or a facemask only when not using the helmet.",
+        "Use Virtus, Ancestral, Ahrim's, Dagon'hai, or Infinity robes based on budget.",
+        "Prefer Bracelet of slaughter for task-length and Slayer experience goals."
+      ]
+    },
+    {
+      "methodId": "superior-handling",
+      "label": "Superior handling",
+      "combatStyle": "MAGIC",
+      "role": "superior",
+      "summary": "Treat the Nuclear smoke devil as a high-value superior spawn during normal barrage tasks.",
+      "recommendedFor": [
+        "Players hunting imbued heart",
+        "Players hunting eternal gem",
+        "Players with Bigger and Badder unlocked"
+      ],
+      "requiredOrKeyItems": [
+        "Prayer potion",
+        "Teleport out",
+        "High-healing food if not fully comfortable"
+      ],
+      "steps": [
+        "When a Nuclear smoke devil spawns, keep it under Protect from Missiles and continue attacking with Magic.",
+        "Prioritise finishing the superior because it has valuable superior-table rolls and high Slayer XP.",
+        "Keep enough prayer points for the full superior kill.",
+        "Teleport if face protection or prayer mistakes put the account at risk.",
+        "After the superior dies, resume the normal cannon-barrage grouping method."
+      ],
+      "risks": [
+        "The superior's high Defence can make the kill much longer than a regular Smoke devil.",
+        "The regular stack can still pressure the player if prayer drops."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MAGIC",
+      "role": "trip-planning",
+      "summary": "Carry the same barrage inventory while preserving space for superior-table drops.",
+      "inventory": [
+        "Dwarf multicannon parts",
+        "Steel cannonballs",
+        "Prayer potions",
+        "Bracelet of slaughter swaps",
+        "Saturated heart or other Magic boost",
+        "Rune pouch with water, blood, and death runes",
+        "Teleport to house or ring of dueling",
+        "Herb sack"
+      ],
+      "steps": [
+        "Bring enough cannonballs and runes for regular kills plus possible superior spawns.",
+        "Keep space for imbued heart, eternal gem, occult necklace, and other superior-table drops.",
+        "Use Bracelet of slaughter to increase regular kill count and therefore superior spawn opportunities.",
+        "Bank when supplies are too low to safely handle a Nuclear smoke devil spawn."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ice-barrage-cannon",
+      "label": "Ice Barrage cannon",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Kodai wand or other Ancient Magicks autocast staff with cannon grouping."
+    },
+    {
+      "styleId": "ice-burst-budget",
+      "label": "Ice Burst budget",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Lower-Magic version of the same cannon grouping method using Ice Burst."
+    },
+    {
+      "styleId": "ranged-lure-ironman",
+      "label": "Ranged lure ironman",
+      "combatStyle": "RANGED",
+      "role": "fallback",
+      "summary": "Manual ranged lure with a weapon such as Magic shortbow; slower and mainly useful for some ironman accounts."
+    }
+  ],
+  "body": "# Nuclear smoke devil\n\nSuperior Smoke devil variant. Use the same Ice Barrage or Ice Burst cannon method as regular Smoke devils, but preserve prayer, face protection, and teleport safety for the longer superior kill."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "dwarven-mine",
+  "name": "Dwarven Mine",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Dwarves count both dwarves and Black Guards. Dwarves swarm the free-to-play Dwarven Mine (36 spawns, beneath Ice Mountain / Falador), Ice Mountain surface (14 spawns), the Mining Guild surface (3 spawns) and Lovakengj (21 spawns, members). Black Guards (level 25) are on Ice Mountain (4 spawns); the level 48 Black Guard form is in Keldagrim (6 spawns). Multi, cannon and safespot availability are not wiki-confirmed for these spots (conservative defaults)."
+}

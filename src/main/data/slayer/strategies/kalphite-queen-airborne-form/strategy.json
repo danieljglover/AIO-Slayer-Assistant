@@ -1,0 +1,140 @@
+{
+  "strategyId": "kalphite-queen-airborne-form",
+  "variantIds": [
+    "kalphite-queen-airborne-form"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Queen/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "tumeken-s-shadow",
+      "eye-of-ayak"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Phase 2 airborne form has Protect from Melee active as defence only. Tumeken's shadow can zero-switch both phases; otherwise ranged is preferred."
+  },
+  "requirements": [
+    "Kalphite Queen boss access.",
+    "Use Slayer helmet (i) when killing her on a Kalphite task with Magic or Ranged.",
+    "Bring phase-one melee gear unless using a zero-switch Shadow setup."
+  ],
+  "mechanics": [
+    "The airborne second form has Protect from Melee active as a defence indicator rather than full immunity.",
+    "The airborne form has much lower Magic and Ranged defence than melee defence.",
+    "Tumeken's shadow can be used as a low-switch approach for both forms.",
+    "Ranged weapons are a common alternative for the airborne form."
+  ],
+  "methods": [
+    {
+      "methodId": "phase-two-magic-ranged",
+      "label": "Phase 2 Magic or Ranged",
+      "combatStyle": "MAGIC",
+      "role": "phase-two",
+      "summary": "Use Tumeken's shadow or a ranged weapon for the airborne form after the crawling form dies.",
+      "recommendedFor": [
+        "Kalphite Queen second form",
+        "players using Magic or Ranged switches"
+      ],
+      "requiredOrKeyItems": [
+        "Tumeken's shadow",
+        "Eye of ayak",
+        "Toxic blowpipe",
+        "Twisted bow",
+        "Bow of faerdhinen",
+        "Slayer helmet (i)"
+      ],
+      "steps": [
+        "After the crawling form dies, wait through the transformation into the airborne form.",
+        "Use Tumeken's shadow for the Magic approach, especially if using a low-switch setup.",
+        "Use Toxic blowpipe, Twisted bow, or Bow of faerdhinen as ranged alternatives.",
+        "Keep Protect from Magic active and heal before falling below 31 Hitpoints."
+      ],
+      "notes": [
+        "This JSON migrates the previous Kalphite Queen airborne-form Markdown strategy."
+      ]
+    },
+    {
+      "methodId": "phase-two-walk-under",
+      "label": "Phase 2 walk-under",
+      "combatStyle": "MAGIC",
+      "role": "phase-two",
+      "summary": "Walk under the Queen as soon as phase two begins, then attack with Shadow, magic, or ranged while limiting extra attacks.",
+      "recommendedFor": [
+        "airborne form kills",
+        "players reducing incoming damage between attacks"
+      ],
+      "requiredOrKeyItems": [
+        "Tumeken's shadow",
+        "Eye of ayak",
+        "Toxic blowpipe",
+        "Twisted bow",
+        "Bow of faerdhinen",
+        "Food"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "As the airborne form appears, walk under the Queen before she gets an extra attack.",
+        "Step out to attack with Tumeken's shadow, Eye of ayak, or ranged weapons.",
+        "Step back under when eating or when waiting for the next attack cycle.",
+        "Use a DPS calculator or local gear knowledge to decide whether melee is accurate enough; magic or ranged is usually preferred."
+      ],
+      "risks": [
+        "Her ranged and magic attacks always roll successful hits.",
+        "Nearby cocoons can hatch Kalphite Workers when the Queen is hit."
+      ],
+      "notes": [
+        "Protect from Magic remains preferred in phase two.",
+        "Magic can be used for both phases with Shadow to reduce switches."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic-shadow",
+      "label": "Magic Shadow",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Magic setup for the airborne form using Tumeken's shadow or Eye of ayak.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow",
+            "Eye of ayak"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Ranged setup for the airborne form.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Twisted bow",
+            "Bow of faerdhinen"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Kalphite Queen (airborne form)\n\nPhase 2 airborne form has Protect from Melee active as defence only. Tumeken's shadow can zero-switch both phases; otherwise ranged is preferred."
+}

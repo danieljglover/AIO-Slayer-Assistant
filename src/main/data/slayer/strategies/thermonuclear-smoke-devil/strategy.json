@@ -1,0 +1,155 @@
+{
+  "strategyId": "thermonuclear-smoke-devil",
+  "variantIds": [
+    "boss-thermonuclear-smoke-devil",
+    "smoke-devils-thermonuclear-smoke-devil"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Thermonuclear_smoke_devil/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "tumeken-s-shadow",
+      "eye-of-ayak",
+      "harmonised-nightmare-staff",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "kodai-wand",
+      "nightmare-staff",
+      "ancient-sceptre"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-claws",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Air spells hit a 20% elemental weakness; the fastest method is magic. A facemask/Slayer helmet is required."
+  },
+  "requirements": [
+    "Access to Thermonuclear Smoke Devil's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Air spells hit a 20% elemental weakness; the fastest method is magic. A facemask/Slayer helmet is required.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Air spells hit a 20% elemental weakness; the fastest method is magic. A facemask/Slayer helmet is required.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "tumeken-s-shadow",
+        "eye-of-ayak",
+        "harmonised-nightmare-staff",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "kodai-wand",
+        "nightmare-staff",
+        "ancient-sceptre",
+        "dragon-claws"
+      ],
+      "steps": [
+        "Air spells hit a 20% elemental weakness; the fastest method is magic. A facemask/Slayer helmet is required."
+      ]
+    },
+    {
+      "methodId": "magic-smoke-devil-kill",
+      "label": "Magic smoke devil kill",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Use magic and air spells where appropriate while wearing smoke protection.",
+      "recommendedFor": [
+        "Thermonuclear smoke devil tasks",
+        "players using high-end magic"
+      ],
+      "requiredOrKeyItems": [
+        "Facemask or Slayer helmet",
+        "Tumeken's shadow",
+        "Trident of the swamp",
+        "Kodai wand"
+      ],
+      "prayers": [
+        "Protect from Ranged or relevant defensive prayer",
+        "Augury"
+      ],
+      "steps": [
+        "Wear a facemask, Slayer helmet, or equivalent smoke protection before entering.",
+        "Use magic as the primary style, taking advantage of the air weakness where casting spells.",
+        "Keep distance and attack continuously while monitoring health.",
+        "Use task bonuses from Slayer helmet when assigned."
+      ],
+      "risks": [
+        "Entering without smoke protection is unsafe.",
+        "The boss can deal steady damage during long kills."
+      ]
+    },
+    {
+      "methodId": "pool-and-sustain-methods",
+      "label": "Pool and sustain methods",
+      "combatStyle": "MAGIC",
+      "role": "sustain",
+      "summary": "Choose between fast high-damage kills and lower-effort sustain methods depending on supplies and account gear.",
+      "recommendedFor": [
+        "extended trips",
+        "players balancing supply cost"
+      ],
+      "requiredOrKeyItems": [
+        "Food",
+        "Prayer potions",
+        "House teleport or bank route"
+      ],
+      "steps": [
+        "Use high-damage magic for fastest kills when supplies allow.",
+        "Reset through a nearby bank or house pool route when food or prayer is low.",
+        "Keep the smoke-protection item equipped through the whole trip."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Thermonuclear Smoke Devil setup using Tumeken's shadow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow",
+            "Eye of ayak",
+            "Harmonised nightmare staff",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Kodai wand",
+            "Nightmare staff",
+            "Ancient sceptre"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Thermonuclear Smoke Devil when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon claws"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Thermonuclear smoke devil\n\nAir spells hit a 20% elemental weakness; the fastest method is magic. A facemask/Slayer helmet is required."
+}

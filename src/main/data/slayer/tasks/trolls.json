@@ -1,0 +1,520 @@
+{
+  "taskId": "trolls",
+  "name": "Trolls",
+  "wikiPageId": 298280,
+  "combatLevel": 60,
+  "slayerTargetId": 235,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7,
+    "chaeldar": 11,
+    "konar": 6,
+    "nieve": 6,
+    "duradel": 6
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "trolls"
+  ],
+  "variantIds": [
+    "river-troll",
+    "thrower-troll",
+    "thrower-troll-trollheim",
+    "mountain-troll",
+    "troll-spectator",
+    "twig",
+    "berry",
+    "ice-troll-runt",
+    "ice-troll-male",
+    "ice-troll-female",
+    "pee-hat",
+    "kraka",
+    "dad",
+    "ice-troll-grunt",
+    "stick",
+    "rock-troll",
+    "troll-general",
+    "arrg",
+    "ice-troll",
+    "ice-troll-king"
+  ],
+  "defaultVariantId": "mountain-troll",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 0,
+    "crush": 10,
+    "magic": 200,
+    "range": 40
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "enchanted-valley-river-troll",
+    "fremennik-isles-ice-trolls",
+    "keldagrim-entrance-trolls",
+    "mount-quidamortem-north-east-trolls",
+    "mount-quidamortem-south-west-trolls",
+    "death-plateau-trolls",
+    "troll-stronghold-outside-trolls"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "river-troll",
+      "name": "River troll",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "Enchanted Valley"
+      ],
+      "notes": [
+        "Combat levels are 14-159 and scale with the player's combat level.",
+        "Slayer XP is 1, 1, 1, 2, 3, or 4 on the monster page; the task table lists 3-5.",
+        "River trolls spawn when fishing in the Enchanted Valley.",
+        "It is highly recommended not to slay Enchanted Valley river trolls because they provide severely reduced experience for both combat and Slayer."
+      ]
+    },
+    {
+      "variantId": "thrower-troll",
+      "name": "Thrower Troll",
+      "combatLevel": 67,
+      "slayerXp": 95,
+      "locations": [
+        "Death Plateau"
+      ],
+      "notes": [
+        "Death Plateau thrower trolls use Ranged and Crush and their ranged attacks are always successful.",
+        "The task page notes a possible Death Plateau cannon placement for thrower trolls.",
+        "Protect from Missiles is highly recommended while running through the Death Plateau canyon."
+      ]
+    },
+    {
+      "variantId": "thrower-troll-trollheim",
+      "name": "Thrower troll (Trollheim)",
+      "combatLevel": 68,
+      "slayerXp": 95,
+      "locations": [
+        "Trollheim"
+      ],
+      "notes": [
+        "Trollheim thrower trolls only drop bones, including long bones and curved bones.",
+        "They attack with Ranged and are aggressive."
+      ]
+    },
+    {
+      "variantId": "mountain-troll",
+      "name": "Mountain troll",
+      "combatLevel": null,
+      "slayerXp": 90,
+      "locations": [
+        "Death Plateau",
+        "Trollheim",
+        "Keldagrim entrance tunnel",
+        "South of Mount Quidamortem",
+        "Troll Stronghold"
+      ],
+      "notes": [
+        "Combat levels are 69, 71.",
+        "Mountain trolls have Fire and Earth elemental weaknesses depending on version; the level 69 page lists 50% Fire and the level 71 page lists 50% Earth.",
+        "They are slightly resistant to crush attacks but equally weak to stab and slash.",
+        "They can be completely negated through Protect from Melee.",
+        "Mount Quidamortem has two groups of seven mountain trolls and can be reached with Xeric's Honour, the Lovakengj minecart network, or nearby fairy ring routes."
+      ]
+    },
+    {
+      "variantId": "troll-spectator",
+      "name": "Troll spectator",
+      "combatLevel": 71,
+      "slayerXp": 90,
+      "locations": [
+        "Troll arena"
+      ],
+      "notes": [
+        "Troll spectators are task-counting Troll arena trolls.",
+        "They are non-aggressive and have the same broad stat family as level 71 mountain trolls."
+      ]
+    },
+    {
+      "variantId": "twig",
+      "name": "Twig",
+      "combatLevel": 71,
+      "slayerXp": 90,
+      "locations": [
+        "Troll Stronghold lower level"
+      ],
+      "notes": [
+        "Twig guards the prison in Troll Stronghold and holds cell key 1.",
+        "Twig has awake and sleeping versions; both are level 71 trolls."
+      ]
+    },
+    {
+      "variantId": "berry",
+      "name": "Berry",
+      "combatLevel": 71,
+      "slayerXp": 90,
+      "locations": [
+        "Troll Stronghold bottom level"
+      ],
+      "notes": [
+        "Berry guards the prison in Troll Stronghold and can provide cell key 2.",
+        "Berry may be fought or pickpocketed during Troll Stronghold."
+      ]
+    },
+    {
+      "variantId": "ice-troll-runt",
+      "name": "Ice troll runt",
+      "combatLevel": 74,
+      "slayerXp": 63,
+      "locations": [
+        "Fremennik Isles",
+        "Ice Troll Caves",
+        "Jatizso mine"
+      ],
+      "notes": [
+        "Ice troll runts are the weakest isle trolls.",
+        "On the first island north of Neitiznot, nearby guards help speed up kills and keep many trolls distracted.",
+        "If guards deal the finishing blow, Slayer experience is halved but drops are still received if the player dealt damage.",
+        "Fire spells are recommended because ice trolls have strong fire weakness."
+      ]
+    },
+    {
+      "variantId": "ice-troll-male",
+      "name": "Ice troll male",
+      "combatLevel": 82,
+      "slayerXp": 84,
+      "locations": [
+        "Fremennik Isles",
+        "Ice Troll Caves",
+        "Jatizso mine"
+      ],
+      "notes": [
+        "Ice troll males use melee attacks.",
+        "They are common in the recommended northern Jatizso and Neitiznot area."
+      ]
+    },
+    {
+      "variantId": "ice-troll-female",
+      "name": "Ice troll female",
+      "combatLevel": 82,
+      "slayerXp": 84,
+      "locations": [
+        "Fremennik Isles",
+        "Ice Troll Caves",
+        "Jatizso mine"
+      ],
+      "notes": [
+        "Ice troll females use powerful Ranged attacks.",
+        "A Neitiznot shield reduces the damage from their thrown rocks and is required by the task strategy when killing island ice trolls.",
+        "Their ranged accuracy is high, so prayer and shield handling matter."
+      ]
+    },
+    {
+      "variantId": "pee-hat",
+      "name": "Pee Hat",
+      "combatLevel": 91,
+      "slayerXp": 126,
+      "locations": [
+        "Death Plateau"
+      ],
+      "notes": [
+        "Pee Hat is a named Death Plateau troll hunted by some Ironman accounts for rune warhammer or granite shield drops.",
+        "Protect from Melee blocks the direct melee damage."
+      ]
+    },
+    {
+      "variantId": "kraka",
+      "name": "Kraka",
+      "combatLevel": 91,
+      "slayerXp": 126,
+      "locations": [
+        "Death Plateau"
+      ],
+      "notes": [
+        "Kraka is a named Death Plateau troll hunted by some Ironman accounts for rune warhammer or granite shield drops.",
+        "Kraka is one of the big bad trolls on Death Plateau."
+      ]
+    },
+    {
+      "variantId": "dad",
+      "name": "Dad",
+      "combatLevel": 101,
+      "slayerXp": 126,
+      "locations": [
+        "Troll Arena",
+        "Nightmare Zone"
+      ],
+      "notes": [
+        "Combat level is 101 (201) with the hard value used in Nightmare Zone.",
+        "Dad is a Troll Stronghold quest boss and can be fought in Nightmare Zone after the quest.",
+        "Protect from Melee blocks his damage."
+      ]
+    },
+    {
+      "variantId": "ice-troll-grunt",
+      "name": "Ice troll grunt",
+      "combatLevel": 100,
+      "slayerXp": 84,
+      "locations": [
+        "Fremennik Isles",
+        "Ice Troll Caves"
+      ],
+      "notes": [
+        "The task page table lists Ice troll grunt as 102 combat, while the current monster infobox lists 100.",
+        "The Neitiznot shield reduces the max hit from rocks thrown by trolls."
+      ]
+    },
+    {
+      "variantId": "stick",
+      "name": "Stick",
+      "combatLevel": 104,
+      "slayerXp": 141.5,
+      "locations": [
+        "Death Plateau"
+      ],
+      "notes": [
+        "Stick can be safespotted with Ranged south-west of his spawn location.",
+        "Protect from Melee can completely block his melee damage.",
+        "Stick can drop a rune warhammer or granite shield."
+      ]
+    },
+    {
+      "variantId": "rock-troll",
+      "name": "Rock",
+      "combatLevel": 111,
+      "slayerXp": 150.5,
+      "locations": [
+        "Death Plateau"
+      ],
+      "notes": [
+        "Rock is the biggest and baddest Death Plateau troll.",
+        "Rock attacks faster than Stick and hits harder."
+      ]
+    },
+    {
+      "variantId": "troll-general",
+      "name": "Troll general",
+      "combatLevel": 113,
+      "slayerXp": 150.5,
+      "locations": [
+        "Troll Stronghold"
+      ],
+      "notes": [
+        "Troll generals are scarce, far from the recommended task areas, and have near-nonexistent drops.",
+        "They use slash or crush depending on weapon version."
+      ]
+    },
+    {
+      "variantId": "arrg",
+      "name": "Arrg",
+      "combatLevel": 113,
+      "slayerXp": 150.5,
+      "locations": [
+        "Troll Stronghold middle level",
+        "Nightmare Zone"
+      ],
+      "notes": [
+        "Combat level is 113 (210) with the hard value used in Nightmare Zone.",
+        "Arrg is the Troll Romance quest boss.",
+        "Arrg uses slash and ranged attacks."
+      ]
+    },
+    {
+      "variantId": "ice-troll",
+      "name": "Ice troll",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "Ice Path",
+        "Trollweiss Dungeon"
+      ],
+      "notes": [
+        "Combat levels are 120, 121, 123, 124.",
+        "Slayer XP values are 129, 97, 86, and 86.",
+        "Take caution because Ice Path and Trollweiss ice trolls can cause stat drain.",
+        "The task page advises against killing Ice Path trolls because they are stronger than isle trolls and have poor drops."
+      ]
+    },
+    {
+      "variantId": "ice-troll-king",
+      "name": "Ice Troll King",
+      "combatLevel": 122,
+      "slayerXp": 161,
+      "locations": [
+        "Northern Neitiznot lair",
+        "Nightmare Zone"
+      ],
+      "notes": [
+        "Combat level is 122 (213) with the hard value used in Nightmare Zone.",
+        "The Ice Troll King uses all three attack styles.",
+        "His Magic and Ranged defences are extremely high, so melee is the practical method."
+      ]
+    },
+    {
+      "variantId": "reanimated-troll",
+      "name": "Reanimated troll",
+      "combatLevel": null,
+      "slayerXp": 35,
+      "locations": [
+        "Adept Reanimation"
+      ],
+      "notes": [
+        "Combat level is N/A on the monster page.",
+        "Reanimated trolls are spawned with Adept Reanimation on an ensouled troll head.",
+        "They grant 780 Prayer XP and reduced Slayer XP.",
+        "The monster page assigns them to the Trolls category."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "enchanted-valley-river-troll",
+      "name": "Enchanted Valley",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Summon a River troll above your combat level if you start fishing.",
+        "The area is reached by fairy ring BKQ.",
+        "The task page strongly discourages this option because experience is severely reduced."
+      ]
+    },
+    {
+      "locationId": "fremennik-isles-ice-trolls",
+      "name": "Northern Jatizso and Neitiznot",
+      "amount": null,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains 15 female, 14 male, 4 grunt, and 19 runt ice trolls.",
+        "Better drops than mountain trolls.",
+        "Ice troll females use ranged attacks.",
+        "A Neitiznot shield and prayer are required to reduce damage from ice troll females.",
+        "The bank on Jatizso is slightly closer to the troll area than Neitiznot."
+      ]
+    },
+    {
+      "locationId": "keldagrim-entrance-trolls",
+      "name": "Keldagrim entrance tunnel",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Narrow passage makes cannon placement difficult.",
+        "Rocks at the sides of the passage can be used to safespot.",
+        "Location only contains level 69 melee trolls."
+      ]
+    },
+    {
+      "locationId": "mount-quidamortem-north-east-trolls",
+      "name": "South of Mount Quidamortem north-east",
+      "amount": 7,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "More open than the south-west Mount Quidamortem troll location, so luring multiple trolls is easier.",
+        "Rocks can be used to safespot.",
+        "Closer to a bank than most mountain trolls."
+      ]
+    },
+    {
+      "locationId": "mount-quidamortem-south-west-trolls",
+      "name": "South of Mount Quidamortem south-west",
+      "amount": 7,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "High number of obstacles makes safespotting easier."
+      ]
+    },
+    {
+      "locationId": "death-plateau-trolls",
+      "name": "Death Plateau",
+      "amount": 15,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Protect from Missiles is highly recommended while running through the canyon leading up to the plateau.",
+        "Teleporting to Burthorpe with a games necklace or combat bracelet is one of the faster routes.",
+        "Shooting through the troll buildings made of rocks makes safespotting easier.",
+        "Thrower trolls in the approach can be dangerous because their ranged attacks always hit."
+      ]
+    },
+    {
+      "locationId": "troll-stronghold-outside-trolls",
+      "name": "Troll Stronghold outside",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "A dwarf multicannon and a Bonecrusher necklace allow effectively zero Prayer potion usage while using Protect from Melee.",
+        "Contains mountain trolls outside the Troll Stronghold."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Trolls can be assigned at 60 combat by Vannaka, Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal.",
+    "Trolls are mostly found in the Fremennik Province and north of Burthorpe.",
+    "Trolls fought in quests all count towards the Slayer task, with the exception of sea trolls.",
+    "Troll bosses can be fought again in the Nightmare Zone.",
+    "Players who have completed the Hard Morytania Diary may bring a bonecrusher for passive Prayer experience from big bones.",
+    "Players with 92 Magic and the Arceuus spellbook may use Sinister Offering instead.",
+    "There are two main practical types of trolls for the task: mountain trolls and ice trolls.",
+    "Thrower trolls and troll generals are scarce, far, and have nonexistent or poor drops.",
+    "Ice Path trolls are not worth killing because they are stronger than other trolls and have very poor drops for their level.",
+    "The task page advises killing island ice trolls instead because they are weaker, have a slightly better drop table, and appear in large quantities in an open multicombat area.",
+    "When killing island ice trolls, prayer and a Neitiznot shield are required to reduce damage from ice troll females.",
+    "Northern Jatizso is often preferable because guards frequently tank the trolls, reducing player damage taken.",
+    "Regardless of which troll is killed, a dwarf multicannon is highly recommended because trolls have low aggression range.",
+    "Ice troll runts north of Neitiznot are a quick non-cannon option because nearby guards deal considerable damage and distract the trolls.",
+    "If guards deal the finishing blow, Slayer experience is halved, but drops are received as long as the player dealt damage.",
+    "Fire spells are recommended against ice trolls because they have strong fire weakness."
+  ],
+  "recommendedMethod": "Use a dwarf multicannon. For profit and speed, kill island ice trolls north of Jatizso/Neitiznot with melee, prayer, and a Neitiznot shield; for lower-risk accessibility, cannon mountain trolls with Protect from Melee. Fire magic is strong against ice trolls and can also quickly finish mountain trolls, but costs more."
+}

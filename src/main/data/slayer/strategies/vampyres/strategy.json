@@ -1,0 +1,194 @@
+{
+  "strategyId": "vampyres",
+  "variantIds": [
+    "feral-vampyre",
+    "vampyre-juvenile",
+    "vampyre-juvinate",
+    "vyrewatch"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Vampyres",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "blisterwood-flail",
+      "abyssal-whip",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "dragon-mace"
+    ],
+    "secondaryWeapons": [],
+    "note": "Use Feral Vampyres for the simplest assignment, Slepe Vyrewatch after A Taste of Hope, or upgrade to Darkmeyer Vyrewatch Sentinels after Sins of the Father."
+  },
+  "requirements": [
+    "Priest in Peril and 35 combat to receive Vampyre tasks.",
+    "Actual Vampyre Slayer unlock for Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal assignments.",
+    "More at stake unlock for 200-250 extended tasks.",
+    "A Taste of Hope for practical Vyrewatch access and Ivandis flail use.",
+    "Sins of the Father for the profitable Vyrewatch Sentinel path."
+  ],
+  "mechanics": [
+    "Feral Vampyres can be damaged with any weapon and always drop vampyre dust.",
+    "Vampyre Juveniles can be damaged with any weapon but retreat at low health unless held and handled with Guthix balance.",
+    "Vampyre Juvinates require silver weaponry or Efaritay's aid to damage and can also require Guthix balance handling.",
+    "Vyrewatch require an Ivandis flail, Blisterwood flail, or Hallowed flail; Efaritay's aid gives accuracy but does not make normal weapons damage them.",
+    "Slepe Vyrewatch are aggressive, do not use the blood tithe approach, and attack faster than the flying variants.",
+    "Vyrewatch Sentinels are the best higher-tier target due to blood shard drops and nearby Darkmeyer banking and prayer restoration."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-unlocks",
+      "label": "Requirements and unlocks",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Start with Mazchna or Vannaka assignments after Priest in Peril and 35 combat, then unlock wider master access with Actual Vampyre Slayer.",
+      "recommendedFor": [
+        "task setup",
+        "choosing available Slayer masters"
+      ],
+      "requiredOrKeyItems": [
+        "Priest in Peril",
+        "Actual Vampyre Slayer unlock",
+        "More at stake unlock",
+        "Slayer helmet or black mask"
+      ],
+      "steps": [
+        "Confirm Priest in Peril and 35 combat before seeking the task.",
+        "Use Mazchna or Vannaka before purchasing Actual Vampyre Slayer.",
+        "Purchase Actual Vampyre Slayer for 80 Slayer points to unlock Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal assignments.",
+        "Purchase More at stake for 100 Slayer points when longer 200-250 kill tasks are desired."
+      ],
+      "notes": [
+        "The task has no Slayer level requirement on the task page, though individual Vyrewatch paths have quest and weapon restrictions."
+      ]
+    },
+    {
+      "methodId": "feral-vampyre-quick-task",
+      "label": "Feral Vampyre quick task",
+      "combatStyle": "MELEE",
+      "role": "low_requirement",
+      "summary": "Kill Feral Vampyres with ordinary melee gear for the simplest task path and guaranteed vampyre dust.",
+      "recommendedFor": [
+        "early Vampyre tasks",
+        "players without Myreque quest progression",
+        "fast low-effort assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Food",
+        "Optional holy symbol",
+        "Optional cannon for cannonable locations"
+      ],
+      "steps": [
+        "Use Haunted Woods, Burgh de Rott, God Wars Dungeon, or Wilderness God Wars Dungeon based on access and risk preference.",
+        "Bring ordinary melee gear because Feral Vampyres can be damaged with any weapon.",
+        "Use safespots or cannon support where the location allows it.",
+        "Wear a Zamorak item in God Wars Dungeon locations if avoiding faction aggression.",
+        "Collect vampyre dust if useful for prayer or Hallowed Sepulchre supplies."
+      ],
+      "risks": [
+        "Haunted Woods leeches can drain stats and do not appear on the minimap.",
+        "Wilderness God Wars Dungeon carries player-killing risk.",
+        "God Wars Dungeon Feral Vampyre spawns are spread out and not a convenient default."
+      ]
+    },
+    {
+      "methodId": "juvenile-juvinate-guthix-balance",
+      "label": "Juvenile and Juvinate handling",
+      "combatStyle": "MELEE",
+      "role": "special_handling",
+      "summary": "Use Retainer special attack and Guthix balance mechanics when attempting Juvenile or Juvinate kills that would otherwise mist away.",
+      "recommendedFor": [
+        "players intentionally killing lower vampyre tiers",
+        "quest-progression areas with Juveniles or Juvinates"
+      ],
+      "requiredOrKeyItems": [
+        "Rod of ivandis, Ivandis flail, or Blisterwood flail",
+        "Guthix balance",
+        "Silver weaponry or Efaritay's aid for Juvinates"
+      ],
+      "steps": [
+        "Lower the Juvenile or Juvinate to low health.",
+        "Use the Retainer special attack from Rod of ivandis, Ivandis flail, or Blisterwood flail to hold it.",
+        "Use Guthix balance to resolve the held vampyre.",
+        "If the result creates a Feral Vampyre, kill the Feral Vampyre for task progress."
+      ],
+      "risks": [
+        "Juveniles and many Juvinates are not recommended for normal task progress.",
+        "Some outcomes return the vampyre to human form instead of giving task progress."
+      ]
+    },
+    {
+      "methodId": "slepe-vyrewatch-prayer",
+      "label": "Slepe Vyrewatch prayer",
+      "combatStyle": "MELEE",
+      "role": "standard_vyre",
+      "summary": "After A Taste of Hope, kill the aggressive Slepe Vyrewatch with flail weapons and Protect from Melee.",
+      "recommendedFor": [
+        "players with A Taste of Hope completed",
+        "non-Sentinel Vyrewatch tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Ivandis flail, Blisterwood flail, or Hallowed flail",
+        "Drakan's medallion",
+        "Combat potion",
+        "Prayer restoration"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Offensive melee prayers if supplies allow"
+      ],
+      "steps": [
+        "Teleport to Ver Sinhaza with Drakan's medallion.",
+        "Run north to Slepe and use the nearby Altar of Zamorak route for prayer restoration.",
+        "Wear prayer-focused melee gear and use Protect from Melee.",
+        "Keep inventory space free for vampyre dust and runite bar drops."
+      ],
+      "notes": [
+        "The Slepe group north of Crombwick Manor is aggressive unless the player is wearing a full Vyre noble disguise."
+      ]
+    },
+    {
+      "methodId": "sentinel-upgrade-path",
+      "label": "Sentinel upgrade path",
+      "combatStyle": "MELEE",
+      "role": "profit_upgrade",
+      "summary": "After Sins of the Father, switch to Vyrewatch Sentinels in Darkmeyer for the stronger profit-focused task path.",
+      "recommendedFor": [
+        "players with Sins of the Father completed",
+        "profit-focused assignments",
+        "blood shard hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Blisterwood flail or Ivandis flail",
+        "Vyre noble clothing for bank access",
+        "Drakan's medallion",
+        "Optional Efaritay's aid"
+      ],
+      "steps": [
+        "Use the dedicated Vyrewatch Sentinel strategy for detailed Darkmeyer routing.",
+        "Fight near the west Arboretum bank and altar area.",
+        "Bring Vyre noble clothing if using Darkmeyer bank tellers.",
+        "Use the Hallowed Sepulchre lobby bank chest when avoiding disguise swaps."
+      ],
+      "notes": [
+        "Vyrewatch Sentinels are close to a bank and altar and can drop blood shards."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "feral-any-weapon",
+      "label": "Feral Vampyre melee",
+      "combatStyle": "MELEE",
+      "role": "low_requirement",
+      "summary": "Use ordinary melee gear because Feral Vampyres can be damaged with any weapon."
+    },
+    {
+      "styleId": "flail-vyrewatch-prayer",
+      "label": "Flail Vyrewatch prayer",
+      "combatStyle": "MELEE",
+      "role": "standard_vyre",
+      "summary": "Use Ivandis or Blisterwood flail with Protect from Melee for Vyrewatch and Sentinel paths."
+    }
+  ]
+}

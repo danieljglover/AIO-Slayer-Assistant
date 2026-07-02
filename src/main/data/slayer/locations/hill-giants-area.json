@@ -1,0 +1,11 @@
+{
+  "locationId": "hill-giants-area",
+  "name": "Edgeville Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Free-to-play; enter the Edgeville Dungeon via the trapdoor in the house south of Edgeville bank or the Wilderness ditch entrance. 12 hill giant spawns, the most convenient non-Wilderness spot for Mazchna's assignment. Multicombat, cannon, and safespot status are not stated on the fetched wiki pages and are left conservatively false (honest-UNKNOWN)."
+}

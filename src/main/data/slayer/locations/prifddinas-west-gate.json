@@ -1,0 +1,11 @@
+{
+  "locationId": "prifddinas-west-gate",
+  "name": "Prifddinas West Gate",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Song of the Elves. Contains 2 Prifddinas guards, is close to a house portal, and has a north guard safespot by attacking from outside wander radius and pushing it against the gate."
+}

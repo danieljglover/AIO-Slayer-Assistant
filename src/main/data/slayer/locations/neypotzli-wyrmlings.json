@@ -1,0 +1,11 @@
+{
+  "locationId": "neypotzli-wyrmlings",
+  "name": "Neypotzli - Wyrmlings",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 6 Wyrmlings in the Earthbound Cavern after partial Perilous Moons progress. The close cluster supports a cannon and a nearby safespot; players can make cooked bream, cooked moss lizards, and moonlight potions inside, but Wyrmlings only drop Wyrmling bones."
+}

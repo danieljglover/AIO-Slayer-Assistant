@@ -1,0 +1,29 @@
+{
+  "variantId": "mutated-tortoise",
+  "name": "Mutated Tortoise",
+  "npcIds": [
+    12465
+  ],
+  "combatLevel": 247,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 50,
+    "slash": 50,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Poison Waste Dungeon",
+  "requirement": "Bigger and Badder superior spawn; crystal chime required to damage",
+  "bossId": null,
+  "strategyId": "warped-creatures"
+}

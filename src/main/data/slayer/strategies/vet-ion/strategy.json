@@ -1,0 +1,145 @@
+{
+  "strategyId": "vet-ion",
+  "variantIds": [
+    "vet-ion"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Vet%27ion/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "ursine-chainmace",
+      "viggora-s-chainmace",
+      "soulreaper-axe",
+      "inquisitor-s-mace",
+      "abyssal-bludgeon",
+      "zamorakian-hasta",
+      "zombie-axe",
+      "sarachnis-cudgel",
+      "dual-macuahuitl",
+      "leaf-bladed-battleaxe",
+      "dragon-mace"
+    ],
+    "secondaryWeapons": [],
+    "note": "Pure melee fight - crush defence -10. Ursine chainmace is by far the most effective (Wilderness mace); Viggora's is the budget alt."
+  },
+  "requirements": [
+    "Access to Vet'ion's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Pure melee fight - crush defence -10. Ursine chainmace is by far the most effective (Wilderness mace); Viggora's is the budget alt.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Pure melee fight - crush defence -10. Ursine chainmace is by far the most effective (Wilderness mace); Viggora's is the budget alt.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "ursine-chainmace",
+        "viggora-s-chainmace",
+        "soulreaper-axe",
+        "inquisitor-s-mace",
+        "abyssal-bludgeon",
+        "zamorakian-hasta",
+        "zombie-axe",
+        "sarachnis-cudgel",
+        "dual-macuahuitl",
+        "leaf-bladed-battleaxe",
+        "dragon-mace"
+      ],
+      "steps": [
+        "Pure melee fight - crush defence -10. Ursine chainmace is by far the most effective (Wilderness mace); Viggora's is the budget alt."
+      ]
+    },
+    {
+      "methodId": "crush-melee-and-dogs",
+      "label": "Crush melee and dogs",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use crush melee against Vet'ion and handle skeletal hellhound phases cleanly.",
+      "recommendedFor": [
+        "Vet'ion boss tasks",
+        "players using Wilderness maces"
+      ],
+      "requiredOrKeyItems": [
+        "Ursine chainmace",
+        "Viggora's chainmace",
+        "Soulreaper axe",
+        "Inquisitor's mace",
+        "Escape teleport"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety",
+        "Protect Item if risking gear"
+      ],
+      "steps": [
+        "Use crush melee because Vet'ion has low crush defence.",
+        "Prioritise Wilderness mace bonuses when available.",
+        "Kill or manage summoned skeletal hellhounds when the fight requires it.",
+        "Return to Vet'ion quickly after add phases."
+      ],
+      "risks": [
+        "The fight is in Wilderness with player-killer risk.",
+        "Ignoring hellhounds can overwhelm supplies."
+      ]
+    },
+    {
+      "methodId": "lightning-and-risk-control",
+      "label": "Lightning and risk control",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Dodge lightning and keep Wilderness escape options ready while maintaining melee uptime.",
+      "recommendedFor": [
+        "consistent Vet'ion kills",
+        "lower-risk trips"
+      ],
+      "requiredOrKeyItems": [
+        "Stamina potion",
+        "Food",
+        "Teleport out"
+      ],
+      "steps": [
+        "Move out of lightning or ground-effect attacks instead of finishing a slow swing.",
+        "Keep enough run energy to escape hostile players.",
+        "Bank valuable loot before returning for another trip."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Vet'ion setup using Ursine chainmace.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Ursine chainmace",
+            "Viggora's chainmace",
+            "Soulreaper axe",
+            "Inquisitor's mace",
+            "Abyssal bludgeon",
+            "Zamorakian hasta",
+            "Zombie axe",
+            "Sarachnis cudgel",
+            "Dual macuahuitl",
+            "Leaf-bladed battleaxe",
+            "Dragon mace"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Vet'ion\n\nPure melee fight - crush defence -10. Ursine chainmace is by far the most effective (Wilderness mace); Viggora's is the budget alt."
+}

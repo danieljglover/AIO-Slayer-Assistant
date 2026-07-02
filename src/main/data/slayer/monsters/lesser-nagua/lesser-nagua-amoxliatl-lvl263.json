@@ -1,0 +1,29 @@
+{
+  "variantId": "lesser-nagua-amoxliatl",
+  "name": "Amoxliatl",
+  "npcIds": [
+    13685
+  ],
+  "combatLevel": 263,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 100,
+    "slash": 100,
+    "crush": 40,
+    "magic": 100,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Ruins of Tapoyauik, Varlamore - boss alternative when assigned Lesser Nagua there",
+  "requirement": "boss - killable any time post-quest; Brimstone keys only drop on a Konar task",
+  "bossId": null,
+  "strategyId": "lesser-nagua"
+}

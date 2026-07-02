@@ -1,0 +1,11 @@
+{
+  "locationId": "fremennik-slayer-dungeon-kurasks",
+  "name": "Fremennik Slayer Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 14 Kurasks: 5 in the main dungeon and 9 in a task-only section. Very large area compared to other dungeons; Kurasks are immune to cannon and thrall damage."
+}

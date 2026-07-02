@@ -1,0 +1,7 @@
+{
+  "rewardId": "task-storage",
+  "name": "Task Storage",
+  "pointsCost": 500,
+  "effect": "CONVENIENCE",
+  "notes": "Unlocks storing, unstoring and swapping a slayer task; free to use once unlocked."
+}

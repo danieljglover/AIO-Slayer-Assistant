@@ -1,0 +1,11 @@
+{
+  "locationId": "kraken-cove-waterfiends",
+  "name": "Kraken Cove - Waterfiends",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 15 task-only Waterfiends. Fairy ring AKQ is the quick route. The task-page row marks this area as not cannonable and not safespottable."
+}

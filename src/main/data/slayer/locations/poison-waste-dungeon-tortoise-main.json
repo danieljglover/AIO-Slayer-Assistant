@@ -1,0 +1,11 @@
+{
+  "locationId": "poison-waste-dungeon-tortoise-main",
+  "name": "Poison Waste Dungeon - tortoise main level",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires The Path of Glouphrie and a crystal chime. Main-level Warped Tortoises are multicombat, cannonable, and safespottable."
+}

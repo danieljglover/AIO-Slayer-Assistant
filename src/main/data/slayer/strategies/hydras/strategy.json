@@ -1,0 +1,154 @@
+{
+  "strategyId": "hydras",
+  "variantIds": [
+    "hydra",
+    "colossal-hydra"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Hydras",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "dragon-hunter-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-lance",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Hydras have 0 ranged defence but +160 melee and magic defence, so ranged is the effective style; they are draconic, so dragonbane weapons apply, and they carry a 40% earth elemental weakness. The task page names no specific weapon list - the dragonbane set here is the wiki-verified draconic credit, not a task-page tier list."
+  },
+  "requirements": [
+    "95 Slayer",
+    "Boots of stone, boots of brimstone, or granite boots in Karuulm Slayer Dungeon unless the Elite Kourend & Kebos Diary is complete",
+    "Bigger and Badder (50 points) for Colossal Hydra superior spawns",
+    "An active Konar hydra task to fight the Alchemical Hydra boss"
+  ],
+  "mechanics": [
+    "Hydras attack with ranged and magic at 6-tick speed, starting on a random style and switching after three attacks regardless of hits.",
+    "After roughly 30 seconds a hydra spits poison at three random tiles (one under the player) in a 3x3 splash, dealing 4 poison damage every two ticks; poison immunity reduces this to 1-2.",
+    "Hydras have +160 stab/slash/crush/magic defence bonuses and 0 ranged defence.",
+    "Hydras have a 40% weakness to earth spells.",
+    "Hydras are aggressive and draconic."
+  ],
+  "methods": [
+    {
+      "methodId": "prayer-switching",
+      "label": "Ranged with prayer switching",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Range the 17 task-only hydras, praying against the style you have the lowest defence towards and switching when the hydra switches after three attacks.",
+      "recommendedFor": [
+        "Every regular hydra task",
+        "Cannon users (the area is cannonable)"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter crossbow",
+        "Boots of stone, brimstone, or granite",
+        "Dwarf multicannon (optional)",
+        "Antipoison or poison immunity"
+      ],
+      "prayers": [
+        "Protect from Magic if wearing melee armour",
+        "Protect from Missiles if wearing ranged armour",
+        "Rigour or Eagle Eye"
+      ],
+      "steps": [
+        "Activate the protection prayer for the attack style you have the lowest defence towards, typically magic in melee armour or ranged in ranged armour.",
+        "Switch to the other protection prayer when the hydra starts attacking with the other style; it switches only after three consecutive attacks of the same type.",
+        "Attack with ranged because hydras have 0 ranged defence and +160 against everything else.",
+        "Set up a dwarf multicannon if desired - the hydra area is cannonable despite being single-combat.",
+        "Move off the poison tiles when the hydra spits at three random tiles roughly every 30 seconds."
+      ],
+      "risks": [
+        "The area is not safespottable and hydras are aggressive.",
+        "Without boots of stone/brimstone/granite (or the Elite Kourend & Kebos Diary) the dungeon floor deals rapid damage."
+      ]
+    },
+    {
+      "methodId": "poison-handling",
+      "label": "Poison handling",
+      "combatStyle": "RANGED",
+      "role": "setup",
+      "summary": "Mitigate the periodic three-tile poison spit.",
+      "recommendedFor": [
+        "Every hydra task"
+      ],
+      "requiredOrKeyItems": [
+        "Antipoison, anti-venom, or a serpentine helm"
+      ],
+      "steps": [
+        "Expect a poison spit at three random tiles (one at your location) roughly every 30 seconds; the initial splash covers 3x3.",
+        "Step away from the splattered tiles to avoid the 4-damage-per-two-ticks poison pools.",
+        "Bring poison immunity to reduce the tile damage to 1-2."
+      ]
+    },
+    {
+      "methodId": "alchemical-hydra-alternative",
+      "label": "Alchemical Hydra alternative",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Kill the Alchemical Hydra boss instead of regular hydras for profit and collection log progress.",
+      "recommendedFor": [
+        "Profit-focused players",
+        "Collection log completion"
+      ],
+      "requiredOrKeyItems": [
+        "An active Konar hydra task",
+        "Boss-trip supplies"
+      ],
+      "steps": [
+        "Take the task to the Alchemical Hydra on the lower level of Karuulm Slayer Dungeon, past the Tasakaal.",
+        "The boss can only be killed while on a hydra Slayer task and offers very lucrative common drops.",
+        "Follow the boss strategy: lure it over the matching coloured vent each phase to remove its 75% damage reduction."
+      ]
+    },
+    {
+      "methodId": "superior-variant",
+      "label": "Colossal Hydra superior",
+      "combatStyle": "RANGED",
+      "role": "superior",
+      "summary": "Handle Colossal Hydra spawns after Bigger and Badder.",
+      "recommendedFor": [
+        "Bigger and Badder users",
+        "Imbued heart hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder",
+        "Food"
+      ],
+      "steps": [
+        "Expect a Colossal Hydra roughly 1/200 kills (1/150 after elite Combat Achievements).",
+        "It has no elemental weakness and higher defences than regular hydras but keeps the family's low ranged defence relative to melee and magic.",
+        "It carries the highest imbued heart drop rate at 1/160."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Ranged dragonbane",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Ranged attacks exploit hydras' 0 ranged defence; the dragon hunter crossbow adds the dragonbane credit against their draconic attribute."
+    },
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Dragon hunter lance melee is viable against the draconic attribute despite the +160 melee defence bonuses."
+    },
+    {
+      "styleId": "earth-magic",
+      "label": "Earth magic",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Earth spells exploit the 40% elemental weakness; the dragon hunter wand adds dragonbane magic."
+    }
+  ]
+}

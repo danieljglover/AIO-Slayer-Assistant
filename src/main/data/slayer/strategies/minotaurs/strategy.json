@@ -1,0 +1,68 @@
+{
+  "strategyId": "minotaurs",
+  "variantIds": [
+    "minotaur"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Minotaur",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Minotaurs have 10 hitpoints and Defence 10 with all defensive bonuses -21, so any weapon is extremely accurate against them - use whatever you train with. Their max hit is only 2, so barely any food is needed. Found on the first level (Vault of War) of the Stronghold of Security."
+  },
+  "requirements": [
+    "No Slayer level is required to receive or kill Minotaurs.",
+    "Access to the Stronghold of Security (via the Barbarian Village ladder); free-to-play."
+  ],
+  "mechanics": [
+    "Minotaurs attack with melee (crush) for up to 2 damage at a 4-tick speed.",
+    "They have 10 Hitpoints and Defence 10, with all defensive bonuses -21 - every style is highly accurate.",
+    "There is no elemental weakness; the three NPC forms (2481/2482/2483) all count for the task."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Attack Minotaurs with any melee weapon; with all defensive bonuses at -21 they are extremely easy to hit.",
+      "recommendedFor": [
+        "all Minotaur tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Slayer helmet",
+        "Minimal or no food"
+      ],
+      "steps": [
+        "Enter the Stronghold of Security via the Barbarian Village ladder and go to the first level (Vault of War).",
+        "Attack Minotaurs with any melee weapon; they are extremely accurate to hit.",
+        "Their max hit is only 2, so food is barely needed."
+      ]
+    },
+    {
+      "methodId": "low-level-training",
+      "label": "Low-level training",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use the dense first-level Minotaurs as free-to-play early combat and Slayer training since no Slayer level is required.",
+      "recommendedFor": [
+        "free-to-play accounts",
+        "early Turael/Spria tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any weapon (melee, ranged, or magic all hit easily)",
+        "A small amount of food",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Clear Minotaurs in the Vault of War for combat and Slayer XP plus the Stronghold reward.",
+        "Any combat style works given the -21 defensive bonuses.",
+        "Complete the 10-20 assignment before returning to Turael or Spria."
+      ]
+    }
+  ],
+  "body": "# Minotaur\n\nMinotaurs are a free-to-play low-level Slayer task assigned by Turael and Spria, found on the first level (Vault of War) of the Stronghold of Security beneath Barbarian Village. They have 10 Hitpoints and Defence 10 with all defensive bonuses -21, so any weapon is extremely accurate against them - use whatever you train with and a Slayer helmet. Their max hit is only 2, so barely any food is needed, making them ideal early combat and Slayer training."
+}

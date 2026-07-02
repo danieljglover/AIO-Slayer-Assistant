@@ -1,0 +1,29 @@
+{
+  "variantId": "magic-axe",
+  "name": "Magic axe",
+  "npcIds": [
+    2844
+  ],
+  "combatLevel": 42,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 29,
+    "stab": 10,
+    "slash": 5,
+    "crush": 15,
+    "magic": 5,
+    "range": 10
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Magic Axe Hut (Wilderness)",
+  "requirement": "Kills must be made in the Wilderness to count for Krystilia; hut door needs 23 Thieving and a lockpick",
+  "bossId": null,
+  "strategyId": "magic-axes"
+}

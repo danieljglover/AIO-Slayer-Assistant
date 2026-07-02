@@ -1,0 +1,34 @@
+{
+  "variantId": "thrower-troll",
+  "name": "Thrower Troll",
+  "npcIds": [
+    931,
+    932,
+    933,
+    934,
+    935
+  ],
+  "combatLevel": 67,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 30,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 200,
+    "range": 120
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Death Plateau canyon.",
+  "locationId": "death-plateau-trolls",
+  "requirement": "Protect from Missiles recommended while passing or cannoning.",
+  "bossId": null,
+  "strategyId": "trolls"
+}

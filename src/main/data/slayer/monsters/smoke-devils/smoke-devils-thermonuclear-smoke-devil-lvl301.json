@@ -1,0 +1,29 @@
+{
+  "variantId": "smoke-devils-thermonuclear-smoke-devil",
+  "name": "Thermonuclear smoke devil",
+  "npcIds": [
+    499
+  ],
+  "combatLevel": 301,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 360,
+    "stab": 11,
+    "slash": 4,
+    "crush": 9,
+    "magic": 800,
+    "range": 900
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Smoke Devil Dungeon boss lair",
+  "requirement": "Slayer 93; active Smoke devils task except one Western Provinces Diary kill; facemask or slayer helmet",
+  "bossId": null,
+  "strategyId": "thermonuclear-smoke-devil"
+}

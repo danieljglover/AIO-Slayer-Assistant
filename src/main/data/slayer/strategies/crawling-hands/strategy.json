@@ -1,0 +1,73 @@
+{
+  "strategyId": "crawling-hands",
+  "variantIds": [
+    "crawling-hand-lvl8",
+    "crawling-hand-lvl12"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Crawling_Hand",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [],
+    "note": "A trivial starter task: Crawling Hands have 15 Hitpoints, max hit 1, and Defence level 3 with no defensive bonuses, so any melee weapon clears them. They are undead, so a salve amulet gives a small damage bonus. No protective item is needed."
+  },
+  "requirements": [
+    "5 Slayer is required to harm Crawling Hands.",
+    "Priest in Peril must be completed to enter the Slayer Tower ground floor.",
+    "No combat level requirement and no quest requirement beyond Slayer Tower access."
+  ],
+  "mechanics": [
+    "Crawling Hands have 15 Hitpoints and a max hit of 1, making them a very safe low-level task.",
+    "They are undead: the salve amulet and Crumble Undead both apply.",
+    "They attack with melee (crush) at 4 ticks and have no elemental weakness.",
+    "Defence level 3 with all defensive bonuses 0, so weapon choice is unimportant."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the ground-floor Crawling Hands with any melee weapon; their low Defence makes weapon choice unimportant.",
+      "recommendedFor": [
+        "standard task completion",
+        "low-level Slayer accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Complete Priest in Peril and travel to the Slayer Tower.",
+        "Kill the ground-floor Crawling Hands; max hit 1 means no food or prayer is needed.",
+        "Equip a salve amulet for a small undead damage bonus if you have one."
+      ],
+      "notes": [
+        "Meiyerditch Laboratories is an alternative spawn for players who have progressed Sins of the Father."
+      ]
+    },
+    {
+      "methodId": "salve-undead",
+      "label": "Salve amulet melee",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Wear a salve amulet (e) for a 20% undead damage-and-accuracy bonus while meleeing.",
+      "recommendedFor": [
+        "players who own a salve amulet"
+      ],
+      "requiredOrKeyItems": [
+        "Salve amulet (e/ei)",
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Equip a salve amulet (e) or (ei).",
+        "Kill the Crawling Hands; the undead bonus speeds up an already trivial task."
+      ],
+      "notes": [
+        "The salve amulet does not stack with the Slayer helmet bonus; the higher of the two applies."
+      ]
+    }
+  ]
+}

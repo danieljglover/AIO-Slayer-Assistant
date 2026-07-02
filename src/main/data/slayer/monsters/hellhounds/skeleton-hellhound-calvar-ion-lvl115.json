@@ -1,0 +1,30 @@
+{
+  "variantId": "skeleton-hellhound-calvar-ion",
+  "name": "Skeleton Hellhound (Calvar'ion)",
+  "npcIds": [
+    12107
+  ],
+  "combatLevel": 115,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 95,
+    "stab": 76,
+    "slash": 73,
+    "crush": 10,
+    "magic": 126,
+    "range": 155
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Calvar'ion fight, Wilderness (singles)",
+  "locationId": "vetion-hellhound-spawns",
+  "requirement": "summoned by Calvar'ion - separate trip (boss fight)",
+  "bossId": null,
+  "strategyId": "vet-ion"
+}

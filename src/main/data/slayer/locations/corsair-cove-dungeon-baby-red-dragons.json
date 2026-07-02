@@ -1,0 +1,11 @@
+{
+  "locationId": "corsair-cove-dungeon-baby-red-dragons",
+  "name": "Corsair Cove Dungeon (baby red dragons)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 2 Baby red dragons in Corsair Cove Dungeon / Myths' Guild basement. Requires Dragon Slayer II and is near the bank-adjacent adult red dragon group."
+}

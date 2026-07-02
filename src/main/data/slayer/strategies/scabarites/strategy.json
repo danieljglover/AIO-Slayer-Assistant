@@ -1,0 +1,153 @@
+{
+  "strategyId": "scabarites",
+  "variantIds": [
+    "locust-rider",
+    "scarab-mage",
+    "scarab-swarm",
+    "small-scarab"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Scabarites",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "keris-partisan-of-breaching",
+      "keris-partisan"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "abyssal-whip",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "osmumten-s-fang",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Scabarites count as kalphites, so the keris and keris partisan special effects apply. Slash defence is high (+90) - prefer stab or crush melee. Fire spells exploit a strong elemental weakness, and cannoning the Sophanem cavern level with Protect from Missiles is fastest."
+  },
+  "requirements": [
+    "85 combat to receive the assignment",
+    "Contact! (partial completion) to access Sophanem Dungeon",
+    "The Curse of Arrav (partial completion) for the Uzer Mastaba small scarabs",
+    "Lantern and tinderbox for the Sophanem Dungeon"
+  ],
+  "mechanics": [
+    "Locust riders come as level 98 rangers and level 106 crush-melee lancers; both count.",
+    "Scarab mages attack with magic on an unusual 15-tick speed, making prayer flicking straightforward.",
+    "Scarab swarms are poisonous, attack every tick, and give only 1 Slayer XP.",
+    "Scabarites are kalphites for keris purposes and carry a strong elemental weakness to fire spells.",
+    "A floor trap sits at the Sophanem Dungeon entrance."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill locust riders and scarab mages on the Sophanem cavern level with stab melee (keris partisan ideally) and Protect from Missiles.",
+      "recommendedFor": [
+        "baseline Scabarites task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Keris partisan or another stab weapon",
+        "Lantern and tinderbox",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Missiles against the ranged locust riders"
+      ],
+      "steps": [
+        "Enter Sophanem Dungeon (Contact! partially completed) and mind the entrance floor trap.",
+        "Head to the cavern level with 27 locust riders and 18 scarab mages.",
+        "Keep Protect from Missiles up and kill with stab melee; slash bounces off their +90 slash defence.",
+        "Loot the 2,000 coin piles and noted bass from locust riders."
+      ],
+      "risks": [
+        "The cavern is multicombat; several riders and mages can attack at once."
+      ]
+    },
+    {
+      "methodId": "cannon",
+      "label": "Cavern cannoning",
+      "combatStyle": "RANGED",
+      "role": "speed",
+      "summary": "Place a dwarf multicannon on the Sophanem cavern level with Protect from Missiles and high-healing food for the fastest task.",
+      "recommendedFor": [
+        "fastest task completion",
+        "players accepting cannonball cost"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon and cannonballs",
+        "High-healing food",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Set the cannon among the cavern-level locust riders and scarab mages.",
+        "Hold Protect from Missiles and eat through the scarab mage magic damage.",
+        "Reload and pick up the coin drops between volleys."
+      ],
+      "risks": [
+        "Scarab mage magic damage bypasses Protect from Missiles - bring high-healing food."
+      ]
+    },
+    {
+      "methodId": "guthans-sustain",
+      "label": "Guthan's sustain",
+      "combatStyle": "MELEE",
+      "role": "sustain",
+      "summary": "Use Guthan's equipment against locust riders with Protect from Missiles for indefinitely long trips.",
+      "recommendedFor": [
+        "long AFK-style trips",
+        "players avoiding food costs"
+      ],
+      "requiredOrKeyItems": [
+        "Guthan's equipment set",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Wear full Guthan's and attack locust riders on the cavern level.",
+        "Heal off the melee lancers while Protect from Missiles blocks the rangers.",
+        "Swap to a stab weapon when Guthan's healing is not needed."
+      ]
+    },
+    {
+      "methodId": "maze-prayer-flick",
+      "label": "Maze prayer flick",
+      "combatStyle": "MELEE",
+      "role": "simple",
+      "summary": "Kill the two north-west scarab mages on the maze level, flicking Protect from Magic against their slow 15-tick attacks.",
+      "recommendedFor": [
+        "low-effort, low-risk completion"
+      ],
+      "requiredOrKeyItems": [
+        "Any strong stab or crush weapon",
+        "Lantern and tinderbox"
+      ],
+      "prayers": [
+        "Protect from Magic, flicked on their 15-tick attack cycle"
+      ],
+      "steps": [
+        "Take the maze level and find the two scarab mages on the north-west side.",
+        "Flick Protect from Magic on their slow, highly accurate attacks.",
+        "Kill them alternately as they respawn."
+      ],
+      "risks": [
+        "Mistimed flicks eat hits of up to 17 from the highly accurate mage attack."
+      ]
+    }
+  ]
+}

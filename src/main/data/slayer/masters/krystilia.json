@@ -1,0 +1,16 @@
+{
+  "masterId": "krystilia",
+  "name": "Krystilia",
+  "location": "Edgeville",
+  "economy": {
+    "basePoints": 25,
+    "streakMultipliers": {
+      "10": 5,
+      "50": 15,
+      "100": 25,
+      "250": 35,
+      "1000": 50
+    },
+    "blockCost": 100
+  }
+}

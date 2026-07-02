@@ -1,0 +1,75 @@
+{
+  "strategyId": "mogres",
+  "variantIds": [
+    "mogre"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Mogre",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [],
+    "note": "Mogres have Defence level 48 but all defensive bonuses 0, so any melee weapon works. Each Mogre is lured out of the sand at Mudskipper Point with a fishing explosive. A minor 20% earth weakness makes earth spells a Magic alternative."
+  },
+  "requirements": [
+    "32 Slayer, combat level 30, and completion of Skippy and the Mogres are required to fight and be assigned Mogres.",
+    "Fishing explosives are used on the mud patches at Mudskipper Point to lure Mogres out.",
+    "Food is recommended, as Mogres can hit up to 8."
+  ],
+  "mechanics": [
+    "Mogres are lured out of the sand at Mudskipper Point using a fishing explosive.",
+    "Mogres have Defence level 48 with all defensive bonuses 0, so weapon choice is unimportant.",
+    "Mogres have a 20% elemental weakness to earth spells.",
+    "Mogres are not undead, so the salve amulet does not apply."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee after luring",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Lure each Mogre out with a fishing explosive, then kill it with any melee weapon.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Fishing explosives",
+        "Any melee weapon",
+        "Food"
+      ],
+      "steps": [
+        "Complete Skippy and the Mogres and travel to Mudskipper Point.",
+        "Use a fishing explosive on a mud patch to lure a Mogre out of the sand.",
+        "Kill the Mogre with any melee weapon; its zero defensive bonuses make weapon choice unimportant."
+      ],
+      "notes": [
+        "Keep a stock of fishing explosives, as each lure consumes one."
+      ]
+    },
+    {
+      "methodId": "earth-magic",
+      "label": "Earth spells",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Earth spells exploit the minor 20% earth weakness for a Magic alternative once a Mogre is lured.",
+      "recommendedFor": [
+        "Magic training"
+      ],
+      "requiredOrKeyItems": [
+        "Fishing explosives",
+        "Earth spells (Earth Bolt/Earth Wave)",
+        "Food"
+      ],
+      "steps": [
+        "Lure a Mogre out with a fishing explosive.",
+        "Cast earth spells to exploit the 20% elemental weakness.",
+        "Re-lure as needed and repeat."
+      ],
+      "notes": [
+        "The earth weakness is small (20%); melee is usually faster."
+      ]
+    }
+  ]
+}

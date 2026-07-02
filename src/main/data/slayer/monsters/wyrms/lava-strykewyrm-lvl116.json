@@ -1,0 +1,29 @@
+{
+  "variantId": "lava-strykewyrm",
+  "name": "Lava Strykewyrm",
+  "npcIds": [
+    15500
+  ],
+  "combatLevel": 116,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 30,
+    "slash": 60,
+    "crush": 70,
+    "magic": 40,
+    "range": 120
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Charred Dungeon",
+  "requirement": "62 Slayer and 60 Sailing; alternative to Wyrm on task",
+  "bossId": null,
+  "strategyId": "wyrms"
+}

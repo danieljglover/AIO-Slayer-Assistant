@@ -1,0 +1,156 @@
+{
+  "strategyId": "shellbane-gryphon",
+  "variantIds": [
+    "shellbane-gryphon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Shellbane_gryphon/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "soulreaper-axe",
+      "ghrazi-rapier",
+      "noxious-halberd",
+      "osmumten-s-fang",
+      "blade-of-saeldor",
+      "abyssal-tentacle",
+      "abyssal-whip",
+      "abyssal-dagger",
+      "zombie-axe",
+      "belle-s-folly",
+      "arkan-blade",
+      "colossal-blade",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Primarily weak to melee (set slash-style weapons to slash; stab def lowest). A tortugan shield is REQUIRED to survive; magic is impractical due to the corrosive spit."
+  },
+  "requirements": [
+    "Access to Shellbane Gryphon's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Primarily weak to melee (set slash-style weapons to slash; stab def lowest). A tortugan shield is REQUIRED to survive; magic is impractical due to the corrosive spit.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Primarily weak to melee (set slash-style weapons to slash; stab def lowest). A tortugan shield is REQUIRED to survive; magic is impractical due to the corrosive spit.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "scythe-of-vitur",
+        "soulreaper-axe",
+        "ghrazi-rapier",
+        "noxious-halberd",
+        "osmumten-s-fang",
+        "blade-of-saeldor",
+        "abyssal-tentacle",
+        "abyssal-whip",
+        "abyssal-dagger",
+        "zombie-axe",
+        "belle-s-folly",
+        "arkan-blade",
+        "colossal-blade",
+        "dragon-scimitar"
+      ],
+      "steps": [
+        "Primarily weak to melee (set slash-style weapons to slash; stab def lowest). A tortugan shield is REQUIRED to survive; magic is impractical due to the corrosive spit."
+      ]
+    },
+    {
+      "methodId": "tortugan-shield-melee-kill",
+      "label": "Tortugan shield melee kill",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use melee with the required tortugan shield protection to survive Shellbane gryphon corrosive attacks.",
+      "recommendedFor": [
+        "Shellbane gryphon boss tasks",
+        "players using melee setups"
+      ],
+      "requiredOrKeyItems": [
+        "Tortugan shield",
+        "Scythe of vitur",
+        "Soulreaper axe",
+        "Ghrazi rapier",
+        "Noxious halberd"
+      ],
+      "prayers": [
+        "Piety",
+        "Protection prayer matching active threat"
+      ],
+      "steps": [
+        "Equip the tortugan shield before engaging because it is required for survival.",
+        "Use strong melee weapons, favouring slash or stab options based on gear.",
+        "Avoid relying on magic because corrosive spit makes it impractical.",
+        "Maintain supplies for a dedicated boss trip rather than normal gryphon task pacing."
+      ],
+      "risks": [
+        "Missing shield protection can be lethal.",
+        "Corrosive mechanics punish inappropriate style choices."
+      ]
+    },
+    {
+      "methodId": "positioning-and-specials",
+      "label": "Positioning and specials",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Control positioning and react to Shellbane-specific special attacks while keeping melee uptime.",
+      "recommendedFor": [
+        "learning Shellbane gryphon",
+        "longer boss trips"
+      ],
+      "requiredOrKeyItems": [
+        "Food",
+        "Prayer potions",
+        "Teleport out"
+      ],
+      "steps": [
+        "Keep the boss positioned so movement reactions are available.",
+        "Move out of dangerous special-attack areas instead of greeding melee hits.",
+        "Reset the trip if shield, prayer, or food resources run low."
+      ],
+      "notes": [
+        "The strategy source emphasizes the tortugan shield and melee-first approach."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Shellbane Gryphon setup using Scythe of vitur.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scythe of vitur",
+            "Soulreaper axe",
+            "Ghrazi rapier",
+            "Noxious halberd",
+            "Osmumten's fang",
+            "Blade of saeldor",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Abyssal dagger",
+            "Zombie axe",
+            "Belle's folly",
+            "Arkan blade",
+            "Colossal blade",
+            "Dragon scimitar"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Shellbane gryphon\n\nPrimarily weak to melee (set slash-style weapons to slash; stab def lowest). A tortugan shield is REQUIRED to survive; magic is impractical due to the corrosive spit."
+}

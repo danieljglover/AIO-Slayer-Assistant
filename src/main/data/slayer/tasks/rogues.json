@@ -1,0 +1,95 @@
+{
+  "taskId": "rogues",
+  "name": "Rogues",
+  "wikiPageId": null,
+  "combatLevel": 15,
+  "slayerTargetId": 269,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "rogues"
+  ],
+  "variantIds": [
+    "rogue"
+  ],
+  "defaultVariantId": "rogue",
+  "weakness": {
+    "style": "RANGED",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 13,
+    "stab": 6,
+    "slash": 9,
+    "crush": 11,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "rogues-castle"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "rogue",
+      "name": "Rogue",
+      "combatLevel": 15,
+      "slayerXp": 17,
+      "locations": [
+        "Rogues' Castle (Wilderness)"
+      ],
+      "notes": [
+        "Krystilia only counts Wilderness kills; Rogues' Castle in the deep north-east Wilderness holds the rogue spawns.",
+        "Magic and ranged defences are 0, so ranged or magic is fastest.",
+        "A level 135 Rogue variant (npc 6603) also exists; its stats are not captured here (honest UNKNOWN).",
+        "The Chaos Elemental roams the castle courtyard and can attack through walls - be cautious."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "rogues-castle",
+      "name": "Rogues' Castle (Wilderness)",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Rogue spawns across the floors of Rogues' Castle in the deep north-east Wilderness (~level 50+).",
+        "Multicombat, cannon and safespot are not wiki-stated for this spot; conservative defaults are used.",
+        "The Chaos Elemental in the courtyard is a hazard and can attack through walls."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Rogues are a Krystilia (Wilderness) Slayer assignment: 75-125 per task, weight 5, no requirement.",
+    "slayerTargetId 269 is SYNTHETIC (C2/C3 allocation contract: worklist id table, 252-305); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "wikiPageId is null (honest UNKNOWN - not captured at authoring time); sourced from https://oldschool.runescape.wiki/w/Rogue.",
+    "Krystilia only counts Wilderness kills. Rogues' Castle in the deep north-east Wilderness is the target location.",
+    "The level 15 Rogue (npc 526) has 17 Hitpoints, grants 17 Slayer XP, defence level 13, and zero magic/ranged defence, so ranged or magic is fastest.",
+    "A level 135 Rogue variant (npc 6603) also exists; its combat stats are not captured here and are left UNKNOWN.",
+    "The Chaos Elemental roams the Rogues' Castle courtyard and can attack through walls; travel to the deep Wilderness carries high PKer risk.",
+    "No task extension unlock exists for Rogues."
+  ],
+  "recommendedMethod": "Travel to Rogues' Castle in the deep north-east Wilderness and kill the rogues with ranged or magic against their 0 magic/ranged defence. Watch for the Chaos Elemental and PKers; bring only cheap gear."
+}

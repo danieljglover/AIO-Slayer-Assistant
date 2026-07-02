@@ -1,0 +1,123 @@
+{
+  "strategyId": "tzkal-zuk",
+  "variantIds": [
+    "tzkal-zuk"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Inferno/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "toxic-blowpipe",
+      "twisted-bow",
+      "bow-of-faerdhinen",
+      "armadyl-crossbow",
+      "dragon-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "staff-of-the-dead",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "The Inferno is primarily a ranged encounter. Use Twisted bow or Bow of faerdhinen on high-value targets and Zuk, with blowpipe for rangers, healers, and fast low-defence targets."
+  },
+  "requirements": [
+    "TzHaar Slayer task with the TzKal-Zuk alternative accepted.",
+    "At least one prior off-task TzKal-Zuk kill before the Slayer master can offer Zuk.",
+    "Supplies and gear for a complete Inferno run."
+  ],
+  "mechanics": [
+    "The Inferno is a long wave encounter ending with TzKal-Zuk.",
+    "Zuk attacks with typeless Magic and Ranged projectiles.",
+    "The player must stay protected by the moving shield during the Zuk fight.",
+    "A JalTok-Jad spawns during the Zuk encounter when Zuk reaches 480 Hitpoints.",
+    "Healers and the enraged final phase occur at 240 Hitpoints.",
+    "A successful Zuk task gives about 125,000 total Slayer XP, including 101,890 XP from Zuk."
+  ],
+  "methods": [
+    {
+      "methodId": "inferno-wave-management",
+      "label": "Inferno wave management",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Clear Inferno waves with ranged as the primary combat style, using magic support where freezes or healing are part of the player's setup.",
+      "recommendedFor": [
+        "full Inferno task run",
+        "players using Slayer helmet bonus on Zuk task"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged weapon",
+        "Magic support weapon or runes",
+        "Prayer restoration",
+        "Food or brews"
+      ],
+      "steps": [
+        "Treat the task as a complete Inferno run rather than a short Slayer trip.",
+        "Use ranged weapons for most wave pressure and high-priority targets.",
+        "Use magic support where the player's Inferno method uses freezes or healing.",
+        "Preserve enough supplies for the Zuk shield phase, Jad spawn, and healers."
+      ],
+      "risks": [
+        "Supply loss or wave mistakes before Zuk can make the task unrecoverable.",
+        "The Slayer task does not remove the need to solve the normal Inferno waves."
+      ]
+    },
+    {
+      "methodId": "zuk-shield-movement",
+      "label": "Zuk shield movement",
+      "combatStyle": "RANGED",
+      "role": "boss",
+      "summary": "Stay behind the shield while attacking Zuk, handling the Jad spawn at 480 Hitpoints and healers at 240 Hitpoints.",
+      "recommendedFor": [
+        "TzKal-Zuk kill",
+        "Inferno completion"
+      ],
+      "prayers": [
+        "Use the prayers required by active threats while staying behind the shield",
+        "Offensive ranged prayers where supply state allows"
+      ],
+      "steps": [
+        "Enter the Zuk phase ready to follow the shield instead of standing still.",
+        "Attack Zuk only while remaining protected by the shield.",
+        "Handle the JalTok-Jad spawn at 480 Hitpoints without falling behind the shield.",
+        "At 240 Hitpoints, control healers and prepare for the enraged final phase.",
+        "Continue attacking from shield safety until Zuk dies."
+      ],
+      "risks": [
+        "Stepping out from behind the shield exposes the player to lethal Zuk attacks.",
+        "The Jad and healer timings can split attention between prayer switching, movement, and DPS."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-zuk",
+      "label": "Ranged Zuk setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use Ranged as the primary Inferno and Zuk style, with magic support for the broader run.",
+      "weapons": [
+        "toxic-blowpipe",
+        "twisted-bow",
+        "bow-of-faerdhinen",
+        "armadyl-crossbow",
+        "dragon-crossbow"
+      ],
+      "notes": [
+        "Blowpipe is mainly for healers and faster low-defence targets; Twisted bow or Bow of faerdhinen handles Zuk and high-value targets."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "lava-maze-dungeon",
+  "name": "Lava Maze Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Wilderness Black dragon location. Access is significantly troublesome without 82 Agility and otherwise requires traversing the Lava Maze with a knife to cut webs; poison protection is useful due to poison spiders."
+}

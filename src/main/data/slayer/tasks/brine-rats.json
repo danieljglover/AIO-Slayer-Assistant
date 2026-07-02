@@ -1,0 +1,113 @@
+{
+  "taskId": "brine-rats",
+  "name": "Brine rats",
+  "wikiPageId": 11604,
+  "combatLevel": 45,
+  "slayerTargetId": 243,
+  "slayerLevel": 47,
+  "questReqs": [
+    "Olaf's Quest (partial)"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7,
+    "chaeldar": 7,
+    "konar": 2,
+    "nieve": 3
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "brine-rats"
+  ],
+  "variantIds": [
+    "brine-rat"
+  ],
+  "defaultVariantId": "brine-rat",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "brine-rat-cavern"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "brine-rat",
+      "name": "Brine rat",
+      "combatLevel": 70,
+      "slayerXp": 50,
+      "locations": [
+        "Brine Rat Cavern"
+      ],
+      "notes": [
+        "Not aggressive; attacks with stab and can hit up to 9.",
+        "Always drops bones and raw rat meat.",
+        "Carries the rat attribute, so rat bone weapons deal boosted damage."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "brine-rat-cavern",
+      "name": "Brine Rat Cavern",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "A spade is required to enter, by digging south of the windswept tree east of Olaf Hradson.",
+        "The entire cavern is a single combat zone; dwarf multicannons may be used.",
+        "Two safespots: the black bones to the south-east and the north-west corner."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Brine rats can be assigned by Vannaka, Chaeldar, Konar, and Nieve upon reaching 47 Slayer and 45 combat, with partial completion of Olaf's Quest.",
+    "Brine rats are found only in the Brine Rat Cavern, entered by digging with a spade south of the windswept tree east of Olaf Hradson.",
+    "Turael and Spria list Brine rats only as an alternative kill for their generic Rats task, not as a Brine rats assignment.",
+    "The cavern is a single combat zone with two safespots; a dwarf multicannon may be used.",
+    "Brine rats have the rat attribute, so rat bone weapons deal significantly boosted damage.",
+    "Bring food if you do not have high (~70) Defence; Bones to Peaches tablets or cooking dropped raw rat meat on Olaf's fire outside the cavern can sustain longer trips.",
+    "Brine rats drop the Brine sabre (1 in 512) and medium clue scrolls.",
+    "The slayerTargetId 243 is SYNTHETIC (WC-1..11 allocation contract, 240 + WC index); the real SLAYER_TARGET varp value is a QA live-verify item."
+  ],
+  "recommendedMethod": "Melee with any decent weapon - rat bone weapons such as the Bone mace deal boosted damage against them. Cannon or safespot in the single-combat cavern for faster, safer kills."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "charred-dungeon-lesser-demons",
+  "name": "Charred Dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Charred Dungeon holds 6 Lesser demons; multicombat and cannonable but the wiki marks the demons not safespottable. Requires 60 Sailing to access."
+}

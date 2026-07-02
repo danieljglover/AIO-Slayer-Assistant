@@ -1,0 +1,11 @@
+{
+  "locationId": "spiritual-rangers-wilderness-god-wars-dungeon",
+  "name": "Wilderness God Wars Dungeon - Spiritual rangers",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Wilderness God Wars Dungeon Spiritual rangers in level 28-32 Wilderness; do not bring items you are unwilling to lose. Multicombat and safespottable but not cannonable."
+}

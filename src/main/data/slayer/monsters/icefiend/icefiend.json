@@ -1,0 +1,39 @@
+{
+  "variantId": "icefiend",
+  "name": "Icefiend",
+  "npcIds": [
+    4813,
+    3140
+  ],
+  "combatLevel": 13,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 12,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Ice Mountain",
+  "locationId": "ice-mountain",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "icefiends",
+  "offence": {
+    "hitpoints": 15,
+    "maxHit": 2,
+    "attackStyles": [
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

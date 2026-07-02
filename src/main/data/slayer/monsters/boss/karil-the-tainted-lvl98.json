@@ -1,0 +1,29 @@
+{
+  "variantId": "karil-the-tainted",
+  "name": "Karil the Tainted",
+  "npcIds": [
+    1675
+  ],
+  "combatLevel": 98,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 79,
+    "slash": 71,
+    "crush": 90,
+    "magic": 106,
+    "range": 100
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Barrows - Morytania",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "karil-the-tainted"
+}

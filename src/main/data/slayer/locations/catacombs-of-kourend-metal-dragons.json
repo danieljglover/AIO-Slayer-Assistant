@@ -1,0 +1,11 @@
+{
+  "locationId": "catacombs-of-kourend-metal-dragons",
+  "name": "Catacombs of Kourend",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 5 bronze, 2 iron, and 2 steel dragons. These Catacombs metal dragons are stronger than their normal counterparts and can drop Ancient shards and Dark totem pieces."
+}

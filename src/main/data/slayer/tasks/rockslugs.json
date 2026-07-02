@@ -1,0 +1,103 @@
+{
+  "taskId": "rockslugs",
+  "name": "Rockslugs",
+  "wikiPageId": null,
+  "combatLevel": 20,
+  "slayerTargetId": 301,
+  "slayerLevel": 20,
+  "questReqs": [],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "rockslugs"
+  ],
+  "variantIds": [
+    "rockslug"
+  ],
+  "defaultVariantId": "rockslug",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 27,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "Bag of salt",
+  "locationIds": [
+    "fremennik-slayer-dungeon-rockslugs",
+    "lumbridge-swamp-caves"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "rockslug",
+      "name": "Rockslug",
+      "combatLevel": 29,
+      "slayerXp": 27.0,
+      "locations": [
+        "Fremennik Slayer Dungeon (7 spawns)",
+        "Lumbridge Swamp Caves (5 spawns)"
+      ],
+      "notes": [
+        "NPC ids 421/14423/422; 27 Hitpoints, Defence 27 (all styles 0), max hit 4 crush, 4-tick.",
+        "To kill a rockslug you must throw a bag of salt on it while it has 4 or fewer Hitpoints, or wield a brine sabre (which removes the salt requirement).",
+        "25% weakness to earth spells; a light source is required in both caves."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "fremennik-slayer-dungeon-rockslugs",
+      "name": "Fremennik Slayer Dungeon (rockslugs)",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Seven rockslug spawns in the Fremennik Slayer Dungeon; a light source is required.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+      ]
+    },
+    {
+      "locationId": "lumbridge-swamp-caves",
+      "name": "Lumbridge Swamp Caves",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Five rockslug spawns in the Lumbridge Swamp Caves; a light source is required and open flames are extinguished by swamp gas.",
+        "A Dwarf multicannon can be used here."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 301 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Rockslugs is not wiki-published; QA live-verify.",
+    "Assigned only by Mazchna (30-50) in this dataset; requires Slayer level 20.",
+    "A bag of salt must be thrown on a rockslug at 4 or fewer Hitpoints to kill it, unless a brine sabre is used; the requiredItemId is honest-UNKNOWN (bag of salt item id not wiki-published).",
+    "25% weakness to earth spells; a light source is required in both the Fremennik Slayer Dungeon and Lumbridge Swamp Caves.",
+    "fremennik-slayer-dungeon base file is a basilisk file (safeSpot/konarLockable true); this family uses a tuned copy fremennik-slayer-dungeon-rockslugs. lumbridge-swamp-caves is referenced by id (owned by cave-bugs, CT-L shared #1)."
+  ],
+  "recommendedMethod": "Bring a light source and a stack of bags of salt. Whittle each rockslug down with any melee weapon and throw a bag of salt once it reaches 4 or fewer Hitpoints to finish it; a brine sabre removes the salt requirement entirely. Earth spells exploit the 25% earth weakness for Magic training. The Lumbridge Swamp Caves allow a Dwarf multicannon."
+}

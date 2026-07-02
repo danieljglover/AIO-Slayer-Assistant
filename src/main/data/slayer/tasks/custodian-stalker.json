@@ -1,0 +1,167 @@
+{
+  "taskId": "custodian-stalker",
+  "name": "Custodian stalker",
+  "wikiPageId": 601070,
+  "combatLevel": null,
+  "slayerTargetId": 244,
+  "slayerLevel": 54,
+  "questReqs": [
+    "Shadows of Custodia"
+  ],
+  "masterIds": [
+    "chaeldar",
+    "nieve"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      70,
+      130
+    ],
+    "nieve": [
+      110,
+      170
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 11,
+    "nieve": 8
+  },
+  "extendedAmount": {
+    "chaeldar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows Ancient Custodian to spawn after killing an Elder custodian stalker."
+    },
+    {
+      "unlockId": "un-restraining-order",
+      "name": "Un-restraining Order",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of custodian stalkers assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "custodian-stalker"
+  ],
+  "variantIds": [
+    "juvenile-custodian-stalker",
+    "mature-custodian-stalker",
+    "elder-custodian-stalker",
+    "ancient-custodian"
+  ],
+  "defaultVariantId": "juvenile-custodian-stalker",
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 45,
+    "stab": 30,
+    "slash": -10,
+    "crush": 50,
+    "magic": 35,
+    "range": 5
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "stalker-den-custodian-stalkers"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "juvenile-custodian-stalker",
+      "name": "Juvenile custodian stalker",
+      "combatLevel": 93,
+      "slayerXp": 135,
+      "locations": [
+        "Stalker Den"
+      ],
+      "notes": [
+        "Requires 54 Slayer and attacks with crush plus a low-health bleed special.",
+        "Drops broken antlers but no antler guard or alchemist's signet."
+      ]
+    },
+    {
+      "variantId": "mature-custodian-stalker",
+      "name": "Mature custodian stalker",
+      "combatLevel": 117,
+      "slayerXp": 190,
+      "locations": [
+        "Stalker Den"
+      ],
+      "notes": [
+        "Requires 67 Slayer and can drop the antler guard and huasca seeds.",
+        "Uses crush, magic, and a low-health bleed special that Protect from Magic can block."
+      ]
+    },
+    {
+      "variantId": "elder-custodian-stalker",
+      "name": "Elder custodian stalker",
+      "combatLevel": 142,
+      "slayerXp": 250,
+      "locations": [
+        "Stalker Den"
+      ],
+      "notes": [
+        "Requires 76 Slayer, can drop alchemist's signet, and is the only variant that can spawn Ancient Custodian.",
+        "At 20% hitpoints it can apply a bleed special for 9 damage over 15 ticks unless blocked or missed."
+      ]
+    },
+    {
+      "variantId": "ancient-custodian",
+      "name": "Ancient Custodian",
+      "combatLevel": 239,
+      "slayerXp": 3382,
+      "locations": [
+        "Stalker Den"
+      ],
+      "notes": [
+        "Superior slayer monster variant unlocked by Bigger and Badder after killing an Elder custodian stalker.",
+        "Rolls three extra regular-table drops in addition to superior Slayer tertiary rewards."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "stalker-den-custodian-stalkers",
+      "name": "Stalker Den",
+      "amount": null,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The task page does not publish one combined spawn count for the family.",
+        "The Stalker Den has multicombat cannonable zones in the south-west and single-combat caverns in the south-east and north.",
+        "A safespot is documented for Elder custodian stalkers in the western single-combat area."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Custodian stalkers require 54 Slayer and completion of Shadows of Custodia; Chaeldar assigns 70-130 at weight 11 and Nieve assigns 110-170 at weight 8.",
+    "The Un-restraining Order extension costs 100 Slayer reward points and increases assignments to 200-250.",
+    "The Stalker Den is the sole task location; do not reuse stalker-den-zygomites, which is the Ancient Zygomite tuned copy.",
+    "The Stalker Den has multicombat cannonable zones in the south-west, and single-combat caverns in the south-east and north.",
+    "Most damage is prevented with Protect from Melee, but the low-health spore special can cause bleed and may be blocked with Protect from Magic.",
+    "Gear with high magic defence such as dragonhide reduces the chance of taking damage from the special attack.",
+    "Players are encouraged to reach 76 Slayer for Elder custodian stalkers, which have better drops and are the only variant that can spawn Ancient Custodian.",
+    "Ranged multicombat with a dwarf multicannon and Venator bow is the first wiki equipment tab; magic multicombat and melee single-combat are alternatives.",
+    "slayerTargetId 244 is a synthetic placeholder per the WC-1..11 contract (240 + WC index); the real SLAYER_TARGET varp value for Custodian stalker is unverified and detection falls back to the RuneLite task-name path."
+  ],
+  "recommendedMethod": "Use the Stalker Den's south-west multicombat cannonable area with ranged gear such as Venator bow, Protect from Melee, and prayer restoration; switch to magic multicombat or melee in single-combat caverns as preferred, and prioritise Elder custodian stalkers at 76 Slayer for superior spawns and better drops."
+}

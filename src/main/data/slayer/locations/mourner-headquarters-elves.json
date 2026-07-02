@@ -1,0 +1,11 @@
+{
+  "locationId": "mourner-headquarters-elves",
+  "name": "Mourner Headquarters",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Only the 4 level 108 Mourners downstairs count for Elves tasks. Requires Mourning's End Part I access and Mourner gear unless Mourning's End Part II is complete for the nearby Slayer ring Dark beast teleport; unavailable after Song of the Elves."
+}

@@ -1,0 +1,317 @@
+{
+  "strategyId": "red-dragons",
+  "variantIds": [
+    "red-dragon",
+    "baby-red-dragon",
+    "brutal-red-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Red_dragons",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "dragon-hunter-crossbow",
+      "hunters-sunlight-crossbow",
+      "dragon-crossbow",
+      "rune-crossbow",
+      "toxic-blowpipe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-lance",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "zamorakian-hasta",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "osmumten-s-fang",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Unlock Seeing red before expecting assignments. Adult and brutal Red dragons need dragonfire protection, while baby red dragons do not use dragonfire. Dragonbane ranged or melee is preferred; water spells exploit the 50% elemental weakness. Brutal red dragons can drop draconic visage but are slow compared to normal or baby red dragons."
+  },
+  "requirements": [
+    "Seeing red unlock for 50 Slayer reward points",
+    "Partial completion of Dragon Slayer I for the Anti-dragon shield",
+    "Dragonfire protection for adult and brutal red dragons",
+    "30 Agility for the Brimhaven Dungeon adult red dragon route",
+    "Dragon Slayer II for Corsair Cove Dungeon / Myths' Guild basement red dragons",
+    "60 Sailing for Charred Dungeon",
+    "Sacred Bone Burner unlock for the Forthos Dungeon bone-sacrifice method"
+  ],
+  "mechanics": [
+    "Adult red dragons attack with melee and dragonfire.",
+    "Brutal red dragons attack with melee, magic, and long-range dragonfire.",
+    "Baby red dragons do not attack with dragonfire.",
+    "The task page says Protect from Magic can suffice as a dragonfire protection alternative for adult and brutal variants.",
+    "The Red dragon monster page recommends anti-dragon shield and/or antifire potion, with antifire plus shield or super antifire giving full dragonfire protection.",
+    "Brutal red dragons can be fully protected from dragonfire and magic by using both Protect from Magic and an antifire potion.",
+    "Red dragons, baby red dragons, and brutal red dragons have a 50% elemental weakness to water spells.",
+    "Red dragons are dragons, so dragonbane weapons apply.",
+    "Elite Karamja Diary makes Brimhaven Dungeon red dragonhide drops noted.",
+    "Brutal red dragons can drop draconic visage but are a slow task option compared to normal or baby red dragons."
+  ],
+  "methods": [
+    {
+      "methodId": "unlock-and-protection",
+      "label": "Unlock and protection",
+      "combatStyle": "RANGED",
+      "role": "setup",
+      "summary": "Confirm Seeing red is unlocked, bring partial Dragon Slayer I dragonfire protection, and choose adult, baby, or brutal variants by speed and requirements.",
+      "recommendedFor": [
+        "all Red dragons tasks",
+        "baseline routing",
+        "avoiding invalid assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Seeing red",
+        "Anti-dragon shield",
+        "Antifire potion",
+        "Super antifire potion",
+        "Dragon hunter crossbow",
+        "Dragon hunter lance",
+        "Dragon hunter wand"
+      ],
+      "prayers": [
+        "Protect from Magic as a dragonfire alternative",
+        "Protect from Melee when using full dragonfire protection against adults"
+      ],
+      "steps": [
+        "Unlock Seeing red for 50 Slayer reward points before expecting Konar, Nieve, or Duradel Red dragon assignments.",
+        "Complete enough of Dragon Slayer I to receive the Anti-dragon shield.",
+        "Use dragonfire protection against adult and brutal red dragons.",
+        "Skip dragonfire gear only when intentionally killing baby red dragons.",
+        "Use dragonbane weapons where available, or water spells when exploiting the 50% elemental weakness."
+      ],
+      "risks": [
+        "Adult and brutal red dragonfire can hit heavily without protection.",
+        "Protect from Magic alone leaves the player exposed to melee damage."
+      ]
+    },
+    {
+      "methodId": "brimhaven-adult-cannon",
+      "label": "Brimhaven adult cannon",
+      "combatStyle": "RANGED",
+      "role": "standard",
+      "summary": "Kill adult red dragons in Brimhaven Dungeon with cannon support and the pipe safespot, especially after Elite Karamja Diary.",
+      "recommendedFor": [
+        "standard adult red dragon tasks",
+        "players with Elite Karamja Diary",
+        "cannon users"
+      ],
+      "requiredOrKeyItems": [
+        "30 Agility",
+        "Dwarf multicannon",
+        "Anti-dragon shield or antifire",
+        "Dragonbane weapon",
+        "Axe and Brimhaven Dungeon payment"
+      ],
+      "steps": [
+        "Use the Brimhaven Dungeon red dragon area after meeting the access requirements.",
+        "Set up a dwarf multicannon because the task page marks this location cannonable.",
+        "Use the safespot next to the pipe agility shortcut to the black demons when using Ranged or Magic.",
+        "Keep dragonfire protection active against adult red dragons.",
+        "After Elite Karamja Diary, prioritise this location when noted red dragonhide is useful."
+      ],
+      "notes": [
+        "The task page lists 16 adult red dragons in Brimhaven Dungeon."
+      ]
+    },
+    {
+      "methodId": "baby-red-dragons",
+      "label": "Baby red dragons",
+      "combatStyle": "RANGED",
+      "role": "speed",
+      "summary": "Use baby red dragons for lower-risk kills because they do not use dragonfire and have lower Hitpoints.",
+      "recommendedFor": [
+        "fast lower-risk task completion",
+        "players avoiding dragonfire protection",
+        "baby dragon bone collection"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon for Brimhaven or Corsair Cove",
+        "Ranged, stab, or Magic weapon",
+        "Dragon Slayer II for Corsair Cove baby red dragons"
+      ],
+      "steps": [
+        "Choose baby red dragons when speed and safety matter more than adult red dragonhide and bones.",
+        "Do not reserve inventory space for dragonfire protection solely for baby red dragons because they do not use dragonfire.",
+        "Use Brimhaven Dungeon if cannoning before Dragon Slayer II, accepting nearby adult red dragon and wild dog pressure.",
+        "Use Corsair Cove Dungeon after Dragon Slayer II for two bank-adjacent baby red dragons.",
+        "Avoid Forthos baby red dragons when cannon or safespot support is required because the task page marks them as neither."
+      ],
+      "notes": [
+        "The Baby red dragon page says they are weak to ranged, magic, and stab attacks."
+      ]
+    },
+    {
+      "methodId": "forthos-adult-safespot",
+      "label": "Forthos adult safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use Forthos Dungeon when safespotting adults and using local altar, bone, hide, and Crafting utility.",
+      "recommendedFor": [
+        "players not using a cannon",
+        "Prayer sustain",
+        "Crafting hides during trips"
+      ],
+      "requiredOrKeyItems": [
+        "Dragonfire protection",
+        "Ranged or Magic weapon",
+        "Sacred Bone Burner unlock",
+        "Needle and Thread or Costume needle"
+      ],
+      "steps": [
+        "Use the safespot next to the fire and stalagmite near the strange floor agility shortcut.",
+        "Use the nearby altar to sustain Prayer Points indefinitely.",
+        "After unlocking the Sacred Bone Burner, sacrifice dragon bones there for bonus XP.",
+        "Bring a Needle and Thread or Costume needle to craft hides tanned with Eodan for Crafting XP.",
+        "Use water spells or dragonbane ranged when avoiding melee range."
+      ]
+    },
+    {
+      "methodId": "corsair-cove-bank",
+      "label": "Corsair Cove bank route",
+      "combatStyle": "RANGED",
+      "role": "banking",
+      "summary": "After Dragon Slayer II, use Corsair Cove Dungeon / Myths' Guild basement for a bank-adjacent group of adult and baby red dragons.",
+      "recommendedFor": [
+        "Dragon Slayer II accounts",
+        "banking hides and bones",
+        "mixed adult and baby red dragon kills"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon Slayer II",
+        "Dwarf multicannon",
+        "Dragonfire protection for adult red dragons",
+        "Dragonbane weapon"
+      ],
+      "steps": [
+        "Use this method only after Dragon Slayer II.",
+        "Kill the three adult red dragons and two baby red dragons near the bank.",
+        "Use dragonfire protection when attacking adult red dragons.",
+        "Bank dragon bones and red dragonhide when profit matters more than continuous kills."
+      ],
+      "notes": [
+        "The task page explicitly calls this group very close to a bank."
+      ]
+    },
+    {
+      "methodId": "brutal-red-dragons",
+      "label": "Brutal red dragons",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Kill Brutal red dragons only when intentionally choosing the slower Catacombs alternative with draconic visage chance.",
+      "recommendedFor": [
+        "draconic visage chance",
+        "Catacombs routing",
+        "players accepting slower tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Antifire potion",
+        "Protect from Magic",
+        "Dragon hunter crossbow",
+        "Dragon hunter lance",
+        "Water spells",
+        "Catacombs access"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Use Catacombs of Kourend for the three Brutal red dragon spawns.",
+        "Use both Protect from Magic and an antifire potion to fully protect from their magic and long-range dragonfire attacks.",
+        "Avoid standing in melee range when safespotting.",
+        "Use dragonbane ranged or melee, or water spells for the 50% elemental weakness.",
+        "Choose this method only when the draconic visage chance or Catacombs drops justify the slower task."
+      ],
+      "risks": [
+        "The task page says Brutal red dragons are generally not worth killing because they are slow compared to normal or baby red dragons."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Dragonbane ranged",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use dragon hunter crossbow or another strong ranged weapon for adult, baby, or brutal red dragon kills.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "dragon-hunter-crossbow",
+            "hunters-sunlight-crossbow",
+            "dragon-crossbow",
+            "rune-crossbow",
+            "toxic-blowpipe"
+          ],
+          "inventory": [
+            "Anti-dragon shield",
+            "Antifire potion",
+            "Dwarf multicannon"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Dragonbane melee",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use dragon hunter lance or stab melee with dragonfire protection for adult dragons.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "dragon-hunter-lance",
+            "zamorakian-hasta",
+            "osmumten-s-fang"
+          ],
+          "shield": [
+            "Anti-dragon shield",
+            "Dragonfire shield"
+          ],
+          "inventory": [
+            "Antifire potion",
+            "Food"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-water",
+      "label": "Water magic",
+      "combatStyle": "MAGIC",
+      "role": "elemental",
+      "summary": "Use water spells or dragon hunter wand to exploit the 50% water weakness from range.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "dragon-hunter-wand",
+            "harmonised-nightmare-staff",
+            "twinflame-staff",
+            "staff-of-the-dead"
+          ],
+          "inventory": [
+            "Water spell runes",
+            "Anti-dragon shield",
+            "Antifire potion"
+          ]
+        }
+      }
+    }
+  ]
+}

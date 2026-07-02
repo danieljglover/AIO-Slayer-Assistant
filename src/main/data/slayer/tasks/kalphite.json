@@ -1,0 +1,207 @@
+{
+  "taskId": "kalphite",
+  "name": "Kalphite",
+  "wikiPageId": 259777,
+  "combatLevel": 15,
+  "slayerTargetId": 225,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna",
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "turael": 6,
+    "spria": 6,
+    "mazchna": 6,
+    "vannaka": 7,
+    "chaeldar": 11,
+    "konar": 9,
+    "nieve": 9,
+    "duradel": 9
+  },
+  "monsterIds": [
+    "kalphite"
+  ],
+  "variantIds": [
+    "kalphite-worker",
+    "kalphite-soldier",
+    "kalphite-guardian",
+    "kalphite-queen-crawling-form",
+    "kalphite-queen-airborne-form"
+  ],
+  "defaultVariantId": "kalphite-worker",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 20,
+    "stab": 5,
+    "slash": 5,
+    "crush": 1,
+    "magic": 10,
+    "range": 10
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": true,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "kalphite-lair",
+    "kalphite-cave"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "kalphite-worker",
+      "name": "Kalphite worker",
+      "combatLevel": 28,
+      "slayerXp": 40,
+      "locations": [
+        "Kalphite Lair",
+        "Kalphite Cave"
+      ],
+      "notes": [
+        "The weakest variant of kalphite.",
+        "Kalphite workers cannot poison, unlike soldiers and guardians.",
+        "Good choice when the player wants a quick cannon task."
+      ]
+    },
+    {
+      "variantId": "kalphite-soldier",
+      "name": "Kalphite soldier",
+      "combatLevel": 85,
+      "slayerXp": 90,
+      "locations": [
+        "Kalphite Lair",
+        "Kalphite Cave"
+      ],
+      "notes": [
+        "A mid-level variant of kalphite.",
+        "Can induce poison beginning at 4 damage.",
+        "Recommended over guardians when the player wants better Slayer experience."
+      ]
+    },
+    {
+      "variantId": "kalphite-guardian",
+      "name": "Kalphite guardian",
+      "combatLevel": 141,
+      "slayerXp": 170,
+      "locations": [
+        "Kalphite Lair",
+        "Kalphite Cave"
+      ],
+      "notes": [
+        "A high-level variant of kalphite.",
+        "Can induce poison beginning at 6 damage.",
+        "Generally not optimal because guardians are sparse, large, and have a worse cost/experience ratio than soldiers."
+      ]
+    },
+    {
+      "variantId": "kalphite-queen",
+      "name": "Kalphite Queen",
+      "combatLevel": 333,
+      "slayerXp": 535.5,
+      "locations": [
+        "Kalphite Lair"
+      ],
+      "notes": [
+        "Queen of the kalphites and most powerful of its species.",
+        "Has two forms with different resistances and attacks with all three forms of combat.",
+        "For more information on fighting the Kalphite Queen, see Kalphite Queen/Strategies."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "kalphite-lair",
+      "name": "Kalphite Lair",
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "13 Workers; 7 Soldiers; 4 Guardians; 1 Queen.",
+        "All variants are found here, including the Kalphite Queen.",
+        "Two of the kalphite guardians spawn on the first floor, and two on the second floor with the Kalphite Queen; these spawn slowly compared to Kalphite Cave.",
+        "A rope needs to be used to access the lair if the player has not completed the Hard Desert Diary.",
+        "A second rope is needed to access the Queen's lair."
+      ]
+    },
+    {
+      "locationId": "kalphite-cave",
+      "name": "Kalphite Cave",
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "18 Workers; 20 Soldiers; 5 Guardians.",
+        "Slayer task-exclusive area containing the 3 normal varieties of kalphites.",
+        "Contains five open chambers: two worker chambers, two soldier chambers, and one guardian chamber.",
+        "Recommended for normal Kalphite tasks because the open chambers and many spawns significantly speed up completion."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Kalphites can be assigned as a Slayer task at 15 combat by all Slayer masters with the exception of Wilderness Slayer master Krystilia.",
+    "Kalphites are available from all non-Wilderness Slayer masters because they come in a wide variety of levels.",
+    "They can be found in the Kalphite Lair in the north-west Kharidian Desert and in the task-exclusive Kalphite Cave east of Shantay Pass.",
+    "Kalphites come in workers, soldiers, guardians, and the boss monster the Kalphite Queen.",
+    "With the exception of the Queen, all Kalphites use melee attacks.",
+    "Soldiers and guardians can induce poison starting at 4 and 6 Hitpoints damage respectively, and this poison bypasses protection prayers.",
+    "Protect from Melee and poison immunity completely negate damage from workers, soldiers, and guardians.",
+    "Normal Kalphite tasks should be done at the Kalphite Cave because it has five chambers with many Kalphites and faster completion times.",
+    "If Konar forces the task to the Kalphite Lair, soldiers should be cannoned for fast task progression.",
+    "Players who want a quick task should cannon workers.",
+    "Players looking for experience should cannon soldiers instead.",
+    "Guardians will generally never be optimal because they are sparse, larger, and have a worse cost/experience ratio than soldiers.",
+    "Killing the Kalphite Queen is not recommended unless the player is progressing the Elite Desert diary or has completed it and has 86 Agility.",
+    "Without the Hard Desert Diary, two ropes are likely needed for every Kalphite Queen trip.",
+    "The keris dagger from Contact! increases damage against all kalphites by 33% and has a 1/51 chance to deal a hit with tripled damage, but its low stats make it a poor regular-task choice.",
+    "The Keris partisan from Beneath Cursed Sands is stronger, more accurate, deals more damage, and has a crush option for Kalphite weakness.",
+    "The Keris partisan of breaching requires 80 Attack and adds an additional 33% accuracy against Kalphites, letting it outperform many expensive weapons for a fraction of the price."
+  ],
+  "recommendedMethod": "Use the Kalphite Cave for normal tasks: cannon workers for the quickest completion or soldiers for better experience. Bring Protect from Melee, poison immunity, and a Keris partisan or Keris partisan of breaching when available."
+}

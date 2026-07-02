@@ -1,0 +1,29 @@
+{
+  "variantId": "guardian-drake",
+  "name": "Guardian Drake",
+  "npcIds": [
+    10400
+  ],
+  "combatLevel": 376,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 200,
+    "stab": 20,
+    "slash": 100,
+    "crush": 100,
+    "magic": 20,
+    "range": 150
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Karuulm Slayer Dungeon (middle level)",
+  "requirement": "84 Slayer; Bigger and Badder unlock (50 Slayer pts); on Drake task",
+  "bossId": null,
+  "strategyId": "drakes"
+}

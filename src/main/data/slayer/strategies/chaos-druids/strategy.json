@@ -1,0 +1,95 @@
+{
+  "strategyId": "chaos-druids",
+  "variantIds": [
+    "chaos-druid"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Chaos_druid",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "viggora-s-chainmace",
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Chaos druids have defence level 12 and zero defensive bonuses, so any style kills them quickly; bring cheap Wilderness-appropriate gear. Krystilia only counts the Edgeville Dungeon (Wilderness) spawns."
+  },
+  "requirements": [
+    "Kills must be made in the Wilderness to count for the Krystilia assignment.",
+    "No Slayer level or quest requirement."
+  ],
+  "mechanics": [
+    "Chaos druids (npc 520) are combat level 13 with 20 Hitpoints and grant 20 Slayer XP.",
+    "They attack with crush melee and cast a weaken/bind spell; max hit is low.",
+    "They have defence level 12 and zero defensive bonuses.",
+    "They drop herbs from the herb table (guam to snapdragon), making the task profitable."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the 11 Edgeville Dungeon (Wilderness) chaos druids with any melee weapon.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Enter the Wilderness section of Edgeville Dungeon.",
+        "Kill the chaos druids with any weapon (they have no defensive bonuses).",
+        "Pick up and bank the herb drops between trips."
+      ],
+      "notes": [
+        "Bring only cheap gear; this is a low-level Wilderness spot with PKer risk."
+      ]
+    },
+    {
+      "methodId": "ranged-magic",
+      "label": "Ranged or magic",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Attack from range with ranged or magic to keep distance in the Wilderness.",
+      "recommendedFor": [
+        "players who want to avoid the druids' melee/spell",
+        "hit-and-run against PKer risk"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged or magic weapon"
+      ],
+      "steps": [
+        "Enter the Wilderness section of Edgeville Dungeon.",
+        "Attack the chaos druids with ranged or magic (all their defences are 0).",
+        "Bank the herb drops between trips."
+      ],
+      "notes": [
+        "Their weaken/bind spell has a short reach; ranging avoids their melee entirely."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-any",
+      "label": "Any melee",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Zero defensive bonuses mean any style works; melee is simplest.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Viggora's chainmace",
+            "Dragon scimitar",
+            "Abyssal whip"
+          ]
+        }
+      }
+    }
+  ]
+}

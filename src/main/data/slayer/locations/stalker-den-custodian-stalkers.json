@@ -1,0 +1,11 @@
+{
+  "locationId": "stalker-den-custodian-stalkers",
+  "name": "Stalker Den",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires completion of Shadows of Custodia for full access. Custodian stalkers occupy multicombat cannonable zones in the south-west and single-combat caverns in the south-east and north; a safespot is documented for Elder custodian stalkers in a western single-combat area, so these flags describe supported zones rather than every tile."
+}

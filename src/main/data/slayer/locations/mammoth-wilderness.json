@@ -1,0 +1,11 @@
+{
+  "locationId": "mammoth-wilderness",
+  "name": "Wilderness (south-east of Ferox Enclave)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Mammoths roam the Wilderness south-east of Ferox Enclave. The exact Wilderness level is not wiki-stated; multi and cannon status are not wiki-stated, so treated conservatively as false. Bring low-risk gear and a one-click escape teleport."
+}

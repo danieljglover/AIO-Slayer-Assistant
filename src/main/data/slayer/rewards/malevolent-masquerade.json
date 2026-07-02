@@ -1,0 +1,7 @@
+{
+  "rewardId": "malevolent-masquerade",
+  "name": "Malevolent masquerade",
+  "pointsCost": 400,
+  "effect": "GEAR_UNLOCK",
+  "notes": "Unlocks crafting the Slayer helmet (black mask + nose peg + facemask + earmuffs + spiny helmet)."
+}

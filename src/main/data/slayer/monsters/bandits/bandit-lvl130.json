@@ -1,0 +1,29 @@
+{
+  "variantId": "bandit-lvl130",
+  "name": "Bandit",
+  "npcIds": [
+    6605
+  ],
+  "combatLevel": 130,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 55,
+    "stab": 0,
+    "slash": 2,
+    "crush": 2,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Bandit Camp (Wilderness)",
+  "requirement": "Must be killed in the Wilderness to count towards a Krystilia task",
+  "bossId": null,
+  "strategyId": "bandits"
+}

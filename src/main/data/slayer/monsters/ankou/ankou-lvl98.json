@@ -1,0 +1,29 @@
+{
+  "variantId": "ankou-level-98",
+  "name": "Ankou (Level 98)",
+  "npcIds": [
+    7864
+  ],
+  "combatLevel": 98,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Wilderness Slayer Cave / The Forgotten Cemetery / Deepfin Mine",
+  "requirement": "none (Wilderness - PKer risk for Wilderness locations)",
+  "bossId": null,
+  "strategyId": "ankou"
+}

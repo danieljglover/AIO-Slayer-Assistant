@@ -1,0 +1,30 @@
+{
+  "variantId": "hellhound-god-wars-dungeon",
+  "name": "Hellhound (God Wars Dungeon)",
+  "npcIds": [
+    3133
+  ],
+  "combatLevel": 127,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 106,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "God Wars Dungeon",
+  "locationId": "god-wars-dungeon",
+  "requirement": "none (not assignable by Konar)",
+  "bossId": null,
+  "strategyId": "hellhounds"
+}

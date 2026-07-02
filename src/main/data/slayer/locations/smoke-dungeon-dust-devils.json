@@ -1,0 +1,11 @@
+{
+  "locationId": "smoke-dungeon-dust-devils",
+  "name": "Smoke Dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": true,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires partial Desert Treasure I access and face protection from smoke effects and Dust devils. The task-only western multicombat area is guarded by Dusty Aliv and is good for bursting or barraging, but cannot use a dwarf multicannon; the remaining single-way rooms can be cannoned. Wearing a Slayer helmet here for a Dust devil kill is required for the Hard Desert Diary."
+}

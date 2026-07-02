@@ -1,0 +1,190 @@
+{
+  "Aberrant spectres": [
+    {
+      "name": "Aberrant spectre",
+      "npcIds": [2, 3, 4, 5, 6, 7],
+      "combatLevel": 96,
+      "isDefault": true,
+      "weakness": { "style": "MAGIC", "element": "air" },
+      "monsterDefence": { "defenceLevel": 60, "stab": 30, "slash": 30, "crush": 30, "magic": 30, "range": 30 },
+      "undead": true,
+      "location": "Slayer Tower (floor 1) / Stronghold Slayer Cave / Deepfin Mine",
+      "requirement": "Priest in Peril; nose peg or Slayer helmet"
+    },
+    {
+      "name": "Abhorrent spectre",
+      "npcIds": [7402],
+      "combatLevel": 253,
+      "weakness": { "style": "MAGIC", "element": "air" },
+      "monsterDefence": { "defenceLevel": 180, "stab": 40, "slash": 40, "crush": 40, "magic": 0, "range": 30 },
+      "undead": true,
+      "location": "Slayer Tower / Stronghold Slayer Cave / Deepfin Mine",
+      "requirement": "superior - Bigger and Badder unlock; nose peg or Slayer helmet"
+    },
+    {
+      "name": "Deviant spectre",
+      "npcIds": [7279],
+      "combatLevel": 169,
+      "weakness": { "style": "MAGIC", "element": "air" },
+      "monsterDefence": { "defenceLevel": 90, "stab": 80, "slash": 80, "crush": 80, "magic": 0, "range": 30 },
+      "undead": true,
+      "location": "Catacombs of Kourend",
+      "requirement": "Priest in Peril; nose peg or Slayer helmet"
+    },
+    {
+      "name": "Repugnant spectre",
+      "npcIds": [7403],
+      "combatLevel": 335,
+      "weakness": { "style": "MAGIC", "element": "air" },
+      "monsterDefence": { "defenceLevel": 220, "stab": 120, "slash": 120, "crush": 120, "magic": 0, "range": 30 },
+      "undead": true,
+      "location": "Catacombs of Kourend",
+      "requirement": "superior - Bigger and Badder unlock; nose peg or Slayer helmet"
+    }
+  ],
+  "Ankou": [
+    {
+      "name": "Ankou (Level 75)",
+      "npcIds": [2514, 2517],
+      "combatLevel": 75,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 25, "stab": 15, "slash": 15, "crush": 15, "magic": 20, "range": 15 },
+      "undead": true,
+      "location": "Sepulchre of Death (Stronghold of Security) / Stronghold Slayer Cave / Catacombs of Kourend / Deepfin Mine",
+      "requirement": "none"
+    },
+    {
+      "name": "Ankou (Level 82)",
+      "npcIds": [2515, 2518],
+      "combatLevel": 82,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 70, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 15 },
+      "undead": true,
+      "location": "Sepulchre of Death / Stronghold Slayer Cave / Catacombs of Kourend / Deepfin Mine",
+      "requirement": "none"
+    },
+    {
+      "name": "Ankou (Level 86)",
+      "npcIds": [2516, 2519, 6608],
+      "combatLevel": 86,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 80, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 15 },
+      "undead": true,
+      "location": "Stronghold Slayer Cave / Catacombs of Kourend / Forgotten Cemetery tier",
+      "requirement": "none"
+    },
+    {
+      "name": "Ankou (Level 95)",
+      "npcIds": [7257],
+      "combatLevel": 95,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 15 },
+      "undead": true,
+      "location": "Catacombs of Kourend",
+      "requirement": "none"
+    },
+    {
+      "name": "Ankou (Level 98)",
+      "npcIds": [7864],
+      "combatLevel": 98,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 80, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 15 },
+      "undead": true,
+      "location": "Wilderness Slayer Cave",
+      "requirement": "none (Wilderness - PKer risk)"
+    },
+    {
+      "name": "Dark Ankou",
+      "npcIds": [7296],
+      "combatLevel": 95,
+      "isBoss": true,
+      "undead": true,
+      "location": "Catacombs of Kourend (Skotizo fight only)",
+      "requirement": "boss - separate trip; summoned during Skotizo"
+    }
+  ],
+  "Vampyres": [
+    {
+      "name": "Feral Vampyre",
+      "npcIds": [3237, 3707, 3708, 4431, 5640, 3234, 3137, 5641, 5642],
+      "isDefault": true,
+      "undead": false,
+      "location": "God Wars Dungeon / Haunted Woods / West of Burgh de Rott / Wilderness God Wars Dungeon / Temple Trekking",
+      "requirement": "Priest in Peril (most locations); any weapon works"
+    },
+    {
+      "name": "Vampyre Juvenile",
+      "npcIds": [4436, 4437, 4438, 4439, 3692, 3693, 3696, 3697, 9731, 9732, 9733, 9734],
+      "combatLevel": 45,
+      "undead": false,
+      "location": "Darkmeyer / East of Burgh de Rott / Meiyerditch / Crombwick Manor",
+      "requirement": "any weapon to damage; typically no task credit unless feral form slain"
+    },
+    {
+      "name": "Vampyre Juvinate",
+      "npcIds": [4443, 4486, 4427, 4428, 4429, 4430, 4432, 4487, 3694, 3695, 3698, 3699, 9727, 9728, 9729, 9730, 5634, 5637, 4442, 5635, 5638, 5636, 5639, 9614, 9615, 9616, 9617],
+      "undead": false,
+      "location": "Darkmeyer / East of Burgh de Rott / Meiyerditch Mine / Ver Sinhaza",
+      "requirement": "silver weaponry or Efaritay's aid to damage"
+    },
+    {
+      "name": "Vyrewatch",
+      "npcIds": [8252, 8253, 8254, 8255, 8256, 8257, 8258, 8259, 3709, 3710, 3714, 3718, 3722, 3726, 3730, 3749, 3753, 3757, 3761, 3711, 3715, 3719, 3723, 3727, 3731, 3750, 3754, 3758, 3762, 3712, 3716, 3720, 3724, 3728, 3732, 3751, 3755, 3759, 3763],
+      "undead": false,
+      "location": "Darkmeyer / Meiyerditch / Slepe",
+      "requirement": "A Taste of Hope (quest); Ivandis flail or Blisterwood flail to damage"
+    },
+    {
+      "name": "Vyrewatch Sentinel",
+      "npcIds": [9756, 9757, 9758, 9759, 9760, 9761, 9762, 9763],
+      "combatLevel": 151,
+      "undead": false,
+      "location": "Darkmeyer",
+      "requirement": "Sins of the Father (quest); Ivandis or Blisterwood flail to damage"
+    }
+  ],
+  "Basilisks": [
+    {
+      "name": "Basilisk",
+      "npcIds": [417],
+      "combatLevel": 61,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 40, "stab": 20, "slash": 20, "crush": 20, "magic": 20, "range": 20 },
+      "undead": false,
+      "location": "Fremennik Slayer Dungeon / Jormungand's Prison",
+      "requirement": "mirror shield or V's shield"
+    },
+    {
+      "name": "Monstrous basilisk",
+      "npcIds": [7395],
+      "combatLevel": 135,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 130, "stab": 35, "slash": 35, "crush": 0, "magic": 35, "range": 20 },
+      "undead": false,
+      "location": "Fremennik Slayer Dungeon / Jormungand's Prison",
+      "requirement": "superior - Bigger and Badder unlock; mirror shield or V's shield"
+    },
+    {
+      "name": "Basilisk Knight",
+      "npcIds": [9293],
+      "combatLevel": 204,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 186, "stab": 30, "slash": 30, "crush": -15, "magic": 30, "range": 20 },
+      "undead": false,
+      "location": "Jormungand's Prison",
+      "requirement": "The Fremennik Exiles (quest); mirror shield or V's shield"
+    },
+    {
+      "name": "Basilisk Sentinel",
+      "npcIds": [9258],
+      "combatLevel": 358,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 274, "stab": 50, "slash": 50, "crush": 10, "magic": 50, "range": 20 },
+      "undead": false,
+      "location": "Jormungand's Prison",
+      "requirement": "superior - Bigger and Badder unlock; mirror shield or V's shield"
+    }
+  ]
+}

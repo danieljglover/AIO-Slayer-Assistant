@@ -1,0 +1,126 @@
+{
+  "taskId": "hydras",
+  "name": "Hydras",
+  "wikiPageId": 297876,
+  "combatLevel": null,
+  "slayerTargetId": 245,
+  "slayerLevel": 95,
+  "questReqs": [],
+  "masterIds": [
+    "konar"
+  ],
+  "amountByMaster": {
+    "konar": [
+      125,
+      190
+    ]
+  },
+  "weightByMaster": {
+    "konar": 10
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows the superior Colossal Hydra to spawn while on a Hydras task."
+    }
+  ],
+  "monsterIds": [
+    "hydras"
+  ],
+  "variantIds": [
+    "hydra",
+    "colossal-hydra",
+    "hydras-alchemical-hydra"
+  ],
+  "defaultVariantId": "hydra",
+  "weakness": {
+    "style": "RANGED",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 160,
+    "slash": 160,
+    "crush": 160,
+    "magic": 160,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 21647,
+  "requiredItemName": "Boots of stone",
+  "locationIds": [
+    "karuulm-slayer-dungeon-hydras"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "hydra",
+      "name": "Hydra",
+      "combatLevel": 194,
+      "slayerXp": 322.5,
+      "locations": [
+        "Karuulm Slayer Dungeon"
+      ],
+      "notes": [
+        "Hydras attack with ranged and magic, starting with a random style and switching after three attacks regardless of whether they hit.",
+        "After roughly 30 seconds a hydra spits poison at three random tiles, one at the player's location, dealing 4 poison damage every two ticks; poison immunity reduces it to 1-2."
+      ]
+    },
+    {
+      "variantId": "colossal-hydra",
+      "name": "Colossal Hydra",
+      "combatLevel": 309,
+      "slayerXp": 8625,
+      "locations": [
+        "Karuulm Slayer Dungeon"
+      ],
+      "notes": [
+        "Superior slayer monster variant that can spawn after purchasing Bigger and Badder (1/200 base spawn rate, 1/150 after elite Combat Achievements).",
+        "Has the highest imbued heart drop rate at 1/160."
+      ]
+    },
+    {
+      "variantId": "hydras-alchemical-hydra",
+      "name": "Alchemical Hydra",
+      "combatLevel": 426,
+      "slayerXp": 1320,
+      "locations": [],
+      "notes": [
+        "Boss variant on the lower level of Karuulm Slayer Dungeon; it can only be killed while on a hydra Slayer task, which only Konar assigns.",
+        "Four phases at 75%/50%/25% HP; each phase takes 75% reduced damage unless lured over the matching coloured vent."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "karuulm-slayer-dungeon-hydras",
+      "name": "Karuulm Slayer Dungeon",
+      "amount": 17,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "17 Hydras in the task-only area of the dungeon.",
+        "Boots of stone, boots of brimstone, or granite boots are required against the dungeon floor heat unless the Elite Kourend & Kebos Diary is complete."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Hydras are assigned exclusively by Konar quo Maten and require 95 Slayer.",
+    "Boots of stone, boots of brimstone, or granite boots are mandatory in Karuulm Slayer Dungeon unless the Elite Kourend & Kebos Diary is complete.",
+    "Hydras are draconic, so dragonbane weapons such as the dragon hunter crossbow and dragon hunter lance are effective.",
+    "Hydras alternate ranged and magic attacks, switching after three attacks; pray against the style you have the lowest defence towards and switch when the hydra switches.",
+    "After roughly 30 seconds hydras spit poison at three random tiles dealing 4 poison damage every two ticks; poison immunity reduces this to 1-2 damage.",
+    "The Alchemical Hydra boss can only be killed while on a hydra Slayer task and is the lucrative alternative for the task.",
+    "No task-extension unlock exists for Hydras; Konar assigns 125-190 at weight 10.",
+    "Blocking high-weight Konar tasks such as metal dragons, wyrms, drakes, abyssal demons, cave krakens, and black demons increases hydra assignment odds.",
+    "Brimstone keys drop from task-only kills in Konar-assigned areas.",
+    "slayerTargetId 245 is a synthetic placeholder per the WC-1..11 contract (240 + WC index); the real SLAYER_TARGET varp value for Hydras is unverified and detection falls back to the RuneLite task-name path."
+  ],
+  "recommendedMethod": "Kill the 17 hydras in the task-only Karuulm area with ranged (their ranged defence is 0) using dragonbane weapons where owned, prayer-switching against their alternating ranged/magic attacks and stepping off poison tiles; or kill the Alchemical Hydra boss for profit while on task."
+}

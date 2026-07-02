@@ -1,0 +1,236 @@
+{
+  "taskId": "aberrant-spectres",
+  "name": "Aberrant spectres",
+  "wikiPageId": 298029,
+  "combatLevel": 65,
+  "slayerTargetId": 200,
+  "slayerLevel": 60,
+  "questReqs": [
+    "Priest in Peril"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 8,
+    "chaeldar": 8,
+    "konar": 6,
+    "nieve": 6,
+    "duradel": 7
+  },
+  "extendedAmount": {
+    "vannaka": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Enables superior slayer monster spawns, including Abhorrent spectres and Repugnant spectres."
+    },
+    {
+      "unlockId": "smell-ya-later",
+      "name": "Smell ya later",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Increases the number of aberrant spectres assigned to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "aberrant-spectres"
+  ],
+  "variantIds": [
+    "aberrant-spectre",
+    "abhorrent-spectre",
+    "deviant-spectre",
+    "repugnant-spectre"
+  ],
+  "defaultVariantId": "aberrant-spectre",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 60,
+    "stab": 30,
+    "slash": 30,
+    "crush": 30,
+    "magic": 30,
+    "range": 30
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 4168,
+  "requiredItemName": "Nose peg",
+  "locationIds": [
+    "slayer-tower",
+    "stronghold-slayer-cave",
+    "catacombs-of-kourend",
+    "deepfin-mine"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "aberrant-spectre",
+      "name": "Aberrant spectre",
+      "combatLevel": 96,
+      "slayerXp": 90,
+      "locations": [
+        "Slayer Tower",
+        "Stronghold Slayer Cave",
+        "Deepfin Mine"
+      ],
+      "notes": [
+        "Standard aberrant spectres."
+      ]
+    },
+    {
+      "variantId": "abhorrent-spectre",
+      "name": "Abhorrent spectre",
+      "combatLevel": 253,
+      "slayerXp": 2500,
+      "locations": [
+        "Slayer Tower",
+        "Stronghold Slayer Cave",
+        "Deepfin Mine"
+      ],
+      "notes": [
+        "Superior slayer monster variant after purchasing Bigger and Badder."
+      ]
+    },
+    {
+      "variantId": "deviant-spectre",
+      "name": "Deviant spectre",
+      "combatLevel": 169,
+      "slayerXp": 194.5,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Stronger version of aberrant spectres; generally lower Slayer experience rates but accesses Catacombs drops including Dark totem pieces."
+      ]
+    },
+    {
+      "variantId": "repugnant-spectre",
+      "name": "Repugnant spectre",
+      "combatLevel": 335,
+      "slayerXp": 4085,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Superior slayer monster variant after purchasing Bigger and Badder; always drops a Dark totem piece."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "slayer-tower",
+      "name": "Slayer Tower",
+      "amount": 14,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Can be safespotted using walls, brick piles, or suits of armour to block movement.",
+        "Keep a distance of 6 tiles to avoid their attack range.",
+        "Can provide increased Slayer experience per kill from Morytania Diary completion."
+      ]
+    },
+    {
+      "locationId": "stronghold-slayer-cave",
+      "name": "Stronghold Slayer Cave",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Can be safespotted after the NPC aggression timer has run out."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 12,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Deviant spectres can be safespotted from north of the western Catacombs spawns.",
+        "Deviant and Repugnant spectres have access to Catacombs drops including Dark totem pieces."
+      ]
+    },
+    {
+      "locationId": "deepfin-mine",
+      "name": "Deepfin Mine",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Can be safespotted from the eastern side near the standing torch.",
+        "A bank chest can be built in a hotspot within the Deepfin Mine.",
+        "A shortcut requiring 84 Agility gives quick access."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "A nose peg or Slayer helmet is required; without one, aberrant spectres use a special attack that hits through protection prayers and rapidly drains stats.",
+    "Aberrant spectres use a normal magic attack with max hit 8; Protect from Magic fully neutralizes it.",
+    "Abhorrent spectres have max hit 33; Protect from Magic still prevents their normal damage.",
+    "Deviant and Repugnant spectres also require a nose peg or Slayer helmet, and Protect from Magic negates their damage.",
+    "Aberrant spectres are undead, so Salve amulet variants work, but Salve does not stack with Slayer helmet and the Slayer helmet is usually preferred.",
+    "Aberrant spectres are popular for herb drops; bring a herb sack and consider a Seed box.",
+    "A cannon can be used in the Stronghold Slayer Cave and Deepfin Mine, but those locations are not multicombat and safespotting is needed to cannon more than one at a time.",
+    "Aberrant spectres killed in the Slayer Tower benefit from Morytania Diary Slayer experience bonuses.",
+    "Aberrant spectres have the Spectral attribute, so carrying an Ectoplasmator gives a small amount of Prayer experience per kill."
+  ],
+  "recommendedMethod": "Wear a nose peg or Slayer helmet. Use Protect from Magic. Use Stronghold Slayer Cave or Deepfin Mine for cannoning, Slayer Tower for Morytania Diary XP, or Catacombs for Deviant spectres and Dark totem drops. Bring a herb sack."
+}

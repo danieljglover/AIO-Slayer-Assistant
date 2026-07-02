@@ -1,0 +1,93 @@
+{
+  "taskId": "sourhogs",
+  "name": "Sourhogs",
+  "wikiPageId": 273904,
+  "combatLevel": null,
+  "slayerTargetId": 303,
+  "slayerLevel": 1,
+  "questReqs": [
+    "A Porcine of Interest"
+  ],
+  "masterIds": [
+    "spria"
+  ],
+  "amountByMaster": {
+    "spria": [
+      15,
+      25
+    ]
+  },
+  "weightByMaster": {
+    "spria": 6
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "sourhogs"
+  ],
+  "variantIds": [
+    "sourhog-lvl37"
+  ],
+  "defaultVariantId": "sourhog-lvl37",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 0,
+    "slash": 30,
+    "crush": 10,
+    "magic": 30,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "Reinforced goggles",
+  "locationIds": [
+    "sourhog-cave"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "sourhog-lvl37",
+      "name": "Sourhog",
+      "combatLevel": 37,
+      "slayerXp": 40,
+      "locations": [
+        "Sourhog Cave (south of Draynor Village)"
+      ],
+      "notes": [
+        "The Sourhog has 40 Hitpoints, a 5-tick attack, and gives 40 Slayer XP. Its normal melee/ranged max hit is 6.",
+        "Without Reinforced goggles (or a Slayer helmet after the quest), the Sourhog's caustic saliva hits 20-30 and drains Attack and Defence by 90% - wear eye protection.",
+        "Best attacked with a stab or ranged weapon: its Defence has +0 stab and +0 ranged bonuses but +30 slash and +30 magic."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "sourhog-cave",
+      "name": "Sourhog Cave (Draynor)",
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Sourhog Cave, south of Draynor Village, is only accessible after starting A Porcine of Interest.",
+        "No single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Sourhogs are assigned ONLY by Spria (Turael stopped assigning them in the May 2024 update); it is Spria's sole distinguishing task.",
+    "Requires the quest A Porcine of Interest to access Sourhog Cave; there is no combat or Slayer level requirement.",
+    "slayerTargetId 303 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The Sourhog (level 37) has 40 Hitpoints, Defence level 25, a normal max hit of 6, and gives 40 Slayer XP.",
+    "Wear Reinforced goggles (requiredItemName, no single canonical item id published) or a Slayer helmet after the quest: without eye protection the caustic saliva hits 20-30 and drains Attack and Defence by 90%. offence.maxHit pins this 30 worst-case survival number, not the 6 normal hit.",
+    "No elemental weakness; its Defence bonuses are +0 stab and +0 ranged (best) versus +30 slash and +30 magic, so a stab or ranged weapon is most accurate.",
+    "No task extension unlock exists for Sourhogs."
+  ],
+  "recommendedMethod": "Start A Porcine of Interest to reach Sourhog Cave south of Draynor, and always wear Reinforced goggles (or a Slayer helmet after the quest) so the caustic saliva cannot hit 20-30 and drain your stats. Attack the Sourhog with a stab weapon such as a dragon dagger (its Defence is +0 to stab, +30 to slash); ranged is a solid alternative against its +0 ranged Defence."
+}

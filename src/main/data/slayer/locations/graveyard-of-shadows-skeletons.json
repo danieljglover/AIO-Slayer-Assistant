@@ -1,0 +1,11 @@
+{
+  "locationId": "graveyard-of-shadows-skeletons",
+  "name": "Graveyard of Shadows (skeletons)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Skeletons at the Graveyard of Shadows in the low-level Wilderness (levels 18-21) for Krystilia's task. Family-tuned copy of the zombies-owned graveyard-of-shadows base file (CT-L shared #3). Bring only risk-appropriate gear as PKers frequent the area. Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative (false)."
+}

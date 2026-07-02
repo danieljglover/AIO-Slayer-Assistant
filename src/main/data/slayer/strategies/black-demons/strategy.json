@@ -1,0 +1,295 @@
+{
+  "strategyId": "black-demons",
+  "variantIds": [
+    "black-demon",
+    "black-demon-level-178",
+    "black-demon-level-184",
+    "balfrug-kreeyath",
+    "porazdir"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Black_demons",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "arclight",
+      "osmumten-s-fang",
+      "noxious-halberd"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Use Taverley Dungeon or Chasm of Fire for regular Black demons; both are cannonable and have safespots. Black demons are weak to demonbane weapons and water spells. Demonic gorillas are a slower profitable alternative only for non-Krystilia and non-Konar assignments."
+  },
+  "requirements": [
+    "80 combat for assignment",
+    "No Slayer level requirement",
+    "Demonbane weapons or water spells recommended",
+    "Monkey Madness II for Demonic gorillas",
+    "A Kingdom Divided plus Yama contract for Chasm of Fire contract drops",
+    "Low-risk gear for Wilderness locations"
+  ],
+  "mechanics": [
+    "Black demons can be safespotted with Ranged or Magic.",
+    "Melee setups can use Protect from Melee.",
+    "Black demons are weak to demonbane weapons.",
+    "Black demons are also weak to water spells.",
+    "Regular black demons have high stats and a poor drop table, so regular tasks are often skipped.",
+    "Catacombs black demons have unusually higher Defence and the four-spawn layout is awkward to use.",
+    "Demonic gorillas require two combat styles and are slower but profitable.",
+    "Wilderness Black demon locations are under 30 Wilderness, with Edgeville easier to escape and Wilderness Slayer Cave multicombat."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Use cannonable safespot locations for regular Black demons, or swap to Demonic gorillas for eligible profit-focused assignments.",
+      "recommendedFor": [
+        "baseline Black demon task planning",
+        "choosing between speed, safety, Wilderness risk, and Demonic gorillas"
+      ],
+      "requiredOrKeyItems": [
+        "Demonbane melee weapon",
+        "Cannon for cannonable locations",
+        "Ranged or Magic gear for safespotting",
+        "Water spell setup for Magic"
+      ],
+      "prayers": [
+        "Protect from Melee for melee tanking"
+      ],
+      "steps": [
+        "Choose Taverley Dungeon or Chasm of Fire for the strongest regular-task options.",
+        "Use a cannon where allowed to speed up regular Black demon kills.",
+        "Use demonbane melee, Ranged, or Magic safespots depending on gear and risk preference.",
+        "Avoid Catacombs as a default because the Black demon variants there have unusually higher Defence and awkward spawn use.",
+        "Consider Demonic gorillas only when the assignment is not from Krystilia or Konar and profit is preferred over speed."
+      ],
+      "notes": [
+        "Regular black demons have a near non-existent drop table for the time spent killing them.",
+        "Lower-level players may need safespotting, which significantly lowers kill rates."
+      ]
+    },
+    {
+      "methodId": "taverley-cannon",
+      "label": "Taverley Dungeon cannon",
+      "combatStyle": "MELEE",
+      "role": "speed",
+      "summary": "Use Taverley Dungeon for dense regular Black demon spawns with cannon support.",
+      "recommendedFor": [
+        "regular Black demon task speed",
+        "players with Dusty Key or 70 Agility access"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Demonbane weapon",
+        "Ranged or Magic safespot gear",
+        "Dusty Key or 70 Agility"
+      ],
+      "steps": [
+        "Enter Taverley Dungeon with Dusty Key or 70 Agility access.",
+        "Place a cannon in the Black demon area.",
+        "Use the south-west stalagmite safespot or north-east crevice safespot.",
+        "Use demonbane melee with Protect from Melee if not safespotting."
+      ],
+      "notes": [
+        "The task page highlights Taverley Dungeon as one of the two best regular Black demon spots."
+      ]
+    },
+    {
+      "methodId": "chasm-of-fire",
+      "label": "Chasm of Fire",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use Chasm of Fire for more safespots and optional Yama contract value.",
+      "recommendedFor": [
+        "regular Black demon safespotting",
+        "players with A Kingdom Divided and Yama contract access"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Ranged weapon",
+        "Magic water spell setup",
+        "A Kingdom Divided for Yama contracts"
+      ],
+      "steps": [
+        "Use the bottom level of Chasm of Fire for 17 Black demon spawns.",
+        "Safespot by far-north stalagmites or near the Voice of Yama.",
+        "Use a cannon to speed up kills.",
+        "If signed with Yama, decide whether catering to contract preferences is worth reduced AFK time."
+      ],
+      "notes": [
+        "The page says Chasm of Fire has more safespots than Taverley Dungeon.",
+        "Yama contract drop rate is increased when killing according to preference, but doing so can prolong tasks."
+      ]
+    },
+    {
+      "methodId": "catacombs-of-kourend",
+      "label": "Catacombs of Kourend",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use Catacombs only when Ancient shards or Dark totem pieces matter more than task efficiency.",
+      "recommendedFor": [
+        "players valuing Catacombs tertiary drops"
+      ],
+      "requiredOrKeyItems": [
+        "Demonbane weapon",
+        "Ranged or Magic safespot gear"
+      ],
+      "steps": [
+        "Use Catacombs if Ancient shard and Dark totem piece chances are desired.",
+        "Safespot or use Protect from Melee.",
+        "Expect worse efficiency due to higher Defence and awkward spawn utilisation."
+      ],
+      "notes": [
+        "The page says it is generally not worth killing Black demons in the Catacombs."
+      ]
+    },
+    {
+      "methodId": "wilderness",
+      "label": "Wilderness locations",
+      "combatStyle": "RANGED",
+      "role": "wilderness",
+      "summary": "Use Edgeville Dungeon or Wilderness Slayer Cave only when accepting Wilderness risk.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "players accepting player-killing risk"
+      ],
+      "requiredOrKeyItems": [
+        "Low-risk gear",
+        "One-click teleport under 30 Wilderness",
+        "Dwarf multicannon"
+      ],
+      "steps": [
+        "Use Edgeville Dungeon when easier escape is preferred.",
+        "Use Wilderness Slayer Cave for multicombat and its different drop table.",
+        "Bring low-risk gear and leave if player-killing risk increases.",
+        "Avoid hopping inside Wilderness Slayer Cave when aggression makes it risky."
+      ],
+      "notes": [
+        "Both Wilderness Black demon locations are under 30 Wilderness.",
+        "Wilderness Slayer Cave has one entrance and is multicombat."
+      ]
+    },
+    {
+      "methodId": "demonic-gorillas",
+      "label": "Demonic gorilla alternative",
+      "combatStyle": "MELEE",
+      "role": "profit",
+      "summary": "Kill Demonic gorillas instead of Black demons for eligible assignments when profit is preferred.",
+      "recommendedFor": [
+        "non-Krystilia assignments",
+        "non-Konar assignments",
+        "players with Monkey Madness II"
+      ],
+      "requiredOrKeyItems": [
+        "Monkey Madness II",
+        "Two combat styles",
+        "Demonbane melee weapon",
+        "Ranged weapon"
+      ],
+      "steps": [
+        "Only choose Demonic gorillas if the assignment came from a Slayer master other than Krystilia or Konar.",
+        "Bring two combat styles for the gorilla mechanics.",
+        "Use demonbane melee and a ranged switch.",
+        "Expect slower task completion but better profit from Zenyte shard chance."
+      ],
+      "notes": [
+        "Demonic gorillas are quite profitable but slower than regular Black demons."
+      ]
+    },
+    {
+      "methodId": "boss-and-miniquest-variants",
+      "label": "Boss and miniquest variants",
+      "combatStyle": "MELEE",
+      "role": "source-context",
+      "summary": "Skotizo, Balfrug Kreeyath, Porazdir, Kolodion, and the Grand Tree black demon are included as source context where the wiki lists them.",
+      "recommendedFor": [
+        "LLM interpretation of variant exceptions",
+        "source completeness"
+      ],
+      "steps": [
+        "Use Skotizo only as a separate dark totem boss trip.",
+        "Treat Balfrug Kreeyath as K'ril Tsutsaroth bodyguard context.",
+        "Treat Porazdir as Mage Arena II or imbued zamorak cape reobtain context.",
+        "Treat Kolodion as a one-time Mage Arena miniquest kill.",
+        "Nightmare Zone Grand Tree black demon kills count for task progress after The Grand Tree."
+      ],
+      "notes": [
+        "Kolodion can only be killed once during the Mage Arena miniquest.",
+        "The Grand Tree black demon can be killed again in Nightmare Zone and counts for Black demon tasks."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-demonbane",
+      "label": "Melee demonbane",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use demonbane melee with Protect from Melee or cannon support.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Osmumten's fang",
+            "Noxious halberd"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use ranged safespots for lower-level accounts or lower-risk regular kills.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scorching bow",
+            "Toxic blowpipe",
+            "Venator bow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-water",
+      "label": "Magic water",
+      "combatStyle": "MAGIC",
+      "role": "elemental",
+      "summary": "Use water spells or powered staves where Magic safespotting is preferred.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the seas",
+            "Trident of the swamp",
+            "Accursed sceptre"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "king-black-dragon-lair-lesser-demons",
+  "name": "King Black Dragon Lair",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "4 Lesser demons around the King Black Dragon arena; multicombat, and the wiki marks the lesser demon row cannonable and safespottable. Accessed through a lever in the Wilderness, but the arena itself is NOT part of the Wilderness."
+}

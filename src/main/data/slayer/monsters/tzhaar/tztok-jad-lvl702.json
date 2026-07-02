@@ -1,0 +1,29 @@
+{
+  "variantId": "tztok-jad",
+  "name": "TzTok-Jad",
+  "npcIds": [
+    3127
+  ],
+  "combatLevel": 702,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 480,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "TzHaar Fight Cave",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "tztok-jad"
+}

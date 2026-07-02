@@ -1,0 +1,30 @@
+{
+  "variantId": "brutal-blue-dragon",
+  "name": "Brutal blue dragon",
+  "npcIds": [
+    7273,
+    13795
+  ],
+  "combatLevel": 271,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 198,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 60,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Catacombs of Kourend, Ruins of Tapoyauik",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "blue-dragons"
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "boss-k-ril-tsutsaroth",
+  "name": "K'ril Tsutsaroth",
+  "npcIds": [
+    3129
+  ],
+  "combatLevel": 650,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 270,
+    "stab": 70,
+    "slash": 80,
+    "crush": 80,
+    "magic": 80,
+    "range": 80
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "God Wars Dungeon - Zamorak's Fortress (40 Zamorak KC + GWD access)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "k-ril-tsutsaroth"
+}

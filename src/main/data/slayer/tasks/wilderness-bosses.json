@@ -1,0 +1,187 @@
+{
+  "taskId": "wilderness-bosses",
+  "name": "Wilderness bosses",
+  "wikiPageId": null,
+  "combatLevel": null,
+  "slayerTargetId": 274,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      3,
+      35
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "boss",
+    "wilderness-bosses"
+  ],
+  "variantIds": [
+    "callisto",
+    "artio",
+    "venenatis",
+    "spindel",
+    "vet-ion",
+    "calvar-ion",
+    "chaos-elemental",
+    "chaos-fanatic",
+    "crazy-archaeologist",
+    "scorpia"
+  ],
+  "defaultVariantId": "callisto",
+  "weakness": null,
+  "monsterDefence": null,
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "various-boss-locations"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "callisto",
+      "name": "Callisto",
+      "combatLevel": 470,
+      "locations": [
+        "Callisto's Den, ~Level 40+ Wilderness"
+      ],
+      "notes": [
+        "Multi-way bear boss; weak to magic. Artio is the singles-plus alternative for the same task."
+      ]
+    },
+    {
+      "variantId": "artio",
+      "name": "Artio",
+      "combatLevel": 320,
+      "locations": [
+        "Hunter's End, level 21 Wilderness (singles-plus)"
+      ],
+      "notes": [
+        "Singles-plus, lower-level version of Callisto; 450 Hitpoints, max hit 50 (magic). No stated elemental weakness."
+      ]
+    },
+    {
+      "variantId": "venenatis",
+      "name": "Venenatis",
+      "combatLevel": 464,
+      "locations": [
+        "Silk Chasm (Venenatis' web), ~Level 35+ Wilderness"
+      ],
+      "notes": [
+        "Multi-way spider boss; lowest defence is crush and it is 25% weak to fire. Spindel is the singles-plus alternative."
+      ]
+    },
+    {
+      "variantId": "spindel",
+      "name": "Spindel",
+      "combatLevel": 302,
+      "locations": [
+        "Web Chasm, level 29 Wilderness (singles-plus)"
+      ],
+      "notes": [
+        "Singles-plus version of Venenatis; 515 Hitpoints, 25% weakness to fire spells. Access needs the hard Wilderness diary or an active Venenatis boss task."
+      ]
+    },
+    {
+      "variantId": "vet-ion",
+      "name": "Vet'ion",
+      "combatLevel": 454,
+      "locations": [
+        "Vet'ion's Rest, ~Level 30+ Wilderness"
+      ],
+      "notes": [
+        "Multi-way undead skeleton boss with a second phase; Calvar'ion is the singles-plus alternative."
+      ]
+    },
+    {
+      "variantId": "calvar-ion",
+      "name": "Calvar'ion",
+      "combatLevel": 264,
+      "locations": [
+        "Skeletal Tomb, level 21 Wilderness (singles-plus)"
+      ],
+      "notes": [
+        "Singles-plus version of Vet'ion; undead, 150 Hitpoints, max hit 26. Access needs the hard Wilderness diary or an active Vet'ion boss task."
+      ]
+    },
+    {
+      "variantId": "chaos-elemental",
+      "name": "Chaos Elemental",
+      "combatLevel": 305,
+      "locations": [
+        "West of the Rogues' Castle, deep Wilderness"
+      ],
+      "notes": [
+        "Disarms and teleports the player; weak to magic (air). Multi-way, deep Wilderness."
+      ]
+    },
+    {
+      "variantId": "chaos-fanatic",
+      "name": "Chaos Fanatic",
+      "combatLevel": 202,
+      "locations": [
+        "West of the Lava Maze, ~Level 38+ Wilderness"
+      ],
+      "notes": [
+        "Low-defence demi-boss weak to ranged; casts an unavoidable magic special. Multi-way."
+      ]
+    },
+    {
+      "variantId": "crazy-archaeologist",
+      "name": "Crazy archaeologist",
+      "combatLevel": 204,
+      "locations": [
+        "Ruins south of the Forgotten Cemetery, ~Level 23 Wilderness"
+      ],
+      "notes": [
+        "Ranged demi-boss with a 'Rain of Knowledge' special; low melee defence. Multi-way."
+      ]
+    },
+    {
+      "variantId": "scorpia",
+      "name": "Scorpia",
+      "combatLevel": 225,
+      "locations": [
+        "Scorpion Pit cave, north-east Wilderness (~Level 53-55)"
+      ],
+      "notes": [
+        "Heals from her guardian minions and is weak to magic (fire). Multi-way cave."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "various-boss-locations",
+      "name": "Various boss locations",
+      "amount": null,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Meta-task placeholder: each Wilderness boss has its own arena, access requirements and safespot behaviour.",
+        "Most of these arenas are multi-way Wilderness (the singles-plus alternatives Artio, Spindel and Calvar'ion are the exceptions), so player-killer risk is high.",
+        "Density is not a meaningful figure for a boss task, so amount is left unknown."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 274 (252-305 C2/C3 block): the real SLAYER_TARGET varp for the Wilderness bosses task is not wiki-published; QA live-verify.",
+    "META-TASK. Krystilia assigns a single Wilderness bosses task (3-35, weight 8) that requires the 'Like a boss' unlock (200 Slayer reward points); one boss from the set is rolled per assignment.",
+    "The set is Callisto/Artio, Venenatis/Spindel, Vet'ion/Calvar'ion, Chaos Elemental, Chaos Fanatic, Crazy archaeologist and Scorpia. King Black Dragon is NOT part of Krystilia's boss set (verified on the live wiki 2026-07-02) and Revenants are a separate Krystilia task.",
+    "The paired singles-plus bosses (Artio, Spindel, Calvar'ion) are lower-level alternatives that count for the same task; Spindel and Calvar'ion need the hard Wilderness diary or an active parent-boss task to enter.",
+    "Every kill must occur in the Wilderness, so bring only low-risk gear and a one-click escape teleport; most arenas are multi-way with player-killer risk.",
+    "The boss pre-selection machinery (SLAYER_TARGET_BOSSID varbit 4723) still applies; the rolled boss is a live-capture QA item."
+  ],
+  "recommendedMethod": "A Wilderness bosses task rolls one boss from Krystilia's set (Callisto/Artio, Venenatis/Spindel, Vet'ion/Calvar'ion, Chaos Elemental, Chaos Fanatic, Crazy archaeologist, Scorpia) and requires the 'Like a boss' unlock (200 points). Gear to the specific boss rolled - each has its own strategy - and prefer the singles-plus alternatives (Artio, Spindel, Calvar'ion) to reduce player-killer risk. Wear low-risk gear and keep a one-click escape teleport ready, since these are Wilderness kills."
+}

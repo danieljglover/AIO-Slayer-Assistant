@@ -1,0 +1,11 @@
+{
+  "locationId": "mor-ul-rek-inner-tzhaar-ket",
+  "name": "Mor Ul Rek inner TzHaar-Ket",
+  "multi": false,
+  "cannon": false,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Show a fire cape once to enter the inner area. The level 221 TzHaar-Ket around TzHaar-Ket-Rak's Challenges can be grouped with darts, knives, goading potion, or Dinh's bulwark special for burst and barrage methods."
+}

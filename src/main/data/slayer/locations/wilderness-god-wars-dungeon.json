@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-god-wars-dungeon",
+  "name": "Wilderness God Wars Dungeon",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Wilderness God Wars Dungeon is a multicombat Wilderness area with player killing risk. Aviansie drop noted adamantite bars regardless of Fremennik Diary completion. Bloodveld access is closer through the Trollheim Agility shortcut with 64 Agility; God Wars followers are aggressive without god item protection."
+}

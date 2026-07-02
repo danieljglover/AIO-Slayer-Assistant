@@ -1,0 +1,31 @@
+{
+  "variantId": "grizzly-bear-cub",
+  "name": "Grizzly bear cub",
+  "npcIds": [
+    3424,
+    3425
+  ],
+  "combatLevel": 33,
+  "weakness": {
+    "style": "MELEE",
+    "element": "FIRE"
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Isafdar (near larger grizzly bears; partial Regicide required)",
+  "locationId": "bears-area",
+  "requirement": "Partial completion of Regicide (to reach Isafdar)",
+  "bossId": null,
+  "strategyId": "bears"
+}

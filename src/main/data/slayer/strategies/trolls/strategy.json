@@ -1,0 +1,636 @@
+{
+  "strategyId": "trolls",
+  "variantIds": [
+    "river-troll",
+    "thrower-troll",
+    "thrower-troll-trollheim",
+    "mountain-troll",
+    "troll-spectator",
+    "twig",
+    "berry",
+    "ice-troll-runt",
+    "ice-troll-male",
+    "ice-troll-female",
+    "pee-hat",
+    "kraka",
+    "dad",
+    "ice-troll-grunt",
+    "stick",
+    "rock-troll",
+    "troll-general",
+    "ice-troll"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Trolls",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "soulreaper-axe",
+      "ghrazi-rapier",
+      "inquisitor-s-mace",
+      "blade-of-saeldor",
+      "osmumten-s-fang",
+      "zamorakian-hasta",
+      "sarachnis-cudgel",
+      "abyssal-whip",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "staff-of-the-dead",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "ancient-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Trolls strategy: dwarf multicannon is highly recommended because trolls have low aggression range. Use island ice trolls north of Jatizso/Neitiznot with prayer and a Neitiznot shield for better drops, or mountain trolls with Protect from Melee for a simpler task."
+  },
+  "requirements": [
+    "60 combat before assignment",
+    "43 Prayer strongly recommended for Protect from Melee",
+    "The Fremennik Trials to speak to Mord Gunnars and access Jatizso/Neitiznot for island ice trolls",
+    "Dwarf Cannon completion to use a dwarf multicannon",
+    "Neitiznot shield for island ice trolls, especially ice troll females",
+    "92 Magic and Arceuus spellbook if using Sinister Offering",
+    "Hard Morytania Diary if using bonecrusher for passive Prayer experience"
+  ],
+  "mechanics": [
+    "Trolls are mostly found in the Fremennik Province and north of Burthorpe.",
+    "Quest trolls count toward a Trolls Slayer task except sea trolls.",
+    "Troll bosses can be refought in Nightmare Zone after their quests.",
+    "Mountain trolls are accessible with no quest requirement and direct damage can be completely blocked by Protect from Melee.",
+    "Ice trolls on the isles have better drops than mountain trolls, appear in large multicombat groups, and can be cannoned.",
+    "Ice troll females use ranged attacks that are much more accurate and damaging without a Neitiznot shield.",
+    "Jatizso is often preferable to Neitiznot because guards frequently tank trolls and the bank is slightly closer.",
+    "Ice Path trolls are not recommended because they are stronger and have very poor drops for their level.",
+    "Ice trolls have strong Fire elemental weaknesses; Trollweiss ice trolls have 100% Fire weakness.",
+    "Mountain trolls have lower health and can be finished quickly; the level 69 version has 50% Fire weakness and the level 71 version has 50% Earth weakness.",
+    "Thrower trolls and troll generals count but are scarce, inconvenient, and have poor or nonexistent drops.",
+    "A dwarf multicannon is highly recommended for most practical Trolls task routing because trolls have low aggression range."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-access",
+      "label": "Requirements and access",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Choose between accessible mountain trolls, better island ice trolls, discouraged river trolls, and quest-boss alternatives.",
+      "recommendedFor": [
+        "Every Trolls task",
+        "Players choosing a location",
+        "Accounts deciding whether to cannon"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Neitiznot shield",
+        "Bonecrusher necklace or bonecrusher",
+        "Prayer potions",
+        "One-click teleport"
+      ],
+      "steps": [
+        "Use mountain trolls if the account wants a no-quest, simple Protect from Melee task.",
+        "Use island ice trolls north of Jatizso or Neitiznot if The Fremennik Trials access is available and better drops are preferred.",
+        "Bring a dwarf multicannon for practical task completion because the task page says it is highly recommended for all troll types.",
+        "Avoid Ice Path trolls for normal tasks because the task page says they are stronger and have incredibly poor drops.",
+        "Avoid Enchanted Valley river trolls unless intentionally doing a novelty or completionist kill because their combat and Slayer experience is severely reduced.",
+        "Treat thrower trolls, troll generals, and quest bosses as countable alternatives rather than efficient task targets."
+      ],
+      "risks": [
+        "Island ice trolls can deal unavoidable chip damage, especially from females.",
+        "Without a cannon, standard Trolls tasks can feel slow because trolls have low aggression range."
+      ]
+    },
+    {
+      "methodId": "mountain-trolls-melee-cannon",
+      "label": "Mountain trolls melee cannon",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use Protect from Melee and cannon support for the simple, accessible mountain troll version of the task.",
+      "recommendedFor": [
+        "No-quest task completion",
+        "Lower-level players",
+        "Players using Death Plateau, Keldagrim, Mount Quidamortem, or Troll Stronghold"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Slayer helmet",
+        "Abyssal whip",
+        "Dragon scimitar",
+        "Dragon sword",
+        "Bonecrusher necklace",
+        "Prayer potions",
+        "Runes for thralls or High Alchemy",
+        "Teleport to house tablet or other one-click teleport"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Use Death Plateau, Keldagrim entrance, Mount Quidamortem, or outside Troll Stronghold according to access and Konar lock.",
+        "Place the dwarf multicannon where it can cover the chosen troll group.",
+        "Keep Protect from Melee active; the task page notes mountain troll damage can be completely negated this way.",
+        "Use stab or slash weapons for mountain trolls because they are slightly resistant to crush but equally weak to stab and slash.",
+        "Use a Bonecrusher necklace to reduce or eliminate Prayer potion use where big bones are consistent.",
+        "Use thralls and Death Charge on the Arceuus spellbook when trying to speed up the task further.",
+        "Use Adept Reanimation on ensouled troll heads if carrying the Book of the dead and relevant runes."
+      ],
+      "risks": [
+        "Forgoing Protect from Melee is viable only with food or Bones to peaches and is significantly slower.",
+        "Death Plateau approach has thrower trolls; Protect from Missiles is recommended while running through the canyon."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i) on task",
+            "Torva full helm",
+            "Neitiznot faceguard",
+            "Inquisitor's great helm",
+            "Helm of neitiznot"
+          ],
+          "weapon": [
+            "Soulreaper axe",
+            "Ghrazi rapier",
+            "Inquisitor's mace",
+            "Blade of saeldor",
+            "Noxious halberd",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Zamorakian hasta",
+            "Sarachnis cudgel",
+            "Dragon scimitar",
+            "Dragon sword",
+            "Glacial temotli"
+          ],
+          "body": [
+            "Torva platebody",
+            "Sunfire fanatic cuirass",
+            "Inquisitor's hauberk with crush weapon",
+            "Bandos chestplate",
+            "Fighter torso",
+            "Obsidian platebody"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Inquisitor's plateskirt",
+            "Bandos tassets",
+            "Obsidian platelegs",
+            "Dragon platelegs",
+            "Dragon plateskirt"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Rune defender"
+          ]
+        }
+      },
+      "inventory": [
+        "Cannon barrels",
+        "Cannon base",
+        "Cannon furnace",
+        "Cannon stand",
+        "Steel cannonballs",
+        "2 Divine super combat potions or super combat potions",
+        "Prayer potions",
+        "Bonecrusher necklace",
+        "Seed box",
+        "Soul bearer",
+        "Book of the dead",
+        "Divine rune pouch or rune pouch",
+        "Herb sack",
+        "Teleport to house tablet or other one-click teleport",
+        "Food optional when Protect from Melee is maintained"
+      ]
+    },
+    {
+      "methodId": "ice-trolls-melee-cannon",
+      "label": "Ice trolls melee cannon",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use island ice trolls with cannon, prayer, and a Neitiznot shield for the task page's recommended better-drop route.",
+      "recommendedFor": [
+        "Faster tasks with reasonable drops",
+        "Players with Jatizso/Neitiznot access",
+        "Accounts using guards to reduce incoming damage"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Neitiznot shield",
+        "Inquisitor's mace",
+        "Ghrazi rapier",
+        "Osmumten's fang",
+        "Zamorakian hasta",
+        "Abyssal whip",
+        "Prayer potions",
+        "Food",
+        "Enchanted lyre(i)",
+        "Bonecrusher necklace",
+        "Seed box",
+        "Soul bearer",
+        "Herb sack"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Travel to northern Jatizso or Neitiznot; Jatizso is often preferable because guards focus many trolls and its bank is slightly closer.",
+        "Set up the dwarf multicannon in the open multicombat area.",
+        "Equip a Neitiznot shield when fighting near ice troll females because the task page says it is required to reduce their damage.",
+        "Use stab or crush weapons because ice trolls are slightly resistant to slash.",
+        "Keep prayer active and bring food because some damage is unavoidable.",
+        "Use the guards' damage to speed up kills; if a guard lands the finishing blow, Slayer XP is halved but drops still appear if the player dealt damage."
+      ],
+      "risks": [
+        "Ice troll females use ranged attacks and are much more accurate and damaging without a Neitiznot shield.",
+        "Using Inquisitor's armour can improve crush DPS but compromises ranged defence."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i) on task",
+            "Torva full helm",
+            "Neitiznot faceguard",
+            "Inquisitor's great helm",
+            "Helm of neitiznot"
+          ],
+          "weapon": [
+            "Inquisitor's mace",
+            "Ghrazi rapier",
+            "Osmumten's fang",
+            "Blade of saeldor on stab",
+            "Noxious halberd",
+            "Zamorakian hasta",
+            "Abyssal tentacle",
+            "Sarachnis cudgel",
+            "Abyssal whip"
+          ],
+          "shield": [
+            "Neitiznot shield"
+          ],
+          "body": [
+            "Torva platebody",
+            "Inquisitor's hauberk with crush weapon",
+            "Bandos chestplate",
+            "Fighter torso",
+            "Blood moon chestplate",
+            "Obsidian platebody",
+            "Eclipse moon chestplate"
+          ],
+          "special": [
+            "Dragon claws",
+            "Burning claws",
+            "Voidwaker",
+            "Dragon dagger(p++)",
+            "Arkan blade"
+          ]
+        }
+      },
+      "inventory": [
+        "Cannon barrels",
+        "Cannon base",
+        "Cannon furnace",
+        "Cannon stand",
+        "Steel cannonballs",
+        "2 Divine super combat potions or super combat potions",
+        "Prayer potions",
+        "Food",
+        "Seed box",
+        "Soul bearer",
+        "Teleport to house tablet or other one-click teleport",
+        "Bonecrusher necklace",
+        "Herb sack",
+        "Divine rune pouch or rune pouch with Fire and Nature runes"
+      ]
+    },
+    {
+      "methodId": "fire-magic",
+      "label": "Fire magic",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Use fire spells against ice trolls or lower-health mountain trolls when accepting higher rune cost.",
+      "recommendedFor": [
+        "Players exploiting ice troll fire weakness",
+        "Players fighting Trollweiss Dungeon ice trolls",
+        "Accounts finishing mountain trolls quickly with magic"
+      ],
+      "requiredOrKeyItems": [
+        "Harmonised nightmare staff",
+        "Nightmare staff",
+        "Kodai wand",
+        "Staff of the dead",
+        "Mystic smoke staff",
+        "Twinflame staff",
+        "Ancient sceptre",
+        "Master wand",
+        "Ancient staff",
+        "Tome of fire",
+        "Fire runes"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Augury",
+        "Mystic Might"
+      ],
+      "steps": [
+        "Use Fire spells against ice trolls because the task page states they have a 100% fire weakness in Trollweiss Dungeon and strong fire weakness elsewhere.",
+        "Use Magic against Trollweiss Dungeon ice trolls if fighting without a Neitiznot shield.",
+        "Use Fire spells against mountain trolls only when valuing quick completion over cost; they have lower health but worse-value drops.",
+        "Bring enough runes for the chosen spell tier and High Alchemy if looting.",
+        "Use defensive armour or protection prayers if standing in melee distance."
+      ],
+      "risks": [
+        "The task page notes Magic is more expensive.",
+        "Mountain trolls have worse-value drops, so fire magic can be a supply-cost choice rather than a profit route."
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Harmonised nightmare staff",
+            "Nightmare staff",
+            "Kodai wand",
+            "Staff of the dead",
+            "Mystic smoke staff",
+            "Twinflame staff",
+            "Ancient sceptre",
+            "Master wand",
+            "Ancient staff"
+          ],
+          "shield": [
+            "Tome of fire",
+            "Elidinis' ward (f)",
+            "Elidinis' ward",
+            "Arcane spirit shield",
+            "Mage's book",
+            "Ancient wyvern shield",
+            "Malediction ward",
+            "Book of darkness",
+            "Unholy book"
+          ],
+          "body": [
+            "Ancestral robe top",
+            "Virtus robe top",
+            "Ahrim's robetop",
+            "Blue moon chestplate",
+            "Dagon'hai robe top",
+            "Bloodbark body",
+            "Infinity top",
+            "Mystic robe top"
+          ],
+          "legs": [
+            "Ancestral robe bottom",
+            "Virtus robe bottom",
+            "Ahrim's robeskirt",
+            "Blue moon tassets",
+            "Dagon'hai robe bottom",
+            "Bloodbark legs",
+            "Infinity bottoms",
+            "Mystic robe bottom"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "ice-troll-runt-quick-task",
+      "label": "Ice troll runt quick task",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Complete a non-cannon task quickly by killing ice troll runts north of Neitiznot while guards help.",
+      "recommendedFor": [
+        "Players not using a dwarf multicannon",
+        "Lower-budget accounts with Neitiznot access",
+        "Fast low-effort task completion"
+      ],
+      "requiredOrKeyItems": [
+        "The Fremennik Trials access",
+        "Ranged or Magic weapon",
+        "Fire spells",
+        "Food",
+        "One-click teleport"
+      ],
+      "steps": [
+        "Go to the first island north of Neitiznot.",
+        "Target ice troll runts near the guards.",
+        "Let nearby guards deal damage and distract trolls so Ranged or Magic can be used without safespots.",
+        "Use Fire spells when maging because the task page recommends them for ice trolls.",
+        "Tag each troll yourself; drops are still received as long as the player dealt any damage."
+      ],
+      "risks": [
+        "If a guard deals the finishing blow, Slayer experience is halved.",
+        "The method depends on guard positioning and target availability."
+      ]
+    },
+    {
+      "methodId": "quest-bosses-and-reanimation",
+      "label": "Quest bosses and reanimation",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Handle Troll quest bosses, Nightmare Zone refights, and reanimated trolls as countable but usually niche options.",
+      "recommendedFor": [
+        "Players already doing Troll quests",
+        "Nightmare Zone completion or novelty kills",
+        "Players using ensouled troll heads for Prayer XP"
+      ],
+      "requiredOrKeyItems": [
+        "Protect from Melee",
+        "Protect from Magic for Ice Troll King melee-armour method",
+        "Neitiznot shield for Ice Troll King ranged chip",
+        "Adept Reanimation",
+        "Book of the dead",
+        "Ensouled troll head"
+      ],
+      "steps": [
+        "Use melee for Dad and block his damage with Protect from Melee.",
+        "Use melee for Arrg and prepare for both slash melee and ranged attacks.",
+        "Use melee for the Ice Troll King because his Magic and Ranged defences are extremely high.",
+        "Against the Ice Troll King, Protect from Magic in melee armour to minimise magic damage and stop his Ice Barrage-like attack.",
+        "Do not use Protect from Melee against the Ice Troll King if it causes repeated knockback into the cave wall.",
+        "Use Adept Reanimation on ensouled troll heads when carrying Book of the dead and the required runes."
+      ],
+      "risks": [
+        "Quest bosses are separate trips and generally not efficient task targets.",
+        "The Ice Troll King uses melee, magic, ranged, and knockback specials."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MELEE",
+      "role": "sustain",
+      "summary": "Use bone and herb handling to stretch trips while avoiding poor-value Troll routes.",
+      "recommendedFor": [
+        "Long cannon trips",
+        "Players using mountain troll prayer sustain",
+        "Players looting island ice trolls"
+      ],
+      "requiredOrKeyItems": [
+        "Bonecrusher necklace",
+        "Bonecrusher",
+        "Seed box",
+        "Herb sack",
+        "Soul bearer",
+        "Runes for High Alchemy",
+        "Runes for Sinister Offering",
+        "Food",
+        "One-click teleport"
+      ],
+      "steps": [
+        "Use bonecrusher or Bonecrusher necklace after Hard Morytania Diary for passive Prayer experience and prayer sustain from big bones.",
+        "Use Sinister Offering at 92 Magic on the Arceuus spellbook if choosing spell-based bone processing.",
+        "Bring a seed box and herb sack when killing ice trolls or named Death Plateau trolls with useful seed/herb drops.",
+        "Bring Soul bearer if banking ensouled heads instead of reanimating them during the task.",
+        "Set High Alchemy warning value high enough to avoid accidental low-value alchs during cannon trips.",
+        "Keep a one-click teleport for bad lure, low prayer, or ice troll damage spikes."
+      ],
+      "risks": [
+        "River trolls and several quest-area trolls have extremely poor reward per kill.",
+        "Cannonballs can cost more than poor mountain troll drops return if loot handling is ignored."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-low-level",
+      "label": "Melee low level",
+      "combatStyle": "MELEE",
+      "role": "baseline",
+      "summary": "Accessible low-level melee setup for mountain trolls, using standard slash or stab weapons.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Abyssal whip",
+            "Dragon scimitar",
+            "Dragon sword",
+            "Rune scimitar",
+            "Rune sword",
+            "Sulphur blades"
+          ],
+          "prayer": [
+            "Protect from Melee"
+          ],
+          "support": [
+            "Dwarf multicannon",
+            "Steel cannonballs",
+            "Bonecrusher necklace"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-mountain-trolls",
+      "label": "Melee mountain trolls",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Prayer and cannon setup for mountain trolls with Protect from Melee and optional Arceuus support.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Soulreaper axe",
+            "Ghrazi rapier",
+            "Inquisitor's mace",
+            "Blade of saeldor",
+            "Abyssal whip",
+            "Zamorakian hasta",
+            "Sarachnis cudgel",
+            "Dragon scimitar"
+          ],
+          "support": [
+            "Dwarf multicannon",
+            "Steel cannonballs",
+            "Book of the dead",
+            "Bonecrusher necklace",
+            "Prayer potions"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-ice-trolls",
+      "label": "Melee ice trolls",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Island ice troll setup with cannon, Neitiznot shield, prayer, and stab/crush weapons.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Inquisitor's mace",
+            "Ghrazi rapier",
+            "Osmumten's fang",
+            "Blade of saeldor",
+            "Noxious halberd",
+            "Zamorakian hasta",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Sarachnis cudgel"
+          ],
+          "shield": [
+            "Neitiznot shield"
+          ],
+          "support": [
+            "Dwarf multicannon",
+            "Steel cannonballs",
+            "Prayer potions",
+            "Food",
+            "Bonecrusher necklace",
+            "Herb sack"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-fire-spells",
+      "label": "Magic fire spells",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Fire spell setup for ice trolls and quick mountain troll kills.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Harmonised nightmare staff",
+            "Nightmare staff",
+            "Kodai wand",
+            "Staff of the dead",
+            "Mystic smoke staff",
+            "Twinflame staff",
+            "Ancient sceptre",
+            "Master wand",
+            "Ancient staff"
+          ],
+          "shield": [
+            "Tome of fire",
+            "Elidinis' ward",
+            "Mage's book",
+            "Book of darkness"
+          ],
+          "support": [
+            "Fire runes",
+            "Prayer potions",
+            "Food",
+            "One-click teleport"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "taskId": "fire-giants",
+  "name": "Fire giants",
+  "wikiPageId": 297889,
+  "combatLevel": 65,
+  "slayerTargetId": 218,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 7,
+    "vannaka": 7,
+    "chaeldar": 12,
+    "konar": 9,
+    "nieve": 9,
+    "duradel": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "fire-giants"
+  ],
+  "variantIds": [
+    "fire-giant",
+    "fire-giant-catacombs",
+    "fire-giant-catacombs-lvl109",
+    "branda-the-fire-queen"
+  ],
+  "defaultVariantId": "fire-giant",
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 65,
+    "stab": 0,
+    "slash": 3,
+    "crush": 2,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "brimhaven-dungeon-fire-giants",
+    "charred-dungeon-fire-giants",
+    "stronghold-slayer-cave-fire-giants",
+    "deep-wilderness-dungeon-fire-giants",
+    "catacombs-of-kourend-fire-giants",
+    "giants-den-fire-giants",
+    "karuulm-slayer-dungeon-fire-giants",
+    "smoke-dungeon-fire-giants",
+    "waterfall-dungeon-fire-giants",
+    "isle-of-souls-dungeon-fire-giants"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "fire-giant",
+      "name": "Fire giant",
+      "combatLevel": 86,
+      "slayerXp": 111,
+      "locations": [
+        "Brimhaven Dungeon",
+        "Charred Dungeon",
+        "Deep Wilderness Dungeon",
+        "Isle of Souls Dungeon",
+        "Karuulm Slayer Dungeon",
+        "Smoke Dungeon",
+        "Stronghold Slayer Cave",
+        "Waterfall Dungeon"
+      ],
+      "notes": [
+        "Level 86 Fire giants are the standard task variant and are known for rune scimitar drops.",
+        "They attack with slash melee, are aggressive, have low defensive bonuses, and have a 100% water elemental weakness.",
+        "Most level 86 locations allow a dwarf multicannon and have safespots.",
+        "Only Charred Dungeon Fire giants are both cannonable and in multicombat."
+      ]
+    },
+    {
+      "variantId": "fire-giant-catacombs",
+      "name": "Fire giant (Catacombs level 104)",
+      "combatLevel": 104,
+      "slayerXp": 133.5,
+      "locations": [
+        "Catacombs of Kourend",
+        "Giants' Den"
+      ],
+      "notes": [
+        "Higher-level Catacombs and Giants' Den variant with access to Ancient shards and Dark totem pieces.",
+        "Has 130 Hitpoints, significantly higher Defence than the level 109 variant, and gives 133.5 Slayer XP.",
+        "Has a 100% water elemental weakness."
+      ]
+    },
+    {
+      "variantId": "fire-giant-catacombs-lvl109",
+      "name": "Fire giant (Catacombs level 109)",
+      "combatLevel": 109,
+      "slayerXp": 153.5,
+      "locations": [
+        "Catacombs of Kourend",
+        "Giants' Den"
+      ],
+      "notes": [
+        "Higher-level Catacombs and Giants' Den variant with access to Ancient shards and Dark totem pieces.",
+        "The task page says level 109 Fire giants should be prioritized for maximum xp because they have more Hitpoints yet significantly lower Defence than level 104 Fire giants.",
+        "Has 150 Hitpoints, low defensive bonuses, and a 100% water elemental weakness."
+      ]
+    },
+    {
+      "variantId": "branda-the-fire-queen",
+      "name": "Branda the Fire Queen",
+      "combatLevel": 350,
+      "slayerXp": 735,
+      "locations": [
+        "Royal Titans arena"
+      ],
+      "notes": [
+        "Branda the Fire Queen is one of the Royal Titans and can be killed by players not assigned by Konar or Krystilia.",
+        "The Slayer helmet boost works for Branda but not for Eldric the Ice King.",
+        "Branda has her own Royal Titans strategy source because the encounter is a separate boss trip."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "brimhaven-dungeon-fire-giants",
+      "name": "Brimhaven Dungeon",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains 8 Fire giants on the first floor and 5 on the ground floor.",
+        "Requires a woodcutting axe to access.",
+        "Requires 875 coins paid to Saniboch or a one-time deposit of 1,000,000 coins to enter.",
+        "The task page says Brimhaven Dungeon is inefficient for Konar assignments because spawns are too spread out between floors."
+      ]
+    },
+    {
+      "locationId": "charred-dungeon-fire-giants",
+      "name": "Charred Dungeon",
+      "amount": 6,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires level 60 Sailing to access.",
+        "The Fire giant page notes this is the only Fire giant location where cannonable spawns are also in multicombat."
+      ]
+    },
+    {
+      "locationId": "stronghold-slayer-cave-fire-giants",
+      "name": "Stronghold Slayer Cave",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires a Slayer task.",
+        "Groups of 3 Fire giants are separated by safespots."
+      ]
+    },
+    {
+      "locationId": "deep-wilderness-dungeon-fire-giants",
+      "name": "Deep Wilderness Dungeon",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The only Fire giant location for Krystilia assignments.",
+        "Located around level 53 Wilderness near the Mage Arena and is a high player-killer risk area.",
+        "Several tiles along the western side of the lava pool allow cannon placement.",
+        "A safespot exists in the south-eastern tunnel near the Monk of Zamorak.",
+        "Wilderness Medium Diary unlocks a 46 Agility shortcut between the fire and hill giant chambers, saving time and avoiding shadow spiders."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend-fire-giants",
+      "name": "Catacombs of Kourend",
+      "amount": 12,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "The task page recommends Catacombs of Kourend in most cases because it is multicombat, relatively AFK, and uses the Catacombs drop table.",
+        "Higher-level Fire giants here can drop Ancient shards and Dark totem pieces.",
+        "Level 109 Fire giants should be prioritized over level 104 Fire giants for maximum XP."
+      ]
+    },
+    {
+      "locationId": "giants-den-fire-giants",
+      "name": "Giants' Den",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Second alternative after Catacombs of Kourend.",
+        "Giants here are the same higher-level variants as Catacombs Fire giants and share the Catacombs drop table, including Ancient shards and Dark totem pieces.",
+        "Not multicombat, but allows a dwarf multicannon."
+      ]
+    },
+    {
+      "locationId": "karuulm-slayer-dungeon-fire-giants",
+      "name": "Karuulm Slayer Dungeon",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Set up a cannon in the middle of the room and stand in the entrance hallway for a safespot.",
+        "This lets the cannon fire rapidly even though the area is single-combat.",
+        "Stamina potions are recommended for reloading the cannon.",
+        "Requires boots of stone, boots of brimstone, or granite boots unless Elite Kourend & Kebos Diary is complete."
+      ]
+    },
+    {
+      "locationId": "smoke-dungeon-fire-giants",
+      "name": "Smoke Dungeon",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires wearing a Facemask, Slayer helmet, or Gas mask to avoid smoke damage.",
+        "The northern wall of the entrance can be used as a safespot, but only against the Fire giant to the north-west.",
+        "The task page says Smoke Dungeon is not recommended because too few Fire giants are scattered around, and Konar does not assign Fire giants there."
+      ]
+    },
+    {
+      "locationId": "waterfall-dungeon-fire-giants",
+      "name": "Waterfall Dungeon",
+      "amount": 11,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires completion of Waterfall Quest and a Rope.",
+        "There is a safespot next to the single door in the western room.",
+        "A cannon can AoE Fire giants by placing it in the middle and running to safespots."
+      ]
+    },
+    {
+      "locationId": "isle-of-souls-dungeon-fire-giants",
+      "name": "Isle of Souls Dungeon",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "A cannon can AoE Fire giants by placing it in the middle and running to the safespot at the hall entrance.",
+        "Stamina potions are recommended."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Fire giants can be assigned at 65 combat with no Slayer level or quest requirement.",
+    "They are the strongest generic giants and are best known for rune scimitar drops.",
+    "All Fire giants have a 100% water elemental weakness; Branda the Fire Queen has a 50% water weakness through her Royal Titans profile.",
+    "Fire giants are aggressive, attack with slash melee, and are immune to weak burns.",
+    "Most Fire giant locations allow a dwarf multicannon; Catacombs of Kourend is the lone task-page exception, but it is multicombat.",
+    "Catacombs of Kourend is recommended in most cases because it is multicombat, relatively AFK, and gives access to the Catacombs drop table.",
+    "Giants' Den is a second alternative because it allows a cannon and uses the same higher-level Fire giants and Catacombs drop table.",
+    "The level 109 Fire giants should be prioritized for maximum xp because they have more Hitpoints and significantly lower Defence than the level 104 variants.",
+    "For Konar assignments, most assigned areas are good except Brimhaven Dungeon, which is inefficient because spawns are spread across floors.",
+    "Konar does not assign Fire giants in the Smoke Dungeon, and the task page says Smoke Dungeon is not recommended because too few giants are scattered around.",
+    "For Krystilia assignments, Deep Wilderness Dungeon is the only Fire giant location and is deep Wilderness with high player-killer risk.",
+    "Players not assigned by Konar or Krystilia can choose to kill Branda the Fire Queen from the Royal Titans encounter; the Slayer helmet boost works for Branda but not Eldric the Ice King."
+  ],
+  "recommendedMethod": "Use Catacombs of Kourend for most tasks, prioritising level 109 Fire giants for better XP and Catacombs drops. Use Giants' Den when a cannonable Catacombs-table option is preferred, and use Konar-specific cannon locations such as Karuulm, Stronghold Slayer Cave, Waterfall, Isle of Souls, or Charred Dungeon when assigned there. Use Deep Wilderness Dungeon only for Krystilia tasks or when accepting deep-Wilderness risk."
+}

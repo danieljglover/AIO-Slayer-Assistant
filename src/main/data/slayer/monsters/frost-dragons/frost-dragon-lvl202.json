@@ -1,0 +1,30 @@
+{
+  "variantId": "frost-dragon",
+  "name": "Frost dragon",
+  "npcIds": [
+    14922
+  ],
+  "combatLevel": 202,
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 25,
+    "slash": 90,
+    "crush": 15,
+    "magic": 50,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Grimstone Dungeon",
+  "locationId": "grimstone-dungeon",
+  "requirement": "87 Sailing to access Grimstone; no Slayer skill requirement; 85 combat to receive the assignment.",
+  "bossId": null,
+  "strategyId": "frost-dragons"
+}

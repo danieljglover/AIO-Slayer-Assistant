@@ -1,0 +1,91 @@
+{
+  "taskId": "hobgoblins",
+  "name": "Hobgoblin",
+  "wikiPageId": 13076,
+  "combatLevel": 20,
+  "slayerTargetId": 292,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "hobgoblin"
+  ],
+  "variantIds": [
+    "hobgoblin"
+  ],
+  "defaultVariantId": "hobgoblin",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 24,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "hobgoblin-area"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "hobgoblin",
+      "name": "Hobgoblin",
+      "combatLevel": 28,
+      "slayerXp": 29.0,
+      "locations": [
+        "Edgeville Dungeon",
+        "Peninsula west of the Crafting Guild"
+      ],
+      "notes": [
+        "NPC ids 3049/3050/3286/3287/3288/3289 (level 28 unarmed, 29 xp); an armed level-42 form (49 xp) also exists.",
+        "29 Hitpoints, Defence 24, max hit 3, 4-tick melee (unarmed crush; armed form is stab, 6-tick).",
+        "All defensive bonuses are +0, so any melee style is equally accurate; no elemental weakness.",
+        "The God Wars Dungeon hobgoblin (npc 2241) is a separate spawn not counted here."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "hobgoblin-area",
+      "name": "Hobgoblin area",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Hobgoblins gather in the Edgeville Dungeon and on the peninsula west of the Crafting Guild.",
+        "Multi, cannon and safespot status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 292 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Hobgoblins is not wiki-published; QA live-verify.",
+    "Authored as Mazchna-only (30-50, weight 7) per the C3 starter-tier worklist. The live wiki ALSO lists Vannaka as an assigner; that is documented here and can be folded in later as an additive masterIds/amount/weight edit if desired (same decision as cockatrice/pyrefiends).",
+    "No Slayer level required (slayerLevel 1). Mazchna's combat-level threshold is around 20.",
+    "Two forms count: the level-28 unarmed hobgoblin and the level-42 armed hobgoblin; the default variant pins the level-28 form.",
+    "All defensive bonuses are +0, so any melee style clears them; there is no elemental weakness (weakness.element honest null)."
+  ],
+  "recommendedMethod": "Hobgoblins are a low-level Mazchna task in the Edgeville Dungeon and on the peninsula west of the Crafting Guild. They have Defence 24 with all defensive bonuses +0, so any melee weapon is equally accurate - bring your best melee setup and a Slayer helmet. They hit up to 3 with melee, so minimal food is needed. Both the unarmed level-28 and armed level-42 forms count toward the task."
+}

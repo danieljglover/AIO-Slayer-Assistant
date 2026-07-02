@@ -1,0 +1,40 @@
+{
+  "variantId": "minotaur",
+  "name": "Minotaur",
+  "npcIds": [
+    2481,
+    2482,
+    2483
+  ],
+  "combatLevel": 12,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 10,
+    "stab": -21,
+    "slash": -21,
+    "crush": -21,
+    "magic": -21,
+    "range": -21
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Stronghold of Security (Vault of War, first level)",
+  "locationId": "stronghold-of-security-minotaurs",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "minotaurs",
+  "offence": {
+    "hitpoints": 10,
+    "maxHit": 2,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

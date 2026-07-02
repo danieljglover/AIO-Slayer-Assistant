@@ -1,0 +1,446 @@
+{
+  "strategyId": "drakes",
+  "variantIds": [
+    "drake",
+    "guardian-drake"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Drake",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "blade-of-saeldor",
+      "noxious-halberd",
+      "zamorakian-hasta",
+      "abyssal-tentacle"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "eye-of-ayak",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "sanguinesti-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Dragonbane melee is the default recommendation, with ranged and water-spell magic as valid alternatives. Use Protect from Missiles and dragonfire protection or dodge volcanic breath; Guardian Drake needs movement from its melee stun special."
+  },
+  "requirements": [
+    "84 Slayer to damage Drakes or receive the task",
+    "90 combat to receive the task",
+    "Access to Mount Karuulm",
+    "Boots of stone, boots of brimstone, or granite boots unless Elite Kourend & Kebos Diary is complete",
+    "Recommended high combat stats: 80+ melee stats, 75+ Ranged, or 85+ Magic depending on style",
+    "Recommended prayers: Piety for melee, Deadeye/Rigour for ranged, Mystic Vigour/Augury for magic",
+    "Bigger and Badder unlock for Guardian Drake superior spawns"
+  ],
+  "mechanics": [
+    "Drakes use ranged, ranged melee, and volcanic breath dragonfire.",
+    "Protect from Missiles fully blocks normal ranged attacks.",
+    "Drakes do not require dragonfire protection to be killed, but dragonfire protection reduces or negates volcanic breath.",
+    "After seven auto-attacks, Drakes launch volcanic breath at the player's current tile.",
+    "Volcanic breath deals four quick hits for 6-8 damage each if the player is struck without protection.",
+    "Move one tile away when the projectile is launched to completely avoid volcanic breath.",
+    "Dragonfire shield, dragonfire ward, or anti-dragon shield plus antifire negates volcanic breath damage.",
+    "Super antifire or extended super antifire also negates volcanic breath and allows defender or blowpipe setups.",
+    "Protect from Missiles plus dragonfire protection can make distant kills no-damage.",
+    "Drakes are draconic and weak to dragonbane weapons.",
+    "Drakes take 50% more damage from water spells.",
+    "Guardian Drake has the same volcanic breath when out of melee distance and a melee-distance stun special that hits through prayer."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-transport",
+      "label": "Requirements and transport",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Prepare heat-protection footwear unless Elite Kourend & Kebos Diary is complete, then travel to Mount Karuulm.",
+      "recommendedFor": [
+        "Every Drake task"
+      ],
+      "requiredOrKeyItems": [
+        "boots of stone",
+        "boots of brimstone",
+        "granite boots",
+        "Rada's blessing 3 or 4",
+        "Battlefront Teleport",
+        "fairy ring CIR"
+      ],
+      "steps": [
+        "Wear boots of stone, boots of brimstone, or granite boots unless the Elite Kourend & Kebos Diary burn immunity is unlocked.",
+        "Travel with Mount Karuulm teleport from Rada's blessing 3 or 4 when available.",
+        "Alternatively use fairy ring CIR, Battlefront Teleport, Skills necklace to Farming Guild, or Farming cape to the Farming Guild.",
+        "Use 29 or 62 Agility volcano shortcuts if not using Rada's blessing 3 or higher."
+      ],
+      "notes": [
+        "Drakes are only found in the Karuulm Slayer Dungeon."
+      ]
+    },
+    {
+      "methodId": "mechanics-and-dragonfire",
+      "label": "Mechanics and dragonfire",
+      "combatStyle": "RANGED",
+      "role": "survival",
+      "summary": "Block normal ranged attacks with Protect from Missiles and handle volcanic breath by protection or movement.",
+      "recommendedFor": [
+        "All combat styles",
+        "Low-damage and low-supply trips"
+      ],
+      "requiredOrKeyItems": [
+        "Protect from Missiles",
+        "antifire potion",
+        "super antifire potion",
+        "anti-dragon shield",
+        "dragonfire shield",
+        "dragonfire ward"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Keep Protect from Missiles active to fully block normal ranged attacks.",
+        "Count or watch for volcanic breath after seven auto-attacks.",
+        "When volcanic breath is launched, move one tile away from the targeted tile to completely avoid it.",
+        "Use one layer of dragonfire protection to reduce the special attack.",
+        "Use shield or ward protection plus antifire, or super antifire, to negate volcanic breath damage.",
+        "Attack from at least one tile away with Protect from Missiles and dragonfire protection for no-damage kills."
+      ],
+      "risks": [
+        "Two-handed weapons, defenders, and blowpipe setups require either movement or super antifire to avoid all volcanic breath damage.",
+        "Without protection or movement, volcanic breath hits four times."
+      ]
+    },
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use dragonbane melee where possible; stab weapons perform well against Drake's low stab defence.",
+      "recommendedFor": [
+        "Dragon hunter lance users",
+        "Players using strong melee stats and Piety"
+      ],
+      "requiredOrKeyItems": [
+        "dragon-hunter-lance",
+        "osmumten-s-fang",
+        "ghrazi-rapier",
+        "blade-of-saeldor",
+        "noxious-halberd",
+        "zamorakian-hasta",
+        "abyssal-tentacle"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Piety"
+      ],
+      "steps": [
+        "Use Dragon hunter lance as the top melee weapon when available.",
+        "Use stab-style alternatives such as Osmumten's fang, Ghrazi rapier, Blade of saeldor, Noxious halberd, or Zamorakian hasta.",
+        "Keep Protect from Missiles active against normal ranged attacks.",
+        "Use antifire protection or step away from volcanic breath when using a defender or two-handed weapon.",
+        "Use a cannon in the task-only area to speed kills slightly."
+      ],
+      "risks": [
+        "If using a defender or two-handed melee weapon, volcanic breath must be dodged or covered by antifire protection."
+      ]
+    },
+    {
+      "methodId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use Dragon hunter crossbow or strong ranged alternatives; shield setups can simplify volcanic breath protection.",
+      "recommendedFor": [
+        "Dragon hunter crossbow users",
+        "Players preferring distance and shield protection"
+      ],
+      "requiredOrKeyItems": [
+        "dragon-hunter-crossbow",
+        "toxic-blowpipe",
+        "hunters-sunlight-crossbow",
+        "bow-of-faerdhinen",
+        "zaryte-crossbow",
+        "dragonfire ward",
+        "anti-dragon shield"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Deadeye",
+        "Rigour"
+      ],
+      "steps": [
+        "Use Dragon hunter crossbow when available.",
+        "Pair crossbows with dragonfire ward or anti-dragon shield if you do not want to dodge volcanic breath.",
+        "Use toxic blowpipe as an alternative only with super antifire or consistent volcanic breath dodging.",
+        "Use Hunters' sunlight crossbow, Bow of faerdhinen, Zaryte crossbow, Armadyl crossbow, or other crossbows as fallback options.",
+        "Keep Protect from Missiles active."
+      ],
+      "notes": [
+        "The task page notes that off-task blowpipe setups only marginally improve DPS over cheaper Hunters' sunlight crossbow with Void."
+      ]
+    },
+    {
+      "methodId": "magic-water-spells",
+      "label": "Magic water spells",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use Dragon hunter wand or water-spell setups to exploit Drake's 50% water weakness.",
+      "recommendedFor": [
+        "Dragon hunter wand users",
+        "Players using water spell damage"
+      ],
+      "requiredOrKeyItems": [
+        "dragon-hunter-wand",
+        "eye-of-ayak",
+        "tumeken-s-shadow",
+        "harmonised-nightmare-staff",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "twinflame-staff",
+        "tome of water",
+        "ancient wyvern shield",
+        "anti-dragon shield"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Mystic Vigour",
+        "Augury"
+      ],
+      "steps": [
+        "Use Dragon hunter wand for a dragonbane magic setup.",
+        "Use water spells, Tome of water, or water-spell-compatible staves to exploit the 50% water weakness.",
+        "Use Ancient wyvern shield or anti-dragon shield if not relying on movement or super antifire.",
+        "Carry water, wrath, fire, and nature runes where using the listed rune pouch setup.",
+        "Keep Protect from Missiles active while attacking from distance."
+      ],
+      "risks": [
+        "Two-handed magic setups must dodge volcanic breath or use antifire protection."
+      ]
+    },
+    {
+      "methodId": "guardian-drake",
+      "label": "Guardian Drake",
+      "combatStyle": "RANGED",
+      "role": "superior",
+      "summary": "Handle Guardian Drake by reacting to its melee-distance stun special and choosing range/flinch approaches when needed.",
+      "recommendedFor": [
+        "Superior Slayer encounters",
+        "Players with Bigger and Badder enabled"
+      ],
+      "requiredOrKeyItems": [
+        "Protect from Missiles",
+        "food",
+        "dragonfire protection"
+      ],
+      "steps": [
+        "Expect the regular volcanic breath special when you are not in melee distance.",
+        "If in melee distance, watch for yellow gaps on the Guardian Drake's back lighting up.",
+        "When the yellow warning appears, step out of melee distance quickly to avoid the stun special.",
+        "Use ranged weapons or flinching if you want to reduce exposure to the melee-distance stun.",
+        "Do not rely on prayer to block the stun special because it hits through prayer."
+      ],
+      "risks": [
+        "Guardian Drake melee special can stun and hit over 30 damage through prayer.",
+        "The volcanic breath special still requires movement or dragonfire protection when fought at range."
+      ]
+    },
+    {
+      "methodId": "inventory-melee",
+      "label": "Melee inventory",
+      "combatStyle": "MELEE",
+      "role": "inventory",
+      "summary": "Melee inventory uses dragonbane/stab gear, cannon, antifire, prayers, alchemy runes, bone handling, and herb sack.",
+      "inventory": [
+        "Dragon claws or other special weapon",
+        "2 divine super combat potions",
+        "Dwarf multicannon and cannonballs",
+        "Bonecrusher necklace or bonecrusher",
+        "Extended super antifire",
+        "Food such as sharks",
+        "Prayer potions",
+        "Holy wrench",
+        "Herb sack",
+        "Divine rune pouch with Fire and Nature runes for High Alchemy and Dust and Law runes for Teleport to House"
+      ]
+    },
+    {
+      "methodId": "inventory-ranged",
+      "label": "Ranged inventory",
+      "combatStyle": "RANGED",
+      "role": "inventory",
+      "summary": "Ranged inventory uses antifire, ranged boost, prayer potions, cannon, emergency food, and utility items.",
+      "inventory": [
+        "Extended antifire",
+        "Ranging potion",
+        "Teleport to house tablet",
+        "Prayer potions",
+        "Dwarf multicannon and cannonballs",
+        "Holy wrench",
+        "Cooked karambwan",
+        "Toxic blowpipe substitute if using super antifire or dodging volcanic breath",
+        "Rune pouch",
+        "Bonecrusher if not collecting bones",
+        "Herb sack"
+      ]
+    },
+    {
+      "methodId": "inventory-magic",
+      "label": "Magic inventory",
+      "combatStyle": "MAGIC",
+      "role": "inventory",
+      "summary": "Magic inventory uses antifire, magic boost, rune pouch, utility items, prayer potions, food, bonecrusher, and herb sack.",
+      "inventory": [
+        "Extended antifire",
+        "Saturated heart",
+        "Teleport to house tablet",
+        "Divine rune pouch",
+        "Holy wrench",
+        "Herb sack",
+        "Bonecrusher",
+        "Prayer potions",
+        "Cooked karambwan",
+        "Nature, Fire, Water, and Wrath runes"
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Dragon hunter lance and stab melee setup for task kills.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter lance",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Blade of saeldor",
+            "Noxious halberd",
+            "Zamorakian hasta",
+            "Abyssal tentacle"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Anti-dragon shield"
+          ],
+          "special": [
+            "Burning claws",
+            "Dragon claws",
+            "Voidwaker",
+            "Dragon dagger",
+            "Osmumten's fang",
+            "Saradomin godsword"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Ranged dragonbane",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Dragon hunter crossbow and ranged alternatives, with shield options for volcanic breath protection.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter crossbow",
+            "Toxic blowpipe",
+            "Hunters' sunlight crossbow",
+            "Bow of faerdhinen",
+            "Zaryte crossbow",
+            "Armadyl crossbow"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward",
+            "Anti-dragon shield"
+          ],
+          "special": [
+            "Toxic blowpipe",
+            "Zaryte crossbow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-water-spells",
+      "label": "Magic water spells",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Dragon hunter wand and water-spell setups using Drake's 50% water weakness.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Tumeken's shadow",
+            "Dragon hunter wand",
+            "Harmonised nightmare staff",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Twinflame staff"
+          ],
+          "shield": [
+            "Tome of water",
+            "Elidinis' ward (f)",
+            "Ancient wyvern shield",
+            "Mage's book",
+            "Book of darkness",
+            "Anti-dragon shield"
+          ],
+          "special": [
+            "Eye of ayak"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Drakes\n\nTask-page strategy covering requirements and transport, volcanic breath and dragonfire handling, melee dragonbane, ranged dragonbane, magic water-spell setups, Guardian Drake superior handling, and style-specific inventories."
+}

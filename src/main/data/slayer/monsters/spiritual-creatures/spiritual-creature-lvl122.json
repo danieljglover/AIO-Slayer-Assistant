@@ -1,0 +1,27 @@
+{
+  "variantId": "spiritual-creature",
+  "name": "Spiritual creature",
+  "npcIds": null,
+  "combatLevel": 122,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 35,
+    "slash": 35,
+    "crush": 35,
+    "magic": 40,
+    "range": 35
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "God Wars Dungeon (Saradomin / Zamorak / Armadyl / Bandos wings)",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "spiritual-creatures"
+}

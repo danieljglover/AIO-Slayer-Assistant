@@ -1,0 +1,396 @@
+{
+  "strategyId": "suqahs",
+  "variantIds": [
+    "suqah"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Suqah",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "venator-bow",
+      "toxic-blowpipe",
+      "hunters-sunlight-crossbow",
+      "magic-shortbow-i"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "ghrazi-rapier",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "osmumten-s-fang",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "zamorakian-hasta",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "abyssal-dagger",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Suqah strategy: use north Lunar Isle with cannon, Ranged, Protect from Magic, and the hill safespot for fastest dense kills; use south or south-west Lunar Isle with melee and cannon to avoid magic damage."
+  },
+  "requirements": [
+    "85 combat before assignment",
+    "Partial completion of Lunar Diplomacy for Lunar Isle access",
+    "Seal of passage to use the Lunar Isle bank unless Dream Mentor or the Elite Fremennik Diary allows banker access",
+    "Dwarf multicannon and steel cannonballs for the recommended high-experience methods",
+    "One-click teleport for emergency exit"
+  ],
+  "mechanics": [
+    "Suqah are aggressive level 111 monsters with 105 Hitpoints and 107.6 Slayer XP.",
+    "Suqah are 2x2 monsters and attack every 6 ticks.",
+    "The monster page lists Stab and Magic attacks with a max hit of 10.",
+    "The shield-bearing northern variety uses melee plus weaker Ice Barrage and Water Wave spells.",
+    "A successful Ice Barrage cast is guaranteed to hit 10 if the player is not using Protect from Magic.",
+    "The dual-wielding southern variety attacks only with melee.",
+    "The task page marks north Lunar Isle, south-east Lunar Isle, and south-west Lunar Isle as cannonable and safespottable.",
+    "North and south-east Lunar Isle are multicombat; south-west Lunar Isle is single-way combat.",
+    "Suqah have a 20% elemental weakness to Earth spells, but the wiki task page recommends Ranged north and melee south.",
+    "Suqah drops are low value, so cannonballs, blowpipe scales, and prayer potions can make the task coin-negative despite good experience."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-access",
+      "label": "Requirements and access",
+      "combatStyle": "RANGED",
+      "role": "setup",
+      "summary": "Prepare for a Lunar Isle task with banking, teleport, and cannon assumptions handled before combat.",
+      "recommendedFor": [
+        "Every Suqah task",
+        "Players using Lunar Isle bank",
+        "Players choosing between north and south spawns"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Seal of passage",
+        "Teleport to house tablet or other one-click teleport",
+        "Bonecrusher necklace or bonecrusher"
+      ],
+      "steps": [
+        "Confirm partial completion of Lunar Diplomacy before routing to Lunar Isle.",
+        "Bring a seal of passage if the account has not completed Dream Mentor or the Elite Fremennik Diary and wants to use the Lunar Isle bank.",
+        "Bring cannon parts and steel cannonballs for the fast methods described on the task page.",
+        "Bring a bonecrusher necklace or bonecrusher because Suqah always drop big bones.",
+        "Choose north Lunar Isle for dense cannon and Ranged kills, or southern Lunar Isle when avoiding magic attacks."
+      ],
+      "risks": [
+        "Without seal of passage or a banking unlock, Lunar Isle bank access is unavailable.",
+        "Cannonballs, blowpipe scales, and prayer potions can cost more than the task returns."
+      ]
+    },
+    {
+      "methodId": "north-ranged-cannon-safespot",
+      "label": "North ranged cannon safespot",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use the dense northern Lunar Isle spawns with cannon, Ranged gear, Protect from Magic, and the hill safespot.",
+      "recommendedFor": [
+        "Fastest Suqah task completion",
+        "Players spending cannonballs for experience per hour",
+        "Accounts comfortable sustaining Protect from Magic"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Venator bow",
+        "Toxic blowpipe",
+        "Hunters' sunlight crossbow",
+        "Magic shortbow",
+        "Divine ranging potion or ranging potion",
+        "Prayer potions",
+        "Food",
+        "One-click teleport",
+        "Seal of passage",
+        "Bonecrusher necklace or bonecrusher"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Rigour",
+        "Eagle Eye"
+      ],
+      "steps": [
+        "Go to the northern part of Lunar Isle where the task page lists 16 Suqah.",
+        "Set up the dwarf multicannon in the northern area and keep it loaded while killing.",
+        "Stand next to the hill safespot shown on the task page and attack with Ranged.",
+        "Keep Protect from Magic active because northern Suqah use both melee and magic.",
+        "Wear armour with high Melee defence to reduce damage that still comes through while praying against Magic.",
+        "Use a divine ranging potion or ranging potion for faster kills.",
+        "Expect this method to be coin-negative if using toxic blowpipe and cannonballs because Suqah drops are poor."
+      ],
+      "risks": [
+        "If Protect from Magic drops, Ice Barrage can successfully cast and guarantee 10 damage.",
+        "The method burns supplies quickly for experience rather than profit."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i) on task",
+            "Masori mask (f)",
+            "Armadyl helmet",
+            "Blessed coif",
+            "Archer helm"
+          ],
+          "weapon": [
+            "Venator bow",
+            "Toxic blowpipe",
+            "Hunters' sunlight crossbow",
+            "Magic shortbow (i)"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Hueycoatl hide body",
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "legs": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Hueycoatl hide chaps",
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "neck": [
+            "Necklace of anguish",
+            "Bonecrusher necklace",
+            "Dragonbone necklace",
+            "Amulet of fury",
+            "Amulet of glory"
+          ]
+        }
+      },
+      "inventory": [
+        "Cannon barrels",
+        "Cannon base",
+        "Cannon furnace",
+        "Cannon stand",
+        "Steel cannonballs",
+        "Divine ranging potion or ranging potion",
+        "3-4 Prayer potions",
+        "Food",
+        "Teleport to house tablet or other one-click teleport",
+        "Seal of passage",
+        "Bonecrusher necklace or bonecrusher"
+      ]
+    },
+    {
+      "methodId": "south-melee-cannon",
+      "label": "South melee cannon",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use southern Lunar Isle melee-only Suqah when avoiding Protect from Magic.",
+      "recommendedFor": [
+        "Players who do not want to use Protect from Magic",
+        "Melee Slayer training",
+        "Accounts using Guthan's equipment for sustain"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Ghrazi rapier",
+        "Osmumten's fang",
+        "Zamorakian hasta",
+        "Abyssal dagger",
+        "Dragon sword",
+        "Guthan's equipment",
+        "Divine super combat potion or super combat potion",
+        "Food",
+        "One-click teleport",
+        "Seal of passage"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Go to the southern part of Lunar Isle, including the area near the Astral Altar, for melee-only Suqah.",
+        "Set up a dwarf multicannon if using cannonballs for faster task completion.",
+        "Use stab-focused melee weapons such as Ghrazi rapier, Osmumten's fang, Zamorakian hasta, Abyssal dagger, or Dragon sword.",
+        "Use divine super combat potions or super combat potions to maintain melee damage.",
+        "Use Guthan's equipment when prioritising sustain; the task page notes their damage can be mitigated entirely with Guthan's equipment.",
+        "Bring some food and a one-click teleport even though this method avoids magic."
+      ],
+      "risks": [
+        "Southern spawns are more sparse than northern Lunar Isle, so kills can be slower.",
+        "Melee-only does not mean damage-free unless using sustain, prayer, or enough food."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i) on task",
+            "Torva full helm",
+            "Neitiznot faceguard",
+            "Helm of neitiznot"
+          ],
+          "weapon": [
+            "Ghrazi rapier",
+            "Osmumten's fang",
+            "Zamorakian hasta",
+            "Abyssal dagger",
+            "Dragon sword"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Rune defender"
+          ],
+          "body": [
+            "Torva platebody",
+            "Bandos chestplate",
+            "Fighter torso",
+            "Guthan's platebody"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Bandos tassets",
+            "Obsidian platelegs",
+            "Verac's plateskirt",
+            "Guthan's chainskirt"
+          ],
+          "special": [
+            "Saradomin godsword"
+          ]
+        }
+      },
+      "inventory": [
+        "Cannon barrels",
+        "Cannon base",
+        "Cannon furnace",
+        "Cannon stand",
+        "Steel cannonballs",
+        "2 Divine super combat potions or super combat potions",
+        "Seal of passage",
+        "Guthan's helm",
+        "Guthan's platebody",
+        "Guthan's chainskirt",
+        "Guthan's warspear",
+        "Food",
+        "Teleport to house tablet or other one-click teleport",
+        "Bonecrusher necklace or bonecrusher"
+      ]
+    },
+    {
+      "methodId": "south-west-melee-only-cannon",
+      "label": "South-west melee-only cannon",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use the south-west bridge and dead-tree cannon placement to target melee-only Suqah while avoiding the nearby magic user.",
+      "recommendedFor": [
+        "Players specifically avoiding magic damage",
+        "Players using cannon but not Protect from Magic",
+        "Accounts choosing the single-way south-west location"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Melee weapon",
+        "Food",
+        "Seal of passage",
+        "One-click teleport"
+      ],
+      "steps": [
+        "Cross to the south-west part of Lunar Isle over the bridge near the city wall.",
+        "Use the three melee-only Suqah noted on the task page.",
+        "Place the cannon directly north-west of the dead tree.",
+        "This cannon placement targets melee-only Suqah while avoiding the single magic-dealing Suqah in the vicinity.",
+        "Use melee gear and sustain supplies as in the broader southern melee method."
+      ],
+      "risks": [
+        "South-west Lunar Isle is single-way combat, unlike the northern and south-east rows.",
+        "Incorrect cannon placement can pull the nearby magic-using Suqah."
+      ]
+    },
+    {
+      "methodId": "banking-and-supplies",
+      "label": "Banking and supplies",
+      "combatStyle": "RANGED",
+      "role": "sustain",
+      "summary": "Plan the trip around Lunar Isle bank access, cannon restocking, and the task's low-value drops.",
+      "recommendedFor": [
+        "Long cannon trips",
+        "Players using Lunar Isle bank",
+        "Ironman or supply-conscious accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Seal of passage",
+        "Dream Mentor completion",
+        "Elite Fremennik Diary",
+        "Food",
+        "Prayer potions",
+        "Bonecrusher necklace or bonecrusher"
+      ],
+      "steps": [
+        "Use a seal of passage for Lunar Isle bank access unless Dream Mentor or the Elite Fremennik Diary removes that requirement.",
+        "Bring enough cannonballs for the planned task section; the north method spends them fastest.",
+        "Bring prayer potions for north Lunar Isle because Protect from Magic is recommended there.",
+        "Use food such as sharks, karambwans, or monkfish for both north and south setups.",
+        "Carry a bonecrusher necklace or bonecrusher to process big bones automatically."
+      ],
+      "risks": [
+        "Forgetting seal of passage can force an early teleport or awkward banking route.",
+        "Poor Suqah drops mean supply burn should be treated as an experience cost."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-north",
+      "label": "Ranged north",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Dense north Lunar Isle cannon and Ranged safespot method with Protect from Magic.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Venator bow",
+            "Toxic blowpipe",
+            "Hunters' sunlight crossbow",
+            "Magic shortbow (i)"
+          ],
+          "prayer": [
+            "Protect from Magic",
+            "Rigour",
+            "Eagle Eye"
+          ],
+          "support": [
+            "Dwarf multicannon",
+            "Steel cannonballs",
+            "Prayer potions",
+            "Seal of passage",
+            "Bonecrusher necklace or bonecrusher"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-south",
+      "label": "Melee south",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Southern Lunar Isle melee-only Suqah method with cannon support and optional Guthan's sustain.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Ghrazi rapier",
+            "Osmumten's fang",
+            "Zamorakian hasta",
+            "Abyssal dagger",
+            "Dragon sword"
+          ],
+          "support": [
+            "Dwarf multicannon",
+            "Steel cannonballs",
+            "Guthan's equipment",
+            "Divine super combat potion",
+            "Seal of passage",
+            "Bonecrusher necklace or bonecrusher"
+          ]
+        }
+      }
+    }
+  ]
+}

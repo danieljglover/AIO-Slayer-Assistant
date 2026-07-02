@@ -1,0 +1,30 @@
+{
+  "variantId": "blue-dragons-vorkath",
+  "name": "Vorkath",
+  "npcIds": [
+    8059,
+    8061
+  ],
+  "combatLevel": 732,
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 214,
+    "stab": 26,
+    "slash": 108,
+    "crush": 108,
+    "magic": 240,
+    "range": 26
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": true,
+  "boss": true,
+  "location": "Ungael (north of Fossil Island); requires Dragon Slayer II",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "vorkath"
+}

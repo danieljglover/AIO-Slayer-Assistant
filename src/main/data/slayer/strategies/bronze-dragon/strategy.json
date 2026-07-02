@@ -1,0 +1,121 @@
+{
+  "strategyId": "bronze-dragon",
+  "variantIds": [
+    "bronze-dragon",
+    "bronze-dragon-catacombs"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Metal_dragons/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "zamorakian-hasta",
+      "abyssal-dagger"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Bronze dragon strategy: weak to stab, heavy ranged, and Earth spells; dragonbane weapons are best. Bronze dragons do not drop the draconic visage, so use them mainly for fast cannon tasks."
+  },
+  "requirements": [
+    "Partial completion of Dragon Slayer I",
+    "Full dragonfire protection from anti-dragon shield plus antifire, or super antifire",
+    "Use Brimhaven task-only area for speed"
+  ],
+  "mechanics": [
+    "Metallic dragonfire is not blocked by Protect from Magic.",
+    "Bronze dragons use melee and long-range dragonfire.",
+    "Without complete dragonfire protection, stay in melee range and use Protect from Melee.",
+    "Bronze dragons have a 50% earth spell vulnerability and the draconic attribute."
+  ],
+  "methods": [
+    {
+      "methodId": "dragonfire-protection",
+      "label": "Dragonfire protection",
+      "combatStyle": "MELEE",
+      "role": "required",
+      "summary": "Use full metallic dragonfire protection before fighting Bronze dragons.",
+      "requiredOrKeyItems": [
+        "Anti-dragon shield or dragonfire shield",
+        "Antifire potion or super antifire potion",
+        "Protect from Melee if in melee range"
+      ],
+      "steps": [
+        "Use anti-dragon shield plus antifire for complete protection, or use super antifire without a shield.",
+        "Do not rely on Protect from Magic because metallic dragonfire ignores it.",
+        "If protection is incomplete, stay in melee range and use Protect from Melee to reduce dragonfire frequency."
+      ]
+    },
+    {
+      "methodId": "fast-brimhaven-cannon",
+      "label": "Fast Brimhaven cannon",
+      "combatStyle": "MELEE",
+      "role": "speed",
+      "summary": "Use the Brimhaven task-only area for the fastest low-level Metal dragon task.",
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Dragon hunter lance",
+        "Dragon hunter crossbow",
+        "Dragon hunter wand"
+      ],
+      "steps": [
+        "Use the task-only Brimhaven Dungeon area with five Bronze dragons.",
+        "Place a cannon for speed.",
+        "Use dragonbane, stab, heavy ranged, or earth spell gear.",
+        "Avoid slash weapons."
+      ],
+      "notes": [
+        "Bronze dragons are the weakest Metal dragon option but do not drop the draconic visage."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Stab-focused melee with dragon hunter lance or high-accuracy stab weapons."
+    },
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Ranged dragonbane",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Heavy ranged or dragon hunter crossbow setup."
+    },
+    {
+      "styleId": "magic-earth",
+      "label": "Earth Magic",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Earth spell or dragon hunter wand setup using the 50% earth weakness."
+    }
+  ],
+  "body": "# Bronze dragon\n\nWeak to stab, heavy ranged, and Earth spells; very high Defence. Dragon hunter lance is best stab versus draconic creatures, then fang. Do not use slash."
+}

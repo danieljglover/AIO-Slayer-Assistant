@@ -1,0 +1,29 @@
+{
+  "variantId": "ahrim-the-blighted",
+  "name": "Ahrim the Blighted",
+  "npcIds": [
+    1672
+  ],
+  "combatLevel": 98,
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 103,
+    "slash": 85,
+    "crush": 117,
+    "magic": 73,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Barrows - Morytania",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "ahrim-the-blighted"
+}

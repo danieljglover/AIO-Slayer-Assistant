@@ -1,0 +1,92 @@
+{
+  "taskId": "ghouls",
+  "name": "Ghoul",
+  "wikiPageId": 13610,
+  "combatLevel": 25,
+  "slayerTargetId": 290,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Priest in Peril"
+  ],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      10,
+      20
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "ghoul"
+  ],
+  "variantIds": [
+    "ghoul"
+  ],
+  "defaultVariantId": "ghoul",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 30,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "canifis-ghoul-area"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "ghoul",
+      "name": "Ghoul",
+      "combatLevel": 42,
+      "slayerXp": 50.0,
+      "locations": [
+        "West of Canifis, north of Mort Myre Swamp"
+      ],
+      "notes": [
+        "NPC id 289; combat level 42, 50 Hitpoints, max hit 5, 4-tick melee (crush).",
+        "Defence 30 with all defensive bonuses +0, so any melee style is equally accurate; no elemental weakness.",
+        "Ghouls are NOT undead despite their appearance - the Salve amulet does not apply (honest false).",
+        "Requires Priest in Peril for access to Morytania (across the River Salve)."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "canifis-ghoul-area",
+      "name": "Canifis ghoul area",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Ghouls roam west of Canifis by the River Salve, north of Mort Myre Swamp.",
+        "Multi, cannon and safespot status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 290 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Ghouls is not wiki-published; QA live-verify.",
+    "Assigned only by Mazchna (10-20) in this dataset; no Slayer level required (slayerLevel 1). Mazchna's combat-level threshold is around 25.",
+    "Ghouls are NOT undead - the Salve amulet does not apply. undead is honestly false despite the folk assumption in the worklist.",
+    "Access requires Priest in Peril (to cross the River Salve into Morytania).",
+    "All defensive bonuses are +0, so any melee style clears them; there is no elemental weakness (weakness.element honest null)."
+  ],
+  "recommendedMethod": "Ghouls are a low-level Mazchna task west of Canifis, north of Mort Myre Swamp (Priest in Peril required for Morytania access). They have Defence 30 with all defensive bonuses +0, so any melee weapon is equally accurate - bring your best melee setup and a Slayer helmet. They hit up to 5 with melee, so a little food covers the trip. Note they are NOT undead, so the Salve amulet gives no bonus."
+}

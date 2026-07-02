@@ -1,0 +1,29 @@
+{
+  "variantId": "abhorrent-spectre",
+  "name": "Abhorrent spectre",
+  "npcIds": [
+    7402
+  ],
+  "combatLevel": 253,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 180,
+    "stab": 40,
+    "slash": 40,
+    "crush": 40,
+    "magic": 0,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Slayer Tower / Stronghold Slayer Cave / Deepfin Mine",
+  "requirement": "superior - Bigger and Badder unlock; nose peg or Slayer helmet",
+  "bossId": null,
+  "strategyId": "aberrant-spectres"
+}

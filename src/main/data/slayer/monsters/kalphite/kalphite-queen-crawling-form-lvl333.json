@@ -1,0 +1,31 @@
+{
+  "variantId": "kalphite-queen-crawling-form",
+  "name": "Kalphite Queen (crawling form)",
+  "npcIds": [
+    963,
+    4303
+  ],
+  "combatLevel": 333,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 300,
+    "stab": 50,
+    "slash": 50,
+    "crush": 10,
+    "magic": 100,
+    "range": 100
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": true,
+  "location": "Kalphite Lair",
+  "locationId": "kalphite-lair",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "kalphite-queen-crawling-form"
+}

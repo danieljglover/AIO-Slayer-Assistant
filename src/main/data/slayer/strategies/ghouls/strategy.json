@@ -1,0 +1,68 @@
+{
+  "strategyId": "ghouls",
+  "variantIds": [
+    "ghoul"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Ghoul",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Ghouls have 50 hitpoints and Defence 30 with all defensive bonuses +0, so any melee style is equally accurate - use your best melee weapon. They hit up to 5 with melee, so bring a little food. They are NOT undead, so the Salve amulet does not apply. Priest in Peril is required to reach them west of Canifis."
+  },
+  "requirements": [
+    "No Slayer level is required to receive or kill Ghouls.",
+    "Priest in Peril must be completed for access to Morytania (west of Canifis)."
+  ],
+  "mechanics": [
+    "Ghouls attack with melee (crush) for up to 5 damage at a 4-tick speed.",
+    "They have 50 Hitpoints and Defence 30, with all defensive bonuses +0 - no style is favoured and there is no elemental weakness.",
+    "Despite their appearance, Ghouls are not undead, so the Salve amulet gives no bonus against them."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Attack Ghouls with your best melee weapon; with all defensive bonuses at +0, any melee style is equally accurate.",
+      "recommendedFor": [
+        "all Ghoul tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon (Dragon scimitar or better)",
+        "Slayer helmet",
+        "A little food for the 5-damage hits"
+      ],
+      "steps": [
+        "Travel west of Canifis, north of Mort Myre Swamp (Priest in Peril required).",
+        "Attack Ghouls with a melee weapon; no style is favoured over another.",
+        "Eat as needed; they hit up to 5 with melee."
+      ]
+    },
+    {
+      "methodId": "low-level-training",
+      "label": "Low-level training",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use the task as low-level combat and Slayer training since no Slayer level is required.",
+      "recommendedFor": [
+        "low-combat accounts",
+        "early Mazchna tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Food",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Bring food and clear Ghouls for combat and Slayer XP.",
+        "Do not bother with a Salve amulet - Ghouls are not undead.",
+        "Complete the 10-20 assignment before returning to Mazchna."
+      ]
+    }
+  ],
+  "body": "# Ghoul\n\nGhouls are a low-level Slayer task assigned by Mazchna, found west of Canifis, north of Mort Myre Swamp (Priest in Peril required for Morytania access). They have 50 Hitpoints and Defence 30 with all defensive bonuses +0, so any melee style is equally accurate - use your best melee weapon and a Slayer helmet. They hit up to 5 with melee, so bring a little food. Note that despite appearances, Ghouls are not undead, so the Salve amulet gives no bonus."
+}

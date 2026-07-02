@@ -1,0 +1,31 @@
+{
+  "variantId": "greater-demon-level-104",
+  "name": "Greater demon (Level 104)",
+  "npcIds": [
+    7871,
+    7872,
+    7873
+  ],
+  "combatLevel": 104,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -10,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wilderness Slayer Cave",
+  "requirement": "Wilderness Slayer Cave; player-killing risk",
+  "bossId": null,
+  "strategyId": "greater-demons"
+}

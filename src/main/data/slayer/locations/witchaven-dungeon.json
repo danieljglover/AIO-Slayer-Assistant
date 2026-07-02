@@ -1,0 +1,11 @@
+{
+  "locationId": "witchaven-dungeon",
+  "name": "Witchaven Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Hellhounds here have 8 spawns, support a cannon, and have a safespot near the entrance of the Hellhound area. A short puzzle is required to access the Hellhounds area for the first time, and the dungeon is far from convenient banking."
+}

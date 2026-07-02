@@ -1,0 +1,31 @@
+{
+  "variantId": "ice-troll-runt",
+  "name": "Ice troll runt",
+  "npcIds": [
+    1874,
+    5828
+  ],
+  "combatLevel": 74,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 30,
+    "slash": 60,
+    "crush": 30,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Isles / Ice Troll Caves / Jatizso mine",
+  "locationId": "fremennik-isles-ice-trolls",
+  "requirement": "The Fremennik Trials (Jatizso access)",
+  "bossId": null,
+  "strategyId": "trolls"
+}

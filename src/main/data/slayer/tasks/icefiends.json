@@ -1,0 +1,97 @@
+{
+  "taskId": "icefiends",
+  "name": "Icefiend",
+  "wikiPageId": 12639,
+  "combatLevel": 20,
+  "slayerTargetId": 293,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      20
+    ],
+    "spria": [
+      15,
+      20
+    ]
+  },
+  "weightByMaster": {
+    "turael": 8,
+    "spria": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "icefiend"
+  ],
+  "variantIds": [
+    "icefiend"
+  ],
+  "defaultVariantId": "icefiend",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 12,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "ice-mountain"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "icefiend",
+      "name": "Icefiend",
+      "combatLevel": 13,
+      "slayerXp": 15.0,
+      "locations": [
+        "Ice Mountain",
+        "God Wars Dungeon entrance"
+      ],
+      "notes": [
+        "NPC ids 4813 (Ice Mountain) and 3140; combat level 13, 15 Hitpoints, max hit 2, 4-tick.",
+        "Attacks with magical melee (Protect from Magic reduces the damage).",
+        "100% weak to fire spells; Defence 12 with all defensive bonuses +0.",
+        "A level-18 variant exists at some spawns; the default pins the level-13 Ice Mountain form."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "ice-mountain",
+      "name": "Ice Mountain",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Around 10 Icefiend spawns on top of Ice Mountain, north-west of Falador / west of Edgeville.",
+        "Icefiends can be safespotted behind rocks; multi and cannon are not wiki-stated and treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 293 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Icefiends is not wiki-published; QA live-verify.",
+    "Assigned by Turael (15-20) and Spria (15-20) in this dataset; no Slayer level required (slayerLevel 1). Their combat-level threshold is around 20.",
+    "100% weak to fire spells: cast Fire Strike/Bolt/Wave (fire-battlestaff plugin weapon). weakness.style MAGIC / element fire.",
+    "Attacks with magical melee, so Protect from Magic reduces incoming damage; max hit is only 2.",
+    "A level-18 Icefiend variant exists at some spawns; the default variant pins the level-13 Ice Mountain form."
+  ],
+  "recommendedMethod": "Icefiends are a low-level Turael/Spria task on top of Ice Mountain (and the God Wars Dungeon entrance). They are 100% weak to fire spells, so cast a fire spell (Fire Strike, Bolt or Wave) with a fire staff for the fastest kills. Defence is only 12 and their max hit is 2 (magical melee), so Protect from Magic and a couple of food are ample. They can be safespotted behind the rocks on the mountain."
+}

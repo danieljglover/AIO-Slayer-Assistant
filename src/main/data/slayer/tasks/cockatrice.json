@@ -1,0 +1,90 @@
+{
+  "taskId": "cockatrice",
+  "name": "Cockatrice",
+  "wikiPageId": null,
+  "combatLevel": 25,
+  "slayerTargetId": 282,
+  "slayerLevel": 25,
+  "questReqs": [],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "cockatrice"
+  ],
+  "variantIds": [
+    "cockatrice"
+  ],
+  "defaultVariantId": "cockatrice",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 37,
+    "stab": 10,
+    "slash": 10,
+    "crush": 0,
+    "magic": 10,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 4156,
+  "requiredItemName": "Mirror shield or V's shield",
+  "locationIds": [
+    "fremennik-slayer-dungeon-cockatrice"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "cockatrice",
+      "name": "Cockatrice",
+      "combatLevel": 37,
+      "slayerXp": 37,
+      "locations": [
+        "Fremennik Slayer Dungeon"
+      ],
+      "notes": [
+        "Standard level 37 cockatrice (npc 419); the Slayer-task target.",
+        "A mirror shield or V's shield must be equipped to defend against the cockatrice's petrifying gaze.",
+        "Cockathrice is the superior variant, appearing only with the Bigger and Badder unlock active."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "fremennik-slayer-dungeon-cockatrice",
+      "name": "Fremennik Slayer Dungeon (Cockatrice)",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "The cockatrice area of the Fremennik Slayer Dungeon; 7 spawns.",
+        "A mirror shield or V's shield is required to avoid gaze damage."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Cockatrice are assigned by Mazchna and require 25 Slayer; a mirror shield or V's shield (20 Defence to wield) must be equipped to avoid the petrifying gaze.",
+    "The live wiki also lists Vannaka as an assigner (40-90 per task); Vannaka is outside the C3 starter-tier scope of this family and is not authored here.",
+    "Cockatrice have 37 hitpoints and a max hit of 5; they attack with stab-based melee and have no elemental weakness.",
+    "The standard cockatrice is npc 419; Cockathrice is the superior variant (Bigger and Badder unlock).",
+    "The slayerTargetId 282 is SYNTHETIC (C2/C3 allocation contract, worklist section 1); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The wikiPageId was not captured at authoring time (honest UNKNOWN); sourceUrl is https://oldschool.runescape.wiki/w/Cockatrice."
+  ],
+  "recommendedMethod": "Equip a mirror shield or V's shield, then kill cockatrice in the Fremennik Slayer Dungeon with any melee weapon; they have 37 HP and a max hit of 5."
+}

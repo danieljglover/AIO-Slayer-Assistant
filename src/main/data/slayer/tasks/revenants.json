@@ -1,0 +1,235 @@
+{
+  "taskId": "revenants",
+  "name": "Revenants",
+  "wikiPageId": null,
+  "combatLevel": null,
+  "slayerTargetId": 268,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      40,
+      100
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5
+  },
+  "extendedAmount": {
+    "krystilia": [
+      100,
+      150
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "revenenenenenants",
+      "name": "Revenenenenenants",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of Revenants assigned is increased to 100-150."
+    }
+  ],
+  "monsterIds": [
+    "revenants"
+  ],
+  "variantIds": [
+    "revenant-imp",
+    "revenant-goblin",
+    "revenant-pyrefiend",
+    "revenant-hobgoblin",
+    "revenant-cyclops",
+    "revenant-hellhound",
+    "revenant-demon",
+    "revenant-ork",
+    "revenant-dark-beast",
+    "revenant-knight",
+    "revenant-dragon"
+  ],
+  "defaultVariantId": "revenant-knight",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 145,
+    "slash": 200,
+    "crush": 180,
+    "magic": 95,
+    "range": 190
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "revenant-caves"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "revenant-imp",
+      "name": "Revenant imp",
+      "combatLevel": 7,
+      "slayerXp": 10.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "10 Hitpoints, defence level 4, max hit 2; the weakest revenant.",
+        "Adapts its attack style (stab/ranged/magic) to the player."
+      ]
+    },
+    {
+      "variantId": "revenant-goblin",
+      "name": "Revenant goblin",
+      "combatLevel": 15,
+      "slayerXp": 14.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "14 Hitpoints, defence level 14, max hit 3.",
+        "Adapts its attack style (crush/ranged/magic) to the player."
+      ]
+    },
+    {
+      "variantId": "revenant-pyrefiend",
+      "name": "Revenant pyrefiend",
+      "combatLevel": 52,
+      "slayerXp": 48.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "48 Hitpoints, defence level 33, max hit 5."
+      ]
+    },
+    {
+      "variantId": "revenant-hobgoblin",
+      "name": "Revenant hobgoblin",
+      "combatLevel": 60,
+      "slayerXp": 73.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "72 Hitpoints, defence level 41, max hit 8; attacks every 4 ticks."
+      ]
+    },
+    {
+      "variantId": "revenant-cyclops",
+      "name": "Revenant cyclops",
+      "combatLevel": 82,
+      "slayerXp": 119.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "110 Hitpoints, defence level 49, max hit 16; attacks every 6 ticks."
+      ]
+    },
+    {
+      "variantId": "revenant-hellhound",
+      "name": "Revenant hellhound",
+      "combatLevel": 90,
+      "slayerXp": 86.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "80 Hitpoints, defence level 80, max hit 14."
+      ]
+    },
+    {
+      "variantId": "revenant-demon",
+      "name": "Revenant demon",
+      "combatLevel": 98,
+      "slayerXp": 86.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "80 Hitpoints, defence level 80, max hit 18."
+      ]
+    },
+    {
+      "variantId": "revenant-ork",
+      "name": "Revenant ork",
+      "combatLevel": 105,
+      "slayerXp": 115.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "105 Hitpoints, defence level 60, max hit 20."
+      ]
+    },
+    {
+      "variantId": "revenant-dark-beast",
+      "name": "Revenant dark beast",
+      "combatLevel": 120,
+      "slayerXp": 157.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "140 Hitpoints, defence level 80, max hit 23."
+      ]
+    },
+    {
+      "variantId": "revenant-knight",
+      "name": "Revenant knight",
+      "combatLevel": 126,
+      "slayerXp": 168.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "143 Hitpoints, defence level 80, max hit 27; a high-value target for Wilderness weapon drops."
+      ]
+    },
+    {
+      "variantId": "revenant-dragon",
+      "name": "Revenant dragon",
+      "combatLevel": 135,
+      "slayerXp": 186.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "155 Hitpoints, defence level 87, max hit 30; the strongest revenant and the best Wilderness weapon drop source."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "revenant-caves",
+      "name": "Revenant Caves",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "All eleven revenant types share the Revenant Caves (Wilderness levels 17-40).",
+        "The caves are singles-plus combat: a dwarf multicannon cannot be placed and player killers can attack you while you fight a revenant.",
+        "Density figures are not wiki-tabulated, so amount is left unknown."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 268 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Revenants is not wiki-published; QA live-verify.",
+    "Krystilia assigns Revenants as a Wilderness-only task (40-100, weight 5); the Revenenenenenants unlock (100 points) extends assignments to 100-150.",
+    "Being undead, revenants are susceptible to the salve amulet and its enchanted version.",
+    "The wiki states no explicit elemental or defensive weakness; the charged Wilderness weapons (Viggora's chainmace, Craw's bow, Thammaron's sceptre) of any style are the effective choice, and a revenants task from Krystilia boosts their drop rate 5x.",
+    "The Revenant Caves are singles-plus PvP with extreme player-killer risk and no cannon; bring only low-risk gear and a one-click escape teleport.",
+    "Revenants heal when dropped below 50% Hitpoints and adapt their attack style to the player, so protection prayers reduce but do not stop their damage."
+  ],
+  "recommendedMethod": "Kill revenants in the Revenant Caves with a charged Wilderness weapon - Viggora's chainmace (melee), Craw's bow (ranged) or Thammaron's sceptre (magic) - which are far more effective there when charged with revenant ether and gain a 5x drop rate on a Krystilia task. The wiki lists no elemental weakness, so pick the style you can sustain; wear low-risk gear, watch the minimap for player killers, and keep a one-click escape teleport ready since cannons cannot be used and the caves are singles-plus PvP."
+}

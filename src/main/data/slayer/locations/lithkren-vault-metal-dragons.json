@@ -1,0 +1,11 @@
+{
+  "locationId": "lithkren-vault-metal-dragons",
+  "name": "Lithkren Vault",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 5 adamant and 5 rune dragons. Only accessible after completion of Dragon Slayer II."
+}

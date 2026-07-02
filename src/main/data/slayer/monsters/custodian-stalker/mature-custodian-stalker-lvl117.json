@@ -1,0 +1,30 @@
+{
+  "variantId": "mature-custodian-stalker",
+  "name": "Mature custodian stalker",
+  "npcIds": [
+    14703
+  ],
+  "combatLevel": 117,
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 45,
+    "stab": 30,
+    "slash": -10,
+    "crush": 50,
+    "magic": 35,
+    "range": 5
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Stalker Den, Custodia Pass",
+  "locationId": "stalker-den-custodian-stalkers",
+  "requirement": "67 Slayer and Shadows of Custodia",
+  "bossId": null,
+  "strategyId": "custodian-stalker"
+}

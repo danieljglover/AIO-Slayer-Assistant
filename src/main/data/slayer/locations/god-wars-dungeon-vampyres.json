@@ -1,0 +1,11 @@
+{
+  "locationId": "god-wars-dungeon-vampyres",
+  "name": "God Wars Dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains spread-out Feral Vampyres that are Zamorak followers. Wear a Zamorak item to avoid their faction aggression."
+}

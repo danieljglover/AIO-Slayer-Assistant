@@ -1,0 +1,11 @@
+{
+  "locationId": "ruins-of-tapoyauik-frost-nagua",
+  "name": "Ruins of Tapoyauik",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "11 Frost Nagua (wiki: not safespottable, unlike the blue-dragon area of the base file). Supplies cannot be made here, but moonlight moths can be caught inside to restore prayer; the Amoxliatl boss is a task alternative."
+}

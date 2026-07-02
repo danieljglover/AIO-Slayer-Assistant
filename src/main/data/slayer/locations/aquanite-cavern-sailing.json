@@ -1,0 +1,11 @@
+{
+  "locationId": "aquanite-cavern-sailing",
+  "name": "Aquanite cavern (Sailing)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Ynysdail Cavern beneath Ynysdail. Requires Sailing 73 and a boat with an adamant keel or better for first access; build the Ynysdail rowboat hotspot for later travel between Ynysdail and north of Gwenith."
+}

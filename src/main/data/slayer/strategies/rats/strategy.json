@@ -1,0 +1,72 @@
+{
+  "strategyId": "rats",
+  "variantIds": [
+    "rat",
+    "giant-rat"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Rat",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [],
+    "note": "Rats and giant rats are trivial low-level monsters with 2-5 Hitpoints; any weapon kills them instantly. The Lumbridge Swamp giant rats (27 spawns) are the fastest place to complete the task. Brine rats are a separate family and do not count."
+  },
+  "requirements": [
+    "There is no combat or Slayer level requirement to be assigned Rats.",
+    "Only ordinary rats and giant rats count; brine rats are a separate Slayer task."
+  ],
+  "mechanics": [
+    "Rat: combat level 1, 2 Hitpoints, max hit 0, Defence level 1 (all defensive bonuses -42).",
+    "Giant rat: combat level 3-26, 5 Hitpoints, max hit 1 (stab), 4-tick attack speed, Defence level 2 with no bonuses.",
+    "Rats are not undead, so the salve amulet does not apply.",
+    "No elemental weakness is documented; any combat style works."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill giant rats in the Lumbridge Swamp with any weapon; they die in a single hit.",
+      "recommendedFor": [
+        "standard task completion",
+        "brand-new accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Travel to the Lumbridge Swamp (27 giant rat spawns) south of Lumbridge.",
+        "Attack the giant rats with any weapon; 5 Hitpoints and no Defence bonuses make kills instant.",
+        "Ordinary rats in nearby sewers also count."
+      ],
+      "notes": [
+        "Do not travel to the Brine Rat Cavern; brine rats are a separate task and do not count."
+      ]
+    },
+    {
+      "methodId": "ranged-magic",
+      "label": "Ranged or Magic",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Ranged or Magic to clear rats while training those skills.",
+      "recommendedFor": [
+        "players training Ranged or Magic"
+      ],
+      "requiredOrKeyItems": [
+        "A ranged weapon and ammunition, or spell runes"
+      ],
+      "steps": [
+        "Travel to a dense giant rat spawn (Lumbridge Swamp, Varrock Sewers).",
+        "Attack from range; the rats' minimal Hitpoints make kills near-instant.",
+        "Any style works given the lack of defensive bonuses."
+      ],
+      "notes": [
+        "The Stronghold of Security also holds rats and giant rats."
+      ]
+    }
+  ]
+}

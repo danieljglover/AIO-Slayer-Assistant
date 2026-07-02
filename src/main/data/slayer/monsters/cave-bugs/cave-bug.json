@@ -1,0 +1,38 @@
+{
+  "variantId": "cave-bug",
+  "name": "Cave bug",
+  "npcIds": [
+    481
+  ],
+  "combatLevel": 6,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 6,
+    "stab": 10,
+    "slash": 10,
+    "crush": 5,
+    "magic": 5,
+    "range": 10
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Lumbridge Swamp Caves (rope + light source required); a level 96 variant (npc 483) also lives in the Dorgesh-Kaan South Dungeon.",
+  "locationId": "lumbridge-swamp-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "cave-bugs",
+  "offence": {
+    "hitpoints": 5,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "brimhaven-dungeon",
+  "name": "Brimhaven Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Black demon safespot near the agility pipe allows cannon coverage on 2-3 of the 4 demons."
+}

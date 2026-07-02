@@ -1,0 +1,75 @@
+{
+  "taskId": "boss",
+  "name": "Boss",
+  "slayerTargetId": 210,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "duradel",
+    "nieve",
+    "konar"
+  ],
+  "amountByMaster": {
+    "duradel": [
+      3,
+      35
+    ]
+  },
+  "weightByMaster": {
+    "duradel": 12,
+    "nieve": 8,
+    "konar": 8
+  },
+  "monsterIds": [
+    "boss"
+  ],
+  "variantIds": [
+    "boss-abyssal-sire",
+    "alchemical-hydra",
+    "ahrim-the-blighted",
+    "dharok-the-wretched",
+    "guthan-the-infested",
+    "karil-the-tainted",
+    "torag-the-corrupted",
+    "verac-the-defiled",
+    "callisto",
+    "boss-cerberus",
+    "chaos-elemental",
+    "chaos-fanatic",
+    "crazy-archaeologist",
+    "boss-dagannoth-rex",
+    "boss-dagannoth-prime",
+    "boss-dagannoth-supreme",
+    "general-graardor",
+    "giant-mole",
+    "boss-grotesque-guardians-dawn",
+    "boss-k-ril-tsutsaroth",
+    "kalphite-queen",
+    "boss-king-black-dragon",
+    "boss-kree-arra",
+    "phantom-muspah",
+    "sarachnis",
+    "scorpia",
+    "shellbane-gryphon",
+    "boss-thermonuclear-smoke-devil",
+    "venenatis",
+    "vet-ion",
+    "boss-vorkath",
+    "zulrah-serpentine-green-form",
+    "zulrah-tanzanite-blue-form"
+  ],
+  "defaultVariantId": "boss-abyssal-sire",
+  "weakness": null,
+  "monsterDefence": null,
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "various-boss-locations"
+  ],
+  "recommendedMethod": "Random boss assignment; requires the Like a boss unlock (200 reward points). Gear to the specific boss rolled"
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "prifddinas-south-gate",
+  "name": "Prifddinas South Gate",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Song of the Elves. Contains 2 Prifddinas guards at the South Gate; both are safespottable by attacking from outside their wander radius and pushing them against the gate."
+}

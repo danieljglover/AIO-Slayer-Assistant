@@ -1,0 +1,154 @@
+{
+  "taskId": "smoke-devils",
+  "name": "Smoke devils",
+  "wikiPageId": 298012,
+  "combatLevel": 85,
+  "slayerTargetId": 84,
+  "slayerLevel": 93,
+  "questReqs": [],
+  "masterIds": [
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "konar": 7,
+    "nieve": 7,
+    "duradel": 9
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows superior slayer monsters to spawn, including Nuclear smoke devils from Smoke devil kills."
+    }
+  ],
+  "monsterIds": [
+    "smoke-devils"
+  ],
+  "variantIds": [
+    "smoke-devil",
+    "nuclear-smoke-devil",
+    "smoke-devils-thermonuclear-smoke-devil"
+  ],
+  "defaultVariantId": "smoke-devil",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 275,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 600,
+    "range": 44
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 4166,
+  "requiredItemName": "Facemask",
+  "locationIds": [
+    "smoke-devil-dungeon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "smoke-devil",
+      "name": "Smoke devil",
+      "combatLevel": 160,
+      "slayerXp": 185,
+      "locations": [
+        "Smoke Devil Dungeon"
+      ],
+      "notes": [
+        "Standard smoke devil.",
+        "Requires 93 Slayer and an active Smoke devils task to harm.",
+        "Attacks with magical ranged and has max hit 20.",
+        "Has 185 Hitpoints, level 275 Defence, level 1 Magic, and a 30% Air elemental weakness.",
+        "Drops the occult necklace; only the boss variant drops the smoke battlestaff."
+      ]
+    },
+    {
+      "variantId": "nuclear-smoke-devil",
+      "name": "Nuclear smoke devil",
+      "combatLevel": 280,
+      "slayerXp": 2400,
+      "locations": [
+        "Smoke Devil Dungeon"
+      ],
+      "notes": [
+        "Superior slayer monster variant.",
+        "Can spawn after purchasing the Bigger and Badder unlock for 50 Slayer reward points.",
+        "Attacks with magical ranged and has max hit 29.",
+        "Has 240 Hitpoints, level 390 Defence, level 1 Magic, and a 20% Air elemental weakness.",
+        "Has a high chance to roll the superior unique table, second only to the Colossal Hydra according to the task page."
+      ]
+    },
+    {
+      "variantId": "smoke-devils-thermonuclear-smoke-devil",
+      "name": "Thermonuclear smoke devil",
+      "combatLevel": 301,
+      "slayerXp": 240,
+      "locations": [
+        "Smoke Devil Dungeon"
+      ],
+      "notes": [
+        "A boss monster found in its lair in the Smoke Devil Dungeon.",
+        "Requires 93 Slayer and can only be attacked on a Smoke devil task, except for one Western Provinces Diary kill.",
+        "Attacks with typeless magical ranged and has max hit 8.",
+        "Has 240 Hitpoints, level 360 Defence, level 1 Magic, and a 20% Air elemental weakness.",
+        "See Thermonuclear smoke devil/Strategies for the boss-specific method."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "smoke-devil-dungeon",
+      "name": "Smoke Devil Dungeon",
+      "amount": null,
+      "multicombat": true,
+      "cannonable": null,
+      "safespottable": false,
+      "notes": [
+        "Only Smoke devils location and the area is task-only.",
+        "Contains 30 smoke devils in the main room and 6 in room with boss variant, plus 1 Thermonuclear smoke devil.",
+        "The main room is cannonable; if a cannon is placed in the boss room it will be destroyed.",
+        "The task page lists the dungeon as multicombat and not safespottable."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Smoke devils require 93 Slayer and 85 combat to be assigned.",
+    "They are assigned by Konar quo Maten, Nieve/Steve, and Duradel/Kuradal.",
+    "Smoke devils can only be fought while on an active Slayer task.",
+    "Smoke devils attack with magical ranged.",
+    "Players must wear a facemask or slayer helm when fighting Smoke devils; otherwise attacks deal rapid damage and drains stats.",
+    "The strategy page warns that misclicking the slayer helmet or a rune full helm drop can quickly lead to death.",
+    "When killing normal Smoke devils, barrage spells with a cannon are strongly encouraged because Smoke devils have high defence and the dungeon is large.",
+    "A cannon is strongly recommended to lure Smoke devils in the large dungeon.",
+    "Players with elite Combat Achievements rewards should have enough cannonballs for one rotation to lure all Smoke devils; others may need to reload once.",
+    "Normal Smoke devils are the quick task and imbued heart or eternal gem route.",
+    "The Nuclear smoke devil superior has a high chance of rolling the superior unique table, second only to the Colossal Hydra according to the task page, making normal Smoke devils useful for imbued heart and eternal gem hunting.",
+    "Killing the Thermonuclear smoke devil is slower but better profit, and is ideal for collection log or pet smoke devil goals.",
+    "For the boss, Magic is faster but more expensive while melee is lower cost and requires more attention."
+  ],
+  "recommendedMethod": "Use Ice Barrage or Ice Burst with a dwarf multicannon in the Smoke Devil Dungeon main room. Wear a facemask or Slayer helmet, pray Protect from Missiles, place the cannon in the centre, and group smoke devils around the western skeletons. Kill Thermonuclear smoke devil instead when prioritising profit, collection log, or pet smoke devil."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "crandor-and-karamja-dungeon",
+  "name": "Crandor and Karamja Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Crandor and Karamja Dungeon holds 11 Lesser demons; single-combat, cannonable and safespottable, with six demons noted in the southern Crandor area."
+}

@@ -1,0 +1,288 @@
+{
+  "strategyId": "phantom-muspah",
+  "variantIds": [
+    "phantom-muspah"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Phantom_Muspah/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "twisted-bow",
+      "bow-of-faerdhinen",
+      "toxic-blowpipe",
+      "zaryte-crossbow",
+      "armadyl-crossbow",
+      "dragon-crossbow",
+      "rune-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "eye-of-ayak",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "sanguinesti-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Ranged is the default camp and shield-phase style. Magic is used to exploit the melee form's lower magic defence. Shielded phase requires prayer-drain tools such as Smite, corruption spells, or sapphire bolts."
+  },
+  "requirements": [
+    "Complete Secrets of the North to access Ghorrock Dungeon and refight the Phantom Muspah.",
+    "High Ranged is strongly recommended; Magic is recommended for form switching or melee-form control.",
+    "Use Protect from Missiles by default in ranged form and switch immediately to Protect from Magic for the charged magic attack.",
+    "Bring a crossbow and sapphire bolts or sapphire dragon bolts for the shielded phase if not relying on Smite and corruption spells alone.",
+    "Use a Ring of shadows with frozen tablet, icy basalt, Weiss player-owned house portal, or Larry's boat route to reach Weiss."
+  ],
+  "mechanics": [
+    "Ranged form mainly attacks with ranged and occasionally charges a magic projectile. Protect from Missiles should be active by default, then swap to Protect from Magic as soon as the magic animation starts.",
+    "Melee form gains danger if allowed to stand still and chain melee hits. Maintain distance, use the stepback timing with Protect from Melee, freeze it, or kite it around the room.",
+    "Transformations spawn spikes, including one under the player. Standing on a spike knocks the player back and heals the boss for part of the damage dealt.",
+    "Lightning clouds appear during one special attack. Avoid the travelling clouds and keep attacking where possible; Muspah finishes this special to the north-east.",
+    "Homing spikes move toward the player. Hide behind hardened spikes when multiple spikes are grouped together.",
+    "At low health, Muspah uses a shockwave and enters shielded form with a prayer shield and Soul Split. Stand behind a spike for the shockwave, then drain the prayer shield before finishing the kill.",
+    "The shielded phase prayer shield is drained by attacks and by prayer-draining effects. Smite, corruption spells, and sapphire bolt effects all speed it up.",
+    "After the shield breaks, Muspah returns to ranged form with faster attacks and more spike pressure."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Use ranged as the baseline setup, add magic for the melee form when gear allows, handle specials by movement, and prepare a dedicated shield-phase drain plan.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players learning Phantom Muspah",
+        "Range-camp or range-plus-mage setups"
+      ],
+      "requiredOrKeyItems": [
+        "twisted-bow",
+        "bow-of-faerdhinen",
+        "toxic-blowpipe",
+        "zaryte-crossbow",
+        "sapphire bolts or sapphire dragon bolts",
+        "Arceuus spellbook for thralls, Greater Corruption, Ward of Arceuus, and Death Charge"
+      ],
+      "prayers": [
+        "Protect from Missiles by default in ranged form",
+        "Protect from Magic for the charged magic attack",
+        "Protect from Melee when using stepback during melee form",
+        "Smite during safe shield-phase ticks"
+      ],
+      "steps": [
+        "Enter with ranged gear and a plan for the melee form: magic switch, freeze, stepback, or ranged kiting.",
+        "During ranged form, camp Protect from Missiles and switch to Protect from Magic immediately when Muspah charges the magic projectile.",
+        "Move away from transformation spikes, especially the spike that appears on the player's current tile.",
+        "During specials, avoid lightning clouds or block homing spikes behind hardened spikes.",
+        "At the low-health shockwave, stand behind a spike before Muspah enters shielded form.",
+        "Drain the shield with attacks, Smite, corruption spells, and sapphire bolt procs.",
+        "After the shield breaks, finish the final ranged form while managing faster attacks and new spikes."
+      ],
+      "risks": [
+        "Late Protect from Magic swaps can cause high damage and corruption.",
+        "Standing on spikes heals the boss and can disrupt positioning.",
+        "Shielded phase Soul Split punishes slow shield drain.",
+        "Poor melee-form spacing can lead to repeated melee hits."
+      ],
+      "notes": [
+        "Thrall damage does not count toward most form-switch thresholds, except the final stand transformation.",
+        "Muspah defence reductions persist between phases until shielded phase, where defence resets."
+      ]
+    },
+    {
+      "methodId": "ranged-form",
+      "label": "Ranged form",
+      "combatStyle": "RANGED",
+      "role": "phase",
+      "summary": "Attack with ranged while using Protect from Missiles as the default prayer and reacting to the magic charge animation.",
+      "recommendedFor": [
+        "Ranged form",
+        "Range-camp kills",
+        "Players using Twisted bow, Bow of faerdhinen, or blowpipe"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Protect from Magic on the charged magic attack"
+      ],
+      "steps": [
+        "Keep Protect from Missiles active because the ranged attack is more common and damage is calculated when the attack starts.",
+        "When Muspah stands up and charges the magic attack, switch immediately to Protect from Magic.",
+        "Return to Protect from Missiles after the magic attack is handled.",
+        "Use Ward of Arceuus to prevent or clear corruption if running Arceuus spells.",
+        "Keep distance and reposition before transformations so the player is not trapped by spikes."
+      ],
+      "risks": [
+        "The magic attack can hit very hard if not prayed correctly.",
+        "Corruption drains prayer over time after an unprotected or late-swapped magic hit."
+      ]
+    },
+    {
+      "methodId": "melee-form-stepback-or-kite",
+      "label": "Melee form stepback or kite",
+      "combatStyle": "MAGIC",
+      "role": "phase",
+      "summary": "Use magic against the melee form when switching, or kite/stepback with ranged if camping ranged.",
+      "recommendedFor": [
+        "Range-plus-mage setups",
+        "Players avoiding melee damage",
+        "Lower-intensity ranged kiting"
+      ],
+      "requiredOrKeyItems": [
+        "tumeken-s-shadow",
+        "harmonised-nightmare-staff",
+        "eye-of-ayak",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "trident-of-the-seas",
+        "freezes or Entangle if using a control spellbook"
+      ],
+      "prayers": [
+        "Protect from Melee when using stepback timing"
+      ],
+      "steps": [
+        "Keep distance because melee form becomes more dangerous when allowed to stand still and attack repeatedly.",
+        "If using stepback, move one tile away late in Muspah's melee cycle so Muspah chases and the Protect from Melee hit lands for no damage.",
+        "If using magic, attack the melee form with the strongest available magic setup because this form has much lower magic defence.",
+        "If struggling to freeze or stepback, kite with ranged in a wide path around the arena.",
+        "Avoid creating spike layouts that block the intended kite path."
+      ],
+      "fallbacks": [
+        "Range-camp is viable but slower than switching styles.",
+        "Freezing makes melee form easier to control, especially for lower-level players."
+      ],
+      "risks": [
+        "Mistimed stepback allows Muspah to hit normally.",
+        "Tight arena movement can be interrupted by spikes."
+      ]
+    },
+    {
+      "methodId": "shielded-phase",
+      "label": "Shielded phase",
+      "combatStyle": "RANGED",
+      "role": "phase",
+      "summary": "Stand behind a spike for the shockwave, then drain the prayer shield with attacks, Smite, corruption spells, and sapphire bolt procs.",
+      "recommendedFor": [
+        "Every standard kill",
+        "Crossbow swap users",
+        "Players using Arceuus corruption spells"
+      ],
+      "requiredOrKeyItems": [
+        "sapphire bolts or sapphire dragon bolts",
+        "crossbow",
+        "Smite",
+        "Greater Corruption"
+      ],
+      "prayers": [
+        "Protection prayer for incoming ranged or magic hits",
+        "Smite only on safe ticks between Muspah attacks"
+      ],
+      "steps": [
+        "When Muspah teleports to the middle at low health, stand behind a spike before the shockwave.",
+        "After the shockwave, attack the shielded form to drain shield health.",
+        "Use a crossbow with sapphire bolts or sapphire dragon bolts for large prayer-drain procs.",
+        "Flick Smite only on ticks where protection prayer is not needed.",
+        "Use corruption spells if on Arceuus to add extra shield drain.",
+        "When the shield breaks, prepare for faster ranged-form attacks and additional spikes."
+      ],
+      "risks": [
+        "Missing the spike block can cause heavy shockwave damage.",
+        "Leaving protection prayer off while smiting can cause lethal ranged or magic damage.",
+        "Muspah heals from Soul Split while the shield remains active."
+      ]
+    },
+    {
+      "methodId": "shield-skip",
+      "label": "Shield skip",
+      "combatStyle": "RANGED",
+      "role": "speed",
+      "summary": "For speed attempts, deal enough damage during the brief vulnerability window before the shield applies so Muspah exits at 1 hitpoint instead of entering shielded phase.",
+      "recommendedFor": [
+        "Speed-running",
+        "Experienced players with high burst damage"
+      ],
+      "requiredOrKeyItems": [
+        "fast high-damage weapon",
+        "precise timing",
+        "no accidental extra damage after Muspah reaches zero pending the skip"
+      ],
+      "steps": [
+        "Lower Muspah close to the shield threshold without entering an unwinnable damage check.",
+        "When Muspah teleports to the middle, stand close enough that ranged hits are not delayed.",
+        "Attack during the short vulnerability window before shield application.",
+        "Avoid extra damage such as thralls after Muspah reaches zero health pending the skip.",
+        "If the skip succeeds, kill Muspah after it exits at 1 hitpoint."
+      ],
+      "risks": [
+        "The shield skip is luck dependent and requires several strong hits.",
+        "Extra delayed damage can fail the skip.",
+        "This is not recommended as the default Slayer strategy."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-camp",
+      "label": "Ranged camp",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use ranged for the whole encounter, accepting slower melee-form damage in exchange for fewer gear switches.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twisted bow",
+            "Bow of faerdhinen",
+            "Toxic blowpipe",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "ammo": [
+            "Sapphire bolts or sapphire dragon bolts for shielded phase",
+            "Ruby bolts or diamond bolts where appropriate for crossbow setups"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-magic-switch",
+      "label": "Ranged plus magic switch",
+      "combatStyle": "MAGIC",
+      "role": "hybrid",
+      "summary": "Use ranged for ranged and shielded forms, then switch to magic for melee form's lower magic defence.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow",
+            "Harmonised nightmare staff",
+            "Eye of ayak",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Trident of the seas"
+          ],
+          "spellbook": [
+            "Arceuus for thralls, Greater Corruption, Ward of Arceuus, Vile Vigour, and Death Charge",
+            "Ancient Magicks or Standard spellbook if using freezes or Entangle for control"
+          ]
+        }
+      }
+    }
+  ]
+}

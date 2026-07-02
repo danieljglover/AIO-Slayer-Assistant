@@ -1,0 +1,153 @@
+{
+  "taskId": "suqahs",
+  "name": "Suqahs",
+  "wikiPageId": 378001,
+  "combatLevel": 85,
+  "slayerTargetId": 234,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Lunar Diplomacy partial completion"
+  ],
+  "masterIds": [
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      60,
+      90
+    ]
+  },
+  "weightByMaster": {
+    "nieve": 8,
+    "duradel": 8
+  },
+  "extendedAmount": {
+    "nieve": [
+      186,
+      250
+    ],
+    "duradel": [
+      162,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "suq-a-nother-one",
+      "name": "Suq-a-nother One",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of suqahs assigned is increased to 186-250."
+    }
+  ],
+  "monsterIds": [
+    "suqahs"
+  ],
+  "variantIds": [
+    "suqah"
+  ],
+  "defaultVariantId": "suqah",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 95,
+    "stab": 50,
+    "slash": 70,
+    "crush": 70,
+    "magic": 90,
+    "range": 30
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "lunar-isle-north-suqah",
+    "lunar-isle-south-east-suqah",
+    "lunar-isle-south-west-suqah"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "suqah",
+      "name": "Suqah",
+      "combatLevel": 111,
+      "slayerXp": 107.6,
+      "locations": [
+        "North Lunar Isle",
+        "South-east Lunar Isle",
+        "South-west Lunar Isle"
+      ],
+      "notes": [
+        "Suqah are level 111, aggressive, 2x2 monsters with 105 Hitpoints and 107.6 Slayer XP.",
+        "They attack with Stab and Magic, have attack speed 6, and their max hit is 10.",
+        "The northern shield-bearing variety uses melee plus weaker Ice Barrage and Water Wave spells.",
+        "If Ice Barrage successfully casts while the player is not using Protect from Magic, it is guaranteed to hit 10 damage.",
+        "The melee-only variety dual-wields melee weapons and is found on the southern part of Lunar Isle.",
+        "The monster page lists a 20% elemental weakness to Earth spells and standard ranged defence lowered to 30."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "lunar-isle-north-suqah",
+      "name": "North Lunar Isle",
+      "amount": 16,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Northern Lunar Isle contains 16 level 111 Suqah.",
+        "This is the preferred cannon location because the spawns are dense.",
+        "Use Protect from Magic here because northern Suqah attack with both melee and magic.",
+        "The task page shows a hill safespot for cannoning and ranging northern Suqah."
+      ]
+    },
+    {
+      "locationId": "lunar-isle-south-east-suqah",
+      "name": "South-east Lunar Isle",
+      "amount": 4,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "South-east Lunar Isle contains 4 level 111 Suqah.",
+        "The southern area is more sparse but avoids the northern magic attacks.",
+        "Three nearby Suqah in the south-west of the island only attack with melee."
+      ]
+    },
+    {
+      "locationId": "lunar-isle-south-west-suqah",
+      "name": "South-west Lunar Isle",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "South-west Lunar Isle contains 6 level 111 Suqah in single-way combat.",
+        "This row is cannonable and safespottable but not multicombat.",
+        "A cannon placed directly north-west of the dead tree targets melee-only Suqah while avoiding the nearby magic-using Suqah."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Suqah can be a good Slayer task due to the high amount of experience per hour gained with a dwarf multicannon.",
+    "Using a dwarf multicannon and toxic blowpipe or prayer potions can result in a loss of coins due to Suqah's lack of valuable drops.",
+    "If using the northern area on Lunar Isle, players should use Protect from Magic and high Melee defence.",
+    "Players wishing to avoid magic damage should fight the southern part of Lunar Isle because those Suqah attack with only melee.",
+    "Three melee-only Suqah are found on the south-west part of the island over the bridge by the city wall.",
+    "A cannon can be placed directly north-west of the dead tree in the south-west area to target melee-only Suqah while avoiding the single magic-using Suqah nearby.",
+    "A Seal of passage is required to use the Lunar Isle bank unless Dream Mentor or the Elite Fremennik Diary allows banker access.",
+    "A bonecrusher or bonecrusher necklace is useful because Suqah always drop big bones."
+  ],
+  "recommendedMethod": "Use Ranged with a dwarf multicannon at North Lunar Isle for the fastest dense task, praying Protect from Magic and using the hill safespot. Use melee plus cannon on the southern or south-western Lunar Isle spawns when avoiding magic damage; Guthan's equipment can mitigate melee damage."
+}

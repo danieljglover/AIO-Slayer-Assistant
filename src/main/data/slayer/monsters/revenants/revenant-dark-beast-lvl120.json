@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-dark-beast",
+  "name": "Revenant dark beast",
+  "npcIds": [
+    7938
+  ],
+  "combatLevel": 120,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 113,
+    "slash": 152,
+    "crush": 155,
+    "magic": 70,
+    "range": 158
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 140,
+    "maxHit": 23,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 130
+  }
+}

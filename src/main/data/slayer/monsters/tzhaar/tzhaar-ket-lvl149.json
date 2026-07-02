@@ -1,0 +1,36 @@
+{
+  "variantId": "tzhaar-ket-level-149",
+  "name": "TzHaar-Ket (Level 149)",
+  "npcIds": [
+    2173,
+    2174,
+    2175,
+    2176,
+    2177,
+    2178,
+    2179,
+    2187
+  ],
+  "combatLevel": 149,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mor Ul Rek (outer city)",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "tzhaar"
+}

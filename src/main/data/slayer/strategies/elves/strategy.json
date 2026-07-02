@@ -1,0 +1,432 @@
+{
+  "strategyId": "elves",
+  "variantIds": [
+    "iorwerth-archer",
+    "elf-archer",
+    "iorwerth-warrior",
+    "elf-warrior",
+    "mourner",
+    "guard-prifddinas"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Elves",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "abyssal-tentacle",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "blade-of-saeldor",
+      "soulreaper-axe",
+      "scythe-of-vitur"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "crystal-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "sanguinesti-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Use melee with Protect from Melee where possible. Iorwerth Dungeon is the strongest post-Song of the Elves option because it has 13 warriors, cannon support, safespots, crystal shards, and enhanced crystal teleport seed access; the wiki still recommends many players skip elf tasks when possible."
+  },
+  "requirements": [
+    "70 combat to receive the task",
+    "Completion of Regicide to receive the task",
+    "Mourning's End Part I progress for Lletya and Mourner Headquarters options",
+    "Full Mourner gear for normal Mourner Headquarters access unless Mourning's End Part II access route is available",
+    "Song of the Elves for Prifddinas and Iorwerth Dungeon",
+    "Adept Reanimation and ensouled elf heads for the reanimated elf option"
+  ],
+  "mechanics": [
+    "Elves use either ranged or melee depending on their weapon.",
+    "Archers wield crystal bows and attack with Ranged.",
+    "Warriors, Mourners, and Prifddinas guards wield crystal halberds or halberd-style weapons and attack with melee from up to two tiles away.",
+    "Protect from Melee is effective against the halberd variants; the slower attack cycle makes prayer flicking practical.",
+    "Ranged or Magic safespots are available at Iorwerth Camp, Lletya, Iorwerth Dungeon, and several Prifddinas guard locations.",
+    "Iorwerth Dungeon warriors and Prifddinas guards can drop crystal shards and enhanced crystal teleport seeds.",
+    "Only level 108 Mourners downstairs count for the task; Mourners at any other level do not count.",
+    "Reanimated elves give 35 Slayer XP and 754 Prayer XP."
+  ],
+  "methods": [
+    {
+      "methodId": "iorwerth-dungeon",
+      "label": "Iorwerth Dungeon",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill the 13 Iorwerth Warriors in Iorwerth Dungeon after Song of the Elves for the best normal Elf task option.",
+      "recommendedFor": [
+        "Players with Song of the Elves complete",
+        "Players wanting crystal shards or enhanced crystal teleport seeds",
+        "Players using a cannon"
+      ],
+      "requiredOrKeyItems": [
+        "Song of the Elves",
+        "Dwarf multicannon",
+        "Strong melee weapon",
+        "Proselyte armour or other prayer gear",
+        "Ranged or Magic weapon for safespotting"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Enter Iorwerth Dungeon after Song of the Elves and go to the Iorwerth Warrior room.",
+        "Use a dwarf multicannon if speeding up the task.",
+        "Fight with melee and Protect from Melee, or safespot with Ranged or Magic.",
+        "For the western-room safespot, attack an Iorwerth Warrior while it is across the red-line area and move into the spaces around fabric panels so it traps north or south of the player.",
+        "Account for the warriors' crystal halberd range; they can hit from two tiles away if the safespot spacing is wrong.",
+        "Loot crystal shards and enhanced crystal teleport seed drops when safe."
+      ],
+      "risks": [
+        "Standing only one tile away from a halberd warrior is not a safespot.",
+        "This method requires Song of the Elves."
+      ],
+      "inventory": [
+        "Cannon and cannonballs",
+        "Prayer potions",
+        "Food",
+        "Teleport crystal or other Prifddinas access",
+        "High alchemy runes for rune dagger and green dragonhide drops"
+      ],
+      "notes": [
+        "The task page calls out Iorwerth Dungeon as notable because it contains 13 warriors and allows cannon use."
+      ]
+    },
+    {
+      "methodId": "prifddinas-guards",
+      "label": "Prifddinas guards",
+      "combatStyle": "MELEE",
+      "role": "post-quest",
+      "summary": "Use Prifddinas guards after Song of the Elves when their nearby banks, altar, Spirit tree, or house portal are more convenient than Iorwerth Dungeon.",
+      "recommendedFor": [
+        "Players with Song of the Elves complete",
+        "Convenient low-effort kills",
+        "Players choosing gate or Tower of Voices spawns"
+      ],
+      "requiredOrKeyItems": [
+        "Song of the Elves",
+        "Melee weapon",
+        "Prayer gear",
+        "Teleport crystal"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Choose a Prifddinas guard spot based on nearby utilities: East Gate for bank, North Gate for bank/altar/Spirit tree, West Gate for house portal, or Tower of Voices for central access.",
+        "Use melee and Protect from Melee against the halberd guards.",
+        "Use the documented safespots by attacking guards from outside their wander radius and pushing them against gates or terrain.",
+        "At the market place, safespot by shooting over Glenda.",
+        "Avoid the Tower of Voices upper walkways if efficiency matters because the task page notes great distances between guards."
+      ],
+      "notes": [
+        "Prifddinas guards share crystal shard and enhanced crystal teleport seed value with other post-Song of the Elves options."
+      ]
+    },
+    {
+      "methodId": "lletya-prayer",
+      "label": "Lletya prayer melee",
+      "combatStyle": "MELEE",
+      "role": "mid-quest",
+      "summary": "Use Lletya's bank, upstairs altar, and shop access to sustain melee kills after Mourning's End Part I progress.",
+      "recommendedFor": [
+        "Players without Song of the Elves",
+        "Players with Lletya access",
+        "Prayer-flicking or prayer-gear melee"
+      ],
+      "requiredOrKeyItems": [
+        "Mourning's End Part I progress",
+        "43 Prayer",
+        "Protect from Melee",
+        "Proselyte armour or prayer gear",
+        "Melee weapon"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Travel to Lletya after enough Mourning's End Part I progress.",
+        "Use melee against Elf Warriors while protecting from melee.",
+        "Recharge Prayer at the upstairs altar in the house where Arianwyn is located.",
+        "Use the nearby bank to restock or deposit loot.",
+        "Buy emergency food from the upstairs food shop if needed."
+      ],
+      "notes": [
+        "The wiki notes Lletya is more convenient than Iorwerth Camp once unlocked because of the nearby bank and altar."
+      ]
+    },
+    {
+      "methodId": "safespot-ranged-magic",
+      "label": "Ranged or Magic safespots",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use Ranged or Magic safespots for lower-level accounts or low-supply kills.",
+      "recommendedFor": [
+        "Lower-level players",
+        "Players avoiding melee damage",
+        "Iorwerth Camp, Lletya, Iorwerth Dungeon, and Prifddinas safespots"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe",
+        "Bow of faerdhinen",
+        "Crystal bow",
+        "Trident of the swamp",
+        "Trident of the seas",
+        "Sanguinesti staff"
+      ],
+      "steps": [
+        "Use Ranged or Magic from safespots rather than standing in halberd range.",
+        "At Lletya, use the west bench, pillars behind fences, entrance bench area, or wall closest to Arianwyn.",
+        "At Iorwerth Camp, use stools or spear-walls and stay one extra tile away so crystal halberds cannot reach.",
+        "Do not rely on moss-covered rocks at Iorwerth Camp; the wiki notes they cannot be fired over and are not safespots.",
+        "At Iorwerth Dungeon, use the western fabric-panel spaces.",
+        "For Prifddinas market guards, shoot over Glenda."
+      ],
+      "risks": [
+        "Player halberds are very slow and not recommended for the Lletya safespot approach.",
+        "Halberd-wielding elves can hit from two tiles away."
+      ]
+    },
+    {
+      "methodId": "iorwerth-camp",
+      "label": "Iorwerth Camp",
+      "combatStyle": "MELEE",
+      "role": "early",
+      "summary": "Use Iorwerth Camp when only Regicide access is available, accepting awkward travel and cannon placement.",
+      "recommendedFor": [
+        "Players before Lletya access",
+        "Players with Iorwerth camp teleports",
+        "Players willing to use camp safespots"
+      ],
+      "requiredOrKeyItems": [
+        "Regicide",
+        "Iorwerth camp teleport",
+        "Dwarf multicannon",
+        "Ranged or Magic weapon for safespotting"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Travel to Iorwerth Camp, preferably with an Iorwerth camp teleport.",
+        "Kill Iorwerth Archers or Iorwerth Warriors; both count for Elves tasks.",
+        "Use stools or spear-walls to safespot warriors and stay at least two tiles away.",
+        "Use the fireplace and fly fishing spot if you need to make emergency food.",
+        "Avoid relying on the cannon for efficiency because the camp layout is impeded by tents, barrels, and crates."
+      ],
+      "notes": [
+        "The task page says Iorwerth Camp is the only regular option before Lletya access."
+      ]
+    },
+    {
+      "methodId": "mourner-headquarters",
+      "label": "Mourner Headquarters",
+      "combatStyle": "MELEE",
+      "role": "quest-window",
+      "summary": "Kill the four level 108 Mourners downstairs only during the quest window before Song of the Elves removes them.",
+      "recommendedFor": [
+        "Players during Mourning's End Part I or II",
+        "Players before Song of the Elves",
+        "Players using Slayer ring access after Mourning's End Part II"
+      ],
+      "requiredOrKeyItems": [
+        "Mourning's End Part I progress",
+        "Mourner gear",
+        "Slayer ring after Mourning's End Part II",
+        "High alchemy runes"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Wear full Mourner gear while inside Mourner Headquarters unless using the later Mourning's End Part II route.",
+        "Go downstairs; only the level 108 Mourners count for Elves tasks.",
+        "Use melee and Protect from Melee, or safespot if positioning allows.",
+        "Use High alchemy on frequent green dragonhide body, green dragonhide chaps, and rune dagger drops.",
+        "Do not plan this method after Song of the Elves; the Mourners are no longer there."
+      ],
+      "risks": [
+        "Mourners at any level other than 108 do not count.",
+        "The method disappears after Song of the Elves."
+      ]
+    },
+    {
+      "methodId": "reanimated-elf",
+      "label": "Reanimated elf",
+      "combatStyle": "MAGIC",
+      "role": "prayer",
+      "summary": "Use Adept Reanimation on ensouled elf heads for Prayer XP at the cost of much lower Slayer and combat XP.",
+      "recommendedFor": [
+        "Players prioritising Prayer XP",
+        "Players buying ensouled elf heads",
+        "Players finishing small task remnants"
+      ],
+      "requiredOrKeyItems": [
+        "Adept Reanimation",
+        "Ensouled elf head",
+        "Arceuus spellbook",
+        "Dark Altar access if the local reanimation window is lost"
+      ],
+      "steps": [
+        "Obtain ensouled elf heads as drops or through the Grand Exchange.",
+        "Cast Adept Reanimation near the dropped head if it has not been banked, traded, put on the Grand Exchange, price-checked, or moved out of range.",
+        "If the head can no longer be reanimated locally, take it to the Dark Altar and cast Adept Reanimation there.",
+        "Kill the reanimated elf for 35 Slayer XP and 754 Prayer XP."
+      ],
+      "risks": [
+        "This method gives much less Slayer and combat XP than killing normal elves.",
+        "It requires Arceuus spellbook access and reanimation supplies."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Bring prayer sustain, alchemy support, and teleports suited to the chosen quest-stage location.",
+      "recommendedFor": [
+        "Every normal Elves task",
+        "Long Iorwerth Dungeon or Prifddinas trips",
+        "Lletya and Mourner Headquarters kills"
+      ],
+      "requiredOrKeyItems": [
+        "Prayer potions",
+        "Teleport crystal",
+        "Iorwerth camp teleport",
+        "Slayer ring",
+        "High alchemy runes",
+        "Dwarf multicannon"
+      ],
+      "inventory": [
+        "Prayer potions or super restores",
+        "Food",
+        "Teleport crystal for Lletya or Prifddinas",
+        "Iorwerth camp teleport for early camp access",
+        "Slayer ring for Mourner Headquarters after Mourning's End Part II",
+        "High alchemy runes for green dragonhide bodies, chaps, and rune daggers",
+        "Cannon and cannonballs for Iorwerth Dungeon or supported non-multicombat locations",
+        "Ensouled elf heads and Arceuus runes if using reanimation"
+      ],
+      "steps": [
+        "Choose the location based on quest state: Iorwerth Camp after Regicide, Lletya after Mourning's End Part I progress, Iorwerth Dungeon or Prifddinas after Song of the Elves.",
+        "Bring Protect from Melee support for halberd variants.",
+        "Bring Ranged or Magic gear when using safespots instead of melee.",
+        "Keep crystal shard and enhanced crystal teleport seed drops from Prifddinas and Iorwerth Dungeon options."
+      ],
+      "notes": [
+        "The task page recommends skipping elf tasks when possible because the assignment has lower weight from higher-level masters and the enhanced seed is rare."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-prayer",
+      "label": "Melee prayer",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use a strong melee weapon with Protect from Melee against halberd elves.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Abyssal whip",
+            "Abyssal tentacle",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Blade of saeldor",
+            "Soulreaper axe",
+            "Scythe of vitur"
+          ],
+          "body": [
+            "Proselyte armour",
+            "Bandos armour",
+            "Barrows armour"
+          ],
+          "prayer": [
+            "Protect from Melee",
+            "Piety"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use Ranged from safespots to avoid melee damage from halberd variants.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Bow of faerdhinen",
+            "Crystal bow"
+          ],
+          "ammo": [
+            "Crystal charges",
+            "Darts"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-safespot",
+      "label": "Magic safespot",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use Magic from safespots where lower-level or low-supply kills matter more than speed.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Sanguinesti staff"
+          ],
+          "inventory": [
+            "High alchemy runes"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "reanimation",
+      "label": "Reanimation",
+      "combatStyle": "MAGIC",
+      "role": "prayer",
+      "summary": "Use Adept Reanimation on ensouled elf heads for 754 Prayer XP and reduced Slayer XP.",
+      "equipment": {
+        "slots": {
+          "spellbook": [
+            "Arceuus spellbook"
+          ],
+          "inventory": [
+            "Ensouled elf heads",
+            "Adept Reanimation runes",
+            "Dark Altar access"
+          ]
+        }
+      }
+    }
+  ]
+}

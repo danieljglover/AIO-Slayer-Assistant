@@ -1,0 +1,157 @@
+{
+  "strategyId": "vyrewatch-sentinel",
+  "variantIds": [
+    "vyrewatch-sentinel"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Vyrewatch_Sentinel/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "blisterwood-flail"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "saradomin-godsword",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Use Blisterwood flail in Darkmeyer with Protect from Melee. Efaritay's aid improves accuracy and stacks with Slayer helmet, while the nearby bank and altar support long low-effort trips."
+  },
+  "requirements": [
+    "Completion of Sins of the Father for Darkmeyer access.",
+    "43 Prayer for Protect from Melee.",
+    "Blisterwood flail or another valid Vyrewatch weapon.",
+    "Drakan's medallion recommended for fast Darkmeyer or Ver Sinhaza travel."
+  ],
+  "mechanics": [
+    "Vyrewatch Sentinels use melee slash attacks and are aggressive unless the player wears Vyre noble robes.",
+    "They are not undead, so Salve amulet has no effect.",
+    "Efaritay's aid provides a 15% accuracy bonus that stacks with Slayer helmet.",
+    "Vyrewatch can only be damaged by valid vyre weapons such as Ivandis flail, Blisterwood flail, Hallowed flail, or blisterwood stakes.",
+    "Saradomin godsword special attack can still heal health and prayer based on the calculated roll even though it deals zero damage.",
+    "After The Blood Moon Rises, Sentinels stop being aggressive unless aggression is re-enabled with a garlic cocktail."
+  ],
+  "methods": [
+    {
+      "methodId": "darkmeyer-transport",
+      "label": "Darkmeyer transport",
+      "combatStyle": "MELEE",
+      "role": "travel",
+      "summary": "Use Drakan's medallion to reach Darkmeyer directly or travel through Ver Sinhaza and Meiyerditch into Darkmeyer.",
+      "recommendedFor": [
+        "starting each trip",
+        "players banking between Sentinel trips"
+      ],
+      "requiredOrKeyItems": [
+        "Drakan's medallion",
+        "Vyre noble clothing",
+        "Sins of the Father completion"
+      ],
+      "steps": [
+        "Teleport to Darkmeyer with Drakan's medallion and run north to the Sentinel area.",
+        "Alternatively teleport to Ver Sinhaza and use the Vyrewatch route to reach the Meiyerditch mine.",
+        "From the north of Meiyerditch, use the wall crack to enter Darkmeyer.",
+        "Bring Vyre noble clothing if using bank tellers."
+      ]
+    },
+    {
+      "methodId": "dps-setup",
+      "label": "DPS setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use Blisterwood flail with melee strength gear, Slayer helmet on task, and Efaritay's aid for the accuracy bonus.",
+      "recommendedFor": [
+        "best damage Sentinel tasking",
+        "blood shard hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Blisterwood flail",
+        "Slayer helmet or black mask on task",
+        "Efaritay's aid",
+        "Super combat potion"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety when prayer supply supports it"
+      ],
+      "steps": [
+        "Equip Blisterwood flail as the main weapon.",
+        "Use Slayer helmet on task because Efaritay's aid stacks with the Slayer helmet bonus.",
+        "Use melee strength gear when not prioritising prayer bonus.",
+        "Drink combat potions and maintain Protect from Melee."
+      ],
+      "notes": [
+        "Efaritay's aid provides better DPS than standard melee rings but must be replaced after its charges are spent."
+      ]
+    },
+    {
+      "methodId": "prayer-afk-bank-altar",
+      "label": "Prayer AFK bank and altar",
+      "combatStyle": "MELEE",
+      "role": "low_effort",
+      "summary": "Fight near Darkmeyer's bank and altar, using Protect from Melee and refreshing prayer at the nearby statue instead of spending prayer potions.",
+      "recommendedFor": [
+        "low-effort trips",
+        "long Sentinel tasks",
+        "players collecting vampyre dust and blood shards"
+      ],
+      "requiredOrKeyItems": [
+        "Blisterwood flail",
+        "Protect from Melee",
+        "Vyre noble clothing",
+        "Rune pouch with alchemy runes",
+        "Combat potions"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety or offensive melee prayers if desired"
+      ],
+      "steps": [
+        "Teleport to Darkmeyer and run north to the bank and altar area.",
+        "Activate Protect from Melee before engaging Sentinels.",
+        "Fight near the bank and altar so prayer can be restored without prayer potions.",
+        "Equip Vyre noble clothing before using Darkmeyer bank tellers, or use the Hallowed Sepulchre lobby bank chest.",
+        "Stand at least one tile away from the lamps so Vyrewatch do not get stuck."
+      ],
+      "notes": [
+        "Collect vampyre dust if using it for Hallowed Sepulchre or prayer supplies.",
+        "A Ring of wealth can be used because Sentinels regularly drop coins."
+      ]
+    },
+    {
+      "methodId": "aggression-management",
+      "label": "Aggression management",
+      "combatStyle": "MELEE",
+      "role": "caution",
+      "summary": "Keep Sentinels aggressive by avoiding Vyre noble clothing during combat, or use a garlic cocktail after The Blood Moon Rises.",
+      "recommendedFor": [
+        "low-effort aggressive tasking",
+        "post-The Blood Moon Rises accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Garlic cocktail after The Blood Moon Rises"
+      ],
+      "steps": [
+        "Avoid wearing full Vyre noble clothing while fighting if you want normal aggression.",
+        "After The Blood Moon Rises, carry a garlic cocktail to re-enable Sentinel aggression.",
+        "Swap into Vyre noble clothing only for banking if using Darkmeyer bank tellers."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "dps",
+      "label": "DPS melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Blisterwood flail, Slayer helmet on task, melee strength gear, and Efaritay's aid for accuracy."
+    },
+    {
+      "styleId": "prayer-afk",
+      "label": "Prayer AFK",
+      "combatStyle": "MELEE",
+      "role": "low_effort",
+      "summary": "Prayer-bonus melee gear near the Darkmeyer bank and altar with Protect from Melee active."
+    }
+  ]
+}

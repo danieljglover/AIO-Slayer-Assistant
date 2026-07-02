@@ -1,0 +1,38 @@
+{
+  "variantId": "ghoul",
+  "name": "Ghoul",
+  "npcIds": [
+    289
+  ],
+  "combatLevel": 42,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 30,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "West of Canifis, north of Mort Myre Swamp",
+  "locationId": "canifis-ghoul-area",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "ghouls",
+  "offence": {
+    "hitpoints": 50,
+    "maxHit": 5,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

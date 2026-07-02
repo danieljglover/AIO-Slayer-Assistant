@@ -1,0 +1,29 @@
+{
+  "variantId": "spiritual-warrior-bandos",
+  "name": "Spiritual warrior (Bandos)",
+  "npcIds": [
+    2243
+  ],
+  "combatLevel": 134,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 12,
+    "slash": 14,
+    "crush": 13,
+    "magic": 5,
+    "range": 13
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "God Wars Dungeon, Bandos wing",
+  "requirement": "70 Strength + a hammer",
+  "bossId": null,
+  "strategyId": "spiritual-creatures"
+}

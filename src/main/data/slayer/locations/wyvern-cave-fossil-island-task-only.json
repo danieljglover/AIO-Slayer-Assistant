@@ -1,0 +1,11 @@
+{
+  "locationId": "wyvern-cave-fossil-island-task-only",
+  "name": "Task-only Wyvern Cave (Fossil Island)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Task-only Fossil Island Wyvern Cave trapdoor inside the Mushroom Forest. Requires a Fossil Island Wyverns slayer task; Weve stops players attacking here without the task. Contains 4 Spitting, 4 Taloned, 4 Long-tailed, and 3 Ancient Wyverns, with a Fossil Storage box by the entrance."
+}

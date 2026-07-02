@@ -1,0 +1,244 @@
+{
+  "taskId": "wyrms",
+  "name": "Wyrms",
+  "wikiPageId": 356964,
+  "slayerTargetId": 240,
+  "slayerLevel": 62,
+  "questReqs": [],
+  "masterIds": [
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      60,
+      100
+    ],
+    "konar": [
+      125,
+      190
+    ],
+    "nieve": [
+      80,
+      145
+    ],
+    "duradel": [
+      100,
+      160
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 6,
+    "konar": 10,
+    "nieve": 7,
+    "duradel": 8
+  },
+  "extendedAmount": {
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows Shadow Wyrm to spawn from Wyrms and Magma strykewyrm to spawn from Lava Strykewyrms while on task."
+    },
+    {
+      "unlockId": "can-of-wyrms",
+      "name": "Can of Wyrms",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Extends Wyrm assignments from all eligible masters to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "wyrms"
+  ],
+  "variantIds": [
+    "wyrm",
+    "shadow-wyrm",
+    "wyrmling",
+    "lava-strykewyrm",
+    "magma-strykewyrm"
+  ],
+  "defaultVariantId": "wyrm",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 10,
+    "slash": 50,
+    "crush": 50,
+    "magic": 50,
+    "range": 20
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 21647,
+  "requiredItemName": "Boots of stone",
+  "locationIds": [
+    "karuulm-slayer-dungeon-wyrms",
+    "neypotzli-wyrmlings",
+    "charred-dungeon-lava-strykewyrms"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "wyrm",
+      "name": "Wyrm",
+      "combatLevel": 97,
+      "slayerXp": 123,
+      "locations": [
+        "Karuulm Slayer Dungeon"
+      ],
+      "notes": [
+        "Standard Wyrms are level 97 draconic monsters requiring 62 Slayer.",
+        "They use melee and magic in direct melee range, but only magic when attacked from outside melee range.",
+        "They have flat armour 1, 120 Hitpoints, 50% earth weakness, and are vulnerable to dragonbane weapons.",
+        "They cannot be cannoned and require heat-protection boots in Karuulm Slayer Dungeon unless Elite Kourend & Kebos Diary is complete."
+      ]
+    },
+    {
+      "variantId": "shadow-wyrm",
+      "name": "Shadow Wyrm",
+      "combatLevel": 267,
+      "slayerXp": 3520,
+      "locations": [
+        "Karuulm Slayer Dungeon"
+      ],
+      "notes": [
+        "Superior slayer monster variant after purchasing Bigger and Badder for 50 Slayer reward points.",
+        "Can spawn from regular Wyrms, but cannot spawn from Wyrmlings.",
+        "Cannot be safespotted like regular Wyrms in the Slayer-only area.",
+        "Protect from Magic negates all damage while fighting it at range."
+      ]
+    },
+    {
+      "variantId": "wyrmling",
+      "name": "Wyrmling",
+      "combatLevel": 55,
+      "slayerXp": 65,
+      "locations": [
+        "Neypotzli"
+      ],
+      "notes": [
+        "Lower-level Wyrms located in the Neypotzli Earthbound Cavern after partial Perilous Moons progress.",
+        "They only use melee, have half the Hitpoints and Defence of normal Wyrms, and can be cannoned.",
+        "They only drop Wyrmling bones, with Brimstone keys possible on Konar tasks.",
+        "Wyrmlings cannot spawn the Shadow Wyrm superior."
+      ]
+    },
+    {
+      "variantId": "lava-strykewyrm",
+      "name": "Lava strykewyrm",
+      "combatLevel": 116,
+      "slayerXp": 154,
+      "locations": [
+        "Charred Dungeon"
+      ],
+      "notes": [
+        "Variant of Wyrms that can be killed on task after 60 Sailing access to Charred Island.",
+        "Uses melee and ranged; it uses only ranged when attacked from distance, so Protect from Missiles is used at range.",
+        "Cannot be cannoned and has a separate drop table from regular Wyrms.",
+        "Dragon metal sheet is four times more common while on a Wyrm task."
+      ]
+    },
+    {
+      "variantId": "magma-strykewyrm",
+      "name": "Magma strykewyrm",
+      "combatLevel": 249,
+      "slayerXp": 3655,
+      "locations": [
+        "Charred Dungeon"
+      ],
+      "notes": [
+        "Superior slayer monster variant after purchasing Bigger and Badder for 50 Slayer reward points.",
+        "Can spawn from Lava Strykewyrms while on a Wyrm task.",
+        "Can burrow and target the player's location, dealing 20+ damage if the player does not move away in time.",
+        "Can be safespotted by outranging its attacks; when safespotted it will not use the burrow special attack."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "karuulm-slayer-dungeon-wyrms",
+      "name": "Karuulm Slayer Dungeon",
+      "amount": 16,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Karuulm Slayer Dungeon contains 16 Wyrms.",
+        "Seven of the Wyrms are in a task-only area south of the main batch of nine Wyrms.",
+        "Wyrms may be safespotted with Ranged in the task-only area.",
+        "Boots of stone, boots of brimstone, or granite boots are required unless Elite Kourend & Kebos Diary is complete."
+      ]
+    },
+    {
+      "locationId": "neypotzli-wyrmlings",
+      "name": "Neypotzli",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Neypotzli Earthbound Cavern contains 6 Wyrmlings.",
+        "The cluster of six Wyrmlings is close together and can be cannoned.",
+        "Free cooked bream, cooked moss lizards, and moonlight potions can be made inside.",
+        "Only drops Wyrmling bones."
+      ]
+    },
+    {
+      "locationId": "charred-dungeon-lava-strykewyrms",
+      "name": "Charred Dungeon",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Charred Dungeon contains 12 Lava Strykewyrms.",
+        "The Charred Dungeon is multicombat and cannonable except for the sections with Lava Strykewyrms.",
+        "Lava Strykewyrms can be safespotted but require a weapon with 9 or 10 attack range.",
+        "Requires 60 Sailing access to Charred Island and deploying a rope to enter the dungeon."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Wyrms require 62 Slayer and are draconic creatures, so dragonbane weapons work on them.",
+    "Boots of stone, boots of brimstone, or granite boots must be worn in Karuulm Slayer Dungeon unless Elite Kourend & Kebos Diary has been completed.",
+    "Attacking standard Wyrms outside of direct melee range causes them to only use Magic, so Protect from Magic negates all of their damage.",
+    "Standard Wyrms have flat armour value 1, but this is not a major concern due to their low stats.",
+    "Most Wyrms can be outranged by safespotting.",
+    "Wyrms have a 50% elemental weakness to earth spells.",
+    "Wyrmlings in Neypotzli are an alternative for players who do not want to kill normal Wyrms; they can be cannoned and free supplies can be made inside.",
+    "Wyrmlings cannot spawn the Shadow Wyrm and only drop Wyrmling bones.",
+    "Lava Strykewyrms require 60 Sailing, use Ranged rather than Magic at distance, and require Protect from Missiles when fought from range.",
+    "Lava Strykewyrms cannot be cannoned and use a different drop table from normal Wyrms.",
+    "The dragon metal sheet drop from Lava Strykewyrms is 4x more common on a Wyrm task.",
+    "Players killing Lava Strykewyrms long term benefit from a Charred Island bank chest at 70 Construction and a boat docked with a Greater teleport focus.",
+    "Lava Strykewyrms have a 50% elemental weakness to water spells.",
+    "Magma strykewyrm is the Lava Strykewyrm superior and can burrow to the player's location for 20+ damage if the player does not move."
+  ],
+  "recommendedMethod": "Use the Karuulm Slayer Dungeon task-only area with Ranged or Magic safespotting and Protect from Magic for standard Wyrms, wearing heat-protection boots unless Elite Kourend & Kebos Diary is complete. Melee with dragonbane weapons is also viable. Wyrmlings are a low-effort cannon alternative in Neypotzli, while Lava Strykewyrms are a 60 Sailing alternative with Protect from Missiles at range, water-spell weakness, dragon metal sheet value, and Magma strykewyrm superior spawns."
+}

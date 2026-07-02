@@ -1,0 +1,39 @@
+{
+  "variantId": "skeleton-area",
+  "name": "Skeleton",
+  "npcIds": [
+    74,
+    70
+  ],
+  "combatLevel": 22,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 17,
+    "stab": 5,
+    "slash": 5,
+    "crush": -5,
+    "magic": 0,
+    "range": 5
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Edgeville Dungeon / Varrock Sewers (non-Wilderness)",
+  "locationId": "skeletons-area",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "skeletons",
+  "offence": {
+    "hitpoints": 29,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

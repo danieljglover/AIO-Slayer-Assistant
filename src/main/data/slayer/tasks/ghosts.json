@@ -1,0 +1,105 @@
+{
+  "taskId": "ghosts",
+  "name": "Ghosts",
+  "wikiPageId": 16777,
+  "combatLevel": 13,
+  "slayerTargetId": 289,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "turael": 7,
+    "spria": 7,
+    "mazchna": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "ghosts"
+  ],
+  "variantIds": [
+    "ghost-lvl19"
+  ],
+  "defaultVariantId": "ghost-lvl19",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 18,
+    "stab": 5,
+    "slash": 5,
+    "crush": 5,
+    "magic": -5,
+    "range": 5
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "ghost-spawns"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "ghost-lvl19",
+      "name": "Ghost",
+      "combatLevel": 19,
+      "slayerXp": 25,
+      "locations": [
+        "Draynor Manor basement",
+        "Wilderness graveyards",
+        "Haunted Woods"
+      ],
+      "notes": [
+        "The standard level-19 Ghost has 25 Hitpoints and max hit 2; combat level 13 is required to be assigned.",
+        "Undead and spectral: the salve amulet and Crumble Undead both apply.",
+        "50% elemental weakness to air spells (magic defence -5)."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "ghost-spawns",
+      "name": "Ghost spawns (various)",
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Ghosts are spread across many low-density spots; no single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "Ghosts drop nothing at most locations, so they are rarely trained; this is a starter Slayer-XP task."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Ghosts require combat level 13 to be assigned by Turael, Spria, or Mazchna; there is no Slayer level or quest requirement for the base task.",
+    "slayerTargetId 289 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The standard level-19 Ghost has 25 Hitpoints, max hit 2 (crush melee), 4-tick attack speed, and Defence level 18.",
+    "Ghosts are undead and spectral: the salve amulet and Crumble Undead both apply.",
+    "Ghosts have a 50% elemental weakness to air spells (magic defence -5).",
+    "Higher-level Ghost variants (levels 25, 76/77) exist in the Sepulchre of Death; the level-25 variant gives 75 Slayer XP but its combat stats are honest-UNKNOWN.",
+    "No required protective item and no task extension unlock exist for Ghosts."
+  ],
+  "recommendedMethod": "A low-level Slayer-XP task: kill the level-19 Ghosts with any melee weapon, or cast air spells to exploit the 50% elemental weakness. A salve amulet gives an undead damage bonus. Ghosts drop nothing at most spots, so they are done for the Slayer XP and task streak rather than loot."
+}

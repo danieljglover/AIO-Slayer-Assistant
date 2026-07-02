@@ -1,0 +1,11 @@
+{
+  "locationId": "charred-dungeon-hellhounds",
+  "name": "Charred Dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Hellhounds here require 60 Sailing to access. Contains 5 spawns, supports multicombat cannoning, and is discouraged due to the low spawn count."
+}

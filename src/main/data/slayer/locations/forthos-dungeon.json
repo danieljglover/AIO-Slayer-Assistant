@@ -1,0 +1,11 @@
+{
+  "locationId": "forthos-dungeon",
+  "name": "Forthos Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Beneath Forthos Ruin in Hosidius, Great Kourend (not Wilderness). Red dragons in the Scorched Grotto can be safespotted from the shortcut in the north-east corner for ranged and magic."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "scorpions-wilderness",
+  "name": "Wilderness scorpions",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Wilderness scorpion spawns (near the Bandit Camp and south-east Wilderness) for Krystilia's task. Bring only risk-appropriate gear as PKers frequent the area. Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative (false)."
+}

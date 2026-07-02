@@ -1,0 +1,11 @@
+{
+  "locationId": "corsair-cove-dungeon-red-dragons",
+  "name": "Corsair Cove Dungeon (adult red dragons)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 3 adult Red dragons in Corsair Cove Dungeon / Myths' Guild basement. Requires Dragon Slayer II and is very close to a bank."
+}

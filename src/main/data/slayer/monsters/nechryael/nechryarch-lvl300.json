@@ -1,0 +1,30 @@
+{
+  "variantId": "nechryarch",
+  "name": "Nechryarch",
+  "npcIds": [
+    7411
+  ],
+  "combatLevel": 300,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 140,
+    "stab": 30,
+    "slash": 30,
+    "crush": 30,
+    "magic": 0,
+    "range": 30
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Anywhere Nechryael or Greater Nechryael spawn",
+  "locationId": "catacombs-of-kourend-nechryael",
+  "requirement": "80 Slayer, 85 combat for assignment, and Bigger and Badder unlocked",
+  "bossId": null,
+  "strategyId": "nechryael"
+}

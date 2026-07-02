@@ -1,0 +1,325 @@
+{
+  "taskId": "black-demons",
+  "name": "Black demons",
+  "wikiPageId": 298036,
+  "combatLevel": 80,
+  "slayerTargetId": 206,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      100,
+      150
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 7,
+    "chaeldar": 10,
+    "konar": 9,
+    "nieve": 9,
+    "duradel": 8
+  },
+  "extendedAmount": {
+    "krystilia": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "it-s-dark-in-here",
+      "name": "It's dark in here",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of black demons assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "black-demons"
+  ],
+  "variantIds": [
+    "black-demon",
+    "black-demon-level-178",
+    "black-demon-level-184",
+    "demonic-gorilla",
+    "balfrug-kreeyath",
+    "porazdir",
+    "skotizo"
+  ],
+  "defaultVariantId": "black-demon",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 30,
+    "slash": 30,
+    "crush": 30,
+    "magic": 40,
+    "range": 30
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "brimhaven-dungeon",
+    "catacombs-of-kourend",
+    "charred-dungeon",
+    "chasm-of-fire-bottom",
+    "crash-site-cavern",
+    "edgeville-dungeon-wilderness",
+    "taverley-dungeon",
+    "wilderness-slayer-cave"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "black-demon",
+      "name": "Black demon",
+      "combatLevel": null,
+      "slayerXp": 157,
+      "locations": [
+        "Brimhaven Dungeon",
+        "Catacombs of Kourend",
+        "Chasm of Fire (Bottom Level)",
+        "Charred Dungeon",
+        "Edgeville Dungeon (Wilderness)",
+        "Taverley Dungeon",
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Combat level range: 172-188.",
+        "Standard Black demon, found in various locations around Gielinor."
+      ]
+    },
+    {
+      "variantId": "demonic-gorilla",
+      "name": "Demonic gorilla",
+      "combatLevel": 275,
+      "slayerXp": 408.5,
+      "locations": [
+        "Crash Site Cavern"
+      ],
+      "notes": [
+        "Far more difficult to kill than standard black demons.",
+        "May reward a valuable Zenyte shard.",
+        "Requires Monkey Madness II and cannot be used for Krystilia or Konar assignments."
+      ]
+    },
+    {
+      "variantId": "balfrug-kreeyath",
+      "name": "Balfrug Kreeyath",
+      "combatLevel": 151,
+      "slayerXp": 161,
+      "locations": [
+        "Zamorak Fortress, God Wars Dungeon"
+      ],
+      "notes": [
+        "Three-faced black demon.",
+        "One of K'ril Tsutsaroth's bodyguards."
+      ]
+    },
+    {
+      "variantId": "skotizo",
+      "name": "Skotizo",
+      "combatLevel": 321,
+      "slayerXp": 618.5,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Demi-boss beneath the Catacombs of Kourend.",
+        "Requires a dark totem to enter the lair.",
+        "See Skotizo/Strategies for boss-specific combat details."
+      ]
+    },
+    {
+      "variantId": "porazdir",
+      "name": "Porazdir",
+      "combatLevel": 235,
+      "slayerXp": 376,
+      "locations": [
+        "During Mage Arena II"
+      ],
+      "notes": [
+        "Plays a part in the Mage Arena II miniquest.",
+        "Can be killed when reobtaining an imbued zamorak cape after completing the miniquest."
+      ]
+    },
+    {
+      "variantId": "kolodion-final-form",
+      "name": "Kolodion (Final form)",
+      "combatLevel": 112,
+      "slayerXp": 107,
+      "locations": [
+        "During Mage Arena I"
+      ],
+      "notes": [
+        "The fourth form of Kolodion.",
+        "Can only be killed once during the Mage Arena miniquest."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "brimhaven-dungeon",
+      "name": "Brimhaven Dungeon",
+      "amount": 4,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Safespot near agility pipe allows you to cannon 2-3 of the 4 demons."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 4,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Killing Black demons here gives access to Ancient shards and Dark totem pieces.",
+        "Generally not worth using because Catacombs black demons have unusually higher Defence and it is not possible to utilise all four spawns."
+      ]
+    },
+    {
+      "locationId": "charred-dungeon",
+      "name": "Charred Dungeon",
+      "amount": 3,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires 60 Sailing to access."
+      ]
+    },
+    {
+      "locationId": "chasm-of-fire-bottom",
+      "name": "Chasm of Fire (Bottom level)",
+      "amount": 17,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Safespot by stalagmites on the far north, toward the centre of the map.",
+        "Players can also safespot in the centre of the bottom level, by the Voice of Yama.",
+        "Players with A Kingdom Divided who signed a contract with Yama can get contracts from killing the demons."
+      ]
+    },
+    {
+      "locationId": "crash-site-cavern",
+      "name": "Crash Site Cavern",
+      "amount": 27,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Demonic Gorillas, an upgraded version of Black Demons.",
+        "Requires completion of Monkey Madness II."
+      ]
+    },
+    {
+      "locationId": "edgeville-dungeon-wilderness",
+      "name": "Edgeville Dungeon (Wilderness)",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Located in level 5 Wilderness.",
+        "Easier to escape from than Wilderness Slayer Cave."
+      ]
+    },
+    {
+      "locationId": "taverley-dungeon",
+      "name": "Taverley Dungeon",
+      "amount": 24,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Safespot by the two stalagmites in the south-west corner.",
+        "There is also a safespot in a crevice in the north-east corner, useful for cannon multicombat-style positioning.",
+        "Requires Dusty Key or 70 Agility."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave",
+      "name": "Wilderness Slayer Cave",
+      "amount": 4,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Multicombat area and high-risk player killing makes this a very dangerous location.",
+        "Under 30 Wilderness, but hopping inside is difficult due to demon aggression."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Black demons can be assigned at 80 combat by various Slayer masters.",
+    "Black demons are found in a variety of dungeons around Gielinor.",
+    "Black demons can be easily killed using safespots when attacking with Ranged or Magic.",
+    "Melee is viable with the Protect from Melee prayer.",
+    "Black demons are weak to demonbane weapons and water spells.",
+    "Lower-level players may find black demon tasks daunting because high stats force safespotting and lower kill rates.",
+    "Higher-level players may still skip regular black demons because the drop table is nearly non-existent for the time and experience.",
+    "The two best regular spots are Taverley Dungeon and the Chasm of Fire.",
+    "Taverley Dungeon packs many demons together, while the Chasm of Fire has more safespots and both locations are cannonable.",
+    "Players who completed A Kingdom Divided and signed a contract with Yama can get contracts from Chasm of Fire kills.",
+    "Catacombs of Kourend black demons have access to Catacombs drops, but are generally not worth killing because of unusually higher Defence and awkward spawn use.",
+    "In the Wilderness, black demons are found in Edgeville Dungeon and the Wilderness Slayer Cave.",
+    "Edgeville Dungeon is easier to escape from, while the Wilderness Slayer Cave is multicombat, has a different drop table, and has one entrance.",
+    "Demonic gorillas can be killed instead when assigned by any Slayer master other than Krystilia or Konar.",
+    "Demonic gorillas require Monkey Madness II and two combat styles.",
+    "Demonic gorillas are slower but profitable due to Zenyte shard chance.",
+    "The Grand Tree black demon can be killed again in the Nightmare Zone and counts for Black demon Slayer tasks.",
+    "Kolodion can only be killed once during the Mage Arena miniquest."
+  ],
+  "recommendedMethod": "Use Taverley Dungeon or Chasm of Fire for regular black demons, ideally with cannon plus demonbane melee, Ranged, or Magic safespots. Use Wilderness locations only with low risk. Use demonic gorillas instead for non-Krystilia/non-Konar assignments when choosing profit over speed."
+}

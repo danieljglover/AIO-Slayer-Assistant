@@ -1,0 +1,337 @@
+{
+  "strategyId": "dagannoth-prime",
+  "variantIds": [
+    "boss-dagannoth-prime",
+    "dagannoth-dagannoth-prime"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Dagannoth_Kings/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "twisted-bow",
+      "bow-of-faerdhinen",
+      "toxic-blowpipe",
+      "crystal-bow",
+      "hunters-sunlight-crossbow",
+      "rune-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Prime is the magic Dagannoth King and is killed with Ranged. Keep Protect from Magic active whenever Prime can attack; long-range weapons allow safer Prime-only or tribrid rotations."
+  },
+  "requirements": [
+    "Dagannoth task or Boss task where applicable for Slayer helmet bonuses",
+    "Waterbirth Island Dungeon access",
+    "Rune thrownaxe and pet rock, a partner, or the 85 Agility shortcut to reach the Kings",
+    "70+ Ranged recommended for Prime-only; higher stats and switches for tribrid",
+    "Antipoison or serpentine helm for Spinolyp poison",
+    "Elite Fremennik Diary strongly recommended for noted Dagannoth bones"
+  ],
+  "mechanics": [
+    "Dagannoth Prime uses hard-hitting magical 3x3 area attacks and is weak to Ranged.",
+    "Protect from Magic should be active before entering and whenever Prime is attacking.",
+    "Dagannoth Rex uses melee and can be safespotted with Magic.",
+    "Dagannoth Supreme uses ranged and is killed with Melee.",
+    "Spinolyps around the island poison with ranged attacks and drain Prayer with magic hits.",
+    "A long-range Ranged weapon can reach Prime from the north while avoiding Rex and Supreme aggression ranges."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "Kings overview",
+      "combatStyle": "RANGED",
+      "role": "overview",
+      "summary": "Use Ranged for Prime, Magic for Rex, and Melee for Supreme while keeping Prime's magic damage controlled.",
+      "recommendedFor": [
+        "Dagannoth Kings boss trips",
+        "Prime unique drops or pet hunting"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Protect from Melee",
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Keep Protect from Magic active whenever Prime can attack.",
+        "Attack Prime with Ranged from the north or east when safe.",
+        "Use Magic for Rex and Melee for Supreme if tribridding.",
+        "Use downtime between respawns to move safely and reduce overlap."
+      ]
+    },
+    {
+      "methodId": "entering-the-lair",
+      "label": "Entering the lair",
+      "combatStyle": "RANGED",
+      "role": "setup",
+      "summary": "Enter with Protect from Magic active and move into a Prime-safe or tribrid starting position.",
+      "recommendedFor": [
+        "Every Dagannoth Kings method"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Activate Protect from Magic before entering the lair.",
+        "If safespotting, enter and exit until the south-east route is clear of Prime and Supreme aggression.",
+        "Run to the eastern wall for Rex/Prime safe setups.",
+        "If Prime is not aggressive and Supreme is safe, begin with the target that best matches your rotation."
+      ],
+      "risks": [
+        "Prime can kill quickly if Protect from Magic is not active."
+      ]
+    },
+    {
+      "methodId": "handling-multicombat",
+      "label": "Handling multicombat",
+      "combatStyle": "RANGED",
+      "role": "survival",
+      "summary": "Camp Protect from Magic when overwhelmed, or off-tick prayers against multiple Kings when confident.",
+      "prayers": [
+        "Protect from Magic",
+        "Protect from Melee",
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Reduce the time spent with multiple Kings alive and able to reach you.",
+        "If several Kings attack, off-tick prayers where possible.",
+        "For a lower-effort response, keep Protect from Magic active and kill Supreme quickly or safespot Rex.",
+        "Use high-defence armour to tank Rex and Supreme when using strong gear."
+      ]
+    },
+    {
+      "methodId": "tribrid-safe-rotation",
+      "label": "Tribrid safe rotation",
+      "combatStyle": "RANGED",
+      "role": "tribrid",
+      "summary": "Kill Rex from the east wall, Prime from the north wall with Ranged, and Supreme with Melee from the west/south side.",
+      "steps": [
+        "Move counter-clockwise along the southern wall to the east side.",
+        "Safespot Rex with Magic.",
+        "Rotate north and kill Prime with Ranged from the northern wall.",
+        "Rotate south and kill Supreme with Melee while staying west.",
+        "Return east for the next Rex spawn."
+      ]
+    },
+    {
+      "methodId": "tribrid-fast-rotation",
+      "label": "Tribrid fast rotation",
+      "combatStyle": "RANGED",
+      "role": "tribrid",
+      "summary": "Use high damage to kill Supreme, drag Rex to north-west safespot, then kill Prime from the north.",
+      "steps": [
+        "Open on Supreme with Melee if Prime can be avoided or prayed against.",
+        "Drag Rex to the north-west safespot and kill it with Magic.",
+        "Move north and attack Prime with Ranged.",
+        "Continue Supreme, Rex, Prime cycles while avoiding respawn overlap."
+      ],
+      "risks": [
+        "Requires enough damage to prevent sustained multi-King pressure."
+      ]
+    },
+    {
+      "methodId": "rex-only-safespot",
+      "label": "Rex-only safespot",
+      "combatStyle": "MAGIC",
+      "role": "single-boss",
+      "summary": "Rex can be killed from the eastern wall with Magic if alternating Rex and Prime or recovering between Prime kills.",
+      "steps": [
+        "Reach the eastern wall safely.",
+        "Attack Rex and move north or south until it catches on the eastern wall.",
+        "Kill Rex with Magic while preserving Protect from Magic awareness for Prime."
+      ]
+    },
+    {
+      "methodId": "prime-only",
+      "label": "Prime only",
+      "combatStyle": "RANGED",
+      "role": "single-boss",
+      "summary": "Range Prime from the north-east corner while remaining outside Supreme and Rex aggression.",
+      "recommendedFor": [
+        "Prime unique drops",
+        "Prime pet hunting"
+      ],
+      "requiredOrKeyItems": [
+        "long-range ranged weapon",
+        "Telekinetic Grab optional"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Set up in the north-east corner or eastern side.",
+        "Attack Prime with Ranged without entering Rex or Supreme aggression range.",
+        "Use Telekinetic Grab to collect unsafe drops.",
+        "Alternate with Rex if desired."
+      ],
+      "risks": [
+        "Prime does not move to the player, so drop collection can be unsafe without Telekinetic Grab."
+      ]
+    },
+    {
+      "methodId": "inventory-max-tribrid",
+      "label": "Max tribrid inventory",
+      "combatStyle": "RANGED",
+      "role": "inventory",
+      "summary": "High-end tribrid inventory with switches, SGS, Death Charge, boosts, antipoison/restores, emergency healing, route items, and herb sack.",
+      "inventory": [
+        "Switch equipment",
+        "Saradomin godsword",
+        "Rune pouch for Death Charge",
+        "Saturated heart optional",
+        "Sanfew serums or super restores",
+        "Super combat and ranging potions",
+        "Prayer regeneration potions",
+        "Explorer's ring 4 or stamina potion",
+        "Herb sack",
+        "Emergency brews",
+        "Rune thrownaxe and pet rock unless shortcutting"
+      ]
+    },
+    {
+      "methodId": "inventory-mid-level-tribrid",
+      "label": "Mid-level tribrid inventory",
+      "combatStyle": "RANGED",
+      "role": "inventory",
+      "summary": "Mid-level setup with fewer switches, optional Blood/Ice spell runes, boosts, restores, food, route items, and herb sack.",
+      "inventory": [
+        "Switch equipment",
+        "Rune pouch for Blood spells and optional Ice spells",
+        "Super combat and ranging potions",
+        "Sanfew serums or super restores",
+        "Explorer's ring 4 or stamina potion",
+        "Herb sack",
+        "Emergency food",
+        "Rune thrownaxe and pet rock unless shortcutting"
+      ]
+    },
+    {
+      "methodId": "inventory-rex-safespot",
+      "label": "Rex safespot inventory",
+      "combatStyle": "MAGIC",
+      "role": "inventory",
+      "summary": "Rex-only setup uses Magic, antipoison, prayer, food, teleport, route items, and optional Guthan's sustain.",
+      "inventory": [
+        "Magic weapon",
+        "Optional Guthan's",
+        "Prayer potions",
+        "Antipoison",
+        "Emergency teleport",
+        "Food",
+        "Rune thrownaxe and pet rock unless shortcutting"
+      ]
+    },
+    {
+      "methodId": "inventory-early-ironman-rex",
+      "label": "Early Ironman Rex inventory",
+      "combatStyle": "MAGIC",
+      "role": "inventory",
+      "summary": "Early Rex trips use Iban's staff, tank gear, antipoison, a few prayer potions, teleport, route items, and food.",
+      "inventory": [
+        "Iban's staff",
+        "Rune thrownaxe",
+        "Pet rock",
+        "Prayer potions",
+        "Superantipoisons",
+        "Emergency teleport",
+        "High-healing food"
+      ]
+    },
+    {
+      "methodId": "tips-and-tricks",
+      "label": "Tips and tricks",
+      "combatStyle": "RANGED",
+      "role": "optimization",
+      "summary": "Use cannon timing, Waterbirth portal, sustain gear, antipoison, diary, and shortcuts to extend trips.",
+      "notes": [
+        "Use a dwarf multicannon with 1,000-2,000 cannonballs on Prime's spawn and only load it when Prime spawns.",
+        "Attune a house portal to Waterbirth.",
+        "Guthan's and Saradomin godsword reduce food use.",
+        "Ice Barrage can freeze Rex and Blood spells can heal.",
+        "Bring antipoison or wear serpentine helm.",
+        "Elite Fremennik Diary notes Dagannoth bones.",
+        "The 85 Agility shortcut, or 80 with Summer pie, skips rune thrownaxe and pet rock."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "tribrid-solo",
+      "label": "Tribrid solo",
+      "combatStyle": "MAGIC",
+      "role": "all-kings",
+      "summary": "Single-player Magic/Ranged/Melee setup for killing all three Kings.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scythe of vitur",
+            "Eye of ayak",
+            "Twisted bow",
+            "Osmumten's fang",
+            "Trident of the swamp",
+            "Toxic blowpipe",
+            "Abyssal whip",
+            "Trident of the seas",
+            "Eclipse atlatl",
+            "Hunters' sunlight crossbow",
+            "Warped sceptre",
+            "Iban's staff (u)",
+            "Crystal bow",
+            "Magic shortbow (i)"
+          ],
+          "special": [
+            "Saradomin godsword",
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-rex-only",
+      "label": "Magic Rex only",
+      "combatStyle": "MAGIC",
+      "role": "single-boss",
+      "summary": "Magic setup for Rex-only or Rex/Prime alternating trips.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Twinflame staff",
+            "Toxic staff of the dead",
+            "Warped sceptre",
+            "Iban's staff (u)"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-prime-only",
+      "label": "Ranged Prime only",
+      "combatStyle": "RANGED",
+      "role": "single-boss",
+      "summary": "Prime-only setup maximising ranged strength and accuracy.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twisted bow",
+            "Bow of faerdhinen",
+            "Toxic blowpipe",
+            "Crystal bow",
+            "Hunters' sunlight crossbow",
+            "Rune crossbow"
+          ],
+          "special": [
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Dagannoth Prime\n\nFull Dagannoth Kings strategy source with entering, multicombat handling, tribrid rotations, Rex-only, Prime-only, inventories, and trip optimisations. Prime itself is killed with Ranged."
+}

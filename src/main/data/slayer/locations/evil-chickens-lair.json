@@ -1,0 +1,11 @@
+{
+  "locationId": "evil-chickens-lair",
+  "name": "Evil Chicken's Lair",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires partial completion of Recipe for Disaster: Freeing Sir Amik Varze and sacrificing a raw chicken at the Chicken Shrine in Zanaris. A rope is needed for the baby black dragon area."
+}

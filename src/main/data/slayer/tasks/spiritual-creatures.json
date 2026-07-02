@@ -1,0 +1,306 @@
+{
+  "taskId": "spiritual-creatures",
+  "name": "Spiritual creatures",
+  "wikiPageId": 526458,
+  "combatLevel": 80,
+  "slayerTargetId": 233,
+  "slayerLevel": 63,
+  "questReqs": [
+    "Death Plateau"
+  ],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      100,
+      150
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6,
+    "vannaka": 8,
+    "chaeldar": 12,
+    "nieve": 6,
+    "duradel": 7
+  },
+  "extendedAmount": {
+    "krystilia": [
+      181,
+      250
+    ],
+    "vannaka": [
+      181,
+      250
+    ],
+    "chaeldar": [
+      181,
+      250
+    ],
+    "nieve": [
+      181,
+      250
+    ],
+    "duradel": [
+      181,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "spiritual-fervour",
+      "name": "Spiritual fervour",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Increases Spiritual creatures assignments to 181-250."
+    }
+  ],
+  "monsterIds": [
+    "spiritual-creatures"
+  ],
+  "variantIds": [
+    "spiritual-ranger-zamorak",
+    "spiritual-ranger-saradomin",
+    "spiritual-ranger-bandos",
+    "spiritual-ranger-armadyl",
+    "spiritual-ranger-zaros",
+    "spiritual-warrior-zamorak",
+    "spiritual-warrior-saradomin",
+    "spiritual-warrior-bandos",
+    "spiritual-warrior-armadyl",
+    "spiritual-warrior-zaros",
+    "spiritual-mage-zamorak",
+    "spiritual-mage-saradomin",
+    "spiritual-mage-bandos",
+    "spiritual-mage-armadyl",
+    "spiritual-mage-zaros"
+  ],
+  "defaultVariantId": "spiritual-mage-zamorak",
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "god-wars-dungeon",
+    "god-wars-dungeon-ancient-prison",
+    "wilderness-god-wars-dungeon-spiritual-creatures"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "spiritual-ranger",
+      "name": "Spiritual ranger",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "God Wars Dungeon",
+        "God Wars Dungeon - Ancient Prison",
+        "Wilderness God Wars Dungeon"
+      ],
+      "notes": [
+        "Combat levels are 118 (Zamorak), 122 (Saradomin), 115 (Bandos), 127 (Armadyl), and 158 (Zaros).",
+        "Slayer XP values are 106, 106, 131, 120, and 110 respectively.",
+        "Spiritual rangers require 63 Slayer to kill.",
+        "The Zarosian variant can occasionally launch an arrow into the air.",
+        "If the Zarosian arrow is not dodged it deals heavy damage, disable overhead protection prayers, and binds the player for a few seconds."
+      ]
+    },
+    {
+      "variantId": "spiritual-warrior",
+      "name": "Spiritual warrior",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "God Wars Dungeon",
+        "God Wars Dungeon - Ancient Prison",
+        "Wilderness God Wars Dungeon"
+      ],
+      "notes": [
+        "Combat levels are 115 (Zamorak), 125 (Saradomin), 134 (Bandos), 123 (Armadyl), and 158 (Zaros).",
+        "Slayer XP values are 110, 110, 135, 98, and 105 respectively.",
+        "Spiritual warriors require 68 Slayer to kill.",
+        "The Zarosian variant periodically unleashes smoke clouds in an X formation around the player.",
+        "Failing to move from the Zarosian smoke-cloud special attack can deal up to 40 damage."
+      ]
+    },
+    {
+      "variantId": "spiritual-mage",
+      "name": "Spiritual mage",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "God Wars Dungeon",
+        "God Wars Dungeon - Ancient Prison",
+        "Wilderness God Wars Dungeon"
+      ],
+      "notes": [
+        "Combat levels are 121 (Zamorak), 120 (Saradomin), 121 (Bandos), 123 (Armadyl), and 182 (Zaros).",
+        "Slayer XP values are 75, 85, 106, 75, and 137.5 respectively.",
+        "Spiritual mages require 83 Slayer to kill and are the only Spiritual creatures that drop dragon boots.",
+        "The Zamorakian variant's Flames of Zamorak drains Magic levels if it successfully hits and damages the player.",
+        "The Zarosian variant uses Ancient Magicks: smoke poisons, shadow drains Attack, blood heals the mage, and ice freezes the player.",
+        "The Zarosian Ancient Magicks secondary effects occur on successful hits even if the damage would be blocked by prayer."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "spiritual-rangers-god-wars-dungeon",
+      "name": "God Wars Dungeon - Spiritual rangers",
+      "amount": 30,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main Armadyl, Bandos, Saradomin, and Zamorak variants."
+      ]
+    },
+    {
+      "locationId": "spiritual-rangers-ancient-prison",
+      "name": "God Wars Dungeon - Ancient Prison Spiritual rangers",
+      "amount": 9,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Ancient Prison (Zaros) variant."
+      ]
+    },
+    {
+      "locationId": "spiritual-rangers-wilderness-god-wars-dungeon",
+      "name": "Wilderness God Wars Dungeon - Spiritual rangers",
+      "amount": 12,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main Armadyl, Bandos, Saradomin, and Zamorak variants.",
+        "Located in moderate level 28-32 Wilderness; do not bring items you are unwilling to lose."
+      ]
+    },
+    {
+      "locationId": "spiritual-warriors-god-wars-dungeon",
+      "name": "God Wars Dungeon - Spiritual warriors",
+      "amount": 44,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main Armadyl, Bandos, Saradomin, and Zamorak variants."
+      ]
+    },
+    {
+      "locationId": "spiritual-warriors-ancient-prison",
+      "name": "God Wars Dungeon - Ancient Prison Spiritual warriors",
+      "amount": 9,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Ancient Prison (Zaros) variant."
+      ]
+    },
+    {
+      "locationId": "spiritual-warriors-wilderness-god-wars-dungeon",
+      "name": "Wilderness God Wars Dungeon - Spiritual warriors",
+      "amount": 11,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main Armadyl, Bandos, Saradomin, and Zamorak variants.",
+        "Located in moderate level 28-32 Wilderness; do not bring items you are unwilling to lose."
+      ]
+    },
+    {
+      "locationId": "spiritual-mages-god-wars-dungeon",
+      "name": "God Wars Dungeon - Spiritual mages",
+      "amount": 40,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main Armadyl, Bandos, Saradomin, and Zamorak variants."
+      ]
+    },
+    {
+      "locationId": "spiritual-mages-ancient-prison",
+      "name": "God Wars Dungeon - Ancient Prison Spiritual mages",
+      "amount": 5,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Ancient Prison (Zaros) variant."
+      ]
+    },
+    {
+      "locationId": "spiritual-mages-wilderness-god-wars-dungeon",
+      "name": "Wilderness God Wars Dungeon - Spiritual mages",
+      "amount": 12,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main Armadyl, Bandos, Saradomin, and Zamorak variants.",
+        "Located in moderate level 28-32 Wilderness; do not bring items you are unwilling to lose."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Spiritual creatures require Death Plateau, 80 combat, and either 60 Strength or 60 Agility before assignment.",
+    "Spiritual rangers require 63 Slayer, Spiritual warriors require 68 Slayer, and Spiritual mages require 83 Slayer.",
+    "Spiritual mages are the only Spiritual creatures that drop dragon boots.",
+    "Spiritual creatures are only found in the God Wars Dungeon and Wilderness God Wars Dungeon.",
+    "Each god's followers are aggressive unless the player wears a god-affiliated item aligned to that god; wearing the item makes them tolerant.",
+    "God item protection is effectively required because the dungeons are multicombat and contain many aggressive monsters.",
+    "In the main God Wars Dungeon, bring at least one Zamorak-affiliated item and usually one Saradomin-affiliated item.",
+    "Bandos and Armadyl spiritual creatures are rarely killed.",
+    "In the Ancient Prison, only a Zaros-affiliated item is required inside, but Saradomin and Zamorak items are recommended for the route to the entrance.",
+    "In the Wilderness God Wars Dungeon, bring one Armadyl or Bandos item depending on entrance, one Saradomin item, and one Zamorak item.",
+    "Armadyl spiritual creatures require 70 Ranged and a crossbow that can fire a mithril grapple, though they can be attacked with melee weapons unlike Aviansie.",
+    "Bandos spiritual creatures require 70 Strength and a hammer.",
+    "Zamorak spiritual creatures require 70 Hitpoints; entering Zamorak's Fortress drains all prayer points.",
+    "Zaros spiritual creatures require The Frozen Door miniquest and 70 Strength, Hitpoints, Ranged, and Agility.",
+    "Many players block Spiritual creatures because they are neither cannonable nor AFK'able, have low experience rates, and have poor drops compared to similar Slayer monsters.",
+    "Ironman players may unblock the task at 83 Slayer to obtain dragon boots.",
+    "The task page recommends Spiritual rangers - skip or block.",
+    "The task page recommends Spiritual warriors - kill in Zamorak's Fortress if killing them at all.",
+    "The task page recommends Spiritual mages - kill in Zamorak's Fortress or Ancient Prison."
+  ],
+  "recommendedMethod": "Skip or block Spiritual rangers. If killing the task, use Zamorak's Fortress for Spiritual warriors or Zamorak's Fortress/Ancient Prison for Spiritual mages, wearing the relevant god items for tolerance. Ironman accounts may prefer Spiritual mages at 83 Slayer for dragon boots."
+}

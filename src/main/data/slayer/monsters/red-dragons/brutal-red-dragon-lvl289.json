@@ -1,0 +1,31 @@
+{
+  "variantId": "brutal-red-dragon",
+  "name": "Brutal red dragon",
+  "npcIds": [
+    7274,
+    8087
+  ],
+  "combatLevel": 289,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 198,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 60,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Catacombs of Kourend",
+  "locationId": "catacombs-of-kourend-brutal-red-dragons",
+  "requirement": "Seeing red unlocked; dragonfire protection and Protect from Magic recommended",
+  "bossId": null,
+  "strategyId": "red-dragons"
+}

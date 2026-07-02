@@ -1,0 +1,11 @@
+{
+  "locationId": "mourner-tunnels-iorwerth-dungeon",
+  "name": "Mourner Tunnels / Iorwerth Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Reached via the Mourner Tunnels or, after Song of the Elves, directly from Prifddinas' Iorwerth district (not Wilderness). No safespot is documented for its dark beasts and elves on the Iorwerth Dungeon wiki page."
+}

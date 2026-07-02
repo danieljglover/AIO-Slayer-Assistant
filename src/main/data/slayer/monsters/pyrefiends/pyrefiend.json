@@ -1,0 +1,42 @@
+{
+  "variantId": "pyrefiend",
+  "name": "Pyrefiend",
+  "npcIds": [
+    433,
+    434,
+    435,
+    436
+  ],
+  "combatLevel": 43,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 22,
+    "stab": 10,
+    "slash": 10,
+    "crush": 10,
+    "magic": 0,
+    "range": 10
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Slayer Dungeon, Smoke Dungeon (facemask required), God Wars Dungeon and the Isle of Souls.",
+  "locationId": "fremennik-slayer-dungeon-pyrefiends",
+  "requirement": "30 Slayer.",
+  "bossId": null,
+  "strategyId": "pyrefiends",
+  "offence": {
+    "hitpoints": 45,
+    "maxHit": 4,
+    "attackStyles": [
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 4,
+    "magicLevel": 1
+  }
+}

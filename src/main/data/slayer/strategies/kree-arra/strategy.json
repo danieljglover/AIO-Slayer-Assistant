@@ -1,0 +1,148 @@
+{
+  "strategyId": "kree-arra",
+  "variantIds": [
+    "aviansie-kree-arra",
+    "boss-kree-arra"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "tumeken-s-shadow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Airborne - regular melee does not work. Tumeken's shadow is the recommended direct method (chinchompas are the AoE alternative)."
+  },
+  "requirements": [
+    "Access to Kree'arra's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Airborne - regular melee does not work. Tumeken's shadow is the recommended direct method (chinchompas are the AoE alternative).",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Airborne - regular melee does not work. Tumeken's shadow is the recommended direct method (chinchompas are the AoE alternative).",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "tumeken-s-shadow",
+        "bow-of-faerdhinen",
+        "twisted-bow",
+        "toxic-blowpipe"
+      ],
+      "steps": [
+        "Airborne - regular melee does not work. Tumeken's shadow is the recommended direct method (chinchompas are the AoE alternative)."
+      ]
+    },
+    {
+      "methodId": "shadow-or-ranged-kill",
+      "label": "Shadow or ranged kill",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Use Tumeken's shadow or ranged methods because Kree'arra is airborne and regular melee cannot hit it.",
+      "recommendedFor": [
+        "Armadyl boss tasks",
+        "solo or small-team Kree'arra kills"
+      ],
+      "requiredOrKeyItems": [
+        "Tumeken's shadow",
+        "Chinchompas or ranged weapon",
+        "Armadyl killcount access"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Mystic Might or Augury"
+      ],
+      "steps": [
+        "Enter the Armadyl encampment with required access and killcount.",
+        "Use Tumeken's shadow as the direct magic method when available.",
+        "Use ranged or chinchompa methods as alternatives to damage Kree'arra and minions.",
+        "Keep Protect from Missiles active against Kree'arra pressure."
+      ],
+      "risks": [
+        "Regular melee cannot hit Kree'arra.",
+        "Minions can add heavy chip damage during long kills."
+      ]
+    },
+    {
+      "methodId": "minion-and-room-control",
+      "label": "Minion and room control",
+      "combatStyle": "MAGIC",
+      "role": "sustain",
+      "summary": "Control Armadyl minions and preserve supplies between Kree'arra kills.",
+      "recommendedFor": [
+        "longer Armadyl trips",
+        "solo sustain"
+      ],
+      "requiredOrKeyItems": [
+        "Blood spells or healing supplies",
+        "Prayer potions",
+        "Ranged or magic switches"
+      ],
+      "steps": [
+        "After Kree'arra dies, kill minions in an order that restores control of the room.",
+        "Use healing or blood spells where the setup supports it.",
+        "Restore prayer and prepare for the next spawn before looting too slowly."
+      ],
+      "notes": [
+        "Chinchompas are an AoE alternative for some Kree'arra methods."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Kree'arra setup using Tumeken's shadow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for Kree'arra when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Bow of faerdhinen",
+            "Twisted bow",
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Kree'arra\n\nAirborne - regular melee does not work. Tumeken's shadow is the recommended direct method (chinchompas are the AoE alternative)."
+}

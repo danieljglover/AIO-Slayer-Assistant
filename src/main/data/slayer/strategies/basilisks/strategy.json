@@ -1,0 +1,302 @@
+{
+  "strategyId": "basilisks",
+  "variantIds": [
+    "basilisk",
+    "monstrous-basilisk",
+    "basilisk-knight",
+    "basilisk-sentinel"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Basilisks",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "inquisitor-s-mace",
+      "ursine-chainmace",
+      "osmumten-s-fang",
+      "zamorakian-hasta",
+      "zombie-axe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "armadyl-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-crossbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Use a mirror shield or V's shield for every Basilisk variant. Melee is fastest for Basilisk Knights; ranged crossbows are preferred for safespotting. Ordinary Basilisks are usually skipped, while Knights are killed for the on-task Basilisk jaw rate."
+  },
+  "requirements": [
+    "40 Slayer",
+    "40 combat",
+    "20 Defence",
+    "Mirror shield or V's shield for all Basilisk variants",
+    "Basilocked unlock for Konar, Nieve, and Duradel assignments",
+    "The Fremennik Exiles for Basilisk Knight access",
+    "Bigger and Badder for Monstrous basilisk and Basilisk Sentinel superior spawns"
+  ],
+  "mechanics": [
+    "Without a mirror shield or V's shield, basilisk gaze deals immense damage and massively drains player stats.",
+    "Ordinary basilisks use an extremely inaccurate melee attack with a max hit of 5.",
+    "Basilisk Knights use melee and magic, both with a max hit of 20.",
+    "Basilisk Knights match the player's attack speed with a maximum frequency of four ticks.",
+    "At distance, Basilisk Knights use magic while attempting to move into melee range.",
+    "Protection prayers can block either Basilisk Knight melee or magic attacks, but not both at once.",
+    "Basilisk Sentinel can launch a slow projectile that stones the player if not dodged.",
+    "Cannons cannot be placed anywhere with any kind of basilisk."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Always wear a mirror shield or V's shield, then choose ordinary basilisks for simple task progress or Basilisk Knights for jaw profit after The Fremennik Exiles.",
+      "recommendedFor": [
+        "baseline Basilisk task planning",
+        "choosing between ordinary basilisks and Basilisk Knights"
+      ],
+      "requiredOrKeyItems": [
+        "Mirror shield",
+        "V's shield",
+        "Melee weapon",
+        "Ranged crossbow for safespotting",
+        "High alchemy runes for Basilisk Knight alchables"
+      ],
+      "steps": [
+        "Equip a mirror shield or V's shield before fighting any basilisk.",
+        "Use ordinary basilisks in Fremennik Slayer Dungeon or Jormungand's Prison for simple task progress.",
+        "After The Fremennik Exiles, use Basilisk Knights when pursuing Basilisk jaw or Neitiznot faceguard progression.",
+        "Do not bring a cannon because cannons cannot be placed at any basilisk location."
+      ],
+      "risks": [
+        "Removing the shield exposes the player to basilisk gaze damage and stat drain.",
+        "Basilisk Knight tasks are slow due to high Defence."
+      ],
+      "notes": [
+        "Ordinary basilisks are generally a skip due to their thin drop table and high Defence.",
+        "Basilisk Knights become worthwhile mainly for Basilisk jaw."
+      ]
+    },
+    {
+      "methodId": "ordinary-basilisks",
+      "label": "Ordinary basilisks",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Kill ordinary basilisks with melee while wearing a mirror shield or V's shield.",
+      "recommendedFor": [
+        "low-effort task progress",
+        "players without The Fremennik Exiles"
+      ],
+      "requiredOrKeyItems": [
+        "Mirror shield or V's shield",
+        "Best available melee weapon"
+      ],
+      "steps": [
+        "Use Fremennik Slayer Dungeon or Jormungand's Prison.",
+        "Keep a mirror shield or V's shield equipped.",
+        "Use melee and expect low incoming damage from inaccurate melee attacks.",
+        "Use safespots if desired."
+      ],
+      "notes": [
+        "Ordinary basilisks have a max hit of 5.",
+        "They are usually worthwhile to skip, but their low weighting does not make them worth blocking."
+      ]
+    },
+    {
+      "methodId": "basilisk-knights",
+      "label": "Basilisk Knights",
+      "combatStyle": "MELEE",
+      "role": "profit",
+      "summary": "Kill Basilisk Knights in Jormungand's Prison after The Fremennik Exiles for the improved on-task Basilisk jaw rate.",
+      "recommendedFor": [
+        "Basilisk jaw hunting",
+        "Neitiznot faceguard progression",
+        "players accepting slow kills for profit"
+      ],
+      "requiredOrKeyItems": [
+        "Mirror shield or V's shield",
+        "Inquisitor's mace",
+        "Ursine chainmace",
+        "Osmumten's fang",
+        "Zamorakian hasta",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Magic at distance",
+        "Protect from Melee in melee range"
+      ],
+      "steps": [
+        "Complete The Fremennik Exiles to access Basilisk Knights.",
+        "Equip a mirror shield or V's shield before entering combat.",
+        "Use melee for the fastest kills when tanking both attack styles.",
+        "Use Protect from Magic when attacking from distance because Knights exclusively use magic while moving into melee range.",
+        "Switch protection as needed if allowing melee range, remembering only one attack style can be blocked at once.",
+        "Pick up alchable equipment, catalytic runes, herbs, and Basilisk jaw if it drops."
+      ],
+      "risks": [
+        "Basilisk Knights can hit up to 20 with melee and magic.",
+        "Maximum kill rates are slow, around 100 kills per hour."
+      ],
+      "notes": [
+        "Basilisk jaw is 1/5000 off task and 1/1000 on task.",
+        "Basilisk jaw combines with Helm of neitiznot to make the Neitiznot faceguard."
+      ]
+    },
+    {
+      "methodId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use ranged weapons from safespots to prevent Basilisk Knight melee attacks while accepting magic retaliation.",
+      "recommendedFor": [
+        "lower-damage Basilisk Knight kills",
+        "players preferring safespots"
+      ],
+      "requiredOrKeyItems": [
+        "Mirror shield or V's shield",
+        "Hunter's sunlight crossbow",
+        "Zaryte crossbow",
+        "Armadyl crossbow",
+        "Dragon hunter crossbow",
+        "Dragon crossbow"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Stand behind a Basilisk Knight safespot in Jormungand's Prison.",
+        "Keep a mirror shield or V's shield equipped.",
+        "Use a crossbow and Protect from Magic.",
+        "Expect the Knight to retaliate with magic even while melee is blocked by the safespot."
+      ],
+      "notes": [
+        "Safespots prevent Basilisk Knight melee attacks but do not stop magic retaliation."
+      ]
+    },
+    {
+      "methodId": "basilisk-sentinel",
+      "label": "Basilisk Sentinel",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Treat Basilisk Sentinel as a dangerous superior spawned from Basilisk Knights after Bigger and Badder.",
+      "recommendedFor": [
+        "superior handling",
+        "players killing Basilisk Knights"
+      ],
+      "requiredOrKeyItems": [
+        "Mirror shield or V's shield",
+        "Food",
+        "Prayer potions"
+      ],
+      "steps": [
+        "Keep the shield equipped when the superior spawns.",
+        "Watch for the slow-moving projectile special attack.",
+        "Move one tile to avoid the projectile.",
+        "If encased in stone, click rapidly to escape before taking massive damage."
+      ],
+      "notes": [
+        "The Basilisk Sentinel is the superior variant from Basilisk Knights.",
+        "Failing the stone special requires the player to click rapidly to escape."
+      ]
+    },
+    {
+      "methodId": "skip-or-toggle",
+      "label": "Skip or toggle",
+      "combatStyle": "MELEE",
+      "role": "task-management",
+      "summary": "Use task management because ordinary basilisks are weak rewards and Basilisk Knights are mainly useful until Basilisk jaw is obtained.",
+      "recommendedFor": [
+        "task list optimization",
+        "players done with Basilisk jaw"
+      ],
+      "steps": [
+        "Skip ordinary basilisk tasks if not interested in low-reward kills.",
+        "Leave Basilocked on while hunting Basilisk jaw from Knights.",
+        "After receiving the jaw, consider toggling Basilocked off."
+      ],
+      "notes": [
+        "The task page says ordinary basilisks are worthwhile to skip but not worth blocking.",
+        "After receiving the jaw, use toggle off for Basilocked if no longer hunting Knights; activating it again costs Slayer points."
+      ]
+    },
+    {
+      "methodId": "jormungand-quest",
+      "label": "The Jormungand quest fight",
+      "combatStyle": "MELEE",
+      "role": "quest-only",
+      "summary": "The Jormungand is recorded as source metadata only because it is fought during The Fremennik Exiles and can only be fought once.",
+      "recommendedFor": [
+        "source completeness",
+        "LLM interpretation of the wiki variant table"
+      ],
+      "steps": [
+        "Treat The Jormungand as a one-time quest fight, not a repeatable task target.",
+        "Use the Basilisks task data to understand why it is not a normal runtime task variant."
+      ],
+      "notes": [
+        "The Jormungand is listed in the wiki variant table with 600 Slayer XP, but can only be fought once."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Fastest Basilisk Knight method and simple ordinary Basilisk method.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Inquisitor's mace",
+            "Ursine chainmace",
+            "Osmumten's fang",
+            "Zamorakian hasta",
+            "Zombie axe"
+          ],
+          "shield": [
+            "V's shield",
+            "Mirror shield"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Crossbow safespotting prevents Basilisk Knight melee while magic retaliation continues.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Hunter's sunlight crossbow",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon hunter crossbow",
+            "Dragon crossbow"
+          ],
+          "shield": [
+            "V's shield",
+            "Mirror shield"
+          ]
+        }
+      }
+    }
+  ]
+}

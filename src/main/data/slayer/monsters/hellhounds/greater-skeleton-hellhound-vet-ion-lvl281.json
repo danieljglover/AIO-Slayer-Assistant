@@ -1,0 +1,30 @@
+{
+  "variantId": "greater-skeleton-hellhound-vet-ion",
+  "name": "Greater Skeleton Hellhound (Vet'ion)",
+  "npcIds": [
+    6614
+  ],
+  "combatLevel": 231,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 180,
+    "stab": 150,
+    "slash": 163,
+    "crush": 20,
+    "magic": 210,
+    "range": 275
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Vet'ion fight (second phase), Wilderness",
+  "locationId": "vetion-hellhound-spawns",
+  "requirement": "summoned by Vet'ion - separate trip (boss fight)",
+  "bossId": null,
+  "strategyId": "vet-ion"
+}

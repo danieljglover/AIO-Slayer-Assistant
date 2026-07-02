@@ -1,0 +1,229 @@
+{
+  "taskId": "gryphons",
+  "name": "Gryphons",
+  "wikiPageId": 613360,
+  "slayerTargetId": 223,
+  "slayerLevel": 51,
+  "questReqs": [
+    "Troubled Tortugans"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      30,
+      80
+    ],
+    "chaeldar": [
+      60,
+      100
+    ],
+    "nieve": [
+      110,
+      170
+    ],
+    "duradel": [
+      100,
+      210
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 10,
+    "chaeldar": 10,
+    "nieve": 7,
+    "duradel": 7
+  },
+  "extendedAmount": {
+    "vannaka": [
+      110,
+      160
+    ],
+    "chaeldar": [
+      140,
+      180
+    ],
+    "nieve": [
+      190,
+      250
+    ],
+    "duradel": [
+      180,
+      290
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows superior Slayer monsters, including Dire gryphons, to spawn while on task."
+    },
+    {
+      "unlockId": "wings-spread",
+      "name": "Wings Spread",
+      "pointsCost": 80,
+      "notes": "Allows Nieve/Steve and Duradel/Kuradal to assign Gryphons."
+    },
+    {
+      "unlockId": "gryphon-and-on",
+      "name": "Gryphon and on",
+      "pointsCost": 50,
+      "type": "EXTENSION",
+      "notes": "Increases the number of Gryphons assigned by 80."
+    }
+  ],
+  "monsterIds": [
+    "gryphons",
+    "boss"
+  ],
+  "variantIds": [
+    "gryphon",
+    "dire-gryphon-superior",
+    "shellbane-gryphon"
+  ],
+  "defaultVariantId": "gryphon",
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 10,
+    "slash": 20,
+    "crush": 40,
+    "magic": 100,
+    "range": 60
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "western-gryphon-dungeon",
+    "eastern-gryphon-dungeon",
+    "shellbane-gryphon-cave"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "gryphon",
+      "name": "Gryphon",
+      "combatLevel": 95,
+      "slayerXp": 110,
+      "locations": [
+        "The Great Conch"
+      ],
+      "notes": [
+        "Standard variant.",
+        "Requires 51 Slayer to kill and completion of Troubled Tortugans plus 45 Sailing access to the Great Conch.",
+        "Attacks with melee crush and has a knockback special if equipped weight is too low.",
+        "Normal Gryphons need roughly 30 kg equipped weight to avoid the special damage and instead stun the Gryphon.",
+        "Has a 50% elemental weakness to air spells, though melee is typically stronger."
+      ]
+    },
+    {
+      "variantId": "dire-gryphon-superior",
+      "name": "Dire gryphon",
+      "combatLevel": 209,
+      "slayerXp": 2800,
+      "locations": [
+        "The Great Conch"
+      ],
+      "notes": [
+        "Superior slayer monster variant that can spawn after purchasing Bigger and Badder.",
+        "Has mechanics similar to the boss variant and requires a tortugan shield to nullify guaranteed damage after every hit.",
+        "Uses the same 40 kg equipped-weight threshold as the boss for the knockback special.",
+        "Cannonable and has a similar drop table to normal Gryphons."
+      ]
+    },
+    {
+      "variantId": "shellbane-gryphon",
+      "name": "Shellbane Gryphon",
+      "combatLevel": 235,
+      "slayerXp": 400,
+      "locations": [
+        "The Great Conch"
+      ],
+      "notes": [
+        "Boss variant.",
+        "Found in the central lair on the Great Conch and only attackable on task.",
+        "Solo instanced boss with melee, ranged attacks, and two avoidable special attacks.",
+        "For more information on killing the Shellbane Gryphon, see Shellbane Gryphon/Strategies."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "western-gryphon-dungeon",
+      "name": "Western gryphon dungeon",
+      "amount": 18,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The western cave on the Great Conch.",
+        "Contains 18 gryphons and may be fought off task.",
+        "Has a southern room that is multicombat and cannonable.",
+        "The task page includes a west cave safespot image that avoids all attacks."
+      ]
+    },
+    {
+      "locationId": "eastern-gryphon-dungeon",
+      "name": "Eastern gryphon dungeon",
+      "amount": 18,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Task-only eastern cave on the Great Conch.",
+        "Contains 18 gryphons.",
+        "Task-only. The south-west part of the dungeon is multicombat and cannonable, while the rest is single-way combat.",
+        "Recommended task location with venator bow and dwarf multicannon."
+      ]
+    },
+    {
+      "locationId": "shellbane-gryphon-cave",
+      "name": "Shellbane Gryphon Cave",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Task-only boss.",
+        "Central Great Conch lair leading to the Shellbane Gryphon.",
+        "Solo instanced boss encounter.",
+        "Use Shellbane Gryphon/Strategies for boss-specific mechanics."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Gryphons require 51 Slayer and completion of Troubled Tortugans.",
+    "The Great Conch access requires 45 Sailing, as described on the Gryphon monster page.",
+    "Vannaka and Chaeldar can assign Gryphons after Troubled Tortugans without a points unlock.",
+    "Wings Spread costs 80 Slayer points and allows Nieve/Steve and Duradel/Kuradal to assign Gryphons.",
+    "For players seeking Gryphon tasks, Vannaka is recommended because Gryphons are Vannaka's highest weighted task even though his amount is lower than Duradel's.",
+    "Gryphons are found exclusively on The Great Conch in a western cavern, eastern task-only cavern, and the central Shellbane Gryphon Cave.",
+    "Both eastern and western caverns have a southern room that is multicombat and cannonable.",
+    "Gryphons attack with melee and have a special attack that causes knockback and moderate damage if equipped weight is too low.",
+    "The equipped weight threshold is 30 kg for normal gryphons and 40 kg for the boss.",
+    "If the weight threshold is met, the Gryphon stuns itself and the player can click the Gryphon within 2 ticks to knock it back and perform one additional attack without attack delay.",
+    "Normal Gryphons do not require a tortugan shield.",
+    "A tortugan shield is required for Dire gryphons and Shellbane Gryphon; without it their attacks deal frequent moderate damage even through prayer.",
+    "Dire gryphons have mechanics similar to the boss variant.",
+    "Gryphons are weakest to melee, ideally stabbing attacks, and have a 50% weakness to air spells.",
+    "Players not safespotting are recommended to use melee equipment.",
+    "Gryphons are best killed in the south-western multicombat room of the eastern task-only cave using a venator bow and a dwarf multicannon.",
+    "A maxed ranged setup can reach 30 kg by using a black mask (i) instead of a Slayer helmet (i), a granite ring, or avernic treads (max) instead of echo boots.",
+    "Bring a tortugan shield for the superior, and bring a cannon.",
+    "Gryphons have relatively poor drops and players not planning to kill the boss should avoid toggling them on for Nieve or Duradel.",
+    "The Shellbane Gryphon has somewhat lackluster drops too, but is slightly better compared to normal Gryphons.",
+    "On task, Horn of plenty (empty) improves from 1/2500 to 1/1000 on regular Gryphons."
+  ],
+  "recommendedMethod": "Use the eastern task-only cave's south-west multicombat room with Venator bow and dwarf multicannon. Keep at least 30 kg equipped weight for normal Gryphons and bring a tortugan shield for Dire gryphons or Shellbane Gryphon."
+}

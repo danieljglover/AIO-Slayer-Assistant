@@ -1,0 +1,11 @@
+{
+  "locationId": "mudskipper-point",
+  "name": "Mudskipper Point",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Mudskipper Point is south of Rimmington on the south-western coast. Mogres hide in the sand and must be lured out with a fishing explosive used on the mud patches; Skippy and the Mogres must be complete. Multi, cannon and safespot are not wiki-confirmed here, so conservative defaults are used."
+}

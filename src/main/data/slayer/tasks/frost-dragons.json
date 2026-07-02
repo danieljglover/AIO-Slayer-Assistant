@@ -1,0 +1,158 @@
+{
+  "taskId": "frost-dragons",
+  "name": "Frost Dragons",
+  "wikiPageId": 39287,
+  "combatLevel": 85,
+  "slayerTargetId": 9001,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "nieve": [
+      60,
+      100
+    ],
+    "duradel": [
+      70,
+      120
+    ]
+  },
+  "weightByMaster": {
+    "nieve": 5,
+    "duradel": 5
+  },
+  "extendedAmount": {
+    "nieve": [
+      180,
+      240
+    ],
+    "duradel": [
+      180,
+      240
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "chance-of-heavy-frost",
+      "name": "Chance of Heavy Frost",
+      "pointsCost": 100,
+      "notes": "Increases the weighting of frost dragons from 5 to 8."
+    },
+    {
+      "unlockId": "i-see-dragons",
+      "name": "I see Dragons",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Increases Frost dragon task quantity to 180-240."
+    }
+  ],
+  "monsterIds": [
+    "frost-dragons"
+  ],
+  "variantIds": [
+    "frost-dragon"
+  ],
+  "defaultVariantId": "frost-dragon",
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 25,
+    "slash": 90,
+    "crush": 15,
+    "magic": 50,
+    "range": 50
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "grimstone-dungeon",
+    "grimstone-dungeon-task-only"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "frost-dragon",
+      "name": "Frost dragon",
+      "combatLevel": 202,
+      "slayerXp": 235.5,
+      "locations": [
+        "Grimstone Dungeon",
+        "Grimstone Dungeon task-only cavern"
+      ],
+      "notes": [
+        "Attacks with melee and short-ranged icy dragonfire.",
+        "Frost dragons max hit 16 with stab melee and 50 with dragonfire.",
+        "Has 230 Hitpoints, level 180 Attack, level 150 Strength, level 150 Defence, and level 150 Magic.",
+        "Weakest melee defence is crush, then stab; slash is much worse.",
+        "Has a 100% elemental weakness to fire spells.",
+        "Heavy ranged remains the best ranged category, but frost dragons are more resistant to ranged than chromatic dragons.",
+        "Dragonbane weapons work because frost dragons have the Dragon attribute.",
+        "Slayer XP is 235.5 and the NPC id is 14922."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "grimstone-dungeon",
+      "name": "Grimstone Dungeon",
+      "amount": 20,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main Frost dragon area in Grimstone Dungeon.",
+        "Requires 87 Sailing to access Grimstone.",
+        "The monster page lists 20 Frost dragon spawns in the main Grimstone Dungeon area.",
+        "Frost dragons are immune to dwarf multicannon damage.",
+        "Can be safespotted because they only use melee and short-ranged dragonfire."
+      ]
+    },
+    {
+      "locationId": "grimstone-dungeon-task-only",
+      "name": "Grimstone Dungeon task-only cavern",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Task-only area west of the main Frost dragon area.",
+        "Attempting to attack these off task gives a message about a strange coldness and deciding not to attack without permission.",
+        "Added as a Frost dragon Slayer task-only cavern on 3 December 2025.",
+        "Can be safespotted because frost dragons only use melee and short-ranged dragonfire."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Frost dragons require 87 Sailing to access Grimstone and 85 combat to receive as a Slayer assignment.",
+    "The wiki slayer infobox leaves the Slayer skill requirement blank; the source uses slayerLevel 1 to represent no Slayer skill requirement.",
+    "They can be assigned by Nieve/Steve and Duradel/Kuradal.",
+    "The fastest return after visiting Grimstone at least once is fairy ring DLP.",
+    "A boat moored at Grimstone with a greater teleport focus can also be used, or players can sail from a nearby port such as Weiss.",
+    "Frost dragons attack with melee and short-ranged dragonfire.",
+    "Their dragonfire is icy and briefly freeze players who lack adequate dragonfire protection.",
+    "A regular antifire potion partially negates the icy dragonfire.",
+    "A regular antifire potion with an anti-dragon shield fully negates the icy dragonfire.",
+    "A super antifire potion alone fully negates the icy dragonfire.",
+    "Protect from Melee combined with full dragonfire protection nullifies all Frost dragon damage.",
+    "Frost dragons can be Safespotted because they only use melee and short-ranged dragonfire.",
+    "They are weakest to crush, then stab, and have a 100% elemental weakness to fire spells.",
+    "Heavy ranged remains the best ranged option, though Frost dragons are more resistant to ranged than chromatic dragons.",
+    "As dragons, they are weak to dragonbane weapons.",
+    "Being on a Frost dragon task increases the Dragon metal sheet drop rate from 1/100 to 1/40.",
+    "They have high drop rates for Dragon metal sheets and Dragon nails.",
+    "Loot from Frost dragons appears on their central north-eastern tile instead of the south-western tile used by most monsters.",
+    "Frost dragons do not count as blue dragons or metal dragons for Slayer tasks.",
+    "A task-only area is west of the main Grimstone Dungeon area and blocks off-task kills with a strange coldness message."
+  ],
+  "recommendedMethod": "Use dragonbane melee on crush with Protect from Melee and full dragonfire protection, or use Ranged/Magic safespots. 87 Sailing and Grimstone access are required."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "mount-quidamortem-south-west-trolls",
+  "name": "South of Mount Quidamortem south-west",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 7 mountain trolls. The task page notes the high number of obstacles makes safespotting easier."
+}

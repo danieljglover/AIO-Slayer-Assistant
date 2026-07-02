@@ -1,0 +1,22 @@
+{
+  "masterId": "chaeldar",
+  "name": "Chaeldar",
+  "location": "Zanaris",
+  "requirements": {
+    "combatLevel": 70,
+    "quests": [
+      "Lost City"
+    ]
+  },
+  "economy": {
+    "basePoints": 10,
+    "streakMultipliers": {
+      "10": 5,
+      "50": 15,
+      "100": 25,
+      "250": 35,
+      "1000": 50
+    },
+    "blockCost": 70
+  }
+}

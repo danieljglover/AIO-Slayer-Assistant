@@ -1,0 +1,94 @@
+{
+  "strategyId": "rogues",
+  "variantIds": [
+    "rogue"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Rogue",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "toxic-blowpipe",
+      "rune-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "viggora-s-chainmace",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Rogues have 0 magic and 0 ranged defence, so ranged or magic is fastest; their crush defence (+11) is highest. Rogues' Castle is deep north-east Wilderness with the Chaos Elemental nearby - bring only cheap gear."
+  },
+  "requirements": [
+    "Kills must be made in the Wilderness to count for the Krystilia assignment.",
+    "No Slayer level or quest requirement.",
+    "Deep north-east Wilderness travel with high PKer and Chaos Elemental risk."
+  ],
+  "mechanics": [
+    "The level 15 Rogue (npc 526) has 17 Hitpoints, grants 17 Slayer XP, and has defence level 13.",
+    "Magic and ranged defences are 0; crush (+11) is highest.",
+    "A level 135 Rogue variant (npc 6603) also exists; its stats are UNKNOWN here.",
+    "The Chaos Elemental in the castle courtyard can attack through walls."
+  ],
+  "methods": [
+    {
+      "methodId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Kill the Rogues' Castle rogues with ranged against their 0 ranged defence.",
+      "recommendedFor": [
+        "fastest kills"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged weapon"
+      ],
+      "steps": [
+        "Travel to Rogues' Castle in the deep north-east Wilderness.",
+        "Attack the rogues with ranged (or magic).",
+        "Watch for the Chaos Elemental and PKers."
+      ],
+      "notes": [
+        "Bring only cheap gear; deep Wilderness carries high risk."
+      ]
+    },
+    {
+      "methodId": "magic",
+      "label": "Magic",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Cast against the rogues' 0 magic defence for fast, accurate kills.",
+      "recommendedFor": [
+        "players who prefer magic",
+        "training Magic on task"
+      ],
+      "requiredOrKeyItems": [
+        "Magic weapon or spell"
+      ],
+      "steps": [
+        "Travel to Rogues' Castle in the deep north-east Wilderness.",
+        "Attack the rogues with magic (0 magic defence).",
+        "Watch for the Chaos Elemental and PKers."
+      ],
+      "notes": [
+        "Ranged is equally effective given their 0 ranged defence."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Ranged exploits their 0 ranged defence.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Rune crossbow"
+          ]
+        }
+      }
+    }
+  ]
+}

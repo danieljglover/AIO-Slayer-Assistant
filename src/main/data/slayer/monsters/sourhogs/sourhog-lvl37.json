@@ -1,0 +1,40 @@
+{
+  "variantId": "sourhog-lvl37",
+  "name": "Sourhog",
+  "npcIds": [
+    10435
+  ],
+  "combatLevel": 37,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 0,
+    "slash": 30,
+    "crush": 10,
+    "magic": 30,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Sourhog Cave, south of Draynor Village",
+  "requirement": "Quest: A Porcine of Interest (to access the cave)",
+  "bossId": null,
+  "strategyId": "sourhogs",
+  "offence": {
+    "hitpoints": 40,
+    "maxHit": 30,
+    "attackStyles": [
+      "MELEE",
+      "RANGED"
+    ],
+    "attackSpeedTicks": 5,
+    "poisonous": false,
+    "venomous": false
+  }
+}

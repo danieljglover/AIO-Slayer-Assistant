@@ -1,0 +1,11 @@
+{
+  "locationId": "iorwerth-dungeon-nechryael",
+  "name": "Iorwerth Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 16 Greater Nechryael. Quickly accessed with a teleport crystal, requires Song of the Elves, supports a dwarf multicannon, and Greater Nechryael killed here can drop crystal shards."
+}

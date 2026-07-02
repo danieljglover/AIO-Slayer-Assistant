@@ -1,0 +1,11 @@
+{
+  "locationId": "cow-field",
+  "name": "Cow fields (Lumbridge/Falador)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Cows are densest in the Lumbridge cow field (east of Lumbridge Castle) and the Falador farm; the Crafting Guild also has cows. There is no single canonical cow location for a slayer task, so multi, cannon and safespot are conservative defaults and not wiki-confirmed for one spot."
+}

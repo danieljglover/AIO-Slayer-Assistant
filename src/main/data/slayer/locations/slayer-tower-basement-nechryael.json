@@ -1,0 +1,11 @@
+{
+  "locationId": "slayer-tower-basement-nechryael",
+  "name": "Slayer Tower (basement)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 12 Nechryael in the Slayer Tower basement. They can only be killed on a slayer task; the task-page comparison marks the area single-combat, not cannonable, and safespottable."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "tzhaar-fight-cave",
+  "name": "TzHaar Fight Cave",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Used when the Slayer master offers TzTok-Jad instead of regular TzHaar. Leaving or dying ends the run, so treat it as a separate boss trip."
+}

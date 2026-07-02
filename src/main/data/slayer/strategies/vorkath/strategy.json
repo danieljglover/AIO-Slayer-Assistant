@@ -1,0 +1,144 @@
+{
+  "strategyId": "vorkath",
+  "variantIds": [
+    "blue-dragons-vorkath",
+    "boss-vorkath"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Vorkath/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "dragon-hunter-crossbow",
+      "toxic-blowpipe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-lance",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Weak to stab melee and ranged; the dragonbane Dragon hunter crossbow is the most effective ranged weapon, the Dragon hunter lance the melee-method weapon."
+  },
+  "requirements": [
+    "Access to Vorkath's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Weak to stab melee and ranged; the dragonbane Dragon hunter crossbow is the most effective ranged weapon, the Dragon hunter lance the melee-method weapon.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Weak to stab melee and ranged; the dragonbane Dragon hunter crossbow is the most effective ranged weapon, the Dragon hunter lance the melee-method weapon.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "dragon-hunter-crossbow",
+        "toxic-blowpipe",
+        "dragon-hunter-lance"
+      ],
+      "steps": [
+        "Weak to stab melee and ranged; the dragonbane Dragon hunter crossbow is the most effective ranged weapon, the Dragon hunter lance the melee-method weapon."
+      ]
+    },
+    {
+      "methodId": "ranged-dragonbane-kill",
+      "label": "Ranged dragonbane kill",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Use Dragon hunter crossbow or blowpipe ranged methods with full dragonfire and venom protection.",
+      "recommendedFor": [
+        "Vorkath boss tasks",
+        "blue dragon task bossing",
+        "ranged Vorkath farming"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter crossbow",
+        "Toxic blowpipe",
+        "Antifire potion",
+        "Anti-venom+",
+        "Salve amulet (ei)"
+      ],
+      "prayers": [
+        "Protect from Missiles or Magic depending method",
+        "Rigour or Eagle Eye"
+      ],
+      "steps": [
+        "Enter with dragonfire protection, venom protection, and the selected ranged weapon.",
+        "Use Dragon hunter crossbow where available because Vorkath is draconic.",
+        "Maintain the correct protection prayer and offensive ranged prayer.",
+        "Use Salve amulet variants where they fit the setup."
+      ],
+      "risks": [
+        "Insufficient dragonfire protection is dangerous.",
+        "Venom and high ranged or magic hits can stack quickly."
+      ]
+    },
+    {
+      "methodId": "acid-spawn-and-fireball-specials",
+      "label": "Acid, spawn, and fireball specials",
+      "combatStyle": "RANGED",
+      "role": "specials",
+      "summary": "Handle Vorkath specials by moving through acid phase, killing the zombified spawn, and dodging one-shot fireballs.",
+      "recommendedFor": [
+        "consistent Vorkath kills",
+        "players learning special attack rhythm"
+      ],
+      "requiredOrKeyItems": [
+        "Crumble Undead runes or slayer staff autocast",
+        "Run energy",
+        "Food"
+      ],
+      "steps": [
+        "During acid phase, keep walking on safe tiles and avoid standing still.",
+        "When the zombified spawn appears, cast Crumble Undead before it reaches you.",
+        "Move away from the large vertical fireball impact tile immediately.",
+        "Resume DPS only after each special is resolved."
+      ],
+      "risks": [
+        "The zombified spawn explodes for lethal damage if not killed.",
+        "The vertical fireball can one-shot careless players."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Vorkath setup using Dragon hunter crossbow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter crossbow",
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Vorkath when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter lance"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Vorkath\n\nWeak to stab melee and ranged; the dragonbane Dragon hunter crossbow is the most effective ranged weapon, the Dragon hunter lance the melee-method weapon."
+}

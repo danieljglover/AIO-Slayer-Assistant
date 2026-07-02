@@ -1,0 +1,11 @@
+{
+  "locationId": "killerwatt-plane",
+  "name": "Killerwatt Plane",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "A pocket dimension reached through the telescope in the upstairs study of Draynor Manor; Ernest the Chicken must be complete to use the telescope. Insulated boots roughly halve the Killerwatt's damage (their Ranged max hit is 15 without them). Multi, cannon and safespot availability are not wiki-confirmed for the plane, so conservative defaults are used."
+}

@@ -1,0 +1,31 @@
+{
+  "variantId": "gryphon",
+  "name": "Gryphon",
+  "npcIds": [
+    14857,
+    14858
+  ],
+  "combatLevel": 95,
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 10,
+    "slash": 20,
+    "crush": 40,
+    "magic": 100,
+    "range": 60
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "The Great Conch - western and eastern Gryphon dungeons",
+  "locationId": "eastern-gryphon-dungeon",
+  "requirement": "Troubled Tortugans, 45 Sailing access to the Great Conch, and 51 Slayer",
+  "bossId": null,
+  "strategyId": "gryphons"
+}

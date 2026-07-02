@@ -1,0 +1,30 @@
+{
+  "variantId": "aquanite",
+  "name": "Aquanite",
+  "npcIds": [
+    15497,
+    15498
+  ],
+  "combatLevel": 145,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 40,
+    "slash": 80,
+    "crush": 80,
+    "magic": 140,
+    "range": 40
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Ynysdail Cavern (best type STAB; sever lure to drop stab 60->10; cannon-immune)",
+  "requirement": "Slayer 78; Sailing 73 + adamant keel; 'Lured In' unlock to be assigned",
+  "bossId": null,
+  "strategyId": "aquanite"
+}

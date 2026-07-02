@@ -1,0 +1,29 @@
+{
+  "variantId": "monstrous-basilisk",
+  "name": "Monstrous basilisk",
+  "npcIds": [
+    7395
+  ],
+  "combatLevel": 135,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 130,
+    "stab": 35,
+    "slash": 35,
+    "crush": 0,
+    "magic": 35,
+    "range": 20
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Slayer Dungeon / Jormungand's Prison",
+  "requirement": "superior - Bigger and Badder unlock; mirror shield or V's shield",
+  "strategyId": "basilisks",
+  "bossId": null
+}

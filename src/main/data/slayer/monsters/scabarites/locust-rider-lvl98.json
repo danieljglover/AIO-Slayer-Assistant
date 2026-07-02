@@ -1,0 +1,32 @@
+{
+  "variantId": "locust-rider",
+  "name": "Locust rider",
+  "npcIds": [
+    795,
+    796,
+    800,
+    801
+  ],
+  "combatLevel": 98,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 90,
+    "stab": 50,
+    "slash": 90,
+    "crush": 50,
+    "magic": 34,
+    "range": 66
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": false,
+  "location": "Sophanem Dungeon (level 98 rangers and level 106 crush-melee lancers both count)",
+  "requirement": "Contact! (partial completion)",
+  "bossId": null,
+  "strategyId": "scabarites"
+}

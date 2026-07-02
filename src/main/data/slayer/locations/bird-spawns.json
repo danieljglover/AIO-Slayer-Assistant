@@ -1,0 +1,11 @@
+{
+  "locationId": "bird-spawns",
+  "name": "Bird spawns (various)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Chickens and ducks cluster at low-level farms such as Lumbridge, Fred the Farmer's field, and Falador; other counted birds (seagulls, penguins, terrorbirds, vultures) are spread widely. There is no single canonical bird location, so multi, cannon and safespot are conservative defaults and not wiki-confirmed for one spot."
+}

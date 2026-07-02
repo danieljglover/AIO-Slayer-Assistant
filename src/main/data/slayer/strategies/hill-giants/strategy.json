@@ -1,0 +1,82 @@
+{
+  "strategyId": "hill-giants",
+  "variantIds": [
+    "hill-giant"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Hill_giant",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Hill giants have only 26 Defence and 35 Hitpoints, so any decent weapon kills them quickly; a Dragon scimitar or better melee weapon is fine. They are 25% susceptible to earth spells if you prefer Magic. Krystilia tasks must be killed in the Wilderness (Deep Wilderness Dungeon / Boneyard / Lava Maze); Mazchna tasks are most convenient in the Edgeville Dungeon."
+  },
+  "requirements": [
+    "Mazchna requires combat level 25 to assign Hill giants.",
+    "Krystilia's Hill giants assignment must be completed in the Wilderness."
+  ],
+  "mechanics": [
+    "Hill giants attack with crush and can hit up to 4; they are aggressive to players below combat level 57.",
+    "They have 35 Hitpoints and 26 Defence, so kills are fast with any style.",
+    "They are 25% susceptible to earth spells."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill hill giants with any decent melee weapon; their low Defence makes this the simplest and fastest method.",
+      "recommendedFor": [
+        "default Hill giant tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any decent melee weapon such as a Dragon scimitar",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Travel to the Edgeville Dungeon (Mazchna) or a Wilderness spawn (Krystilia).",
+        "Attack the hill giants with melee; food is rarely needed given their max hit of 4."
+      ]
+    },
+    {
+      "methodId": "magic",
+      "label": "Magic (earth spells)",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Hill giants are 25% susceptible to earth spells, a viable alternative for Magic training.",
+      "recommendedFor": [
+        "Magic training"
+      ],
+      "requiredOrKeyItems": [
+        "Earth spells or a general elemental staff"
+      ],
+      "steps": [
+        "Cast earth spells for the susceptibility bonus, or any spell given their low Defence."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary melee setup; any decent weapon works.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon scimitar",
+            "Any decent melee weapon"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Hill giants\n\nHill giants are a low-level task assigned by Krystilia (Wilderness only, 75-125) and Mazchna (30-50, combat level 25). With 35 Hitpoints and 26 Defence they die quickly to any style; melee with a decent weapon is the simplest approach, and they are 25% susceptible to earth spells for Magic training. Complete Krystilia's task in the Wilderness (Deep Wilderness Dungeon, Boneyard, or Lava Maze) and Mazchna's most conveniently in the free-to-play Edgeville Dungeon."
+}

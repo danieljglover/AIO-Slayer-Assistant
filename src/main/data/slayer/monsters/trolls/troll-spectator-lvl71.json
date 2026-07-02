@@ -1,0 +1,36 @@
+{
+  "variantId": "troll-spectator",
+  "name": "Troll spectator",
+  "npcIds": [
+    4123,
+    4124,
+    4125,
+    4126,
+    4127,
+    4128,
+    4129
+  ],
+  "combatLevel": 71,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 0,
+    "slash": 0,
+    "crush": 10,
+    "magic": 200,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Troll Arena.",
+  "locationId": "death-plateau-trolls",
+  "requirement": "Quest-area troll; not a practical task target.",
+  "bossId": null,
+  "strategyId": "trolls"
+}

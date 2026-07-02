@@ -1,0 +1,11 @@
+{
+  "locationId": "mount-quidamortem-north-east-trolls",
+  "name": "South of Mount Quidamortem north-east",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 7 mountain trolls. More open than the south-west Mount Quidamortem troll location, making multi-troll luring easier; rocks can be used to safespot and the area is closer to a bank than most mountain troll spots."
+}

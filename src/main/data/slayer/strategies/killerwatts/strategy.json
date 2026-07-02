@@ -1,0 +1,76 @@
+{
+  "strategyId": "killerwatts",
+  "variantIds": [
+    "killerwatt"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Killerwatt",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "kodai-wand",
+      "trident-of-the-swamp"
+    ],
+    "secondaryWeapons": [],
+    "note": "Killerwatts have a 60% elemental weakness to air spells, so air Magic (Air Bolt/Air Wave, or a powered staff) is the fastest style despite their magic defence bonus of 20. Wear Insulated boots to roughly halve incoming damage; without them their Ranged max hit is 15."
+  },
+  "requirements": [
+    "37 Slayer, combat level 50, and completion of Ernest the Chicken are required to be assigned Killerwatts.",
+    "The telescope in the upstairs study of Draynor Manor is used to enter the Killerwatt Plane.",
+    "Insulated boots are strongly recommended to reduce the Killerwatt's damage."
+  ],
+  "mechanics": [
+    "Killerwatts have a 60% elemental weakness to air spells.",
+    "They attack with both Melee and a Ranged (magical ranged) attack at 2 ticks; their Ranged max hit is 8 with Insulated boots and 15 without.",
+    "Killerwatts are not undead, so the salve amulet does not apply.",
+    "They have Defence level 40 with a magic defence bonus of 20."
+  ],
+  "methods": [
+    {
+      "methodId": "air-magic",
+      "label": "Air spells",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Cast air spells to exploit the 60% air weakness while wearing Insulated boots.",
+      "recommendedFor": [
+        "standard task completion",
+        "Magic training"
+      ],
+      "requiredOrKeyItems": [
+        "Air spells (Air Bolt/Air Wave) or a powered staff",
+        "Insulated boots",
+        "Food and/or Prayer potions"
+      ],
+      "steps": [
+        "Complete Ernest the Chicken and enter the Killerwatt Plane via the Draynor Manor telescope.",
+        "Equip Insulated boots to halve the Killerwatt's damage.",
+        "Cast air spells to exploit the 60% elemental weakness until the task is done."
+      ],
+      "notes": [
+        "A powered staff (trident) is a cheap, high-damage alternative to bolt/wave spells."
+      ]
+    },
+    {
+      "methodId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Ranged is a viable alternative for players without strong Magic, still wearing Insulated boots.",
+      "recommendedFor": [
+        "players with weak Magic"
+      ],
+      "requiredOrKeyItems": [
+        "A bow or crossbow with suitable ammunition",
+        "Insulated boots",
+        "Food"
+      ],
+      "steps": [
+        "Enter the Killerwatt Plane with Insulated boots equipped.",
+        "Attack Killerwatts with Ranged; keep out of Melee where possible.",
+        "Eat as needed; without Insulated boots their Ranged hits can reach 15."
+      ],
+      "notes": [
+        "Magic remains faster because of the 60% air weakness."
+      ]
+    }
+  ]
+}

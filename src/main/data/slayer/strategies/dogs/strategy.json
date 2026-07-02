@@ -1,0 +1,75 @@
+{
+  "strategyId": "dogs",
+  "variantIds": [
+    "guard-dog",
+    "jackal",
+    "wild-dog"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Guard_dog",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [],
+    "note": "Dogs (guard dogs, jackals, wild dogs) have no defensive bonuses, so any melee weapon works. Jackals additionally have a 10% elemental weakness to fire spells for a Magic alternative. Guard dogs in McGrubor's Wood are the most convenient standard spawn."
+  },
+  "requirements": [
+    "Combat level 15 is required to be assigned Dogs.",
+    "Membership is required for every dog spawn."
+  ],
+  "mechanics": [
+    "Guard dog: combat level 44, 49 Hitpoints, max hit 5 (crush), 4-tick attack speed, Defence level 37 with no bonuses.",
+    "Jackal: combat level 21, 27 Hitpoints, max hit 3, Defence level 15; 10% elemental weakness to fire spells.",
+    "Wild dog: combat level 63, 62 Hitpoints, max hit 6, Defence level 54 with no bonuses.",
+    "None of the dogs are undead, so the salve amulet does not apply."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill guard dogs in McGrubor's Wood (or jackals/wild dogs) with any melee weapon; none have defensive bonuses.",
+      "recommendedFor": [
+        "standard task completion",
+        "low-level Slayer accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Food as needed"
+      ],
+      "steps": [
+        "Travel to McGrubor's Wood for the densest guard dog cluster (10 spawns).",
+        "Attack with any melee weapon; weapon choice is unimportant given the zero defensive bonuses.",
+        "Alternatively kill wild dogs in Brimhaven Dungeon or jackals in the Kharidian Desert."
+      ],
+      "notes": [
+        "Wild dogs in Brimhaven Dungeon are higher level (63) but give more Slayer XP per kill."
+      ]
+    },
+    {
+      "methodId": "magic-jackals",
+      "label": "Fire spells on jackals",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Cast fire spells on jackals to exploit their 10% elemental weakness to fire.",
+      "recommendedFor": [
+        "players training Magic",
+        "accounts wanting a ranged/magic option"
+      ],
+      "requiredOrKeyItems": [
+        "Fire spell runes or a fire-attuned staff"
+      ],
+      "steps": [
+        "Travel to the jackals south of the Ancient Pyramid (fairy ring DLQ north of Nardah).",
+        "Cast fire spells to exploit the 10% elemental weakness.",
+        "Keep antidrain and food as needed."
+      ],
+      "notes": [
+        "Only jackals carry the fire weakness; guard dogs and wild dogs have no elemental weakness."
+      ]
+    }
+  ]
+}

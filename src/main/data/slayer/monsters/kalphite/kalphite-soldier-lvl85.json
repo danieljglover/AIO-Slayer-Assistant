@@ -1,0 +1,31 @@
+{
+  "variantId": "kalphite-soldier",
+  "name": "Kalphite Soldier",
+  "npcIds": [
+    957,
+    958
+  ],
+  "combatLevel": 85,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 25,
+    "slash": 25,
+    "crush": 5,
+    "magic": 50,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": false,
+  "location": "Kalphite Lair / Kalphite Cave (task-only)",
+  "locationId": "kalphite-cave",
+  "requirement": "poison starts at 4 damage; bring poison immunity",
+  "bossId": null,
+  "strategyId": "kalphite"
+}

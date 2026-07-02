@@ -1,0 +1,68 @@
+{
+  "variantId": "goblin-lvl2",
+  "name": "Goblin",
+  "npcIds": [
+    3028,
+    3029,
+    3030,
+    3031,
+    3032,
+    3033,
+    3034,
+    3035,
+    3036,
+    3037,
+    3038,
+    3039,
+    3040,
+    3041,
+    3042,
+    3043,
+    3044,
+    3051,
+    3052,
+    3053,
+    3054,
+    5195,
+    5196,
+    5197,
+    5198,
+    5199,
+    5200,
+    5201,
+    5202,
+    5203
+  ],
+  "combatLevel": 2,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": -15,
+    "slash": -15,
+    "crush": -15,
+    "magic": -15,
+    "range": -15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Lumbridge, Goblin Village, Draynor",
+  "requirement": "None",
+  "bossId": null,
+  "strategyId": "goblins",
+  "offence": {
+    "hitpoints": 5,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

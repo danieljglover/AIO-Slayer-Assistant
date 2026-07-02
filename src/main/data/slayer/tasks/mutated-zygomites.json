@@ -1,0 +1,190 @@
+{
+  "taskId": "mutated-zygomites",
+  "name": "Mutated zygomites",
+  "wikiPageId": 271838,
+  "combatLevel": 60,
+  "slayerTargetId": 229,
+  "slayerLevel": 57,
+  "questReqs": [
+    "Lost City"
+  ],
+  "masterIds": [
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      8,
+      15
+    ],
+    "konar": [
+      10,
+      25
+    ],
+    "nieve": [
+      10,
+      25
+    ],
+    "duradel": [
+      20,
+      30
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 7,
+    "konar": 2,
+    "nieve": 2,
+    "duradel": 2
+  },
+  "unlocks": [
+    {
+      "unlockId": "shroom-sprayer",
+      "name": "'Shroom sprayer",
+      "pointsCost": 110,
+      "notes": "Mutated zygomites are automatically dealt the finishing blow if the player has Fungicide spray and Fungicide."
+    }
+  ],
+  "monsterIds": [
+    "mutated-zygomites"
+  ],
+  "variantIds": [
+    "zygomite-level-74",
+    "zygomite-level-86",
+    "ancient-zygomite"
+  ],
+  "defaultVariantId": "zygomite-level-74",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 65,
+    "stab": 10,
+    "slash": 10,
+    "crush": 10,
+    "magic": 20,
+    "range": 20
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 7806,
+  "requiredItemName": "Fungicide spray",
+  "locationIds": [
+    "zanaris-furnace-zygomites",
+    "zanaris-cosmic-altar-zygomites",
+    "fossil-island-mushroom-forest-zygomites",
+    "stalker-den-zygomites"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "zygomite-level-74",
+      "name": "Zygomite",
+      "combatLevel": 74,
+      "slayerXp": 65,
+      "locations": [
+        "East of the furnace in Zanaris"
+      ],
+      "notes": [
+        "Level 74 Zygomites are found East of the furnace in Zanaris.",
+        "They appear as Fungi until the player picks them, then require Fungicide spray below 8 Hitpoints to kill."
+      ]
+    },
+    {
+      "variantId": "zygomite-level-86",
+      "name": "Zygomite",
+      "combatLevel": 86,
+      "slayerXp": 75,
+      "locations": [
+        "Zanaris near the Cosmic Altar"
+      ],
+      "notes": [
+        "Level 86 Zygomites are found near the Cosmic Altar in Zanaris.",
+        "The Cosmic Altar area can be safespotted by trapping them on a pillar and standing near the mysterious ruins."
+      ]
+    },
+    {
+      "variantId": "ancient-zygomite",
+      "name": "Ancient Zygomite",
+      "combatLevel": 109,
+      "slayerXp": 154,
+      "locations": [
+        "Mushroom Forest on Fossil Island",
+        "Stalker Den in Custodia Pass"
+      ],
+      "notes": [
+        "Ancient Zygomites can be killed as an alternative for Zygomites tasks.",
+        "Ancient Zygomites are found in the Mushroom Forest and Stalker Den.",
+        "They are found in the Mushroom Forest and Stalker Den, and also require Fungicide spray for the final blow."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "zanaris-furnace-zygomites",
+      "name": "East of the furnace in Zanaris",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "East of the furnace in Zanaris.",
+        "Contains five level 74 and 86 Zygomites."
+      ]
+    },
+    {
+      "locationId": "zanaris-cosmic-altar-zygomites",
+      "name": "Zanaris near the Cosmic Altar",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Near the Cosmic Altar in Zanaris.",
+        "Can be safespotted by trapping Zygomites on a pillar and standing near the mysterious ruins."
+      ]
+    },
+    {
+      "locationId": "fossil-island-mushroom-forest-zygomites",
+      "name": "Mushroom Forest on Fossil Island",
+      "amount": 27,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Mushroom Forest on Fossil Island.",
+        "Contains twenty-seven Ancient Zygomites and is valid unless a Konar task locks the player to Zanaris."
+      ]
+    },
+    {
+      "locationId": "stalker-den-zygomites",
+      "name": "Stalker Den",
+      "amount": 9,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Stalker Den in Custodia Pass.",
+        "Contains nine Ancient Zygomites in multicombat."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "The wiki task page is titled Zygomites; Slayer masters refer to the assignment as Mutated zygomites.",
+    "Zygomites cannot be killed unless a fungicide spray is used to deliver the final blow.",
+    "Regular Zygomites must be picked from Fungi before they can be attacked.",
+    "Zygomites mostly use magical melee headbutts and occasionally use stronger magical ranged spore attacks.",
+    "Dragonhide armour or Karil's armour is strongly recommended because high Magic defence reduces incoming damage.",
+    "Protect from Melee is recommended when praying against regular Zygomites because their melee attacks are more accurate.",
+    "Ancient Zygomites use magical melee and magical ranged attacks; their ranged attacks are stronger and more accurate, so Protect from Missiles can be considered for ancient-only trips.",
+    "Ancient Zygomites can be safespotted by trapping them and standing at least six tiles away because their ranged attack reaches five tiles.",
+    "Ancient Zygomites always drop Mort myre fungus, making a Reagent pouch useful on Ancient Zygomite trips.",
+    "Konar location locks matter: a Zanaris task requires regular Zygomites, while a Fossil Island task requires Ancient Zygomites because no regular variants are on Fossil Island.",
+    "'Shroom sprayer costs 110 Slayer points and automatically delivers the finishing blow if the player has Fungicide spray and Fungicide."
+  ],
+  "recommendedMethod": "Bring fungicide spray and refills, wear dragonhide or Karil's for magic defence, use Protect from Melee for regular Zygomites, safespot where available, and use Ancient Zygomites with a Reagent pouch when location locks allow."
+}

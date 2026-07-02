@@ -1,0 +1,40 @@
+{
+  "variantId": "loar-shade",
+  "name": "Loar Shade",
+  "npcIds": [
+    1277,
+    1276
+  ],
+  "combatLevel": 40,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 26,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Mort'ton",
+  "requirement": "Combat level 30 to be assigned; Priest in Peril for Mort'ton access",
+  "bossId": null,
+  "strategyId": "shades",
+  "offence": {
+    "hitpoints": 38,
+    "maxHit": 4,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

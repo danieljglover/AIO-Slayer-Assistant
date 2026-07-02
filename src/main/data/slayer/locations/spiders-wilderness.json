@@ -1,0 +1,11 @@
+{
+  "locationId": "spiders-wilderness",
+  "name": "Wilderness spider spawns",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Common spiders spawn at several Wilderness spots (e.g. near the Ruins); these kills count towards a Krystilia Spiders task. Multicombat, cannon placement and safespots are not wiki-stated, so conservative defaults are used. This is a PvP zone; bring Wilderness-appropriate risk gear."
+}

@@ -1,0 +1,91 @@
+{
+  "strategyId": "bears",
+  "variantIds": [
+    "grizzly-bear",
+    "grizzly-bear-cub",
+    "black-bear"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Bears",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Bears have negligible Defence and low Hitpoints, so any melee weapon clears them instantly; a Dragon scimitar or better is more than enough. They carry a fire spell weakness (grizzly 20%, black 30%) if training Magic. Krystilia's task must be done in the Wilderness with risk-appropriate gear."
+  },
+  "requirements": [
+    "No Slayer level is required; only 13 combat is needed to receive the task.",
+    "Grizzly bear cubs in Isafdar require partial completion of Regicide to reach.",
+    "Krystilia's bears must be killed in the Wilderness."
+  ],
+  "mechanics": [
+    "Bears attack with slash and have no offensive threat at low levels.",
+    "Grizzly bears are aggressive; black bears are not.",
+    "Grizzly bears have a 20% fire spell weakness and black bears a 30% fire spell weakness (June 2025)."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill any counting bear with any melee weapon; they die in one or two hits.",
+      "recommendedFor": [
+        "all bears tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon (Dragon scimitar or better)",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "For starter masters, go to the Fremennik Province woods outside Rellekka or the Mind Altar black bears.",
+        "For Krystilia, kill grizzly bears in the Wilderness west of the Graveyard of Shadows with risk-appropriate gear.",
+        "Attack with any melee weapon until the task completes."
+      ]
+    },
+    {
+      "methodId": "wilderness-safe",
+      "label": "Wilderness (Krystilia) safe kit",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Complete the Krystilia task in the low-level Wilderness with cheap, risk-appropriate gear to minimise PKer loss.",
+      "recommendedFor": [
+        "Krystilia bears tasks",
+        "PKer-heavy worlds"
+      ],
+      "requiredOrKeyItems": [
+        "Cheap melee weapon and armour you can afford to lose",
+        "Slayer helmet",
+        "Teleport out (glory / teleport spell)"
+      ],
+      "steps": [
+        "Bank valuables; wear only risk-appropriate gear before entering the Wilderness.",
+        "Kill grizzly bears west of the Graveyard of Shadows; they die in one or two hits.",
+        "Watch the minimap for PKers and teleport out when threatened."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Any melee weapon clears bears instantly.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon scimitar",
+            "Any melee weapon"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Bears\n\nBears (black bears, bear cubs, grizzly bears, grizzly bear cubs, reanimated bears, and Callisto) are a trivial low-level Slayer task assigned by Krystilia, Turael, Spria, and Mazchna. They have negligible Defence and low Hitpoints, so any melee weapon works. Starter-master tasks are fastest at the Fremennik Province woods outside Rellekka or the Mind Altar black bears; Krystilia's task must be done in the low-level Wilderness west of the Graveyard of Shadows, so bring only risk-appropriate gear."
+}

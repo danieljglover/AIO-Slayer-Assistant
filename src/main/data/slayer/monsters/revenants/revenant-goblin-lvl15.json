@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-goblin",
+  "name": "Revenant goblin",
+  "npcIds": [
+    7931
+  ],
+  "combatLevel": 15,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 14,
+    "stab": 25,
+    "slash": 28,
+    "crush": 31,
+    "magic": 1,
+    "range": 31
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 14,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 12
+  }
+}

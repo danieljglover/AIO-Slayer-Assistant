@@ -1,0 +1,109 @@
+{
+  "strategyId": "adamant-dragon",
+  "variantIds": [
+    "adamant-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Adamant_dragon/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "ghrazi-rapier",
+      "osmumten-s-fang"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "eye-of-ayak",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Adamant dragon strategy: draconic dragonbane target with Earth weakness. Handle poison splats and Ruby-bolt style ranged special."
+  },
+  "requirements": [
+    "Dragon Slayer II",
+    "Lithkren Vault access",
+    "Full dragonfire protection",
+    "Poison protection recommended"
+  ],
+  "mechanics": [
+    "Adamant dragons use melee, ranged, magic, and dragonfire.",
+    "Poison projectile splits in a 5x5 area and is reduced by poison protection.",
+    "Ruby-bolt style ranged special ignores Protect from Missiles and deals 20% of current player hitpoints.",
+    "They have 50% earth spell vulnerability and the draconic attribute."
+  ],
+  "methods": [
+    {
+      "methodId": "dragonfire-protection",
+      "label": "Dragonfire protection",
+      "combatStyle": "MELEE",
+      "role": "required",
+      "summary": "Use full dragonfire protection in Lithkren Vault.",
+      "requiredOrKeyItems": [
+        "Super antifire or shield plus antifire",
+        "Digsite pendant Lithkren teleport",
+        "Poison protection"
+      ],
+      "steps": [
+        "Access Lithkren Vault after Dragon Slayer II.",
+        "Use full dragonfire protection.",
+        "Keep poison protection active to reduce poison projectile damage."
+      ]
+    },
+    {
+      "methodId": "special-attacks",
+      "label": "Special attacks",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Move from poison splats and manage current hitpoints for the Ruby-bolt style special.",
+      "steps": [
+        "Move three squares away from the poison projectile landing tile to avoid the splatter.",
+        "Keep hitpoints around 40-50 if comfortable to reduce Ruby-bolt style special damage.",
+        "Use dragonbane melee, ranged, or Magic to finish kills."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Dragon hunter lance or stab melee setup."
+    },
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Ranged dragonbane",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Dragon hunter crossbow or Twisted bow setup."
+    },
+    {
+      "styleId": "magic-earth",
+      "label": "Earth Magic",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Tumeken's shadow, dragon hunter wand, or Earth spell setup."
+    }
+  ],
+  "body": "# Adamant dragon\n\nDraconic dragonbane target with Earth weakness. Handle poison splats and Ruby-bolt style ranged special."
+}

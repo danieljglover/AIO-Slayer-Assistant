@@ -1,0 +1,266 @@
+{
+  "taskId": "dagannoth",
+  "name": "Dagannoth",
+  "wikiPageId": 298104,
+  "combatLevel": 75,
+  "slayerTargetId": 213,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Horror from the Deep"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7,
+    "chaeldar": 11,
+    "konar": 8,
+    "nieve": 8,
+    "duradel": 9
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "dagannoth"
+  ],
+  "variantIds": [
+    "dagannoth",
+    "dagannoth-waterbirth",
+    "dagannoth-spawn",
+    "dagannoth-fledgeling",
+    "dagannoth-dagannoth-rex",
+    "dagannoth-dagannoth-prime",
+    "dagannoth-dagannoth-supreme"
+  ],
+  "defaultVariantId": "dagannoth",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 71,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 50,
+    "range": 50
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "lighthouse-basement",
+    "catacombs-of-kourend",
+    "jormungand-s-prison-dagannoth",
+    "waterbirth-island"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "dagannoth",
+      "name": "Dagannoth",
+      "combatLevel": 92,
+      "slayerXp": 70,
+      "locations": [
+        "Catacombs of Kourend",
+        "Jormungand's Prison",
+        "Lighthouse"
+      ],
+      "notes": [
+        "The standard task Dagannoth appear as level 74 and level 92 variants with 70 and 120 Slayer XP respectively.",
+        "Some level 74 Dagannoth in the Lighthouse attack with range; in the Catacombs and Jormungand's Prison all standard Dagannoth attack with melee.",
+        "They are much weaker than their combat level suggests and have a 35% earth spell weakness."
+      ]
+    },
+    {
+      "variantId": "dagannoth-waterbirth",
+      "name": "Dagannoth (Waterbirth Island)",
+      "combatLevel": 90,
+      "slayerXp": 99.6,
+      "locations": [
+        "Waterbirth Island Dungeon"
+      ],
+      "notes": [
+        "Waterbirth Island has stronger level 88 ranged Dagannoth worth 85 Slayer XP and level 90 melee Dagannoth worth 99.6 Slayer XP.",
+        "The level 88 ranged variant attacks quickly and accurately with range 4; the level 90 melee variant hits accurately and hard.",
+        "Both Waterbirth variants ignore player and monster collision and have a 35% earth spell weakness."
+      ]
+    },
+    {
+      "variantId": "dagannoth-spawn",
+      "name": "Dagannoth spawn",
+      "combatLevel": 42,
+      "slayerXp": 35,
+      "locations": [
+        "Waterbirth Island Dungeon"
+      ],
+      "notes": [
+        "Dagannoth spawn hatch from eggs near the walls or water while nearby Dagannoth are still aggressive.",
+        "They are always aggressive but are not recommended for Slayer tasks because regular Dagannoth give more experience with little extra difficulty."
+      ]
+    },
+    {
+      "variantId": "dagannoth-fledgeling",
+      "name": "Dagannoth fledgeling",
+      "combatLevel": 70,
+      "slayerXp": 0,
+      "locations": [
+        "Waterbirth Island Dungeon"
+      ],
+      "notes": [
+        "Located in Bardur's room deep in Waterbirth Island Dungeon.",
+        "Not useful for training because they give no combat or Slayer experience and are busy fighting Bardur."
+      ]
+    },
+    {
+      "variantId": "dagannoth-prime",
+      "name": "Dagannoth Prime",
+      "combatLevel": 303,
+      "slayerXp": 331.5,
+      "locations": [
+        "Deep within the Waterbirth Island Dungeon"
+      ],
+      "notes": [
+        "Dagannoth King using magic attacks; fight it with Ranged and keep Protect from Magic active.",
+        "Typically killed on task for Slayer helmet or black mask bonuses and valuable ring-slot drops."
+      ]
+    },
+    {
+      "variantId": "dagannoth-rex",
+      "name": "Dagannoth Rex",
+      "combatLevel": 303,
+      "slayerXp": 331.5,
+      "locations": [
+        "Deep within the Waterbirth Island Dungeon"
+      ],
+      "notes": [
+        "Dagannoth King using melee attacks; fight it with Magic and safespot or pray Protect from Melee.",
+        "Can be killed alone from safespots and is commonly hunted for the Berserker ring."
+      ]
+    },
+    {
+      "variantId": "dagannoth-supreme",
+      "name": "Dagannoth Supreme",
+      "combatLevel": 303,
+      "slayerXp": 255,
+      "locations": [
+        "Deep within the Waterbirth Island Dungeon"
+      ],
+      "notes": [
+        "Dagannoth King using ranged attacks; fight it with Melee and pray Protect from Missiles.",
+        "Usually fought as part of a tribrid Dagannoth Kings rotation."
+      ]
+    },
+    {
+      "variantId": "reanimated-dagannoth",
+      "name": "Reanimated Dagannoth",
+      "combatLevel": null,
+      "slayerXp": 35,
+      "locations": [
+        "Dark Altar",
+        "Other"
+      ],
+      "notes": [
+        "Expert Reanimation on an ensouled dagannoth head summons a Reanimated Dagannoth for 35 Slayer XP and 936 Prayer experience.",
+        "If the spell is not cast soon enough after picking up the head, or if the player trades the head or teleports away, it must be reanimated at the Dark Altar."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 14,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "The Dagannoth are located in the southern section of the Catacombs of Kourend.",
+        "No dwarf cannon can be used, but the melee-only Dagannoth support prayer AFK and difficult safespots."
+      ]
+    },
+    {
+      "locationId": "jormungand-s-prison-dagannoth",
+      "name": "Jormungand's Prison",
+      "amount": 62,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Only accessible after completing The Fremennik Exiles.",
+        "Common location for cannoning Dagannoth.",
+        "Dagannoth here only use melee attacks, making Protect from Melee simple."
+      ]
+    },
+    {
+      "locationId": "lighthouse-basement",
+      "name": "Lighthouse Dungeon",
+      "amount": 22,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Usually busy with players using a dwarf cannon.",
+        "Can offer some of the fastest slayer experience in the game.",
+        "Good for maximising AFK time without relying on prayer."
+      ]
+    },
+    {
+      "locationId": "waterbirth-island",
+      "name": "Waterbirth Island Dungeon",
+      "amount": 93,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains stronger Dagannoth than the other task locations plus 3 Dagannoth Kings deeper in the dungeon.",
+        "The entrance is not multicombat; reaching the multicombat zones normally requires a pet rock or Humphrey dumphrey and a ranged weapon or another player.",
+        "Trigger nearby eggs while Dagannoth remain aggressive to hatch dagannoth spawn and speed the task every few minutes.",
+        "A skeleton can be used to safespot north-east of the dungeon entrance after NPC aggression expires.",
+        "Reaching the Dagannoth Kings requires extra preparation."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Dagannoth require 75 combat and completion of Horror from the Deep to be assigned.",
+    "They are known for high slayer experience rates and easy task completions.",
+    "The Lighthouse basement is a strong AFK choice and allows a dwarf cannon in multicombat.",
+    "Jormungand's Prison is a common cannon location after The Fremennik Exiles because all Dagannoth there use melee.",
+    "Catacombs of Kourend cannot be cannoned, but prayer-boosting melee gear and prayer potions allow AFK kills with Auto Retaliate.",
+    "Dinh's bulwark special attack with Lightbearer can refresh aggression in the Catacombs without leaving the area.",
+    "Waterbirth Island has stronger Dagannoth; dagannoth spawn can be triggered from nearby eggs while the monsters are still aggressive.",
+    "Dagannoth Kings are a rewarding alternative on a normal Dagannoth task or a Konar Waterbirth Island assignment.",
+    "80 Agility with a Summer pie boost or 85 Agility for shortcuts and Elite Fremennik Diary for noted Dagannoth bones make Dagannoth Kings much better.",
+    "Expert Reanimation on ensouled dagannoth heads can train Prayer during a task, but it lowers combat and Slayer experience rates.",
+    "Dagannoth frequently drop herb seeds, so bringing a seed box is recommended."
+  ],
+  "recommendedMethod": "Use cannon + melee at the Lighthouse or Jormungand's Prison for fast tasks; use Catacombs prayer AFK for low effort; kill Dagannoth Kings for profit and Slayer helm bonuses when prepared."
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "jelly",
+  "name": "Jelly",
+  "npcIds": [
+    437,
+    438,
+    439,
+    440,
+    441,
+    442,
+    11241,
+    11242,
+    11243,
+    11244,
+    11245
+  ],
+  "combatLevel": 78,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Slayer Dungeon; Wilderness Slayer Cave",
+  "locationId": "fremennik-slayer-dungeon",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "jellies"
+}

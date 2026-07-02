@@ -1,0 +1,157 @@
+{
+  "taskId": "bears",
+  "name": "Bears",
+  "wikiPageId": null,
+  "combatLevel": 13,
+  "slayerTargetId": 253,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      65,
+      100
+    ],
+    "turael": [
+      10,
+      20
+    ],
+    "spria": [
+      10,
+      20
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6,
+    "turael": 7,
+    "spria": 7,
+    "mazchna": 6
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "bears"
+  ],
+  "variantIds": [
+    "grizzly-bear",
+    "grizzly-bear-cub",
+    "black-bear"
+  ],
+  "defaultVariantId": "grizzly-bear",
+  "weakness": {
+    "style": "MELEE",
+    "element": "FIRE"
+  },
+  "monsterDefence": {
+    "defenceLevel": 15,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "bears-wilderness",
+    "bears-area"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "grizzly-bear",
+      "name": "Grizzly bear",
+      "combatLevel": 21,
+      "slayerXp": 27,
+      "locations": [
+        "Wilderness (north-west of Ferox Enclave / Dark Warriors' Fortress)",
+        "Fremennik Province woods (outside Rellekka)",
+        "Kebos Lowlands"
+      ],
+      "notes": [
+        "NPC ids 2838 (level 21) and 3423 (level 42); 27 Hitpoints, Defence 15.",
+        "Attacks with slash; aggressive. 20% weakness to fire spells (June 2025).",
+        "Wilderness grizzly bears count for Krystilia's Wilderness bears task."
+      ]
+    },
+    {
+      "variantId": "grizzly-bear-cub",
+      "name": "Grizzly bear cub",
+      "combatLevel": 33,
+      "slayerXp": 35,
+      "locations": [
+        "Isafdar (near larger grizzly bears)"
+      ],
+      "notes": [
+        "NPC ids 3424 (level 33) and 3425 (level 36); 35 Hitpoints, Defence 25.",
+        "Found only in Isafdar; reaching them needs partial completion of Regicide.",
+        "Counts for a Bears task; grants 35 Slayer experience per kill."
+      ]
+    },
+    {
+      "variantId": "black-bear",
+      "name": "Black bear",
+      "combatLevel": 19,
+      "slayerXp": 25,
+      "locations": [
+        "Outside the Mind Altar",
+        "Varrock south-east mine",
+        "East of the Farming Guild"
+      ],
+      "notes": [
+        "NPC id 2839; 25 Hitpoints, Defence 13; non-aggressive.",
+        "Attacks with slash (4-tick); 30% weakness to fire spells (June 2025).",
+        "A common non-Wilderness bear for Turael, Spria, and Mazchna tasks."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "bears-wilderness",
+      "name": "Wilderness bears",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "West of the Graveyard of Shadows (~10 grizzly bears) and near the Dark Warriors' Fortress; north-west of Ferox Enclave.",
+        "Required for Krystilia's Wilderness bears task; carries PKer risk.",
+        "Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative."
+      ]
+    },
+    {
+      "locationId": "bears-area",
+      "name": "Non-Wilderness bears",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Fremennik Province woods outside Rellekka (~10 bears), Kebos Lowlands, and around the Mind Altar (black bears).",
+        "Used for Turael, Spria, and Mazchna bears tasks.",
+        "Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Bears can be assigned by Krystilia (Wilderness, 65-100), Turael and Spria (10-20), and Mazchna (30-50); no Slayer level is required, only 13 combat.",
+    "Black bears, bear cubs, grizzly bears, grizzly bear cubs, reanimated bears, and Callisto count for the task; Angry bears, the Headless Beast, and Crystalline/Corrupted Bears do NOT count.",
+    "Krystilia's bears must be killed in the Wilderness (west of the Graveyard of Shadows or near the Dark Warriors' Fortress); starter-master bears are killed anywhere.",
+    "Grizzly bear cubs are found only in Isafdar and require partial completion of Regicide to reach.",
+    "Bears have a fire spell weakness (grizzly 20%, black bear 30% as of June 2025) but are trivial with any melee weapon.",
+    "The slayerTargetId 253 is SYNTHETIC (C2/C3 allocation contract, worklist §1); the real SLAYER_TARGET varp value is a QA live-verify item."
+  ],
+  "recommendedMethod": "Kill any counting bear with any melee weapon - they have negligible Defence and low Hitpoints. Krystilia tasks must be done in the Wilderness (bring only risk-appropriate gear); starter-master tasks are fastest at the Fremennik Province woods or around the Mind Altar."
+}

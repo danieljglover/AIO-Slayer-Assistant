@@ -1,0 +1,11 @@
+{
+  "locationId": "poison-waste-dungeon-tortoise-lower",
+  "name": "Poison Waste Dungeon - tortoise lower level",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires The Path of Glouphrie and a crystal chime. Lower-level Warped Tortoises are multicombat, cannonable, and safespottable."
+}

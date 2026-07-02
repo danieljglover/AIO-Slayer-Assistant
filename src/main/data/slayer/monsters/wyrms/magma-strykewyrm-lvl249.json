@@ -1,0 +1,29 @@
+{
+  "variantId": "magma-strykewyrm",
+  "name": "Magma strykewyrm",
+  "npcIds": [
+    15504
+  ],
+  "combatLevel": 249,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 110,
+    "stab": 60,
+    "slash": 30,
+    "crush": 70,
+    "magic": 40,
+    "range": 120
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Charred Dungeon",
+  "requirement": "superior - Bigger and Badder unlock; spawns from Lava Strykewyrms",
+  "bossId": null,
+  "strategyId": "wyrms"
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "asgarnian-ice-dungeon",
+  "name": "Asgarnian Ice Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Entrance is south of Port Sarim and north of Mudskipper Point. Skeletal Wyverns are at the end of the dungeon; fairy ring AIQ and the Agility shortcuts can speed the route."
+}

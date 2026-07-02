@@ -1,0 +1,35 @@
+{
+  "variantId": "boss-abyssal-sire",
+  "name": "Abyssal Sire",
+  "npcIds": [
+    5886,
+    5887,
+    5888,
+    5889,
+    5890,
+    5891,
+    5908
+  ],
+  "combatLevel": 350,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 250,
+    "stab": 40,
+    "slash": 60,
+    "crush": 50,
+    "magic": 20,
+    "range": 60
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "The Abyssal Nexus",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "abyssal-sire"
+}

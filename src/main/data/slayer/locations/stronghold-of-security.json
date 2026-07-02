@@ -1,0 +1,11 @@
+{
+  "locationId": "stronghold-of-security",
+  "name": "Stronghold of Security",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Ankou safespot is in the Sepulchre of Death south-west room, on the south side of the south-easternmost skeleton."
+}

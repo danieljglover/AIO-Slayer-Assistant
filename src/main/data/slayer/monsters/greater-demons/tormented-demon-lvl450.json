@@ -1,0 +1,32 @@
+{
+  "variantId": "tormented-demon",
+  "name": "Tormented Demon",
+  "npcIds": [
+    13599,
+    13600,
+    13601,
+    13602
+  ],
+  "combatLevel": 450,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 75,
+    "slash": 175,
+    "crush": 68,
+    "magic": 5,
+    "range": 150
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Ancient Guthixian Temple",
+  "requirement": "While Guthix Sleeps; shield must be broken first",
+  "bossId": null,
+  "strategyId": "tormented-demon"
+}

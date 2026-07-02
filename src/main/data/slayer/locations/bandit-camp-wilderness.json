@@ -1,0 +1,11 @@
+{
+  "locationId": "bandit-camp-wilderness",
+  "name": "Bandit Camp (Wilderness)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "The Bandit Camp east of the Ruins in the Wilderness (around level 14-20) holds the level 22 and level 130 bandits assigned by Krystilia. The bandits are aggressive to all players, so approach with caution. Multicombat, cannon placement and safespots are not wiki-stated for this camp, so conservative defaults are used. This is a PvP zone; bring Wilderness-appropriate risk gear."
+}

@@ -1,0 +1,242 @@
+{
+  "taskId": "red-dragons",
+  "name": "Red dragons",
+  "wikiPageId": 297868,
+  "combatLevel": null,
+  "slayerTargetId": 231,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Dragon Slayer I (partial completion)"
+  ],
+  "masterIds": [
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "konar": [
+      30,
+      50
+    ],
+    "nieve": [
+      30,
+      80
+    ],
+    "duradel": [
+      30,
+      65
+    ]
+  },
+  "weightByMaster": {
+    "konar": 5,
+    "nieve": 5,
+    "duradel": 8
+  },
+  "unlocks": [
+    {
+      "unlockId": "seeing-red",
+      "name": "Seeing red",
+      "pointsCost": 50,
+      "notes": "Konar, Duradel and Nieve will be able to assign Red dragons as a task."
+    }
+  ],
+  "monsterIds": [
+    "red-dragons"
+  ],
+  "variantIds": [
+    "red-dragon",
+    "baby-red-dragon",
+    "brutal-red-dragon"
+  ],
+  "defaultVariantId": "red-dragon",
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 130,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 60,
+    "range": 50
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "brimhaven-dungeon-red-dragons",
+    "charred-dungeon-red-dragons",
+    "corsair-cove-dungeon-red-dragons",
+    "forthos-dungeon-red-dragons",
+    "brimhaven-dungeon-baby-red-dragons",
+    "corsair-cove-dungeon-baby-red-dragons",
+    "forthos-dungeon-baby-red-dragons",
+    "catacombs-of-kourend-brutal-red-dragons"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "red-dragon",
+      "name": "Red Dragon",
+      "combatLevel": 152,
+      "slayerXp": 143.4,
+      "locations": [
+        "Brimhaven Dungeon",
+        "Corsair Cove Dungeon / Myths' Guild basement",
+        "Forthos Dungeon",
+        "Charred Dungeon"
+      ],
+      "notes": [
+        "Brimhaven Dungeon requires at least 30 Agility.",
+        "Adult red dragons use melee and dragonfire, and have a 50% water spell weakness."
+      ]
+    },
+    {
+      "variantId": "baby-red-dragon",
+      "name": "Baby red dragon",
+      "combatLevel": 48,
+      "slayerXp": 50,
+      "locations": [
+        "Brimhaven Dungeon",
+        "Corsair Cove Dungeon / Myths' Guild basement",
+        "Forthos Dungeon"
+      ],
+      "notes": [
+        "The Baby red dragon variant does not attack with dragonfire.",
+        "Baby red dragons are weak to ranged, magic, and stab attacks and have a 50% water spell weakness."
+      ]
+    },
+    {
+      "variantId": "brutal-red-dragon",
+      "name": "Brutal red dragon",
+      "combatLevel": 289,
+      "slayerXp": 306.2,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Uses long-range dragonfire, as well as Melee and Magic attacks.",
+        "Brutal red dragons have a chance at the draconic visage, but are generally not worth killing for the task because they are slow compared to normal or baby red dragons."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "brimhaven-dungeon-red-dragons",
+      "name": "Brimhaven Dungeon",
+      "amount": 16,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Completing Karamja Elite Diary causes red dragonhides to be noted.",
+        "There is a safespot next to the pipe agility shortcut to the black demons."
+      ]
+    },
+    {
+      "locationId": "charred-dungeon-red-dragons",
+      "name": "Charred Dungeon",
+      "amount": 4,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires level 60 Sailing to access.",
+        "Black Dragons and Baby Black Dragons are also in the same large room."
+      ]
+    },
+    {
+      "locationId": "corsair-cove-dungeon-red-dragons",
+      "name": "Corsair Cove Dungeon / Myths' Guild basement",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires Completion of Dragon Slayer II.",
+        "This area is very close to a bank."
+      ]
+    },
+    {
+      "locationId": "forthos-dungeon-red-dragons",
+      "name": "Forthos Dungeon",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "There is a safespot next to the fire and stalagmite near the strange floor agility shortcut.",
+        "After unlocking the Sacred Bone Burner, bone drops can be sacrificed there for bonus XP.",
+        "The nearby altar can be used to sustain Prayer Points indefinitely.",
+        "A Needle and Thread or Costume needle can be brought to craft hides tanned with Eodan for Crafting XP."
+      ]
+    },
+    {
+      "locationId": "brimhaven-dungeon-baby-red-dragons",
+      "name": "Brimhaven Dungeon",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Baby red dragons in Brimhaven Dungeon are cannonable but not safespottable on the task page.",
+        "Adult red dragons and wild dogs can attack nearby."
+      ]
+    },
+    {
+      "locationId": "corsair-cove-dungeon-baby-red-dragons",
+      "name": "Corsair Cove Dungeon / Myths' Guild basement",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires Completion of Dragon Slayer II.",
+        "Contains two baby red dragons near the bank-adjacent red dragon group."
+      ]
+    },
+    {
+      "locationId": "forthos-dungeon-baby-red-dragons",
+      "name": "Forthos Dungeon",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Forthos Dungeon contains five baby red dragons.",
+        "These are not cannonable or safespottable on the task page."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend-brutal-red-dragons",
+      "name": "Catacombs of Kourend",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Brutal red dragons are found in the Catacombs of Kourend.",
+        "They are stronger, use long-range dragonfire, Magic and Melee, and are slow compared to normal or baby red dragons."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Red dragons can be assigned after unlocking Seeing red for 50 Slayer reward points.",
+    "Receiving the task requires partial completion of Dragon Slayer I to receive the Anti-dragon shield.",
+    "Adult and brutal red dragon variants use melee and dragonfire.",
+    "Use sufficient dragonfire protection to avoid heavy damage.",
+    "Protect from Magic can suffice as an alternative protection choice on the task page.",
+    "Completion of the Elite Karamja Diary causes Brimhaven Dungeon red dragons to drop noted red dragonhide.",
+    "After Dragon Slayer II, three adult red dragons and two baby red dragons can be found in Corsair Cove Dungeon close to a bank.",
+    "Brutal red dragons are a stronger Catacombs alternative and, unlike normal red dragons, can drop the draconic visage.",
+    "Brutal red dragons are generally not worth killing because a task of brutal red dragons is very slow compared to normal or baby red dragons.",
+    "Red dragons, baby red dragons, and brutal red dragons have a 50% elemental weakness to water spells.",
+    "Baby red dragons do not use dragonfire.",
+    "Brimhaven Dungeon requires at least 30 Agility for the red dragon route."
+  ],
+  "recommendedMethod": "Unlock Seeing red, bring dragonfire protection for adult or brutal red dragons, use dragonbane ranged or melee, cannon Brimhaven or Dragon Slayer II Corsair locations for speed, and avoid brutal red dragons unless specifically choosing the slower draconic visage option."
+}

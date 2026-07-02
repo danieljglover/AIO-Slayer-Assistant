@@ -1,0 +1,113 @@
+{
+  "taskId": "dwarves",
+  "name": "Dwarves",
+  "wikiPageId": 16965,
+  "combatLevel": 6,
+  "slayerTargetId": 287,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria"
+  ],
+  "amountByMaster": {
+    "turael": [
+      10,
+      25
+    ],
+    "spria": [
+      10,
+      25
+    ]
+  },
+  "weightByMaster": {
+    "turael": 7,
+    "spria": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "dwarves"
+  ],
+  "variantIds": [
+    "dwarf",
+    "black-guard"
+  ],
+  "defaultVariantId": "dwarf",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 6,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 5,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "dwarven-mine"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "dwarf",
+      "name": "Dwarf",
+      "combatLevel": 10,
+      "slayerXp": 16,
+      "locations": [
+        "Dwarven Mine",
+        "Ice Mountain",
+        "Mining Guild"
+      ],
+      "notes": [
+        "16 Hitpoints, max hit 2 (stab), 5-tick attack speed, Defence level 6 (magic defence +5, all other bonuses 0).",
+        "No elemental weakness."
+      ]
+    },
+    {
+      "variantId": "black-guard",
+      "name": "Black Guard",
+      "combatLevel": 25,
+      "slayerXp": 30,
+      "locations": [
+        "Ice Mountain (level 25)",
+        "Keldagrim (level 48)"
+      ],
+      "notes": [
+        "Level 25 form: 30 Hitpoints, max hit 3, Defence level 20 with small melee bonuses (npc 1409-1412).",
+        "A level 48 Keldagrim form (40 HP, max hit 8, Defence 45, npc 6046-6049) also counts toward the task."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "dwarven-mine",
+      "name": "Dwarven Mine",
+      "amount": 36,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "The free-to-play Dwarven Mine holds the densest dwarf cluster (36 spawns).",
+        "Ice Mountain and Keldagrim Black Guards also count; multi, cannon and safespot availability are not wiki-confirmed (conservative defaults)."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Dwarves requires combat level 6 to be assigned by Turael or Spria (Mazchna does not assign Dwarves). There is no Slayer level requirement.",
+    "slayerTargetId 287 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The Dwarves task counts both dwarves and Black Guards; wikiPageId 16965 is the Dwarf monster page.",
+    "Dwarf: combat level 10, 16 HP, max hit 2 (stab), Defence 6 with a +5 magic defence bonus (npc 290/292/294/295/296/1401-1408/8496).",
+    "Black Guard (level 25): 30 HP, max hit 3, Defence 20 (npc 1409-1412); a level 48 Keldagrim form (npc 6046-6049) also counts.",
+    "None of the dwarves are undead, so the salve amulet does not apply. No task extension unlock exists for Dwarves."
+  ],
+  "recommendedMethod": "Kill dwarves in the free-to-play Dwarven Mine beneath Ice Mountain (36 spawns) with any melee weapon; their Defence is trivial. Black Guards on Ice Mountain and in Keldagrim also count. Ranged is the better non-melee option, since dwarves carry a small +5 magic defence bonus."
+}

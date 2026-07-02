@@ -1,0 +1,101 @@
+{
+  "taskId": "shadow-warriors",
+  "name": "Shadow warriors",
+  "wikiPageId": 15476,
+  "combatLevel": 60,
+  "slayerTargetId": 249,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Legends' Quest"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      30,
+      80
+    ],
+    "chaeldar": [
+      70,
+      130
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 8,
+    "chaeldar": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "shadow-warriors"
+  ],
+  "variantIds": [
+    "shadow-warrior"
+  ],
+  "defaultVariantId": "shadow-warrior",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 36,
+    "stab": 43,
+    "slash": 31,
+    "crush": 19,
+    "magic": 15,
+    "range": 38
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "legends-guild-dungeon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "shadow-warrior",
+      "name": "Shadow warrior",
+      "combatLevel": 48,
+      "slayerXp": 67,
+      "locations": [
+        "Legends' Guild Dungeon"
+      ],
+      "notes": [
+        "A fighter from the supernatural world; attacks with slash melee at scimitar speed despite the battleaxe appearance.",
+        "Hidden on the minimap."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "legends-guild-dungeon",
+      "name": "Legends' Guild Dungeon",
+      "amount": 19,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "19 spawns; the sole Shadow warrior location.",
+        "Safespot through the fence by the pit scorpions or behind the fungus near the cavern wall.",
+        "Multicombat and cannon placement are not wiki-stated; conservative defaults are used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Shadow warriors require 60 combat and completion of Legends' Quest to be assigned; there is no Slayer level requirement.",
+    "slayerTargetId 249 is SYNTHETIC (WC-1..11 allocation contract: 240 + WC index); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Shadow warriors are found only in the Legends' Guild Dungeon (19 spawns).",
+    "They are not undead despite their ghostly appearance, so the Salve amulet does not apply.",
+    "Crush is their weakest melee defence (+19); stab (+43) and ranged (+38) are their strongest defences.",
+    "They can be safespotted through the fence separating them from the pit scorpions, or behind the fungus near the cavern wall.",
+    "They attack with slash melee at scimitar speed with a max hit of 6 and are hidden on the minimap.",
+    "No task extension unlock exists for Shadow warriors."
+  ],
+  "recommendedMethod": "Kill the 19 Legends' Guild Dungeon shadow warriors with a crush weapon against their weakest defence, or safespot through the fence by the pit scorpions with ranged or magic. Low max hit makes this a low-risk task."
+}

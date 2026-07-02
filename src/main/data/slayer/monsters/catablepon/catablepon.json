@@ -1,0 +1,41 @@
+{
+  "variantId": "catablepon",
+  "name": "Catablepon",
+  "npcIds": [
+    2474,
+    2475,
+    2476
+  ],
+  "combatLevel": 68,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 40,
+    "slash": 30,
+    "crush": 20,
+    "magic": 20,
+    "range": 40
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Stronghold of Security",
+  "locationId": "stronghold-of-security-catablepon",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "catablepon",
+  "offence": {
+    "hitpoints": 40,
+    "maxHit": 6,
+    "attackStyles": [
+      "MELEE",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

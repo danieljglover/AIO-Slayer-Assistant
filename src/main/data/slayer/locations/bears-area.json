@@ -1,0 +1,11 @@
+{
+  "locationId": "bears-area",
+  "name": "Non-Wilderness bears",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Non-Wilderness bears for Turael, Spria, and Mazchna tasks: the Fremennik Province woods just outside Rellekka hold about 10 grizzly bears, with more in the Kebos Lowlands south of Mount Quidamortem; black bears cluster around the Mind Altar and Varrock south-east mine. Grizzly bear cubs are in Isafdar (partial Regicide required). Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative (false)."
+}

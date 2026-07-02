@@ -1,0 +1,33 @@
+{
+  "variantId": "phantom-muspah",
+  "name": "Phantom Muspah",
+  "npcIds": [
+    12077,
+    12078,
+    12079,
+    12080,
+    12082
+  ],
+  "combatLevel": 741,
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 200,
+    "stab": 185,
+    "slash": 134,
+    "crush": 120,
+    "magic": 437,
+    "range": 56
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Ghorrock Dungeon (via Weiss salt mine)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "phantom-muspah"
+}

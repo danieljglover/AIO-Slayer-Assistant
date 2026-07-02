@@ -1,0 +1,119 @@
+{
+  "taskId": "bats",
+  "name": "Bats",
+  "wikiPageId": 12331,
+  "combatLevel": 5,
+  "slayerTargetId": 276,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "turael": 7,
+    "spria": 7,
+    "mazchna": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "bats"
+  ],
+  "variantIds": [
+    "bat-lvl6",
+    "giant-bat-lvl27"
+  ],
+  "defaultVariantId": "giant-bat-lvl27",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 22,
+    "stab": 10,
+    "slash": 10,
+    "crush": 12,
+    "magic": 10,
+    "range": 8
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "bat-spawns"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "bat-lvl6",
+      "name": "Bat",
+      "combatLevel": 6,
+      "slayerXp": 8,
+      "locations": [
+        "West of the Paterdomus temple",
+        "Morytania",
+        "Kandarin"
+      ],
+      "notes": [
+        "The regular Bat has 8 Hitpoints and max hit 1 (stab); 8 Slayer XP per kill.",
+        "35% elemental weakness to air spells; drops only bat bones or nothing."
+      ]
+    },
+    {
+      "variantId": "giant-bat-lvl27",
+      "name": "Giant bat",
+      "combatLevel": 27,
+      "slayerXp": 32,
+      "locations": [
+        "Various Kandarin and Morytania spots",
+        "Arceuus (near the Dark Altar)"
+      ],
+      "notes": [
+        "The Giant bat is the most common variety counted: 32 Hitpoints, max hit 3 (stab), 32 Slayer XP.",
+        "10% elemental weakness to air spells (added 25 June 2025); aggressive to players of combat level 54 or lower except in Arceuus.",
+        "Higher bat variants (Albino bat lvl52 requires Cabin Fever; Death wing lvl83 requires Legends' Quest progress) also count but are inefficient and their stats are honest-UNKNOWN here."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "bat-spawns",
+      "name": "Bat spawns (various)",
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Bats and giant bats are spread across many low-density spots; no single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "Bats drop only bat bones or nothing, so the task is a starter Slayer-XP task."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Bats require combat level 5 to be assigned by Turael, Spria, or Mazchna; there is no Slayer level or quest requirement.",
+    "slayerTargetId 276 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Five bat types count: Bat (lvl6), Giant bat (lvl27, most common), Albino bat (lvl52, Cabin Fever), Death wing (lvl83, Legends' Quest), and other bats; only Bat and Giant bat stats are authored, the rest are honest-UNKNOWN.",
+    "The Giant bat has 32 Hitpoints, max hit 3 (stab melee), 4-tick attack speed, and Defence level 22.",
+    "Bats have an elemental weakness to air spells (35% on the Bat, 10% on the Giant bat).",
+    "No required protective item and no task extension unlock exist for Bats."
+  ],
+  "recommendedMethod": "A low-level Slayer-XP task: kill Giant bats (the most common variety) or regular Bats with any melee weapon. Air spells exploit the elemental weakness for a Magic-training alternative. Bats drop only bat bones, so the task is done for Slayer XP and the streak rather than loot."
+}

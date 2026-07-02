@@ -1,0 +1,11 @@
+{
+  "locationId": "poison-waste-dungeon-terrorbird-main",
+  "name": "Poison Waste Dungeon - terrorbird main level",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires The Path of Glouphrie, a crystal chime, and earmuffs or Slayer helmet for safer terrorbird damage. Task-page safespotting is conditional on door, corner, or waste-pit pathing."
+}

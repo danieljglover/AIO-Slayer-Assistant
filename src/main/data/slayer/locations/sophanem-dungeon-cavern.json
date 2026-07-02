@@ -1,0 +1,11 @@
+{
+  "locationId": "sophanem-dungeon-cavern",
+  "name": "Sophanem Dungeon (cavern)",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires Contact! (partial completion). The cavern level holds 27 Locust riders and 18 Scarab mages; multicombat and cannonable. Watch the floor trap at the entrance and bring a lantern and tinderbox."
+}

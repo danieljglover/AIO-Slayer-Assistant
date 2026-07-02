@@ -1,0 +1,11 @@
+{
+  "locationId": "mourner-tunnels",
+  "name": "Mourner Tunnels",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires starting Mourning's End Part II. Contains 19 Dark beasts, is single-combat, supports a dwarf multicannon, and is easily accessed with a Slayer ring after completing Mourning's End Part II."
+}

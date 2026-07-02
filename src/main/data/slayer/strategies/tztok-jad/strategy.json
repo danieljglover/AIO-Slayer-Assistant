@@ -1,0 +1,119 @@
+{
+  "strategyId": "tztok-jad",
+  "variantIds": [
+    "tztok-jad"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/TzHaar_Fight_Cave/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "toxic-blowpipe",
+      "twisted-bow",
+      "bow-of-faerdhinen",
+      "zaryte-crossbow",
+      "armadyl-crossbow",
+      "hunters-sunlight-crossbow",
+      "rune-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Ranged avoids Jad's no-warning melee and lets the player fight from distance. Twisted bow is strongest on Jad specifically because of his high Magic level."
+  },
+  "requirements": [
+    "TzHaar Slayer task with the TzTok-Jad alternative accepted.",
+    "Supplies for a complete Fight Cave run.",
+    "Ranged setup strongly recommended for wave control and Jad distance."
+  ],
+  "mechanics": [
+    "The Fight Cave is a wave encounter ending with TzTok-Jad.",
+    "TzTok-Jad uses Magic and Ranged attacks that must be prayer-switched correctly.",
+    "Jad also has a melee attack without the same practical warning, so fighting from range is safer.",
+    "Healers spawn during the Jad fight and can restore Jad if left uncontrolled.",
+    "A successful task completion gives 37,010 total Slayer XP and the on-task pet-rate bonus."
+  ],
+  "methods": [
+    {
+      "methodId": "ranged-wave-clear",
+      "label": "Ranged wave clear",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use Ranged for the Fight Cave waves so Jad can be fought from outside melee distance.",
+      "recommendedFor": [
+        "most Jad tasks",
+        "players learning Fight Cave prayer rhythm"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged weapon",
+        "Prayer restoration",
+        "Food or brews",
+        "Emergency teleport before entering only; leaving the cave ends the run"
+      ],
+      "steps": [
+        "Clear waves while preserving prayer and supplies for Jad.",
+        "Use terrain to separate dangerous wave combinations where possible.",
+        "Before Jad spawns, move to a position that keeps distance and gives clear line of sight.",
+        "Stay outside melee range and attack Jad with Ranged."
+      ],
+      "risks": [
+        "Leaving or dying ends the run.",
+        "Supply mistakes on earlier waves can make Jad unsafe even with correct prayers."
+      ]
+    },
+    {
+      "methodId": "jad-prayer-switching",
+      "label": "Jad prayer switching",
+      "combatStyle": "RANGED",
+      "role": "boss",
+      "summary": "Watch Jad's attack animations and alternate protection prayers for Magic and Ranged while keeping distance.",
+      "recommendedFor": [
+        "TzTok-Jad kill",
+        "Slayer task completion"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Protect from Missiles",
+        "Offensive ranged prayer when comfortable"
+      ],
+      "steps": [
+        "Focus on Jad's attack animation before every hit.",
+        "Switch to Protect from Magic for the magic animation.",
+        "Switch to Protect from Missiles for the ranged animation.",
+        "Tag healers when they spawn, then control them without losing the prayer rhythm.",
+        "Resume attacking Jad once healers are controlled."
+      ],
+      "risks": [
+        "One missed protection prayer can kill the player.",
+        "Chasing healers can drag the player into melee range."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-jad",
+      "label": "Ranged Jad setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use Ranged through the cave and on Jad to avoid his no-warning melee.",
+      "weapons": [
+        "toxic-blowpipe",
+        "twisted-bow",
+        "bow-of-faerdhinen",
+        "zaryte-crossbow",
+        "armadyl-crossbow",
+        "hunters-sunlight-crossbow",
+        "rune-crossbow"
+      ],
+      "notes": [
+        "Twisted bow is especially strong on Jad, while blowpipe is strong for many wave targets."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "boss-vorkath",
+  "name": "Vorkath",
+  "npcIds": [
+    8058,
+    8059,
+    8060,
+    8061
+  ],
+  "combatLevel": 732,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 214,
+    "stab": 26,
+    "slash": 108,
+    "crush": 108,
+    "magic": 240,
+    "range": 78
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": true,
+  "boss": true,
+  "location": "Ungael (Dragon Slayer II access)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "vorkath"
+}

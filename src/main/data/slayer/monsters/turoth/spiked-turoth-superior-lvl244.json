@@ -1,0 +1,30 @@
+{
+  "variantId": "spiked-turoth-superior",
+  "name": "Spiked Turoth (superior)",
+  "npcIds": [
+    10397
+  ],
+  "combatLevel": 244,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 154,
+    "stab": 0,
+    "slash": 40,
+    "crush": 40,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Slayer Dungeon",
+  "locationId": "fremennik-slayer-dungeon-turoths",
+  "requirement": "Bigger and Badder superior spawn; leaf-bladed weapons, broad ammunition, or Magic Dart only",
+  "bossId": null,
+  "strategyId": "turoth"
+}

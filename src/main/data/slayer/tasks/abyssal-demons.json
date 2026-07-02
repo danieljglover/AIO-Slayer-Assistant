@@ -1,0 +1,265 @@
+{
+  "taskId": "abyssal-demons",
+  "name": "Abyssal demons",
+  "wikiPageId": 298016,
+  "combatLevel": 85,
+  "slayerTargetId": 12,
+  "slayerLevel": 85,
+  "questReqs": [
+    "Priest in Peril or Fairytale II - Cure a Queen"
+  ],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5,
+    "vannaka": 8,
+    "chaeldar": 12,
+    "konar": 9,
+    "nieve": 9,
+    "duradel": 12
+  },
+  "extendedAmount": {
+    "krystilia": [
+      200,
+      250
+    ],
+    "vannaka": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "augment-my-abbies",
+      "name": "Augment my abbies",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of abyssal demons assigned is increased to 200-250."
+    },
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Abyssal demons can spawn Greater abyssal demons while on task."
+    },
+    {
+      "unlockId": "unholy-helmet",
+      "name": "Unholy Helmet",
+      "pointsCost": 1000,
+      "notes": "Learn how to combine an Abyssal demon head with a Slayer helmet to recolour it red."
+    }
+  ],
+  "monsterIds": [
+    "abyssal-demons"
+  ],
+  "variantIds": [
+    "abyssal-demon",
+    "greater-abyssal-demon",
+    "abyssal-demons-abyssal-sire"
+  ],
+  "defaultVariantId": "abyssal-demon",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 135,
+    "stab": 20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 0,
+    "range": 20
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "abyssal-area",
+    "catacombs-of-kourend",
+    "slayer-tower",
+    "slayer-tower-basement",
+    "wilderness-slayer-cave"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "abyssal-demon",
+      "name": "Abyssal demon",
+      "combatLevel": 124,
+      "slayerXp": 150,
+      "locations": [
+        "Abyssal Area",
+        "Slayer Tower",
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Standard abyssal demons."
+      ]
+    },
+    {
+      "variantId": "abyssal-demon-catacombs",
+      "name": "Abyssal demon",
+      "combatLevel": 124,
+      "slayerXp": 150,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Catacombs of Kourend version of abyssal demons."
+      ]
+    },
+    {
+      "variantId": "greater-abyssal-demon",
+      "name": "Greater abyssal demon",
+      "combatLevel": 342,
+      "slayerXp": 4200,
+      "locations": [
+        "Abyssal Area",
+        "Slayer Tower",
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Superior slayer monster variant after purchasing Bigger and Badder for 50 Slayer reward points."
+      ]
+    },
+    {
+      "variantId": "abyssal-demons-abyssal-sire",
+      "name": "Abyssal Sire",
+      "combatLevel": 350,
+      "slayerXp": 478,
+      "locations": [
+        "Abyssal Nexus"
+      ],
+      "notes": [
+        "Boss variant.",
+        "478 Slayer XP normally, or 678 with respiratory systems.",
+        "See the Abyssal Sire strategy for boss-specific kill guidance."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "abyssal-area",
+      "name": "Abyssal Area",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Not efficient due to aggressive abyssal creatures and distant spawns, except for Konar tasks.",
+        "Ensouled heads dropped here can be reanimated for slightly faster task progression."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 13,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Multi-combat area allows barraging in the primary rooms and more AFK play in both primary and secondary rooms.",
+        "Catacombs kills can drop Dark totem pieces; Greater abyssal demons in the Catacombs always drop a Dark totem piece."
+      ]
+    },
+    {
+      "locationId": "slayer-tower",
+      "name": "Slayer Tower",
+      "amount": 14,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Very far to reach without 71 Agility; use the basement for Slayer tasks when possible.",
+        "Morytania Diary completion grants bonus Slayer experience in the Slayer Tower."
+      ]
+    },
+    {
+      "locationId": "slayer-tower-basement",
+      "name": "Slayer Tower Basement",
+      "amount": 14,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Task only. Safespot requires the Teleport anchoring scroll permanent unlock."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave",
+      "name": "Wilderness Slayer Cave",
+      "amount": 8,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Level 29-32 Wilderness and task only.",
+        "Only Abyssal demon location where a cannon can be used.",
+        "Includes blighted item drops and Last Man Standing reward-shop drops."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Abyssal demons use accurate melee stab attacks with a max hit of 8; Protect from Melee neutralizes normal Abyssal demon damage.",
+    "Greater abyssal demons can spawn after Bigger and Badder, have a max hit of 27, teleport around the player, and always land a hit after teleporting if not prayed against.",
+    "Teleport anchoring scroll is highly recommended because it prevents Abyssal demons from teleporting the player up to 20 tiles away.",
+    "If the player has not read a Teleport anchoring scroll, Auto Retaliate helps resume attacking after being teleported.",
+    "Demonbane weaponry works because Abyssal demons are demons: Arclight, Emberlight, Scorching bow, and Demonbane spells receive their relevant bonuses, though AoE magic or Venator bow methods are usually preferred for experience.",
+    "Extend Abyssal demon tasks with Augment my abbies because they can provide very high Slayer experience.",
+    "Abyssal whip is a 1/512 drop and Abyssal dagger is an extremely rare drop.",
+    "Ensouled abyssal heads appear several times per task, making Soul bearer useful; herb sack and Explorer's ring 4 help with herbs and alchables.",
+    "Players on Abyssal demon tasks may kill Abyssal Sire instead for profit, accepting significantly lower Slayer experience rates than regular Abyssal demons."
+  ],
+  "recommendedMethod": "Use Catacombs magic for high Slayer experience: tag or goad Abyssal demons, stack them, and cast Smoke Barrage or Smoke Burst with Protect from Melee. Venator bow is a lower-attention ranged alternative. Wilderness Slayer Cave supports cannon plus Accursed sceptre but carries PK risk. Use Emberlight or Arclight for single-combat melee or Slayer Tower tasks."
+}

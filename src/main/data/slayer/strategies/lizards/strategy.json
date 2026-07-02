@@ -1,0 +1,77 @@
+{
+  "strategyId": "lizards",
+  "variantIds": [
+    "desert-lizard"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Desert_Lizard",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [],
+    "note": "Desert Lizards have no elemental weakness and only Defence level 20, so any melee weapon works. The key mechanic is the ice cooler: each lizard must be finished with an ice cooler once it drops below 5 Hitpoints. Bring waterskins for the Desert Heat."
+  },
+  "requirements": [
+    "22 Slayer is required to kill Desert Lizards (no combat requirement).",
+    "Ice coolers are mandatory to finish each lizard below 5 Hitpoints; Ancient ice spells do not substitute.",
+    "Waterskins (or desert-resistant gear) are needed for the Kharidian Desert heat."
+  ],
+  "mechanics": [
+    "A Desert Lizard must be finished with an ice cooler when it has fewer than 5 Hitpoints; used at 5+ HP the cooler is wasted.",
+    "The Reptile freezer perk (10 Slayer points) auto-ices a lizard below 5 HP if an ice cooler is carried.",
+    "Desert Lizards have no elemental weakness and Defence level 20, so weapon choice is unimportant.",
+    "Ancient Magicks ice spells do NOT count as the ice-cooler final blow."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-ice-cooler",
+      "label": "Melee with ice coolers",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Chip each lizard below 5 Hitpoints with any melee weapon, then finish it with an ice cooler.",
+      "recommendedFor": [
+        "standard task completion",
+        "low-level Slayer accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "A stack of ice coolers",
+        "Waterskins"
+      ],
+      "steps": [
+        "Fill up on waterskins and ice coolers and travel into the Kharidian Desert.",
+        "Attack a Desert Lizard with any melee weapon until it drops below 5 Hitpoints.",
+        "Use an ice cooler on the weakened lizard to finish it."
+      ],
+      "notes": [
+        "Buy the Reptile freezer perk (10 points) to auto-ice lizards below 5 HP."
+      ]
+    },
+    {
+      "methodId": "reptile-freezer",
+      "label": "Reptile freezer perk",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "With the Reptile freezer perk unlocked, simply carry ice coolers and kill normally.",
+      "recommendedFor": [
+        "players who own the Reptile freezer unlock"
+      ],
+      "requiredOrKeyItems": [
+        "Reptile freezer perk (10 Slayer points)",
+        "Ice coolers in the inventory",
+        "Any melee weapon",
+        "Waterskins"
+      ],
+      "steps": [
+        "Unlock Reptile freezer from a Slayer Master for 10 points.",
+        "Keep ice coolers in the inventory and attack Desert Lizards normally.",
+        "The perk automatically ices each lizard when it falls below 5 Hitpoints."
+      ],
+      "notes": [
+        "A Magic or Ranged approach also brings lizards into ice-cooler range, but melee is simplest."
+      ]
+    }
+  ]
+}

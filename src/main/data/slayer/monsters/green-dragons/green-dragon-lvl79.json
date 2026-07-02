@@ -1,0 +1,36 @@
+{
+  "variantId": "green-dragon",
+  "name": "Green dragon",
+  "npcIds": [
+    260,
+    261,
+    262,
+    263,
+    264,
+    8073,
+    8076,
+    8082
+  ],
+  "combatLevel": 79,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 68,
+    "stab": 0,
+    "slash": 40,
+    "crush": 40,
+    "magic": 30,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wilderness green dragon spawns: Graveyard of Shadows, south of the Lava Maze, west of the Dark Warriors' Fortress, and the Boneyard.",
+  "requirement": "none",
+  "strategyId": "green-dragons",
+  "bossId": null
+}

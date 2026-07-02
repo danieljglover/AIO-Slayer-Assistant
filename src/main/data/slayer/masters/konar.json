@@ -1,0 +1,19 @@
+{
+  "masterId": "konar",
+  "name": "Konar quo Maten",
+  "location": "Mount Karuulm",
+  "requirements": {
+    "combatLevel": 75
+  },
+  "economy": {
+    "basePoints": 18,
+    "streakMultipliers": {
+      "10": 5,
+      "50": 15,
+      "100": 25,
+      "250": 35,
+      "1000": 50
+    },
+    "blockCost": 80
+  }
+}

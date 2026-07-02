@@ -1,0 +1,11 @@
+{
+  "locationId": "ancient-cavern",
+  "name": "Ancient Cavern",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Beneath Baxtorian Falls in Kandarin (not Wilderness); whirlpool entry needs a rope and Barbarian Firemaking. A rock south of the lower-level entrance offers a safespot, though brutal green dragonfire may still reach some tiles."
+}

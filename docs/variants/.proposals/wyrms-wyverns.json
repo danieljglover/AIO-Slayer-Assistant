@@ -1,0 +1,135 @@
+{
+  "Wyrms": [
+    {
+      "name": "Wyrm",
+      "npcIds": [8610, 8611],
+      "combatLevel": 97,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 60, "stab": 30, "slash": 30, "crush": 30, "magic": 40, "range": 30 },
+      "dragon": true,
+      "location": "Karuulm Slayer Dungeon (lower level)",
+      "requirement": "heat-protection boots or elite K&K diary"
+    },
+    {
+      "name": "Shadow Wyrm",
+      "npcIds": [10398, 10399],
+      "combatLevel": 259,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 125, "stab": 20, "slash": 100, "crush": 100, "magic": 50, "range": 0 },
+      "dragon": true,
+      "location": "Karuulm Slayer Dungeon (lower level)",
+      "requirement": "superior - Bigger and Badder unlock (50 Slayer pts)"
+    },
+    {
+      "name": "Wyrmling",
+      "npcIds": [13031, 13032],
+      "combatLevel": 55,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 40, "stab": 20, "slash": 50, "crush": 50, "magic": 50, "range": 0 },
+      "dragon": true,
+      "location": "Neypotzli - Earthbound Cavern",
+      "requirement": "alternative to Wyrm on task; requires partial Perilous Moons progress to spawn"
+    },
+    {
+      "name": "Lava Strykewyrm",
+      "npcIds": [15500],
+      "combatLevel": 116,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 50, "stab": 30, "slash": 60, "crush": 70, "magic": 40, "range": 120 },
+      "dragon": true,
+      "location": "Charred Dungeon, beneath Charred Island",
+      "requirement": "alternative to Wyrm on task; requires 60 Sailing"
+    },
+    {
+      "name": "Magma strykewyrm",
+      "npcIds": [15504],
+      "combatLevel": 249,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 110, "stab": 60, "slash": 30, "crush": 70, "magic": 40, "range": 120 },
+      "dragon": true,
+      "location": "Charred Dungeon",
+      "requirement": "superior - Bigger and Badder unlock (50 Slayer pts); spawns from Lava Strykewyrm"
+    }
+  ],
+  "Drakes": [
+    {
+      "name": "Drake",
+      "npcIds": [8612, 8613],
+      "combatLevel": 192,
+      "isDefault": true,
+      "weakness": { "style": "RANGED", "element": "water" },
+      "monsterDefence": { "defenceLevel": 130, "stab": 50, "slash": 50, "crush": 50, "magic": 60, "range": 50 },
+      "dragon": true,
+      "location": "Karuulm Slayer Dungeon (middle level)",
+      "requirement": "heat-protection boots or elite K&K diary"
+    },
+    {
+      "name": "Guardian Drake",
+      "npcIds": [10400],
+      "combatLevel": 376,
+      "weakness": { "style": "RANGED", "element": "water" },
+      "monsterDefence": { "defenceLevel": 200, "stab": 20, "slash": 100, "crush": 100, "magic": 20, "range": 150 },
+      "dragon": true,
+      "location": "Karuulm Slayer Dungeon (middle level)",
+      "requirement": "superior - Bigger and Badder unlock (50 Slayer pts)"
+    }
+  ],
+  "Fossil Island wyverns": [
+    {
+      "name": "Spitting Wyvern",
+      "npcIds": [7794],
+      "combatLevel": 139,
+      "isDefault": true,
+      "weakness": { "style": "RANGED", "element": "air" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 40, "slash": 40, "crush": 40, "magic": 50, "range": 40 },
+      "dragon": true,
+      "location": "Wyvern Cave, Fossil Island",
+      "requirement": "Slayer 66; Bone Voyage; anti-icy-breath shield"
+    },
+    {
+      "name": "Taloned Wyvern",
+      "npcIds": [7793],
+      "combatLevel": 147,
+      "weakness": { "style": "RANGED", "element": "air" },
+      "monsterDefence": { "defenceLevel": 90, "stab": 50, "slash": 70, "crush": 70, "magic": 140, "range": 70 },
+      "dragon": true,
+      "location": "Wyvern Cave, Fossil Island",
+      "requirement": "Slayer 66; Bone Voyage; anti-icy-breath shield"
+    },
+    {
+      "name": "Long-tailed Wyvern",
+      "npcIds": [7792],
+      "combatLevel": 152,
+      "weakness": { "style": "RANGED", "element": "air" },
+      "monsterDefence": { "defenceLevel": 90, "stab": 70, "slash": 70, "crush": 70, "magic": 140, "range": 120 },
+      "dragon": true,
+      "location": "Wyvern Cave, Fossil Island",
+      "requirement": "Slayer 66; Bone Voyage; anti-icy-breath shield"
+    },
+    {
+      "name": "Ancient Wyvern",
+      "npcIds": [7795],
+      "combatLevel": 210,
+      "weakness": { "style": "RANGED", "element": "air" },
+      "monsterDefence": { "defenceLevel": 150, "stab": 50, "slash": 70, "crush": 70, "magic": 170, "range": 120 },
+      "dragon": true,
+      "location": "Wyvern Cave, Fossil Island (task-only sub-area + open area)",
+      "requirement": "Slayer 82; Bone Voyage; anti-icy-breath shield"
+    }
+  ],
+  "Skeletal wyverns": [
+    {
+      "name": "Skeletal Wyvern",
+      "npcIds": [468, 465, 466, 467],
+      "combatLevel": 140,
+      "isDefault": true,
+      "weakness": { "style": "RANGED", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 70, "stab": 40, "slash": 40, "crush": 30, "magic": 50, "range": 40 },
+      "dragon": true,
+      "undead": false,
+      "location": "Asgarnian Ice Dungeon (main + task-only upper area)",
+      "requirement": "Slayer 72; Elemental Workshop I; anti-icy-breath shield"
+    }
+  ]
+}

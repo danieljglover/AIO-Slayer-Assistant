@@ -1,0 +1,185 @@
+{
+  "strategyId": "grotesque-guardians-dusk",
+  "variantIds": [
+    "grotesque-guardians-dusk"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Grotesque_Guardians/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "granite-hammer",
+      "soulreaper-axe",
+      "ghrazi-rapier",
+      "blade-of-saeldor",
+      "inquisitor-s-mace",
+      "noxious-halberd",
+      "osmumten-s-fang"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-claws",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "crystal-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "burning-claws",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Dusk is immune to magic and ranged - melee only. Carry a rock/granite hammer to finish."
+  },
+  "requirements": [
+    "Gargoyle Slayer task",
+    "Brittle key to access the Slayer Tower roof",
+    "Rock hammer, rock thrownhammer, or granite hammer for the finishing blow",
+    "Use the Grotesque Guardians strategy source for full boss phase mechanics"
+  ],
+  "mechanics": [
+    "Dusk is the grounded half of the Grotesque Guardians duo.",
+    "Dusk is immune to magic and ranged, so melee is required.",
+    "Dusk has a second form at combat level 328 on the Gargoyles task page.",
+    "The Grotesque Guardians count as one task kill unless Double Trouble is unlocked.",
+    "Carry a rock or granite hammer for Gargoyle-style finishing requirements."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-only",
+      "label": "Melee only",
+      "combatStyle": "MELEE",
+      "role": "boss-phase",
+      "summary": "Fight Dusk with melee because magic and ranged do not work.",
+      "recommendedFor": [
+        "Grotesque Guardians kills",
+        "Gargoyles tasks using the rooftop boss",
+        "Players with brittle key unlocked"
+      ],
+      "requiredOrKeyItems": [
+        "Scythe of vitur",
+        "Granite hammer",
+        "Soulreaper axe",
+        "Ghrazi rapier",
+        "Blade of saeldor",
+        "Inquisitor's mace",
+        "Noxious halberd",
+        "Osmumten's fang",
+        "Rock hammer"
+      ],
+      "steps": [
+        "Use melee attacks against Dusk because Dusk is immune to magic and ranged.",
+        "Use the listed melee weapon progression while avoiding Dusk's special attacks.",
+        "Carry or equip a rock/granite hammer for finishing requirements.",
+        "Use Dragon claws, Crystal halberd, or Burning claws as melee special attack options where the boss strategy calls for them.",
+        "Avoid Double Trouble if trying to preserve more boss kills per task."
+      ],
+      "notes": [
+        "This JSON replaces the legacy Markdown strategy while preserving the same plugin-facing strategy fields."
+      ]
+    },
+    {
+      "methodId": "phase-two-blinding-attack",
+      "label": "Phase 2 blinding attack",
+      "combatStyle": "MELEE",
+      "role": "phase-two",
+      "summary": "Melee Dusk during phase two, move one tile away when his missing wing glows, and avoid standing underneath him.",
+      "recommendedFor": [
+        "standard Grotesque Guardians kills",
+        "players learning Dusk's first active phase"
+      ],
+      "requiredOrKeyItems": [
+        "Scythe of vitur",
+        "Granite hammer",
+        "Soulreaper axe",
+        "Ghrazi rapier",
+        "Noxious halberd"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Attack Dusk with melee once he becomes vulnerable in phase two.",
+        "Watch for the missing wing glow that signals his blinding attack.",
+        "Move one tile away before the attack resolves to avoid knockback.",
+        "Move away from Dawn's rockfall shadows during the same phase.",
+        "Do not stand under Dusk because his trample can hit up to 40."
+      ],
+      "risks": [
+        "Standing beside or under Dusk during the blinding attack causes knockback.",
+        "Rockfall shadows resolve at different speeds and can stack damage."
+      ],
+      "notes": [
+        "Dusk is immune to magic and ranged in this phase.",
+        "Burn damage has no effect against Dusk."
+      ]
+    },
+    {
+      "methodId": "phase-four-prison-and-finish",
+      "label": "Phase 4 prison and finish",
+      "combatStyle": "MELEE",
+      "role": "phase-four",
+      "summary": "Handle empowered Dusk's prison attack, alternate protection against melee and ranged hits, and use a hammer finisher below 10 hitpoints.",
+      "recommendedFor": [
+        "final Grotesque Guardians phase",
+        "players preserving supplies after Dawn dies"
+      ],
+      "requiredOrKeyItems": [
+        "Melee weapon",
+        "Crystal halberd",
+        "Dragon claws",
+        "Burning claws",
+        "Rock hammer or granite hammer"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Wait until Dusk's prison attack animation completes before clicking him again.",
+        "Run through the missing fire tile if the prison leaves no normal escape path near the exit.",
+        "Use melee only; magic and ranged remain ineffective.",
+        "Stand one tile away with halberds where possible so Dusk must choose between ranged and closing distance.",
+        "Use a rock hammer, granite hammer, rock thrownhammer, or Gargoyle smasher when Dusk is under 10 hitpoints."
+      ],
+      "risks": [
+        "Clicking Dusk too early during the prison attack can path the player underneath him.",
+        "His final phase uses both melee and double-hit ranged attacks."
+      ],
+      "notes": [
+        "Protection prayer reduces Dusk's melee and ranged damage but does not remove all threat.",
+        "A special attack can happen as or shortly after Dusk reaches finisher range."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-only",
+      "label": "Melee only",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Dusk setup using melee because Dusk is immune to magic and ranged.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scythe of vitur",
+            "Granite hammer",
+            "Soulreaper axe",
+            "Ghrazi rapier",
+            "Blade of saeldor",
+            "Inquisitor's mace",
+            "Noxious halberd",
+            "Osmumten's fang"
+          ],
+          "special": [
+            "Dragon claws",
+            "Crystal halberd",
+            "Burning claws"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Grotesque Guardians - Dusk\n\nDusk is immune to magic and ranged - melee only. Carry a rock/granite hammer to finish."
+}

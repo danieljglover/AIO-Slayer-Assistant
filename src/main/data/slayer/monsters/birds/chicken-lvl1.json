@@ -1,0 +1,41 @@
+{
+  "variantId": "chicken-lvl1",
+  "name": "Chicken",
+  "npcIds": [
+    1173,
+    1174,
+    9488
+  ],
+  "combatLevel": 1,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": -42,
+    "slash": -42,
+    "crush": -42,
+    "magic": -42,
+    "range": -42
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Lumbridge, Fred the Farmer's field, Falador farm",
+  "requirement": "None",
+  "bossId": null,
+  "strategyId": "birds",
+  "offence": {
+    "hitpoints": 3,
+    "maxHit": 0,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

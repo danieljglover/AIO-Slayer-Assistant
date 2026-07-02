@@ -1,0 +1,39 @@
+{
+  "variantId": "shade-stronghold",
+  "name": "Shade (Stronghold of Security)",
+  "npcIds": [
+    6740
+  ],
+  "combatLevel": 159,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 130,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Stronghold of Security",
+  "requirement": "Combat level 30 to be assigned",
+  "bossId": null,
+  "strategyId": "shades",
+  "offence": {
+    "hitpoints": 170,
+    "maxHit": 14,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

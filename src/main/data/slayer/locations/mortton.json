@@ -1,0 +1,11 @@
+{
+  "locationId": "mortton",
+  "name": "Mort'ton",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Mort'ton in Morytania is home to the Loar Shades, the fastest Shades to kill for the task; Priest in Peril is required for access. Shades are undead, so a salve amulet (e) applies. Multi, cannon and safespot are not wiki-confirmed here, so conservative defaults are used."
+}

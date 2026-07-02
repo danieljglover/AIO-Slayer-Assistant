@@ -1,0 +1,29 @@
+{
+  "variantId": "lava-dragon",
+  "name": "Lava dragon",
+  "npcIds": [
+    6593
+  ],
+  "combatLevel": 252,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 220,
+    "stab": 20,
+    "slash": 90,
+    "crush": 90,
+    "magic": 80,
+    "range": 70
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Lava Dragon Isle in the deep Wilderness (around levels 36-42).",
+  "requirement": "none",
+  "strategyId": "lava-dragons",
+  "bossId": null
+}

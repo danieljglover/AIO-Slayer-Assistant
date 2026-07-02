@@ -1,0 +1,29 @@
+{
+  "variantId": "bloodveld-god-wars-dungeon",
+  "name": "Bloodveld (God Wars Dungeon)",
+  "npcIds": [
+    3138
+  ],
+  "combatLevel": 81,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 30,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 15
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "God Wars Dungeon",
+  "requirement": "Slayer 50",
+  "bossId": null,
+  "strategyId": "bloodveld"
+}

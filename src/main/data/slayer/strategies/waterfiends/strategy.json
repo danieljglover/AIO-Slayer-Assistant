@@ -1,0 +1,352 @@
+{
+  "strategyId": "waterfiends",
+  "variantIds": [
+    "waterfiend"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Waterfiends",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-bludgeon",
+      "inquisitor-s-mace",
+      "soulreaper-axe",
+      "ursine-chainmace",
+      "sarachnis-cudgel",
+      "zombie-axe",
+      "leaf-bladed-battleaxe",
+      "dragon-mace",
+      "blisterwood-flail",
+      "keris-partisan"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "eye-of-ayak",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "crystal-bow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Waterfiends are usually handled with crush melee and high Magic Defence. Earth magic is faster but more expensive; Ranged can be used when wearing Ranged armour for Magic Defence. Ancient Cavern supports safespotting, Kraken Cove is task-only, and Iorwerth Dungeon supports cannoning and crystal shard drops."
+  },
+  "requirements": [
+    "75 combat before assignment",
+    "Access to the Ancient Cavern through Barbarian Firemaking training",
+    "Song of the Elves for Iorwerth Dungeon",
+    "Fairy ring AKQ for quick Kraken Cove access",
+    "High Level Alchemy runes recommended for armour and staff drops"
+  ],
+  "mechanics": [
+    "Waterfiends attack with Magic and magical Ranged.",
+    "Protection prayers cannot negate all damage because Waterfiends use two attack styles.",
+    "Both attacks roll against the player's Magic Defence.",
+    "Protect from Missiles is the most useful protection prayer if incoming damage is too high.",
+    "Dragonhide, Karil's armour, Eclipse Moon armour, and a saturated or imbued heart improve effective defence.",
+    "Waterfiends have low crush Defence and are usually killed with crush melee weapons.",
+    "Waterfiends have a 100% elemental weakness to Earth spells.",
+    "Non-earth Magic is discouraged because Waterfiends have high Magic level and magic Defence.",
+    "Waterfiends are demons, so demonbane weapons apply.",
+    "Ancient Cavern is safespottable, Kraken Cove is task-only, and Iorwerth Dungeon is cannonable."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-access",
+      "label": "Requirements and access",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Confirm 75 combat and Ancient Cavern access before accepting or routing a Waterfiends task.",
+      "recommendedFor": [
+        "Every Waterfiends task",
+        "Konar assignments",
+        "Duradel assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Ancient Cavern access",
+        "Games necklace",
+        "Fairy ring AKQ for Kraken Cove",
+        "Teleport crystal for Iorwerth Dungeon",
+        "High Level Alchemy runes",
+        "One-click teleport"
+      ],
+      "steps": [
+        "Confirm the account has 75 combat unless combat requirements are being ignored by Slayer masters.",
+        "Confirm Ancient Cavern access through Barbarian Firemaking training.",
+        "Use a games necklace to Barbarian Assault for Ancient Cavern routing.",
+        "Use fairy ring AKQ for Kraken Cove if the task location is Kraken Cove.",
+        "Use a teleport crystal only if Song of the Elves is complete and the task will be done in Iorwerth Dungeon.",
+        "Bring High Level Alchemy runes because Waterfiends commonly drop armour and staves."
+      ]
+    },
+    {
+      "methodId": "crush-melee-magic-defence",
+      "label": "Crush melee with Magic Defence",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use crush melee weapons with high Magic Defence armour for the default low-cost Waterfiends method.",
+      "recommendedFor": [
+        "Default task completion",
+        "Players limiting rune costs",
+        "Ancient Cavern or Kraken Cove tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Abyssal bludgeon",
+        "Ursine chainmace uncharged",
+        "Sarachnis cudgel",
+        "Zombie axe",
+        "Leaf-bladed battleaxe",
+        "Dragon mace",
+        "Blisterwood flail",
+        "Ivandis flail",
+        "Keris partisan",
+        "Dragonhide armour",
+        "Karil's armour",
+        "Eclipse Moon armour",
+        "Saturated heart or imbued heart"
+      ],
+      "prayers": [
+        "Protect from Missiles if damage is too high",
+        "Piety",
+        "Chivalry"
+      ],
+      "steps": [
+        "Wear Slayer helmet or black mask on task and choose armour with strong Magic Defence.",
+        "Prioritise crush weapons because Waterfiends have only 10 crush Defence compared with high stab and slash Defence.",
+        "Use Eclipse Moon armour when available because it keeps Magic Defence while providing Strength bonus.",
+        "Use a saturated or imbued heart if available to increase Magic Defence.",
+        "Turn on Protect from Missiles when incoming damage is too high, accepting that Magic attacks still hit.",
+        "Use High Level Alchemy on armour and staff drops to extend the trip."
+      ],
+      "risks": [
+        "Protection prayers do not fully shut off incoming damage.",
+        "Waterfiends are accurate enough that low Magic Defence armour increases food usage."
+      ]
+    },
+    {
+      "methodId": "earth-magic",
+      "label": "Earth magic",
+      "combatStyle": "MAGIC",
+      "role": "speed",
+      "summary": "Exploit the 100% earth elemental weakness for faster kills when the rune cost is acceptable.",
+      "recommendedFor": [
+        "Faster task completion",
+        "Magic training",
+        "Ancient Cavern safespotting"
+      ],
+      "requiredOrKeyItems": [
+        "Eye of ayak",
+        "Twinflame staff",
+        "Earth spell runes",
+        "Occult necklace",
+        "Magic damage gear",
+        "High Level Alchemy runes"
+      ],
+      "prayers": [
+        "Mystic Might",
+        "Augury",
+        "Protect from Missiles if tanking"
+      ],
+      "steps": [
+        "Use earth spells or an earth-focused magic setup to exploit the 100% elemental weakness.",
+        "Prefer earth magic over non-earth magic because non-earth spells perform poorly into their high Magic level and Defence.",
+        "Use the Ancient Cavern river safespot when possible to avoid taking damage while casting.",
+        "If tanking, keep enough Magic Defence and food because Waterfiends still attack accurately.",
+        "Swap to an expeditious bracelet near kill credit if using that task-speed tactic."
+      ],
+      "risks": [
+        "The task page notes earth magic is generally faster than melee but costs more.",
+        "Non-earth magic is not recommended."
+      ]
+    },
+    {
+      "methodId": "ranged-defence-option",
+      "label": "Ranged defence option",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Ranged when wearing Ranged armour for Magic Defence, especially if safespotting or avoiding melee gear swaps.",
+      "recommendedFor": [
+        "Players already wearing Dragonhide or Karil's armour",
+        "Ancient Cavern safespotting",
+        "Accounts with stronger Ranged than melee"
+      ],
+      "requiredOrKeyItems": [
+        "Hunters' sunlight crossbow",
+        "Toxic blowpipe",
+        "Bow of faerdhinen",
+        "Crystal bow",
+        "Dragonhide armour",
+        "Karil's armour",
+        "Eclipse Moon armour"
+      ],
+      "prayers": [
+        "Protect from Missiles if tanking",
+        "Rigour",
+        "Eagle Eye"
+      ],
+      "steps": [
+        "Wear Ranged armour that contributes Magic Defence against both Waterfiend attacks.",
+        "Use Ranged from a safespot in Ancient Cavern where possible.",
+        "If not safespotting, use Protect from Missiles when the ranged-style attack is causing too much damage.",
+        "Use High Level Alchemy runes for longer trips."
+      ],
+      "notes": [
+        "The task page allows Ranged when Ranged armour is being used defensively."
+      ]
+    },
+    {
+      "methodId": "ancient-cavern-safespot",
+      "label": "Ancient Cavern safespot",
+      "combatStyle": "RANGED",
+      "role": "location",
+      "summary": "Use Ancient Cavern for the only task-page safespot, including the 10 min aggression timer route if needed.",
+      "recommendedFor": [
+        "Low-damage kills",
+        "Ranged or Magic methods",
+        "Players using games necklace access"
+      ],
+      "requiredOrKeyItems": [
+        "Games necklace",
+        "Ranged or Magic weapon",
+        "Food for the run to the safespot",
+        "One-click teleport"
+      ],
+      "steps": [
+        "Travel to Barbarian Assault with a games necklace and enter the Ancient Cavern.",
+        "Use Ranged or Magic across the river because Waterfiends only attack 4 horizontal tiles.",
+        "Alternatively wait out aggression by running to the pillar safespot, back to the whirlpool landing platform, and then back to the safespot.",
+        "After the aggression timer is inactive, use the north-west stalagmite across the river as described by the task page."
+      ],
+      "risks": [
+        "The run into Ancient Cavern can be dangerous if tank gear and food are inadequate."
+      ]
+    },
+    {
+      "methodId": "kraken-cove-task-only",
+      "label": "Kraken Cove task-only",
+      "combatStyle": "MELEE",
+      "role": "location",
+      "summary": "Use Kraken Cove for a simple task-only Waterfiend area reached quickly with fairy ring AKQ.",
+      "recommendedFor": [
+        "Task-only routing",
+        "Players with fairy ring access",
+        "Konar-compatible location routing"
+      ],
+      "requiredOrKeyItems": [
+        "Fairy ring access",
+        "Fairy ring code AKQ",
+        "Crush melee weapon",
+        "Magic Defence armour",
+        "Food"
+      ],
+      "steps": [
+        "Use fairy ring AKQ to reach Kraken Cove quickly.",
+        "Fight the 15 Waterfiends in the task-only section.",
+        "Use the same crush melee and Magic Defence setup as the default method.",
+        "Do not plan around cannoning or safespotting because the task page marks both unavailable here."
+      ]
+    },
+    {
+      "methodId": "iorwerth-dungeon-cannon",
+      "label": "Iorwerth Dungeon cannon",
+      "combatStyle": "MELEE",
+      "role": "location",
+      "summary": "Use Iorwerth Dungeon after Song of the Elves for cannon support and crystal shards.",
+      "recommendedFor": [
+        "Players with Song of the Elves complete",
+        "Players using cannonballs",
+        "Players valuing crystal shards"
+      ],
+      "requiredOrKeyItems": [
+        "Song of the Elves",
+        "Teleport crystal",
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Crush melee weapon",
+        "Magic Defence armour"
+      ],
+      "steps": [
+        "Travel with a teleport crystal after completing Song of the Elves.",
+        "Set up a dwarf multicannon because the task page marks Iorwerth Dungeon Waterfiends as cannonable.",
+        "Kill the 20 Waterfiends with crush melee or earth magic while the cannon adds damage.",
+        "Account for crystal shard drops when comparing profit to Ancient Cavern or Kraken Cove."
+      ],
+      "risks": [
+        "This location is not safespottable according to the task-page comparison row.",
+        "Cannonballs can make a low-value task less profitable."
+      ],
+      "notes": [
+        "Waterfiends in Iorwerth Dungeon can drop crystal shards, slightly increasing profit."
+      ]
+    },
+    {
+      "methodId": "skip-guidance",
+      "label": "Skip guidance",
+      "combatStyle": "MELEE",
+      "role": "decision",
+      "summary": "Consider skipping Waterfiends because the task page notes accurate attacks, mediocre drops, and assignment weight 2.",
+      "recommendedFor": [
+        "Efficient Slayer routing",
+        "Players conserving supplies",
+        "Players with skip points"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer reward points"
+      ],
+      "steps": [
+        "Compare the expected supply cost and time against better Slayer tasks.",
+        "Skip if the account is not targeting Mist battlestaff, crystal shards, or specific collection goals.",
+        "Avoid blocking Waterfiends in most cases because their assignment weight is only 2."
+      ],
+      "notes": [
+        "The task page explicitly says Waterfiends are often advisable to skip and not advisable to block."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "crush-melee",
+      "label": "Crush melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Waterfiends setup: crush weapon, Slayer helmet, Magic Defence armour, and Protect from Missiles when needed."
+    },
+    {
+      "styleId": "earth-magic",
+      "label": "Earth magic",
+      "combatStyle": "MAGIC",
+      "role": "speed",
+      "summary": "Use earth spells or Eye of ayak/Twinflame staff style routing to exploit the 100% earth weakness at higher supply cost."
+    },
+    {
+      "styleId": "ranged-defence",
+      "label": "Ranged defence",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Ranged when Dragonhide, Karil's, or Eclipse Moon armour is already being worn for Magic Defence."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "variantId": "cave-crawler",
+  "name": "Cave crawler",
+  "npcIds": [
+    406,
+    407,
+    408,
+    409
+  ],
+  "combatLevel": 23,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 18,
+    "stab": 10,
+    "slash": 10,
+    "crush": 5,
+    "magic": 5,
+    "range": 10
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Slayer Dungeon and the Lumbridge Swamp Caves (rope + light source required).",
+  "locationId": "fremennik-slayer-dungeon-cave-crawlers",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "cave-crawlers",
+  "offence": {
+    "hitpoints": 22,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": true
+  }
+}

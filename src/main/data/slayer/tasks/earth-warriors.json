@@ -1,0 +1,91 @@
+{
+  "taskId": "earth-warriors",
+  "name": "Earth warriors",
+  "wikiPageId": 13043,
+  "combatLevel": null,
+  "slayerTargetId": 257,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "earth-warriors"
+  ],
+  "variantIds": [
+    "earth-warrior-lvl51"
+  ],
+  "defaultVariantId": "earth-warrior-lvl51",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 42,
+    "stab": 30,
+    "slash": 40,
+    "crush": 20,
+    "magic": 10,
+    "range": 30
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "earth-warriors-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "earth-warrior-lvl51",
+      "name": "Earth warrior",
+      "combatLevel": 51,
+      "slayerXp": 54,
+      "locations": [
+        "North-eastern Edgeville Dungeon (Wilderness)"
+      ],
+      "notes": [
+        "Level 51 Earth warrior in the north-eastern chamber of the Edgeville Dungeon (Wilderness levels 7-10); 54 hitpoints, max hit 5.",
+        "Reached via the monkey bars, which require 15 Agility.",
+        "Crush is their weakest melee defence (+20); 11 spawns in a single-combat area with a safespot."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "earth-warriors-wilderness",
+      "name": "Earth warriors (Edgeville Dungeon)",
+      "amount": 11,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "11 Earth warrior spawns in the north-eastern chamber of the Edgeville Dungeon (Wilderness).",
+        "Reached via the monkey bars (15 Agility). Single-combat area; a cannon can be used and a safespot exists in the bottom-right corner or top of the first chamber."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Earth warriors are assigned only by Krystilia and must be killed in the Wilderness to count; there is no combat, Slayer or quest requirement.",
+    "slayerTargetId 257 is SYNTHETIC (C2/C3 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The Earth warriors are in the north-eastern chamber of the Edgeville Dungeon (Wilderness levels 7-10), reached via the monkey bars which require 15 Agility.",
+    "Crush is their weakest melee defence (+20); magic defence is +10.",
+    "The area is single-combat, a cannon can be used, and there is a safespot in the bottom-right corner or top of the first chamber.",
+    "No task extension unlock exists for Earth warriors."
+  ],
+  "recommendedMethod": "Cross the Edgeville Dungeon monkey bars (15 Agility) to the north-eastern Earth warrior chamber and kill them with a crush weapon against their weakest defence (+20). A cannon can be used and a safespot exists for lower-level players."
+}

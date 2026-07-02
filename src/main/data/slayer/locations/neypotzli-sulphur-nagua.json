@@ -1,0 +1,11 @@
+{
+  "locationId": "neypotzli-sulphur-nagua",
+  "name": "Neypotzli",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "14 Sulphur Nagua; requires Perilous Moons. Supplies can be made freely inside - moonlight potions act as super combat, divine super defence, and prayer restoration - and the area is safespottable."
+}

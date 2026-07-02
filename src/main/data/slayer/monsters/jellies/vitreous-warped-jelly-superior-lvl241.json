@@ -1,0 +1,30 @@
+{
+  "variantId": "vitreous-warped-jelly",
+  "name": "Vitreous warped Jelly (superior)",
+  "npcIds": [
+    7400
+  ],
+  "combatLevel": 241,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 250,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Catacombs of Kourend",
+  "locationId": "catacombs-of-kourend",
+  "requirement": "Bigger and Badder superior spawn",
+  "bossId": null,
+  "strategyId": "jellies"
+}

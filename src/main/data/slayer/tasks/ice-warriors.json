@@ -1,0 +1,125 @@
+{
+  "taskId": "ice-warriors",
+  "name": "Ice warriors",
+  "wikiPageId": null,
+  "combatLevel": 57,
+  "slayerTargetId": 262,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      100,
+      150
+    ],
+    "mazchna": [
+      40,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 7,
+    "mazchna": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "ice-warriors"
+  ],
+  "variantIds": [
+    "ice-warrior",
+    "ice-warrior-dungeon"
+  ],
+  "defaultVariantId": "ice-warrior",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 47,
+    "stab": 30,
+    "slash": 40,
+    "crush": 20,
+    "magic": 10,
+    "range": 30
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "frozen-waste-plateau",
+    "ice-warriors-area"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "ice-warrior",
+      "name": "Ice warrior",
+      "combatLevel": 57,
+      "slayerXp": 59.0,
+      "locations": [
+        "Frozen Waste Plateau (Wilderness ~level 50)"
+      ],
+      "notes": [
+        "NPC ids 2841, 2842, 2851, 13802; 59 Hitpoints, Defence 47.",
+        "Attacks with slash melee (max hit 6); 100% weakness to fire spells.",
+        "Wilderness ice warriors at the Frozen Waste Plateau count for Krystilia's task."
+      ]
+    },
+    {
+      "variantId": "ice-warrior-dungeon",
+      "name": "Ice warrior",
+      "combatLevel": 57,
+      "slayerXp": 59.0,
+      "locations": [
+        "Asgarnian Ice Dungeon",
+        "White Wolf Mountain",
+        "God Wars Dungeon (Armadyl/Bandos routes)"
+      ],
+      "notes": [
+        "Same stats as the Wilderness variant; found in non-Wilderness dungeons.",
+        "These count for Mazchna's starter Ice warriors task but NOT for Krystilia (Wilderness only)."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "frozen-waste-plateau",
+      "name": "Frozen Waste Plateau",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Ice warriors and ice giants share the Frozen Waste Plateau in the western Wilderness (~level 50).",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false.",
+        "Krystilia's task counts only here (or other Wilderness ice warrior spawns)."
+      ]
+    },
+    {
+      "locationId": "ice-warriors-area",
+      "name": "Non-Wilderness ice warriors",
+      "amount": 15,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Asgarnian Ice Dungeon and White Wolf Mountain hold ice warriors for Mazchna's starter task.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 262 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Ice warriors is not wiki-published; QA live-verify.",
+    "SHARED family: Krystilia (Wilderness, 100-150) and Mazchna (starter, 40-50) both assign ice warriors; only Wilderness kills count for Krystilia.",
+    "Ice warriors have 100% weakness to fire spells; fire spells are fastest, but their low-ish defence also falls to crush melee.",
+    "Turael and Spria do NOT assign ice warriors; only Mazchna does among the starter masters.",
+    "Frozen Waste Plateau is a Wilderness location; bring risk-appropriate gear and a one-click escape teleport."
+  ],
+  "recommendedMethod": "Cast fire spells (Fire Bolt/Fire Blast) to exploit their 100% fire weakness, or use any strong crush/slash melee weapon such as a Dragon scimitar given their modest defence. Krystilia's task must be done at the Frozen Waste Plateau or another Wilderness spawn with risk-appropriate gear and an escape teleport; Mazchna's task can be done safely in the Asgarnian Ice Dungeon."
+}

@@ -1,0 +1,72 @@
+{
+  "strategyId": "cockatrice",
+  "variantIds": [
+    "cockatrice"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Cockatrice",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Cockatrice have 37 hitpoints and a max hit of 5. A mirror shield or V's shield MUST be equipped to avoid the petrifying gaze, which deals damage and drains combat stats. Any melee weapon dispatches them quickly in the Fremennik Slayer Dungeon."
+  },
+  "requirements": [
+    "25 Slayer is required for cockatrice assignments.",
+    "A mirror shield or V's shield (20 Defence to wield) must be equipped against every cockatrice.",
+    "Without a mirror shield or V's shield, the cockatrice gaze deals damage and drains combat stats."
+  ],
+  "mechanics": [
+    "Cockatrice have 37 hitpoints and a max hit of 5.",
+    "They attack with stab-based melee and have no elemental weakness (crush and ranged defence are lowest at 0).",
+    "The petrifying gaze is negated only by an equipped mirror shield or V's shield."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill cockatrice with any melee weapon while wearing a mirror shield or V's shield in the Fremennik Slayer Dungeon.",
+      "recommendedFor": [
+        "default cockatrice tasks",
+        "fast completion"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Mirror shield or V's shield (equipped)"
+      ],
+      "steps": [
+        "Equip a mirror shield or V's shield before engaging any cockatrice.",
+        "Travel to the cockatrice area of the Fremennik Slayer Dungeon.",
+        "Attack cockatrice with any melee weapon until the task is complete."
+      ]
+    },
+    {
+      "methodId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Safespot cockatrice with Ranged; a mirror shield or V's shield is still required to negate the gaze.",
+      "recommendedFor": [
+        "low-defence accounts",
+        "minimising damage taken"
+      ],
+      "requiredOrKeyItems": [
+        "A crossbow or bow with ammunition",
+        "Mirror shield or V's shield (equipped)"
+      ],
+      "steps": [
+        "Equip a mirror shield or V's shield.",
+        "Position behind a gap so the cockatrice cannot reach you in melee.",
+        "Attack with Ranged until the task is complete."
+      ]
+    }
+  ]
+}

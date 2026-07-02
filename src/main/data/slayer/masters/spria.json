@@ -1,0 +1,16 @@
+{
+  "masterId": "spria",
+  "name": "Spria",
+  "location": "Draynor Village",
+  "requirements": {
+    "quests": [
+      "A Porcine of Interest"
+    ]
+  },
+  "economy": {
+    "basePoints": 0,
+    "blockCost": 40,
+    "zeroPoints": true,
+    "streakResets": true
+  }
+}

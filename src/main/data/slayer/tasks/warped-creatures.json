@@ -1,0 +1,226 @@
+{
+  "taskId": "warped-creatures",
+  "name": "Warped creatures",
+  "wikiPageId": 601420,
+  "combatLevel": null,
+  "slayerTargetId": 238,
+  "slayerLevel": 56,
+  "questReqs": [
+    "The Path of Glouphrie"
+  ],
+  "masterIds": [
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      110,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 6,
+    "konar": 4,
+    "nieve": 6,
+    "duradel": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [
+    {
+      "unlockId": "warped-reality",
+      "name": "Warped Reality",
+      "pointsCost": 60,
+      "notes": "Allows Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal to assign Warped creatures."
+    },
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Enables superior spawns, including Mutated Tortoise and Mutated Terrorbird."
+    }
+  ],
+  "monsterIds": [
+    "warped-creatures"
+  ],
+  "variantIds": [
+    "warped-tortoise",
+    "warped-terrorbird-level-96",
+    "warped-terrorbird-level-138",
+    "mutated-tortoise",
+    "mutated-terrorbird"
+  ],
+  "defaultVariantId": "warped-tortoise",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 78,
+    "stab": 50,
+    "slash": 50,
+    "crush": 0,
+    "magic": 0,
+    "range": 40
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "Crystal chime",
+  "locationIds": [
+    "poison-waste-dungeon-tortoise-main",
+    "poison-waste-dungeon-tortoise-lower",
+    "poison-waste-dungeon-terrorbird-main",
+    "poison-waste-dungeon-terrorbird-lower"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "warped-tortoise",
+      "name": "Warped Tortoise",
+      "combatLevel": 121,
+      "slayerXp": 200,
+      "locations": [
+        "Poison Waste Dungeon"
+      ],
+      "notes": [
+        "Attacks with melee only.",
+        "Protect from Melee negates all damage.",
+        "Has a 20% elemental weakness to earth spells.",
+        "Can be safespotted behind pillars for Ranged or Magic kills."
+      ]
+    },
+    {
+      "variantId": "warped-terrorbird-level-96",
+      "name": "Warped Terrorbird",
+      "combatLevel": 96,
+      "slayerXp": 150,
+      "locations": [
+        "Poison Waste Dungeon"
+      ],
+      "notes": [
+        "Attacks with both melee and ranged attacks, depending on what the player prays against.",
+        "Earmuffs or Slayer helmet halve max hit and reduce chip damage through Protect from Missiles.",
+        "Can be manipulated into melee pathing and safespotted with corners, doors, or waste pits."
+      ]
+    },
+    {
+      "variantId": "warped-terrorbird-level-138",
+      "name": "Warped Terrorbird (Level 138)",
+      "combatLevel": 138,
+      "slayerXp": 200,
+      "locations": [
+        "Poison Waste Dungeon"
+      ],
+      "notes": [
+        "The stronger Warped Terrorbird variant from the monster page.",
+        "Uses the same Ranged and Crush attack profile as the level 96 variant.",
+        "Requires the crystal chime to damage."
+      ]
+    },
+    {
+      "variantId": "mutated-tortoise",
+      "name": "Mutated Tortoise",
+      "combatLevel": 247,
+      "slayerXp": 4510,
+      "locations": [
+        "Poison Waste Dungeon"
+      ],
+      "notes": [
+        "Superior version of the Warped Tortoise after Bigger and Badder.",
+        "Has 1 flat armour and a 25% elemental weakness to earth spells.",
+        "Superior slayer monsters roll three additional regular-table drops and the superior unique table."
+      ]
+    },
+    {
+      "variantId": "mutated-terrorbird",
+      "name": "Mutated Terrorbird",
+      "combatLevel": 178,
+      "slayerXp": 3200,
+      "locations": [
+        "Poison Waste Dungeon"
+      ],
+      "notes": [
+        "Superior version of the Warped Terrorbird after Bigger and Badder.",
+        "Uses Ranged and Crush attacks.",
+        "Has -2 flat armour and rolls three additional regular-table drops plus the superior unique table."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "poison-waste-dungeon-tortoise-main",
+      "name": "Poison Waste Dungeon - tortoise main level",
+      "amount": 14,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The main level Warped Tortoise area.",
+        "The task page lists this as multicombat, cannonable, and safespottable."
+      ]
+    },
+    {
+      "locationId": "poison-waste-dungeon-tortoise-lower",
+      "name": "Poison Waste Dungeon - tortoise lower level",
+      "amount": 3,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The lower level Warped Tortoise area.",
+        "The task page lists this as multicombat, cannonable, and safespottable."
+      ]
+    },
+    {
+      "locationId": "poison-waste-dungeon-terrorbird-main",
+      "name": "Poison Waste Dungeon - terrorbird main level",
+      "amount": 33,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The main level Warped Terrorbird area.",
+        "The task page marks safespottable as Maybe due to terrorbird aggression and prayer/pathing setup requirements.",
+        "Cannoning from around 1490,4263 can path terrorbirds behind waste pits."
+      ]
+    },
+    {
+      "locationId": "poison-waste-dungeon-terrorbird-lower",
+      "name": "Poison Waste Dungeon - terrorbird lower level",
+      "amount": 3,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The lower level Warped Terrorbird area.",
+        "The task page marks safespottable as Maybe because practical safespots depend on door/corner/pathing setup."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Warped Reality costs 60 Slayer reward points and allows Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal to assign Warped creatures.",
+    "Players must carry a crystal chime in inventory to damage Warped creatures; otherwise they are invulnerable.",
+    "Warped Tortoise attacks only with melee, so Protect from Melee negates all damage.",
+    "Warped Tortoises have a 20% weakness to earth spells and can be safespotted with Ranged or Magic behind pillars.",
+    "Warped Terrorbirds should be fought with earmuffs or Slayer helmet because this halves their max hit and reduces chip damage through Protect from Missiles.",
+    "Warped Terrorbirds react to protection prayers; using Protect from Missiles can force ranged attackers to attempt melee distance and become stuck if they cannot path in.",
+    "A strong cannon position is around 1490,4263 while standing near a wall or waste pit, causing many terrorbirds to path behind obstacles."
+  ],
+  "recommendedMethod": "Bring a crystal chime. Use prayer melee with crush weapons on tortoises for the simple path, Ranged or Magic safespots for tortoises and terrorbirds, or cannon terrorbirds while exploiting pathing around waste pits."
+}

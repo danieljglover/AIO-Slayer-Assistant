@@ -1,0 +1,11 @@
+{
+  "locationId": "kebos-lowlands",
+  "name": "Kebos Lowlands",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Open region south-west of Great Kourend (not Wilderness). The wiki marks the lizardman spawns here as not safespottable; it is a multicombat, cannonable area."
+}

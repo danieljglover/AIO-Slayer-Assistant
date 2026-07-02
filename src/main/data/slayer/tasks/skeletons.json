@@ -1,0 +1,137 @@
+{
+  "taskId": "skeletons",
+  "name": "Skeletons",
+  "wikiPageId": null,
+  "combatLevel": 15,
+  "slayerTargetId": 271,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      65,
+      100
+    ],
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5,
+    "turael": 7,
+    "spria": 7,
+    "mazchna": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "skeletons"
+  ],
+  "variantIds": [
+    "skeleton",
+    "skeleton-area"
+  ],
+  "defaultVariantId": "skeleton",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 17,
+    "stab": 5,
+    "slash": 5,
+    "crush": -5,
+    "magic": 0,
+    "range": 5
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "graveyard-of-shadows-skeletons",
+    "skeletons-area"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "skeleton",
+      "name": "Skeleton",
+      "combatLevel": 21,
+      "slayerXp": 24.0,
+      "locations": [
+        "Graveyard of Shadows (Wilderness levels 18-21)"
+      ],
+      "notes": [
+        "NPC id 74 (level 21); 24 Hitpoints, Defence 17, max hit 3 crush.",
+        "Undead: Salve amulet and the crush weakness (crush -5) apply; 35% weakness to earth spells.",
+        "Wilderness skeletons at the Graveyard of Shadows count for Krystilia's task."
+      ]
+    },
+    {
+      "variantId": "skeleton-area",
+      "name": "Skeleton",
+      "combatLevel": 22,
+      "slayerXp": 29.0,
+      "locations": [
+        "Edgeville Dungeon",
+        "Varrock Sewers",
+        "Draynor Sewers / Wizards' Tower basement"
+      ],
+      "notes": [
+        "Level 21/22 skeletons (NPC ids 74, 70) in non-Wilderness dungeons for the starter masters.",
+        "Same undead category; count for Turael/Spria/Mazchna Skeletons tasks but not Krystilia."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "graveyard-of-shadows-skeletons",
+      "name": "Graveyard of Shadows (skeletons)",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Wilderness skeletons at the Graveyard of Shadows (levels 18-21) for Krystilia.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false.",
+        "Bring risk-appropriate gear and an escape teleport."
+      ]
+    },
+    {
+      "locationId": "skeletons-area",
+      "name": "Non-Wilderness skeletons",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Edgeville Dungeon and the Varrock Sewers hold skeletons for the starter masters.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 271 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Skeletons is not wiki-published; QA live-verify.",
+    "SHARED family: Krystilia (Wilderness, 65-100) plus Turael/Spria (15-30) and Mazchna (30-50) starter masters all assign skeletons.",
+    "Skeletons are undead, so the Salve amulet applies; they are weakest to crush melee (crush -5) and have a 35% earth spell weakness.",
+    "Krystilia's task counts only Wilderness skeleton kills (e.g. the Graveyard of Shadows).",
+    "graveyard-of-shadows base file is owned by the zombies family (CT-L shared #3); this family uses a tuned copy while that owner file is not yet on disk."
+  ],
+  "recommendedMethod": "Skeletons are undead, so wear a Salve amulet (or Salve amulet (ei)) and hit their crush weakness with a crush weapon; any melee clears them quickly given their low defence, and earth spells exploit the 35% earth weakness for Magic training. For Krystilia, kill Wilderness skeletons at the Graveyard of Shadows with risk-appropriate gear and an escape teleport; starter masters can be finished safely in the Edgeville Dungeon or Varrock Sewers."
+}

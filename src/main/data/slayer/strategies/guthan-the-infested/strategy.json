@@ -1,0 +1,171 @@
+{
+  "strategyId": "guthan-the-infested",
+  "variantIds": [
+    "guthan-the-infested"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Barrows/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "eye-of-ayak",
+      "tumeken-s-shadow",
+      "harmonised-nightmare-staff",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "staff-of-the-dead",
+      "twinflame-staff"
+    ],
+    "secondaryWeapons": [],
+    "note": "Guthan melees, so the shared magic setup (50% wind weakness) is the recommended kill."
+  },
+  "requirements": [
+    "Access to Guthan the Infested's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Guthan melees, so the shared magic setup (50% wind weakness) is the recommended kill.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Guthan melees, so the shared magic setup (50% wind weakness) is the recommended kill.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "eye-of-ayak",
+        "tumeken-s-shadow",
+        "harmonised-nightmare-staff",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "staff-of-the-dead",
+        "twinflame-staff"
+      ],
+      "steps": [
+        "Guthan melees, so the shared magic setup (50% wind weakness) is the recommended kill."
+      ]
+    },
+    {
+      "methodId": "barrows-route",
+      "label": "Barrows route",
+      "combatStyle": "MAGIC",
+      "role": "travel",
+      "summary": "Reach Barrows, clear Guthan's south-east mound as part of the rotation, and preserve prayer for more dangerous brothers first.",
+      "recommendedFor": [
+        "Barrows chest runs",
+        "Boss Slayer assignments that roll Guthan"
+      ],
+      "requiredOrKeyItems": [
+        "Barrows teleport tablet",
+        "Prayer potions",
+        "Air spell runes or powered staff"
+      ],
+      "prayers": [
+        "Protect from Melee against Guthan"
+      ],
+      "steps": [
+        "Travel to the mounds using a Barrows teleport or Mort'ton-area route.",
+        "Kill Dharok and other high-risk brothers before spending remaining prayer on Guthan where possible.",
+        "Use Protect from Melee when fighting Guthan directly.",
+        "Use air magic to exploit the shared elemental weakness."
+      ],
+      "notes": [
+        "Guthan is normally less urgent than Dharok, Karil, Ahrim, or Verac.",
+        "Ghommal's hilt 2 or higher removes the Barrows Prayer drain."
+      ]
+    },
+    {
+      "methodId": "protection-prayer-kill",
+      "label": "Protection prayer kill",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Use Protect from Melee and air magic to kill Guthan before his melee attacks can heal him.",
+      "recommendedFor": [
+        "standard Guthan mound kills",
+        "low-food Barrows rotations"
+      ],
+      "requiredOrKeyItems": [
+        "Eye of ayak",
+        "Tumeken's shadow",
+        "Harmonised nightmare staff",
+        "Trident of the swamp",
+        "Iban's staff"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Turn on Protect from Melee before opening the sarcophagus.",
+        "Kill Guthan with air magic or a powered staff.",
+        "Keep him off you with pathing if conserving prayer.",
+        "Continue the rotation or enter tunnels after checking the mound."
+      ],
+      "risks": [
+        "Guthan can heal himself when his melee attacks land.",
+        "Prayer drain can force extra potion doses on longer routes."
+      ],
+      "notes": [
+        "Protection prayer fully negates Guthan damage when active.",
+        "All brothers have a 50% air elemental weakness."
+      ]
+    },
+    {
+      "methodId": "tunnel-safespot",
+      "label": "Tunnel safespot",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Use tunnel ladders, corners, or sarcophagus kiting to block Guthan and avoid both damage and healing.",
+      "recommendedFor": [
+        "Guthan tunnel spawns",
+        "prayer-conserving Barrows runs"
+      ],
+      "requiredOrKeyItems": [
+        "Magic weapon",
+        "Food"
+      ],
+      "prayers": [
+        "Protect from Melee when not safespotted"
+      ],
+      "steps": [
+        "Trap Guthan behind ladder squares, corridors, or sarcophagus geometry.",
+        "Attack with magic while he cannot reach melee distance.",
+        "Use Protect from Melee if he breaks pathing.",
+        "Resume the chest route after the kill."
+      ],
+      "notes": [
+        "Melee brothers can be safespotted in many tunnel layouts.",
+        "Binding spells can also create safe attacks against melee brothers."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Guthan the Infested setup using Eye of ayak.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Tumeken's shadow",
+            "Harmonised nightmare staff",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Staff of the dead",
+            "Twinflame staff"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Guthan the Infested\n\nGuthan melees, so the shared magic setup (50% wind weakness) is the recommended kill."
+}

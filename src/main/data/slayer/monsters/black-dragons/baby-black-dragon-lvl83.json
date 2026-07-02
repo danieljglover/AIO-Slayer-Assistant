@@ -1,0 +1,31 @@
+{
+  "variantId": "baby-black-dragon",
+  "name": "Baby black dragon",
+  "npcIds": [
+    1871,
+    1872,
+    7955
+  ],
+  "combatLevel": 83,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 0,
+    "slash": 50,
+    "crush": 50,
+    "magic": 40,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Taverley Dungeon, Myths' Guild basement",
+  "requirement": "none",
+  "strategyId": "black-dragons",
+  "bossId": null
+}

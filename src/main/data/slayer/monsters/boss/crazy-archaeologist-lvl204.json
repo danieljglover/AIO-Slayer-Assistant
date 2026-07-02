@@ -1,0 +1,29 @@
+{
+  "variantId": "crazy-archaeologist",
+  "name": "Crazy archaeologist",
+  "npcIds": [
+    6618
+  ],
+  "combatLevel": 204,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 240,
+    "stab": 5,
+    "slash": 5,
+    "crush": 30,
+    "magic": 250,
+    "range": 250
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Ruins south of the Forgotten Cemetery, ~Level 23 Wilderness",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "crazy-archaeologist"
+}

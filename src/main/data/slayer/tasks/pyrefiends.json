@@ -1,0 +1,107 @@
+{
+  "taskId": "pyrefiends",
+  "name": "Pyrefiends",
+  "wikiPageId": null,
+  "combatLevel": 25,
+  "slayerTargetId": 299,
+  "slayerLevel": 30,
+  "questReqs": [],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "pyrefiend"
+  ],
+  "variantIds": [
+    "pyrefiend"
+  ],
+  "defaultVariantId": "pyrefiend",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 22,
+    "stab": 10,
+    "slash": 10,
+    "crush": 10,
+    "magic": 0,
+    "range": 10
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "fremennik-slayer-dungeon-pyrefiends",
+    "smoke-dungeon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "pyrefiend",
+      "name": "Pyrefiend",
+      "combatLevel": 43,
+      "slayerXp": 45,
+      "locations": [
+        "Fremennik Slayer Dungeon",
+        "Smoke Dungeon",
+        "God Wars Dungeon",
+        "Isle of Souls"
+      ],
+      "notes": [
+        "Standard level 43 pyrefiend (npc 433-436); the Slayer-task target.",
+        "Pyrefiends attack with magic-based melee (magic level 1) and have a 100% weakness to water spells.",
+        "Fiery and demon attributes; demonbane weapons apply. Pyrelord and the superior Flaming Pyrelord are stronger variants."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "fremennik-slayer-dungeon-pyrefiends",
+      "name": "Fremennik Slayer Dungeon (Pyrefiends)",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Pyrefiend area of the Fremennik Slayer Dungeon; 13 spawns, no smoke protection needed.",
+        "Cannon usability here is not wiki-confirmed (conservative default: off)."
+      ]
+    },
+    {
+      "locationId": "smoke-dungeon",
+      "name": "Smoke Dungeon",
+      "amount": 23,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Largest concentration; 23 spawns. A facemask or Slayer helmet is required for the smoke.",
+        "A Dwarf multicannon can be used here."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Pyrefiends are assigned by Mazchna and require 30 Slayer.",
+    "The live wiki also lists Vannaka as an assigner (40-90 per task); Vannaka is outside the C3 starter-tier scope of this family and is not authored here.",
+    "Pyrefiends have 45 hitpoints and a max hit of 4; they attack with magic-based melee (magic level 1) and have a 100% weakness to water spells.",
+    "Fiery and demon attributes - demonbane weapons apply. The Smoke Dungeon requires a facemask or Slayer helmet.",
+    "The standard pyrefiend is npc 433-436; Pyrelord and the superior Flaming Pyrelord are stronger variants not authored here.",
+    "The slayerTargetId 299 is SYNTHETIC (C2/C3 allocation contract, worklist section 1); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The wikiPageId was not captured at authoring time (honest UNKNOWN); sourceUrl is https://oldschool.runescape.wiki/w/Pyrefiend."
+  ],
+  "recommendedMethod": "Cast water spells at pyrefiends (100% water weakness) in the Fremennik Slayer Dungeon; they have 45 HP and a max hit of 4. Alternatively melee them, or use a cannon in the Smoke Dungeon (facemask required)."
+}

@@ -1,0 +1,30 @@
+{
+  "variantId": "shellbane-gryphon",
+  "name": "Shellbane gryphon",
+  "npcIds": [
+    14860
+  ],
+  "combatLevel": 235,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 10,
+    "slash": 20,
+    "crush": 40,
+    "magic": 100,
+    "range": 60
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Cave in the centre of the Great Conch, north of fairy ring CJQ",
+  "locationId": "shellbane-gryphon-cave",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "shellbane-gryphon"
+}

@@ -1,0 +1,188 @@
+{
+  "strategyId": "verac-the-defiled",
+  "variantIds": [
+    "verac-the-defiled"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Barrows/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "eye-of-ayak",
+      "tumeken-s-shadow",
+      "harmonised-nightmare-staff",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "staff-of-the-dead",
+      "twinflame-staff"
+    ],
+    "secondaryWeapons": [],
+    "note": "Wiki centres Verac on Magic (50% air weakness); a stab-tank melee kill is viable since his Defiler effect ignores armour and prayer."
+  },
+  "requirements": [
+    "Access to Verac the Defiled's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Wiki centres Verac on Magic (50% air weakness); a stab-tank melee kill is viable since his Defiler effect ignores armour and prayer.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Wiki centres Verac on Magic (50% air weakness); a stab-tank melee kill is viable since his Defiler effect ignores armour and prayer.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "eye-of-ayak",
+        "tumeken-s-shadow",
+        "harmonised-nightmare-staff",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "staff-of-the-dead",
+        "twinflame-staff"
+      ],
+      "steps": [
+        "Wiki centres Verac on Magic (50% air weakness); a stab-tank melee kill is viable since his Defiler effect ignores armour and prayer."
+      ]
+    },
+    {
+      "methodId": "barrows-route",
+      "label": "Barrows route",
+      "combatStyle": "MAGIC",
+      "role": "travel",
+      "summary": "Reach Barrows, handle Verac before low-risk brothers when prayer is still available, and expect occasional damage through prayer.",
+      "recommendedFor": [
+        "safe Barrows rotations",
+        "Boss Slayer assignments that roll Verac"
+      ],
+      "requiredOrKeyItems": [
+        "Barrows teleport tablet",
+        "Prayer potions",
+        "Food",
+        "Air spell runes or powered staff"
+      ],
+      "prayers": [
+        "Protect from Melee against Verac"
+      ],
+      "steps": [
+        "Use Barrows teleport or a Mort'ton-area route to reach the mounds.",
+        "Fight Verac while prayer and food are still available because he can hit through prayer.",
+        "Use Protect from Melee and air magic as the default setup.",
+        "Bring enough food for Defiler hits."
+      ],
+      "notes": [
+        "The Wiki notes Verac has a 25% chance to hit through protection prayers.",
+        "Ghommal's hilt 2 or higher removes the Barrows Prayer drain."
+      ]
+    },
+    {
+      "methodId": "protection-prayer-kill",
+      "label": "Protection prayer kill",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Use Protect from Melee to block most Verac hits, but bring food because his effect can ignore armour and prayer.",
+      "recommendedFor": [
+        "standard Verac mound kills",
+        "players using the shared Barrows magic setup"
+      ],
+      "requiredOrKeyItems": [
+        "Eye of ayak",
+        "Tumeken's shadow",
+        "Harmonised nightmare staff",
+        "Trident of the swamp",
+        "Food"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Turn on Protect from Melee before fighting Verac.",
+        "Attack with air magic or a powered staff.",
+        "Eat through Defiler hits that bypass protection.",
+        "Use stab melee only when intentionally using the melee alternative."
+      ],
+      "risks": [
+        "Verac can hit through protection prayer and armour.",
+        "Low food makes Verac more dangerous than Guthan or Torag."
+      ],
+      "notes": [
+        "Protection prayer still blocks most Verac damage.",
+        "All brothers have a 50% air elemental weakness."
+      ]
+    },
+    {
+      "methodId": "tunnel-safespot",
+      "label": "Tunnel safespot",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Safespot or kite Verac with tunnel and sarcophagus pathing to reduce Defiler damage, using any side of the sarcophagus where applicable.",
+      "recommendedFor": [
+        "Verac tunnel spawns",
+        "low-food Barrows runs"
+      ],
+      "requiredOrKeyItems": [
+        "Magic weapon",
+        "Food"
+      ],
+      "prayers": [
+        "Protect from Melee when not safespotted"
+      ],
+      "steps": [
+        "Use ladder squares or corridor geometry to block Verac in tunnels.",
+        "In his mound room, kite around any side of the sarcophagus.",
+        "Attack with magic while he is blocked.",
+        "Keep food available because mistakes or Defiler hits can still deal damage."
+      ],
+      "notes": [
+        "The Wiki calls out Verac as one of the brothers that can be kited on all four sarcophagus sides.",
+        "Binding spells can extend safe attack windows."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Verac the Defiled setup using Eye of ayak.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Tumeken's shadow",
+            "Harmonised nightmare staff",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Staff of the dead",
+            "Twinflame staff"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "stab-melee",
+      "label": "Stab melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use a stab-focused melee setup when intentionally tanking Verac instead of relying on the shared air-magic setup.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Osmumten's fang",
+            "Zamorakian hasta",
+            "Dragon dagger"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Verac the Defiled\n\nWiki centres Verac on Magic (50% air weakness); a stab-tank melee kill is viable since his Defiler effect ignores armour and prayer."
+}

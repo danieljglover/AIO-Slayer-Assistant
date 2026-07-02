@@ -1,0 +1,30 @@
+{
+  "variantId": "dad",
+  "name": "Dad",
+  "npcIds": [
+    4130
+  ],
+  "combatLevel": 101,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 25,
+    "slash": 25,
+    "crush": 40,
+    "magic": 200,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Troll Arena / Nightmare Zone (hard mode cb 201)",
+  "locationId": "death-plateau-trolls",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "trolls"
+}

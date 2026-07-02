@@ -1,0 +1,132 @@
+{
+  "taskId": "turoth",
+  "name": "Turoth",
+  "wikiPageId": 343297,
+  "combatLevel": 60,
+  "slayerTargetId": 241,
+  "slayerLevel": 55,
+  "questReqs": [],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      30,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 8,
+    "chaeldar": 10,
+    "konar": 3,
+    "nieve": 3
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows superior Slayer monsters, including Spiked Turoths, to spawn while on task."
+    }
+  ],
+  "monsterIds": [
+    "turoth"
+  ],
+  "variantIds": [
+    "turoth",
+    "spiked-turoth-superior"
+  ],
+  "defaultVariantId": "turoth",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 83,
+    "stab": 0,
+    "slash": 20,
+    "crush": 20,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "leaf-bladed weapons, broad ammunition, or Magic Dart",
+  "locationIds": [
+    "fremennik-slayer-dungeon-turoths"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "turoth",
+      "name": "Turoth",
+      "combatLevel": 89,
+      "slayerXp": 81,
+      "locations": [
+        "Fremennik Slayer Dungeon"
+      ],
+      "notes": [
+        "Turoths come in combat levels 83, 85, 87, and 89 with matching Slayer XP of 76, 77, 79, and 81.",
+        "Can only be damaged by leaf-bladed weapons, broad-tipped ammunition, or Magic Dart.",
+        "Attacks with inaccurate stab attacks that can hit up to 9; Protect from Melee negates all damage."
+      ]
+    },
+    {
+      "variantId": "spiked-turoth-superior",
+      "name": "Spiked Turoth",
+      "combatLevel": 244,
+      "slayerXp": 1998,
+      "locations": [
+        "Fremennik Slayer Dungeon"
+      ],
+      "notes": [
+        "Superior slayer monster variant.",
+        "Has a chance of spawning on a turoth's death while on task after purchasing the Bigger and Badder unlock for 50 Slayer reward points.",
+        "Has no special mechanics but is significantly more accurate and has a max hit of 29."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "fremennik-slayer-dungeon-turoths",
+      "name": "Fremennik Slayer Dungeon",
+      "amount": 22,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "The only location where Turoths are found.",
+        "Single combat with several safespots; prayer flicking is viable to conserve food."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Turoths can be assigned by Vannaka, Chaeldar, Konar, and Nieve upon reaching 55 Slayer and 60 combat.",
+    "Turoths are found only in the Fremennik Slayer Dungeon.",
+    "Turoths have the leafy attribute and can only be damaged by leaf-bladed weapons, broad ammunition (arrows and bolts), or the Magic Dart spell.",
+    "Turoths attack with somewhat inaccurate stab attacks that can hit up to 9; Protect from Melee will negate all of their damage.",
+    "Players should bring an Herb sack because Turoths frequently drop herbs.",
+    "Safespots are available throughout the dungeon, and prayer flicking is viable for food conservation.",
+    "Spiked Turoth is the superior version unlocked with Bigger and Badder; it has no special mechanics but is significantly more accurate and has a max hit of 29.",
+    "The slayerTargetId 241 is SYNTHETIC (WC-1..11 allocation contract, 240 + WC index); the real SLAYER_TARGET varp value is a QA live-verify item."
+  ],
+  "recommendedMethod": "Use leaf-bladed battleaxe melee, broad ammunition ranged, or Magic Dart only. Protect from Melee negates all damage; safespotting with broad ammunition or Magic Dart is a low-supply alternative."
+}

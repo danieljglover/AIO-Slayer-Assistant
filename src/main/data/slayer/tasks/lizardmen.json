@@ -1,0 +1,144 @@
+{
+  "taskId": "lizardmen",
+  "wikiPageId": 297852,
+  "name": "Lizardmen",
+  "slayerTargetId": 227,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      50,
+      90
+    ],
+    "konar": [
+      90,
+      110
+    ],
+    "nieve": [
+      90,
+      120
+    ],
+    "duradel": [
+      130,
+      210
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 8,
+    "konar": 8,
+    "nieve": 8,
+    "duradel": 10
+  },
+  "unlocks": [
+    {
+      "unlockId": "reptile-got-ripped",
+      "name": "Reptile got ripped",
+      "pointsCost": 75,
+      "notes": "Konar, Duradel, Nieve, and Chaeldar can assign Lizardmen after this unlock."
+    }
+  ],
+  "monsterIds": [
+    "lizardmen"
+  ],
+  "variantIds": [
+    "lizardman",
+    "lizardman-brute",
+    "lizardman-shaman"
+  ],
+  "defaultVariantId": "lizardman",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": -20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "lizardman-canyon",
+    "kebos-lowlands",
+    "lizardman-settlement"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "lizardman",
+      "name": "Lizardman",
+      "combatLevel": 53,
+      "slayerXp": 60,
+      "locations": [
+        "Shayziens' Wall",
+        "Lizardman Canyon",
+        "Lizardman Settlement",
+        "Kebos Swamp",
+        "Battlefront",
+        "Molch"
+      ],
+      "notes": [
+        "Wiki task row covers level 53 and 62 lizardmen.",
+        "Counts for Lizardmen tasks after Reptile got ripped."
+      ]
+    },
+    {
+      "variantId": "lizardman-brute",
+      "name": "Lizardman brute",
+      "combatLevel": 75,
+      "slayerXp": 60,
+      "locations": [
+        "Shayziens' Wall",
+        "Lizardman Canyon",
+        "Lizardman Settlement",
+        "Kebos Swamp",
+        "Battlefront",
+        "Molch",
+        "South of Xeric's Shrine"
+      ],
+      "notes": [
+        "Stronger brute variant.",
+        "Counts for Lizardmen tasks after Reptile got ripped."
+      ]
+    },
+    {
+      "variantId": "lizardman-shaman",
+      "name": "Lizardman shaman",
+      "combatLevel": 150,
+      "slayerXp": 157.5,
+      "locations": [
+        "Lizardman Canyon",
+        "Lizardman Caves",
+        "Lizardman Temple"
+      ],
+      "notes": [
+        "Shaman variant with dragon warhammer drop chance.",
+        "Requires shaman-specific movement and poison-spit handling."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Lizardmen can only be assigned after purchasing Reptile got ripped for 75 Slayer reward points.",
+    "Chaeldar assigns 50-90 Lizardmen after the unlock.",
+    "Konar assigns 90-110 Lizardmen after the unlock.",
+    "Nieve assigns 90-120 Lizardmen after the unlock.",
+    "Duradel assigns 130-210 Lizardmen after the unlock.",
+    "Lizardman Canyon is the common cannon task location.",
+    "Lizardman shamans are the profit-focused alternative because of the dragon warhammer drop, but they require shaman-specific mechanics.",
+    "Use Shayzien favour and appropriate Shayzien armour or location-specific protection where required by the chosen method."
+  ],
+  "recommendedMethod": "Requires the Reptile got ripped unlock. Use cannon plus melee or ranged in the Lizardman Canyon for normal Lizardmen tasks, or kill Lizardman shamans when choosing the slower dragon warhammer profit route."
+}

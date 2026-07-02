@@ -1,0 +1,327 @@
+{
+  "strategyId": "kurask",
+  "variantIds": [
+    "kurask",
+    "king-kurask-superior"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Kurasks",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "leaf-bladed-battleaxe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "magic-shortbow-i",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "armadyl-crossbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Kurasks have the leafy attribute and can only be damaged by leaf-bladed weapons, broad ammunition, or Magic Dart. Protect from Melee is simplest; Bones to Peaches is viable with 75 Defence."
+  },
+  "requirements": [
+    "70 Slayer and 65 combat are required for Kurask assignments.",
+    "Use only leaf-bladed weapons, broad-tipped ammunition, or Magic Dart for damage.",
+    "Bigger and Badder unlocks King kurask superior spawns.",
+    "Iorwerth Dungeon requires Song of the Elves.",
+    "Kurask Lair requires 58 Sailing to dock on Laguna Aurorae for the first time.",
+    "Bones to Peaches requires the Mage Training Arena unlock."
+  ],
+  "mechanics": [
+    "Kurasks attack with crush and can hit up to 11.",
+    "Protect from Melee negates all normal Kurask damage.",
+    "With at least 75 Defence, players can skip prayer and use Bones to Peaches for lower-cost sustain.",
+    "King kurask has no special mechanics, but is more accurate and has a max hit of 33.",
+    "Kurasks are weakest to stab, ranged, and magic attacks.",
+    "The leafy attribute restricts damage to leaf-bladed weapons, broad-tipped ammunition, or Magic Dart.",
+    "Cannons and Thralls do not deal damage to Kurasks.",
+    "Saradomin godsword, Ancient godsword, and Toxic blowpipe special attacks can still heal as if their rolled damage landed.",
+    "Ancient mace and Eldritch nightmare staff special attacks can restore Prayer based on rolled damage.",
+    "Guthan's equipment set effect does not activate against Kurasks.",
+    "Kurasks have fast health regeneration, healing 1 Hitpoint every five game ticks.",
+    "Kurasks have a small aggressive range of 2 centered on their south-west tile."
+  ],
+  "methods": [
+    {
+      "methodId": "damage-restrictions",
+      "label": "Damage restrictions",
+      "combatStyle": "MELEE",
+      "role": "rules",
+      "summary": "Respect the leafy damage restriction: only leaf-bladed weapons, broad ammunition, or Magic Dart can damage Kurasks.",
+      "recommendedFor": [
+        "baseline task setup",
+        "avoiding invalid weapon recommendations"
+      ],
+      "requiredOrKeyItems": [
+        "Leaf-bladed battleaxe",
+        "Leaf-bladed sword",
+        "Leaf-bladed spear",
+        "Broad bolts",
+        "Broad arrows",
+        "Magic Dart"
+      ],
+      "steps": [
+        "Equip a leaf-bladed weapon, a bow or crossbow using broad ammunition, or a Magic Dart setup.",
+        "Do not bring ordinary weapons or spells as the main damage source.",
+        "Cannons and Thralls can be present in some areas but will not damage Kurasks.",
+        "Use special attack weapons only for healing or Prayer restoration utility where their effects still trigger."
+      ],
+      "notes": [
+        "The task page compares this restriction to Turoths."
+      ]
+    },
+    {
+      "methodId": "melee-leaf-bladed",
+      "label": "Leaf-bladed melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use leaf-bladed battleaxe for high melee damage, or leaf-bladed sword/spear when available as lower-tier alternatives.",
+      "recommendedFor": [
+        "default Kurask tasks",
+        "players using Slayer helmet bonuses",
+        "players training melee"
+      ],
+      "requiredOrKeyItems": [
+        "Leaf-bladed battleaxe",
+        "Slayer helmet",
+        "Protect from Melee",
+        "Prayer potions if praying"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety if using prayer"
+      ],
+      "steps": [
+        "Use leaf-bladed battleaxe on slash or crush despite Kurasks being weakest to stab because the battleaxe has a much higher max hit.",
+        "Use leaf-bladed sword on stab if battleaxe is unavailable.",
+        "Pray Protect from Melee for the lowest-attention setup.",
+        "Bring a healing special attack weapon such as Saradomin godsword if extending trips."
+      ],
+      "notes": [
+        "The task page says slash is still better with leaf-bladed battleaxe because the max hit advantage outweighs the slightly higher slash defence."
+      ]
+    },
+    {
+      "methodId": "ranged-broad-ammunition",
+      "label": "Broad ammunition ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use broad bolts or broad arrows with ranged gear when safespotting or training Ranged.",
+      "recommendedFor": [
+        "Ranged training",
+        "safespotting Kurasks",
+        "players preferring lower incoming damage"
+      ],
+      "requiredOrKeyItems": [
+        "Broad bolts",
+        "Broad arrows",
+        "Rune crossbow or better crossbow",
+        "Magic shortbow (i)",
+        "Slayer helmet (i)"
+      ],
+      "steps": [
+        "Use broad bolts with a crossbow or broad arrows with a compatible bow.",
+        "Use the safespots in Fremennik Slayer Dungeon or Iorwerth Dungeon when desired.",
+        "Do not switch to non-broad ammunition because it will not damage Kurasks.",
+        "Use Toxic blowpipe only as a special attack healing option, not as the main damage source."
+      ],
+      "notes": [
+        "The task page lists broad bolts and broad arrows as valid damage sources."
+      ]
+    },
+    {
+      "methodId": "bones-to-peaches",
+      "label": "Bones to Peaches sustain",
+      "combatStyle": "MELEE",
+      "role": "sustain",
+      "summary": "At 75 Defence or higher, skip constant prayer and heal from Kurask bones with Bones to Peaches for cheaper trips.",
+      "recommendedFor": [
+        "75 Defence accounts",
+        "players reducing prayer potion cost",
+        "longer low-cost trips"
+      ],
+      "requiredOrKeyItems": [
+        "75 Defence",
+        "Bones to Peaches unlock",
+        "Nature runes and earth/water runes or tablets",
+        "At least one Prayer potion for King kurask"
+      ],
+      "steps": [
+        "Use this method only if the account has at least 75 Defence and can tolerate more attention.",
+        "Collect Kurask bones during the trip.",
+        "Cast Bones to Peaches when food is needed.",
+        "Turn on Protect from Melee if a King kurask spawns.",
+        "Bring at least one Prayer potion in case the superior spawns."
+      ],
+      "risks": [
+        "This method is more attention-intensive than camping Protect from Melee.",
+        "King kurask is much more accurate and can hit up to 33."
+      ]
+    },
+    {
+      "methodId": "king-kurask-superior",
+      "label": "King kurask superior",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Handle King kurask as a stronger superior with no special mechanics, using Protect from Melee and a valid leafy damage source.",
+      "recommendedFor": [
+        "Bigger and Badder unlock",
+        "superior Slayer encounters"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder",
+        "Leaf-bladed battleaxe or valid broad/Magic Dart setup",
+        "Protect from Melee",
+        "Prayer potion"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Turn on Protect from Melee when King kurask spawns, especially during a Bones to Peaches trip.",
+        "Continue using leaf-bladed weapons, broad ammunition, or Magic Dart.",
+        "Expect higher accuracy and a max hit of 33, but no additional mechanics.",
+        "In Iorwerth Dungeon, pick up the guaranteed Crystal shards from King kurasks."
+      ],
+      "notes": [
+        "King kurask superior drops roll additional items from the regular counterpart's table."
+      ]
+    },
+    {
+      "methodId": "location-choice",
+      "label": "Location choice",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Choose Fremennik for baseline access, Iorwerth for crystal shards after Song of the Elves, or Kurask Lair for tighter clumps after 58 Sailing.",
+      "recommendedFor": [
+        "routing decisions",
+        "Konar location locks",
+        "profit-focused trips"
+      ],
+      "requiredOrKeyItems": [
+        "Song of the Elves for Iorwerth Dungeon",
+        "58 Sailing for first Kurask Lair dock",
+        "Teleport access to chosen dungeon"
+      ],
+      "steps": [
+        "Use Fremennik Slayer Dungeon for standard access and its task-only area.",
+        "Use Iorwerth Dungeon after Song of the Elves when crystal shards matter.",
+        "Use Kurask Lair after 58 Sailing when tighter spawns and Laguna Aurorae access are preferred.",
+        "Remember that cannon damage does not work in any Kurask location."
+      ],
+      "notes": [
+        "Kurask Lair becomes more convenient after speaking to the island spirit tree."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "role": "support",
+      "summary": "Bring trip-extension tools and loot storage because Kurasks are a profitable task with alchables, herbs, seeds, and noted supplies.",
+      "recommendedFor": [
+        "long trips",
+        "profit-focused Kurask tasks",
+        "Iorwerth crystal shard trips"
+      ],
+      "requiredOrKeyItems": [
+        "Herb sack",
+        "High Alchemy runes",
+        "Nature runes",
+        "Soul bearer if collecting heads",
+        "Prayer potion",
+        "Bones to Peaches runes or tablets",
+        "Ring of wealth for automatic coin pickup"
+      ],
+      "inventory": [
+        "Leaf-bladed battleaxe or broad ammunition setup",
+        "Herb sack",
+        "High Alchemy runes",
+        "Bones to Peaches runes or tablets",
+        "Prayer potion",
+        "Teleport out",
+        "Optional Saradomin godsword, Ancient godsword, Toxic blowpipe, Ancient mace, or Eldritch nightmare staff for special attack utility"
+      ],
+      "steps": [
+        "Bring an Herb sack because Kurasks drop three herbs at a time when they roll the herb table.",
+        "Bring High Alchemy runes for frequent alchable weapons and armour.",
+        "Pick up coins, Nature runes, seeds, white berries, big bones, coconuts, and papaya fruit as desired.",
+        "Use Iorwerth Dungeon for Crystal shard value, with guaranteed Crystal shards from King kurasks there."
+      ],
+      "notes": [
+        "Kurasks can drop leaf-bladed sword, mystic robe top (light), leaf-bladed battleaxe, hard clue scrolls, and Kurask heads."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-leaf-bladed",
+      "label": "Leaf-bladed melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary melee setup using leaf-bladed battleaxe.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Leaf-bladed battleaxe",
+            "Leaf-bladed sword",
+            "Leaf-bladed spear"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-broad",
+      "label": "Broad ammunition ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Ranged setup using broad bolts or broad arrows.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Rune crossbow",
+            "Magic shortbow (i)"
+          ],
+          "ammo": [
+            "Amethyst broad bolts",
+            "Broad bolts",
+            "Broad arrows"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-dart",
+      "label": "Magic Dart",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Magic option using Magic Dart, one of the few valid ways to damage Kurasks.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Slayer's staff",
+            "Staff of the dead",
+            "Toxic staff of the dead"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Kurask\n\nKurasks have the leafy attribute and can only be damaged by leaf-bladed weapons, broad ammunition, or Magic Dart. Use leaf-bladed battleaxe melee, broad ammunition ranged, or Magic Dart; Protect from Melee is simplest, while 75 Defence accounts can sustain with Bones to Peaches. Cannons and Thralls do not damage Kurasks."
+}

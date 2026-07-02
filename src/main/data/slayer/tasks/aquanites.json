@@ -1,0 +1,154 @@
+{
+  "taskId": "aquanites",
+  "name": "Aquanites",
+  "wikiPageId": 630114,
+  "combatLevel": null,
+  "slayerTargetId": 202,
+  "slayerLevel": 78,
+  "questReqs": [],
+  "masterIds": [
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "nieve": [
+      40,
+      60
+    ],
+    "duradel": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "nieve": 5,
+    "duradel": 5
+  },
+  "extendedAmount": {
+    "nieve": [
+      150,
+      200
+    ],
+    "duradel": [
+      150,
+      200
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Aquanites can spawn Elder aquanites while on task."
+    },
+    {
+      "unlockId": "lured-in",
+      "name": "Lured In",
+      "pointsCost": 80,
+      "notes": "Nieve and Duradel will be able to assign Aquanites as a Slayer task."
+    },
+    {
+      "unlockId": "lets-stay-all-aquanite",
+      "name": "Let's Stay All Aquanite",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of aquanites assigned is increased to 150-200."
+    }
+  ],
+  "monsterIds": [
+    "aquanites"
+  ],
+  "variantIds": [
+    "aquanite",
+    "elder-aquanite"
+  ],
+  "defaultVariantId": "aquanite",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 40,
+    "slash": 40,
+    "crush": 20,
+    "magic": 40,
+    "range": 40
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "aquanite-cavern-sailing"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "aquanite",
+      "name": "Aquanite",
+      "combatLevel": 145,
+      "slayerXp": 180,
+      "locations": [
+        "Ynysdail Cavern"
+      ],
+      "notes": [
+        "Requires 78 Slayer and access to Ynysdail.",
+        "Attacks with accurate Magic and has a max hit of 18.",
+        "Slash severs the lure and reduces stab Defence from 60 to 10.",
+        "Can drop the Aquanite tendon used to make the Aquanite hopper.",
+        "Cannon cannot be used because the cavern floor is too damp."
+      ]
+    },
+    {
+      "variantId": "elder-aquanite",
+      "name": "Elder aquanite",
+      "combatLevel": 305,
+      "slayerXp": 4200,
+      "locations": [
+        "Ynysdail Cavern"
+      ],
+      "notes": [
+        "Superior Slayer monster unlocked by Bigger and Badder.",
+        "Spawns at a 1/200 rate after killing an Aquanite while on task.",
+        "Special attack deals 35 damage if Protect from Magic has been active for some time.",
+        "Flick Protect from Magic on and off between attacks to avoid taking damage."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "aquanite-cavern-sailing",
+      "name": "Ynysdail Cavern",
+      "amount": 0,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Aquanites are found in Ynysdail Cavern beneath Ynysdail.",
+        "The area is single-way combat.",
+        "A Dwarf multicannon cannot be used because the ground is too damp."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Aquanites require 78 Slayer to kill and no combat level requirement.",
+    "Accessing Ynysdail requires 73 Sailing and a boat with an adamant keel or better.",
+    "To receive Aquanites as a Slayer task, players must first unlock Lured In for 80 Slayer reward points.",
+    "Nieve assigns 40-60 Aquanites and Duradel assigns 30-50 Aquanites.",
+    "Let's Stay All Aquanite extends Aquanite assignments to 150-200.",
+    "Aquanites can drop the Aquanite tendon used to make the Aquanite hopper.",
+    "Aquanites attack with Magic and have high accuracy, so Protect from Magic is highly recommended.",
+    "Aquanites are in single-way combat, and a Dwarf multicannon cannot be used because the ground is too damp.",
+    "slash attack severs the Aquanite lure, reducing stab Defence by 50 from 60 to 10; damage is not required to sever the lure.",
+    "Use a fast 4-tick slash weapon such as a scimitar or Abyssal whip to sever the lure before using stab weapons.",
+    "Saradomin godsword special attack can sever the lure if no other special attack weapon is brought.",
+    "Elder Aquanites can spawn at 1/200 on task after Bigger and Badder and require flicking Protect from Magic to avoid their 35-damage special.",
+    "For first-time access, sail manually to Ynysdail and build the rowboat hotspot.",
+    "Building the rowboat requires 70 Construction, hammer, saw, 10 swamp paste, and 8 camphor planks.",
+    "After the rowboat is built, travel is possible between Ynysdail and north of Gwenith; using that rowboat requires Song of the Elves."
+  ],
+  "recommendedMethod": "Use Protect from Magic. Sever the Aquanite lure with a fast slash weapon such as Abyssal whip or a scimitar, then use strong stab melee such as Soulreaper axe, Ghrazi rapier, Osmumten's fang, Blade of saeldor, Abyssal dagger, or Voidwaker. Flick Protect from Magic against Elder aquanites."
+}

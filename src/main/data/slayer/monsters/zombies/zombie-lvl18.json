@@ -1,0 +1,38 @@
+{
+  "variantId": "zombie-lvl18",
+  "name": "Zombie",
+  "npcIds": [
+    42
+  ],
+  "combatLevel": 18,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 18,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Graveyard of Shadows and common zombie spawns",
+  "requirement": "Krystilia kills must occur in the Wilderness to count towards the task",
+  "bossId": null,
+  "strategyId": "zombies",
+  "offence": {
+    "hitpoints": 24,
+    "maxHit": 2,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "poisonous": false,
+    "venomous": false
+  }
+}

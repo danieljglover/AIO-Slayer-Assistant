@@ -1,0 +1,30 @@
+{
+  "variantId": "dire-gryphon-superior",
+  "name": "Dire gryphon",
+  "npcIds": [
+    14859
+  ],
+  "combatLevel": 209,
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 10,
+    "slash": 20,
+    "crush": 40,
+    "magic": 150,
+    "range": 60
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "The Great Conch (superior spawn)",
+  "locationId": "eastern-gryphon-dungeon",
+  "requirement": "Superior spawn after Bigger and Badder; tortugan shield strongly recommended and 40 kg equipped weight counters the special attack",
+  "bossId": null,
+  "strategyId": "gryphons"
+}

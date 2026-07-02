@@ -1,0 +1,11 @@
+{
+  "locationId": "burgh-de-rott-vampyres",
+  "name": "Burgh de Rott",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires completion of In Aid of the Myreque. Contains Feral Vampyres west of Burgh de Rott and Vampyre Juvinates east of the town."
+}

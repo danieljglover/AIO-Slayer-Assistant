@@ -1,0 +1,29 @@
+{
+  "variantId": "branda-the-fire-queen",
+  "name": "Branda the Fire Queen",
+  "npcIds": [
+    12596
+  ],
+  "combatLevel": 350,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 12,
+    "slash": 12,
+    "crush": 0,
+    "magic": 700,
+    "range": 700
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Royal Titans arena (Asgarnia)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "branda-the-fire-queen"
+}

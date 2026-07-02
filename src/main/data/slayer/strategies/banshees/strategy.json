@@ -1,0 +1,119 @@
+{
+  "strategyId": "banshees",
+  "variantIds": [
+    "banshee",
+    "twisted-banshee"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Banshee",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Wear earmuffs or a Slayer helmet against Banshees or take 6 damage and heavy stat drain per scream. Their Defence is low, so any decent melee works. Air spells exploit the 30% elemental weakness for a magic alternative."
+  },
+  "requirements": [
+    "15 Slayer is required to harm Banshees (69 for Twisted Banshees).",
+    "Combat level 20 is required for assignment.",
+    "Priest in Peril must be completed to enter the Slayer Tower.",
+    "Earmuffs or a Slayer helmet must be worn to avoid the stat-draining scream."
+  ],
+  "mechanics": [
+    "Attacking without earmuffs or a Slayer helmet deals 6 damage and greatly drains Attack, Strength, Defence, Ranged, Magic, Prayer, and Agility.",
+    "Banshees are undead and spectral: the salve amulet and Crumble Undead apply.",
+    "Banshees have a 30% elemental weakness to air spells (Twisted Banshee 25%).",
+    "Twisted Banshees regenerate 1 Hitpoint each time they are attacked.",
+    "They attack with magical melee at 4 ticks."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-earmuffs",
+      "label": "Melee with earmuffs",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Wear earmuffs or a Slayer helmet and kill the ground-floor Banshees with any melee weapon.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Earmuffs or Slayer helmet",
+        "Melee weapon"
+      ],
+      "steps": [
+        "Complete Priest in Peril and travel to the Slayer Tower.",
+        "Equip earmuffs (or a Slayer helmet) before attacking.",
+        "Kill the eastern ground-floor Banshees; their low Defence makes weapon choice unimportant."
+      ],
+      "notes": [
+        "A Slayer helmet gives the Slayer damage bonus and doubles as the earmuffs protection."
+      ]
+    },
+    {
+      "methodId": "magic-air",
+      "label": "Air spells",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Cast air spells to exploit the 30% elemental weakness while still wearing earmuffs.",
+      "recommendedFor": [
+        "players training Magic"
+      ],
+      "requiredOrKeyItems": [
+        "Earmuffs or Slayer helmet",
+        "Air staff or trident"
+      ],
+      "steps": [
+        "Wear earmuffs or a Slayer helmet.",
+        "Attack Banshees with air spells or a trident to hit the elemental weakness."
+      ],
+      "notes": [
+        "Twisted Banshees regenerate 1 HP per attack, so keep damage per hit high."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-earmuffs",
+      "label": "Melee with earmuffs",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Any decent melee with earmuffs or a Slayer helmet worn.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Earmuffs",
+            "Slayer helmet"
+          ],
+          "weapon": [
+            "Abyssal whip",
+            "Dragon scimitar"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-air",
+      "label": "Air spells",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Air spells exploit the 30% elemental weakness.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Earmuffs",
+            "Slayer helmet"
+          ],
+          "weapon": [
+            "Trident of the seas"
+          ]
+        }
+      }
+    }
+  ]
+}

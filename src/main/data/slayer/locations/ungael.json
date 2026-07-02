@@ -1,0 +1,11 @@
+{
+  "locationId": "ungael",
+  "name": "Ungael",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Vorkath is fought once during Dragon Slayer II and after the quest on Ungael. Use the dedicated Vorkath strategy for boss mechanics."
+}

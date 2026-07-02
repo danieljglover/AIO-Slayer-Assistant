@@ -1,0 +1,30 @@
+{
+  "variantId": "porazdir",
+  "name": "Porazdir",
+  "npcIds": [
+    7515,
+    7860
+  ],
+  "combatLevel": 235,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 200,
+    "slash": 200,
+    "crush": 200,
+    "magic": -60,
+    "range": 200
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wilderness (roams)",
+  "requirement": "only harmable by Flames of Zamorak",
+  "strategyId": "black-demons",
+  "bossId": null
+}

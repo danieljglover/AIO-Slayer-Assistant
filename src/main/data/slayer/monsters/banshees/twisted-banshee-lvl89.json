@@ -1,0 +1,39 @@
+{
+  "variantId": "twisted-banshee",
+  "name": "Twisted Banshee",
+  "npcIds": [
+    7272
+  ],
+  "combatLevel": 89,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 15,
+    "slash": 15,
+    "crush": 15,
+    "magic": 0,
+    "range": 15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Catacombs of Kourend",
+  "requirement": "Slayer 69 to harm; wear earmuffs or a Slayer helmet to avoid the stat-draining scream",
+  "bossId": null,
+  "strategyId": "banshees",
+  "offence": {
+    "hitpoints": 100,
+    "maxHit": 9,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

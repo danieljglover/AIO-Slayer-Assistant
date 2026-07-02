@@ -1,0 +1,187 @@
+{
+  "taskId": "kurask",
+  "name": "Kurask",
+  "wikiPageId": 634049,
+  "combatLevel": 65,
+  "slayerTargetId": 226,
+  "slayerLevel": 70,
+  "questReqs": [],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7,
+    "chaeldar": 12,
+    "konar": 3,
+    "nieve": 3,
+    "duradel": 4
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows superior Slayer monsters, including King kurasks, to spawn while on task."
+    }
+  ],
+  "monsterIds": [
+    "kurask"
+  ],
+  "variantIds": [
+    "kurask",
+    "king-kurask-superior"
+  ],
+  "defaultVariantId": "kurask",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 105,
+    "stab": 0,
+    "slash": 20,
+    "crush": 20,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "leaf-bladed weapons, broad ammunition, or Magic Dart",
+  "locationIds": [
+    "fremennik-slayer-dungeon-kurasks",
+    "iorwerth-dungeon-kurasks",
+    "kurask-lair"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "kurask",
+      "name": "Kurask",
+      "combatLevel": 106,
+      "slayerXp": 97,
+      "locations": [
+        "Fremennik Slayer Dungeon",
+        "Iorwerth Dungeon",
+        "Kurask Lair"
+      ],
+      "notes": [
+        "Standard kurasks.",
+        "Normal and big 3D models are cosmetic only and have the same stats.",
+        "Can only be damaged by leaf-bladed weapons, broad-tipped ammunition, or Magic Dart."
+      ]
+    },
+    {
+      "variantId": "king-kurask-superior",
+      "name": "King kurask",
+      "combatLevel": 295,
+      "slayerXp": 2764.4,
+      "locations": [
+        "Fremennik Slayer Dungeon",
+        "Iorwerth Dungeon",
+        "Kurask Lair"
+      ],
+      "notes": [
+        "Superior slayer monster variant.",
+        "Has a chance of spawning on a kurask's death while on task after purchasing the Bigger and Badder unlock for 50 Slayer reward points.",
+        "Has no special mechanics but is significantly more accurate and has a max hit of 33."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "fremennik-slayer-dungeon-kurasks",
+      "name": "Fremennik Slayer Dungeon",
+      "amount": 14,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "5 kurasks are in the main dungeon, while 9 more are in a task-only section overseen by Jelly.",
+        "Very large area compared to other dungeons.",
+        "Cannons and thralls do not damage Kurasks."
+      ]
+    },
+    {
+      "locationId": "iorwerth-dungeon-kurasks",
+      "name": "Iorwerth Dungeon",
+      "amount": 14,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Requires Song of the Elves.",
+        "Kurasks here have a chance of dropping crystal shards on death.",
+        "This crystal shard drop is guaranteed from King kurasks.",
+        "A cannon can be set up here, but Kurasks are immune to cannon damage."
+      ]
+    },
+    {
+      "locationId": "kurask-lair",
+      "name": "Kurask Lair",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Kurasks are clumped tighter in this dungeon.",
+        "Requires 58 Sailing to dock on Laguna Aurorae for the first time.",
+        "Docking is not required once the spirit tree on the island has been spoken to, and the spirit tree is significantly closer to the lair than the docking point.",
+        "A cannon can be set up here, but Kurasks are immune to cannon damage."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Kurasks can be assigned as a Slayer task by medium and high level Slayer masters upon reaching 70 Slayer and 65 combat.",
+    "Kurasks are found in the Fremennik Slayer Dungeon, Iorwerth Dungeon after completing Song of the Elves, and Kurask Lair on Laguna Aurorae with 58 Sailing.",
+    "In the Fremennik Slayer Dungeon, there is also a separate task-only area.",
+    "Kurasks have two 3D models, normal and big, but this is merely cosmetic because there is no stat difference.",
+    "Kurasks attack with somewhat inaccurate crush attacks that can hit up to 11.",
+    "Protect from Melee will negate all Kurask damage.",
+    "Players with at least 75 Defence can avoid praying and instead collect bones and occasionally cast Bones to Peaches to restore health at a lower supply cost.",
+    "The Bones to Peaches method requires more attention and is unlocked from the Mage Training Arena.",
+    "King kurask is the superior version unlocked with Bigger and Badder.",
+    "King kurask has no special mechanics, but is significantly more accurate and has a max hit of 33.",
+    "When using Bones to Peaches, turn on Protect from Melee and use at least one Prayer potion if a King kurask spawns.",
+    "Kurasks are weakest to stab, ranged, and magic attacks.",
+    "Kurasks have the leafy attribute and can only be damaged with leaf-bladed weapons, broad-tipped ammunition, or Magic Dart.",
+    "Cannons and Thralls will not deal any damage to Kurasks.",
+    "Special attacks from Saradomin godsword, Ancient godsword, and Toxic blowpipe can still heal the player as if the attack rolled damage.",
+    "Special attacks from Ancient mace and Eldritch nightmare staff can restore prayer points based on rolled damage.",
+    "Guthan's equipment set effect will not activate against Kurasks.",
+    "Kurasks frequently drop High Alchemy weapons and armour with Nature runes.",
+    "Players should bring an Herb sack because Kurasks always drop three herbs when they roll the herb drop table.",
+    "Kurasks also drop seeds, coins, noted white berries, noted big bones, coconuts, and papaya fruit.",
+    "Kurasks in the Iorwerth Dungeon additionally drop Crystal shards, and King Kurasks there always drop Crystal shards.",
+    "Kurasks have a small aggressive range of 2 centered on their south-west tile."
+  ],
+  "recommendedMethod": "Use leaf-bladed battleaxe melee, broad ammunition ranged, or Magic Dart only. Protect from Melee is simplest; 75 Defence accounts can use Bones to Peaches for cheaper longer trips, but should pray if King kurask spawns."
+}

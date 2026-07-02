@@ -1,0 +1,11 @@
+{
+  "locationId": "bears-wilderness",
+  "name": "Wilderness bears",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Grizzly bears spawn in the low-level Wilderness west of the Graveyard of Shadows (about 10 spawns) and near the Dark Warriors' Fortress, plus north-west of the Ferox Enclave. Required for Krystilia's Wilderness bears task; bring only risk-appropriate gear as PKers frequent the area. Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative (false)."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "ruins-of-tapoyauik-jellies",
+  "name": "Ruins of Tapoyauik",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires The Heart of Darkness. Contains 10 Chilled Jellies in a single-combat area; they can be safespotted by standing behind the smaller icicles. Chilled Jellies are 50% susceptible to fire spells."
+}

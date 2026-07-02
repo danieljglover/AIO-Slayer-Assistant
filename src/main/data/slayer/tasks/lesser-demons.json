@@ -1,0 +1,368 @@
+{
+  "taskId": "lesser-demons",
+  "name": "Lesser demons",
+  "wikiPageId": 548773,
+  "combatLevel": 60,
+  "slayerTargetId": 248,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      80,
+      120
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6,
+    "vannaka": 7,
+    "chaeldar": 9
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "lesser-demons"
+  ],
+  "variantIds": [
+    "lesser-demon",
+    "lesser-demon-catacombs-lvl87",
+    "lesser-demon-catacombs-lvl94",
+    "lesser-demon-wilderness-lvl94",
+    "zakln-gritch"
+  ],
+  "defaultVariantId": "lesser-demon",
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 71,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -10,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "chasm-of-fire-middle",
+    "catacombs-of-kourend",
+    "crandor-and-karamja-dungeon",
+    "wilderness-slayer-cave-lesser-demons",
+    "sisterhood-sanctuary",
+    "charred-dungeon-lesser-demons",
+    "taverley-dungeon",
+    "king-black-dragon-lair-lesser-demons",
+    "isle-of-souls-dungeon",
+    "temple-of-ikov",
+    "viyeldi-caves",
+    "lava-maze",
+    "demonic-ruins",
+    "crandor",
+    "wizards-tower",
+    "kourend-castle",
+    "kingstown"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "lesser-demon",
+      "name": "Lesser demon",
+      "combatLevel": 82,
+      "slayerXp": 79,
+      "locations": [
+        "Lava Maze",
+        "Chasm of Fire (middle floor)",
+        "Sisterhood Sanctuary",
+        "Crandor and Karamja Dungeon",
+        "Crandor",
+        "Wizards' Tower",
+        "Kourend Castle",
+        "Kingstown",
+        "Temple of Ikov",
+        "Viyeldi caves",
+        "Taverley Dungeon",
+        "Charred Dungeon",
+        "King Black Dragon Lair",
+        "Isle of Souls Dungeon",
+        "Demonic Ruins"
+      ],
+      "notes": [
+        "Standard level 82 lesser demon found at most surface and dungeon locations."
+      ]
+    },
+    {
+      "variantId": "lesser-demon-catacombs-lvl87",
+      "name": "Lesser demon (Catacombs, level 87)",
+      "combatLevel": 87,
+      "slayerXp": 85,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Catacombs variant using the Catacombs drop table with ancient shards and dark totem pieces."
+      ]
+    },
+    {
+      "variantId": "lesser-demon-catacombs-lvl94",
+      "name": "Lesser demon (Catacombs, level 94)",
+      "combatLevel": 94,
+      "slayerXp": 98,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Stronger Catacombs variant using the Catacombs drop table with ancient shards and dark totem pieces."
+      ]
+    },
+    {
+      "variantId": "lesser-demon-wilderness-lvl94",
+      "name": "Lesser demon (Wilderness Slayer Cave)",
+      "combatLevel": 94,
+      "slayerXp": 110,
+      "locations": [
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Boosted 110-Hitpoint variant with enhanced drops in the Wilderness Slayer Cave.",
+        "Krystilia assignments are completed in the Wilderness; this cave is a player killing hotspot."
+      ]
+    },
+    {
+      "variantId": "zakln-gritch",
+      "name": "Zakl'n Gritch",
+      "combatLevel": 142,
+      "slayerXp": 150,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "K'ril Tsutsaroth's bodyguard in the God Wars Dungeon Zamorak stronghold; counts as a Lesser demon kill.",
+        "Attacks by throwing large snowballs (ranged) with a maximum hit of 21."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "chasm-of-fire-middle",
+      "name": "Chasm of Fire (middle floor)",
+      "amount": 9,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "9 Lesser demons on the middle floor with four in a concentrated area.",
+        "Demons here can drop contracts after speaking to Yama."
+      ]
+    },
+    {
+      "locationId": "sisterhood-sanctuary",
+      "name": "Sisterhood Sanctuary",
+      "amount": 9,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "9 Lesser demons under Slepe."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 8,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "8 Lesser demons (levels 87 and 94) that can drop ancient shard and dark totem pieces."
+      ]
+    },
+    {
+      "locationId": "crandor-and-karamja-dungeon",
+      "name": "Crandor and Karamja Dungeon",
+      "amount": 11,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "11 Lesser demons with six in the southern Crandor area."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave-lesser-demons",
+      "name": "Wilderness Slayer Cave",
+      "amount": 7,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "7 boosted Lesser demons below level 30 Wilderness with enhanced drops.",
+        "Player killing hotspot."
+      ]
+    },
+    {
+      "locationId": "charred-dungeon-lesser-demons",
+      "name": "Charred Dungeon",
+      "amount": 6,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "6 Lesser demons; requires 60 Sailing.",
+        "The wiki marks the demons here not safespottable."
+      ]
+    },
+    {
+      "locationId": "taverley-dungeon",
+      "name": "Taverley Dungeon",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "5 Lesser demons in Taverley Dungeon near the entrance."
+      ]
+    },
+    {
+      "locationId": "king-black-dragon-lair-lesser-demons",
+      "name": "King Black Dragon Lair",
+      "amount": 4,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "4 Lesser demons around the arena; accessed through a lever in the Wilderness."
+      ]
+    },
+    {
+      "locationId": "isle-of-souls-dungeon",
+      "name": "Isle of Souls Dungeon",
+      "amount": 4,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "4 Lesser demons; reached via Soul Wars portal."
+      ]
+    },
+    {
+      "locationId": "temple-of-ikov",
+      "name": "Temple of Ikov",
+      "amount": 3,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "3 Lesser demons; requires a shiny key and partial Temple of Ikov."
+      ]
+    },
+    {
+      "locationId": "viyeldi-caves",
+      "name": "Viyeldi caves",
+      "amount": 3,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "3 Lesser demons; requires Legends' Quest area access."
+      ]
+    },
+    {
+      "locationId": "lava-maze",
+      "name": "Lava Maze",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "2 Lesser demons at the surface Lava Maze in level 40-45 Wilderness.",
+        "A slash weapon or knife is needed for the webs."
+      ]
+    },
+    {
+      "locationId": "demonic-ruins",
+      "name": "Demonic Ruins",
+      "amount": 2,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "2 Lesser demons at the deep Wilderness Demonic Ruins."
+      ]
+    },
+    {
+      "locationId": "crandor",
+      "name": "Crandor",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "2 Lesser demons on the Crandor surface."
+      ]
+    },
+    {
+      "locationId": "wizards-tower",
+      "name": "Wizards' Tower",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "1 caged Lesser demon on the top floor; trivially safespotted."
+      ]
+    },
+    {
+      "locationId": "kourend-castle",
+      "name": "Kourend Castle",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "1 caged Lesser demon; ranged, magic, or a halberd required; prayer altar and bank nearby."
+      ]
+    },
+    {
+      "locationId": "kingstown",
+      "name": "Kingstown",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "1 Lesser demon in Kingstown."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Lesser demons require 60 combat to be assigned and have no Slayer level requirement.",
+    "slayerTargetId 248 is SYNTHETIC (WC-1..11 allocation contract: 240 + WC index); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Lesser demons are demons, so demonbane weapons such as Emberlight and Arclight apply.",
+    "Lesser demons have a 40% elemental weakness to water spells.",
+    "Krystilia assignments (80-120) must be completed in the Wilderness: Lava Maze, Demonic Ruins, or the Wilderness Slayer Cave.",
+    "The Wilderness Slayer Cave demons are boosted to 110 Hitpoints with enhanced drops but the cave is a player killing hotspot.",
+    "Catacombs of Kourend demons use the Catacombs drop table with ancient shards and dark totem pieces.",
+    "Zakl'n Gritch, K'ril Tsutsaroth's bodyguard in the God Wars Dungeon, counts as a Lesser demon kill.",
+    "Most locations are single-combat, cannonable, and safespottable; the caged demons at the Wizards' Tower, Kourend Castle, and Kingstown are risk-free but slow.",
+    "No task extension unlock exists for Lesser demons."
+  ],
+  "recommendedMethod": "Use demonbane melee (Emberlight or Arclight) or a cannon at the Chasm of Fire middle floor for low-attention tasks, or the Catacombs of Kourend for ancient shards and dark totems. Complete Krystilia assignments in the Wilderness Slayer Cave with low-risk gear. Water spells exploit the 40% elemental weakness when safespotting."
+}

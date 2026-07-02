@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-demon",
+  "name": "Revenant demon",
+  "npcIds": [
+    7936
+  ],
+  "combatLevel": 98,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 124,
+    "slash": 118,
+    "crush": 130,
+    "magic": 85,
+    "range": 90
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 80,
+    "maxHit": 18,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 120
+  }
+}

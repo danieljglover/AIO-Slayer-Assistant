@@ -1,0 +1,29 @@
+{
+  "variantId": "giant-mole",
+  "name": "Giant Mole",
+  "npcIds": [
+    5779
+  ],
+  "combatLevel": 230,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 200,
+    "stab": 60,
+    "slash": 80,
+    "crush": 100,
+    "magic": 80,
+    "range": 60
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Mole Hole (under Falador Park)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "giant-mole"
+}

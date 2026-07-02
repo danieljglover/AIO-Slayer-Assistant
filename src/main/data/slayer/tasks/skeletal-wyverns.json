@@ -1,0 +1,166 @@
+{
+  "taskId": "skeletal-wyverns",
+  "name": "Skeletal wyverns",
+  "wikiPageId": 14925,
+  "combatLevel": 70,
+  "slayerTargetId": 232,
+  "slayerLevel": 72,
+  "questReqs": [
+    "Elemental Workshop I"
+  ],
+  "masterIds": [
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      10,
+      20
+    ],
+    "konar": [
+      5,
+      12
+    ],
+    "nieve": [
+      5,
+      15
+    ],
+    "duradel": [
+      20,
+      40
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 7,
+    "konar": 5,
+    "nieve": 5,
+    "duradel": 7
+  },
+  "extendedAmount": {
+    "chaeldar": [
+      50,
+      70
+    ],
+    "konar": [
+      50,
+      70
+    ],
+    "nieve": [
+      50,
+      70
+    ],
+    "duradel": [
+      50,
+      70
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "wyver-nother-one",
+      "name": "Wyver-nother One",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Extends Skeletal Wyvern assignments. The Slayer master assignment tables list the extended amount as 50-70; the Slayer Rewards page text currently says 50-75."
+    }
+  ],
+  "monsterIds": [
+    "skeletal-wyverns"
+  ],
+  "variantIds": [
+    "skeletal-wyvern"
+  ],
+  "defaultVariantId": "skeletal-wyvern",
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 140,
+    "slash": 90,
+    "crush": 90,
+    "magic": 80,
+    "range": 140
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 2890,
+  "requiredItemName": "Elemental shield",
+  "locationIds": [
+    "asgarnian-ice-dungeon",
+    "asgarnian-ice-dungeon-task-only"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "skeletal-wyvern",
+      "name": "Skeletal Wyvern",
+      "combatLevel": 140,
+      "slayerXp": 210,
+      "locations": [
+        "Asgarnian Ice Dungeon",
+        "Asgarnian Ice Dungeon task-only area"
+      ],
+      "notes": [
+        "Attacks with melee, ranged, and unique icy breath.",
+        "The melee and ranged attacks each max hit 13; icy breath can hit 50+ without an appropriate shield.",
+        "Hitpoints 200, Attack 125, Strength 116, Defence 120, Magic 125, and Ranged 120.",
+        "Defence bonuses are 140 stab, 90 slash, 90 crush, 80 magic, and 140 standard ranged.",
+        "Has a 25% elemental weakness to Fire spells.",
+        "Skeletal Wyverns are draconic and take dragonbane effects, but are not undead and do not take Salve amulet bonuses.",
+        "NPC ids are 468, 465, 466, and 467 for the four model versions."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "asgarnian-ice-dungeon",
+      "name": "Asgarnian Ice Dungeon",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Main Skeletal Wyvern area at the end of the lower cave.",
+        "Entrance is south of Port Sarim and north of Mudskipper Point; fairy ring AIQ is a nearby route.",
+        "The lower cave allows dwarf multicannon use.",
+        "Door and pillar safespots are available after the wyverns lose aggression."
+      ]
+    },
+    {
+      "locationId": "asgarnian-ice-dungeon-task-only",
+      "name": "Asgarnian Ice Dungeon task-only area",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Task-only area accessible via icy steps near the exit to the wyvern area.",
+        "Controlled by Steve before Monkey Madness II and Pieve after Monkey Madness II.",
+        "The strategy page notes the upper Slayer-exclusive area is a no cannon zone.",
+        "Has a task-only safespot."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Skeletal wyverns require 72 Slayer to harm and 70 combat to be assigned.",
+    "Chaeldar, Konar quo Maten, Nieve/Steve, and Duradel/Kuradal assign Skeletal wyverns only after Elemental Workshop I is complete.",
+    "Use an elemental shield, mind shield, dragonfire shield, dragonfire ward, or ancient wyvern shield to reduce icy breath damage.",
+    "The ancient wyvern shield also grants immunity to the freezing effect from icy breath.",
+    "Icy breath can freeze the player; armour does not affect its accuracy, and players can still eat or drink while frozen.",
+    "Skeletal Wyverns are magically animated remains, not undead, so the Salve amulet and its enchanted versions do not work.",
+    "They are draconic creatures, so dragonbane weapons such as the dragon hunter lance and dragon hunter crossbow work.",
+    "They are one of the few monsters vulnerable to both dragonbane weapons and dragonfire effects.",
+    "They have a 25% elemental weakness to fire spells.",
+    "Protect from Missiles is suggested when not safespotting because they deal frequent ranged damage.",
+    "Safespotted kills usually require waiting out the 10 minutes of aggression before trapping a wyvern at the cave entrance or an ice structure.",
+    "The dwarf multicannon can be used in the lower Asgarnian Ice Dungeon, but not in the upper task-only area.",
+    "Killing a Skeletal Wyvern is required for the Hard Falador Diary.",
+    "They drop draconic visage, not wyvern visage, and are the only monster that drops granite legs."
+  ],
+  "recommendedMethod": "Use the Asgarnian Ice Dungeon main or task-only area with an anti-icy-breath shield. Melee with dragon hunter lance is the strongest direct method; Ranged or Magic safespotting is safer after the 10-minute aggression timer, with Fire Magic benefiting from the 25% elemental weakness."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "forthos-dungeon-baby-red-dragons",
+  "name": "Forthos Dungeon (baby red dragons)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 5 Baby red dragons in Forthos Dungeon. The task page marks them not cannonable and not safespottable."
+}

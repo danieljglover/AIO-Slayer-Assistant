@@ -1,0 +1,30 @@
+{
+  "variantId": "rock-troll",
+  "name": "Rock",
+  "npcIds": [
+    925
+  ],
+  "combatLevel": 111,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 35,
+    "slash": 60,
+    "crush": 35,
+    "magic": 200,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Death Plateau.",
+  "locationId": "death-plateau-trolls",
+  "requirement": "Strong named Death Plateau troll.",
+  "bossId": null,
+  "strategyId": "trolls"
+}

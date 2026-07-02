@@ -1,0 +1,29 @@
+{
+  "variantId": "chaos-fanatic",
+  "name": "Chaos Fanatic",
+  "npcIds": [
+    6619
+  ],
+  "combatLevel": 202,
+  "weakness": {
+    "style": "RANGED",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 220,
+    "stab": 260,
+    "slash": 260,
+    "crush": 250,
+    "magic": 280,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "West of the Lava Maze, ~Level 38+ Wilderness",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "chaos-fanatic"
+}

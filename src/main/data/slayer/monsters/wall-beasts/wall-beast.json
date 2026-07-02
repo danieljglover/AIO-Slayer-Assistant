@@ -1,0 +1,39 @@
+{
+  "variantId": "wall-beast",
+  "name": "Wall beast",
+  "npcIds": [
+    476,
+    475
+  ],
+  "combatLevel": 49,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 16,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Lumbridge Swamp Caves",
+  "locationId": "lumbridge-swamp-caves",
+  "requirement": "Slayer level 35; a spiny helmet or Slayer helmet to fight safely",
+  "bossId": null,
+  "strategyId": "wall-beasts",
+  "offence": {
+    "hitpoints": 105,
+    "maxHit": 18,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

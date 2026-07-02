@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-ankou-area",
+  "name": "Wilderness (Ankou area)",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Ankou spawns in the Wilderness (The Forgotten Cemetery around level 30, and the Wilderness Slayer Cave); no Wilderness Ankou safespot is documented and player-killer risk applies, so carry only what you can lose."
+}

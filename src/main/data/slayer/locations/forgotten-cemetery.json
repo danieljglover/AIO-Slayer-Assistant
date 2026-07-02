@@ -1,0 +1,11 @@
+{
+  "locationId": "forgotten-cemetery",
+  "name": "The Forgotten Cemetery",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Wilderness Ankou location straddling level 30 Wilderness. Safespot behind the south-west coffin on the square between the bone spawns; bring a one-click teleport such as a Royal seed pod."
+}

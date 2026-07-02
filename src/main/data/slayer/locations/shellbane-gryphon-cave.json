@@ -1,0 +1,11 @@
+{
+  "locationId": "shellbane-gryphon-cave",
+  "name": "Shellbane Gryphon Cave",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Task-only boss cave in the centre of the Great Conch leading to the solo instanced Shellbane Gryphon encounter."
+}

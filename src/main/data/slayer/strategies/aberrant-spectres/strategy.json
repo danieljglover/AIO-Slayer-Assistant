@@ -1,0 +1,235 @@
+{
+  "strategyId": "aberrant-spectres",
+  "variantIds": [
+    "aberrant-spectre",
+    "abhorrent-spectre",
+    "deviant-spectre",
+    "repugnant-spectre"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Aberrant_spectres",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "trident-of-the-swamp",
+      "trident-of-the-seas",
+      "sanguinesti-staff",
+      "tumeken-s-shadow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "osmumten-s-fang",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Wear a nose peg or Slayer helmet and use Protect from Magic. Use Stronghold Slayer Cave or Deepfin Mine for cannoning, Slayer Tower for Morytania Diary Slayer XP, or Catacombs for Deviant spectres and Dark totem drops."
+  },
+  "requirements": [
+    "60 Slayer",
+    "Priest in Peril",
+    "Nose peg or Slayer helmet",
+    "Bigger and Badder for Abhorrent spectre and Repugnant spectre superior spawns"
+  ],
+  "mechanics": [
+    "Without a nose peg or Slayer helmet, aberrant spectres use a special attack that hits through protection prayers and rapidly drains combat stats.",
+    "Protect from Magic fully blocks normal aberrant spectre, deviant spectre, and superior spectre damage.",
+    "Aberrant spectres are undead, so Salve amulet bonuses apply, but they do not stack with Slayer helmet bonuses.",
+    "Stronghold Slayer Cave and Deepfin Mine allow dwarf multicannon placement; Slayer Tower and Catacombs do not.",
+    "Slayer Tower kills can receive Morytania Diary Slayer experience bonuses.",
+    "Catacombs deviant and repugnant spectres can drop Dark totem pieces and ancient shards.",
+    "The Spectral attribute allows Ectoplasmator Prayer experience."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General task setup",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Equip a nose peg or Slayer helmet, keep Protect from Magic active, and choose the location based on cannon use, diary XP, or Catacombs drops.",
+      "recommendedFor": [
+        "baseline aberrant spectre task planning",
+        "players choosing between task locations"
+      ],
+      "requiredOrKeyItems": [
+        "Nose peg",
+        "Slayer helmet",
+        "Herb sack",
+        "Seed box",
+        "Ectoplasmator",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Equip a nose peg or Slayer helmet before entering combat.",
+        "Turn on Protect from Magic to block normal damage.",
+        "Bring a herb sack and optional seed box to preserve inventory space.",
+        "Use the best available magic, ranged, or melee setup, prioritising task convenience over max hit because protection prayer handles incoming damage.",
+        "Carry an Ectoplasmator if the small passive Prayer experience is worth the inventory slot."
+      ],
+      "risks": [
+        "Forgetting the nose peg or Slayer helmet causes heavy damage and fast stat drain.",
+        "Superior variants can hit much harder if Protect from Magic drops."
+      ],
+      "notes": [
+        "Slayer helmet is usually preferred because Salve amulet bonuses do not stack with it.",
+        "Aberrant spectres are valued for herb drops."
+      ]
+    },
+    {
+      "methodId": "slayer-tower-safespot",
+      "label": "Slayer Tower safespot",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Use Slayer Tower obstacles to block aberrant spectres while gaining any Morytania Diary Slayer experience bonus.",
+      "recommendedFor": [
+        "Morytania Diary Slayer experience bonus",
+        "low-supply kills",
+        "players not using a cannon"
+      ],
+      "requiredOrKeyItems": [
+        "Nose peg or Slayer helmet",
+        "Ranged or magic weapon"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Use the first-floor Slayer Tower aberrant spectre room.",
+        "Use walls, brick piles, or suits of armour to block movement.",
+        "Stay at least six tiles away where practical.",
+        "Loot herbs and high-value seeds while leaving low-value clutter."
+      ],
+      "notes": [
+        "The Slayer Tower is not cannonable.",
+        "Morytania Diary completion increases Slayer experience per kill in the tower."
+      ]
+    },
+    {
+      "methodId": "cannon-stronghold-or-deepfin",
+      "label": "Cannon locations",
+      "combatStyle": "RANGED",
+      "role": "cannon",
+      "summary": "Use a dwarf multicannon in Stronghold Slayer Cave or Deepfin Mine, then safespot or prayer-tank individual targets because the rooms are single-way combat.",
+      "recommendedFor": [
+        "faster task completion",
+        "players spending cannonballs",
+        "Deepfin Mine bank-chest access"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Nose peg or Slayer helmet",
+        "Herb sack"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Place the cannon in Stronghold Slayer Cave or Deepfin Mine.",
+        "Keep Protect from Magic active while tagging spectres.",
+        "Safespot where the room geometry allows it, especially after aggression expires.",
+        "In Deepfin Mine, use the eastern safespot near the standing torch and bank chest access when available."
+      ],
+      "risks": [
+        "Single-way combat limits how many spectres the cannon can effectively engage at once.",
+        "Deepfin Mine access and banking depend on Sailing and constructed facilities."
+      ],
+      "notes": [
+        "Cannons cannot be used in the Slayer Tower or Catacombs of Kourend.",
+        "Deepfin Mine has fewer spectres but useful safespot and banking options."
+      ]
+    },
+    {
+      "methodId": "catacombs-deviant-spectres",
+      "label": "Catacombs deviant spectres",
+      "combatStyle": "MAGIC",
+      "role": "drops",
+      "summary": "Kill deviant spectres in the Catacombs when Dark totem pieces and ancient shards are more valuable than raw Slayer experience rates.",
+      "recommendedFor": [
+        "Dark totem piece collection",
+        "ancient shard collection",
+        "players accepting slower Slayer experience"
+      ],
+      "requiredOrKeyItems": [
+        "Nose peg or Slayer helmet",
+        "Prayer potions",
+        "Herb sack"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Use the Catacombs of Kourend deviant spectre area.",
+        "Safespot from north of the western spawns when using ranged or magic.",
+        "Prioritise Dark totem pieces, ancient shards, herbs, and high-value seeds.",
+        "Handle Repugnant spectre superior spawns carefully because they have much higher health and damage potential."
+      ],
+      "risks": [
+        "Deviant spectres are slower Slayer experience than standard aberrant spectres.",
+        "Repugnant spectres have high combat stats and can extend the trip if supplies are low."
+      ],
+      "notes": [
+        "Repugnant spectres always drop a Dark totem piece.",
+        "Catacombs kills do not allow cannon use."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic-air",
+      "label": "Air magic",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use magic, preferably air spells or powered staves, to align with the task's air weakness while staying protected from magic damage.",
+      "equipment": {
+        "weapons": [
+          "trident-of-the-swamp",
+          "trident-of-the-seas",
+          "sanguinesti-staff",
+          "tumeken-s-shadow"
+        ],
+        "offhand": [
+          "Nose peg or Slayer helmet requirement still applies through head slot"
+        ]
+      }
+    },
+    {
+      "styleId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use ranged weapons from safespots or while cannoning when conserving magic charges is preferred.",
+      "equipment": {
+        "weapons": [
+          "toxic-blowpipe",
+          "venator-bow",
+          "magic-shortbow-i",
+          "rune-crossbow"
+        ]
+      }
+    },
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "budget",
+      "summary": "Use melee for low-cost task completion when prayer supplies are available and safespotting is not needed.",
+      "equipment": {
+        "weapons": [
+          "osmumten-s-fang",
+          "zombie-axe",
+          "abyssal-whip"
+        ]
+      }
+    }
+  ]
+}

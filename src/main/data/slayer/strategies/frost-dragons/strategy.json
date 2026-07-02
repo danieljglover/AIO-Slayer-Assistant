@@ -1,0 +1,432 @@
+{
+  "strategyId": "frost-dragons",
+  "variantIds": [
+    "frost-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Frost_dragon/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "inquisitor-s-mace",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "zamorakian-hasta",
+      "abyssal-bludgeon"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "eye-of-ayak",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "sanguinesti-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Frost dragons have a 100% fire elemental weakness and are dragonbane targets. Protect from Melee plus full dragonfire protection nullifies their damage; full dragonfire protection also prevents icy breath freezing."
+  },
+  "requirements": [
+    "87 Sailing to access Grimstone",
+    "Eternal brazier constructed on a boat, or access to another player's boat with one",
+    "85 combat to receive Frost dragon assignments",
+    "Nieve/Steve or Duradel/Kuradal assignment for on-task kills",
+    "Full dragonfire protection through antifire plus anti-dragon shield, or super antifire potion alone",
+    "Fairy ring DLP access requires visiting Grimstone at least once"
+  ],
+  "mechanics": [
+    "Frost dragons only use melee and short-ranged icy dragonfire.",
+    "Their icy dragonfire briefly freezes players who lack adequate protection.",
+    "Unlike wyvern icy breath, Frost dragon icy breath is fully negated by normal dragonfire protection.",
+    "A regular antifire potion partially reduces icy dragonfire.",
+    "A regular antifire potion with an anti-dragon shield, or a super antifire potion alone, fully negates icy dragonfire.",
+    "Protect from Melee combined with full dragonfire protection prevents all incoming damage.",
+    "Frost dragons can be safespotted because their dragonfire is short-ranged.",
+    "They are weakest to crush, then stab, and much more resistant to slash.",
+    "They have a 100% elemental weakness to fire spells.",
+    "They are dragons, so dragonbane weapons apply.",
+    "Being on task increases Dragon metal sheet drop rate from 1/100 to 1/40."
+  ],
+  "methods": [
+    {
+      "methodId": "attacks-and-protection",
+      "label": "Attacks and protection",
+      "combatStyle": "MELEE",
+      "role": "survival",
+      "summary": "Nullify Frost dragon damage with Protect from Melee and full dragonfire protection.",
+      "recommendedFor": [
+        "Every Frost dragon kill",
+        "Melee tank setups",
+        "Players who do not safespot"
+      ],
+      "requiredOrKeyItems": [
+        "Anti-dragon shield",
+        "Dragonfire shield",
+        "Dragonfire ward",
+        "Regular antifire potion",
+        "Super antifire potion"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety",
+        "Rigour",
+        "Eagle Eye"
+      ],
+      "steps": [
+        "Use Protect from Melee when fighting in melee distance.",
+        "Maintain full dragonfire protection with antifire plus an anti-dragon shield, or with a super antifire potion alone.",
+        "Do not treat the icy breath like wyvern breath; Frost dragon icy breath follows normal dragonfire protection rules.",
+        "Use a safespot when ranging or maging to avoid melee and short-ranged dragonfire.",
+        "Refresh antifire protection before it expires so icy breath cannot freeze the player."
+      ],
+      "risks": [
+        "A regular antifire potion alone only partially reduces icy dragonfire.",
+        "Insufficient dragonfire protection can allow freezes and high dragonfire damage."
+      ]
+    },
+    {
+      "methodId": "transportation",
+      "label": "Transportation",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Reach Grimstone through Sailing access, then return with DLP or a moored boat route.",
+      "recommendedFor": [
+        "Every Frost dragon trip",
+        "Players who have visited Grimstone once",
+        "Players with boat teleport facilities"
+      ],
+      "requiredOrKeyItems": [
+        "87 Sailing",
+        "Eternal brazier",
+        "Fairy ring DLP",
+        "Greater teleport focus",
+        "Boat moored at Grimstone"
+      ],
+      "steps": [
+        "Unlock Grimstone access with 87 Sailing and an eternal brazier on a boat, or use another player's boat with one.",
+        "After visiting Grimstone at least once, use fairy ring DLP for the fastest return route.",
+        "Alternatively, use a boat moored at Grimstone with a greater teleport focus.",
+        "Sailing from a nearby port such as Weiss is another route when teleport access is unavailable.",
+        "Use the task-only cavern west of the main area when killing Frost dragons on assignment."
+      ],
+      "notes": [
+        "The monster page says off-task attacks in the task-only area are blocked by a strange coldness permission message."
+      ]
+    },
+    {
+      "methodId": "melee-crush-dragonbane",
+      "label": "Melee crush dragonbane",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use dragonbane or crush-biased melee; Frost dragons are weakest to crush, then stab.",
+      "recommendedFor": [
+        "Dragon hunter lance users",
+        "Players using Slayer helmet on task",
+        "Players using Protect from Melee and full dragonfire protection"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter lance on crush",
+        "Inquisitor's mace",
+        "Osmumten's fang",
+        "Noxious halberd",
+        "Ghrazi rapier",
+        "Zamorakian hasta",
+        "Abyssal bludgeon",
+        "Zombie axe",
+        "Avernic defender",
+        "Anti-dragon shield"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Use Dragon hunter lance on crush when available.",
+        "Prefer crush weapons such as Inquisitor's mace or Abyssal bludgeon when not using lance.",
+        "Use stab alternatives such as Osmumten's fang, Ghrazi rapier, or Zamorakian hasta when crush options are weaker.",
+        "Use Slayer helmet on task, with Torva, Inquisitor, Oathplate, Bandos, Blood moon, or Proselyte-style armour based on budget and prayer needs.",
+        "Use Burning claws or Dragon claws for special attacks if the shield and potion plan keeps full dragonfire protection active.",
+        "Keep Protect from Melee active unless safespotting."
+      ],
+      "risks": [
+        "Slash is much worse against Frost dragons than crush or stab.",
+        "Dropping below full dragonfire protection can allow icy breath freezes."
+      ]
+    },
+    {
+      "methodId": "ranged-heavy-dragonbane",
+      "label": "Ranged heavy dragonbane",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use heavy ranged or dragonbane ranged from a safespot.",
+      "recommendedFor": [
+        "Dragon hunter crossbow users",
+        "Players who prefer safespotting",
+        "Players using heavy ranged setups"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter crossbow",
+        "Twisted bow",
+        "Bow of faerdhinen",
+        "Zaryte crossbow",
+        "Armadyl crossbow",
+        "Dragon crossbow",
+        "Dragonfire ward",
+        "Anti-dragon shield",
+        "Diamond dragon bolts (e)"
+      ],
+      "prayers": [
+        "Eagle Eye",
+        "Rigour"
+      ],
+      "steps": [
+        "Use Dragon hunter crossbow as the primary ranged dragonbane option.",
+        "Use Twisted bow, Bow of faerdhinen, or high-tier crossbows when dragonbane ranged is unavailable.",
+        "Safespot to avoid melee and short-ranged dragonfire.",
+        "Keep dragonfire protection active even when safespotting in case pathing or range changes expose the player.",
+        "Use Slayer helmet on task where applicable."
+      ],
+      "risks": [
+        "Frost dragons are more resistant to ranged attacks than chromatic dragons.",
+        "Leaving the safespot without full dragonfire protection can lead to freezes."
+      ]
+    },
+    {
+      "methodId": "magic-fire-spells",
+      "label": "Magic fire spells",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use fire spells or dragonbane magic to exploit the 100% fire elemental weakness.",
+      "recommendedFor": [
+        "High Magic accounts",
+        "Players using fire spell scaling",
+        "Players using Tome of fire or fire-support gear"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter wand",
+        "Harmonised nightmare staff",
+        "Twinflame staff",
+        "Tumeken's shadow",
+        "Eye of ayak",
+        "Sanguinesti staff",
+        "Trident of the seas",
+        "Trident of the swamp",
+        "Tome of fire with searing pages",
+        "Anti-dragon shield"
+      ],
+      "prayers": [
+        "Mystic Might",
+        "Augury"
+      ],
+      "steps": [
+        "Use Magic when the 100% fire elemental weakness makes fire spells efficient for the account.",
+        "Use Dragon hunter wand or Harmonised nightmare staff where available.",
+        "Use Twinflame staff, Tumeken's shadow, Eye of ayak, Sanguinesti staff, or tridents as fallback magic options.",
+        "Use Tome of fire with searing pages for fire-spell setups when shield slot trade-offs are acceptable.",
+        "Safespot where possible and maintain dragonfire protection for pathing mistakes."
+      ],
+      "risks": [
+        "Some high-damage magic setups use an off-hand that competes with shield-based dragonfire protection.",
+        "Powered staff costs can reduce profit compared with melee."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Bring protection, boost potions, task extension supplies, and storage for high-value Frost dragon drops.",
+      "recommendedFor": [
+        "On-task Frost dragon trips",
+        "Long task-only cavern trips",
+        "Players targeting Dragon metal sheets"
+      ],
+      "requiredOrKeyItems": [
+        "Regular antifire potion",
+        "Super antifire potion",
+        "Anti-dragon shield",
+        "Dragonfire shield",
+        "Prayer potions",
+        "Combat potion",
+        "Ranging potion",
+        "Magic boost",
+        "Emergency teleport",
+        "High-level food"
+      ],
+      "inventory": [
+        "Full dragonfire protection setup: antifire plus anti-dragon shield, or super antifire potion alone",
+        "Prayer potions for Protect from Melee and offensive prayers",
+        "Combat, Ranged, or Magic boost potion for the selected style",
+        "Emergency teleport",
+        "Food for mistakes and travel damage",
+        "Runes or ammunition for the selected style",
+        "Bracelet of slaughter if extending the task is desired"
+      ],
+      "steps": [
+        "Prioritise on-task kills when targeting Dragon metal sheets because task status improves the rate from 1/100 to 1/40.",
+        "Expect Frost dragon bones every kill and Dragon nails as a notable drop.",
+        "Pick up loot from the central north-eastern tile where Frost dragon drops appear.",
+        "Use the I see Dragons unlock only when long Frost dragon tasks are desirable."
+      ],
+      "notes": [
+        "Frost dragons do not count as blue dragons or metal dragons for other Slayer tasks.",
+        "Chance of Heavy Frost increases task weighting from 5 to 8."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-crush-dragonbane",
+      "label": "Melee crush dragonbane",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use Dragon hunter lance on crush, or another crush/stab one-handed weapon, with Protect from Melee and dragonfire protection.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Inquisitor's great helm",
+            "Neitiznot faceguard",
+            "Proselyte sallet"
+          ],
+          "weapon": [
+            "Dragon hunter lance",
+            "Inquisitor's mace",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Zamorakian hasta",
+            "Abyssal bludgeon",
+            "Zombie axe"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Anti-dragon shield"
+          ],
+          "body": [
+            "Torva platebody",
+            "Inquisitor's hauberk",
+            "Oathplate chest",
+            "Bandos chestplate",
+            "Proselyte hauberk"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-heavy-dragonbane",
+      "label": "Ranged heavy dragonbane",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use Dragon hunter crossbow or other heavy ranged options from a safespot.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Crystal helm",
+            "Armadyl helmet",
+            "Void ranger helm"
+          ],
+          "weapon": [
+            "Dragon hunter crossbow",
+            "Twisted bow",
+            "Bow of faerdhinen",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Antler guard",
+            "Aquanite hopper",
+            "Anti-dragon shield"
+          ],
+          "ammo": [
+            "Diamond dragon bolts (e)",
+            "Dragon arrow",
+            "Diamond bolts (e)",
+            "Runite bolts",
+            "Amethyst broad bolts"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-fire-spells",
+      "label": "Magic fire spells",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use fire spells, dragonbane magic, or high-tier powered staves against the 100% fire weakness.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Ancestral hat",
+            "Virtus mask",
+            "Ahrim's hood",
+            "Mystic hat"
+          ],
+          "weapon": [
+            "Dragon hunter wand",
+            "Harmonised nightmare staff",
+            "Twinflame staff",
+            "Tumeken's shadow",
+            "Eye of ayak",
+            "Sanguinesti staff",
+            "Trident of the seas",
+            "Trident of the swamp",
+            "Mystic smoke staff"
+          ],
+          "shield": [
+            "Tome of fire",
+            "Elidinis' ward (f)",
+            "Arcane spirit shield",
+            "Ancient wyvern shield",
+            "Anti-dragon shield"
+          ],
+          "hands": [
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "taskId": "dark-beasts",
+  "name": "Dark beasts",
+  "wikiPageId": 72120,
+  "combatLevel": 90,
+  "slayerTargetId": 214,
+  "slayerLevel": 90,
+  "questReqs": [
+    "Mourning's End Part II"
+  ],
+  "masterIds": [
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "konar": [
+      10,
+      15
+    ],
+    "nieve": [
+      10,
+      20
+    ],
+    "duradel": [
+      10,
+      20
+    ]
+  },
+  "weightByMaster": {
+    "konar": 5,
+    "nieve": 5,
+    "duradel": 11
+  },
+  "extendedAmount": {
+    "konar": [
+      110,
+      135
+    ],
+    "nieve": [
+      110,
+      135
+    ],
+    "duradel": [
+      110,
+      135
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "need-more-darkness",
+      "name": "Need More Darkness",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of dark beasts assigned is increased to 110-135."
+    }
+  ],
+  "monsterIds": [
+    "dark-beasts"
+  ],
+  "variantIds": [
+    "dark-beast",
+    "night-beast"
+  ],
+  "defaultVariantId": "dark-beast",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 30,
+    "slash": 40,
+    "crush": 100,
+    "magic": 90,
+    "range": 100
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "iorwerth-dungeon-dark-beasts",
+    "mourner-tunnels"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "dark-beast",
+      "name": "Dark beast",
+      "combatLevel": 182,
+      "slayerXp": 225.4,
+      "locations": [
+        "Iorwerth Dungeon",
+        "Mourner Tunnels"
+      ],
+      "notes": [
+        "Requires 90 Slayer to kill and 90 combat to be assigned unless assignment difficulty has been disabled.",
+        "Uses crush melee and magic; Magic is only used as the first attack when attacked first or when the player is out of melee range.",
+        "Does not follow tolerance rules and remains permanently aggressive.",
+        "Dark beasts have a 60% elemental weakness to earth spells, but melee is the most effective task style.",
+        "Drops the dark bow at 1/512 and the death talisman at 1/128."
+      ]
+    },
+    {
+      "variantId": "night-beast",
+      "name": "Night beast",
+      "combatLevel": 374,
+      "slayerXp": 6462,
+      "locations": [
+        "Where dark beasts spawn"
+      ],
+      "notes": [
+        "Superior slayer monster unlocked by purchasing Bigger and Badder for 50 Slayer reward points.",
+        "Night beasts are not aggressive, so the player normally triggers the first standard magic attack by attacking them.",
+        "Special attack pauses briefly, then uses three 3x3 magic attacks dealing one third of the player's current Hitpoints, rounded down.",
+        "The special cannot kill the player by itself below 3 Hitpoints, but the normal magic attack can still hit up to 8.",
+        "The simplest strategy is to keep Protect from Melee active, remain in melee range, and let the special attacks hit."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "iorwerth-dungeon-dark-beasts",
+      "name": "Iorwerth Dungeon",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Dark beasts killed here have a chance to drop crystal shards.",
+        "Requires Song of the Elves for Iorwerth Dungeon access.",
+        "Use a dwarf multicannon, but expect single-combat kills."
+      ]
+    },
+    {
+      "locationId": "mourner-tunnels",
+      "name": "Mourner Tunnels",
+      "amount": 19,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Easily accessed with a Slayer ring after completing Mourning's End Part II.",
+        "Can also be reached through the Death Altar via the Abyss, or through Mourner Headquarters.",
+        "Use a dwarf multicannon, but expect single-combat kills."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Dark beasts require 90 Slayer, 90 combat to be assigned, and starting Mourning's End Part II.",
+    "They can be killed with Melee, Magic, or Ranged, but Melee is the most effective style.",
+    "Use high prayer bonus armour such as Proselyte armour or Sunfire fanatic armour with Protect from Melee.",
+    "Dark beasts are permanently aggressive and do not become tolerant, so they can be killed with low attention once set up.",
+    "They only use Magic as their first attack if attacked first by the player, or if they cannot attack with Melee.",
+    "Night beasts require attention because their special attack fires three 3x3 magic hits based on current Hitpoints.",
+    "Bring a herb sack and gem bag to maximise profit from herb and gem drops.",
+    "Iorwerth Dungeon dark beasts can drop crystal shards.",
+    "Dark beasts and Night beasts are the only monsters that drop the dark bow and death talisman.",
+    "Dark beasts are useful point-gaining tasks because their base assignment size is small; Need More Darkness extends the task to 110-135."
+  ],
+  "recommendedMethod": "Use melee with Protect from Melee and high prayer bonus armour. Cannon in Iorwerth Dungeon for crystal shard chance or Mourner Tunnels for Slayer ring access; bring herb sack, gem bag, seed box, and prayer sustain."
+}

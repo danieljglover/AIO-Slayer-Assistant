@@ -1,0 +1,168 @@
+{
+  "strategyId": "sarachnis",
+  "variantIds": [
+    "sarachnis"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Sarachnis/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dual-macuahuitl",
+      "zamorakian-hasta",
+      "sarachnis-cudgel",
+      "zombie-axe",
+      "abyssal-bludgeon",
+      "abyssal-tentacle",
+      "saradomin-sword",
+      "colossal-blade"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "burning-claws",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-dagger",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Weak to crush; high magic AND ranged defence. High strength + a fast crush weapon; wear magic-defence armour for the magic spawn."
+  },
+  "requirements": [
+    "Access to Sarachnis's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Weak to crush; high magic AND ranged defence. High strength + a fast crush weapon; wear magic-defence armour for the magic spawn.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Weak to crush; high magic AND ranged defence. High strength + a fast crush weapon; wear magic-defence armour for the magic spawn.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "dual-macuahuitl",
+        "zamorakian-hasta",
+        "sarachnis-cudgel",
+        "zombie-axe",
+        "abyssal-bludgeon",
+        "abyssal-tentacle",
+        "saradomin-sword",
+        "colossal-blade",
+        "burning-claws",
+        "dragon-dagger"
+      ],
+      "steps": [
+        "Weak to crush; high magic AND ranged defence. High strength + a fast crush weapon; wear magic-defence armour for the magic spawn."
+      ]
+    },
+    {
+      "methodId": "crush-melee-and-webs",
+      "label": "Crush melee and webs",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use fast crush weapons, clear web movement constraints, and respond to Sarachnis spawns.",
+      "recommendedFor": [
+        "standard Sarachnis kills",
+        "mid-level bossing"
+      ],
+      "requiredOrKeyItems": [
+        "Dual macuahuitl",
+        "Sarachnis cudgel",
+        "Zombie axe",
+        "Knife or slash option for webs"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Use crush-focused melee gear because Sarachnis is weak to crush.",
+        "Attack while keeping enough space to react to webbing.",
+        "Cut or wait out webs depending on positioning and supply pressure.",
+        "Resume melee once movement is restored."
+      ],
+      "risks": [
+        "Webs can trap the player in bad positions.",
+        "Ignoring spawns can increase incoming damage quickly."
+      ]
+    },
+    {
+      "methodId": "spawn-and-prayer-management",
+      "label": "Spawn and prayer management",
+      "combatStyle": "MELEE",
+      "role": "adds",
+      "summary": "Handle Sarachnis spider spawns and prayer choices while keeping melee DPS on the boss.",
+      "recommendedFor": [
+        "consistent Sarachnis trips",
+        "players learning boss rhythm"
+      ],
+      "requiredOrKeyItems": [
+        "Food",
+        "Prayer potions",
+        "Magic-defence armour"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Protect from Magic if prioritising mage spawn pressure"
+      ],
+      "steps": [
+        "Watch for spider spawns and kill or tank them based on trip goals.",
+        "Wear enough magic defence to reduce magic spawn damage.",
+        "Keep offensive melee prayer active when supplies allow.",
+        "Bank when food runs low rather than risking a webbed death."
+      ],
+      "notes": [
+        "High magic and ranged defence make non-melee styles poor default choices."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Sarachnis setup using Dual macuahuitl.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dual macuahuitl",
+            "Zamorakian hasta",
+            "Sarachnis cudgel",
+            "Zombie axe",
+            "Abyssal bludgeon",
+            "Abyssal tentacle",
+            "Saradomin sword",
+            "Colossal blade"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Sarachnis when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Burning claws",
+            "Dragon dagger"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Sarachnis\n\nWeak to crush; high magic AND ranged defence. High strength + a fast crush weapon; wear magic-defence armour for the magic spawn."
+}

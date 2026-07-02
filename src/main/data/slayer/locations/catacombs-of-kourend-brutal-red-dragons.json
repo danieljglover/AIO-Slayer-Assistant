@@ -1,0 +1,11 @@
+{
+  "locationId": "catacombs-of-kourend-brutal-red-dragons",
+  "name": "Catacombs of Kourend (brutal red dragons)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 3 Brutal red dragons. They use melee, magic, and long-range dragonfire, can drop draconic visage, and are a slow task option compared to normal or baby red dragons."
+}

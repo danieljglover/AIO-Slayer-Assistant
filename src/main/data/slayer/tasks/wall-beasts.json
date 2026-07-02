@@ -1,0 +1,91 @@
+{
+  "taskId": "wall-beasts",
+  "name": "Wall beasts",
+  "wikiPageId": null,
+  "combatLevel": 30,
+  "slayerTargetId": 304,
+  "slayerLevel": 35,
+  "questReqs": [],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      10,
+      20
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "wall-beasts"
+  ],
+  "variantIds": [
+    "wall-beast"
+  ],
+  "defaultVariantId": "wall-beast",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 16,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "Spiny helmet",
+  "locationIds": [
+    "lumbridge-swamp-caves"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "wall-beast",
+      "name": "Wall beast",
+      "combatLevel": 49,
+      "slayerXp": 105.0,
+      "locations": [
+        "Lumbridge Swamp Caves (7 spawns)"
+      ],
+      "notes": [
+        "NPC ids 476/475; 105 Hitpoints, Defence 16 (all styles 0), 4-tick.",
+        "Max hit 4 in normal melee, but 18 in the grab attack that lands if you fight one without a spiny helmet or Slayer helmet.",
+        "A spiny helmet (or Slayer helmet) is required to start fighting one; without it you are grabbed and hurt with no chance to retaliate.",
+        "No elemental weakness (honest null); all defensive bonuses are 0."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "lumbridge-swamp-caves",
+      "name": "Lumbridge Swamp Caves",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Seven wall beasts in the Lumbridge Swamp Caves, lurking in the cave walls; a light source is required.",
+        "A spiny helmet or Slayer helmet must be worn before attacking one.",
+        "A Dwarf multicannon can be used here."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 304 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Wall beasts is not wiki-published; QA live-verify.",
+    "Assigned only by Mazchna (10-20) in this dataset; requires Slayer level 35. Mazchna's combat-level threshold is around 30.",
+    "A spiny helmet or Slayer helmet is required to fight wall beasts safely; without it they land an 18-damage grab. The requiredItemId is honest-UNKNOWN (spiny helmet item id not wiki-published).",
+    "No elemental weakness (weakness.element honest null); all defensive bonuses are 0 so any accurate melee works.",
+    "lumbridge-swamp-caves is referenced by id (owned by cave-bugs, CT-L shared #1); its accessNote already documents the spiny helmet and cannon."
+  ],
+  "recommendedMethod": "Wear a spiny helmet or Slayer helmet before attacking a wall beast, otherwise it grabs you for up to 18 damage with no chance to retaliate. Bring a light source into the Lumbridge Swamp Caves and clear the seven spawns with any accurate melee weapon; a Dwarf multicannon speeds the task. They have no elemental weakness and all defensive bonuses are 0."
+}

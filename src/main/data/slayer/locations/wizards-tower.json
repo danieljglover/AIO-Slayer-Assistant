@@ -1,0 +1,11 @@
+{
+  "locationId": "wizards-tower",
+  "name": "Wizards' Tower",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "One caged Lesser demon on the top floor of the Wizards' Tower; single-combat, cannonable, and trivially safespotted through the cage with ranged or magic."
+}

@@ -1,0 +1,38 @@
+{
+  "variantId": "cockatrice",
+  "name": "Cockatrice",
+  "npcIds": [
+    419
+  ],
+  "combatLevel": 37,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 37,
+    "stab": 10,
+    "slash": 10,
+    "crush": 0,
+    "magic": 10,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Slayer Dungeon (cockatrice area); a mirror shield or V's shield is required.",
+  "locationId": "fremennik-slayer-dungeon-cockatrice",
+  "requirement": "25 Slayer; a mirror shield or V's shield (20 Defence to wield) must be equipped.",
+  "bossId": null,
+  "strategyId": "cockatrice",
+  "offence": {
+    "hitpoints": 37,
+    "maxHit": 5,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

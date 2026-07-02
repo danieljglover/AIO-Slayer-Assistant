@@ -1,0 +1,11 @@
+{
+  "locationId": "sophanem-dungeon-maze",
+  "name": "Sophanem Dungeon (maze)",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires Contact! (partial completion). The maze level holds 2 Locust riders and 10 Scarab mages; multicombat but no cannon. The two scarab mages on the north-west side suit prayer flicking against their slow 15-tick attacks."
+}

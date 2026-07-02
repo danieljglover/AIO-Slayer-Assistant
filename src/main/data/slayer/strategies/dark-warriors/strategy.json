@@ -1,0 +1,107 @@
+{
+  "strategyId": "dark-warriors",
+  "variantIds": [
+    "dark-warrior-lvl8"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Dark_warrior",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "trident-of-the-seas",
+      "trident-of-the-swamp"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Level 8 Dark warriors have huge melee defence (stab +96, slash +79, crush +59) but zero magic and ranged defence, so magic or ranged is by far the fastest style. They have only 17 hitpoints. Bring Wilderness risk gear."
+  },
+  "requirements": [
+    "No combat, Slayer or quest requirement; assigned by Krystilia only.",
+    "Kills must occur in the Wilderness to count."
+  ],
+  "mechanics": [
+    "Level 8 Dark warriors roam the corridors of the Dark Warriors' Fortress in the low-level Wilderness.",
+    "17 hitpoints; defence level 5.",
+    "Huge melee defensive bonuses but zero magic/ranged defence.",
+    "They attack with slash melee at 4-tick speed."
+  ],
+  "methods": [
+    {
+      "methodId": "magic",
+      "label": "Magic or ranged",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Kill the low-hitpoint Dark warriors with magic or ranged against their zero magic/ranged defence.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Magic or ranged weapon",
+        "Wilderness risk gear"
+      ],
+      "steps": [
+        "Travel to the Dark Warriors' Fortress in the low-level Wilderness north-west of Edgeville.",
+        "Attack the level 8 Dark warriors with magic or ranged.",
+        "Avoid melee - their melee defence is very high."
+      ],
+      "notes": [
+        "Take caution: this is a Wilderness PvP zone."
+      ]
+    },
+    {
+      "methodId": "melee-crush-fallback",
+      "label": "Crush melee (fallback)",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "If meleeing, use a crush weapon against their lowest melee defence (+59); their 17 hitpoints die quickly regardless.",
+      "recommendedFor": [
+        "players without magic or ranged gear"
+      ],
+      "requiredOrKeyItems": [
+        "Crush melee weapon",
+        "Wilderness risk gear"
+      ],
+      "steps": [
+        "Enter the Dark Warriors' Fortress.",
+        "Attack the level 8 Dark warriors with a crush weapon (their weakest melee defence)."
+      ],
+      "notes": [
+        "Melee is far slower than magic or ranged due to their +96 stab / +79 slash defence."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Magic exploits their zero magic defence.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the seas",
+            "Trident of the swamp"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Ranged also exploits their zero ranged defence.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "strategyId": "brine-rats",
+  "variantIds": [
+    "brine-rat"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Brine_rat",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "bone-mace"
+    ],
+    "secondaryWeapons": [],
+    "note": "Brine rats carry the rat attribute, so rat bone weapons such as the Bone mace deal significantly boosted damage. Any decent melee weapon works; the cavern is single combat with two safespots and allows a dwarf multicannon."
+  },
+  "requirements": [
+    "47 Slayer and 45 combat are required for Brine rat assignments, with partial completion of Olaf's Quest.",
+    "A spade is required to enter the Brine Rat Cavern."
+  ],
+  "mechanics": [
+    "Brine rats attack with stab and can hit up to 9; they are not aggressive.",
+    "The entire cavern is a single combat zone.",
+    "Dwarf multicannons may be used in the cavern.",
+    "Two safespots exist: the black bones to the south-east and the north-west corner."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-rat-bone",
+      "label": "Melee (rat bone weapons)",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill Brine rats with melee; rat bone weapons deal significantly boosted damage against them.",
+      "recommendedFor": [
+        "default Brine rat tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Bone mace or any decent melee weapon",
+        "Slayer helmet",
+        "Spade to enter the cavern"
+      ],
+      "steps": [
+        "Dig with a spade south of the windswept tree east of Olaf Hradson to enter the cavern.",
+        "Use a rat bone weapon such as the Bone mace for boosted damage, or any decent melee weapon.",
+        "Bring food if you do not have high (~70) Defence."
+      ]
+    },
+    {
+      "methodId": "cannon",
+      "label": "Dwarf multicannon",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Place a cannon in the cavern to speed up the task despite the single combat zone.",
+      "recommendedFor": [
+        "faster task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs"
+      ],
+      "steps": [
+        "Set up the cannon among the spawns.",
+        "Pick off rats the cannon engages."
+      ]
+    },
+    {
+      "methodId": "safespot",
+      "label": "Safespotting",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use the two cavern safespots for damage-free ranged or magic kills.",
+      "recommendedFor": [
+        "low combat stats",
+        "damage-free kills"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged or magic setup"
+      ],
+      "steps": [
+        "Stand behind the black bones to the south-east or in the north-west corner.",
+        "Attack the rats from safety."
+      ]
+    },
+    {
+      "methodId": "sustain",
+      "label": "Trip sustain",
+      "role": "support",
+      "summary": "Sustain long trips with Bones to Peaches or by cooking the guaranteed raw rat meat drops on Olaf's fire outside the cavern.",
+      "recommendedFor": [
+        "long trips",
+        "low Defence accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Bones to Peaches tablets",
+        "Or use Olaf's fire outside the cavern"
+      ],
+      "steps": [
+        "Collect the guaranteed raw rat meat drops.",
+        "Cook them on Olaf's fire outside the cavern, or use Bones to Peaches tablets on the bone drops."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-rat-bone",
+      "label": "Rat bone melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary melee setup; rat bone weapons deal boosted damage.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Bone mace"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Safespot ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Ranged from the cavern safespots.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Bone shortbow",
+            "Any crossbow or bow"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Brine rats\n\nBrine rats live only in the Brine Rat Cavern (spade required to dig in). They carry the rat attribute, so rat bone weapons such as the Bone mace deal significantly boosted damage. The cavern is single combat with two safespots and allows a dwarf multicannon; sustain long trips with Bones to Peaches or by cooking the guaranteed raw rat meat on Olaf's fire outside."
+}

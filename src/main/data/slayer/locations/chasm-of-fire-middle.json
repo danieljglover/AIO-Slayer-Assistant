@@ -1,0 +1,11 @@
+{
+  "locationId": "chasm-of-fire-middle",
+  "name": "Chasm of Fire (middle floor)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Middle floor of the Chasm of Fire holds 9 Lesser demons; single-combat, cannonable and safespottable, with four demons in a concentrated area. Demons here can drop contracts after speaking to Yama."
+}

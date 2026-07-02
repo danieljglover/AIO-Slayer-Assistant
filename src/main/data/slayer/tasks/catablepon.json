@@ -1,0 +1,90 @@
+{
+  "taskId": "catablepon",
+  "name": "Catablepon",
+  "wikiPageId": null,
+  "combatLevel": 35,
+  "slayerTargetId": 278,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      20,
+      30
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "catablepon"
+  ],
+  "variantIds": [
+    "catablepon"
+  ],
+  "defaultVariantId": "catablepon",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 40,
+    "slash": 30,
+    "crush": 20,
+    "magic": 20,
+    "range": 40
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "stronghold-of-security-catablepon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "catablepon",
+      "name": "Catablepon",
+      "combatLevel": 68,
+      "slayerXp": 50.0,
+      "locations": [
+        "Stronghold of Security"
+      ],
+      "notes": [
+        "NPC ids 2474 (level 49, 40 xp), 2475 (level 64, 70 xp), 2476 (level 68, 50 xp).",
+        "40 Hitpoints, Defence 40, max hit 6, 4-tick; attacks with stab melee and magic.",
+        "High defensive bonuses (stab +40, range +40); crush (+20) and magic (+20) are the lowest, so a crush weapon is most accurate.",
+        "No elemental weakness (honest null)."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "stronghold-of-security-catablepon",
+      "name": "Stronghold of Security (Catablepon)",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Catablepon spawn in the Stronghold of Security beneath Barbarian Village.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 278 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Catablepon is not wiki-published; QA live-verify.",
+    "Assigned only by Mazchna (20-30) in this dataset; no Slayer level required (slayerLevel 1). Mazchna's combat-level threshold is around 35.",
+    "Location: the wiki cites the Stronghold of Security (Pit of Pestilence area); the CT-L ownership map lists the 2nd level. The exact sub-level is left for QA to live-verify; the family uses a tuned copy stronghold-of-security-catablepon rather than the Ankou-specific base file.",
+    "Three combat-level variants share one monster (NPC ids 2474/2475/2476) with Slayer XP 40/70/50; the default variant pins the level-68 form.",
+    "No elemental weakness (weakness.element honest null); high stab/range defensive bonuses make crush the most accurate style."
+  ],
+  "recommendedMethod": "Catablepon have high stab and range defensive bonuses, so attack with a crush weapon which meets their lowest bonus (crush +20). They hit up to 6 with stab melee and magic, so bring food for the low-level Stronghold of Security dungeon. No elemental weakness applies. Any of the three combat-level forms counts toward the task."
+}

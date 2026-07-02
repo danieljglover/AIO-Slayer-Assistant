@@ -1,0 +1,30 @@
+{
+  "variantId": "black-knight-lvl33",
+  "name": "Black Knight",
+  "npcIds": [
+    517,
+    433
+  ],
+  "combatLevel": 33,
+  "weakness": {
+    "style": "MAGIC",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 73,
+    "slash": 76,
+    "crush": 70,
+    "magic": -11,
+    "range": 72
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "South of the Bandit Camp (Wilderness)",
+  "requirement": "Must be killed in the Wilderness to count towards a Krystilia task",
+  "bossId": null,
+  "strategyId": "black-knights"
+}

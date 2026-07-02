@@ -1,0 +1,11 @@
+{
+  "locationId": "pirates-hideout",
+  "name": "Pirates' Hideout",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "In the deep Wilderness (level 54), north-east of the Deserted Keep. A lockpick and 39 Thieving are required to pick the door lock and enter. Single-way combat building with aggressive pirates. Deep-Wilderness PKer risk; the wiki does not document a cannon spot or safespot here, so these are set conservatively to false."
+}

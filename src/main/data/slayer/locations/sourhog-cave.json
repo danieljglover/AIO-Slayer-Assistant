@@ -1,0 +1,11 @@
+{
+  "locationId": "sourhog-cave",
+  "name": "Sourhog Cave (Draynor)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Sourhog Cave is south of Draynor Village and is only accessible after starting the quest A Porcine of Interest. Multi, cannon and safespot are conservative defaults and not wiki-confirmed for this cave."
+}

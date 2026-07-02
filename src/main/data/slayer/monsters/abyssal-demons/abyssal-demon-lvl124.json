@@ -1,0 +1,32 @@
+{
+  "variantId": "abyssal-demon",
+  "name": "Abyssal demon",
+  "npcIds": [
+    415,
+    416,
+    7241,
+    11239
+  ],
+  "combatLevel": 124,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 135,
+    "stab": 20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 0,
+    "range": 20
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Abyssal Area, Slayer Tower, Catacombs of Kourend, Wilderness Slayer Cave",
+  "requirement": "85 Slayer",
+  "bossId": null,
+  "strategyId": "abyssal-demons"
+}

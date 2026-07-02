@@ -1,0 +1,117 @@
+{
+  "taskId": "cave-crawlers",
+  "name": "Cave crawlers",
+  "wikiPageId": null,
+  "combatLevel": 10,
+  "slayerTargetId": 280,
+  "slayerLevel": 10,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "turael": 8,
+    "spria": 8,
+    "mazchna": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "cave-crawlers"
+  ],
+  "variantIds": [
+    "cave-crawler"
+  ],
+  "defaultVariantId": "cave-crawler",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 18,
+    "stab": 10,
+    "slash": 10,
+    "crush": 5,
+    "magic": 5,
+    "range": 10
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "fremennik-slayer-dungeon-cave-crawlers",
+    "lumbridge-swamp-caves"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "cave-crawler",
+      "name": "Cave crawler",
+      "combatLevel": 23,
+      "slayerXp": 22,
+      "locations": [
+        "Fremennik Slayer Dungeon",
+        "Lumbridge Swamp Caves"
+      ],
+      "notes": [
+        "Standard level 23 cave crawler (npc 406-409); the Slayer-task target.",
+        "Cave crawlers are poisonous (poison level 8); bring antipoison.",
+        "An icy variant (npc 13800-13801) with a 50% fire weakness exists but is not the standard task target."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "fremennik-slayer-dungeon-cave-crawlers",
+      "name": "Fremennik Slayer Dungeon (Cave crawlers)",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Most common cave crawler location; no light source required, unlike the swamp caves.",
+        "Spawn count not stated on the wiki (honest UNKNOWN)."
+      ]
+    },
+    {
+      "locationId": "lumbridge-swamp-caves",
+      "name": "Lumbridge Swamp Caves",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Alternative location; requires a rope to enter and a light source inside.",
+        "A Dwarf multicannon can be used here.",
+        "Spawn count not stated on the wiki (honest UNKNOWN)."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Cave crawlers are assigned by Turael, Spria, and Mazchna and require 10 Slayer.",
+    "Cave crawlers are poisonous (poison level 8); an antipoison is recommended.",
+    "They have 22 hitpoints and a max hit of 3; the Fremennik Slayer Dungeon needs no light source, while the Lumbridge Swamp Caves require a rope and a light source.",
+    "The standard cave crawler (npc 406-409) is level 23; an icy variant (npc 13800-13801) with a 50% fire weakness exists but is not the standard task target.",
+    "The slayerTargetId 280 is SYNTHETIC (C2/C3 allocation contract, worklist section 1); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The wikiPageId was not captured at authoring time (honest UNKNOWN); sourceUrl is https://oldschool.runescape.wiki/w/Cave_crawler."
+  ],
+  "recommendedMethod": "Fight cave crawlers in the Fremennik Slayer Dungeon (no light source needed) with any melee weapon; they have 22 HP and a max hit of 3. Bring an antipoison as they are poisonous."
+}

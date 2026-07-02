@@ -1,0 +1,11 @@
+{
+  "locationId": "edgeville-dungeon-wilderness",
+  "name": "Edgeville Dungeon (Wilderness)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "level 5 Wilderness Black demon area. Easier to escape from than Wilderness Slayer Cave but still carries player killing risk."
+}

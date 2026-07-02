@@ -1,0 +1,73 @@
+{
+  "strategyId": "icefiends",
+  "variantIds": [
+    "icefiend"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Icefiend",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "fire-battlestaff"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-scimitar",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Icefiends are 100% weak to fire spells - cast Fire Strike/Bolt/Wave with a fire staff for the fastest kills. Defence is only 12 and their max hit is 2 (magical melee), so Protect from Magic and a little food are ample. They can be safespotted behind the rocks on Ice Mountain."
+  },
+  "requirements": [
+    "No Slayer level is required to receive or kill Icefiends.",
+    "A fire spell and the runes/staff to cast it are recommended to exploit the 100% fire weakness."
+  ],
+  "mechanics": [
+    "Icefiends attack with magical melee for up to 2 damage at a 4-tick speed; Protect from Magic reduces this.",
+    "They have 15 Hitpoints and Defence 12, with all defensive bonuses +0.",
+    "They are 100% weak to fire spells, so fire magic is by far the fastest style."
+  ],
+  "methods": [
+    {
+      "methodId": "fire-magic",
+      "label": "Fire spells",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Cast a fire spell (Fire Strike/Bolt/Wave) to exploit the Icefiend's 100% fire weakness.",
+      "recommendedFor": [
+        "all Icefiend tasks"
+      ],
+      "requiredOrKeyItems": [
+        "A fire staff (Fire battlestaff) and the runes for a fire spell",
+        "Slayer helmet (imbued) for the magic bonus",
+        "A little food"
+      ],
+      "steps": [
+        "Climb to the top of Ice Mountain (north-west of Falador).",
+        "Autocast a fire spell on Icefiends for the fastest kills against their 100% fire weakness.",
+        "Pray Protect from Magic if taking damage; their max hit is only 2."
+      ]
+    },
+    {
+      "methodId": "melee-safespot",
+      "label": "Melee / safespot",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Low-level accounts can melee Icefiends, optionally safespotting them behind the mountain rocks.",
+      "recommendedFor": [
+        "low-magic accounts",
+        "early Turael/Spria tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Food",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Attack Icefiends with a melee weapon if you lack fire spells.",
+        "Use the rocks on the mountain to safespot if desired; their magical-melee attack still reaches at range in melee distance.",
+        "Complete the 15-20 assignment before returning to Turael or Spria."
+      ]
+    }
+  ],
+  "body": "# Icefiend\n\nIcefiends are a low-level Slayer task assigned by Turael and Spria, found on top of Ice Mountain and at the God Wars Dungeon entrance. They are 100% weak to fire spells, so cast Fire Strike/Bolt/Wave with a fire staff for the fastest kills. Defence is only 12 and their max hit is 2 (magical melee), so Protect from Magic and a little food are ample. They can be safespotted behind the rocks on the mountain."
+}

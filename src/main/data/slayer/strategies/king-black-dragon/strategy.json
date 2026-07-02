@@ -1,0 +1,193 @@
+{
+  "strategyId": "king-black-dragon",
+  "variantIds": [
+    "black-dragons-king-black-dragon",
+    "boss-king-black-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/King_Black_Dragon/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "osmumten-s-fang",
+      "ghrazi-rapier"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "voidwaker",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Draconic - the dragonbane Dragon hunter lance is the recommended main weapon. Anti-dragon / Dragonfire shield advised."
+  },
+  "requirements": [
+    "Access to King Black Dragon's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Draconic - the dragonbane Dragon hunter lance is the recommended main weapon. Anti-dragon / Dragonfire shield advised.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Draconic - the dragonbane Dragon hunter lance is the recommended main weapon. Anti-dragon / Dragonfire shield advised.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "dragon-hunter-lance",
+        "osmumten-s-fang",
+        "ghrazi-rapier",
+        "twisted-bow",
+        "dragon-hunter-crossbow",
+        "voidwaker",
+        "dragon-hunter-wand"
+      ],
+      "steps": [
+        "Draconic - the dragonbane Dragon hunter lance is the recommended main weapon. Anti-dragon / Dragonfire shield advised."
+      ]
+    },
+    {
+      "methodId": "dragonfire-and-lair-access",
+      "label": "Dragonfire and lair access",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Prepare dragonfire protection and manage the short Wilderness run to the King Black Dragon lair.",
+      "recommendedFor": [
+        "KBD boss tasks",
+        "players using dragonbane weapons"
+      ],
+      "requiredOrKeyItems": [
+        "Antifire potion",
+        "Anti-dragon shield or dragonfire shield",
+        "Teleport to lair route",
+        "Escape teleport"
+      ],
+      "prayers": [
+        "Protect from Magic or relevant offensive prayer"
+      ],
+      "steps": [
+        "Bring layered dragonfire protection before entering the lair.",
+        "Cross the Wilderness entrance quickly and enter the lair to leave the PvP area.",
+        "Keep antifire active throughout the kill.",
+        "Refresh supplies before returning through the Wilderness."
+      ],
+      "risks": [
+        "The route to the lair is in the Wilderness.",
+        "Inadequate dragonfire protection can cause heavy damage."
+      ]
+    },
+    {
+      "methodId": "dragonbane-melee-or-ranged",
+      "label": "Dragonbane melee or ranged",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use dragonbane melee or ranged weapons to kill KBD while handling poison and special dragonfire effects.",
+      "recommendedFor": [
+        "task kills",
+        "pet hunting",
+        "dragon pickaxe attempts"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter lance",
+        "Dragon hunter crossbow",
+        "Osmumten's fang",
+        "Antipoison"
+      ],
+      "prayers": [
+        "Piety",
+        "Rigour or Eagle Eye"
+      ],
+      "steps": [
+        "Use Dragon hunter lance for melee or Dragon hunter crossbow for ranged where available.",
+        "Bring antipoison or venom handling for poison dragonfire.",
+        "Eat through unavoidable special dragonfire effects and maintain offensive prayer.",
+        "Loot and reset before supplies run low."
+      ],
+      "notes": [
+        "KBD is draconic, so dragonbane weapons are central to the strategy."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary King Black Dragon setup using Dragon hunter lance.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter lance",
+            "Osmumten's fang",
+            "Ghrazi rapier"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for King Black Dragon when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twisted bow",
+            "Dragon hunter crossbow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for King Black Dragon when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Voidwaker"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-secondary",
+      "label": "Magic alternative",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Alternative magic option for King Black Dragon when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter wand"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# King Black Dragon\n\nDraconic - the dragonbane Dragon hunter lance is the recommended main weapon. Anti-dragon / Dragonfire shield advised."
+}

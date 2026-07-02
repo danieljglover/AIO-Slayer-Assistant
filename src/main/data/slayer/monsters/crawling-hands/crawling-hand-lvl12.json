@@ -1,0 +1,40 @@
+{
+  "variantId": "crawling-hand-lvl12",
+  "name": "Crawling Hand",
+  "npcIds": [
+    453,
+    454
+  ],
+  "combatLevel": 12,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 3,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Slayer Tower ground floor",
+  "requirement": "Slayer 5; Priest in Peril for Slayer Tower access",
+  "bossId": null,
+  "strategyId": "crawling-hands",
+  "offence": {
+    "hitpoints": 15,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

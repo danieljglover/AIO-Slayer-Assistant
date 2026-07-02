@@ -1,0 +1,32 @@
+{
+  "variantId": "kalphite-worker",
+  "name": "Kalphite Worker",
+  "npcIds": [
+    955,
+    956,
+    961
+  ],
+  "combatLevel": 28,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 20,
+    "stab": 5,
+    "slash": 5,
+    "crush": 1,
+    "magic": 10,
+    "range": 10
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": false,
+  "location": "Kalphite Lair / Kalphite Cave (task-only)",
+  "locationId": "kalphite-cave",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "kalphite"
+}

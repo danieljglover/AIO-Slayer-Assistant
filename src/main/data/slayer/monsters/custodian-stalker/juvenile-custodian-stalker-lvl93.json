@@ -1,0 +1,30 @@
+{
+  "variantId": "juvenile-custodian-stalker",
+  "name": "Juvenile custodian stalker",
+  "npcIds": [
+    14702
+  ],
+  "combatLevel": 93,
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 45,
+    "stab": 30,
+    "slash": -10,
+    "crush": 50,
+    "magic": 35,
+    "range": 5
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Stalker Den, Custodia Pass",
+  "locationId": "stalker-den-custodian-stalkers",
+  "requirement": "54 Slayer and Shadows of Custodia",
+  "bossId": null,
+  "strategyId": "custodian-stalker"
+}

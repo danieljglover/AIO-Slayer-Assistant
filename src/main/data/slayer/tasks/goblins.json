@@ -1,0 +1,97 @@
+{
+  "taskId": "goblins",
+  "name": "Goblins",
+  "wikiPageId": 11672,
+  "combatLevel": null,
+  "slayerTargetId": 291,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ]
+  },
+  "weightByMaster": {
+    "turael": 7,
+    "spria": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "goblins"
+  ],
+  "variantIds": [
+    "goblin-lvl2"
+  ],
+  "defaultVariantId": "goblin-lvl2",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": -15,
+    "slash": -15,
+    "crush": -15,
+    "magic": -15,
+    "range": -15
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "goblin-spawns"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "goblin-lvl2",
+      "name": "Goblin",
+      "combatLevel": 2,
+      "slayerXp": 5,
+      "locations": [
+        "Lumbridge (Goblin Village road)",
+        "Goblin Village",
+        "Draynor / Fishing Platform"
+      ],
+      "notes": [
+        "The common level-2 Goblin has 5 Hitpoints, max hit 1 (crush) and gives 5 Slayer XP; it is the easiest variant to kill for a quick task.",
+        "Higher Goblin variants (level 5 use a 6-tick attack and give 12 XP; level 13 give 16 XP), Cave goblins, Cave goblin guards, and the Bandos room Sergeants (Strongstack/Grimspike/Steelwill) also count."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "goblin-spawns",
+      "name": "Goblin spawns (various)",
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Goblins are very common across Lumbridge and Goblin Village; no single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "Goblins are a fast, trivial starter Slayer-XP task."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Goblins are assigned by Turael and Spria (Spria after completing A Porcine of Interest); there is no combat, Slayer, or quest requirement to be assigned.",
+    "slayerTargetId 291 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The common level-2 Goblin has 5 Hitpoints, max hit 1 (crush melee), 4-tick attack speed, and Defence level 1 (all defence bonuses -15).",
+    "Goblins have no elemental weakness; any melee weapon clears them.",
+    "Many variants count and benefit from the Slayer helmet/black mask: level 5/13 Goblins, Cave goblins and guards, and the Bandos room Sergeants (Strongstack, Grimspike, Steelwill).",
+    "No required protective item and no task extension unlock exist for Goblins."
+  ],
+  "recommendedMethod": "A fast, trivial low-level Slayer-XP task: kill the common level-2 Goblins near Lumbridge or at Goblin Village with any melee weapon. Goblins have negligible Defence and a max hit of 1, so no food or special gear is needed; the task is done for Slayer XP and the streak."
+}

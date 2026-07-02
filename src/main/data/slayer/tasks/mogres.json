@@ -1,0 +1,95 @@
+{
+  "taskId": "mogres",
+  "name": "Mogres",
+  "wikiPageId": 17608,
+  "combatLevel": 30,
+  "slayerTargetId": 297,
+  "slayerLevel": 32,
+  "questReqs": [
+    "Skippy and the Mogres"
+  ],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "mogres"
+  ],
+  "variantIds": [
+    "mogre"
+  ],
+  "defaultVariantId": "mogre",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 48,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "Fishing explosive",
+  "locationIds": [
+    "mudskipper-point"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "mogre",
+      "name": "Mogre",
+      "combatLevel": 60,
+      "slayerXp": 48,
+      "locations": [
+        "Mudskipper Point"
+      ],
+      "notes": [
+        "Requires 32 Slayer, combat level 30, and completion of Skippy and the Mogres to be assigned.",
+        "48 Hitpoints, max hit 8 (Crush), 6-tick attack speed; Defence level 48 with all defensive bonuses 0.",
+        "20% elemental weakness to earth spells, but melee is the standard kill.",
+        "Mogres are lured out of the sand at Mudskipper Point by using a fishing explosive on the mud patches."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "mudskipper-point",
+      "name": "Mudskipper Point",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Mogres hide in the sand at Mudskipper Point (south of Rimmington); use a fishing explosive on the mud/sand to lure one out.",
+        "Skippy and the Mogres must be complete before Mogres can be fought and assigned.",
+        "All defensive bonuses are 0, so any melee weapon is effective; a minor 20% earth weakness exists for a Magic alternative."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Mogres require 32 Slayer, combat level 30, and completion of Skippy and the Mogres to be assigned by Mazchna.",
+    "slayerTargetId 297 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "A fishing explosive is used on the sand/mud patches at Mudskipper Point to lure each Mogre out; the item is named but requiredItemId is left null (bailing/fishing-explosive interaction, not a worn entry gate).",
+    "Mogre has 48 Hitpoints, max hit 8 (Crush), 6-tick attack speed, and Defence level 48 with all defensive bonuses 0.",
+    "Mogre has a 20% elemental weakness to earth spells; weakness.style is MELEE because all defensive bonuses are 0 and melee is the standard kill, with the minor earth weakness documented for a Magic alternative.",
+    "No task extension unlock exists for Mogres."
+  ],
+  "recommendedMethod": "Complete Skippy and the Mogres, then travel to Mudskipper Point (south of Rimmington). Use a fishing explosive on the mud patches to lure a Mogre out of the sand, then kill it with melee. Mogres have no defensive bonuses, so any melee weapon works; the minor 20% earth weakness makes earth spells a viable Magic alternative. Bring food, as they hit up to 8."
+}

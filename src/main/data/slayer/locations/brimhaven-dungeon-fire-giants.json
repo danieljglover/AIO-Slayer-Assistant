@@ -1,0 +1,11 @@
+{
+  "locationId": "brimhaven-dungeon-fire-giants",
+  "name": "Brimhaven Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 8 Fire giants on the first floor and 5 on the ground floor. Requires a woodcutting axe and payment of 875 coins to Saniboch or a one-time 1,000,000 coin deposit. The task page marks this as inefficient for Konar because spawns are spread across floors."
+}

@@ -1,0 +1,360 @@
+{
+  "strategyId": "kalphite",
+  "variantIds": [
+    "kalphite-worker",
+    "kalphite-soldier",
+    "kalphite-guardian"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Kalphites",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "keris-partisan-of-breaching",
+      "keris-partisan",
+      "inquisitor-s-mace",
+      "abyssal-whip",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Use Kalphite Cave for normal tasks. Cannon workers for quickest completion or soldiers for better experience, keep Protect from Melee active, and bring poison immunity for soldiers and guardians."
+  },
+  "requirements": [
+    "15 combat is required for Kalphite assignments.",
+    "Kalphites are assigned by all Slayer masters except Krystilia.",
+    "The Kalphite Cave is task-exclusive and is available only while assigned Kalphites.",
+    "Kalphite Lair access requires a rope unless the Hard Desert Diary has made the rope permanent.",
+    "Kalphite Queen trips require a second rope without the Hard Desert Diary and are much more convenient after the Elite Desert Diary with 86 Agility.",
+    "Keris partisan requires Beneath Cursed Sands; Keris partisan of breaching requires Breach of the scarab and 80 Attack."
+  ],
+  "mechanics": [
+    "Workers, soldiers, and guardians attack with melee.",
+    "Soldiers poison starting at 4 damage and guardians poison starting at 6 damage.",
+    "Kalphite poison bypasses protection prayers, so poison immunity is required for fully negating soldiers and guardians.",
+    "Protect from Melee plus poison immunity completely negates normal Kalphite damage.",
+    "Workers, soldiers, guardians, and the Kalphite Queen have the kalphite attribute, so Keris-family bonuses apply.",
+    "Regular Kalphites have a 40% fire elemental weakness.",
+    "The Kalphite Cave has two worker chambers, two soldier chambers, and one guardian chamber.",
+    "Kalphite Queen has two forms, different resistances, and all three combat styles; use the Queen strategy JSON for boss trips."
+  ],
+  "methods": [
+    {
+      "methodId": "optimal-tasking",
+      "label": "Optimal tasking",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Use the task-exclusive Kalphite Cave for normal assignments because its open chambers and spawn count make tasks faster than Kalphite Lair.",
+      "recommendedFor": [
+        "baseline Kalphite tasks",
+        "players choosing between workers, soldiers, guardians, and Kalphite Queen"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Protect from Melee",
+        "Poison immunity",
+        "Keris partisan or Keris partisan of breaching"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Prefer Kalphite Cave for normal tasks because it has five open chambers with many spawns.",
+        "Use workers when the goal is the quickest possible task.",
+        "Use soldiers when the goal is better Slayer experience.",
+        "Avoid guardians for efficiency because they are sparse, larger, and have a worse cost/experience ratio.",
+        "Use Protect from Melee for all normal Kalphites and poison immunity when fighting soldiers or guardians."
+      ],
+      "notes": [
+        "The task page explicitly recommends Kalphite Cave for normal tasks.",
+        "Krystilia does not assign Kalphites."
+      ]
+    },
+    {
+      "methodId": "worker-quick-cannon",
+      "label": "Worker quick cannon",
+      "combatStyle": "MELEE",
+      "role": "speed",
+      "summary": "Cannon Kalphite workers when the goal is to finish the task as quickly and cheaply as possible.",
+      "recommendedFor": [
+        "quick task completion",
+        "low-level assignments",
+        "players not chasing Slayer XP"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Basic melee weapon or Keris partisan"
+      ],
+      "steps": [
+        "Enter a worker chamber in Kalphite Cave when not locked to Kalphite Lair.",
+        "Place the dwarf multicannon in the open chamber.",
+        "Attack workers with melee while the cannon clears the room.",
+        "Use low supply risk because workers cannot poison."
+      ],
+      "notes": [
+        "Workers are the weakest Kalphite variant and grant 40 Slayer XP each."
+      ]
+    },
+    {
+      "methodId": "soldier-experience-cannon",
+      "label": "Soldier experience cannon",
+      "combatStyle": "MELEE",
+      "role": "experience",
+      "summary": "Cannon Kalphite soldiers for better Slayer experience while using poison immunity and Protect from Melee.",
+      "recommendedFor": [
+        "better Slayer XP",
+        "Konar tasks when not choosing workers",
+        "players collecting Konar brimstone keys"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Poison immunity",
+        "Keris partisan of breaching",
+        "Keris partisan",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Enter a soldier chamber in Kalphite Cave, or the Kalphite Lair soldier area if Konar locks the task there.",
+        "Drink antipoison, antidote, antivenom, or another poison immunity source before sustained combat.",
+        "Use Protect from Melee because soldiers only attack with melee.",
+        "Set up the dwarf multicannon and fight with Keris partisan or other strong melee weapon.",
+        "Maintain poison immunity because soldier poison starts at 4 damage and bypasses protection prayers."
+      ],
+      "notes": [
+        "Soldiers grant 90 Slayer XP each and are recommended over guardians for experience-focused regular tasks."
+      ]
+    },
+    {
+      "methodId": "guardian-avoid",
+      "label": "Guardian avoid",
+      "combatStyle": "MELEE",
+      "role": "avoid",
+      "summary": "Avoid Kalphite guardians for routine task efficiency unless a location lock or personal preference requires them.",
+      "recommendedFor": [
+        "routing decisions",
+        "players tempted by higher per-kill XP"
+      ],
+      "requiredOrKeyItems": [
+        "Poison immunity",
+        "Protect from Melee",
+        "Safespot gear if ranging"
+      ],
+      "steps": [
+        "Choose workers or soldiers before guardians for normal task efficiency.",
+        "If killing guardians, bring poison immunity because guardian poison starts at 6 damage.",
+        "Use a safespot or Protect from Melee to avoid their melee damage.",
+        "Expect slower kills and poorer cost/experience than soldiers."
+      ],
+      "notes": [
+        "The task page says guardians will generally never be an optimal choice."
+      ]
+    },
+    {
+      "methodId": "konar-lair",
+      "label": "Konar Kalphite Lair",
+      "combatStyle": "MELEE",
+      "role": "konar",
+      "summary": "If Konar assigns Kalphite Lair specifically, cannon soldiers for fast task progression.",
+      "recommendedFor": [
+        "Konar location-locked tasks",
+        "players forced into Kalphite Lair"
+      ],
+      "requiredOrKeyItems": [
+        "Rope unless Hard Desert Diary rope is permanent",
+        "Dwarf multicannon",
+        "Poison immunity",
+        "Keris partisan or Keris partisan of breaching"
+      ],
+      "steps": [
+        "Use a rope to enter Kalphite Lair if the diary shortcut is unavailable.",
+        "Go to the soldier area instead of guardians for faster task progress.",
+        "Set up the dwarf multicannon and use poison immunity.",
+        "Avoid turning the assignment into a Kalphite Queen trip unless diary progress or boss uniques are the goal."
+      ],
+      "notes": [
+        "Kalphite Lair contains all variants, including the Queen."
+      ]
+    },
+    {
+      "methodId": "keris-weapons",
+      "label": "Keris weapons",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Use the Keris partisan family when available; the original Keris has the bonus but is usually outclassed by better weapons.",
+      "recommendedFor": [
+        "Kalphite attribute damage bonuses",
+        "players with Beneath Cursed Sands",
+        "players with Breach of the scarab"
+      ],
+      "requiredOrKeyItems": [
+        "Keris from Contact!",
+        "Keris partisan from Beneath Cursed Sands",
+        "Keris partisan of breaching from Breach of the scarab",
+        "80 Attack for Keris partisan of breaching"
+      ],
+      "steps": [
+        "Understand that the original keris has 33% increased damage against Kalphites and a 1/51 triple-damage hit, but low stats.",
+        "Use Keris partisan after Beneath Cursed Sands when available because it is more accurate, stronger, and has a crush option.",
+        "Use Keris partisan of breaching after obtaining Breach of the scarab for an additional 33% accuracy against Kalphites.",
+        "Use the breaching partisan over many expensive generic melee weapons when the account has 80 Attack."
+      ],
+      "notes": [
+        "The task page highlights the breaching partisan as an unusually strong value option for Kalphites."
+      ]
+    },
+    {
+      "methodId": "kalphite-queen-choice",
+      "label": "Kalphite Queen choice",
+      "combatStyle": "MELEE",
+      "role": "boss-alternative",
+      "summary": "Treat Kalphite Queen as a diary or boss-profit choice, not as the recommended way to complete normal Kalphite tasks.",
+      "recommendedFor": [
+        "Elite Desert diary progress",
+        "players already doing Kalphite Queen",
+        "boss unique hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Kalphite Queen boss setup",
+        "Hard Desert diary for permanent ropes",
+        "Elite Desert diary and 86 Agility for the shortcut",
+        "Two ropes without Hard Desert Diary",
+        "Poison immunity",
+        "Teleport out"
+      ],
+      "steps": [
+        "Choose Kalphite Queen only when diary progress or boss drops matter more than task speed.",
+        "Bring ropes unless Hard Desert Diary has made them permanent.",
+        "Use the 86 Agility shortcut after Elite Desert Diary when available.",
+        "Follow Kalphite Queen/Strategies for phase-specific gear and prayer handling."
+      ],
+      "risks": [
+        "Kalphite Queen access is cumbersome without diary unlocks.",
+        "The boss attacks with all three styles and is not comparable to normal cannon tasking."
+      ],
+      "notes": [
+        "The task page says Kalphite Queen is not recommended unless the player is progressing or has completed the Elite Desert diary and has 86 Agility."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "role": "support",
+      "summary": "Bring supplies for cannoning, prayer, poison immunity, and optional Konar key or ensouled head value.",
+      "recommendedFor": [
+        "final setup checks",
+        "Konar assignments",
+        "longer soldier trips"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Poison immunity",
+        "Prayer potions",
+        "Keris partisan or Keris partisan of breaching",
+        "Soul bearer",
+        "Teleport out",
+        "Rope for Kalphite Lair"
+      ],
+      "inventory": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Antipoison, antidote, antivenom, or other poison immunity",
+        "Prayer potions",
+        "Keris partisan of breaching or Keris partisan",
+        "Soul bearer",
+        "Emergency teleport",
+        "Rope if using Kalphite Lair without permanent diary rope"
+      ],
+      "steps": [
+        "Bring cannon supplies for normal task speed.",
+        "Bring poison immunity for soldiers or guardians.",
+        "Bring Soul bearer if collecting ensouled kalphite heads.",
+        "For Konar tasks, consider soldiers because their brimstone key rate is better relative to hitpoints than workers or guardians."
+      ],
+      "notes": [
+        "Regular Kalphite drops are not the main reason to do the task; speed and experience usually drive the choice."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-keris",
+      "label": "Keris melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary regular-task setup using Keris-family Kalphite bonuses and Protect from Melee.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Keris partisan of breaching",
+            "Keris partisan",
+            "Inquisitor's mace",
+            "Abyssal whip",
+            "Dragon scimitar"
+          ],
+          "head": [
+            "Slayer helmet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-cannon",
+      "label": "Ranged cannon support",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Ranged option for safespots while a dwarf multicannon handles most task speed.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Venator bow"
+          ],
+          "head": [
+            "Slayer helmet (i)"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-fire",
+      "label": "Fire Magic",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Magic option for safespotting regular Kalphites that have a 40% fire elemental weakness.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the swamp",
+            "Trident of the seas"
+          ],
+          "head": [
+            "Slayer helmet (i)"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Kalphite\n\nUse Kalphite Cave for normal tasks. Cannon workers for speed or soldiers for Slayer experience, use Protect from Melee plus poison immunity, and prefer Keris partisan or Keris partisan of breaching when available. Treat Kalphite Queen as a diary or boss-profit alternative rather than the default task method."
+}

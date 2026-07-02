@@ -1,0 +1,29 @@
+{
+  "variantId": "zulrah-serpentine-green-form",
+  "name": "Zulrah - serpentine (green) form",
+  "npcIds": [
+    2042
+  ],
+  "combatLevel": 725,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 300,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -45,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Zulrah's Shrine, east of Zul-Andra (serpentine/green phase)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "zulrah-serpentine-green-form"
+}

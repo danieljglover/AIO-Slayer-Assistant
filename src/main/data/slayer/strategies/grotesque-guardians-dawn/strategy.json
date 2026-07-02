@@ -1,0 +1,204 @@
+{
+  "strategyId": "grotesque-guardians-dawn",
+  "variantIds": [
+    "boss-grotesque-guardians-dawn",
+    "gargoyles-grotesque-guardians-dawn"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Grotesque_Guardians/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "venator-bow",
+      "bow-of-faerdhinen",
+      "eclipse-atlatl",
+      "hunters-sunlight-crossbow",
+      "magic-shortbow-i",
+      "toxic-blowpipe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "noxious-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "crystal-halberd",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Dawn is the airborne twin - immune to non-halberd melee; hit her with Ranged (Magic resisted more). Carry a rock/granite hammer to finish."
+  },
+  "requirements": [
+    "Access to Grotesque Guardians Dawn's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Dawn is the airborne twin - immune to non-halberd melee; hit her with Ranged (Magic resisted more). Carry a rock/granite hammer to finish.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Dawn is the airborne twin - immune to non-halberd melee; hit her with Ranged (Magic resisted more). Carry a rock/granite hammer to finish.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "venator-bow",
+        "bow-of-faerdhinen",
+        "eclipse-atlatl",
+        "hunters-sunlight-crossbow",
+        "magic-shortbow-i",
+        "toxic-blowpipe",
+        "noxious-halberd",
+        "crystal-halberd"
+      ],
+      "steps": [
+        "Dawn is the airborne twin - immune to non-halberd melee; hit her with Ranged (Magic resisted more). Carry a rock/granite hammer to finish.",
+        "Use ranged, magic, or a halberd against Dawn because non-halberd melee cannot hit her."
+      ]
+    },
+    {
+      "methodId": "phase-one-dawn-ranged",
+      "label": "Phase 1 Dawn ranged",
+      "combatStyle": "RANGED",
+      "role": "phase-one",
+      "summary": "Attack Dawn first with ranged, magic, or a halberd while Dusk is invulnerable.",
+      "recommendedFor": [
+        "standard Grotesque Guardians kills",
+        "players using ranged switches",
+        "Venator bow ricochet setups"
+      ],
+      "requiredOrKeyItems": [
+        "Venator bow",
+        "Toxic blowpipe",
+        "Bow of faerdhinen",
+        "Eclipse atlatl",
+        "Rock hammer or granite hammer"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Protect from Melee as a lower-effort alternative near Dawn"
+      ],
+      "steps": [
+        "Start the fight by attacking Dawn; Dusk is immune during phase one.",
+        "Use ranged as the default because Dawn is airborne and resists magic more.",
+        "Stack Dawn and Dusk where possible so a charged Venator bow can ricochet into Dawn twice.",
+        "Move away from the Stone Ball 3x3 area to avoid being encased.",
+        "Push Dawn to 55% health to start phase two."
+      ],
+      "risks": [
+        "Dawn's ranged attack hits twice.",
+        "Stone Ball can stun the player in place if not dodged."
+      ],
+      "notes": [
+        "Non-halberd melee cannot damage Dawn.",
+        "A noxious halberd or crystal halberd can hit Dawn when using a melee-only approach."
+      ]
+    },
+    {
+      "methodId": "phase-three-lightning-and-orbs",
+      "label": "Phase 3 lightning and orbs",
+      "combatStyle": "RANGED",
+      "role": "phase-three",
+      "summary": "Avoid the lightning attack, intercept or skip Dawn's healing orbs, then finish her with ranged pressure.",
+      "recommendedFor": [
+        "phase three Grotesque Guardians",
+        "players learning orb skip",
+        "ranged switch setups"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe",
+        "Venator bow",
+        "Amethyst ammunition",
+        "Rock hammer or granite hammer"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Protect from Melee during the post-lightning prayer sequence"
+      ],
+      "steps": [
+        "After Dusk reaches 55% health, move away from the lightning zones and avoid standing on or adjacent to charged tiles.",
+        "Resume attacking Dawn once she becomes vulnerable.",
+        "Absorb or skip the three energy spheres before they heal Dawn.",
+        "Use high ranged damage to kill Dawn before orb healing where stats and gear allow.",
+        "Use a rock hammer, granite hammer, or Gargoyle smasher unlock when Dawn is under 10 hitpoints."
+      ],
+      "risks": [
+        "Lightning deals repeated damage every tick on unsafe tiles.",
+        "Missed orbs heal Dawn and lengthen the fight."
+      ],
+      "notes": [
+        "High ranged or melee stats can enable an orb skip.",
+        "Positioning next to Dawn can let Dusk approach for Venator bow ricochet damage."
+      ]
+    },
+    {
+      "methodId": "hammer-finish",
+      "label": "Hammer finish",
+      "combatStyle": "RANGED",
+      "role": "finisher",
+      "summary": "Finish Dawn with a rock hammer, granite hammer, rock thrownhammer, or Gargoyle smasher when she falls below 10 hitpoints.",
+      "recommendedFor": [
+        "all Grotesque Guardians kills",
+        "players without Gargoyle smasher"
+      ],
+      "requiredOrKeyItems": [
+        "Rock hammer",
+        "Granite hammer",
+        "Rock thrownhammer"
+      ],
+      "steps": [
+        "Keep a finisher available throughout the fight.",
+        "Use the hammer item on Dawn when she is below 10 hitpoints unless Gargoyle smasher is unlocked.",
+        "Prepare for Dusk to absorb Dawn's essence and begin the final phase."
+      ],
+      "notes": [
+        "Grotesque Guardians retain the gargoyle hammer-finisher requirement.",
+        "A granite hammer can also be part of the melee weapon setup."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Grotesque Guardians Dawn setup using Venator bow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Venator bow",
+            "Bow of faerdhinen",
+            "Eclipse atlatl",
+            "Hunters' sunlight crossbow",
+            "Magic shortbow (i)",
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Grotesque Guardians Dawn when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Noxious halberd",
+            "Crystal halberd"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Grotesque Guardians - Dawn\n\nDawn is the airborne twin - immune to non-halberd melee; hit her with Ranged (Magic resisted more). Carry a rock/granite hammer to finish."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "deep-wilderness-dungeon-fire-giants",
+  "name": "Deep Wilderness Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "The only Fire giant location for Krystilia assignments. Located around level 53 Wilderness near the Mage Arena, with high player-killer risk. Cannon tiles are available along the western lava pool, and a safespot is in the south-eastern tunnel near the Monk of Zamorak. Wilderness Medium Diary unlocks a 46 Agility shortcut between fire and hill giants."
+}

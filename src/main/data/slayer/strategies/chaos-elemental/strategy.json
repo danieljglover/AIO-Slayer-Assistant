@@ -1,0 +1,170 @@
+{
+  "strategyId": "chaos-elemental",
+  "variantIds": [
+    "chaos-elemental"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Chaos_Elemental/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "webweaver-bow",
+      "craw-s-bow",
+      "twisted-bow",
+      "bow-of-faerdhinen",
+      "toxic-blowpipe",
+      "armadyl-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "ursine-chainmace",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "viggora-s-chainmace",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "osmumten-s-fang",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "abyssal-tentacle",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Guide is RANGED or a melee safespot (not the data MAGIC - magic is not recommended). Webweaver/Craw's bow + Ursine/Viggora's chainmace are Wilderness weapons."
+  },
+  "requirements": [
+    "Access to Chaos Elemental's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Guide is RANGED or a melee safespot (not the data MAGIC - magic is not recommended). Webweaver/Craw's bow + Ursine/Viggora's chainmace are Wilderness weapons.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Guide is RANGED or a melee safespot (not the data MAGIC - magic is not recommended). Webweaver/Craw's bow + Ursine/Viggora's chainmace are Wilderness weapons.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "webweaver-bow",
+        "craw-s-bow",
+        "twisted-bow",
+        "bow-of-faerdhinen",
+        "toxic-blowpipe",
+        "armadyl-crossbow",
+        "ursine-chainmace",
+        "viggora-s-chainmace",
+        "osmumten-s-fang",
+        "abyssal-tentacle"
+      ],
+      "steps": [
+        "Guide is RANGED or a melee safespot (not the data MAGIC - magic is not recommended). Webweaver/Craw's bow + Ursine/Viggora's chainmace are Wilderness weapons."
+      ]
+    },
+    {
+      "methodId": "ranged-wilderness-kill",
+      "label": "Ranged Wilderness kill",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Use ranged or Wilderness weapons against Chaos Elemental while keeping escape options ready.",
+      "recommendedFor": [
+        "Chaos Elemental boss tasks",
+        "players using Webweaver or Craw's bow"
+      ],
+      "requiredOrKeyItems": [
+        "Webweaver bow",
+        "Craw's bow",
+        "Toxic blowpipe",
+        "Escape teleport",
+        "Food stack fillers"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Protect Item if risking gear"
+      ],
+      "steps": [
+        "Bring low-risk ranged gear and a teleport plan for deep Wilderness.",
+        "Keep inventory spaces filled with food or supplies to limit item unequip effects.",
+        "Attack with ranged while watching for player-killers.",
+        "Bank valuable drops rather than extending too long."
+      ],
+      "risks": [
+        "The Chaos Elemental can unequip items if inventory space is open.",
+        "Deep Wilderness deaths can lose carried gear and loot."
+      ]
+    },
+    {
+      "methodId": "safespot-or-melee-alternative",
+      "label": "Safespot or melee alternative",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use terrain or melee Wilderness weapons when choosing a lower-supply alternative to direct ranged kills.",
+      "recommendedFor": [
+        "players conserving ranged supplies",
+        "accounts using chainmace setups"
+      ],
+      "requiredOrKeyItems": [
+        "Ursine chainmace",
+        "Viggora's chainmace",
+        "Stamina potion"
+      ],
+      "steps": [
+        "Use known terrain to reduce incoming damage where possible.",
+        "With melee, stay ready to eat through unpredictable special effects.",
+        "Keep inventory filled so unequip attacks are less disruptive."
+      ],
+      "notes": [
+        "Magic is not the preferred strategy despite some data weaknesses."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Chaos Elemental setup using Webweaver bow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Twisted bow",
+            "Bow of faerdhinen",
+            "Toxic blowpipe",
+            "Armadyl crossbow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Chaos Elemental when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Ursine chainmace",
+            "Viggora's chainmace",
+            "Osmumten's fang",
+            "Abyssal tentacle"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Chaos Elemental\n\nGuide is RANGED or a melee safespot (not the data MAGIC - magic is not recommended). Webweaver/Craw's bow + Ursine/Viggora's chainmace are Wilderness weapons."
+}

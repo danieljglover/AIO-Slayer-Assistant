@@ -1,0 +1,29 @@
+{
+  "variantId": "scorpia",
+  "name": "Scorpia",
+  "npcIds": [
+    6615
+  ],
+  "combatLevel": 225,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 180,
+    "stab": 246,
+    "slash": 284,
+    "crush": 284,
+    "magic": 44,
+    "range": 284
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Scorpion Pit cave, north-east Wilderness (~Level 53-55)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "scorpia"
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "basilisk-sentinel",
+  "name": "Basilisk Sentinel",
+  "npcIds": [
+    9258
+  ],
+  "combatLevel": 358,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 274,
+    "stab": 50,
+    "slash": 50,
+    "crush": 10,
+    "magic": 50,
+    "range": 20
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Jormungand's Prison",
+  "requirement": "superior - Bigger and Badder unlock; mirror shield or V's shield",
+  "strategyId": "basilisks",
+  "bossId": null
+}

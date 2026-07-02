@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-knight",
+  "name": "Revenant knight",
+  "npcIds": [
+    7939
+  ],
+  "combatLevel": 126,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 145,
+    "slash": 200,
+    "crush": 180,
+    "magic": 95,
+    "range": 190
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 143,
+    "maxHit": 27,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 145
+  }
+}

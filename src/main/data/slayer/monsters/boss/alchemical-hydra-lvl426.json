@@ -1,0 +1,36 @@
+{
+  "variantId": "alchemical-hydra",
+  "name": "Alchemical Hydra",
+  "npcIds": [
+    8615,
+    8616,
+    8617,
+    8618,
+    8619,
+    8620,
+    8621,
+    8622
+  ],
+  "combatLevel": 426,
+  "weakness": {
+    "style": "RANGED",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 75,
+    "slash": 150,
+    "crush": 150,
+    "magic": 150,
+    "range": 45
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Karuulm Slayer Dungeon (lower level), Mount Karuulm - Konar-exclusive boss roll",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "alchemical-hydra"
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "dark-altar",
+  "name": "Dark Altar",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "ensouled bloodveld heads must be reanimated at the Dark Altar if Expert Reanimation is not cast soon after pickup, or if the player trades the head or teleports away."
+}

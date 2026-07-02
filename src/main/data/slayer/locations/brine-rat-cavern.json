@@ -1,0 +1,11 @@
+{
+  "locationId": "brine-rat-cavern",
+  "name": "Brine Rat Cavern",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Enter by digging with a spade south of the windswept tree east of Olaf Hradson (accessible during and after Olaf's Quest); fairy ring DKS is nearby. Contains 7 Brine rats in a single combat zone; a dwarf multicannon may be used, and two safespots exist (the black bones to the south-east and the north-west corner)."
+}

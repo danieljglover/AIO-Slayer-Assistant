@@ -1,0 +1,70 @@
+{
+  "strategyId": "pyrefiends",
+  "variantIds": [
+    "pyrefiend"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Pyrefiend",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "trident-of-the-swamp",
+      "trident-of-the-seas"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-scimitar",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Pyrefiends have 45 hitpoints and a max hit of 4 and are 100% weak to water spells; magic is the fastest style. They have the demon attribute, so demonbane weapons apply. No protective item is needed in the Fremennik Slayer Dungeon, but the Smoke Dungeon requires a facemask or Slayer helmet."
+  },
+  "requirements": [
+    "30 Slayer is required for pyrefiend assignments.",
+    "A facemask or Slayer helmet is required only when fighting them in the Smoke Dungeon."
+  ],
+  "mechanics": [
+    "Pyrefiends have 45 hitpoints and a max hit of 4.",
+    "They attack with magic-based melee (magic level 1) and are 100% weak to water spells (0 magic defence).",
+    "Fiery and demon attributes - demonbane weapons apply."
+  ],
+  "methods": [
+    {
+      "methodId": "magic",
+      "label": "Magic (water spells)",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Cast water spells at pyrefiends to exploit their 100% water weakness for the fastest kills.",
+      "recommendedFor": [
+        "default pyrefiend tasks",
+        "fast completion"
+      ],
+      "requiredOrKeyItems": [
+        "A staff or trident casting water spells",
+        "Runes for water spells"
+      ],
+      "steps": [
+        "Travel to the pyrefiend area of the Fremennik Slayer Dungeon (no facemask needed).",
+        "Cast water spells until the task is complete."
+      ]
+    },
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Melee pyrefiends with any weapon; slower than magic but needs no runes.",
+      "recommendedFor": [
+        "accounts without magic gear",
+        "low-cost training"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "A demonbane weapon boosts damage (demon attribute)"
+      ],
+      "steps": [
+        "Travel to a pyrefiend spawn (Fremennik Slayer Dungeon, or the Smoke Dungeon with a facemask).",
+        "Attack with a melee weapon until the task is complete."
+      ]
+    }
+  ]
+}

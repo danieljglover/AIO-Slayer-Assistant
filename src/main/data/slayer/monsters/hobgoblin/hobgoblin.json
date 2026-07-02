@@ -1,0 +1,43 @@
+{
+  "variantId": "hobgoblin",
+  "name": "Hobgoblin",
+  "npcIds": [
+    3049,
+    3050,
+    3286,
+    3287,
+    3288,
+    3289
+  ],
+  "combatLevel": 28,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 24,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Edgeville Dungeon / peninsula west of the Crafting Guild",
+  "locationId": "hobgoblin-area",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "hobgoblins",
+  "offence": {
+    "hitpoints": 29,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

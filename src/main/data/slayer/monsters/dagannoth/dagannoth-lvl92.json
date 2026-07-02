@@ -1,0 +1,36 @@
+{
+  "variantId": "dagannoth",
+  "name": "Dagannoth",
+  "npcIds": [
+    970,
+    971,
+    972,
+    973,
+    974,
+    975,
+    7259,
+    7260
+  ],
+  "combatLevel": 92,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 71,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 50,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Lighthouse, Jormungand's Prison, and Catacombs of Kourend (level 74 ranged and level 92 melee forms)",
+  "requirement": "Horror from the Deep for Lighthouse access; The Fremennik Exiles for Jormungand's Prison",
+  "bossId": null,
+  "strategyId": "dagannoth"
+}

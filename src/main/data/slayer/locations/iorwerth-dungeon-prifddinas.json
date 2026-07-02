@@ -1,0 +1,11 @@
+{
+  "locationId": "iorwerth-dungeon-prifddinas",
+  "name": "Iorwerth Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Song of the Elves. Contains 13 Iorwerth Warriors, supports a dwarf multicannon, and can be safespotted by using the spaces around fabric panels on the west side of the room."
+}

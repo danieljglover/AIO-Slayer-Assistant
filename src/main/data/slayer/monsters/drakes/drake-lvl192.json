@@ -1,0 +1,30 @@
+{
+  "variantId": "drake",
+  "name": "Drake",
+  "npcIds": [
+    8612,
+    8613
+  ],
+  "combatLevel": 192,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 5,
+    "slash": 60,
+    "crush": 60,
+    "magic": 20,
+    "range": 100
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Karuulm Slayer Dungeon (middle level)",
+  "requirement": "84 Slayer; heat-protection boots or Elite Kourend & Kebos Diary",
+  "bossId": null,
+  "strategyId": "drakes"
+}

@@ -1,0 +1,363 @@
+{
+  "strategyId": "wyrms",
+  "variantIds": [
+    "wyrm",
+    "shadow-wyrm",
+    "wyrmling",
+    "lava-strykewyrm",
+    "magma-strykewyrm"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Wyrms",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "soulreaper-axe",
+      "scythe-of-vitur",
+      "noxious-halberd",
+      "ghrazi-rapier",
+      "osmumten-s-fang",
+      "zamorakian-hasta",
+      "abyssal-tentacle",
+      "abyssal-whip",
+      "arkan-blade",
+      "belle-s-folly",
+      "dual-macuahuitl"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "eclipse-atlatl",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Standard Wyrms are safest when attacked outside melee range with Protect from Magic or a safespot. Dragonbane melee is viable; earth magic works on Wyrms and Wyrmlings, while water magic works on Lava and Magma Strykewyrms. Wyrmlings are a cannon alternative and Lava Strykewyrms are a 60 Sailing alternative."
+  },
+  "requirements": [
+    "62 Slayer",
+    "Boots of stone, boots of brimstone, or granite boots in Karuulm Slayer Dungeon unless Elite Kourend & Kebos Diary is complete",
+    "Bigger and Badder for Shadow Wyrm and Magma strykewyrm superior spawns",
+    "Can of Wyrms unlock for extended 200-250 assignments",
+    "Partial Perilous Moons progress for Wyrmlings in Neypotzli",
+    "60 Sailing and Charred Island access for Lava Strykewyrms",
+    "70 Construction for the optional Charred Island bank chest"
+  ],
+  "mechanics": [
+    "Wyrms are draconic and vulnerable to dragonbane weapons.",
+    "Standard Wyrms use melee and magic in melee range.",
+    "Attacking standard Wyrms outside direct melee range causes them to use only Magic.",
+    "Protect from Magic negates all damage from standard Wyrms when outside melee range.",
+    "Standard Wyrms have flat armour 1 and 50% earth elemental weakness.",
+    "Standard Wyrms cannot be cannoned in Karuulm Slayer Dungeon.",
+    "Wyrmlings use only melee, can be cannoned in Neypotzli, and cannot spawn Shadow Wyrm.",
+    "Lava Strykewyrms use melee and ranged; at distance they use only ranged, so Protect from Missiles is the defensive prayer.",
+    "Lava and Magma Strykewyrms have 50% water elemental weakness and cannot be cannoned.",
+    "Lava Strykewyrms heal from fire spells.",
+    "Magma strykewyrm can burrow to the player's location and hit 20+ if the player does not move."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-unlocks",
+      "label": "Requirements and unlocks",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Prepare 62 Slayer, Karuulm heat protection, Can of Wyrms extension, and alternative-location requirements before routing the task.",
+      "recommendedFor": [
+        "Every Wyrms task",
+        "Konar assignments",
+        "Extended assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Boots of stone",
+        "Boots of brimstone",
+        "Granite boots",
+        "Elite Kourend & Kebos Diary",
+        "Bigger and Badder",
+        "Can of Wyrms",
+        "60 Sailing",
+        "Partial Perilous Moons progress",
+        "Rada's blessing 3 or 4",
+        "Fairy ring CIR"
+      ],
+      "steps": [
+        "Confirm 62 Slayer before attempting any Wyrm-family variant.",
+        "Wear boots of stone, boots of brimstone, or granite boots in Karuulm Slayer Dungeon unless Elite Kourend & Kebos Diary is complete.",
+        "Use Rada's blessing 3 or 4, fairy ring CIR, Battlefront Teleport, or Farming Guild routes for Mount Karuulm.",
+        "Unlock Bigger and Badder if superior variants are desired.",
+        "Unlock Can of Wyrms for extended 200-250 assignments.",
+        "Use Neypotzli only after partial Perilous Moons progress and Charred Island only after 60 Sailing."
+      ]
+    },
+    {
+      "methodId": "karuulm-ranged-safespot",
+      "label": "Karuulm ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Attack standard Wyrms from outside direct melee range so Protect from Magic blocks all damage, or use the task-only safespot.",
+      "recommendedFor": [
+        "Low-damage standard Wyrm tasks",
+        "Players using task-only Karuulm area",
+        "Ranged Slayer training"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe",
+        "Dragon hunter crossbow",
+        "Bow of faerdhinen",
+        "Eclipse atlatl",
+        "Hunters' sunlight crossbow",
+        "Rune crossbow",
+        "Boots of stone, brimstone, or granite",
+        "High Level Alchemy runes"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Rigour",
+        "Eagle Eye"
+      ],
+      "steps": [
+        "Use the Karuulm task-only Wyrm area when on task.",
+        "Attack from outside direct melee range so standard Wyrms only use Magic.",
+        "Keep Protect from Magic active to negate all incoming damage.",
+        "Safespot idle Wyrms in the eastern alcove of the second island and lure them to the corner.",
+        "Use a 5-tick weapon such as rune crossbow or magic longbow on rapid if maintaining the safespot timing is more important than maximum DPS.",
+        "Pay attention because Wyrms can return to idle, move away, and break the safespot."
+      ],
+      "risks": [
+        "Shadow Wyrm cannot be safespotted like regular Wyrms.",
+        "If a regular Wyrm moves into melee range, it can use melee and magic."
+      ]
+    },
+    {
+      "methodId": "karuulm-melee-dragonbane",
+      "label": "Karuulm melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use dragonbane or strong stab melee on standard Wyrms when accepting melee-range damage and prayer use.",
+      "recommendedFor": [
+        "Dragon hunter lance users",
+        "Players using strong melee stats",
+        "Players preferring melee Slayer"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter lance",
+        "Soulreaper axe",
+        "Scythe of vitur",
+        "Noxious halberd",
+        "Ghrazi rapier",
+        "Osmumten's fang",
+        "Zamorakian hasta",
+        "Abyssal tentacle",
+        "Abyssal whip",
+        "Arkan blade",
+        "Belle's folly",
+        "Dual macuahuitl"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Protect from Melee if melee damage is the problem",
+        "Piety"
+      ],
+      "steps": [
+        "Use Dragon hunter lance when available because Wyrms are draconic.",
+        "Use Noxious halberd extended range to force standard Wyrms to only use Magic while still meleeing from range.",
+        "Use strong stab weapons such as Ghrazi rapier, Osmumten's fang, or Zamorakian hasta as alternatives.",
+        "Wear required Karuulm boots unless Elite diary heat immunity applies.",
+        "Bring food and prayer restoration because direct melee range allows both melee and magic attacks."
+      ],
+      "notes": [
+        "The task-page melee table notes Dragon hunter lance is especially strong against Strykewyrms in max gear.",
+        "Noxious halberd extended range also forces Lava Strykewyrms to use only ranged."
+      ]
+    },
+    {
+      "methodId": "elemental-magic",
+      "label": "Elemental magic",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Use 50% earth weakness on Wyrms and Wyrmlings, or 50% water weakness on Lava and Magma Strykewyrms.",
+      "recommendedFor": [
+        "Players training Magic",
+        "Dragon hunter wand users",
+        "Elemental weakness routing"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter wand",
+        "Twinflame staff",
+        "Tome of earth",
+        "Tome of water",
+        "Earth spell runes",
+        "Water spell runes",
+        "Protect from Magic",
+        "Protect from Missiles"
+      ],
+      "prayers": [
+        "Protect from Magic for standard Wyrms at range",
+        "Protect from Missiles for Lava Strykewyrms at range",
+        "Mystic Might",
+        "Augury"
+      ],
+      "steps": [
+        "Use earth spells against standard Wyrms, Shadow Wyrm, and Wyrmlings.",
+        "Use water spells against Lava Strykewyrms and Magma strykewyrms.",
+        "Stand outside melee range against standard Wyrms and pray Protect from Magic to avoid all damage.",
+        "Stand outside melee range against Lava Strykewyrms and pray Protect from Missiles.",
+        "Do not cast fire spells on Lava Strykewyrms because fire spells heal them.",
+        "Use Dragon hunter wand where available for dragonbane magic."
+      ]
+    },
+    {
+      "methodId": "wyrmling-alternative",
+      "label": "Wyrmling alternative",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Kill Wyrmlings in Neypotzli for a low-level cannon option with free local supplies, accepting weaker drops and no Shadow Wyrm spawns.",
+      "recommendedFor": [
+        "Players avoiding normal Wyrms",
+        "Low-supply tasks",
+        "Cannon users"
+      ],
+      "requiredOrKeyItems": [
+        "Partial Perilous Moons progress",
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Melee weapon",
+        "Earth spell setup"
+      ],
+      "steps": [
+        "Enter Neypotzli after the Perilous Moons talisman enchantment progress required for Wyrmlings to spawn.",
+        "Use the Earthbound Cavern cluster of six Wyrmlings.",
+        "Set up a dwarf multicannon for faster kills.",
+        "Use melee or earth magic against their 50% earth weakness.",
+        "Make cooked bream, cooked moss lizards, or moonlight potions inside instead of bringing many supplies.",
+        "Expect only Wyrmling bones as ordinary drops, plus Brimstone keys on Konar tasks."
+      ],
+      "risks": [
+        "Wyrmlings cannot spawn Shadow Wyrm.",
+        "The task page recommends Wyrmlings only for players who do not want to bother with normal Wyrms."
+      ]
+    },
+    {
+      "methodId": "lava-strykewyrm-alternative",
+      "label": "Lava Strykewyrm alternative",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use the 60 Sailing Charred Dungeon alternative for dragon metal sheet value, Protect from Missiles at range, and Magma strykewyrm superior access.",
+      "recommendedFor": [
+        "Players with 60 Sailing",
+        "Players targeting dragon metal sheets",
+        "Longer-term Charred Island routing"
+      ],
+      "requiredOrKeyItems": [
+        "60 Sailing",
+        "Rope deployed to Charred Dungeon",
+        "Dragon hunter lance",
+        "Noxious halberd",
+        "Dragon hunter wand",
+        "Water spell setup",
+        "High Level Alchemy runes",
+        "Gem bag",
+        "Protect from Missiles",
+        "Charred Island bank chest at 70 Construction"
+      ],
+      "prayers": [
+        "Protect from Missiles at range",
+        "Protect from Melee in melee distance",
+        "Piety",
+        "Augury"
+      ],
+      "steps": [
+        "Reach Charred Island with 60 Sailing and deploy a rope to enter the dungeon.",
+        "Choose melee distance with Protect from Melee or attack from distance with Protect from Missiles.",
+        "Use Noxious halberd extended range if you want a melee weapon while forcing ranged-only attacks.",
+        "Use water spells to exploit the 50% water weakness.",
+        "Do not bring a cannon because Lava Strykewyrm sections cannot be cannoned.",
+        "Bring High Level Alchemy runes and a gem bag for their drop table.",
+        "For long-term killing, build the Charred Island bank chest at 70 Construction and dock a boat with a Greater teleport focus."
+      ],
+      "risks": [
+        "Fire spells heal Lava Strykewyrms.",
+        "The closest docking points are far away without a docked boat setup."
+      ]
+    },
+    {
+      "methodId": "superior-variants",
+      "label": "Superior variants",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Handle Shadow Wyrm with ranged Protect from Magic; handle Magma strykewyrm by moving from burrow attacks or safespotting.",
+      "recommendedFor": [
+        "Bigger and Badder users",
+        "Superior Slayer handling"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder",
+        "Protect from Magic",
+        "Protect from Missiles",
+        "High-damage weapon",
+        "Food"
+      ],
+      "steps": [
+        "Expect Shadow Wyrm only from regular Wyrm kills, not Wyrmlings.",
+        "Fight Shadow Wyrm from range with Protect from Magic to negate all damage.",
+        "Do not rely on the regular Wyrm safespot for Shadow Wyrm.",
+        "Expect Magma strykewyrm only from Lava Strykewyrm kills.",
+        "Move away from the tile targeted by Magma strykewyrm's burrow special to avoid 20+ damage.",
+        "Safespot Magma strykewyrm by outranging its attacks if using a suitable setup; when safespotted it will not use the special attack."
+      ],
+      "risks": [
+        "Magma strykewyrm's burrow special can occur even near a wall.",
+        "Shadow Wyrm has much higher stats than regular Wyrms."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Attack standard Wyrms from outside direct melee range or the task-only safespot and use Protect from Magic."
+    },
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use Dragon hunter lance or other strong melee weapons; Noxious halberd extended range can force ranged-only/magic-only behaviour."
+    },
+    {
+      "styleId": "elemental-magic",
+      "label": "Elemental magic",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Use earth spells on Wyrms/Wyrmlings and water spells on Lava/Magma Strykewyrms."
+    }
+  ]
+}

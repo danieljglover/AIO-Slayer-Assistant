@@ -1,0 +1,395 @@
+{
+  "strategyId": "gargoyles",
+  "variantIds": [
+    "gargoyle",
+    "marble-gargoyle-superior"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Gargoyles",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "granite-hammer",
+      "soulreaper-axe",
+      "inquisitor-s-mace",
+      "dual-macuahuitl",
+      "abyssal-bludgeon",
+      "zamorakian-hasta",
+      "sarachnis-cudgel",
+      "zombie-axe",
+      "osmumten-s-fang",
+      "dragon-mace"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "eclipse-atlatl",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Use melee crush in the Slayer Tower basement for the low-effort task path. Carry a rock hammer, rock thrownhammer, or granite hammer; Gargoyle Smasher automates the finisher when a hammer is in inventory."
+  },
+  "requirements": [
+    "75 Slayer",
+    "80 combat to receive the assignment",
+    "Priest in Peril completion",
+    "Rock hammer, rock thrownhammer, or granite hammer for finishing blows",
+    "Gargoyle Slayer task for basement kills",
+    "Brittle key for the Grotesque Guardians rooftop arena"
+  ],
+  "mechanics": [
+    "Regular Gargoyles use melee and require a hammer finisher at 9 or lower Hitpoints.",
+    "The Gargoyle Smasher unlock automatically smashes Gargoyles if the player has a rock hammer or equivalent in inventory.",
+    "The granite hammer automatically smashes Gargoyles if equipped even without Gargoyle Smasher.",
+    "Regular Gargoyles are weak to both magic and crush, but melee is commonly used because of cost and convenience.",
+    "Gargoyles have -2 flat armour, so multi-hit weapons such as Dual macuahuitl benefit from the extra damage.",
+    "Basement Gargoyles are immune to poison and venom, while upstairs Gargoyles are not.",
+    "Protect from Melee negates all damage from regular Gargoyles.",
+    "Marble gargoyles use melee and ranged attacks plus a white-red orb special that can entrap the player.",
+    "Grotesque Guardians require more supplies, effort, stats, and gear than regular Gargoyles.",
+    "Avoid Double Trouble when killing Grotesque Guardians unless intentionally spending task count faster."
+  ],
+  "methods": [
+    {
+      "methodId": "hammer-finisher",
+      "label": "Hammer finisher",
+      "combatStyle": "MELEE",
+      "role": "required",
+      "summary": "Finish Gargoyles at 9 or lower Hitpoints with a hammer item or the Gargoyle Smasher unlock.",
+      "recommendedFor": [
+        "Every regular Gargoyle kill",
+        "Every Marble gargoyle kill",
+        "Players without granite hammer equipped"
+      ],
+      "requiredOrKeyItems": [
+        "Rock hammer",
+        "Rock thrownhammer",
+        "Granite hammer",
+        "Gargoyle Smasher unlock"
+      ],
+      "steps": [
+        "Carry a rock hammer, rock thrownhammer, or granite hammer.",
+        "Use the hammer item when the Gargoyle reaches 9 or lower Hitpoints.",
+        "Unlock Gargoyle Smasher for 120 Slayer points to automatically finish Gargoyles when a hammer equivalent is in inventory.",
+        "Equip a granite hammer to automatically smash Gargoyles even without the perk.",
+        "If both rock hammer and rock thrownhammer are in inventory, expect the rock hammer in melee distance and thrownhammer outside melee distance."
+      ],
+      "risks": [
+        "Forgetting the hammer prevents kills from completing.",
+        "Rock thrownhammer has travel time; rock hammer is faster in melee distance."
+      ]
+    },
+    {
+      "methodId": "basement-semi-afk",
+      "label": "Basement semi-AFK",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use the basement for dense on-task Gargoyles and reset aggression twice for a low-attention trip.",
+      "recommendedFor": [
+        "Most Gargoyle tasks",
+        "Players prioritising normal Gargoyle drops",
+        "Players who want low-effort kills"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer ring",
+        "Rock hammer",
+        "Prayer potions",
+        "Guthan's set",
+        "High Alchemy runes"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety",
+        "Preserve"
+      ],
+      "steps": [
+        "Use the Slayer Tower basement while on a Gargoyles task because it has many Gargoyles in a smaller area than the top floor.",
+        "Start from the north of the basement, then after the first aggression loss, run south-west.",
+        "After the second aggression loss, run east.",
+        "Use this route for roughly 30 minutes of semi-AFK combat while returning for drops, stat restores, and superior spawns.",
+        "Use Protect from Melee to negate regular Gargoyle damage if not relying on food or Guthan's healing."
+      ],
+      "notes": [
+        "Raulyn stops off-task kills in the basement.",
+        "Basement Gargoyles are immune to poison and venom."
+      ]
+    },
+    {
+      "methodId": "melee-crush",
+      "label": "Melee crush",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use crush-focused melee weapons and standard Slayer melee gear.",
+      "recommendedFor": [
+        "Most players",
+        "AFK or semi-AFK trips",
+        "Players using Slayer helmet"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet (i)",
+        "Scythe of vitur on crush",
+        "Granite hammer",
+        "Soulreaper axe on crush",
+        "Inquisitor's mace",
+        "Dual macuahuitl",
+        "Abyssal bludgeon",
+        "Zamorakian hasta on crush",
+        "Sarachnis cudgel",
+        "Zombie axe on crush",
+        "Guthan's set"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety",
+        "Preserve"
+      ],
+      "steps": [
+        "Use crush because Gargoyles are weak to crush.",
+        "Use Dual macuahuitl when the account benefits from Gargoyles' -2 flat armour and the Blood moon set bonus.",
+        "Use Guthan's equipment for healing or AFK trips.",
+        "Use Protect from Melee to negate damage from regular Gargoyles.",
+        "Bring a hammer finisher unless granite hammer is the equipped main weapon.",
+        "Use Ring of wealth if low-attention coin pickup is useful."
+      ],
+      "risks": [
+        "Marble gargoyles can interrupt low-attention trips with ranged attacks and their special orb.",
+        "Melee is common, but Magic can still be viable because Gargoyles are also weak to magic."
+      ]
+    },
+    {
+      "methodId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use Ranged where safespots are available, accepting that crowded areas make safespotting less reliable.",
+      "recommendedFor": [
+        "Players preferring distance kills",
+        "Top-floor safespot users",
+        "Players using Toxic blowpipe"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe",
+        "Hunters' sunlight crossbow",
+        "Bow of faerdhinen",
+        "Eclipse atlatl",
+        "Slayer helmet (i)",
+        "Ranged armour"
+      ],
+      "prayers": [
+        "Eagle Eye",
+        "Rigour"
+      ],
+      "steps": [
+        "Use Toxic blowpipe for ranged damage comparable to some melee setups.",
+        "Only rely on venom upstairs because basement Gargoyles are immune to venom.",
+        "Use top-floor or basement safespots, but account for nearby Gargoyles making safespotting less reliable.",
+        "Keep a rock thrownhammer or other finisher plan for distance kills.",
+        "Use Bow of faerdhinen, Hunters' sunlight crossbow, or Eclipse atlatl as alternative ranged weapons."
+      ],
+      "risks": [
+        "Safespots are less reliable when many Gargoyles are nearby.",
+        "The basement is immune to poison and venom."
+      ]
+    },
+    {
+      "methodId": "marble-gargoyle",
+      "label": "Marble gargoyle",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Handle Marble gargoyles as dangerous superior spawns with melee/ranged attacks and a special orb.",
+      "recommendedFor": [
+        "Players with Bigger and Badder unlocked",
+        "Players wanting superior Slayer monster rewards",
+        "Trips with extra emergency food"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder unlock",
+        "Rock hammer",
+        "Emergency food",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Expect Marble gargoyles after Gargoyle kills if Bigger and Badder is unlocked.",
+        "Watch for the white-red orb special attack.",
+        "Move out of the 1x1 area to avoid heavy damage and being trapped.",
+        "Account for both melee and ranged attacks.",
+        "Use the same hammer finishing requirement as regular Gargoyles."
+      ],
+      "risks": [
+        "The special attack can be dangerous if ignored.",
+        "Lower-level players should bring more food than a normal Gargoyle trip requires."
+      ]
+    },
+    {
+      "methodId": "grotesque-guardians-choice",
+      "label": "Grotesque Guardians choice",
+      "combatStyle": "MELEE",
+      "role": "boss-option",
+      "summary": "Choose Grotesque Guardians only when accepting a slower, higher-effort boss trip for granite dust or pet chances.",
+      "recommendedFor": [
+        "Players with brittle key unlocked",
+        "Players targeting granite dust",
+        "Players targeting the pet"
+      ],
+      "requiredOrKeyItems": [
+        "Brittle key",
+        "Rock hammer or granite hammer",
+        "Grotesque Guardians boss setup",
+        "Avoid Double Trouble unless desired"
+      ],
+      "steps": [
+        "Kill regular Gargoyles on task to obtain a brittle key.",
+        "Use the brittle key to unlock the Slayer Tower roof boss arena.",
+        "Choose regular Gargoyles for faster task completion and lower supply use.",
+        "Choose Grotesque Guardians when targeting granite dust or pet rolls.",
+        "Avoid purchasing Double Trouble if trying to maximise boss kills per task."
+      ],
+      "notes": [
+        "Grotesque Guardians are the only source of granite dust.",
+        "Granite dust turns cannonballs into granite cannonballs with a max hit of 35 instead of 30."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Bring sustain, finisher, teleport, and High Alchemy support for long Gargoyle trips.",
+      "recommendedFor": [
+        "Basement Gargoyle tasks",
+        "AFK melee setups",
+        "Players alching common Gargoyle drops"
+      ],
+      "requiredOrKeyItems": [
+        "Guthan's set",
+        "Divine super combat potion",
+        "Prayer potion",
+        "Emergency food",
+        "One-click teleport",
+        "Slayer ring",
+        "Rock hammer",
+        "Divine rune pouch",
+        "Rune pouch"
+      ],
+      "inventory": [
+        "Guthan's set",
+        "2 Divine super combat potions or Super combat potions",
+        "6 Prayer potions if using Piety",
+        "1 Prayer potion if only using Preserve and Saradomin godsword sustain",
+        "Lightbearer if using Saradomin godsword",
+        "Emergency food such as sharks, karambwans, or monkfish",
+        "One-click teleport",
+        "Slayer ring to teleport to the Slayer Tower",
+        "Rock hammer if not using granite hammer as the main weapon",
+        "Divine rune pouch or Rune pouch with Fire, Nature, law, and dust runes for High Alchemy and house teleport"
+      ],
+      "steps": [
+        "Bring more food than shown if lower level or expecting Marble gargoyles.",
+        "Set High Alchemy warning value around 50,000 where useful.",
+        "Use Slayer ring for fast access.",
+        "Pick up drops during aggression-reset breaks."
+      ],
+      "notes": [
+        "Ring of wealth can automatically pick up frequent coin drops."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-crush",
+      "label": "Melee crush",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Crush-focused melee with Slayer helmet, optional Guthan's healing, and a hammer finisher.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Inquisitor's great helm",
+            "Blood moon helm",
+            "Neitiznot faceguard"
+          ],
+          "weapon": [
+            "Scythe of vitur on crush",
+            "Granite hammer",
+            "Soulreaper axe on crush",
+            "Inquisitor's mace",
+            "Dual macuahuitl",
+            "Abyssal bludgeon",
+            "Zamorakian hasta on crush",
+            "Sarachnis cudgel",
+            "Zombie axe on crush",
+            "Osmumten's fang",
+            "Dragon mace"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Antler guard",
+            "Book of war",
+            "Unholy book"
+          ],
+          "body": [
+            "Torva platebody",
+            "Inquisitor's hauberk",
+            "Oathplate chest",
+            "Bandos chestplate",
+            "Blood moon chestplate",
+            "Proselyte hauberk"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Ranged setup for safespots or players preferring distance kills.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Crystal helm"
+          ],
+          "weapon": [
+            "Toxic blowpipe",
+            "Hunters' sunlight crossbow",
+            "Bow of faerdhinen",
+            "Eclipse atlatl"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Antler guard",
+            "Blessed d'hide shield"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Moonlight antler bolts",
+            "Atlatl dart",
+            "Sunlight antler bolts"
+          ]
+        }
+      }
+    }
+  ]
+}

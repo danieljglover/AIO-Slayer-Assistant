@@ -1,0 +1,11 @@
+{
+  "locationId": "entrana-dungeon",
+  "name": "Entrana Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Greater demon location. Weapons and armour cannot be taken to Entrana, so this is not advisable for normal Slayer task completion."
+}

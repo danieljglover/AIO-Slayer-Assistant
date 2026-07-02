@@ -1,0 +1,29 @@
+{
+  "variantId": "night-beast",
+  "name": "Night beast",
+  "npcIds": [
+    7409
+  ],
+  "combatLevel": 374,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 220,
+    "stab": 75,
+    "slash": 80,
+    "crush": 200,
+    "magic": 190,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wherever Dark beasts spawn in Tirannwn",
+  "requirement": "Slayer 90; Bigger and Badder unlock (superior); on Dark beast task",
+  "bossId": null,
+  "strategyId": "dark-beasts"
+}

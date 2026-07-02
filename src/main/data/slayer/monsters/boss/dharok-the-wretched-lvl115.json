@@ -1,0 +1,29 @@
+{
+  "variantId": "dharok-the-wretched",
+  "name": "Dharok the Wretched",
+  "npcIds": [
+    1673
+  ],
+  "combatLevel": 115,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 252,
+    "slash": 250,
+    "crush": 244,
+    "magic": -11,
+    "range": 249
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Barrows - Morytania",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "dharok-the-wretched"
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "death-plateau-trolls",
+  "name": "Death Plateau",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 15 mountain trolls plus nearby named and thrower trolls. Protect from Missiles is highly recommended while running through the canyon; Burthorpe teleports via games necklace or combat bracelet are fast, and shooting through rock troll buildings makes safespotting easier."
+}

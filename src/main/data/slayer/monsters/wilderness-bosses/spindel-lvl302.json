@@ -1,0 +1,41 @@
+{
+  "variantId": "spindel",
+  "name": "Spindel",
+  "npcIds": [
+    11998
+  ],
+  "combatLevel": 302,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 225,
+    "stab": 70,
+    "slash": 70,
+    "crush": 10,
+    "magic": 205,
+    "range": 103
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Web Chasm, level 29 Wilderness singles-plus combat area (the singles-plus alternative to Venenatis).",
+  "locationId": null,
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "venenatis",
+  "offence": {
+    "hitpoints": 515,
+    "maxHit": 31,
+    "attackStyles": [
+      "MELEE",
+      "MAGIC",
+      "RANGED"
+    ],
+    "attackSpeedTicks": 4,
+    "magicLevel": 235
+  }
+}

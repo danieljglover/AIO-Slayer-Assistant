@@ -1,0 +1,40 @@
+{
+  "variantId": "giant-bat-lvl27",
+  "name": "Giant bat",
+  "npcIds": [
+    2834,
+    6824
+  ],
+  "combatLevel": 27,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 22,
+    "stab": 10,
+    "slash": 10,
+    "crush": 12,
+    "magic": 10,
+    "range": 8
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Various Kandarin and Morytania spots; Arceuus near the Dark Altar",
+  "requirement": "Combat level 5 to be assigned",
+  "bossId": null,
+  "strategyId": "bats",
+  "offence": {
+    "hitpoints": 32,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

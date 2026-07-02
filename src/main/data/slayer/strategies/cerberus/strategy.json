@@ -1,0 +1,166 @@
+{
+  "strategyId": "cerberus",
+  "variantIds": [
+    "boss-cerberus",
+    "hellhounds-cerberus"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Cerberus/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "arclight",
+      "emberlight",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "inquisitor-s-mace"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Weak to melee, primarily crush; demonic so Arclight/Emberlight apply (set to stab). Twisted bow is extremely effective ranged."
+  },
+  "requirements": [
+    "Access to Cerberus's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Weak to melee, primarily crush; demonic so Arclight/Emberlight apply (set to stab). Twisted bow is extremely effective ranged.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Weak to melee, primarily crush; demonic so Arclight/Emberlight apply (set to stab). Twisted bow is extremely effective ranged.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "scythe-of-vitur",
+        "arclight",
+        "emberlight",
+        "osmumten-s-fang",
+        "ghrazi-rapier",
+        "inquisitor-s-mace",
+        "twisted-bow",
+        "scorching-bow"
+      ],
+      "steps": [
+        "Weak to melee, primarily crush; demonic so Arclight/Emberlight apply (set to stab). Twisted bow is extremely effective ranged."
+      ]
+    },
+    {
+      "methodId": "melee-kill-and-lava-pools",
+      "label": "Melee kill and lava pools",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use melee or demonbane weapons while moving away from lava pools and keeping Cerberus in a stable position.",
+      "recommendedFor": [
+        "standard Cerberus kills",
+        "on-task hellhound boss trips"
+      ],
+      "requiredOrKeyItems": [
+        "Scythe of vitur",
+        "Emberlight",
+        "Arclight",
+        "Osmumten's fang",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Magic or flicked protections",
+        "Piety"
+      ],
+      "steps": [
+        "Enter with 91 Slayer and a hellhound task.",
+        "Use strong melee weapons, prioritising demonbane where appropriate.",
+        "Move away when lava pools spawn under or near the player.",
+        "Keep enough prayer for ghost phases instead of spending every point on DPS prayers."
+      ],
+      "risks": [
+        "Lava pools punish stationary meleeing.",
+        "Low prayer before ghosts can force heavy damage or supply loss."
+      ]
+    },
+    {
+      "methodId": "summoned-souls-prayer-sequence",
+      "label": "Summoned souls prayer sequence",
+      "combatStyle": "MELEE",
+      "role": "special",
+      "summary": "React to Cerberus ghosts by matching their magic, ranged, and melee hits in order.",
+      "recommendedFor": [
+        "consistent Cerberus trips",
+        "players learning ghost phases"
+      ],
+      "requiredOrKeyItems": [
+        "Prayer potions",
+        "Food",
+        "Audio or visual attention for ghosts"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Protect from Missiles",
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Watch the order of the summoned souls as they approach.",
+        "Switch protection prayers to match each incoming ghost attack.",
+        "Restore prayer before the sequence if needed.",
+        "Resume melee DPS after the final ghost resolves."
+      ],
+      "risks": [
+        "Missing ghost prayers causes high damage and prayer drain.",
+        "Trying to ignore ghosts is expensive and inconsistent."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Cerberus setup using Scythe of vitur.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scythe of vitur",
+            "Arclight",
+            "Emberlight",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Inquisitor's mace"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for Cerberus when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twisted bow",
+            "Scorching bow"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Cerberus\n\nWeak to melee, primarily crush; demonic so Arclight/Emberlight apply (set to stab). Twisted bow is extremely effective ranged."
+}

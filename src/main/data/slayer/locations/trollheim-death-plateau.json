@@ -1,0 +1,11 @@
+{
+  "locationId": "trollheim-death-plateau",
+  "name": "Trollheim / Death Plateau",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Around Trollheim and Death Plateau north of Burthorpe (not Wilderness); reached after Death Plateau or via Trollheim Teleport. No troll safespot is documented; use Protect from Missiles near the level 68 thrower trolls."
+}

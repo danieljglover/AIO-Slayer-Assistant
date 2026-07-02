@@ -1,0 +1,249 @@
+{
+  "strategyId": "turoth",
+  "variantIds": [
+    "turoth",
+    "spiked-turoth-superior"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Turoth",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "leaf-bladed-battleaxe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "magic-shortbow-i",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "armadyl-crossbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Turoths have the leafy attribute and can only be damaged by leaf-bladed weapons, broad ammunition, or Magic Dart. Protect from Melee negates all of their damage."
+  },
+  "requirements": [
+    "55 Slayer and 60 combat are required for Turoth assignments.",
+    "Use only leaf-bladed weapons, broad-tipped ammunition, or Magic Dart for damage.",
+    "Bigger and Badder unlocks Spiked Turoth superior spawns."
+  ],
+  "mechanics": [
+    "Turoths attack with stab and can hit up to 9.",
+    "Protect from Melee negates all Turoth damage.",
+    "Turoths are not aggressive.",
+    "The leafy attribute restricts damage to leaf-bladed weapons, broad-tipped ammunition, or Magic Dart.",
+    "Spiked Turoth has no special mechanics, but is more accurate and has a max hit of 29."
+  ],
+  "methods": [
+    {
+      "methodId": "damage-restrictions",
+      "label": "Damage restrictions",
+      "combatStyle": "MELEE",
+      "role": "rules",
+      "summary": "Respect the leafy damage restriction: only leaf-bladed weapons, broad ammunition, or Magic Dart can damage Turoths.",
+      "recommendedFor": [
+        "baseline task setup",
+        "avoiding invalid weapon recommendations"
+      ],
+      "requiredOrKeyItems": [
+        "Leaf-bladed battleaxe",
+        "Leaf-bladed sword",
+        "Leaf-bladed spear",
+        "Broad bolts",
+        "Broad arrows",
+        "Magic Dart"
+      ],
+      "steps": [
+        "Equip a leaf-bladed weapon, a bow or crossbow using broad ammunition, or a Magic Dart setup.",
+        "Do not bring ordinary weapons or spells as the main damage source."
+      ],
+      "notes": [
+        "The task page compares this restriction to Kurasks."
+      ]
+    },
+    {
+      "methodId": "melee-leaf-bladed",
+      "label": "Leaf-bladed melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use leaf-bladed battleaxe for high melee damage, or leaf-bladed sword/spear when unavailable.",
+      "recommendedFor": [
+        "default Turoth tasks",
+        "players using Slayer helmet bonuses"
+      ],
+      "requiredOrKeyItems": [
+        "Leaf-bladed battleaxe",
+        "Slayer helmet or black mask",
+        "Rune armour or better"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use the leaf-bladed battleaxe over the sword or spear for its higher max hit.",
+        "Pray Protect from Melee for the lowest-attention setup, or tank the inaccurate stab attacks with decent armour."
+      ]
+    },
+    {
+      "methodId": "ranged-broad-ammunition",
+      "label": "Broad ammunition ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use broad bolts or broad arrows with ranged gear when safespotting or training Ranged.",
+      "recommendedFor": [
+        "Ranged training",
+        "safespotting Turoths"
+      ],
+      "requiredOrKeyItems": [
+        "Broad bolts or Amethyst broad bolts",
+        "Broad arrows",
+        "Rune crossbow or better crossbow",
+        "Magic shortbow (i)",
+        "Slayer helmet (i) or black mask (i)"
+      ],
+      "steps": [
+        "Use broad bolts with a crossbow or broad arrows with a compatible bow.",
+        "Use the dungeon's safespots to avoid all damage.",
+        "Do not switch to non-broad ammunition because it will not damage Turoths."
+      ]
+    },
+    {
+      "methodId": "magic-dart",
+      "label": "Magic Dart",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Cast Magic Dart with a Slayer's staff or staff of the dead, ideally from a safespot.",
+      "recommendedFor": [
+        "Magic training",
+        "safespotting Turoths"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer's staff or Staff of the dead",
+        "Magic damage bonus armour",
+        "Death and mind runes"
+      ],
+      "steps": [
+        "Equip a staff that can cast Magic Dart.",
+        "Cast Magic Dart from a safespot for damage-free kills."
+      ]
+    },
+    {
+      "methodId": "spiked-turoth-superior",
+      "label": "Spiked Turoth superior",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Handle Spiked Turoth as a stronger superior with no special mechanics, using Protect from Melee and a valid leafy damage source.",
+      "recommendedFor": [
+        "Bigger and Badder unlock",
+        "superior Slayer encounters"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder",
+        "Leaf-bladed battleaxe or valid broad/Magic Dart setup",
+        "Protect from Melee"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Turn on Protect from Melee when Spiked Turoth spawns.",
+        "Continue using leaf-bladed weapons, broad ammunition, or Magic Dart.",
+        "Expect higher accuracy and a max hit of 29, but no additional mechanics."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "role": "support",
+      "summary": "Bring an Herb sack and alch runes because Turoths drop herbs frequently alongside seeds and alchables.",
+      "recommendedFor": [
+        "long trips",
+        "profit-focused Turoth tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Herb sack",
+        "High Alchemy runes"
+      ],
+      "inventory": [
+        "Leaf-bladed battleaxe or broad ammunition setup",
+        "Herb sack",
+        "High Alchemy runes",
+        "Prayer potions if praying",
+        "Teleport out"
+      ],
+      "steps": [
+        "Bring an Herb sack for the frequent herb drops.",
+        "Pick up seeds and alchable drops as desired."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-leaf-bladed",
+      "label": "Leaf-bladed melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary melee setup using leaf-bladed battleaxe.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Leaf-bladed battleaxe",
+            "Leaf-bladed sword",
+            "Leaf-bladed spear"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-broad",
+      "label": "Broad ammunition ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Ranged setup using broad bolts or broad arrows.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Rune crossbow",
+            "Magic shortbow (i)"
+          ],
+          "ammo": [
+            "Amethyst broad bolts",
+            "Broad bolts",
+            "Broad arrows"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-dart",
+      "label": "Magic Dart",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Magic option using Magic Dart, one of the few valid ways to damage Turoths.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Slayer's staff",
+            "Staff of the dead",
+            "Toxic staff of the dead"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Turoth\n\nTuroths have the leafy attribute and can only be damaged by leaf-bladed weapons, broad ammunition, or Magic Dart. Use leaf-bladed battleaxe melee, broad ammunition ranged, or Magic Dart; Protect from Melee negates all of their damage, and the Fremennik Slayer Dungeon offers plentiful safespots."
+}

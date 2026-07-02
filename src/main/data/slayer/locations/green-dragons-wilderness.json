@@ -1,0 +1,11 @@
+{
+  "locationId": "green-dragons-wilderness",
+  "name": "Wilderness green dragon spawns",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Other Wilderness green dragon clusters: south of the Lava Maze (5 spawns), west of the Dark Warriors' Fortress (3 spawns), and the Boneyard. All are in the Wilderness; multi and cannon status are not wiki-stated, so treated conservatively as false."
+}

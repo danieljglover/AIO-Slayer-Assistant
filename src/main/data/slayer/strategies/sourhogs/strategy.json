@@ -1,0 +1,76 @@
+{
+  "strategyId": "sourhogs",
+  "variantIds": [
+    "sourhog-lvl37"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Sourhog",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-dagger",
+      "abyssal-dagger"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "yew-shortbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Wear Reinforced goggles (or a Slayer helmet after A Porcine of Interest) to negate the caustic saliva, then use a stab weapon: the Sourhog's Defence is +0 to stab and +0 to ranged but +30 to slash and +30 to magic."
+  },
+  "requirements": [
+    "Quest A Porcine of Interest to access Sourhog Cave; no combat or Slayer level requirement.",
+    "Reinforced goggles or a post-quest Slayer helmet to avoid the 20-30 caustic hit and 90% Attack/Defence drain.",
+    "Assigned only by Spria."
+  ],
+  "mechanics": [
+    "The Sourhog has 40 Hitpoints, Defence level 25, a normal max hit of 6 and a 5-tick attack.",
+    "Without eye protection its caustic saliva hits 20-30 and drains Attack and Defence by 90%.",
+    "No elemental weakness; +0 stab and +0 ranged Defence make stab and ranged the most accurate."
+  ],
+  "methods": [
+    {
+      "methodId": "stab-melee",
+      "label": "Stab melee with goggles",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Wear Reinforced goggles (or a post-quest Slayer helmet) and attack with a stab weapon such as a dragon dagger.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Reinforced goggles or Slayer helmet",
+        "A stab weapon (e.g. dragon dagger)"
+      ],
+      "steps": [
+        "Start A Porcine of Interest and enter Sourhog Cave south of Draynor.",
+        "Equip Reinforced goggles (or a Slayer helmet after the quest) so the caustic saliva cannot land.",
+        "Attack the Sourhog with a stab weapon; its Defence is +0 to stab versus +30 to slash."
+      ],
+      "notes": [
+        "Bring a little food; the normal max hit is only 6 with goggles on."
+      ]
+    },
+    {
+      "methodId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Shoot the Sourhog with a bow to exploit its +0 ranged Defence while keeping eye protection on.",
+      "recommendedFor": [
+        "players who prefer ranged or want distance"
+      ],
+      "requiredOrKeyItems": [
+        "Reinforced goggles or Slayer helmet",
+        "A shortbow and arrows"
+      ],
+      "steps": [
+        "Keep Reinforced goggles equipped.",
+        "Attack the Sourhog from range; its +0 ranged Defence makes arrows accurate."
+      ],
+      "notes": [
+        "Ranged avoids being adjacent but the caustic attack still requires goggles."
+      ]
+    }
+  ]
+}

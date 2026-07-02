@@ -1,0 +1,245 @@
+{
+  "taskId": "aviansie",
+  "name": "Aviansie",
+  "wikiPageId": 342833,
+  "combatLevel": null,
+  "slayerTargetId": 204,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Death Plateau"
+  ],
+  "masterIds": [
+    "krystilia",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      120,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 7,
+    "chaeldar": 9,
+    "konar": 6,
+    "nieve": 6,
+    "duradel": 8
+  },
+  "extendedAmount": {
+    "krystilia": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "watch-the-birdie",
+      "name": "Watch the birdie",
+      "pointsCost": 80,
+      "notes": "Unlocks Aviansie assignments from Konar, Duradel, Nieve, Chaeldar, and Krystilia. Requires 60 Agility or 60 Strength to unlock."
+    },
+    {
+      "unlockId": "birds-of-a-feather",
+      "name": "Birds of a Feather",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of aviansies assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "aviansie"
+  ],
+  "variantIds": [
+    "aviansie",
+    "aviansie-kree-arra",
+    "flight-kilisa",
+    "flockleader-geerin",
+    "wingman-skree"
+  ],
+  "defaultVariantId": "aviansie",
+  "weakness": {
+    "style": "RANGED",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 60,
+    "stab": 30,
+    "slash": 30,
+    "crush": 30,
+    "magic": 40,
+    "range": 30
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "god-wars-dungeon-armadyl",
+    "wilderness-god-wars-dungeon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "aviansie-god-wars-dungeon",
+      "name": "Aviansie",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "Combat level range: 69-148.",
+        "Slayer XP range: 70-139.",
+        "Killing them contributes to Armadylean kill count."
+      ]
+    },
+    {
+      "variantId": "aviansie-wilderness-god-wars-dungeon",
+      "name": "Aviansie",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "Wilderness God Wars Dungeon"
+      ],
+      "notes": [
+        "Combat level range: 69-137.",
+        "Slayer XP range: 70-124.",
+        "Wilderness Aviansie drop adamantite bars noted regardless of Fremennik Diary completion."
+      ]
+    },
+    {
+      "variantId": "aviansie-kree-arra",
+      "name": "Kree'arra",
+      "combatLevel": 580,
+      "slayerXp": 357,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "Boss alternative for Aviansie tasks.",
+        "70 Ranged, a crossbow, and a mith grapple are required to access.",
+        "See Kree'arra/Strategies for boss-specific combat details."
+      ]
+    },
+    {
+      "variantId": "flight-kilisa",
+      "name": "Flight Kilisa",
+      "combatLevel": 159,
+      "slayerXp": 132.5,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "Kree'arra bodyguard.",
+        "70 Ranged, a crossbow, and a mith grapple are required to access."
+      ]
+    },
+    {
+      "variantId": "wingman-skree",
+      "name": "Wingman Skree",
+      "combatLevel": 143,
+      "slayerXp": 124,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "Kree'arra bodyguard.",
+        "70 Ranged, a crossbow, and a mith grapple are required to access."
+      ]
+    },
+    {
+      "variantId": "flockleader-geerin",
+      "name": "Flockleader Geerin",
+      "combatLevel": 149,
+      "slayerXp": 132.5,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "Kree'arra bodyguard.",
+        "70 Ranged, a crossbow, and a mith grapple are required to access."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "god-wars-dungeon-armadyl",
+      "name": "God Wars Dungeon",
+      "amount": 36,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Aviansie are considered Armadylean followers."
+      ]
+    },
+    {
+      "locationId": "wilderness-god-wars-dungeon",
+      "name": "Wilderness God Wars Dungeon",
+      "amount": 8,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Multicombat area and player killing make this a very dangerous location."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Aviansie assignments require completion of Death Plateau, access to the God Wars Dungeon, and the Watch the birdie unlock.",
+    "Watch the birdie requires 60 Agility or 60 Strength to unlock.",
+    "Aviansie can be found in the normal God Wars Dungeon and the Wilderness God Wars Dungeon.",
+    "As followers of Armadyl, Armadylean God-aligned items are required to make them tolerant.",
+    "Aviansie will attack players if attacked even while they are in combat with another monster.",
+    "Their flying height means they can only be harmed with ranged and magic, although salamanders and halberds are direct-target exceptions.",
+    "Aviansie drops mostly revolve around adamantite bars, runite limbs, ensouled aviansie heads, and poisoned rune daggers.",
+    "God Wars Dungeon Aviansie only drop noted adamantite bars after the Hard Fremennik Diary.",
+    "Wilderness God Wars Dungeon Aviansie drop noted adamantite bars regardless of diary completion but add player-killing risk.",
+    "Kree'arra and his bodyguards can be killed as alternatives for an Aviansie task.",
+    "Armadylean spiritual warrior, spiritual ranger, and spiritual mage kills do not count as Aviansie task alternatives.",
+    "Aviansie are usually toggled off unless killing Kree'arra because the regular task is generally unpopular.",
+    "At Kree'arra, bring an emergency teleport and consider banking at Nex after gathering Zarosian kill count.",
+    "Use an ecumenical key to avoid wasting time on Armadyl kill count when killing Kree'arra.",
+    "Accessing Kree'arra requires two extra inventory slots for a crossbow that can fire a mith grapple.",
+    "With max mage gear, an Eldritch nightmare staff, and optional Lightbearer, full Aviansie tasks can often be completed at Kree'arra without banking.",
+    "Reanimated aviansie can be killed as an alternative, but ensouled aviansie heads can be troublesome to obtain."
+  ],
+  "recommendedMethod": "Range or mage regular Aviansie in God Wars Dungeon after Watch the birdie, wearing Armadyl-aligned protection. Use Wilderness God Wars Dungeon only when accepting player-killing risk. Kill Kree'arra instead when choosing boss profit over normal task completion."
+}

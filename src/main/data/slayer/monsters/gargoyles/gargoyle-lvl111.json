@@ -1,0 +1,32 @@
+{
+  "variantId": "gargoyle",
+  "name": "Gargoyle",
+  "npcIds": [
+    412,
+    413,
+    1543
+  ],
+  "combatLevel": 111,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 107,
+    "stab": 50,
+    "slash": 60,
+    "crush": -20,
+    "magic": 20,
+    "range": 40
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Slayer Tower top floor and basement",
+  "locationId": "slayer-tower-basement",
+  "requirement": "75 Slayer and rock/granite hammer or equivalent to finish at 9 or lower Hitpoints",
+  "bossId": null,
+  "strategyId": "gargoyles"
+}

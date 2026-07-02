@@ -1,0 +1,11 @@
+{
+  "locationId": "slayer-tower-roof",
+  "name": "Slayer Tower roof",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Grotesque Guardians boss arena on the Slayer Tower roof. Requires a brittle key drop from regular Gargoyles to unlock; contains Dawn and Dusk, counts as one task kill unless Double Trouble makes the boss count as two."
+}

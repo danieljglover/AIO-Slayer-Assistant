@@ -1,0 +1,216 @@
+{
+  "taskId": "dust-devils",
+  "name": "Dust devils",
+  "wikiPageId": 267355,
+  "combatLevel": 70,
+  "slayerTargetId": 216,
+  "slayerLevel": 65,
+  "questReqs": [
+    "Desert Treasure I (partial)"
+  ],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5,
+    "vannaka": 8,
+    "chaeldar": 9,
+    "konar": 6,
+    "nieve": 6,
+    "duradel": 5
+  },
+  "extendedAmount": {
+    "krystilia": [
+      200,
+      250
+    ],
+    "vannaka": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "to-dust-you-shall-return",
+      "name": "To Dust You Shall Return",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of dust devils assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "dust-devils"
+  ],
+  "variantIds": [
+    "dust-devil",
+    "choke-devil"
+  ],
+  "defaultVariantId": "dust-devil",
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 4166,
+  "requiredItemName": "Facemask",
+  "locationIds": [
+    "catacombs-of-kourend",
+    "smoke-dungeon-dust-devils",
+    "wilderness-slayer-cave-dust-devils"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "dust-devil",
+      "name": "Dust devil",
+      "combatLevel": 93,
+      "slayerXp": 105,
+      "locations": [
+        "Catacombs of Kourend",
+        "Wilderness Slayer Cave",
+        "Smoke Dungeon"
+      ],
+      "notes": [
+        "Standard Dust devils are assigned after 65 Slayer, 70 combat, and starting Desert Treasure I.",
+        "The Smoke Dungeon and Wilderness Slayer Cave versions are level 93 and give 105 Slayer XP.",
+        "The Catacombs of Kourend version is level 110, has 130 Hitpoints, hits harder, and gives 130 Slayer XP.",
+        "Dust devils use a ranged melee attack: it is treated as melee, but rolls against the player's ranged defence.",
+        "A facemask or Slayer helmet is required; without one, Dust devils rapidly damage the player and drain combat stats.",
+        "Dust devils have very low Defence and a 35% air elemental weakness.",
+        "They are popular for Ancient Magicks burst and barrage tasks in multicombat areas."
+      ]
+    },
+    {
+      "variantId": "choke-devil",
+      "name": "Choke devil",
+      "combatLevel": 264,
+      "slayerXp": 3000,
+      "locations": [
+        "Catacombs of Kourend",
+        "Wilderness Slayer Cave",
+        "Smoke Dungeon"
+      ],
+      "notes": [
+        "Superior Slayer monster that can spawn from Dust devils after purchasing Bigger and Badder for 50 Slayer reward points.",
+        "Requires the same facemask or Slayer helmet protection as regular Dust devils.",
+        "Uses ranged melee, has 300 Hitpoints, a max hit of 24, and gives 3000 Slayer XP.",
+        "Choke devils have no defensive bonuses and a 25% air elemental weakness.",
+        "Konar assignments guarantee a Brimstone key drop from Choke devils."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 13,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "The Catacombs of Kourend spot is multicombat, cannon-restricted, and the default recommendation for most non-Konar, non-Krystilia assignments.",
+        "Dust devils here use the Catacombs drop table, including ancient shards and dark totem pieces.",
+        "The area is easy to access and supports burst, barrage, chinchompa, and safespot play."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave-dust-devils",
+      "name": "Wilderness Slayer Cave",
+      "amount": 9,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The Wilderness Slayer Cave Dust devils are in level 25-28 Wilderness and are only relevant when assigned by Krystilia or when the player accepts PvP risk.",
+        "The multicombat layout allows cannoning and Ancient Magicks, and the monsters use the Wilderness Slayer Cave drop table.",
+        "Do not bring any items you are unwilling to lose; blighted ancient ice sacks can reduce rune costs."
+      ]
+    },
+    {
+      "locationId": "smoke-dungeon-dust-devils",
+      "name": "Smoke Dungeon",
+      "amount": 44,
+      "multicombat": true,
+      "cannonable": null,
+      "safespottable": true,
+      "notes": [
+        "The Smoke Dungeon is remote and usually quieter than the Catacombs, with task-only multicombat Dust devils to the west guarded by Dusty Aliv.",
+        "The task-only western multicombat area cannot use a dwarf multicannon.",
+        "The remaining Smoke Dungeon Dust devil rooms are single-way combat and allow cannoning.",
+        "Killing a Dust devil in the Smoke Dungeon while wearing a Slayer helmet is required for the Hard Desert Diary."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Dust devils require 65 Slayer, 70 combat, and having started Desert Treasure I before they can be assigned.",
+    "A facemask, Slayer helmet, or Slayer helmet (i) is required; without protection, Dust devils deal rapid damage and drain Attack, Strength, Ranged, Magic, Agility, Defence, and Prayer stats.",
+    "Their attack is a ranged melee attack: it is considered melee and Protect from Melee works, but the accuracy roll uses the player's ranged defence.",
+    "Dust devils have very low Defence and a 35% air elemental weakness, while Choke devils have a 25% air weakness.",
+    "burst and barrage spells are the standard high-XP approach because Catacombs, Smoke Dungeon task-only, and Wilderness Slayer Cave locations support multicombat stacking.",
+    "Chinchompas and other area attacks can also be used, but Ancient Magicks is the task page's main equipment and method focus.",
+    "Catacombs of Kourend is highly recommended for most tasks because it is easy to reach, multicombat, and uses the Catacombs drop table.",
+    "Smoke Dungeon is quieter and has a large Dust devil population, but its task-only multicombat area cannot use a cannon while the single-way rooms can.",
+    "Wilderness Slayer Cave offers cannonable multicombat Dust devils and blighted supply options, but carries player-killer risk.",
+    "Choke devil superior spawns require the Bigger and Badder unlock and should be handled with the same facemask or Slayer helmet protection.",
+    "Killing a Dust devil in the Smoke Dungeon while wearing a Slayer helmet is part of the Hard Desert Diary."
+  ],
+  "recommendedMethod": "Use a Slayer helmet or facemask and burst or barrage stacked Dust devils, usually in the Catacombs of Kourend. Use Smoke Dungeon for Konar locks or quieter task-only multicombat, remembering that the task-only area cannot be cannoned, and use Wilderness Slayer Cave only when accepting PvP risk or following a Krystilia assignment."
+}

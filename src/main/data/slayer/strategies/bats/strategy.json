@@ -1,0 +1,77 @@
+{
+  "strategyId": "bats",
+  "variantIds": [
+    "bat-lvl6",
+    "giant-bat-lvl27"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Bat",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Bats and Giant bats have low Defence and few Hitpoints, so any melee weapon clears them. Air spells exploit the elemental weakness for a Magic-training alternative. Giant bats are the most common variety and give more Slayer XP."
+  },
+  "requirements": [
+    "Combat level 5 is required to be assigned Bats.",
+    "No Slayer level or quest requirement for the base task.",
+    "Albino bats (Cabin Fever) and Death wings (Legends' Quest) also count but need quest progress."
+  ],
+  "mechanics": [
+    "Bats attack with melee (stab) at 4 ticks; the Bat max hit is 1, the Giant bat max hit is 3.",
+    "Bats have an elemental weakness to air spells (35% on the Bat, 10% on the Giant bat).",
+    "Giant bats are aggressive to players of combat level 54 or lower except in Arceuus.",
+    "Bats drop only bat bones or nothing, so the task is done for Slayer XP and streak, not loot."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill Giant bats (or regular Bats) with any melee weapon at a common bat spot.",
+      "recommendedFor": [
+        "standard task completion",
+        "low-level Slayer accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Travel to a bat spawn in Kandarin or Morytania.",
+        "Kill the Giant bats (32 HP) or Bats (8 HP); minimal food is needed.",
+        "Prefer Giant bats for more Slayer XP per kill."
+      ],
+      "notes": [
+        "Giant bats are aggressive below combat level 54, so they walk to you."
+      ]
+    },
+    {
+      "methodId": "magic-air",
+      "label": "Air spells",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Cast air spells to exploit the elemental weakness while training Magic.",
+      "recommendedFor": [
+        "players training Magic"
+      ],
+      "requiredOrKeyItems": [
+        "Air staff and runes, or a trident"
+      ],
+      "steps": [
+        "Bring an air staff (or trident) and attack the bats with air spells.",
+        "The air weakness makes Magic accurate against them."
+      ],
+      "notes": [
+        "The regular Bat has the larger 35% air weakness."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "isle-of-souls-dungeon",
+  "name": "Isle of Souls Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Blue dragons here include 4 adults and 3 babies. A cannon can be placed, making this an acceptable Konar Blue dragons location even though the room mixes adults and babies."
+}

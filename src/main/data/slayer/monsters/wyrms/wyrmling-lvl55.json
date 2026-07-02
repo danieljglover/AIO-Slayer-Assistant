@@ -1,0 +1,30 @@
+{
+  "variantId": "wyrmling",
+  "name": "Wyrmling",
+  "npcIds": [
+    13031,
+    13032
+  ],
+  "combatLevel": 55,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 20,
+    "slash": 50,
+    "crush": 50,
+    "magic": 50,
+    "range": 20
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Neypotzli - Earthbound Cavern",
+  "requirement": "62 Slayer; alternative to Wyrm on task; requires partial Perilous Moons progress after talisman enchantments",
+  "bossId": null,
+  "strategyId": "wyrms"
+}

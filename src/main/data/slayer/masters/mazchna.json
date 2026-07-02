@@ -1,0 +1,22 @@
+{
+  "masterId": "mazchna",
+  "name": "Mazchna",
+  "location": "Canifis",
+  "requirements": {
+    "combatLevel": 20,
+    "quests": [
+      "Priest in Peril"
+    ]
+  },
+  "economy": {
+    "basePoints": 6,
+    "streakMultipliers": {
+      "10": 5,
+      "50": 15,
+      "100": 25,
+      "250": 35,
+      "1000": 50
+    },
+    "blockCost": 50
+  }
+}

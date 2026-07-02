@@ -1,0 +1,11 @@
+{
+  "locationId": "goblin-spawns",
+  "name": "Goblin spawns (various)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Goblins are very common along the Lumbridge-to-Goblin-Village road, at Goblin Village north of Falador, and near Draynor. There is no single canonical goblin location for a slayer task, so multi, cannon and safespot are conservative defaults and not wiki-confirmed for one spot."
+}

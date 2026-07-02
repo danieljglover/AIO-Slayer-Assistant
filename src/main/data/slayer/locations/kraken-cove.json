@@ -1,0 +1,11 @@
+{
+  "locationId": "kraken-cove",
+  "name": "Kraken Cove",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires 87 Slayer and 50 Magic for Cave kraken tasks. Fairy ring AKQ is the fastest route, with Piscatoris teleport or Western banner as alternatives. Contains regular Cave kraken whirlpools and the Kraken boss whirlpool; Fishing explosives can instantly release the Kraken boss but not regular Cave krakens."
+}

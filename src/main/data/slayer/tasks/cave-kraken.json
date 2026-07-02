@@ -1,0 +1,155 @@
+{
+  "taskId": "cave-kraken",
+  "name": "Cave kraken",
+  "wikiPageId": 357207,
+  "combatLevel": 80,
+  "slayerTargetId": 212,
+  "slayerLevel": 87,
+  "questReqs": [],
+  "masterIds": [
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      30,
+      50
+    ],
+    "konar": [
+      80,
+      100
+    ],
+    "nieve": [
+      100,
+      120
+    ],
+    "duradel": [
+      100,
+      120
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 12,
+    "konar": 9,
+    "nieve": 6,
+    "duradel": 9
+  },
+  "extendedAmount": {
+    "chaeldar": [
+      150,
+      200
+    ],
+    "konar": [
+      150,
+      200
+    ],
+    "nieve": [
+      150,
+      200
+    ],
+    "duradel": [
+      150,
+      200
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "krack-on",
+      "name": "Krack on",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of Cave kraken assigned is increased to 150-200."
+    }
+  ],
+  "monsterIds": [
+    "cave-kraken"
+  ],
+  "variantIds": [
+    "cave-kraken",
+    "kraken"
+  ],
+  "defaultVariantId": "cave-kraken",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -63,
+    "range": 100
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "kraken-cove"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "cave-kraken",
+      "name": "Cave kraken",
+      "combatLevel": 127,
+      "slayerXp": 125,
+      "locations": [
+        "Kraken Cove"
+      ],
+      "notes": [
+        "Regular Cave kraken variant surfaced by disturbing a whirlpool.",
+        "Magic is the only reliable damage style; Ranged deals 1/7 damage and Melee cannot reach it.",
+        "Drops the uncharged trident at 1/200."
+      ]
+    },
+    {
+      "variantId": "kraken",
+      "name": "Kraken",
+      "combatLevel": 291,
+      "slayerXp": 255,
+      "locations": [
+        "Kraken Cove"
+      ],
+      "notes": [
+        "Boss variant of cave krakens.",
+        "See Kraken/Strategies for boss-specific mechanics and gear."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "kraken-cove",
+      "name": "Kraken Cove",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Contains regular cave kraken whirlpools and the Kraken boss whirlpool.",
+        "Cave krakens are exclusively found in Kraken Cove.",
+        "Cannons cannot be used.",
+        "Fairy ring AKQ is the fastest general route to the cove."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Cave krakens require 87 Slayer, 80 combat, and 50 Magic to be assigned.",
+    "Cave krakens are exclusively found within Kraken Cove.",
+    "Magic is required because Ranged attacks deal 1/7 normal damage and Melee cannot reach cave krakens.",
+    "Earth spells exploit the 50% elemental weakness on surfaced Cave kraken and Kraken.",
+    "Regular Cave kraken attacks are magic damage and can be protected against with Protect from Magic.",
+    "Fishing explosives cannot be used to surface regular Cave kraken whirlpools.",
+    "Regular Cave krakens have low-value drops and are usually killed only for the uncharged trident at 1/200 or collection log slots.",
+    "The Kraken boss can be killed instead on a Cave kraken task and is generally more favourable for profit because it has a generous drop table.",
+    "Kraken boss attacks are typeless magic, so damage cannot be prayed against.",
+    "Fishing explosives are recommended to instantly release the Kraken boss and can be bought from any Slayer master.",
+    "Kraken/Strategies contains the full boss method for release, instance use, inventory, and sustain."
+  ],
+  "recommendedMethod": "Use magic only. Kill the Kraken boss for profit and simple boss tasks, using fishing explosives to start quickly; kill regular Cave krakens mainly for the uncharged trident or collection log."
+}

@@ -1,0 +1,161 @@
+{
+  "strategyId": "araxytes",
+  "variantIds": [
+    "araxyte-level-146",
+    "araxyte-level-96",
+    "dreadborn-araxyte"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Araxytes",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "venator-bow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "noxious-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "soulreaper-axe",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "scythe-of-vitur",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Use level 146 araxytes where possible; avoid level 96 araxytes because they have a worse drop table and cannot spawn Dreadborn Araxytes. Cannon plus Venator bow is the main fast normal-task method; bring extended anti-venom+, seed box, herb sack, and bracelets of slaughter."
+  },
+  "requirements": [
+    "92 Slayer",
+    "Priest in Peril",
+    "Venom immunity, preferably extended anti-venom+",
+    "Spider cave teleport is useful for reaching the Morytania Spider Cave entrance"
+  ],
+  "mechanics": [
+    "Araxytes use melee and can inflict venom starting at 6 damage. Maintain venom immunity for the full trip.",
+    "Level 146 araxytes are the recommended normal-task target because they have the better drop table and are the only regular araxytes that can spawn Dreadborn Araxytes.",
+    "The main chamber mixes level 96 and level 146 araxytes. Three on-task caves sit east of the main chamber: the north cave is single-way with level 146 araxytes, the east cave is multi-way with level 96 araxytes, and the south cave is multi-way with level 146 araxytes.",
+    "Dreadborn Araxyte can only spawn from level 146 araxytes and can launch venom pools that can deal up to 50 damage."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "name": "General task setup",
+      "style": "MIXED",
+      "description": "Use the Morytania Spider Cave for all Araxyte tasks. Bring extended anti-venom+, food, a seed box, herb sack, and alchemy support for stackable and alchable drops.",
+      "steps": [
+        "Teleport to the Morytania Spider Cave entrance with a spider cave teleport when available.",
+        "Maintain venom immunity before engaging araxytes.",
+        "Prioritise level 146 araxytes for normal task completion.",
+        "Pick up Araxyte venom sacks and other valuable stackable or alchemy drops.",
+        "Use bracelets of slaughter if extending the profitable task is desired."
+      ],
+      "notes": [
+        "The cave is far from a bank, so inventory-extending items reduce banking.",
+        "At high kill rates or when cannoning, set attack options to right-click if loot or venom sacks become hard to pick up quickly."
+      ]
+    },
+    {
+      "methodId": "normal-146-araxytes",
+      "name": "Level 146 Araxytes",
+      "style": "MIXED",
+      "description": "Use level 146 araxytes as the default normal-task target because they are stronger, more rewarding, and can spawn Dreadborn Araxytes.",
+      "steps": [
+        "Use the northern single-way level 146 cave when controlled single combat is preferred.",
+        "Use the southern multi-way level 146 cave when using cannon or multi-target weapons.",
+        "Keep venom immunity active and kill Dreadborn Araxytes when they spawn."
+      ],
+      "notes": [
+        "Only level 146 araxytes can spawn the Dreadborn Araxyte superior.",
+        "This is the recommended normal Araxyte task path."
+      ]
+    },
+    {
+      "methodId": "cannon-venator",
+      "name": "Cannon plus Venator bow",
+      "style": "RANGED",
+      "description": "Use a dwarf multicannon with Venator bow in multicombat areas for fast normal Araxyte task completion.",
+      "steps": [
+        "Set up a dwarf multicannon in the south multi-way level 146 cave.",
+        "Use Venator bow to bounce between araxytes; level 146 araxytes have 2x2 hitboxes, which makes barrage methods less useful.",
+        "Keep the cannon loaded and move only as needed to collect valuable drops.",
+        "Refresh extended anti-venom+ before it expires."
+      ],
+      "notes": [
+        "Cannoning is still profitable because Araxyte tasks have valuable stackable drops and Araxyte venom sacks.",
+        "This is the main fast normal-task method for LLM routing and plugin recommendations."
+      ]
+    },
+    {
+      "methodId": "avoid-level-96",
+      "name": "Avoid level 96 Araxytes",
+      "style": "MIXED",
+      "description": "Avoid level 96 araxytes except when a specific low-level or barrage setup intentionally targets them.",
+      "steps": [
+        "Do not use the east multi-way cave as the default task location because it contains level 96 araxytes.",
+        "Avoid the mixed main chamber when level 146-only caves are available.",
+        "Only consider level 96 araxytes for a deliberate 1x1 barrage setup."
+      ],
+      "notes": [
+        "Level 96 araxytes have a worse drop table.",
+        "Level 96 araxytes cannot spawn Dreadborn Araxytes."
+      ]
+    },
+    {
+      "methodId": "araxxor-alternative",
+      "name": "Araxxor boss alternative",
+      "style": "MELEE",
+      "description": "Araxxor can be killed on an Araxyte task when choosing profit over task speed.",
+      "steps": [
+        "Use Araxxor only when slower boss kills are desired instead of fast normal-task completion.",
+        "Bring Araxxor-specific inventory and equipment rather than the normal Araxyte cannon setup.",
+        "Use a strong crush weapon for Araxxor.",
+        "Maintain any Slayer boost if using a spiders task to boost from 87 Slayer."
+      ],
+      "notes": [
+        "Araxxor is more profitable but much slower than normal Araxytes.",
+        "A strong crush weapon is highly recommended for Araxxor."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-cannon",
+      "name": "Ranged cannon",
+      "style": "RANGED",
+      "recommendedWeapons": [
+        "Venator bow"
+      ],
+      "recommendedItems": [
+        "Dwarf multicannon",
+        "Extended anti-venom+",
+        "Seed box",
+        "Herb sack",
+        "Bracelet of slaughter"
+      ],
+      "notes": [
+        "Best normal-task speed option in multicombat level 146 areas."
+      ]
+    },
+    {
+      "styleId": "melee",
+      "name": "Melee",
+      "style": "MELEE",
+      "recommendedWeapons": [
+        "Noxious halberd",
+        "Soulreaper axe",
+        "Scythe of vitur"
+      ],
+      "recommendedItems": [
+        "Extended anti-venom+",
+        "Seed box",
+        "Herb sack"
+      ],
+      "notes": [
+        "Suitable for normal araxytes without a Venator bow and for the Araxxor alternative with boss-specific gear."
+      ]
+    }
+  ]
+}

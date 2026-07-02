@@ -1,0 +1,30 @@
+{
+  "variantId": "shadow-wyrm",
+  "name": "Shadow Wyrm",
+  "npcIds": [
+    10398,
+    10399
+  ],
+  "combatLevel": 259,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 125,
+    "stab": 20,
+    "slash": 100,
+    "crush": 100,
+    "magic": 50,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Karuulm Slayer Dungeon - lower level",
+  "requirement": "superior - Bigger and Badder unlock; spawns from Wyrms",
+  "bossId": null,
+  "strategyId": "wyrms"
+}

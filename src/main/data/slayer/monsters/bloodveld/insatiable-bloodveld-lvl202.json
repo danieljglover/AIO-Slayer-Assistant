@@ -1,0 +1,29 @@
+{
+  "variantId": "insatiable-bloodveld",
+  "name": "Insatiable Bloodveld",
+  "npcIds": [
+    7397
+  ],
+  "combatLevel": 202,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 85,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 15
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "wherever regular Bloodvelds spawn",
+  "requirement": "Slayer 50; Bigger and Badder unlock (superior); on Bloodveld task",
+  "bossId": null,
+  "strategyId": "bloodveld"
+}

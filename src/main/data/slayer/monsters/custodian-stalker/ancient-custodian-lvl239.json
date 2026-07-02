@@ -1,0 +1,30 @@
+{
+  "variantId": "ancient-custodian",
+  "name": "Ancient Custodian",
+  "npcIds": [
+    14520
+  ],
+  "combatLevel": 239,
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 50,
+    "slash": -30,
+    "crush": 80,
+    "magic": 0,
+    "range": 5
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Stalker Den, Custodia Pass",
+  "locationId": "stalker-den-custodian-stalkers",
+  "requirement": "Superior spawned from Elder custodian stalkers after Bigger and Badder",
+  "bossId": null,
+  "strategyId": "custodian-stalker"
+}

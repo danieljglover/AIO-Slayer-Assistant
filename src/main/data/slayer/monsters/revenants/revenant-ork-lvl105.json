@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-ork",
+  "name": "Revenant ork",
+  "npcIds": [
+    7937
+  ],
+  "combatLevel": 105,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 60,
+    "stab": 118,
+    "slash": 150,
+    "crush": 146,
+    "magic": 50,
+    "range": 148
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 105,
+    "maxHit": 20,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 110
+  }
+}

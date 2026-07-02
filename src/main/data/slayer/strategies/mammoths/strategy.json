@@ -1,0 +1,84 @@
+{
+  "strategyId": "mammoths",
+  "variantIds": [
+    "mammoth"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Mammoth",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "viggora-s-chainmace",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "craw-s-bow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Mammoths have no elemental weakness and negligible defensive bonuses, so any strong weapon works. Use low-risk Wilderness gear such as Viggora's chainmace and keep a one-click escape teleport ready."
+  },
+  "requirements": [
+    "Low-risk gear for the Wilderness",
+    "A one-click teleport for emergency escape"
+  ],
+  "mechanics": [
+    "Mammoths use a stab melee attack with a max hit of about 7.",
+    "Mammoths have no elemental weakness and very low defensive bonuses.",
+    "All Krystilia mammoth kills must occur in the Wilderness south-east of Ferox Enclave."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill Wilderness mammoths with any strong melee weapon and low-risk gear.",
+      "recommendedFor": [
+        "Krystilia mammoth tasks",
+        "low-risk Wilderness slayer"
+      ],
+      "requiredOrKeyItems": [
+        "Viggora's chainmace or Dragon scimitar",
+        "Low-risk armour",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Bring only low-risk gear and a one-click escape teleport.",
+        "Travel to the Wilderness south-east of Ferox Enclave.",
+        "Kill mammoths quickly; their negligible defence means gear choice matters less than survivability.",
+        "Watch the minimap for player killers and teleport if threatened."
+      ],
+      "notes": [
+        "Ferox Enclave offers a safe restock and re-entry point nearby.",
+        "Mammoths give solid Slayer XP (130) per kill for a low-level Wilderness task."
+      ]
+    },
+    {
+      "methodId": "ranged",
+      "label": "Ranged from distance",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Range mammoths to stay mobile near the Ferox Enclave escape.",
+      "recommendedFor": [
+        "players who prefer distance in the Wilderness",
+        "staying near a fast Ferox Enclave escape"
+      ],
+      "requiredOrKeyItems": [
+        "Craw's bow or another strong ranged weapon",
+        "Low-risk armour",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Travel to the Wilderness south-east of Ferox Enclave.",
+        "Attack mammoths from distance with a strong ranged weapon.",
+        "Keep moving toward Ferox Enclave if player killers approach.",
+        "Teleport or dip into Ferox Enclave to escape when threatened."
+      ],
+      "notes": [
+        "Mammoths have no elemental weakness, so any accurate style works.",
+        "Ranged keeps you mobile for a quick escape to Ferox Enclave."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "zanaris-cosmic-altar-zygomites",
+  "name": "Zanaris near the Cosmic Altar",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 5 level 74 and 86 Zygomites near the Cosmic Altar. Can be safespotted by trapping them on a pillar and standing back near the mysterious ruins."
+}

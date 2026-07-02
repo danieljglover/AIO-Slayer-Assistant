@@ -1,0 +1,11 @@
+{
+  "locationId": "grimstone-dungeon",
+  "name": "Grimstone Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Frost dragon area on Grimstone, requiring 87 Sailing to access. After visiting Grimstone once, fairy ring DLP is the fastest return route. Contains the main Frost dragon area with 20 listed spawns; frost dragons are immune to dwarf multicannon damage and can be safespotted."
+}

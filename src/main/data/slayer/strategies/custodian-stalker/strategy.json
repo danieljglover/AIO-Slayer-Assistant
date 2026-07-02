@@ -1,0 +1,345 @@
+{
+  "strategyId": "custodian-stalker",
+  "variantIds": [
+    "juvenile-custodian-stalker",
+    "mature-custodian-stalker",
+    "elder-custodian-stalker",
+    "ancient-custodian"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Custodian_stalker",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "venator-bow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "blade-of-saeldor",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "noxious-halberd",
+        "style": "MELEE"
+      }
+    ],
+    "note": "The task page's first equipment tab is Ranged multicombat: use the south-west cannonable multicombat area with Venator bow or chinchompas, Protect from Melee, and prayer restoration. Magic multicombat and melee single-combat setups are wiki-listed alternatives."
+  },
+  "requirements": [
+    "54 Slayer and completion of Shadows of Custodia are required to be assigned Custodian stalkers.",
+    "67 Slayer is required to kill Mature custodian stalkers.",
+    "76 Slayer is required to kill Elder custodian stalkers; only elders can spawn Ancient Custodian superiors.",
+    "Bigger and Badder enables Ancient Custodian superior spawns.",
+    "Un-restraining Order extends assignments to 200-250."
+  ],
+  "mechanics": [
+    "Custodian stalkers are aggressive and primarily attack with melee.",
+    "At 20% hitpoints, custodian stalkers stomp and douse the player in spores; the special can cause a bleed effect for 9 damage over 15 ticks.",
+    "Protect from Melee prevents most damage; Protect from Magic can block the special, but switching prayers while fighting multiple stalkers may be unwise.",
+    "High magic defence such as dragonhide armour reduces the chance of taking damage from the special attack.",
+    "The Stalker Den has multicombat cannonable zones in the south-west and single-combat caverns in the south-east and north.",
+    "A safespot is documented for Elder custodian stalkers in the western single-combat area.",
+    "Custodian stalkers have a 30% fire elemental weakness."
+  ],
+  "methods": [
+    {
+      "methodId": "ranged-multicombat",
+      "label": "Ranged multicombat",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use the Stalker Den's south-west multicombat cannonable area with Ranged gear, a Dwarf multicannon, and ricochet or area damage.",
+      "recommendedFor": [
+        "Fast multicombat tasks",
+        "Players using the task page's first equipment tab",
+        "Aggression-based cannon trips"
+      ],
+      "requiredOrKeyItems": [
+        "Venator bow, black chinchompas, red chinchompas, or chinchompas",
+        "Dwarf multicannon and cannonballs",
+        "Slayer helmet (i) on task",
+        "Bracelet of slaughter to extend the task",
+        "Super restores or prayer potions",
+        "Bonecrusher or bonecrusher necklace",
+        "Pendant of ates or other travel option"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Ranged boosting prayer as appropriate"
+      ],
+      "steps": [
+        "Use the south-west multicombat section where cannons can be placed.",
+        "Set up the Dwarf multicannon; the wiki notes it is ideal for luring even though the stalkers are already aggressive.",
+        "Use Venator bow bounces or chinchompas to hit grouped stalkers.",
+        "Keep Protect from Melee active and restore prayer as needed.",
+        "Use bracelets of slaughter if extending the task is desired."
+      ],
+      "risks": [
+        "Changing prayers for the bleed special while fighting several stalkers can be worse than staying on Protect from Melee.",
+        "Bring food because the special can still cause bleed damage."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Void ranger helm",
+            "Masori mask"
+          ],
+          "weapon": [
+            "Venator bow",
+            "Black chinchompa",
+            "Red chinchompa",
+            "Chinchompa"
+          ],
+          "body": [
+            "Masori body",
+            "Elite void top",
+            "Hueycoatl hide body"
+          ],
+          "legs": [
+            "Masori chaps",
+            "Elite void robe",
+            "Hueycoatl hide chaps"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward",
+            "Antler guard"
+          ]
+        }
+      },
+      "inventory": [
+        "Crystal halberd or other special attack weapon",
+        "Divine ranging potion",
+        "Super restores or prayer potions",
+        "Food",
+        "Dwarf multicannon parts",
+        "Cannonballs",
+        "Bracelets of slaughter",
+        "Teleport to house tablet",
+        "Pendant of ates",
+        "Bonecrusher",
+        "Holy wrench",
+        "Rune pouch"
+      ],
+      "notes": [
+        "This method preserves the wiki's Ranged (Multicombat) equipment tab."
+      ]
+    },
+    {
+      "methodId": "magic-multicombat",
+      "label": "Magic multicombat",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use the same multicombat cannon area with Magic gear and Ancient Magicks-style equipment when preferring magic.",
+      "recommendedFor": [
+        "Players using the Magic (Multicombat) tab",
+        "Players with strong magic gear or saturated heart"
+      ],
+      "requiredOrKeyItems": [
+        "Kodai wand, Nightmare staff, Dragon hunter wand, Ancient sceptre, Blue moon spear, Master wand, or Ancient staff",
+        "Dwarf multicannon and cannonballs",
+        "Slayer helmet (i) on task",
+        "Super restores or prayer potions",
+        "Saturated heart for magic accuracy or higher tier burst/barrage access"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Magic boosting prayer as appropriate"
+      ],
+      "steps": [
+        "Use the south-west multicombat section and place a Dwarf multicannon if available.",
+        "Cast multi-target Ancient Magicks or the best available magic option from the equipment tab.",
+        "Keep Protect from Melee active and restore prayer as needed.",
+        "Use high magic accuracy gear and consider saturated heart for better accuracy or spell access."
+      ],
+      "risks": [
+        "Custodian stalkers have only a 30% fire weakness and non-trivial magic defence, so this is an alternative rather than the default plugin recommendation."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Virtus mask",
+            "Ancestral hat"
+          ],
+          "weapon": [
+            "Kodai wand",
+            "Nightmare staff",
+            "Dragon hunter wand",
+            "Ancient sceptre",
+            "Blue moon spear",
+            "Master wand",
+            "Ancient staff"
+          ],
+          "body": [
+            "Virtus robe top",
+            "Ancestral robe top",
+            "Ahrim's robetop"
+          ],
+          "legs": [
+            "Virtus robe bottom",
+            "Ancestral robe bottom",
+            "Ahrim's robeskirt"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Arcane spirit shield",
+            "Elidinis' ward",
+            "Mage's book"
+          ]
+        }
+      },
+      "inventory": [
+        "Crystal halberd or other special attack weapon",
+        "Super restores or prayer potions",
+        "Food",
+        "Dwarf multicannon parts",
+        "Cannonballs",
+        "Bracelets of slaughter",
+        "Teleport to house tablet",
+        "Pendant of ates",
+        "Bonecrusher",
+        "Holy wrench",
+        "Rune pouch"
+      ],
+      "notes": [
+        "This method preserves the wiki's Magic (Multicombat) equipment tab."
+      ]
+    },
+    {
+      "methodId": "melee-single-combat",
+      "label": "Melee single-combat",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Fight in the single-combat caverns with slash-focused melee gear, Piety, and Protect from Melee.",
+      "recommendedFor": [
+        "Players avoiding multicombat",
+        "Single-combat caverns in the south-east and north",
+        "Players using the Melee (Single combat) tab"
+      ],
+      "requiredOrKeyItems": [
+        "Blade of saeldor, Ghrazi rapier set to slash, Noxious halberd, Abyssal tentacle, Abyssal whip, Dual macuahuitl, Dragon scimitar, Arkan blade, or Belle's folly",
+        "Slayer helmet (i) on task",
+        "Super combat potions or attack/strength potions",
+        "Super restores or prayer potions",
+        "Bonecrusher or bonecrusher necklace"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Use the south-eastern or northern single-combat caverns when you do not want multicombat pressure.",
+        "Use a slash weapon where possible because custodian stalkers have negative slash defence.",
+        "Keep Protect from Melee and Piety active.",
+        "Carry food for bleed special chip damage."
+      ],
+      "risks": [
+        "No cannon support in single-combat caverns.",
+        "The wiki notes that on a Slayer task, Slayer helmet plus slash weapon is superior to relying on Dual macuahuitl set effect."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Oathplate helm"
+          ],
+          "weapon": [
+            "Blade of saeldor",
+            "Ghrazi rapier",
+            "Noxious halberd",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Dual macuahuitl",
+            "Dragon scimitar",
+            "Arkan blade",
+            "Belle's folly"
+          ],
+          "body": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Bandos chestplate"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Bandos tassets"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Rune defender",
+            "Antler guard"
+          ]
+        }
+      },
+      "inventory": [
+        "Saradomin godsword or special attack weapon",
+        "Super combat potions",
+        "Super restores or prayer potions",
+        "Food",
+        "Bracelets of slaughter",
+        "Teleport to house tablet",
+        "Pendant of ates",
+        "Bonecrusher",
+        "Holy wrench",
+        "Rune pouch"
+      ],
+      "notes": [
+        "This method preserves the wiki's Melee (Single combat) equipment tab."
+      ]
+    },
+    {
+      "methodId": "elder-superior-focus",
+      "label": "Elder stalker and superior focus",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Prioritise Elder custodian stalkers after 76 Slayer because only elders can spawn Ancient Custodian and they have better unique drops.",
+      "recommendedFor": [
+        "Players with 76 Slayer",
+        "Superior spawn chance",
+        "Antler guard and alchemist's signet hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder for Ancient Custodian spawns",
+        "76 Slayer"
+      ],
+      "steps": [
+        "At 76 Slayer, target Elder custodian stalkers instead of juvenile or mature variants where possible.",
+        "Keep the same combat method as your chosen area.",
+        "Kill Ancient Custodian superior spawns when they appear."
+      ],
+      "notes": [
+        "The task page explicitly encourages reaching 76 Slayer for elders because only they can spawn the superior and they have better drops."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-multicombat",
+      "label": "Ranged multicombat",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Venator bow or chinchompas with a Dwarf multicannon in the south-west multicombat area."
+    },
+    {
+      "styleId": "magic-multicombat",
+      "label": "Magic multicombat",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Kodai wand, Nightmare staff, Dragon hunter wand, Ancient sceptre, or similar magic setup with cannon support."
+    },
+    {
+      "styleId": "melee-single-combat",
+      "label": "Melee single-combat",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Slash-focused melee gear in the single-combat caverns, using Protect from Melee and Piety."
+    }
+  ]
+}

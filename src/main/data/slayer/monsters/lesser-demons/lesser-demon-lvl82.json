@@ -1,0 +1,33 @@
+{
+  "variantId": "lesser-demon",
+  "name": "Lesser demon",
+  "npcIds": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2018
+  ],
+  "combatLevel": 82,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 71,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -10,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Lava Maze, Chasm of Fire, Sisterhood Sanctuary, Crandor, Karamja Dungeon, Taverley Dungeon, Wizards' Tower and more",
+  "requirement": "None; Combat 60 to be assigned",
+  "bossId": null,
+  "strategyId": "lesser-demons"
+}

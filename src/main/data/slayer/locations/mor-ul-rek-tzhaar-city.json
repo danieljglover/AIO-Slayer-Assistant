@@ -1,0 +1,11 @@
+{
+  "locationId": "mor-ul-rek-tzhaar-city",
+  "name": "Mor Ul Rek (TzHaar City)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Unlocked as a task by purchasing Hot Stuff for 100 slayer points. Use Karamja volcano or TzHaar teleports to reach the city; Ket and melee-using Xil can be safespotted through vents."
+}

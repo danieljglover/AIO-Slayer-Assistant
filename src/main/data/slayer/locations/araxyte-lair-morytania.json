@@ -1,0 +1,11 @@
+{
+  "locationId": "araxyte-lair-morytania",
+  "name": "Araxyte Lair (Morytania)",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Morytania Spider Cave. Contains normal Araxytes and the Araxxor boss; spider cave teleport reaches the cave entrance."
+}

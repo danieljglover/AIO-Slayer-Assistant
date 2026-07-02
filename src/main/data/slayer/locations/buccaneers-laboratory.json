@@ -1,0 +1,11 @@
+{
+  "locationId": "buccaneers-laboratory",
+  "name": "Buccaneers' Laboratory",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires 76 Sailing. Mutated bloodvelds are multicombat, cannonable, safespottable, and become much easier to access after building the rowboat from Pirates' Cove and the bank chest. Hellhounds here are multicombat and cannonable, with 5 spawns reached by rowboat from Pirates' Cove."
+}

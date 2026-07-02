@@ -1,0 +1,11 @@
+{
+  "locationId": "canifis-ghoul-area",
+  "name": "Canifis ghoul area",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Ghouls roam the area west of Canifis, north of Mort Myre Swamp, by the River Salve. Priest in Peril is required to cross into Morytania. Multi, cannon and safespot status are not wiki-stated and left conservative (false)."
+}

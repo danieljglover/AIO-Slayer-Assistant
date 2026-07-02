@@ -1,0 +1,11 @@
+{
+  "locationId": "kourend-castle",
+  "name": "Kourend Castle",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "One caged Lesser demon in Kourend Castle; single-combat, NOT cannonable, safespotted through the cage so ranged, magic, or a halberd is required. A prayer altar and bank are nearby."
+}

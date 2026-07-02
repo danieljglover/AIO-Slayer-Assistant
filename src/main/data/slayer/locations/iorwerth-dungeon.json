@@ -1,0 +1,11 @@
+{
+  "locationId": "iorwerth-dungeon",
+  "name": "Iorwerth Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Song of the Elves. The mutated bloodveld area is close to the entrance, split into two six-spawn sections, supports a dwarf multicannon, and has safespots."
+}

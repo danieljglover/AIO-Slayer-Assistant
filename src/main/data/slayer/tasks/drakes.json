@@ -1,0 +1,130 @@
+{
+  "taskId": "drakes",
+  "name": "Drakes",
+  "wikiPageId": 267357,
+  "combatLevel": 90,
+  "slayerTargetId": 215,
+  "slayerLevel": 84,
+  "questReqs": [],
+  "masterIds": [
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "konar": [
+      75,
+      140
+    ],
+    "nieve": [
+      30,
+      95
+    ],
+    "duradel": [
+      50,
+      110
+    ]
+  },
+  "weightByMaster": {
+    "konar": 10,
+    "nieve": 7,
+    "duradel": 8
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "drakes"
+  ],
+  "variantIds": [
+    "drake",
+    "guardian-drake"
+  ],
+  "defaultVariantId": "drake",
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 5,
+    "slash": 60,
+    "crush": 60,
+    "magic": 20,
+    "range": 100
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 21647,
+  "requiredItemName": "Boots of stone",
+  "locationIds": [
+    "karuulm-slayer-dungeon-drakes"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "drake",
+      "name": "Drake",
+      "combatLevel": 192,
+      "slayerXp": 230.6,
+      "locations": [
+        "Karuulm Slayer Dungeon"
+      ],
+      "notes": [
+        "Wingless draconic Slayer monster found on the middle level of the Karuulm Slayer Dungeon.",
+        "Uses Ranged, ranged melee, and a volcanic breath dragonfire attack that deals 6-8 damage for four hits if not avoided or protected against.",
+        "After seven auto-attacks it launches volcanic breath at the player's current tile.",
+        "Vulnerable to dragonbane weapons including dragon hunter lance, dragon hunter crossbow, and dragon hunter wand.",
+        "Takes 50% more damage from water spells.",
+        "Drake's claw and Drake's tooth are five times more common while killed on a Slayer task."
+      ]
+    },
+    {
+      "variantId": "guardian-drake",
+      "name": "Guardian Drake",
+      "combatLevel": 376,
+      "slayerXp": 7087,
+      "locations": [
+        "Karuulm Slayer Dungeon"
+      ],
+      "notes": [
+        "Superior slayer monster unlocked by purchasing Bigger and Badder for 50 Slayer reward points.",
+        "Uses the regular Drake volcanic breath special when the player is not in melee distance.",
+        "Also has a special melee attack in melee distance that stuns and can hit over 30 damage through prayer.",
+        "The melee special can be predicted when yellow gaps on its back light up and avoided by stepping out of melee distance quickly.",
+        "Guardian Drakes have a 50% water spell weakness."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "karuulm-slayer-dungeon-drakes",
+      "name": "Karuulm Slayer Dungeon",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Drakes are found on the middle level of the Karuulm Slayer Dungeon in Mount Karuulm.",
+        "The task page recommends the task-only area because the smaller room lets a cannon make better use of its shots.",
+        "Boots of stone, boots of brimstone, or granite boots are required before Elite Kourend & Kebos Diary protection.",
+        "The dungeon is accessible from Mount Karuulm teleports, fairy ring CIR, Battlefront Teleport, Skills necklace, or Farming cape routes."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Drakes require 84 Slayer and 90 combat to be assigned.",
+    "They are found in the Karuulm Slayer Dungeon and require access to Mount Karuulm.",
+    "Before completing the Elite Kourend & Kebos Diary, wear boots of stone, boots of brimstone, or granite boots to avoid constant heat damage from the floor.",
+    "Drakes are draconic, so dragonbane weapons are very effective.",
+    "Drakes take 50% more damage from water spells.",
+    "Protect from Missiles fully blocks normal ranged attacks.",
+    "After seven auto-attacks, Drakes launch volcanic breath at the player's current position.",
+    "Volcanic breath deals 6-8 damage per hit for four hits without dragonfire protection, but can be reduced or negated with dragonfire protection or avoided by moving one tile.",
+    "Together, Protect from Missiles and dragonfire protection can let the player take no damage when attacking from at least one tile away.",
+    "Drake's claw and Drake's tooth upgrade boots of stone and holy sandals, and these drops are five times more common on a Slayer task.",
+    "Guardian Drakes can appear if superior monsters are enabled; their melee special can stun and hit heavily if the player does not move out of melee distance.",
+    "Most players tend to block drakes because they have high assignment weight, lacklustre drops, high stats, and flat armour despite being cannonable."
+  ],
+  "recommendedMethod": "Use dragonbane melee or ranged with Protect from Missiles and dragonfire protection. Cannon the task-only Karuulm room, wear heat-protection boots unless Elite Kourend & Kebos Diary is complete, and move one tile to dodge volcanic breath when not fully protected."
+}

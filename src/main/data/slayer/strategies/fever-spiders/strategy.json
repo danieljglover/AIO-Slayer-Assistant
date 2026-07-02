@@ -1,0 +1,133 @@
+{
+  "strategyId": "fever-spiders",
+  "variantIds": [
+    "fever-spider"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Fever_spider",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Wear Slayer gloves when attacking Fever spiders or take 12.5% max-HP damage and become diseased. Their defences are low, so any decent melee works; crush (+10) is weakest. Ranged or magic users can exploit the crate safespots with better offensive gloves, and fire spells hit their 25% elemental weakness."
+  },
+  "requirements": [
+    "42 Slayer is required to harm Fever spiders.",
+    "Combat level 40 is required for assignment.",
+    "Rum Deal must be started to access Braindeath Island.",
+    "Slayer gloves must be worn to attack safely (or take 12.5% max-HP damage and disease)."
+  ],
+  "mechanics": [
+    "Attacking without Slayer gloves deals 12.5% of max Hitpoints in damage and inflicts disease.",
+    "Disease drains stats; Relicym's balm cures it.",
+    "Fever spiders have a 25% elemental weakness to fire spells.",
+    "They attack with stab melee at 4 ticks with a max hit of 4 (1-12 without slayer gloves).",
+    "They are not aggressive and not poisonous.",
+    "The brewery basement has many crate safespots (south-west corner noted)."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-gloves",
+      "label": "Melee with Slayer gloves",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Wear Slayer gloves and kill the 11 basement spawns with any decent melee weapon.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer gloves",
+        "Melee weapon"
+      ],
+      "steps": [
+        "Start Rum Deal to access Braindeath Island.",
+        "Enter the brewery basement.",
+        "Wear Slayer gloves and fight the spiders; their max hit is only 4."
+      ],
+      "notes": [
+        "Their low defences make weapon choice unimportant."
+      ]
+    },
+    {
+      "methodId": "crate-safespot",
+      "label": "Crate safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Safespot from the crates (south-west corner) with ranged or magic; fire spells exploit the 25% weakness.",
+      "recommendedFor": [
+        "players preferring offensive gloves over Slayer gloves"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged or magic weapon",
+        "Relicym's balm (if not wearing Slayer gloves)"
+      ],
+      "steps": [
+        "Position behind a crate in the basement.",
+        "Attack with ranged or fire spells.",
+        "Bring a Relicym's balm in case of accidental disease when safespotting without Slayer gloves."
+      ],
+      "notes": [
+        "Fire spells hit the 25% elemental weakness."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-gloves",
+      "label": "Melee with Slayer gloves",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Any decent melee with Slayer gloves worn.",
+      "equipment": {
+        "slots": {
+          "hands": [
+            "Slayer gloves"
+          ],
+          "weapon": [
+            "Abyssal whip",
+            "Dragon scimitar"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged crate safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Ranged from the crate safespots.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-fire",
+      "label": "Fire spells",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Fire spells exploit the 25% elemental weakness from the safespots.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the seas"
+          ]
+        }
+      }
+    }
+  ]
+}

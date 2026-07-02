@@ -1,0 +1,31 @@
+{
+  "variantId": "arrg",
+  "name": "Arrg",
+  "npcIds": [
+    642,
+    643
+  ],
+  "combatLevel": 113,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 35,
+    "slash": 60,
+    "crush": 35,
+    "magic": 200,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Troll Stronghold (middle level) / Nightmare Zone (hard mode cb 210)",
+  "locationId": "troll-stronghold-outside-trolls",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "trolls"
+}

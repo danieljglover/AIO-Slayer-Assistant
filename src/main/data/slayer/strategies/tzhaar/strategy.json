@@ -1,0 +1,238 @@
+{
+  "strategyId": "tzhaar",
+  "variantIds": [
+    "tzhaar-hur",
+    "tzhaar-mej",
+    "tzhaar-xil",
+    "tzhaar-ket-level-149",
+    "tzhaar-ket-level-221"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/TzHaar",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "ghrazi-rapier",
+      "inquisitor-s-mace",
+      "blade-of-saeldor",
+      "osmumten-s-fang",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "staff-of-the-dead",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "ancient-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Use melee against Ket or melee-using Xil in Mor Ul Rek, safespotting through vents where possible. Inner-area level 221 Ket can be stacked and bursted or barraged after showing a fire cape."
+  },
+  "requirements": [
+    "Hot Stuff unlock purchased for 100 slayer points before TzHaar can be assigned.",
+    "No Slayer level, quest, or combat requirement for the regular city assignment.",
+    "Show a fire cape once to access the inner level 221 TzHaar-Ket area.",
+    "Use the Jad or Zuk alternatives only when the Slayer master offers them and the player is prepared for the full minigame run."
+  ],
+  "mechanics": [
+    "TzHaar-Hur and TzHaar-Ket primarily use melee.",
+    "TzHaar-Xil can appear as melee variants or a melee/ranged ring-disc variant.",
+    "TzHaar-Mej uses magic and melee and can call nearby Xil and Ket for help.",
+    "Attacking Hur can aggro nearby TzHaar, including Mej, Xil, and Ket.",
+    "TzHaar-Ket and melee-using Xil can be safespotted through vents in the city.",
+    "The level 221 TzHaar-Ket in the inner area has low Magic and no magic defence bonus, making burst and barrage methods practical.",
+    "Protect from Melee prevents all damage in the inner Ket area when Ket heavily outnumber nearby Mej and Xil.",
+    "Ring of wealth improves gem-related drop chances and affects eligible level 221 Ket drops."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-unlock",
+      "label": "Requirements and unlock",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Purchase Hot Stuff before planning TzHaar tasks, then choose regular city kills, Jad, or Zuk based on the Slayer master's offer.",
+      "recommendedFor": [
+        "task setup",
+        "new TzHaar assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Hot Stuff unlock",
+        "Slayer helmet",
+        "Ring of wealth",
+        "Teleport to Mor Ul Rek or Karamja volcano"
+      ],
+      "steps": [
+        "Confirm Hot Stuff is unlocked; it costs 100 slayer points and enables Chaeldar, Nieve/Steve, and Duradel/Kuradal assignments.",
+        "Use a Slayer helmet or black mask bonus for normal city kills.",
+        "Bring a Ring of wealth if prioritising gem drops or eligible level 221 Ket bolt-tip drops.",
+        "Enter Mor Ul Rek and choose Ket or melee-using Xil for straightforward task progress."
+      ],
+      "notes": [
+        "The regular city task has no Slayer level, quest, or combat requirement beyond receiving the task."
+      ]
+    },
+    {
+      "methodId": "ket-and-melee-xil-safespots",
+      "label": "Ket and melee Xil safespots",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill TzHaar-Ket or melee-using TzHaar-Xil, using vents to safespot melee pressure where convenient.",
+      "recommendedFor": [
+        "standard city tasks",
+        "low-attention melee assignments",
+        "players avoiding Mej magic or Xil ranged variants"
+      ],
+      "requiredOrKeyItems": [
+        "Melee weapon",
+        "Food",
+        "Optional Ring of wealth"
+      ],
+      "prayers": [
+        "Protect from Melee when tanking Ket directly",
+        "Offensive melee prayers for faster kills"
+      ],
+      "steps": [
+        "Target TzHaar-Ket or the melee-only TzHaar-Xil variants.",
+        "Use nearby vents to block melee pathing and reduce supply usage.",
+        "Avoid the ring/disc TzHaar-Xil variant if you want a simpler melee-only target.",
+        "Keep distance from Mej groups unless prepared to handle magic attacks and help calls."
+      ],
+      "risks": [
+        "The ranged Xil variant can attack from distance and is less suited to the basic vent safespot path.",
+        "Moving through dense city packs can chain extra aggression."
+      ]
+    },
+    {
+      "methodId": "inner-ket-burst-barrage",
+      "label": "Inner Ket burst or barrage",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "After showing a fire cape, group level 221 Ket around TzHaar-Ket-Rak's Challenges and use burst or barrage spells under Protect from Melee.",
+      "recommendedFor": [
+        "faster regular TzHaar tasks",
+        "players with Ancient Magicks",
+        "players comfortable grouping monsters"
+      ],
+      "requiredOrKeyItems": [
+        "Fire cape access",
+        "Ancient Magicks",
+        "Fast ranged weapon such as darts or knives",
+        "Optional goading potion",
+        "Optional Dinh's bulwark special attack"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Show a fire cape once to unlock the inner area.",
+        "Move to the TzHaar-Ket-Rak's Challenges area where level 221 Ket are concentrated.",
+        "Use cheap darts, knives, goading potion, or Dinh's bulwark special attack to gather the Ket.",
+        "Keep Protect from Melee active because the grouped monsters are primarily Ket.",
+        "Cast burst or barrage spells once the Ket are stacked.",
+        "Avoid pulling nearby Xil if using wide aggro tools."
+      ],
+      "risks": [
+        "Aggroing nearby Xil can add ranged damage and disrupt the low-damage setup.",
+        "This method requires inner-area access and uses more runes than melee safespots."
+      ]
+    },
+    {
+      "methodId": "hur-mej-aggro-management",
+      "label": "Hur and Mej aggro management",
+      "combatStyle": "MELEE",
+      "role": "caution",
+      "summary": "Avoid casual Hur and Mej pulls unless deliberately managing nearby helper aggression.",
+      "recommendedFor": [
+        "city routing",
+        "players trying to avoid extra damage"
+      ],
+      "steps": [
+        "Do not start on Hur if nearby Mej, Xil, or Ket would make the area messy.",
+        "Treat Mej as a higher-risk target because attacking one near higher TzHaar can call Xil and Ket.",
+        "If extra monsters aggro, reposition through vents or move to a cleaner Ket/Xil area."
+      ],
+      "risks": [
+        "Hur aggression can bring several nearby TzHaar into combat.",
+        "Mej magic damage and help calls make it less desirable for straightforward melee tasks."
+      ]
+    },
+    {
+      "methodId": "jad-and-zuk-task-alternatives",
+      "label": "Jad and Zuk alternatives",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "When offered by the Slayer master, regular TzHaar can be replaced by TzTok-Jad or TzKal-Zuk for a full Fight Cave or Inferno task.",
+      "recommendedFor": [
+        "players seeking fire cape, infernal cape, or pet-rate bonuses",
+        "players prepared for a full minigame run"
+      ],
+      "steps": [
+        "Accept the Jad alternative only when prepared to complete a Fight Cave run.",
+        "Expect 37,010 total Slayer XP for a successful Jad task.",
+        "Accept the Zuk alternative only after at least one previous off-task Zuk kill.",
+        "Expect about 125,000 total Slayer XP for a successful Inferno task.",
+        "Use the dedicated TzTok-Jad or TzKal-Zuk strategy records for combat mechanics."
+      ],
+      "notes": [
+        "Jad receives a 50% pet-rate improvement on task.",
+        "Zuk receives a 25% pet-rate improvement on task."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-city-safespot",
+      "label": "Melee city safespot",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use a melee setup against Ket or melee Xil, using vents to block melee pathing.",
+      "weapons": [
+        "scythe-of-vitur",
+        "ghrazi-rapier",
+        "inquisitor-s-mace",
+        "blade-of-saeldor",
+        "osmumten-s-fang",
+        "abyssal-whip"
+      ],
+      "notes": [
+        "Best default option for ordinary TzHaar tasks because it avoids the complexity of Mej and ranged Xil."
+      ]
+    },
+    {
+      "styleId": "magic-ket-burst-barrage",
+      "label": "Magic Ket burst or barrage",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Burst or barrage grouped level 221 Ket in the inner area after unlocking fire cape access.",
+      "weapons": [
+        "kodai-wand",
+        "harmonised-nightmare-staff",
+        "nightmare-staff",
+        "staff-of-the-dead",
+        "twinflame-staff",
+        "ancient-sceptre"
+      ],
+      "notes": [
+        "Use Protect from Melee and avoid pulling Xil into the stack."
+      ]
+    }
+  ]
+}

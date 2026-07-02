@@ -1,0 +1,7 @@
+{
+  "rewardId": "bigger-and-badder",
+  "name": "Bigger and Badder",
+  "pointsCost": 50,
+  "effect": "SUPERIOR",
+  "notes": "Superior slayer monsters can spawn while on task (account-wide toggle)."
+}

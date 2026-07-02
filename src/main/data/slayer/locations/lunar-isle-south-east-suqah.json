@@ -1,0 +1,11 @@
+{
+  "locationId": "lunar-isle-south-east-suqah",
+  "name": "South-east Lunar Isle",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 4 Suqah in south-east Lunar Isle near the Astral Altar. These southern Suqah are sparse but avoid the northern magic attacks and can be cannoned and safespotted."
+}

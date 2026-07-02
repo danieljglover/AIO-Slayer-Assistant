@@ -1,0 +1,31 @@
+{
+  "variantId": "steel-dragon",
+  "name": "Steel dragon",
+  "npcIds": [
+    274,
+    275
+  ],
+  "combatLevel": 246,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 215,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 30,
+    "range": 90
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Brimhaven Dungeon",
+  "locationId": "brimhaven-dungeon-metal-dragons-task-only",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "steel-dragon"
+}

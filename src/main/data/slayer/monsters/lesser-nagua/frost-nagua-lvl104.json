@@ -1,0 +1,32 @@
+{
+  "variantId": "frost-nagua",
+  "name": "Frost Nagua",
+  "npcIds": [
+    13728,
+    13787,
+    13788
+  ],
+  "combatLevel": 104,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 50,
+    "crush": 10,
+    "magic": 60,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Ruins of Tapoyauik",
+  "locationId": "ruins-of-tapoyauik-frost-nagua",
+  "requirement": "Slayer 48; Perilous Moons",
+  "bossId": null,
+  "strategyId": "lesser-nagua"
+}

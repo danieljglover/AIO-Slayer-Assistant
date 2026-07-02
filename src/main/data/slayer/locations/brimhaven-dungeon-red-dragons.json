@@ -1,0 +1,11 @@
+{
+  "locationId": "brimhaven-dungeon-red-dragons",
+  "name": "Brimhaven Dungeon (adult red dragons)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 16 Red dragons. Requires at least 30 Agility for the red dragon route; completing Karamja Elite Diary causes red dragonhides to be noted, and there is a safespot next to the pipe agility shortcut to the black demons."
+}

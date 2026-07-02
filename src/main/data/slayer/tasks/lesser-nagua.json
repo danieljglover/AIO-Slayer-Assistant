@@ -1,0 +1,167 @@
+{
+  "taskId": "lesser-nagua",
+  "name": "Lesser Nagua",
+  "wikiPageId": 540924,
+  "combatLevel": 70,
+  "slayerTargetId": 246,
+  "slayerLevel": 48,
+  "questReqs": [
+    "Perilous Moons"
+  ],
+  "masterIds": [
+    "chaeldar",
+    "konar"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      50,
+      100
+    ],
+    "konar": [
+      55,
+      120
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 4,
+    "konar": 2
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "lesser-nagua"
+  ],
+  "variantIds": [
+    "sulphur-nagua",
+    "frost-nagua",
+    "earthen-nagua",
+    "lesser-nagua-amoxliatl"
+  ],
+  "defaultVariantId": "sulphur-nagua",
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 50,
+    "slash": 50,
+    "crush": 10,
+    "magic": 200,
+    "range": 200
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "neypotzli-sulphur-nagua",
+    "ruins-of-tapoyauik-frost-nagua",
+    "crypt-of-tonali"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "sulphur-nagua",
+      "name": "Sulphur Nagua",
+      "combatLevel": 98,
+      "slayerXp": 105,
+      "locations": [
+        "Neypotzli"
+      ],
+      "notes": [
+        "Uses a special attack every 5 auto-attacks that drains 5 prayer points if not avoided by moving out of melee range.",
+        "Supplies can be made freely in Neypotzli; moonlight potions act as super combat, divine super defence, and prayer restoration."
+      ]
+    },
+    {
+      "variantId": "frost-nagua",
+      "name": "Frost Nagua",
+      "combatLevel": 104,
+      "slayerXp": 120,
+      "locations": [
+        "Ruins of Tapoyauik"
+      ],
+      "notes": [
+        "Periodically marks the player's current tile, draining prayer if the player does not move away before the effect triggers.",
+        "Weak to fire spells (50%)."
+      ]
+    },
+    {
+      "variantId": "earthen-nagua",
+      "name": "Earthen Nagua",
+      "combatLevel": 128,
+      "slayerXp": 165,
+      "locations": [
+        "Crypt of Tonali"
+      ],
+      "notes": [
+        "Only appears after completion of The Final Dawn.",
+        "At 60% or lower hitpoints it shuffles its melee defence bonuses, becoming much weaker to crush attacks while gaining resistance to stab and slash."
+      ]
+    },
+    {
+      "variantId": "lesser-nagua-amoxliatl",
+      "name": "Amoxliatl",
+      "combatLevel": 263,
+      "slayerXp": 546,
+      "locations": [],
+      "notes": [
+        "Boss variant of Frost Nagua at the Ruins of Tapoyauik; players assigned Lesser Nagua there may kill Amoxliatl as an alternative for better profit.",
+        "Brimstone keys are only dropped if killed on a Slayer task given by Konar quo Maten."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "neypotzli-sulphur-nagua",
+      "name": "Neypotzli",
+      "amount": 14,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "14 Sulphur Nagua.",
+        "Supplies can be made freely here, preventing the need to bring your own supplies."
+      ]
+    },
+    {
+      "locationId": "ruins-of-tapoyauik-frost-nagua",
+      "name": "Ruins of Tapoyauik",
+      "amount": 11,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "11 Frost Nagua, plus the Amoxliatl boss alternative.",
+        "Supplies cannot be made here, but moonlight moths can be caught inside to restore prayer."
+      ]
+    },
+    {
+      "locationId": "crypt-of-tonali",
+      "name": "Crypt of Tonali",
+      "amount": null,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Earthen Nagua in the eastern sun chamber; the wiki does not state a spawn count.",
+        "Requires completion of The Final Dawn; moonlight moths can be caught nearby."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Lesser Nagua require 48 Slayer, 70 combat, and completion of Perilous Moons; they are assigned by Chaeldar (50-100, weight 4) and Konar (55-120, weight 2).",
+    "No task-extension unlock exists for Lesser Nagua.",
+    "All variants have negative flat armour (-4 or -2), so weapons that make multiple hitsplats, such as the Dual Macuahuitl, are generally more effective.",
+    "Nagua have very high ranged and magic defence bonuses but a low defence level against melee.",
+    "Sulphur Nagua drain 5 prayer points every 5 auto-attacks unless the player steps out of melee range.",
+    "Frost Nagua mark the player's tile and drain prayer if the player does not move away in time.",
+    "Earthen Nagua below 60% hitpoints become much weaker to crush while resisting stab and slash, and require The Final Dawn.",
+    "Moonlight moths (Hunter) can be caught in the Ruins of Tapoyauik and near the Crypt of Tonali to restore prayer; supplies can be made freely in Neypotzli.",
+    "Players assigned Lesser Nagua at the Ruins of Tapoyauik may kill the Amoxliatl boss as a more profitable alternative.",
+    "slayerTargetId 246 is a synthetic placeholder per the WC-1..11 contract (240 + WC index); the real SLAYER_TARGET varp value for Lesser Nagua is unverified and detection falls back to the RuneLite task-name path."
+  ],
+  "recommendedMethod": "Kill Sulphur Nagua in Neypotzli with a multi-hitsplat melee weapon such as the Dual Macuahuitl, making moonlight potions and supplies inside; step out of melee range to dodge the prayer-drain special. On Konar Tapoyauik locks, fight Frost Nagua (fire spells exploit their 50% weakness) or take Amoxliatl for profit."
+}

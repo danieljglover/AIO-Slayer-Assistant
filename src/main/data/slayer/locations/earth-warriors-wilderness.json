@@ -1,0 +1,11 @@
+{
+  "locationId": "earth-warriors-wilderness",
+  "name": "Earth warriors (Edgeville Dungeon)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "The Earth warriors occupy the north-eastern chamber of the Edgeville Dungeon (Wilderness levels 7-10), reached by crossing the monkey bars which require 15 Agility. Single-combat area; a cannon can be used and a safespot exists in the bottom-right corner or top of the first chamber. This is a PvP zone; bring risk-appropriate gear."
+}

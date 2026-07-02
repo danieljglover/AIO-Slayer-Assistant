@@ -1,0 +1,335 @@
+{
+  "taskId": "metal-dragons",
+  "name": "Metal dragons",
+  "wikiPageId": 602634,
+  "slayerTargetId": 228,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Dragon Slayer I (partial completion)"
+  ],
+  "masterIds": [
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "konar": [
+      30,
+      40
+    ],
+    "nieve": [
+      30,
+      40
+    ],
+    "duradel": [
+      35,
+      45
+    ]
+  },
+  "weightByMaster": {
+    "konar": 15,
+    "nieve": 12,
+    "duradel": 14
+  },
+  "extendedAmount": {
+    "konar": [
+      150,
+      200
+    ],
+    "nieve": [
+      150,
+      200
+    ],
+    "duradel": [
+      150,
+      200
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "pedal-to-the-metals",
+      "name": "Pedal to the Metals",
+      "pointsCost": 200,
+      "type": "EXTENSION",
+      "notes": "Increases the number of metal dragons assigned to 150-200."
+    }
+  ],
+  "monsterIds": [
+    "metal-dragons"
+  ],
+  "variantIds": [
+    "bronze-dragon",
+    "bronze-dragon-catacombs",
+    "iron-dragon",
+    "iron-dragon-catacombs",
+    "steel-dragon",
+    "steel-dragon-catacombs",
+    "mithril-dragon",
+    "adamant-dragon",
+    "rune-dragon"
+  ],
+  "defaultVariantId": "bronze-dragon",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 112,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 30,
+    "range": 90
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "anti-dragon shield or super antifire potion",
+  "locationIds": [
+    "brimhaven-dungeon-metal-dragons-task-only",
+    "brimhaven-dungeon-metal-dragons",
+    "catacombs-of-kourend-metal-dragons",
+    "isle-of-souls-dungeon-metal-dragons",
+    "ancient-cavern-metal-dragons",
+    "lithkren-vault-metal-dragons"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "bronze-dragon",
+      "name": "Bronze dragon",
+      "combatLevel": 131,
+      "slayerXp": 125,
+      "locations": [
+        "Brimhaven Dungeon"
+      ],
+      "notes": [
+        "Weakest variant of metal dragons.",
+        "Weakest variant of metal dragons and does not drop the draconic visage.",
+        "Use melee range and Protect from Melee if fought without complete dragonfire protection."
+      ]
+    },
+    {
+      "variantId": "bronze-dragon-catacombs",
+      "name": "Bronze dragon",
+      "combatLevel": 143,
+      "slayerXp": 125,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Catacombs of Kourend version of Bronze dragon.",
+        "Stronger combat level than the Brimhaven version.",
+        "Uses the Catacombs drop table."
+      ]
+    },
+    {
+      "variantId": "iron-dragon",
+      "name": "Iron dragon",
+      "combatLevel": 189,
+      "slayerXp": 173.2,
+      "locations": [
+        "Brimhaven Dungeon",
+        "Isle of Souls Dungeon"
+      ],
+      "notes": [
+        "Second weakest variant of metal dragons.",
+        "Can be cannoned when seeking the draconic visage.",
+        "Still relatively easy to kill compared with higher metal dragons."
+      ]
+    },
+    {
+      "variantId": "iron-dragon-catacombs",
+      "name": "Iron dragon",
+      "combatLevel": 215,
+      "slayerXp": 204.5,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Catacombs of Kourend version of Iron dragon.",
+        "Stronger than the standard level 189 Iron dragon.",
+        "Can drop Ancient shards and Dark totem pieces."
+      ]
+    },
+    {
+      "variantId": "steel-dragon",
+      "name": "Steel dragon",
+      "combatLevel": 246,
+      "slayerXp": 220.5,
+      "locations": [
+        "Brimhaven Dungeon"
+      ],
+      "notes": [
+        "Third weakest variant of metal dragons.",
+        "Cannonable in Brimhaven Dungeon.",
+        "Often killed only for collection log or location requirements."
+      ]
+    },
+    {
+      "variantId": "steel-dragon-catacombs",
+      "name": "Steel dragon",
+      "combatLevel": 274,
+      "slayerXp": 262.5,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Catacombs of Kourend version of Steel dragon.",
+        "Stronger than the standard level 246 Steel dragon.",
+        "Uses the Catacombs drop table."
+      ]
+    },
+    {
+      "variantId": "mithril-dragon",
+      "name": "Mithril dragon",
+      "combatLevel": 304,
+      "slayerXp": 273,
+      "locations": [
+        "Ancient Cavern"
+      ],
+      "notes": [
+        "Requires completion of the first part of Barbarian Firemaking to access the Ancient Cavern.",
+        "Uses all three forms of combat.",
+        "Exclusively drops the dragon full helm and chewed bones as a second roll option."
+      ]
+    },
+    {
+      "variantId": "adamant-dragon",
+      "name": "Adamant dragon",
+      "combatLevel": 338,
+      "slayerXp": 324.5,
+      "locations": [
+        "Lithkren Vault"
+      ],
+      "notes": [
+        "Requires completion of Dragon Slayer II.",
+        "Uses all three forms of combat.",
+        "Has a Ruby bolts style ranged special that ignores prayer.",
+        "Has a poison projectile special that is reduced by antipoison protection.",
+        "Drops dragon limbs and the exclusive dragon metal slice."
+      ]
+    },
+    {
+      "variantId": "rune-dragon",
+      "name": "Rune dragon",
+      "combatLevel": 380,
+      "slayerXp": 363,
+      "locations": [
+        "Lithkren Vault"
+      ],
+      "notes": [
+        "Requires completion of Dragon Slayer II.",
+        "Uses all three forms of combat.",
+        "Has an onyx bolt style ranged special that heals the dragon for damage dealt.",
+        "Can throw two lightning bolts; insulated boots reduce this damage.",
+        "Drops dragon limbs and the exclusive dragon metal lump."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "brimhaven-dungeon-metal-dragons-task-only",
+      "name": "Brimhaven Dungeon (task only area)",
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "5 bronze, 9 iron, and 9 steel dragons.",
+        "An axe is needed if entering via the north entrance, requiring 10 Woodcutting.",
+        "875 coins entry each time, a one-time 1,000,000 coin fee, or one-off 5000 trading sticks alternate entry.",
+        "Fairy ring code CKR then north to the dungeon.",
+        "Elite Karamja Diary allows noted bar drops to be toggled through Pirate Jackie the Fruit."
+      ]
+    },
+    {
+      "locationId": "brimhaven-dungeon-metal-dragons",
+      "name": "Brimhaven Dungeon",
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "3 bronze, 13 iron, and 4 steel dragons.",
+        "An axe is needed if entering via the north entrance, requiring 10 Woodcutting.",
+        "875 coins entry each time, a one-time 1,000,000 coin fee, or one-off 5000 trading sticks alternate entry.",
+        "Fairy ring code CKR then north to the dungeon.",
+        "Elite Karamja Diary allows noted bar drops to be toggled through Pirate Jackie the Fruit."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend-metal-dragons",
+      "name": "Catacombs of Kourend",
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "5 bronze, 2 iron, and 2 steel dragons.",
+        "Monsters in the Catacombs of Kourend are stronger than their normal counterparts.",
+        "Drops Ancient shards and Dark totem pieces.",
+        "Fastest route is Xeric's talisman to Xeric's Heart or Kourend Castle Teleport after Client of Kourend."
+      ]
+    },
+    {
+      "locationId": "isle-of-souls-dungeon-metal-dragons",
+      "name": "Isle of Souls Dungeon",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "3 iron dragons.",
+        "Cannonable single-combat option for Iron dragons."
+      ]
+    },
+    {
+      "locationId": "ancient-cavern-metal-dragons",
+      "name": "Ancient Cavern (upper level)",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "7 mithril dragons.",
+        "The cavern can only be accessed after completing the first part of Barbarian Firemaking, requiring 35 Firemaking.",
+        "Teleport to the Barbarian Outpost and run south to quickly reach the dragons."
+      ]
+    },
+    {
+      "locationId": "lithkren-vault-metal-dragons",
+      "name": "Lithkren Vault",
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "5 adamant and 5 rune dragons.",
+        "Only accessible after completion of Dragon Slayer II."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Metal dragons can be assigned by high-level Slayer masters as a potential task.",
+    "Partial completion of Dragon Slayer I is required.",
+    "Bronze dragons are found in Brimhaven Dungeon and the Catacombs of Kourend and are the lowest level option.",
+    "Iron dragons are found in the same locations as bronze dragons, are more plentiful, and can also be found in the Isle of Souls Dungeon.",
+    "Steel dragons are found in Brimhaven Dungeon and the Catacombs of Kourend.",
+    "Mithril dragons are found in the Ancient Cavern, requiring the first part of Barbarian Firemaking.",
+    "Adamant dragons and rune dragons are found in Lithkren Vault and require Dragon Slayer II.",
+    "Of these dragons, only mithril dragons cannot be cannoned.",
+    "All metal dragons can use melee and long range dragonfire, which rolls differently from chromatic dragonfire.",
+    "Unlike chromatic dragons, metal dragons aren't affected by Protect from Magic against dragonfire.",
+    "An anti-dragon shield is mandatory if not using a super antifire potion.",
+    "Mithril, adamant and rune dragons can use both magic and ranged attacks.",
+    "Adamant and rune dragons have special ranged attacks that mimic ruby and onyx enchanted bolts respectively.",
+    "All metal dragons have the draconic attribute and are susceptible to dragon hunter lance, dragon hunter crossbow, and dragon hunter wand.",
+    "Metal dragons are weakest to stab and heavy ranged attacks, although higher level metal dragons resist heavy ranged more.",
+    "All metal dragons have a 50% vulnerability to earth spells.",
+    "For a fast task, kill bronze dragons in Brimhaven Dungeon's slayer-only area where five are in a small cannonable area.",
+    "iron dragons may be cannoned if seeking the draconic visage, as bronze dragons do not drop it.",
+    "For profit, kill rune dragons instead.",
+    "Other metal dragons are generally not recommended except for collection log purposes.",
+    "Metal dragons have an incredibly high weight as a Slayer task, so players should decide whether to block them based on the tasks they want."
+  ],
+  "recommendedMethod": "For speed, cannon bronze dragons in Brimhaven Dungeon's task-only area. Cannon iron dragons if chasing draconic visage, use rune dragons for profit, and bring full dragonfire protection plus dragonbane, stab, heavy ranged, or earth spell setups."
+}

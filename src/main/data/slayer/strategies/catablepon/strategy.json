@@ -1,0 +1,68 @@
+{
+  "strategyId": "catablepon",
+  "variantIds": [
+    "catablepon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Catablepon",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Catablepon have high stab (+40) and range (+40) defensive bonuses; crush (+20) and magic (+20) are the lowest. Use a crush weapon for the best accuracy. They attack with stab melee and magic for up to 6, so bring food. No elemental weakness applies."
+  },
+  "requirements": [
+    "No Slayer level is required to receive or kill Catablepon.",
+    "Access to the Stronghold of Security (via the Barbarian Village ladder)."
+  ],
+  "mechanics": [
+    "Catablepon attack with stab melee and magic for up to 6 damage at a 4-tick speed.",
+    "They have 40 Hitpoints and Defence 40, with high stab (+40) and range (+40) bonuses.",
+    "Crush (+20) and magic (+20) are their lowest defensive bonuses, so a crush weapon is the most accurate; there is no elemental weakness."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-crush",
+      "label": "Crush melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Attack with a crush weapon to meet the catablepon's lowest defensive bonus and clear them quickly.",
+      "recommendedFor": [
+        "all catablepon tasks"
+      ],
+      "requiredOrKeyItems": [
+        "A crush weapon (or Dragon scimitar)",
+        "Food for the 6-damage hits",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Enter the Stronghold of Security via the Barbarian Village ladder.",
+        "Attack catablepon with a crush weapon for the best accuracy against their +40 stab/range bonuses.",
+        "Eat as needed; they hit up to 6 with stab melee and magic."
+      ]
+    },
+    {
+      "methodId": "safe-training",
+      "label": "Low-level training",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use the task as safe low-level Slayer/combat training since no Slayer level is required.",
+      "recommendedFor": [
+        "low-combat accounts",
+        "early Mazchna tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Food",
+        "Slayer helmet or antipoison as needed"
+      ],
+      "steps": [
+        "Bring food and clear catablepon in the Stronghold of Security for combat XP and the four security-code rewards.",
+        "Prayer against magic can reduce damage from their magic attacks.",
+        "Complete the 20-30 assignment before returning to Mazchna."
+      ]
+    }
+  ],
+  "body": "# Catablepon\n\nCatablepon are a low-level Slayer task assigned by Mazchna, found in the Stronghold of Security beneath Barbarian Village. They need no Slayer level. With high stab (+40) and range (+40) defensive bonuses, a crush weapon (their lowest bonus at +20) is the most accurate choice. They attack with stab melee and magic for up to 6 damage, so bring food. There is no elemental weakness; the three combat-level forms (levels 49/64/68) all count for the task."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-resource-area-hellhounds",
+  "name": "Wilderness near Resource Area",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Level 49-55 Wilderness Hellhound area near the Resource Area. Contains 6 Hellhounds, supports a cannon and safespots, but has high Wilderness player killing danger; the Edgeville lever provides bank access."
+}

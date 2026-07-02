@@ -1,0 +1,29 @@
+{
+  "variantId": "spiritual-ranger-bandos",
+  "name": "Spiritual ranger (Bandos)",
+  "npcIds": [
+    2242
+  ],
+  "combatLevel": 115,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 96,
+    "stab": 12,
+    "slash": 14,
+    "crush": 13,
+    "magic": 5,
+    "range": 13
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "God Wars Dungeon, Bandos wing",
+  "requirement": "70 Strength + a hammer",
+  "bossId": null,
+  "strategyId": "spiritual-creatures"
+}

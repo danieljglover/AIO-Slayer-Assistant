@@ -1,0 +1,32 @@
+{
+  "variantId": "mithril-dragon",
+  "name": "Mithril dragon",
+  "npcIds": [
+    2919,
+    8088,
+    8089
+  ],
+  "combatLevel": 304,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 268,
+    "stab": 0,
+    "slash": 100,
+    "crush": 70,
+    "magic": 30,
+    "range": 90
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Ancient Cavern",
+  "locationId": "ancient-cavern-metal-dragons",
+  "requirement": "first part of Barbarian Firemaking completed (Ancient Cavern access)",
+  "bossId": null,
+  "strategyId": "mithril-dragon"
+}

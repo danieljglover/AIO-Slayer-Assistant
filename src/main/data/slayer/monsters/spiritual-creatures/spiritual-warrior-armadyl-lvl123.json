@@ -1,0 +1,29 @@
+{
+  "variantId": "spiritual-warrior-armadyl",
+  "name": "Spiritual warrior (Armadyl)",
+  "npcIds": [
+    3166
+  ],
+  "combatLevel": 123,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 23,
+    "slash": 25,
+    "crush": 13,
+    "magic": 35,
+    "range": 35
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "God Wars Dungeon, Armadyl wing",
+  "requirement": "70 Ranged + mithril grapple crossbow",
+  "bossId": null,
+  "strategyId": "spiritual-creatures"
+}

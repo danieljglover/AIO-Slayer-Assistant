@@ -1,0 +1,394 @@
+{
+  "strategyId": "dust-devils",
+  "variantIds": [
+    "dust-devil",
+    "choke-devil"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Dust_devils",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "kodai-wand",
+      "nightmare-staff",
+      "dragon-hunter-wand",
+      "ancient-sceptre",
+      "blue-moon-spear"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dinh-s-bulwark",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "saradomin-godsword",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "burst or barrage stacked Dust devils with a facemask or Slayer helmet. Catacombs is the normal recommendation; Smoke Dungeon has a task-only multicombat area without cannon use, and Wilderness Slayer Cave adds cannonable multicombat with PvP risk."
+  },
+  "requirements": [
+    "65 Slayer to damage Dust devils and receive the task",
+    "70 combat to receive the task",
+    "Started Desert Treasure I to receive assignments and enter the Smoke Dungeon",
+    "Facemask, Slayer helmet, or Slayer helmet (i) required to avoid rapid damage and stat drain",
+    "Ancient Magicks access for burst and barrage methods",
+    "Bigger and Badder unlock for Choke devil superior spawns"
+  ],
+  "mechanics": [
+    "Dust devils attack with ranged melee: the attack is treated as melee, but accuracy rolls against the player's ranged defence.",
+    "Protect from Melee blocks their regular attacks.",
+    "Without face protection, Dust devils deal rapid damage and drain Attack, Strength, Ranged, Magic, Agility, Defence, and Prayer stats.",
+    "Regular Dust devils have very low Defence and a 35% air elemental weakness.",
+    "Catacombs Dust devils are level 110 with 130 Hitpoints and give 130 Slayer XP instead of the standard 105 XP.",
+    "Bursting and barraging work well because several Dust devil rooms are multicombat and Dust devils can be stacked by movement or luring.",
+    "Choke devils are superior monsters with 300 Hitpoints, a max hit of 24, no defensive bonuses, and a 25% air elemental weakness."
+  ],
+  "methods": [
+    {
+      "methodId": "catacombs-burst-barrage",
+      "label": "Catacombs burst or barrage",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use Ancient Magicks in the Catacombs of Kourend for the default safe, high-XP Dust devil task.",
+      "recommendedFor": [
+        "Most non-Konar, non-Krystilia assignments",
+        "Players prioritising Slayer and Magic experience",
+        "Ancient shard and dark totem piece collection"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet (i) or facemask",
+        "Kodai wand",
+        "Nightmare staff",
+        "Ancient sceptre",
+        "Blue moon spear",
+        "Occult necklace",
+        "Imbued god cape",
+        "Virtus robes or other magic damage gear",
+        "Bracelet of slaughter"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Mystic Might",
+        "Augury"
+      ],
+      "steps": [
+        "Travel to the south-east Catacombs Dust devil room with face protection equipped.",
+        "Tag nearby Dust devils, then run corners or around obstacles until they stack on one tile.",
+        "Cast Ice Burst, Smoke Burst, Ice Barrage, or another Ancient Magicks area spell on the stacked pile.",
+        "Keep Protect from Melee active when taking hits; their accuracy still checks ranged defence.",
+        "Use bracelet of slaughter if extending the task for experience is more valuable than a Tormented bracelet damage swap.",
+        "Loot high-value drops and Catacombs-only ancient shards or dark totem pieces when safe."
+      ],
+      "risks": [
+        "Catacombs Dust devils have more Hitpoints and hit harder than the level 93 versions.",
+        "The Catacombs cannot use a dwarf multicannon."
+      ],
+      "inventory": [
+        "Rune pouch with Ancient Magicks runes",
+        "Prayer potions or super restores",
+        "Stamina potion if luring aggressively",
+        "Herb sack",
+        "Gem bag",
+        "Bonecrusher",
+        "Teleport to house or other one-click exit"
+      ],
+      "notes": [
+        "The task page recommends Catacombs unless the assignment is locked to Smoke Dungeon by Konar or assigned by Krystilia.",
+        "Drops usually cover supply costs when using efficient burst or barrage setups."
+      ]
+    },
+    {
+      "methodId": "smoke-dungeon",
+      "label": "Smoke Dungeon",
+      "combatStyle": "MAGIC",
+      "role": "location",
+      "summary": "Use the quieter Smoke Dungeon Dust devil areas when assigned there or when avoiding crowded Catacombs worlds.",
+      "recommendedFor": [
+        "Konar Smoke Dungeon assignments",
+        "Players wanting quieter Dust devil rooms",
+        "Hard Desert Diary Dust devil kill"
+      ],
+      "requiredOrKeyItems": [
+        "Facemask or Slayer helmet",
+        "Slayer helmet for Hard Desert Diary completion",
+        "Ancient Magicks autocast staff",
+        "Dwarf multicannon for single-way rooms only"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Enter the Smoke Dungeon after starting Desert Treasure I with face protection equipped.",
+        "For burst or barrage tasks, use the western task-only multicombat area guarded by Dusty Aliv.",
+        "Stack Dust devils in the task-only area and cast Ancient Magicks area spells.",
+        "Do not attempt to place a dwarf multicannon in the task-only western multicombat area.",
+        "If using cannon and melee or ranged instead, use the remaining Smoke Dungeon rooms, which are single-way combat and allow cannoning.",
+        "Wear a Slayer helmet for one kill here if completing the Hard Desert Diary."
+      ],
+      "risks": [
+        "The Smoke Dungeon is more remote than the Catacombs.",
+        "Cannon and multicombat are split between different Smoke Dungeon Dust devil areas."
+      ],
+      "notes": [
+        "This location has the highest Dust devil count on the task page, but the useful method depends on whether the player wants multicombat spells or cannon use."
+      ]
+    },
+    {
+      "methodId": "wilderness-slayer-cave",
+      "label": "Wilderness Slayer Cave",
+      "combatStyle": "MAGIC",
+      "role": "wilderness",
+      "summary": "Use Wilderness Slayer Cave Dust devils for Krystilia tasks or when accepting PvP risk for cannonable multicombat.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "Players using blighted supplies",
+        "Players willing to risk Wilderness deaths"
+      ],
+      "requiredOrKeyItems": [
+        "Facemask or Slayer helmet",
+        "Ancient Magicks autocast staff",
+        "Dwarf multicannon",
+        "Blighted ancient ice sacks",
+        "Royal seed pod or other escape teleport that works at the cave level"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Protect Item"
+      ],
+      "steps": [
+        "Bring only gear and supplies you are willing to risk in level 25-28 Wilderness.",
+        "Enter the Wilderness Slayer Cave and move to the north-east Dust devil area.",
+        "Set up cannon if using a cannon strategy, or stack monsters for burst and barrage spells.",
+        "Use blighted ancient ice sacks to lower rune costs for Wilderness Ancient Magicks.",
+        "Stay ready to teleport or tank if player killers appear."
+      ],
+      "risks": [
+        "player killers can attack in the Wilderness Slayer Cave.",
+        "Deaths can cost unprotected equipment, runes, cannonballs, and loot.",
+        "Teleport options are restricted by Wilderness level and teleblock."
+      ],
+      "notes": [
+        "Dust devils here use the Wilderness Slayer Cave drop table."
+      ]
+    },
+    {
+      "methodId": "luring",
+      "label": "Luring and stacking",
+      "combatStyle": "RANGED",
+      "role": "support",
+      "summary": "Use fast, low-commitment tagging or Dinh's bulwark special attacks to gather Dust devils before area spells.",
+      "recommendedFor": [
+        "Bursting and barraging",
+        "Players maintaining high experience rates",
+        "Large multicombat rooms"
+      ],
+      "requiredOrKeyItems": [
+        "Dinh's bulwark",
+        "Lightbearer",
+        "Toxic blowpipe",
+        "Darts or knives",
+        "Hunters' sunlight crossbow",
+        "Venator bow",
+        "Goading potion"
+      ],
+      "steps": [
+        "Use blowpipe, darts, knives, or Hunters' sunlight crossbow to tag Dust devils while moving.",
+        "Use Dinh's bulwark special attacks to draw aggression when available, ideally with Lightbearer for more frequent special energy.",
+        "Use goading potion to force aggression if choosing a potion-based luring approach.",
+        "Keep moving until the tagged Dust devils align and collapse onto a single tile.",
+        "Swap back to the Ancient Magicks weapon and cast burst or barrage once the pile is stacked.",
+        "Use Venator bow as a lower-effort ranged alternative where chaining hits is preferred over full Ancient Magicks bursting."
+      ],
+      "risks": [
+        "Dinh's bulwark luring can consume run energy quickly.",
+        "Poor stacks reduce burst and barrage value."
+      ],
+      "notes": [
+        "The task page lists Dinh's bulwark, blowpipe, darts, knives, Hunters' crossbows, goading potion, and Venator bow as effective luring or alternative tools."
+      ]
+    },
+    {
+      "methodId": "choke-devil",
+      "label": "Choke devil",
+      "combatStyle": "MAGIC",
+      "role": "superior",
+      "summary": "Handle Choke devil superior spawns with face protection and focused damage.",
+      "recommendedFor": [
+        "Players with Bigger and Badder unlocked",
+        "Konar tasks where Brimstone keys are desired"
+      ],
+      "requiredOrKeyItems": [
+        "Facemask or Slayer helmet",
+        "Strong magic, ranged, or melee weapon",
+        "Food if low Defence or low Hitpoints"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Keep face protection equipped; Choke devils use the same protection check as regular Dust devils.",
+        "Move away from the Dust devil pile if needed so the superior can be targeted cleanly.",
+        "Use Protect from Melee and continue attacking; Choke devils have high combat stats but no defensive bonuses.",
+        "Return to stacking regular Dust devils after the superior dies."
+      ],
+      "risks": [
+        "Choke devils can hit up to 24.",
+        "Ignoring the superior while continuing to stack regular Dust devils can add unnecessary incoming damage."
+      ],
+      "notes": [
+        "Choke devils require Bigger and Badder and give 3000 Slayer XP.",
+        "On Konar assignments, Choke devils guarantee a Brimstone key."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MAGIC",
+      "role": "setup",
+      "summary": "Bring Ancient Magicks runes, prayer sustain, and loot-storage items so long burst trips remain profitable.",
+      "recommendedFor": [
+        "Long Catacombs trips",
+        "Extended Dust devil assignments",
+        "Players using bracelet of slaughter"
+      ],
+      "requiredOrKeyItems": [
+        "Rune pouch",
+        "Prayer potion",
+        "Bracelet of slaughter",
+        "Herb sack",
+        "Gem bag",
+        "Bonecrusher",
+        "Teleport to house"
+      ],
+      "inventory": [
+        "Rune pouch with water, blood, and death runes for Ancient Magicks",
+        "Prayer potions or super restores",
+        "bracelet of slaughter swaps for extending the task",
+        "Herb sack",
+        "Gem bag",
+        "Bonecrusher",
+        "Teleport to house or another reliable exit",
+        "Optional Dinh's bulwark, blowpipe, darts, knives, Hunters' sunlight crossbow, or Venator bow for luring"
+      ],
+      "steps": [
+        "Prioritise magic damage gear such as Kodai wand, occult necklace, imbued god cape, Virtus or Ancestral robes, and damage-boosting off-hands where available.",
+        "Use bracelet of slaughter for extra Dust devil kills when chasing Magic and Slayer experience.",
+        "Carry herb sack and gem bag so frequent Dust devil drops do not shorten trips.",
+        "Keep a fast teleport available, especially if using Wilderness Slayer Cave."
+      ],
+      "notes": [
+        "The task page notes that Tormented bracelet damage is often less useful than bracelet of slaughter because extending Dust devil tasks is valuable experience.",
+        "Kodai wand is especially effective because of its magic damage bonus, infinite water runes, and rune-saving effect."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "bursting-barraging",
+      "label": "Bursting or barraging",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Ancient Magicks area spells are the main Dust devil strategy for multicombat locations.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Kodai wand",
+            "Nightmare staff",
+            "Dragon hunter wand",
+            "Ancient sceptre",
+            "Blue moon spear"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Facemask"
+          ],
+          "neck": [
+            "Occult necklace",
+            "Dragonbone necklace",
+            "Bonecrusher necklace"
+          ],
+          "body": [
+            "Virtus robes",
+            "Ancestral robes",
+            "Ahrim's robes",
+            "Proselyte armour"
+          ],
+          "shield": [
+            "Elidinis' ward",
+            "Arcane spirit shield",
+            "Mage's book",
+            "Book of darkness"
+          ],
+          "ring": [
+            "Magus ring",
+            "Lightbearer"
+          ],
+          "hands": [
+            "Confliction gauntlets",
+            "Barrows gloves",
+            "Bracelet of slaughter"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "luring-weapons",
+      "label": "Luring weapons",
+      "combatStyle": "RANGED",
+      "role": "support",
+      "summary": "Fast ranged tags, Dinh's bulwark specials, goading potion, or Venator bow can gather Dust devils for area damage.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dinh's bulwark",
+            "Toxic blowpipe",
+            "Darts",
+            "Knives",
+            "Hunters' sunlight crossbow",
+            "Venator bow"
+          ],
+          "ring": [
+            "Lightbearer"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "wilderness-bursting",
+      "label": "Wilderness bursting",
+      "combatStyle": "MAGIC",
+      "role": "wilderness",
+      "summary": "Use Wilderness Slayer Cave multicombat with cannon, blighted Ancient Magicks supplies, and strict risk control.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Ancient Magicks autocast staff",
+            "Kodai wand",
+            "Ancient sceptre"
+          ],
+          "ammo": [
+            "Cannonballs",
+            "Blighted ancient ice sacks"
+          ],
+          "inventory": [
+            "Royal seed pod",
+            "Looting bag",
+            "Only risked supplies"
+          ]
+        }
+      }
+    }
+  ]
+}

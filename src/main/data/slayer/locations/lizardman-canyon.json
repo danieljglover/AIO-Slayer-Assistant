@@ -1,0 +1,11 @@
+{
+  "locationId": "lizardman-canyon",
+  "name": "Lizardman Canyon",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "In the Kebos Lowlands (not Wilderness). The wiki marks this lizardman spawn as not safespottable; it is a multicombat, cannonable area."
+}

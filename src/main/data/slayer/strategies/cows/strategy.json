@@ -1,0 +1,75 @@
+{
+  "strategyId": "cows",
+  "variantIds": [
+    "cow-lvl2"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Cow",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "yew-shortbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Cows have very low Defence and barely fight back, so any weapon clears them. They drop cowhide for a little profit, making the Lumbridge cow field a classic low-level spot."
+  },
+  "requirements": [
+    "No requirement to be assigned Cows by Turael; Spria requires combat level 5.",
+    "No Slayer level or quest requirement.",
+    "Cow calves and dairy cows also count toward the task."
+  ],
+  "mechanics": [
+    "Cows have 8 Hitpoints and max hit 1 (crush); they do not fight back unless attacked.",
+    "Cows have no elemental weakness and are 100% resistant to poison and venom.",
+    "Cows drop cowhide, so the task is a mildly profitable starter Slayer-XP task."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill Cows in the Lumbridge cow field or Falador farm with any melee weapon.",
+      "recommendedFor": [
+        "standard task completion",
+        "brand-new accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any weapon"
+      ],
+      "steps": [
+        "Travel to the Lumbridge cow field east of the castle.",
+        "Kill the Cows (8 HP); no food is needed.",
+        "Collect cowhide for a little profit while completing the task."
+      ],
+      "notes": [
+        "The cow field is fenced, so it is a compact, dense spot."
+      ]
+    },
+    {
+      "methodId": "ranged-magic",
+      "label": "Ranged or Magic",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Attack the Cows with a bow or spells to train Ranged or Magic on a safe target.",
+      "recommendedFor": [
+        "players training Ranged or Magic"
+      ],
+      "requiredOrKeyItems": [
+        "A shortbow and arrows, or air spells"
+      ],
+      "steps": [
+        "Bring a shortbow (or an air staff) to the cow field.",
+        "Attack the Cows; their negative defence bonuses make every hit land."
+      ],
+      "notes": [
+        "Cows are a common low-level Ranged and Magic training target."
+      ]
+    }
+  ]
+}

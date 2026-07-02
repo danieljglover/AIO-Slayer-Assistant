@@ -1,0 +1,97 @@
+{
+  "taskId": "birds",
+  "name": "Birds",
+  "wikiPageId": 37232,
+  "combatLevel": null,
+  "slayerTargetId": 277,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ]
+  },
+  "weightByMaster": {
+    "turael": 6,
+    "spria": 6
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "birds"
+  ],
+  "variantIds": [
+    "chicken-lvl1"
+  ],
+  "defaultVariantId": "chicken-lvl1",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": -42,
+    "slash": -42,
+    "crush": -42,
+    "magic": -42,
+    "range": -42
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "bird-spawns"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "chicken-lvl1",
+      "name": "Chicken",
+      "combatLevel": 1,
+      "slayerXp": 3,
+      "locations": [
+        "Lumbridge farm",
+        "Fred the Farmer's field",
+        "Falador farm"
+      ],
+      "notes": [
+        "The Chicken has 3 Hitpoints, max hit 0 (it barely fights back), and gives 3 Slayer XP; it is the most efficient bird to kill.",
+        "Sixteen bird types count for the task (Chickens, Ducks, Seagulls, Penguins, Terrorbirds, Vultures, Chompy birds, Baby Roc, etc.); most drop only bones or nothing."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "bird-spawns",
+      "name": "Bird spawns (various)",
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Chickens and ducks cluster in Lumbridge/Falador farms; no single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "Birds drop feathers, bones or nothing, so the task is a starter Slayer-XP task."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Birds are assigned by Turael and Spria (Spria after completing A Porcine of Interest); there is no combat, Slayer, or quest requirement to be assigned.",
+    "slayerTargetId 277 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Sixteen bird types count, from level-1 Chickens and Ducks to the level-75 Baby Roc; only the representative Chicken is authored as the default variant, the rest are honest-UNKNOWN here.",
+    "The Chicken has 3 Hitpoints, max hit 0, 4-tick attack speed, and Defence level 1 (strongly negative defence bonuses).",
+    "Birds have no elemental weakness; any melee weapon clears them.",
+    "No required protective item and no task extension unlock exist for Birds."
+  ],
+  "recommendedMethod": "A trivial low-level Slayer-XP task: kill Chickens (the most efficient bird) or any other counted bird with any weapon. Birds have negligible Defence and barely fight back, so no food or special gear is needed; the task is done for Slayer XP and the streak."
+}

@@ -1,0 +1,72 @@
+{
+  "strategyId": "dwarves",
+  "variantIds": [
+    "dwarf",
+    "black-guard"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Dwarf",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [],
+    "note": "Dwarves and Black Guards are low-Defence humanoids; any melee weapon works. The free-to-play Dwarven Mine holds the densest dwarf cluster (36 spawns), making it the fastest place to complete the task."
+  },
+  "requirements": [
+    "Combat level 6 is required to be assigned Dwarves.",
+    "Black Guards count toward the task; the level 25 form is on Ice Mountain and the level 48 form is in Keldagrim."
+  ],
+  "mechanics": [
+    "Dwarf: combat level 10, 16 Hitpoints, max hit 2 (stab), 5-tick attack speed, Defence level 6 (magic defence +5, all other bonuses 0).",
+    "Black Guard (level 25): 30 Hitpoints, max hit 3, Defence level 20 with small melee bonuses.",
+    "None of the dwarves are undead, so the salve amulet does not apply.",
+    "No elemental weakness is documented for dwarves; melee is the safe default."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill dwarves in the free-to-play Dwarven Mine with any melee weapon.",
+      "recommendedFor": [
+        "standard task completion",
+        "free-to-play and low-level accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Enter the Dwarven Mine beneath Ice Mountain / Falador (36 spawns).",
+        "Attack dwarves with any melee weapon; the low Defence makes weapon choice unimportant.",
+        "Black Guards on Ice Mountain or in Keldagrim also count toward the task."
+      ],
+      "notes": [
+        "The Dwarven Mine is free-to-play and central, making it the fastest option."
+      ]
+    },
+    {
+      "methodId": "ranged-magic",
+      "label": "Ranged or Magic",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Ranged or Magic to clear dwarves while training those skills.",
+      "recommendedFor": [
+        "players training Ranged or Magic"
+      ],
+      "requiredOrKeyItems": [
+        "A ranged weapon and ammunition, or spell runes"
+      ],
+      "steps": [
+        "Travel to any dense dwarf spawn (Dwarven Mine, Ice Mountain).",
+        "Attack from range; the dwarves' low Hitpoints make kills quick.",
+        "Avoid Magic against dwarves specifically, which carry a small +5 magic defence bonus."
+      ],
+      "notes": [
+        "Ranged is the better non-melee option given the dwarf +5 magic defence bonus."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "ice-mountain",
+  "name": "Ice Mountain",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Icefiends on top of Ice Mountain, north-west of Falador and west of Edgeville. They can be safespotted behind the rocks. Multi and cannon are not wiki-stated and left conservative (false)."
+}

@@ -1,0 +1,373 @@
+{
+  "strategyId": "gryphons",
+  "variantIds": [
+    "gryphon",
+    "dire-gryphon-superior"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Gryphons",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "venator-bow",
+      "toxic-blowpipe",
+      "hunters-sunlight-crossbow",
+      "bow-of-faerdhinen",
+      "eclipse-atlatl"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "scythe-of-vitur",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "ghrazi-rapier",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "osmumten-s-fang",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "abyssal-whip",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-scimitar",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Best regular-task method is Venator bow plus dwarf multicannon in the eastern task-only cave's south-west room. Keep 30 kg equipped for normal Gryphons; bring a tortugan shield for Dire gryphons and Shellbane."
+  },
+  "requirements": [
+    "51 Slayer",
+    "Troubled Tortugans completion",
+    "45 Sailing access to the Great Conch",
+    "Wings Spread unlock for Nieve/Steve or Duradel/Kuradal assignments",
+    "Bigger and Badder for Dire gryphon superior spawns",
+    "Tortugan shield for Dire gryphons and Shellbane Gryphon",
+    "Dwarf multicannon for the recommended regular-task method"
+  ],
+  "mechanics": [
+    "Normal Gryphons attack with melee and have a knockback special if equipped weight is too low.",
+    "Normal Gryphons need about 30 kg equipped weight to avoid taking damage from the knockback special.",
+    "Dire gryphons and Shellbane Gryphon use a 40 kg equipped-weight threshold.",
+    "If the weight threshold is met, the Gryphon stuns itself.",
+    "After a normal Gryphon stuns itself, clicking it within 2 ticks knocks it back and grants one extra attack without attack delay.",
+    "Missing the counterattack is not punished on normal Gryphons, unlike the boss and superior variants.",
+    "Normal Gryphons do not require a tortugan shield.",
+    "Dire gryphons and Shellbane Gryphon require a tortugan shield to avoid frequent moderate damage even through prayer.",
+    "Gryphons are weakest to melee, ideally stab attacks, and have a 50% elemental weakness to air spells.",
+    "The eastern and western caves each have one southern multicombat, cannonable room."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-unlocks",
+      "label": "Requirements and unlocks",
+      "combatStyle": "RANGED",
+      "role": "setup",
+      "summary": "Confirm Great Conch access and Slayer unlock state before choosing a master or boss path.",
+      "recommendedFor": [
+        "Every Gryphon task",
+        "Players choosing a Slayer master",
+        "Players deciding whether to toggle Nieve or Duradel assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Troubled Tortugans",
+        "45 Sailing",
+        "Wings Spread",
+        "Gryphon and on",
+        "Bigger and Badder"
+      ],
+      "steps": [
+        "Complete Troubled Tortugans and unlock Great Conch access through Sailing before planning the task.",
+        "Use Vannaka or Chaeldar without Wings Spread if only the quest requirement is met.",
+        "Buy Wings Spread for 80 Slayer points only if Nieve or Duradel Gryphon assignments are desired.",
+        "Use Gryphon and on to add 80 kills to the assignment when extended Gryphon trips are desirable.",
+        "Use Bigger and Badder only if superior Dire gryphon spawns are desired."
+      ],
+      "notes": [
+        "The task page recommends Vannaka for players seeking Gryphon tasks because they are his highest weighted task.",
+        "The task page advises avoiding Nieve/Duradel toggles if not planning to kill the boss because regular Gryphons have poor drops."
+      ]
+    },
+    {
+      "methodId": "weight-and-knockback",
+      "label": "Weight and knockback",
+      "combatStyle": "RANGED",
+      "role": "survival",
+      "summary": "Meet the equipped-weight threshold so Gryphon specials stun themselves instead of damaging and knocking back the player.",
+      "recommendedFor": [
+        "Every regular Gryphon task",
+        "Venator bow setups",
+        "Players using low-weight ranged gear"
+      ],
+      "requiredOrKeyItems": [
+        "30 kg equipped weight for normal Gryphons",
+        "40 kg equipped weight for Dire gryphons or Shellbane",
+        "Black mask (i)",
+        "Granite ring",
+        "Avernic treads (max)",
+        "Tortugan shield"
+      ],
+      "steps": [
+        "Keep at least 30 kg equipped weight for normal Gryphons.",
+        "Keep at least 40 kg equipped weight for Dire gryphons and Shellbane Gryphon.",
+        "If the special fails against the weight threshold, click the Gryphon within 2 ticks to knock it back one tile and perform an extra attack without attack delay.",
+        "Use black mask (i), granite ring, or avernic treads (max) to reach 30 kg in high-end ranged gear if needed.",
+        "Bring a tortugan shield for superior and boss variants; normal Gryphons do not require it."
+      ],
+      "risks": [
+        "Low equipped weight causes knockback and moderate damage.",
+        "Dire gryphons and Shellbane can deal frequent damage through prayer without tortugan shield protection."
+      ]
+    },
+    {
+      "methodId": "eastern-cannon-venator",
+      "label": "Eastern cannon Venator",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Kill regular Gryphons in the eastern task-only cave's south-west multicombat room with Venator bow and cannon.",
+      "recommendedFor": [
+        "Fast regular Gryphon task completion",
+        "Players with a dwarf multicannon",
+        "Players using ranged loadouts"
+      ],
+      "requiredOrKeyItems": [
+        "Venator bow",
+        "Dwarf multicannon",
+        "Slayer helmet (i) or black mask (i)",
+        "Masori body (f)",
+        "Masori chaps (f)",
+        "Dizana's quiver",
+        "Necklace of anguish",
+        "Cannonballs"
+      ],
+      "prayers": [
+        "Eagle Eye",
+        "Rigour"
+      ],
+      "steps": [
+        "Use the south-western multicombat room of the eastern task-only cave.",
+        "Place and maintain a dwarf multicannon because the room is cannonable.",
+        "Use Venator bow as the recommended ranged weapon from the task page.",
+        "Keep equipped weight at or above 30 kg while ranging.",
+        "Bring a tortugan shield for any Dire gryphon superior spawn.",
+        "Use the western cave safespot if avoiding all attacks is preferred over the eastern cannon method."
+      ],
+      "risks": [
+        "The eastern cave is task-only.",
+        "Low-weight ranged setups can trigger damaging knockback specials."
+      ]
+    },
+    {
+      "methodId": "melee-heavy-gear",
+      "label": "Melee heavy gear",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use heavier melee gear when not safespotting; Gryphons are weakest to melee, ideally stab.",
+      "recommendedFor": [
+        "Players not safespotting",
+        "Accounts with strong stab weapons",
+        "Players wanting easier weight thresholds"
+      ],
+      "requiredOrKeyItems": [
+        "Scythe of vitur",
+        "Ghrazi rapier",
+        "Osmumten's fang",
+        "Abyssal whip",
+        "Dragon scimitar",
+        "Tortugan shield"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Use melee if not safespotting, because melee armour makes the weight threshold easier to reach.",
+        "Prefer stab where possible because Gryphons are weakest to melee, ideally stabbing attacks.",
+        "Use Protect from Melee for normal attacks.",
+        "Keep a tortugan shield ready for Dire gryphon spawns.",
+        "Use air spells only as an alternative despite the 50% air weakness, because the task page notes melee is typically stronger."
+      ],
+      "notes": [
+        "Normal Gryphons do not require tortugan shield, but it is generally useful because of its weight."
+      ]
+    },
+    {
+      "methodId": "dire-gryphon-superior",
+      "label": "Dire gryphon superior",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Handle Dire gryphons like a tougher Gryphon with boss-like protection requirements.",
+      "recommendedFor": [
+        "Players with Bigger and Badder",
+        "Players carrying tortugan shield",
+        "Trips prepared for superior spawns"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder",
+        "Tortugan shield",
+        "40 kg equipped weight",
+        "Food",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Equip a tortugan shield before fighting Dire gryphons.",
+        "Maintain at least 40 kg equipped weight to counter the pick-up special.",
+        "Counterattack after the special is stunned; Dire gryphons can still throw the player backwards if the counterattack is missed.",
+        "Expect tougher stats than normal Gryphons but a similar drop table.",
+        "Use a cannon where the spawn and room allow it because Dire gryphons are cannonable."
+      ],
+      "risks": [
+        "Without tortugan shield, Dire gryphon attacks are devastating and cause heavy damage.",
+        "Missing the counterattack is punished more than with normal Gryphons."
+      ]
+    },
+    {
+      "methodId": "shellbane-choice",
+      "label": "Shellbane choice",
+      "combatStyle": "MELEE",
+      "role": "boss-option",
+      "summary": "Choose Shellbane Gryphon only when accepting a solo instanced boss trip instead of regular task kills.",
+      "recommendedFor": [
+        "Players intentionally killing the Gryphons boss",
+        "Players with tortugan shield",
+        "Players accepting slower task progress for boss loot"
+      ],
+      "requiredOrKeyItems": [
+        "Tortugan shield",
+        "40 kg equipped weight",
+        "Shellbane Gryphon boss setup",
+        "Emergency teleport"
+      ],
+      "steps": [
+        "Use the central Shellbane Gryphon Cave on the Great Conch for the boss variant.",
+        "Only attack Shellbane while on a Gryphon task.",
+        "Expect a solo instanced boss using melee, ranged, and two avoidable special attacks.",
+        "Use the dedicated Shellbane Gryphon strategy for boss-specific positioning and gear.",
+        "Avoid toggling Gryphons for Nieve or Duradel if neither regular nor boss Gryphon loot is desired."
+      ],
+      "notes": [
+        "The task page says Shellbane drops are somewhat lackluster but slightly better than normal Gryphons."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "RANGED",
+      "role": "setup",
+      "summary": "Bring cannon supplies, weight-support gear, superior protection, and enough supplies for task-only cave trips.",
+      "recommendedFor": [
+        "Eastern cave Venator method",
+        "Players expecting Dire gryphon spawns",
+        "Long extended Gryphon tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Venator bow",
+        "Tortugan shield",
+        "Black mask (i)",
+        "Granite ring",
+        "Avernic treads (max)",
+        "Food",
+        "Prayer potions",
+        "Emergency teleport"
+      ],
+      "inventory": [
+        "Dwarf multicannon and cannonballs",
+        "Venator bow or chosen ranged weapon",
+        "Tortugan shield for Dire gryphons and Shellbane",
+        "Weight-support item such as black mask (i), granite ring, or avernic treads (max)",
+        "Food for knockback mistakes or superior spawns",
+        "Prayer potions if using offensive prayers",
+        "Emergency teleport",
+        "Optional air runes if testing the 50% air weakness"
+      ],
+      "steps": [
+        "Prioritise task-only eastern cave kills for the recommended cannon method.",
+        "Use the western cave safespot when prioritising safety.",
+        "Pick up Gryphon feathers and Horn of plenty rolls if desired.",
+        "Remember Horn of plenty is rarer off task than on task."
+      ],
+      "notes": [
+        "Regular Gryphon drops are poor compared with many other Slayer tasks."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-cannon",
+      "label": "Ranged cannon",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Venator bow plus dwarf multicannon in the eastern task-only cave's south-west multicombat room.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Black mask (i)",
+            "Slayer helmet (i)"
+          ],
+          "weapon": [
+            "Venator bow",
+            "Toxic blowpipe",
+            "Hunters' sunlight crossbow",
+            "Bow of faerdhinen",
+            "Eclipse atlatl"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Ranged armour"
+          ],
+          "legs": [
+            "Masori chaps (f)",
+            "Ranged armour"
+          ],
+          "shield": [
+            "Tortugan shield"
+          ],
+          "ring": [
+            "Ring of the gods (i)",
+            "Granite ring"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-heavy",
+      "label": "Melee heavy",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Heavier melee gear for non-safespot kills and superior handling.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scythe of vitur",
+            "Ghrazi rapier",
+            "Osmumten's fang",
+            "Abyssal whip",
+            "Dragon scimitar",
+            "Dragon mace"
+          ],
+          "shield": [
+            "Tortugan shield"
+          ],
+          "body": [
+            "Heavy melee armour"
+          ],
+          "legs": [
+            "Heavy melee armour"
+          ]
+        }
+      }
+    }
+  ]
+}

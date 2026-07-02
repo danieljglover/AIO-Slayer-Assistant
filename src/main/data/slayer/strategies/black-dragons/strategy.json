@@ -1,0 +1,280 @@
+{
+  "strategyId": "black-dragons",
+  "variantIds": [
+    "black-dragon",
+    "baby-black-dragon",
+    "brutal-black-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Black_dragons",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "dragon-hunter-crossbow",
+      "hunters-sunlight-crossbow",
+      "dragon-crossbow",
+      "rune-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-lance",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "osmumten-s-fang",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Bring anti-dragon protection such as an anti-dragon shield and extended antifire. Baby black dragons in Taverley are fastest; brutal black dragons require 77 Slayer and use long-ranged dragonfire plus magic, so use Protect from Magic with crossbows or flinch with Dragon hunter lance."
+  },
+  "requirements": [
+    "80 combat for assignment",
+    "Partial completion of Dragon Slayer I",
+    "Dragonfire protection for adult, brutal, and King Black Dragon kills",
+    "77 Slayer for Brutal black dragons",
+    "Dragon Slayer II for Corsair Cove Dungeon",
+    "Recipe for Disaster: Freeing Sir Amik Varze plus raw chicken for Evil Chicken's Lair",
+    "Song of the Elves for Mynydd",
+    "Wilderness risk for Lava Maze Dungeon, Wilderness Slayer Cave, and King Black Dragon approach"
+  ],
+  "mechanics": [
+    "Black dragons use melee and short-ranged dragonfire.",
+    "Baby black dragons do not use dragonfire.",
+    "Brutal black dragons use long-ranged dragonfire and a ranged magical attack.",
+    "Protect from Melee is recommended for standard Black dragons.",
+    "Protect from Magic is recommended for Brutal black dragons.",
+    "Dragonfire protection should be used against standard, brutal, and King Black Dragon variants.",
+    "The King Black Dragon lair itself is not Wilderness, but access is through the Wilderness."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Choose fast baby black dragons, profitable brutal black dragons, standard black dragons, or King Black Dragon based on requirements and risk.",
+      "recommendedFor": [
+        "baseline Black dragon task planning",
+        "choosing speed, profit, or boss alternative"
+      ],
+      "requiredOrKeyItems": [
+        "Anti-dragon shield or dragonfire shield",
+        "Extended antifire",
+        "Dragon hunter crossbow",
+        "Dragon hunter lance",
+        "Emergency teleport for Wilderness routes"
+      ],
+      "steps": [
+        "Confirm partial Dragon Slayer I completion before assignment.",
+        "Use dragonfire protection for any non-baby black dragon.",
+        "Use baby black dragons in Taverley Dungeon for fastest low-effort task completion.",
+        "Use brutal black dragons with 77 Slayer when profit matters.",
+        "Avoid bringing valuable risk to Wilderness routes and King Black Dragon approach."
+      ],
+      "notes": [
+        "Most profitable variants are slower than baby black dragons.",
+        "Black dragons have multiple quest-gated alternative locations."
+      ]
+    },
+    {
+      "methodId": "baby-black-dragons",
+      "label": "Baby black dragons",
+      "combatStyle": "MELEE",
+      "role": "speed",
+      "summary": "Kill baby black dragons in the Taverley task-only area for fast completion.",
+      "recommendedFor": [
+        "fast task completion",
+        "low-effort AFK tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Basic combat gear"
+      ],
+      "steps": [
+        "Go to the Taverley Dungeon task-only area.",
+        "Use the five baby black dragon spawns in the grouped task-only area.",
+        "AFK where practical to quickly complete the assignment.",
+        "Use the bridge safespot if desired."
+      ],
+      "notes": [
+        "Baby black dragons do not use dragonfire.",
+        "They drop only baby dragon bones."
+      ]
+    },
+    {
+      "methodId": "normal-black-dragons",
+      "label": "Normal black dragons",
+      "combatStyle": "RANGED",
+      "role": "standard",
+      "summary": "Use standard black dragons when location access or banking convenience matters more than fastest completion.",
+      "recommendedFor": [
+        "Corsair Cove banking",
+        "Evil Chicken's Lair access",
+        "Mynydd source completeness"
+      ],
+      "requiredOrKeyItems": [
+        "Anti-dragon shield",
+        "Extended antifire",
+        "Ranged weapon",
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use Protect from Melee and dragonfire protection.",
+        "Use Corsair Cove Dungeon for the closest standard dragons to a bank with a Mythical cape teleport.",
+        "Use Evil Chicken's Lair after starting Freeing Sir Amik Varze and bringing a raw chicken.",
+        "Avoid Mynydd unless specifically assigned or desired because it is far from a bank and has one spawn."
+      ],
+      "notes": [
+        "Standard black dragons hit accurately and relatively hard.",
+        "Taverley Dungeon lower level has two adult dragon spawns."
+      ]
+    },
+    {
+      "methodId": "brutal-black-dragons",
+      "label": "Brutal black dragons",
+      "combatStyle": "RANGED",
+      "role": "profit",
+      "summary": "Kill brutal black dragons for generous drops after 77 Slayer.",
+      "recommendedFor": [
+        "profit-focused Black dragon tasks",
+        "players with strong ranged gear"
+      ],
+      "requiredOrKeyItems": [
+        "77 Slayer",
+        "Dragon hunter crossbow",
+        "Hunter's sunlight crossbow",
+        "Dragon crossbow",
+        "Rune crossbow",
+        "Dragonfire protection"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Stand out of melee range.",
+        "Use Protect from Magic against the ranged magical attack.",
+        "Use the strongest available crossbow, with Dragon hunter crossbow as best.",
+        "Keep dragonfire protection active.",
+        "For faster melee methods, keep Protect from Magic active and use flinching to avoid accurate melee attacks."
+      ],
+      "notes": [
+        "Brutal black dragons have long-ranged dragonfire.",
+        "Dragon hunter lance or other melee can be faster with flinching."
+      ]
+    },
+    {
+      "methodId": "wilderness",
+      "label": "Wilderness options",
+      "combatStyle": "RANGED",
+      "role": "wilderness",
+      "summary": "Use Lava Maze Dungeon or Wilderness Slayer Cave only when accepting Wilderness risk.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "players accepting Wilderness routes"
+      ],
+      "requiredOrKeyItems": [
+        "Low-risk gear",
+        "One-click teleport such as royal seed pod",
+        "Knife for Lava Maze route",
+        "Poison protection for Lava Maze Dungeon"
+      ],
+      "steps": [
+        "Use Wilderness Slayer Cave for easier access than Lava Maze Dungeon.",
+        "Safespot Wilderness Slayer Cave dragons and keep a one-click teleport such as royal seed pod ready.",
+        "Use Lava Maze Dungeon only when prepared for the long route, knife web cuts, and poison spiders.",
+        "Avoid risking items you are unwilling to lose."
+      ],
+      "notes": [
+        "Wilderness Slayer Cave is multicombat and a popular player killing spot.",
+        "A royal seed pod or other one-click teleport is useful for Wilderness Slayer Cave, but players must safespot the dragons.",
+        "Lava Maze Dungeon is troublesome without 82 Agility."
+      ]
+    },
+    {
+      "methodId": "king-black-dragon",
+      "label": "King Black Dragon alternative",
+      "combatStyle": "MELEE",
+      "role": "boss",
+      "summary": "Kill King Black Dragon for a boss alternative, but treat the Wilderness approach as high risk.",
+      "recommendedFor": [
+        "boss-focused Black dragon tasks",
+        "players with dragonbane gear"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter lance",
+        "Dragon hunter crossbow",
+        "Dragonfire protection",
+        "Low-risk Wilderness approach gear"
+      ],
+      "steps": [
+        "Do not bring items you are unwilling to lose.",
+        "Use the short route from level 44 Wilderness Obelisk to the KBD lair lever.",
+        "Enter the lair, which is not itself Wilderness.",
+        "Follow the dedicated King Black Dragon strategy for boss mechanics."
+      ],
+      "notes": [
+        "The Wilderness approach is a popular player killing spot.",
+        "Escape is likely impossible if attacked by a player killer near the lair approach."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Ranged dragonbane",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Best general approach for brutal black dragons and safe standard kills.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter crossbow",
+            "Hunter's sunlight crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "shield": [
+            "Anti-dragon shield",
+            "Dragonfire shield"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "fast-melee",
+      "summary": "Melee option for standard dragons, KBD, and brutal black dragon flinching.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter lance",
+            "Osmumten's fang",
+            "Zamorakian hasta"
+          ],
+          "shield": [
+            "Anti-dragon shield",
+            "Dragonfire shield"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-dragonbane",
+      "label": "Magic dragonbane",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Magic alternative when using dragonbane magic gear.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter wand"
+          ]
+        }
+      }
+    }
+  ]
+}

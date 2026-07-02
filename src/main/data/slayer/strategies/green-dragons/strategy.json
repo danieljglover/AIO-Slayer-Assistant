@@ -1,0 +1,93 @@
+{
+  "strategyId": "green-dragons",
+  "variantIds": [
+    "green-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Green_dragon",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "viggora-s-chainmace",
+      "dragon-scimitar",
+      "dragon-hunter-lance"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "craw-s-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Bring dragonfire protection (anti-dragon shield or dragonfire shield plus an antifire potion). Green dragons have low defence and die quickly to any strong weapon; Wilderness-viable gear such as Viggora's chainmace or Craw's bow keeps risk low. Keep a one-click escape teleport ready."
+  },
+  "requirements": [
+    "Dragonfire protection (anti-dragon shield / dragonfire shield and an antifire potion)",
+    "Low-risk gear for the Wilderness",
+    "A one-click teleport for emergency escape"
+  ],
+  "mechanics": [
+    "Green dragons use melee (slash) and short-ranged dragonfire (max 50 without protection).",
+    "Green dragons are weak to water spells (50%).",
+    "All Krystilia green dragon kills must occur in the Wilderness to count.",
+    "Wilderness green dragon spots are popular player-killing areas."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill Wilderness green dragons with a fast low-risk weapon and dragonfire protection.",
+      "recommendedFor": [
+        "Krystilia green dragon tasks",
+        "low-risk Wilderness slayer"
+      ],
+      "requiredOrKeyItems": [
+        "Anti-dragon shield or dragonfire shield",
+        "Antifire potion",
+        "Viggora's chainmace or Dragon scimitar",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Bring only low-risk gear and a one-click escape teleport.",
+        "Use dragonfire protection before engaging.",
+        "Kill green dragons quickly with a strong melee weapon or ranged.",
+        "Watch the minimap for player killers and teleport if threatened."
+      ],
+      "notes": [
+        "Green dragons have low defence, so gear choice matters less than speed and survivability.",
+        "Bank green dragon bones and hides between trips if desired."
+      ]
+    },
+    {
+      "methodId": "ranged",
+      "label": "Ranged from distance",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Range green dragons to avoid melee while keeping dragonfire protection up.",
+      "recommendedFor": [
+        "players who prefer to stay at distance",
+        "chipping spawns before other player killers arrive"
+      ],
+      "requiredOrKeyItems": [
+        "Craw's bow or Rune crossbow",
+        "Anti-dragon shield or dragonfire shield",
+        "Antifire potion",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Keep dragonfire protection active to block the ranged dragonfire.",
+        "Attack from distance with Craw's bow or a crossbow.",
+        "Move between the clustered Wilderness spawns to maintain kills per trip.",
+        "Teleport immediately if a player killer approaches."
+      ],
+      "notes": [
+        "Ranged keeps you mobile for a faster Wilderness escape.",
+        "Green dragons still deal dragonfire at range, so do not drop antifire."
+      ]
+    }
+  ]
+}

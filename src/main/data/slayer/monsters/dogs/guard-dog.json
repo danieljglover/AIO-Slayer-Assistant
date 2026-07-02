@@ -1,0 +1,41 @@
+{
+  "variantId": "guard-dog",
+  "name": "Guard dog",
+  "npcIds": [
+    114,
+    7209
+  ],
+  "combatLevel": 44,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 37,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "McGrubor's Wood; Hosidius; Kourend Castle; Handelmort Mansion; Brimhaven",
+  "locationId": "dog-spawns",
+  "requirement": "Combat level 15 to be assigned",
+  "bossId": null,
+  "strategyId": "dogs",
+  "offence": {
+    "hitpoints": 49,
+    "maxHit": 5,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "ancient-wyvern",
+  "name": "Ancient Wyvern",
+  "npcIds": [
+    7795
+  ],
+  "combatLevel": 210,
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 50,
+    "slash": 70,
+    "crush": 70,
+    "magic": 170,
+    "range": 120
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wyvern Cave, Fossil Island (task-only sub-area + open area)",
+  "requirement": "Slayer 82; Bone Voyage; anti-icy-breath shield",
+  "bossId": null,
+  "strategyId": "fossil-island-wyverns"
+}

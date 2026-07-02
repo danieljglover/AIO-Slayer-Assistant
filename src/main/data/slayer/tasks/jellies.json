@@ -1,0 +1,229 @@
+{
+  "taskId": "jellies",
+  "name": "Jellies",
+  "wikiPageId": 298051,
+  "combatLevel": 57,
+  "slayerTargetId": 242,
+  "slayerLevel": 52,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar",
+    "konar"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      100,
+      150
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5,
+    "vannaka": 8,
+    "chaeldar": 10,
+    "konar": 6
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows superior Slayer monsters, including Vitreous Jellies, to spawn while on task."
+    }
+  ],
+  "monsterIds": [
+    "jellies"
+  ],
+  "variantIds": [
+    "jelly",
+    "warped-jelly",
+    "chilled-jelly",
+    "vitreous-jelly",
+    "vitreous-warped-jelly",
+    "vitreous-chilled-jelly"
+  ],
+  "defaultVariantId": "jelly",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "fremennik-slayer-dungeon",
+    "catacombs-of-kourend",
+    "wilderness-slayer-cave-jellies",
+    "ruins-of-tapoyauik-jellies"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "jelly",
+      "name": "Jelly",
+      "combatLevel": 78,
+      "slayerXp": 75,
+      "locations": [
+        "Fremennik Slayer Dungeon",
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Standard jellies with an unusually high Defence level for their combat level.",
+        "It is not recommended to kill normal jellies in most circumstances because they have a fairly poor drop table and are far from a bank."
+      ]
+    },
+    {
+      "variantId": "warped-jelly",
+      "name": "Warped Jelly",
+      "combatLevel": 112,
+      "slayerXp": 140,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Stronger version of jellies in the Catacombs of Kourend with a better loot table, including ancient shards and dark totem pieces."
+      ]
+    },
+    {
+      "variantId": "chilled-jelly",
+      "name": "Chilled Jelly",
+      "combatLevel": 112,
+      "slayerXp": 140,
+      "locations": [
+        "Ruins of Tapoyauik"
+      ],
+      "notes": [
+        "Same level as Warped Jellies with slightly different drops; found in a single combat area.",
+        "Chilled Jellies have a 50% susceptibility to fire spells."
+      ]
+    },
+    {
+      "variantId": "vitreous-jelly",
+      "name": "Vitreous Jelly",
+      "combatLevel": 206,
+      "slayerXp": 1900,
+      "locations": [
+        "Fremennik Slayer Dungeon",
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Superior slayer monster variant of the Jelly, unlocked with Bigger and Badder.",
+        "Max hit 17 with no special mechanics."
+      ]
+    },
+    {
+      "variantId": "vitreous-warped-jelly",
+      "name": "Vitreous warped Jelly",
+      "combatLevel": 241,
+      "slayerXp": 2200,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Superior slayer monster variant of the Warped Jelly, unlocked with Bigger and Badder.",
+        "Max hit 19 with no special mechanics."
+      ]
+    },
+    {
+      "variantId": "vitreous-chilled-jelly",
+      "name": "Vitreous chilled Jelly",
+      "combatLevel": 241,
+      "slayerXp": 2200,
+      "locations": [
+        "Ruins of Tapoyauik"
+      ],
+      "notes": [
+        "Superior slayer monster variant of the Chilled Jelly, unlocked with Bigger and Badder.",
+        "Max hit 19 with no special mechanics."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "fremennik-slayer-dungeon",
+      "name": "Fremennik Slayer Dungeon",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Safespotting is possible by firing over the corner of the rocks in the west and south sides."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 18,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Warped Jellies here have a better loot table, including ancient shards and dark totem pieces.",
+        "Safespotting is possible by firing over corners.",
+        "Multicombat - Ice Burst or Ice Barrage give the fastest kills."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave-jellies",
+      "name": "Wilderness Slayer Cave",
+      "amount": 9,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Players can easily escape with a one-click teleport such as a royal seed pod.",
+        "Popular player killing hotspot - do not risk items you are unwilling to lose."
+      ]
+    },
+    {
+      "locationId": "ruins-of-tapoyauik-jellies",
+      "name": "Ruins of Tapoyauik",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Chilled Jellies can be safespotted by standing behind the smaller icicles.",
+        "Single combat area; Chilled Jellies are 50% susceptible to fire spells."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Jellies can be assigned by Krystilia, Vannaka, Chaeldar, and Konar upon reaching 52 Slayer and 57 combat.",
+    "Jellies attack with magic-based melee; Protect from Melee will negate all damage taken.",
+    "Jellies have an unusually high Defence level compared to other similar monsters around their level.",
+    "In multicombat areas, Jellies may be killed with Magic for the fastest possible kills by using multi-target Ancient Magicks such as Ice Burst or Ice Barrage.",
+    "Ranged with the Venator bow is a lower-effort alternative that cannot match Magic kill speed.",
+    "Krystilia tasks must be completed in the Wilderness, at the Wilderness Slayer Cave.",
+    "Warped Jellies in the Catacombs of Kourend have a better loot table and drop ancient shards and dark totem pieces.",
+    "Chilled Jellies in the Ruins of Tapoyauik are 50% susceptible to fire spells and sit in a single combat area.",
+    "Jellies drop hard clue scrolls, making them a popular clue farming target.",
+    "Vitreous, Vitreous warped, and Vitreous chilled Jellies are the superior versions unlocked with Bigger and Badder.",
+    "The slayerTargetId 242 is SYNTHETIC (WC-1..11 allocation contract, 240 + WC index); the real SLAYER_TARGET varp value is a QA live-verify item."
+  ],
+  "recommendedMethod": "Melee with Protect from Melee is the simple default. In the multicombat Catacombs of Kourend, Ice Burst or Ice Barrage Warped Jellies for the fastest kills; the Venator bow is a low-effort ranged alternative."
+}

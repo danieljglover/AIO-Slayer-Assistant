@@ -1,0 +1,40 @@
+{
+  "variantId": "big-wolf",
+  "name": "Big wolf",
+  "npcIds": [
+    109,
+    115
+  ],
+  "combatLevel": 73,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 62,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "White Wolf Mountain, Feldip Hills",
+  "requirement": "Combat level 20 to be assigned",
+  "bossId": null,
+  "strategyId": "wolves",
+  "offence": {
+    "hitpoints": 74,
+    "maxHit": 7,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "strategyId": "jungle-horrors",
+  "variantIds": [
+    "jungle-horror"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Jungle_horror",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "magic-shortbow-i",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "iban-s-staff-u",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Jungle horrors have zero defensive bonuses and low Hitpoints, so any strong melee weapon clears them quickly. Ranged from wall, plant, or tree safespots avoids all damage, and fire spells exploit their 25% elemental weakness."
+  },
+  "requirements": [
+    "65 combat to receive the assignment",
+    "Cabin Fever to access Mos Le'Harmless",
+    "No Slayer level requirement"
+  ],
+  "mechanics": [
+    "Jungle horrors are aggressive stab attackers with a 4-tick attack speed and a max hit of 8.",
+    "They roam the island surface with roughly 50 spawns; the largest camp of 10-12 sits north of the cave exit.",
+    "Walls, plants, and trees across the island act as safespots.",
+    "They have a 25% elemental weakness to fire spells.",
+    "They frequently drop pineapples, which can be sliced with a knife for food."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Fight in the dense camp north of the cave exit with any strong melee setup; their defences are zero across the board.",
+      "recommendedFor": [
+        "baseline Jungle horrors task completion",
+        "mid-level melee accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Abyssal whip or best available melee weapon",
+        "Knife for slicing dropped pineapples",
+        "Food for accounts under 70 Defence"
+      ],
+      "steps": [
+        "Travel to Mos Le'Harmless (Cabin Fever required) and head to the camp north of the cave exit.",
+        "Attack with your best melee weapon; all their defensive bonuses are zero.",
+        "Slice dropped pineapples with a knife to sustain the trip.",
+        "Bring food and decent armour if under 70 Defence, as they are aggressive."
+      ],
+      "risks": [
+        "Multiple aggressive horrors can pile lower-defence players in the camps."
+      ]
+    },
+    {
+      "methodId": "safespot",
+      "label": "Safespot ranged or magic",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use walls, plants, and trees as safespots and pick horrors off with ranged weapons or fire spells (25% elemental weakness).",
+      "recommendedFor": [
+        "low-defence accounts",
+        "no-food task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe, Magic shortbow (i), or another ranged weapon",
+        "Fire spells for the 25% elemental weakness"
+      ],
+      "steps": [
+        "Position behind a wall, plant, or tree so the horrors cannot path to you.",
+        "Attack with ranged weapons or fire spells.",
+        "Step out only to loot, then return to the safespot."
+      ],
+      "risks": [
+        "Leaving the safespot to loot exposes you to the aggressive spawns."
+      ]
+    }
+  ]
+}

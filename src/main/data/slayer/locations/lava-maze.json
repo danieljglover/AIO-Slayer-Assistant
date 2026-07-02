@@ -1,0 +1,11 @@
+{
+  "locationId": "lava-maze",
+  "name": "Lava Maze",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Surface Lava Maze in level 40-45 Wilderness holds 2 Lesser demons; single-combat, cannonable and safespottable. A slash weapon or knife is needed to cut through the webs. High PK risk - do not bring items you are unwilling to lose."
+}

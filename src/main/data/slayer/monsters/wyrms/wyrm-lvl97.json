@@ -1,0 +1,30 @@
+{
+  "variantId": "wyrm",
+  "name": "Wyrm",
+  "npcIds": [
+    8610,
+    8611
+  ],
+  "combatLevel": 97,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 10,
+    "slash": 50,
+    "crush": 50,
+    "magic": 50,
+    "range": 20
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Karuulm Slayer Dungeon - lower level",
+  "requirement": "62 Slayer; heat-protection boots or Elite Kourend & Kebos Diary in Karuulm Slayer Dungeon",
+  "bossId": null,
+  "strategyId": "wyrms"
+}

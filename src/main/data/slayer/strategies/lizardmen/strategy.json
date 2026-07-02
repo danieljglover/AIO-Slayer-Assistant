@@ -1,0 +1,135 @@
+{
+  "strategyId": "lizardmen",
+  "variantIds": [
+    "lizardman",
+    "lizardman-brute"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Lizardmen",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "ghrazi-rapier",
+      "osmumten-s-fang"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Requires Reptile got ripped. Use cannon plus melee or ranged in Lizardman Canyon for normal tasks; use Lizardman shaman strategy separately for the dragon warhammer route."
+  },
+  "requirements": [
+    "Reptile got ripped must be unlocked for Chaeldar, Konar, Nieve, and Duradel to assign Lizardmen."
+  ],
+  "mechanics": [
+    "Normal Lizardmen and Lizardman brutes are straightforward combat targets.",
+    "Lizardman shamans are a separate profit method with special attacks and dragon warhammer drop chance."
+  ],
+  "methods": [
+    {
+      "methodId": "normal-canyon-task",
+      "label": "Normal Lizardman task",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Use cannon support and direct combat in Lizardman Canyon for regular Lizardman or Lizardman brute tasks.",
+      "recommendedFor": [
+        "fast task completion without shaman mechanics"
+      ],
+      "requiredOrKeyItems": [
+        "dwarf multicannon",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Go to Lizardman Canyon or another assigned lizardman location.",
+        "Set up a cannon where allowed.",
+        "Kill Lizardmen or Lizardman brutes with melee or ranged.",
+        "Switch to the Lizardman shaman strategy only if choosing the dragon warhammer route."
+      ]
+    },
+    {
+      "methodId": "brute-task",
+      "label": "Lizardman brute task",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Kill Lizardman brutes when regular Lizardmen are crowded or when using locations that mix both task-counting variants.",
+      "recommendedFor": [
+        "standard Lizardmen task completion",
+        "players using Shayzien or Kebos lizardman areas"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet",
+        "Best available melee weapon",
+        "Food",
+        "Antipoison"
+      ],
+      "steps": [
+        "Use a location with Lizardman brutes such as Lizardman Canyon, Lizardman Settlement, Kebos Swamp, Battlefront, Molch, or south of Xeric's Shrine.",
+        "Wear Slayer helmet on task.",
+        "Use melee or ranged depending on safespot access and supply goals.",
+        "Bring antipoison or other poison handling where local lizardmen can poison."
+      ],
+      "notes": [
+        "Lizardman brutes count for Lizardmen tasks after the Reptile got ripped unlock.",
+        "Brutes are stronger than regular lizardmen but use the same broad task strategy."
+      ]
+    },
+    {
+      "methodId": "shaman-dragon-warhammer-route",
+      "label": "Lizardman shaman route",
+      "combatStyle": "RANGED",
+      "role": "profit",
+      "summary": "Choose Lizardman shamans instead of normal lizardmen when pursuing the dragon warhammer drop and accepting shaman-specific mechanics.",
+      "recommendedFor": [
+        "dragon warhammer hunting",
+        "players choosing profit over simple task speed",
+        "Konar or regular Lizardmen tasks where shaman locations are valid"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet",
+        "Ranged weapon",
+        "Shayzien armour or location-appropriate protection",
+        "Antidote or antipoison",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Missiles where appropriate"
+      ],
+      "steps": [
+        "Use Lizardman Canyon, Lizardman Caves, or Lizardman Temple when choosing shamans.",
+        "Switch from the normal lizardmen method to the dedicated Lizardman shaman strategy for movement, poison-spit, and spawn handling.",
+        "Prioritise ranged setups and maintain the location-specific protection required for shaman kills.",
+        "Treat the dragon warhammer drop chance as the reason to accept slower, more mechanical kills."
+      ],
+      "risks": [
+        "Shamans require movement and special-attack handling that normal lizardmen do not.",
+        "Choosing shamans can slow task completion if the player only wants fast Slayer experience."
+      ],
+      "notes": [
+        "The dedicated shaman strategy source is https://oldschool.runescape.wiki/w/Lizardman_shaman/Strategies.",
+        "The task page lists Lizardman shamans as task-counting variants with 157.5 Slayer experience."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use standard melee gear for regular Lizardmen and brutes."
+    },
+    {
+      "styleId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use ranged when safespotting or avoiding melee damage."
+    }
+  ]
+}

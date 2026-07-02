@@ -1,0 +1,11 @@
+{
+  "locationId": "buccaneers-laboratory-hellhounds",
+  "name": "Buccaneers' Laboratory",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Hellhounds here require 76 Sailing to access the island. The Rowboat can be used to travel to Buccaneers' Haven from Pirates' Cove; the area has 5 spawns and supports multicombat cannoning."
+}

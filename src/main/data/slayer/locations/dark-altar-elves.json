@@ -1,0 +1,11 @@
+{
+  "locationId": "dark-altar-elves",
+  "name": "Dark Altar",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Use Adept Reanimation on ensouled elf heads at the Dark Altar if the head was banked, traded, put on the Grand Exchange, price-checked, teleported away from, or otherwise cannot be reanimated near where it dropped."
+}

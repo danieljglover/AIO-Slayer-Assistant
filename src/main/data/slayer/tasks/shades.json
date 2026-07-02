@@ -1,0 +1,145 @@
+{
+  "taskId": "shades",
+  "name": "Shades",
+  "wikiPageId": 36404,
+  "combatLevel": 30,
+  "slayerTargetId": 302,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      30,
+      70
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "shades"
+  ],
+  "variantIds": [
+    "loar-shade",
+    "shade-stronghold",
+    "shade-catacombs"
+  ],
+  "defaultVariantId": "loar-shade",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 26,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "mortton",
+    "catacombs-of-kourend",
+    "stronghold-of-security"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "loar-shade",
+      "name": "Loar Shade",
+      "combatLevel": 40,
+      "slayerXp": 38,
+      "locations": [
+        "Mort'ton"
+      ],
+      "notes": [
+        "Fastest way to complete the task; Priest in Peril is required for access to Mort'ton.",
+        "38 Hitpoints, max hit 4 (Crush), 4-tick attack speed; Defence level 26 with all defensive bonuses 0.",
+        "Undead: salve amulet and Crumble Undead apply. 40% weakness to wind spells (Wind Bolt beats Crumble Undead for the same chaos rune at 35+ Magic)."
+      ]
+    },
+    {
+      "variantId": "shade-catacombs",
+      "name": "Shade (Catacombs of Kourend)",
+      "combatLevel": 140,
+      "slayerXp": 115,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Safespottable, decent Slayer XP (115). 115 Hitpoints, max hit 15 (Crush); Defence level 100.",
+        "Undead; 40% weakness to wind spells."
+      ]
+    },
+    {
+      "variantId": "shade-stronghold",
+      "name": "Shade (Stronghold of Security)",
+      "combatLevel": 159,
+      "slayerXp": 4.2,
+      "locations": [
+        "Stronghold of Security"
+      ],
+      "notes": [
+        "Not recommended: combat XP is drastically reduced (1 XP per 10 damage) and Slayer XP is only 4.2.",
+        "170 Hitpoints, max hit 14 (Crush); Defence level 130. Undead."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "mortton",
+      "name": "Mort'ton",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Loar Shades in Mort'ton are the fastest kill for the task; Priest in Peril is required for access.",
+        "Undead, so a salve amulet (e) applies; 40% wind weakness makes Wind Bolt strong."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Level-140 Shades here are safespottable and give 115 Slayer XP.",
+        "A reasonable alternative to Loar Shades for players who prefer higher Slayer XP per kill."
+      ]
+    },
+    {
+      "locationId": "stronghold-of-security",
+      "name": "Stronghold of Security",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Level-159 Shades here have drastically reduced combat XP (1 XP per 10 damage) and only 4.2 Slayer XP; not recommended."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Shades are assigned by Mazchna with no Slayer level requirement (combat level 30 needed); the wiki also lists Vannaka (40-90) but only the Mazchna assignment is authored per the C3 starter-tier worklist scope, with Vannaka documented here for honesty.",
+    "slayerTargetId 302 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Shades are undead: the salve amulet and Crumble Undead apply. Loar Shades in Mort'ton are the fastest kill; Priest in Peril is required for Mort'ton access.",
+    "Loar Shade (default) has 38 Hitpoints, max hit 4 (Crush), 4-tick attack speed, and Defence level 26 with all defensive bonuses 0.",
+    "Loar and Catacombs Shades have a 40% weakness to wind spells; Wind Bolt does more damage than Crumble Undead for the same chaos rune at 35+ Magic.",
+    "Phrin, Riyl, Asyn, Fiyr and Urium Shades in the Shade Catacombs also count toward the task; only Loar, Catacombs-of-Kourend and Stronghold shades are authored with full stats here (others honest UNKNOWN).",
+    "No task extension unlock exists for Shades."
+  ],
+  "recommendedMethod": "Kill Loar Shades in Mort'ton (Priest in Peril required) for the fastest completion. Shades are undead, so wear a salve amulet (e) and use melee for the quickest kills; the 40% wind weakness makes Wind Bolt a strong Magic option (better than Crumble Undead per chaos rune at 35+ Magic). The level-140 Shades in the Catacombs of Kourend are a safespottable, higher-Slayer-XP alternative. Avoid the Stronghold of Security shades, whose combat and Slayer XP are drastically reduced."
+}

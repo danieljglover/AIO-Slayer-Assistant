@@ -1,0 +1,32 @@
+{
+  "variantId": "hellhounds-cerberus",
+  "name": "Cerberus",
+  "npcIds": [
+    5862,
+    5863,
+    5866
+  ],
+  "combatLevel": 318,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 50,
+    "slash": 100,
+    "crush": 25,
+    "magic": 65,
+    "range": 100
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Cerberus' Lair",
+  "locationId": "cerberus-lair",
+  "requirement": "91 Slayer, or 86 Slayer with a wild pie boost; boss - separate trip",
+  "bossId": null,
+  "strategyId": "cerberus"
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "crash-site-cavern",
+  "name": "Crash Site Cavern",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires completion of Monkey Madness II. Contains Demonic gorillas, which can be killed instead of Black demons for eligible non-Krystilia and non-Konar assignments."
+}

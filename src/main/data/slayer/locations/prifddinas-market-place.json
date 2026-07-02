@@ -1,0 +1,11 @@
+{
+  "locationId": "prifddinas-market-place",
+  "name": "Prifddinas market place",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Song of the Elves. Contains 3 Prifddinas guards and can be safespotted by shooting over Glenda."
+}

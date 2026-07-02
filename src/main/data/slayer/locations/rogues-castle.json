@@ -1,0 +1,11 @@
+{
+  "locationId": "rogues-castle",
+  "name": "Rogues' Castle (Wilderness)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Rogue spawns across the floors of Rogues' Castle in the deep north-east Wilderness (~level 50+). Krystilia only counts Wilderness kills. The Chaos Elemental roams the courtyard and can attack through walls. Multicombat, cannon and safespot are not wiki-stated for this spot; conservative defaults are used. Deep-Wilderness PKer risk is high."
+}

@@ -1,0 +1,75 @@
+{
+  "strategyId": "goblins",
+  "variantIds": [
+    "goblin-lvl2"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Goblin",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "yew-shortbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Goblins have negligible Defence and a max hit of 1, so any weapon clears them. The common level-2 Goblins near Lumbridge are the fastest to finish the task."
+  },
+  "requirements": [
+    "No combat, Slayer, or quest requirement to be assigned Goblins.",
+    "Level 5 and 13 Goblins, Cave goblins and guards, and the Bandos room Sergeants also count.",
+    "All counted variants benefit from the Slayer helmet / black mask."
+  ],
+  "mechanics": [
+    "The common level-2 Goblin has 5 Hitpoints and max hit 1 (crush).",
+    "Goblins have no elemental weakness; melee, ranged and magic are all accurate against their -15 defence bonuses.",
+    "Goblins are a fast, trivial starter Slayer-XP task."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the common level-2 Goblins near Lumbridge or Goblin Village with any melee weapon.",
+      "recommendedFor": [
+        "standard task completion",
+        "brand-new accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any weapon"
+      ],
+      "steps": [
+        "Travel to the Lumbridge-to-Goblin-Village road or Goblin Village.",
+        "Kill the level-2 Goblins (5 HP); no food is needed.",
+        "The dense Goblin Village pack is fastest for the task streak."
+      ],
+      "notes": [
+        "Higher-level Goblin variants also count if you prefer more Slayer XP per kill."
+      ]
+    },
+    {
+      "methodId": "ranged-magic",
+      "label": "Ranged or Magic",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Attack the Goblins with a bow or spells to train Ranged or Magic on a trivial target.",
+      "recommendedFor": [
+        "players training Ranged or Magic"
+      ],
+      "requiredOrKeyItems": [
+        "A shortbow and arrows, or air spells"
+      ],
+      "steps": [
+        "Bring a shortbow (or an air staff) to a goblin spot.",
+        "Attack the Goblins; their negative defence bonuses make every hit land."
+      ],
+      "notes": [
+        "Goblins are a classic low-level Ranged and Magic training target."
+      ]
+    }
+  ]
+}

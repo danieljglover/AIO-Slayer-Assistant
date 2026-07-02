@@ -1,0 +1,420 @@
+{
+  "strategyId": "nechryael",
+  "variantIds": [
+    "nechryael",
+    "greater-nechryael",
+    "nechryarch"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Nechryael",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "kodai-wand",
+      "nightmare-staff",
+      "dragon-hunter-wand",
+      "ancient-sceptre",
+      "blue-moon-spear"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "emberlight",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "arclight",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "abyssal-whip",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dinh-s-bulwark",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "crystal-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "saradomin-godsword",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Greater Nechryael in the Catacombs are the fast, high-value method with Magic burst or barrage spells and goading potion support. Regular Nechryael are demons, so Emberlight or Arclight are strong for melee. Death spawn chip damage ignores Protect from Melee, while Nechryarch chaotic death spawn can be avoided by safespotting or farcasting."
+  },
+  "requirements": [
+    "80 Slayer",
+    "85 combat to receive the assignment",
+    "Ancient Magicks and burst or barrage spells for the recommended Greater Nechryael method",
+    "Goading potion, darts, knives, or Dinh's bulwark for luring non-aggressive Nechryael",
+    "Bigger and Badder for Nechryarch superior spawns",
+    "Song of the Elves for Iorwerth Dungeon",
+    "Krystilia assignment for Wilderness Slayer Cave Greater Nechryael",
+    "60 Sailing for Charred Dungeon access"
+  ],
+  "mechanics": [
+    "Nechryael are demons, so demonbane weapons such as Emberlight and Arclight apply.",
+    "Regular and Greater Nechryael attack with melee and can periodically summon up to two death spawns.",
+    "Death spawns use typeless melee, max at 2, ignore single-combat restrictions, and are not blocked by Protect from Melee.",
+    "Death spawns are not summoned when the Nechryael cannot attack the player, such as during safespotting.",
+    "Greater Nechryael are mechanically the same as regular Nechryael, but have higher stats and a more lucrative drop table.",
+    "Nechryarch can summon three chaotic death spawn, one each attacking with melee, magic, and ranged.",
+    "Chaotic death spawn attacks hit harder than regular death spawns, but can be blocked with the correct protection prayers.",
+    "Chaotic death spawns will not appear if the Nechryarch is unable to attack the player because of safespotting or farcasting.",
+    "In the Catacombs, fourteen Greater Nechryael are split into two chambers of seven each and are ideal for burst or barrage spells.",
+    "Greater Nechryael in Iorwerth Dungeon can drop crystal shards.",
+    "The Wilderness Slayer Cave is multicombat, cannonable, task-only, and popular with player killers."
+  ],
+  "methods": [
+    {
+      "methodId": "greater-magic-burst-barrage",
+      "label": "Greater Nechryael magic",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Burst or barrage Greater Nechryael in the Catacombs for the fastest, highest-value standard task method.",
+      "recommendedFor": [
+        "fast Nechryael tasks",
+        "high Slayer experience",
+        "profitable Catacombs trips",
+        "players using bracelet of slaughter"
+      ],
+      "requiredOrKeyItems": [
+        "Kodai wand",
+        "Nightmare staff",
+        "Dragon hunter wand",
+        "Ancient sceptre",
+        "Blue moon spear",
+        "Divine rune pouch",
+        "Goading potion",
+        "Bracelet of slaughter",
+        "Super restore or Prayer potion",
+        "Blood spells"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Augury if available"
+      ],
+      "steps": [
+        "Use the Catacombs of Kourend Greater Nechryael rooms, where fourteen Greater Nechryael are split into two chambers of seven each.",
+        "Use a goading potion to pull non-aggressive Greater Nechryael together with minimal downtime.",
+        "If goading potion is unavailable, tag enemies with darts, knives, or Dinh's bulwark to lure them.",
+        "Stack enemies and cast burst or barrage spells; use blood spells to heal through death spawn chip damage when needed.",
+        "Use Protect from Melee for the Greater Nechryael themselves, but expect regular death spawn damage to ignore that prayer.",
+        "Use bracelet of slaughter to lengthen high-value tasks when desired.",
+        "Bring Explorer's ring 4, a house teleport, or another banking option for alchable drops."
+      ],
+      "risks": [
+        "Death spawns can still damage through Protect from Melee.",
+        "Without luring, Nechryael are not aggressive and experience rates drop sharply."
+      ],
+      "notes": [
+        "The task page says Catacombs Greater Nechryael are encouraged for fast tasks and very high experience rates.",
+        "The equipment table lists Magic as the Greater Nechryael setup."
+      ]
+    },
+    {
+      "methodId": "luring-goading",
+      "label": "Luring and goading",
+      "combatStyle": "MAGIC",
+      "role": "setup",
+      "summary": "Use goading potions when possible, with darts, knives, or Dinh's bulwark as cheaper lure alternatives.",
+      "recommendedFor": [
+        "Catacombs bursting",
+        "Wilderness Slayer Cave bursting",
+        "players reducing downtime between spell casts"
+      ],
+      "requiredOrKeyItems": [
+        "Goading potion",
+        "Dinh's bulwark",
+        "Darts or throwing knives",
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Drink a goading potion before starting the stack when using the best task method.",
+        "Use Dinh's bulwark special attack, darts, or knives if goading potion cost is not acceptable.",
+        "Pull Nechryael into a compact stack before casting burst or barrage spells.",
+        "Refresh the lure as needed because Nechryael are not naturally aggressive."
+      ],
+      "notes": [
+        "The task-page equipment notes call goading potions ideal for luring and list Dinh's bulwark, darts, and knives as alternatives."
+      ]
+    },
+    {
+      "methodId": "regular-demonbane-melee",
+      "label": "Regular demonbane melee",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use demonbane melee for regular Nechryael, prioritising strength bonus because demonbane weapons scale well.",
+      "recommendedFor": [
+        "Slayer Tower tasks",
+        "regular Nechryael seed and ash farming",
+        "players not using burst or barrage spells"
+      ],
+      "requiredOrKeyItems": [
+        "Emberlight",
+        "Arclight",
+        "Abyssal whip",
+        "Divine super combat potion",
+        "Food such as cooked karambwan",
+        "Seed box",
+        "Ash sanctifier",
+        "Super restore or Prayer potion"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Use Emberlight or Arclight where available because Nechryael are demonic creatures.",
+        "Prioritise strength bonus over prayer bonus where possible because demonbane weapons scale very well with strength bonus.",
+        "Use Protect from Melee for Nechryael damage and Piety for faster kills.",
+        "Bring food to handle death spawn chip damage, since death spawn attacks ignore Protect from Melee.",
+        "Use a Seed box for the frequent seed drops and an Ash sanctifier for malicious ashes."
+      ],
+      "notes": [
+        "The task page's melee equipment notes say demonbane weapons are highly recommended."
+      ]
+    },
+    {
+      "methodId": "iorwerth-melee",
+      "label": "Iorwerth melee",
+      "combatStyle": "MELEE",
+      "role": "location",
+      "summary": "Use Iorwerth Dungeon for non-magic Greater Nechryael because it is less crash-prone than meleeing in the Catacombs and adds crystal shard drops.",
+      "recommendedFor": [
+        "Greater Nechryael without Magic",
+        "players with Song of the Elves",
+        "crystal shard profit"
+      ],
+      "requiredOrKeyItems": [
+        "Song of the Elves",
+        "Teleport crystal",
+        "Dwarf multicannon",
+        "Emberlight",
+        "Arclight"
+      ],
+      "steps": [
+        "Use Iorwerth Dungeon only after Song of the Elves.",
+        "Melee Greater Nechryael here when not intending to mage them.",
+        "Use a dwarf multicannon because the task page marks the location cannonable.",
+        "Collect crystal shards from Greater Nechryael killed in Iorwerth Dungeon."
+      ],
+      "notes": [
+        "The task page recommends Iorwerth Dungeon for non-magic Greater Nechryael because Catacombs melee is likely to be crashed."
+      ]
+    },
+    {
+      "methodId": "wilderness-krystilia",
+      "label": "Wilderness Krystilia",
+      "combatStyle": "MAGIC",
+      "role": "wilderness",
+      "summary": "For Krystilia tasks, use the Wilderness Slayer Cave with goading potion support, a one-click teleport, and strict risk control.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "Wilderness Slayer Cave location locks",
+        "players using Wilderness bonuses"
+      ],
+      "requiredOrKeyItems": [
+        "Goading potion",
+        "Royal seed pod or one-click teleport",
+        "Minimal risk gear",
+        "Dwarf multicannon",
+        "Wilderness escape supplies"
+      ],
+      "steps": [
+        "Use the Wilderness Slayer Cave only for Wilderness or Krystilia routing.",
+        "Bring a goading potion to draw non-aggressive Greater Nechryael together.",
+        "Bring a one-click teleport such as a royal seed pod and stay alert.",
+        "Do not bring items that you are unwilling to lose.",
+        "Use cannon or burst/barrage support depending on risk tolerance."
+      ],
+      "risks": [
+        "The Wilderness Slayer Cave is a popular player killing spot.",
+        "The area is multicombat, so escapes can fail quickly if attention drops."
+      ]
+    },
+    {
+      "methodId": "nechryarch-superior",
+      "label": "Nechryarch superior",
+      "combatStyle": "MAGIC",
+      "role": "superior",
+      "summary": "Handle Nechryarch by avoiding or controlling chaotic death spawn; safespots and farcasting prevent the summon.",
+      "recommendedFor": [
+        "Bigger and Badder unlock",
+        "superior Slayer encounters",
+        "players killing regular or Greater Nechryael"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder",
+        "Safespot or farcast setup",
+        "Ranged or Magic switch for Slayer Tower safespots",
+        "Protection prayers",
+        "Food"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Protect from Missiles",
+        "Protect from Magic"
+      ],
+      "steps": [
+        "When Nechryarch spawns, use a safespot or farcast if available so it cannot attack and cannot summon chaotic death spawn.",
+        "If chaotic death spawn appear, recognise that one uses melee, one uses magic, and one uses ranged.",
+        "Use protection prayers against chaotic death spawn attacks because they can be blocked with prayer.",
+        "Run away from chaotic death spawn until they lose interest if multiple styles are overwhelming.",
+        "In the Slayer Tower basement, use the tables to safespot and bring a ranged weapon or runes even if meleeing regular Nechryael.",
+        "Once the Nechryarch dies, its most recent chaotic death spawn despawn immediately."
+      ],
+      "notes": [
+        "The Nechryarch page says chaotic death spawn do not appear if the Nechryarch cannot attack the player back."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MAGIC",
+      "role": "inventory",
+      "summary": "Plan inventory around alchable drops, herbs, seeds, ashes, prayer sustain, and task extension.",
+      "recommendedFor": [
+        "longer trips",
+        "profit-focused tasks",
+        "Ironman accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Bracelet of slaughter",
+        "Explorer's ring 4",
+        "Herb sack or Silklined herb sack",
+        "Seed box",
+        "Ash sanctifier",
+        "Super restore or Prayer potion",
+        "Saturated heart"
+      ],
+      "inventory": [
+        "Rune pouch with burst or barrage runes",
+        "Super restores or Prayer potions",
+        "Bracelet of slaughter swaps",
+        "Explorer's ring 4 or teleport to house",
+        "Herb sack or Silklined herb sack",
+        "Seed box for regular Nechryael melee",
+        "Ash sanctifier",
+        "Food for melee setups"
+      ],
+      "steps": [
+        "Bring bracelet of slaughter when extending profitable Greater Nechryael tasks.",
+        "Bring a herb sack or Silklined herb sack for frequent herb drops.",
+        "Bring a Seed box when killing regular Nechryael for seed-heavy loot.",
+        "Bring an Ash sanctifier for malicious ashes and optional Demonic Offering runes for extra Prayer experience.",
+        "Bring Explorer's ring 4, a house teleport, or another bank route for alchable drops."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "greater-magic",
+      "label": "Greater Nechryael magic",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Burst or barrage Greater Nechryael in the Catacombs with goading potion support.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "kodai-wand",
+            "nightmare-staff",
+            "dragon-hunter-wand",
+            "ancient-sceptre",
+            "blue-moon-spear"
+          ],
+          "inventory": [
+            "Goading potion",
+            "Bracelet of slaughter",
+            "Super restore",
+            "Divine rune pouch",
+            "Herb sack",
+            "Ash sanctifier"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "demonbane-melee",
+      "label": "Demonbane melee",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use Emberlight or Arclight for regular Nechryael or non-magic Greater Nechryael setups.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "emberlight",
+            "arclight",
+            "abyssal-whip"
+          ],
+          "special": [
+            "burning-claws",
+            "dragon-claws",
+            "voidwaker"
+          ],
+          "inventory": [
+            "Divine super combat potion",
+            "Food",
+            "Seed box",
+            "Ash sanctifier",
+            "Super restore"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "wilderness-magic",
+      "label": "Wilderness magic",
+      "combatStyle": "MAGIC",
+      "role": "wilderness",
+      "summary": "Use burst or barrage in Wilderness Slayer Cave only with a one-click teleport and low-risk gear.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "kodai-wand",
+            "nightmare-staff",
+            "ancient-sceptre"
+          ],
+          "inventory": [
+            "Royal seed pod",
+            "Goading potion",
+            "Dwarf multicannon",
+            "Super restore",
+            "Escape supplies"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "superior-safespot",
+      "label": "Nechryarch safespot",
+      "combatStyle": "RANGED",
+      "role": "superior",
+      "summary": "Bring Ranged or Magic access for Nechryarch safespots, especially in the Slayer Tower basement.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "toxic-blowpipe",
+            "venator-bow",
+            "kodai-wand",
+            "ancient-sceptre"
+          ],
+          "inventory": [
+            "Food",
+            "Prayer potion",
+            "Teleport"
+          ]
+        }
+      }
+    }
+  ]
+}

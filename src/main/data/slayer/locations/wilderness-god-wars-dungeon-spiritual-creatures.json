@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-god-wars-dungeon-spiritual-creatures",
+  "name": "Wilderness God Wars Dungeon",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Spiritual creatures in the Wilderness God Wars Dungeon are in level 28-32 Wilderness; do not bring items you are unwilling to lose. The task page marks Spiritual rangers, warriors, and mages here as safespottable and cannon-immune. Bring one Armadyl or Bandos item depending on entrance, one Saradomin item, and one Zamorak item for follower tolerance."
+}

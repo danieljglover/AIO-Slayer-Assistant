@@ -1,0 +1,31 @@
+{
+  "variantId": "kalphite-queen-airborne-form",
+  "name": "Kalphite Queen (airborne form)",
+  "npcIds": [
+    965,
+    4304
+  ],
+  "combatLevel": 333,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 300,
+    "stab": 100,
+    "slash": 100,
+    "crush": 100,
+    "magic": 10,
+    "range": 10
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": true,
+  "location": "Kalphite Lair",
+  "locationId": "kalphite-lair",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "kalphite-queen-airborne-form"
+}

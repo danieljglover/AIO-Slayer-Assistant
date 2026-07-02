@@ -1,0 +1,11 @@
+{
+  "locationId": "enchanted-valley-river-troll",
+  "name": "Enchanted Valley",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Fairy ring BKQ. Summon a River troll above your combat level by fishing with a small net; the task page strongly discourages this option because River trolls give severely reduced combat and Slayer experience."
+}

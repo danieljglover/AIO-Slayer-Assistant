@@ -1,0 +1,29 @@
+{
+  "variantId": "reanimated-elf",
+  "name": "Reanimated elf",
+  "npcIds": [
+    7029
+  ],
+  "combatLevel": null,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 5,
+    "slash": 20,
+    "crush": 40,
+    "magic": 60,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Dark Altar / local ensouled elf head reanimation area",
+  "requirement": "Adept Reanimation on an ensouled elf head",
+  "bossId": null,
+  "strategyId": "elves"
+}

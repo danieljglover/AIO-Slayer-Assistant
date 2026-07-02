@@ -1,0 +1,38 @@
+{
+  "variantId": "fire-giant",
+  "name": "Fire giant",
+  "npcIds": [
+    2075,
+    2076,
+    2077,
+    2078,
+    2079,
+    2080,
+    2081,
+    2082,
+    2083,
+    2084
+  ],
+  "combatLevel": 86,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 65,
+    "stab": 0,
+    "slash": 3,
+    "crush": 2,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Standard locations: Brimhaven Dungeon, Charred Dungeon, Deep Wilderness Dungeon, Isle of Souls Dungeon, Karuulm Slayer Dungeon, Smoke Dungeon, Stronghold Slayer Cave, Waterfall Dungeon",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "fire-giants"
+}

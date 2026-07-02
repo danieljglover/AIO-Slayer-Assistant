@@ -1,0 +1,30 @@
+{
+  "variantId": "araxyte-level-96",
+  "name": "Araxyte (level 96)",
+  "npcIds": [
+    11175,
+    13666
+  ],
+  "combatLevel": 96,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 60,
+    "stab": 60,
+    "slash": 30,
+    "crush": 20,
+    "magic": 20,
+    "range": 20
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Morytania Spider Cave (1x1; cannot spawn superior - worse drop table)",
+  "requirement": "Slayer 92; Priest in Peril",
+  "strategyId": "araxytes",
+  "bossId": null
+}

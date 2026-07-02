@@ -1,0 +1,11 @@
+{
+  "locationId": "kurask-lair",
+  "name": "Kurask Lair",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 8 tightly clumped Kurasks. Requires 58 Sailing to dock on Laguna Aurorae for the first time; after speaking to the island spirit tree, docking is no longer required and the tree is closer to the lair."
+}

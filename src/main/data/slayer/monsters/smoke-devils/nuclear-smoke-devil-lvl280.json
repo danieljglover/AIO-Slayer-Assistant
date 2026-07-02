@@ -1,0 +1,29 @@
+{
+  "variantId": "nuclear-smoke-devil",
+  "name": "Nuclear smoke devil",
+  "npcIds": [
+    7406
+  ],
+  "combatLevel": 280,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 390,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 850,
+    "range": 80
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Smoke Devil Dungeon",
+  "requirement": "Slayer 93; active Smoke devils task; Bigger and Badder; facemask or slayer helmet",
+  "bossId": null,
+  "strategyId": "nuclear-smoke-devil"
+}

@@ -1,0 +1,285 @@
+{
+  "strategyId": "mutated-zygomites",
+  "variantIds": [
+    "zygomite-level-74",
+    "zygomite-level-86",
+    "ancient-zygomite"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Zygomites",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "karil-s-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "staff-of-the-dead",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Bring fungicide spray and refills for the finishing blow. Zygomites use magic-based melee and ranged attacks, so dragonhide or Karil's armour helps with magic defence; Protect from Melee is the simple prayer for regular Zygomites, while Ancient Zygomite trips can use safespots and a Reagent pouch for Mort myre fungus."
+  },
+  "requirements": [
+    "57 Slayer",
+    "60 combat to receive the assignment",
+    "Lost City completion for Zanaris access",
+    "Fungicide spray to deliver the final blow",
+    "Fungicide refills unless using enough charges already in the spray",
+    "'Shroom sprayer unlock for automatic finishing blows when carrying Fungicide spray and Fungicide",
+    "Fossil Island access for Mushroom Forest Ancient Zygomites",
+    "Custodia Pass access for Stalker Den Ancient Zygomites"
+  ],
+  "mechanics": [
+    "Zygomites appear as Fungi until picked, then become attackable.",
+    "Zygomites and Ancient Zygomites require Fungicide spray below 8 Hitpoints to die.",
+    "Fungicide spray must be reloaded every ten kills with Fungicide.",
+    "Both regular and ancient variants use magical melee and magical ranged attacks.",
+    "Dragonhide armour or Karil's armour reduces incoming damage because the attacks roll against Magic defence.",
+    "Protect from Melee is recommended for regular Zygomites because their melee attacks are more accurate.",
+    "Ancient Zygomites have stronger and more accurate ranged attacks, so Protect from Missiles is relevant when not safespotting them.",
+    "Ancient Zygomites can be safespotted by trapping them and standing at least six tiles away because their ranged attack reaches five tiles.",
+    "All attackable Zygomite variants have a 40% fire elemental weakness.",
+    "Konar location locks decide whether regular Zanaris Zygomites or Ancient Zygomites can count for the task."
+  ],
+  "methods": [
+    {
+      "methodId": "fungicide-finisher",
+      "label": "Fungicide finisher",
+      "combatStyle": "MELEE",
+      "role": "required",
+      "summary": "Carry Fungicide spray and refills so each Zygomite can be finished after being reduced below 8 Hitpoints.",
+      "recommendedFor": [
+        "every Zygomites task",
+        "avoiding failed kills",
+        "accounts without 'Shroom sprayer"
+      ],
+      "requiredOrKeyItems": [
+        "Fungicide spray",
+        "Fungicide",
+        "'Shroom sprayer if unlocked"
+      ],
+      "steps": [
+        "Buy or bring Fungicide spray before starting the task.",
+        "Carry Fungicide refills because the spray must be reloaded every ten kills.",
+        "Attack the Zygomite normally until it is under 8 Hitpoints.",
+        "Use Fungicide spray to deliver the final blow when it is under 8 Hitpoints.",
+        "If 'Shroom sprayer is unlocked, keep Fungicide spray and Fungicide in the inventory so finishing blows happen automatically."
+      ],
+      "risks": [
+        "Without Fungicide spray, the monster cannot be killed.",
+        "Buying excess Fungicide is wasteful because spray and refills cannot be sold back to Slayer masters."
+      ]
+    },
+    {
+      "methodId": "regular-dragonhide-melee",
+      "label": "Regular dragonhide melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use melee with dragonhide or Karil's armour for Magic defence, praying Protect from Melee when using prayer.",
+      "recommendedFor": [
+        "Zanaris furnace tasks",
+        "Zanaris Cosmic Altar tasks",
+        "players using simple melee gear"
+      ],
+      "requiredOrKeyItems": [
+        "Dragonhide armour or Karil's armour",
+        "Abyssal whip",
+        "Dragon scimitar",
+        "Fungicide spray",
+        "Fungicide"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety if using prayer for faster kills"
+      ],
+      "steps": [
+        "Pick Fungi in Zanaris to provoke Zygomites.",
+        "Wear dragonhide or Karil's armour rather than low Magic-defence armour.",
+        "Use Protect from Melee if praying against regular Zygomites.",
+        "Use melee damage until the target is under 8 Hitpoints.",
+        "Finish the kill with Fungicide spray or the automatic 'Shroom sprayer effect."
+      ],
+      "notes": [
+        "The task page recommends Protect from Melee for regular Zygomites because their melee attacks are more accurate."
+      ]
+    },
+    {
+      "methodId": "zanaris-safespot",
+      "label": "Zanaris safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "At the Cosmic Altar, trap Zygomites on the pillar and stand back near the mysterious ruins to attack safely.",
+      "recommendedFor": [
+        "low-supply Zanaris tasks",
+        "players training Ranged",
+        "players avoiding prayer drain"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe",
+        "Karil's crossbow",
+        "Rune crossbow",
+        "Fungicide spray",
+        "Fungicide"
+      ],
+      "steps": [
+        "Use the Zanaris area near the Cosmic Altar.",
+        "Trap Zygomites on the nearby pillar.",
+        "Stand back near the mysterious ruins so the trapped Zygomite cannot reach attack range.",
+        "Attack with Ranged until the target is under 8 Hitpoints.",
+        "Step in only as needed to apply Fungicide spray or rely on 'Shroom sprayer if unlocked."
+      ],
+      "risks": [
+        "Leaving the safespot to finish or loot can put the player back in attack range.",
+        "The east-of-furnace location is cannonable but the task page does not mark it safespottable."
+      ]
+    },
+    {
+      "methodId": "ancient-zygomites",
+      "label": "Ancient Zygomites",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Kill Ancient Zygomites in Mushroom Forest or Stalker Den when location locks allow, using safespots and a Reagent pouch for guaranteed Mort myre fungus.",
+      "recommendedFor": [
+        "Fossil Island Konar tasks",
+        "players wanting Ancient Zygomite drops",
+        "Mort myre fungus collection"
+      ],
+      "requiredOrKeyItems": [
+        "Fungicide spray",
+        "Fungicide",
+        "Dragonhide armour or Karil's armour",
+        "Reagent pouch",
+        "Ranged or Magic weapon for safespotting"
+      ],
+      "prayers": [
+        "Protect from Missiles when tanking Ancient Zygomites",
+        "Protect from Melee if fighting regular Zygomites instead"
+      ],
+      "steps": [
+        "Use Mushroom Forest on Fossil Island or Stalker Den in Custodia Pass when the task location allows Ancient Zygomites.",
+        "Pick Ancient Fungi to provoke Ancient Zygomites.",
+        "Use a Reagent pouch to store the guaranteed Mort myre fungus drops.",
+        "Safespot by trapping Ancient Zygomites and standing at least six tiles away from them.",
+        "If tanking instead of safespotting, prioritise Magic defence and consider Protect from Missiles because their ranged attacks are stronger and more accurate.",
+        "Finish each Ancient Zygomite with Fungicide spray below 8 Hitpoints."
+      ],
+      "notes": [
+        "If Konar assigns Mutated zygomites in Zanaris, Ancient Zygomites do not count.",
+        "If Konar assigns the task on Fossil Island, regular Zygomites cannot be killed there, so Ancient Zygomites are required."
+      ]
+    },
+    {
+      "methodId": "fire-magic",
+      "label": "Fire magic",
+      "combatStyle": "MAGIC",
+      "role": "elemental",
+      "summary": "Use fire spells as a valid alternate style because all attackable Zygomite variants have a 40% fire weakness.",
+      "recommendedFor": [
+        "players training Magic",
+        "players exploiting elemental weakness",
+        "safespot setups"
+      ],
+      "requiredOrKeyItems": [
+        "Fire spells",
+        "Harmonised nightmare staff",
+        "Twinflame staff",
+        "Staff of the dead",
+        "Fungicide spray"
+      ],
+      "steps": [
+        "Use fire spells from a safespot or while wearing Magic-defence armour.",
+        "Prefer safespots for Ancient Zygomites and the Cosmic Altar regular Zygomites.",
+        "Keep Fungicide spray ready because spell damage alone cannot deliver the final kill state."
+      ],
+      "notes": [
+        "The monster pages list a 40% fire elemental weakness for regular and Ancient Zygomites."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-dragonhide",
+      "label": "Melee with Magic defence",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Melee in dragonhide or Karil's armour with Protect from Melee for regular Zygomites.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "abyssal-whip",
+            "dragon-scimitar"
+          ],
+          "body": [
+            "Dragonhide armour",
+            "Karil's armour"
+          ],
+          "inventory": [
+            "Fungicide spray",
+            "Fungicide"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use Ranged from the Cosmic Altar or Ancient Zygomite safespots, stepping in only to finish if needed.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "toxic-blowpipe",
+            "karil-s-crossbow",
+            "rune-crossbow"
+          ],
+          "inventory": [
+            "Fungicide spray",
+            "Fungicide"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-fire",
+      "label": "Fire magic",
+      "combatStyle": "MAGIC",
+      "role": "elemental",
+      "summary": "Use fire spells where safespots or Magic training are preferred, exploiting the 40% fire weakness.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "harmonised-nightmare-staff",
+            "twinflame-staff",
+            "staff-of-the-dead"
+          ],
+          "inventory": [
+            "Fungicide spray",
+            "Fungicide"
+          ]
+        }
+      }
+    }
+  ]
+}

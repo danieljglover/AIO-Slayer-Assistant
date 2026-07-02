@@ -1,0 +1,11 @@
+{
+  "locationId": "lunar-isle",
+  "name": "Lunar Isle",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Lunar Isle, reachable after at least starting Lunar Diplomacy (not Wilderness). Suqahs can be safespotted on the bridge or by a tree; the hybrid variant does not cast out of melee range."
+}

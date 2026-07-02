@@ -1,0 +1,29 @@
+{
+  "variantId": "araxxor",
+  "name": "Araxxor",
+  "npcIds": [
+    13668
+  ],
+  "combatLevel": 890,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 135,
+    "stab": 160,
+    "slash": 75,
+    "crush": 15,
+    "magic": 237,
+    "range": 218
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Morytania Spider Cave (crush strongly recommended; cannon-immune)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "araxxor"
+}

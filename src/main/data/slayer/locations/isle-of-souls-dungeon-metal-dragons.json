@@ -1,0 +1,11 @@
+{
+  "locationId": "isle-of-souls-dungeon-metal-dragons",
+  "name": "Isle of Souls Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 3 iron dragons and supports cannoning."
+}

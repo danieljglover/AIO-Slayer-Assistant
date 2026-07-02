@@ -1,0 +1,11 @@
+{
+  "locationId": "rat-spawns",
+  "name": "Rat spawns",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Rats and giant rats are among the most common monsters in Gielinor. Rats appear in cities, sewers and dungeons (Lumbridge, Draynor, Varrock, Stronghold of Security). Giant rats swarm the Lumbridge Swamp (27 spawns), Varrock Sewers, Edgeville Dungeon and the Stronghold of Security. These are the ordinary rats/giant rats: brine rats are a SEPARATE Slayer family (Brine Rat Cavern) and do NOT count here. Multi, cannon and safespot availability are not wiki-confirmed (conservative defaults)."
+}

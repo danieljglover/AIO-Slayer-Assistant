@@ -1,0 +1,29 @@
+{
+  "variantId": "small-scarab",
+  "name": "Small scarab",
+  "npcIds": [
+    14126
+  ],
+  "combatLevel": 41,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 55,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": false,
+  "location": "Uzer Mastaba lower level (19 spawns)",
+  "requirement": "The Curse of Arrav (partial completion) for access; max hit 1 but aggressive at any combat level; no drops",
+  "bossId": null,
+  "strategyId": "scabarites"
+}

@@ -1,0 +1,112 @@
+{
+  "taskId": "hill-giants",
+  "name": "Hill giants",
+  "wikiPageId": null,
+  "combatLevel": 28,
+  "slayerTargetId": 260,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 3,
+    "mazchna": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "hill-giants"
+  ],
+  "variantIds": [
+    "hill-giant"
+  ],
+  "defaultVariantId": "hill-giant",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 26,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "hill-giants-area",
+    "hill-giants-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "hill-giant",
+      "name": "Hill giant",
+      "combatLevel": 28,
+      "slayerXp": 35,
+      "locations": [
+        "Edgeville Dungeon",
+        "Deep Wilderness Dungeon"
+      ],
+      "notes": [
+        "Combat level 28 with 35 Hitpoints and 26 Defence; attacks with crush and hits up to 4.",
+        "Aggressive to players below combat level 57.",
+        "25% susceptible to earth spells, though their low Defence makes any style effective.",
+        "Krystilia's Wilderness assignment must be killed in the Wilderness (Deep Wilderness Dungeon, Boneyard Hunter area, or Lava Maze); Mazchna's assignment can be completed anywhere, most conveniently the Edgeville Dungeon."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "hill-giants-area",
+      "name": "Edgeville Dungeon",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Free-to-play; 12 hill giant spawns in the Edgeville Dungeon, the most convenient spot for Mazchna's assignment.",
+        "Multicombat, cannon, and safespot status not stated on the fetched wiki pages and left conservatively false (honest-UNKNOWN)."
+      ]
+    },
+    {
+      "locationId": "hill-giants-wilderness",
+      "name": "Deep Wilderness Dungeon",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Wilderness hill giants for Krystilia: the Deep Wilderness Dungeon (~level 50), plus the Boneyard Hunter area and Lava Maze at lower Wilderness levels.",
+        "Multicombat, cannon, and safespot status not stated on the fetched wiki pages and left conservatively false (honest-UNKNOWN)."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Hill giants can be assigned by Krystilia (75-125, Wilderness only) and Mazchna (30-50, combat level 25 required).",
+    "Hill giants are combat level 28 with 35 Hitpoints and 26 Defence; they attack with crush and are aggressive to players below combat level 57.",
+    "They are 25% susceptible to earth spells; their low Defence means any combat style is effective.",
+    "Krystilia's assignment must be completed in the Wilderness (Deep Wilderness Dungeon, Boneyard Hunter area, or Lava Maze).",
+    "Mazchna's assignment can be completed anywhere; the free-to-play Edgeville Dungeon is the most convenient spot.",
+    "Hill giants always drop big bones and drop a limpwurt root commonly, and are a source of the Giant key for the Obor boss.",
+    "The slayerTargetId 260 is SYNTHETIC (C2/C3 allocation contract, worklist §1); the real SLAYER_TARGET varp value is a QA live-verify item."
+  ],
+  "recommendedMethod": "Any combat style works given their low Defence. Melee them with a decent weapon such as a Dragon scimitar, or safespot/cannon where allowed. Krystilia tasks must be killed in the Wilderness; Mazchna tasks are most convenient at the Edgeville Dungeon."
+}

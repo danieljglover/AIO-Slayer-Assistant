@@ -1,0 +1,11 @@
+{
+  "locationId": "eastern-gryphon-dungeon",
+  "name": "Eastern gryphon dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Task-only Eastern Gryphons dungeon on the Great Conch. Contains 18 gryphons; the south-west part is multicombat and cannonable, while the rest is single-way combat."
+}

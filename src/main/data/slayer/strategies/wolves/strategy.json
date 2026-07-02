@@ -1,0 +1,76 @@
+{
+  "strategyId": "wolves",
+  "variantIds": [
+    "wolf-lvl25",
+    "white-wolf",
+    "big-wolf"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Wolf",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "yew-shortbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Wolves have all-zero Defence bonuses, so any melee weapon lands reliably. Fire spells exploit their 25% fire weakness (20% for Big wolves) if you are training Magic."
+  },
+  "requirements": [
+    "Combat level 20 to be assigned wolves.",
+    "No quest or Slayer level requirement.",
+    "Assigned by Turael, Spria and Mazchna."
+  ],
+  "mechanics": [
+    "The level-25 Wolf has 20 Hitpoints and max hit 3 (stab); White wolves 34 HP, Big wolves 74 HP / max hit 7.",
+    "All wolf variants have +0 melee and ranged Defence bonuses, so every style is accurate.",
+    "Wolves have a 25% fire weakness (20% for Big wolves) - fire spells hit hardest for Magic training."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the wolves on White Wolf Mountain with any melee weapon; their +0 Defence bonuses make every hit land.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Travel to White Wolf Mountain between Taverley and Catherby.",
+        "Kill the wolves and white wolves (20-34 HP); bring a little food for big/level-64 wolves.",
+        "The dense pack keeps kills fast for the task streak."
+      ],
+      "notes": [
+        "Big wolves (level 73, 74 HP) hit up to 7 - eat if your Hitpoints are low."
+      ]
+    },
+    {
+      "methodId": "fire-magic",
+      "label": "Fire magic",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Cast Fire spells to exploit the 25% fire weakness while training Magic on a trivial target.",
+      "recommendedFor": [
+        "players training Magic"
+      ],
+      "requiredOrKeyItems": [
+        "Fire spells (Fire Strike/Bolt/Blast) and runes"
+      ],
+      "steps": [
+        "Bring fire runes and an elemental staff to White Wolf Mountain.",
+        "Cast Fire spells on the wolves; the 25% fire weakness boosts your accuracy and damage."
+      ],
+      "notes": [
+        "Big wolves have a 20% fire weakness rather than 25%."
+      ]
+    }
+  ]
+}

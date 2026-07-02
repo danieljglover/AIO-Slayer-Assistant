@@ -1,0 +1,378 @@
+{
+  "taskId": "bloodveld",
+  "name": "Bloodveld",
+  "wikiPageId": 297737,
+  "combatLevel": 50,
+  "slayerTargetId": 208,
+  "slayerLevel": 50,
+  "questReqs": [
+    "Priest in Peril"
+  ],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      70,
+      110
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 4,
+    "vannaka": 8,
+    "chaeldar": 8,
+    "konar": 9,
+    "nieve": 9,
+    "duradel": 8
+  },
+  "extendedAmount": {
+    "krystilia": [
+      200,
+      250
+    ],
+    "vannaka": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows superior Slayer monsters such as Insatiable Bloodveld and Insatiable mutated Bloodveld to spawn while on task."
+    },
+    {
+      "unlockId": "bleed-me-dry",
+      "name": "Bleed me dry",
+      "pointsCost": 75,
+      "type": "EXTENSION",
+      "notes": "Extends Bloodveld assignments to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "bloodveld"
+  ],
+  "variantIds": [
+    "bloodveld",
+    "bloodveld-god-wars-dungeon",
+    "mutated-bloodveld",
+    "insatiable-bloodveld",
+    "insatiable-mutated-bloodveld"
+  ],
+  "defaultVariantId": "bloodveld",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 15,
+    "slash": 15,
+    "crush": 15,
+    "magic": 20,
+    "range": 15
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "buccaneers-laboratory",
+    "catacombs-of-kourend",
+    "iorwerth-dungeon",
+    "god-wars-dungeon",
+    "meiyerditch-laboratories",
+    "slayer-tower",
+    "slayer-tower-basement",
+    "stronghold-slayer-cave",
+    "wilderness-god-wars-dungeon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "bloodveld",
+      "name": "Bloodveld",
+      "combatLevel": 76,
+      "slayerXp": 120,
+      "locations": [
+        "Meiyerditch Laboratories",
+        "Slayer Tower",
+        "Slayer Tower basement",
+        "Stronghold Slayer Cave"
+      ],
+      "notes": [
+        "For each tier of the Morytania Diary completed, players receive an additional 2.5% Slayer experience for bloodvelds slain at the Slayer Tower, adding 3 Slayer experience per tier per kill."
+      ]
+    },
+    {
+      "variantId": "bloodveld-god-wars-dungeon",
+      "name": "Bloodveld",
+      "combatLevel": 81,
+      "slayerXp": 134,
+      "locations": [
+        "God Wars Dungeon",
+        "Wilderness God Wars Dungeon"
+      ],
+      "notes": [
+        "Slightly stronger God Wars bloodveld variant.",
+        "God Wars bloodvelds are Zamorak followers and will be aggressive unless the player has a Zamorak item equipped."
+      ]
+    },
+    {
+      "variantId": "insatiable-bloodveld",
+      "name": "Insatiable Bloodveld",
+      "combatLevel": 202,
+      "slayerXp": 2900,
+      "locations": [
+        "Meiyerditch Laboratories",
+        "Slayer Tower",
+        "Slayer Tower basement",
+        "Stronghold Slayer Cave"
+      ],
+      "notes": [
+        "Superior slayer monster variant that can spawn after purchasing Bigger and Badder.",
+        "Cannot spawn from Zamorak-aligned bloodvelds in the God Wars Dungeons."
+      ]
+    },
+    {
+      "variantId": "mutated-bloodveld",
+      "name": "Mutated Bloodveld",
+      "combatLevel": 123,
+      "slayerXp": 170,
+      "locations": [
+        "Catacombs of Kourend",
+        "Iorwerth Dungeon",
+        "Meiyerditch Laboratories",
+        "Buccaneers' Laboratory"
+      ],
+      "notes": [
+        "Mutated bloodvelds have more hitpoints and a better drop table than normal bloodvelds.",
+        "Catacombs mutated bloodvelds can drop ancient shards and dark totem pieces and can be killed in multicombat.",
+        "Iorwerth Dungeon mutated bloodvelds can drop crystal shards and require Song of the Elves.",
+        "Meiyerditch Laboratories is multicombat and cannonable but requires partial Sins of the Father after killing the quest mutated bloodveld.",
+        "Buccaneers' Laboratory is multicombat, cannonable, requires 76 Sailing, and benefits from building the rowboat for Pirates' Cove access."
+      ]
+    },
+    {
+      "variantId": "insatiable-mutated-bloodveld",
+      "name": "Insatiable mutated Bloodveld",
+      "combatLevel": 278,
+      "slayerXp": 4100,
+      "locations": [
+        "Catacombs of Kourend",
+        "Iorwerth Dungeon",
+        "Meiyerditch Laboratories",
+        "Buccaneers' Laboratory"
+      ],
+      "notes": [
+        "Superior slayer monster variant that can spawn from mutated bloodvelds after purchasing Bigger and Badder."
+      ]
+    },
+    {
+      "variantId": "reanimated-bloodveld",
+      "name": "Reanimated bloodveld",
+      "combatLevel": null,
+      "slayerXp": 35,
+      "locations": [
+        "Dark Altar",
+        "Other"
+      ],
+      "notes": [
+        "Using Expert Reanimation on an ensouled bloodveld head reanimates a bloodveld for greatly reduced Slayer experience.",
+        "The player also receives 1,040 Prayer experience for each kill.",
+        "If the spell is not cast quickly enough after picking up the head, or if the player trades the head or teleports away, it must be reanimated at the Dark Altar."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "buccaneers-laboratory",
+      "name": "Buccaneers' Laboratory",
+      "amount": 8,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "8 Mutated Bloodvelds.",
+        "Requires 76 Sailing to access the island.",
+        "The rowboat can be used to travel to Buccaneers' Haven from Pirates' Cove.",
+        "Since the area is multi-combat, it is one of the best places to use a dwarf multicannon for high Slayer experience per hour.",
+        "The drops will cover the use of the dwarf multicannon."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 18,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "18 Mutated Bloodvelds in three groups: north-east, south-east, and south-west.",
+        "The north-east location has the biggest cluster of seven mutated bloodvelds and is ideal for a goading potion.",
+        "The south-east group has five and is also suitable for goading potions.",
+        "The south-west group has six but is polluted by wandering possessed pickaxes; the path to hill giants can be used as a safespot.",
+        "Monsters here use the Catacombs drop table, and superior variants always drop a piece of the dark totem."
+      ]
+    },
+    {
+      "locationId": "iorwerth-dungeon",
+      "name": "Iorwerth Dungeon",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "12 Mutated Bloodvelds.",
+        "The mutated bloodveld section is split into two sections of six bloodvelds each, and each section has a safespot.",
+        "This section is close to the dungeon entrance, making it easy to leave and return.",
+        "Requires Song of the Elves."
+      ]
+    },
+    {
+      "locationId": "god-wars-dungeon",
+      "name": "God Wars Dungeon",
+      "amount": 16,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "16 Bloodvelds.",
+        "Both a Saradomin item and a Zamorak item are required to use the safespot.",
+        "Rope is required to access the dungeon for the first time, and two more ropes are needed for first-time Saradomin's Encampment access.",
+        "The superior version will not spawn in this location."
+      ]
+    },
+    {
+      "locationId": "meiyerditch-laboratories",
+      "name": "Meiyerditch Laboratories",
+      "amount": 11,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "4 Bloodvelds and 7 Mutated Bloodvelds.",
+        "Since this area is multi-combat, it is one of the best places to use a dwarf multicannon for high Slayer experience per hour.",
+        "The drops will cover the use of the dwarf multicannon.",
+        "This location is somewhat hard to reach and requires partial completion of Sins of the Father."
+      ]
+    },
+    {
+      "locationId": "slayer-tower",
+      "name": "Slayer Tower",
+      "amount": 15,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "15 Bloodvelds on the first floor.",
+        "For each tier of the Morytania Diary completed, Bloodvelds killed in the Slayer Tower receive additional Slayer experience."
+      ]
+    },
+    {
+      "locationId": "slayer-tower-basement",
+      "name": "Slayer Tower basement",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "12 Bloodvelds.",
+        "The Slayer ring can be used to teleport to the main entrance of the tower.",
+        "Fairy ring code CKS lands west of Canifis, just south of the tower.",
+        "The basement is only accessible on a Slayer task and may be less busy."
+      ]
+    },
+    {
+      "locationId": "stronghold-slayer-cave",
+      "name": "Stronghold Slayer Cave",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "12 Bloodvelds.",
+        "Use a Slayer ring to teleport directly to the entrance by Nieve.",
+        "Alternatively use the spirit tree to Tree Gnome Stronghold and run south-west, or necklace of passage to the Outpost and run north-east."
+      ]
+    },
+    {
+      "locationId": "wilderness-god-wars-dungeon",
+      "name": "Wilderness God Wars Dungeon",
+      "amount": 5,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "5 Bloodvelds.",
+        "The Agility shortcut from Trollheim is much closer than running directly from Edgeville, but requires 64 Agility.",
+        "All monsters in the dungeon are aggressive unless the player has at least one item devoted to their god.",
+        "The superior version will not spawn in this location.",
+        "This is a dangerous multicombat Wilderness area with player killing risk."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Bloodvelds require 50 Slayer to damage and 50 combat to receive as a task.",
+    "Bloodvelds are demons and are affected by demonbane weapons.",
+    "An ash sanctifier may be brought for Prayer experience from ashes.",
+    "Bloodvelds have high Hitpoints and low Defence, making them good sources of combat and Slayer experience.",
+    "Bloodvelds attack with magic-based melee: they use melee attacks, but player magic defence determines their accuracy.",
+    "Use armour with decent magic defence, such as dragonhide or blood moon armour.",
+    "Players using protection prayers should use Protect from Melee rather than Protect from Magic.",
+    "Stronghold Slayer Cave is common because it is close to a bank and supports a dwarf multicannon.",
+    "Meiyerditch Laboratories are multi-combat and cannonable, and the mutated bloodveld room has a cluster of seven mutated bloodvelds.",
+    "Buccaneers' Laboratory requires 76 Sailing, is multicombat, is cannonable, and has no obstacles blocking bloodvelds.",
+    "Building the Buccaneers' Laboratory rowboat and bank chest makes accessing and banking there much faster.",
+    "Other mutated bloodveld locations, Catacombs of Kourend and Iorwerth Dungeon, are mainly recommended when assigned by Konar.",
+    "If assigned by Konar to the Slayer Tower, it is reasonable to kill bloodvelds there.",
+    "Konar tasks sending the player to God Wars Dungeon should be skipped because insatiable bloodvelds cannot spawn and AFK killing is impractical around aggressive monsters.",
+    "It is not recommended to kill Bloodveld assigned by Krystilia because Wilderness God Wars Dungeon is dangerous multicombat Wilderness with sparse spawns.",
+    "Expert Reanimation on ensouled bloodveld heads can be used as a low-Slayer-experience Prayer-training alternative that still counts toward the task."
+  ],
+  "recommendedMethod": "For regular tasks, use Stronghold Slayer Cave with a cannon for low attention or Meiyerditch Laboratories/Buccaneers' Laboratory mutated bloodvelds for high experience. Wear magic-defence armour, pray Protect from Melee if using Prayer, and prefer demonbane melee where using direct combat."
+}

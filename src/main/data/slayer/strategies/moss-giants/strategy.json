@@ -1,0 +1,87 @@
+{
+  "strategyId": "moss-giants",
+  "variantIds": [
+    "moss-giant"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Moss_giant",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Moss giants have only Defence level 30 and 60 Hitpoints, so any decent melee weapon kills them quickly. They carry a 50% Fire weakness, so fire spells are fastest, but for a Wilderness Krystilia task melee with cheap, expendable gear is usually preferred to limit PvP risk."
+  },
+  "requirements": [
+    "No Slayer level or quest requirement.",
+    "Krystilia assigns Moss giants only as a Wilderness task; kills must occur in the Wilderness."
+  ],
+  "mechanics": [
+    "Moss giants have 60 Hitpoints and Defence level 30 and attack with crush.",
+    "They have a 50% Fire weakness.",
+    "The Wilderness spawns are in a PvP area; other players may attack you."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee (expendable gear)",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill the Wilderness moss giants with any decent melee weapon while wearing only cheap, expendable gear.",
+      "recommendedFor": [
+        "default Wilderness Krystilia Moss giant tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon scimitar or any decent melee weapon",
+        "Slayer helmet",
+        "Cheap food and expendable armour"
+      ],
+      "steps": [
+        "Travel to the deep Wilderness moss giant spawns.",
+        "Kill moss giants with melee, keeping an eye out for PKers.",
+        "Bank or teleport out with any valuable drops promptly."
+      ]
+    },
+    {
+      "methodId": "magic-fire",
+      "label": "Fire spells",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Exploit the 50% Fire weakness with fire spells for the fastest kills, accepting higher risk of losing gear.",
+      "recommendedFor": [
+        "fast kills",
+        "players comfortable with Wilderness risk"
+      ],
+      "requiredOrKeyItems": [
+        "Fire spell runes",
+        "Expendable magic gear"
+      ],
+      "steps": [
+        "Cast fire spells to exploit the 50% Fire weakness.",
+        "Stay mobile and watch for PKers."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary melee setup with cheap, expendable gear.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon scimitar",
+            "Any decent melee weapon"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Moss giants (Wilderness)\n\nMoss giants have only Defence level 30 and 60 Hitpoints, so any decent melee weapon dispatches them quickly. Krystilia assigns them as a Wilderness task, so kills must occur in the Wilderness. They carry a 50% Fire weakness; fire spells are fastest, but melee with cheap, expendable gear is usually preferred to limit the risk of losing valuables to PKers."
+}

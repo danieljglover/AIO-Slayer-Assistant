@@ -1,0 +1,311 @@
+{
+  "taskId": "blue-dragons",
+  "name": "Blue dragons",
+  "wikiPageId": 297956,
+  "combatLevel": 65,
+  "slayerTargetId": 209,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Dragon Slayer I"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      110,
+      170
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7,
+    "chaeldar": 8,
+    "konar": 4,
+    "nieve": 4,
+    "duradel": 4
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "blue-dragons"
+  ],
+  "variantIds": [
+    "blue-dragon",
+    "baby-blue-dragon",
+    "brutal-blue-dragon",
+    "blue-dragons-vorkath"
+  ],
+  "defaultVariantId": "blue-dragon",
+  "weakness": {
+    "style": "RANGED",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 30,
+    "slash": 30,
+    "crush": 30,
+    "magic": 50,
+    "range": 30
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "catacombs-of-kourend",
+    "corsair-cove-dungeon",
+    "dragon-nest",
+    "heroes-guild-basement",
+    "isle-of-souls-dungeon",
+    "ogre-enclave-watchtower",
+    "taverley-dungeon",
+    "taverley-dungeon-upper",
+    "ruins-of-tapoyauik",
+    "ungael"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "baby-blue-dragon",
+      "name": "Baby blue dragon",
+      "combatLevel": 48,
+      "slayerXp": 50,
+      "locations": [
+        "Corsair Cove Dungeon",
+        "Isle of Souls Dungeon",
+        "Taverley Dungeon",
+        "Ruins of Tapoyauik",
+        "Dragon Nest"
+      ],
+      "notes": [
+        "Weakest variant of blue dragons.",
+        "Drops only baby dragon bones and does not use dragonfire.",
+        "Taverley Dungeon requires a dusty key or level 70 Agility to access.",
+        "Corsair Cove Dungeon requires Dragon Slayer II.",
+        "Ruins of Tapoyauik requires completion of The Heart of Darkness."
+      ]
+    },
+    {
+      "variantId": "blue-dragon",
+      "name": "Blue dragon",
+      "combatLevel": 111,
+      "slayerXp": 107.6,
+      "locations": [
+        "Corsair Cove Dungeon",
+        "Heroes' Guild basement",
+        "Isle of Souls Dungeon",
+        "Ogre Enclave",
+        "Taverley Dungeon",
+        "Ruins of Tapoyauik",
+        "Dragon Nest"
+      ],
+      "notes": [
+        "Taverley Dungeon requires a dusty key or level 70 Agility.",
+        "Heroes' Guild requires completion of Heroes' Quest, and Ogre Enclave requires completion of Watchtower.",
+        "Corsair Cove Dungeon requires completion of Dragon Slayer II.",
+        "Ruins of Tapoyauik requires completion of The Heart of Darkness."
+      ]
+    },
+    {
+      "variantId": "brutal-blue-dragon",
+      "name": "Brutal blue dragon",
+      "combatLevel": 271,
+      "slayerXp": 257,
+      "locations": [
+        "Catacombs of Kourend",
+        "Ruins of Tapoyauik"
+      ],
+      "notes": [
+        "A particularly strong variant of blue dragon with an additional magic attack and long ranged dragonfire.",
+        "Ruins of Tapoyauik requires completion of The Heart of Darkness."
+      ]
+    },
+    {
+      "variantId": "blue-dragons-vorkath",
+      "name": "Vorkath",
+      "combatLevel": 392,
+      "slayerXp": 460,
+      "locations": [
+        "Ungael"
+      ],
+      "notes": [
+        "undead boss monster fought during Dragon Slayer II; the stronger post-quest version is combat level 732 and gives 750 Slayer experience.",
+        "For more information, use the dedicated Vorkath/Strategies guide."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "2 Brutal blue dragons.",
+        "Higher profit from slaying.",
+        "Can drop ancient shards and Dark Totem parts."
+      ]
+    },
+    {
+      "locationId": "corsair-cove-dungeon",
+      "name": "Corsair Cove Dungeon",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "5 Adults and 3 Babies.",
+        "Requires completion of Dragon Slayer II."
+      ]
+    },
+    {
+      "locationId": "dragon-nest",
+      "name": "Dragon Nest",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "5 Adults and 2 Babies.",
+        "Close to bank in Tal Teklan.",
+        "Shortcut available with level 40 Agility."
+      ]
+    },
+    {
+      "locationId": "heroes-guild-basement",
+      "name": "Heroes' Guild basement",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "1 Adult.",
+        "Requires completion of Heroes' Quest."
+      ]
+    },
+    {
+      "locationId": "isle-of-souls-dungeon",
+      "name": "Isle of Souls Dungeon",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "4 Adults and 3 Babies.",
+        "Acceptable Konar location because a cannon can be placed, but the room has both adults and babies."
+      ]
+    },
+    {
+      "locationId": "ogre-enclave-watchtower",
+      "name": "Ogre Enclave",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "6 Adults.",
+        "Requires completion of Watchtower.",
+        "Easily bank by using a Ring of dueling to Castle Wars and running east back to Gu'Tanoth.",
+        "The Dwarf multicannon also targets lower-level monsters including level 1 spiders and level 22 skeletons.",
+        "Konar tasks here are recommended to skip because the dragons are very far apart."
+      ]
+    },
+    {
+      "locationId": "taverley-dungeon",
+      "name": "Taverley Dungeon",
+      "amount": 21,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "9 Adults and 12 Babies.",
+        "Requires dusty key or level 70 Agility.",
+        "Ring of dueling plus Enlightened Journey allows fast banking at Castle Wars followed by a balloon ride back to Taverley.",
+        "The main dungeon baby blue dragons are recommended for fast cannon task completion."
+      ]
+    },
+    {
+      "locationId": "taverley-dungeon-upper",
+      "name": "Taverley Dungeon (upper level)",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "12 Adults.",
+        "Blue dragons can only be killed here while on a Slayer task.",
+        "Requires level 70 Agility for a shortcut or a dusty key.",
+        "The task-only area is full of adults, so it is not the fastest option for general Blue dragon tasks."
+      ]
+    },
+    {
+      "locationId": "ruins-of-tapoyauik",
+      "name": "Ruins of Tapoyauik",
+      "amount": 19,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "7 Adults, 7 Babies, and 5 Brutals.",
+        "Can be accessed after completing The Heart of Darkness.",
+        "Very fast accessibility with a charged Pendant of ates.",
+        "Nearby moonlight moths provide unlimited prayer with 75 Hunter, a butterfly jar, and butterfly net, or 85 Hunter to catch barehanded.",
+        "Konar tasks here are recommended to skip because cannon use is prevented."
+      ]
+    },
+    {
+      "locationId": "ungael",
+      "name": "Ungael",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "1 Vorkath.",
+        "Fought once during Dragon Slayer II and afterwards requires completion of the quest.",
+        "For more information on fighting Vorkath, see Vorkath/Strategies."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Blue dragons can be assigned at 65 combat after starting Dragon Slayer I.",
+    "Most Blue dragon caves have access requirements such as quests, a dusty key, or 70 Agility.",
+    "Blue dragons attack with melee and dragonfire.",
+    "dragonfire protection should be considered for adult, brutal, and Vorkath kills.",
+    "brutal blue dragons can also attack with magic and use long-ranged dragonfire.",
+    "Due to their large size, blue dragons can usually be safespotted with ranged, magic, or halberd-like weapons.",
+    "Like all dragons, Blue dragons are susceptible to dragonbane weapons.",
+    "For fast general tasks, bring a dwarf multicannon to Taverley Dungeon and use it against baby blue dragons in the main dungeon.",
+    "The Taverley task-only area is full of adults, so it is not the fastest baby-blue-dragon cannon option.",
+    "Players wanting slightly more profit can kill adult blue dragons.",
+    "For maximum profit, complete Dragon Slayer II to access Vorkath and use the dedicated Vorkath strategy.",
+    "If assigned by Konar, skip Ogre Enclave, Catacombs of Kourend, and Ruins of Tapoyauik because they are inefficient or prevent cannon use.",
+    "Isle of Souls Dungeon is an acceptable Konar assignment because a cannon can be placed, but the room contains both adults and babies."
+  ],
+  "recommendedMethod": "For speed, cannon baby blue dragons in the main Taverley Dungeon. For more profit, kill adult blue dragons with dragonfire protection. For maximum profit after Dragon Slayer II, use Vorkath as the task alternative. Skip poor Konar locks such as Ogre Enclave, Catacombs, and Ruins of Tapoyauik."
+}

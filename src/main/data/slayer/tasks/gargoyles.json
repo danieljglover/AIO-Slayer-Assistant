@@ -1,0 +1,258 @@
+{
+  "taskId": "gargoyles",
+  "name": "Gargoyles",
+  "wikiPageId": 256647,
+  "combatLevel": 80,
+  "slayerTargetId": 221,
+  "slayerLevel": 75,
+  "questReqs": [
+    "Priest in Peril"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 5,
+    "chaeldar": 11,
+    "konar": 6,
+    "nieve": 6,
+    "duradel": 8
+  },
+  "extendedAmount": {
+    "vannaka": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "gargoyle-smasher",
+      "name": "Gargoyle smasher",
+      "pointsCost": 120,
+      "notes": "Automatically deals the finishing blow if the player has a rock hammer or equivalent in inventory."
+    },
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Allows superior Slayer monsters, including Marble gargoyles, to spawn while on task."
+    },
+    {
+      "unlockId": "double-trouble",
+      "name": "Double Trouble",
+      "pointsCost": 500,
+      "notes": "Dusk and Dawn count for two kills toward the task rather than one; the task page strongly recommends avoiding this when killing Grotesque Guardians."
+    },
+    {
+      "unlockId": "get-smashed",
+      "name": "Get smashed",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Extends Gargoyle assignments to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "gargoyles"
+  ],
+  "variantIds": [
+    "gargoyle",
+    "marble-gargoyle-superior",
+    "grotesque-guardians-dusk",
+    "gargoyles-grotesque-guardians-dawn"
+  ],
+  "defaultVariantId": "gargoyle",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 40,
+    "slash": 40,
+    "crush": 20,
+    "magic": 100,
+    "range": 40
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 4162,
+  "requiredItemName": "Rock hammer",
+  "locationIds": [
+    "slayer-tower-top-floor",
+    "slayer-tower-basement",
+    "slayer-tower-roof"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "gargoyle",
+      "name": "Gargoyle",
+      "combatLevel": 111,
+      "slayerXp": 105,
+      "locations": [
+        "Slayer Tower top floor",
+        "Slayer Tower basement"
+      ],
+      "notes": [
+        "Standard gargoyles are found in the Slayer Tower.",
+        "Gargoyles in the basement are immune to poison and venom; upstairs gargoyles are not immune to either status.",
+        "Require a rock hammer, rock thrownhammer, or granite hammer finishing blow at 9 or lower Hitpoints.",
+        "Weak to both magic and crush attacks, though melee is commonly used.",
+        "Have -2 flat armour, making multi-hit weapons such as Dual macuahuitl useful."
+      ]
+    },
+    {
+      "variantId": "marble-gargoyle-superior",
+      "name": "Marble gargoyle",
+      "combatLevel": 349,
+      "slayerXp": 2768,
+      "locations": [
+        "Slayer Tower"
+      ],
+      "notes": [
+        "Superior slayer monster variant that can spawn after purchasing Bigger and Badder.",
+        "Uses melee and ranged attack styles.",
+        "Special attack launches a white-red orb with 1x1 area damage that can entrap the player if not dodged.",
+        "Bring more emergency food if lower level because Marble gargoyles are more dangerous than regular gargoyles."
+      ]
+    },
+    {
+      "variantId": "gargoyles-grotesque-guardians-dawn",
+      "name": "Dawn",
+      "combatLevel": 228,
+      "slayerXp": 0,
+      "locations": [
+        "Slayer Tower roof"
+      ],
+      "notes": [
+        "One half of the Grotesque Guardians duo.",
+        "For more information on the Grotesque Guardians, use the Grotesque Guardians strategy source.",
+        "Counts as part of a Gargoyles task after the brittle key unlocks the rooftop boss arena."
+      ]
+    },
+    {
+      "variantId": "grotesque-guardians-dusk",
+      "name": "Dusk",
+      "combatLevel": 248,
+      "slayerXp": 1350,
+      "locations": [
+        "Slayer Tower roof"
+      ],
+      "notes": [
+        "One half of the Grotesque Guardians duo.",
+        "Dusk has a second form at combat level 328.",
+        "For more information on the Grotesque Guardians, use the Grotesque Guardians strategy source.",
+        "Counts as part of a Gargoyles task after the brittle key unlocks the rooftop boss arena."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "slayer-tower-top-floor",
+      "name": "Slayer Tower top floor",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Contains 8 Gargoyles.",
+        "Running through the Slayer Tower floors passes dangerous monsters, notably banshees and aberrant spectres.",
+        "The task page image shows a safespot at the east side of the adjacent bookcase."
+      ]
+    },
+    {
+      "locationId": "slayer-tower-basement",
+      "name": "Slayer Tower basement",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Contains 12 Gargoyles.",
+        "Gargoyles can only be killed here while on a Slayer task.",
+        "Raulyn stops players attempting to fight basement Gargoyles off task.",
+        "Recommended for tasks because many Gargoyles are in a fairly small area."
+      ]
+    },
+    {
+      "locationId": "slayer-tower-roof",
+      "name": "Slayer Tower roof",
+      "amount": 2,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Grotesque Guardians boss arena with Dawn and Dusk.",
+        "Only available after receiving a brittle key drop from regular Gargoyles.",
+        "The Grotesque Guardians count as one kill unless Double Trouble is unlocked, after which they count as two.",
+        "Use the Grotesque Guardians strategy source for boss-specific mechanics."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Gargoyles require 75 Slayer, 80 combat, and Priest in Peril completion to be assigned.",
+    "They are only found in the Slayer Tower on the top floor, in the basement, or on the rooftop boss arena.",
+    "Gargoyles in the basement can only be killed on a Slayer task; Raulyn stops off-task attacks.",
+    "Gargoyles are weak to both magic and crush attacks, but melee is commonly used due to cost, their low melee defence, and limited safespot reliability.",
+    "Gargoyles have -2 flat armour, so weapons such as Dual macuahuitl are recommended to use the extra damage.",
+    "To kill a Gargoyle, use a rock hammer, rock thrownhammer, or granite hammer when it reaches 9 or lower Hitpoints.",
+    "Gargoyle Smasher costs 120 Slayer points and automatically smashes Gargoyles at 9 or lower Hitpoints if a rock hammer or equivalent is in inventory.",
+    "The granite hammer will automatically smash Gargoyles even without Gargoyle Smasher if it is equipped.",
+    "The rock hammer is faster than the rock thrownhammer because the thrownhammer has travel time.",
+    "If both rock hammer and rock thrownhammer are in inventory, the rock hammer is used in melee distance and thrownhammers are used outside melee distance.",
+    "Marble gargoyle is the superior variant and can spawn after Bigger and Badder; it uses ranged attacks in addition to melee.",
+    "Marble gargoyles can launch a white-red orb special attack that deals heavy 1x1 area damage and entraps players if not dodged.",
+    "Grotesque Guardians require a brittle key from on-task Gargoyles to unlock the rooftop boss arena.",
+    "Regular Gargoyles are much faster and need fewer supplies than the Grotesque Guardians.",
+    "Grotesque Guardians are more time-consuming, need higher stats and gear, and require more effort and supplies.",
+    "Grotesque Guardians are the only source of untradeable granite dust, which upgrades cannonballs into granite cannonballs with a max hit of 35 instead of 30.",
+    "It is strongly recommended to avoid Double Trouble when killing Grotesque Guardians because it makes the boss consume two task kills instead of one.",
+    "The basement is recommended during a task because many Gargoyles are close together and aggression can be reset twice for around 30 minutes of semi-AFK combat.",
+    "For basement semi-AFK, start from the north, run south-west after the first aggression loss, then east after the second aggression loss."
+  ],
+  "recommendedMethod": "Use melee crush in the Slayer Tower basement with a rock hammer or granite hammer finisher. Use Protect from Melee for regular Gargoyles, watch Marble gargoyle specials, and avoid Double Trouble if choosing Grotesque Guardians."
+}

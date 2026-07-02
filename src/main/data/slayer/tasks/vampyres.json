@@ -1,0 +1,323 @@
+{
+  "taskId": "vampyres",
+  "name": "Vampyres",
+  "wikiPageId": 298140,
+  "combatLevel": 35,
+  "slayerTargetId": 237,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Priest in Peril"
+  ],
+  "masterIds": [
+    "mazchna",
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      10,
+      20
+    ],
+    "vannaka": [
+      10,
+      20
+    ],
+    "chaeldar": [
+      80,
+      100
+    ],
+    "konar": [
+      100,
+      160
+    ],
+    "nieve": [
+      110,
+      170
+    ],
+    "duradel": [
+      100,
+      210
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 6,
+    "vannaka": 7,
+    "chaeldar": 6,
+    "konar": 4,
+    "nieve": 6,
+    "duradel": 8
+  },
+  "extendedAmount": {
+    "mazchna": [
+      200,
+      250
+    ],
+    "vannaka": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "actual-vampyre-slayer",
+      "name": "Actual Vampyre Slayer",
+      "pointsCost": 80,
+      "notes": "Allows Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal to assign Vampyres."
+    },
+    {
+      "unlockId": "more-at-stake",
+      "name": "More at stake",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Extends Vampyre tasks to 200-250 kills."
+    }
+  ],
+  "monsterIds": [
+    "vampyres"
+  ],
+  "variantIds": [
+    "feral-vampyre",
+    "vampyre-juvenile",
+    "vampyre-juvinate",
+    "vyrewatch",
+    "vyrewatch-sentinel"
+  ],
+  "defaultVariantId": "vyrewatch-sentinel",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 180,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 24699,
+  "requiredItemName": "Blisterwood flail or Ivandis flail for Vyrewatch",
+  "locationIds": [
+    "burgh-de-rott-vampyres",
+    "darkmeyer",
+    "god-wars-dungeon-vampyres",
+    "haunted-woods",
+    "meiyerditch",
+    "slepe",
+    "wilderness-god-wars-dungeon-vampyres"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "feral-vampyre",
+      "name": "Feral Vampyre",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "God Wars Dungeon",
+        "Haunted Woods",
+        "West of Burgh de Rott",
+        "Wilderness God Wars Dungeon",
+        "Temple Trekking/Burgh de Rott Ramble"
+      ],
+      "notes": [
+        "Combat levels are 61, 64, 70, 72, 77, 100, and 130; Slayer XP values are 40, 80, 75, 50, 60, 135, and 185.",
+        "Can be killed with any weaponry and always drops vampyre dust.",
+        "Haunted Woods and Abandoned Mine variants can bite, drain stats, and heal."
+      ]
+    },
+    {
+      "variantId": "vampyre-juvenile",
+      "name": "Vampyre Juvenile",
+      "combatLevel": 45,
+      "slayerXp": 60,
+      "locations": [
+        "Darkmeyer",
+        "East of Burgh de Rott",
+        "Meiyerditch",
+        "Crombwick Manor"
+      ],
+      "notes": [
+        "Can be damaged with any weapon but retreats as mist at low health unless held with Rod of ivandis or Ivandis flail special attack.",
+        "A normal juvenile kill does not give Slayer experience nor count for task progression unless Guthix balance kills it instantly or the resulting feral vampyre is killed.",
+        "Guthix balance outcomes can kill instantly, create a feral vampyre, or return the juvenile to human form."
+      ]
+    },
+    {
+      "variantId": "vampyre-juvinate",
+      "name": "Vampyre Juvinate",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "Darkmeyer",
+        "East of Burgh de Rott",
+        "Meiyerditch Mine",
+        "Ver Sinhaza"
+      ],
+      "notes": [
+        "Combat levels are 50, 54, 59, 75, 90, and 119; Slayer XP values are 60, 65, 85, 50, 110, 100, and 150 depending on version.",
+        "Mostly level 54 variants at task locations, awarding 65 Slayer experience per kill.",
+        "Can only be damaged with silver weaponry or Efaritay's aid, and may require Guthix balance handling when misting."
+      ]
+    },
+    {
+      "variantId": "vyrewatch",
+      "name": "Vyrewatch",
+      "combatLevel": null,
+      "slayerXp": null,
+      "locations": [
+        "Darkmeyer",
+        "Meiyerditch",
+        "Slepe"
+      ],
+      "notes": [
+        "Combat levels are 87, 105, 110, 120, and 125; Slayer XP values are 90, 90, 90, 105, and 110.",
+        "Finding a weapon capable of killing Vyrewatch requires beginning A Taste of Hope.",
+        "Can only be damaged with an Ivandis flail, Blisterwood flail, or Hallowed flail; Efaritay's aid gives accuracy but does not let normal weapons damage them.",
+        "The Slepe group north of Crombwick Manor is aggressive and attacks faster than the tithe-based Darkmeyer and Meiyerditch vyrewatch."
+      ]
+    },
+    {
+      "variantId": "vyrewatch-sentinel",
+      "name": "Vyrewatch Sentinel",
+      "combatLevel": 151,
+      "slayerXp": 150,
+      "locations": [
+        "Darkmeyer"
+      ],
+      "notes": [
+        "Requires completion of Sins of the Father to kill.",
+        "Can only be damaged with an Ivandis flail, Blisterwood flail, Hallowed flail, blisterwood sickle, or blisterwood stakes.",
+        "Only found in Darkmeyer and valued for the blood shard drop, nearby bank, and nearby altar."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "burgh-de-rott-vampyres",
+      "name": "Burgh de Rott",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains 6 Feral Vampyres and 15 Vampyre Juvinates.",
+        "Requires completion of In Aid of the Myreque."
+      ]
+    },
+    {
+      "locationId": "darkmeyer",
+      "name": "Darkmeyer",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Contains 6 Vampyre Juvinates, 8 Vyrewatch, and 19 Vyrewatch Sentinels.",
+        "Requires starting Sins of the Father.",
+        "Only location for highly profitable Vyrewatch Sentinels.",
+        "The area west of the Arboretum has a nearby altar, bank, and Drakan's medallion teleport.",
+        "Bank tellers require a disguise; the Hallowed Sepulchre lobby bank chest can be used instead."
+      ]
+    },
+    {
+      "locationId": "god-wars-dungeon-vampyres",
+      "name": "God Wars Dungeon",
+      "amount": 13,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains 13 Feral Vampyres.",
+        "Feral Vampyres are Zamorak followers and are aggressive unless the player wears a Zamorak item.",
+        "Not recommended because the area is inconvenient and the spawns are spread out."
+      ]
+    },
+    {
+      "locationId": "haunted-woods",
+      "name": "Haunted Woods",
+      "amount": 19,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains 19 Feral Vampyres.",
+        "Requires completion of Priest in Peril.",
+        "The fairy ring ALQ is in the middle of the Haunted Woods.",
+        "Nearby leeches can drain stats and do not appear on the minimap."
+      ]
+    },
+    {
+      "locationId": "meiyerditch",
+      "name": "Meiyerditch",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Contains 4 Vampyre Juvinates and 61 Vyrewatch.",
+        "Requires starting Darkness of Hallowvale."
+      ]
+    },
+    {
+      "locationId": "slepe",
+      "name": "Slepe",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Contains 10 level 105 Vyrewatch north of Crombwick Manor.",
+        "Recommended after A Taste of Hope for Drakan's medallion access and nearby prayer restoration routing."
+      ]
+    },
+    {
+      "locationId": "wilderness-god-wars-dungeon-vampyres",
+      "name": "Wilderness God Wars Dungeon",
+      "amount": 2,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains 2 Feral Vampyres.",
+        "Requires either 60 Strength or 60 Agility.",
+        "Most of the dungeon is below level 30 Wilderness, so bring an emergency teleport.",
+        "Feral Vampyres are Zamorak followers and are aggressive unless the player wears a Zamorak item."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Before Actual Vampyre Slayer, Vampyre tasks are only assigned by Mazchna and Vannaka for 10-20 kills.",
+    "Actual Vampyre Slayer costs 80 Slayer reward points and allows Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal to assign Vampyres.",
+    "More at stake costs 100 Slayer reward points and extends Vampyre assignments to 200-250 kills.",
+    "Feral Vampyre variants are the easiest task option and can be killed with any weapon.",
+    "Vampyre Juveniles and Juvinates can mist at 25% or lower health unless held with Rod of ivandis or Ivandis flail special attack, then handled with Guthix balance.",
+    "Vyrewatch can only be damaged with an Ivandis flail, Blisterwood flail, or Hallowed flail.",
+    "Vyrewatch Sentinels are the best higher-tier target because they are near a bank and altar and can drop the blood shard.",
+    "Count Draynor counts toward a Vampyre task but does not grant Slayer experience; Vanstrom Klause does not count toward a Vampyre task."
+  ],
+  "recommendedMethod": "Use Feral Vampyres for the simplest task, Slepe Vyrewatch after A Taste of Hope, or Vyrewatch Sentinels in Darkmeyer after Sins of the Father for the profitable blood shard path."
+}

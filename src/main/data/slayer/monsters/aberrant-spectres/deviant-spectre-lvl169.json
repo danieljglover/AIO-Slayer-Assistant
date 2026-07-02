@@ -1,0 +1,29 @@
+{
+  "variantId": "deviant-spectre",
+  "name": "Deviant spectre",
+  "npcIds": [
+    7279
+  ],
+  "combatLevel": 169,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 90,
+    "stab": 80,
+    "slash": 80,
+    "crush": 80,
+    "magic": 0,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Catacombs of Kourend",
+  "requirement": "Priest in Peril; nose peg or Slayer helmet",
+  "bossId": null,
+  "strategyId": "aberrant-spectres"
+}

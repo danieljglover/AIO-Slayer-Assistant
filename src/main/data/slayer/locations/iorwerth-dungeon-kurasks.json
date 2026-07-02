@@ -1,0 +1,11 @@
+{
+  "locationId": "iorwerth-dungeon-kurasks",
+  "name": "Iorwerth Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Song of the Elves. Contains 14 Kurasks with crystal shard drops; King kurasks here always drop crystal shards. A cannon can be set up, but Kurasks are immune to cannon damage."
+}

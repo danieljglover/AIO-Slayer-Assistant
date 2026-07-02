@@ -1,0 +1,533 @@
+{
+  "strategyId": "k-ril-tsutsaroth",
+  "variantIds": [
+    "boss-k-ril-tsutsaroth",
+    "greater-demons-k-ril-tsutsaroth"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/K'ril_Tsutsaroth/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "osmumten-s-fang",
+      "arclight"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Demon boss. Demonbane melee is strong, Scorching bow solo bind is a major ranged method, and Tumeken's shadow supports the high-effort 5:0 magic method."
+  },
+  "requirements": [
+    "Complete Death Plateau and start Troll Stronghold up to defeating Dad, or use Ghommal's hilt to teleport to Trollheim.",
+    "Bring one rope for the first God Wars Dungeon entry.",
+    "70 Hitpoints is required to enter Zamorak's Fortress.",
+    "Zamorak killcount or an appropriate entry bypass is required for repeated boss room access."
+  ],
+  "mechanics": [
+    "K'ril uses melee most often and magic less often; both are single-target.",
+    "His melee swipe can poison even through Protect from Melee.",
+    "If the target is praying Protect from Melee, K'ril can use Prayer Smash instead of a melee hit, dealing heavy damage and draining prayer. Spectral spirit shield reduces the prayer drain.",
+    "His magic attack is only used against players in melee range.",
+    "Bodyguards are Balfrug Kreeyath using magic, Tstanon Karlak using melee, and Zakl'n Gritch using ranged.",
+    "After K'ril dies, bodyguards retarget random players in the room."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "role": "general",
+      "summary": "Use high magic defence with Protect from Melee for melee-range kills, manage minion damage after K'ril dies, and use blood spells or sustain gear because bones to peaches does not work on ashes.",
+      "recommendedFor": [
+        "baseline understanding",
+        "solo and team kills"
+      ],
+      "prayers": [
+        "Protect from Melee for standard melee-range kills",
+        "Adjust prayers after K'ril dies based on which minions target the player"
+      ],
+      "steps": [
+        "Wear gear that can handle K'ril's melee threat while keeping strong magic defence.",
+        "Use Protect from Melee during typical melee-range kills.",
+        "After K'ril dies, identify which bodyguards are targeting each player.",
+        "Kill or control minions while keeping hitpoints high.",
+        "For solo sustain, stack Tstanon Karlak and Zakl'n Gritch when possible and use Blood Barrage.",
+        "In teams, consider Lunar support spells such as Boost Potion Share and Stat Restore Pot Share."
+      ],
+      "risks": [
+        "Prayer Smash can punish Protect from Melee with large damage and prayer drain.",
+        "Bones to peaches cannot be used because K'ril and minions drop ashes."
+      ],
+      "notes": [
+        "Ward of Arceuus and Death Charge are optional utility choices when not using Lunar spells."
+      ]
+    },
+    {
+      "methodId": "solo-scorching-bow",
+      "label": "Solo Scorching bow bind",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "Use Scorching bow special attacks with Lightbearer to bind K'ril, kite counterclockwise, and avoid most direct boss damage for long solo trips.",
+      "recommendedFor": [
+        "solo",
+        "long trips",
+        "players with Scorching bow and Lightbearer"
+      ],
+      "requiredOrKeyItems": [
+        "scorching-bow",
+        "lightbearer",
+        "blood-barrage-runes"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Start each kill in the north-west corner of the room, far from Tstanon Karlak's spawn.",
+        "Use Scorching bow special attack to bind K'ril in place.",
+        "Treat one special attack bind as lasting six attacks total.",
+        "On the seventh attack, use Scorching bow special attack again to refresh the bind.",
+        "Move counterclockwise around the room while kiting K'ril and Tstanon Karlak.",
+        "With good gear and stats, rely on Lightbearer to sustain special attack energy.",
+        "After K'ril dies, kill Balfrug Kreeyath first.",
+        "Stack Tstanon Karlak and Zakl'n Gritch and heal with Blood Barrage."
+      ],
+      "fallbacks": [
+        "Death Charge can replace Lightbearer special-energy sustain, but it requires the Arceuus spellbook.",
+        "If using Death Charge, Blood Barrage is unavailable, so bring Guthan's equipment, extra brews, or another healing plan."
+      ],
+      "risks": [
+        "Missing the special attack refresh lets K'ril close distance.",
+        "Using Arceuus for Death Charge shortens trips because Blood Barrage healing is lost."
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scorching bow",
+            "Twisted bow",
+            "Bow of faerdhinen"
+          ],
+          "ring": [
+            "Lightbearer",
+            "Venator ring",
+            "Archers ring (i)"
+          ],
+          "special": [
+            "Scorching bow",
+            "Toxic blowpipe"
+          ]
+        }
+      },
+      "inventory": [
+        "Blood Barrage runes for minion healing",
+        "Toxic blowpipe for special attacks if not relying fully on Scorching bow",
+        "Food and prayer restoration for mistakes or minion damage"
+      ]
+    },
+    {
+      "methodId": "solo-shadow-5-0",
+      "label": "Solo Tumeken's shadow 5:0",
+      "combatStyle": "MAGIC",
+      "role": "solo",
+      "summary": "Use Tumeken's shadow with the 5:0 method for very high solo DPS, avoiding all K'ril damage when performed correctly.",
+      "recommendedFor": [
+        "experienced solo players",
+        "players with Tumeken's shadow and strong magic gear"
+      ],
+      "requiredOrKeyItems": [
+        "tumeken-s-shadow"
+      ],
+      "steps": [
+        "Use a 5:0 movement and attack cycle with Tumeken's shadow.",
+        "Maintain tick-perfect timing and precise clicks to avoid taking K'ril damage.",
+        "Use a private instance when planning very long trips so supply drops do not despawn."
+      ],
+      "risks": [
+        "This method is much more input-intensive than other solo methods.",
+        "Magic setups weaker than Tumeken's shadow are not recommended by the guide."
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow",
+            "Purging staff"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Arcane spirit shield",
+            "Elidinis' ward"
+          ],
+          "special": [
+            "Eldritch nightmare staff"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "tank-protect-from-melee",
+      "label": "Tank with Protect from Melee",
+      "combatStyle": "MELEE",
+      "role": "tank",
+      "summary": "Tank K'ril similarly to General Graardor, using strong defensive gear and timing attacks so K'ril hits as infrequently as possible.",
+      "recommendedFor": [
+        "teams",
+        "players tanking in melee range"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Bring a tank setup with high defensive bonuses.",
+        "Hit K'ril twice for every hit he lands to reduce incoming damage over time.",
+        "If using melee, expect K'ril to hit about every eight game ticks under this rhythm.",
+        "Use Vengeance where available to reflect some incoming damage.",
+        "Stay aware of Prayer Smash when using Protect from Melee."
+      ],
+      "risks": [
+        "Prayer Smash plus bodyguard hits can create dangerous burst damage.",
+        "The tank may need antidote support because K'ril can poison."
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Zamorakian hasta",
+            "Ghrazi rapier",
+            "Scythe of vitur",
+            "Abyssal tentacle"
+          ],
+          "shield": [
+            "Elysian spirit shield",
+            "Dragonfire shield",
+            "Spectral spirit shield",
+            "Crystal shield",
+            "Avernic defender"
+          ],
+          "special": [
+            "Voidwaker",
+            "Saradomin godsword",
+            "Dragon claws",
+            "Emberlight",
+            "Arclight"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "tank-protect-from-magic",
+      "label": "Defensive tank with Protect from Magic",
+      "combatStyle": "MELEE",
+      "role": "tank",
+      "summary": "Use Protect from Magic with very high melee and ranged defence to avoid Prayer Smash and neutralize Balfrug Kreeyath, accepting slower kills for safer tanking.",
+      "recommendedFor": [
+        "defensive team tanking",
+        "players prioritizing survival"
+      ],
+      "requiredOrKeyItems": [
+        "justiciar-armour",
+        "elysian-spirit-shield-or-dragonfire-shield"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Wear very high melee and ranged defence.",
+        "Use Protect from Magic so K'ril does not use Prayer Smash.",
+        "Let the defensive gear handle K'ril's melee attacks and Zakl'n Gritch's ranged pressure.",
+        "Use accuracy-focused glove and amulet choices because the defensive setup already covers armour slots."
+      ],
+      "risks": [
+        "Trips and kills are slower than offensive tanking.",
+        "Using full Justiciar can give up Slayer helmet bonuses while on task."
+      ],
+      "equipment": {
+        "slots": {
+          "body": [
+            "Justiciar chestguard",
+            "Guthan's platebody",
+            "Torva platebody",
+            "Bandos chestplate"
+          ],
+          "legs": [
+            "Justiciar legguards",
+            "Verac's plateskirt",
+            "Torva platelegs",
+            "Bandos tassets"
+          ],
+          "shield": [
+            "Elysian spirit shield",
+            "Dragonfire shield",
+            "Spectral spirit shield"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "team-attacker",
+      "label": "Team attacker",
+      "combatStyle": "MELEE",
+      "role": "attacker",
+      "summary": "Attackers wait for the tank to tag K'ril, pray against the most dangerous minion for their setup, and avoid taking boss focus.",
+      "recommendedFor": [
+        "teams",
+        "non-tank players"
+      ],
+      "prayers": [
+        "Melee attackers use Protect from Magic while not tanking.",
+        "Ranged attackers use Protect from Missiles while not tanking.",
+        "If K'ril focuses a melee attacker, switch to Protect from Magic.",
+        "If K'ril focuses a ranged attacker, switch to Protect from Melee."
+      ],
+      "steps": [
+        "Stand near one of the altar-side corners before K'ril respawns.",
+        "Wait for the tank to hit K'ril before attacking.",
+        "Pray against the minion that threatens your combat style most.",
+        "Wear armour that covers the other minion styles.",
+        "Bring antidote++ for yourself and to help the tank if needed."
+      ],
+      "risks": [
+        "If K'ril switches focus to an attacker, their gear may be poor for tanking him."
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Abyssal tentacle"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Rune defender",
+            "Dragonfire shield",
+            "Elysian spirit shield"
+          ],
+          "special": [
+            "Voidwaker",
+            "Dragon claws",
+            "Elder maul",
+            "Emberlight",
+            "Arclight",
+            "Bandos godsword"
+          ]
+        }
+      },
+      "inventory": [
+        "Antidote++",
+        "Special attack weapon if not using Arclight or Emberlight as the main weapon"
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "Scorching bow is the headline ranged option because its special attack binds K'ril and extends trips.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Armadyl helmet",
+            "Crystal helm",
+            "Void ranger helm"
+          ],
+          "neck": [
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Crystal body",
+            "Karil's leathertop",
+            "Hueycoatl hide body",
+            "Elite void top",
+            "Zamorak d'hide body"
+          ],
+          "legs": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Crystal legs",
+            "Karil's leatherskirt",
+            "Hueycoatl hide chaps",
+            "Elite void robe",
+            "Zamorak chaps"
+          ],
+          "weapon": [
+            "Scorching bow",
+            "Twisted bow",
+            "Bow of faerdhinen"
+          ],
+          "ammo": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Unholy blessing"
+          ],
+          "ring": [
+            "Lightbearer",
+            "Venator ring",
+            "Archers ring (i)",
+            "Ring of suffering (ri)"
+          ],
+          "special": [
+            "Scorching bow",
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "solo-melee",
+      "label": "Solo Melee",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Solo melee focuses on demonbane or strong stab weapons while wearing enough ranged/magic defence to survive minions and K'ril.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Osmumten's fang",
+            "Arclight"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Spectral spirit shield",
+            "Elysian spirit shield",
+            "Dragon defender",
+            "Dragonfire shield"
+          ],
+          "ring": [
+            "Lightbearer",
+            "Bellator ring",
+            "Ultor ring",
+            "Ring of suffering (ri)",
+            "Berserker ring (i)",
+            "Brimstone ring"
+          ],
+          "special": [
+            "Saradomin godsword",
+            "Voidwaker",
+            "Dragon claws",
+            "Ancient godsword",
+            "Elder maul",
+            "Emberlight",
+            "Arclight"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-tank",
+      "label": "Melee Tank",
+      "combatStyle": "MELEE",
+      "role": "tank",
+      "summary": "Tank setup prioritizes survival with high defence, optional Justiciar, and a defensive shield.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Zamorakian hasta",
+            "Ghrazi rapier",
+            "Scythe of vitur",
+            "Abyssal tentacle"
+          ],
+          "shield": [
+            "Elysian spirit shield",
+            "Dragonfire shield",
+            "Spectral spirit shield",
+            "Crystal shield",
+            "Avernic defender"
+          ],
+          "special": [
+            "Voidwaker",
+            "Saradomin godsword",
+            "Dragon claws",
+            "Emberlight",
+            "Arclight"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "attacker",
+      "summary": "Team melee attacker setup emphasizes offensive melee gear and defender-based damage.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Abyssal tentacle"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Rune defender",
+            "Dragonfire shield",
+            "Elysian spirit shield"
+          ],
+          "special": [
+            "Voidwaker",
+            "Dragon claws",
+            "Elder maul",
+            "Emberlight",
+            "Arclight",
+            "Bandos godsword"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic",
+      "label": "Magic",
+      "combatStyle": "MAGIC",
+      "role": "solo",
+      "summary": "Magic is centered on Tumeken's shadow and the 5:0 method; weaker magic weapons are not recommended by the guide.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow",
+            "Purging staff"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Arcane spirit shield",
+            "Elidinis' ward",
+            "Ancient wyvern shield",
+            "Malediction ward",
+            "Mage's book"
+          ],
+          "ring": [
+            "Magus ring",
+            "Ring of suffering (ri)",
+            "Seers ring (i)"
+          ],
+          "special": [
+            "Eldritch nightmare staff"
+          ]
+        }
+      }
+    }
+  ]
+}

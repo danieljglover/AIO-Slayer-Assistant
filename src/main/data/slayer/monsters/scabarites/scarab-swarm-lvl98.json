@@ -1,0 +1,30 @@
+{
+  "variantId": "scarab-swarm",
+  "name": "Scarab swarm",
+  "npcIds": [
+    4192,
+    1782
+  ],
+  "combatLevel": 98,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 30,
+    "stab": 90,
+    "slash": 90,
+    "crush": 5,
+    "magic": 90,
+    "range": 90
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": false,
+  "location": "Sophanem Dungeon, Pyramid Plunder, Klenter's Pyramid",
+  "requirement": "Only aggressive to the player that caused them to spawn; poisonous; 1 Slayer XP per kill",
+  "bossId": null,
+  "strategyId": "scabarites"
+}

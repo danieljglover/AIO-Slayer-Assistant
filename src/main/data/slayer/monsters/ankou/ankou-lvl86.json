@@ -1,0 +1,31 @@
+{
+  "variantId": "ankou-level-86",
+  "name": "Ankou (Level 86)",
+  "npcIds": [
+    2516,
+    2519,
+    6608
+  ],
+  "combatLevel": 86,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Stronghold Slayer Cave / Catacombs of Kourend / The Forgotten Cemetery / Wilderness Slayer Cave / Deepfin Mine",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "ankou"
+}

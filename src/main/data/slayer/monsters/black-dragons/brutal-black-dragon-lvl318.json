@@ -1,0 +1,31 @@
+{
+  "variantId": "brutal-black-dragon",
+  "name": "Brutal black dragon",
+  "npcIds": [
+    7275,
+    8092,
+    8093
+  ],
+  "combatLevel": 318,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 258,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 60,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Catacombs of Kourend",
+  "requirement": "Slayer level 77",
+  "strategyId": "black-dragons",
+  "bossId": null
+}

@@ -1,0 +1,39 @@
+{
+  "variantId": "shade-catacombs",
+  "name": "Shade (Catacombs of Kourend)",
+  "npcIds": [
+    7258
+  ],
+  "combatLevel": 140,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Catacombs of Kourend",
+  "requirement": "Combat level 30 to be assigned",
+  "bossId": null,
+  "strategyId": "shades",
+  "offence": {
+    "hitpoints": 115,
+    "maxHit": 15,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

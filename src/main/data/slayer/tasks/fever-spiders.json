@@ -1,0 +1,101 @@
+{
+  "taskId": "fever-spiders",
+  "name": "Fever spiders",
+  "wikiPageId": 15976,
+  "combatLevel": 40,
+  "slayerTargetId": 251,
+  "slayerLevel": 42,
+  "questReqs": [
+    "Rum Deal (partial)"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      30,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7,
+    "chaeldar": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "fever-spiders"
+  ],
+  "variantIds": [
+    "fever-spider"
+  ],
+  "defaultVariantId": "fever-spider",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 20,
+    "slash": 15,
+    "crush": 10,
+    "magic": 15,
+    "range": 15
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 6708,
+  "requiredItemName": "Slayer gloves",
+  "locationIds": [
+    "braindeath-island"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "fever-spider",
+      "name": "Fever spider",
+      "combatLevel": 49,
+      "slayerXp": 40,
+      "locations": [
+        "Braindeath Island"
+      ],
+      "notes": [
+        "Found only in the Braindeath Island brewery basement (Rum Deal).",
+        "Attacking without Slayer gloves deals 12.5% max-HP damage and inflicts disease."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "braindeath-island",
+      "name": "Braindeath Island",
+      "amount": 11,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "11 spawns in the brewery basement; the sole Fever spider location.",
+        "Many crate safespots; the south-west corner is noted.",
+        "Cannon placement is not wiki-stated; the conservative default is used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Fever spiders require 42 Slayer, 40 combat, and partial Rum Deal to be assigned; Rum Deal must be started to access Braindeath Island.",
+    "slayerTargetId 251 is SYNTHETIC (WC-1..11 allocation contract: 240 + WC index); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Slayer gloves must be worn when attacking, or the player takes 12.5% max-HP damage and becomes diseased.",
+    "Disease drains stats; bring a Relicym's balm when safespotting without Slayer gloves.",
+    "Fever spiders have a 25% elemental weakness to fire spells.",
+    "They attack with stab melee, max hit 4 (1-12 without slayer gloves), and are not aggressive.",
+    "The brewery basement has many crate safespots for ranged and magic users.",
+    "No task extension unlock exists for Fever spiders."
+  ],
+  "recommendedMethod": "Wear Slayer gloves and kill the 11 brewery-basement spiders with melee; their low defences and max hit of 4 make the task trivial. Ranged or magic users can crate-safespot with better offensive gloves (bring Relicym's balm), and fire spells exploit the 25% elemental weakness."
+}

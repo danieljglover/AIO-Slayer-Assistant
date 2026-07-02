@@ -1,0 +1,29 @@
+{
+  "variantId": "spitting-wyvern",
+  "name": "Spitting Wyvern",
+  "npcIds": [
+    7794
+  ],
+  "combatLevel": 139,
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 90,
+    "stab": 50,
+    "slash": 70,
+    "crush": 70,
+    "magic": 140,
+    "range": 70
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wyvern Cave, Fossil Island",
+  "requirement": "Slayer 66; Bone Voyage; anti-icy-breath shield",
+  "bossId": null,
+  "strategyId": "fossil-island-wyverns"
+}

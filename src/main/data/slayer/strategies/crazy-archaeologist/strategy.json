@@ -1,0 +1,134 @@
+{
+  "strategyId": "crazy-archaeologist",
+  "variantIds": [
+    "crazy-archaeologist"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Crazy_archaeologist/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "accursed-sceptre",
+      "thammaron-s-sceptre",
+      "eye-of-ayak",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "trident-of-the-seas",
+      "warped-sceptre",
+      "iban-s-staff-u"
+    ],
+    "secondaryWeapons": [],
+    "note": "Weak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons."
+  },
+  "requirements": [
+    "Access to Crazy Archaeologist's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Weak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Weak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "accursed-sceptre",
+        "thammaron-s-sceptre",
+        "eye-of-ayak",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "trident-of-the-seas",
+        "warped-sceptre",
+        "iban-s-staff-u"
+      ],
+      "steps": [
+        "Weak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons."
+      ]
+    },
+    {
+      "methodId": "magic-kill-and-book-bomb",
+      "label": "Magic kill and book bomb",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Use magic against Crazy archaeologist and move away from the book-bomb special attack.",
+      "recommendedFor": [
+        "Crazy archaeologist boss tasks",
+        "early Rune crossbow hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Accursed sceptre",
+        "Trident of the swamp",
+        "Iban's staff (u)",
+        "Escape teleport"
+      ],
+      "prayers": [
+        "Protect from Missiles or Magic depending setup",
+        "Mystic Might or Augury"
+      ],
+      "steps": [
+        "Attack with magic because the boss has low magic defence.",
+        "When he announces his book attack, move away from the targeted tile before it lands.",
+        "Keep health high enough to survive mistakes and Wilderness interruptions.",
+        "Loot quickly and reset if another player enters the area."
+      ],
+      "risks": [
+        "The book-bomb special can stack heavy damage.",
+        "The Wilderness location creates player-killer risk."
+      ]
+    },
+    {
+      "methodId": "low-risk-wilderness-trip",
+      "label": "Low-risk Wilderness trip",
+      "combatStyle": "MAGIC",
+      "role": "risk",
+      "summary": "Use inexpensive magic gear and short trips to control Wilderness losses.",
+      "recommendedFor": [
+        "low-level accounts",
+        "collection log or rune crossbow attempts"
+      ],
+      "requiredOrKeyItems": [
+        "Cheap magic gear",
+        "Food",
+        "Teleport slash escape route"
+      ],
+      "steps": [
+        "Risk only the gear needed to keep kills consistent.",
+        "Bring enough food for book-bomb mistakes and player interruptions.",
+        "Bank valuable drops instead of extending with full inventory."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Crazy Archaeologist setup using Accursed sceptre.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Accursed sceptre",
+            "Thammaron's sceptre",
+            "Eye of ayak",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Warped sceptre",
+            "Iban's staff (u)"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Crazy archaeologist\n\nWeak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons."
+}

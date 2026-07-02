@@ -1,0 +1,36 @@
+{
+  "variantId": "guard-prifddinas",
+  "name": "Guard (Prifddinas)",
+  "npcIds": [
+    9182,
+    9183,
+    9184,
+    9185,
+    9186,
+    9187,
+    9188,
+    9189
+  ],
+  "combatLevel": 108,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 50,
+    "slash": 70,
+    "crush": 70,
+    "magic": 60,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Prifddinas (all gates, Tower of Voices, market)",
+  "requirement": "Song of the Elves",
+  "bossId": null,
+  "strategyId": "elves"
+}

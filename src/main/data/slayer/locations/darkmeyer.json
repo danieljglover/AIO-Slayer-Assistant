@@ -1,0 +1,11 @@
+{
+  "locationId": "darkmeyer",
+  "name": "Darkmeyer",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires starting Sins of the Father for Darkmeyer access. The west Arboretum area has Vyrewatch Sentinels near an altar, bank, Drakan's medallion teleport, and the Hallowed Sepulchre lobby bank chest."
+}

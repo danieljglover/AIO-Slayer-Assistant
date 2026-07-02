@@ -1,0 +1,11 @@
+{
+  "locationId": "fremennik-slayer-dungeon-turoths",
+  "name": "Fremennik Slayer Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 22 Turoths, the only place they are found. Single combat with safespots; Turoths can only be damaged by leaf-bladed weapons, broad ammunition, or Magic Dart."
+}

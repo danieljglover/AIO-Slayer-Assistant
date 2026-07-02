@@ -1,0 +1,29 @@
+{
+  "variantId": "boss-dagannoth-prime",
+  "name": "Dagannoth Prime",
+  "npcIds": [
+    2266
+  ],
+  "combatLevel": 303,
+  "weakness": {
+    "style": "RANGED",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 255,
+    "stab": 255,
+    "slash": 255,
+    "crush": 255,
+    "magic": 255,
+    "range": 10
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Waterbirth Island Dungeon",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "dagannoth-prime"
+}

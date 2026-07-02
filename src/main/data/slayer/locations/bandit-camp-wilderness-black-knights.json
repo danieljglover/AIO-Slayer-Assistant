@@ -1,0 +1,11 @@
+{
+  "locationId": "bandit-camp-wilderness-black-knights",
+  "name": "Black Knights (Wilderness)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Level 33 Wilderness Black Knights spawn south of the Bandit Camp (Lava Maze area, ~level 33) with a further cluster north-east of the Bone Yard. Family-tuned copy of bandit-camp-wilderness (CT-L rule 2): the black knights occupy a distinct adjacent spot. Multicombat, cannon placement and safespots are not wiki-stated, so conservative defaults are used. This is a PvP zone; bring Wilderness risk gear."
+}

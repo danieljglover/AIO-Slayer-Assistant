@@ -1,0 +1,30 @@
+{
+  "variantId": "boss-king-black-dragon",
+  "name": "King Black Dragon",
+  "npcIds": [
+    239,
+    2642
+  ],
+  "combatLevel": 276,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 240,
+    "stab": 40,
+    "slash": 90,
+    "crush": 90,
+    "magic": 80,
+    "range": 40
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "King Black Dragon Lair (Wilderness instance via lever)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "king-black-dragon"
+}

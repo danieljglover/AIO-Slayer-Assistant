@@ -1,0 +1,89 @@
+{
+  "taskId": "mammoths",
+  "name": "Mammoths",
+  "wikiPageId": null,
+  "combatLevel": 80,
+  "slayerTargetId": 265,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "mammoths"
+  ],
+  "variantIds": [
+    "mammoth"
+  ],
+  "defaultVariantId": "mammoth",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "mammoth-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "mammoth",
+      "name": "Mammoth",
+      "combatLevel": 80,
+      "slayerXp": 130.0,
+      "locations": [
+        "South-east of Ferox Enclave"
+      ],
+      "notes": [
+        "Found in the Wilderness south-east of Ferox Enclave.",
+        "Uses a stab melee attack (max hit about 7); has no elemental weakness and very low defensive bonuses.",
+        "Krystilia counts only these Wilderness mammoths."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "mammoth-wilderness",
+      "name": "Wilderness (south-east of Ferox Enclave)",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Mammoths roam the Wilderness south-east of Ferox Enclave.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 265 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Mammoths is not wiki-published; QA live-verify.",
+    "Krystilia assigns mammoths as a Wilderness-only task; only the Wilderness mammoths (south-east of Ferox Enclave) count.",
+    "Mammoths have no elemental weakness and very low defensive bonuses, so any strong weapon is effective.",
+    "Mammoths use a stab melee attack with a max hit of about 7.",
+    "The spawn area is in the Wilderness; keep low-risk gear and a one-click escape teleport ready."
+  ],
+  "recommendedMethod": "Kill mammoths in the Wilderness south-east of Ferox Enclave with any strong melee weapon such as Viggora's chainmace; they have no elemental weakness and negligible defence, so speed and survivability matter most. Wear low-risk gear and keep a one-click escape teleport ready."
+}

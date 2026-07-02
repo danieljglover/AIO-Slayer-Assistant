@@ -1,0 +1,40 @@
+{
+  "variantId": "flesh-crawler",
+  "name": "Flesh Crawler",
+  "npcIds": [
+    2498,
+    2499,
+    2500
+  ],
+  "combatLevel": 41,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 10,
+    "stab": 15,
+    "slash": 15,
+    "crush": 15,
+    "magic": 15,
+    "range": 15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Stronghold of Security, Catacomb of Famine (2nd level)",
+  "locationId": "stronghold-of-security-flesh-crawlers",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "flesh-crawlers",
+  "offence": {
+    "hitpoints": 25,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 3
+  }
+}

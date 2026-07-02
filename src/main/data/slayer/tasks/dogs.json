@@ -1,0 +1,133 @@
+{
+  "taskId": "dogs",
+  "name": "Dogs",
+  "wikiPageId": null,
+  "combatLevel": 15,
+  "slayerTargetId": 286,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "turael": 7,
+    "spria": 7,
+    "mazchna": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "dogs"
+  ],
+  "variantIds": [
+    "guard-dog",
+    "jackal",
+    "wild-dog"
+  ],
+  "defaultVariantId": "guard-dog",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 37,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "dog-spawns"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "guard-dog",
+      "name": "Guard dog",
+      "combatLevel": 44,
+      "slayerXp": 49,
+      "locations": [
+        "McGrubor's Wood",
+        "Hosidius",
+        "Kourend Castle"
+      ],
+      "notes": [
+        "49 Hitpoints, max hit 5 (crush), 4-tick attack speed, Defence level 37 with no bonuses.",
+        "No elemental weakness."
+      ]
+    },
+    {
+      "variantId": "jackal",
+      "name": "Jackal",
+      "combatLevel": 21,
+      "slayerXp": 27,
+      "locations": [
+        "Kharidian Desert (Pollnivneach, Nardah, Sophanem, Ancient Pyramid)"
+      ],
+      "notes": [
+        "27 Hitpoints, max hit 3, Defence level 15.",
+        "10% elemental weakness to fire spells."
+      ]
+    },
+    {
+      "variantId": "wild-dog",
+      "name": "Wild dog",
+      "combatLevel": 63,
+      "slayerXp": 62,
+      "locations": [
+        "Brimhaven Dungeon, Karamja"
+      ],
+      "notes": [
+        "62 Hitpoints, max hit 6, Defence level 54 with no bonuses.",
+        "No elemental weakness; highest Slayer XP of the dog variants."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "dog-spawns",
+      "name": "Dog spawns",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "McGrubor's Wood holds the densest guard dog cluster (10 spawns).",
+        "Wild dogs (Brimhaven Dungeon) and jackals (Kharidian Desert) are alternatives; multi, cannon and safespot availability are not wiki-confirmed (conservative defaults)."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Dogs requires combat level 15 to be assigned by Turael, Spria, or Mazchna. There is no Slayer level requirement.",
+    "slayerTargetId 286 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The Dogs task counts guard dogs, jackals and wild dogs; each is a distinct monster with its own page (no single Dogs monster page exists, so wikiPageId is null).",
+    "Guard dog: combat level 44, 49 HP, max hit 5 (crush), Defence 37, no bonuses, no elemental weakness (npc 114/7209).",
+    "Jackal: combat level 21, 27 HP, max hit 3, Defence 15, 10% fire weakness (npc 4185/11583).",
+    "Wild dog: combat level 63, 62 HP, max hit 6, Defence 54, no bonuses (npc 112/113); highest Slayer XP.",
+    "None of the dogs are undead, so the salve amulet does not apply. No task extension unlock exists for Dogs."
+  ],
+  "recommendedMethod": "Kill guard dogs in McGrubor's Wood (10 spawns) with any melee weapon, since none of the dog variants have defensive bonuses. Wild dogs in Brimhaven Dungeon give more Slayer XP; jackals in the Kharidian Desert have a 10% fire weakness that fire spells exploit for a Magic alternative."
+}

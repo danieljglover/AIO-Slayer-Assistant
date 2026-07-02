@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-slayer-cave-dust-devils",
+  "name": "Wilderness Slayer Cave",
+  "multi": true,
+  "cannon": true,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Dust devils are in the north-east Wilderness Slayer Cave area around level 25-28 Wilderness. The multicombat room can be cannoned, burst, barraged, and safespotted, but carries player-killer risk; do not bring items you are unwilling to lose."
+}

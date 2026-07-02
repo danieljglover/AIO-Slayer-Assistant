@@ -1,0 +1,168 @@
+{
+  "Kalphite": [
+    {
+      "name": "Kalphite Worker",
+      "npcIds": [955, 956, 961],
+      "combatLevel": 28,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 50, "stab": 20, "slash": 20, "crush": 20, "magic": 25, "range": 20 },
+      "demon": false, "dragon": false, "kalphite": true, "undead": false,
+      "isBoss": false,
+      "location": "Kalphite Lair / Kalphite Cave (task-only)",
+      "requirement": "none"
+    },
+    {
+      "name": "Kalphite Soldier",
+      "npcIds": [957, 958],
+      "combatLevel": 85,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 70, "stab": 25, "slash": 25, "crush": 5, "magic": 50, "range": 30 },
+      "demon": false, "dragon": false, "kalphite": true, "undead": false,
+      "isBoss": false,
+      "location": "Kalphite Lair / Kalphite Cave (task-only)",
+      "requirement": "none"
+    },
+    {
+      "name": "Kalphite Guardian",
+      "npcIds": [959, 962, 960],
+      "combatLevel": 141,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 110, "stab": 25, "slash": 25, "crush": 5, "magic": 50, "range": 30 },
+      "demon": false, "dragon": false, "kalphite": true, "undead": false,
+      "isBoss": false,
+      "location": "Kalphite Lair (upper/lower) / Kalphite Cave",
+      "requirement": "none"
+    },
+    {
+      "name": "Kalphite Queen (crawling form)",
+      "npcIds": [963, 4303],
+      "combatLevel": 333,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 300, "stab": 50, "slash": 50, "crush": 10, "magic": 100, "range": 100 },
+      "demon": false, "dragon": false, "kalphite": true, "undead": false,
+      "isBoss": true,
+      "location": "Kalphite Lair",
+      "requirement": "boss - separate trip"
+    },
+    {
+      "name": "Kalphite Queen (airborne form)",
+      "npcIds": [965, 4304],
+      "combatLevel": 333,
+      "weakness": { "style": "MAGIC", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 300, "stab": 100, "slash": 100, "crush": 100, "magic": 10, "range": 10 },
+      "demon": false, "dragon": false, "kalphite": true, "undead": false,
+      "isBoss": true,
+      "location": "Kalphite Lair",
+      "requirement": "boss - separate trip"
+    }
+  ],
+  "Araxytes": [
+    {
+      "name": "Araxyte (level 146)",
+      "npcIds": [11176, 13667],
+      "combatLevel": 146,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 200, "stab": 60, "slash": 60, "crush": 60, "magic": 100, "range": 60 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": false,
+      "location": "Morytania Spider Cave (2x2; only variant that spawns the Dreadborn superior)",
+      "requirement": "Slayer 92; Priest in Peril"
+    },
+    {
+      "name": "Araxyte (level 96)",
+      "npcIds": [11175, 13666],
+      "combatLevel": 96,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 60, "stab": 60, "slash": 30, "crush": 20, "magic": 20, "range": 20 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": false,
+      "location": "Morytania Spider Cave (1x1; cannot spawn superior - worse drop table)",
+      "requirement": "Slayer 92; Priest in Peril"
+    },
+    {
+      "name": "Dreadborn Araxyte",
+      "npcIds": [13680],
+      "combatLevel": 281,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 60, "slash": 30, "crush": 0, "magic": 100, "range": 100 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": false,
+      "location": "Morytania Spider Cave (superior; spawns only from level 146 araxytes)",
+      "requirement": "Slayer 92; Priest in Peril"
+    },
+    {
+      "name": "Araxxor",
+      "npcIds": [13668],
+      "combatLevel": 890,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 135, "stab": 160, "slash": 75, "crush": 15, "magic": 237, "range": 218 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": true,
+      "location": "Morytania Spider Cave (crush strongly recommended; cannon-immune)",
+      "requirement": "boss - separate trip"
+    }
+  ],
+  "Mutated zygomites": [
+    {
+      "name": "Zygomite (level 74)",
+      "npcIds": [537],
+      "combatLevel": 74,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 60, "stab": 25, "slash": 25, "crush": 25, "magic": 30, "range": 25 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": false,
+      "location": "Zanaris (east of furnace)",
+      "requirement": "Slayer 57; fungicide spray to finish"
+    },
+    {
+      "name": "Zygomite (level 86)",
+      "npcIds": [1024],
+      "combatLevel": 86,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 75, "stab": 10, "slash": 10, "crush": 10, "magic": 20, "range": 20 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": false,
+      "location": "Zanaris (near Cosmic Altar; also east of furnace)",
+      "requirement": "Slayer 57; fungicide spray to finish"
+    },
+    {
+      "name": "Ancient Zygomite",
+      "npcIds": [7797],
+      "combatLevel": 109,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 80, "stab": 20, "slash": 20, "crush": 20, "magic": 30, "range": 30 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": false,
+      "location": "Mushroom Forest (Fossil Island) / Stalker Den (Custodia Pass)",
+      "requirement": "Slayer 57; fungicide spray to finish"
+    }
+  ],
+  "Aquanites": [
+    {
+      "name": "Aquanite",
+      "npcIds": [15497, 15498],
+      "combatLevel": 145,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": null },
+      "monsterDefence": { "defenceLevel": 70, "stab": 40, "slash": 40, "crush": 20, "magic": 40, "range": 40 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": false,
+      "location": "Ynysdail Cavern (best type STAB; sever lure to drop stab 60->10; cannon-immune)",
+      "requirement": "Slayer 78; Sailing 73 + adamant keel; 'Lured In' unlock to be assigned"
+    },
+    {
+      "name": "Elder aquanite",
+      "npcIds": [15502, 15503],
+      "combatLevel": 305,
+      "weakness": { "style": "MELEE", "element": null },
+      "monsterDefence": { "defenceLevel": 180, "stab": 60, "slash": 80, "crush": 80, "magic": 330, "range": 100 },
+      "demon": false, "dragon": false, "kalphite": false, "undead": false,
+      "isBoss": false,
+      "location": "Ynysdail Cavern (superior; 'Bigger and Badder' unlock; 1/200 on task; cannon-immune)",
+      "requirement": "Slayer 78; Sailing 73 + adamant keel; 'Bigger and Badder' unlock"
+    }
+  ]
+}

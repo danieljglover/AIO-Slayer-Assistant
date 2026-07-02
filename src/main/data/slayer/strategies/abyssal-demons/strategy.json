@@ -1,0 +1,689 @@
+{
+  "strategyId": "abyssal-demons",
+  "variantIds": [
+    "abyssal-demon",
+    "greater-abyssal-demon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Abyssal_demons",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "kodai-wand",
+      "accursed-sceptre",
+      "nightmare-staff",
+      "ancient-sceptre",
+      "blue-moon-spear"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "emberlight",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "arclight",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Catacombs magic with Smoke Barrage or Smoke Burst is the main high-XP strategy. Venator bow is the lower-attention ranged option, Wilderness Slayer Cave uses cannon plus Accursed sceptre with PK risk, and Emberlight or Arclight are the key melee choices for single-combat tasks."
+  },
+  "requirements": [
+    "85 Slayer and 85 combat are required to receive Abyssal demon assignments.",
+    "Access requires Priest in Peril or Fairytale II - Cure a Queen for abyss access.",
+    "Teleport anchoring scroll is highly recommended before the first task because it prevents Abyssal demons from teleporting the player.",
+    "Bigger and Badder enables Greater abyssal demon superior spawns.",
+    "Augment my abbies extends assignments to 200-250 Abyssal demons.",
+    "Wilderness Slayer Cave kills require accepting Wilderness PK risk."
+  ],
+  "mechanics": [
+    "Abyssal demons use accurate melee stab attacks with a max hit of 8.",
+    "Protect from Melee neutralizes normal Abyssal demon and Greater abyssal demon damage.",
+    "Abyssal demons frequently teleport around the combat area and can teleport the player up to 20 tiles away unless Teleport anchoring scroll has been read.",
+    "If the player does not have the anchoring scroll, Auto Retaliate helps continue attacking after teleport movement.",
+    "Greater abyssal demons have a max hit of 27 and always land a hit after teleporting if that hit is not prayed against.",
+    "Abyssal demons are demons, so Arclight, Emberlight, Scorching bow, and Demonbane spells apply their relevant demonbane bonuses.",
+    "Because Abyssal demons are 1x1 and low magic defence, area-of-effect Ancient Magicks are preferred for high experience in multicombat areas.",
+    "Smoke Barrage and Smoke Burst are favored over ice spells because frozen teleported demons will not move back until unfrozen.",
+    "Blood spells are much more expensive than Smoke spells and are not recommended for the main task damage loop.",
+    "Abyssal Sire can be killed on task as a profitable boss alternative, but it gives significantly lower Slayer experience than regular Abyssal demons."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "role": "general",
+      "summary": "Prioritize Catacombs or Wilderness multicombat methods for high Slayer experience, use Protect from Melee, read Teleport anchoring scroll if possible, and extend the task because Abyssal demons are a strong Slayer experience assignment.",
+      "recommendedFor": [
+        "baseline task planning",
+        "choosing between Catacombs, Wilderness, Slayer Tower, and Konar-locked single-combat tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Teleport anchoring scroll",
+        "Slayer helmet (i)",
+        "Bracelet of slaughter",
+        "Herb sack",
+        "Soul bearer",
+        "Explorer's ring 4",
+        "Ash sanctifier"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use Catacombs of Kourend for safe high experience with Ancient Magicks or Venator bow.",
+        "Use Wilderness Slayer Cave only when comfortable with PK risk; it is the only cannonable Abyssal demon location.",
+        "Use Slayer Tower or Abyssal Area mostly for Konar or single-combat requirements.",
+        "Keep Protect from Melee active against normal and superior Abyssal demons.",
+        "Read Teleport anchoring scroll before starting serious Abyssal demon tasks to remove player teleports.",
+        "If anchoring is unavailable, enable Auto Retaliate so the player resumes attacking after being teleported.",
+        "Extend tasks with Augment my abbies to get 200-250 kills.",
+        "Use Soul bearer for ensouled abyssal heads and Herb sack for frequent herb drops.",
+        "Consider Abyssal Sire only when profit is preferred over Slayer experience."
+      ],
+      "risks": [
+        "Without Teleport anchoring scroll, player teleports interrupt attacks and can break stacks.",
+        "Greater abyssal demons hit hard if Protect from Melee is not active after their teleport.",
+        "Wilderness Slayer Cave adds player-killer risk."
+      ],
+      "notes": [
+        "Abyssal whip is a 1/512 drop; Abyssal dagger is much rarer.",
+        "Catacombs kills can add Dark totem value, and Greater abyssal demons in the Catacombs always drop a Dark totem piece."
+      ]
+    },
+    {
+      "methodId": "catacombs-magic",
+      "label": "Catacombs magic",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Tag Abyssal demons in the Catacombs, stack them in a corridor, and use Smoke Barrage or Smoke Burst for high Slayer and Magic experience.",
+      "recommendedFor": [
+        "highest regular-task Slayer experience",
+        "players training Magic",
+        "extended Abyssal demon tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Kodai wand",
+        "Ancient Magicks",
+        "Dinh's bulwark or goading potion",
+        "Bracelet of slaughter",
+        "Teleport anchoring scroll",
+        "Extended antifire for the quickest route past iron dragons"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Wear Slayer helmet (i), magic damage gear, and enough prayer bonus for sustained Protect from Melee.",
+        "Prefer magic damage and prayer bonus over magic accuracy because Abyssal demons have low magic defence.",
+        "Use Dinh's bulwark special attack, a goading potion, or fast tagging weapons to make non-aggressive demons attack.",
+        "Tag all demons in one Catacombs chamber and lure them into the corridor.",
+        "Freeze or otherwise hold the first stack, then repeat with the other chamber to combine up to nine demons.",
+        "Cast Smoke Barrage or Smoke Burst, or the best available area-of-effect Ancient spell.",
+        "Stand east or west of the pile and continuously target one demon on its original tile to keep teleports inside the spell radius.",
+        "Use bracelet of slaughter to extend the task instead of Tormented bracelet when maximizing Slayer and Magic training.",
+        "Bring an extended antifire for the fastest route through aggressive iron dragons, or take the longer safer path through bloodveld, nechryael, and greater demon rooms."
+      ],
+      "fallbacks": [
+        "Ice spells can work if Teleport anchoring scroll has been read, but Smoke spells avoid frozen demons refusing to path back after teleporting.",
+        "Fast ranged weapons or toxic blowpipe can tag demons if Dinh's bulwark or goading potion is unavailable."
+      ],
+      "risks": [
+        "Blood spells are significantly more expensive than Smoke spells and are not recommended as the main damage spell.",
+        "Dinh's bulwark weight may require stamina potions or Explorer's ring run restoration.",
+        "Without Teleport anchoring scroll, stacks are less reliable."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Virtus mask",
+            "Ancestral hat",
+            "Saradomin mitre"
+          ],
+          "neck": [
+            "Occult necklace",
+            "Dragonbone necklace",
+            "Bonecrusher necklace",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Imbued god cape",
+            "Soul cape",
+            "Ardougne cloak 4",
+            "Ardougne cloak 3"
+          ],
+          "body": [
+            "Virtus robe top",
+            "Ancestral robe top",
+            "Sunfire fanatic cuirass",
+            "Proselyte hauberk",
+            "Zealot's robe top",
+            "Vestment robe top"
+          ],
+          "legs": [
+            "Virtus robe bottom",
+            "Ancestral robe bottom",
+            "Sunfire fanatic chausses",
+            "Zealot's robe bottom",
+            "Proselyte cuisse",
+            "Vestment robe legs"
+          ],
+          "weapon": [
+            "Kodai wand",
+            "Nightmare staff",
+            "Dragon hunter wand",
+            "Ancient sceptre",
+            "Blue moon spear",
+            "Master wand",
+            "Ancient staff"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Arcane spirit shield",
+            "Elidinis' ward",
+            "Mage's book",
+            "Book of darkness",
+            "Tome of fire",
+            "Tome of water"
+          ],
+          "hands": [
+            "Bracelet of slaughter",
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves",
+            "Dragon gloves",
+            "Infinity gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Devout boots",
+            "Echo boots",
+            "Guardian boots",
+            "Holy sandals",
+            "Zealot's boots",
+            "Ancient ceremonial boots",
+            "White boots",
+            "Blessed boots"
+          ],
+          "ring": [
+            "Lightbearer",
+            "Magus ring",
+            "Ring of the gods (i)",
+            "Ring of suffering (i)",
+            "Ring of shadows",
+            "Ring of wealth",
+            "Explorer's ring 4",
+            "Seers ring (i)",
+            "Brimstone ring"
+          ],
+          "special": [
+            "Dinh's bulwark",
+            "Eldritch nightmare staff"
+          ]
+        }
+      },
+      "inventory": [
+        "Dinh's bulwark",
+        "Fast tagging weapon such as Magic shortbow",
+        "Explorer's ring 4",
+        "Prayer potions",
+        "Stamina potions",
+        "Herb sack",
+        "Extended antifire",
+        "Saturated heart",
+        "Teleport to house tablet",
+        "Soul bearer",
+        "Ash sanctifier",
+        "Divine rune pouch with Blood, Death, Fire, and Air runes"
+      ],
+      "notes": [
+        "Kodai wand gives high magic damage, infinite water runes, and rune-saving utility.",
+        "Elidinis' ward (f), Occult necklace, Tormented bracelet, Virtus robes, Ancestral robes, imbued god capes, and Magus ring increase damage or kill speed.",
+        "Slayer helmet (i) should be used because this is a Slayer task."
+      ]
+    },
+    {
+      "methodId": "catacombs-ranged",
+      "label": "Catacombs ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Venator bow in the Catacombs for a lower-effort alternative to barraging that still benefits from clustered spawns.",
+      "recommendedFor": [
+        "lower-attention Catacombs tasks",
+        "players with Venator bow",
+        "players wanting Prayer training with Arceuus spells"
+      ],
+      "requiredOrKeyItems": [
+        "Venator bow",
+        "Slayer helmet (i)",
+        "Divine ranging potion",
+        "Soul bearer",
+        "Ash sanctifier",
+        "Rune pouch"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Wear Slayer helmet (i) and ranged damage gear.",
+        "Fight in Catacombs rooms where Venator bow can bounce between Abyssal demons.",
+        "Let Venator bow tag nearby demons as it bounces, reducing manual input compared to magic stacking.",
+        "Keep Protect from Melee active.",
+        "Use Herb sack, Soul bearer, and Ash sanctifier to reduce banking and preserve value.",
+        "With 90 Magic and A Kingdom Divided, use Master Reanimation on ensouled heads and Demonic Offering on ashes for roughly 307 Prayer experience per kill.",
+        "Ironmen need Dragon Slayer II for practical wrath rune access for the Arceuus prayer-training loop."
+      ],
+      "fallbacks": [
+        "If Venator bow is unavailable, use Catacombs magic for the stronger AoE method or melee for simple single-target kills."
+      ],
+      "risks": [
+        "Ranged is less efficient than barraging or bursting.",
+        "Prayer-training spells add rune cost and require attention to heads and ashes."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Armadyl helmet",
+            "Void ranger helm"
+          ],
+          "neck": [
+            "Necklace of anguish",
+            "Dragonbone necklace",
+            "Bonecrusher necklace",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Ava's accumulator",
+            "Ranging cape(t)"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Crystal body",
+            "Elite void top",
+            "Zamorak d'hide body"
+          ],
+          "legs": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Crystal legs",
+            "Elite void robe",
+            "Zamorak chaps"
+          ],
+          "weapon": [
+            "Venator bow"
+          ],
+          "ammo": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow"
+          ],
+          "hands": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Zamorak bracers",
+            "Void knight gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Ranger boots",
+            "Blessed boots",
+            "Devout boots"
+          ],
+          "ring": [
+            "Venator ring",
+            "Archers ring (i)",
+            "Ring of the gods (i)",
+            "Ring of shadows",
+            "Brimstone ring",
+            "Ring of suffering (i)",
+            "Explorer's ring 4",
+            "Ring of wealth"
+          ]
+        }
+      },
+      "inventory": [
+        "Divine ranging potion",
+        "Prayer potions",
+        "Herb sack",
+        "Soul bearer",
+        "Teleport to house tablet",
+        "Ash sanctifier",
+        "Rune pouch with Fire and Nature runes"
+      ]
+    },
+    {
+      "methodId": "wilderness-slayer-cave",
+      "label": "Wilderness Slayer Cave",
+      "combatStyle": "MAGIC",
+      "role": "wilderness",
+      "summary": "Use the Wilderness Slayer Cave for very high Slayer experience with cannon aggression and Wilderness-boosted magic options, while minimizing risk against player killers.",
+      "recommendedFor": [
+        "players comfortable with Wilderness risk",
+        "Krystilia tasks",
+        "high Slayer experience with cannon support"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Accursed sceptre (a)",
+        "Slayer helmet (i)",
+        "Occult necklace",
+        "One-click teleport such as royal seed pod",
+        "Blighted supplies",
+        "Blighted ice sacks",
+        "Goading potions"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Protect Item when 4-iteming"
+      ],
+      "steps": [
+        "Only bring items you are willing to risk in the Wilderness.",
+        "Place a cannon for damage and consistent aggression; the cannon is not lost if it is placed when the player dies.",
+        "Use Accursed sceptre (a) where available because it boosts Magic accuracy and damage against NPCs in the Wilderness and stacks with Slayer helmet (i).",
+        "Use inexpensive or protected gear around the core kept items, commonly Accursed sceptre (a), Occult necklace, Slayer helmet (i), and an optional Saturated heart or Imbued heart.",
+        "Use blighted food, prayer restoration, and blighted ice sacks because they are strong and inexpensive but only work in the Wilderness.",
+        "Prefer goading potions or cannon for aggression instead of Dinh's bulwark or ranged tagging because autocast settings are cleared when changing weapons in the Wilderness.",
+        "Stand as far south as possible in the cave section because much of the north is above level 30 Wilderness where standard teleports cannot be used.",
+        "Use a one-click teleport immediately if a dangerous player appears.",
+        "Use Wilderness player alarm in RuneLite for forced awareness when another player enters range."
+      ],
+      "fallbacks": [
+        "Bring Dinh's bulwark as an escape or aggression tool if it fits the risk plan.",
+        "Use summer pies if 72 Agility is needed for Wilderness Slayer Cave shortcuts."
+      ],
+      "risks": [
+        "The area is a player killing hotspot; player killers can appear while the task is in progress.",
+        "Teleblock risk increases if standing too far north above level 30 Wilderness.",
+        "Weapon switching in the Wilderness can clear autocast settings."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)"
+          ],
+          "neck": [
+            "Occult necklace"
+          ],
+          "cape": [
+            "Ardougne cloak 4"
+          ],
+          "weapon": [
+            "Accursed sceptre (a)"
+          ],
+          "body": [
+            "Monk's robe top",
+            "Cheap prayer equipment"
+          ],
+          "legs": [
+            "Monk's robe",
+            "Cheap prayer equipment"
+          ],
+          "shield": [
+            "Book of darkness"
+          ],
+          "hands": [
+            "Bracelet of slaughter"
+          ],
+          "feet": [
+            "Mystic boots"
+          ],
+          "ring": [
+            "Ring of wealth"
+          ],
+          "special": [
+            "Dinh's bulwark"
+          ]
+        }
+      },
+      "inventory": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Royal seed pod or another one-click teleport",
+        "Blighted food",
+        "Blighted super restores",
+        "Blighted ice sacks",
+        "Saradomin brews",
+        "Stamina potion",
+        "Summer pies for Agility shortcuts",
+        "Goading potions"
+      ],
+      "notes": [
+        "Magic damage and prayer bonus matter more than magic accuracy because Abyssal demons have low magic defence.",
+        "Dinh's bulwark is recommended as an escape option and can also be used to gain aggression."
+      ]
+    },
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "single-target",
+      "summary": "Use Slayer helmet (i) with Demonbane melee weapons for simple single-target tasks, especially in Slayer Tower or other non-multicombat assignments.",
+      "recommendedFor": [
+        "Konar single-combat tasks",
+        "Slayer Tower tasks",
+        "players using Arceuus offering spells, thralls, or Death Charge"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet (i)",
+        "Emberlight",
+        "Arclight",
+        "Expeditious bracelet for faster single-combat tasks"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Wear Slayer helmet (i) because the task bonus applies.",
+        "Use Demonbane melee weapons such as Emberlight or Arclight for best damage.",
+        "Keep Protect from Melee active when taking damage.",
+        "Use Arceuus spellbook utility such as offering spells, thralls, or Death Charge if desired.",
+        "In Slayer Tower, benefit from Morytania Diary bonus Slayer experience.",
+        "Use Expeditious bracelet when forced into a slower single-combat task and wanting to finish faster."
+      ],
+      "fallbacks": [
+        "If Demonbane weapons are unavailable, use the best available melee weapon such as Abyssal tentacle or Abyssal whip."
+      ],
+      "risks": [
+        "Single-combat Abyssal demon tasks are slower and require more attention than Catacombs or Wilderness multicombat methods.",
+        "Without Teleport anchoring scroll, player teleports can interrupt melee pathing."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)"
+          ],
+          "neck": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of strength",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape"
+          ],
+          "body": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Bandos chestplate",
+            "Fighter torso",
+            "Blood moon chestplate",
+            "Obsidian platebody",
+            "Eclipse moon chestplate",
+            "Mixed hide top"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Bandos tassets",
+            "Blood moon tassets",
+            "Obsidian platelegs",
+            "Eclipse moon tassets",
+            "Blue moon tassets",
+            "Mixed hide legs"
+          ],
+          "weapon": [
+            "Emberlight",
+            "Arclight"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Bracelet of slaughter",
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Dragon boots",
+            "Spiked manacles",
+            "Aranea boots",
+            "Echo boots",
+            "Mixed hide boots",
+            "Climbing boots"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)"
+          ],
+          "special": [
+            "Burning claws",
+            "Crystal halberd",
+            "Dragon claws",
+            "Voidwaker",
+            "Dragon dagger(p++)"
+          ]
+        }
+      }
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "catacombs-magic",
+      "label": "Catacombs magic",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "The main high-XP method: gather Catacombs spawns and cast Smoke Barrage or Smoke Burst with Slayer helmet (i), magic damage, and prayer bonus.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Kodai wand",
+            "Nightmare staff",
+            "Ancient sceptre",
+            "Blue moon spear",
+            "Master wand",
+            "Ancient staff"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Arcane spirit shield",
+            "Elidinis' ward",
+            "Mage's book",
+            "Book of darkness"
+          ],
+          "hands": [
+            "Bracelet of slaughter",
+            "Tormented bracelet"
+          ],
+          "special": [
+            "Dinh's bulwark",
+            "Eldritch nightmare staff"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "catacombs-ranged",
+      "label": "Catacombs ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Venator bow is less efficient than barraging but requires less input and can tag new Abyssal demons through bounce attacks.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Venator bow"
+          ],
+          "ammo": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow"
+          ],
+          "ring": [
+            "Venator ring",
+            "Archers ring (i)",
+            "Ring of the gods (i)"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "wilderness-magic",
+      "label": "Wilderness magic",
+      "combatStyle": "MAGIC",
+      "role": "wilderness",
+      "summary": "Wilderness Slayer Cave uses cannon aggression, Accursed sceptre (a), blighted supplies, and strict risk control.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Accursed sceptre (a)"
+          ],
+          "neck": [
+            "Occult necklace"
+          ],
+          "hands": [
+            "Bracelet of slaughter"
+          ],
+          "special": [
+            "Dinh's bulwark"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "single-target",
+      "summary": "Single-target melee uses Slayer helmet (i) and Demonbane melee weapons, especially Emberlight or Arclight.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Arclight"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)"
+          ],
+          "special": [
+            "Burning claws",
+            "Crystal halberd",
+            "Dragon claws",
+            "Voidwaker",
+            "Dragon dagger(p++)"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "strategyId": "ents",
+  "variantIds": [
+    "ent"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Ent",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "twinflame-staff",
+      "warped-sceptre",
+      "trident-of-the-swamp"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Ents have a 40% weakness to fire spells, so fire magic is fastest; their ranged defence (+30) is their lowest, making ranged a good alternative. Their melee defences (slash/crush +70) are high, so avoid melee. Bring a hatchet to chop the defeated trunks for noted logs."
+  },
+  "requirements": [
+    "Kills must be made in the Wilderness to count for the Krystilia assignment.",
+    "No Slayer level or quest requirement.",
+    "A hatchet matching your Woodcutting level is useful to chop the defeated trunks for noted logs."
+  ],
+  "mechanics": [
+    "The Wilderness ent (npc 6594) is combat level 101 with 105 Hitpoints and grants 107.5 Slayer XP.",
+    "It attacks with crush melee at a 4-tick speed.",
+    "It has a 40% weakness to fire spells (added June 2025); defence level 75 with ranged its weakest defence (+30).",
+    "After the ent is defeated its trunk can be chopped for noted logs."
+  ],
+  "methods": [
+    {
+      "methodId": "fire-magic",
+      "label": "Fire magic",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Exploit the 40% fire weakness with fire spells against the Chaos Temple ents.",
+      "recommendedFor": [
+        "fastest kills"
+      ],
+      "requiredOrKeyItems": [
+        "Fire spell / magic weapon",
+        "Hatchet for the trunks"
+      ],
+      "steps": [
+        "Travel to the ents near the Chaos Temple in the Wilderness.",
+        "Attack with fire spells to exploit the 40% weakness.",
+        "Chop each defeated trunk with a hatchet for noted logs."
+      ],
+      "notes": [
+        "Avoid melee; slash/crush defences are +70."
+      ]
+    },
+    {
+      "methodId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use ranged against the ent's low ranged defence (+30).",
+      "recommendedFor": [
+        "players without strong fire magic"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged weapon",
+        "Hatchet for the trunks"
+      ],
+      "steps": [
+        "Attack the ents with ranged.",
+        "Chop each defeated trunk for noted logs."
+      ],
+      "notes": []
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "fire-magic",
+      "label": "Fire magic",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "40% fire weakness makes fire spells fastest.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twinflame staff",
+            "Warped sceptre",
+            "Trident of the swamp"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged",
+      "label": "Ranged",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Ranged exploits the +30 ranged defence, the ent's lowest.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    }
+  ]
+}

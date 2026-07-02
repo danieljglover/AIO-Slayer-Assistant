@@ -1,0 +1,11 @@
+{
+  "locationId": "stronghold-of-security-catablepon",
+  "name": "Stronghold of Security (Catablepon)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Catablepon in the Stronghold of Security, entered via the ladder in Barbarian Village. The wiki cites the Pit of Pestilence area; the exact sub-level is left for QA to live-verify. Family-tuned copy of the stronghold-of-security base file, whose Ankou safespot/konarLockable flags do not apply to catablepon. Multi, cannon and safespot status are not wiki-stated and left conservative (false)."
+}

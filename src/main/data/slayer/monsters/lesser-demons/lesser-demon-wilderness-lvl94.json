@@ -1,0 +1,31 @@
+{
+  "variantId": "lesser-demon-wilderness-lvl94",
+  "name": "Lesser demon (Wilderness Slayer Cave)",
+  "npcIds": [
+    7865,
+    7866,
+    7867
+  ],
+  "combatLevel": 94,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 71,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -10,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wilderness Slayer Cave",
+  "requirement": "None; Combat 60 to be assigned; Krystilia Wilderness assignment",
+  "bossId": null,
+  "strategyId": "lesser-demons"
+}

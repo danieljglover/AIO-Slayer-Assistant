@@ -1,0 +1,41 @@
+{
+  "variantId": "calvar-ion",
+  "name": "Calvar'ion",
+  "npcIds": [
+    11993,
+    11994
+  ],
+  "combatLevel": 264,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 225,
+    "stab": 130,
+    "slash": 128,
+    "crush": -10,
+    "magic": 198,
+    "range": 211
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": true,
+  "location": "Skeletal Tomb, level 21 Wilderness singles-plus combat area (the singles-plus alternative to Vet'ion).",
+  "locationId": null,
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "vet-ion",
+  "offence": {
+    "hitpoints": 150,
+    "maxHit": 26,
+    "attackStyles": [
+      "MELEE",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 6,
+    "magicLevel": 178
+  }
+}

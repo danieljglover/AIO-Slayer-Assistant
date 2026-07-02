@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-pyrefiend",
+  "name": "Revenant pyrefiend",
+  "npcIds": [
+    7932
+  ],
+  "combatLevel": 52,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 33,
+    "stab": 45,
+    "slash": 40,
+    "crush": 50,
+    "magic": 15,
+    "range": 10
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 48,
+    "maxHit": 5,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 67
+  }
+}

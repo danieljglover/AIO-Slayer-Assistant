@@ -1,0 +1,11 @@
+{
+  "locationId": "vetion-hellhound-spawns",
+  "name": "Wilderness near Vet'ion",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Vet'ion and Calvar'ion summon Skeleton Hellhounds and Greater Skeleton Hellhounds that can progress a Hellhound task. This Wilderness boss area is a common player killing hotspot and the spawns have no drops other than the looting bag."
+}

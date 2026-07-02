@@ -1,0 +1,29 @@
+{
+  "variantId": "spiritual-ranger-zaros",
+  "name": "Spiritual ranger (Zaros)",
+  "npcIds": [
+    11291
+  ],
+  "combatLevel": 158,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 20,
+    "slash": 0,
+    "crush": 20,
+    "magic": 300,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wilderness God Wars Dungeon",
+  "requirement": "miniquest The Frozen Door",
+  "bossId": null,
+  "strategyId": "spiritual-creatures"
+}

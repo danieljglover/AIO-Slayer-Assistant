@@ -1,0 +1,90 @@
+{
+  "taskId": "black-knights",
+  "name": "Black knights",
+  "wikiPageId": 44926,
+  "combatLevel": null,
+  "slayerTargetId": 254,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 3
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "black-knights"
+  ],
+  "variantIds": [
+    "black-knight-lvl33"
+  ],
+  "defaultVariantId": "black-knight-lvl33",
+  "weakness": {
+    "style": "MAGIC",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 73,
+    "slash": 76,
+    "crush": 70,
+    "magic": -11,
+    "range": 72
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "bandit-camp-wilderness-black-knights"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "black-knight-lvl33",
+      "name": "Black Knight",
+      "combatLevel": 33,
+      "slayerXp": 42,
+      "locations": [
+        "South of the Bandit Camp (Wilderness)"
+      ],
+      "notes": [
+        "Level 33 Wilderness Black Knight south of the Bandit Camp (Lava Maze area); 42 hitpoints.",
+        "Very high melee and ranged defence (+70 to +76) but negative magic defence (-11); attack with magic.",
+        "Spawns south of the Bandit Camp and north-east of the Bone Yard."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "bandit-camp-wilderness-black-knights",
+      "name": "Black Knights (Wilderness)",
+      "amount": 16,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "9 spawns south of the Bandit Camp plus 7 north-east of the Bone Yard, all level 33 Wilderness.",
+        "Multicombat, cannon placement and safespots are not wiki-stated; conservative defaults are used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Black knights are assigned only by Krystilia and must be killed in the Wilderness to count; there is no combat, Slayer or quest requirement.",
+    "slayerTargetId 254 is SYNTHETIC (C2/C3 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The Wilderness Black Knights spawn south of the Bandit Camp (Lava Maze) and north-east of the Bone Yard, NOT the members-only White Knight castle or quest black knights.",
+    "They have very high melee and ranged defence (+70 to +76) but a negative magic defence (-11), so magic is by far the fastest style.",
+    "No task extension unlock exists for Black knights."
+  ],
+  "recommendedMethod": "Attack the level 33 Wilderness Black Knights with magic; their magic defence is negative (-11) while melee and ranged defence are very high (+70 to +76). Bring Wilderness-appropriate risk gear."
+}

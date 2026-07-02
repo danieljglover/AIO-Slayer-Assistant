@@ -1,0 +1,94 @@
+{
+  "strategyId": "ice-giants",
+  "variantIds": [
+    "ice-giant",
+    "ice-giant-wilderness-cave"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Ice_giant",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "viggora-s-chainmace",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "craw-s-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "thammaron-s-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Ice giants have very low defence and are weak to fire (100%), so almost any strong weapon works. Use low-risk Wilderness gear such as Viggora's chainmace; a Dwarf multicannon speeds the Wilderness Slayer Cave level 67 variant. Keep a one-click escape teleport ready."
+  },
+  "requirements": [
+    "Low-risk gear for the Wilderness",
+    "A one-click teleport for emergency escape",
+    "Optional Dwarf multicannon for the Wilderness Slayer Cave variant"
+  ],
+  "mechanics": [
+    "Ice giants use melee (slash) with a max hit of about 7 (10 for the level 67 variant).",
+    "Ice giants are weak to fire (100%) and have very low defence.",
+    "All Krystilia ice giant kills must occur in the Wilderness.",
+    "The Wilderness Slayer Cave is multicombat, cannonable, and a popular player-killing hotspot."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill Wilderness ice giants with a fast low-risk weapon; cannon the cave variant for speed.",
+      "recommendedFor": [
+        "Krystilia ice giant tasks",
+        "low-risk Wilderness slayer",
+        "fast cannon XP in the Wilderness Slayer Cave"
+      ],
+      "requiredOrKeyItems": [
+        "Viggora's chainmace or Dragon scimitar",
+        "Low-risk armour",
+        "Dwarf multicannon (optional, cave only)",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Bring only low-risk gear and a one-click escape teleport.",
+        "Use the Frozen Waste Plateau spawns for a quiet area, or the Wilderness Slayer Cave for a cannonable multicombat variant.",
+        "Kill ice giants quickly; their low defence means gear choice matters less than survivability.",
+        "Watch the minimap for player killers and teleport if threatened."
+      ],
+      "notes": [
+        "The level 67 cave variant grants more Slayer XP and stacks well with a cannon.",
+        "Ice giants are weak to fire spells if training Magic."
+      ]
+    },
+    {
+      "methodId": "cannon-cave",
+      "label": "Cannon the Wilderness Slayer Cave variant",
+      "combatStyle": "MELEE",
+      "role": "fast",
+      "summary": "Use a Dwarf multicannon on the multicombat level 67 ice giants for fast XP.",
+      "recommendedFor": [
+        "fast Slayer XP",
+        "players comfortable in the Wilderness Slayer Cave"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon plus cannonballs",
+        "Low-risk armour",
+        "Viggora's chainmace or Dragon scimitar",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Enter the Wilderness Slayer Cave and set up a cannon on the level 67 ice giants.",
+        "Melee alongside the cannon to maximise kills per tick.",
+        "Stand as far south as practical to stay near one-click teleport range.",
+        "Teleport immediately if a player killer enters the cave."
+      ],
+      "notes": [
+        "The cave is multicombat, so the cannon hits several giants at once.",
+        "Do not risk items you are unwilling to lose in the Wilderness Slayer Cave."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "taskId": "pirates",
+  "name": "Pirates",
+  "wikiPageId": null,
+  "combatLevel": 26,
+  "slayerTargetId": 267,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      62,
+      75
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 3
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "pirates"
+  ],
+  "variantIds": [
+    "pirate",
+    "zombie-pirate"
+  ],
+  "defaultVariantId": "pirate",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 23,
+    "stab": 0,
+    "slash": 1,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "pirates-hideout",
+    "chaos-temple-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "pirate",
+      "name": "Pirate",
+      "combatLevel": 26,
+      "slayerXp": 23,
+      "locations": [
+        "Pirates' Hideout"
+      ],
+      "notes": [
+        "Aggressive; attacks with slash and can hit up to 4.",
+        "Found in the single-way Pirates' Hideout in the Wilderness (level 54).",
+        "A lockpick and 39 Thieving are required to open the door."
+      ]
+    },
+    {
+      "variantId": "zombie-pirate",
+      "name": "Zombie pirate",
+      "combatLevel": 34,
+      "slayerXp": 40,
+      "locations": [
+        "Chaos Temple (Wilderness)"
+      ],
+      "notes": [
+        "Undead; 50% weak to fire spells, so Salve amulet and fire spells boost damage.",
+        "Found around the Chaos Temple in the low-level Wilderness; an alternative to the Pirates' Hideout.",
+        "Attacks with crush and hits low (up to 3)."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "pirates-hideout",
+      "name": "Pirates' Hideout",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Wilderness level 54; a lockpick and 39 Thieving are required to open the door.",
+        "Single-way combat building; the pirates are aggressive.",
+        "Deep Wilderness - PKer risk; the wiki does not document a cannon or safespot here."
+      ]
+    },
+    {
+      "locationId": "chaos-temple-wilderness",
+      "name": "Chaos Temple (Wilderness)",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Zombie pirates spawn around the Chaos Temple in the low-level Wilderness.",
+        "Undead and weak to fire; easier and lower-risk than the Pirates' Hideout.",
+        "Cannon and safespot are not wiki-documented here (conservative defaults)."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Pirates are assigned only by Krystilia and only count when killed inside the Wilderness.",
+    "The main assignable pirates are in the Pirates' Hideout (Wilderness level 54); a lockpick and 39 Thieving are required to open the door.",
+    "Zombie pirates around the Chaos Temple also count towards the task; they are undead and weak to fire, and are lower-risk.",
+    "Krystilia block cost is 100 Slayer reward points.",
+    "The slayerTargetId 267 is SYNTHETIC (C2/C3 allocation contract, worklist section 1); the real SLAYER_TARGET varp value is a QA live-verify item."
+  ],
+  "recommendedMethod": "Melee any decent weapon at the Pirates' Hideout (bring a lockpick and 39 Thieving), or kill the undead Zombie pirates at the Chaos Temple with fire spells or a Salve amulet for a safer, lower-level alternative. Always beware PKers in the Wilderness."
+}

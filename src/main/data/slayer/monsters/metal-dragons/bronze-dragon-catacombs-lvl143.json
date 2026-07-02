@@ -1,0 +1,30 @@
+{
+  "variantId": "bronze-dragon-catacombs",
+  "name": "Bronze dragon (Catacombs)",
+  "npcIds": [
+    7253
+  ],
+  "combatLevel": 143,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 112,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 30,
+    "range": 90
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Catacombs of Kourend",
+  "locationId": "catacombs-of-kourend-metal-dragons",
+  "requirement": "Catacombs of Kourend stronger variant",
+  "bossId": null,
+  "strategyId": "bronze-dragon"
+}

@@ -1,0 +1,69 @@
+{
+  "strategyId": "scorpions",
+  "variantIds": [
+    "scorpion-wilderness",
+    "scorpion",
+    "king-scorpion"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Scorpion",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Scorpions have negligible Defence (-53 melee bonuses) and very low Hitpoints, so any melee weapon clears them instantly; a Dragon scimitar or cheaper is plenty. They carry a small fire spell weakness (25%, King scorpion 20%) if training Magic. Krystilia's task must be done in the Wilderness with risk-appropriate gear."
+  },
+  "requirements": [
+    "No Slayer level is required to receive a Scorpions task.",
+    "Krystilia's scorpions must be killed in the Wilderness."
+  ],
+  "mechanics": [
+    "Scorpions attack with stab melee at a 4-tick speed and pose almost no threat at low levels.",
+    "Their -53 melee defensive bonuses make them fall to any melee weapon.",
+    "King scorpions (level 32) also count and have 30 Hitpoints."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill any counting scorpion with any melee weapon; they die in one or two hits.",
+      "recommendedFor": [
+        "all scorpions tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon (Dragon scimitar or cheaper)",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "For starter masters, go to the Al Kharid mine or Dwarven Mine scorpions.",
+        "For Krystilia, kill Wilderness scorpions with risk-appropriate gear.",
+        "Attack with any melee weapon until the task completes."
+      ]
+    },
+    {
+      "methodId": "wilderness-safe",
+      "label": "Wilderness (Krystilia) safe kit",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Complete the Krystilia task in the low-level Wilderness with cheap, risk-appropriate gear to minimise PKer loss.",
+      "recommendedFor": [
+        "Krystilia scorpions tasks",
+        "PKer-heavy worlds"
+      ],
+      "requiredOrKeyItems": [
+        "Cheap melee weapon and armour you can afford to lose",
+        "Slayer helmet",
+        "Teleport out (glory / teleport spell)"
+      ],
+      "steps": [
+        "Bank valuables; wear only risk-appropriate gear before entering the Wilderness.",
+        "Kill Wilderness scorpions; they die in one or two hits.",
+        "Watch the minimap for PKers and teleport out when threatened."
+      ]
+    }
+  ],
+  "body": "# Scorpions\n\nScorpions are a trivial low-level Slayer task assigned by Krystilia, Turael, Spria, and Mazchna. With -53 melee defensive bonuses and very low Hitpoints, any melee weapon clears them instantly; a small fire spell weakness (25%, King scorpion 20%) helps Magic trainers. Starter-master tasks are fastest at the Al Kharid mine or Dwarven Mine; Krystilia's task must be done in the low-level Wilderness with risk-appropriate gear."
+}

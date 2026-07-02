@@ -1,0 +1,53 @@
+{
+  "variantId": "dwarf",
+  "name": "Dwarf",
+  "npcIds": [
+    290,
+    292,
+    294,
+    295,
+    296,
+    1401,
+    1402,
+    1403,
+    1404,
+    1405,
+    1406,
+    1407,
+    1408,
+    8496
+  ],
+  "combatLevel": 10,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 6,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 5,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Dwarven Mine; Ice Mountain; Mining Guild; Keldagrim",
+  "locationId": "dwarven-mine",
+  "requirement": "Combat level 6 to be assigned",
+  "bossId": null,
+  "strategyId": "dwarves",
+  "offence": {
+    "hitpoints": 16,
+    "maxHit": 2,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 5,
+    "poisonous": false,
+    "venomous": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variantId": "moss-giant",
+  "name": "Moss giant",
+  "npcIds": [
+    2090,
+    2091,
+    2092,
+    2093,
+    7262,
+    14422
+  ],
+  "combatLevel": 42,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 30,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Deep Wilderness",
+  "locationId": "moss-giants-wilderness",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "moss-giants"
+}

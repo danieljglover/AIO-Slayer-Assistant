@@ -1,0 +1,116 @@
+{
+  "strategyId": "iron-dragon",
+  "variantIds": [
+    "iron-dragon",
+    "iron-dragon-catacombs"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Metal_dragons/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "zamorakian-hasta",
+      "abyssal-dagger"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Iron dragon strategy: weak to stab, heavy ranged, and Earth spells; dragonbane weapons are best. Cannon Iron dragons when chasing draconic visage."
+  },
+  "requirements": [
+    "Partial completion of Dragon Slayer I",
+    "Full metallic dragonfire protection",
+    "Cannon if using Brimhaven or Isle of Souls"
+  ],
+  "mechanics": [
+    "Metallic dragonfire is not blocked by Protect from Magic.",
+    "Iron dragons use melee and long-range dragonfire.",
+    "Iron dragons can drop the draconic visage.",
+    "Catacombs Iron dragons are stronger and can drop Ancient shards and Dark totem pieces."
+  ],
+  "methods": [
+    {
+      "methodId": "dragonfire-protection",
+      "label": "Dragonfire protection",
+      "combatStyle": "MELEE",
+      "role": "required",
+      "summary": "Use complete metallic dragonfire protection.",
+      "requiredOrKeyItems": [
+        "Anti-dragon shield or dragonfire shield",
+        "Antifire potion or super antifire potion"
+      ],
+      "steps": [
+        "Use anti-dragon shield plus antifire, or super antifire.",
+        "Do not rely on Protect from Magic for metallic dragonfire.",
+        "Use Protect from Melee if fighting in melee range."
+      ]
+    },
+    {
+      "methodId": "visage-cannon",
+      "label": "Visage cannon",
+      "combatStyle": "MELEE",
+      "role": "drops",
+      "summary": "Cannon Iron dragons when seeking the draconic visage while keeping the task easier than higher Metal dragons.",
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Dragon hunter lance",
+        "Dragon hunter crossbow",
+        "Dragon hunter wand"
+      ],
+      "steps": [
+        "Use Brimhaven or Isle of Souls for cannon support.",
+        "Use dragonbane, stab, heavy ranged, or earth spell damage.",
+        "Use Catacombs only when Ancient shards and Dark totem pieces matter."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Dragon hunter lance or other stab weapon."
+    },
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Ranged dragonbane",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Dragon hunter crossbow or heavy ranged setup."
+    },
+    {
+      "styleId": "magic-earth",
+      "label": "Earth Magic",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Dragon hunter wand or earth spell setup."
+    }
+  ],
+  "body": "# Iron dragon\n\nWeak to stab, heavy ranged, and Earth spells; very high Defence. Dragon hunter lance is best stab versus draconic creatures, then fang. Do not use slash."
+}

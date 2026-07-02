@@ -1,0 +1,11 @@
+{
+  "locationId": "iorwerth-camp",
+  "name": "Iorwerth Camp",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Regicide access. Contains 6 Iorwerth Archers and 6 Iorwerth Warriors; warriors can be safespotted using stools or spear-walls if the player stays at least two tiles away from their crystal halberds. Cannon use is allowed but awkward because tents, barrels, and crates impede placement."
+}

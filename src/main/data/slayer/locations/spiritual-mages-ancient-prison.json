@@ -1,0 +1,11 @@
+{
+  "locationId": "spiritual-mages-ancient-prison",
+  "name": "God Wars Dungeon - Ancient Prison Spiritual mages",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Ancient Prison (Zaros) Spiritual mages; requires The Frozen Door miniquest. Multicombat and safespottable but not cannonable. Zaros variants are significantly stronger than the other gods' Spiritual creatures."
+}

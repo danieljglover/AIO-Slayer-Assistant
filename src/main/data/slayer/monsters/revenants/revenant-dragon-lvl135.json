@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-dragon",
+  "name": "Revenant dragon",
+  "npcIds": [
+    7940
+  ],
+  "combatLevel": 135,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 87,
+    "stab": 143,
+    "slash": 206,
+    "crush": 188,
+    "magic": 101,
+    "range": 197
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 155,
+    "maxHit": 30,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 150
+  }
+}

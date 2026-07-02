@@ -1,0 +1,11 @@
+{
+  "locationId": "troll-stronghold-outside-trolls",
+  "name": "Troll Stronghold outside",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 8 outside mountain trolls. A dwarf multicannon and Bonecrusher necklace allow effectively zero Prayer potion usage while using Protect from Melee."
+}

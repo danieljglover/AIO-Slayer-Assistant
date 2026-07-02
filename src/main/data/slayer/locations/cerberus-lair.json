@@ -1,0 +1,11 @@
+{
+  "locationId": "cerberus-lair",
+  "name": "Cerberus' Lair",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Cerberus boss lair beneath Taverley Dungeon. Requires 91 Slayer to fight normally, or 86 Slayer with a wild pie boost; use Cerberus/Strategies for boss-specific mechanics."
+}

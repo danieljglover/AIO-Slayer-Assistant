@@ -1,0 +1,30 @@
+{
+  "variantId": "kraken",
+  "name": "Kraken",
+  "npcIds": [
+    494,
+    496
+  ],
+  "combatLevel": 291,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 130,
+    "range": 300
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Kraken Cove - boss whirlpool",
+  "requirement": "boss - separate trip; magic only",
+  "bossId": null,
+  "strategyId": "kraken"
+}

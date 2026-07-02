@@ -1,0 +1,175 @@
+{
+  "taskId": "scabarites",
+  "name": "Scabarites",
+  "wikiPageId": 298250,
+  "combatLevel": 85,
+  "slayerTargetId": 247,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Contact! (partial completion)"
+  ],
+  "masterIds": [
+    "nieve"
+  ],
+  "amountByMaster": {
+    "nieve": [
+      30,
+      60
+    ]
+  },
+  "weightByMaster": {
+    "nieve": 4
+  },
+  "extendedAmount": {
+    "nieve": [
+      130,
+      170
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "get-scabaright-on-it",
+      "name": "Get scabaright on it",
+      "pointsCost": 50,
+      "type": "EXTENSION",
+      "notes": "Number of Scabarites assigned is increased to 130-170."
+    }
+  ],
+  "monsterIds": [
+    "scabarites"
+  ],
+  "variantIds": [
+    "locust-rider",
+    "scarab-mage",
+    "scarab-swarm",
+    "small-scarab"
+  ],
+  "defaultVariantId": "locust-rider",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 90,
+    "stab": 50,
+    "slash": 90,
+    "crush": 50,
+    "magic": 34,
+    "range": 66
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": true,
+  "locationIds": [
+    "sophanem-dungeon-cavern",
+    "sophanem-dungeon-maze",
+    "uzer-mastaba"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "locust-rider",
+      "name": "Locust rider",
+      "combatLevel": 98,
+      "slayerXp": 92.5,
+      "locations": [
+        "Sophanem Dungeon (cavern)",
+        "Sophanem Dungeon (maze)"
+      ],
+      "notes": [
+        "Ranged (level 98) and crush-melee (level 106) variants both count.",
+        "Counts as a kalphite, so keris and keris partisan special effects apply.",
+        "Drops 2,000 coin piles and occasionally noted bass."
+      ]
+    },
+    {
+      "variantId": "scarab-mage",
+      "name": "Scarab mage",
+      "combatLevel": 93,
+      "slayerXp": 51.2,
+      "locations": [
+        "Sophanem Dungeon (cavern)",
+        "Sophanem Dungeon (maze)"
+      ],
+      "notes": [
+        "Magic attacker with an unusual 15-tick attack speed, making prayer flicking straightforward.",
+        "50% elemental weakness to fire spells."
+      ]
+    },
+    {
+      "variantId": "scarab-swarm",
+      "name": "Scarab swarm",
+      "combatLevel": 98,
+      "slayerXp": 1,
+      "locations": [
+        "Sophanem Dungeon"
+      ],
+      "notes": [
+        "Only 1 Slayer XP per kill; poisonous, 1-tick attack speed, only aggressive to the player that spawned them."
+      ]
+    },
+    {
+      "variantId": "small-scarab",
+      "name": "Small scarab",
+      "combatLevel": 41,
+      "slayerXp": 40,
+      "locations": [
+        "Uzer Mastaba"
+      ],
+      "notes": [
+        "19 spawns on the Uzer Mastaba lower level; access requires The Curse of Arrav (partial).",
+        "Max hit of 1 but aggressive regardless of combat level; no drops."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "sophanem-dungeon-cavern",
+      "name": "Sophanem Dungeon (cavern)",
+      "amount": 45,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "27 Locust riders and 18 Scarab mages on the cavern level.",
+        "The fastest method cannons here with Protect from Missiles and high-healing food."
+      ]
+    },
+    {
+      "locationId": "sophanem-dungeon-maze",
+      "name": "Sophanem Dungeon (maze)",
+      "amount": 12,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "2 Locust riders and 10 Scarab mages on the maze level.",
+        "The two scarab mages on the north-west side suit a simple prayer-flicking method."
+      ]
+    },
+    {
+      "locationId": "uzer-mastaba",
+      "name": "Uzer Mastaba",
+      "amount": 19,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "19 Small scarabs on the lower level; requires The Curse of Arrav (partial) for access."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Scabarites require 85 combat and partial completion of Contact!; only Nieve assigns them (30-60, weight 4).",
+    "The Get scabaright on it unlock (50 points) extends assignments to 130-170.",
+    "Scabarites count as kalphites, so the keris and keris partisan special effects apply to them.",
+    "Locust riders and scarab mages in Sophanem Dungeon are the usual targets; scarab swarms give only 1 Slayer XP.",
+    "Small scarabs in the Uzer Mastaba (The Curse of Arrav, partial) are a low-level alternative with no drops.",
+    "Be mindful of the floor trap at the Sophanem Dungeon entrance and bring a lantern and tinderbox.",
+    "Guthan's equipment against locust riders with Protect from Missiles sustains long trips; a dwarf multicannon on the cavern level is fastest.",
+    "Giant Scarab in the Nightmare Zone also counts but is quest-boss content, not a slayer location.",
+    "slayerTargetId 247 is a SYNTHETIC placeholder (240 + WC index 7, team contract 2026-07-02, Frost-Dragons precedent); the real SLAYER_TARGET varp value for Scabarites is not wiki-published, so varp-based detection falls back to the task-name path."
+  ],
+  "recommendedMethod": "Kill locust riders and scarab mages on the Sophanem Dungeon cavern level, with a dwarf multicannon and Protect from Missiles for speed or Guthan's for sustain; a keris partisan exploits their kalphite classification."
+}

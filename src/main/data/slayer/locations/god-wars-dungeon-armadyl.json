@@ -1,0 +1,11 @@
+{
+  "locationId": "god-wars-dungeon-armadyl",
+  "name": "God Wars Dungeon (Armadyl)",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires Death Plateau and God Wars Dungeon access. Armadyl-aligned protection is required to make Aviansie tolerant; Kree'arra access also needs 70 Ranged, a crossbow, and a mith grapple."
+}

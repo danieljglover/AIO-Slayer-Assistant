@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-slayer-cave-lesser-demons",
+  "name": "Wilderness Slayer Cave",
+  "multi": true,
+  "cannon": true,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Below level 30 Wilderness; 7 Lesser demons with boosted 110-HP stats and enhanced drops. Multicombat and cannonable, and the wiki marks the lesser demon spots safespottable. Popular player killing hotspot - do not risk items you are unwilling to lose."
+}

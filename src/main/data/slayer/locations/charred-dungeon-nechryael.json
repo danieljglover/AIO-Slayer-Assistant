@@ -1,0 +1,11 @@
+{
+  "locationId": "charred-dungeon-nechryael",
+  "name": "Charred Dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 11 regular Nechryael. Requires 60 Sailing to access; the task page discourages this area because the Nechryael are divided into two low-density groups and the dungeon is far from most routes without a docked boat and greater teleport focus."
+}

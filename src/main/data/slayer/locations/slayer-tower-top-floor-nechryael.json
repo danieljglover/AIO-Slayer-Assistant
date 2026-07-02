@@ -1,0 +1,11 @@
+{
+  "locationId": "slayer-tower-top-floor-nechryael",
+  "name": "Slayer Tower (top floor)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 11 Nechryael on the Slayer Tower top floor. The task-page comparison marks this area single-combat, not cannonable, and safespottable."
+}

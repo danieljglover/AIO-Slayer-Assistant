@@ -1,0 +1,11 @@
+{
+  "locationId": "charred-dungeon-lava-strykewyrms",
+  "name": "Charred Dungeon - Lava Strykewyrms",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 12 Lava Strykewyrms in the Charred Dungeon beneath Charred Island. Requires 60 Sailing and deploying a rope to enter. The wider Charred Dungeon is multicombat and cannonable, but the Lava Strykewyrm sections are single-way and cannot be cannoned; safespotting requires a 9 or 10 tile attack range."
+}

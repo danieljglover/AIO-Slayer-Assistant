@@ -1,0 +1,118 @@
+{
+  "taskId": "spiders",
+  "name": "Spiders",
+  "wikiPageId": null,
+  "combatLevel": null,
+  "slayerTargetId": 272,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "turael",
+    "spria"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      65,
+      100
+    ],
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6,
+    "turael": 6,
+    "spria": 6
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "spiders"
+  ],
+  "variantIds": [
+    "spider"
+  ],
+  "defaultVariantId": "spider",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "spiders-wilderness",
+    "spiders-area"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "spider",
+      "name": "Spider",
+      "combatLevel": 1,
+      "slayerXp": 2,
+      "locations": [
+        "Wilderness spider spawns",
+        "Common spider spawns"
+      ],
+      "notes": [
+        "The common Spider (npc 3019) has 2 hitpoints, a max hit of 0 and negligible defence; it spawns both in the Wilderness (assigned by Krystilia) and across free-to-play areas (assigned by Turael and Spria).",
+        "Spiders are a nuisance kill with almost no drops; the task is completed purely for the Slayer count.",
+        "Deadly red spiders are a DISTINCT Slayer task and do not count towards Spiders."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "spiders-wilderness",
+      "name": "Wilderness spider spawns",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Wilderness spider spawns count towards a Krystilia Spiders task; kills must occur in the Wilderness.",
+        "Multicombat, cannon placement and safespots are not wiki-stated; conservative defaults are used."
+      ]
+    },
+    {
+      "locationId": "spiders-area",
+      "name": "Common spider spawns",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Common free-to-play spider spawns count towards a Turael or Spria Spiders task.",
+        "Multicombat, cannon placement and safespots are not wiki-stated; conservative defaults are used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Spiders are a shared task assigned by Krystilia (Wilderness, 65-100, weight 6) and by the starter masters Turael and Spria (15-30, weight 6 each); Mazchna does not assign Spiders.",
+    "Krystilia kills only count in the Wilderness; Turael and Spria kills count on common spiders anywhere.",
+    "slayerTargetId 272 is SYNTHETIC (C2/C3 allocation contract: 252 + worklist index); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "wikiPageId is UNKNOWN (not captured at authoring); a QA live-verify item.",
+    "Deadly red spiders are a separate Slayer task and are NOT folded into this generic Spiders family.",
+    "Spiders have negligible defence, so any weapon works; they carry a 50% fire weakness for players who prefer fire spells.",
+    "No task extension unlock exists for Spiders."
+  ],
+  "recommendedMethod": "Kill common spiders with any weapon; they have 2 hitpoints and negligible defence. On a Krystilia task the kills must occur in the Wilderness, so bring risk-appropriate gear."
+}

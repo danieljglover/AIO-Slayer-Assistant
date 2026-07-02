@@ -1,0 +1,11 @@
+{
+  "locationId": "waterbirth-island",
+  "name": "Waterbirth Island",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Waterbirth Island Dungeon contains stronger Dagannoth, Dagannoth spawn eggs, and the Dagannoth Kings. Deeper areas require preparation such as a pet rock or Humphrey dumphrey plus a ranged weapon, rune thrownaxe, another player, or the 85 Agility shortcut."
+}

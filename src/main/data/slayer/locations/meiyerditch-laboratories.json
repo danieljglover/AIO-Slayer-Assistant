@@ -1,0 +1,11 @@
+{
+  "locationId": "meiyerditch-laboratories",
+  "name": "Meiyerditch Laboratories",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires partial completion of Sins of the Father after killing the quest mutated bloodveld. The area has four regular Bloodvelds and seven Mutated Bloodvelds, is multicombat and cannonable, but is somewhat hard to reach."
+}

@@ -1,0 +1,75 @@
+{
+  "strategyId": "birds",
+  "variantIds": [
+    "chicken-lvl1"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Chicken",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "yew-shortbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Birds have negligible Defence and barely fight back, so any weapon clears them. Chickens are the most efficient bird to kill. Ranged or Magic works equally for training those skills on a trivial target."
+  },
+  "requirements": [
+    "No combat, Slayer, or quest requirement to be assigned Birds.",
+    "Sixteen bird types count; low-level Chickens and Ducks are the fastest.",
+    "Chompy birds and Baby Roc require quest progress but also count."
+  ],
+  "mechanics": [
+    "Chickens have 3 Hitpoints and max hit 0, so they pose no threat.",
+    "Birds have no elemental weakness; melee, ranged and magic are all accurate against their strongly negative defence.",
+    "Birds drop feathers, bones or nothing, so the task is done for Slayer XP and streak, not loot."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill Chickens or Ducks with any melee weapon at a low-level farm.",
+      "recommendedFor": [
+        "standard task completion",
+        "brand-new accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any weapon"
+      ],
+      "steps": [
+        "Travel to a farm such as Lumbridge or Falador.",
+        "Kill the Chickens (3 HP); no food is needed.",
+        "Collect feathers if desired for extra profit."
+      ],
+      "notes": [
+        "Chickens are the most efficient bird to kill for the task."
+      ]
+    },
+    {
+      "methodId": "ranged-magic",
+      "label": "Ranged or Magic",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Attack the birds with a bow or spells to train Ranged or Magic on a safe target.",
+      "recommendedFor": [
+        "players training Ranged or Magic"
+      ],
+      "requiredOrKeyItems": [
+        "A shortbow and arrows, or air spells"
+      ],
+      "steps": [
+        "Bring a shortbow (or an air staff) to the farm.",
+        "Attack the birds; their negative defence makes every hit land."
+      ],
+      "notes": [
+        "Chickens are a classic low-level Ranged and Magic training target."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "lizardman-brute",
+  "name": "Lizardman brute",
+  "npcIds": [
+    6918,
+    6919,
+    8564,
+    10947
+  ],
+  "combatLevel": 75,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 65,
+    "stab": -20,
+    "slash": 30,
+    "crush": 10,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Shayziens' Wall / Lizardman Canyon / Settlement / Kebos Swamp / Battlefront / Molch / S of Xeric's Shrine",
+  "requirement": "Reptile got ripped unlock (75 pts)",
+  "bossId": null,
+  "strategyId": "lizardmen"
+}

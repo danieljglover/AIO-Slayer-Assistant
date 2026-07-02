@@ -1,0 +1,29 @@
+{
+  "variantId": "dagannoth-spawn",
+  "name": "Dagannoth spawn",
+  "npcIds": [
+    3184
+  ],
+  "combatLevel": 42,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Waterbirth Island (Dagannoth Kings antechamber) / Lighthouse basement",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "dagannoth"
+}

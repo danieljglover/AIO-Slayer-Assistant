@@ -1,0 +1,29 @@
+{
+  "variantId": "callisto",
+  "name": "Callisto",
+  "npcIds": [
+    6609
+  ],
+  "combatLevel": 470,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 225,
+    "stab": 150,
+    "slash": 130,
+    "crush": 125,
+    "magic": 0,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Callisto's Den, ~Level 40+ Wilderness (Artio is the singles-plus alternative)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "callisto"
+}

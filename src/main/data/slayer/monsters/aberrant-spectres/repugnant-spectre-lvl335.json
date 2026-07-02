@@ -1,0 +1,29 @@
+{
+  "variantId": "repugnant-spectre",
+  "name": "Repugnant spectre",
+  "npcIds": [
+    7403
+  ],
+  "combatLevel": 335,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 220,
+    "stab": 120,
+    "slash": 120,
+    "crush": 120,
+    "magic": 0,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Catacombs of Kourend",
+  "requirement": "superior - Bigger and Badder unlock; nose peg or Slayer helmet",
+  "bossId": null,
+  "strategyId": "aberrant-spectres"
+}

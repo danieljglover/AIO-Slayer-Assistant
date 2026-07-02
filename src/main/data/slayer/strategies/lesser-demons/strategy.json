@@ -1,0 +1,199 @@
+{
+  "strategyId": "lesser-demons",
+  "variantIds": [
+    "lesser-demon",
+    "lesser-demon-catacombs-lvl87",
+    "lesser-demon-catacombs-lvl94",
+    "lesser-demon-wilderness-lvl94",
+    "zakln-gritch"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Lesser_demon",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "arclight",
+      "abyssal-whip",
+      "abyssal-tentacle"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Lesser demons are demons, so demonbane weapons such as Emberlight or Arclight apply. They have low Defence and a 40% elemental weakness to water spells; most locations are single-combat, cannonable, and safespottable, so ranged or magic works well at cages and fences."
+  },
+  "requirements": [
+    "Combat level 60 is required to be assigned Lesser demons.",
+    "No Slayer level requirement.",
+    "A slash weapon or knife is needed to reach the surface Lava Maze demons.",
+    "A shiny key and partial Temple of Ikov are needed for the Temple of Ikov demons.",
+    "Legends' Quest area access is needed for the Viyeldi caves demons."
+  ],
+  "mechanics": [
+    "Lesser demons are demons, so demonbane weapons apply.",
+    "Lesser demons have a 40% elemental weakness to water spells.",
+    "Lesser demons attack with slash melee and are not aggressive to higher-level players.",
+    "Catacombs of Kourend lesser demons (levels 87 and 94) use the Catacombs drop table with ancient shards and dark totem pieces.",
+    "Wilderness Slayer Cave lesser demons (level 94, 110 Hitpoints) have enhanced drops but carry player killing risk.",
+    "Zakl'n Gritch in the God Wars Dungeon Zamorak stronghold counts as a Lesser demon kill with a different drop table."
+  ],
+  "methods": [
+    {
+      "methodId": "chasm-of-fire-afk",
+      "label": "Chasm of Fire middle floor",
+      "combatStyle": "MELEE",
+      "role": "low-attention",
+      "summary": "Kill the 9 middle-floor lesser demons with demonbane melee or a cannon; four demons sit in one concentrated area.",
+      "recommendedFor": [
+        "AFK melee tasks",
+        "cannon users"
+      ],
+      "requiredOrKeyItems": [
+        "Demonbane melee weapon",
+        "Dwarf multicannon (optional)"
+      ],
+      "steps": [
+        "Take the Chasm of Fire to the middle floor.",
+        "Set up in the concentrated four-demon area.",
+        "Use demonbane melee or place a cannon in the single-combat area.",
+        "Demons here can drop contracts after speaking to Yama."
+      ],
+      "notes": [
+        "Single-combat, cannonable, and safespottable."
+      ]
+    },
+    {
+      "methodId": "catacombs",
+      "label": "Catacombs of Kourend",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the 8 Catacombs lesser demons for ancient shards and dark totem pieces in multicombat.",
+      "recommendedFor": [
+        "players collecting dark totems",
+        "multicombat AFK"
+      ],
+      "requiredOrKeyItems": [
+        "Demonbane melee weapon"
+      ],
+      "steps": [
+        "Enter the Catacombs of Kourend.",
+        "Fight the level 87 and 94 lesser demons.",
+        "Collect ancient shards and dark totem pieces."
+      ],
+      "notes": [
+        "Multicombat but not cannonable; safespottable."
+      ]
+    },
+    {
+      "methodId": "wilderness-slayer-cave",
+      "label": "Wilderness Slayer Cave (Krystilia)",
+      "combatStyle": "MELEE",
+      "role": "wilderness",
+      "summary": "Krystilia assignments are completed in the Wilderness; the Slayer Cave demons have enhanced drops but PK risk.",
+      "recommendedFor": [
+        "Krystilia Wilderness tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Low-risk gear",
+        "One-click teleport or escape plan"
+      ],
+      "steps": [
+        "Bring only what you are willing to lose.",
+        "Kill the 7 boosted lesser demons in the cave, or the Lava Maze / Demonic Ruins demons.",
+        "Keep an escape route ready (royal seed pod or 77 Agility shortcuts)."
+      ],
+      "risks": [
+        "Player killing hotspot.",
+        "Multicombat in the cave and at Demonic Ruins."
+      ],
+      "notes": [
+        "Wilderness weapons gain their bonus here."
+      ]
+    },
+    {
+      "methodId": "cage-safespot",
+      "label": "Caged demon safespots",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "The Wizards' Tower, Kourend Castle, and Kingstown caged demons can be killed risk-free with ranged or magic.",
+      "recommendedFor": [
+        "low-level players",
+        "risk-free ranged or magic training"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged or magic weapon (or halberd at Kourend Castle)"
+      ],
+      "steps": [
+        "Stand outside the cage.",
+        "Attack with ranged, magic, or a halberd.",
+        "Bank nearby at Kourend Castle if needed."
+      ],
+      "notes": [
+        "Only one spawn per cage, so these are slow for full tasks."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-demonbane",
+      "label": "Melee demonbane",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Demonbane melee is the standard method against their low Defence.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Abyssal whip",
+            "Abyssal tentacle"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot or cannon",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Ranged works at cages and fences, and cannons apply at most locations.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Venator bow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-water",
+      "label": "Water spells",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Water spells exploit the 40% elemental weakness when safespotting.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the seas",
+            "Trident of the swamp"
+          ]
+        }
+      }
+    }
+  ]
+}

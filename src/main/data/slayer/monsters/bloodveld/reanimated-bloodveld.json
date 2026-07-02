@@ -1,0 +1,26 @@
+{
+  "variantId": "reanimated-bloodveld",
+  "name": "Reanimated bloodveld",
+  "npcIds": [
+    7034
+  ],
+  "combatLevel": null,
+  "weakness": null,
+  "monsterDefence": {
+    "defenceLevel": 30,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Dark Altar or current location after casting Expert Reanimation",
+  "requirement": "Slayer 50; 65 Magic; Arceuus spellbook; ensouled bloodveld head",
+  "bossId": null,
+  "strategyId": "bloodveld"
+}

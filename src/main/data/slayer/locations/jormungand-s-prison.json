@@ -1,0 +1,11 @@
+{
+  "locationId": "jormungand-s-prison",
+  "name": "Jormungand's Prison",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires The Fremennik Exiles for Basilisk Knight access. Contains standard Basilisks, Basilisk Knights, and The Jormungand quest fight; a mirror shield or V's shield is required."
+}

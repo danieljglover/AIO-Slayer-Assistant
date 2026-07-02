@@ -1,0 +1,99 @@
+{
+  "taskId": "monkeys",
+  "name": "Monkeys",
+  "wikiPageId": 18457,
+  "combatLevel": null,
+  "slayerTargetId": 298,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ]
+  },
+  "weightByMaster": {
+    "turael": 6,
+    "spria": 6
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "monkeys"
+  ],
+  "variantIds": [
+    "monkey"
+  ],
+  "defaultVariantId": "monkey",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 2,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "monkey-spawns"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "monkey",
+      "name": "Monkey",
+      "combatLevel": 3,
+      "slayerXp": 6,
+      "locations": [
+        "Karamja",
+        "Ape Atoll",
+        "Mos Le'Harmless"
+      ],
+      "notes": [
+        "6 Hitpoints, max hit 1 (crush), 4-tick attack speed, Defence level 2 with no bonuses (npc 1038/2848).",
+        "No elemental weakness; Maniacal monkeys and the Ape Atoll bosses do not count."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "monkey-spawns",
+      "name": "Monkey spawns",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Karamja holds numerous monkey clusters and is the most convenient place to complete the task.",
+        "Ape Atoll and Mos Le'Harmless also count; multi, cannon and safespot availability are not wiki-confirmed (conservative defaults)."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Monkeys has no combat or Slayer level requirement and is assigned by Turael or Spria (Mazchna does not assign Monkeys).",
+    "slayerTargetId 298 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "wikiPageId 18457 is the Monkey (monster) page; only regular monkeys count.",
+    "Monkey: combat level 3, 6 HP, max hit 1 (crush), Defence 2 with no bonuses (npc 1038/2848).",
+    "Only wiki-confirmed npcIds (1038, 2848) are recorded; other Karamja/Ape Atoll monkey spawn ids are honest-UNKNOWN (not fabricated).",
+    "Maniacal monkeys are a separate monster and do NOT count toward this task, nor do the Monkey Madness bosses (Kruk, M'amba).",
+    "Monkeys are not undead, so the salve amulet does not apply. No task extension unlock exists for Monkeys."
+  ],
+  "recommendedMethod": "Kill common monkeys (combat level 3) on Karamja with any weapon; with 6 Hitpoints and no defensive bonuses they die in one or two hits. Ape Atoll and Mos Le'Harmless monkeys also count. Avoid Maniacal monkeys, which do not count toward the task."
+}

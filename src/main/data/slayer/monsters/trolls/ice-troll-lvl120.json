@@ -1,0 +1,43 @@
+{
+  "variantId": "ice-troll",
+  "name": "Ice troll",
+  "npcIds": [
+    648,
+    649,
+    650,
+    651,
+    652,
+    653,
+    654,
+    699,
+    700,
+    701,
+    702,
+    703,
+    704,
+    705
+  ],
+  "combatLevel": 120,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 30,
+    "slash": 60,
+    "crush": 30,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Ice Path / Trollweiss Dungeon (combat 120-124 versions)",
+  "locationId": "fremennik-isles-ice-trolls",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "trolls"
+}

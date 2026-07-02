@@ -1,0 +1,112 @@
+{
+  "strategyId": "rune-dragon",
+  "variantIds": [
+    "rune-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Rune_dragon/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "osmumten-s-fang"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "eye-of-ayak",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Rune dragon strategy: draconic dragonbane target with Earth weakness. Tumeken's shadow is excellent; handle lightning bolts with movement or insulated boots."
+  },
+  "requirements": [
+    "Dragon Slayer II",
+    "Lithkren Vault access",
+    "Full dragonfire protection",
+    "Insulated boots optional for lightning damage reduction"
+  ],
+  "mechanics": [
+    "Rune dragons use melee, ranged, magic, and dragonfire.",
+    "Lightning bolts pursue the player and deal repeated damage.",
+    "Insulated boots reduce lightning damage.",
+    "Onyx-bolt style ranged special heals the dragon for damage dealt and ignores Protect from Missiles.",
+    "They have 50% earth spell vulnerability and the draconic attribute."
+  ],
+  "methods": [
+    {
+      "methodId": "dragonfire-protection",
+      "label": "Dragonfire protection",
+      "combatStyle": "MELEE",
+      "role": "required",
+      "summary": "Use full dragonfire protection in Lithkren Vault.",
+      "requiredOrKeyItems": [
+        "Super antifire or shield plus antifire",
+        "Digsite pendant Lithkren teleport"
+      ],
+      "steps": [
+        "Access Lithkren Vault after Dragon Slayer II.",
+        "Use full dragonfire protection.",
+        "Use dragonbane melee or Magic for reliable kills."
+      ]
+    },
+    {
+      "methodId": "special-attacks",
+      "label": "Special attacks",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Move from lightning bolts and account for the Onyx-bolt style healing attack.",
+      "requiredOrKeyItems": [
+        "Insulated boots"
+      ],
+      "steps": [
+        "Run four to five squares away when lightning bolts are launched.",
+        "Wear insulated boots to reduce lightning damage from 4-7 per tick to 1-2 per tick.",
+        "Expect the Onyx-bolt style ranged special to heal the dragon for damage dealt.",
+        "Continue using dragonbane or Earth-weakness damage."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Dragon hunter lance or fang setup."
+    },
+    {
+      "styleId": "magic-earth",
+      "label": "Earth Magic",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Tumeken's shadow, dragon hunter wand, or Earth spell setup."
+    },
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Ranged dragonbane",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Dragon hunter crossbow or ranged alternative."
+    }
+  ],
+  "body": "# Rune dragon\n\nDraconic dragonbane target with Earth weakness. Tumeken's shadow is excellent; handle lightning bolts with movement or insulated boots."
+}

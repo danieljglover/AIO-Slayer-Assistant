@@ -1,0 +1,39 @@
+{
+  "variantId": "mogre",
+  "name": "Mogre",
+  "npcIds": [
+    2592
+  ],
+  "combatLevel": 60,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 48,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mudskipper Point",
+  "requirement": "Slayer 32; combat level 30; completion of Skippy and the Mogres; a fishing explosive to lure them out",
+  "bossId": null,
+  "strategyId": "mogres",
+  "offence": {
+    "hitpoints": 48,
+    "maxHit": 8,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 6,
+    "poisonous": false,
+    "venomous": false
+  }
+}

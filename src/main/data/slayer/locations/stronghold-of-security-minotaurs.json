@@ -1,0 +1,11 @@
+{
+  "locationId": "stronghold-of-security-minotaurs",
+  "name": "Stronghold of Security (Minotaurs)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Minotaurs in the Vault of War (first level) of the Stronghold of Security, entered via the ladder in Barbarian Village. Family-tuned copy of the stronghold-of-security base file, whose Ankou safespot/konarLockable/cannon flags do not apply to minotaurs. Multi, cannon and safespot status are not wiki-stated and left conservative (false)."
+}

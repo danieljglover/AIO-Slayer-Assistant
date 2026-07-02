@@ -1,0 +1,132 @@
+{
+  "strategyId": "lesser-nagua",
+  "variantIds": [
+    "sulphur-nagua",
+    "frost-nagua",
+    "earthen-nagua",
+    "lesser-nagua-amoxliatl"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Lesser_Nagua",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dual-macuahuitl"
+    ],
+    "secondaryWeapons": [],
+    "note": "All Lesser Nagua variants have negative flat armour (-4 or -2), so weapons that make multiple hitsplats, such as the Dual Macuahuitl, are generally more effective. They have very high ranged and magic defence bonuses but low melee defence."
+  },
+  "requirements": [
+    "48 Slayer and 70 combat",
+    "Completion of Perilous Moons",
+    "Completion of The Final Dawn for Earthen Nagua in the Crypt of Tonali",
+    "75 Hunter to catch moonlight moths for prayer restoration (optional)"
+  ],
+  "mechanics": [
+    "Sulphur Nagua use a special attack every 5 auto-attacks that drains 5 prayer points unless the player moves out of melee range.",
+    "Frost Nagua periodically mark the player's current tile, draining prayer if the player does not move away before the effect triggers.",
+    "Earthen Nagua at 60% or lower hitpoints shuffle their melee defences, becoming much weaker to crush while gaining resistance to stab and slash.",
+    "All variants have negative flat armour, amplifying multi-hitsplat weapons.",
+    "No location is cannonable and only Neypotzli is safespottable."
+  ],
+  "methods": [
+    {
+      "methodId": "neypotzli-sulphur",
+      "label": "Neypotzli Sulphur Nagua",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Fight the 14 Sulphur Nagua in Neypotzli, making supplies freely inside and dodging the prayer-drain special.",
+      "recommendedFor": [
+        "Most Lesser Nagua tasks",
+        "Low-supply trips"
+      ],
+      "requiredOrKeyItems": [
+        "Dual macuahuitl or another multi-hitsplat weapon",
+        "Moonlight potion ingredients (made inside)"
+      ],
+      "steps": [
+        "Use a multi-hitsplat melee weapon to exploit the negative flat armour.",
+        "Step out of melee range every 5th auto-attack to avoid the 5-prayer-point drain special.",
+        "Make moonlight potions inside - they act as super combat, divine super defence, and prayer restoration.",
+        "Safespot idle nagua where convenient; Neypotzli is the only safespottable location."
+      ]
+    },
+    {
+      "methodId": "tapoyauik-frost",
+      "label": "Ruins of Tapoyauik Frost Nagua",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Fight the 11 Frost Nagua when Konar locks the task to the Ruins of Tapoyauik, moving off marked tiles.",
+      "recommendedFor": [
+        "Konar Tapoyauik locks",
+        "Fire-spell users (50% weakness)"
+      ],
+      "requiredOrKeyItems": [
+        "Multi-hitsplat melee weapon or fire spells",
+        "Butterfly net for moonlight moths (75 Hunter)"
+      ],
+      "steps": [
+        "Move off your tile when a Frost Nagua marks it to avoid the prayer drain.",
+        "Fire spells exploit their 50% elemental weakness.",
+        "Catch moonlight moths inside to restore prayer - supplies cannot be made here.",
+        "Consider killing the Amoxliatl boss instead for better profit while assigned here."
+      ],
+      "risks": [
+        "Frost Nagua are not safespottable."
+      ]
+    },
+    {
+      "methodId": "crypt-earthen",
+      "label": "Crypt of Tonali Earthen Nagua",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Fight Earthen Nagua in the multicombat eastern sun chamber after The Final Dawn, switching to crush below 60% HP.",
+      "recommendedFor": [
+        "Players with The Final Dawn complete",
+        "Crush-weapon users"
+      ],
+      "requiredOrKeyItems": [
+        "A crush option for the sub-60% phase",
+        "The Final Dawn completion"
+      ],
+      "steps": [
+        "Fight in the eastern sun chamber west of the lift platform (multicombat).",
+        "Below 60% hitpoints the nagua shuffles its melee defences: switch to crush attacks, which it becomes much weaker to.",
+        "A cannon cannot be set up here.",
+        "Catch moonlight moths nearby to restore prayer."
+      ]
+    },
+    {
+      "methodId": "amoxliatl-alternative",
+      "label": "Amoxliatl boss alternative",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Kill Amoxliatl at the Ruins of Tapoyauik as a more profitable alternative when assigned Lesser Nagua there.",
+      "recommendedFor": [
+        "Profit-focused players on Tapoyauik assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Boss-trip supplies"
+      ],
+      "steps": [
+        "Players assigned Lesser Nagua at the Ruins of Tapoyauik may kill Amoxliatl instead.",
+        "Brimstone keys only drop when the task was given by Konar quo Maten."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-multi-hitsplat",
+      "label": "Multi-hitsplat melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Negative flat armour makes multi-hitsplat weapons such as the Dual Macuahuitl especially effective; nagua melee defence is low."
+    },
+    {
+      "styleId": "elemental-magic",
+      "label": "Elemental magic",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Air spells exploit Sulphur/Earthen Nagua (15%) and fire spells exploit Frost Nagua (50%), though nagua magic defence bonuses vary."
+    }
+  ]
+}

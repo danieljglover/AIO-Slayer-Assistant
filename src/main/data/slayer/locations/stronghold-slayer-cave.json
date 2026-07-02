@@ -1,0 +1,11 @@
+{
+  "locationId": "stronghold-slayer-cave",
+  "name": "Stronghold Slayer Cave",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Bloodvelds here are close to Nieve, support a dwarf multicannon, and can be safespotted. Use a Slayer ring, Spirit tree to Tree Gnome Stronghold, or necklace of passage to Outpost. Hellhounds here are the primary non-Wilderness task option, with 13 spawns across four rooms of three or four Hellhounds, cannon support, and safespots."
+}

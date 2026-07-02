@@ -1,0 +1,33 @@
+{
+  "variantId": "blue-dragon",
+  "name": "Blue dragon",
+  "npcIds": [
+    265,
+    266,
+    267,
+    268,
+    269
+  ],
+  "combatLevel": 111,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 95,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 60,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Corsair Cove Dungeon, Heroes' Guild basement, Isle of Souls Dungeon, Ogre Enclave, Taverley Dungeon, Ruins of Tapoyauik, Dragon Nest",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "blue-dragons"
+}

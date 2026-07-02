@@ -1,0 +1,129 @@
+{
+  "strategyId": "kalphite-queen-crawling-form",
+  "variantIds": [
+    "kalphite-queen-crawling-form"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Queen/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "keris-partisan-of-breaching",
+      "keris-partisan",
+      "inquisitor-s-mace",
+      "scythe-of-vitur",
+      "soulreaper-axe",
+      "zombie-axe",
+      "verac-s-flail",
+      "colossal-blade"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-claws",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Phase 1 ground form best meleed. Keris partisan of breaching is the standout kalphite weapon on crush. Slayer helm (i) on task is the biggest single DPS gain."
+  },
+  "requirements": [
+    "Kalphite Queen boss access.",
+    "Use Slayer helmet or Slayer helmet (i) when killing her on a Kalphite task.",
+    "Bring phase-two gear as a switch or use the combined Kalphite Queen strategy for full-trip planning."
+  ],
+  "mechanics": [
+    "The crawling first form uses protection prayers against Magic and Ranged as defence indicators rather than full immunity.",
+    "The crawling form is weakest to crush and is best handled with melee.",
+    "Keris partisan of breaching and Keris partisan benefit from the Kalphite attribute.",
+    "Defence reduction on the first form carries over to the airborne form."
+  ],
+  "methods": [
+    {
+      "methodId": "phase-one-melee",
+      "label": "Phase 1 melee",
+      "combatStyle": "MELEE",
+      "role": "phase-one",
+      "summary": "Melee the crawling form with Keris partisan of breaching, Keris partisan, or another strong crush weapon.",
+      "recommendedFor": [
+        "Kalphite Queen first form",
+        "on-task Kalphite Queen kills"
+      ],
+      "requiredOrKeyItems": [
+        "Keris partisan of breaching",
+        "Keris partisan",
+        "Slayer helmet (i)",
+        "Crush melee gear",
+        "Dragon claws for special attack if used"
+      ],
+      "steps": [
+        "Use Slayer helmet or Slayer helmet (i) when on task.",
+        "Attack the crawling form with Keris partisan of breaching or Keris partisan on crush.",
+        "Use other strong melee crush weapons if Keris partisan options are unavailable.",
+        "Prepare to switch styles after the 12-second transition to the airborne form."
+      ],
+      "notes": [
+        "This JSON migrates the previous Kalphite Queen crawling-form Markdown strategy."
+      ]
+    },
+    {
+      "methodId": "phase-one-defence-spec",
+      "label": "Phase 1 defence reduction",
+      "combatStyle": "MELEE",
+      "role": "phase-one",
+      "summary": "Use Dragon warhammer or Elder maul special attacks to lower Defence before meleeing the crawling form.",
+      "recommendedFor": [
+        "melee and ranged two-style kills",
+        "high-damage post-diary trips",
+        "on-task Kalphite Queen kills"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon warhammer",
+        "Elder maul",
+        "Defender",
+        "Keris partisan of breaching",
+        "Slayer helmet (i)"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Piety"
+      ],
+      "steps": [
+        "Start the kill with Protect from Magic and Piety active where supplies allow.",
+        "Use Elder maul or Dragon warhammer special attacks to reduce the Queen's Defence.",
+        "Switch to Keris partisan of breaching, Keris partisan, Scythe of vitur on crush, Soulreaper axe on crush, or another crush weapon.",
+        "Use crush style for Keris and most melee options.",
+        "Be ready to change to phase-two ranged or magic gear after the transformation."
+      ],
+      "risks": [
+        "The Queen's melee, ranged, and magic pressure can force eating during missed defence specs.",
+        "Kalphite Workers can spawn from cocoons while the Queen is being hit."
+      ],
+      "notes": [
+        "Dragon claws are another special-attack option when using a melee setup.",
+        "Slayer helmet bonuses are a major damage increase on task."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-crush",
+      "label": "Melee crush",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Phase-one melee setup using Keris or crush weapons.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Keris partisan of breaching",
+            "Keris partisan",
+            "Inquisitor's mace",
+            "Scythe of vitur",
+            "Soulreaper axe",
+            "Zombie axe",
+            "Verac's flail",
+            "Colossal blade"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Kalphite Queen (crawling form)\n\nPhase 1 ground form best meleed. Keris partisan of breaching is the standout kalphite weapon on crush. Slayer helm (i) on task is the biggest single DPS gain."
+}

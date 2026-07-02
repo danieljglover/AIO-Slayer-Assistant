@@ -1,0 +1,11 @@
+{
+  "locationId": "fremennik-slayer-dungeon-pyrefiends",
+  "name": "Fremennik Slayer Dungeon (Pyrefiends)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Pyrefiend section of the Fremennik Slayer Dungeon, entered from Rellekka (13 spawns). No smoke protection is needed here, unlike the Smoke Dungeon. Cannon usability here is not wiki-confirmed (conservative default: off)."
+}

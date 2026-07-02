@@ -1,0 +1,190 @@
+{
+  "strategyId": "abyssal-sire",
+  "variantIds": [
+    "abyssal-demons-abyssal-sire",
+    "boss-abyssal-sire"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Abyssal_Sire/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "osmumten-s-fang",
+      "scythe-of-vitur",
+      "ghrazi-rapier",
+      "arclight"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "sanguinesti-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Demonbane-weak; the optimal kill is melee (Emberlight). Magic/ranged only wake/stun the Sire and pop the respiratory vents (a Scorching bow one-shots them). Guide centres melee despite the data weakness."
+  },
+  "requirements": [
+    "Access to Abyssal Sire's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Demonbane-weak; the optimal kill is melee (Emberlight). Magic/ranged only wake/stun the Sire and pop the respiratory vents (a Scorching bow one-shots them). Guide centres melee despite the data weakness.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Demonbane-weak; the optimal kill is melee (Emberlight). Magic/ranged only wake/stun the Sire and pop the respiratory vents (a Scorching bow one-shots them). Guide centres melee despite the data weakness.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "emberlight",
+        "osmumten-s-fang",
+        "scythe-of-vitur",
+        "ghrazi-rapier",
+        "arclight",
+        "scorching-bow",
+        "tumeken-s-shadow",
+        "sanguinesti-staff",
+        "trident-of-the-swamp"
+      ],
+      "steps": [
+        "Demonbane-weak; the optimal kill is melee (Emberlight). Magic/ranged only wake/stun the Sire and pop the respiratory vents (a Scorching bow one-shots them). Guide centres melee despite the data weakness."
+      ]
+    },
+    {
+      "methodId": "wake-stun-and-respiratory-systems",
+      "label": "Wake, stun, and vents",
+      "combatStyle": "RANGED",
+      "role": "phase-one",
+      "summary": "Wake the Sire, stun it, and destroy the four respiratory systems before committing to the melee kill.",
+      "recommendedFor": [
+        "standard Abyssal Sire kills",
+        "players using a melee main setup with ranged or magic utility"
+      ],
+      "requiredOrKeyItems": [
+        "Shadow spell or ranged wake-up hit",
+        "Scorching bow",
+        "Arclight or Emberlight",
+        "Stamina potion"
+      ],
+      "prayers": [
+        "Protect from Missiles while moving around the room"
+      ],
+      "steps": [
+        "Start by waking the Sire with a ranged or magic hit.",
+        "Use a shadow spell or other stun method so the respiratory systems can be attacked safely.",
+        "Destroy all four respiratory systems; Scorching bow can quickly remove vents where available.",
+        "Return to the centre and switch into melee gear for the main body."
+      ],
+      "risks": [
+        "Standing still too long allows tentacles and poison pools to add avoidable damage.",
+        "Skipping vents makes the later kill slower and more dangerous."
+      ],
+      "notes": [
+        "The respiratory systems are a separate utility phase from the melee DPS phase."
+      ]
+    },
+    {
+      "methodId": "melee-body-and-explosion-phase",
+      "label": "Melee body and explosion phase",
+      "combatStyle": "MELEE",
+      "role": "main-kill",
+      "summary": "Use demonbane or strong melee weapons on the body, then move away from the final explosion and finish the Sire.",
+      "recommendedFor": [
+        "on-task Abyssal Sire kills",
+        "players using Emberlight or Arclight"
+      ],
+      "requiredOrKeyItems": [
+        "Emberlight",
+        "Arclight",
+        "Osmumten's fang",
+        "Scythe of vitur",
+        "Antidote or antipoison"
+      ],
+      "prayers": [
+        "Piety",
+        "Protect from Missiles as needed"
+      ],
+      "steps": [
+        "Attack the Sire with the best available melee weapon after the respiratory systems are down.",
+        "Prioritise demonbane weapons when available because the Sire is demonic.",
+        "Move away from poison pools and spawned minions instead of tanking unnecessary damage.",
+        "When the Sire teleports and prepares the final explosion, run clear before returning to finish it."
+      ],
+      "risks": [
+        "The final explosion can deal heavy damage if the player stays near the Sire.",
+        "Poison and minion pressure can drain supplies on slow kills."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Abyssal Sire setup using Emberlight.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Osmumten's fang",
+            "Scythe of vitur",
+            "Ghrazi rapier",
+            "Arclight"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for Abyssal Sire when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scorching bow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-secondary",
+      "label": "Magic alternative",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Alternative magic option for Abyssal Sire when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow",
+            "Sanguinesti staff",
+            "Trident of the swamp"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Abyssal Sire\n\nDemonbane-weak; the optimal kill is melee (Emberlight). Magic/ranged only wake/stun the Sire and pop the respiratory vents (a Scorching bow one-shots them). Guide centres melee despite the data weakness."
+}

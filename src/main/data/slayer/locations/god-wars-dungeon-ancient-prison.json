@@ -1,0 +1,11 @@
+{
+  "locationId": "god-wars-dungeon-ancient-prison",
+  "name": "God Wars Dungeon - Ancient Prison",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Zaros Spiritual creatures in the Ancient Prison require The Frozen Door miniquest. Inside the Ancient Prison only Zaros-affiliated protection is required, but Saradomin and Zamorak items are recommended for the route to the entrance. Zaros variants are significantly stronger than the other gods' Spiritual creatures."
+}

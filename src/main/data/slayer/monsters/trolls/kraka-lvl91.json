@@ -1,0 +1,30 @@
+{
+  "variantId": "kraka",
+  "name": "Kraka",
+  "npcIds": [
+    928
+  ],
+  "combatLevel": 91,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 25,
+    "slash": 25,
+    "crush": 40,
+    "magic": 200,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Death Plateau.",
+  "locationId": "death-plateau-trolls",
+  "requirement": "Named Death Plateau troll; optional Ironman drop target.",
+  "bossId": null,
+  "strategyId": "trolls"
+}

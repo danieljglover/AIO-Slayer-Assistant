@@ -1,0 +1,7 @@
+{
+  "rewardId": "ring-bling",
+  "name": "Ring bling",
+  "pointsCost": 150,
+  "effect": "GEAR_UNLOCK",
+  "notes": "Unlocks crafting the Ring of slaying (slayer ring) from a gold bar and an enchanted gem."
+}

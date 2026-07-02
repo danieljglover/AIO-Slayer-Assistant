@@ -1,0 +1,37 @@
+{
+  "variantId": "scorpion",
+  "name": "Scorpion",
+  "npcIds": [
+    3024,
+    13001
+  ],
+  "combatLevel": 14,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": -53,
+    "slash": -53,
+    "crush": -53,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Al Kharid mine / Dwarven Mine / Karamja (non-Wilderness)",
+  "locationId": "scorpions-area",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "scorpions",
+  "offence": {
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

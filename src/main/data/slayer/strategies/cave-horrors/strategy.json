@@ -1,0 +1,387 @@
+{
+  "strategyId": "cave-horrors",
+  "variantIds": [
+    "cave-horror",
+    "cave-abomination"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Cave_horrors",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "toxic-blowpipe",
+      "hunters-sunlight-crossbow",
+      "magic-shortbow-i",
+      "karil-s-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "abyssal-whip",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-scimitar",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "staff-of-the-dead",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Wear a witchwood icon unless using Protect from Melee or a safespot. Fast ranged weapons are generally best because Cave horrors have low Hitpoints and are spread out; melee uses Protect from Melee or high magic-defence armour, and fire spells exploit their 30% elemental weakness."
+  },
+  "requirements": [
+    "58 Slayer",
+    "85 combat to receive the assignment",
+    "Cabin Fever to access Mos Le'Harmless Cave",
+    "Witchwood icon for melee-distance kills when not using Protect from Melee",
+    "Light source unless the Fire of eternal light is lit",
+    "Horrorific unlock for 200-250 extended assignments",
+    "Bigger and Badder for Cave abomination superior spawns"
+  ],
+  "mechanics": [
+    "Cave horrors use magic-based melee. Protect from Melee negates their normal damage, while high magic defence helps when not praying.",
+    "If the player is not wearing a witchwood icon at melee distance, Cave horrors use a special attack that always deals 10% of the player's base Hitpoints level, rounded down.",
+    "Protect from Melee completely mitigates the special attack, and safespots prevent Cave horrors from reaching the player.",
+    "Cave horrors have low Hitpoints and are spread apart, so fast ranged weapons are generally preferred.",
+    "The cave is single-combat, cannonable, and safespottable.",
+    "A cannon safespot near 3785,9460 can make cannon-targeted Cave horrors get stuck on the wall.",
+    "Cave horrors have a 30% elemental weakness to fire spells.",
+    "Common drops make Herb sack, Seed box, Log basket or Plank sack, Reagent pouch, Bonecrusher, and Soul bearer useful trip-extenders."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Choose ranged safespots or cannon support for low-damage kills, prayer melee for simple melee kills, or witchwood melee when conserving prayer potions.",
+      "recommendedFor": [
+        "baseline Cave horrors task planning",
+        "black mask hunting",
+        "hard clue scroll hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Witchwood icon",
+        "Light source or Fire of eternal light",
+        "Dwarf multicannon",
+        "Toxic blowpipe",
+        "Hunter's sunlight crossbow",
+        "Magic shortbow (i)",
+        "Karil's crossbow",
+        "Abyssal whip",
+        "Bones to Peaches runes or tablets"
+      ],
+      "prayers": [
+        "Protect from Melee for prayer melee and for safe travel through aggressive areas",
+        "Eagle Eye or better when ranged safespotting if prayer potions are available"
+      ],
+      "steps": [
+        "Bring a witchwood icon or plan to keep Protect from Melee active before entering melee distance.",
+        "Bring a light source unless the Fire of eternal light has been built.",
+        "Use ranged safespots or cannon support when prioritising low-damage kills.",
+        "Use prayer melee with a better amulet when prioritising simple melee kills.",
+        "Use high magic-defence armour and witchwood icon if fighting without Protect from Melee.",
+        "Use inventory containers for herbs, seeds, mahogany logs, and limpwurt roots to extend trips."
+      ],
+      "risks": [
+        "Removing the witchwood icon without Protect from Melee at melee distance causes repeated fixed special damage.",
+        "Leaving a safespot to loot can let aggressive Cave horrors attack.",
+        "Forgetting a light source causes additional cave damage unless Fire of eternal light is active."
+      ],
+      "notes": [
+        "Cave horrors are often farmed for black mask drops.",
+        "Killing a Cave horror is part of the hard Morytania Diary."
+      ]
+    },
+    {
+      "methodId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use a fast ranged weapon from mushrooms, stalagmites, boulders, swamp, or entrance safespots so Cave horrors cannot reach the player.",
+      "recommendedFor": [
+        "low supply usage",
+        "players avoiding prayer drain",
+        "ranged task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe",
+        "Hunter's sunlight crossbow",
+        "Magic shortbow (i)",
+        "Karil's crossbow",
+        "Rune pouch for Telekinetic Grab and teleport spells",
+        "Witchwood icon for looting safety if prayer is not active"
+      ],
+      "prayers": [
+        "Eagle Eye or better if using prayer for faster kills"
+      ],
+      "steps": [
+        "Stand behind one of the cave safespots near the entrance, swamp, mushrooms, stalagmites, boulders, or lakes.",
+        "Attack with a fast ranged weapon because Cave horrors have low Hitpoints and are spread out.",
+        "Use Telekinetic Grab to pick up drops without leaving the safespot when practical.",
+        "If leaving the safespot to loot, wear a witchwood icon or enable Protect from Melee before stepping into danger.",
+        "Use prayer potions only if sustaining offensive prayers; otherwise the safespot prevents damage."
+      ],
+      "risks": [
+        "Aggressive Cave horrors can attack when the player leaves the safespot.",
+        "Safespots farther into the cave may require Protect from Melee or witchwood icon to reach safely."
+      ],
+      "notes": [
+        "The task page lists Ranged safespot as a full equipment option.",
+        "Proselyte armour can be worn instead of ranged armour to save prayer potions for only a small DPS loss."
+      ]
+    },
+    {
+      "methodId": "prayer-melee",
+      "label": "Prayer melee",
+      "combatStyle": "MELEE",
+      "role": "melee",
+      "summary": "Use Protect from Melee and Prayer-bonus gear so the necklace slot can hold a stronger amulet instead of a witchwood icon.",
+      "recommendedFor": [
+        "straightforward melee kills",
+        "players with prayer potion supply",
+        "players using black mask and strong melee gear"
+      ],
+      "requiredOrKeyItems": [
+        "Abyssal whip or another melee weapon",
+        "Amulet of fury or another combat amulet",
+        "Proselyte armour or other Prayer-bonus gear",
+        "Prayer potions",
+        "Bonecrusher",
+        "Soul bearer",
+        "Light source"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Equip high Prayer-bonus gear such as Proselyte armour.",
+        "Use a better combat amulet instead of witchwood icon only while Protect from Melee is active.",
+        "Keep Protect from Melee active to negate both magic-based melee and special attack damage.",
+        "Use a strong melee weapon; Cave horrors are not specifically weak to any melee attack style.",
+        "Use Bonecrusher or bonecrusher necklace where available to help sustain prayer from big bones."
+      ],
+      "risks": [
+        "If prayer drops while no witchwood icon is worn, the special attack resumes.",
+        "Strength gear has diminishing returns because low Hitpoints make Cave horrors prone to overkill damage."
+      ]
+    },
+    {
+      "methodId": "witchwood-melee",
+      "label": "Witchwood melee",
+      "combatStyle": "MELEE",
+      "role": "melee",
+      "summary": "Wear a witchwood icon and high magic-defence armour to conserve prayer potions while using melee.",
+      "recommendedFor": [
+        "longer trips with lower prayer usage",
+        "players using Bones to Peaches",
+        "melee kills without constant protection prayer"
+      ],
+      "requiredOrKeyItems": [
+        "Witchwood icon",
+        "Black dragonhide or similar magic-defence armour",
+        "Abyssal whip or another melee weapon",
+        "Bones to Peaches runes or tablets",
+        "Food",
+        "Light source"
+      ],
+      "steps": [
+        "Keep the witchwood icon equipped to block the special attack.",
+        "Wear armour with high magic defence because Cave horrors attack with magic-based melee.",
+        "Cast Bones to Peaches or use tablets to turn big bones into food and extend trips.",
+        "Bring a house teleport or tablets for resupply.",
+        "Use Protect from Melee temporarily when moving through dangerous areas or when prayer is available."
+      ],
+      "risks": [
+        "This method takes more chip damage than prayer melee.",
+        "Mixed hide top gives slightly more Strength but less magic defence than black dragonhide."
+      ]
+    },
+    {
+      "methodId": "cannoning",
+      "label": "Cannoning",
+      "combatStyle": "RANGED",
+      "role": "speed",
+      "summary": "Use a dwarf multicannon in Mos Le'Harmless Cave to speed up kills, optionally from the documented wall-stuck safespot.",
+      "recommendedFor": [
+        "faster task completion",
+        "players accepting cannonball cost",
+        "black mask farming"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Witchwood icon or Protect from Melee",
+        "Ranged weapon or melee weapon for active damage"
+      ],
+      "steps": [
+        "Place the cannon in a cave spot with good Cave horror coverage.",
+        "For the documented safespot setup, place the cannon near 3785,9460 and stand on the matching wall safespot so cannon-targeted horrors get stuck.",
+        "If only letting the cannon work, stand two squares diagonally north-west of the primary safespot tile for a completely safe square.",
+        "Reload the cannon while maintaining witchwood icon, Protect from Melee, or safespot safety.",
+        "Pair the cannon with a fast ranged weapon when actively attacking."
+      ],
+      "risks": [
+        "The secondary safespot in the documented cannon image is less reliable.",
+        "Moving out to loot can break safespot safety."
+      ],
+      "notes": [
+        "The task page calls out 3785,9460 as an optimal cannon placement.",
+        "Bonecrusher necklace can comfortably maintain Protect from Melee while cannoning because Cave horrors drop big bones."
+      ]
+    },
+    {
+      "methodId": "cave-abomination",
+      "label": "Cave abomination",
+      "combatStyle": "RANGED",
+      "role": "superior",
+      "summary": "Treat Cave abomination as the superior Cave horror spawn unlocked by Bigger and Badder.",
+      "recommendedFor": [
+        "superior handling",
+        "players with Bigger and Badder"
+      ],
+      "requiredOrKeyItems": [
+        "Food",
+        "Prayer potions",
+        "Witchwood icon or Protect from Melee"
+      ],
+      "steps": [
+        "Keep the same safety plan active when the superior spawns.",
+        "Use the active ranged, melee, or cannon setup to kill it.",
+        "Expect much higher combat stats and 1300 Slayer experience.",
+        "Pick up the guaranteed ensouled horror head and superior drops."
+      ],
+      "notes": [
+        "Cave abomination is available only after the Bigger and Badder unlock.",
+        "Superior monsters roll additional drop-table items."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Fast ranged weapons are generally best for Cave horrors because they have low Hitpoints and are spread out.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Black mask (i)",
+            "Best ranged or prayer headgear before imbue"
+          ],
+          "neck": [
+            "Amulet of fury",
+            "Witchwood icon when leaving safespot without Protect from Melee"
+          ],
+          "weapon": [
+            "Toxic blowpipe",
+            "Hunter's sunlight crossbow",
+            "Magic shortbow (i)",
+            "Karil's crossbow"
+          ],
+          "body": [
+            "Black d'hide body",
+            "Proselyte hauberk for prayer saving"
+          ],
+          "utility": [
+            "Rune pouch for Telekinetic Grab",
+            "Light source or Fire of eternal light"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "prayer-melee",
+      "label": "Prayer melee",
+      "combatStyle": "MELEE",
+      "role": "melee",
+      "summary": "Protect from Melee allows a stronger amulet than witchwood icon, while Prayer gear reduces potion use.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Black mask"
+          ],
+          "neck": [
+            "Amulet of fury"
+          ],
+          "weapon": [
+            "Abyssal whip",
+            "Dragon scimitar",
+            "Best available melee weapon"
+          ],
+          "body": [
+            "Proselyte hauberk"
+          ],
+          "legs": [
+            "Proselyte cuisse"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "witchwood-melee",
+      "label": "Witchwood melee",
+      "combatStyle": "MELEE",
+      "role": "melee",
+      "summary": "Witchwood icon plus magic-defence armour conserves prayer potions at the cost of taking some damage.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Black mask"
+          ],
+          "neck": [
+            "Witchwood icon"
+          ],
+          "weapon": [
+            "Abyssal whip",
+            "Dragon scimitar",
+            "Best available melee weapon"
+          ],
+          "body": [
+            "Black d'hide body",
+            "Mixed hide top"
+          ],
+          "legs": [
+            "Black d'hide chaps"
+          ],
+          "utility": [
+            "Bones to Peaches runes or tablets",
+            "Light source or Fire of eternal light"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "fire-magic",
+      "label": "Fire magic",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Fire spells exploit the 30% elemental weakness, but the task page still recommends fast ranged weapons as the general best option.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Harmonised nightmare staff",
+            "Twinflame staff",
+            "Staff of the dead"
+          ],
+          "spell": [
+            "Best available fire spell"
+          ],
+          "utility": [
+            "Witchwood icon or Protect from Melee when not safespotting"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "Cave horrors require Cabin Fever, 58 Slayer, a witchwood icon or Protect from Melee safety plan, and a light source unless Fire of eternal light is active. The task page recommends fast ranged weapons, provides prayer melee and witchwood melee equipment alternatives, and documents cannon and safespot options in Mos Le'Harmless Cave."
+}

@@ -1,0 +1,585 @@
+{
+  "strategyId": "skeletal-wyvern",
+  "variantIds": [
+    "skeletal-wyvern"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Skeletal_Wyvern/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-hunter-lance",
+      "inquisitor-s-mace",
+      "blade-of-saeldor",
+      "osmumten-s-fang",
+      "abyssal-whip",
+      "zombie-axe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "armadyl-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "harmonised-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "toxic-staff-of-the-dead",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "staff-of-the-dead",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Skeletal Wyvern strategy: draconic dragonbane target with a 25% Fire elemental weakness. Carry an anti-icy-breath shield at all times; safespot methods depend on the 10-minute aggression timer before swapping to offensive shields."
+  },
+  "requirements": [
+    "72 Slayer to harm Skeletal Wyverns",
+    "70 combat and Elemental Workshop I before assignment",
+    "Elemental shield, mind shield, dragonfire shield, dragonfire ward, or ancient wyvern shield for icy-breath protection",
+    "Dragon Slayer I started if using dragonfire shield, dragonfire ward, or ancient wyvern shield",
+    "Asgarnian Ice Dungeon access south of Port Sarim; fairy ring AIQ and Agility shortcuts can speed travel"
+  ],
+  "mechanics": [
+    "Skeletal Wyverns attack with melee, ranged, and a unique ice-breath attack.",
+    "Melee is only used in melee distance and can hit up to 13.",
+    "The ranged attack reaches 6 tiles and can hit up to 13.",
+    "Icy breath reaches 5 tiles and can hit 50+ without an appropriate shield.",
+    "Elemental, mind, dragonfire, ancient wyvern, and dragonfire ward shields reduce icy breath to a maximum hit of 10.",
+    "There is still a 1/7 freeze chance while using a protective shield; the ancient wyvern shield grants immunity to that freeze.",
+    "Without a protective shield, freeze chance is affected by Magic defensive bonuses.",
+    "Skeletal Wyverns are draconic and are vulnerable to dragonbane weapons and enchanted dragonstone bolt Dragon's breath effects.",
+    "The current monster page lists a 25% Fire elemental weakness.",
+    "They are not undead, so Salve amulet bonuses do not apply.",
+    "The lower Asgarnian Ice Dungeon allows dwarf multicannon use, while the upper Slayer-only area does not."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-transportation",
+      "label": "Requirements and transportation",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Reach the Asgarnian Ice Dungeon wyvern area with the required Slayer level and shield protection.",
+      "recommendedFor": [
+        "Every Skeletal Wyvern trip",
+        "Players banking between short Slayer-task trips",
+        "Konar tasks locked to the Asgarnian Ice Dungeon"
+      ],
+      "requiredOrKeyItems": [
+        "Elemental shield",
+        "Mind shield",
+        "Dragonfire shield",
+        "Dragonfire ward",
+        "Ancient wyvern shield",
+        "Food",
+        "Prayer potions",
+        "Teleport out"
+      ],
+      "steps": [
+        "Enter the Asgarnian Ice Dungeon south of Port Sarim and north of Mudskipper Point.",
+        "Run north, then east to the ice warrior and ice giant room, then use the southern entrance to the wyvern lair.",
+        "Use fairy ring AIQ or the Port Sarim route for travel; level 72 or 82 Agility shortcuts shorten the dungeon path.",
+        "Use the icy steps near the exit when killing in the task-only upper area.",
+        "Equip or carry an anti-icy-breath shield before entering combat."
+      ],
+      "risks": [
+        "Assignment requires Elemental Workshop I because the task expects access to at least the elemental shield.",
+        "Starting Dragon Slayer I is required before using dragonfire shield, dragonfire ward, or ancient wyvern shield."
+      ]
+    },
+    {
+      "methodId": "attacks-and-protection",
+      "label": "Attacks and protection",
+      "combatStyle": "RANGED",
+      "role": "survival",
+      "summary": "Plan around ranged hits, melee distance, and high-damage icy breath.",
+      "recommendedFor": [
+        "Every combat style",
+        "Players not consistently safespotting",
+        "Low Defence accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Anti-icy-breath shield",
+        "Ancient wyvern shield for freeze immunity",
+        "Prayer potions",
+        "High-healing food"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Protect from Melee",
+        "Piety",
+        "Eagle Eye",
+        "Rigour"
+      ],
+      "steps": [
+        "Always account for the 50+ icy breath max hit if the player is not protected by an appropriate shield.",
+        "Use an elemental, mind, dragonfire, ancient wyvern, or dragonfire ward shield to reduce icy breath to a max hit of 10.",
+        "Use an ancient wyvern shield when freeze immunity matters more than offensive shield bonuses.",
+        "Use Protect from Missiles when standing at distance and not fully safespotting because the ranged attack is frequent.",
+        "Use Protect from Melee when meleeing in direct contact.",
+        "Continue eating or drinking potions while frozen; the freeze prevents retaliating, not inventory actions."
+      ],
+      "risks": [
+        "Armour does not affect icy-breath accuracy.",
+        "Protective shields reduce icy breath but do not fully remove freeze chance unless using the ancient wyvern shield.",
+        "A failed safespot lure can expose the player to icy breath again."
+      ]
+    },
+    {
+      "methodId": "dragonbane-melee",
+      "label": "Dragonbane melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use dragon hunter lance or high-accuracy melee while praying melee.",
+      "recommendedFor": [
+        "Best direct kill speed",
+        "Slayer helmet users",
+        "Players with strong melee gear and enough supplies"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter lance",
+        "Inquisitor's mace",
+        "Blade of saeldor",
+        "Osmumten's fang",
+        "Abyssal whip",
+        "Zombie axe",
+        "Dragonfire shield",
+        "Voidwaker or other special attack weapon",
+        "Divine super combat potion"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Use dragon hunter lance as the best melee weapon because Skeletal Wyverns are draconic.",
+        "Use the Swipe or Pound attack style with dragon hunter lance when paired with Oathplate or Inquisitor-style setups.",
+        "Use Inquisitor's mace, Blade of saeldor, Osmumten's fang, Abyssal whip, or Zombie axe when dragon hunter lance is unavailable.",
+        "Keep Protect from Melee active while standing in melee distance.",
+        "Carry food and prayer potions because melee does not avoid ranged or icy-breath pressure.",
+        "Use a special attack weapon only if the shield plan still keeps icy-breath protection available."
+      ],
+      "risks": [
+        "Skeletal Wyverns have very high stab defence, so lower-tier stab weapons can underperform.",
+        "Direct melee consumes more food than safespotting."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Torva full helm",
+            "Slayer helmet (i) on task",
+            "Oathplate helm",
+            "Inquisitor's great helm",
+            "Neitiznot faceguard"
+          ],
+          "weapon": [
+            "Dragon hunter lance",
+            "Inquisitor's mace",
+            "Blade of saeldor",
+            "Osmumten's fang",
+            "Abyssal whip",
+            "Zombie axe"
+          ],
+          "shield": [
+            "Dragonfire shield",
+            "Ancient wyvern shield",
+            "Mind shield",
+            "Elemental shield"
+          ],
+          "body": [
+            "Oathplate chest",
+            "Torva platebody",
+            "Inquisitor's hauberk",
+            "Bandos chestplate"
+          ],
+          "legs": [
+            "Oathplate legs",
+            "Torva platelegs",
+            "Inquisitor's plateskirt",
+            "Bandos tassets"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use crossbow or Bow of faerdhinen range from a safespot after aggression expires.",
+      "recommendedFor": [
+        "Low Defence accounts",
+        "Longer trips",
+        "Players prioritising safety over direct melee speed"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter crossbow",
+        "Bow of faerdhinen with crystal armour",
+        "Hunters' sunlight crossbow",
+        "Zaryte crossbow",
+        "Armadyl crossbow",
+        "Dragon crossbow",
+        "Rune crossbow",
+        "Diamond dragon bolts (e)",
+        "Mind shield or other protective shield",
+        "Offensive ranged shield for after aggression"
+      ],
+      "prayers": [
+        "Eagle Eye",
+        "Rigour",
+        "Protect from Missiles while setting up"
+      ],
+      "steps": [
+        "Wait until the wyverns become tolerant after about 10 minutes in the same aggression area.",
+        "Trap a wyvern on the main cave entrance, the western or southern side of the ice structure, or the task-only-area safespot.",
+        "Attack from outside the wyvern's 6-tile ranged range when possible, or use Protect from Missiles while setting up.",
+        "Use Dragon hunter crossbow with diamond dragon bolts (e) as the strongest ranged dragonbane path.",
+        "Use Bow of faerdhinen with crystal armour, Hunters' sunlight crossbow, Zaryte crossbow, Armadyl crossbow, Dragon crossbow, or Rune crossbow as alternatives.",
+        "After the wyverns are tolerant and the safespot is stable, switch from the protective shield to a ranged-bonus shield such as a buckler or ward.",
+        "Keep the protective shield in the inventory because a bad lure can expose the player to icy breath again."
+      ],
+      "risks": [
+        "Moving too far deeper into the cave can reset aggression and break the safespot.",
+        "Wyverns are not always lured correctly behind obstacles.",
+        "Offensive shields do not replace icy-breath protection when the safespot fails."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Masori mask (f)",
+            "Slayer helmet (i) on task",
+            "Armadyl helmet",
+            "Crystal helm",
+            "Blessed coif"
+          ],
+          "weapon": [
+            "Dragon hunter crossbow",
+            "Bow of faerdhinen",
+            "Hunters' sunlight crossbow",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "shield": [
+            "Twisted buckler after safespot",
+            "Dragonfire ward",
+            "Odium ward",
+            "Book of law",
+            "Mind shield while aggressive"
+          ],
+          "ammo": [
+            "Diamond dragon bolts (e)",
+            "Moonlight antler bolts",
+            "Diamond bolts (e)",
+            "Runite bolts",
+            "Amethyst broad bolts",
+            "Broad bolts"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "ranged-void-safespot",
+      "label": "Ranged Void safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use the strategy page's Void ranged setup when high Ranged makes it stronger than ordinary dragonhide.",
+      "recommendedFor": [
+        "Players with 92+ Ranged",
+        "Players without Armadyl armour",
+        "Safespot-only kills"
+      ],
+      "requiredOrKeyItems": [
+        "Elite void ranged setup",
+        "Dragon hunter crossbow",
+        "Diamond dragon bolts (e)",
+        "Mind shield in inventory",
+        "Ranging potions"
+      ],
+      "prayers": [
+        "Eagle Eye",
+        "Rigour"
+      ],
+      "steps": [
+        "Use the same safespot and aggression-loss process as the standard ranged method.",
+        "Use Void ranged when the account has at least 92 Ranged and lacks stronger Armadyl-or-better armour.",
+        "Start with a protective shield while wyverns are aggressive.",
+        "Switch to ranged offensive gear only after the safespot is stable and the wyverns are tolerant.",
+        "Keep the shield in the inventory to recover from bad lures."
+      ],
+      "risks": [
+        "Void ranged is fragile if the safespot fails.",
+        "This method assumes a stable safespot rather than tanking."
+      ]
+    },
+    {
+      "methodId": "magic-fire-safespot",
+      "label": "Magic Fire safespot",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use Dragon hunter wand or Fire spells from a safespot to exploit the Fire elemental weakness.",
+      "recommendedFor": [
+        "High Magic accounts",
+        "Players with Dragon hunter wand",
+        "Players using Fire spell damage bonuses"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter wand",
+        "Harmonised nightmare staff",
+        "Toxic staff of the dead",
+        "Kodai wand",
+        "Staff of the dead",
+        "Tome of fire",
+        "Imbued heart",
+        "Mind shield",
+        "Rune pouch"
+      ],
+      "prayers": [
+        "Mystic Might",
+        "Augury",
+        "Protect from Missiles while setting up"
+      ],
+      "steps": [
+        "Use Dragon hunter wand with Fire spells where available because Skeletal Wyverns are draconic and have a Fire elemental weakness.",
+        "Use Harmonised nightmare staff, Toxic staff of the dead, Kodai wand, Staff of the dead, or similar Magic gear as alternatives.",
+        "Use Tome of fire or other spell-damage gear after the safespot is stable.",
+        "Carry a mind shield or other protective shield during the aggressive setup period.",
+        "Keep the shield in the inventory after swapping to Tome of fire or another magic off-hand.",
+        "Use the same 10-minute tolerance and obstacle trapping rules as Ranged safespotting."
+      ],
+      "risks": [
+        "Magic off-hands do not protect from icy breath.",
+        "Safespot mistakes can force an immediate shield swap."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Ancestral hat",
+            "Slayer helmet (i) on task",
+            "Virtus mask",
+            "Ahrim's hood"
+          ],
+          "weapon": [
+            "Dragon hunter wand",
+            "Harmonised nightmare staff",
+            "Toxic staff of the dead",
+            "Kodai wand",
+            "Staff of the dead"
+          ],
+          "shield": [
+            "Tome of fire after safespot",
+            "Elidinis' ward (f)",
+            "Arcane spirit shield",
+            "Ancient wyvern shield",
+            "Mind shield while aggressive"
+          ],
+          "body": [
+            "Ancestral robe top",
+            "Virtus robe top",
+            "Ahrim's robetop",
+            "Dagon'hai robe top"
+          ],
+          "legs": [
+            "Ancestral robe bottom",
+            "Virtus robe bottom",
+            "Ahrim's robeskirt",
+            "Dagon'hai robe bottom"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "cannon-and-prayers",
+      "label": "Cannon and prayers",
+      "combatStyle": "MELEE",
+      "role": "speed",
+      "summary": "Use a dwarf multicannon only in the lower cave and choose protection prayer by distance.",
+      "recommendedFor": [
+        "Lower Asgarnian Ice Dungeon kills",
+        "Faster melee trips",
+        "Players accepting cannonball cost for higher kill speed"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Prayer potions",
+        "Anti-icy-breath shield"
+      ],
+      "prayers": [
+        "Protect from Melee in melee distance",
+        "Protect from Missiles when ranging or maging without a complete safespot"
+      ],
+      "steps": [
+        "Set up the dwarf multicannon only in the lower part of the Asgarnian Ice Dungeon.",
+        "Do not attempt to cannon the upper Slayer-exclusive area; the strategy page marks it as no cannon.",
+        "Use Protect from Melee when fighting directly.",
+        "Use Protect from Missiles when fighting from distance and not fully safespotted.",
+        "Keep the shield requirement unchanged even when cannoning."
+      ],
+      "risks": [
+        "Cannonballs add cost, though the strategy page notes the extra drops often outweigh it.",
+        "Cannon use does not remove icy-breath or freeze risk."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "RANGED",
+      "role": "trip-planning",
+      "summary": "Carry the shield and support supplies while leaving room for noted resources, runes, herbs, and seeds.",
+      "recommendedFor": [
+        "Long safespot trips",
+        "Task completion",
+        "Players using herb sack or rune pouch"
+      ],
+      "requiredOrKeyItems": [
+        "Mind shield or stronger protective shield",
+        "Prayer potion",
+        "Ranging potion, super combat potion, or imbued heart depending on style",
+        "Food",
+        "Herb sack",
+        "Rune pouch",
+        "Bonecrusher"
+      ],
+      "inventory": [
+        "Protective shield even when using an offensive shield after safespotting",
+        "Combat potion for chosen style",
+        "Prayer potions",
+        "Food for lure mistakes and freeze recovery",
+        "Herb sack for herb drops",
+        "Rune pouch for alchemy or Magic combat",
+        "Bonecrusher for Wyvern bones if prayer experience or inventory management is desired"
+      ],
+      "steps": [
+        "Reserve one inventory slot for the protective shield if it is not currently equipped.",
+        "Use food and prayer potions until the safespot is stable or throughout melee trips.",
+        "Keep valuable drops such as rune arrows, rune items, battlestaves, unpowered orbs, magic logs, pure essence, ranarr seeds, snapdragon seeds, chaos runes, death runes, blood runes, and coins.",
+        "Bank or alch depending on trip length and rune pouch setup.",
+        "Remember the unique drops are granite legs and draconic visage, not wyvern visage."
+      ],
+      "notes": [
+        "The strategy page examples show both combat-trip inventories and loot-focused inventories for Ranged and Magic safespotting."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Dragon hunter lance or high-accuracy melee with Protect from Melee and an anti-icy-breath shield.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter lance",
+            "Inquisitor's mace",
+            "Blade of saeldor",
+            "Osmumten's fang",
+            "Abyssal whip",
+            "Zombie axe"
+          ],
+          "shield": [
+            "Dragonfire shield",
+            "Ancient wyvern shield",
+            "Mind shield",
+            "Elemental shield"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Dragon hunter crossbow, Bow of faerdhinen, or crossbow alternatives after the 10-minute aggression timer.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter crossbow",
+            "Bow of faerdhinen",
+            "Hunters' sunlight crossbow",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "ammo": [
+            "Diamond dragon bolts (e)",
+            "Moonlight antler bolts",
+            "Diamond bolts (e)",
+            "Runite bolts",
+            "Amethyst broad bolts",
+            "Broad bolts"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-void-safespot",
+      "label": "Ranged Void safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Void ranged version of the safespot method, recommended by the strategy page for 92+ Ranged without Armadyl-tier gear."
+    },
+    {
+      "styleId": "magic-fire-safespot",
+      "label": "Magic Fire safespot",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Dragon hunter wand or Fire spell setup using the 25% Fire elemental weakness from a safespot.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter wand",
+            "Harmonised nightmare staff",
+            "Toxic staff of the dead",
+            "Kodai wand",
+            "Staff of the dead"
+          ],
+          "shield": [
+            "Tome of fire after safespot",
+            "Ancient wyvern shield",
+            "Mind shield while aggressive"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Skeletal Wyvern\n\nDraconic dragonbane target in the Asgarnian Ice Dungeon. Carry an elemental, mind, dragonfire, dragonfire ward, or ancient wyvern shield for icy breath; use melee dragonbane directly or safespot with Ranged/Magic after aggression expires."
+}

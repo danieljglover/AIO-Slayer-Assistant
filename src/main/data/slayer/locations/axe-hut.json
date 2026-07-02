@@ -1,0 +1,11 @@
+{
+  "locationId": "axe-hut",
+  "name": "Magic Axe Hut (Wilderness)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "9 Magic axe spawns inside the Wilderness Axe Hut (west of the Bone Yard). The hut door requires 23 Thieving and a lockpick to open. Krystilia only counts Wilderness kills, so the Taverley Dungeon and Catacombs of Kourend spawns do not count. Multicombat, cannon and safespot are not wiki-stated for this spot; conservative defaults are used."
+}

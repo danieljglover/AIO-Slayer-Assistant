@@ -1,0 +1,11 @@
+{
+  "locationId": "ogre-enclave-watchtower",
+  "name": "Ogre Enclave",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Watchtower. Blue dragons are far apart, can be cannoned and safespotted, and banking can use Ring of dueling to Castle Wars then run east to Gu'Tanoth; cannon also targets nearby spiders and skeletons."
+}

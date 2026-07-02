@@ -1,0 +1,32 @@
+{
+  "variantId": "kalphite-guardian",
+  "name": "Kalphite Guardian",
+  "npcIds": [
+    959,
+    962,
+    960
+  ],
+  "combatLevel": 141,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 110,
+    "stab": 25,
+    "slash": 25,
+    "crush": 5,
+    "magic": 50,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": true,
+  "undead": false,
+  "boss": false,
+  "location": "Kalphite Lair (upper/lower) / Kalphite Cave",
+  "locationId": "kalphite-cave",
+  "requirement": "poison starts at 6 damage; bring poison immunity",
+  "bossId": null,
+  "strategyId": "kalphite"
+}

@@ -1,0 +1,31 @@
+{
+  "variantId": "earthen-nagua",
+  "name": "Earthen Nagua",
+  "npcIds": [
+    14420,
+    14421
+  ],
+  "combatLevel": 128,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 30,
+    "slash": 50,
+    "crush": 50,
+    "magic": 60,
+    "range": 150
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Crypt of Tonali (eastern sun chamber)",
+  "locationId": "crypt-of-tonali",
+  "requirement": "Slayer 48; Perilous Moons; The Final Dawn",
+  "bossId": null,
+  "strategyId": "lesser-nagua"
+}

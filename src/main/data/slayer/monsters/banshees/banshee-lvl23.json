@@ -1,0 +1,39 @@
+{
+  "variantId": "banshee",
+  "name": "Banshee",
+  "npcIds": [
+    414
+  ],
+  "combatLevel": 23,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 22,
+    "stab": 5,
+    "slash": 5,
+    "crush": 5,
+    "magic": 0,
+    "range": 5
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Slayer Tower ground floor (eastern side)",
+  "requirement": "Slayer 15; Priest in Peril; wear earmuffs or a Slayer helmet to avoid the stat-draining scream",
+  "bossId": null,
+  "strategyId": "banshees",
+  "offence": {
+    "hitpoints": 22,
+    "maxHit": 2,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "kingstown",
+  "name": "Kingstown",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "One Lesser demon in Kingstown; single-combat, cannonable and safespottable."
+}

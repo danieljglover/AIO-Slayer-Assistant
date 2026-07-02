@@ -1,0 +1,36 @@
+{
+  "variantId": "vyrewatch-sentinel",
+  "name": "Vyrewatch Sentinel",
+  "npcIds": [
+    9756,
+    9757,
+    9758,
+    9759,
+    9760,
+    9761,
+    9762,
+    9763
+  ],
+  "combatLevel": 151,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 180,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Darkmeyer",
+  "requirement": "Sins of the Father completion; Ivandis flail, Blisterwood flail, Hallowed flail, blisterwood sickle, or blisterwood stakes to damage",
+  "bossId": null,
+  "strategyId": "vyrewatch-sentinel"
+}

@@ -1,0 +1,107 @@
+{
+  "taskId": "lizards",
+  "name": "Lizards",
+  "wikiPageId": 13072,
+  "combatLevel": null,
+  "slayerTargetId": 295,
+  "slayerLevel": 22,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "turael": 8,
+    "spria": 8,
+    "mazchna": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "lizards"
+  ],
+  "variantIds": [
+    "desert-lizard"
+  ],
+  "defaultVariantId": "desert-lizard",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 20,
+    "stab": 5,
+    "slash": 15,
+    "crush": 15,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 6696,
+  "requiredItemName": "Ice cooler",
+  "locationIds": [
+    "kharidian-desert-lizards"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "desert-lizard",
+      "name": "Desert Lizard",
+      "combatLevel": 24,
+      "slayerXp": 25,
+      "locations": [
+        "Kharidian Desert"
+      ],
+      "notes": [
+        "Requires 22 Slayer to kill; no combat requirement.",
+        "25 Hitpoints, max hit 3 (Crush), 4-tick attack speed; Defence level 20.",
+        "An ice cooler must be used when the lizard has fewer than 5 Hitpoints to finish it; Ancient ice spells do NOT substitute.",
+        "Small Lizards, Sulphur Lizards (Slayer 44) and Grimy Lizards (Slayer 44) also count toward the task; their exact stats are not authored here (honest UNKNOWN)."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "kharidian-desert-lizards",
+      "name": "Kharidian Desert",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Desert Lizards are found in the Kharidian Desert; the Desert Heat mechanic means waterskins (or desert-resistant gear) are needed.",
+        "Each lizard must be finished with an ice cooler while below 5 Hitpoints; the Reptile freezer perk (10 points) automates this if an ice cooler is carried.",
+        "No elemental weakness; any melee weapon brings them into ice-cooler range quickly."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Lizards require 22 Slayer (no combat requirement) to be assigned by Turael, Spria, or Mazchna.",
+    "slayerTargetId 295 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "requiredItemId 6696 is Ice cooler (ItemID.ICE_COOLER, javap-verified): a Desert Lizard must be finished with an ice cooler when it has fewer than 5 Hitpoints. Used at 5 or more HP the cooler is consumed with no effect. Ancient Magicks ice spells do NOT count as the final blow.",
+    "The Reptile freezer perk (10 Slayer points) auto-ices a Desert Lizard below 5 HP if an ice cooler is in the inventory.",
+    "Desert Lizard has 25 Hitpoints, max hit 3 (Crush), 4-tick attack speed, and Defence level 20 with no elemental weakness.",
+    "Small Lizards, Sulphur Lizards (Slayer 44) and Grimy Lizards (Slayer 44) also count toward the Lizards task; only Desert Lizard is authored with full stats here.",
+    "Killing a Desert Lizard is a Medium Desert Diary requirement.",
+    "No task extension unlock exists for Lizards."
+  ],
+  "recommendedMethod": "Bring plenty of ice coolers and waterskins (the Kharidian Desert applies Desert Heat) and travel to the Desert Lizards south of the Shantay Pass / around Pollnivneach. Attack with any melee weapon to drop each lizard below 5 Hitpoints, then use an ice cooler to finish it (Ancient ice spells do not count). The Reptile freezer perk automates the ice cooler once bought. There is no elemental weakness, so weapon choice is unimportant."
+}

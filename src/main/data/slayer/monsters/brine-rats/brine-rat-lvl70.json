@@ -1,0 +1,30 @@
+{
+  "variantId": "brine-rat",
+  "name": "Brine rat",
+  "npcIds": [
+    4501
+  ],
+  "combatLevel": 70,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Brine Rat Cavern",
+  "locationId": "brine-rat-cavern",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "brine-rats"
+}

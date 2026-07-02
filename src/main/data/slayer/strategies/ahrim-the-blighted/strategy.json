@@ -1,0 +1,215 @@
+{
+  "strategyId": "ahrim-the-blighted",
+  "variantIds": [
+    "ahrim-the-blighted"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Barrows/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "toxic-blowpipe",
+      "rosewood-blowpipe",
+      "hunters-sunlight-crossbow",
+      "magic-shortbow-i",
+      "karil-s-crossbow",
+      "yew-shortbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "eye-of-ayak",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "dragon-dagger",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Ahrim is the only ranged-weak brother, so the guide carves out a dedicated ranged kit. Air spells or a Shadow let you mage him like the others."
+  },
+  "requirements": [
+    "Access to Ahrim the Blighted's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Ahrim is the only ranged-weak brother, so the guide carves out a dedicated ranged kit. Air spells or a Shadow let you mage him like the others.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Ahrim is the only ranged-weak brother, so the guide carves out a dedicated ranged kit. Air spells or a Shadow let you mage him like the others.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "toxic-blowpipe",
+        "rosewood-blowpipe",
+        "hunters-sunlight-crossbow",
+        "magic-shortbow-i",
+        "karil-s-crossbow",
+        "yew-shortbow",
+        "tumeken-s-shadow",
+        "eye-of-ayak",
+        "dragon-dagger"
+      ],
+      "steps": [
+        "Ahrim is the only ranged-weak brother, so the guide carves out a dedicated ranged kit. Air spells or a Shadow let you mage him like the others."
+      ]
+    },
+    {
+      "methodId": "barrows-route",
+      "label": "Barrows route",
+      "combatStyle": "RANGED",
+      "role": "travel",
+      "summary": "Reach Barrows with a Barrows teleport or Mort'ton route, then clear mounds while managing the recurring underground Prayer drain.",
+      "recommendedFor": [
+        "Barrows chest runs",
+        "Boss Slayer assignments that roll Ahrim"
+      ],
+      "requiredOrKeyItems": [
+        "Barrows teleport tablet",
+        "Morytania legs 3 or 4",
+        "Fairy ring access",
+        "Prayer potions",
+        "Restore potion"
+      ],
+      "prayers": [
+        "Protect from Magic against Ahrim"
+      ],
+      "steps": [
+        "Use a Barrows teleport, a player-owned house portal, Mort'ton teleport, Morytania legs, or fairy ring route to reach the mounds.",
+        "Enter Ahrim's central mound when ready to spend prayer points.",
+        "Use Protect from Magic and a ranged setup unless using air spells or Tumeken's shadow.",
+        "Carry restore if Ahrim's Strength drain matters for the rest of the route."
+      ],
+      "notes": [
+        "Ghommal's hilt 2 or higher nullifies the Barrows Prayer-draining effect.",
+        "Ahrim is commonly killed early because he uses magic and can drain Strength."
+      ]
+    },
+    {
+      "methodId": "protection-prayer-kill",
+      "label": "Protection prayer kill",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Use Protect from Magic and ranged accuracy prayers to kill Ahrim quickly, or skip the ranged switch when using air magic or Shadow.",
+      "recommendedFor": [
+        "standard Ahrim mound kills",
+        "players carrying a ranged switch"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe",
+        "Karil's crossbow",
+        "Magic shortbow (i)",
+        "Ranging potion"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Eagle Eye",
+        "Rigour"
+      ],
+      "steps": [
+        "Turn on Protect from Magic before Ahrim attacks.",
+        "Use ranged weapons and ranged damage prayers for the fastest non-Shadow kill.",
+        "Use air spells or Tumeken's shadow if avoiding extra switches.",
+        "Use special attacks on Ahrim if they speed up the rotation."
+      ],
+      "risks": [
+        "Ahrim can drain Strength, which slows later melee kills if no restore is carried.",
+        "Prayer drains every 18 seconds underground unless prevented by Combat Achievement rewards."
+      ],
+      "notes": [
+        "Ahrim is the only brother whose primary listed weakness is ranged.",
+        "All brothers also have a 50% air elemental weakness."
+      ]
+    },
+    {
+      "methodId": "tunnel-safespot",
+      "label": "Tunnel safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "If Ahrim appears in the tunnels, fight him with Protect from Magic; reserve safespot tricks mainly for melee brothers.",
+      "recommendedFor": [
+        "Ahrim tunnel spawns",
+        "low-food Barrows runs"
+      ],
+      "requiredOrKeyItems": [
+        "Prayer potion",
+        "Ranged or magic weapon"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Keep Protect from Magic active when Ahrim spawns in a tunnel room.",
+        "Use ladder and corridor geometry for spacing if needed.",
+        "Avoid relying on melee-brother kiting patterns because Ahrim attacks with magic."
+      ],
+      "notes": [
+        "Tunnel ladder and corridor safespots are most valuable against melee brothers.",
+        "Prayer management is usually more important than pathing against Ahrim."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Ahrim the Blighted setup using Toxic blowpipe.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Rosewood blowpipe",
+            "Hunters' sunlight crossbow",
+            "Magic shortbow (i)",
+            "Karil's crossbow",
+            "Yew shortbow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-secondary",
+      "label": "Magic alternative",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Alternative magic option for Ahrim the Blighted when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow",
+            "Eye of ayak"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Ahrim the Blighted when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon dagger"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Ahrim the Blighted\n\nAhrim is the only ranged-weak brother, so the guide carves out a dedicated ranged kit. Air spells or a Shadow let you mage him like the others."
+}

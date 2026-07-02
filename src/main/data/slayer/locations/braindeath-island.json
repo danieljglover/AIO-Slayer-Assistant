@@ -1,0 +1,11 @@
+{
+  "locationId": "braindeath-island",
+  "name": "Braindeath Island",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "11 Fever spider spawns in the Braindeath Island brewery basement; Rum Deal must be started to access the island. Wear Slayer gloves or take 12.5% max-HP damage and become diseased when attacking. Many crate safespots (south-west corner noted). Cannon placement is not wiki-stated, so the conservative default is used."
+}

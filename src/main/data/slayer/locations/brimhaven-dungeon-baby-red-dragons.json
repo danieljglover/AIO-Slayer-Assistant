@@ -1,0 +1,11 @@
+{
+  "locationId": "brimhaven-dungeon-baby-red-dragons",
+  "name": "Brimhaven Dungeon (baby red dragons)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 12 Baby red dragons. The task page marks them cannonable but not safespottable; adult red dragons and wild dogs can attack nearby."
+}

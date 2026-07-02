@@ -1,0 +1,11 @@
+{
+  "locationId": "inferno",
+  "name": "Inferno",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Used when the Slayer master offers TzKal-Zuk instead of regular TzHaar after at least one prior off-task Zuk kill. Combat achievement rewards can increase the task to two or three Zuk kills."
+}

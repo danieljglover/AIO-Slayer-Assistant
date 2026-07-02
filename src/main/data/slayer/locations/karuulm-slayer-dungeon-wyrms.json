@@ -1,0 +1,11 @@
+{
+  "locationId": "karuulm-slayer-dungeon-wyrms",
+  "name": "Karuulm Slayer Dungeon - Wyrms",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 16 Wyrms on the lower level, including seven in the task-only area south of the main group. Wear boots of stone, boots of brimstone, or granite boots unless Elite Kourend & Kebos Diary is complete. Wyrms can be safespotted with Ranged in the task-only area and cannot be cannoned."
+}

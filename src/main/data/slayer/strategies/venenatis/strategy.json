@@ -1,0 +1,174 @@
+{
+  "strategyId": "venenatis",
+  "variantIds": [
+    "venenatis"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "ursine-chainmace",
+      "viggora-s-chainmace",
+      "inquisitor-s-mace",
+      "soulreaper-axe",
+      "abyssal-bludgeon",
+      "zombie-axe",
+      "zamorakian-hasta",
+      "sarachnis-cudgel"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "webweaver-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "craw-s-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Weakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit."
+  },
+  "requirements": [
+    "Access to Venenatis's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Weakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Weakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "ursine-chainmace",
+        "viggora-s-chainmace",
+        "inquisitor-s-mace",
+        "soulreaper-axe",
+        "abyssal-bludgeon",
+        "zombie-axe",
+        "zamorakian-hasta",
+        "sarachnis-cudgel",
+        "webweaver-bow",
+        "craw-s-bow",
+        "twisted-bow",
+        "toxic-blowpipe"
+      ],
+      "steps": [
+        "Weakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit."
+      ]
+    },
+    {
+      "methodId": "crush-melee-wilderness-kill",
+      "label": "Crush melee Wilderness kill",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use crush melee, especially Wilderness maces, while managing web and player-killer risk.",
+      "recommendedFor": [
+        "Venenatis boss tasks",
+        "players using Ursine or Viggora's chainmace"
+      ],
+      "requiredOrKeyItems": [
+        "Ursine chainmace",
+        "Viggora's chainmace",
+        "Inquisitor's mace",
+        "Escape teleport"
+      ],
+      "prayers": [
+        "Protect from Melee or Missiles as needed",
+        "Piety",
+        "Protect Item if risking gear"
+      ],
+      "steps": [
+        "Enter with an acceptable Wilderness risk setup.",
+        "Use crush melee weapons, prioritising Wilderness mace bonuses.",
+        "Move when webs or positioning mechanics threaten to trap the player.",
+        "Keep escape routes and teleport thresholds in mind throughout the kill."
+      ],
+      "risks": [
+        "Venenatis is in multi-combat Wilderness.",
+        "Webs and player-killers can combine into lethal situations."
+      ]
+    },
+    {
+      "methodId": "ranged-exit-or-singles-alternative",
+      "label": "Ranged exit or singles alternative",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use ranged near safer exits or a related singles-plus spider encounter when reducing risk matters more than maximum kills per hour.",
+      "recommendedFor": [
+        "lower-risk Wilderness attempts",
+        "players without chainmace"
+      ],
+      "requiredOrKeyItems": [
+        "Webweaver bow",
+        "Craw's bow",
+        "Ranged gear",
+        "Stamina potion"
+      ],
+      "steps": [
+        "Use ranged setups when they make escape positioning easier.",
+        "Bank frequently and avoid carrying unnecessary risk.",
+        "Use the lower-risk related spider encounter when account goals allow it."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Venenatis setup using Ursine chainmace.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Ursine chainmace",
+            "Viggora's chainmace",
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Abyssal bludgeon",
+            "Zombie axe",
+            "Zamorakian hasta",
+            "Sarachnis cudgel"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for Venenatis when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Twisted bow",
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Venenatis\n\nWeakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit."
+}

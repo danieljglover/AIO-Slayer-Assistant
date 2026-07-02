@@ -1,0 +1,171 @@
+{
+  "strategyId": "callisto",
+  "variantIds": [
+    "callisto"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "webweaver-bow",
+      "craw-s-bow",
+      "bow-of-faerdhinen",
+      "zaryte-crossbow",
+      "armadyl-crossbow",
+      "dragon-crossbow",
+      "rune-crossbow",
+      "magic-shortbow-i"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "accursed-sceptre",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "thammaron-s-sceptre",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "eye-of-ayak",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Low ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus."
+  },
+  "requirements": [
+    "Access to Callisto's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Low ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Low ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "webweaver-bow",
+        "craw-s-bow",
+        "bow-of-faerdhinen",
+        "zaryte-crossbow",
+        "armadyl-crossbow",
+        "dragon-crossbow",
+        "rune-crossbow",
+        "magic-shortbow-i",
+        "accursed-sceptre",
+        "thammaron-s-sceptre",
+        "eye-of-ayak"
+      ],
+      "steps": [
+        "Low ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus."
+      ]
+    },
+    {
+      "methodId": "wilderness-ranged-kill",
+      "label": "Wilderness ranged kill",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Use ranged Wilderness weapons or strong bows while managing Callisto's knockback and player-killer risk.",
+      "recommendedFor": [
+        "Callisto boss tasks",
+        "players using Webweaver or Craw's bow"
+      ],
+      "requiredOrKeyItems": [
+        "Webweaver bow",
+        "Craw's bow",
+        "Bow of faerdhinen",
+        "Royal seed pod or teleport",
+        "Looting bag"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Rigour or Eagle Eye",
+        "Protect Item if risking gear"
+      ],
+      "steps": [
+        "Enter the Wilderness with only the risk you intend to carry.",
+        "Fight Callisto with ranged, prioritising Wilderness bow bonuses where available.",
+        "Avoid or recover from knockback positioning and keep escape routes in mind.",
+        "Bank frequently enough that a player-killer death does not lose a long trip."
+      ],
+      "risks": [
+        "Deep Wilderness player-killer encounters are part of the method.",
+        "Callisto can disrupt positioning with knockback."
+      ]
+    },
+    {
+      "methodId": "team-or-singles-plus-alternative",
+      "label": "Team or singles-plus alternative",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use team Callisto for boss tasks or the related singles-plus bear encounter when lower Wilderness risk is preferred.",
+      "recommendedFor": [
+        "teams",
+        "players trading loot value for lower risk"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged weapon",
+        "Escape teleport",
+        "Stamina potion"
+      ],
+      "steps": [
+        "Coordinate damage and tanking if killing Callisto in a team.",
+        "Use the lower-risk single-combat alternative when appropriate for account goals.",
+        "Keep supplies and teleport options ready instead of overextending a trip."
+      ],
+      "notes": [
+        "The plugin strategy remains Callisto-focused; lower-risk related variants are a planning alternative, not the same boss record."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Callisto setup using Webweaver bow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Bow of faerdhinen",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow",
+            "Rune crossbow",
+            "Magic shortbow (i)"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-secondary",
+      "label": "Magic alternative",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Alternative magic option for Callisto when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Accursed sceptre",
+            "Thammaron's sceptre",
+            "Eye of ayak"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Callisto\n\nLow ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus."
+}

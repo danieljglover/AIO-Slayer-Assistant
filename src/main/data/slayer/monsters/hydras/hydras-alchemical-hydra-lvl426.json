@@ -1,0 +1,36 @@
+{
+  "variantId": "hydras-alchemical-hydra",
+  "name": "Alchemical Hydra",
+  "npcIds": [
+    8615,
+    8616,
+    8617,
+    8618,
+    8619,
+    8620,
+    8621,
+    8622
+  ],
+  "combatLevel": 426,
+  "weakness": {
+    "style": "RANGED",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 75,
+    "slash": 150,
+    "crush": 150,
+    "magic": 150,
+    "range": 45
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Karuulm Slayer Dungeon lower level, past the Tasakaal - killable only while on a hydra task",
+  "requirement": "boss - can only be killed on a hydra Slayer task (Konar-only)",
+  "bossId": null,
+  "strategyId": "alchemical-hydra"
+}

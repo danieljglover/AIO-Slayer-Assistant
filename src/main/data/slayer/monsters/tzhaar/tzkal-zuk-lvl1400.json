@@ -1,0 +1,29 @@
+{
+  "variantId": "tzkal-zuk",
+  "name": "TzKal-Zuk",
+  "npcIds": [
+    7706
+  ],
+  "combatLevel": 1400,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 260,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 350,
+    "range": 100
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Inferno",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "tzkal-zuk"
+}

@@ -1,0 +1,7 @@
+{
+  "rewardId": "broader-fletching",
+  "name": "Broader Fletching",
+  "pointsCost": 300,
+  "effect": "GEAR_UNLOCK",
+  "notes": "Unlocks fletching broad arrows and broad bolts (and broad knives on some worlds)."
+}

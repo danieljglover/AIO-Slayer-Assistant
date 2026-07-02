@@ -1,0 +1,11 @@
+{
+  "locationId": "catacombs-of-kourend-fire-giants",
+  "name": "Catacombs of Kourend",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Recommended in most cases because it is multicombat, relatively AFK, and gives access to the Catacombs drop table. Contains level 104 and 109 Fire giants that can drop Ancient shards and Dark totem pieces; prioritise level 109s for maximum XP."
+}

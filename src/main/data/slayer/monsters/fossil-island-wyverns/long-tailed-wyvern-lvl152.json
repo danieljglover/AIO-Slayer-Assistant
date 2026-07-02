@@ -1,0 +1,29 @@
+{
+  "variantId": "long-tailed-wyvern",
+  "name": "Long-tailed Wyvern",
+  "npcIds": [
+    7792
+  ],
+  "combatLevel": 152,
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 90,
+    "stab": 70,
+    "slash": 70,
+    "crush": 70,
+    "magic": 140,
+    "range": 120
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Wyvern Cave, Fossil Island",
+  "requirement": "Slayer 66; Bone Voyage; anti-icy-breath shield",
+  "bossId": null,
+  "strategyId": "fossil-island-wyverns"
+}

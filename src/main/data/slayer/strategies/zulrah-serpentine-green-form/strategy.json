@@ -1,0 +1,207 @@
+{
+  "strategyId": "zulrah-serpentine-green-form",
+  "variantIds": [
+    "zulrah-serpentine-green-form"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Zulrah/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "tumeken-s-shadow",
+      "eye-of-ayak",
+      "harmonised-nightmare-staff",
+      "sanguinesti-staff",
+      "twinflame-staff",
+      "trident-of-the-swamp"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Green form is weak to magic (50% fire-spell weakness). The best setup hybridises magic + ranged across the rotation."
+  },
+  "requirements": [
+    "Access to Zulrah Serpentine Green Form's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Green form is weak to magic (50% fire-spell weakness). The best setup hybridises magic + ranged across the rotation.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Green form is weak to magic (50% fire-spell weakness). The best setup hybridises magic + ranged across the rotation.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "tumeken-s-shadow",
+        "eye-of-ayak",
+        "harmonised-nightmare-staff",
+        "sanguinesti-staff",
+        "twinflame-staff",
+        "trident-of-the-swamp",
+        "twisted-bow",
+        "bow-of-faerdhinen"
+      ],
+      "steps": [
+        "Green form is weak to magic (50% fire-spell weakness). The best setup hybridises magic + ranged across the rotation.",
+        "Use magic on green form and switch prayers when the rotation enters a Jad phase."
+      ]
+    },
+    {
+      "methodId": "green-fire-magic",
+      "label": "Green form fire magic",
+      "combatStyle": "MAGIC",
+      "role": "form",
+      "summary": "Use magic against green serpentine form, with fire spells especially strong for lower-level or diary-kill setups.",
+      "recommendedFor": [
+        "green Zulrah phases",
+        "hybrid magic and ranged kills",
+        "magic-led diary kills"
+      ],
+      "requiredOrKeyItems": [
+        "Tumeken's shadow",
+        "Harmonised nightmare staff",
+        "Sanguinesti staff",
+        "Twinflame staff",
+        "Trident of the swamp",
+        "Tome of fire"
+      ],
+      "prayers": [
+        "Protect from Missiles when learning normal green phases",
+        "Mystic Might or Augury where available"
+      ],
+      "steps": [
+        "Identify green form by Zulrah's serpentine colour and ranged-focused attacks.",
+        "Use the magic switch, prioritising fire spells or strong powered staves.",
+        "Pray Protect from Missiles on normal green phases while learning.",
+        "Use ranged only as a secondary option when camping Twisted bow or Bow of faerdhinen."
+      ],
+      "risks": [
+        "Green Jad phases alternate attacks and cannot be handled by camping one prayer.",
+        "Zulrah's attacks can still land after it dives or dies."
+      ],
+      "notes": [
+        "Zulrah has a 50% elemental weakness to fire.",
+        "The fight always starts with middle green form spawning venom clouds."
+      ]
+    },
+    {
+      "methodId": "jad-rotation-prayers",
+      "label": "Jad phase prayers",
+      "combatStyle": "MAGIC",
+      "role": "rotation",
+      "summary": "Handle green-form Jad phases by alternating prayers in the correct starting order for the rotation.",
+      "recommendedFor": [
+        "learning Zulrah rotations",
+        "late-rotation green Jad phases"
+      ],
+      "requiredOrKeyItems": [
+        "Prayer potions",
+        "Rotation chart"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Use the second or fourth phase to identify the active rotation.",
+        "For Crimson rotations, the west green Jad phase starts with ranged and then alternates magic.",
+        "For Serp and Tanz rotations, the east green Jad phase starts with magic and then alternates ranged.",
+        "When learning, stop attacking during Jad phases and focus only on prayer changes.",
+        "Switch prayer by the tick the projectile is launched, not when it lands."
+      ],
+      "risks": [
+        "Wrong starting prayer can cause repeated heavy hits.",
+        "Venom clouds and snakelings can force movement during prayer changes."
+      ],
+      "notes": [
+        "Beginners can hop if the early rotation is not the one they are practicing.",
+        "Each full rotation lasts about three minutes before looping."
+      ]
+    },
+    {
+      "methodId": "venom-and-snakelings",
+      "label": "Venom and snakelings",
+      "combatStyle": "MAGIC",
+      "role": "hazards",
+      "summary": "Manage predetermined venom cloud and snakeling spawns without losing the main Zulrah prayer.",
+      "recommendedFor": [
+        "all Zulrah rotations",
+        "players learning safe positioning"
+      ],
+      "requiredOrKeyItems": [
+        "Serpentine helm",
+        "Extended anti-venom+",
+        "Ring of suffering (ri)",
+        "Book of the dead"
+      ],
+      "steps": [
+        "Move away from venom cloud 3x3 areas before they start dealing repeated damage.",
+        "Accept small cloud crossings only when repositioning avoids larger Zulrah damage.",
+        "Let Ring of suffering recoil or incidental attacks handle many snakelings.",
+        "Kill snakelings while hiding from Zulrah if they are building up.",
+        "Keep protection prayer focused on Zulrah rather than trying to flick multiple snakelings."
+      ],
+      "risks": [
+        "Venom clouds can stack damage rapidly if stood in.",
+        "Snakelings can add chip damage while Zulrah's attacks are more dangerous."
+      ],
+      "notes": [
+        "Venom clouds deal venom-type damage but do not envenom the player.",
+        "Snakelings expire after roughly 40 seconds if they linger."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Zulrah Serpentine Green Form setup using Tumeken's shadow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow",
+            "Eye of ayak",
+            "Harmonised nightmare staff",
+            "Sanguinesti staff",
+            "Twinflame staff",
+            "Trident of the swamp"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for Zulrah Serpentine Green Form when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twisted bow",
+            "Bow of faerdhinen"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Zulrah - serpentine (green) form\n\nGreen form is weak to magic (50% fire-spell weakness). The best setup hybridises magic + ranged across the rotation."
+}

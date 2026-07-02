@@ -1,0 +1,31 @@
+{
+  "variantId": "kurask",
+  "name": "Kurask",
+  "npcIds": [
+    410,
+    411
+  ],
+  "combatLevel": 106,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 105,
+    "stab": 0,
+    "slash": 20,
+    "crush": 20,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fremennik Slayer Dungeon; Iorwerth Dungeon; Kurask Lair",
+  "locationId": "fremennik-slayer-dungeon-kurasks",
+  "requirement": "leaf-bladed weapons, broad ammunition, or Magic Dart only",
+  "bossId": null,
+  "strategyId": "kurask"
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "cave-abomination",
+  "name": "Cave abomination",
+  "npcIds": [
+    7401
+  ],
+  "combatLevel": 206,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 142,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mos Le'Harmless Cave (superior)",
+  "requirement": "superior - Bigger and Badder unlock",
+  "bossId": null,
+  "strategyId": "cave-horrors"
+}

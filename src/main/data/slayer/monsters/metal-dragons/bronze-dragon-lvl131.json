@@ -1,0 +1,31 @@
+{
+  "variantId": "bronze-dragon",
+  "name": "Bronze dragon",
+  "npcIds": [
+    270,
+    271
+  ],
+  "combatLevel": 131,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 112,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 30,
+    "range": 90
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Brimhaven Dungeon",
+  "locationId": "brimhaven-dungeon-metal-dragons-task-only",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "bronze-dragon"
+}

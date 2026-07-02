@@ -1,0 +1,29 @@
+{
+  "variantId": "dark-ankou",
+  "name": "Dark Ankou",
+  "npcIds": [
+    7296
+  ],
+  "combatLevel": 95,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": true,
+  "location": "Catacombs of Kourend (Skotizo fight only)",
+  "requirement": "boss - separate trip; summoned during Skotizo",
+  "bossId": null,
+  "strategyId": "ankou"
+}

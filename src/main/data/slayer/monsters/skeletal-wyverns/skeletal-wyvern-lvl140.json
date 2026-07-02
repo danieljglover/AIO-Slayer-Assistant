@@ -1,0 +1,32 @@
+{
+  "variantId": "skeletal-wyvern",
+  "name": "Skeletal Wyvern",
+  "npcIds": [
+    468,
+    465,
+    466,
+    467
+  ],
+  "combatLevel": 140,
+  "weakness": {
+    "style": "RANGED",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 140,
+    "slash": 90,
+    "crush": 90,
+    "magic": 80,
+    "range": 140
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Asgarnian Ice Dungeon and Asgarnian Ice Dungeon task-only area",
+  "requirement": "Slayer 72; Combat 70 for assignment; Elemental Workshop I; anti-icy-breath shield strongly recommended",
+  "bossId": null,
+  "strategyId": "skeletal-wyvern"
+}

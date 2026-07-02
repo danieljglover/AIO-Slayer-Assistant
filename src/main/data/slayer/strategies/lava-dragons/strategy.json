@@ -1,0 +1,93 @@
+{
+  "strategyId": "lava-dragons",
+  "variantIds": [
+    "lava-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Lava_dragon",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "craw-s-bow",
+      "dragon-hunter-crossbow",
+      "rune-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-lance",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "viggora-s-chainmace",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Bring dragonfire protection (anti-dragon shield or dragonfire shield plus an antifire potion). Lava dragons have low actual Magic and Ranged levels, so ranged and magic are accurate against them; use low-risk Wilderness gear such as Craw's bow given the deep-Wilderness player-killing risk. Keep a one-click escape teleport ready."
+  },
+  "requirements": [
+    "Dragonfire protection (anti-dragon shield / dragonfire shield and an antifire potion)",
+    "Low-risk gear for the deep Wilderness",
+    "A one-click teleport for emergency escape"
+  ],
+  "mechanics": [
+    "Lava dragons use melee (slash) and short-ranged dragonfire (max 50 without protection).",
+    "Lava dragons are weak to water spells (50%).",
+    "Lava Dragon Isle is deep Wilderness and a popular player-killing hotspot.",
+    "All Krystilia lava dragon kills must occur on Lava Dragon Isle in the Wilderness."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Kill lava dragons on Lava Dragon Isle with dragonfire protection and low-risk gear.",
+      "recommendedFor": [
+        "Krystilia lava dragon tasks",
+        "low-risk deep-Wilderness slayer"
+      ],
+      "requiredOrKeyItems": [
+        "Anti-dragon shield or dragonfire shield",
+        "Antifire potion",
+        "Craw's bow or Dragon hunter crossbow",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Bring only low-risk gear and a one-click escape teleport.",
+        "Use dragonfire protection before engaging.",
+        "Range or melee the lava dragons; their low actual Magic/Ranged levels make ranged accurate.",
+        "Watch the minimap for player killers and teleport if threatened."
+      ],
+      "notes": [
+        "Lava dragon bones give strong Prayer XP at the nearby Chaos Altar but attract player killers.",
+        "The deep-Wilderness location makes escape difficult if attacked."
+      ]
+    },
+    {
+      "methodId": "melee",
+      "label": "Melee with Dragon hunter lance",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Melee lava dragons for faster kills when accepting closer engagement.",
+      "recommendedFor": [
+        "players with dragonbane melee gear",
+        "faster kills per lava dragon"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon hunter lance or Viggora's chainmace",
+        "Anti-dragon shield or dragonfire shield",
+        "Antifire potion",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Keep dragonfire protection active.",
+        "Stand adjacent and melee with a dragonbane weapon for higher damage per hit.",
+        "Watch for the short-ranged dragonfire and keep antifire up.",
+        "Teleport immediately if a player killer approaches on the isle."
+      ],
+      "notes": [
+        "Dragon hunter lance gains its dragonbane bonus against lava dragons.",
+        "Melee kills are faster but require standing in melee range in deep Wilderness."
+      ]
+    }
+  ]
+}

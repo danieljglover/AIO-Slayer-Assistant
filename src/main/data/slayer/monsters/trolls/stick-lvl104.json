@@ -1,0 +1,30 @@
+{
+  "variantId": "stick",
+  "name": "Stick",
+  "npcIds": [
+    926
+  ],
+  "combatLevel": 104,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 60,
+    "stab": 30,
+    "slash": 30,
+    "crush": 50,
+    "magic": 200,
+    "range": 200
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Death Plateau.",
+  "locationId": "death-plateau-trolls",
+  "requirement": "Can be safespotted south-west of spawn.",
+  "bossId": null,
+  "strategyId": "trolls"
+}

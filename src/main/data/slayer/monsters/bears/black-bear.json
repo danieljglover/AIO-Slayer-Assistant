@@ -1,0 +1,30 @@
+{
+  "variantId": "black-bear",
+  "name": "Black bear",
+  "npcIds": [
+    2839
+  ],
+  "combatLevel": 19,
+  "weakness": {
+    "style": "MELEE",
+    "element": "FIRE"
+  },
+  "monsterDefence": {
+    "defenceLevel": 13,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Outside the Mind Altar, Varrock south-east mine, east of the Farming Guild",
+  "locationId": "bears-area",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "bears"
+}

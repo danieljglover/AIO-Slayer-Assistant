@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-slayer-cave-hellhounds",
+  "name": "Wilderness Slayer Cave",
+  "multi": true,
+  "cannon": true,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Level 18-22 Wilderness Hellhound area is multicombat, cannonable, safespottable, and fast with Wilderness weapons. The cave is a popular player killing hotspot; do not risk items you are unwilling to lose."
+}

@@ -1,0 +1,30 @@
+{
+  "variantId": "zygomite-level-86",
+  "name": "Zygomite (level 86)",
+  "npcIds": [
+    1024
+  ],
+  "combatLevel": 86,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 75,
+    "stab": 10,
+    "slash": 10,
+    "crush": 10,
+    "magic": 20,
+    "range": 20
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Zanaris (near Cosmic Altar; also east of furnace)",
+  "locationId": "zanaris-cosmic-altar-zygomites",
+  "requirement": "57 Slayer, Lost City, and Fungicide spray to finish below 8 Hitpoints",
+  "bossId": null,
+  "strategyId": "mutated-zygomites"
+}

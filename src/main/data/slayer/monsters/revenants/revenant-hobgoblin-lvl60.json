@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-hobgoblin",
+  "name": "Revenant hobgoblin",
+  "npcIds": [
+    7933
+  ],
+  "combatLevel": 60,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 41,
+    "stab": 65,
+    "slash": 60,
+    "crush": 68,
+    "magic": 30,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 72,
+    "maxHit": 8,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 4,
+    "magicLevel": 55
+  }
+}

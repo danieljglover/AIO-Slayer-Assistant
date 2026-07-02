@@ -1,0 +1,94 @@
+{
+  "taskId": "jungle-horrors",
+  "name": "Jungle horrors",
+  "wikiPageId": 15660,
+  "combatLevel": 65,
+  "slayerTargetId": 250,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Cabin Fever"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 8,
+    "chaeldar": 10
+  },
+  "monsterIds": [
+    "jungle-horrors"
+  ],
+  "variantIds": [
+    "jungle-horror"
+  ],
+  "defaultVariantId": "jungle-horror",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 55,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "locationIds": [
+    "mos-le-harmless"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "jungle-horror",
+      "name": "Jungle horror",
+      "combatLevel": 70,
+      "slayerXp": 45,
+      "locations": [
+        "Mos Le'Harmless"
+      ],
+      "notes": [
+        "Five functionally identical appearance variants (Worker, Young worker, Warrior, Young warrior, Guard) all count.",
+        "Aggressive stab attacker with a 4-tick attack speed and a max hit of 8."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "mos-le-harmless",
+      "name": "Mos Le'Harmless",
+      "amount": 50,
+      "safespottable": true,
+      "notes": [
+        "Roughly 50 Jungle horror spawns across the island surface; the largest camp holds 10-12 north of the cave exit.",
+        "Multiple safespots are available using walls, plants, and trees.",
+        "Multicombat and cannon-placement status of the island surface are not stated on the wiki pages fetched at authoring time."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Jungle horrors require 65 combat and completion of Cabin Fever; there is no Slayer level requirement.",
+    "Jungle horrors roam the Mos Le'Harmless island surface, not the Mos Le'Harmless Cave (that cave holds Cave horrors).",
+    "The task is assigned by Vannaka (40-90, weight 8) and Chaeldar (70-130, weight 10) and is not extendable.",
+    "Jungle horrors have a 25% elemental weakness to fire spells.",
+    "They drop pineapples frequently; bringing a knife lets the drops be sliced for food to extend trips.",
+    "Players under 70 Defence should bring food and decent armour; safespots behind walls, plants, and trees avoid damage entirely.",
+    "slayerTargetId 250 is a SYNTHETIC placeholder (240 + WC index 10, team contract 2026-07-02, Frost-Dragons precedent); the real SLAYER_TARGET varp value for Jungle horrors is not wiki-published, so varp-based detection falls back to the task-name path."
+  ],
+  "recommendedMethod": "Melee them with your best weapon, or pick them off from wall, plant, and tree safespots; fire spells exploit their 25% elemental weakness. Slice dropped pineapples with a knife for free food."
+}

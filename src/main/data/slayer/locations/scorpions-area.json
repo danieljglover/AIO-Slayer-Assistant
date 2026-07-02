@@ -1,0 +1,11 @@
+{
+  "locationId": "scorpions-area",
+  "name": "Non-Wilderness scorpions",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Non-Wilderness scorpions for Turael, Spria, and Mazchna tasks: the Al Kharid mine, the Dwarven Mine, and Karamja hold level 14 scorpions, while King scorpions (level 32) are in the Asgarnian Ice Dungeon and Keldagrim scorpion mine. Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative (false)."
+}

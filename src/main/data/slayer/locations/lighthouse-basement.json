@@ -1,0 +1,11 @@
+{
+  "locationId": "lighthouse-basement",
+  "name": "Lighthouse Basement",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires Horror from the Deep. Multicombat Dagannoth area near fairy ring ALP; strong AFK and dwarf cannon option, often busy because it can provide very fast Slayer experience."
+}

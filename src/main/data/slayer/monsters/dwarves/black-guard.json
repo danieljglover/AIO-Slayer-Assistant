@@ -1,0 +1,43 @@
+{
+  "variantId": "black-guard",
+  "name": "Black Guard",
+  "npcIds": [
+    1409,
+    1410,
+    1411,
+    1412
+  ],
+  "combatLevel": 25,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 20,
+    "stab": 3,
+    "slash": 4,
+    "crush": 4,
+    "magic": 2,
+    "range": 3
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Ice Mountain (level 25); Keldagrim (level 48)",
+  "locationId": "dwarven-mine",
+  "requirement": "Combat level 6 to be assigned",
+  "bossId": null,
+  "strategyId": "dwarves",
+  "offence": {
+    "hitpoints": 30,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

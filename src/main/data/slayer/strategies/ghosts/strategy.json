@@ -1,0 +1,76 @@
+{
+  "strategyId": "ghosts",
+  "variantIds": [
+    "ghost-lvl19"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Ghost",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Ghosts have low Defence and 25 Hitpoints, so any melee weapon clears them. They are undead, so a salve amulet helps. Air spells exploit the 50% elemental weakness for a Magic-training alternative."
+  },
+  "requirements": [
+    "Combat level 13 is required to be assigned Ghosts.",
+    "No Slayer level or quest requirement for the base task.",
+    "Some ghost spawns are inside the Wilderness; a non-Wilderness spot avoids PKers."
+  ],
+  "mechanics": [
+    "Ghosts are undead and spectral: the salve amulet and Crumble Undead both apply.",
+    "Ghosts have a 50% elemental weakness to air spells (magic defence -5).",
+    "They attack with melee (crush) at 4 ticks and have a max hit of 2.",
+    "Ghosts drop nothing at most locations, so the task is done for Slayer XP and streak, not loot."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the level-19 Ghosts with any melee weapon at a low-level spot such as the Draynor Manor basement.",
+      "recommendedFor": [
+        "standard task completion",
+        "low-level Slayer accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Travel to a Ghost spawn (e.g. Draynor Manor basement).",
+        "Kill the level-19 Ghosts; max hit 2 means minimal food is needed.",
+        "Wear a salve amulet for an undead damage bonus if you have one."
+      ],
+      "notes": [
+        "Avoid Wilderness ghost spawns unless comfortable with PK risk."
+      ]
+    },
+    {
+      "methodId": "magic-air",
+      "label": "Air spells",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Cast air spells to exploit the 50% elemental weakness while training Magic.",
+      "recommendedFor": [
+        "players training Magic"
+      ],
+      "requiredOrKeyItems": [
+        "Air staff and runes, or a trident"
+      ],
+      "steps": [
+        "Bring an air staff (or trident) and attack the Ghosts with air spells.",
+        "The 50% air weakness and -5 magic defence make Magic accurate and fast."
+      ],
+      "notes": [
+        "A salve amulet (i) also boosts magic damage against these undead."
+      ]
+    }
+  ]
+}

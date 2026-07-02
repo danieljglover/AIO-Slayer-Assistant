@@ -1,0 +1,339 @@
+{
+  "strategyId": "dagannoth",
+  "variantIds": [
+    "dagannoth",
+    "dagannoth-waterbirth"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Dagannoth",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "osmumten-s-fang",
+      "abyssal-tentacle",
+      "scythe-of-vitur",
+      "inquisitor-s-mace",
+      "ghrazi-rapier",
+      "blade-of-saeldor",
+      "noxious-halberd",
+      "abyssal-whip",
+      "zombie-axe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dinh-s-bulwark",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "saradomin-godsword",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Fast Dagannoth tasks use cannon + melee at the Lighthouse or Jormungand's Prison. Catacombs offer prayer AFK and Dinh's bulwark aggression refreshes. Dagannoth Kings are the profitable alternative when prepared."
+  },
+  "requirements": [
+    "75 combat to receive the task",
+    "Horror from the Deep to be assigned and access the Lighthouse basement",
+    "The Fremennik Exiles for Jormungand's Prison",
+    "Waterbirth Island preparation for Waterbirth tasks or Dagannoth Kings",
+    "Optional Expert Reanimation access through the Arceuus spellbook and ensouled dagannoth heads"
+  ],
+  "mechanics": [
+    "Standard Dagannoth are weak for their combat level and have a 35% elemental weakness to earth spells.",
+    "The Lighthouse basement, Jormungand's Prison, and Waterbirth Island Dungeon are multicombat and allow cannon use.",
+    "Catacombs of Kourend Dagannoth cannot be cannoned, but can be killed with prayer AFK or difficult safespots.",
+    "Dagannoth at Jormungand's Prison and the Catacombs only use melee attacks.",
+    "Waterbirth Island Dagannoth are stronger than other task variants and include level 88 ranged and level 90 melee forms.",
+    "Dagannoth spawn can hatch from eggs while nearby Dagannoth remain aggressive.",
+    "Dagannoth Kings count on a normal Dagannoth assignment and are often killed for profit with Slayer helmet bonuses.",
+    "Ensouled dagannoth heads can be used for Expert Reanimation, trading Slayer speed for Prayer experience."
+  ],
+  "methods": [
+    {
+      "methodId": "lighthouse-cannon-afk",
+      "label": "Lighthouse cannon AFK",
+      "combatStyle": "MELEE",
+      "role": "fast-task",
+      "summary": "Use melee with a dwarf cannon in the Lighthouse basement for fast, low-effort Slayer experience.",
+      "recommendedFor": [
+        "Fast task completions",
+        "Players wanting AFK time without relying heavily on prayer"
+      ],
+      "requiredOrKeyItems": [
+        "dwarf cannon",
+        "cannonballs",
+        "melee gear",
+        "food or sustain gear"
+      ],
+      "steps": [
+        "Enter the Lighthouse basement after Horror from the Deep.",
+        "Set up the dwarf cannon in the multicombat Dagannoth area.",
+        "Fight with melee and let the cannon accelerate kills.",
+        "Use protection prayers, Bones to Peaches, Guthan's, or Saradomin godsword special attacks to extend trips.",
+        "If needed, sell noted food to Jossik and buy it back unnoted for a small cost."
+      ],
+      "risks": [
+        "The Lighthouse is often busy with other cannon users.",
+        "Some Lighthouse level 74 Dagannoth attack with Ranged."
+      ],
+      "notes": [
+        "The task page calls this one of the fastest Slayer experience options for Dagannoth."
+      ]
+    },
+    {
+      "methodId": "jormungands-prison-cannon",
+      "label": "Jormungand's Prison cannon",
+      "combatStyle": "MELEE",
+      "role": "fast-task",
+      "summary": "Use a dwarf cannon and Protect from Melee against melee-only Dagannoth after The Fremennik Exiles.",
+      "recommendedFor": [
+        "Cannon users with The Fremennik Exiles complete",
+        "Players who want simple prayer use"
+      ],
+      "requiredOrKeyItems": [
+        "dwarf cannon",
+        "cannonballs",
+        "Protect from Melee"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Enter Jormungand's Prison after The Fremennik Exiles.",
+        "Set up the cannon in the Dagannoth section.",
+        "Use Protect from Melee because Dagannoth here only attack with melee.",
+        "Keep the cannon loaded and finish the task with melee."
+      ],
+      "notes": [
+        "The task page describes Jormungand's Prison as a common cannoning location."
+      ]
+    },
+    {
+      "methodId": "catacombs-prayer-afk",
+      "label": "Catacombs prayer AFK",
+      "combatStyle": "MELEE",
+      "role": "low-attention",
+      "summary": "Use prayer-boosting melee gear, Auto Retaliate, and periodic prayer restoration in the Catacombs.",
+      "recommendedFor": [
+        "Low-attention Catacombs tasks",
+        "Players not using a dwarf cannon"
+      ],
+      "requiredOrKeyItems": [
+        "prayer-boosting melee gear",
+        "prayer potions",
+        "dinh-s-bulwark",
+        "lightbearer"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Stand in the southern Dagannoth section of the Catacombs.",
+        "Turn Auto Retaliate on and use melee with protection prayer.",
+        "Restore prayer points as needed.",
+        "When Dagannoth become tolerant, walk away and return or use Dinh's bulwark special attack with Lightbearer to maintain aggression."
+      ],
+      "risks": [
+        "No dwarf cannon can be used in the Catacombs.",
+        "Aggression eventually expires unless reset or refreshed."
+      ],
+      "notes": [
+        "Catacombs kills also give access to Catacombs tertiary drops where applicable."
+      ]
+    },
+    {
+      "methodId": "catacombs-safespot",
+      "label": "Catacombs safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use the difficult Catacombs safespots when avoiding melee damage is more important than speed.",
+      "recommendedFor": [
+        "Players who need to avoid direct melee damage",
+        "Ranged or Magic safespot kills"
+      ],
+      "requiredOrKeyItems": [
+        "ranged weapon or magic weapon",
+        "safespot positioning"
+      ],
+      "steps": [
+        "Use safespot 1 by luring Dagannoth around the corner so they cannot path to you.",
+        "If using melee, use the same area to limit how many Dagannoth can attack at once.",
+        "Use safespot 2 by positioning a non-aggressive Warped Jelly between you and the Dagannoth.",
+        "Keep Dagannoth aggressive when using the Warped Jelly safespot so they line up cleanly."
+      ],
+      "risks": [
+        "The task page describes these safespots as difficult to use.",
+        "Incorrect lures allow Dagannoth to path back to the player."
+      ]
+    },
+    {
+      "methodId": "waterbirth-island-task",
+      "label": "Waterbirth Island task",
+      "combatStyle": "MELEE",
+      "role": "konar-location",
+      "summary": "Use the main first-floor multicombat area if assigned to Waterbirth Island; other areas have too few Dagannoth for normal tasking.",
+      "recommendedFor": [
+        "Konar Waterbirth Island Dagannoth assignments",
+        "Players already travelling toward Dagannoth Kings"
+      ],
+      "requiredOrKeyItems": [
+        "melee gear",
+        "dwarf cannon",
+        "food",
+        "Waterbirth Island route items"
+      ],
+      "steps": [
+        "Use the main first-floor area because other Waterbirth areas have too few Dagannoth despite being multicombat.",
+        "Expect stronger level 88 ranged and level 90 melee Dagannoth than in the Lighthouse, Catacombs, or Jormungand's Prison.",
+        "While Dagannoth are still aggressive, walk near eggs every few minutes to hatch dagannoth spawn and speed up the task.",
+        "After aggression expires, use the skeleton safespot north-east of the dungeon entrance if needed."
+      ],
+      "risks": [
+        "Waterbirth Dagannoth are stronger and hit harder than the other task variants.",
+        "The entrance is not multicombat; deeper travel requires Waterbirth-specific route preparation."
+      ]
+    },
+    {
+      "methodId": "dagannoth-kings-alternative",
+      "label": "Dagannoth Kings alternative",
+      "combatStyle": "MAGIC",
+      "role": "boss-alternative",
+      "summary": "Kill Dagannoth Kings instead of regular Dagannoth for a harder but more rewarding task.",
+      "recommendedFor": [
+        "Prepared players seeking profit",
+        "Normal Dagannoth tasks",
+        "Konar tasks assigned to Waterbirth Island Dungeon"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet or black mask",
+        "Dagannoth Kings tribrid or single-king gear",
+        "Fremennik Diary Elite recommended",
+        "85 Agility shortcut recommended"
+      ],
+      "steps": [
+        "Use the Dagannoth Kings when on a normal Dagannoth task or a Konar Waterbirth Island assignment.",
+        "Use Slayer helmet or black mask bonuses for faster kills.",
+        "Prefer Elite Fremennik Diary so Dagannoth bones are noted, because the bones are a major part of profit.",
+        "Use the Waterbirth shortcuts when possible; the 85 Agility shortcut bypasses the pet rock and rune thrownaxe route."
+      ],
+      "risks": [
+        "The task page does not recommend killing the Kings without Elite Fremennik Diary because unnoted bones reduce profit and trip length.",
+        "The Kings require separate boss-trip preparation."
+      ],
+      "notes": [
+        "Full boss methods are in https://oldschool.runescape.wiki/w/Dagannoth_Kings/Strategies."
+      ]
+    },
+    {
+      "methodId": "expert-reanimation",
+      "label": "Expert Reanimation",
+      "combatStyle": "MAGIC",
+      "role": "prayer-training",
+      "summary": "Use ensouled dagannoth heads for Prayer training during a task, accepting slower combat and Slayer experience.",
+      "recommendedFor": [
+        "Prayer training",
+        "Non-Konar tasks where reanimation location flexibility matters"
+      ],
+      "requiredOrKeyItems": [
+        "ensouled dagannoth head",
+        "Arceuus spellbook",
+        "Expert Reanimation"
+      ],
+      "steps": [
+        "Pick up ensouled dagannoth heads during the task.",
+        "Cast Expert Reanimation near the Dark Altar or where the Dagannoth died.",
+        "Kill the Reanimated Dagannoth for 35 Slayer XP and 936 Prayer experience."
+      ],
+      "risks": [
+        "Combat and Slayer experience rates suffer compared with killing regular Dagannoth.",
+        "If the head is not reanimated soon enough, or is traded or teleported away from, it must be reanimated at the Dark Altar."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-cannon",
+      "label": "Melee cannon",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Fast task setup for Lighthouse, Jormungand's Prison, and Waterbirth Island.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Osmumten's fang",
+            "Abyssal tentacle",
+            "Scythe of vitur",
+            "Inquisitor's mace",
+            "Ghrazi rapier",
+            "Blade of saeldor",
+            "Noxious halberd",
+            "Abyssal whip",
+            "Zombie axe"
+          ],
+          "special": [
+            "Saradomin godsword"
+          ],
+          "utility": [
+            "Dwarf cannon",
+            "Cannonballs"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-prayer-afk",
+      "label": "Melee prayer AFK",
+      "combatStyle": "MELEE",
+      "role": "low-attention",
+      "summary": "Prayer-boosting melee setup for Catacombs with optional Dinh's bulwark aggression refresh.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Osmumten's fang",
+            "Abyssal whip",
+            "Zombie axe"
+          ],
+          "utility": [
+            "Dinh's bulwark",
+            "Lightbearer",
+            "Prayer potions"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-or-magic-safespot",
+      "label": "Ranged or Magic safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use ranged or magic from the Catacombs safespots when damage avoidance matters more than speed.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Rune crossbow",
+            "Trident of the seas",
+            "Warped sceptre"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "dagannoth-kings",
+      "label": "Dagannoth Kings",
+      "combatStyle": "MAGIC",
+      "role": "boss-alternative",
+      "summary": "Switch to the Dagannoth Kings strategy page when using the task for boss profit.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Twisted bow",
+            "Scythe of vitur",
+            "Osmumten's fang"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Dagannoth\n\nTask-page strategy covering Lighthouse cannon melee, Jormungand's Prison cannon melee, Catacombs prayer AFK and safespots, Waterbirth Island tasking, Dagannoth Kings as the profitable alternative, Expert Reanimation, and seed box notes."
+}

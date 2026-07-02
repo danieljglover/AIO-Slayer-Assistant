@@ -1,0 +1,36 @@
+{
+  "variantId": "warped-terrorbird-level-96",
+  "name": "Warped Terrorbird (Level 96)",
+  "npcIds": [
+    12491,
+    12492,
+    12493,
+    12494,
+    12495,
+    12496,
+    12497,
+    12498
+  ],
+  "combatLevel": 96,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 20,
+    "stab": 50,
+    "slash": 50,
+    "crush": 0,
+    "magic": 0,
+    "range": 40
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Poison Waste Dungeon",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "warped-creatures"
+}

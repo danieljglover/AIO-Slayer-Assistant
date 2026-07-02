@@ -1,0 +1,68 @@
+{
+  "strategyId": "wall-beasts",
+  "variantIds": [
+    "wall-beast"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Wall_beast",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Always wear a spiny helmet or Slayer helmet before attacking a wall beast; without it the beast grabs you for up to 18 damage with no chance to retaliate. They have no elemental weakness and 0 defensive bonuses, so any accurate melee weapon works."
+  },
+  "requirements": [
+    "Slayer level 35 to be assigned and to kill wall beasts.",
+    "A spiny helmet or Slayer helmet must be worn to fight a wall beast safely.",
+    "A light source is required in the Lumbridge Swamp Caves."
+  ],
+  "mechanics": [
+    "Wall beasts lurk in cave walls; approaching one without a spiny/Slayer helmet triggers an 18-damage grab.",
+    "With the helmet equipped they attack with crush melee for up to 4 damage at a 4-tick speed.",
+    "They have 105 Hitpoints, Defence 16 and all defensive bonuses 0, with no elemental weakness."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-spiny",
+      "label": "Melee (spiny/Slayer helmet)",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Wear a spiny or Slayer helmet and clear the wall beasts with any accurate melee weapon.",
+      "recommendedFor": [
+        "all wall beasts tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Spiny helmet or Slayer helmet",
+        "Any melee weapon (Dragon scimitar)",
+        "Light source"
+      ],
+      "steps": [
+        "Equip a spiny helmet or Slayer helmet before approaching any wall beast.",
+        "Bring a light source into the Lumbridge Swamp Caves.",
+        "Clear the seven wall beast spawns in the cave walls."
+      ]
+    },
+    {
+      "methodId": "cannon-assist",
+      "label": "Cannon-assisted",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Set up a Dwarf multicannon in the Lumbridge Swamp Caves to speed up the low-count task.",
+      "recommendedFor": [
+        "faster completion of the short 10-20 assignment"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon and cannonballs",
+        "Spiny helmet or Slayer helmet",
+        "Light source"
+      ],
+      "steps": [
+        "Enter the Lumbridge Swamp Caves with a light source and cannon.",
+        "Deploy the Dwarf multicannon near the wall beast spawns.",
+        "Finish grabs safely with a spiny or Slayer helmet equipped throughout."
+      ]
+    }
+  ],
+  "body": "# Wall beasts\n\nWall beasts are a Slayer level 35 task assigned by Mazchna, found only in the Lumbridge Swamp Caves. A spiny helmet or Slayer helmet is mandatory: without it a wall beast grabs you from the cave wall for up to 18 damage with no chance to retaliate. With the helmet on they are a straightforward melee target with 105 Hitpoints, Defence 16, no elemental weakness and 0 defensive bonuses. A light source is required and a Dwarf multicannon may be used."
+}

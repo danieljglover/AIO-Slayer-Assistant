@@ -1,0 +1,11 @@
+{
+  "locationId": "ancient-cavern-waterfiends",
+  "name": "Ancient Cavern - Waterfiends",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 16 Waterfiends. Requires Ancient Cavern access through Barbarian Firemaking training; games necklace to Barbarian Assault is the quick route. Waterfiends can be safespotted across the river with Ranged or Magic, and the task page describes waiting out the 10 min aggression timer between the pillar safespot and whirlpool landing platform."
+}

@@ -1,0 +1,257 @@
+{
+  "strategyId": "aviansie",
+  "variantIds": [
+    "aviansie"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Aviansie",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "toxic-blowpipe",
+      "bow-of-faerdhinen",
+      "eclipse-atlatl",
+      "hunters-sunlight-crossbow",
+      "zaryte-crossbow",
+      "armadyl-crossbow",
+      "dragon-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "noxious-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "crystal-halberd",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Requires Death Plateau and Watch the birdie. Use ranged or magic against flying Aviansie; salamanders and halberds are direct-target exceptions. Wear Armadyl-aligned protection in God Wars Dungeon. Kree'arra is the slower boss-profit alternative."
+  },
+  "requirements": [
+    "Death Plateau",
+    "Watch the birdie unlock",
+    "60 Agility or 60 Strength to unlock Watch the birdie",
+    "Armadyl-aligned God Wars Dungeon protection item",
+    "Hard Fremennik Diary for noted adamantite bars from normal God Wars Dungeon Aviansie",
+    "70 Ranged, a crossbow, and a mith grapple for Kree'arra access"
+  ],
+  "mechanics": [
+    "Aviansie are Armadylean followers, so Armadyl-aligned items make them tolerant in the God Wars Dungeon.",
+    "Aviansie have an increased sense of danger and will retaliate if attacked, even if already fighting another monster.",
+    "Aviansie fly too high for ordinary melee and can normally only be harmed with ranged or magic.",
+    "Salamanders and halberds are exceptions because they can directly target flying Aviansie.",
+    "Normal God Wars Dungeon Aviansie only drop noted adamantite bars after the Hard Fremennik Diary.",
+    "Wilderness God Wars Dungeon Aviansie drop noted adamantite bars regardless of diary completion, but the area is multicombat Wilderness."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Use ranged or magic against regular Aviansie after unlocking Watch the birdie, with Armadyl protection for God Wars Dungeon tolerance.",
+      "recommendedFor": [
+        "baseline Aviansie task planning",
+        "players deciding between normal Aviansie, Wilderness Aviansie, and Kree'arra"
+      ],
+      "requiredOrKeyItems": [
+        "Armadyl-aligned protection item",
+        "Ranged weapon",
+        "Magic weapon",
+        "Emergency teleport"
+      ],
+      "steps": [
+        "Confirm Watch the birdie is unlocked before taking Aviansie assignments.",
+        "Wear an Armadyl-aligned God item so Armadylean followers are tolerant.",
+        "Use ranged or magic because flying Aviansie cannot normally be damaged with melee.",
+        "Pick up adamantite bars, runite limbs, ensouled aviansie heads, and poisoned rune daggers when worthwhile.",
+        "Use Kree'arra only when choosing boss profit or boss completion over a regular Aviansie task."
+      ],
+      "risks": [
+        "Regular Aviansie are generally unpopular, so many players keep the assignment toggled off unless killing Kree'arra.",
+        "Wilderness God Wars Dungeon adds player-killing risk."
+      ],
+      "notes": [
+        "Spiritual warriors, spiritual rangers, and spiritual mages aligned to Armadyl do not count as Aviansie task alternatives."
+      ]
+    },
+    {
+      "methodId": "normal-god-wars-dungeon",
+      "label": "Normal God Wars Dungeon",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Kill regular Aviansie in the God Wars Dungeon with ranged or magic while using Armadyl protection.",
+      "recommendedFor": [
+        "standard non-Wilderness Aviansie tasks",
+        "players with Hard Fremennik Diary for noted bars"
+      ],
+      "requiredOrKeyItems": [
+        "Armadyl-aligned protection item",
+        "Toxic blowpipe",
+        "Bow of faerdhinen",
+        "Crossbow",
+        "High alchemy runes"
+      ],
+      "prayers": [
+        "Protect from Missiles when needed"
+      ],
+      "steps": [
+        "Enter the God Wars Dungeon after Death Plateau access.",
+        "Wear Armadyl protection to avoid Armadylean aggression where possible.",
+        "Attack regular Aviansie with ranged or magic.",
+        "Use high alchemy on runite limbs and poisoned rune daggers if staying longer.",
+        "Expect adamantite bars to be noted only after Hard Fremennik Diary completion."
+      ],
+      "notes": [
+        "Killing regular Aviansie contributes to Armadylean kill count.",
+        "There are 36 Aviansie listed in the normal God Wars Dungeon comparison row."
+      ]
+    },
+    {
+      "methodId": "wilderness-god-wars-dungeon",
+      "label": "Wilderness God Wars Dungeon",
+      "combatStyle": "RANGED",
+      "role": "wilderness",
+      "summary": "Use the Wilderness God Wars Dungeon only when accepting multicombat player-killing risk in exchange for noted adamantite bars without diary completion.",
+      "recommendedFor": [
+        "players accepting Wilderness risk",
+        "players without Hard Fremennik Diary who still want noted adamantite bars"
+      ],
+      "requiredOrKeyItems": [
+        "Low-risk ranged gear",
+        "One-click teleport that works from the chosen Wilderness level",
+        "Looting bag if appropriate"
+      ],
+      "steps": [
+        "Bring reduced-risk gear because the location is in the Wilderness.",
+        "Keep a one-click teleport available where possible.",
+        "Kill Aviansie with ranged or magic and prioritise noted adamantite bars.",
+        "Leave immediately if player-killing risk becomes unacceptable."
+      ],
+      "risks": [
+        "The location is multicombat and dangerous because of player killing.",
+        "Risk constraints may force less than optimal gear."
+      ],
+      "notes": [
+        "There are 8 Aviansie listed in the Wilderness God Wars Dungeon comparison row."
+      ]
+    },
+    {
+      "methodId": "kree-arra-alternative",
+      "label": "Kree'arra boss alternative",
+      "combatStyle": "MAGIC",
+      "role": "boss",
+      "summary": "Kill Kree'arra and his bodyguards on an Aviansie task when choosing boss profit over a normal Aviansie task.",
+      "recommendedFor": [
+        "players who toggled Aviansie on for Kree'arra",
+        "boss-focused Aviansie tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Emergency teleport",
+        "Ecumenical key",
+        "Crossbow that can fire a mith grapple",
+        "Mith grapple",
+        "Zarosian protection item for Nex banking",
+        "Tumeken's shadow",
+        "Eldritch nightmare staff",
+        "Lightbearer"
+      ],
+      "steps": [
+        "Use an ecumenical key to avoid wasting time on Armadyl kill count.",
+        "Reserve inventory space for a crossbow that can fire a mith grapple and for the mith grapple.",
+        "Bring an emergency teleport as usual for Kree'arra.",
+        "Gather Zarosian kill count before starting the trip if planning to bank at Nex.",
+        "Use Kree'arra-specific gear and follow the dedicated Kree'arra strategy for the fight."
+      ],
+      "risks": [
+        "Kree'arra is a slower way to complete Aviansie tasks than killing regular Aviansie.",
+        "Returning from Nex banking can be dangerous without a Zarosian item and prepared kill count."
+      ],
+      "notes": [
+        "Kree'arra and his bodyguards count as alternatives for an Aviansie task.",
+        "With max mage gear, an Eldritch nightmare staff, and optional Lightbearer, players can often complete full tasks at Kree'arra without banking.",
+        "Armadylean spiritual warriors, rangers, and mages do not count as Aviansie task alternatives."
+      ]
+    },
+    {
+      "methodId": "reanimated-aviansie-alternative",
+      "label": "Reanimated Aviansie alternative",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Reanimated aviansie can be killed for task progress, but obtaining ensouled aviansie heads is usually inconvenient.",
+      "recommendedFor": [
+        "players who already have ensouled aviansie heads"
+      ],
+      "requiredOrKeyItems": [
+        "Ensouled aviansie heads",
+        "Reanimation spell runes"
+      ],
+      "steps": [
+        "Use this option only when ensouled aviansie heads are already available.",
+        "Reanimate and kill the Aviansie for task progress.",
+        "Return to normal Aviansie or Kree'arra when heads run out."
+      ],
+      "notes": [
+        "The task page notes this can be troublesome because ensouled heads are not commonly obtained from regular Aviansie kills."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "name": "Ranged",
+      "style": "RANGED",
+      "recommendedWeapons": [
+        "Toxic blowpipe",
+        "Bow of faerdhinen",
+        "Eclipse atlatl",
+        "Hunter's sunlight crossbow",
+        "Zaryte crossbow",
+        "Armadyl crossbow",
+        "Dragon crossbow"
+      ],
+      "recommendedItems": [
+        "Armadyl-aligned God item",
+        "High alchemy runes",
+        "Emergency teleport"
+      ],
+      "notes": [
+        "Default regular Aviansie style."
+      ]
+    },
+    {
+      "styleId": "magic",
+      "name": "Magic",
+      "style": "MAGIC",
+      "recommendedWeapons": [
+        "Tumeken's shadow"
+      ],
+      "recommendedItems": [
+        "Armadyl-aligned God item",
+        "Emergency teleport"
+      ],
+      "notes": [
+        "Valid against flying Aviansie and the page's Kree'arra alternative with max mage gear."
+      ]
+    },
+    {
+      "styleId": "direct-exception",
+      "name": "Direct-target exceptions",
+      "style": "MELEE",
+      "recommendedWeapons": [
+        "Noxious halberd",
+        "Crystal halberd"
+      ],
+      "recommendedItems": [
+        "Armadyl-aligned God item"
+      ],
+      "notes": [
+        "Salamanders and halberds are noted exceptions to the normal ranged-or-magic restriction because they can directly target flying Aviansie."
+      ]
+    }
+  ]
+}

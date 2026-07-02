@@ -1,0 +1,38 @@
+{
+  "variantId": "king-scorpion",
+  "name": "King scorpion",
+  "npcIds": [
+    3027
+  ],
+  "combatLevel": 32,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 23,
+    "stab": 5,
+    "slash": 15,
+    "crush": 15,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Asgarnian Ice Dungeon / Keldagrim scorpion mine (non-Wilderness)",
+  "locationId": "scorpions-area",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "scorpions",
+  "offence": {
+    "hitpoints": 30,
+    "maxHit": 4,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

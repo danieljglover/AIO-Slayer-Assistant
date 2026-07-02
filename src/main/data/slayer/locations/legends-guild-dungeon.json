@@ -1,0 +1,11 @@
+{
+  "locationId": "legends-guild-dungeon",
+  "name": "Legends' Guild Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "19 Shadow warrior spawns in the Legends' Guild Dungeon; completion of Legends' Quest is required for assignment and guild access. Safespot through the fence separating them from the pit scorpions or behind the fungus near the cavern wall. Multicombat and cannon placement are not wiki-stated for this area, so conservative defaults are used."
+}

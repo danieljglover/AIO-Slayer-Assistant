@@ -1,0 +1,211 @@
+{
+  "strategyId": "jellies",
+  "variantIds": [
+    "jelly",
+    "warped-jelly",
+    "chilled-jelly",
+    "vitreous-jelly",
+    "vitreous-warped-jelly",
+    "vitreous-chilled-jelly"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Jellies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "ghrazi-rapier",
+      "inquisitor-s-mace",
+      "blade-of-saeldor"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Jellies attack with magic-based melee - Protect from Melee negates all damage. In multicombat areas Ice Burst or Ice Barrage is the fastest method; the Venator bow is a lower-effort alternative."
+  },
+  "requirements": [
+    "52 Slayer and 57 combat are required for Jellies assignments.",
+    "Bigger and Badder unlocks Vitreous Jelly superior spawns.",
+    "The Heart of Darkness is required for the Ruins of Tapoyauik.",
+    "Krystilia assignments must be completed in the Wilderness."
+  ],
+  "mechanics": [
+    "Jellies attack with magic-based melee; Protect from Melee negates all damage taken.",
+    "Jellies have an unusually high Defence level compared to similar-level monsters.",
+    "Chilled Jellies are 50% susceptible to fire spells.",
+    "The Wilderness Slayer Cave is a player killing hotspot."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-protect",
+      "label": "Melee with Protect from Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Camp Protect from Melee and kill Jellies with a strong stab or crush weapon.",
+      "recommendedFor": [
+        "default Jellies tasks",
+        "players using Slayer helmet bonuses"
+      ],
+      "requiredOrKeyItems": [
+        "Ghrazi rapier, Inquisitor's mace, or Blade of saeldor",
+        "Slayer helmet",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Turn on Protect from Melee to negate all Jelly damage.",
+        "Kill Warped Jellies in the Catacombs of Kourend for the better loot table when possible."
+      ]
+    },
+    {
+      "methodId": "magic-burst-catacombs",
+      "label": "Ice Burst/Barrage in the Catacombs",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Lure Warped Jellies in the multicombat Catacombs of Kourend and kill them with multi-target Ancient Magicks for the fastest kills.",
+      "recommendedFor": [
+        "fastest kill speed",
+        "Slayer XP focused players"
+      ],
+      "requiredOrKeyItems": [
+        "Ice Burst or Ice Barrage runes",
+        "Kodai wand or Nightmare staff",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Lure a pile of Warped Jellies in the multicombat Catacombs.",
+        "Burst or barrage the pile while praying Protect from Melee.",
+        "Collect ancient shards and dark totem pieces."
+      ]
+    },
+    {
+      "methodId": "ranged-venator",
+      "label": "Venator bow ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use the Venator bow's ricochet in multicombat areas as a lower-effort alternative to Magic.",
+      "recommendedFor": [
+        "low-effort tasks",
+        "Ranged training"
+      ],
+      "requiredOrKeyItems": [
+        "Venator bow",
+        "Slayer helmet (i)"
+      ],
+      "steps": [
+        "Attack clumped Jellies so the Venator bow's ricochet hits multiple targets.",
+        "Expect slower kills than Magic but significantly less effort."
+      ]
+    },
+    {
+      "methodId": "wilderness-krystilia",
+      "label": "Wilderness Slayer Cave",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Complete Krystilia assignments at the Wilderness Slayer Cave with minimal risk gear and an escape teleport.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "Wilderness Slayer points"
+      ],
+      "requiredOrKeyItems": [
+        "One-click teleport such as a royal seed pod",
+        "Cheap gear you are willing to lose"
+      ],
+      "risks": [
+        "The Wilderness Slayer Cave is a popular player killing hotspot."
+      ],
+      "steps": [
+        "Bring only what you are willing to lose.",
+        "Keep a one-click teleport ready and escape on sight of player killers.",
+        "A cannon can be used but is at risk."
+      ]
+    },
+    {
+      "methodId": "vitreous-superiors",
+      "label": "Vitreous Jelly superiors",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Handle Vitreous Jellies as stronger superiors with no special mechanics while keeping Protect from Melee up.",
+      "recommendedFor": [
+        "Bigger and Badder unlock"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder",
+        "Protect from Melee"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Keep Protect from Melee on - superiors also use magic-based melee.",
+        "Expect max hits of 17-19 but no additional mechanics."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-stab",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary melee setup with a high-accuracy weapon against the high Defence.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Ghrazi rapier",
+            "Inquisitor's mace",
+            "Blade of saeldor"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-burst",
+      "label": "Ancient Magicks burst",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Multi-target Ancient Magicks for multicombat areas.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Kodai wand",
+            "Nightmare staff"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-venator",
+      "label": "Venator bow",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Low-effort ranged alternative in multicombat areas.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Venator bow"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Jellies\n\nJellies attack with magic-based melee, so Protect from Melee negates all damage. Melee with a high-accuracy weapon is the simple default; in the multicombat Catacombs of Kourend, Ice Burst or Ice Barrage Warped Jellies for the fastest kills, or use the Venator bow for a lower-effort task. Krystilia assignments are completed at the Wilderness Slayer Cave."
+}

@@ -1,0 +1,32 @@
+{
+  "variantId": "hellhound",
+  "name": "Hellhound",
+  "npcIds": [
+    104,
+    105,
+    7256
+  ],
+  "combatLevel": 122,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 102,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Standard Hellhound locations",
+  "locationId": "stronghold-slayer-cave",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "hellhounds"
+}

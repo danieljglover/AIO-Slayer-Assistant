@@ -1,0 +1,76 @@
+{
+  "strategyId": "cave-slime",
+  "variantIds": [
+    "cave-slime"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Cave_slime",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [],
+    "note": "Cave slime has Defence level 35 but no defensive bonuses, so any melee weapon works. Earth spells exploit the 50% elemental weakness for a Magic alternative. A light source is required to enter the caves, and Cave slime poisons on hit, so bring antipoison."
+  },
+  "requirements": [
+    "17 Slayer and combat level 15 are required to be assigned Cave slime.",
+    "A light source is required to enter the Lumbridge Swamp Caves; an enclosed lantern is safer than an open flame.",
+    "Antipoison is recommended, as Cave slime poisons on hit (poison damage level 3)."
+  ],
+  "mechanics": [
+    "Cave slime is poisonous (poison damage level 3) and is NOT undead, so the salve amulet does not apply.",
+    "It has a 50% elemental weakness to earth spells despite Defence level 35.",
+    "It attacks with melee (stab) at 4 ticks with a max hit of 2.",
+    "A Dwarf multicannon can be used in the Lumbridge Swamp Caves."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Bring a light source and antipoison, then kill Cave slime with any melee weapon in the Lumbridge Swamp Caves.",
+      "recommendedFor": [
+        "standard task completion",
+        "low-level Slayer accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Light source (enclosed lantern preferred)",
+        "Antipoison",
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Equip a light source and enter the Lumbridge Swamp Caves via the rope hole.",
+        "Kill the Cave slime; the lack of defensive bonuses makes weapon choice unimportant.",
+        "Drink antipoison as needed; Cave slime poisons on hit."
+      ],
+      "notes": [
+        "Watch for wall beasts on the way in; a spiny helmet protects against them."
+      ]
+    },
+    {
+      "methodId": "cannon",
+      "label": "Dwarf multicannon",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Set up a Dwarf multicannon in the caves to speed up the low-density task.",
+      "recommendedFor": [
+        "players who own a cannon"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon and cannonballs",
+        "Light source",
+        "Antipoison"
+      ],
+      "steps": [
+        "Enter the Lumbridge Swamp Caves with a light source.",
+        "Place a Dwarf multicannon and clear the Cave slime spawns.",
+        "Alternatively cast earth spells to exploit the 50% elemental weakness."
+      ],
+      "notes": [
+        "Earth spells are the fastest non-cannon option thanks to the 50% earth weakness."
+      ]
+    }
+  ]
+}

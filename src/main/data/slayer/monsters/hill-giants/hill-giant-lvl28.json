@@ -1,0 +1,31 @@
+{
+  "variantId": "hill-giant",
+  "name": "Hill giant",
+  "npcIds": [
+    2098,
+    13502
+  ],
+  "combatLevel": 28,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 26,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Edgeville Dungeon",
+  "locationId": "hill-giants-area",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "hill-giants"
+}

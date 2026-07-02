@@ -1,0 +1,11 @@
+{
+  "locationId": "chaos-temple-wilderness",
+  "name": "Chaos Temple (Wilderness)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "The Chaos Temple in the low-level Wilderness (around level 11-13), north of the Goblin Village / west of the Dark Warriors' Fortress. Zombie pirates spawn here and count towards the Krystilia Pirates task; they are undead and weak to fire. Lower PKer risk than the Pirates' Hideout. Cannon and safespot are not wiki-documented here, so these are set conservatively to false."
+}

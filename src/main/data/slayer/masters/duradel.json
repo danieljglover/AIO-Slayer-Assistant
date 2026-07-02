@@ -1,0 +1,26 @@
+{
+  "masterId": "duradel",
+  "name": "Duradel",
+  "aliases": [
+    "Kuradal"
+  ],
+  "location": "Shilo Village",
+  "requirements": {
+    "combatLevel": 100,
+    "slayerLevel": 50,
+    "quests": [
+      "Shilo Village"
+    ]
+  },
+  "economy": {
+    "basePoints": 15,
+    "streakMultipliers": {
+      "10": 5,
+      "50": 15,
+      "100": 25,
+      "250": 35,
+      "1000": 50
+    },
+    "blockCost": 100
+  }
+}

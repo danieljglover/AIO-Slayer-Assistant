@@ -1,0 +1,280 @@
+{
+  "strategyId": "blue-dragons",
+  "variantIds": [
+    "blue-dragon",
+    "baby-blue-dragon",
+    "brutal-blue-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Blue_dragons",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "dragon-hunter-crossbow",
+      "hunters-sunlight-crossbow",
+      "dragon-crossbow",
+      "rune-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-hunter-lance",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "osmumten-s-fang",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "zamorakian-hasta",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-hunter-wand",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Use dragonfire protection for adult and brutal Blue dragons. Fast tasks cannon baby blue dragons in Taverley Dungeon; adults give slightly more profit, brutal blue dragons add magic and long-ranged dragonfire, and Vorkath is the maximum-profit Dragon Slayer II option with a dedicated boss strategy."
+  },
+  "requirements": [
+    "65 combat for assignment",
+    "Partial completion of Dragon Slayer I",
+    "Dragonfire protection for adult Blue dragons, Brutal blue dragons, and Vorkath",
+    "Dusty key or 70 Agility for Taverley Dungeon access",
+    "Dragon Slayer II for Corsair Cove Dungeon and Vorkath",
+    "Heroes' Quest for Heroes' Guild basement",
+    "Watchtower for Ogre Enclave",
+    "The Heart of Darkness for Ruins of Tapoyauik",
+    "40 Agility shortcut for Dragon Nest",
+    "Charged Pendant of ates for fast Ruins of Tapoyauik access"
+  ],
+  "mechanics": [
+    "Blue dragons attack with melee and dragonfire.",
+    "Brutal blue dragons also attack with magic and use long-ranged dragonfire.",
+    "Baby blue dragons do not use dragonfire.",
+    "Blue dragons are large and can usually be safespotted with ranged, magic, or halberd-like weapons.",
+    "Blue dragons are dragons, so dragonbane weapons apply.",
+    "Vorkath counts as a Blue dragon task option but should follow the dedicated Vorkath strategy."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Choose fast baby dragon cannoning, adult dragon profit, brutal blue dragon profit, or Vorkath based on access and task source.",
+      "recommendedFor": [
+        "baseline Blue dragons task planning",
+        "choosing speed, profit, or Konar handling"
+      ],
+      "requiredOrKeyItems": [
+        "Dragonfire protection",
+        "Dragon hunter crossbow",
+        "Dwarf multicannon",
+        "Ranged, magic, or halberd-like safespot weapon"
+      ],
+      "steps": [
+        "Confirm the task was assigned after starting Dragon Slayer I.",
+        "Use dragonfire protection when fighting adults, brutals, or Vorkath.",
+        "Use dragonbane weapons where available.",
+        "Use safespots with ranged, magic, or halberd-like weapons when avoiding damage.",
+        "Choose Taverley baby blue dragons for speed, adult dragons for modest profit, and Vorkath for maximum profit after Dragon Slayer II."
+      ],
+      "notes": [
+        "Most Blue dragon locations have quest, key, or Agility requirements.",
+        "Baby blue dragons are faster but drop only baby dragon bones."
+      ]
+    },
+    {
+      "methodId": "taverley-baby-cannon",
+      "label": "Taverley baby cannon",
+      "combatStyle": "RANGED",
+      "role": "speed",
+      "summary": "Use a dwarf multicannon against baby blue dragons in the main Taverley Dungeon for the fastest general task completion.",
+      "recommendedFor": [
+        "fast non-Konar tasks",
+        "players with dusty key or 70 Agility"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Dusty key or 70 Agility",
+        "Ring of dueling",
+        "Enlightened Journey for balloon return"
+      ],
+      "steps": [
+        "Enter Taverley Dungeon with a dusty key or the 70 Agility shortcut.",
+        "Use the main dungeon, not the task-only upper area, because the main dungeon has baby blue dragons.",
+        "Place a dwarf multicannon where it can hit baby blue dragons.",
+        "Bank with Ring of dueling to Castle Wars and return by balloon after Enlightened Journey if desired."
+      ],
+      "notes": [
+        "The task-only Taverley upper level is full of adult Blue dragons, making it worse for fast baby-dragon cannoning."
+      ]
+    },
+    {
+      "methodId": "adult-blue-dragons",
+      "label": "Adult blue dragons",
+      "combatStyle": "RANGED",
+      "role": "profit",
+      "summary": "Kill adult Blue dragons when dragon bones and blue dragonhide profit are preferred over fastest completion.",
+      "recommendedFor": [
+        "slightly more profit than babies",
+        "Corsair Cove, Dragon Nest, Taverley, Heroes' Guild, Isle of Souls, or Ogre Enclave access"
+      ],
+      "requiredOrKeyItems": [
+        "Dragonfire protection",
+        "Dragonbane weapon",
+        "Dwarf multicannon where allowed"
+      ],
+      "steps": [
+        "Use adult Blue dragons when profit matters more than speed.",
+        "Keep dragonfire protection active.",
+        "Use safespots where available.",
+        "Use cannonable locations such as Taverley, Corsair Cove, Dragon Nest, Heroes' Guild, Isle of Souls, or Ogre Enclave when the assignment allows it."
+      ],
+      "notes": [
+        "Corsair Cove requires Dragon Slayer II.",
+        "Heroes' Guild requires Heroes' Quest.",
+        "Ogre Enclave requires Watchtower and is inefficient for Konar."
+      ]
+    },
+    {
+      "methodId": "brutal-blue-dragons",
+      "label": "Brutal blue dragons",
+      "combatStyle": "RANGED",
+      "role": "profit",
+      "summary": "Kill Brutal blue dragons for higher-profit blue dragon kills, accepting no-cannon locations and magic pressure.",
+      "recommendedFor": [
+        "profit-focused tasks",
+        "Catacombs of Kourend",
+        "Ruins of Tapoyauik access"
+      ],
+      "requiredOrKeyItems": [
+        "Dragonfire protection",
+        "Dragon hunter crossbow",
+        "Anti-magic or Protect from Magic handling",
+        "The Heart of Darkness for Ruins of Tapoyauik"
+      ],
+      "prayers": [
+        "Protect from Magic"
+      ],
+      "steps": [
+        "Use Catacombs of Kourend or Ruins of Tapoyauik for Brutal blue dragons.",
+        "Account for the additional magic attack and long-ranged dragonfire.",
+        "Use dragonfire protection and ranged dragonbane gear.",
+        "Safespot where practical.",
+        "Skip Konar assignments to Catacombs or Ruins if speed matters because cannon use is prevented."
+      ],
+      "notes": [
+        "Catacombs Brutal blue dragons can drop ancient shards and Dark totem parts.",
+        "Ruins of Tapoyauik requires The Heart of Darkness."
+      ]
+    },
+    {
+      "methodId": "konar-location-handling",
+      "label": "Konar location handling",
+      "combatStyle": "RANGED",
+      "role": "konar",
+      "summary": "Accept Isle of Souls Dungeon, but skip Ogre Enclave, Catacombs of Kourend, and Ruins of Tapoyauik when Konar assigns them.",
+      "recommendedFor": [
+        "Konar Blue dragon assignments",
+        "players deciding whether to skip"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon for Isle of Souls Dungeon",
+        "Skip points for poor locations"
+      ],
+      "steps": [
+        "Skip Ogre Enclave, Catacombs of Kourend, and Ruins of Tapoyauik when speed matters.",
+        "Skip Ogre Enclave because the dragons are very far apart.",
+        "Skip Catacombs of Kourend and Ruins of Tapoyauik because they prevent cannon use.",
+        "Accept Isle of Souls Dungeon if desired because a cannon can be placed there.",
+        "Remember Isle of Souls Dungeon mixes adult and baby blue dragons in the same room."
+      ],
+      "notes": [
+        "This follows the task page's specific Konar guidance."
+      ]
+    },
+    {
+      "methodId": "vorkath-profit",
+      "label": "Vorkath profit",
+      "combatStyle": "RANGED",
+      "role": "boss",
+      "summary": "Use Vorkath after Dragon Slayer II for maximum Blue dragons task profit.",
+      "recommendedFor": [
+        "maximum profit",
+        "players with Dragon Slayer II complete",
+        "boss-focused Blue dragons tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Dragon Slayer II",
+        "Dedicated Vorkath setup",
+        "Dragon hunter crossbow or other Vorkath gear"
+      ],
+      "steps": [
+        "Complete Dragon Slayer II to unlock repeatable Vorkath.",
+        "Use the dedicated Vorkath strategy rather than the generic Blue dragons methods.",
+        "Treat Vorkath as slower but substantially more profitable than regular Blue dragon kills."
+      ],
+      "notes": [
+        "See Vorkath/Strategies for the full boss method.",
+        "The task page describes Vorkath as the maximum-profit Blue dragons option."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-dragonbane",
+      "label": "Ranged dragonbane",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Use ranged dragonbane for safe adult, brutal, and Vorkath-style Blue dragon kills.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter crossbow",
+            "Hunter's sunlight crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "shield": [
+            "Anti-dragon shield",
+            "Dragonfire shield"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-dragonbane",
+      "label": "Melee dragonbane",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use melee dragonbane for direct adult Blue dragon kills where ranged is not preferred.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter lance",
+            "Osmumten's fang",
+            "Zamorakian hasta"
+          ],
+          "shield": [
+            "Anti-dragon shield",
+            "Dragonfire shield"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-dragonbane",
+      "label": "Magic dragonbane",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Use magic from safespots or with dragonbane magic gear when desired.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter wand"
+          ]
+        }
+      }
+    }
+  ]
+}

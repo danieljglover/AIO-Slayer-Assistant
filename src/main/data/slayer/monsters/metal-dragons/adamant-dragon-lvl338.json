@@ -1,0 +1,31 @@
+{
+  "variantId": "adamant-dragon",
+  "name": "Adamant dragon",
+  "npcIds": [
+    8030,
+    8090
+  ],
+  "combatLevel": 338,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 272,
+    "stab": 20,
+    "slash": 110,
+    "crush": 85,
+    "magic": 30,
+    "range": 95
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Lithkren Vault",
+  "locationId": "lithkren-vault-metal-dragons",
+  "requirement": "Dragon Slayer II completed",
+  "bossId": null,
+  "strategyId": "adamant-dragon"
+}

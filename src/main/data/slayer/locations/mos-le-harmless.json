@@ -1,0 +1,11 @@
+{
+  "locationId": "mos-le-harmless",
+  "name": "Mos Le'Harmless",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Cabin Fever to reach the island. About 50 Jungle horror spawns roam the surface, densest in the camp north of the cave exit; walls, plants, and trees provide safespots. Multicombat and cannon-placement status of the surface are unverified on the wiki, so both default to false."
+}

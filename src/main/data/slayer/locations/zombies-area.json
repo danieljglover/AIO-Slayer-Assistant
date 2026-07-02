@@ -1,0 +1,11 @@
+{
+  "locationId": "zombies-area",
+  "name": "Common zombie spawns",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Common zombies spawn across free-to-play areas of Gielinor; these kills count towards a Turael, Spria or Mazchna Zombies task. Multicombat, cannon placement and safespots are not wiki-stated, so conservative defaults are used."
+}

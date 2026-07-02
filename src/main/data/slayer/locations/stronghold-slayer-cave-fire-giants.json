@@ -1,0 +1,11 @@
+{
+  "locationId": "stronghold-slayer-cave-fire-giants",
+  "name": "Stronghold Slayer Cave",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires a Slayer task. Contains 12 Fire giants arranged as groups of 3 separated by safespots."
+}

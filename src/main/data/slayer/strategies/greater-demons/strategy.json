@@ -1,0 +1,144 @@
+{
+  "strategyId": "greater-demons",
+  "variantIds": [
+    "greater-demon",
+    "greater-demon-level-100",
+    "greater-demon-level-101",
+    "greater-demon-level-104",
+    "greater-demon-level-113"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Greater_demons",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "arclight",
+      "viggora-s-chainmace",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Use cannonable Chasm of Fire or Brimhaven for normal tasks, Catacombs for shards/totems, and Wilderness Slayer Cave only when accepting PK risk. Demonbane melee and water spells are effective."
+  },
+  "requirements": [
+    "70 combat is required for normal Greater demon assignments.",
+    "Greater Challenge extends assignments to 200-250.",
+    "Wilderness locations require accepting player-killing risk.",
+    "Karuulm Slayer Dungeon requires stone boots or equivalent heat protection."
+  ],
+  "mechanics": [
+    "Greater demons are demons, so demonbane weapons apply.",
+    "Current monster pages list Greater demons as weak to water spells.",
+    "Wilderness Slayer Cave is both cannonable and multicombat.",
+    "Catacombs of Kourend cannot be cannoned but can drop ancient shards and dark totem pieces."
+  ],
+  "methods": [
+    {
+      "methodId": "normal-cannon",
+      "label": "Normal cannon task",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Use a dwarf multicannon with demonbane melee at Chasm of Fire, Brimhaven Dungeon, Isle of Souls Dungeon, or other cannonable non-Wilderness locations.",
+      "recommendedFor": [
+        "fast normal task completion",
+        "Konar location assignments where cannoning is allowed"
+      ],
+      "requiredOrKeyItems": [
+        "dwarf multicannon",
+        "Emberlight or Arclight",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Choose a cannonable Greater demon location such as Chasm of Fire for dense spawns or Brimhaven when assigned there.",
+        "Place the cannon where it covers the most nearby demons.",
+        "Use demonbane melee or strong melee while the cannon supplies extra damage.",
+        "Safespot with ranged or magic where the location supports it."
+      ],
+      "risks": [
+        "Brimhaven spawns are spread out and are not ideal unless assigned there.",
+        "Entrana is not advisable because normal weapons and armour cannot be taken there."
+      ]
+    },
+    {
+      "methodId": "catacombs-shards",
+      "label": "Catacombs shards and totems",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use Catacombs of Kourend when ancient shards and dark totem pieces are worth slower cannonless task progress.",
+      "recommendedFor": [
+        "players collecting ancient shards",
+        "players collecting dark totem pieces"
+      ],
+      "steps": [
+        "Use the Catacombs Greater demon rooms.",
+        "Fight with demonbane melee or water spells.",
+        "Use available safespots if ranging or maging."
+      ],
+      "notes": [
+        "The Catacombs row is multicombat, safespottable, and not cannonable."
+      ]
+    },
+    {
+      "methodId": "wilderness-cannon",
+      "label": "Wilderness Slayer Cave",
+      "combatStyle": "MELEE",
+      "role": "wilderness",
+      "summary": "Use Wilderness Slayer Cave for fast multicombat cannon tasks only when willing to risk player attacks.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "players using Wilderness weapons"
+      ],
+      "requiredOrKeyItems": [
+        "dwarf multicannon",
+        "Viggora's chainmace",
+        "one-click teleport when possible"
+      ],
+      "steps": [
+        "Bring only risk you are willing to lose.",
+        "Set up the cannon in the Wilderness Slayer Cave Greater demon area.",
+        "Use Viggora's chainmace, Emberlight, or Arclight for direct damage.",
+        "Leave immediately if hostile players appear."
+      ],
+      "risks": [
+        "The location is level 28 Wilderness and multicombat."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "demonbane-melee",
+      "label": "Demonbane melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Emberlight or Arclight are preferred for regular Greater demon kills.",
+      "equipment": {
+        "weapons": [
+          "Emberlight",
+          "Arclight",
+          "Abyssal whip"
+        ]
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use ranged weapons from safespots when a location supports it.",
+      "equipment": {
+        "weapons": [
+          "Scorching bow",
+          "Toxic blowpipe"
+        ]
+      }
+    }
+  ]
+}

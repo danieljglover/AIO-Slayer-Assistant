@@ -1,0 +1,11 @@
+{
+  "locationId": "spiders-area",
+  "name": "Common spider spawns",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Common spiders spawn across free-to-play areas of Gielinor; these kills count towards a Turael or Spria Spiders task. Multicombat, cannon placement and safespots are not wiki-stated, so conservative defaults are used."
+}

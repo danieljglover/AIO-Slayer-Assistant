@@ -1,0 +1,30 @@
+{
+  "variantId": "hydra",
+  "name": "Hydra",
+  "npcIds": [
+    8609
+  ],
+  "combatLevel": 194,
+  "weakness": {
+    "style": "RANGED",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 160,
+    "slash": 160,
+    "crush": 160,
+    "magic": 160,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Karuulm Slayer Dungeon (task-only area)",
+  "locationId": "karuulm-slayer-dungeon-hydras",
+  "requirement": "Slayer 95; boots of stone/brimstone or granite boots unless Elite Kourend & Kebos Diary",
+  "bossId": null,
+  "strategyId": "hydras"
+}

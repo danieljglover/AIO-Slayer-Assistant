@@ -1,0 +1,11 @@
+{
+  "locationId": "ancient-cavern-metal-dragons",
+  "name": "Ancient Cavern",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Upper level contains 7 mithril dragons. Requires the first part of Barbarian Firemaking with 35 Firemaking; teleport to Barbarian Outpost and run south for quick access."
+}

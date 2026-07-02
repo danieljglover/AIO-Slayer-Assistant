@@ -1,0 +1,29 @@
+{
+  "variantId": "zakln-gritch",
+  "name": "Zakl'n Gritch",
+  "npcIds": [
+    3131
+  ],
+  "combatLevel": 142,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 127,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -5,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "God Wars Dungeon (Zamorak stronghold, K'ril Tsutsaroth room)",
+  "requirement": "God Wars Dungeon Zamorak stronghold access; counts as a Lesser demon kill",
+  "bossId": null,
+  "strategyId": "lesser-demons"
+}

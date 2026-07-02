@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-slayer-cave-nechryael",
+  "name": "Wilderness Slayer Cave",
+  "multi": true,
+  "cannon": true,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Contains 8 Greater Nechryael in the Wilderness Slayer Cave task-only area. This is a dangerous multicombat area popular with player-killers; do not bring items that you are unwilling to lose."
+}

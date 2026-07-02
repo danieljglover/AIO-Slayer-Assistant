@@ -1,0 +1,11 @@
+{
+  "locationId": "isle-of-souls-dungeon-fire-giants",
+  "name": "Isle of Souls Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "A cannon can AoE Fire giants by placing it in the middle and running to the safespot at the hall entrance. Stamina potions are recommended."
+}

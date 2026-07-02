@@ -1,0 +1,31 @@
+{
+  "variantId": "pirate",
+  "name": "Pirate",
+  "npcIds": [
+    523,
+    6995
+  ],
+  "combatLevel": 26,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 23,
+    "stab": 0,
+    "slash": 1,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Pirates' Hideout",
+  "locationId": "pirates-hideout",
+  "requirement": "Lockpick and 39 Thieving to open the door",
+  "bossId": null,
+  "strategyId": "pirates"
+}

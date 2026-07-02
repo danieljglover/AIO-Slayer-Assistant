@@ -1,0 +1,68 @@
+{
+  "strategyId": "flesh-crawlers",
+  "variantIds": [
+    "flesh-crawler"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Flesh_Crawler",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Flesh Crawlers hit only 1 and have low Defence (10) with modest +15 bonuses, so any melee weapon clears them safely. Fire spells exploit their 20% fire weakness for AFK Magic training. Their dense spawn on the 2nd level makes them a popular low-level money/XP spot."
+  },
+  "requirements": [
+    "No Slayer level is required to receive or kill Flesh Crawlers.",
+    "Access to the Stronghold of Security (via the Barbarian Village ladder)."
+  ],
+  "mechanics": [
+    "Flesh Crawlers attack with slash melee for a maximum of 1 damage at a 3-tick speed.",
+    "They have 25 Hitpoints, Defence 10 and +15 bonuses across all styles.",
+    "They carry a 20% fire spell weakness and drop herbs and gems consistently."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-afk",
+      "label": "Melee (AFK)",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Stand among the dense flesh crawler spawn and clear them with any melee weapon; they hit only 1.",
+      "recommendedFor": [
+        "all flesh crawler tasks",
+        "low-level AFK training"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon (Dragon scimitar)",
+        "Slayer helmet",
+        "Optional food (rarely needed)"
+      ],
+      "steps": [
+        "Enter the Stronghold of Security via the Barbarian Village ladder and descend to the 2nd level (Catacomb of Famine).",
+        "Stand in the densest cluster of flesh crawlers and attack; their max hit is 1 so little food is needed.",
+        "Collect herb and gem drops while completing the assignment."
+      ]
+    },
+    {
+      "methodId": "magic-fire",
+      "label": "Fire spells (Magic)",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Train Magic on flesh crawlers with fire spells to exploit their 20% fire weakness.",
+      "recommendedFor": [
+        "Magic training",
+        "players wanting XP while safe"
+      ],
+      "requiredOrKeyItems": [
+        "Fire spell runes (or a fire staff)",
+        "Slayer helmet (imbued for Magic bonus)"
+      ],
+      "steps": [
+        "Bring runes for a fire spell such as Fire Strike/Bolt/Blast.",
+        "Cast on the flesh crawlers to benefit from the 20% fire weakness.",
+        "Their 1 max hit makes this a very safe AFK Magic method."
+      ]
+    }
+  ],
+  "body": "# Flesh Crawlers\n\nFlesh Crawlers are a low-level Slayer task assigned by Mazchna, found on the 2nd level (Catacomb of Famine) of the Stronghold of Security. They need no Slayer level, hit only 1, and have low Defence (10). Any melee weapon clears them, and fire spells exploit their 20% fire weakness for safe AFK Magic training. Their dense spawn and consistent herb and gem drops make them a well-known early-game money and XP spot. The three combat-level forms (levels 28/35/41) all count for the task."
+}

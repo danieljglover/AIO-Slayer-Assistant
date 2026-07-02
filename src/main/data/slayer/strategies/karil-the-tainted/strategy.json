@@ -1,0 +1,192 @@
+{
+  "strategyId": "karil-the-tainted",
+  "variantIds": [
+    "karil-the-tainted"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Barrows/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "eye-of-ayak",
+      "tumeken-s-shadow",
+      "harmonised-nightmare-staff",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "staff-of-the-dead",
+      "twinflame-staff"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "dragon-dagger",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Wiki centres Karil on Magic (50% air weakness) with the shared setup; a melee/Piety kill is a supported alternative."
+  },
+  "requirements": [
+    "Access to Karil the Tainted's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Wiki centres Karil on Magic (50% air weakness) with the shared setup; a melee/Piety kill is a supported alternative.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Wiki centres Karil on Magic (50% air weakness) with the shared setup; a melee/Piety kill is a supported alternative.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "eye-of-ayak",
+        "tumeken-s-shadow",
+        "harmonised-nightmare-staff",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "staff-of-the-dead",
+        "twinflame-staff",
+        "dragon-dagger"
+      ],
+      "steps": [
+        "Wiki centres Karil on Magic (50% air weakness) with the shared setup; a melee/Piety kill is a supported alternative."
+      ]
+    },
+    {
+      "methodId": "barrows-route",
+      "label": "Barrows route",
+      "combatStyle": "MAGIC",
+      "role": "travel",
+      "summary": "Reach Barrows, check Karil's southern mound early enough to spend prayer, and bring restore support for his Agility drain if needed.",
+      "recommendedFor": [
+        "safe Barrows rotations",
+        "Boss Slayer assignments that roll Karil"
+      ],
+      "requiredOrKeyItems": [
+        "Barrows teleport tablet",
+        "Prayer potions",
+        "Restore potion",
+        "Magic or melee switch"
+      ],
+      "prayers": [
+        "Protect from Missiles against Karil"
+      ],
+      "steps": [
+        "Use a Barrows teleport or Mort'ton route to reach the mounds.",
+        "Prioritise Karil before lower-risk melee brothers if prayer is still available.",
+        "Use Protect from Missiles to block his ranged attacks.",
+        "Carry restore if his Agility drain affects route movement."
+      ],
+      "notes": [
+        "The Wiki safe rotations place Karil before or near Ahrim and Verac.",
+        "Ghommal's hilt 2 or higher removes the Barrows Prayer drain."
+      ]
+    },
+    {
+      "methodId": "protection-prayer-kill",
+      "label": "Protection prayer kill",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Use Protect from Missiles, then kill Karil with air magic or a melee/Piety switch.",
+      "recommendedFor": [
+        "standard Karil mound kills",
+        "players using the shared Barrows magic setup"
+      ],
+      "requiredOrKeyItems": [
+        "Eye of ayak",
+        "Tumeken's shadow",
+        "Harmonised nightmare staff",
+        "Dragon dagger",
+        "Melee weapon"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Piety"
+      ],
+      "steps": [
+        "Turn on Protect from Missiles before fighting Karil.",
+        "Use air magic or a powered staff as the default shared setup.",
+        "Use melee with Piety as a supported alternative.",
+        "Restore drained Agility if it slows tunnel navigation."
+      ],
+      "risks": [
+        "Karil has high accuracy and can drain Agility.",
+        "Prayer drain can make late Karil kills more supply-intensive."
+      ],
+      "notes": [
+        "All brothers have a 50% air elemental weakness.",
+        "Melee/Piety is a documented alternative for Karil."
+      ]
+    },
+    {
+      "methodId": "tunnel-safespot",
+      "label": "Tunnel safespot",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "If Karil appears in the tunnels, use Protect from Missiles and kill him directly; tunnel safespots are mainly for melee brothers.",
+      "recommendedFor": [
+        "Karil tunnel spawns",
+        "Barrows runs with enough prayer remaining"
+      ],
+      "requiredOrKeyItems": [
+        "Prayer potion",
+        "Magic or melee weapon"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Turn on Protect from Missiles when Karil spawns.",
+        "Use magic or melee to kill him before opening the chest.",
+        "Use room geometry for spacing, but do not rely on melee-only safespot patterns."
+      ],
+      "notes": [
+        "Karil attacks at range, so blocking melee pathing is not enough.",
+        "Prayer management is the key safety tool."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Karil the Tainted setup using Eye of ayak.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Tumeken's shadow",
+            "Harmonised nightmare staff",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Staff of the dead",
+            "Twinflame staff"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Karil the Tainted when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon dagger"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Karil the Tainted\n\nWiki centres Karil on Magic (50% air weakness) with the shared setup; a melee/Piety kill is a supported alternative."
+}

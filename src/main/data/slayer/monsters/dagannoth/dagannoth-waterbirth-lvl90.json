@@ -1,0 +1,32 @@
+{
+  "variantId": "dagannoth-waterbirth",
+  "name": "Dagannoth (Waterbirth Island)",
+  "npcIds": [
+    2259,
+    5942,
+    3185,
+    5943
+  ],
+  "combatLevel": 90,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 75,
+    "stab": 10,
+    "slash": 10,
+    "crush": 50,
+    "magic": 50,
+    "range": 50
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Waterbirth Island Dungeon (level 88 ranged and level 90 melee forms)",
+  "requirement": "Waterbirth Island Dungeon access; stronger than Lighthouse, Catacombs, and Jormungand's Prison Dagannoth",
+  "bossId": null,
+  "strategyId": "dagannoth"
+}

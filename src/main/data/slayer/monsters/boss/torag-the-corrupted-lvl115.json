@@ -1,0 +1,29 @@
+{
+  "variantId": "torag-the-corrupted",
+  "name": "Torag the Corrupted",
+  "npcIds": [
+    1676
+  ],
+  "combatLevel": 115,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 221,
+    "slash": 235,
+    "crush": 222,
+    "magic": 0,
+    "range": 221
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Barrows - Morytania",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "torag-the-corrupted"
+}

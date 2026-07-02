@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-slayer-cave-jellies",
+  "name": "Wilderness Slayer Cave",
+  "multi": true,
+  "cannon": true,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Contains 9 Jellies. Multicombat and cannonable; safespottable per the task page. Popular player killing hotspot - keep a one-click teleport such as a royal seed pod ready and do not risk items you are unwilling to lose."
+}

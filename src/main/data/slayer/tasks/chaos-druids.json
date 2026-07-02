@@ -1,0 +1,94 @@
+{
+  "taskId": "chaos-druids",
+  "name": "Chaos druids",
+  "wikiPageId": null,
+  "combatLevel": 13,
+  "slayerTargetId": 255,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      50,
+      90
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "chaos-druids"
+  ],
+  "variantIds": [
+    "chaos-druid"
+  ],
+  "defaultVariantId": "chaos-druid",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 12,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "chaos-druid-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "chaos-druid",
+      "name": "Chaos druid",
+      "combatLevel": 13,
+      "slayerXp": 20,
+      "locations": [
+        "Edgeville Dungeon (Wilderness)"
+      ],
+      "notes": [
+        "Krystilia only counts Wilderness kills; the Edgeville Dungeon Wilderness section holds 11 spawns.",
+        "Attacks with crush melee and casts a weaken/bind spell; low max hit.",
+        "Zero defensive bonuses, so any combat style is effective.",
+        "Drops herbs (guam to snapdragon) from the herb table, making this a low-risk profit task."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "chaos-druid-wilderness",
+      "name": "Edgeville Dungeon (Wilderness)",
+      "amount": 11,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "11 Chaos druid spawns in the Wilderness section of Edgeville Dungeon, accessed via the lever/wilderness ditch.",
+        "Multicombat, cannon and safespot are not wiki-stated for this spot; conservative defaults are used.",
+        "The non-Wilderness Chaos Druid Tower, Taverley Dungeon and Yanille spawns do NOT count for Krystilia."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Chaos druids are a Krystilia (Wilderness) Slayer assignment: 50-90 per task, weight 5, no requirement.",
+    "slayerTargetId 255 is SYNTHETIC (C2/C3 allocation contract: worklist id table, 252-305); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "wikiPageId is null (honest UNKNOWN - not captured at authoring time); sourced from https://oldschool.runescape.wiki/w/Chaos_druid.",
+    "Krystilia only counts kills made in the Wilderness. Only the Edgeville Dungeon (Wilderness) chaos druids count; the Chaos Druid Tower, Taverley Dungeon and Yanille Agility Dungeon spawns do not.",
+    "Chaos druids (npc 520) are combat level 13 with 20 Hitpoints and grant 20 Slayer XP; they have defence level 12 and zero defensive bonuses, so any style works.",
+    "Whether the Elder chaos druid counts toward this task is UNKNOWN and not wiki-confirmed at authoring time; only the standard Chaos druid variant is authored.",
+    "No task extension unlock exists for Chaos druids."
+  ],
+  "recommendedMethod": "Head to the Wilderness section of Edgeville Dungeon and kill the 11 chaos druids with any weapon (they have no defensive bonuses). Bank the herb drops between trips. Beware of PKers in this low-level Wilderness spot."
+}

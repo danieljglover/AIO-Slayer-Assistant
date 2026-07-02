@@ -1,0 +1,32 @@
+{
+  "variantId": "baby-red-dragon",
+  "name": "Baby red dragon",
+  "npcIds": [
+    244,
+    245,
+    246
+  ],
+  "combatLevel": 48,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 50,
+    "crush": 50,
+    "magic": 40,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Brimhaven Dungeon, Corsair Cove Dungeon / Myths' Guild basement, Forthos Dungeon",
+  "locationId": "brimhaven-dungeon-baby-red-dragons",
+  "requirement": "Seeing red unlocked; baby red dragons do not use dragonfire",
+  "bossId": null,
+  "strategyId": "red-dragons"
+}

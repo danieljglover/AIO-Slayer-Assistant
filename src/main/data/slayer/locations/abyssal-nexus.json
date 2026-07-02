@@ -1,0 +1,11 @@
+{
+  "locationId": "abyssal-nexus",
+  "name": "Abyssal Nexus",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Boss-only area for Abyssal Sire, used as an optional Abyssal demons task boss alternative."
+}

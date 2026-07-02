@@ -1,0 +1,90 @@
+{
+  "taskId": "lava-dragons",
+  "name": "Lava dragons",
+  "wikiPageId": null,
+  "combatLevel": 252,
+  "slayerTargetId": 263,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      35,
+      60
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 3
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "lava-dragons"
+  ],
+  "variantIds": [
+    "lava-dragon"
+  ],
+  "defaultVariantId": "lava-dragon",
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 220,
+    "stab": 20,
+    "slash": 90,
+    "crush": 90,
+    "magic": 80,
+    "range": 70
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "lava-dragon-isle"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "lava-dragon",
+      "name": "Lava dragon",
+      "combatLevel": 252,
+      "slayerXp": 248.0,
+      "locations": [
+        "Lava Dragon Isle"
+      ],
+      "notes": [
+        "Found only on Lava Dragon Isle in the deep Wilderness (around levels 36-42).",
+        "Uses melee (slash) and short-ranged dragonfire; bring dragonfire protection.",
+        "Weak to water spells (50%); their low actual Magic and Ranged levels make magic and ranged accurate against them despite high defensive bonuses.",
+        "Drops lava dragon bones (high Prayer XP via the Chaos Altar) which draws player killers."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "lava-dragon-isle",
+      "name": "Lava Dragon Isle",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Deep Wilderness (around levels 36-42); a well-known player-killing hotspot.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 263 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Lava dragons is not wiki-published; QA live-verify.",
+    "Krystilia assigns lava dragons as a Wilderness-only task; only Lava Dragon Isle kills count.",
+    "Lava dragons use melee and short-ranged dragonfire; bring an anti-dragon shield or dragonfire shield plus an antifire potion.",
+    "Lava dragons are weak to water spells (50%); their actual Magic and Ranged levels are very low, so ranged and magic are accurate despite high defensive bonuses.",
+    "Lava Dragon Isle is deep Wilderness (levels 36-42) and a popular player-killing area; do not bring items you are unwilling to lose and keep a one-click teleport ready."
+  ],
+  "recommendedMethod": "Kill lava dragons on Lava Dragon Isle with dragonfire protection (anti-dragon shield plus antifire) and a strong ranged weapon such as Craw's bow or Dragon hunter crossbow, or Dragon hunter lance for melee. Bring only low-risk gear and a one-click escape teleport given the deep-Wilderness risk."
+}

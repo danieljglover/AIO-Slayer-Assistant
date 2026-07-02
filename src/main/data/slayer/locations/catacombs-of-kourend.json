@@ -1,0 +1,11 @@
+{
+  "locationId": "catacombs-of-kourend",
+  "name": "Catacombs of Kourend",
+  "multi": true,
+  "cannon": false,
+  "burst": true,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Black demons here can be safespotted and give access to Ancient shards and Dark totem pieces, but their higher Defence makes them an inefficient Black demons task option. Mutated bloodvelds appear in three groups, can be safespotted, and use the Catacombs drop table including ancient shards and dark totem pieces. Brutal blue dragons here are safespottable, cannot be cannoned, and can drop ancient shards and Dark totem parts. Hellhounds here are multicombat, safespottable, cannot be cannoned, and can reset aggression by running south and up the vine to the Giants' Den."
+}

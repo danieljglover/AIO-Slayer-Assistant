@@ -1,0 +1,106 @@
+{
+  "taskId": "green-dragons",
+  "name": "Green dragons",
+  "wikiPageId": null,
+  "combatLevel": 79,
+  "slayerTargetId": 259,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      65,
+      100
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 4
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "green-dragons"
+  ],
+  "variantIds": [
+    "green-dragon"
+  ],
+  "defaultVariantId": "green-dragon",
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 68,
+    "stab": 0,
+    "slash": 40,
+    "crush": 40,
+    "magic": 30,
+    "range": 50
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "graveyard-of-shadows-green-dragons",
+    "green-dragons-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "green-dragon",
+      "name": "Green dragon",
+      "combatLevel": 79,
+      "slayerXp": 75.0,
+      "locations": [
+        "Graveyard of Shadows",
+        "South of Lava Maze",
+        "West of Dark Warriors' Fortress",
+        "Boneyard"
+      ],
+      "notes": [
+        "Krystilia assigns green dragons only in the Wilderness; the non-Wilderness greens (Myths' Guild, etc.) do not count for the task.",
+        "Green dragons use melee and short-ranged dragonfire; bring dragonfire protection such as an anti-dragon shield and an antifire potion.",
+        "Multiple Wilderness spawns exist: north of Graveyard of Shadows (5 spawns), south of the Lava Maze (5 spawns), west of the Dark Warriors' Fortress (3 spawns), and the Boneyard area."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "graveyard-of-shadows-green-dragons",
+      "name": "Graveyard of Shadows (green dragons)",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "5 green dragon spawns north of the Graveyard of Shadows.",
+        "In the Wilderness (around levels 18-21); a popular player-killing area."
+      ]
+    },
+    {
+      "locationId": "green-dragons-wilderness",
+      "name": "Wilderness green dragon spawns",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Other Wilderness green dragon clusters: south of the Lava Maze (5 spawns), west of the Dark Warriors' Fortress (3 spawns), and the Boneyard.",
+        "All are in the Wilderness; multi/cannon status is not wiki-stated, so treated conservatively."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 259 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Green dragons is not wiki-published; QA live-verify.",
+    "Krystilia assigns green dragons as a Wilderness-only task; only Wilderness green dragon kills count.",
+    "Green dragons use melee and short-ranged dragonfire; bring an anti-dragon shield or dragonfire shield plus an antifire potion.",
+    "Green dragons have low defence and are killed quickly with any strong weapon; dragonbane gear is optional.",
+    "Green dragons are weak to water spells (50%).",
+    "Wilderness green dragon spots are popular player-killing areas; do not bring items you are unwilling to lose and keep a one-click teleport ready."
+  ],
+  "recommendedMethod": "Take a Krystilia Wilderness green dragon spawn (Graveyard of Shadows or south of the Lava Maze), wear dragonfire protection (anti-dragon shield plus antifire), and use a fast melee or ranged weapon such as Viggora's chainmace or Craw's bow. Bring only low-risk gear and a one-click escape teleport."
+}

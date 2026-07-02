@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-imp",
+  "name": "Revenant imp",
+  "npcIds": [
+    7881
+  ],
+  "combatLevel": 7,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 4,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 5,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 10,
+    "maxHit": 2,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 9
+  }
+}

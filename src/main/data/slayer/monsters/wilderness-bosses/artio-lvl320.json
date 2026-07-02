@@ -1,0 +1,41 @@
+{
+  "variantId": "artio",
+  "name": "Artio",
+  "npcIds": [
+    11992
+  ],
+  "combatLevel": 320,
+  "weakness": {
+    "style": "MAGIC",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 125,
+    "slash": 110,
+    "crush": 110,
+    "magic": 0,
+    "range": 40
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Hunter's End, a singles-plus combat area in level 21 Wilderness (the singles-plus alternative to Callisto).",
+  "locationId": null,
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "callisto",
+  "offence": {
+    "hitpoints": 450,
+    "maxHit": 50,
+    "attackStyles": [
+      "MELEE",
+      "MAGIC",
+      "RANGED"
+    ],
+    "attackSpeedTicks": 5,
+    "magicLevel": 90
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "western-gryphon-dungeon",
+  "name": "Western gryphon dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Western Gryphons dungeon on the Great Conch. Contains 18 gryphons, has a southern room that is multicombat and cannonable, and has a west cave safespot that avoids all attacks."
+}

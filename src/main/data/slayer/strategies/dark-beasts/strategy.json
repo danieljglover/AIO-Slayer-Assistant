@@ -1,0 +1,310 @@
+{
+  "strategyId": "dark-beasts",
+  "variantIds": [
+    "dark-beast",
+    "night-beast"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Dark_beast",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "soulreaper-axe",
+      "ghrazi-rapier",
+      "blade-of-saeldor",
+      "osmumten-s-fang",
+      "noxious-halberd",
+      "zamorakian-hasta"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "saradomin-godsword",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-claws",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "burning-claws",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "crystal-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "voidwaker",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "dragon-dagger",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Melee is most effective. Use Protect from Melee with high prayer bonus armour; watch Night beast specials and stay in melee range so it does not use extra standard magic attacks."
+  },
+  "requirements": [
+    "90 Slayer to kill Dark beasts",
+    "90 combat to be assigned unless assignment difficulty has been disabled",
+    "Started Mourning's End Part II",
+    "Song of the Elves for Iorwerth Dungeon",
+    "Need More Darkness unlock for 110-135 task sizes",
+    "Bigger and Badder unlock for Night beast superior spawns"
+  ],
+  "mechanics": [
+    "Dark beasts can be killed with Melee, Magic, or Ranged, but Melee is most effective.",
+    "Dark beasts remain permanently aggressive and do not become tolerant.",
+    "Dark beasts use Magic as their first attack only if the player attacks first or if they cannot attack with Melee.",
+    "Use Protect from Melee because Dark beasts have highly accurate melee attacks.",
+    "Dark beasts have a 60% elemental weakness to earth spells, but the task page recommends melee for normal tasking.",
+    "Night beasts are superior variants; they are not aggressive, so the player normally causes the first standard magic attack by attacking them.",
+    "Night beast special attack fires three 3x3 magic hits for one third of current Hitpoints, rounded down.",
+    "Iorwerth Dungeon Dark beasts can drop crystal shards.",
+    "Dark beasts and Night beasts are the only monsters that drop the dark bow and death talisman."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-general",
+      "label": "Melee general",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use strong melee weapons with Protect from Melee for the fastest general Dark beast task method.",
+      "recommendedFor": [
+        "Short point-gaining tasks",
+        "Players using standard offensive melee gear",
+        "Iorwerth Dungeon or Mourner Tunnels tasks"
+      ],
+      "requiredOrKeyItems": [
+        "melee weapon",
+        "Protect from Melee",
+        "Slayer helmet",
+        "super combat potion"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Enter Iorwerth Dungeon or Mourner Tunnels and set up in melee range.",
+        "Keep Protect from Melee active because Dark beasts have accurate melee attacks.",
+        "Use the best available melee weapon; Scythe of vitur, Soulreaper axe, Ghrazi rapier, Blade of saeldor, Osmumten's fang, Noxious halberd, and Zamorakian hasta are documented melee options.",
+        "Use special attacks for faster kills where supplies allow.",
+        "Let normal Dark beasts stay aggressive and continue attacking without needing aggression resets."
+      ],
+      "risks": [
+        "If the player stands out of melee range, Dark beasts can use Magic.",
+        "Night beasts require more attention than regular Dark beasts."
+      ]
+    },
+    {
+      "methodId": "melee-prayer-bonus",
+      "label": "Melee prayer bonus",
+      "combatStyle": "MELEE",
+      "role": "low-attention",
+      "summary": "Use high prayer bonus armour to reduce prayer potion drain while camping Protect from Melee.",
+      "recommendedFor": [
+        "Long extended tasks",
+        "Lower-attention kills",
+        "Players prioritising prayer sustain"
+      ],
+      "requiredOrKeyItems": [
+        "sunfire fanatic armour",
+        "proselyte armour",
+        "initiate armour",
+        "monk robes",
+        "Saradomin godsword",
+        "prayer potions"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Wear high prayer bonus armour such as Sunfire fanatic armour or proselyte armour.",
+        "Keep Protect from Melee active for the full task.",
+        "Use Saradomin godsword special attacks to restore prayer and hitpoints when available.",
+        "Use Lightbearer, Ring of the gods (i), Holy wrench, Prayer cape, or bonecrusher necklace where they fit the setup.",
+        "Trade some melee damage for lower prayer drain when attention or supply cost matters."
+      ],
+      "notes": [
+        "The task page specifically recommends high prayer bonus armour to reduce prayer point drain."
+      ]
+    },
+    {
+      "methodId": "iorwerth-dungeon",
+      "label": "Iorwerth Dungeon",
+      "combatStyle": "MELEE",
+      "role": "location",
+      "summary": "Use the Iorwerth Dungeon for cannonable single-combat kills with crystal shard drops.",
+      "recommendedFor": [
+        "Players with Song of the Elves complete",
+        "Players valuing crystal shards"
+      ],
+      "requiredOrKeyItems": [
+        "dwarf multicannon",
+        "cannonballs",
+        "Song of the Elves"
+      ],
+      "steps": [
+        "Travel to the Iorwerth Dungeon Dark beast area.",
+        "Set up a dwarf multicannon in the single-combat room.",
+        "Kill with melee and Protect from Melee.",
+        "Loot crystal shards when they drop."
+      ],
+      "notes": [
+        "The task page lists 10 Dark beasts in Iorwerth Dungeon.",
+        "Dark beasts killed in Iorwerth Dungeon have a chance to drop crystal shards."
+      ]
+    },
+    {
+      "methodId": "mourner-tunnels",
+      "label": "Mourner Tunnels",
+      "combatStyle": "MELEE",
+      "role": "location",
+      "summary": "Use Mourner Tunnels for the larger Dark beast room and convenient Slayer ring access.",
+      "recommendedFor": [
+        "Players with Slayer ring access",
+        "Players after simple cannonable Dark beast kills"
+      ],
+      "requiredOrKeyItems": [
+        "dwarf multicannon",
+        "cannonballs",
+        "Slayer ring"
+      ],
+      "steps": [
+        "Use a Slayer ring to teleport directly to the Mourner Tunnels Dark beasts after completing Mourning's End Part II.",
+        "Alternatively reach them through the Death Altar via the Abyss or through Mourner Headquarters.",
+        "Set up a dwarf multicannon and kill with melee.",
+        "Keep Protect from Melee active."
+      ],
+      "notes": [
+        "The task page lists 19 Dark beasts in Mourner Tunnels."
+      ]
+    },
+    {
+      "methodId": "night-beast",
+      "label": "Night beast",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Handle Night beast by staying in melee range, keeping Protect from Melee active, and accepting the special magic hits.",
+      "recommendedFor": [
+        "Superior Slayer encounters after Bigger and Badder"
+      ],
+      "requiredOrKeyItems": [
+        "Protect from Melee",
+        "food",
+        "Bigger and Badder unlock"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Attack the Night beast and expect a standard magic attack because it is not aggressive.",
+        "Move into and remain in melee range.",
+        "Keep Protect from Melee active.",
+        "When the Night beast briefly stops attacking, let the three 3x3 special magic attacks hit while staying in melee range.",
+        "Eat as needed; the special deals one third of current Hitpoints rounded down, but normal magic attacks can still hit."
+      ],
+      "risks": [
+        "Leaving melee range can cause extra standard magic attacks.",
+        "The special attack cannot kill by itself below 3 Hitpoints, but the normal magic attack can still deal damage."
+      ],
+      "notes": [
+        "Using a goading potion to aggro the Night beast still results in its standard magic first attack and it will still use its magic special."
+      ]
+    },
+    {
+      "methodId": "inventory",
+      "label": "Inventory",
+      "combatStyle": "MELEE",
+      "role": "inventory",
+      "summary": "Bring prayer sustain, cannon supplies, alchemy or rune storage, loot containers, and a one-click teleport.",
+      "inventory": [
+        "Saradomin godsword or other spec weapon",
+        "2-3 divine super combat potions, super combat potions, or super attack and super strength potions",
+        "12-18 prayer potions or super restores",
+        "Rune pouch with High Level Alchemy runes or space for chaos, death, and blood rune drops",
+        "Dwarf multicannon and cannonballs",
+        "2-3 food if using a cannon",
+        "Slayer ring",
+        "Bonecrusher if not using bonecrusher necklace",
+        "Herb sack",
+        "Gem bag or Gem sack",
+        "Seed box",
+        "Holy wrench if not using Ring of the gods (i) or Prayer cape",
+        "One-click emergency teleport"
+      ],
+      "notes": [
+        "The task page recommends herb sack and gem bag to maximise profit from Dark beast drops."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-dps",
+      "label": "Melee DPS",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Offensive melee setup for fast Dark beast kills.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scythe of vitur",
+            "Soulreaper axe",
+            "Ghrazi rapier",
+            "Blade of saeldor",
+            "Osmumten's fang",
+            "Noxious halberd",
+            "Zamorakian hasta"
+          ],
+          "special": [
+            "Dragon claws",
+            "Burning claws",
+            "Voidwaker",
+            "Dragon dagger(p++)"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-prayer-bonus",
+      "label": "Melee prayer bonus",
+      "combatStyle": "MELEE",
+      "role": "sustain",
+      "summary": "Prayer-bonus setup for camping Protect from Melee with lower potion drain.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Scythe of vitur",
+            "Soulreaper axe",
+            "Ghrazi rapier",
+            "Blade of saeldor",
+            "Osmumten's fang",
+            "Noxious halberd",
+            "Zamorakian hasta"
+          ],
+          "body": [
+            "Sunfire fanatic cuirass",
+            "Proselyte hauberk",
+            "Initiate hauberk",
+            "Monk's robe top"
+          ],
+          "legs": [
+            "Sunfire fanatic chausses",
+            "Proselyte cuisse",
+            "Initiate cuisse",
+            "Monk's robe"
+          ],
+          "special": [
+            "Saradomin godsword",
+            "Dragon claws",
+            "Crystal halberd",
+            "Voidwaker",
+            "Dragon dagger(p++)"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Dark beasts\n\nTask-page strategy covering melee DPS, melee prayer bonus, Iorwerth Dungeon, Mourner Tunnels, Night beast superior handling, and inventory guidance."
+}

@@ -1,0 +1,264 @@
+{
+  "taskId": "nechryael",
+  "name": "Nechryael",
+  "wikiPageId": 523205,
+  "combatLevel": 85,
+  "slayerTargetId": 230,
+  "slayerLevel": 80,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      110,
+      110
+    ],
+    "nieve": [
+      110,
+      170
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5,
+    "vannaka": 5,
+    "chaeldar": 12,
+    "konar": 7,
+    "nieve": 7,
+    "duradel": 9
+  },
+  "extendedAmount": {
+    "krystilia": [
+      200,
+      250
+    ],
+    "vannaka": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "nechs-please",
+      "name": "Nechs Please",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of nechryael assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "nechryael"
+  ],
+  "variantIds": [
+    "nechryael",
+    "greater-nechryael",
+    "nechryarch"
+  ],
+  "defaultVariantId": "nechryael",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 105,
+    "stab": 20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 0,
+    "range": 20
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "slayer-tower-top-floor-nechryael",
+    "slayer-tower-basement-nechryael",
+    "catacombs-of-kourend-nechryael",
+    "wilderness-slayer-cave-nechryael",
+    "iorwerth-dungeon-nechryael",
+    "charred-dungeon-nechryael"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "nechryael",
+      "name": "Nechryael",
+      "combatLevel": 115,
+      "slayerXp": 128,
+      "locations": [
+        "Slayer Tower",
+        "Charred Dungeon"
+      ],
+      "notes": [
+        "Regular Nechryael are found in the Slayer Tower and Charred Dungeon.",
+        "Normal Nechryael have lower Slayer experience rates, but their seed drops are useful for Ironman Herblore and their malicious ashes can be offered more frequently."
+      ]
+    },
+    {
+      "variantId": "greater-nechryael",
+      "name": "Greater Nechryael",
+      "combatLevel": 200,
+      "slayerXp": 205,
+      "locations": [
+        "Catacombs of Kourend",
+        "Iorwerth Dungeon",
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "A stronger variant of Nechryael, with a slightly different drop table.",
+        "Greater Nechryael are highly recommended whenever possible because their drop table is more lucrative."
+      ]
+    },
+    {
+      "variantId": "nechryarch",
+      "name": "Nechryarch",
+      "combatLevel": 300,
+      "slayerXp": 3280,
+      "locations": [
+        "Slayer Tower",
+        "Catacombs of Kourend",
+        "Iorwerth Dungeon",
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Superior variant of the Nechryael. Summons Chaotic death spawns.",
+        "Both regular and Greater Nechryael share the Nechryarch superior, with its common drop table based on the variant that spawned it."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "slayer-tower-top-floor-nechryael",
+      "name": "Slayer Tower (top floor)",
+      "amount": 11,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Slayer Tower top floor.",
+        "Contains 11 regular Nechryael."
+      ]
+    },
+    {
+      "locationId": "slayer-tower-basement-nechryael",
+      "name": "Slayer Tower (basement)",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Slayer Tower basement.",
+        "Can only be killed on a slayer task."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend-nechryael",
+      "name": "Catacombs of Kourend",
+      "amount": 14,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Contains 14 Greater Nechryael in two chambers of seven each.",
+        "Easily accessible with a portal attuned to Great Kourend or with Xeric's talisman."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave-nechryael",
+      "name": "Wilderness Slayer Cave",
+      "amount": 8,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Can only be killed on a slayer task.",
+        "Dangerous multicombat area, popular with player-killers. Do not bring items that you are unwilling to lose."
+      ]
+    },
+    {
+      "locationId": "iorwerth-dungeon-nechryael",
+      "name": "Iorwerth Dungeon",
+      "amount": 16,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Quickly accessed with a teleport crystal.",
+        "Requires completion of Song of the Elves.",
+        "Greater Nechryael killed here can drop crystal shards."
+      ]
+    },
+    {
+      "locationId": "charred-dungeon-nechryael",
+      "name": "Charred Dungeon",
+      "amount": 11,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires level 60 Sailing to access.",
+        "Contains regular Nechryael split into two low-density groups, so it is discouraged for barraging."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Nechryael are a type of demon assigned at 80 Slayer and 85 combat.",
+    "They are an extremely good Slayer task because of frequent herbs, seeds, and alchable drops.",
+    "Nechryael attack with melee and periodically summon up to two death spawns.",
+    "death spawn attacks have a max hit of 2, use typeless melee, and Protect from Melee has no effect on them.",
+    "Death spawns can attack in single-combat areas even when the player is already in combat.",
+    "Bring food when using Melee or runes for blood spells when using Magic to manage death spawn chip damage.",
+    "Greater Nechryael are mechanically the same as regular Nechryael but have higher stats and a more lucrative drop table.",
+    "Both regular and Greater Nechryael share Nechryarch as their superior, although the common drop table follows whichever variant spawned it.",
+    "Nechryarch can summon a trio of chaotic death spawn, one each using melee, magic, and ranged.",
+    "Chaotic death spawn attacks hit much harder than normal death spawns, but can be blocked with prayer.",
+    "Nechryarch chaotic death spawns only appear if the Nechryarch can attack the player, so safespots or farcasting prevent the summon.",
+    "Fast tasks are encouraged in the Catacombs with fourteen Greater Nechryael split into two chambers of seven each.",
+    "A goading potion is ideal in the Catacombs because Nechryael are not aggressive and luring is needed for high experience rates.",
+    "If not using Magic on Greater Nechryael, the task page recommends melee in Iorwerth Dungeon because Catacombs melee is likely to be crashed and Iorwerth drops crystal shards.",
+    "For Krystilia assignments, use the Wilderness Slayer Cave, bring a goading potion and a one-click teleport, and treat it as a popular player killing hotspot.",
+    "Normal Nechryael give lower Slayer experience rates, but Ironman players may value their seed drops and faster malicious ashes for Prayer experience.",
+    "Charred Dungeon requires 60 Sailing, is far from most locations without a docked boat and greater teleport focus, and is discouraged because the spawns are split into small groups."
+  ],
+  "recommendedMethod": "Burst or barrage Greater Nechryael in the Catacombs with goading potion support for fast tasks; use Emberlight or Arclight for melee Nechryael, Iorwerth Dungeon for non-magic Greater Nechryael, and Wilderness precautions for Krystilia tasks."
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "boss-dagannoth-rex",
+  "name": "Dagannoth Rex",
+  "npcIds": [
+    2267
+  ],
+  "combatLevel": 303,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 255,
+    "stab": 255,
+    "slash": 255,
+    "crush": 255,
+    "magic": 10,
+    "range": 255
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Waterbirth Island Dungeon",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "dagannoth-rex"
+}

@@ -1,0 +1,30 @@
+{
+  "variantId": "ancient-zygomite",
+  "name": "Ancient Zygomite",
+  "npcIds": [
+    7797
+  ],
+  "combatLevel": 109,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 30,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mushroom Forest on Fossil Island / Stalker Den in Custodia Pass",
+  "locationId": "fossil-island-mushroom-forest-zygomites",
+  "requirement": "57 Slayer, Lost City, and Fungicide spray to finish below 8 Hitpoints",
+  "bossId": null,
+  "strategyId": "mutated-zygomites"
+}

@@ -1,0 +1,89 @@
+{
+  "strategyId": "spiders",
+  "variantIds": [
+    "spider"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Spider",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Common spiders have 2 hitpoints and negligible defence, so any weapon kills them instantly; melee is the fastest for a nuisance task. Their 50% fire weakness makes fire spells an option for players training magic. On a Krystilia task, kills must occur in the Wilderness - bring risk gear."
+  },
+  "requirements": [
+    "No combat, Slayer or quest requirement; assigned by Krystilia (Wilderness), Turael and Spria.",
+    "Krystilia kills must occur in the Wilderness to count."
+  ],
+  "mechanics": [
+    "The common Spider (npc 3019) has 2 hitpoints, a max hit of 0 and negligible defensive bonuses.",
+    "Spiders rarely drop anything of value; the task is a fast nuisance clear.",
+    "Deadly red spiders are a separate Slayer task and do not count."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-clear",
+      "label": "Melee the spiders",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill common spiders with any melee weapon; they die in one hit.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Travel to a spider spawn (a Wilderness spot for Krystilia, any common spawn for Turael/Spria).",
+        "Attack the spiders; they have 2 hitpoints and negligible defence."
+      ],
+      "notes": [
+        "On a Krystilia task the kills must occur in the Wilderness; bring risk gear."
+      ]
+    },
+    {
+      "methodId": "fire-magic",
+      "label": "Fire spells",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Spiders carry a 50% fire weakness, so fire spells are an option for players training magic.",
+      "recommendedFor": [
+        "players training magic"
+      ],
+      "requiredOrKeyItems": [
+        "Fire-based spell or elemental staff"
+      ],
+      "steps": [
+        "Cast a fire spell on the spiders; their 50% fire weakness boosts accuracy and damage.",
+        "For a Krystilia task, remain in the Wilderness for the kills to count."
+      ],
+      "notes": [
+        "Overkill for 2-hitpoint spiders, but useful for magic experience."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Any melee weapon one-shots the low-hitpoint spiders.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon scimitar",
+            "Abyssal whip"
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "stalker-den-zygomites",
+  "name": "Stalker Den",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 9 Ancient Zygomites in the Stalker Den under Custodia Pass. The area is multicombat, cannonable, and safespottable."
+}

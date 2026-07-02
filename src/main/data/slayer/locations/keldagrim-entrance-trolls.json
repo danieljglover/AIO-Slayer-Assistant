@@ -1,0 +1,11 @@
+{
+  "locationId": "keldagrim-entrance-trolls",
+  "name": "Keldagrim entrance tunnel",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 7 level 69 mountain trolls. Narrow passage makes cannon placement difficult, but rocks at the sides of the passage can be used to safespot."
+}

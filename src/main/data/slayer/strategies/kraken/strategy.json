@@ -1,0 +1,283 @@
+{
+  "strategyId": "kraken",
+  "variantIds": [
+    "kraken"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Kraken/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "eye-of-ayak",
+      "tumeken-s-shadow",
+      "harmonised-nightmare-staff",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "staff-of-the-dead",
+      "trident-of-the-seas",
+      "twinflame-staff",
+      "warped-sceptre"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "volatile-nightmare-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "ancient-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Magic-only Slayer boss. Use fishing explosives to release Kraken quickly, tank typeless magic attacks, and prioritise magic damage or earth-spell setups; Ranged deals 1/7 damage and Melee cannot reach it."
+  },
+  "requirements": [
+    "87 Slayer",
+    "Cave kraken or Kraken task",
+    "50 Magic to receive the task",
+    "Magic gear",
+    "Fishing explosive recommended for quick release",
+    "Optional 25,000 coins from inventory or bank for a private instance"
+  ],
+  "mechanics": [
+    "Kraken can only be killed on a Cave kraken or Kraken task.",
+    "Magic is the recommended combat style; Ranged deals 1/7 damage and Melee cannot reach Kraken.",
+    "A fishing explosive used on the large whirlpool releases Kraken and all four tentacles immediately.",
+    "Without a fishing explosive, all four smaller whirlpools must be disturbed before the large whirlpool can release Kraken.",
+    "Kraken and Enormous Tentacles use typeless magical ranged attacks, so protection prayers do not reduce damage.",
+    "Kraken's max hit is high but inaccurate; tentacles are more accurate but low damage.",
+    "Private instances cost 25,000 coins and dropped items remain for 3 hours, but all ground items are lost when leaving, logging out, or dying.",
+    "Auto Retaliate should be off so the player attacks Kraken after the fishing explosive instead of retargeting tentacles."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Use magic gear, release Kraken with a fishing explosive, focus the boss, and tank tentacle damage while keeping hitpoints above danger range.",
+      "recommendedFor": [
+        "standard Kraken boss kills",
+        "profit-focused Cave kraken tasks",
+        "simple Slayer boss trips"
+      ],
+      "requiredOrKeyItems": [
+        "Fishing explosive",
+        "Magic weapon",
+        "Teleport to Kraken Cove",
+        "Food",
+        "Optional prayer potions for offensive prayers",
+        "Optional bracelet of slaughter"
+      ],
+      "steps": [
+        "Travel to Kraken Cove using fairy ring AKQ, Piscatoris teleport, Western banner, or a house fairy ring route.",
+        "Turn Auto Retaliate off before starting the fight.",
+        "Use a fishing explosive on the large whirlpool to release Kraken and the four tentacles.",
+        "Attack Kraken directly and ignore tentacles unless a specific goal requires otherwise.",
+        "Keep hitpoints above 45 because Kraken can hit hard when it connects.",
+        "Loot drops before leaving the public room or before ending the private instance."
+      ],
+      "risks": [
+        "Protection prayers do not reduce Kraken or tentacle damage.",
+        "Items on the ground in a private instance are permanently lost when leaving, logging out, or dying."
+      ],
+      "notes": [
+        "Kraken is popular, so finding an empty public world can be difficult.",
+        "A private instance can be paid from the bank."
+      ]
+    },
+    {
+      "methodId": "release-the-kraken",
+      "label": "Release the Kraken",
+      "combatStyle": "MAGIC",
+      "role": "start",
+      "summary": "Use a fishing explosive for the fast start; otherwise disturb the four small whirlpools before the large one.",
+      "recommendedFor": [
+        "all efficient kills",
+        "players using Slayer master supplies"
+      ],
+      "requiredOrKeyItems": [
+        "Fishing explosive",
+        "Ranged weapon with at least 7 tile range if not using fishing explosive"
+      ],
+      "steps": [
+        "Buy fishing explosives cheaply from any Slayer master.",
+        "Use a fishing explosive on the large whirlpool to immediately release Kraken and the tentacles.",
+        "If no fishing explosive is used, disturb the four smaller whirlpools first.",
+        "Use a ranged weapon with at least 7 tile range to reach the back two whirlpools from the bridge without moving.",
+        "After the large whirlpool responds, switch back to magic and attack Kraken."
+      ],
+      "notes": [
+        "Killing tentacles before Kraken is ill-advised because they have high Hitpoints and are unaffected by Slayer task bonuses."
+      ]
+    },
+    {
+      "methodId": "attack-styles",
+      "label": "Attack styles",
+      "combatStyle": "MAGIC",
+      "role": "mechanics",
+      "summary": "Tank typeless magical ranged attacks and rely on magic DPS rather than protection prayers.",
+      "recommendedFor": [
+        "mechanics understanding",
+        "inventory planning"
+      ],
+      "prayers": [
+        "Offensive magic prayers if using prayer potions",
+        "Preserve if using magic boosts"
+      ],
+      "steps": [
+        "Expect Kraken and all four tentacles to attack every four ticks.",
+        "Do not rely on Protect from Magic because the attacks are typeless.",
+        "Use magic armour only when it gives meaningful damage bonuses, such as Virtus or Ancestral.",
+        "Otherwise use high magic-defence ranged armour to reduce incoming accuracy.",
+        "Stay above 45 hitpoints to avoid rare large Kraken hits."
+      ],
+      "risks": [
+        "Protection prayers have no effect against Kraken and tentacle damage.",
+        "Damage is applied before the projectile reaches the player, so late eating can be risky."
+      ]
+    },
+    {
+      "methodId": "private-instance-long-trips",
+      "label": "Private instance and long trips",
+      "combatStyle": "MAGIC",
+      "role": "instance",
+      "summary": "Use private instances for crowded worlds and long trips, taking advantage of extended ground-item timers while respecting instance-loss rules.",
+      "recommendedFor": [
+        "crowded public worlds",
+        "long trips",
+        "stamina combat achievements"
+      ],
+      "requiredOrKeyItems": [
+        "25,000 coins available from bank or inventory",
+        "Sanguinesti staff or Blood Barrage for sustain",
+        "Food drops such as shark or edible seaweed"
+      ],
+      "steps": [
+        "Create a private instance when public rooms are occupied.",
+        "Use the longer ground-item timer to juggle Kraken food drops.",
+        "For very long trips, use Sanguinesti staff or Blood Barrage to reduce food dependency.",
+        "Leave only after collecting important drops because instance ground items are lost when ending the instance."
+      ],
+      "notes": [
+        "Dropped items last 3 hours in the Kraken Cove private instance.",
+        "Private instances have a slower boss respawn than the public room."
+      ],
+      "risks": [
+        "Leaving, dying, or logging out destroys all ground items inside the instance."
+      ]
+    },
+    {
+      "methodId": "inventory-and-sustain",
+      "label": "Inventory and sustain",
+      "combatStyle": "MAGIC",
+      "role": "inventory",
+      "summary": "Bring fishing explosives, teleports, optional special weapons, magic boosts, and a food/prayer mix based on weapon sustain.",
+      "recommendedFor": [
+        "trip setup",
+        "players tuning food and prayer potion ratios"
+      ],
+      "requiredOrKeyItems": [
+        "Fishing explosive",
+        "Teleport out",
+        "Teleport to Kraken Cove",
+        "Rune pouch",
+        "Magic boost",
+        "Food",
+        "Optional prayer potions",
+        "Optional bracelet of slaughter"
+      ],
+      "steps": [
+        "Bring fishing explosives to start fights quickly.",
+        "Bring a teleport out and a way back to Kraken Cove.",
+        "Use a rune pouch for thralls, Death Charge, Blood Barrage, earth spells, or High Alchemy depending on spellbook and weapon.",
+        "Bring a magic boost such as Saturated heart, Ancient brews, or Magic potions if desired.",
+        "Adjust the ratio of food to prayer potions based on the chosen weapon and sustain method.",
+        "Use Eldritch nightmare staff special for prayer restoration if available, or Toxic blowpipe special for healing if using it as a special weapon."
+      ],
+      "notes": [
+        "Blood Barrage or Blood Blitz can make food optional but is expensive and lower damage than earth spells.",
+        "Sanguinesti staff can heal enough per kill to improve long trips."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic-boss",
+      "label": "Magic boss setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use high magic damage gear and the best available magic weapon for standard Kraken kills.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Tumeken's shadow",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Warped sceptre"
+          ],
+          "neck": [
+            "Occult necklace"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Black mask (i)"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "earth-spells",
+      "label": "Earth spells",
+      "combatStyle": "MAGIC",
+      "role": "elemental",
+      "summary": "Use earth spells with Tome of earth or compatible staves to exploit Kraken's earth weakness.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Harmonised nightmare staff",
+            "Staff of the dead",
+            "Twinflame staff"
+          ],
+          "shield": [
+            "Tome of earth",
+            "Elidinis' ward (f)",
+            "Elidinis' ward"
+          ],
+          "spell": [
+            "Earth Surge",
+            "Earth Wave"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "sustain-specials",
+      "label": "Sustain specials",
+      "combatStyle": "MAGIC",
+      "role": "sustain",
+      "summary": "Use special attack or healing tools to extend trips.",
+      "equipment": {
+        "slots": {
+          "special": [
+            "Volatile nightmare staff",
+            "Toxic blowpipe",
+            "Eye of ayak"
+          ],
+          "weapon": [
+            "Sanguinesti staff",
+            "Ancient sceptre for Blood Barrage"
+          ],
+          "hands": [
+            "Bracelet of slaughter switch"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "Kraken/Strategies recommends magic, fishing explosives for quick release, tanking typeless magic attacks, optional private instances for long trips, and inventory tuning around magic boosts, food, prayer potions, Blood Barrage, and special attack sustain."
+}

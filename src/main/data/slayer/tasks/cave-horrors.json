@@ -1,0 +1,154 @@
+{
+  "taskId": "cave-horrors",
+  "name": "Cave horrors",
+  "wikiPageId": 298271,
+  "combatLevel": 85,
+  "slayerTargetId": 211,
+  "slayerLevel": 58,
+  "questReqs": [
+    "Cabin Fever"
+  ],
+  "masterIds": [
+    "chaeldar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      70,
+      130
+    ],
+    "nieve": [
+      120,
+      180
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 10,
+    "nieve": 5,
+    "duradel": 4
+  },
+  "extendedAmount": {
+    "chaeldar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Enables superior slayer monster spawns, including Cave abomination."
+    },
+    {
+      "unlockId": "horrorific",
+      "name": "Horrorific",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of Cave horrors assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "cave-horrors"
+  ],
+  "variantIds": [
+    "cave-horror",
+    "cave-abomination"
+  ],
+  "defaultVariantId": "cave-horror",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 62,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 6740,
+  "requiredItemName": "Witchwood icon",
+  "locationIds": [
+    "mos-le-harmless-cave"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "cave-horror",
+      "name": "Cave horror",
+      "combatLevel": 80,
+      "slayerXp": 55,
+      "locations": [
+        "Mos Le'Harmless Cave"
+      ],
+      "notes": [
+        "The standard variant of Cave horror.",
+        "Uses magic-based melee and a scream special related to the black mask."
+      ]
+    },
+    {
+      "variantId": "cave-abomination",
+      "name": "Cave abomination",
+      "combatLevel": 206,
+      "slayerXp": 1300,
+      "locations": [
+        "Mos Le'Harmless Cave"
+      ],
+      "notes": [
+        "The superior version of Cave horror.",
+        "Available after purchasing Bigger and Badder."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "mos-le-harmless-cave",
+      "name": "Mos Le'Harmless Cave",
+      "amount": 70,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "70 Cave horrors.",
+        "Cave horrors can be safespotted using mushrooms, stalagmites, and boulders throughout the cave.",
+        "A cannon can be placed in the cave, including the documented safespot cannon placement near 3785,9460."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Cave horrors require 58 Slayer, 85 combat, and completion of Cabin Fever.",
+    "Cave horrors are found exclusively in Mos Le'Harmless Cave.",
+    "A witchwood icon blocks their special attack when fighting at melee distance; without it, the special always deals 10% of the player's base Hitpoints level, rounded down.",
+    "Protect from Melee completely mitigates the special attack and their magic-based melee damage.",
+    "A light source is required unless a Fire of eternal light is lit in the cave.",
+    "Cave horrors attack with magic-based melee: Protect from Melee blocks damage, while high magic defence helps when not praying.",
+    "They have fairly low Hitpoints and are spread apart, so fast-firing Ranged weapons such as Toxic blowpipe, Magic shortbow (i), Hunter's sunlight crossbow, and Karil's crossbow are generally best.",
+    "Melee can be used with high Prayer bonus gear such as Proselyte armour and Protect from Melee, or with dragonhide-style magic defence and a witchwood icon when conserving prayer.",
+    "A dwarf multicannon can speed up kills, and one cannon safespot placement allows monsters targeted by the cannon to get stuck on the wall.",
+    "Safespots are available by the entrance, swamp, mushrooms, stalagmites, boulders, and other obstacles in the cave.",
+    "Bones to Peaches or tablets can extend melee trips by converting big bones into food.",
+    "Herb sack, seed box, log basket or plank sack, reagent pouch, Bonecrusher, and Soul bearer are useful because of common drops.",
+    "Cave horrors are often killed for the black mask drop and hard clue scrolls.",
+    "Cave horrors now have a 30% elemental weakness to fire spells."
+  ],
+  "recommendedMethod": "Use fast ranged weapons with safespots or cannon support for low-damage tasks. Use Protect from Melee with prayer gear for melee kills, or wear a witchwood icon with high magic-defence armour when conserving prayer."
+}

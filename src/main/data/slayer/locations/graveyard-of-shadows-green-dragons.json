@@ -1,0 +1,11 @@
+{
+  "locationId": "graveyard-of-shadows-green-dragons",
+  "name": "Graveyard of Shadows (green dragons)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Five green dragon spawns north of the Graveyard of Shadows in the low-level Wilderness (around levels 18-21). A popular player-killing area; multi and cannon status are not wiki-stated, so treated conservatively as false."
+}

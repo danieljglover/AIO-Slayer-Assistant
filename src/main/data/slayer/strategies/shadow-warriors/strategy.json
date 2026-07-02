@@ -1,0 +1,128 @@
+{
+  "strategyId": "shadow-warriors",
+  "variantIds": [
+    "shadow-warrior"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Shadow_warrior",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-bludgeon",
+      "zombie-axe",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Shadow warriors' crush defence (+19) is their lowest melee defence, so crush weapons work best; their ranged defence (+38) is the highest. Safespot through the fence by the pit scorpions or behind the fungus near the cavern wall. They are not undead, so the Salve amulet does not apply."
+  },
+  "requirements": [
+    "Completion of Legends' Quest is required to be assigned Shadow warriors.",
+    "Combat level 60 is required for assignment.",
+    "No Slayer level requirement."
+  ],
+  "mechanics": [
+    "Shadow warriors attack with slash melee at scimitar speed (4 ticks) with a max hit of 6.",
+    "Crush is their weakest defence (+19); ranged their strongest (+38).",
+    "They are NOT undead despite their ghostly appearance; the Salve amulet does not apply.",
+    "They are hidden on the minimap.",
+    "They become non-aggressive after time passes, like most monsters."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-crush",
+      "label": "Crush melee",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill the 19 Legends' Guild Dungeon spawns with a crush weapon against their weakest defence.",
+      "recommendedFor": [
+        "standard task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Crush melee weapon"
+      ],
+      "steps": [
+        "Enter the Legends' Guild Dungeon.",
+        "Fight the shadow warriors with a crush weapon.",
+        "Their low max hit of 6 makes the task low risk."
+      ],
+      "notes": [
+        "Their stab defence (+43) is high; avoid stab weapons."
+      ]
+    },
+    {
+      "methodId": "fence-safespot",
+      "label": "Fence safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Safespot through the fence by the pit scorpions or behind the fungus near the cavern wall.",
+      "recommendedFor": [
+        "lower-level players",
+        "risk-free tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged or magic weapon"
+      ],
+      "steps": [
+        "Position behind the fence separating the shadow warriors from the pit scorpions, or behind the fungus near the cavern wall.",
+        "Attack with ranged or magic."
+      ],
+      "notes": [
+        "Their ranged defence (+38) is their highest, so magic may be faster despite no documented elemental weakness."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-crush",
+      "label": "Crush melee",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Crush weapons exploit their weakest defence (+19).",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Abyssal bludgeon",
+            "Zombie axe",
+            "Abyssal whip"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Ranged from the fence or fungus safespots (note their +38 ranged defence).",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-safespot",
+      "label": "Magic safespot",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Magic from the safespots against their +15 magic defence.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the seas"
+          ]
+        }
+      }
+    }
+  ]
+}

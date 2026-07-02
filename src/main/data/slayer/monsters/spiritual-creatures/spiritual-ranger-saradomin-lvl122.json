@@ -1,0 +1,29 @@
+{
+  "variantId": "spiritual-ranger-saradomin",
+  "name": "Spiritual ranger (Saradomin)",
+  "npcIds": [
+    2211
+  ],
+  "combatLevel": 122,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 3,
+    "slash": 5,
+    "crush": 13,
+    "magic": 16,
+    "range": 23
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "God Wars Dungeon, Saradomin wing",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "spiritual-creatures"
+}

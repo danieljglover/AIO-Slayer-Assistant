@@ -1,0 +1,139 @@
+{
+  "taskId": "waterfiends",
+  "name": "Waterfiends",
+  "wikiPageId": 362720,
+  "combatLevel": 75,
+  "slayerTargetId": 239,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Ancient Cavern access"
+  ],
+  "masterIds": [
+    "konar",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "konar": [
+      120,
+      170
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "konar": 2,
+    "duradel": 2
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "waterfiends"
+  ],
+  "variantIds": [
+    "waterfiend"
+  ],
+  "defaultVariantId": "waterfiend",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 128,
+    "stab": 100,
+    "slash": 100,
+    "crush": 10,
+    "magic": 100,
+    "range": 20
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "ancient-cavern-waterfiends",
+    "kraken-cove-waterfiends",
+    "iorwerth-dungeon-waterfiends"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "waterfiend",
+      "name": "Waterfiend",
+      "combatLevel": 115,
+      "slayerXp": 128,
+      "locations": [
+        "Ancient Cavern",
+        "Kraken Cove",
+        "Iorwerth Dungeon"
+      ],
+      "notes": [
+        "Waterfiends are level 115 demonic monsters with 128 Hitpoints and 128 Slayer XP.",
+        "They are found in the Ancient Cavern, Kraken Cove, and Iorwerth Dungeon.",
+        "They attack with Magic and magical Ranged; both attacks roll against the player's Magic Defence.",
+        "Their low crush Defence makes crush melee weapons the standard task-page recommendation.",
+        "The monster page lists a 100% elemental weakness to Earth spells and heavy ranged defence of 20."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "ancient-cavern-waterfiends",
+      "name": "Ancient Cavern",
+      "amount": 16,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Ancient Cavern contains 16 level 115 Waterfiends.",
+        "Quickly accessed with a games necklace to Barbarian Assault.",
+        "Because the Waterfiend attack range is only 4 horizontal tiles, Ranged or Magic can safespot across the river.",
+        "The task page describes waiting out the 10 min aggression timer by running between the pillar safespot, the whirlpool landing platform, and back to the safespot."
+      ]
+    },
+    {
+      "locationId": "kraken-cove-waterfiends",
+      "name": "Kraken Cove",
+      "amount": 15,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Kraken Cove contains 15 level 115 Waterfiends.",
+        "Quickly accessed with fairy ring AKQ.",
+        "This area is Task Only."
+      ]
+    },
+    {
+      "locationId": "iorwerth-dungeon-waterfiends",
+      "name": "Iorwerth Dungeon",
+      "amount": 20,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Iorwerth Dungeon contains 20 level 115 Waterfiends.",
+        "Quickly accessed with a teleport crystal and requires Song of the Elves.",
+        "Waterfiends in Iorwerth Dungeon can drop crystal shards, slightly increasing profit.",
+        "The task-page row marks this location cannonable but not safespottable."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Waterfiends can be assigned by Konar quo Maten and Duradel after 75 combat and access to the Ancient Cavern.",
+    "Access to the Ancient Cavern requires Barbarian Firemaking training up to being prompted to jump into the whirlpool for pyre ship bones.",
+    "Waterfiends attack with Magic and magical Ranged, so protection prayers cannot negate all incoming damage.",
+    "Both Waterfiend attacks roll against Magic Defence; Dragonhide armour, Karil's armour, Eclipse Moon armour, and a saturated or imbued heart can reduce damage.",
+    "Protect from Missiles is the most helpful protection prayer if they are dealing too much damage.",
+    "Eclipse Moon ranged armour is a strong defensive option because it adds Magic Defence while preserving Strength bonus.",
+    "Waterfiends have low crush Defence, so crush weapons such as abyssal bludgeon, Ursine chainmace, Sarachnis cudgel, zombie axe, leaf-bladed battleaxe, dragon mace, blisterwood flail, Ivandis flail, or keris partisan are recommended.",
+    "Waterfiends have a 100% elemental weakness to earth spells; earth magic is generally faster than melee but costs more.",
+    "Non-earth magic is not recommended because Waterfiends have high Magic level and magic Defence.",
+    "Bring High Level Alchemy runes for armour and staff drops.",
+    "The task page advises that Waterfiends are often worth a skip because they have moderately high stats, accurate attacks, and poor drops outside of Mist battlestaff for Ironmen.",
+    "Do not block Waterfiends in most cases; skip them instead because their assignment weight value of 2 makes them rare."
+  ],
+  "recommendedMethod": "Use crush melee with high Magic Defence armour as the default low-cost method. Use earth magic when speed matters and rune cost is acceptable, or use Ranged gear defensively when wearing ranged armour for Magic Defence. Ancient Cavern supports Ranged/Magic safespotting across the river, Kraken Cove is task-only, and Iorwerth Dungeon supports cannoning plus crystal shard drops after Song of the Elves."
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "sarachnis",
+  "name": "Sarachnis",
+  "npcIds": [
+    8713
+  ],
+  "combatLevel": 318,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 60,
+    "slash": 40,
+    "crush": 10,
+    "magic": 150,
+    "range": 300
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Forthos Dungeon - Burial tomb",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "sarachnis"
+}

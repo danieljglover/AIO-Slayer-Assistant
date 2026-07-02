@@ -1,0 +1,11 @@
+{
+  "locationId": "fremennik-slayer-dungeon",
+  "name": "Fremennik Slayer Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains standard Basilisks. A mirror shield or V's shield is required to avoid basilisk gaze damage and stat drain."
+}

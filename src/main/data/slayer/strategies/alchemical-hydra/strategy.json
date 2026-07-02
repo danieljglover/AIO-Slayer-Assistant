@@ -1,0 +1,179 @@
+{
+  "strategyId": "alchemical-hydra",
+  "variantIds": [
+    "alchemical-hydra"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Alchemical_Hydra/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "twisted-bow",
+      "toxic-blowpipe",
+      "dragon-hunter-crossbow",
+      "bow-of-faerdhinen",
+      "eclipse-atlatl"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "zaryte-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "dragon-hunter-lance",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "scythe-of-vitur",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Weakest to ranged (magic not recommended). Draconic - dragonbane (DH crossbow / lance) is effective."
+  },
+  "requirements": [
+    "Access to Alchemical Hydra's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Weakest to ranged (magic not recommended). Draconic - dragonbane (DH crossbow / lance) is effective.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Weakest to ranged (magic not recommended). Draconic - dragonbane (DH crossbow / lance) is effective.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "twisted-bow",
+        "toxic-blowpipe",
+        "dragon-hunter-crossbow",
+        "bow-of-faerdhinen",
+        "eclipse-atlatl",
+        "zaryte-crossbow",
+        "dragon-hunter-lance",
+        "scythe-of-vitur"
+      ],
+      "steps": [
+        "Weakest to ranged (magic not recommended). Draconic - dragonbane (DH crossbow / lance) is effective."
+      ]
+    },
+    {
+      "methodId": "vent-lure-and-prayer-rotation",
+      "label": "Vent lure and prayer rotation",
+      "combatStyle": "RANGED",
+      "role": "phase-management",
+      "summary": "Lure Hydra onto the correct chemical vents and switch prayers as its attack style changes every three attacks.",
+      "recommendedFor": [
+        "standard Alchemical Hydra kills",
+        "players learning phase order"
+      ],
+      "requiredOrKeyItems": [
+        "Twisted bow",
+        "Dragon hunter crossbow",
+        "Toxic blowpipe",
+        "Antidote++ or anti-venom"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Start with the correct protection prayer for the current attack style and count three attacks before switching.",
+        "Move Hydra onto the matching coloured chemical vent in each phase to remove its damage reduction.",
+        "Keep attacking with ranged or dragonbane weapons while repositioning between vents.",
+        "Reset positioning quickly after each phase transition."
+      ],
+      "risks": [
+        "Using the wrong vent makes the fight much slower.",
+        "Losing the three-attack rhythm causes heavy magic or ranged hits."
+      ]
+    },
+    {
+      "methodId": "special-attacks-and-jad-phase",
+      "label": "Special attacks and Jad phase",
+      "combatStyle": "RANGED",
+      "role": "specials",
+      "summary": "Handle poison, lightning, and flame specials, then alternate prayers correctly during the final Jad-style phase.",
+      "recommendedFor": [
+        "consistent Hydra completions",
+        "players past the vent-learning stage"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged weapon",
+        "Run energy or stamina",
+        "Food"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Move away from poison splats and do not stand in lingering poison pools.",
+        "Run around the lightning path rather than crossing it late.",
+        "For the flame wall and tracking flame, move decisively to avoid being pinned.",
+        "In the final phase, alternate protection prayers each attack instead of every three attacks."
+      ],
+      "risks": [
+        "Lightning and flame specials can kill through otherwise good DPS.",
+        "The final phase punishes stale prayer switching."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Alchemical Hydra setup using Twisted bow.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twisted bow",
+            "Toxic blowpipe",
+            "Dragon hunter crossbow",
+            "Bow of faerdhinen",
+            "Eclipse atlatl"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for Alchemical Hydra when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Zaryte crossbow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Alchemical Hydra when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dragon hunter lance",
+            "Scythe of vitur"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Alchemical Hydra\n\nWeakest to ranged (magic not recommended). Draconic - dragonbane (DH crossbow / lance) is effective."
+}

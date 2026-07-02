@@ -1,0 +1,241 @@
+{
+  "taskId": "basilisks",
+  "name": "Basilisks",
+  "wikiPageId": 256653,
+  "combatLevel": 40,
+  "slayerTargetId": 205,
+  "slayerLevel": 40,
+  "questReqs": [],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      110,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 8,
+    "chaeldar": 7,
+    "konar": 5,
+    "nieve": 6,
+    "duradel": 7
+  },
+  "extendedAmount": {
+    "vannaka": [
+      200,
+      250
+    ],
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "bigger-and-badder",
+      "name": "Bigger and Badder",
+      "pointsCost": 50,
+      "notes": "Enables superior slayer monster spawns, including Monstrous basilisk and Basilisk Sentinel."
+    },
+    {
+      "unlockId": "basilocked",
+      "name": "Basilocked",
+      "pointsCost": 80,
+      "notes": "Konar, Duradel, and Nieve will be able to assign Basilisks as your task."
+    },
+    {
+      "unlockId": "basilonger",
+      "name": "Basilonger",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of Basilisks assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "basilisks"
+  ],
+  "variantIds": [
+    "basilisk",
+    "monstrous-basilisk",
+    "basilisk-knight",
+    "basilisk-sentinel"
+  ],
+  "defaultVariantId": "basilisk",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 20,
+    "range": 20
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 4156,
+  "requiredItemName": "Mirror shield or V's shield",
+  "locationIds": [
+    "fremennik-slayer-dungeon",
+    "jormungand-s-prison"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "basilisk",
+      "name": "Basilisk",
+      "combatLevel": 61,
+      "slayerXp": 75,
+      "locations": [
+        "Fremennik Slayer Dungeon",
+        "Jormungand's Prison"
+      ],
+      "notes": [
+        "Standard Basilisks."
+      ]
+    },
+    {
+      "variantId": "monstrous-basilisk",
+      "name": "Monstrous basilisk",
+      "combatLevel": 135,
+      "slayerXp": 1700,
+      "locations": [
+        "Fremennik Slayer Dungeon",
+        "Jormungand's Prison"
+      ],
+      "notes": [
+        "Superior slayer monster variant.",
+        "Has a chance of spawning on a basilisk's death after purchasing the Bigger and Badder unlock."
+      ]
+    },
+    {
+      "variantId": "basilisk-knight",
+      "name": "Basilisk Knight",
+      "combatLevel": 204,
+      "slayerXp": 300,
+      "locations": [
+        "Jormungand's Prison"
+      ],
+      "notes": [
+        "More difficult version of basilisks available after completion of The Fremennik Exiles.",
+        "See Basilisk Knight/Strategies for additional safespot details."
+      ]
+    },
+    {
+      "variantId": "basilisk-sentinel",
+      "name": "Basilisk Sentinel",
+      "combatLevel": 358,
+      "slayerXp": 5590,
+      "locations": [
+        "Jormungand's Prison"
+      ],
+      "notes": [
+        "Superior slayer monster variant.",
+        "Has a chance of spawning on a basilisk knight's death after purchasing the Bigger and Badder unlock."
+      ]
+    },
+    {
+      "variantId": "the-jormungand",
+      "name": "The Jormungand",
+      "combatLevel": 363,
+      "slayerXp": 600,
+      "locations": [
+        "Jormungand's Prison"
+      ],
+      "notes": [
+        "Fought during The Fremennik Exiles.",
+        "can only be fought once."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "fremennik-slayer-dungeon",
+      "name": "Fremennik Slayer Dungeon",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "8 Basilisks."
+      ]
+    },
+    {
+      "locationId": "jormungand-s-prison",
+      "name": "Jormungand's Prison",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "12 Basilisks and 20 Knights.",
+        "Contains both basilisks and Basilisk Knights.",
+        "Only accessible after completion of The Fremennik Exiles.",
+        "Basilisk knights will still retaliate with magic, but it is possible to prevent their melee attacks using a safespot."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Basilisks require 40 Slayer, 40 combat, and 20 Defence to be assigned.",
+    "Vannaka and Chaeldar can assign ordinary Basilisks before the high-level master unlock.",
+    "Konar, Nieve, and Duradel require the Basilocked unlock before assigning Basilisks.",
+    "Ordinary basilisks are found in Fremennik Slayer Dungeon and Jormungand's Prison.",
+    "Ordinary basilisks attack only with an extremely inaccurate melee attack with a max hit of 5.",
+    "Ordinary basilisks have a thin drop table and high Defence, making them generally worthwhile to skip but not worth blocking because of low weighting.",
+    "A mirror shield or V's shield must be equipped against any basilisk.",
+    "Without a mirror shield or V's shield, the basilisk gaze deals immense damage and massively drains player stats.",
+    "After The Fremennik Exiles, players gain access to Basilisk Knights in Jormungand's Prison.",
+    "Basilisk Knights give basilisk tasks a new purpose for obtaining the Neitiznot faceguard through the Basilisk jaw.",
+    "Basilisk Knights use melee and magic, each with a max hit of 20.",
+    "Basilisk Knights match the player's attack speed with a maximum frequency of four ticks.",
+    "At distance, Basilisk Knights exclusively use magic while trying to move into melee range.",
+    "Protection prayers can block either Basilisk Knight melee or magic attacks, but not both simultaneously.",
+    "Basilisk jaw drop rate is 1/5000 off task and 1/1000 on task.",
+    "Basilisk Knight tasks are slow because of high Defence, with a maximum possible kill rate of about 100 per hour.",
+    "The Basilocked unlock can be toggled off after receiving a jaw, but reactivating it costs Slayer points.",
+    "Ordinary basilisks can spawn Monstrous basilisk after Bigger and Badder.",
+    "Basilisk Knights can spawn Basilisk Sentinel after Bigger and Badder.",
+    "Basilisk Sentinel launches a slow-moving projectile; move one tile to avoid it or click rapidly to escape stone before taking massive damage.",
+    "Basilisk Knights frequently drop alchable equipment, catalytic runes, and occasional high-level herbs.",
+    "Cannons cannot be placed anywhere with any kind of basilisk."
+  ],
+  "recommendedMethod": "Use a mirror shield or V's shield for every basilisk. Ordinary basilisks are simple melee safespot tasks but are usually skips. After The Fremennik Exiles, kill Basilisk Knights for Basilisk jaw chance, using melee for speed or ranged safespots for lower damage."
+}

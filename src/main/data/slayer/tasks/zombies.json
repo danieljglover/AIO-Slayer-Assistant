@@ -1,0 +1,152 @@
+{
+  "taskId": "zombies",
+  "name": "Zombies",
+  "wikiPageId": null,
+  "combatLevel": null,
+  "slayerTargetId": 273,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 3,
+    "turael": 7,
+    "spria": 7,
+    "mazchna": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "zombies"
+  ],
+  "variantIds": [
+    "zombie-lvl13",
+    "zombie-lvl18",
+    "zombie-lvl24"
+  ],
+  "defaultVariantId": "zombie-lvl24",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 16,
+    "stab": 9,
+    "slash": 8,
+    "crush": 12,
+    "magic": 10,
+    "range": 11
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "graveyard-of-shadows",
+    "zombies-area"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "zombie-lvl13",
+      "name": "Zombie",
+      "combatLevel": 13,
+      "slayerXp": 22,
+      "locations": [
+        "Common zombie spawns"
+      ],
+      "notes": [
+        "Level 13 Zombie (npc 26): 22 hitpoints, defence level 10, zero defensive bonuses, max hit 3 (crush).",
+        "Undead - the Salve amulet and Crumble Undead apply."
+      ]
+    },
+    {
+      "variantId": "zombie-lvl18",
+      "name": "Zombie",
+      "combatLevel": 18,
+      "slayerXp": 24,
+      "locations": [
+        "Graveyard of Shadows",
+        "Common zombie spawns"
+      ],
+      "notes": [
+        "Level 18 Zombie (npc 42): 24 hitpoints, defence level 18, zero defensive bonuses, max hit 2 (slash).",
+        "Spawns at the Graveyard of Shadows (Wilderness) as well as free-to-play areas. Undead."
+      ]
+    },
+    {
+      "variantId": "zombie-lvl24",
+      "name": "Zombie",
+      "combatLevel": 24,
+      "slayerXp": 30,
+      "locations": [
+        "Graveyard of Shadows",
+        "Common zombie spawns"
+      ],
+      "notes": [
+        "Level 24 Zombie (npc 49): 30 hitpoints, defence level 16, bonuses stab +9 / slash +8 / crush +12 / magic +10 / range +11, max hit 3 (slash).",
+        "The wandering zombies at the Graveyard of Shadows (Wilderness levels 18-21) count towards a Krystilia task. Undead."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "graveyard-of-shadows",
+      "name": "Graveyard of Shadows",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Wandering zombies (levels 18 and 24) roam the Graveyard of Shadows in Wilderness levels 18-21; these kills count towards a Krystilia Zombies task.",
+        "Multicombat, cannon placement and safespots are not wiki-stated; conservative defaults are used."
+      ]
+    },
+    {
+      "locationId": "zombies-area",
+      "name": "Common zombie spawns",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Common free-to-play zombie spawns count towards a Turael, Spria or Mazchna Zombies task.",
+        "Multicombat, cannon placement and safespots are not wiki-stated; conservative defaults are used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Zombies are a shared task assigned by Krystilia (Wilderness, 75-125, weight 3) and by the starter masters Turael (15-30, w7), Spria (15-30, w7) and Mazchna (30-50, w7).",
+    "Krystilia kills only count in the Wilderness (e.g. the Graveyard of Shadows wandering zombies); starter-master kills count on common zombies anywhere.",
+    "Zombies are undead, so the Salve amulet (and its variants) and Crumble Undead apply.",
+    "slayerTargetId 273 is SYNTHETIC (C2/C3 allocation contract: 252 + worklist index); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "wikiPageId is UNKNOWN (not captured at authoring); a QA live-verify item.",
+    "Zombies carry a 50% fire weakness; the level 24 zombie's lowest melee defence bonus is slash, so a slashing weapon with a Salve amulet is efficient.",
+    "No task extension unlock exists for Zombies."
+  ],
+  "recommendedMethod": "Kill zombies with a slashing melee weapon and a Salve amulet (they are undead). On a Krystilia task the kills must occur in the Wilderness - the Graveyard of Shadows wandering zombies are the canonical spot; bring risk gear."
+}

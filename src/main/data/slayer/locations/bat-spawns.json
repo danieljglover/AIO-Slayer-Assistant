@@ -1,0 +1,11 @@
+{
+  "locationId": "bat-spawns",
+  "name": "Bat spawns (various)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Bats (level 6) and Giant bats (level 27) are common at low-density spots across Kandarin and Morytania; Giant bats also spawn in Arceuus near the Dark Altar. There is no single canonical bat location, so multi, cannon and safespot are conservative defaults and not wiki-confirmed for one spot. Some spots border the Wilderness, but a non-Wilderness spot is the safe default."
+}

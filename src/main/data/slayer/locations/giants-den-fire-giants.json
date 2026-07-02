@@ -1,0 +1,11 @@
+{
+  "locationId": "giants-den-fire-giants",
+  "name": "Giants' Den",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Second alternative after Catacombs of Kourend. Contains level 104 and 109 Fire giants, allows a dwarf multicannon, and shares the Catacombs drop table including Ancient shards and Dark totem pieces."
+}

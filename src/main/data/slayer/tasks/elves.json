@@ -1,0 +1,360 @@
+{
+  "taskId": "elves",
+  "name": "Elves",
+  "wikiPageId": 256687,
+  "combatLevel": 70,
+  "slayerTargetId": 217,
+  "slayerLevel": 1,
+  "questReqs": [
+    "Regicide"
+  ],
+  "masterIds": [
+    "vannaka",
+    "chaeldar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      30,
+      70
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "nieve": [
+      60,
+      90
+    ],
+    "duradel": [
+      100,
+      170
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7,
+    "chaeldar": 8,
+    "nieve": 4,
+    "duradel": 4
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "elves"
+  ],
+  "variantIds": [
+    "iorwerth-archer",
+    "elf-archer",
+    "iorwerth-warrior",
+    "elf-warrior",
+    "mourner",
+    "guard-prifddinas"
+  ],
+  "defaultVariantId": "iorwerth-warrior",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 50,
+    "slash": 70,
+    "crush": 70,
+    "magic": 60,
+    "range": 50
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "iorwerth-camp",
+    "iorwerth-dungeon-prifddinas",
+    "lletya",
+    "lletya-upstairs",
+    "mourner-headquarters-elves",
+    "prifddinas-south-gate",
+    "prifddinas-east-gate",
+    "prifddinas-north-gate",
+    "prifddinas-west-gate",
+    "tower-of-voices-ground-floor",
+    "tower-of-voices-upper-floor",
+    "prifddinas-market-place"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "iorwerth-archer",
+      "name": "Iorwerth Archer",
+      "combatLevel": 90,
+      "slayerXp": 105,
+      "locations": [
+        "Iorwerth Camp"
+      ],
+      "notes": [
+        "Elves wielding bows, available after starting Regicide.",
+        "They become aggressive after certain events during Song of the Elves, but passive again after completion.",
+        "Use ranged attacks and have higher ranged defence than the halberd-wielding warrior variants."
+      ]
+    },
+    {
+      "variantId": "elf-archer",
+      "name": "Elf Archer",
+      "combatLevel": 90,
+      "slayerXp": 105,
+      "locations": [
+        "Lletya"
+      ],
+      "notes": [
+        "Elves wielding bows, only available after starting Mourning's End Part I.",
+        "Found in Lletya downstairs, upstairs, and during Song of the Elves variants.",
+        "Can drop crystal teleport seeds, teleport crystal charges, hard clue scrolls, and ensouled elf heads."
+      ]
+    },
+    {
+      "variantId": "iorwerth-warrior",
+      "name": "Iorwerth Warrior",
+      "combatLevel": 108,
+      "slayerXp": 107.5,
+      "locations": [
+        "Iorwerth Camp",
+        "Iorwerth Dungeon"
+      ],
+      "notes": [
+        "Elves wielding halberds, available after starting Regicide.",
+        "Their crystal halberds can attack from two tiles away, which matters when safespotting.",
+        "They become aggressive during certain Song of the Elves events, but passive again after completion.",
+        "Iorwerth Dungeon warriors drop crystal shards and enhanced crystal teleport seeds; Iorwerth Camp warriors do not."
+      ]
+    },
+    {
+      "variantId": "elf-warrior",
+      "name": "Elf Warrior",
+      "combatLevel": 108,
+      "slayerXp": 107.5,
+      "locations": [
+        "Lletya"
+      ],
+      "notes": [
+        "Elves wielding halberds, available after starting Mourning's End Part I.",
+        "Lletya access gives a nearby bank and a nearby prayer altar.",
+        "Can be safespotted using the bench near the entrance, poles in the village, or the wall closest to Arianwyn."
+      ]
+    },
+    {
+      "variantId": "mourner",
+      "name": "Mourner",
+      "combatLevel": 108,
+      "slayerXp": 107.5,
+      "locations": [
+        "Mourner Headquarters"
+      ],
+      "notes": [
+        "Only level 108 Mourners downstairs count for an Elf Slayer task.",
+        "Available during and after Mourning's End Part I, but not after Song of the Elves.",
+        "Full Mourner gear must be worn to avoid automatic aggression and access restrictions.",
+        "After Mourning's End Part II, the Dark beast teleport on a Slayer ring gives nearby access."
+      ]
+    },
+    {
+      "variantId": "guard-prifddinas",
+      "name": "Guard (Prifddinas)",
+      "combatLevel": 108,
+      "slayerXp": 107.5,
+      "locations": [
+        "Prifddinas"
+      ],
+      "notes": [
+        "Elves wielding halberds, available after Song of the Elves.",
+        "Prifddinas guards can be killed as an alternative for Elf Slayer tasks.",
+        "They can drop crystal shards and enhanced crystal teleport seeds.",
+        "Several gate, Tower of Voices, and marketplace spawns are close to banks, altar, Spirit tree, or house portal options."
+      ]
+    },
+    {
+      "variantId": "reanimated-elf",
+      "name": "Reanimated elf",
+      "combatLevel": null,
+      "slayerXp": 35,
+      "locations": [
+        "Dark Altar",
+        "Other reanimation area"
+      ],
+      "notes": [
+        "Using Adept Reanimation on an ensouled elf head gives greatly reduced Slayer XP but 754 Prayer XP per kill.",
+        "The spell can be cast near the dropped head if it has not been banked, traded, put on the Grand Exchange, or price-checked.",
+        "If the local reanimation window is lost, the head must be reanimated within range of the Dark Altar in Kourend."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "iorwerth-camp",
+      "name": "Iorwerth Camp",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains 6 Iorwerth Archers and 6 Iorwerth Warriors.",
+        "Iorwerth Warriors can be safespotted using stools and spear-walls, but the player must stay at least two tiles away because crystal halberds have two-tile reach.",
+        "Reaching the camp can be tedious without an Iorwerth camp teleport, and cannon placement is impeded by tents, barrels, and crates.",
+        "The camp has a fireplace and fly fishing spot for emergency food supply."
+      ]
+    },
+    {
+      "locationId": "iorwerth-dungeon-prifddinas",
+      "name": "Iorwerth Dungeon",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Requires completion of Song of the Elves.",
+        "Only contains Iorwerth Warriors.",
+        "Use the spaces around fabric panels in the west of the room to trap warriors north or south of the player.",
+        "Iorwerth Dungeon warriors drop crystal shards and enhanced crystal teleport seeds."
+      ]
+    },
+    {
+      "locationId": "lletya",
+      "name": "Lletya",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Contains 1 Elf Archer and 2 Elf Warriors around Lletya.",
+        "Use the bench near the entrance, the village poles, or the wall closest to Arianwyn to safespot melee Elf Warriors.",
+        "Lletya has a nearby bank and an upstairs altar after the player has enough Mourning's End Part I progress."
+      ]
+    },
+    {
+      "locationId": "lletya-upstairs",
+      "name": "Lletya (upstairs)",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Contains 1 upstairs Elf Archer.",
+        "The task page marks this upstairs location as cannonable but not safespottable."
+      ]
+    },
+    {
+      "locationId": "mourner-headquarters-elves",
+      "name": "Mourner Headquarters",
+      "amount": 4,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Only the 4 level 108 Mourners downstairs count toward an Elf Slayer task.",
+        "Only available after starting Mourning's End Part I and until the Ardougne Revolution during Song of the Elves.",
+        "Mourner Gear must be equipped at all times to access the area unless Mourning's End Part II is complete, after which the Slayer ring Dark beast teleport can be used nearby."
+      ]
+    },
+    {
+      "locationId": "prifddinas-south-gate",
+      "name": "Prifddinas South Gate",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "South Gate has 2 Prifddinas guards.",
+        "Both are safespottable by attacking from outside wander radius and pushing them against the gate."
+      ]
+    },
+    {
+      "locationId": "prifddinas-east-gate",
+      "name": "Prifddinas East Gate",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "East Gate has 2 Prifddinas guards.",
+        "Close to a bank.",
+        "The south guard is safespottable by attacking from outside its wander radius and pushing it against the gate."
+      ]
+    },
+    {
+      "locationId": "prifddinas-north-gate",
+      "name": "Prifddinas North Gate",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "North Gate has 2 Prifddinas guards.",
+        "Close to a bank, altar, and Spirit tree.",
+        "Both guards are safespottable by luring one into the trees by Iwan and attacking from the south outside wander radius."
+      ]
+    },
+    {
+      "locationId": "prifddinas-west-gate",
+      "name": "Prifddinas West Gate",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "West Gate has 2 Prifddinas guards.",
+        "Close to a house portal.",
+        "The north guard is safespottable by attacking from outside its wander radius and pushing it against the gate."
+      ]
+    },
+    {
+      "locationId": "tower-of-voices-ground-floor",
+      "name": "Tower of Voices ground floor",
+      "amount": 4,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "One Prifddinas guard is found at each entrance to the Tower of Voices."
+      ]
+    },
+    {
+      "locationId": "tower-of-voices-upper-floor",
+      "name": "Tower of Voices upper floor",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Found on the walkways between the towers of Prifddinas.",
+        "Great distances between each guard make this a low-efficiency location."
+      ]
+    },
+    {
+      "locationId": "prifddinas-market-place",
+      "name": "Prifddinas market place",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "The market place has 3 Prifddinas guards.",
+        "Safespottable by shooting over Glenda."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Elves require 70 combat and completion of Regicide before assignment.",
+    "Elves either use ranged or melee depending on their weapon; crystal bow users attack with ranged, while crystal halberd users attack with melee from up to two tiles away.",
+    "Until the player has access to Lletya, the only normal place to kill elves is Iorwerth Camp, which can be tedious to reach without an Iorwerth camp teleport.",
+    "Players who want to use a dwarf multicannon at Iorwerth Camp are discouraged because tents, barrels, and crates impede the cannon.",
+    "After enough Mourning's End Part I progress, players can kill elves in Lletya and level 108 Mourners downstairs in Mourner Headquarters.",
+    "Only level 108 Mourners downstairs count in Mourner Headquarters, and full Mourner gear must be worn for normal access; upstairs mourners and other levels do not count.",
+    "After Song of the Elves, players gain Prifddinas and Iorwerth Dungeon access; the dungeon contains 13 Iorwerth Warriors and allows cannon use.",
+    "Prifddinas guards and Iorwerth Dungeon warriors can drop crystal shards and enhanced crystal teleport seeds.",
+    "The task page recommends players skip elf tasks when possible because the task has lower weight from higher-level Slayer masters and the enhanced seed is rare.",
+    "Adept Reanimation on ensouled elf heads can be used as an alternative, giving 35 Slayer XP and 754 Prayer XP per reanimated elf.",
+    "Mourners at levels other than 108 do not count, and the elven traitor, Essyllt, and other elves fought during Song of the Elves do not count."
+  ],
+  "recommendedMethod": "If completing the task, use melee with Protect from Melee or ranged/magic safespots. Iorwerth Dungeon after Song of the Elves is the best regular option because it has 13 warriors, cannon support, safespots, crystal shards, and enhanced crystal teleport seed access; Prifddinas guards are a convenient post-Song of the Elves alternative. Earlier accounts can use Lletya prayer altar/bank, Iorwerth Camp safespots, Mourner Headquarters before Song of the Elves, or Adept Reanimation for Prayer XP."
+}

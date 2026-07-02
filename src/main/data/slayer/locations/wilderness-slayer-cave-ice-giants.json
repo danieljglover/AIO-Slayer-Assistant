@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-slayer-cave-ice-giants",
+  "name": "Wilderness Slayer Cave (ice giants)",
+  "multi": true,
+  "cannon": true,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "The higher-level ice giant variant (combat level 67) spawns in the Wilderness Slayer Cave (around levels 18-22). Multicombat, cannonable, and burstable. The cave is a popular player-killing hotspot; stand as far south as practical to stay near one-click teleport range and do not risk items you are unwilling to lose."
+}

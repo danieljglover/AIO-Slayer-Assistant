@@ -1,0 +1,11 @@
+{
+  "locationId": "demonic-ruins",
+  "name": "Demonic Ruins",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Deep Wilderness Greater demon location near the Annakarl teleport destination. Prayer points regenerate there, but the area is multicombat and high PK risk."
+}

@@ -1,0 +1,96 @@
+{
+  "taskId": "ents",
+  "name": "Ents",
+  "wikiPageId": null,
+  "combatLevel": 101,
+  "slayerTargetId": 258,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      35,
+      60
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 5
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "ents"
+  ],
+  "variantIds": [
+    "ent"
+  ],
+  "defaultVariantId": "ent",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 75,
+    "stab": 50,
+    "slash": 70,
+    "crush": 70,
+    "magic": 40,
+    "range": 30
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "ent-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "ent",
+      "name": "Ent",
+      "combatLevel": 101,
+      "slayerXp": 107.5,
+      "locations": [
+        "East of the Chaos Temple (Wilderness)",
+        "North of the Chaos Temple (Wilderness)"
+      ],
+      "notes": [
+        "Krystilia only counts Wilderness kills; the level 101 Wilderness ent is the assigned target (the level 86 Woodcutting Guild ent does not count).",
+        "40% weakness to fire spells (added June 2025); ranged defence (+30) is its lowest melee/ranged defence.",
+        "After the ent is defeated its trunk can be chopped with an axe matching your Woodcutting level for noted logs, so a hatchet is useful.",
+        "Attacks with crush melee at a 4-tick speed."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "ent-wilderness",
+      "name": "Chaos Temple ents (Wilderness)",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "10 spawns total: 4 east of the Chaos Temple and 6 north of it, in the Wilderness.",
+        "Multicombat, cannon and safespot are not wiki-stated for these spots; conservative defaults are used.",
+        "The level 86 Woodcutting Guild ent is non-Wilderness and does not count for Krystilia."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Ents are a Krystilia (Wilderness) Slayer assignment: 35-60 per task, weight 5, no requirement.",
+    "slayerTargetId 258 is SYNTHETIC (C2/C3 allocation contract: worklist id table, 252-305); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "wikiPageId is null (honest UNKNOWN - not captured at authoring time); sourced from https://oldschool.runescape.wiki/w/Ent.",
+    "Krystilia only counts Wilderness kills. The level 101 Wilderness ent (npc 6594) near the Chaos Temple is the target; the level 86 Woodcutting Guild ent (npc 7234) does not count.",
+    "The Wilderness ent is combat level 101 with 105 Hitpoints and grants 107.5 Slayer XP; defence level 75 with ranged its weakest defence (+30).",
+    "Ents have a 40% weakness to fire spells (added June 2025).",
+    "After defeating an ent, chop its trunk with an axe matching your Woodcutting level for noted logs; bring a hatchet.",
+    "No task extension unlock exists for Ents."
+  ],
+  "recommendedMethod": "Travel to the ents near the Chaos Temple in the Wilderness. Exploit the 40% fire weakness with fire spells, or use ranged against their low ranged defence (+30). Chop each defeated trunk with a hatchet for noted logs. Bring only Wilderness-appropriate gear."
+}

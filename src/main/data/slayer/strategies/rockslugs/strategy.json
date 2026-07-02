@@ -1,0 +1,70 @@
+{
+  "strategyId": "rockslugs",
+  "variantIds": [
+    "rockslug"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Rockslug",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Rockslugs must be finished with a bag of salt thrown at 4 or fewer Hitpoints, or killed outright with a brine sabre which removes the salt requirement. Any melee weapon lowers them into salt range; a light source is mandatory. Earth spells exploit their 25% earth weakness."
+  },
+  "requirements": [
+    "Slayer level 20 to be assigned and to kill rockslugs.",
+    "A bag of salt (thrown at 4 or fewer HP) or a brine sabre is required to land the killing blow.",
+    "A light source is required in both the Fremennik Slayer Dungeon and the Lumbridge Swamp Caves."
+  ],
+  "mechanics": [
+    "Rockslugs attack with crush melee for up to 4 damage at a 4-tick speed.",
+    "They regenerate unless killed while under the salt/brine-sabre condition, so a rockslug reduced to low HP without salt will heal back.",
+    "All defensive bonuses are 0, so any accurate melee weapon works; they carry a 25% earth spell weakness."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-salt",
+      "label": "Melee + bag of salt",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Reduce each rockslug to 4 or fewer Hitpoints with a melee weapon, then throw a bag of salt to kill it.",
+      "recommendedFor": [
+        "all rockslugs tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon (Dragon scimitar)",
+        "Bags of salt",
+        "Light source",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Bring a light source and a stack of bags of salt into the Fremennik Slayer Dungeon or Lumbridge Swamp Caves.",
+        "Attack a rockslug until it drops to 4 or fewer Hitpoints.",
+        "Throw a bag of salt on it to finish the kill before it regenerates."
+      ]
+    },
+    {
+      "methodId": "brine-sabre",
+      "label": "Brine sabre (no salt)",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Wield a brine sabre to kill rockslugs normally, removing the bag-of-salt requirement.",
+      "recommendedFor": [
+        "players who own a brine sabre",
+        "faster AFK-style kills"
+      ],
+      "requiredOrKeyItems": [
+        "Brine sabre",
+        "Light source",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Equip a brine sabre so rockslugs die like any other monster with no salt needed.",
+        "Bring a light source and clear the spawns in the Fremennik Slayer Dungeon or Lumbridge Swamp Caves.",
+        "Use a Dwarf multicannon in the Lumbridge Swamp Caves to speed up the task."
+      ]
+    }
+  ],
+  "body": "# Rockslugs\n\nRockslugs are a Slayer level 20 task assigned by Mazchna. They can only be killed by throwing a bag of salt on them once they have 4 or fewer Hitpoints, or by wielding a brine sabre which removes the salt requirement entirely. A light source is required in both the Fremennik Slayer Dungeon and the Lumbridge Swamp Caves; the latter permits a Dwarf multicannon. All defensive bonuses are 0 and they carry a 25% earth spell weakness."
+}

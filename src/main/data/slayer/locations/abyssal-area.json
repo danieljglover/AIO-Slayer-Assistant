@@ -1,0 +1,11 @@
+{
+  "locationId": "abyssal-area",
+  "name": "Abyssal Area",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Fairy ring ALR. Inefficient outside Konar tasks because of other aggressive abyssal creatures and distant spawns."
+}

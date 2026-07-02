@@ -1,0 +1,11 @@
+{
+  "locationId": "crandor",
+  "name": "Crandor",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Crandor surface holds 2 Lesser demons; single-combat, cannonable and safespottable. Access requires progress in Dragon Slayer I."
+}

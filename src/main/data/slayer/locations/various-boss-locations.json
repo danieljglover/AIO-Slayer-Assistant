@@ -1,0 +1,11 @@
+{
+  "locationId": "various-boss-locations",
+  "name": "Various boss locations",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Placeholder for the Boss meta-task; each boss has its own arena, access requirements, and safespot behaviour."
+}

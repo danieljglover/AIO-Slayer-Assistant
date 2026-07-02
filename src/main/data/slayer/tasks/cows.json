@@ -1,0 +1,97 @@
+{
+  "taskId": "cows",
+  "name": "Cows",
+  "wikiPageId": 12398,
+  "combatLevel": null,
+  "slayerTargetId": 283,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "turael",
+    "spria"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ]
+  },
+  "weightByMaster": {
+    "turael": 8,
+    "spria": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "cows"
+  ],
+  "variantIds": [
+    "cow-lvl2"
+  ],
+  "defaultVariantId": "cow-lvl2",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": -21,
+    "slash": -21,
+    "crush": -21,
+    "magic": -21,
+    "range": -21
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "cow-field"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "cow-lvl2",
+      "name": "Cow",
+      "combatLevel": 2,
+      "slayerXp": 8,
+      "locations": [
+        "Lumbridge cow field",
+        "Falador farm",
+        "Crafting Guild"
+      ],
+      "notes": [
+        "The Cow has 8 Hitpoints, max hit 1 (crush) and does not fight back unless attacked; 8 Slayer XP per kill.",
+        "Cow calves and dairy cows also count toward the task; cowhide drops make this a mildly profitable starter task."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "cow-field",
+      "name": "Cow fields (Lumbridge/Falador)",
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Cows cluster densely in the Lumbridge cow field and Falador farm, but no single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "Cows drop cowhide, making this a mildly profitable starter Slayer-XP task."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Cows are assigned by Turael and Spria. Turael has no requirement; Spria requires combat level 5 to assign the task (per-master gate, so the task-level combatLevel is left null).",
+    "slayerTargetId 283 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The Cow has 8 Hitpoints, max hit 1 (crush melee), 4-tick attack speed, and Defence level 1 (all defence bonuses -21).",
+    "Cows are 100% resistant to poison and venom and have no elemental weakness.",
+    "Cow calves and dairy cows also count toward the task.",
+    "No required protective item and no task extension unlock exist for Cows."
+  ],
+  "recommendedMethod": "A trivial low-level Slayer-XP task: kill Cows in the Lumbridge cow field or Falador farm with any melee weapon. Cows have very low Defence and barely fight back, so no food or special gear is needed; collect cowhide for a little profit while completing the streak."
+}

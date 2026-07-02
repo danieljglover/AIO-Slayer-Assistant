@@ -1,0 +1,391 @@
+{
+  "strategyId": "fire-giants",
+  "variantIds": [
+    "fire-giant",
+    "fire-giant-catacombs",
+    "fire-giant-catacombs-lvl109"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Fire_giants",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "abyssal-tentacle",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "blade-of-saeldor",
+      "soulreaper-axe",
+      "saradomin-sword"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "crystal-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "sanguinesti-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Catacombs of Kourend is the default recommendation for most Fire giant tasks because it is multicombat, AFK, and uses the Catacombs drop table. Prioritise level 109 Fire giants over level 104s for XP; use Giants' Den or Konar cannon locations when cannoning is preferred."
+  },
+  "requirements": [
+    "65 combat to receive the task",
+    "No Slayer level requirement",
+    "No quest requirement for assignment",
+    "Waterfall Quest and rope for Waterfall Dungeon",
+    "Woodcutting axe and Brimhaven Dungeon entry fee for Brimhaven Dungeon",
+    "60 Sailing for Charred Dungeon",
+    "Boots of stone, boots of brimstone, or granite boots for Karuulm Slayer Dungeon unless Elite Kourend & Kebos Diary is complete",
+    "Facemask, Slayer helmet, or gas mask for Smoke Dungeon",
+    "Krystilia assignment or Wilderness risk tolerance for Deep Wilderness Dungeon"
+  ],
+  "mechanics": [
+    "Fire giants attack with slash melee and are aggressive.",
+    "All regular Fire giants have a 100% water elemental weakness.",
+    "Fire giants are immune to weak burns.",
+    "Most Fire giant locations allow a dwarf multicannon.",
+    "Catacombs of Kourend cannot use a cannon but is multicombat and uses the Catacombs drop table.",
+    "Only Charred Dungeon has Fire giant spawns that are both cannonable and multicombat.",
+    "Level 104 and 109 Fire giants in Catacombs and Giants' Den can drop Ancient shards and Dark totem pieces.",
+    "Level 109 Fire giants have more Hitpoints and lower Defence than level 104 Fire giants, making them the preferred higher-level variant for XP.",
+    "Branda the Fire Queen can be killed for a Fire giants task outside Konar and Krystilia assignments, but she remains a separate Royal Titans boss strategy."
+  ],
+  "methods": [
+    {
+      "methodId": "catacombs-afk",
+      "label": "Catacombs of Kourend",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use Catacombs for the default AFK multicombat task with Catacombs drops.",
+      "recommendedFor": [
+        "Most non-Konar and non-Krystilia assignments",
+        "Players collecting Ancient shards or Dark totem pieces",
+        "Low-attention melee tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Strong melee weapon",
+        "Prayer gear",
+        "Bonecrusher",
+        "Kourend Castle or Xeric teleport"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Travel to the Catacombs of Kourend Fire giant room.",
+        "Use melee with Protect from Melee or defensive gear for low-attention kills.",
+        "Prioritise level 109 Fire giants for maximum XP because they have 150 Hitpoints and much lower Defence than level 104 Fire giants.",
+        "Kill level 104 Fire giants as filler when level 109s are unavailable.",
+        "Loot Ancient shards and Dark totem pieces from the Catacombs drop table."
+      ],
+      "risks": [
+        "A dwarf multicannon cannot be used in the Catacombs.",
+        "Level 104 Fire giants are less efficient than level 109s because their Defence is significantly higher."
+      ],
+      "notes": [
+        "The task page recommends Catacombs in most cases because it is multicombat and relatively AFK."
+      ]
+    },
+    {
+      "methodId": "giants-den-cannon",
+      "label": "Giants' Den",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Use Giants' Den when you want cannon support while keeping higher-level Fire giants and Catacombs drops.",
+      "recommendedFor": [
+        "Players preferring cannon tasks",
+        "Players collecting Catacombs-table drops",
+        "Players choosing the task page's second alternative"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Strong melee weapon",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Enter Giants' Den and set up a cannon in the Fire giant area.",
+        "Focus level 109 Fire giants when possible for better XP.",
+        "Use melee to finish targets pulled by cannon fire.",
+        "Loot Ancient shards and Dark totem pieces because Giants' Den shares the Catacombs drop table."
+      ],
+      "risks": [
+        "Giants' Den is not multicombat, so cannoning is the main speed advantage."
+      ]
+    },
+    {
+      "methodId": "konar-cannon-locations",
+      "label": "Konar cannon locations",
+      "combatStyle": "MELEE",
+      "role": "konar",
+      "summary": "Use the assigned Konar location unless it is Brimhaven, where the task page warns the floor split is inefficient.",
+      "recommendedFor": [
+        "Konar assignments",
+        "Players using dwarf multicannon",
+        "Karuulm, Stronghold, Waterfall, Isle of Souls, Charred Dungeon, and Brimhaven assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Stamina potions",
+        "Location-specific access items"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use the Konar-assigned location for brimstone key eligibility.",
+        "At Karuulm, place the cannon in the middle of the room and stand in the entrance hallway safespot; use stamina potions to reload efficiently.",
+        "At Waterfall Dungeon, place the cannon in the middle and run to the western-room safespots near the single door.",
+        "At Isle of Souls Dungeon, place the cannon in the middle and run to the hall entrance safespot.",
+        "At Stronghold Slayer Cave, use the groups of 3 Fire giants separated by safespots.",
+        "At Charred Dungeon, use multicombat plus cannon if 60 Sailing access is available.",
+        "Avoid Brimhaven when efficiency matters because the Fire giant spawns are split across floors."
+      ],
+      "risks": [
+        "Brimhaven Dungeon requires an axe and entry fee and has inefficiently split spawns.",
+        "Karuulm requires protective boots unless Elite Kourend & Kebos Diary is complete."
+      ]
+    },
+    {
+      "methodId": "wilderness-krystilia",
+      "label": "Deep Wilderness Dungeon",
+      "combatStyle": "MELEE",
+      "role": "wilderness",
+      "summary": "Use Deep Wilderness Dungeon only for Krystilia assignments or when accepting deep-Wilderness risk.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "Players using Wilderness Slayer rewards",
+        "Players prepared for player killers"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Wilderness escape teleport",
+        "Wilderness Medium Diary for the 46 Agility shortcut"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Protect Item"
+      ],
+      "steps": [
+        "Bring only gear and supplies you are willing to risk around level 53 Wilderness.",
+        "Enter Deep Wilderness Dungeon and move to the Fire giant chamber.",
+        "Place the cannon along the western side of the lava pool.",
+        "Use the south-eastern tunnel near the Monk of Zamorak as a safespot.",
+        "Use the Wilderness Medium Diary shortcut if unlocked to save time and avoid shadow spiders."
+      ],
+      "risks": [
+        "Deep Wilderness Dungeon is a player killers hotspot due to its level and nearby Mage Arena traffic.",
+        "Teleport and escape options can be restricted by Wilderness level and teleblock."
+      ]
+    },
+    {
+      "methodId": "safespot-ranged-magic",
+      "label": "Ranged or Magic safespots",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use safespots with Ranged or water-spell Magic when lower-level accounts want safer kills.",
+      "recommendedFor": [
+        "Low-level players",
+        "Ironman accounts chasing rune scimitars",
+        "Players exploiting safespots instead of prayer sustain"
+      ],
+      "requiredOrKeyItems": [
+        "Toxic blowpipe",
+        "Bow of faerdhinen",
+        "Crystal bow",
+        "Pearl bolts (e)",
+        "Water spells",
+        "Trident of the swamp",
+        "Trident of the seas"
+      ],
+      "steps": [
+        "Use Ranged or Magic from the many Fire giant safespots listed on the task page.",
+        "Low-level ranged accounts can use enchanted pearl bolts.",
+        "Use water spells when choosing Magic because regular Fire giants have a 100% water elemental weakness.",
+        "At Smoke Dungeon, only the north-west Fire giant can be safespotted from the northern wall near the entrance.",
+        "At Deep Wilderness Dungeon, use the south-eastern tunnel safespot near the Monk of Zamorak.",
+        "At Waterfall Dungeon, use the western-room single-door safespot."
+      ],
+      "risks": [
+        "Safespot kills are usually slower than melee plus cannon or Catacombs melee.",
+        "Smoke Dungeon is not recommended for general Fire giant tasks because the giants are sparse."
+      ]
+    },
+    {
+      "methodId": "branda-alternative",
+      "label": "Branda the Fire Queen",
+      "combatStyle": "MELEE",
+      "role": "boss",
+      "summary": "Kill Branda as a separate Royal Titans boss alternative when the assignment is not locked by Konar or Krystilia.",
+      "recommendedFor": [
+        "Players choosing Royal Titans bossing",
+        "Non-Konar assignments",
+        "Non-Krystilia assignments"
+      ],
+      "requiredOrKeyItems": [
+        "Royal Titans boss setup",
+        "Melee gear",
+        "Ranged switch",
+        "Magic switch for elementals"
+      ],
+      "steps": [
+        "Only choose Branda when the task is not location-locked by Konar and not a Krystilia Wilderness task.",
+        "Use the dedicated Royal Titans strategy for the encounter.",
+        "Remember that the Slayer helmet boost applies to Branda the Fire Queen but not Eldric the Ice King."
+      ],
+      "notes": [
+        "The task page says the helmet boost works for Branda but not for Eldric.",
+        "Branda remains linked to the Royal Titans strategy source because the fight is a separate boss encounter."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Bring cannon supplies, access items, and enough sustain for the chosen Fire giant location.",
+      "recommendedFor": [
+        "All standard Fire giant tasks",
+        "Konar cannon tasks",
+        "Rune scimitar hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Prayer potions",
+        "Food",
+        "Bonecrusher",
+        "High alchemy runes",
+        "Location access items"
+      ],
+      "inventory": [
+        "Cannon and cannonballs for all cannonable locations",
+        "Prayer potions or food",
+        "High alchemy runes for rune items",
+        "Rope for Waterfall Dungeon",
+        "Woodcutting axe and coins for Brimhaven Dungeon",
+        "Protective boots for Karuulm Slayer Dungeon",
+        "Facemask, Slayer helmet, or Gas mask for Smoke Dungeon",
+        "Wilderness escape supplies for Deep Wilderness Dungeon"
+      ],
+      "steps": [
+        "Choose Catacombs for AFK Catacombs-table kills or Giants' Den for cannonable Catacombs-table kills.",
+        "For Konar, bring the access item required by the assigned location.",
+        "Loot rune scimitar drops, rune items, Ancient shards, Dark totem pieces, and brimstone keys where applicable.",
+        "Use High alchemy on rune and other valuable alchable drops to extend trips."
+      ],
+      "notes": [
+        "Fire giants are frequently killed by Ironman players early because of the rune scimitar drop."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-cannon",
+      "label": "Melee and cannon",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use melee with cannon support wherever the assigned location allows cannoning.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Abyssal whip",
+            "Abyssal tentacle",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Blade of saeldor",
+            "Soulreaper axe",
+            "Saradomin sword"
+          ],
+          "inventory": [
+            "Dwarf multicannon",
+            "Cannonballs",
+            "Prayer potions"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Use Ranged from safespots, especially for low-level accounts or rune scimitar hunting.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Bow of faerdhinen",
+            "Crystal bow"
+          ],
+          "ammo": [
+            "Pearl bolts (e)",
+            "Darts",
+            "Arrows"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-water-spells",
+      "label": "Magic water spells",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Use water spells or powered staves from safespots to exploit Fire giants' water weakness.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Sanguinesti staff",
+            "Water spell autocast staff"
+          ],
+          "spell": [
+            "Best available water spell"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "wilderness-cannon",
+      "label": "Wilderness cannon",
+      "combatStyle": "MELEE",
+      "role": "wilderness",
+      "summary": "Use a low-risk cannon setup for Krystilia Fire giants in Deep Wilderness Dungeon.",
+      "equipment": {
+        "slots": {
+          "inventory": [
+            "Dwarf multicannon",
+            "Cannonballs",
+            "Wilderness escape teleport",
+            "Only risked supplies"
+          ]
+        }
+      }
+    }
+  ]
+}

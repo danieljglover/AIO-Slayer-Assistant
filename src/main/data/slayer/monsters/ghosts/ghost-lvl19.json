@@ -1,0 +1,58 @@
+{
+  "variantId": "ghost-lvl19",
+  "name": "Ghost",
+  "npcIds": [
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    95,
+    97,
+    99,
+    472,
+    473,
+    474,
+    505,
+    506,
+    507,
+    7263,
+    7264
+  ],
+  "combatLevel": 19,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 18,
+    "stab": 5,
+    "slash": 5,
+    "crush": 5,
+    "magic": -5,
+    "range": 5
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Draynor Manor basement, Wilderness graveyards, Haunted Woods",
+  "requirement": "Combat level 13 to be assigned",
+  "bossId": null,
+  "strategyId": "ghosts",
+  "offence": {
+    "hitpoints": 25,
+    "maxHit": 2,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

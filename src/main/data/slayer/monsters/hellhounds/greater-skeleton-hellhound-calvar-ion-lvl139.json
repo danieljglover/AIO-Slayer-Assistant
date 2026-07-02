@@ -1,0 +1,30 @@
+{
+  "variantId": "greater-skeleton-hellhound-calvar-ion",
+  "name": "Greater Skeleton Hellhound (Calvar'ion)",
+  "npcIds": [
+    12108
+  ],
+  "combatLevel": 139,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 110,
+    "stab": 95,
+    "slash": 101,
+    "crush": 15,
+    "magic": 156,
+    "range": 184
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Calvar'ion fight (second phase), Wilderness (singles)",
+  "locationId": "vetion-hellhound-spawns",
+  "requirement": "summoned by Calvar'ion - separate trip (boss fight)",
+  "bossId": null,
+  "strategyId": "vet-ion"
+}

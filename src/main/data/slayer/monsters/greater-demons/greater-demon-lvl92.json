@@ -1,0 +1,36 @@
+{
+  "variantId": "greater-demon",
+  "name": "Greater demon",
+  "npcIds": [
+    2025,
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032
+  ],
+  "combatLevel": 92,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -10,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Standard dungeons, Wilderness Slayer Cave",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "greater-demons"
+}

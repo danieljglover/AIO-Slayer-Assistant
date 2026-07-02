@@ -1,0 +1,11 @@
+{
+  "locationId": "god-wars-dungeon",
+  "name": "God Wars Dungeon",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Bloodveld safespotting requires Saradomin and Zamorak item protection; first-time access requires rope. God Wars Bloodveld are Zamorak followers and no superior Bloodveld can spawn here. God Wars Hellhounds are Zamorak followers, count for Zamorak kill count, are safespottable, and are discouraged because their spawns are far and sparse. Spiritual creatures require Death Plateau and either 60 Strength or 60 Agility to receive assignments; main Spiritual creature variants require god-affiliated item protection for tolerance, with Zamorak and usually Saradomin protection recommended."
+}

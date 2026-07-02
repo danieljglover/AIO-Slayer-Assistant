@@ -1,0 +1,38 @@
+{
+  "variantId": "skeleton",
+  "name": "Skeleton",
+  "npcIds": [
+    74
+  ],
+  "combatLevel": 21,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 17,
+    "stab": 5,
+    "slash": 5,
+    "crush": -5,
+    "magic": 0,
+    "range": 5
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Graveyard of Shadows (Wilderness levels 18-21)",
+  "locationId": "graveyard-of-shadows-skeletons",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "skeletons",
+  "offence": {
+    "hitpoints": 24,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

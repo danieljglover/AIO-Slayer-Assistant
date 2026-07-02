@@ -1,0 +1,30 @@
+{
+  "variantId": "dark-beast",
+  "name": "Dark beast",
+  "npcIds": [
+    4005,
+    7250
+  ],
+  "combatLevel": 182,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": 30,
+    "slash": 40,
+    "crush": 100,
+    "magic": 90,
+    "range": 100
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mourner Tunnels and Iorwerth Dungeon",
+  "requirement": "90 Slayer; started Mourning's End Part II; Iorwerth Dungeon requires Song of the Elves",
+  "bossId": null,
+  "strategyId": "dark-beasts"
+}

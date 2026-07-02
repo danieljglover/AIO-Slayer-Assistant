@@ -1,0 +1,19 @@
+{
+  "masterId": "vannaka",
+  "name": "Vannaka",
+  "location": "Edgeville Dungeon",
+  "requirements": {
+    "combatLevel": 40
+  },
+  "economy": {
+    "basePoints": 8,
+    "streakMultipliers": {
+      "10": 5,
+      "50": 15,
+      "100": 25,
+      "250": 35,
+      "1000": 50
+    },
+    "blockCost": 60
+  }
+}

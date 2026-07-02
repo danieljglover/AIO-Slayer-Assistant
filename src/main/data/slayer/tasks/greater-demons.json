@@ -1,0 +1,384 @@
+{
+  "taskId": "greater-demons",
+  "wikiPageId": 298108,
+  "name": "Greater demons",
+  "combatLevel": 70,
+  "slayerTargetId": 222,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel",
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ],
+    "krystilia": [
+      100,
+      150
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 9,
+    "konar": 7,
+    "nieve": 7,
+    "duradel": 9,
+    "krystilia": 8
+  },
+  "extendedAmount": {
+    "chaeldar": [
+      200,
+      250
+    ],
+    "konar": [
+      200,
+      250
+    ],
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ],
+    "krystilia": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "greater-challenge",
+      "name": "Greater Challenge",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of greater demons assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "greater-demons"
+  ],
+  "variantIds": [
+    "greater-demon",
+    "greater-demon-level-100",
+    "greater-demon-level-101",
+    "greater-demon-level-104",
+    "greater-demon-level-113",
+    "skotizo",
+    "tormented-demon",
+    "tstanon-karlak",
+    "greater-demons-k-ril-tsutsaroth"
+  ],
+  "defaultVariantId": "greater-demon",
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": -10,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "brimhaven-dungeon",
+    "chasm-of-fire-bottom",
+    "catacombs-of-kourend",
+    "entrana-dungeon",
+    "lava-maze-dungeon",
+    "demonic-ruins",
+    "ogre-enclave-watchtower",
+    "isle-of-souls-dungeon",
+    "karuulm-slayer-dungeon-greater-demons",
+    "wilderness-slayer-cave"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "greater-demon",
+      "name": "Greater Demon",
+      "combatLevel": 92,
+      "slayerXp": 87,
+      "locations": [
+        "Brimhaven Dungeon",
+        "Chasm of Fire",
+        "Entrana Dungeon",
+        "Lava Maze Dungeon",
+        "Demonic Ruins",
+        "Ogre Enclave",
+        "Isle of Souls Dungeon",
+        "Karuulm Slayer Dungeon"
+      ],
+      "notes": [
+        "Standard regular level 92 Greater demon found across most Greater demon task locations.",
+        "Weak to water spells and demonbane weapons."
+      ]
+    },
+    {
+      "variantId": "greater-demon-level-100",
+      "name": "Greater Demon",
+      "combatLevel": 100,
+      "slayerXp": 115,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Catacombs variant.",
+        "Drops ancient shards and dark totem pieces."
+      ]
+    },
+    {
+      "variantId": "greater-demon-level-101",
+      "name": "Greater Demon",
+      "combatLevel": 101,
+      "slayerXp": 120,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Catacombs variant.",
+        "Drops ancient shards and dark totem pieces."
+      ]
+    },
+    {
+      "variantId": "greater-demon-level-104",
+      "name": "Greater Demon",
+      "combatLevel": 104,
+      "slayerXp": 120,
+      "locations": [
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Wilderness Slayer Cave variant.",
+        "Cannonable multicombat option with player-killing risk."
+      ]
+    },
+    {
+      "variantId": "greater-demon-level-113",
+      "name": "Greater Demon",
+      "combatLevel": 113,
+      "slayerXp": 130,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Catacombs variant.",
+        "Drops ancient shards and dark totem pieces."
+      ]
+    },
+    {
+      "variantId": "skotizo",
+      "name": "Skotizo",
+      "combatLevel": 321,
+      "slayerXp": 618.5,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Greater demon boss alternative beneath the Catacombs of Kourend.",
+        "Requires a dark totem to enter the lair."
+      ]
+    },
+    {
+      "variantId": "tormented-demon",
+      "name": "Tormented Demon",
+      "combatLevel": 450,
+      "slayerXp": 1065,
+      "locations": [
+        "Ancient Guthixian Temple"
+      ],
+      "notes": [
+        "High-value Greater demon alternative after While Guthix Sleeps.",
+        "Uses shield mechanics and switches overhead prayers."
+      ]
+    },
+    {
+      "variantId": "tstanon-karlak",
+      "name": "Tstanon Karlak",
+      "combatLevel": 145,
+      "slayerXp": 142,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "K'ril Tsutsaroth bodyguard.",
+        "Counts as a Greater demon while fighting the Zamorak boss encounter."
+      ]
+    },
+    {
+      "variantId": "greater-demons-k-ril-tsutsaroth",
+      "name": "K'ril Tsutsaroth",
+      "combatLevel": 650,
+      "slayerXp": 350.5,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "Greater demon boss alternative in the Zamorak Fortress.",
+        "Requires God Wars Dungeon access and boss-trip gear."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "brimhaven-dungeon",
+      "name": "Brimhaven Dungeon",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Axe needed.",
+        "875 coin entry each time, one-time fee of 1,000,000 coins, or one-off 5,000 trading sticks alternative.",
+        "Greater demon spawns are fairly far apart, so it is cannonable but not ideal unless assigned by Konar."
+      ]
+    },
+    {
+      "locationId": "chasm-of-fire-bottom",
+      "name": "Chasm of Fire",
+      "amount": 16,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Easily accessed through Fairy Ring DJR.",
+        "Can drop Yama contracts after speaking to Yama after A Kingdom Divided."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 10,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Contains 10 to 13 Greater demons depending on the counted side room.",
+        "Drops ancient shard and dark totem pieces."
+      ]
+    },
+    {
+      "locationId": "entrana-dungeon",
+      "name": "Entrana Dungeon",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Due to not being able to take weapons and armour to Entrana, it is not advisable to complete a Slayer task there."
+      ]
+    },
+    {
+      "locationId": "lava-maze-dungeon",
+      "name": "Lava Maze Dungeon",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "A single-combat Wilderness option.",
+        "82 Agility is highly recommended if completing tasks here."
+      ]
+    },
+    {
+      "locationId": "demonic-ruins",
+      "name": "Demonic Ruins",
+      "amount": 4,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Prayer points regenerate over time at the Demonic Ruins.",
+        "Very unsafe because it is deep in the Wilderness, multicombat, and near the Annakarl teleport destination."
+      ]
+    },
+    {
+      "locationId": "ogre-enclave-watchtower",
+      "name": "Ogre Enclave",
+      "amount": 5,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Most Greater demons are behind a cage.",
+        "Requires a halberd or other ranged methods for caged demons."
+      ]
+    },
+    {
+      "locationId": "isle-of-souls-dungeon",
+      "name": "Isle of Souls Dungeon",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Safespot behind the rocks on the eastern side of the inner wall.",
+        "Fairly compact, though a lesser demon may interrupt the player."
+      ]
+    },
+    {
+      "locationId": "karuulm-slayer-dungeon-greater-demons",
+      "name": "Karuulm Slayer Dungeon",
+      "amount": 9,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Safespot is between the two stone chests on the northern side.",
+        "Bring Stone Boots."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave",
+      "name": "Wilderness Slayer Cave",
+      "amount": 10,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Level 28 Wilderness.",
+        "Fast experience with Viggora's chainmace before acquiring Arclight or Emberlight.",
+        "One of the only Greater demon areas that is both cannonable and multicombat."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Greater demons require 70 combat to be assigned by normal Slayer masters.",
+    "Greater Challenge extends assignments to 200-250 Greater demons.",
+    "Greater demons are demons and are weak to water spells, Arclight, Emberlight, and other demonbane options.",
+    "Chasm of Fire is a strong task-only cannon option with Fairy Ring DJR access.",
+    "Brimhaven Dungeon is cannonable but the spawns are spread out.",
+    "Catacombs of Kourend is multicombat and drops ancient shards and dark totem pieces, but cannot be cannoned.",
+    "Wilderness Slayer Cave is fast, multicombat, and cannonable, but carries player-killing risk.",
+    "Tormented Demon can be killed on Greater demon tasks after While Guthix Sleeps for higher-value kills.",
+    "Skotizo and K'ril Tsutsaroth are boss alternatives for profit or boss-specific goals.",
+    "Tstanon Karlak counts as a Greater demon while fighting K'ril Tsutsaroth."
+  ],
+  "recommendedMethod": "Use Chasm of Fire or Brimhaven Dungeon with a cannon for normal tasks, Catacombs of Kourend for ancient shards and dark totem pieces, or Wilderness Slayer Cave for fast cannonable multicombat kills when accepting PK risk. Use Tormented Demon, Skotizo, or K'ril Tsutsaroth only when choosing boss or profit alternatives over fast task completion."
+}

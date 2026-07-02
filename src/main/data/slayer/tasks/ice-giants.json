@@ -1,0 +1,118 @@
+{
+  "taskId": "ice-giants",
+  "name": "Ice giants",
+  "wikiPageId": null,
+  "combatLevel": 53,
+  "slayerTargetId": 261,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      100,
+      150
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "ice-giants"
+  ],
+  "variantIds": [
+    "ice-giant",
+    "ice-giant-wilderness-cave"
+  ],
+  "defaultVariantId": "ice-giant",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 3,
+    "crush": 2,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "frozen-waste-plateau",
+    "wilderness-slayer-cave-ice-giants"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "ice-giant",
+      "name": "Ice giant",
+      "combatLevel": 53,
+      "slayerXp": 70.0,
+      "locations": [
+        "Frozen Waste Plateau"
+      ],
+      "notes": [
+        "Standard ice giant; spawns at the Frozen Waste Plateau in the Wilderness (9 spawns).",
+        "Ice giants also spawn in non-Wilderness dungeons, but Krystilia counts only the Wilderness kills.",
+        "Weak to fire (100%); uses melee (slash)."
+      ]
+    },
+    {
+      "variantId": "ice-giant-wilderness-cave",
+      "name": "Ice giant",
+      "combatLevel": 67,
+      "slayerXp": 100.0,
+      "locations": [
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Higher-level ice giant variant found only in the Wilderness Slayer Cave.",
+        "Grants more Slayer XP (100) than the standard variant.",
+        "The cave is multicombat and cannonable but a popular player-killing hotspot."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "frozen-waste-plateau",
+      "name": "Frozen Waste Plateau",
+      "amount": 9,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "9 ice giant spawns in the western Wilderness (around level 50).",
+        "Ice warriors also spawn here.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave-ice-giants",
+      "name": "Wilderness Slayer Cave (ice giants)",
+      "amount": 14,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "14 spawns of the combat level 67 variant; multicombat and cannonable.",
+        "A popular player-killing hotspot; keep near one-click teleport range."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 261 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Ice giants is not wiki-published; QA live-verify.",
+    "Krystilia assigns ice giants as a Wilderness-only task; only Wilderness ice giant kills (Frozen Waste Plateau or Wilderness Slayer Cave) count.",
+    "Ice giants are weak to fire (100%); fire spells and any melee are effective given their very low defence.",
+    "The Wilderness Slayer Cave holds a higher-level combat level 67 variant that grants 100 Slayer XP and is multicombat/cannonable.",
+    "Both spawn areas are in the Wilderness; keep low-risk gear and a one-click escape teleport ready."
+  ],
+  "recommendedMethod": "Kill ice giants at the Frozen Waste Plateau or, for faster XP with a cannon, the level 67 variant in the Wilderness Slayer Cave. Ice giants have very low defence, so any strong melee weapon (or fire spells) works; wear low-risk Wilderness gear and keep a one-click escape teleport ready."
+}

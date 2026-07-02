@@ -1,0 +1,89 @@
+{
+  "taskId": "flesh-crawlers",
+  "name": "Flesh Crawlers",
+  "wikiPageId": null,
+  "combatLevel": 15,
+  "slayerTargetId": 288,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "mazchna": [
+      15,
+      25
+    ]
+  },
+  "weightByMaster": {
+    "mazchna": 7
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "flesh-crawlers"
+  ],
+  "variantIds": [
+    "flesh-crawler"
+  ],
+  "defaultVariantId": "flesh-crawler",
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 10,
+    "stab": 15,
+    "slash": 15,
+    "crush": 15,
+    "magic": 15,
+    "range": 15
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "stronghold-of-security-flesh-crawlers"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "flesh-crawler",
+      "name": "Flesh Crawler",
+      "combatLevel": 41,
+      "slayerXp": 25.0,
+      "locations": [
+        "Stronghold of Security, Catacomb of Famine (2nd level)"
+      ],
+      "notes": [
+        "NPC ids 2498 (level 28), 2499 (level 35), 2500 (level 41); all give 25 Slayer XP.",
+        "25 Hitpoints, Defence 10, max hit 1 slash, 3-tick; low defensive bonuses (+15 all styles).",
+        "20% weakness to fire spells; a popular low-level AFK money/XP spot due to consistent herb and gem drops."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "stronghold-of-security-flesh-crawlers",
+      "name": "Stronghold of Security (Flesh Crawlers)",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Flesh Crawlers cluster densely on the Catacomb of Famine (2nd level) of the Stronghold of Security.",
+        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "SYNTHETIC slayerTargetId 288 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Flesh Crawlers is not wiki-published; QA live-verify.",
+    "Assigned only by Mazchna (15-25) in this dataset; no Slayer level required (slayerLevel 1). Mazchna's combat-level threshold is around 15.",
+    "Three combat-level variants share one monster (NPC ids 2498/2499/2500), all giving 25 Slayer XP; the default variant pins the level-41 form.",
+    "20% weakness to fire spells; max hit is only 1, making them a safe AFK low-level target with useful herb/gem drops.",
+    "Location is a family-tuned copy stronghold-of-security-flesh-crawlers (2nd level, Catacomb of Famine) rather than the Ankou-specific base file."
+  ],
+  "recommendedMethod": "Flesh Crawlers hit only 1 and have low defensive bonuses, making them a safe AFK spot on the 2nd level (Catacomb of Famine) of the Stronghold of Security. Clear them with any melee weapon; fire spells exploit the 20% fire weakness for Magic training. Their consistent herb and gem drops make the task profitable for low-level accounts."
+}

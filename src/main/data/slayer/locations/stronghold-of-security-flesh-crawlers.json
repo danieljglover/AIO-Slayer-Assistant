@@ -1,0 +1,11 @@
+{
+  "locationId": "stronghold-of-security-flesh-crawlers",
+  "name": "Stronghold of Security (Flesh Crawlers)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Flesh Crawlers on the Catacomb of Famine (2nd level) of the Stronghold of Security, entered via the ladder in Barbarian Village. Family-tuned copy of the stronghold-of-security base file, whose Ankou safespot/konarLockable flags do not apply to flesh crawlers. Multi, cannon and safespot status are not wiki-stated and left conservative (false)."
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "general-graardor",
+  "name": "General Graardor",
+  "npcIds": [
+    2215
+  ],
+  "combatLevel": 624,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 250,
+    "stab": 90,
+    "slash": 90,
+    "crush": 90,
+    "magic": 298,
+    "range": 100
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "God Wars Dungeon - Bandos's Stronghold (40 Bandos KC + GWD access)",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "general-graardor"
+}

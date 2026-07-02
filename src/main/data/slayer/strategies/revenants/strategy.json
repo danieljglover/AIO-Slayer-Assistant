@@ -1,0 +1,125 @@
+{
+  "strategyId": "revenants",
+  "variantIds": [
+    "revenant-imp",
+    "revenant-goblin",
+    "revenant-pyrefiend",
+    "revenant-hobgoblin",
+    "revenant-cyclops",
+    "revenant-hellhound",
+    "revenant-demon",
+    "revenant-ork",
+    "revenant-dark-beast",
+    "revenant-knight",
+    "revenant-dragon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Revenants/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "viggora-s-chainmace"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "craw-s-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "thammaron-s-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "The charged Wilderness weapons (Viggora's chainmace, Craw's bow, Thammaron's sceptre) are far more effective against revenants when charged with revenant ether, and a Krystilia revenants task boosts their drop rate 5x. The wiki lists no elemental weakness, so pick the style you can sustain in the Wilderness. Wear low-risk gear and keep a one-click escape teleport ready."
+  },
+  "requirements": [
+    "A charged Wilderness weapon (Viggora's chainmace, Craw's bow or Thammaron's sceptre) with revenant ether",
+    "Low-risk gear for the Wilderness",
+    "A one-click escape teleport"
+  ],
+  "mechanics": [
+    "Revenants heal when dropped below 50% Hitpoints, so sustained damage output matters more than burst.",
+    "Revenants adapt their attack style (melee/ranged/magic) to the player; a single protection prayer reduces but does not stop their damage.",
+    "The Revenant Caves are singles-plus combat: no dwarf multicannon, and player killers can attack you while you fight a revenant.",
+    "Being undead, revenants take extra damage from the salve amulet (e) - though its Wilderness use competes with the charged-weapon slots and gear choices."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee (Viggora's chainmace)",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill revenants with a charged Viggora's chainmace and low-risk melee gear.",
+      "recommendedFor": [
+        "Krystilia revenants tasks",
+        "players who want the cheapest charged Wilderness weapon"
+      ],
+      "requiredOrKeyItems": [
+        "Viggora's chainmace charged with revenant ether",
+        "Low-risk melee armour",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Charge Viggora's chainmace with revenant ether before entering.",
+        "Enter the Revenant Caves and find an unoccupied revenant, preferring higher-level types for better drops.",
+        "Use one protection prayer and eat before dropping below half health, since revenants heal under 50% HP.",
+        "Watch the minimap for player killers and teleport immediately if threatened - cannons cannot be used here."
+      ],
+      "notes": [
+        "Viggora's chainmace is the cheapest of the three charged Wilderness weapons.",
+        "A Krystilia revenants task multiplies the Wilderness weapon drop rate by 5."
+      ]
+    },
+    {
+      "methodId": "ranged",
+      "label": "Ranged (Craw's bow)",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Range revenants with a charged Craw's bow to stay mobile against player killers.",
+      "recommendedFor": [
+        "players who prefer distance in the Wilderness",
+        "staying mobile near an escape route"
+      ],
+      "requiredOrKeyItems": [
+        "Craw's bow charged with revenant ether",
+        "Low-risk ranged armour",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Charge Craw's bow with revenant ether before entering.",
+        "Attack revenants from distance, keeping moving toward an exit if player killers appear.",
+        "Flick a protection prayer and eat above 50% HP to avoid their heal.",
+        "Teleport out at the first sign of danger."
+      ],
+      "notes": [
+        "Ranged keeps you mobile, which helps against player killers in the singles-plus caves.",
+        "The wiki lists no elemental weakness, so ranged is as valid as melee."
+      ]
+    },
+    {
+      "methodId": "magic",
+      "label": "Magic (Thammaron's sceptre)",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Cast with a charged Thammaron's sceptre for a low-cost magic option.",
+      "recommendedFor": [
+        "players training Magic in the Wilderness",
+        "hybrid setups that swap styles against adapting revenants"
+      ],
+      "requiredOrKeyItems": [
+        "Thammaron's sceptre charged with revenant ether",
+        "Low-risk magic armour",
+        "One-click escape teleport"
+      ],
+      "steps": [
+        "Charge Thammaron's sceptre with revenant ether before entering.",
+        "Attack revenants from distance and keep your protection prayer up.",
+        "Eat above half health to deny their sub-50% heal.",
+        "Escape at once if a player killer approaches - no cannon can cover you here."
+      ],
+      "notes": [
+        "Thammaron's sceptre is a cheap charged option for magic users.",
+        "Revenant demons and higher have notable Magic levels, so magic defence against them is not their weakest point - style choice is about survivability, not a stated weakness."
+      ]
+    }
+  ]
+}

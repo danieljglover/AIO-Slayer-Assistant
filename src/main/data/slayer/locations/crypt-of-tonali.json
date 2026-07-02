@@ -1,0 +1,11 @@
+{
+  "locationId": "crypt-of-tonali",
+  "name": "Crypt of Tonali",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Earthen Nagua appear in the multicombat eastern sun chamber only after completion of The Final Dawn; a cannon cannot be set up here. Safespots are not documented on the wiki (conservative default). Moonlight moths can be caught nearby to restore prayer."
+}

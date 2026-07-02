@@ -1,0 +1,71 @@
+{
+  "strategyId": "monkeys",
+  "variantIds": [
+    "monkey"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Monkey_(monster)",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [],
+    "note": "Monkeys are combat level 3 with 6 Hitpoints and no defensive bonuses; any weapon kills them in one or two hits. The Karamja monkey clusters are the quickest place to complete the task."
+  },
+  "requirements": [
+    "There is no combat or Slayer level requirement to be assigned Monkeys.",
+    "Only regular monkeys count; Maniacal monkeys and the Ape Atoll bosses do not."
+  ],
+  "mechanics": [
+    "Monkey: combat level 3, 6 Hitpoints, max hit 1 (crush), 4-tick attack speed, Defence level 2 with no bonuses.",
+    "Monkeys are practically defenceless and are not undead, so the salve amulet does not apply.",
+    "No elemental weakness is documented; any combat style works.",
+    "Maniacal monkeys and the Monkey Madness bosses are excluded from the task."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-any",
+      "label": "Any melee weapon",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill common monkeys on Karamja with any melee weapon; they die in one or two hits.",
+      "recommendedFor": [
+        "standard task completion",
+        "very low-level accounts"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon"
+      ],
+      "steps": [
+        "Travel to Karamja (south-east of Musa Point, or around Brimhaven).",
+        "Attack the monkeys with any weapon; their 6 Hitpoints and zero Defence bonuses make kills instant.",
+        "Ape Atoll and Mos Le'Harmless monkeys also count."
+      ],
+      "notes": [
+        "Avoid Maniacal monkeys, which are a separate monster and do not count."
+      ]
+    },
+    {
+      "methodId": "ranged-magic",
+      "label": "Ranged or Magic",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Ranged or Magic to clear monkeys while training those skills.",
+      "recommendedFor": [
+        "players training Ranged or Magic"
+      ],
+      "requiredOrKeyItems": [
+        "A ranged weapon and ammunition, or spell runes"
+      ],
+      "steps": [
+        "Travel to a dense Karamja monkey spawn.",
+        "Attack from range; the monkeys' 6 Hitpoints make kills near-instant.",
+        "Pick up bones and drops if desired."
+      ],
+      "notes": [
+        "Any style works given the monkeys' complete lack of defensive bonuses."
+      ]
+    }
+  ]
+}

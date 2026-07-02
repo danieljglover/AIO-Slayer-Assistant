@@ -1,0 +1,290 @@
+{
+  "taskId": "ankou",
+  "name": "Ankou",
+  "wikiPageId": 357194,
+  "combatLevel": 40,
+  "slayerTargetId": 201,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "vannaka": [
+      25,
+      35
+    ],
+    "konar": [
+      50,
+      50
+    ],
+    "nieve": [
+      50,
+      90
+    ],
+    "duradel": [
+      50,
+      80
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 6,
+    "vannaka": 8,
+    "konar": 5,
+    "nieve": 5,
+    "duradel": 5
+  },
+  "extendedAmount": {
+    "krystilia": [
+      91,
+      150
+    ],
+    "vannaka": [
+      91,
+      150
+    ],
+    "konar": [
+      91,
+      150
+    ],
+    "nieve": [
+      91,
+      150
+    ],
+    "duradel": [
+      91,
+      150
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "ankou-very-much",
+      "name": "Ankou very much",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Number of ankous assigned is increased to 91-150."
+    }
+  ],
+  "monsterIds": [
+    "ankou"
+  ],
+  "variantIds": [
+    "ankou-level-75",
+    "ankou-level-82",
+    "ankou-level-86",
+    "ankou-level-95",
+    "ankou-level-98",
+    "dark-ankou"
+  ],
+  "defaultVariantId": "ankou-level-75",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 25,
+    "stab": 15,
+    "slash": 15,
+    "crush": 15,
+    "magic": 20,
+    "range": 15
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "catacombs-of-kourend",
+    "stronghold-of-security",
+    "stronghold-slayer-cave",
+    "wilderness-slayer-cave",
+    "forgotten-cemetery",
+    "deepfin-mine"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "ankou-level-75",
+      "name": "Ankou",
+      "combatLevel": 75,
+      "slayerXp": 60,
+      "locations": [
+        "Catacombs of Kourend",
+        "Stronghold of Security: Sepulchre of Death",
+        "Stronghold Slayer Cave",
+        "The Forgotten Cemetery",
+        "Wilderness Slayer Cave",
+        "Deepfin Mine"
+      ],
+      "notes": [
+        "Normal Ankou variant. Cannon can be used in Wilderness Slayer Cave and Stronghold Slayer Cave."
+      ]
+    },
+    {
+      "variantId": "ankou-level-82",
+      "name": "Ankou",
+      "combatLevel": 82,
+      "slayerXp": 65,
+      "locations": [
+        "Catacombs of Kourend",
+        "Stronghold of Security: Sepulchre of Death",
+        "Stronghold Slayer Cave",
+        "The Forgotten Cemetery",
+        "Wilderness Slayer Cave",
+        "Deepfin Mine"
+      ],
+      "notes": [
+        "Normal Ankou variant. Cannon can be used in Wilderness Slayer Cave and Stronghold Slayer Cave."
+      ]
+    },
+    {
+      "variantId": "ankou-level-86",
+      "name": "Ankou",
+      "combatLevel": 86,
+      "slayerXp": 70,
+      "locations": [
+        "Catacombs of Kourend",
+        "Stronghold of Security: Sepulchre of Death",
+        "Stronghold Slayer Cave",
+        "The Forgotten Cemetery",
+        "Wilderness Slayer Cave",
+        "Deepfin Mine"
+      ],
+      "notes": [
+        "Normal Ankou variant. Cannon can be used in Wilderness Slayer Cave and Stronghold Slayer Cave."
+      ]
+    },
+    {
+      "variantId": "ankou-level-95",
+      "name": "Ankou",
+      "combatLevel": 95,
+      "slayerXp": 60,
+      "locations": [
+        "Catacombs of Kourend",
+        "Stronghold of Security: Sepulchre of Death",
+        "Stronghold Slayer Cave",
+        "The Forgotten Cemetery",
+        "Wilderness Slayer Cave",
+        "Deepfin Mine"
+      ],
+      "notes": [
+        "Normal Ankou variant. Cannon can be used in Wilderness Slayer Cave and Stronghold Slayer Cave."
+      ]
+    },
+    {
+      "variantId": "ankou-level-98",
+      "name": "Ankou",
+      "combatLevel": 98,
+      "slayerXp": 100,
+      "locations": [
+        "Catacombs of Kourend",
+        "Stronghold of Security: Sepulchre of Death",
+        "Stronghold Slayer Cave",
+        "The Forgotten Cemetery",
+        "Wilderness Slayer Cave",
+        "Deepfin Mine"
+      ],
+      "notes": [
+        "Normal Ankou variant. Cannon can be used in Wilderness Slayer Cave and Stronghold Slayer Cave."
+      ]
+    },
+    {
+      "variantId": "dark-ankou",
+      "name": "Dark Ankou",
+      "combatLevel": 95,
+      "slayerXp": 60,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Only summoned during the Skotizo boss fight.",
+        "There is no real benefit to fighting Dark Ankous; focus on Skotizo instead.",
+        "Damaged Dark Ankous that automatically die after Skotizo is killed do not count for Slayer task progress."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 10,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Bonecrusher helps keep Prayer topped up because burying bones in the Catacombs returns Prayer points.",
+        "Ankou in the Catacombs can drop Ancient shards and Dark totem pieces."
+      ]
+    },
+    {
+      "locationId": "stronghold-of-security",
+      "name": "Stronghold of Security: Sepulchre of Death",
+      "amount": 32,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Safespot in the south-west room by standing on the south side of the south-easternmost skeleton."
+      ]
+    },
+    {
+      "locationId": "stronghold-slayer-cave",
+      "name": "Stronghold Slayer Cave",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "May be crowded due to easy access and cannon allowance."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave",
+      "name": "Wilderness Slayer Cave",
+      "amount": 10,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Expect PKers, lower risk, and bring a one-click level-30 Wilderness teleport such as a Royal seed pod.",
+        "Ankou in the Wilderness Slayer Cave straddle level 20 Wilderness."
+      ]
+    },
+    {
+      "locationId": "forgotten-cemetery",
+      "name": "The Forgotten Cemetery",
+      "amount": 21,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Safespot is behind the south-west coffin, on the square between the bone spawns.",
+        "Ankou in the Forgotten Cemetery straddle level 30 Wilderness."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Ankou require 40 combat to be assigned and have no Slayer level or quest requirement.",
+    "Ankou attack with relatively inaccurate melee and a max hit from 8 to 10; Protect from Melee negates all damage.",
+    "Ankou are undead, so Salve amulet variants can boost accuracy and damage.",
+    "Salve amulet bonuses do not stack with Slayer helmet or Black mask; use the better option for the player's stats and gear.",
+    "Unextended tasks are fast even with melee in single combat.",
+    "In multicombat areas such as Catacombs of Kourend and Wilderness Slayer Cave, Burst spells, Barrage spells, and Venator bow can be viable, but even extended tasks are consumed quickly.",
+    "Salve necklace effects do not apply to secondary monsters hit by area-of-effect spells.",
+    "Cannon may be used against Ankou in all listed locations except the Catacombs of Kourend.",
+    "Typical tasks yield dozens of Death runes and Blood runes; Catacombs kills can also drop Ancient shards and Dark totem pieces.",
+    "Ankou are Spectral creatures, so Ectoplasmator grants Prayer experience; they also drop bones, so Bonecrusher or Bonecrusher necklace adds Prayer experience and restores one Prayer point per Catacombs kill.",
+    "In Wilderness locations, minimise risk and carry a one-click teleport usable in the 20-30 Wilderness range, such as a Royal seed pod."
+  ],
+  "recommendedMethod": "Use melee for quick single-combat tasks, especially Stronghold of Security or Stronghold Slayer Cave. For Catacombs or Wilderness Slayer Cave, Burst/Barrage or Venator bow can clear tasks very quickly. Use cannon anywhere except Catacombs, and treat Wilderness locations as PK hotspots requiring low risk and a one-click teleport."
+}

@@ -1,0 +1,415 @@
+{
+  "strategyId": "bloodveld",
+  "variantIds": [
+    "bloodveld",
+    "bloodveld-god-wars-dungeon",
+    "mutated-bloodveld",
+    "insatiable-bloodveld",
+    "insatiable-mutated-bloodveld"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Bloodveld",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "arclight",
+      "abyssal-whip",
+      "abyssal-tentacle"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "accursed-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Bloodvelds are demons using magic-based melee. Use magic-defence armour such as dragonhide or blood moon armour, pray Protect from Melee when praying, and prefer demonbane melee or cannon-supported mutated bloodveld locations for efficient tasks."
+  },
+  "requirements": [
+    "50 Slayer is required to damage Bloodvelds.",
+    "50 combat is required to receive Bloodveld assignments.",
+    "Priest in Peril is required.",
+    "Bigger and Badder enables Insatiable Bloodveld and Insatiable mutated Bloodveld superior spawns.",
+    "Bleed me dry extends Bloodveld assignments to 200-250.",
+    "76 Sailing is required for Buccaneers' Laboratory.",
+    "Song of the Elves is required for Iorwerth Dungeon.",
+    "Partial Sins of the Father is required for Meiyerditch Laboratories after the quest mutated bloodveld kill.",
+    "65 Magic and the Arceuus spellbook are required for Expert Reanimation."
+  ],
+  "mechanics": [
+    "Bloodvelds are demons, so demonbane weapons affect them.",
+    "Bloodvelds attack with magic-based melee: their attack is melee for protection-prayer purposes, but player Magic defence is used for accuracy checks.",
+    "Protect from Melee nullifies Bloodveld damage; Protect from Magic is not the correct protection prayer.",
+    "Dragonhide and blood moon armour are useful because they provide Magic defence while fighting a melee-prayer target.",
+    "Ash sanctifier can provide Prayer experience from ashes.",
+    "Bloodvelds have high Hitpoints and low Defence, making them popular combat and Slayer experience targets.",
+    "Insatiable Bloodveld can spawn only where normal Bloodvelds can produce superior variants; God Wars variants cannot spawn the superior.",
+    "Mutated Bloodvelds have more hitpoints and better drops than normal Bloodvelds.",
+    "Reanimated bloodvelds count toward the task but give far less Slayer experience and are mainly a Prayer-training alternative."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Use Magic-defence armour, Protect from Melee, and demonbane melee or cannon-supported locations depending on assignment and access.",
+      "recommendedFor": [
+        "baseline Bloodveld task planning",
+        "choosing between normal Bloodvelds, mutated Bloodvelds, Konar locks, and Wilderness risk"
+      ],
+      "requiredOrKeyItems": [
+        "Magic-defence armour such as dragonhide or blood moon armour",
+        "Demonbane melee weapon",
+        "Dwarf multicannon where allowed",
+        "Ash sanctifier"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Equip armour with Magic defence because Bloodveld accuracy rolls against Magic defence.",
+        "Use Protect from Melee when praying, since Bloodvelds still use melee attacks.",
+        "Use demonbane melee weapons where fighting directly.",
+        "Use cannonable locations for lower attention and higher Slayer experience.",
+        "Prefer mutated Bloodvelds when the account can access good multicombat cannon spots.",
+        "Bring an ash sanctifier for passive Prayer experience if desired."
+      ],
+      "notes": [
+        "Bloodvelds are good experience because they have high Hitpoints and low Defence.",
+        "Protect from Magic is the wrong protection prayer despite the Magic-defence accuracy check."
+      ]
+    },
+    {
+      "methodId": "stronghold-cannon",
+      "label": "Stronghold Slayer Cave cannon",
+      "combatStyle": "MELEE",
+      "role": "low-attention",
+      "summary": "Use Stronghold Slayer Cave for a nearby bank, cannon support, and straightforward normal Bloodveld kills.",
+      "recommendedFor": [
+        "normal Bloodveld tasks",
+        "players wanting low attention",
+        "Nieve or Duradel assignments without better mutated Bloodveld access"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Slayer ring or other Tree Gnome Stronghold access",
+        "Magic-defence armour",
+        "Demonbane weapon"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Travel with a Slayer ring, Spirit tree to Tree Gnome Stronghold, or necklace of passage to the Outpost.",
+        "Set up a dwarf multicannon in the Bloodveld room.",
+        "Use Protect from Melee if taking damage.",
+        "Use demonbane melee or another strong melee weapon while the cannon handles extra hits."
+      ],
+      "notes": [
+        "The task page calls Stronghold Slayer Cave the most common Bloodveld location because it is close to a bank and cannonable."
+      ]
+    },
+    {
+      "methodId": "meiyerditch-mutated-cannon",
+      "label": "Meiyerditch mutated cannon",
+      "combatStyle": "MELEE",
+      "role": "experience",
+      "summary": "Use Meiyerditch Laboratories for high-experience cannoned mutated Bloodvelds after partial Sins of the Father.",
+      "recommendedFor": [
+        "high Slayer experience",
+        "players with Sins of the Father progress",
+        "players using a dwarf multicannon"
+      ],
+      "requiredOrKeyItems": [
+        "Partial Sins of the Father",
+        "Dwarf multicannon",
+        "Prayer supplies",
+        "Magic-defence armour"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Enter the Meiyerditch Laboratories after killing the mutated bloodveld during Sins of the Father.",
+        "Use the cluster of seven mutated bloodvelds for cannon-assisted kills.",
+        "Prefer Prayer over food because the run to the laboratory is fairly long.",
+        "Take advantage of multicombat and cannon damage for high experience per hour."
+      ],
+      "notes": [
+        "The page recommends Meiyerditch Laboratories under most circumstances for mutated Bloodvelds.",
+        "The area is hard to reach, but its drops can cover cannon cost."
+      ]
+    },
+    {
+      "methodId": "buccaneers-laboratory",
+      "label": "Buccaneers' Laboratory",
+      "combatStyle": "MELEE",
+      "role": "experience",
+      "summary": "Use Buccaneers' Laboratory as a Sailing-gated multicombat cannon alternative with cleaner Bloodveld pathing.",
+      "recommendedFor": [
+        "players with 76 Sailing",
+        "players who have built the rowboat and bank chest",
+        "high-experience mutated Bloodveld tasks"
+      ],
+      "requiredOrKeyItems": [
+        "76 Sailing",
+        "Dwarf multicannon",
+        "Built rowboat from Pirates' Cove",
+        "Built bank chest"
+      ],
+      "steps": [
+        "Access Buccaneers' Laboratory after reaching the 76 Sailing requirement.",
+        "Build the rowboat and bank chest to make access and banking faster.",
+        "Use the multicombat room and cannon the eight mutated Bloodvelds.",
+        "Use Protect from Melee if tanking damage."
+      ],
+      "notes": [
+        "The page says this location has no obstacles blocking bloodvelds.",
+        "Drops should cover cannon usage."
+      ]
+    },
+    {
+      "methodId": "slayer-tower",
+      "label": "Slayer Tower",
+      "combatStyle": "MELEE",
+      "role": "konar",
+      "summary": "Use Slayer Tower when Konar assigns it or when Morytania Diary Slayer experience is desired.",
+      "recommendedFor": [
+        "Konar Slayer Tower assignments",
+        "players with Morytania Diary tiers",
+        "players wanting a safespot"
+      ],
+      "requiredOrKeyItems": [
+        "Priest in Peril",
+        "Slayer ring or fairy ring CKS access",
+        "Magic-defence armour"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use the first floor or basement depending on assignment and crowding.",
+        "Use Slayer ring or fairy ring CKS to reach the tower.",
+        "Safespot if desired.",
+        "Benefit from extra Slayer experience per completed Morytania Diary tier."
+      ],
+      "notes": [
+        "The basement is task-only and may be less busy."
+      ]
+    },
+    {
+      "methodId": "catacombs-of-kourend",
+      "label": "Catacombs of Kourend",
+      "combatStyle": "RANGED",
+      "role": "konar",
+      "summary": "Use Catacombs mutated Bloodvelds mainly for Konar locks, dark totem pieces, ancient shards, and safespots.",
+      "recommendedFor": [
+        "Konar Catacombs assignments",
+        "players valuing ancient shards and dark totems",
+        "players using goading potions or safespots"
+      ],
+      "requiredOrKeyItems": [
+        "Goading potion",
+        "Ranged weapon or melee gear",
+        "Prayer supplies"
+      ],
+      "steps": [
+        "Choose between the north-east, south-east, and south-west mutated Bloodveld groups.",
+        "Use the north-east seven-spawn cluster with a goading potion when available.",
+        "Use the south-west path to hill giants as a safespot if fighting that group.",
+        "Expect Catacombs tertiary drops such as ancient shards and dark totem pieces."
+      ],
+      "notes": [
+        "The south-west area is polluted by wandering possessed pickaxes."
+      ]
+    },
+    {
+      "methodId": "iorwerth-dungeon",
+      "label": "Iorwerth Dungeon",
+      "combatStyle": "MELEE",
+      "role": "konar",
+      "summary": "Use Iorwerth Dungeon when assigned there by Konar or when crystal shard drops are desired.",
+      "recommendedFor": [
+        "Konar Iorwerth assignments",
+        "players after crystal shards",
+        "players with Song of the Elves"
+      ],
+      "requiredOrKeyItems": [
+        "Song of the Elves",
+        "Dwarf multicannon",
+        "Magic-defence armour"
+      ],
+      "steps": [
+        "Enter Iorwerth Dungeon after Song of the Elves.",
+        "Use either of the two six-Bloodveld sections near the cave entrance.",
+        "Use the safespot or cannon support depending on attention level.",
+        "Expect crystal shard drops from mutated Bloodvelds here."
+      ],
+      "notes": [
+        "The mutated Bloodveld sections are close to the entrance, making banking and resets easier."
+      ]
+    },
+    {
+      "methodId": "konar-god-wars-dungeon",
+      "label": "Konar God Wars Dungeon",
+      "combatStyle": "RANGED",
+      "role": "skip",
+      "summary": "Skip or avoid God Wars Dungeon Bloodveld tasks when possible because superior spawns are disabled and AFK killing is impractical.",
+      "recommendedFor": [
+        "Konar God Wars Dungeon assignments",
+        "players deciding whether to skip"
+      ],
+      "requiredOrKeyItems": [
+        "Rope for first-time God Wars Dungeon access",
+        "Saradomin item",
+        "Zamorak item",
+        "Low-attention expectations disabled"
+      ],
+      "steps": [
+        "Bring Saradomin and Zamorak item protection if entering God Wars Dungeon.",
+        "Use the safespot only if choosing to complete the task there.",
+        "Consider skipping because insatiable Bloodveld cannot spawn here.",
+        "Avoid expecting AFK kills because nearby aggressive monsters interfere."
+      ],
+      "notes": [
+        "The task page explicitly says God Wars Dungeon Bloodveld assignments should be skipped."
+      ]
+    },
+    {
+      "methodId": "wilderness-god-wars-dungeon",
+      "label": "Wilderness God Wars Dungeon",
+      "combatStyle": "RANGED",
+      "role": "wilderness",
+      "summary": "Avoid Krystilia Bloodveld tasks when possible because Wilderness God Wars Dungeon is sparse, multicombat, and dangerous.",
+      "recommendedFor": [
+        "Krystilia assignments only",
+        "players accepting Wilderness risk"
+      ],
+      "requiredOrKeyItems": [
+        "Low-risk gear",
+        "64 Agility for Trollheim shortcut",
+        "God item protection"
+      ],
+      "steps": [
+        "Use minimal-risk gear because the area is multicombat Wilderness.",
+        "Use the Trollheim Agility shortcut with 64 Agility if available.",
+        "Bring an item devoted to the relevant god to reduce dungeon aggression.",
+        "Leave if player-killing risk increases."
+      ],
+      "risks": [
+        "The area has player killing risk.",
+        "Spawns are sparse, lowering overall rates.",
+        "The superior version cannot spawn here."
+      ],
+      "notes": [
+        "The task page says Krystilia Bloodveld assignments are not recommended."
+      ]
+    },
+    {
+      "methodId": "reanimated-bloodveld",
+      "label": "Reanimated bloodveld",
+      "combatStyle": "MAGIC",
+      "role": "prayer",
+      "summary": "Use Expert Reanimation on ensouled bloodveld heads only as a Prayer-training alternative with much lower Slayer and combat experience.",
+      "recommendedFor": [
+        "players training Prayer",
+        "players with ensouled bloodveld heads"
+      ],
+      "requiredOrKeyItems": [
+        "65 Magic",
+        "Arceuus spellbook",
+        "Expert Reanimation",
+        "Ensouled bloodveld head"
+      ],
+      "steps": [
+        "Cast Expert Reanimation on an ensouled bloodveld head soon after it drops.",
+        "If too much time passes, or the head is traded or teleported away, reanimate it at the Dark Altar.",
+        "Kill the reanimated bloodveld for task progress, 35 Slayer experience, and 1,040 Prayer experience."
+      ],
+      "notes": [
+        "This method gives much less Slayer and combat experience than normal Bloodveld kills."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-demonbane",
+      "label": "Melee demonbane",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use demonbane melee against Bloodvelds while wearing Magic-defence armour and praying Protect from Melee when needed.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet",
+            "Black mask"
+          ],
+          "body": [
+            "Black d'hide body",
+            "Karil's leathertop",
+            "Blood moon chestplate"
+          ],
+          "legs": [
+            "Black d'hide chaps",
+            "Karil's leatherskirt",
+            "Blood moon tassets"
+          ],
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Abyssal whip",
+            "Abyssal tentacle"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-cannon-or-safespot",
+      "label": "Ranged cannon or safespot",
+      "combatStyle": "RANGED",
+      "role": "safespot",
+      "summary": "Use ranged gear for safespots or while cannoning in supported locations.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Venator bow",
+            "Toxic blowpipe",
+            "Magic shortbow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-safespot",
+      "label": "Magic safespot",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Use powered staves or other Magic gear only when safespotting or choosing a Magic training method.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the seas",
+            "Trident of the swamp",
+            "Accursed sceptre"
+          ]
+        }
+      }
+    }
+  ]
+}

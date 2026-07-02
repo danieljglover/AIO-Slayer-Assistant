@@ -1,0 +1,180 @@
+{
+  "taskId": "araxytes",
+  "name": "Araxytes",
+  "wikiPageId": 529981,
+  "combatLevel": null,
+  "slayerTargetId": 203,
+  "slayerLevel": 92,
+  "questReqs": [
+    "Priest in Peril"
+  ],
+  "masterIds": [
+    "turael",
+    "spria",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "nieve": [
+      40,
+      60
+    ],
+    "duradel": [
+      60,
+      80
+    ]
+  },
+  "weightByMaster": {
+    "nieve": 8,
+    "duradel": 10
+  },
+  "extendedAmount": {
+    "nieve": [
+      200,
+      250
+    ],
+    "duradel": [
+      200,
+      250
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "more-eyes-than-sense",
+      "name": "More eyes than sense",
+      "pointsCost": 150,
+      "type": "EXTENSION",
+      "notes": "Number of araxytes assigned is increased to 200-250."
+    }
+  ],
+  "monsterIds": [
+    "araxytes"
+  ],
+  "variantIds": [
+    "araxyte-level-146",
+    "araxyte-level-96",
+    "dreadborn-araxyte",
+    "araxxor"
+  ],
+  "defaultVariantId": "araxyte-level-146",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 200,
+    "stab": 60,
+    "slash": 60,
+    "crush": 60,
+    "magic": 100,
+    "range": 60
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "araxyte-lair-morytania"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "araxyte-level-96",
+      "name": "Araxyte",
+      "combatLevel": 96,
+      "slayerXp": 60,
+      "locations": [
+        "Morytania Spider Cave"
+      ],
+      "notes": [
+        "Normal variant.",
+        "Worse drop table than level 146 araxytes and cannot spawn the superior."
+      ]
+    },
+    {
+      "variantId": "araxyte-level-146",
+      "name": "Araxyte",
+      "combatLevel": 146,
+      "slayerXp": 100,
+      "locations": [
+        "Morytania Spider Cave"
+      ],
+      "notes": [
+        "Stronger variant.",
+        "Recommended normal-task target because only level 146 araxytes can spawn Dreadborn Araxytes."
+      ]
+    },
+    {
+      "variantId": "dreadborn-araxyte",
+      "name": "Dreadborn Araxyte",
+      "combatLevel": 281,
+      "slayerXp": 4658,
+      "locations": [
+        "Morytania Spider Cave"
+      ],
+      "notes": [
+        "Superior variant of an araxyte that only spawns from level 146 araxytes.",
+        "Can launch venom pools that can deal up to 50 damage."
+      ]
+    },
+    {
+      "variantId": "araxxor",
+      "name": "Araxxor",
+      "combatLevel": 890,
+      "slayerXp": 1708,
+      "locations": [
+        "Morytania Spider Cave"
+      ],
+      "notes": [
+        "Boss variant of araxytes.",
+        "Has varied mechanics each kill; see Araxxor strategy for boss-specific guidance."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "araxyte-lair-morytania",
+      "name": "Morytania Spider Cave",
+      "amount": null,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Amount: A lot.",
+        "Also contains the boss Araxxor.",
+        "The main chamber mixes level 96 and level 146 araxytes.",
+        "Three on-task caves are east of the main chamber: north is single-way with level 146 araxytes, east is multi-way with level 96 araxytes, and south is multi-way with level 146 araxytes."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Araxytes require 92 Slayer to harm and Priest in Peril to be assigned directly by Nieve or Duradel.",
+    "Turael/Aya and Spria can assign Araxytes indirectly as a spiders task.",
+    "Araxytes are found exclusively in the Morytania Spider Cave.",
+    "Araxytes attack with melee and can inflict venom starting at 6 damage.",
+    "Bring venom immunity to all encounters, preferably extended anti-venom+ for long trips.",
+    "A spider cave teleport brings players to the cave entrance, but the cave is still far from a bank.",
+    "Avoid killing level 96 araxytes during normal tasks because their drop table is worse and they cannot spawn Dreadborn Araxytes.",
+    "Level 146 araxytes should be used for normal tasks because they can spawn the superior.",
+    "Dreadborn Araxyte is the superior and can only spawn from level 146 araxytes.",
+    "Normal Araxyte tasks are profitable due to stackable and alchemy drops.",
+    "Use a seed box and herb sack to reduce banking.",
+    "Picking up Araxyte venom sacks is especially valuable.",
+    "A dwarf multicannon can be used throughout the cave and kills araxytes quickly in multicombat areas.",
+    "Combine cannon with Venator bow because the larger level 146 araxytes have 2x2 hitboxes, making barrages less useful.",
+    "Barrages can be used on 1x1 level 96 araxytes, but they should generally be avoided.",
+    "Bracelets of slaughter can extend profitable tasks.",
+    "Araxxor can be killed as part of an Araxyte task for more profit at much slower task completion; a strong crush weapon is highly recommended for Araxxor."
+  ],
+  "recommendedMethod": "Use level 146 araxytes, avoid level 96 araxytes, bring extended anti-venom+, seed box, herb sack, and bracelets of slaughter. Cannon plus Venator bow is the main fast normal-task method in multicombat areas. Kill Araxxor instead only when choosing profit over task speed and bring a strong crush weapon."
+}

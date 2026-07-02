@@ -1,0 +1,70 @@
+{
+  "strategyId": "cave-crawlers",
+  "variantIds": [
+    "cave-crawler"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Cave_crawler",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Cave crawlers have 22 hitpoints and a max hit of 3, and are poisonous (poison level 8). Any melee weapon dispatches them quickly; bring an antipoison. The Fremennik Slayer Dungeon needs no light source."
+  },
+  "requirements": [
+    "10 Slayer is required for cave crawler assignments.",
+    "An antipoison is recommended, as cave crawlers inflict poison.",
+    "A light source and rope are required only if fighting them in the Lumbridge Swamp Caves."
+  ],
+  "mechanics": [
+    "Cave crawlers have 22 hitpoints and a max hit of 3.",
+    "They attack with melee (stab) and are poisonous (poison level 8).",
+    "They have no elemental weakness in their standard form."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill cave crawlers with any melee weapon in the Fremennik Slayer Dungeon; they have 22 HP and a max hit of 3.",
+      "recommendedFor": [
+        "default cave crawler tasks",
+        "fast completion"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Antipoison"
+      ],
+      "steps": [
+        "Travel to the Fremennik Slayer Dungeon cave crawler area (no light source needed).",
+        "Attack cave crawlers with any melee weapon until the task is complete; sip antipoison as needed."
+      ]
+    },
+    {
+      "methodId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Safespot cave crawlers with Ranged to avoid melee damage and poison entirely.",
+      "recommendedFor": [
+        "low-defence accounts",
+        "avoiding poison"
+      ],
+      "requiredOrKeyItems": [
+        "A crossbow or bow with ammunition",
+        "Antipoison (backup)"
+      ],
+      "steps": [
+        "Position behind a rock or gap so the cave crawler cannot reach you in melee.",
+        "Attack with Ranged until the task is complete."
+      ]
+    }
+  ]
+}

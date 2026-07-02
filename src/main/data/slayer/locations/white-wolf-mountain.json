@@ -1,0 +1,11 @@
+{
+  "locationId": "white-wolf-mountain",
+  "name": "White Wolf Mountain",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "White Wolf Mountain lies between Taverley and Catherby (gnome glider or the mountain path). It holds a dense pack of wolves, white wolves and big wolves. Multi, cannon and safespot are conservative defaults and not wiki-confirmed."
+}

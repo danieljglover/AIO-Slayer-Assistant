@@ -1,0 +1,90 @@
+{
+  "taskId": "moss-giants",
+  "name": "Moss giants",
+  "wikiPageId": null,
+  "combatLevel": 42,
+  "slayerTargetId": 266,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      100,
+      150
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 4
+  },
+  "unlocks": [],
+  "monsterIds": [
+    "moss-giants"
+  ],
+  "variantIds": [
+    "moss-giant"
+  ],
+  "defaultVariantId": "moss-giant",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 30,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "moss-giants-wilderness"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "moss-giant",
+      "name": "Moss giant",
+      "combatLevel": 42,
+      "slayerXp": 60,
+      "locations": [
+        "Deep Wilderness"
+      ],
+      "notes": [
+        "Krystilia only assigns Moss giants as a Wilderness task; kills must occur in the Wilderness to count.",
+        "60 Hitpoints, Defence level 30, attacks with crush; has a 50% Fire weakness.",
+        "Always drops big bones; a common low-level Wilderness Slayer target."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "moss-giants-wilderness",
+      "name": "Deep Wilderness",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "The Wilderness moss giant spawns (about 6 in the free-to-play deep Wilderness) are the only spawns that count towards a Krystilia assignment.",
+        "The wiki does not document multicombat, cannon, or safespot suitability for the specific Wilderness spawn; treated conservatively as unknown."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Moss giants can be assigned by Krystilia only, as a Wilderness task (100-150 per assignment, weight 4); kills must occur in the Wilderness to count.",
+    "Krystilia's block cost for a task is 100 Slayer reward points.",
+    "Moss giants have 60 Hitpoints and Defence level 30, attack with crush, and carry a 50% Fire weakness.",
+    "The Wilderness moss giant spawns sit in the deep Wilderness; carry only what you can afford to lose as this is a PvP area.",
+    "The wiki does not document multicombat, cannon, or safespot suitability at the Wilderness spawn, so these flags are left conservatively false (honest UNKNOWN).",
+    "The slayerTargetId 266 is SYNTHETIC (C2/C3 allocation contract, worklist §1); the real SLAYER_TARGET varp value is a QA live-verify item."
+  ],
+  "recommendedMethod": "Melee the moss giants with any decent weapon in the deep Wilderness; their 50% Fire weakness makes fire spells fastest, but melee is usually preferred to keep risk low in a PvP area. Bring only cheap, expendable gear."
+}

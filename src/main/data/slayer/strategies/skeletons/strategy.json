@@ -1,0 +1,69 @@
+{
+  "strategyId": "skeletons",
+  "variantIds": [
+    "skeleton",
+    "skeleton-area"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Skeleton",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Skeletons are undead, so a Salve amulet (or Salve amulet (ei)) boosts every hit. They are weakest to crush (crush -5) and fall quickly to any melee weapon such as a Dragon scimitar; earth spells exploit their 35% earth weakness for Magic training. Krystilia's task must be done in the Wilderness with risk-appropriate gear."
+  },
+  "requirements": [
+    "No Slayer level is required to receive a Skeletons task.",
+    "Krystilia's skeletons must be killed in the Wilderness (e.g. the Graveyard of Shadows)."
+  ],
+  "mechanics": [
+    "Skeletons attack with crush melee for up to 3 damage at a 4-tick speed.",
+    "They are undead: the Salve amulet applies and they have a 35% earth spell weakness.",
+    "Their crush defensive bonus is negative (-5), so crush weapons hit most accurately."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee (Salve)",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Wear a Salve amulet and clear skeletons with any melee weapon; crush weapons are most accurate.",
+      "recommendedFor": [
+        "all skeletons tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon (Dragon scimitar or a crush weapon)",
+        "Salve amulet / Salve amulet (ei)",
+        "Slayer helmet"
+      ],
+      "steps": [
+        "Equip a Salve amulet for the undead damage boost.",
+        "For starter masters, kill skeletons in the Edgeville Dungeon or Varrock Sewers.",
+        "For Krystilia, kill Wilderness skeletons at the Graveyard of Shadows with risk-appropriate gear."
+      ]
+    },
+    {
+      "methodId": "wilderness-safe",
+      "label": "Wilderness (Krystilia) safe kit",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Complete the Krystilia task in the low-level Wilderness with cheap, risk-appropriate gear to minimise PKer loss.",
+      "recommendedFor": [
+        "Krystilia skeletons tasks",
+        "PKer-heavy worlds"
+      ],
+      "requiredOrKeyItems": [
+        "Cheap melee weapon and armour you can afford to lose",
+        "Salve amulet",
+        "Teleport out (glory / teleport spell)"
+      ],
+      "steps": [
+        "Bank valuables; wear only risk-appropriate gear before entering the Wilderness.",
+        "Kill skeletons at the Graveyard of Shadows; they die in one or two hits.",
+        "Watch the minimap for PKers and teleport out when threatened."
+      ]
+    }
+  ],
+  "body": "# Skeletons\n\nSkeletons are a low-level Slayer task assigned by Krystilia, Turael, Spria, and Mazchna. They are undead, so a Salve amulet boosts every hit; they are weakest to crush (crush -5) and carry a 35% earth spell weakness. Any melee weapon clears them quickly. Starter-master tasks are fastest in the Edgeville Dungeon or Varrock Sewers; Krystilia's task must be done in the low-level Wilderness at the Graveyard of Shadows with risk-appropriate gear."
+}

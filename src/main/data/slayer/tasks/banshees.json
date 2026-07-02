@@ -1,0 +1,131 @@
+{
+  "taskId": "banshees",
+  "name": "Banshees",
+  "wikiPageId": 15230449,
+  "combatLevel": 20,
+  "slayerTargetId": 275,
+  "slayerLevel": 15,
+  "questReqs": [
+    "Priest in Peril"
+  ],
+  "masterIds": [
+    "turael",
+    "spria",
+    "mazchna"
+  ],
+  "amountByMaster": {
+    "turael": [
+      15,
+      30
+    ],
+    "spria": [
+      15,
+      30
+    ],
+    "mazchna": [
+      30,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "turael": 8,
+    "spria": 8,
+    "mazchna": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "banshees"
+  ],
+  "variantIds": [
+    "banshee",
+    "twisted-banshee"
+  ],
+  "defaultVariantId": "banshee",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 22,
+    "stab": 5,
+    "slash": 5,
+    "crush": 5,
+    "magic": 0,
+    "range": 5
+  },
+  "slayerHelmApplies": true,
+  "undead": true,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 4166,
+  "requiredItemName": "Earmuffs",
+  "locationIds": [
+    "slayer-tower",
+    "catacombs-of-kourend"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "banshee",
+      "name": "Banshee",
+      "combatLevel": 23,
+      "slayerXp": 22,
+      "locations": [
+        "Slayer Tower (ground floor, eastern side)"
+      ],
+      "notes": [
+        "Requires 15 Slayer to harm and Priest in Peril to enter the Slayer Tower.",
+        "Attacking without earmuffs or a Slayer helmet deals 6 damage per hit and greatly drains all combat stats."
+      ]
+    },
+    {
+      "variantId": "twisted-banshee",
+      "name": "Twisted Banshee",
+      "combatLevel": 89,
+      "slayerXp": 100,
+      "locations": [
+        "Catacombs of Kourend"
+      ],
+      "notes": [
+        "Requires 69 Slayer to harm; still assignable under the Banshees task.",
+        "Regenerates 1 Hitpoint each time it is attacked, whether or not the hit lands."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "slayer-tower",
+      "name": "Slayer Tower (ground floor)",
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Standard Banshees spawn on the eastern side of the ground floor; the exact spawn count is not wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "Wear earmuffs or a Slayer helmet to avoid the 6-damage stat-draining scream."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 6,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "6 Twisted Banshee spawns; requires 69 Slayer to harm them.",
+        "Cannon placement is not wiki-stated, so the conservative default is used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Banshees require 15 Slayer, 20 combat, and Priest in Peril to be assigned by Turael, Spria, or Mazchna.",
+    "slayerTargetId 275 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Earmuffs (ItemID 4166) or a Slayer helmet must be worn, or each Banshee scream deals 6 damage and greatly drains Attack, Strength, Defence, Ranged, Magic, Prayer, and Agility.",
+    "Banshees are undead and spectral: the salve amulet and Crumble Undead apply.",
+    "Banshees have a 30% elemental weakness to air spells (Twisted Banshee 25%).",
+    "The standard Banshee (level 23) is on the Slayer Tower ground floor; the Twisted Banshee (level 89, 69 Slayer to harm) is in the Catacombs of Kourend and regenerates 1 HP per attack.",
+    "No task extension unlock exists for Banshees."
+  ],
+  "recommendedMethod": "Wear earmuffs or a Slayer helmet, then kill the ground-floor Banshees with any melee weapon; their low Defence makes weapon choice unimportant. Air spells exploit the 30% elemental weakness for a magic alternative. Higher-level players assigned Twisted Banshees in the Catacombs should still wear earmuffs and out-damage the 1 HP-per-attack regeneration."
+}

@@ -1,0 +1,29 @@
+{
+  "variantId": "chaos-elemental",
+  "name": "Chaos Elemental",
+  "npcIds": [
+    2054
+  ],
+  "combatLevel": 305,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 270,
+    "stab": 70,
+    "slash": 70,
+    "crush": 70,
+    "magic": 70,
+    "range": 70
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "West of the Rogues' Castle, deep Wilderness",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "chaos-elemental"
+}

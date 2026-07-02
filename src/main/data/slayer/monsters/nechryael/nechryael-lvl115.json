@@ -1,0 +1,31 @@
+{
+  "variantId": "nechryael",
+  "name": "Nechryael",
+  "npcIds": [
+    8,
+    11
+  ],
+  "combatLevel": 115,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 105,
+    "stab": 20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 0,
+    "range": 20
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Slayer Tower, Charred Dungeon",
+  "locationId": "slayer-tower-top-floor-nechryael",
+  "requirement": "80 Slayer and 85 combat for assignment",
+  "bossId": null,
+  "strategyId": "nechryael"
+}

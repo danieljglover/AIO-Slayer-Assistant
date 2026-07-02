@@ -1,0 +1,321 @@
+{
+  "strategyId": "smoke-devil",
+  "variantIds": [
+    "smoke-devil"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Smoke_devil/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "kodai-wand",
+      "volatile-nightmare-staff",
+      "nightmare-staff",
+      "dragon-hunter-wand",
+      "ancient-sceptre",
+      "blue-moon-spear",
+      "accursed-sceptre"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "crystal-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "saradomin-godsword",
+        "style": "MELEE"
+      }
+    ],
+    "note": "Smoke devil strategy: use Ice Barrage or Ice Burst with a dwarf multicannon, Protect from Missiles, and a facemask or Slayer helmet. Kodai wand is best because it autocasts Ancient Magicks, gives magic damage, supplies water runes, and can save runes."
+  },
+  "requirements": [
+    "93 Slayer",
+    "Active Smoke devils Slayer task",
+    "40 Prayer for Protect from Missiles",
+    "Facemask or Slayer helmet for smoke protection",
+    "94 Magic for Ice Barrage; Ice Burst can be used at lower Magic",
+    "Dwarf multicannon and cannonballs for efficient grouping",
+    "High Defence and magic-damage armour such as Virtus or Ancestral are recommended",
+    "82+ Construction for ornate pool and jewellery box is recommended, or use ring of dueling for Ferox Enclave and Castle Wars"
+  ],
+  "mechanics": [
+    "Smoke devils attack only with ranged, and Protect from Missiles prevents all damage from their attacks.",
+    "The dungeon is smoky; players not wearing a facemask or Slayer helmet take periodic 10 damage.",
+    "Without face protection, Smoke devil attacks deal very rapid damage and drain stats.",
+    "Misclicking a Slayer helmet off the head, or equipping a rune full helm drop by mistake, can quickly lead to death.",
+    "Smoke devils have high defence and some magic defence, but their Magic level is low enough that barrage spells remain accurate.",
+    "The Smoke Devil Dungeon is large, so the cannon is used primarily to pull and stack monsters for barrage hits.",
+    "Valuable common drops such as rune chainbody, fire battlestaves, and air battlestaves help offset rune and cannonball costs; occult necklace drops can make the task profitable.",
+    "Bracelet of slaughter is usually favoured over Tormented bracelet because longer tasks maximise Slayer experience."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-transportation",
+      "label": "Requirements and transportation",
+      "combatStyle": "MAGIC",
+      "role": "setup",
+      "summary": "Bank, restore, and enter the Smoke Devil Dungeon with smoke protection and cannon supplies.",
+      "recommendedFor": [
+        "Every normal Smoke devil trip",
+        "Ice Barrage task completion",
+        "Players using Castle Wars or fairy ring access"
+      ],
+      "requiredOrKeyItems": [
+        "Facemask or Slayer helmet",
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Rune pouch",
+        "Ring of dueling",
+        "Teleport to house",
+        "Jewellery box",
+        "Ornate pool"
+      ],
+      "steps": [
+        "Bank at Castle Wars and run south-west to the Smoke Devil Dungeon entrance.",
+        "Alternatively use fairy ring BKP, then run south-west of the dungeon.",
+        "Use Ferox Enclave through ring of dueling or a player-owned house ornate pool to restore stats between trips.",
+        "Enter with a facemask or Slayer helmet equipped before taking Smoke devil attacks.",
+        "Run to the centre of the main room to place the cannon."
+      ],
+      "risks": [
+        "Smoke devils can only be fought on task.",
+        "Removing the Slayer helmet in combat can cause rapid stat-draining damage."
+      ]
+    },
+    {
+      "methodId": "smoke-protection",
+      "label": "Smoke protection",
+      "combatStyle": "MAGIC",
+      "role": "survival",
+      "summary": "Use face protection and Protect from Missiles to remove incoming Smoke devil damage.",
+      "recommendedFor": [
+        "Every normal Smoke devil method",
+        "Players checking task count mid-fight",
+        "Players picking up rune full helm drops"
+      ],
+      "requiredOrKeyItems": [
+        "Facemask",
+        "Slayer helmet",
+        "Prayer potion"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Keep Protect from Missiles active; Smoke devils attack only with ranged.",
+        "Wear a facemask or Slayer helmet to prevent dungeon smoke and stat-draining attack damage.",
+        "Avoid unequipping the Slayer helmet when checking task count.",
+        "Do not misclick rune full helm drops into the head slot.",
+        "Restore stats at Ferox Enclave or a player-owned house if smoke damage or mistakes drain stats."
+      ],
+      "risks": [
+        "Face protection mistakes can become lethal quickly when multiple Smoke devils are attacking.",
+        "Prayer dropping exposes the player to all grouped ranged attacks."
+      ]
+    },
+    {
+      "methodId": "cannon-barrage-grouping",
+      "label": "Cannon barrage grouping",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use the cannon to aggro the room, then stack Smoke devils around the western skeletons for barrage hits.",
+      "recommendedFor": [
+        "Fast Smoke devils tasks",
+        "High Slayer experience",
+        "Imbued heart and eternal gem hunting through superior spawns"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Steel cannonballs",
+        "Ice Barrage",
+        "Ice Burst",
+        "Kodai wand",
+        "Ancient Magicks autocast staff",
+        "Bracelet of slaughter"
+      ],
+      "prayers": [
+        "Protect from Missiles"
+      ],
+      "steps": [
+        "Place the cannon in the centre of the room to get Smoke devils attacking.",
+        "Run around each side of the skeleton to the west to group up Smoke devils from each direction.",
+        "Cast Ice Barrage into the stack to maximise multi-target hits.",
+        "Use Ice Burst at lower Magic if Ice Barrage is unavailable.",
+        "Reload the cannon if the account does not have enough Combat Achievements cannonball capacity for one full lure rotation.",
+        "Restore the stack when three or less Smoke devils are left.",
+        "Use a ranged weapon lure only when cannon use is impractical; the strategy page notes this is slower and mainly useful for some ironman accounts, especially ultimate ironmen."
+      ],
+      "risks": [
+        "Trying to stack the large cave without a cannon is significantly slower.",
+        "Poor grouping lowers barrage hits and experience rates.",
+        "Cannonball and rune costs are high, though common drops often compensate."
+      ]
+    },
+    {
+      "methodId": "magic-equipment",
+      "label": "Magic equipment",
+      "combatStyle": "MAGIC",
+      "role": "damage",
+      "summary": "Prioritise Ancient Magicks autocast, magic damage, and enough accuracy for Smoke devils' magic defence.",
+      "recommendedFor": [
+        "Ice Barrage users",
+        "Ice Burst budget setups",
+        "Players choosing between damage bracelet and Slayer experience"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet (i)",
+        "Facemask",
+        "Occult necklace",
+        "Kodai wand",
+        "Volatile nightmare staff",
+        "Nightmare staff",
+        "Dragon hunter wand",
+        "Ancient sceptre",
+        "Blue moon spear",
+        "Accursed sceptre",
+        "Virtus robes",
+        "Ancestral robes",
+        "Bracelet of slaughter",
+        "Tormented bracelet",
+        "Elidinis' ward"
+      ],
+      "steps": [
+        "Use Kodai wand where available because it can autocast Ancient Magicks, gives +15% magic damage, provides infinite water runes, and has a chance to save runes.",
+        "Use Volatile nightmare staff, Nightmare staff, Dragon hunter wand, Ancient sceptre, Blue moon spear, or Accursed sceptre as downgrade paths.",
+        "Use Slayer helmet (i) on task, or a facemask only when not using the helmet.",
+        "Use Virtus, Ancestral, Ahrim's, Dagon'hai, or Infinity robes based on budget.",
+        "Prefer Bracelet of slaughter for longer tasks and better overall Slayer experience; Tormented bracelet increases max hit but shortens the task.",
+        "Use Elidinis' ward, Arcane spirit shield, Ancient wyvern shield, Mage's book, Malediction ward, or Book of darkness as off-hand options."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Facemask"
+          ],
+          "neck": [
+            "Occult necklace",
+            "3rd age amulet",
+            "Bonecrusher necklace",
+            "Dragonbone necklace",
+            "Amulet of fury"
+          ],
+          "weapon": [
+            "Kodai wand",
+            "Volatile nightmare staff",
+            "Nightmare staff",
+            "Dragon hunter wand",
+            "Ancient sceptre",
+            "Blue moon spear",
+            "Accursed sceptre (a)"
+          ],
+          "body": [
+            "Virtus robe top",
+            "Ancestral robe top",
+            "Ahrim's robetop",
+            "Dagon'hai robe top",
+            "Infinity top"
+          ],
+          "legs": [
+            "Virtus robe bottom",
+            "Ancestral robe bottom",
+            "Ahrim's robeskirt",
+            "Dagon'hai robe bottom",
+            "Infinity bottoms"
+          ],
+          "hands": [
+            "Bracelet of slaughter",
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MAGIC",
+      "role": "trip-planning",
+      "summary": "Bring cannon parts, runes, bracelets, and restoration while banking/alching enough drops to offset costs.",
+      "recommendedFor": [
+        "Long barrage trips",
+        "Bracelet of slaughter task extension",
+        "Players sustaining rune and cannonball costs"
+      ],
+      "requiredOrKeyItems": [
+        "Volatile nightmare staff or special attack weapon",
+        "Prayer potions",
+        "Steel cannonballs",
+        "Cannon stand",
+        "Cannon furnace",
+        "Cannon barrels",
+        "Cannon base",
+        "Explorer's ring",
+        "Bracelet of slaughter",
+        "Silklined herb sack",
+        "Saturated heart",
+        "Teleport to house tablet",
+        "Rune pouch"
+      ],
+      "inventory": [
+        "Dwarf multicannon parts",
+        "Steel cannonballs",
+        "Prayer potions",
+        "Bracelet of slaughter swaps",
+        "Saturated heart or other Magic boost",
+        "Rune pouch with water, blood, and death runes",
+        "Teleport to house or ring of dueling",
+        "Herb sack"
+      ],
+      "steps": [
+        "Bring all four cannon pieces and enough cannonballs for the expected lure rotations.",
+        "Use water, blood, and death runes for Ice Barrage; Kodai wand supplies water runes.",
+        "Use Bracelet of slaughter to lengthen tasks and maximise Slayer experience.",
+        "Keep valuable common drops such as rune chainbody, fire battlestaves, and air battlestaves when inventory allows.",
+        "Prioritise occult necklace drops and superior spawns as the major profit spikes.",
+        "Use Explorer's ring or rune pouch alchemy only if it does not interrupt the barrage stack."
+      ],
+      "notes": [
+        "The strategy page says realistic experience is about 120,000 Slayer experience per hour, with up to 180,000 per hour possible depending on efficiency."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ice-barrage-cannon",
+      "label": "Ice Barrage cannon",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Kodai wand or other Ancient Magicks autocast staff with cannon grouping.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Kodai wand",
+            "Volatile nightmare staff",
+            "Nightmare staff",
+            "Ancient sceptre"
+          ],
+          "hands": [
+            "Bracelet of slaughter",
+            "Tormented bracelet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ice-burst-budget",
+      "label": "Ice Burst budget",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Lower-Magic version of the same cannon grouping method using Ice Burst."
+    },
+    {
+      "styleId": "ranged-lure-ironman",
+      "label": "Ranged lure ironman",
+      "combatStyle": "RANGED",
+      "role": "fallback",
+      "summary": "Manual ranged lure with a weapon such as Magic shortbow; slower and mainly useful for some ironman accounts."
+    }
+  ],
+  "body": "# Smoke devil\n\nUse Ice Barrage or Ice Burst with a dwarf multicannon in the Smoke Devil Dungeon. Wear a facemask or Slayer helmet, keep Protect from Missiles active, and group Smoke devils around the western skeletons for multi-target barrage hits."
+}

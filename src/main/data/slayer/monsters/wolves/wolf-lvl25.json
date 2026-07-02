@@ -1,0 +1,39 @@
+{
+  "variantId": "wolf-lvl25",
+  "name": "Wolf",
+  "npcIds": [
+    110
+  ],
+  "combatLevel": 25,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 16,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "White Wolf Mountain, Feldip Hills, Fremennik Province",
+  "requirement": "Combat level 20 to be assigned",
+  "bossId": null,
+  "strategyId": "wolves",
+  "offence": {
+    "hitpoints": 20,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

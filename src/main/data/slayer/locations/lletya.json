@@ -1,0 +1,11 @@
+{
+  "locationId": "lletya",
+  "name": "Lletya",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires enough Mourning's End Part I progress to access Lletya. Contains 1 Elf Archer and 2 Elf Warriors downstairs; use the bench near the entrance, village poles, or the wall closest to Arianwyn to safespot warriors, with a nearby bank and upstairs prayer altar."
+}

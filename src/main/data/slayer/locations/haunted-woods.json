@@ -1,0 +1,11 @@
+{
+  "locationId": "haunted-woods",
+  "name": "Haunted Woods",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Priest in Peril. Fairy ring ALQ is in the middle of the woods; nearby leeches can drain stats and do not appear on the minimap."
+}

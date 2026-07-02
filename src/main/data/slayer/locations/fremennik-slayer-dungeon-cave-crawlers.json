@@ -1,0 +1,11 @@
+{
+  "locationId": "fremennik-slayer-dungeon-cave-crawlers",
+  "name": "Fremennik Slayer Dungeon (Cave crawlers)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Cave crawler section of the Fremennik Slayer Dungeon, entered from Rellekka. No special protective item is needed for cave crawlers, but they are poisonous, so bring antipoison. Cannon usability here is not wiki-confirmed (conservative default: off)."
+}

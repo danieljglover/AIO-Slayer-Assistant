@@ -1,0 +1,29 @@
+{
+  "variantId": "ankou-level-95",
+  "name": "Ankou (Level 95)",
+  "npcIds": [
+    7257
+  ],
+  "combatLevel": 95,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Catacombs of Kourend / The Forgotten Cemetery / Wilderness Slayer Cave / Deepfin Mine",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "ankou"
+}

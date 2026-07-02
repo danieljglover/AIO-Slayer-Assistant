@@ -1,0 +1,11 @@
+{
+  "locationId": "iorwerth-dungeon-waterfiends",
+  "name": "Iorwerth Dungeon - Waterfiends",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 20 Waterfiends. Requires Song of the Elves and is quickly reached with a teleport crystal. A dwarf multicannon can be used here, and Waterfiends can drop crystal shards in this dungeon."
+}

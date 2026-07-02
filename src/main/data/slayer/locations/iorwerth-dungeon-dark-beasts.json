@@ -1,0 +1,11 @@
+{
+  "locationId": "iorwerth-dungeon-dark-beasts",
+  "name": "Iorwerth Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires Song of the Elves. Contains 10 Dark beasts, is single-combat, supports a dwarf multicannon, is not safespottable for the task page, and Dark beasts killed here can drop crystal shards."
+}

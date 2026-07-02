@@ -1,0 +1,41 @@
+{
+  "variantId": "bat-lvl6",
+  "name": "Bat",
+  "npcIds": [
+    2827,
+    10888,
+    14042
+  ],
+  "combatLevel": 6,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": 2,
+    "slash": 2,
+    "crush": 5,
+    "magic": 2,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "West of Paterdomus, Kandarin and Morytania",
+  "requirement": "Combat level 5 to be assigned",
+  "bossId": null,
+  "strategyId": "bats",
+  "offence": {
+    "hitpoints": 8,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "variantId": "demonic-gorilla",
+  "name": "Demonic gorilla",
+  "npcIds": [
+    7144,
+    7145,
+    7146,
+    7147,
+    7148,
+    7149,
+    7152
+  ],
+  "combatLevel": 275,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 200,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 20,
+    "range": 0
+  },
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Crash Site Cavern",
+  "requirement": "Monkey Madness II; needs prayer-switching; not when assigned by Krystilia/Konar",
+  "bossId": null,
+  "strategyId": "demonic-gorilla"
+}

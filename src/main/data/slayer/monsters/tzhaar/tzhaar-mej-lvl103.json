@@ -1,0 +1,35 @@
+{
+  "variantId": "tzhaar-mej",
+  "name": "TzHaar-Mej",
+  "npcIds": [
+    2154,
+    2155,
+    2156,
+    2157,
+    2158,
+    2159,
+    2160
+  ],
+  "combatLevel": 103,
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mor Ul Rek",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "tzhaar"
+}

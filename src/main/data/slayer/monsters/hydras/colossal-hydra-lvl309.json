@@ -1,0 +1,30 @@
+{
+  "variantId": "colossal-hydra",
+  "name": "Colossal Hydra",
+  "npcIds": [
+    10402
+  ],
+  "combatLevel": 309,
+  "weakness": {
+    "style": "RANGED",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 100,
+    "slash": 200,
+    "crush": 200,
+    "magic": 200,
+    "range": 20
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Karuulm Slayer Dungeon (task-only area)",
+  "locationId": "karuulm-slayer-dungeon-hydras",
+  "requirement": "Superior variant; requires the Bigger and Badder unlock (1/200 spawn, 1/150 after elite Combat Achievements)",
+  "bossId": null,
+  "strategyId": "hydras"
+}

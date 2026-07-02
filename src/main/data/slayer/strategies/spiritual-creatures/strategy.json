@@ -1,0 +1,355 @@
+{
+  "strategyId": "spiritual-creatures",
+  "variantIds": [
+    "spiritual-creature",
+    "spiritual-ranger-zamorak",
+    "spiritual-ranger-saradomin",
+    "spiritual-ranger-bandos",
+    "spiritual-ranger-armadyl",
+    "spiritual-ranger-zaros",
+    "spiritual-warrior-zamorak",
+    "spiritual-warrior-saradomin",
+    "spiritual-warrior-bandos",
+    "spiritual-warrior-armadyl",
+    "spiritual-warrior-zaros",
+    "spiritual-mage-zamorak",
+    "spiritual-mage-saradomin",
+    "spiritual-mage-bandos",
+    "spiritual-mage-armadyl",
+    "spiritual-mage-zaros"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Spiritual_creatures",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "zamorakian-hasta",
+      "saradomin-godsword"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "rune-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "armadyl-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "toxic-staff-of-the-dead",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Spiritual creatures task strategy: skip or block rangers; if killing, use Zamorak's Fortress for warriors and Zamorak's Fortress or Ancient Prison for mages. Wear god-affiliated items for tolerance; Spiritual creatures are not cannonable or AFK-friendly."
+  },
+  "requirements": [
+    "Death Plateau completed before assignment",
+    "80 combat before assignment",
+    "60 Strength or 60 Agility before assignment",
+    "63 Slayer for Spiritual rangers",
+    "68 Slayer for Spiritual warriors",
+    "83 Slayer for Spiritual mages",
+    "70 Hitpoints for Zamorak's Fortress",
+    "70 Strength and a hammer for Bandos spiritual creatures",
+    "70 Ranged and a crossbow that can fire a mithril grapple for Armadyl spiritual creatures",
+    "The Frozen Door miniquest plus 70 Strength, Hitpoints, Ranged, and Agility for Zaros spiritual creatures"
+  ],
+  "mechanics": [
+    "Spiritual creatures are only found in the God Wars Dungeon and Wilderness God Wars Dungeon.",
+    "Followers of each god are aggressive unless the player wears an item aligned to their god.",
+    "God item protection is effectively required because these are multicombat dungeons with many monsters.",
+    "Main God Wars Dungeon routing should include a Zamorak item and usually a Saradomin item.",
+    "Ancient Prison kills require a Zaros item inside; Saradomin and Zamorak items are still recommended for the route to the entrance.",
+    "Wilderness God Wars Dungeon routing should include one Armadyl or Bandos item depending on entrance, one Saradomin item, and one Zamorak item.",
+    "Spiritual rangers are generally skipped or blocked.",
+    "Spiritual warriors are only recommended if killing them in Zamorak's Fortress.",
+    "Spiritual mages are recommended in Zamorak's Fortress or Ancient Prison, especially for dragon boots.",
+    "Spiritual creatures are cannon-immune, not AFK-friendly, and give poor experience and drops relative to many similarly levelled monsters."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-access",
+      "label": "Requirements and access",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Confirm the assignment, Slayer, dungeon, and wing requirements before choosing a target.",
+      "recommendedFor": [
+        "Every Spiritual creatures task",
+        "Players choosing between main dungeon, Ancient Prison, and Wilderness",
+        "Accounts deciding whether to block or skip"
+      ],
+      "requiredOrKeyItems": [
+        "Death Plateau",
+        "60 Strength or 60 Agility",
+        "God-affiliated protection items",
+        "Hammer for Bandos area",
+        "Crossbow and mithril grapple for Armadyl area",
+        "The Frozen Door for Ancient Prison",
+        "Teleport out"
+      ],
+      "steps": [
+        "Confirm the task was assigned by Krystilia, Vannaka, Chaeldar, Nieve/Steve, or Duradel/Kuradal.",
+        "Confirm 63 Slayer for rangers, 68 Slayer for warriors, and 83 Slayer for mages.",
+        "Use main God Wars Dungeon for original Armadyl, Bandos, Saradomin, and Zamorak variants.",
+        "Use Ancient Prison only after The Frozen Door when targeting Zaros variants.",
+        "Use Wilderness God Wars Dungeon only when accepting level 28-32 Wilderness player-killer risk.",
+        "Do not bring a cannon; all Spiritual creature pages mark them cannon immune."
+      ],
+      "risks": [
+        "Wrong god-item protection can make many nearby monsters aggressive at once.",
+        "Wilderness God Wars Dungeon deaths can lose carried items."
+      ]
+    },
+    {
+      "methodId": "god-item-protection",
+      "label": "God item protection",
+      "combatStyle": "MELEE",
+      "role": "survival",
+      "summary": "Wear god-affiliated items so nearby followers become tolerant instead of aggressive.",
+      "recommendedFor": [
+        "All God Wars Dungeon Spiritual creature kills",
+        "Players entering Zamorak's Fortress",
+        "Players crossing to Ancient Prison"
+      ],
+      "requiredOrKeyItems": [
+        "Zamorak-affiliated item",
+        "Saradomin-affiliated item",
+        "Armadyl-affiliated item",
+        "Bandos-affiliated item",
+        "Zaros-affiliated item"
+      ],
+      "steps": [
+        "In the main God Wars Dungeon, wear at least one Zamorak-affiliated item because Zamorak followers are found in all corners.",
+        "Add a second item for the god being targeted; this is usually Saradomin because Bandos and Armadyl spiritual creatures are rarely killed.",
+        "In the Ancient Prison, wear a Zaros-affiliated item inside.",
+        "Carry Saradomin and Zamorak protection while running to the Ancient Prison entrance.",
+        "In the Wilderness God Wars Dungeon, bring one Armadyl or Bandos item depending on entrance, plus one Saradomin item and one Zamorak item."
+      ],
+      "risks": [
+        "Without god item tolerance, multicombat aggression can quickly become fatal.",
+        "Zamorak's Fortress drains all prayer points when entering."
+      ]
+    },
+    {
+      "methodId": "target-selection",
+      "label": "Target selection",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Follow the task page's practical target guidance.",
+      "recommendedFor": [
+        "Fast task decisions",
+        "Block-list planning",
+        "Ironman dragon boots routing"
+      ],
+      "steps": [
+        "Spiritual rangers are recommended to skip or block.",
+        "Spiritual warriors are only recommended if killing them in Zamorak's Fortress.",
+        "Spiritual mages are recommended in Zamorak's Fortress or Ancient Prison.",
+        "Many players block the task because it is neither cannonable nor AFK-friendly.",
+        "Ironman players may unblock the task once they have 83 Slayer to get dragon boots from Spiritual mages."
+      ],
+      "notes": [
+        "The task page says Armadyl and Bandos spiritual creatures are rarely killed.",
+        "Spiritual mages are the only Spiritual creatures that drop dragon boots."
+      ]
+    },
+    {
+      "methodId": "zamorak-fortress-warriors",
+      "label": "Zamorak Fortress warriors",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use Zamorak's Fortress when choosing to kill Spiritual warriors.",
+      "recommendedFor": [
+        "Players choosing warriors despite the task's poor efficiency",
+        "Melee task completion",
+        "Accounts with 70 Hitpoints"
+      ],
+      "requiredOrKeyItems": [
+        "70 Hitpoints",
+        "Zamorak protection item",
+        "Saradomin protection item for route",
+        "Melee weapon",
+        "Food",
+        "Prayer restoration after entry"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Piety"
+      ],
+      "steps": [
+        "Enter Zamorak's Fortress only after accounting for the prayer drain on entry.",
+        "Use Zamorak and route protection items to prevent extra multicombat aggression.",
+        "Kill Zamorak spiritual warriors when choosing warriors; the task page recommends this area if killing warriors at all.",
+        "Use melee as the default style for non-Armadyl warriors.",
+        "Consider safespots made from piles of stones inside Zamorak's base when using Ranged or Magic."
+      ],
+      "risks": [
+        "Entering Zamorak's Fortress drains all prayer points.",
+        "The task is low efficiency compared with many alternatives."
+      ]
+    },
+    {
+      "methodId": "spiritual-mages",
+      "label": "Spiritual mages",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Target Spiritual mages for dragon boots, usually in Zamorak's Fortress or Ancient Prison.",
+      "recommendedFor": [
+        "Ironman dragon boots",
+        "Players who choose not to block Spiritual creatures",
+        "Accounts with 83 Slayer"
+      ],
+      "requiredOrKeyItems": [
+        "83 Slayer",
+        "God item protection",
+        "Melee weapon",
+        "Magic defence gear",
+        "Teleport out"
+      ],
+      "steps": [
+        "Use Spiritual mages if killing the task for dragon boots.",
+        "Prefer Zamorak's Fortress or Ancient Prison according to the task page.",
+        "Protect or gear against Magic because all Spiritual mages use Magic attacks.",
+        "Treat Zamorakian Flames of Zamorak hits as Magic-drain risk.",
+        "Use Zarosian mages only when prepared for Ancient Magicks side effects."
+      ],
+      "risks": [
+        "Zamorakian Flames of Zamorak drains Magic if it hits and deals damage.",
+        "Zarosian Ancient Magicks effects can poison, drain Attack, heal the mage, or freeze the player."
+      ]
+    },
+    {
+      "methodId": "zaros-ancient-prison",
+      "label": "Zaros Ancient Prison",
+      "combatStyle": "MELEE",
+      "role": "advanced",
+      "summary": "Use Ancient Prison for Zaros variants only when prepared for stronger enemies and special attacks.",
+      "recommendedFor": [
+        "Accounts with The Frozen Door complete",
+        "Players targeting Zaros spiritual mages",
+        "Players accepting harder variants for better Zaros mage drops"
+      ],
+      "requiredOrKeyItems": [
+        "The Frozen Door",
+        "70 Strength",
+        "70 Hitpoints",
+        "70 Ranged",
+        "70 Agility",
+        "Zaros-affiliated item",
+        "Saradomin and Zamorak route protection"
+      ],
+      "steps": [
+        "Wear a Zaros item inside the Ancient Prison.",
+        "Use Saradomin and Zamorak protection while running to the entrance.",
+        "Expect Zaros spiritual creatures to be significantly stronger than the original four gods' variants.",
+        "Move away from Zarosian warrior smoke clouds that form an X around the player.",
+        "Dodge Zarosian ranger arrows that land on the player's position.",
+        "Expect Zarosian mage Ancient Magicks side effects even when prayer blocks the damage."
+      ],
+      "risks": [
+        "Zarosian warrior smoke clouds can hit up to 40 damage and can hit safespotting players.",
+        "Zarosian ranger arrows can deal 35+ damage, disable overhead protection prayers, and bind the player.",
+        "Zarosian mage smoke, shadow, blood, and ice effects can poison, drain Attack, heal, or freeze."
+      ]
+    },
+    {
+      "methodId": "wilderness-god-wars",
+      "label": "Wilderness God Wars",
+      "combatStyle": "MELEE",
+      "role": "wilderness",
+      "summary": "Only use the Wilderness dungeon when accepting PvP risk.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "Players intentionally using Wilderness God Wars Dungeon",
+        "Diary-related kills"
+      ],
+      "requiredOrKeyItems": [
+        "Wilderness escape teleport within restrictions",
+        "God item protection",
+        "Low-risk gear"
+      ],
+      "steps": [
+        "Use Wilderness God Wars Dungeon only when accepting level 28-32 Wilderness risk.",
+        "Bring one Armadyl or Bandos item depending on entrance, one Saradomin item, and one Zamorak item.",
+        "Use safespots where possible; the task page marks all Spiritual creature Wilderness rows as safespottable.",
+        "Do not bring items you are unwilling to lose."
+      ],
+      "risks": [
+        "Player killers are the primary risk.",
+        "Multicombat monsters can interfere while escaping."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "combatStyle": "MELEE",
+      "role": "trip-planning",
+      "summary": "Plan supplies around god protection, route requirements, and low-value drops.",
+      "recommendedFor": [
+        "Any completed Spiritual creatures task",
+        "Dragon boots hunting",
+        "Wilderness risk management"
+      ],
+      "inventory": [
+        "God-affiliated protection items",
+        "Food",
+        "Prayer potions or restoration after Zamorak entry",
+        "Teleport out",
+        "Hammer for Bandos",
+        "Crossbow and mithril grapple for Armadyl",
+        "Looting bag only if using Wilderness God Wars Dungeon"
+      ],
+      "steps": [
+        "Bring the minimum number of god items needed to make nearby monsters tolerant.",
+        "Reserve inventory or worn slots for special access items such as hammer or mithril grapple.",
+        "Use Spiritual mages for dragon boots if the account needs them.",
+        "Do not expect strong profit outside dragon boots and Zarosian improved drop tables.",
+        "Keep Wilderness setups low-risk."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "zamorak-warriors-melee",
+      "label": "Zamorak warriors melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Melee Spiritual warriors in Zamorak's Fortress if choosing warriors.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Abyssal whip",
+            "Zamorakian hasta",
+            "Saradomin godsword"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "spiritual-mages-dragon-boots",
+      "label": "Spiritual mages dragon boots",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Target Spiritual mages at 83 Slayer for dragon boots, using Zamorak's Fortress or Ancient Prison."
+    },
+    {
+      "styleId": "zaros-ancient-prison",
+      "label": "Zaros Ancient Prison",
+      "combatStyle": "MELEE",
+      "role": "advanced",
+      "summary": "Harder Zaros variants requiring The Frozen Door and Zaros protection."
+    },
+    {
+      "styleId": "ranged-or-magic-safespot",
+      "label": "Ranged or Magic safespot",
+      "combatStyle": "RANGED",
+      "role": "fallback",
+      "summary": "Use safespots with Ranged or Magic when appropriate, especially around Zamorak Fortress piles of stones."
+    }
+  ],
+  "body": "# Spiritual creatures\n\nTask-page strategy for Spiritual creatures: most players skip or block. If killing, use Zamorak's Fortress for warriors or Zamorak's Fortress/Ancient Prison for mages, wear god items for tolerance, and target mages for dragon boots."
+}

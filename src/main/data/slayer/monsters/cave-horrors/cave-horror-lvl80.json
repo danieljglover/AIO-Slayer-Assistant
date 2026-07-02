@@ -1,0 +1,33 @@
+{
+  "variantId": "cave-horror",
+  "name": "Cave horror",
+  "npcIds": [
+    1047,
+    1048,
+    1049,
+    1050,
+    1051
+  ],
+  "combatLevel": 80,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 62,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mos Le'Harmless Cave (Worker / Young worker / Guard / Small guard / Alpha)",
+  "requirement": "Cabin Fever; witchwood icon to melee; light source",
+  "bossId": null,
+  "strategyId": "cave-horrors"
+}

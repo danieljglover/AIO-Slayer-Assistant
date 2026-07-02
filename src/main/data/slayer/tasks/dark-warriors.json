@@ -1,0 +1,89 @@
+{
+  "taskId": "dark-warriors",
+  "name": "Dark warriors",
+  "wikiPageId": 15856,
+  "combatLevel": null,
+  "slayerTargetId": 256,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 4
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "dark-warriors"
+  ],
+  "variantIds": [
+    "dark-warrior-lvl8"
+  ],
+  "defaultVariantId": "dark-warrior-lvl8",
+  "weakness": {
+    "style": "MAGIC",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 5,
+    "stab": 96,
+    "slash": 79,
+    "crush": 59,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "dark-warriors-fortress"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "dark-warrior-lvl8",
+      "name": "Dark warrior",
+      "combatLevel": 8,
+      "slayerXp": 17,
+      "locations": [
+        "Dark Warriors' Fortress"
+      ],
+      "notes": [
+        "Level 8 Dark warrior roaming the corridors of the Dark Warriors' Fortress (low-level Wilderness, north-west of Edgeville); 17 hitpoints.",
+        "Huge melee defensive bonuses (stab +96, slash +79, crush +59) but zero magic and ranged defence, so magic or ranged is fastest."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "dark-warriors-fortress",
+      "name": "Dark Warriors' Fortress",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Level 8 Dark warriors roam the fortress corridors in the low-level Wilderness north-west of Edgeville.",
+        "Multicombat, cannon placement and safespots are not definitively wiki-stated; conservative defaults are used."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Dark warriors are assigned only by Krystilia and must be killed in the Wilderness to count; there is no combat, Slayer or quest requirement.",
+    "slayerTargetId 256 is SYNTHETIC (C2/C3 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "The slayer-countable Dark warriors are the level 8 warriors of the Dark Warriors' Fortress (low-level Wilderness north-west of Edgeville).",
+    "They have huge melee defensive bonuses (stab +96) but zero magic and ranged defence, so magic or ranged is by far the fastest style.",
+    "No task extension unlock exists for Dark warriors."
+  ],
+  "recommendedMethod": "Attack the level 8 Dark warriors in the Dark Warriors' Fortress with magic or ranged; their melee defence is very high (stab +96) but magic and ranged defence are zero. The fortress is low-level Wilderness, but bring risk-appropriate gear."
+}

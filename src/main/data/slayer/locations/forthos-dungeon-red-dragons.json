@@ -1,0 +1,11 @@
+{
+  "locationId": "forthos-dungeon-red-dragons",
+  "name": "Forthos Dungeon (adult red dragons)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 6 adult Red dragons. There is a safespot next to the fire and stalagmite near the strange floor agility shortcut; after unlocking the Sacred Bone Burner, bones can be sacrificed there for bonus XP, and the nearby altar can sustain Prayer."
+}

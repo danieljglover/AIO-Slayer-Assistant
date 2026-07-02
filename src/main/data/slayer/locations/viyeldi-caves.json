@@ -1,0 +1,11 @@
+{
+  "locationId": "viyeldi-caves",
+  "name": "Viyeldi caves",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Viyeldi caves hold 3 Lesser demons; multicombat, cannonable and safespottable. Requires Legends' Quest area access (lockpick and quest progression)."
+}

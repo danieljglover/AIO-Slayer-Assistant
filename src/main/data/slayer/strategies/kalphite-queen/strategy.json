@@ -1,0 +1,236 @@
+{
+  "strategyId": "kalphite-queen",
+  "variantIds": [
+    "kalphite-queen"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Kalphite_Queen/Strategies",
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "toxic-blowpipe",
+      "twisted-bow",
+      "bow-of-faerdhinen",
+      "dragon-crossbow",
+      "rune-crossbow"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "keris-partisan-of-breaching",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "keris-partisan",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "inquisitor-s-mace",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Two phases - ground form best meleed (Keris is the kalphite weapon, use crush), airborne wasp form best ranged. Slayer helm (i) on task is the biggest DPS boost."
+  },
+  "requirements": [
+    "Access to Kalphite Queen's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Two phases - ground form best meleed (Keris is the kalphite weapon, use crush), airborne wasp form best ranged. Slayer helm (i) on task is the biggest DPS boost.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "RANGED",
+      "role": "general",
+      "summary": "Two phases - ground form best meleed (Keris is the kalphite weapon, use crush), airborne wasp form best ranged. Slayer helm (i) on task is the biggest DPS boost.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "toxic-blowpipe",
+        "twisted-bow",
+        "bow-of-faerdhinen",
+        "dragon-crossbow",
+        "rune-crossbow",
+        "keris-partisan-of-breaching",
+        "keris-partisan",
+        "inquisitor-s-mace",
+        "tumeken-s-shadow"
+      ],
+      "steps": [
+        "Two phases - ground form best meleed (Keris is the kalphite weapon, use crush), airborne wasp form best ranged. Slayer helm (i) on task is the biggest DPS boost.",
+        "Bring melee for the crawling form and ranged, magic, or Shadow for the airborne form."
+      ]
+    },
+    {
+      "methodId": "travel-and-access",
+      "label": "Travel and lair access",
+      "combatStyle": "RANGED",
+      "role": "travel",
+      "summary": "Reach the Kalphite Lair with ropes unless diary rewards remove that requirement, then use the shortcut after Elite Desert Diary when available.",
+      "recommendedFor": [
+        "Kalphite Queen trip setup",
+        "players deciding pre- or post-Elite Desert Diary routing"
+      ],
+      "requiredOrKeyItems": [
+        "Two ropes before hard Desert Diary",
+        "Desert amulet",
+        "Antipoison",
+        "Teleport out",
+        "86 Agility for the Elite Desert Diary shortcut"
+      ],
+      "steps": [
+        "Travel west of Shantay Pass to the surface entrance or use diary-supported routes.",
+        "Bring two ropes if the hard Desert Diary has not permanently placed them.",
+        "Pass through the Kalphite Lair, avoiding or tanking poisonous Kalphite soldiers and guardians.",
+        "After Elite Desert Diary, use the 86 Agility shortcut to speed up return trips."
+      ],
+      "risks": [
+        "Forgetting ropes can block access before diary completion.",
+        "Kalphite soldiers and guardians can poison on the route."
+      ],
+      "notes": [
+        "Pre-Elite Desert Diary trips are slower, so flinching and longer trips are more attractive.",
+        "Post-Elite Desert Diary routing favours higher-damage, shorter return trips."
+      ]
+    },
+    {
+      "methodId": "two-phase-main-kill",
+      "label": "Two-phase main kill",
+      "combatStyle": "RANGED",
+      "role": "default",
+      "summary": "Melee the crawling form with Keris or crush weapons, then switch to ranged, magic, or Shadow for the airborne form while praying Protect from Magic.",
+      "recommendedFor": [
+        "standard Kalphite Queen kills",
+        "on-task Slayer helmet kills",
+        "players using high-damage switches"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet (i)",
+        "Keris partisan of breaching",
+        "Dragon warhammer",
+        "Elder maul",
+        "Toxic blowpipe",
+        "Tumeken's shadow",
+        "Thralls or Vengeance"
+      ],
+      "prayers": [
+        "Protect from Magic",
+        "Piety for phase one"
+      ],
+      "steps": [
+        "Use melee crush or Keris partisan of breaching on the crawling form.",
+        "Use Dragon warhammer or Elder maul special attacks if using melee and ranged to lower Defence.",
+        "Walk under the Queen at the start of the airborne phase to avoid giving her an extra attack.",
+        "Use Toxic blowpipe, Twisted bow, Bow of faerdhinen, Tumeken's shadow, or Eye of ayak on phase two.",
+        "Keep hitpoints above 31 because her ranged and magic attacks always roll a successful hit, even if they can hit zero."
+      ],
+      "risks": [
+        "Magic and ranged attacks are very accurate and can stack with worker pressure.",
+        "The Queen can hatch Kalphite Workers from nearby cocoons when hit."
+      ],
+      "notes": [
+        "Protect from Magic is preferred during both phases, especially in groups where ranged attacks can bounce.",
+        "Thralls significantly improve kill speed; Vengeance is an alternative or supplement with Spellbook Swap."
+      ]
+    },
+    {
+      "methodId": "guardian-flinch-setup",
+      "label": "Guardian flinch setup",
+      "combatStyle": "MELEE",
+      "role": "flinch",
+      "summary": "Use the Kalphite Guardians and entrance rope positioning to trap the Queen for low-resource flinching.",
+      "recommendedFor": [
+        "mid-level players",
+        "iron accounts stretching supplies",
+        "pre-Elite Desert Diary KQ head attempts"
+      ],
+      "requiredOrKeyItems": [
+        "Keris partisan of breaching",
+        "Verac's flail",
+        "Zombie axe",
+        "Colossal blade",
+        "Book of the dead",
+        "Thrall runes"
+      ],
+      "prayers": [
+        "Protect from Melee while positioning guardians",
+        "Protect from Missiles while moving the Queen"
+      ],
+      "steps": [
+        "Enter the lair with Protect from Melee and lure the two Kalphite Guardians near the entrance.",
+        "Run back to the entrance rope and stand two tiles south so the guardians line up behind each other.",
+        "Turn on Protect from Missiles, run three tiles south of the Queen's south-western tile, then immediately run under her.",
+        "With the Queen trapped, step out only to attack and step back under or behind the trap before she can retaliate.",
+        "Resummon thralls where possible; they add damage while the Queen is trapped."
+      ],
+      "risks": [
+        "The safespot must be rebuilt after each kill.",
+        "Existing Kalphite Workers can interfere with resetting the trap unless killed or the world is hopped."
+      ],
+      "notes": [
+        "Flinching is slower but uses far fewer supplies and can extend trips to five or more kills.",
+        "Verac's equipment can hit through the Queen's high Defence on both forms."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged",
+      "label": "Ranged setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Primary Kalphite Queen setup using Toxic blowpipe.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Toxic blowpipe",
+            "Twisted bow",
+            "Bow of faerdhinen",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "melee-secondary",
+      "label": "Melee alternative",
+      "combatStyle": "MELEE",
+      "role": "secondary",
+      "summary": "Alternative melee option for Kalphite Queen when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Keris partisan of breaching",
+            "Keris partisan",
+            "Inquisitor's mace"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-secondary",
+      "label": "Magic alternative",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Alternative magic option for Kalphite Queen when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Kalphite Queen\n\nTwo phases - ground form best meleed (Keris is the kalphite weapon, use crush), airborne wasp form best ranged. Slayer helm (i) on task is the biggest DPS boost."
+}

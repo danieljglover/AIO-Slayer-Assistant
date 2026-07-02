@@ -1,0 +1,7 @@
+{
+  "rewardId": "i-wildy-more-slayer",
+  "name": "I Wildy More Slayer",
+  "pointsCost": 0,
+  "effect": "TASK_UNLOCK",
+  "notes": "Enables Krystilia's Wilderness slayer task list. Costs nothing to unlock."
+}

@@ -1,0 +1,11 @@
+{
+  "locationId": "asgarnian-ice-dungeon-task-only",
+  "name": "Asgarnian Ice Dungeon task-only area",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Task-only Skeletal Wyvern area reached by icy steps near the exit to the wyvern area; Steve/Pieve control access depending on Monkey Madness II progress."
+}

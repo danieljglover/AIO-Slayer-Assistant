@@ -1,0 +1,41 @@
+{
+  "variantId": "revenant-cyclops",
+  "name": "Revenant cyclops",
+  "npcIds": [
+    7934
+  ],
+  "combatLevel": 82,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 49,
+    "stab": 110,
+    "slash": 130,
+    "crush": 135,
+    "magic": 10,
+    "range": 135
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Revenant Caves (Wilderness levels 17-40).",
+  "locationId": "revenant-caves",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "revenants",
+  "offence": {
+    "hitpoints": 110,
+    "maxHit": 16,
+    "attackStyles": [
+      "MELEE",
+      "RANGED",
+      "MAGIC"
+    ],
+    "attackSpeedTicks": 6,
+    "magicLevel": 65
+  }
+}

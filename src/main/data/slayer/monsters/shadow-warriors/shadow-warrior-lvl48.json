@@ -1,0 +1,29 @@
+{
+  "variantId": "shadow-warrior",
+  "name": "Shadow warrior",
+  "npcIds": [
+    2853
+  ],
+  "combatLevel": 48,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 36,
+    "stab": 43,
+    "slash": 31,
+    "crush": 19,
+    "magic": 15,
+    "range": 38
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Legends' Guild Dungeon",
+  "requirement": "Completion of Legends' Quest for assignment",
+  "bossId": null,
+  "strategyId": "shadow-warriors"
+}

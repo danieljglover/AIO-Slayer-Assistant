@@ -1,0 +1,11 @@
+{
+  "locationId": "slayer-tower-top-floor",
+  "name": "Slayer Tower (top floor)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Gargoyles on the top floor of the Slayer Tower. The Gargoyles task page lists 8 spawns, no multicombat, no cannon, and a bookcase safespot; reaching the top floor may require passing banshees and aberrant spectres."
+}

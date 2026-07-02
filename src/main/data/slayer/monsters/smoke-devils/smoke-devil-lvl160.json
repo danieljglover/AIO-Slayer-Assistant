@@ -1,0 +1,29 @@
+{
+  "variantId": "smoke-devil",
+  "name": "Smoke devil",
+  "npcIds": [
+    498
+  ],
+  "combatLevel": 160,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 275,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 600,
+    "range": 44
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Smoke Devil Dungeon",
+  "requirement": "Slayer 93; active Smoke devils task; facemask or slayer helmet",
+  "bossId": null,
+  "strategyId": "smoke-devil"
+}

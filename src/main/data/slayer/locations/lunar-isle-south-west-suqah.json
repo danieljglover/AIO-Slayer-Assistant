@@ -1,0 +1,11 @@
+{
+  "locationId": "lunar-isle-south-west-suqah",
+  "name": "South-west Lunar Isle",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Contains 6 Suqah in the single-way south-west Lunar Isle area. A cannon placed directly north-west of the dead tree targets the melee-only Suqah while avoiding the nearby magic-using Suqah."
+}

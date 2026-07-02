@@ -1,0 +1,34 @@
+{
+  "variantId": "zombie-pirate",
+  "name": "Zombie pirate",
+  "npcIds": [
+    13489,
+    13490,
+    13491,
+    13492,
+    13493
+  ],
+  "combatLevel": 34,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "FIRE"
+  },
+  "monsterDefence": {
+    "defenceLevel": 20,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Chaos Temple (Wilderness)",
+  "locationId": "chaos-temple-wilderness",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "pirates"
+}

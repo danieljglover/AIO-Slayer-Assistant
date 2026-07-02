@@ -1,0 +1,307 @@
+{
+  "strategyId": "warped-creatures",
+  "variantIds": [
+    "warped-tortoise",
+    "warped-terrorbird-level-96",
+    "warped-terrorbird-level-138",
+    "mutated-tortoise",
+    "mutated-terrorbird"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Warped_creatures",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "sarachnis-cudgel",
+      "inquisitor-s-mace",
+      "dragon-mace",
+      "leaf-bladed-battleaxe",
+      "abyssal-whip",
+      "osmumten-s-fang"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "crystal-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "craw-s-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "warped-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Bring a crystal chime. Tortoises are simple with prayer melee or Ranged/Magic safespots; terrorbirds require earmuffs or Slayer helmet and can be handled with prayer/pathing safespots or cannoning."
+  },
+  "requirements": [
+    "56 Slayer",
+    "The Path of Glouphrie",
+    "Warped Reality unlock for 60 Slayer reward points",
+    "Crystal chime in inventory to damage Warped creatures",
+    "Earmuffs or Slayer helmet recommended for Warped Terrorbirds",
+    "Bigger and Badder for Mutated Tortoise and Mutated Terrorbird superior spawns"
+  ],
+  "mechanics": [
+    "Warped creatures are found exclusively in the Poison Waste Dungeon.",
+    "Without a crystal chime in inventory, Warped creatures are invulnerable.",
+    "Warped Tortoises only use melee and their damage is fully negated by Protect from Melee.",
+    "Warped Tortoises have a 20% elemental weakness to earth spells.",
+    "Warped Terrorbirds use melee and ranged and switch to the style not protected against.",
+    "Earmuffs or Slayer helmet halve Warped Terrorbird max hit and reduce chip damage through Protect from Missiles.",
+    "Warped Terrorbirds never lose aggression, which makes many dungeon areas poor safespots.",
+    "Mutated Tortoise and Mutated Terrorbird are superior variants from Bigger and Badder."
+  ],
+  "methods": [
+    {
+      "methodId": "requirements-and-unlock",
+      "label": "Requirements and unlock",
+      "combatStyle": "MELEE",
+      "role": "setup",
+      "summary": "Unlock Warped Reality, complete The Path of Glouphrie, and carry a crystal chime before fighting any Warped creature.",
+      "recommendedFor": [
+        "task setup",
+        "all Warped creature assignments"
+      ],
+      "requiredOrKeyItems": [
+        "The Path of Glouphrie",
+        "Warped Reality unlock",
+        "Crystal chime",
+        "Slayer helmet or black mask",
+        "Earmuffs for terrorbird travel or combat"
+      ],
+      "steps": [
+        "Confirm 56 Slayer and The Path of Glouphrie access.",
+        "Purchase Warped Reality for 60 Slayer reward points.",
+        "Bring the crystal chime in inventory or the monsters are invulnerable.",
+        "Wear Slayer helmet or bring earmuffs when running through or fighting terrorbirds.",
+        "Bring High Level Alchemy runes if staying for valuable drops."
+      ]
+    },
+    {
+      "methodId": "prayer-melee-tortoise",
+      "label": "Prayer melee tortoise",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use Protect from Melee and a crush-leaning melee setup on Warped Tortoises for the simplest low-attention task path.",
+      "recommendedFor": [
+        "low-attention tasks",
+        "players using prayer gear",
+        "players staying near the dungeon entrance"
+      ],
+      "requiredOrKeyItems": [
+        "Crystal chime",
+        "Crush melee weapon",
+        "Prayer bonus gear",
+        "Prayer potions or moonlight moth mixes",
+        "Teleport to a bank and spirit tree"
+      ],
+      "prayers": [
+        "Protect from Melee",
+        "Offensive melee prayers if supply state allows"
+      ],
+      "steps": [
+        "Fight tortoises near the entrance or deeper tortoise rooms.",
+        "Activate Protect from Melee to nullify their only attack style.",
+        "Use a crush weapon where available because tortoises have no crush defence bonus.",
+        "Prioritise prayer bonus for longer AFK time.",
+        "Use High Level Alchemy on valuable drops to extend trips."
+      ],
+      "notes": [
+        "Maces are useful budget options because they can provide prayer bonus.",
+        "The task page uses Sarachnis cudgel as the example melee weapon."
+      ]
+    },
+    {
+      "methodId": "ranged-tortoise-safespot",
+      "label": "Ranged tortoise safespot",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Safespot Warped Tortoises around the pillar room and kill them with Ranged without taking damage.",
+      "recommendedFor": [
+        "players preferring no-contact kills",
+        "players with strong Ranged gear"
+      ],
+      "requiredOrKeyItems": [
+        "Crystal chime",
+        "Fast ranged weapon",
+        "Optional Hunters' sunlight crossbow",
+        "Optional toxic blowpipe",
+        "Earmuffs for travelling past terrorbirds"
+      ],
+      "steps": [
+        "Travel to the tortoise safespot room around x=1505, y=4282.",
+        "Wear earmuffs or Slayer helmet while passing terrorbirds.",
+        "Stand behind the pillars so tortoises cannot reach you.",
+        "Use a fast ranged weapon; heavy ranged weakness exists, but fast weapons can outperform slow crossbows.",
+        "Use Eagle Eye or equivalent if bringing prayer restoration."
+      ],
+      "notes": [
+        "If using Eclipse atlatl, bring both Ranging potion and Super strength potion."
+      ]
+    },
+    {
+      "methodId": "magic-tortoise-safespot",
+      "label": "Magic tortoise safespot",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Safespot Warped Tortoises with Magic, using earth spells or powered staves depending on gear and Magic level.",
+      "recommendedFor": [
+        "players training Magic",
+        "players exploiting the earth weakness",
+        "players without strong ranged options"
+      ],
+      "requiredOrKeyItems": [
+        "Crystal chime",
+        "Twinflame staff or earth spell setup",
+        "Powered staff",
+        "High Level Alchemy runes",
+        "Earmuffs for travelling past terrorbirds"
+      ],
+      "prayers": [
+        "Mystic Might if using prayer restoration"
+      ],
+      "steps": [
+        "Use the same tortoise safespot room around x=1505, y=4282.",
+        "Cast earth spells with Twinflame staff or another earth setup to exploit the elemental weakness.",
+        "At higher Magic levels, compare powered staves such as Trident of the seas or Trident of the swamp.",
+        "Use Magic potion or Forgotten brew if it creates meaningful powered-staff DPS gains."
+      ],
+      "notes": [
+        "The task page notes Eye of ayak as an exception for terrorbird safespot reach; ordinary cast spells can reach."
+      ]
+    },
+    {
+      "methodId": "terrorbird-prayer-safespot",
+      "label": "Terrorbird prayer safespot",
+      "combatStyle": "RANGED",
+      "role": "advanced",
+      "summary": "Use earmuffs or Slayer helmet, then manipulate Warped Terrorbird prayer reactions so ranged attackers attempt melee pathing and become stuck.",
+      "recommendedFor": [
+        "terrorbird tasks",
+        "players comfortable with pathing setup",
+        "door or corner safespots"
+      ],
+      "requiredOrKeyItems": [
+        "Crystal chime",
+        "Earmuffs or Slayer helmet",
+        "9 tile range weapon such as Crystal bow or Craw's bow",
+        "Crossbow or shortbow on Longrange if needed",
+        "Protect from Missiles"
+      ],
+      "prayers": [
+        "Protect from Missiles",
+        "Avoid Protect from Melee after the safespot is established"
+      ],
+      "steps": [
+        "Open the two doors near the first terrorbird room and lure several terrorbirds.",
+        "Stand 9 tiles away near the warped tortoise or use a corner/waste-pit setup.",
+        "Use Protect from Missiles briefly so ranged terrorbirds switch to melee pathing.",
+        "Let unreachable terrorbirds become stuck rather than switching back to ranged.",
+        "Do not use Protect from Melee after setting this up, because terrorbirds react to prayer and switch styles."
+      ],
+      "risks": [
+        "Warped Terrorbirds never lose aggression.",
+        "Without earmuffs or Slayer helmet, their ranged chip damage is more dangerous.",
+        "Shortbows and crossbows need Longrange to reach some door safespots, reducing DPS."
+      ]
+    },
+    {
+      "methodId": "terrorbird-cannoning",
+      "label": "Terrorbird cannoning",
+      "combatStyle": "RANGED",
+      "role": "speed",
+      "summary": "Place a cannon around 1490,4263 and stand by a wall or waste pit so many cannon-targeted terrorbirds path behind obstacles.",
+      "recommendedFor": [
+        "faster terrorbird tasks",
+        "players using cannonballs",
+        "main-level terrorbird area"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Crystal chime",
+        "Earmuffs or Slayer helmet"
+      ],
+      "steps": [
+        "Set the cannon near 1490,4263 on the main level.",
+        "Stand against a wall or waste pit.",
+        "Let cannon-targeted terrorbirds path around the waste pit and block each other.",
+        "Use Protect from Missiles when ranged chip damage is possible.",
+        "Finish reachable terrorbirds while the cannon handles pathing pressure."
+      ],
+      "risks": [
+        "The task page marks terrorbird safespotting as conditional rather than guaranteed.",
+        "Poor standing position can let multiple terrorbirds reach melee distance."
+      ]
+    },
+    {
+      "methodId": "superior-variants",
+      "label": "Superior variants",
+      "combatStyle": "MELEE",
+      "role": "superior",
+      "summary": "Handle Mutated Tortoise and Mutated Terrorbird as Bigger and Badder superior spawns using the corresponding regular-monster plan.",
+      "recommendedFor": [
+        "Bigger and Badder unlock",
+        "superior spawn handling"
+      ],
+      "requiredOrKeyItems": [
+        "Bigger and Badder unlock",
+        "Crystal chime",
+        "Slayer helmet or black mask"
+      ],
+      "steps": [
+        "For Mutated Tortoise, continue using Protect from Melee or safespot methods.",
+        "For Mutated Terrorbird, keep the terrorbird prayer/pathing rules in mind.",
+        "Expect superior monsters to roll three additional regular-table drops plus the superior unique table."
+      ],
+      "notes": [
+        "Mutated Tortoise has a 25% elemental weakness to earth spells.",
+        "Mutated Terrorbird has -2 flat armour."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "prayer-melee-tortoise",
+      "label": "Prayer melee tortoise",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Protect from Melee, prayer gear, and crush-leaning melee weapons for the simplest tortoise task."
+    },
+    {
+      "styleId": "ranged-safespot",
+      "label": "Ranged safespot",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Ranged pillar safespot for tortoises or 9-tile door safespot for terrorbirds."
+    },
+    {
+      "styleId": "magic-safespot",
+      "label": "Magic safespot",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Magic safespot using earth spells on tortoises or longrange powered-staff/cast-spell options for terrorbirds."
+    }
+  ]
+}

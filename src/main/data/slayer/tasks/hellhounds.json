@@ -1,0 +1,388 @@
+{
+  "taskId": "hellhounds",
+  "name": "Hellhounds",
+  "wikiPageId": 256645,
+  "combatLevel": 75,
+  "slayerTargetId": 224,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "krystilia",
+    "vannaka",
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "krystilia": [
+      75,
+      125
+    ],
+    "vannaka": [
+      30,
+      60
+    ],
+    "chaeldar": [
+      70,
+      130
+    ],
+    "konar": [
+      120,
+      170
+    ],
+    "nieve": [
+      120,
+      185
+    ],
+    "duradel": [
+      130,
+      200
+    ]
+  },
+  "weightByMaster": {
+    "krystilia": 7,
+    "vannaka": 7,
+    "chaeldar": 9,
+    "konar": 8,
+    "nieve": 8,
+    "duradel": 10
+  },
+  "monsterIds": [
+    "hellhounds"
+  ],
+  "variantIds": [
+    "hellhound",
+    "hellhound-god-wars-dungeon",
+    "hellhound-wilderness-slayer-cave",
+    "skeleton-hellhound-vet-ion",
+    "greater-skeleton-hellhound-vet-ion",
+    "skeleton-hellhound-calvar-ion",
+    "greater-skeleton-hellhound-calvar-ion",
+    "hellhounds-cerberus"
+  ],
+  "defaultVariantId": "hellhound",
+  "weakness": {
+    "style": "MELEE",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 102,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": true,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "buccaneers-laboratory-hellhounds",
+    "catacombs-of-kourend",
+    "charred-dungeon-hellhounds",
+    "god-wars-dungeon",
+    "karuulm-slayer-dungeon-hellhounds",
+    "stronghold-slayer-cave",
+    "taverley-dungeon",
+    "witchaven-dungeon",
+    "wilderness-resource-area-hellhounds",
+    "wilderness-slayer-cave-hellhounds",
+    "vetion-hellhound-spawns",
+    "cerberus-lair"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "hellhound",
+      "name": "Hellhound",
+      "combatLevel": 122,
+      "slayerXp": 116,
+      "locations": [
+        "Catacombs of Kourend",
+        "East of Deserted Keep",
+        "Karuulm Slayer Dungeon",
+        "Stronghold Slayer Dungeon",
+        "Taverley Dungeon",
+        "Witchaven Dungeon",
+        "Buccaneers' Laboratory"
+      ],
+      "notes": [
+        "Standard Hellhounds, found in various locations around Gielinor.",
+        "Only attack with melee bites.",
+        "Hellhound monster page marks them as demonic, so demonbane weapons work.",
+        "Level 122 and level 136 versions have a 50% water weakness."
+      ]
+    },
+    {
+      "variantId": "hellhound-god-wars-dungeon",
+      "name": "Hellhound",
+      "combatLevel": 127,
+      "slayerXp": 116,
+      "locations": [
+        "God Wars Dungeon"
+      ],
+      "notes": [
+        "Stronger Hellhounds found only in the God Wars Dungeon.",
+        "Killing them contributes to Zamorak kill count.",
+        "God Wars Dungeon Hellhounds are aggressive unless wearing a Zamorak-affiliated item."
+      ]
+    },
+    {
+      "variantId": "hellhound-wilderness-slayer-cave",
+      "name": "Hellhound",
+      "combatLevel": 136,
+      "slayerXp": 150,
+      "locations": [
+        "Wilderness Slayer Cave"
+      ],
+      "notes": [
+        "Stronger Hellhounds found only in the Wilderness Slayer Cave.",
+        "Have access to the Wilderness Slayer Cave drop table.",
+        "Smouldering stone drop rate from these Hellhounds is increased by 50%."
+      ]
+    },
+    {
+      "variantId": "skeleton-hellhound-vet-ion",
+      "name": "Skeleton Hellhound (Vet'ion)",
+      "combatLevel": 214,
+      "slayerXp": 33,
+      "locations": [
+        "Vet'ion"
+      ],
+      "notes": [
+        "Two are summoned midway through Vet'ion's first phase.",
+        "They must be defeated to continue the fight.",
+        "For more information on fighting Vet'ion, see Vet'ion/Strategies."
+      ]
+    },
+    {
+      "variantId": "greater-skeleton-hellhound-vet-ion",
+      "name": "Greater Skeleton Hellhound (Vet'ion)",
+      "combatLevel": 281,
+      "slayerXp": 33,
+      "locations": [
+        "Vet'ion"
+      ],
+      "notes": [
+        "Two are summoned midway through Vet'ion's second phase.",
+        "They must be defeated to continue the fight.",
+        "For more information on fighting Vet'ion, see Vet'ion/Strategies."
+      ]
+    },
+    {
+      "variantId": "skeleton-hellhound-calvar-ion",
+      "name": "Skeleton Hellhound (Calvar'ion)",
+      "combatLevel": 115,
+      "slayerXp": 30,
+      "locations": [
+        "Calvar'ion"
+      ],
+      "notes": [
+        "Two are summoned midway through Calvar'ion's first phase.",
+        "They must be defeated to continue the fight.",
+        "For more information on fighting Calvar'ion, see Vet'ion/Strategies."
+      ]
+    },
+    {
+      "variantId": "greater-skeleton-hellhound-calvar-ion",
+      "name": "Greater Skeleton Hellhound (Calvar'ion)",
+      "combatLevel": 139,
+      "slayerXp": 30,
+      "locations": [
+        "Calvar'ion"
+      ],
+      "notes": [
+        "Two are summoned midway through Calvar'ion's second phase.",
+        "They must be defeated to continue the fight.",
+        "For more information on fighting Calvar'ion, see Vet'ion/Strategies."
+      ]
+    },
+    {
+      "variantId": "hellhounds-cerberus",
+      "name": "Cerberus",
+      "combatLevel": 318,
+      "slayerXp": 690,
+      "locations": [
+        "Cerberus' Lair"
+      ],
+      "notes": [
+        "Boss variant, requires 91 Slayer to be fought.",
+        "Can be attempted at 86 Slayer with a wild pie boost.",
+        "For more information on killing Cerberus, see Cerberus/Strategies."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "buccaneers-laboratory-hellhounds",
+      "name": "Buccaneers' Laboratory",
+      "amount": 5,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Requires 76 Sailing to access the Island.",
+        "The Rowboat can be used to travel to Buccaneers' Haven from Pirates' Cove.",
+        "Since this area is multi-combat, players can place and use a dwarf multicannon."
+      ]
+    },
+    {
+      "locationId": "catacombs-of-kourend",
+      "name": "Catacombs of Kourend",
+      "amount": 9,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Killing Hellhounds here gives access to Ancient shards and Dark totem pieces as bonus drops.",
+        "No cannon is allowed, but the area is multicombat and supports relative AFK training.",
+        "After aggression expires, run south and up the vine to the Giants' Den to reset aggression."
+      ]
+    },
+    {
+      "locationId": "charred-dungeon-hellhounds",
+      "name": "Charred Dungeon",
+      "amount": 5,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Requires 60 Sailing to access.",
+        "Discouraged due to few spawns."
+      ]
+    },
+    {
+      "locationId": "god-wars-dungeon",
+      "name": "God Wars Dungeon",
+      "amount": 5,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Hellhounds are considered Zamorak followers.",
+        "It is recommended to wear God-aligned items to avoid getting attacked by multiple monsters.",
+        "Highly discouraged due to generally far and sparse spawns."
+      ]
+    },
+    {
+      "locationId": "karuulm-slayer-dungeon-hellhounds",
+      "name": "Karuulm Slayer Dungeon",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Players who have not completed the Elite Kourend & Kebos Diary must wear boots of stone, boots of brimstone, or granite boots.",
+        "The boots protect from the extreme heat of the dungeon floor.",
+        "Hellhounds can be safespotted near the Hellhound section entrance."
+      ]
+    },
+    {
+      "locationId": "stronghold-slayer-cave",
+      "name": "Stronghold Slayer Dungeon",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Stronghold Slayer Dungeon is the primary general Slayer location outside the Wilderness.",
+        "Contains four rooms of three or four Hellhounds.",
+        "A dwarf multicannon can be set up in their caves."
+      ]
+    },
+    {
+      "locationId": "taverley-dungeon",
+      "name": "Taverley Dungeon",
+      "amount": 13,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "80 Agility is highly recommended and boostable at 75 with a summer pie.",
+        "Hellhounds can be safespotted on rocks and columns.",
+        "Contains multiple lower-section safespots."
+      ]
+    },
+    {
+      "locationId": "witchaven-dungeon",
+      "name": "Witchaven Dungeon",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Long distance from a bank or convenient teleport makes it less recommended than other dungeons.",
+        "A short puzzle is required to access the Hellhounds area for the first time.",
+        "Has a safespot near the entrance of the Hellhound area."
+      ]
+    },
+    {
+      "locationId": "wilderness-resource-area-hellhounds",
+      "name": "Wilderness near Resource Area",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "High danger of player killing due to high traffic and high Wilderness level.",
+        "The Edgeville lever provides easy access to the Edgeville bank.",
+        "Area is level 49-55 Wilderness near the Resource Area."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave-hellhounds",
+      "name": "Wilderness Slayer Cave",
+      "amount": 9,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Multicombat area in the Wilderness.",
+        "Fast experience if using Wilderness weapons.",
+        "Popular player killing hotspot, even though the Hellhounds are below level 20 Wilderness."
+      ]
+    },
+    {
+      "locationId": "vetion-hellhound-spawns",
+      "name": "Wilderness near Vet'ion",
+      "amount": 4,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Vet'ion summons two Skeleton Hellhounds and two Greater Skeleton Hellhounds during the fight.",
+        "Highly discouraged due to the area being a common hotspot for player killing.",
+        "The Hellhound spawns have no drops other than the looting bag."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Hellhounds can be assigned as a Slayer task at 75 combat level by various Slayer masters.",
+    "Regular Hellhounds only attack with fairly accurate melee bites, so safespotting or Protect from Melee is recommended.",
+    "Hellhounds are primarily known for hard clue scrolls at 1/64, or 1/32 in the Wilderness with an imbued ring of wealth.",
+    "They also drop ensouled hellhound heads and the smouldering stone.",
+    "Hellhound monster page marks them as demonic creatures, so demonbane weapons work against them.",
+    "Level 122 and level 136 Hellhounds have a 50% water weakness and virtually nonexistent magic defence.",
+    "Outside the Wilderness, Hellhounds are primarily killed in the Stronghold Slayer Cave because there are four rooms of three or four Hellhounds and a dwarf multicannon can be set up.",
+    "Catacombs of Kourend Hellhounds are used for Ancient shards and Dark totem pieces.",
+    "The Catacombs do not allow a cannon but are multicombat and allow relative AFK training, especially with a Venator Bow.",
+    "After Catacombs aggression expires, players can run south and up the vine to the Giants' Den to reset aggression.",
+    "In the Wilderness, Hellhounds are primarily killed in the Wilderness Slayer Cave by Krystilia task users.",
+    "Wilderness Slayer Cave Hellhounds have a 50% increased smouldering stone drop rate and access to the Wilderness Slayer Cave drop table.",
+    "The Wilderness Slayer Cave is a popular player killing hotspot and players should not bring items they are unwilling to lose.",
+    "Revenant hellhounds do not count towards a normal Hellhound task and only count for Revenants tasks assigned by Krystilia.",
+    "The Skeleton Hellhound fought during In Search of the Myreque counts towards a Hellhound Slayer task during the quest, but its Nightmare Zone refight does not.",
+    "Bouncer fought during Fight Arena counts towards a Hellhound Slayer task during the quest, but its Nightmare Zone refight does not.",
+    "Bouncer's ghost fought during The General's Shadow does not count toward Hellhound Slayer tasks and cannot be fought after completing the miniquest.",
+    "Skeleton Hellhounds summoned by Calvar'ion and Vet'ion can progress the task and each boss kill spawns four Hellhounds total.",
+    "Calvar'ion and Vet'ion are player killing hotspots and players should not bring items they are unwilling to lose.",
+    "Cerberus is an alternative for players with 91 Slayer or 86 Slayer with a wild pie boost.",
+    "Cerberus is stronger than other Hellhounds, has additional mechanics, and can drop valuable uniques.",
+    "Cerberus is recommended only with Ward of Arceuus and either Arclight, Emberlight, or Scythe of Vitur because worse setups may use too many prayer potions."
+  ],
+  "recommendedMethod": "Use Protect from Melee with demonbane melee in Stronghold Slayer Cave for cannon tasks, Catacombs with Venator bow for AFK shards/totems, or Wilderness Slayer Cave only when accepting player killing risk."
+}

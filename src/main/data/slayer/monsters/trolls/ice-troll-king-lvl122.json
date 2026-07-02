@@ -1,0 +1,30 @@
+{
+  "variantId": "ice-troll-king",
+  "name": "Ice Troll King",
+  "npcIds": [
+    5822
+  ],
+  "combatLevel": 122,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 80,
+    "stab": 45,
+    "slash": 45,
+    "crush": 45,
+    "magic": 2000,
+    "range": 2000
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Northern Neitiznot lair / Nightmare Zone (immune to magic/ranged; hard mode cb 213)",
+  "locationId": "fremennik-isles-ice-trolls",
+  "requirement": "boss - separate trip",
+  "bossId": null,
+  "strategyId": "trolls"
+}

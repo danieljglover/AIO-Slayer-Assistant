@@ -1,0 +1,180 @@
+{
+  "strategyId": "giant-mole",
+  "variantIds": [
+    "giant-mole"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Giant_Mole/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "osmumten-s-fang",
+      "noxious-halberd",
+      "ghrazi-rapier",
+      "zamorakian-hasta",
+      "blade-of-saeldor",
+      "belle-s-folly",
+      "zombie-axe",
+      "abyssal-dagger",
+      "dharok-s-greataxe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "tumeken-s-shadow",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Melee uses stab (lowest stab defence). Dharok's-at-1HP is the standard affordable fast-kill; Twisted bow the high-end alt. Poison does not trigger her burrow."
+  },
+  "requirements": [
+    "Access to Giant Mole's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Melee uses stab (lowest stab defence). Dharok's-at-1HP is the standard affordable fast-kill; Twisted bow the high-end alt. Poison does not trigger her burrow.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Melee uses stab (lowest stab defence). Dharok's-at-1HP is the standard affordable fast-kill; Twisted bow the high-end alt. Poison does not trigger her burrow.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "osmumten-s-fang",
+        "noxious-halberd",
+        "ghrazi-rapier",
+        "zamorakian-hasta",
+        "blade-of-saeldor",
+        "belle-s-folly",
+        "zombie-axe",
+        "abyssal-dagger",
+        "dharok-s-greataxe",
+        "twisted-bow",
+        "tumeken-s-shadow"
+      ],
+      "steps": [
+        "Melee uses stab (lowest stab defence). Dharok's-at-1HP is the standard affordable fast-kill; Twisted bow the high-end alt. Poison does not trigger her burrow."
+      ]
+    },
+    {
+      "methodId": "locator-and-burrow-management",
+      "label": "Locator and burrow management",
+      "combatStyle": "MELEE",
+      "role": "utility",
+      "summary": "Use Falador shield locator support and high mobility to chase the Giant Mole after burrows.",
+      "recommendedFor": [
+        "all Giant Mole kills",
+        "players with Falador Diary rewards"
+      ],
+      "requiredOrKeyItems": [
+        "Light source",
+        "Falador shield",
+        "Stamina potion",
+        "Spade"
+      ],
+      "steps": [
+        "Enter the Falador Mole Lair with a light source and spade access.",
+        "Use Falador shield locator functionality where unlocked to find the Mole quickly after it burrows.",
+        "Keep run energy high so burrows do not waste most of the trip time.",
+        "Resume attacking immediately after reaching the new location."
+      ],
+      "risks": [
+        "Without locator support, burrows make kills much slower.",
+        "Low run energy wastes time between hits."
+      ]
+    },
+    {
+      "methodId": "melee-dharok-or-ranged-alt",
+      "label": "Melee, Dharok, or ranged alternative",
+      "combatStyle": "MELEE",
+      "role": "default",
+      "summary": "Use stab melee, Dharok low-hitpoint damage, or high-end ranged depending account gear and risk preference.",
+      "recommendedFor": [
+        "standard Mole kills",
+        "pet and nest hunting"
+      ],
+      "requiredOrKeyItems": [
+        "Osmumten's fang",
+        "Dharok's greataxe",
+        "Noxious halberd",
+        "Twisted bow"
+      ],
+      "prayers": [
+        "Piety or ranged prayers depending setup"
+      ],
+      "steps": [
+        "Use stab melee because the Mole has lower stab defence than other melee defences.",
+        "Use Dharok's at low hitpoints only when comfortable with the risk-management setup.",
+        "Use Twisted bow or other ranged alternatives when they outperform available melee gear.",
+        "Do not rely on poison to stop burrowing."
+      ],
+      "notes": [
+        "Poison does not prevent the Mole from burrowing."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee",
+      "label": "Melee setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary Giant Mole setup using Osmumten's fang.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Osmumten's fang",
+            "Noxious halberd",
+            "Ghrazi rapier",
+            "Zamorakian hasta",
+            "Blade of saeldor",
+            "Belle's folly",
+            "Zombie axe",
+            "Abyssal dagger",
+            "Dharok's greataxe"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-secondary",
+      "label": "Ranged alternative",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Alternative ranged option for Giant Mole when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Twisted bow"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-secondary",
+      "label": "Magic alternative",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Alternative magic option for Giant Mole when the setup or phase calls for it.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Tumeken's shadow"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Giant Mole\n\nMelee uses stab (lowest stab defence). Dharok's-at-1HP is the standard affordable fast-kill; Twisted bow the high-end alt. Poison does not trigger her burrow."
+}

@@ -1,0 +1,78 @@
+{
+  "strategyId": "shades",
+  "variantIds": [
+    "loar-shade",
+    "shade-catacombs",
+    "shade-stronghold"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Shades",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "abyssal-whip",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [],
+    "note": "Shades are undead, so a salve amulet (e) applies and boosts melee. Loar Shades in Mort'ton are the fastest kill. A 40% weakness to wind spells means Wind Bolt outdamages Crumble Undead for the same chaos rune at 35+ Magic."
+  },
+  "requirements": [
+    "Combat level 30 is required to be assigned Shades by Mazchna (no Slayer level).",
+    "Priest in Peril is required to access Mort'ton for the fast Loar Shades.",
+    "A salve amulet (e) is recommended, as Shades are undead."
+  ],
+  "mechanics": [
+    "Shades are undead: the salve amulet and Crumble Undead apply.",
+    "Loar and Catacombs-of-Kourend Shades have a 40% weakness to wind spells; Wind Bolt beats Crumble Undead per chaos rune at 35+ Magic.",
+    "Loar Shades (Mort'ton) are the fastest kill; Catacombs-of-Kourend Shades give more Slayer XP and are safespottable.",
+    "Stronghold of Security Shades have drastically reduced combat XP (1 XP per 10 damage) and only 4.2 Slayer XP; avoid them."
+  ],
+  "methods": [
+    {
+      "methodId": "loar-melee-salve",
+      "label": "Loar Shades with salve amulet",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Kill Loar Shades in Mort'ton with melee and a salve amulet (e) for the fastest completion.",
+      "recommendedFor": [
+        "fastest task completion"
+      ],
+      "requiredOrKeyItems": [
+        "Salve amulet (e)",
+        "A strong melee weapon (abyssal whip / dragon scimitar)",
+        "Food"
+      ],
+      "steps": [
+        "Complete Priest in Peril and travel to Mort'ton.",
+        "Equip a salve amulet (e) and attack the Loar Shades with melee.",
+        "Continue until the task is complete; Loar Shades die quickly."
+      ],
+      "notes": [
+        "Loar Shades have only 38 Hitpoints and hit up to 4, so little food is needed."
+      ]
+    },
+    {
+      "methodId": "wind-magic",
+      "label": "Wind spells",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Cast Wind Bolt to exploit the 40% wind weakness, better than Crumble Undead per chaos rune at 35+ Magic.",
+      "recommendedFor": [
+        "Magic training",
+        "players who prefer ranged-safe kills"
+      ],
+      "requiredOrKeyItems": [
+        "Wind spells (Wind Bolt or higher)",
+        "Salve amulet (e)",
+        "Runes"
+      ],
+      "steps": [
+        "Travel to Mort'ton (Loar) or the Catacombs of Kourend (level-140 Shades).",
+        "Cast Wind Bolt to exploit the 40% wind weakness.",
+        "In the Catacombs, use a safespot to avoid melee damage."
+      ],
+      "notes": [
+        "Crumble Undead also works (undead), but Wind Bolt does more damage for the same chaos rune."
+      ]
+    }
+  ]
+}

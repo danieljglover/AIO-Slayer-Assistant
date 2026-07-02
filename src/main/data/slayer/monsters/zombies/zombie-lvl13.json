@@ -1,0 +1,38 @@
+{
+  "variantId": "zombie-lvl13",
+  "name": "Zombie",
+  "npcIds": [
+    26
+  ],
+  "combatLevel": 13,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 10,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Common zombie spawns",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "zombies",
+  "offence": {
+    "hitpoints": 22,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "poisonous": false,
+    "venomous": false
+  }
+}

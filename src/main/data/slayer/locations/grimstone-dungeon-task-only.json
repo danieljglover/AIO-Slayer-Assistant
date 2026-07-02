@@ -1,0 +1,11 @@
+{
+  "locationId": "grimstone-dungeon-task-only",
+  "name": "Grimstone Dungeon task-only cavern",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Task-only Frost dragon cavern west of the main Grimstone Dungeon area. Requires a Frost dragon Slayer task; off-task attacks are blocked with the strange coldness permission message. Requires 87 Sailing access to Grimstone and can be safespotted."
+}

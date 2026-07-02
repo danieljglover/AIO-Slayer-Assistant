@@ -1,0 +1,175 @@
+{
+  "strategyId": "dharok-the-wretched",
+  "variantIds": [
+    "dharok-the-wretched"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Barrows/Strategies",
+  "plugin": {
+    "primaryStyle": "MAGIC",
+    "primaryWeapons": [
+      "eye-of-ayak",
+      "tumeken-s-shadow",
+      "harmonised-nightmare-staff",
+      "sanguinesti-staff",
+      "trident-of-the-swamp",
+      "staff-of-the-dead",
+      "twinflame-staff"
+    ],
+    "secondaryWeapons": [],
+    "note": "Dharok melees, so the shared BiS magic setup (air spells, 50% wind weakness) is the recommended kill - no per-brother switch."
+  },
+  "requirements": [
+    "Access to Dharok the Wretched's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
+    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
+    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+  ],
+  "mechanics": [
+    "Dharok melees, so the shared BiS magic setup (air spells, 50% wind weakness) is the recommended kill - no per-brother switch.",
+    "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
+    "Use listed secondary weapons only where their combat style or phase role is relevant."
+  ],
+  "methods": [
+    {
+      "methodId": "general",
+      "label": "General strategy",
+      "combatStyle": "MAGIC",
+      "role": "general",
+      "summary": "Dharok melees, so the shared BiS magic setup (air spells, 50% wind weakness) is the recommended kill - no per-brother switch.",
+      "recommendedFor": [
+        "Boss Slayer assignments",
+        "Players selecting this boss from the Boss meta-task"
+      ],
+      "requiredOrKeyItems": [
+        "eye-of-ayak",
+        "tumeken-s-shadow",
+        "harmonised-nightmare-staff",
+        "sanguinesti-staff",
+        "trident-of-the-swamp",
+        "staff-of-the-dead",
+        "twinflame-staff"
+      ],
+      "steps": [
+        "Dharok melees, so the shared BiS magic setup (air spells, 50% wind weakness) is the recommended kill - no per-brother switch."
+      ]
+    },
+    {
+      "methodId": "barrows-route",
+      "label": "Barrows route",
+      "combatStyle": "MAGIC",
+      "role": "travel",
+      "summary": "Reach Barrows, enter Dharok's north-east mound early, and spend prayer before the underground drain grows dangerous.",
+      "recommendedFor": [
+        "safe Barrows rotations",
+        "Boss Slayer assignments that roll Dharok"
+      ],
+      "requiredOrKeyItems": [
+        "Barrows teleport tablet",
+        "Prayer potions",
+        "Air spell runes or powered staff"
+      ],
+      "prayers": [
+        "Protect from Melee against Dharok"
+      ],
+      "steps": [
+        "Travel with Barrows teleport, Mort'ton, Morytania legs, or fairy rings.",
+        "Check Dharok early in the rotation because he is the most dangerous brother without prayer.",
+        "Use Protect from Melee and kill him with air magic or the best available powered staff.",
+        "Continue the route before Prayer drain forces extra potion doses."
+      ],
+      "notes": [
+        "The Wiki lists Dharok first in safe and fast rotations because low-hitpoint Dharok can one-hit players.",
+        "Ghommal's hilt 2 or higher removes the Barrows Prayer drain."
+      ]
+    },
+    {
+      "methodId": "protection-prayer-kill",
+      "label": "Protection prayer kill",
+      "combatStyle": "MAGIC",
+      "role": "default",
+      "summary": "Protect from Melee and use air magic to kill Dharok before his low-hitpoint damage scaling becomes dangerous.",
+      "recommendedFor": [
+        "standard Dharok mound kills",
+        "players prioritising safety"
+      ],
+      "requiredOrKeyItems": [
+        "Eye of ayak",
+        "Tumeken's shadow",
+        "Harmonised nightmare staff",
+        "Trident of the swamp",
+        "Iban's staff"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Turn on Protect from Melee before opening Dharok's sarcophagus.",
+        "Keep distance only if using room pathing; otherwise tank with prayer active.",
+        "Use air spells, powered staves, or Iban Blast at lower levels.",
+        "Keep prayer above zero until Dharok dies."
+      ],
+      "risks": [
+        "Dharok's damage rises as his hitpoints fall.",
+        "Missing prayer can result in a lethal melee hit."
+      ],
+      "notes": [
+        "Dharok should generally be killed before less dangerous melee brothers.",
+        "All brothers have a 50% air elemental weakness."
+      ]
+    },
+    {
+      "methodId": "tunnel-safespot",
+      "label": "Tunnel safespot",
+      "combatStyle": "MAGIC",
+      "role": "safespot",
+      "summary": "Safespot Dharok behind tunnel ladders, corridor corners, or sarcophagus pathing if prayer is low, but avoid risky kiting mistakes.",
+      "recommendedFor": [
+        "Dharok tunnel spawns",
+        "low-prayer Barrows runs"
+      ],
+      "requiredOrKeyItems": [
+        "Magic weapon",
+        "Emergency food"
+      ],
+      "prayers": [
+        "Protect from Melee when not fully safespotted"
+      ],
+      "steps": [
+        "Use ladder squares or corridor geometry to make Dharok path around obstacles.",
+        "Attack with magic while he is blocked.",
+        "Avoid sarcophagus kiting Dharok when mistakes could cause a one-hit.",
+        "Use Protect from Melee any time the safespot is not stable."
+      ],
+      "risks": [
+        "Dharok is the least forgiving melee brother to kite.",
+        "Some tunnel corridor entries do not have a nearby usable safespot."
+      ],
+      "notes": [
+        "The Wiki recommends not kiting Dharok unless the player is confident.",
+        "Binding spells can also hold melee brothers in place."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "magic",
+      "label": "Magic setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Primary Dharok the Wretched setup using Eye of ayak.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Eye of ayak",
+            "Tumeken's shadow",
+            "Harmonised nightmare staff",
+            "Sanguinesti staff",
+            "Trident of the swamp",
+            "Staff of the dead",
+            "Twinflame staff"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Dharok the Wretched\n\nDharok melees, so the shared BiS magic setup (air spells, 50% wind weakness) is the recommended kill - no per-brother switch."
+}

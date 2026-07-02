@@ -1,0 +1,219 @@
+{
+  "taskId": "fossil-island-wyverns",
+  "name": "Fossil Island wyverns",
+  "wikiPageId": 297887,
+  "combatLevel": 60,
+  "slayerTargetId": 219,
+  "slayerLevel": 66,
+  "questReqs": [
+    "Bone Voyage",
+    "Elemental Workshop I"
+  ],
+  "masterIds": [
+    "chaeldar",
+    "konar",
+    "nieve",
+    "duradel"
+  ],
+  "amountByMaster": {
+    "chaeldar": [
+      10,
+      20
+    ],
+    "konar": [
+      15,
+      30
+    ],
+    "nieve": [
+      5,
+      25
+    ],
+    "duradel": [
+      20,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "chaeldar": 7,
+    "konar": 5,
+    "nieve": 5,
+    "duradel": 7
+  },
+  "extendedAmount": {
+    "chaeldar": [
+      55,
+      75
+    ],
+    "konar": [
+      55,
+      75
+    ],
+    "nieve": [
+      55,
+      75
+    ],
+    "duradel": [
+      55,
+      75
+    ]
+  },
+  "unlocks": [
+    {
+      "unlockId": "stop-the-wyvern",
+      "name": "Stop the Wyvern",
+      "pointsCost": 500,
+      "notes": "Allows players to block Fossil Island wyverns without using a block list slot."
+    },
+    {
+      "unlockId": "wyver-nother-two",
+      "name": "Wyver-nother two",
+      "pointsCost": 100,
+      "type": "EXTENSION",
+      "notes": "Extends Fossil Island wyvern assignments to 55-75."
+    }
+  ],
+  "monsterIds": [
+    "fossil-island-wyverns"
+  ],
+  "variantIds": [
+    "spitting-wyvern",
+    "taloned-wyvern",
+    "long-tailed-wyvern",
+    "ancient-wyvern"
+  ],
+  "defaultVariantId": "spitting-wyvern",
+  "weakness": {
+    "style": "RANGED",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 90,
+    "stab": 50,
+    "slash": 70,
+    "crush": 70,
+    "magic": 140,
+    "range": 70
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": true,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 2890,
+  "requiredItemName": "Elemental shield",
+  "locationIds": [
+    "wyvern-cave-fossil-island",
+    "wyvern-cave-fossil-island-task-only"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "spitting-wyvern",
+      "name": "Spitting Wyvern",
+      "combatLevel": 139,
+      "slayerXp": 205,
+      "locations": [
+        "Wyvern Cave",
+        "Task-only Wyvern Cave"
+      ],
+      "notes": [
+        "Attacks with melee, ranged, and icy breath.",
+        "Best choice for a quick clear because it can use a weak ranged attack instead of icy breath.",
+        "Engage from a distance and use Protect from Missiles to negate all damage except icy breath and melee attacks.",
+        "Requires 66 Slayer to kill and has a 25% air elemental weakness."
+      ]
+    },
+    {
+      "variantId": "taloned-wyvern",
+      "name": "Taloned Wyvern",
+      "combatLevel": 147,
+      "slayerXp": 205,
+      "locations": [
+        "Wyvern Cave",
+        "Task-only Wyvern Cave"
+      ],
+      "notes": [
+        "Attacks with melee, typeless magic, and icy breath.",
+        "The typeless magic attack ignores protection prayers and makes Taloned Wyverns the least favourable variant to kill.",
+        "Fighting in melee range reduces how often the typeless magic attack is used.",
+        "Requires 66 Slayer to kill and has a 35% air elemental weakness."
+      ]
+    },
+    {
+      "variantId": "long-tailed-wyvern",
+      "name": "Long-tailed Wyvern",
+      "combatLevel": 152,
+      "slayerXp": 205,
+      "locations": [
+        "Wyvern Cave",
+        "Task-only Wyvern Cave"
+      ],
+      "notes": [
+        "Attacks with melee, typeless magic, and icy breath.",
+        "Only uses its typeless magic attack when the player is out of melee distance.",
+        "The task page recommends engaging at melee distance with Protect from Melee active.",
+        "Requires 66 Slayer to kill and has a 25% air elemental weakness."
+      ]
+    },
+    {
+      "variantId": "ancient-wyvern",
+      "name": "Ancient Wyvern",
+      "combatLevel": 210,
+      "slayerXp": 315,
+      "locations": [
+        "Wyvern Cave",
+        "Task-only Wyvern Cave"
+      ],
+      "notes": [
+        "Attacks with melee, typeless magic, and icy breath.",
+        "Has higher stats and better drops compared to the other Fossil Island wyverns.",
+        "Requires 82 Slayer to kill, though wild pie boosting from 77 Slayer can technically allow damage with very long kills.",
+        "Uses a typeless magic attack like Taloned and Long-tailed Wyverns and has a 35% air elemental weakness."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "wyvern-cave-fossil-island",
+      "name": "Wyvern Cave",
+      "amount": 14,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Regular Wyvern Cave entrance is east of Museum Camp.",
+        "Contains 4 Spitting Wyverns, 4 Taloned Wyverns, 4 Long-tailed Wyverns, and 2 Ancient Wyverns.",
+        "Fossil Storage box is by the entrance."
+      ]
+    },
+    {
+      "locationId": "wyvern-cave-fossil-island-task-only",
+      "name": "Task-only Wyvern Cave",
+      "amount": 15,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Task-only Wyvern Cave entrance is a trapdoor inside the Mushroom Forest.",
+        "Requires a Fossil Island Wyverns slayer task; Weve stops players attacking there without the task.",
+        "Contains 4 Spitting Wyverns, 4 Taloned Wyverns, 4 Long-tailed Wyverns, and 3 Ancient Wyverns.",
+        "Magic Mushtree travel from House on the Hill appears just north of this task-only cave."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Fossil Island wyverns require 66 Slayer, 60 combat, Bone Voyage, and Elemental Workshop I before assignment.",
+    "They use melee and icy breath; several variants also use ranged or typeless magic.",
+    "Fossil Island wyvern icy breath requires an elemental shield, mind shield, dragonfire shield, dragonfire ward, or ancient wyvern shield to reduce damage.",
+    "The ancient wyvern shield is the only shield that grants immunity against the freezing effect from icy breath.",
+    "Protect from Magic can be used but only provides half the damage reduction of the listed shield protections.",
+    "Anti-dragon shield and antifire potions do not work to mitigate Fossil Island wyvern icy breath.",
+    "Fossil Island wyverns are draconic and are vulnerable to dragonbane weapons.",
+    "Spitting Wyverns are recommended for a quick clear because they are weakest and may use a weak ranged attack instead of icy breath.",
+    "Taloned Wyverns are the least favourable because their typeless magic attack is extremely accurate outside melee distance.",
+    "Long-tailed Wyverns should be engaged in melee distance with Protect from Melee active to avoid their typeless attack.",
+    "Ancient Wyverns require 82 Slayer and have better drops but much higher stats.",
+    "Many players buy Stop the Wyvern to block the task without using a blocklist slot because Fossil Island wyverns are not very profitable, do not give good experience, and are not ideal for points.",
+    "Wyverns may drop fossils of various sizes, and both caves have a Fossil Storage box by their entrances."
+  ],
+  "recommendedMethod": "Use Spitting Wyverns for quick task completion, carrying an elemental, mind, dragonfire, dragonfire ward, or ancient wyvern shield for icy breath. Melee tank setups with high ranged Defence and Protect from Melee are the main strategy; use prayer gear, powered-staff Magic, or Ranged as alternatives. Avoid Taloned and Ancient Wyverns unless targeting their drops or accepting slower, harder kills."
+}

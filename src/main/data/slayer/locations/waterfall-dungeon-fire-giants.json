@@ -1,0 +1,11 @@
+{
+  "locationId": "waterfall-dungeon-fire-giants",
+  "name": "Waterfall Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires completion of Waterfall Quest and a Rope. A safespot exists next to the single door in the western room, and a cannon can AoE Fire giants by placing it in the middle and running to safespots."
+}

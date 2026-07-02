@@ -1,0 +1,36 @@
+{
+  "variantId": "suqah",
+  "name": "Suqah",
+  "npcIds": [
+    787,
+    788,
+    789,
+    790,
+    791,
+    792,
+    793
+  ],
+  "combatLevel": 111,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 95,
+    "stab": 50,
+    "slash": 70,
+    "crush": 70,
+    "magic": 90,
+    "range": 30
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "North Lunar Isle and South Lunar Isle; northern shield-bearing Suqah use melee and Magic, southern dual-wielding Suqah are melee-only.",
+  "locationId": "lunar-isle-north-suqah",
+  "requirement": "Partial completion of Lunar Diplomacy to access Lunar Isle.",
+  "bossId": null,
+  "strategyId": "suqahs"
+}

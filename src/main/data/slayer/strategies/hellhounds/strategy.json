@@ -1,0 +1,390 @@
+{
+  "strategyId": "hellhounds",
+  "variantIds": [
+    "hellhound",
+    "hellhound-god-wars-dungeon",
+    "hellhound-wilderness-slayer-cave"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Hellhounds",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "arclight",
+      "scythe-of-vitur",
+      "osmumten-s-fang",
+      "ghrazi-rapier",
+      "inquisitor-s-mace"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "venator-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "trident-of-the-swamp",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Use Protect from Melee or a safespot for regular Hellhounds. Demonbane melee is the primary setup, Venator bow is strong in Catacombs, water Magic is accurate against the water-weak variants, and hard clue scrolls are the main regular-task reward."
+  },
+  "requirements": [
+    "75 combat is required for Hellhound assignments.",
+    "No Slayer level is required for regular Hellhounds.",
+    "91 Slayer is required to fight Cerberus normally, or 86 Slayer with a wild pie boost.",
+    "Karuulm Slayer Dungeon Hellhounds require boots of stone, boots of brimstone, or granite boots unless the Elite Kourend & Kebos Diary is complete.",
+    "Buccaneers' Laboratory requires 76 Sailing and Charred Dungeon requires 60 Sailing.",
+    "Wilderness Slayer Cave, Wilderness Resource Area, Vet'ion, and Calvar'ion methods require accepting player killing risk."
+  ],
+  "mechanics": [
+    "Regular Hellhounds only attack with melee bites.",
+    "Protect from Melee prevents regular Hellhound damage when not safespotting.",
+    "Hellhounds are demonic creatures, so Arclight, Emberlight, Scorching bow, and Demonbane spells apply where relevant.",
+    "Level 122 and level 136 Hellhounds have a 50% water weakness and very low Magic defence.",
+    "Hard clue scrolls are the main notable regular-task drop at 1/64, or 1/32 in the Wilderness with an imbued ring of wealth.",
+    "Catacombs Hellhounds cannot be cannoned, but they can drop Ancient shards and Dark totem pieces.",
+    "Wilderness Slayer Cave Hellhounds use the Wilderness Slayer Cave drop table and have a 50% increased smouldering stone drop rate.",
+    "Vet'ion and Calvar'ion each summon two Skeleton Hellhounds before enrage and two Greater Skeleton Hellhounds after enrage.",
+    "Cerberus is stronger than regular Hellhounds and has separate boss mechanics and unique drops."
+  ],
+  "methods": [
+    {
+      "methodId": "general-protection",
+      "label": "General protection",
+      "combatStyle": "MELEE",
+      "role": "general",
+      "summary": "Use demonbane melee with Protect from Melee for normal Hellhound tasks, or safespot with Ranged or Magic when conserving supplies.",
+      "recommendedFor": [
+        "baseline Hellhound tasks",
+        "players choosing between speed, clue hunting, Catacombs value, and Wilderness risk"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet",
+        "Emberlight or Arclight",
+        "Prayer potions",
+        "Teleport out",
+        "Ring of wealth (i) for Wilderness clue hunting"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Choose a location based on assignment source, desired drops, and risk tolerance.",
+        "Use Protect from Melee when fighting regular Hellhounds directly.",
+        "Use Emberlight or Arclight as the main melee weapon because Hellhounds are demonic.",
+        "Use safespots with Ranged, Magic, halberds, or salamanders when avoiding melee damage.",
+        "Bring a ring of wealth (i) in the Wilderness if chasing hard clue scrolls."
+      ],
+      "risks": [
+        "Wilderness locations add player killing risk.",
+        "Regular Hellhounds have few valuable drops outside hard clue scrolls and tertiary drops."
+      ],
+      "notes": [
+        "Protect from Melee is enough for standard Hellhound damage control.",
+        "The standard task loop is simple; location choice matters more than monster mechanics."
+      ]
+    },
+    {
+      "methodId": "stronghold-cannon",
+      "label": "Stronghold Slayer Cave cannon",
+      "combatStyle": "MELEE",
+      "role": "speed",
+      "summary": "Use the Stronghold Slayer Cave as the primary non-Wilderness cannon location for regular Hellhound assignments.",
+      "recommendedFor": [
+        "fast non-Wilderness regular tasks",
+        "players using a dwarf multicannon"
+      ],
+      "requiredOrKeyItems": [
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Emberlight or Arclight",
+        "Prayer potions"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Enter the Stronghold Slayer Cave and use one of the Hellhound rooms.",
+        "Set up the dwarf multicannon in the room.",
+        "Keep Protect from Melee active while cannon and demonbane melee handle kills.",
+        "Use the four rooms of three or four Hellhounds to keep the task moving."
+      ],
+      "notes": [
+        "The task page highlights Stronghold Slayer Cave as the primary outside-Wilderness location because it has multiple Hellhound rooms and allows cannoning."
+      ]
+    },
+    {
+      "methodId": "catacombs-afk-venator",
+      "label": "Catacombs Venator bow",
+      "combatStyle": "RANGED",
+      "role": "afk",
+      "summary": "Use Catacombs Hellhounds for Ancient shards, Dark totem pieces, and low-attention multicombat kills, especially with Venator bow.",
+      "recommendedFor": [
+        "Ancient shard and Dark totem farming",
+        "lower-attention Slayer",
+        "players with Venator bow"
+      ],
+      "requiredOrKeyItems": [
+        "Venator bow",
+        "Slayer helmet (i)",
+        "Prayer potions",
+        "Bonecrusher or ash sanctifier if desired"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Use the Catacombs of Kourend Hellhound room when Ancient shards or Dark totem pieces are desired.",
+        "Stand where multiple Hellhounds can path into Venator bow bounce range.",
+        "Keep Protect from Melee active or use the available safespot.",
+        "After aggression expires, run south and climb up the vine to the Giants' Den, then return to reset aggression."
+      ],
+      "risks": [
+        "A dwarf multicannon cannot be used in the Catacombs.",
+        "This is usually slower than cannoning at Stronghold Slayer Cave."
+      ],
+      "notes": [
+        "Catacombs are multicombat and can be fairly AFK with Venator bow."
+      ]
+    },
+    {
+      "methodId": "wilderness-slayer-cave",
+      "label": "Wilderness Slayer Cave",
+      "combatStyle": "MELEE",
+      "role": "wilderness",
+      "summary": "Use Wilderness Slayer Cave for Krystilia-style tasks, cannon support, Wilderness weapon speed, and the boosted smouldering stone chance only when accepting PK risk.",
+      "recommendedFor": [
+        "Krystilia assignments",
+        "players using Wilderness weapons",
+        "players seeking the Wilderness Slayer Cave drop table"
+      ],
+      "requiredOrKeyItems": [
+        "Low-risk gear",
+        "Dwarf multicannon",
+        "Cannonballs",
+        "Wilderness weapon",
+        "One-click teleport where possible",
+        "Ring of wealth (i) for hard clue scrolls"
+      ],
+      "prayers": [
+        "Protect from Melee"
+      ],
+      "steps": [
+        "Bring only items you are willing to risk.",
+        "Set up the cannon in the Hellhound section of the Wilderness Slayer Cave.",
+        "Use a Wilderness weapon or demonbane melee while Protect from Melee is active.",
+        "Use the available safespot when ranging or maging.",
+        "Stay alert for player killers and leave early instead of trying to finish a kill."
+      ],
+      "risks": [
+        "The Wilderness Slayer Cave is a popular player killing hotspot.",
+        "Do not bring items you are unwilling to lose.",
+        "Multicombat makes escape harder if a team appears."
+      ],
+      "notes": [
+        "The level 136 Wilderness Slayer Cave Hellhound has 150 Slayer XP and access to the cave drop table.",
+        "The smouldering stone drop rate is increased by 50% from these Hellhounds."
+      ]
+    },
+    {
+      "methodId": "safespots",
+      "label": "Safespots",
+      "combatStyle": "RANGED",
+      "role": "safe",
+      "summary": "Safespot Hellhounds with Ranged, Magic, halberds, or salamanders where the location supports it.",
+      "recommendedFor": [
+        "lower-level players",
+        "players conserving prayer",
+        "Konar-locked locations with good safespots"
+      ],
+      "requiredOrKeyItems": [
+        "Ranged weapon, Magic weapon, halberd, or salamander",
+        "Water spell setup for water-weak variants"
+      ],
+      "steps": [
+        "Use Ranged, Magic, halberds, or salamanders from a safespot.",
+        "In Catacombs, stand on the east side of the hallway to safespot Hellhounds.",
+        "In Wilderness locations below level 20 Wilderness, stand so that teleporting remains practical if player killers arrive.",
+        "Use water spells when choosing Magic against level 122 or level 136 Hellhounds."
+      ],
+      "notes": [
+        "Safespots trade speed for safety and lower supply use."
+      ]
+    },
+    {
+      "methodId": "vetion-calvarion-spawns",
+      "label": "Vet'ion and Calvar'ion summons",
+      "combatStyle": "MELEE",
+      "role": "boss-alternative",
+      "summary": "Vet'ion and Calvar'ion summons can progress Hellhound tasks, but they are primarily boss-trip choices rather than efficient Slayer methods.",
+      "recommendedFor": [
+        "players already killing Vet'ion or Calvar'ion",
+        "Wilderness boss profit attempts"
+      ],
+      "requiredOrKeyItems": [
+        "Vet'ion or Calvar'ion boss setup",
+        "Low-risk Wilderness gear",
+        "Teleport out",
+        "Looting bag if desired"
+      ],
+      "steps": [
+        "Enter the Vet'ion or Calvar'ion encounter only when prepared for the boss fight.",
+        "Kill the two Skeleton Hellhounds summoned midway through the first phase.",
+        "Kill the two Greater Skeleton Hellhounds summoned midway through the second phase.",
+        "Treat the four summoned Hellhounds per boss kill as task progress, not as a primary Hellhound training method."
+      ],
+      "risks": [
+        "Vet'ion and Calvar'ion are common player killing hotspots.",
+        "The summoned Hellhounds have no drops other than the looting bag."
+      ],
+      "notes": [
+        "Use Vet'ion/Strategies for the boss mechanics."
+      ]
+    },
+    {
+      "methodId": "cerberus-choice",
+      "label": "Cerberus choice",
+      "combatStyle": "MELEE",
+      "role": "boss-alternative",
+      "summary": "Use Cerberus only when the account meets the Slayer requirement and wants boss uniques rather than a fast regular Hellhound task.",
+      "recommendedFor": [
+        "players with 91 Slayer",
+        "players using a wild pie boost from 86 Slayer",
+        "players seeking Cerberus uniques"
+      ],
+      "requiredOrKeyItems": [
+        "91 Slayer or 86 Slayer with wild pie",
+        "Ward of Arceuus",
+        "Emberlight, Arclight, or Scythe of vitur",
+        "Prayer potions or super restores",
+        "Cerberus boss setup"
+      ],
+      "prayers": [
+        "Boss-specific prayer switches from Cerberus/Strategies"
+      ],
+      "steps": [
+        "Choose Cerberus only when boss profit or unique drops are the goal.",
+        "Use Ward of Arceuus to reduce summoned soul prayer drain where appropriate.",
+        "Use Emberlight, Arclight, or Scythe of vitur as recommended melee weapons.",
+        "Follow Cerberus/Strategies for boss positioning, summoned souls, lava pools, and ghost timing."
+      ],
+      "risks": [
+        "The summoned souls can drain up to 90 Prayer, or 60 Prayer when Ward of Arceuus is used correctly.",
+        "Poor setups can consume too many prayer potions compared with regular Hellhound kills."
+      ],
+      "notes": [
+        "Cerberus is a task alternative with boss mechanics and valuable uniques, not the standard fast task option."
+      ]
+    },
+    {
+      "methodId": "inventory-and-loot",
+      "label": "Inventory and loot",
+      "role": "support",
+      "summary": "Tune supplies around clue hunting, prayer sustain, tertiary drops, and Wilderness risk.",
+      "recommendedFor": [
+        "finishing task setup",
+        "clue-focused Hellhound tasks"
+      ],
+      "requiredOrKeyItems": [
+        "Slayer helmet",
+        "Prayer potions",
+        "Dwarf multicannon where allowed",
+        "Teleport out",
+        "Soul bearer",
+        "Ring of wealth or ring of wealth (i)",
+        "Low-risk Wilderness gear"
+      ],
+      "steps": [
+        "Bring Prayer potions if using Protect from Melee for long trips.",
+        "Bring a dwarf multicannon only at cannonable locations.",
+        "Use Soul bearer if collecting ensouled hellhound heads.",
+        "Prioritize hard clue scrolls, ensouled heads, smouldering stones, Ancient shards, and Dark totem pieces as the meaningful regular-task loot.",
+        "For Wilderness trips, keep risk low and leave space for clue scrolls or cave drops."
+      ],
+      "notes": [
+        "Revenant hellhounds do not count for normal Hellhound tasks.",
+        "Bouncer and the quest Skeleton Hellhound have special quest-only task-count exceptions."
+      ]
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "melee-demonbane",
+      "label": "Demonbane melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Primary regular-task setup using demonbane melee and Protect from Melee.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Scythe of vitur",
+            "Osmumten's fang",
+            "Ghrazi rapier",
+            "Inquisitor's mace"
+          ],
+          "head": [
+            "Slayer helmet"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "ranged-venator",
+      "label": "Venator ranged",
+      "combatStyle": "RANGED",
+      "role": "secondary",
+      "summary": "Ranged option for Catacombs AFK tasks or safespotting regular Hellhounds.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Venator bow",
+            "Scorching bow",
+            "Toxic blowpipe"
+          ],
+          "head": [
+            "Slayer helmet (i)"
+          ]
+        }
+      }
+    },
+    {
+      "styleId": "magic-water",
+      "label": "Water Magic",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Magic option for safespotting water-weak level 122 and level 136 Hellhounds.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Trident of the swamp",
+            "Trident of the seas",
+            "Kodai wand"
+          ],
+          "shield": [
+            "Tome of water",
+            "Elidinis' ward"
+          ]
+        }
+      }
+    }
+  ],
+  "body": "# Hellhounds\n\nUse Protect from Melee, demonbane melee, cannonable locations, Catacombs Venator bow, or Wilderness Slayer Cave depending on risk and reward preference. Regular Hellhounds are simple melee attackers; the important choices are location, clue hunting, and whether to use Catacombs, Wilderness, Vet'ion/Calvar'ion summons, or Cerberus as alternatives."
+}

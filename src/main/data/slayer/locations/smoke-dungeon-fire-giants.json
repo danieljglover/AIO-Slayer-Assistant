@@ -1,0 +1,11 @@
+{
+  "locationId": "smoke-dungeon-fire-giants",
+  "name": "Smoke Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires wearing a Facemask, Slayer helmet, or Gas mask to avoid smoke damage. The northern wall of the entrance can safespot only the north-west Fire giant. The task page notes Konar does not assign this location and it is not recommended because too few giants are scattered around."
+}

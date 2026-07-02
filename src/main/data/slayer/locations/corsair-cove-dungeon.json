@@ -1,0 +1,11 @@
+{
+  "locationId": "corsair-cove-dungeon",
+  "name": "Corsair Cove Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Requires Dragon Slayer II. Corsair Cove Dungeon black dragons are close to a bank using a Mythical cape teleport. Blue dragon area contains 5 adults and 3 babies, is cannonable, and can be safespotted."
+}

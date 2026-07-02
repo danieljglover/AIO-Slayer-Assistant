@@ -1,0 +1,71 @@
+{
+  "strategyId": "cave-bugs",
+  "variantIds": [
+    "cave-bug"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Cave_bug",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "trident-of-the-seas",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Cave bugs have 5 hitpoints and a max hit of 1. Any weapon kills them; a light source is mandatory in the Lumbridge Swamp Caves. They have a 50% weakness to fire spells for anyone training Magic."
+  },
+  "requirements": [
+    "7 Slayer is required for cave bug assignments.",
+    "A light source (oil lantern, bullseye lantern, or similar) is required in the Lumbridge Swamp Caves.",
+    "Enter the caves by tying a rope to the hole east of Lumbridge Swamp."
+  ],
+  "mechanics": [
+    "Cave bugs have only 5 hitpoints and a max hit of 1.",
+    "They attack with melee (stab/crush) and are not a threat.",
+    "They have a 50% weakness to fire spells."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Kill cave bugs with any melee weapon; they have 5 HP and a max hit of 1, so gear is irrelevant to survival.",
+      "recommendedFor": [
+        "default cave bug tasks",
+        "fast completion"
+      ],
+      "requiredOrKeyItems": [
+        "Any melee weapon",
+        "Light source (oil or bullseye lantern)",
+        "Rope (to enter the caves)"
+      ],
+      "steps": [
+        "Tie a rope to the swamp hole and descend with a lit light source.",
+        "Attack cave bugs with any melee weapon until the task is complete."
+      ]
+    },
+    {
+      "methodId": "fire-magic",
+      "label": "Fire spells",
+      "combatStyle": "MAGIC",
+      "role": "secondary",
+      "summary": "Cast fire spells for the 50% elemental weakness while training Magic in the caves.",
+      "recommendedFor": [
+        "Magic training",
+        "players who prefer ranged distance"
+      ],
+      "requiredOrKeyItems": [
+        "Fire spell runes or a fire-based staff",
+        "Light source"
+      ],
+      "steps": [
+        "Cast Fire Strike/Bolt/Blast for the 50% fire weakness.",
+        "Keep a light source equipped or in your inventory at all times."
+      ]
+    }
+  ]
+}

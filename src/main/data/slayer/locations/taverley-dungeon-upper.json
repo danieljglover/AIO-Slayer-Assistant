@@ -1,0 +1,11 @@
+{
+  "locationId": "taverley-dungeon-upper",
+  "name": "Taverley Dungeon (upper level)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Black dragons in this upper level can only be killed while on a Slayer task. Includes 12 adult dragons and 5 baby dragons; the baby black dragon task-only area can be AFKed quickly. Blue dragons here are task-only adults and require level 70 Agility for a shortcut or a dusty key."
+}

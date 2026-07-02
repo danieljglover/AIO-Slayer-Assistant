@@ -1,0 +1,11 @@
+{
+  "locationId": "catacombs-of-kourend-nechryael",
+  "name": "Catacombs of Kourend",
+  "multi": true,
+  "cannon": false,
+  "burst": true,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Contains 14 Greater Nechryael in two chambers of seven each. Easily accessible with a portal attuned to Great Kourend or with Xeric's talisman; not cannonable and not safespottable on the task page."
+}

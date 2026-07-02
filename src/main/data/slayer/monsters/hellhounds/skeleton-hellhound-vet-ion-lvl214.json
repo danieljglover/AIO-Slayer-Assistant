@@ -1,0 +1,30 @@
+{
+  "variantId": "skeleton-hellhound-vet-ion",
+  "name": "Skeleton Hellhound (Vet'ion)",
+  "npcIds": [
+    6613
+  ],
+  "combatLevel": 194,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 150,
+    "stab": 101,
+    "slash": 103,
+    "crush": 10,
+    "magic": 180,
+    "range": 266
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Vet'ion fight, Wilderness",
+  "locationId": "vetion-hellhound-spawns",
+  "requirement": "summoned by Vet'ion - separate trip (boss fight)",
+  "bossId": null,
+  "strategyId": "vet-ion"
+}

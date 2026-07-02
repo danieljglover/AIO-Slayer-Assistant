@@ -1,0 +1,11 @@
+{
+  "locationId": "uzer-mastaba",
+  "name": "Uzer Mastaba",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires The Curse of Arrav (partial completion) for access. The lower level holds 19 Small scarabs; aggressive at any combat level but max hit 1, and they have no drops."
+}

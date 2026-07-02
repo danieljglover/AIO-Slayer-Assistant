@@ -1,0 +1,30 @@
+{
+  "variantId": "ankou-level-82",
+  "name": "Ankou (Level 82)",
+  "npcIds": [
+    2515,
+    2518
+  ],
+  "combatLevel": 82,
+  "weakness": {
+    "style": "MELEE",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Sepulchre of Death / Stronghold Slayer Cave / Catacombs of Kourend / Deepfin Mine / Wilderness Slayer Cave / The Forgotten Cemetery",
+  "requirement": "none",
+  "bossId": null,
+  "strategyId": "ankou"
+}

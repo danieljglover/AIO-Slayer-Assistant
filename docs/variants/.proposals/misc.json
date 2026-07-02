@@ -1,0 +1,327 @@
+{
+  "Spiritual creatures": [
+    {
+      "name": "Spiritual creature",
+      "combatLevel": 122,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 80, "stab": 35, "slash": 35, "crush": 35, "magic": 40, "range": 35 },
+      "isBoss": false,
+      "location": "God Wars Dungeon (Saradomin / Zamorak / Armadyl / Bandos wings)",
+      "requirement": "none"
+    },
+    {
+      "name": "Spiritual ranger (Zamorak)",
+      "npcIds": [3160],
+      "combatLevel": 118,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 80, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 0 },
+      "location": "God Wars Dungeon, Zamorak wing",
+      "requirement": "70 Hitpoints"
+    },
+    {
+      "name": "Spiritual ranger (Saradomin)",
+      "npcIds": [2211],
+      "combatLevel": 122,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 3, "slash": 5, "crush": 13, "magic": 16, "range": 35 },
+      "location": "God Wars Dungeon, Saradomin wing",
+      "requirement": "none"
+    },
+    {
+      "name": "Spiritual ranger (Bandos)",
+      "npcIds": [2242],
+      "combatLevel": 115,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 96, "stab": 12, "slash": 14, "crush": 13, "magic": 5, "range": 35 },
+      "location": "God Wars Dungeon, Bandos wing",
+      "requirement": "70 Strength + a hammer"
+    },
+    {
+      "name": "Spiritual ranger (Armadyl)",
+      "npcIds": [3167],
+      "combatLevel": 127,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 130, "stab": 17, "slash": 16, "crush": 8, "magic": 35, "range": 35 },
+      "location": "God Wars Dungeon, Armadyl wing",
+      "requirement": "70 Ranged + crossbow with mithril grapple"
+    },
+    {
+      "name": "Spiritual ranger (Zaros)",
+      "npcIds": [11291],
+      "combatLevel": 158,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 20, "slash": 0, "crush": 20, "magic": 300, "range": 35 },
+      "location": "Wilderness God Wars Dungeon",
+      "requirement": "miniquest The Frozen Door"
+    },
+    {
+      "name": "Spiritual warrior (Zamorak)",
+      "npcIds": [3159],
+      "combatLevel": 115,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 35 },
+      "location": "God Wars Dungeon, Zamorak wing",
+      "requirement": "70 Hitpoints"
+    },
+    {
+      "name": "Spiritual warrior (Saradomin)",
+      "npcIds": [2210],
+      "combatLevel": 125,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 110, "stab": 12, "slash": 14, "crush": 13, "magic": 5, "range": 35 },
+      "location": "God Wars Dungeon, Saradomin wing",
+      "requirement": "none"
+    },
+    {
+      "name": "Spiritual warrior (Bandos)",
+      "npcIds": [2243],
+      "combatLevel": 134,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 12, "slash": 14, "crush": 13, "magic": 5, "range": 35 },
+      "location": "God Wars Dungeon, Bandos wing",
+      "requirement": "70 Strength + a hammer"
+    },
+    {
+      "name": "Spiritual warrior (Armadyl)",
+      "npcIds": [3166],
+      "combatLevel": 123,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 120, "stab": 23, "slash": 25, "crush": 13, "magic": 35, "range": 35 },
+      "location": "God Wars Dungeon, Armadyl wing",
+      "requirement": "70 Ranged + mithril grapple crossbow"
+    },
+    {
+      "name": "Spiritual warrior (Zaros)",
+      "npcIds": [11290],
+      "combatLevel": 158,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 100, "slash": 100, "crush": 80, "magic": 0, "range": 35 },
+      "location": "Wilderness God Wars Dungeon",
+      "requirement": "miniquest The Frozen Door"
+    },
+    {
+      "name": "Spiritual mage (Zamorak)",
+      "npcIds": [3161],
+      "combatLevel": 121,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 61, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 35 },
+      "location": "God Wars Dungeon, Zamorak wing",
+      "requirement": "70 Hitpoints"
+    },
+    {
+      "name": "Spiritual mage (Saradomin)",
+      "npcIds": [2212],
+      "combatLevel": 120,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 86, "stab": 8, "slash": 7, "crush": 3, "magic": 16, "range": 35 },
+      "location": "God Wars Dungeon, Saradomin wing",
+      "requirement": "none"
+    },
+    {
+      "name": "Spiritual mage (Bandos)",
+      "npcIds": [2244],
+      "combatLevel": 121,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 103, "stab": 12, "slash": 14, "crush": 13, "magic": 35, "range": 35 },
+      "location": "God Wars Dungeon, Bandos wing",
+      "requirement": "70 Strength + a hammer"
+    },
+    {
+      "name": "Spiritual mage (Armadyl)",
+      "npcIds": [3168],
+      "combatLevel": 123,
+      "weakness": { "style": "MELEE", "element": "air" },
+      "monsterDefence": { "defenceLevel": 111, "stab": 9, "slash": 12, "crush": 5, "magic": 45, "range": 35 },
+      "location": "God Wars Dungeon, Armadyl wing",
+      "requirement": "70 Ranged + mithril grapple crossbow"
+    },
+    {
+      "name": "Spiritual mage (Zaros)",
+      "npcIds": [11292],
+      "combatLevel": 182,
+      "weakness": { "style": "MELEE", "element": "fire" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 420, "slash": 400, "crush": 420, "magic": 200, "range": 35 },
+      "location": "Wilderness God Wars Dungeon",
+      "requirement": "miniquest The Frozen Door"
+    }
+  ],
+  "Warped creatures": [
+    {
+      "name": "Warped Terrorbird (Level 138)",
+      "npcIds": [12499, 12500, 12501, 12502, 12503, 12504],
+      "combatLevel": 138,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": null },
+      "monsterDefence": { "defenceLevel": 90, "stab": 40, "slash": 40, "crush": 40, "magic": 40, "range": 40 },
+      "isBoss": false,
+      "location": "Poison Waste Dungeon (The Path of Glouphrie)",
+      "requirement": "none"
+    },
+    {
+      "name": "Warped Tortoise",
+      "npcIds": [12490],
+      "combatLevel": 121,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 78, "stab": 50, "slash": 50, "crush": 0, "magic": 0, "range": 40 },
+      "location": "Poison Waste Dungeon (entrance)",
+      "requirement": "none"
+    },
+    {
+      "name": "Warped Terrorbird (Level 96)",
+      "npcIds": [12491, 12492, 12493, 12494, 12495, 12496, 12497, 12498],
+      "combatLevel": 96,
+      "weakness": { "style": "MELEE", "element": null },
+      "monsterDefence": { "defenceLevel": 20, "stab": 50, "slash": 50, "crush": 0, "magic": 0, "range": 40 },
+      "location": "Poison Waste Dungeon",
+      "requirement": "none"
+    }
+  ],
+  "TzHaar": [
+    {
+      "name": "TzHaar-Xil",
+      "npcIds": [2167, 2168, 2169, 2170, 2171, 2172],
+      "combatLevel": 133,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 80, "stab": 40, "slash": 40, "crush": 40, "magic": 40, "range": 40 },
+      "isBoss": false,
+      "location": "Mor Ul Rek",
+      "requirement": "none"
+    },
+    {
+      "name": "TzHaar-Hur",
+      "npcIds": [2161, 2162, 2163, 2164, 2165, 2166, 7682, 7683, 7684, 7685, 7686, 7687],
+      "combatLevel": 74,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 60, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 0 },
+      "location": "Mor Ul Rek",
+      "requirement": "none"
+    },
+    {
+      "name": "TzHaar-Mej",
+      "npcIds": [2154, 2155, 2156, 2157, 2158, 2159, 2160],
+      "combatLevel": 103,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 80, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 0 },
+      "location": "Mor Ul Rek",
+      "requirement": "none"
+    },
+    {
+      "name": "TzHaar-Ket (Level 149)",
+      "npcIds": [2173, 2174, 2175, 2176, 2177, 2178, 2179, 2187],
+      "combatLevel": 149,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 120, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 0 },
+      "location": "Mor Ul Rek (outer city)",
+      "requirement": "none"
+    },
+    {
+      "name": "TzHaar-Ket (Level 221)",
+      "npcIds": [7679],
+      "combatLevel": 221,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 190, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 0 },
+      "location": "Mor Ul Rek inner area",
+      "requirement": "show a fire cape to enter inner area"
+    },
+    {
+      "name": "TzTok-Jad",
+      "npcIds": [3127],
+      "combatLevel": 702,
+      "isBoss": true,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 480, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 0 },
+      "location": "TzHaar Fight Cave",
+      "requirement": "boss - separate trip"
+    },
+    {
+      "name": "TzKal-Zuk",
+      "npcIds": [7706],
+      "combatLevel": 1400,
+      "isBoss": true,
+      "weakness": { "style": "MELEE", "element": "water" },
+      "monsterDefence": { "defenceLevel": 260, "stab": 0, "slash": 0, "crush": 0, "magic": 350, "range": 0 },
+      "location": "Inferno",
+      "requirement": "boss - separate trip"
+    }
+  ],
+  "Waterfiends": [
+    {
+      "name": "Waterfiend",
+      "npcIds": [2916, 2917],
+      "combatLevel": 115,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 70, "stab": 50, "slash": 50, "crush": 10, "magic": 40, "range": 50 },
+      "demon": false,
+      "isBoss": false,
+      "location": "Ancient Cavern, Kraken Cove, Iorwerth Dungeon",
+      "requirement": "Ancient Cavern access (task gating); Iorwerth needs Song of the Elves"
+    }
+  ],
+  "Kurask": [
+    {
+      "name": "Kurask",
+      "npcIds": [410, 411],
+      "combatLevel": 106,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": null },
+      "monsterDefence": { "defenceLevel": 70, "stab": 30, "slash": 30, "crush": 30, "magic": 40, "range": 30 },
+      "isBoss": false,
+      "location": "Fremennik Slayer Dungeon; Iorwerth Dungeon",
+      "requirement": "leaf-bladed weapon / broad bolts or arrows / magic dart only"
+    },
+    {
+      "name": "King kurask (superior)",
+      "npcIds": [7405],
+      "combatLevel": 295,
+      "weakness": { "style": "MELEE", "element": null },
+      "monsterDefence": { "defenceLevel": 250, "stab": 0, "slash": 50, "crush": 50, "magic": 0, "range": 30 },
+      "location": "Fremennik Slayer Dungeon (superior spawn)",
+      "requirement": "superior (Bigger and Badder unlock); leaf-bladed / broad / magic dart only"
+    }
+  ],
+  "Gargoyles": [
+    {
+      "name": "Gargoyle",
+      "npcIds": [412, 413, 1543],
+      "combatLevel": 111,
+      "isDefault": true,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 80, "stab": 40, "slash": 40, "crush": 20, "magic": 100, "range": 40 },
+      "isBoss": false,
+      "location": "Slayer Tower top floor (412, 413) and basement (1543, on-task only)",
+      "requirement": "rock/granite hammer to finish at <=9 HP"
+    },
+    {
+      "name": "Marble gargoyle (superior)",
+      "npcIds": [7407, 7408],
+      "combatLevel": 349,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 190, "stab": 50, "slash": 50, "crush": 0, "magic": 50, "range": 40 },
+      "location": "Slayer Tower (superior spawn)",
+      "requirement": "superior (Bigger and Badder unlock); rock/granite hammer to finish"
+    },
+    {
+      "name": "Grotesque Guardians - Dusk",
+      "npcIds": [7851, 7854, 7855, 7882, 7883, 7886, 7887, 7888, 7889],
+      "combatLevel": 248,
+      "isBoss": true,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 0, "slash": 0, "crush": 0, "magic": 0, "range": 40 },
+      "location": "Grotesque Guardians arena (Slayer Tower roof)",
+      "requirement": "boss - separate trip"
+    },
+    {
+      "name": "Grotesque Guardians - Dawn",
+      "npcIds": [7852, 7853, 7884, 7885],
+      "combatLevel": 228,
+      "isBoss": true,
+      "weakness": { "style": "MELEE", "element": "earth" },
+      "monsterDefence": { "defenceLevel": 100, "stab": 0, "slash": 0, "crush": 0, "magic": 80, "range": 40 },
+      "location": "Grotesque Guardians arena (Slayer Tower roof)",
+      "requirement": "boss - separate trip"
+    }
+  ]
+}

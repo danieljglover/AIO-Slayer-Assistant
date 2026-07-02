@@ -1,0 +1,41 @@
+{
+  "variantId": "rat",
+  "name": "Rat",
+  "npcIds": [
+    2854,
+    2855
+  ],
+  "combatLevel": 1,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": -42,
+    "slash": -42,
+    "crush": -42,
+    "magic": -42,
+    "range": -42
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Cities, sewers and dungeons throughout Gielinor",
+  "locationId": "rat-spawns",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "rats",
+  "offence": {
+    "hitpoints": 2,
+    "maxHit": 0,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

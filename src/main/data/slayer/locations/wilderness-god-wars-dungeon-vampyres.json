@@ -1,0 +1,11 @@
+{
+  "locationId": "wilderness-god-wars-dungeon-vampyres",
+  "name": "Wilderness God Wars Dungeon",
+  "multi": true,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Requires either 60 Strength or 60 Agility. Most of the dungeon is below level 30 Wilderness; bring an emergency teleport and a Zamorak item if avoiding Feral Vampyre aggression."
+}

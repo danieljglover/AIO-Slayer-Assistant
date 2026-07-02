@@ -1,0 +1,41 @@
+{
+  "variantId": "black-dragon",
+  "name": "Black dragon",
+  "npcIds": [
+    252,
+    253,
+    254,
+    255,
+    256,
+    257,
+    258,
+    259,
+    8084,
+    8085,
+    7861,
+    7862,
+    7863
+  ],
+  "combatLevel": 227,
+  "weakness": {
+    "style": "RANGED",
+    "element": "water"
+  },
+  "monsterDefence": {
+    "defenceLevel": 200,
+    "stab": 0,
+    "slash": 70,
+    "crush": 70,
+    "magic": 60,
+    "range": 40
+  },
+  "demon": false,
+  "dragon": true,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Taverley Dungeon, Evil Chicken's Lair, Catacombs of Kourend (lvl 227 and lvl 247), Myths' Guild basement",
+  "requirement": "none",
+  "strategyId": "black-dragons",
+  "bossId": null
+}
