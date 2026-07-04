@@ -7,5 +7,14 @@
   "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Requires Priest in Peril. Fairy ring ALQ is in the middle of the woods; nearby leeches can drain stats and do not appear on the minimap."
+  "accessNote": "Requires Priest in Peril. Fairy ring ALQ is in the middle of the woods; nearby leeches can drain stats and do not appear on the minimap.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "dramen-staff",
+        "quantity": 1
+      }
+    ],
+    "note": "Fairy ring ALQ is in the Haunted Woods (needs a Dramen or Lunar staff)."
+  }
 }

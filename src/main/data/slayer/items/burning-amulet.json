@@ -1,0 +1,8 @@
+{
+  "itemKey": "burning-amulet",
+  "name": "Burning amulet",
+  "aliases": ["burning amulet(5)"],
+  "itemIds": [21166, 21169, 21171, 21173, 21175],
+  "stackable": false,
+  "dosed": false
+}

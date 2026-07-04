@@ -1,0 +1,8 @@
+{
+  "itemKey": "annakarl-teleport",
+  "name": "Annakarl teleport",
+  "aliases": ["annakarl teleport tablet", "annakarl tab"],
+  "itemIds": [12775, 4649],
+  "stackable": true,
+  "dosed": false
+}

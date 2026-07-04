@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Requires Watchtower. Blue dragons are far apart, can be cannoned and safespotted, and banking can use Ring of dueling to Castle Wars then run east to Gu'Tanoth; cannon also targets nearby spiders and skeletons."
+  "accessNote": "Requires Watchtower. Blue dragons are far apart, can be cannoned and safespotted, and banking can use Ring of dueling to Castle Wars then run east to Gu'Tanoth; cannon also targets nearby spiders and skeletons.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "ring-of-dueling",
+        "quantity": 1
+      }
+    ],
+    "note": "Ring of dueling to Castle Wars, then run to the Watchtower ogre enclave."
+  }
 }

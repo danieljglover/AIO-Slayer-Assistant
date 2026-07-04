@@ -1,0 +1,8 @@
+{
+  "itemKey": "falador-teleport",
+  "name": "Falador teleport",
+  "aliases": ["falador teleport tablet", "falador tab"],
+  "itemIds": [3292],
+  "stackable": true,
+  "dosed": false
+}

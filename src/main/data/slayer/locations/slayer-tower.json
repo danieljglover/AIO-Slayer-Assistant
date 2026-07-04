@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Bloodvelds on the first floor can be safespotted and receive additional Slayer experience from completed Morytania Diary tiers; other Slayer Tower tasks may have different floor-specific mechanics."
+  "accessNote": "Bloodvelds on the first floor can be safespotted and receive additional Slayer experience from completed Morytania Diary tiers; other Slayer Tower tasks may have different floor-specific mechanics.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "dramen-staff",
+        "quantity": 1
+      }
+    ],
+    "note": "Fairy ring CKS is beside the Slayer Tower (needs a Dramen or Lunar staff)."
+  }
 }

@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Ankou safespot is in the Sepulchre of Death south-west room, on the south side of the south-easternmost skeleton."
+  "accessNote": "Ankou safespot is in the Sepulchre of Death south-west room, on the south side of the south-easternmost skeleton.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "amulet-of-glory",
+        "quantity": 1
+      }
+    ],
+    "note": "Amulet of glory to Edgeville, then run west to the Stronghold of Security under Barbarian Village."
+  }
 }

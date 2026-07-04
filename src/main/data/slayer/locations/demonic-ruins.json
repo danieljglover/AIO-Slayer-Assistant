@@ -7,5 +7,14 @@
   "konarLockable": false,
   "safeSpot": true,
   "wilderness": true,
-  "accessNote": "Deep Wilderness Greater demon location near the Annakarl teleport destination. Prayer points regenerate there, but the area is multicombat and high PK risk."
+  "accessNote": "Deep Wilderness Greater demon location near the Annakarl teleport destination. Prayer points regenerate there, but the area is multicombat and high PK risk.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "annakarl-teleport",
+        "quantity": 1
+      }
+    ],
+    "note": "Annakarl teleport (Ancient Magicks) lands beside the Demonic Ruins in the deep Wilderness."
+  }
 }

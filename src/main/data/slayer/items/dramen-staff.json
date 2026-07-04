@@ -1,0 +1,8 @@
+{
+  "itemKey": "dramen-staff",
+  "name": "Dramen staff",
+  "aliases": ["fairy ring staff", "dramen or lunar staff"],
+  "itemIds": [772],
+  "stackable": false,
+  "dosed": false
+}

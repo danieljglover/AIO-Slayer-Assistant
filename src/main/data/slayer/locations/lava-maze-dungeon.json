@@ -7,5 +7,14 @@
   "konarLockable": false,
   "safeSpot": true,
   "wilderness": true,
-  "accessNote": "Wilderness Black dragon location. Access is significantly troublesome without 82 Agility and otherwise requires traversing the Lava Maze with a knife to cut webs; poison protection is useful due to poison spiders."
+  "accessNote": "Wilderness Black dragon location. Access is significantly troublesome without 82 Agility and otherwise requires traversing the Lava Maze with a knife to cut webs; poison protection is useful due to poison spiders.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "burning-amulet",
+        "quantity": 1
+      }
+    ],
+    "note": "Burning amulet teleports to the Lava Maze in the Wilderness."
+  }
 }

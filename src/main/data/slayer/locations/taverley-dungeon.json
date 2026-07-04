@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Black demon area has safespots by the south-west stalagmites and in a north-east crevice; requires Dusty Key or 70 Agility. Also contains lower-level Black dragon spawns and task-only baby black dragon access. Blue dragon area contains 9 adult Blue dragons and 12 baby Blue dragons, supports a cannon, and is the fast baby-blue-dragon task option; ring of dueling plus Enlightened Journey can speed banking. Hellhounds here have 13 spawns, support a cannon, can be safespotted on rocks and columns, and 80 Agility is highly recommended."
+  "accessNote": "Black demon area has safespots by the south-west stalagmites and in a north-east crevice; requires Dusty Key or 70 Agility. Also contains lower-level Black dragon spawns and task-only baby black dragon access. Blue dragon area contains 9 adult Blue dragons and 12 baby Blue dragons, supports a cannon, and is the fast baby-blue-dragon task option; ring of dueling plus Enlightened Journey can speed banking. Hellhounds here have 13 spawns, support a cannon, can be safespotted on rocks and columns, and 80 Agility is highly recommended.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "falador-teleport",
+        "quantity": 1
+      }
+    ],
+    "note": "Falador teleport, then run west to the Taverley Dungeon."
+  }
 }

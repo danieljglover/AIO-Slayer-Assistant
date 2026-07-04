@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Bottom level Black demon area with stalagmite safespots and another safespot near the Voice of Yama; Yama contracts are available after A Kingdom Divided and signing with Yama."
+  "accessNote": "Bottom level Black demon area with stalagmite safespots and another safespot near the Voice of Yama; Yama contracts are available after A Kingdom Divided and signing with Yama.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "xerics-talisman",
+        "quantity": 1
+      }
+    ],
+    "note": "Xeric's talisman into the Kebos Lowlands for the Chasm of Fire."
+  }
 }

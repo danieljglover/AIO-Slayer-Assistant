@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Task-only basement. Gargoyles can only be killed here while on a Slayer task and Raulyn stops off-task attacks; the Gargoyles task page lists 12 spawns and safespot support. Safespotting requires the Teleport anchoring scroll permanent unlock for Abyssal demons. Bloodveld access is task-only, can be reached from the tower with a Slayer ring route, and may be less busy."
+  "accessNote": "Task-only basement. Gargoyles can only be killed here while on a Slayer task and Raulyn stops off-task attacks; the Gargoyles task page lists 12 spawns and safespot support. Safespotting requires the Teleport anchoring scroll permanent unlock for Abyssal demons. Bloodveld access is task-only, can be reached from the tower with a Slayer ring route, and may be less busy.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "dramen-staff",
+        "quantity": 1
+      }
+    ],
+    "note": "Fairy ring CKS by the Slayer Tower, then descend to the basement (needs a Dramen or Lunar staff)."
+  }
 }
