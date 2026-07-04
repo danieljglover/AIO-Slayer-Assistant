@@ -1,7 +1,9 @@
 package com.danieljglover.allinslayer.ui.components;
 
+import com.danieljglover.allinslayer.loadout.LoadoutDiff;
 import com.danieljglover.allinslayer.ui.ItemIconRenderer;
 import com.danieljglover.allinslayer.ui.theme.SlayerTheme;
+import java.awt.Color;
 import java.awt.Dimension;
 import javax.swing.JLabel;
 import javax.swing.SwingConstants;
@@ -31,13 +33,56 @@ class EquipmentSlotCell extends JLabel
     /** A filled cell rendering {@code itemId} through the seam. */
     EquipmentSlotCell(ItemIconRenderer renderer, int itemId, int quantity, boolean stackable, String name)
     {
+        this(renderer, itemId, quantity, stackable, name, null);
+    }
+
+    /**
+     * A filled cell tinted by its Phase 2 carry {@code status} (null = today's neutral border): green
+     * when carried, amber when partially carried, red when not carried. The status word is appended to
+     * the tooltip so the state is legible without relying on colour alone.
+     */
+    EquipmentSlotCell(ItemIconRenderer renderer, int itemId, int quantity, boolean stackable, String name,
+        LoadoutDiff.Status status)
+    {
         configureWell();
         // Filled wells keep the bordered card recess so they read as occupied (W8 F4).
         setBackground(SlayerTheme.SURFACE_CARD);
-        setBorder(new LineBorder(SlayerTheme.BORDER_DIVIDER, 1));
-        setToolTipText(name);
+        setBorder(new LineBorder(borderColor(status), 1));
+        setToolTipText(status == null ? name : name + " - " + statusWord(status));
         setComponentPopupMenu(ItemWiki.popup(itemId));
         renderer.render(this, itemId, quantity, stackable, false);
+    }
+
+    private static Color borderColor(LoadoutDiff.Status status)
+    {
+        if (status == null)
+        {
+            return SlayerTheme.BORDER_DIVIDER;
+        }
+        switch (status)
+        {
+            case CARRIED:
+                return SlayerTheme.STATE_MET;
+            case PARTIAL:
+                return SlayerTheme.ACCENT_BRAND;
+            case MISSING:
+            default:
+                return SlayerTheme.STATE_BLOCKED;
+        }
+    }
+
+    private static String statusWord(LoadoutDiff.Status status)
+    {
+        switch (status)
+        {
+            case CARRIED:
+                return "carried";
+            case PARTIAL:
+                return "partly carried";
+            case MISSING:
+            default:
+                return "not carried";
+        }
     }
 
     private void configureWell()

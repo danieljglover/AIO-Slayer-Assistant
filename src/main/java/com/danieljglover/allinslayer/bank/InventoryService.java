@@ -87,6 +87,20 @@ public class InventoryService
         return OwnedItems.fromCounts(counts);
     }
 
+    /**
+     * Live inventory + worn ONLY (no bank snapshot) - what the player is actually carrying right now.
+     * Feeds the Phase 2 loadout diff / bank checklist: the recommendation is built against
+     * {@link #currentOwned()} (which includes the bank), but "what's still to withdraw" is measured
+     * against what's on the character.
+     */
+    public OwnedItems liveCarried()
+    {
+        Map<Integer, Integer> counts = new HashMap<>();
+        addContainer(counts, client.getItemContainer(InventoryID.INV));
+        addContainer(counts, client.getItemContainer(InventoryID.WORN));
+        return OwnedItems.fromCounts(counts);
+    }
+
     /** Epoch millis the bank was last seen, or null. */
     public Long bankLastSeen()
     {

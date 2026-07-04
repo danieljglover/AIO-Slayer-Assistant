@@ -1,5 +1,6 @@
 package com.danieljglover.allinslayer.ui.components;
 
+import com.danieljglover.allinslayer.loadout.LoadoutDiff;
 import com.danieljglover.allinslayer.loadout.TripSlot;
 import com.danieljglover.allinslayer.ui.ItemIconRenderer;
 import com.danieljglover.allinslayer.ui.theme.SlayerTheme;
@@ -27,6 +28,16 @@ public class InventoryGrid extends JPanel
 
     public InventoryGrid(ItemIconRenderer renderer, List<TripSlot> slots, Map<Integer, String> itemNames)
     {
+        this(renderer, slots, itemNames, null);
+    }
+
+    /**
+     * @param diff optional per-item carry status (Phase 2); when non-null each filled cell is tinted
+     *     carried/partial/missing vs what the player is holding. Null renders the neutral grid.
+     */
+    public InventoryGrid(ItemIconRenderer renderer, List<TripSlot> slots, Map<Integer, String> itemNames,
+        Map<Integer, LoadoutDiff.Status> diff)
+    {
         super(new DynamicGridLayout(7, 4, SlayerTheme.SPACE_1, SlayerTheme.SPACE_1));
         setName("inventory-grid");
         setOpaque(false);
@@ -45,7 +56,8 @@ public class InventoryGrid extends JPanel
             {
                 TripSlot slot = items.get(i);
                 cell = new EquipmentSlotCell(renderer, slot.getItemId(), slot.getQuantity(),
-                    slot.isStackable(), names.get(slot.getItemId()));
+                    slot.isStackable(), names.get(slot.getItemId()),
+                    diff == null ? null : diff.get(slot.getItemId()));
                 cell.setName("inv-cell-" + i);
             }
             else

@@ -1143,7 +1143,8 @@ public class SlayerPanel extends PluginPanel
 
             // At-a-glance worn grid (secondary overview, Decision 3). Wrapped full-width so it sits
             // flush-left like the worn rows below, not floating off-centre (W10 G2).
-            addLeft(body, leftRow(new EquipmentGrid(renderer, rec.getWorn(), state.getItemNames())));
+            addLeft(body, leftRow(new EquipmentGrid(renderer, rec.getWorn(), state.getItemNames(),
+                rec.getWornDiff())));
             addLeft(body, Box.createVerticalStrut(SlayerTheme.SPACE_3));
 
             // Worn detail rows (primary, Decision 3).
@@ -1164,7 +1165,8 @@ public class SlayerPanel extends PluginPanel
             {
                 addLeft(body, Box.createVerticalStrut(SlayerTheme.SPACE_3));
                 addLeft(body, caption("Inventory"));
-                addLeft(body, leftRow(new InventoryGrid(renderer, rec.getTripInventory(), state.getItemNames())));
+                addLeft(body, leftRow(new InventoryGrid(renderer, rec.getTripInventory(),
+                    state.getItemNames(), rec.getInventoryDiff())));
             }
 
             addConsumables(body, state, rec.getConsumables());

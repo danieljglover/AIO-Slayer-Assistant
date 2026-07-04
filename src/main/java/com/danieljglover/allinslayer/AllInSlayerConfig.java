@@ -44,6 +44,17 @@ public interface AllInSlayerConfig extends Config
     }
 
     @ConfigItem(
+        keyName = "showBankChecklist",
+        name = "Show bank checklist",
+        description = "While the bank is open, list the recommended items you still need to withdraw",
+        position = 4
+    )
+    default boolean showBankChecklist()
+    {
+        return true;
+    }
+
+    @ConfigItem(
         keyName = "developerMode",
         name = "Developer mode",
         description = "Show the developer diagnostics section at the bottom of the side panel",

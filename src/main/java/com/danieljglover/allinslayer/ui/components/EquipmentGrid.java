@@ -1,5 +1,6 @@
 package com.danieljglover.allinslayer.ui.components;
 
+import com.danieljglover.allinslayer.loadout.LoadoutDiff;
 import com.danieljglover.allinslayer.model.EquipmentSlot;
 import com.danieljglover.allinslayer.ui.ItemIconRenderer;
 import com.danieljglover.allinslayer.ui.theme.SlayerTheme;
@@ -42,6 +43,16 @@ public class EquipmentGrid extends JPanel
     public EquipmentGrid(ItemIconRenderer renderer, Map<EquipmentSlot, Integer> worn,
         Map<Integer, String> itemNames)
     {
+        this(renderer, worn, itemNames, null);
+    }
+
+    /**
+     * @param diff optional per-slot carry status (Phase 2); when non-null each worn cell is tinted
+     *     carried/missing vs what the player is holding. Null renders the neutral cross.
+     */
+    public EquipmentGrid(ItemIconRenderer renderer, Map<EquipmentSlot, Integer> worn,
+        Map<Integer, String> itemNames, Map<EquipmentSlot, LoadoutDiff.Status> diff)
+    {
         super(new DynamicGridLayout(5, 3, SlayerTheme.SPACE_1, SlayerTheme.SPACE_1));
         setName("equipment-grid");
         setOpaque(false);
@@ -56,7 +67,8 @@ public class EquipmentGrid extends JPanel
         {
             Integer itemId = slot == null ? null : wornGear.get(slot);
             EquipmentSlotCell cell = itemId != null
-                ? new EquipmentSlotCell(renderer, itemId, 1, false, names.get(itemId))
+                ? new EquipmentSlotCell(renderer, itemId, 1, false, names.get(itemId),
+                    diff == null ? null : diff.get(slot))
                 : new EquipmentSlotCell();
             // Name by slot position (stable across fills) so the cross layout is testable; only the
             // four true corner wells are "empty".

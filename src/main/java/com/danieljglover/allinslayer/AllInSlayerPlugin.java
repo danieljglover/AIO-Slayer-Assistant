@@ -5,6 +5,7 @@ import com.danieljglover.allinslayer.bank.OwnedItems;
 import com.danieljglover.allinslayer.data.SlayerDataService;
 import com.danieljglover.allinslayer.integration.InventorySetupsExporter;
 import com.danieljglover.allinslayer.loadout.LoadoutAdvisor;
+import com.danieljglover.allinslayer.loadout.LoadoutDiff;
 import com.danieljglover.allinslayer.loadout.LoadoutItems;
 import com.danieljglover.allinslayer.loadout.PlayerStats;
 import com.danieljglover.allinslayer.loadout.Recommendation;
@@ -18,6 +19,7 @@ import com.danieljglover.allinslayer.task.MenuClickedItemResolver;
 import com.danieljglover.allinslayer.task.SlayerVarbits;
 import com.danieljglover.allinslayer.task.TaskDetector;
 import com.danieljglover.allinslayer.task.TaskRefreshTrigger;
+import com.danieljglover.allinslayer.ui.BankChecklistOverlay;
 import com.danieljglover.allinslayer.ui.RefreshSource;
 import com.danieljglover.allinslayer.ui.SlayerDebugSnapshot;
 import com.danieljglover.allinslayer.ui.SlayerOverlay;
@@ -84,6 +86,7 @@ public class AllInSlayerPlugin extends Plugin
     @Inject private ClientToolbar clientToolbar;
     @Inject private SlayerPanel panel;
     @Inject private SlayerOverlay overlay;
+    @Inject private BankChecklistOverlay bankChecklistOverlay;
 
     private NavigationButton navButton;
     private AdviceMode mode;
@@ -170,6 +173,8 @@ public class AllInSlayerPlugin extends Plugin
 
         overlay.setEnabled(config.showOverlay());
         overlayManager.add(overlay);
+        bankChecklistOverlay.setEnabled(config.showBankChecklist());
+        overlayManager.add(bankChecklistOverlay);
 
         clientThread.invoke(() -> recompute(RefreshSource.STARTUP));
     }
@@ -179,6 +184,7 @@ public class AllInSlayerPlugin extends Plugin
     {
         clientToolbar.removeNavigation(navButton);
         overlayManager.remove(overlay);
+        overlayManager.remove(bankChecklistOverlay);
     }
 
     @Subscribe
@@ -317,6 +323,7 @@ public class AllInSlayerPlugin extends Plugin
             overlay.setMethod(null);
             overlay.setLocation(null);
             clearOverlayWarnings();
+            bankChecklistOverlay.setLines(java.util.Collections.emptyList());
 
             SlayerPanelState state = targetId > 0
                 ? SlayerPanelState.unsupportedTask(targetId, remaining, mode, bankAge, refreshSource, Instant.now(), debug, config.developerMode())
@@ -443,6 +450,25 @@ public class AllInSlayerPlugin extends Plugin
         final List<Integer> itemIds = LoadoutItems.ids(lastRecommendation);
         final Map<Integer, String> names = collectNames(itemIds);
         final Map<Integer, Integer> prices = LoadoutItems.prices(itemIds, itemManager::getItemPrice);
+
+        // Phase 2 live diff: tint the loadout grids against what the player is actually carrying
+        // (inventory + worn, NOT the bank snapshot), and feed the bank-open withdrawal checklist. Set on
+        // lastRecommendation before the state is built so the grids receive the tint. Refreshes for free:
+        // recompute() already fires on every INV/WORN/BANK container change.
+        if (lastRecommendation != null)
+        {
+            OwnedItems carried = inventoryService.liveCarried();
+            lastRecommendation.setInventoryDiff(
+                LoadoutDiff.inventoryStatus(lastRecommendation.getTripInventory(), carried));
+            lastRecommendation.setWornDiff(
+                LoadoutDiff.wornStatus(lastRecommendation.getWorn(), carried));
+            bankChecklistOverlay.setLines(withdrawalLines(lastRecommendation, carried, names));
+        }
+        else
+        {
+            bankChecklistOverlay.setLines(java.util.Collections.emptyList());
+        }
+        bankChecklistOverlay.setEnabled(config.showBankChecklist());
 
         final SlayerPanelState state = SlayerPanelState.forTask(
             t,
@@ -618,6 +644,23 @@ public class AllInSlayerPlugin extends Plugin
             return null;
         }
         return "methodChoice." + taskName.toLowerCase(java.util.Locale.ROOT).replaceAll("[^a-z0-9]+", "-");
+    }
+
+    /** The bank checklist's outstanding-withdrawal lines ("14x Shark") for the current recommendation. */
+    private List<String> withdrawalLines(Recommendation rec, OwnedItems carried, Map<Integer, String> names)
+    {
+        List<String> lines = new java.util.ArrayList<>();
+        for (LoadoutDiff.Need need : LoadoutDiff.outstanding(rec, carried))
+        {
+            int shortBy = need.getNeed() - need.getHave();
+            if (shortBy <= 0)
+            {
+                continue;
+            }
+            String name = names.getOrDefault(need.getItemId(), "#" + need.getItemId());
+            lines.add(shortBy + "x " + name);
+        }
+        return lines;
     }
 
     private PlayerStats buildStats()

@@ -104,4 +104,10 @@ public class Recommendation
     // The pickable strategy methods (style-bearing) for the method selector; null/empty when the variant
     // has no strategy methods (the selector is then hidden). The selected one is methodId above.
     private java.util.List<com.danieljglover.allinslayer.model.StrategyMethod> methodOptions;
+    // Phase 2 live diff: per trip-item-id and per worn-slot carry status (carried/partial/missing) vs
+    // what the player is currently carrying, computed by the plugin from InventoryService.liveCarried()
+    // after this recommendation is built. Null when no diff was computed (e.g. bank never scanned); the
+    // grids then render without tint (today's look). Never a combat-maths input (NG-4).
+    private Map<Integer, LoadoutDiff.Status> inventoryDiff;
+    private Map<EquipmentSlot, LoadoutDiff.Status> wornDiff;
 }
