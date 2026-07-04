@@ -8,6 +8,7 @@ import com.danieljglover.allinslayer.model.MasterRequirements;
 import com.danieljglover.allinslayer.model.MonsterStrategy;
 import com.danieljglover.allinslayer.model.StrategyItemRef;
 import com.danieljglover.allinslayer.model.StrategyMethod;
+import com.danieljglover.allinslayer.model.TravelItem;
 import com.danieljglover.allinslayer.model.MonsterVariant;
 import com.danieljglover.allinslayer.model.RewardData;
 import com.danieljglover.allinslayer.model.RewardEffect;
@@ -247,6 +248,7 @@ public final class ModularSlayerDataCompiler
         collectUnique("rewardId", data.getRewards().stream()
             .map(SourceReward::getRewardId).collect(Collectors.toList()), errors);
         validateItems(data, errors);
+        validateTravel(data, errors);
 
         // WA-8 (ADR-0018 #6): rewards must be renderable and mappable - a real cost (the runtime
         // RewardData.pointsCost is a primitive) and an effect string that IS a RewardEffect value
@@ -525,6 +527,39 @@ public final class ModularSlayerDataCompiler
         collectUnique("item name/alias", lookupNames, errors);
     }
 
+    /**
+     * Location travel items are structured references (an {@code itemKey} into the catalogue), so an
+     * unresolved one FAILS the build - unlike the tolerant free-text strategy item names. This keeps the
+     * Phase 3 travel data honest as it is backfilled across locations.
+     */
+    private static void validateTravel(ModularSlayerDataSet data, List<String> errors)
+    {
+        Set<String> itemKeys = data.getItems().stream()
+            .filter(i -> i != null && i.getItemKey() != null)
+            .map(SourceItem::getItemKey)
+            .collect(Collectors.toSet());
+        for (SourceLocation location : data.getLocations())
+        {
+            if (location == null || location.getTravel() == null
+                || location.getTravel().getItems() == null)
+            {
+                continue;
+            }
+            for (SourceLocationTravelItem item : location.getTravel().getItems())
+            {
+                if (item == null)
+                {
+                    continue;
+                }
+                if (item.getItemKey() == null || !itemKeys.contains(item.getItemKey()))
+                {
+                    errors.add("location " + location.getLocationId()
+                        + " travel references unknown itemKey: " + item.getItemKey());
+                }
+            }
+        }
+    }
+
     private static void validateWeaponRefs(String strategyId, List<String> refs, Set<String> weaponIds,
         List<String> errors)
     {
@@ -556,6 +591,10 @@ public final class ModularSlayerDataCompiler
         // The item-name resolver over the supply catalogue + weapon catalogue; carries the strategy
         // methods' free-text item lists to real ids, accumulating unresolved names for the report below.
         ItemNameResolver resolver = new ItemNameResolver(data.getItems(), data.getWeapons());
+        // The catalogue keyed by itemKey, for structured travel-item resolution (validated in validate()).
+        Map<String, SourceItem> itemsByKey = data.getItems().stream()
+            .filter(i -> i != null && i.getItemKey() != null)
+            .collect(Collectors.toMap(SourceItem::getItemKey, i -> i, (a, b) -> a, LinkedHashMap::new));
 
         List<SourceTask> sourceTasks = new ArrayList<>(data.getTasks());
         sourceTasks.sort((a, b) -> nullToEmpty(a.getTaskId()).compareTo(nullToEmpty(b.getTaskId())));
@@ -587,7 +626,7 @@ public final class ModularSlayerDataCompiler
             task.setUndead(source.isUndead());
             task.setRequiredItemId(source.getRequiredItemId());
             task.setRequiredItemName(source.getRequiredItemName());
-            task.setLocations(resolveLocations(source, locations));
+            task.setLocations(resolveLocations(source, locations, itemsByKey));
             task.setRecommendedMethod(source.getRecommendedMethod());
             task.setVariants(resolveVariants(source, variants, strategies, weapons, locations, resolver));
             tasks.add(task);
@@ -734,7 +773,8 @@ public final class ModularSlayerDataCompiler
         return npcIds;
     }
 
-    private static List<SlayerLocation> resolveLocations(SourceTask source, Map<String, SourceLocation> locations)
+    private static List<SlayerLocation> resolveLocations(SourceTask source,
+        Map<String, SourceLocation> locations, Map<String, SourceItem> itemsByKey)
     {
         List<SlayerLocation> resolved = new ArrayList<>();
         if (source.getLocationIds() == null)
@@ -766,10 +806,43 @@ public final class ModularSlayerDataCompiler
                     location.isKonarLockable(), location.isWilderness(),
                     location.isSafeSpot(), location.getAccessNote());
                 slayerLocation.setQuality(resolveQuality(comparisons.get(locationId)));
+                slayerLocation.setTravelItems(resolveTravel(location.getTravel(), itemsByKey));
                 resolved.add(slayerLocation);
             }
         }
         return resolved;
+    }
+
+    /**
+     * Phase 3: the location's authored travel block -> runtime {@link TravelItem}s, resolving each
+     * {@code itemKey} to the catalogue's best-first ids. Null/empty -> null (no travel = the TripPlanner
+     * travel layer contributes nothing, the backfill contract). itemKeys are validated in
+     * {@link #validateTravel} so an unknown one has already failed the build.
+     */
+    private static List<TravelItem> resolveTravel(SourceLocationTravel travel,
+        Map<String, SourceItem> itemsByKey)
+    {
+        if (travel == null || travel.getItems() == null || travel.getItems().isEmpty())
+        {
+            return null;
+        }
+        List<TravelItem> resolved = new ArrayList<>();
+        for (SourceLocationTravelItem item : travel.getItems())
+        {
+            if (item == null || item.getItemKey() == null)
+            {
+                continue;
+            }
+            SourceItem catalogue = itemsByKey.get(item.getItemKey());
+            if (catalogue == null || catalogue.getItemIds() == null || catalogue.getItemIds().isEmpty())
+            {
+                continue;
+            }
+            int quantity = item.getQuantity() <= 0 ? 1 : item.getQuantity();
+            resolved.add(new TravelItem(catalogue.getName(),
+                new ArrayList<>(catalogue.getItemIds()), quantity));
+        }
+        return resolved.isEmpty() ? null : resolved;
     }
 
     /** WD-5a: compile a locationComparison row into the runtime {@link LocationQuality} overlay. */

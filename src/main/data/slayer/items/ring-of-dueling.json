@@ -1,0 +1,8 @@
+{
+  "itemKey": "ring-of-dueling",
+  "name": "Ring of dueling",
+  "aliases": ["ring of dueling(8)", "dueling ring", "duel ring"],
+  "itemIds": [2552, 2554, 2556, 2558, 2560, 2562, 2564, 2566],
+  "stackable": false,
+  "dosed": false
+}

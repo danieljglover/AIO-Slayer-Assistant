@@ -16,4 +16,6 @@ public class SourceLocation
     private boolean safeSpot;
     private boolean wilderness;
     private String accessNote;
+    // Phase 3 travel data: teleport/access items to reach this location. Absent = no travel (backfill).
+    private SourceLocationTravel travel;
 }

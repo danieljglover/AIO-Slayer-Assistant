@@ -1,0 +1,8 @@
+{
+  "itemKey": "necklace-of-passage",
+  "name": "Necklace of passage",
+  "aliases": ["passage necklace"],
+  "itemIds": [21146, 21149, 21151, 21153, 21155],
+  "stackable": false,
+  "dosed": false
+}

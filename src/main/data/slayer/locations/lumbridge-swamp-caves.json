@@ -7,5 +7,14 @@
   "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
-  "accessNote": "Caves beneath Lumbridge Swamp, entered by tying a rope to the hole east of the swamp; a light source is required and open flames are extinguished by the swamp gas. Home to cave bugs, cave slime, cave crawlers, rockslugs and wall beasts. A Dwarf multicannon can be used here. A spiny helmet is needed to safely attack wall beasts. Multi and safespot availability are not wiki-confirmed (conservative defaults)."
+  "accessNote": "Caves beneath Lumbridge Swamp, entered by tying a rope to the hole east of the swamp; a light source is required and open flames are extinguished by the swamp gas. Home to cave bugs, cave slime, cave crawlers, rockslugs and wall beasts. A Dwarf multicannon can be used here. A spiny helmet is needed to safely attack wall beasts. Multi and safespot availability are not wiki-confirmed (conservative defaults).",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "rope",
+        "quantity": 1
+      }
+    ],
+    "note": "Tie a rope to the swamp hole to descend; bring a light source."
+  }
 }

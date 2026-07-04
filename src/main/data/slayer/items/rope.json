@@ -1,0 +1,8 @@
+{
+  "itemKey": "rope",
+  "name": "Rope",
+  "aliases": ["ropes"],
+  "itemIds": [954],
+  "stackable": false,
+  "dosed": false
+}

@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Black demons here can be safespotted and give access to Ancient shards and Dark totem pieces, but their higher Defence makes them an inefficient Black demons task option. Mutated bloodvelds appear in three groups, can be safespotted, and use the Catacombs drop table including ancient shards and dark totem pieces. Brutal blue dragons here are safespottable, cannot be cannoned, and can drop ancient shards and Dark totem parts. Hellhounds here are multicombat, safespottable, cannot be cannoned, and can reset aggression by running south and up the vine to the Giants' Den."
+  "accessNote": "Black demons here can be safespotted and give access to Ancient shards and Dark totem pieces, but their higher Defence makes them an inefficient Black demons task option. Mutated bloodvelds appear in three groups, can be safespotted, and use the Catacombs drop table including ancient shards and dark totem pieces. Brutal blue dragons here are safespottable, cannot be cannoned, and can drop ancient shards and Dark totem parts. Hellhounds here are multicombat, safespottable, cannot be cannoned, and can reset aggression by running south and up the vine to the Giants' Den.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "xerics-talisman",
+        "quantity": 1
+      }
+    ],
+    "note": "Xeric's Heart (Xeric's talisman) is beside the Catacombs entrance."
+  }
 }

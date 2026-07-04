@@ -1,0 +1,8 @@
+{
+  "itemKey": "amulet-of-glory",
+  "name": "Amulet of glory",
+  "aliases": ["glory", "amulet of glory(6)", "amulet of glory(4)"],
+  "itemIds": [11978, 1712, 1710, 1708, 1706],
+  "stackable": false,
+  "dosed": false
+}

@@ -7,5 +7,14 @@
   "konarLockable": false,
   "safeSpot": false,
   "wilderness": true,
-  "accessNote": "Level 18-22 Wilderness Hellhound area is multicombat, cannonable, safespottable, and fast with Wilderness weapons. The cave is a popular player killing hotspot; stand as far south as practical to stay near one-click teleport range, and do not risk items you are unwilling to lose."
+  "accessNote": "Level 18-22 Wilderness Hellhound area is multicombat, cannonable, safespottable, and fast with Wilderness weapons. The cave is a popular player killing hotspot; stand as far south as practical to stay near one-click teleport range, and do not risk items you are unwilling to lose.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "ring-of-dueling",
+        "quantity": 1
+      }
+    ],
+    "note": "Ring of dueling to Ferox Enclave, then run north into the cave."
+  }
 }

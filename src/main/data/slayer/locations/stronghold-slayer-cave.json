@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Bloodvelds here are close to Nieve, support a dwarf multicannon, and can be safespotted. Use a Slayer ring, Spirit tree to Tree Gnome Stronghold, or necklace of passage to Outpost. Hellhounds here are the primary non-Wilderness task option, with 13 spawns across four rooms of three or four Hellhounds, cannon support, and safespots."
+  "accessNote": "Bloodvelds here are close to Nieve, support a dwarf multicannon, and can be safespotted. Use a Slayer ring, Spirit tree to Tree Gnome Stronghold, or necklace of passage to Outpost. Hellhounds here are the primary non-Wilderness task option, with 13 spawns across four rooms of three or four Hellhounds, cannon support, and safespots.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "slayer-ring",
+        "quantity": 1
+      }
+    ],
+    "note": "Slayer ring teleports directly to the Stronghold Slayer Cave."
+  }
 }

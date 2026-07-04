@@ -1,0 +1,8 @@
+{
+  "itemKey": "xerics-talisman",
+  "name": "Xeric's talisman",
+  "aliases": ["xerics talisman", "xeric talisman"],
+  "itemIds": [13393],
+  "stackable": false,
+  "dosed": false
+}

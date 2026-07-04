@@ -2,8 +2,10 @@ package com.danieljglover.allinslayer.loadout;
 
 import com.danieljglover.allinslayer.bank.OwnedItems;
 import com.danieljglover.allinslayer.model.MonsterStrategy;
+import com.danieljglover.allinslayer.model.SlayerLocation;
 import com.danieljglover.allinslayer.model.StrategyItemRef;
 import com.danieljglover.allinslayer.model.StrategyMethod;
+import com.danieljglover.allinslayer.model.TravelItem;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -58,7 +60,7 @@ public final class TripPlanner
     {
         TripBag bag = new TripBag();
         requiredAndKeyItems(ctx, bag);
-        // Travel layer: Phase 1 stub (Phase 3 packs the location's teleport here).
+        travel(ctx, bag);
         methodInventory(ctx, bag);
         sustainAndConsumables(ctx, bag);
         Integer foodId = ctx.getConsumables() == null ? null : ctx.getConsumables().getFoodId();
@@ -88,6 +90,39 @@ public final class TripPlanner
             for (StrategyItemRef ref : nullSafe(ctx.getMethod().getKeyItems()))
             {
                 handleKeyItem(ref, bag, owned);
+            }
+        }
+    }
+
+    /**
+     * The effective location's teleport/access items (Phase 3): pack the first owned id per travel
+     * item; an unowned travel item becomes a "bring X" advisory. No authored travel = no contribution.
+     */
+    private static void travel(TripPlanContext ctx, TripBag bag)
+    {
+        OwnedItems owned = ctx.getOwned();
+        SlayerLocation location = ctx.getEffectiveLocation();
+        if (owned == null || location == null || location.getTravelItems() == null)
+        {
+            return;
+        }
+        for (TravelItem item : location.getTravelItems())
+        {
+            if (item.getItemIds() == null || item.getItemIds().isEmpty())
+            {
+                continue;
+            }
+            Integer ownedId = firstOwned(owned, item.getItemIds());
+            if (ownedId != null)
+            {
+                if (!bag.contains(ownedId))
+                {
+                    bag.ensure(ownedId, true);
+                }
+            }
+            else
+            {
+                bag.noteMissing(item.getName());
             }
         }
     }
@@ -303,7 +338,7 @@ public final class TripPlanner
         {
             return null;
         }
-        return "Strategy recommends but you own none: " + String.join(", ", missing) + ".";
+        return "Recommended but you own none: " + String.join(", ", missing) + ".";
     }
 
     private static List<StrategyItemRef> nullSafe(List<StrategyItemRef> refs)

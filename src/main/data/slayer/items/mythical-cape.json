@@ -1,0 +1,8 @@
+{
+  "itemKey": "mythical-cape",
+  "name": "Mythical cape",
+  "aliases": ["myth cape"],
+  "itemIds": [22114],
+  "stackable": false,
+  "dosed": false
+}

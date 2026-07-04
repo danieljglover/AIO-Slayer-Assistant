@@ -7,5 +7,14 @@
   "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Contains standard Basilisks. A mirror shield or V's shield is required to avoid basilisk gaze damage and stat drain."
+  "accessNote": "Contains standard Basilisks. A mirror shield or V's shield is required to avoid basilisk gaze damage and stat drain.",
+  "travel": {
+    "items": [
+      {
+        "itemKey": "slayer-ring",
+        "quantity": 1
+      }
+    ],
+    "note": "Slayer ring teleports to the Fremennik Slayer Dungeon (Rellekka)."
+  }
 }
