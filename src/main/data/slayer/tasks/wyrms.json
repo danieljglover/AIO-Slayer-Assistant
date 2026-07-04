@@ -58,6 +58,7 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Allows Shadow Wyrm to spawn from Wyrms and Magma strykewyrm to spawn from Lava Strykewyrms while on task."
     },
     {
@@ -96,7 +97,7 @@
   "dragon": true,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": 21647,
+  "requiredItemId": 23037,
   "requiredItemName": "Boots of stone",
   "locationIds": [
     "karuulm-slayer-dungeon-wyrms",

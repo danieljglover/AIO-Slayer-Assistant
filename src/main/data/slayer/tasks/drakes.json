@@ -56,7 +56,7 @@
   "dragon": true,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": 21647,
+  "requiredItemId": 23037,
   "requiredItemName": "Boots of stone",
   "locationIds": [
     "karuulm-slayer-dungeon-drakes"

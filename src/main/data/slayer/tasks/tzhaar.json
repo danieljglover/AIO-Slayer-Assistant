@@ -36,6 +36,7 @@
       "unlockId": "hot-stuff",
       "name": "Hot Stuff",
       "pointsCost": 100,
+      "type": "TASK_UNLOCK",
       "notes": "Allows Chaeldar, Nieve/Steve, and Duradel/Kuradal to assign TzHaar."
     }
   ],
@@ -118,16 +119,27 @@
       ]
     },
     {
-      "variantId": "tzhaar-ket",
+      "variantId": "tzhaar-ket-level-149",
       "name": "TzHaar-Ket",
-      "combatLevel": null,
-      "slayerXp": null,
+      "combatLevel": 149,
+      "slayerXp": 140,
       "locations": [
-        "Mor Ul Rek",
+        "Mor Ul Rek"
+      ],
+      "notes": [
+        "Standard TzHaar-Ket in the main Mor Ul Rek city.",
+        "Ket are primarily melee and can be safespotted through vents or bursted around TzHaar-Ket-Rak's Challenges."
+      ]
+    },
+    {
+      "variantId": "tzhaar-ket-level-221",
+      "name": "TzHaar-Ket",
+      "combatLevel": 221,
+      "slayerXp": 200,
+      "locations": [
         "Mor Ul Rek inner area"
       ],
       "notes": [
-        "Combat levels are 149 and 221; Slayer XP values are 140 and 200.",
         "The level 221 inner-area TzHaar-Ket requires a one-time fire cape show and can drop obsidian armour.",
         "Ket are primarily melee and can be safespotted through vents or bursted around TzHaar-Ket-Rak's Challenges."
       ]

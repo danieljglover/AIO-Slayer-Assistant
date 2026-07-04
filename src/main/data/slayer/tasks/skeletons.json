@@ -104,13 +104,13 @@
       "locationId": "graveyard-of-shadows-skeletons",
       "name": "Graveyard of Shadows (skeletons)",
       "amount": 8,
-      "multicombat": false,
-      "cannonable": false,
+      "multicombat": true,
+      "cannonable": true,
       "safespottable": false,
       "notes": [
         "Wilderness skeletons at the Graveyard of Shadows (levels 18-21) for Krystilia.",
-        "Multi and cannon status are not wiki-stated, so treated conservatively as false.",
-        "Bring risk-appropriate gear and an escape teleport."
+        "The wiki Wilderness skeletons row lists this as multicombat and cannonable; it is not safespottable.",
+        "High-risk PvP zone: bring risk-appropriate gear and an escape teleport."
       ]
     },
     {
@@ -118,11 +118,11 @@
       "name": "Non-Wilderness skeletons",
       "amount": 12,
       "multicombat": false,
-      "cannonable": false,
+      "cannonable": true,
       "safespottable": false,
       "notes": [
         "Edgeville Dungeon and the Varrock Sewers hold skeletons for the starter masters.",
-        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+        "Both areas are cannonable per the wiki; Edgeville Dungeon is single-way and safespottable, while the Varrock Sewers are multicombat."
       ]
     }
   ],

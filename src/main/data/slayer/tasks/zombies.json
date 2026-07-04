@@ -1,8 +1,8 @@
 {
   "taskId": "zombies",
   "name": "Zombies",
-  "wikiPageId": null,
-  "combatLevel": null,
+  "wikiPageId": 298268,
+  "combatLevel": 10,
   "slayerTargetId": 273,
   "slayerLevel": 1,
   "questReqs": [],
@@ -117,13 +117,14 @@
     {
       "locationId": "graveyard-of-shadows",
       "name": "Graveyard of Shadows",
-      "amount": null,
+      "amount": 21,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Wandering zombies (levels 18 and 24) roam the Graveyard of Shadows in Wilderness levels 18-21; these kills count towards a Krystilia Zombies task.",
-        "Multicombat, cannon placement and safespots are not wiki-stated; conservative defaults are used."
+        "The Slayer_task/Zombies location table lists Graveyard of Shadows as 21 spawns, single-way, cannonable and safespottable; it is in the Wilderness close to the Ferox Enclave.",
+        "A Dwarf multicannon can be used here (standard Wilderness cannon rules apply)."
       ]
     },
     {

@@ -117,7 +117,9 @@
     "ogre-enclave-watchtower",
     "isle-of-souls-dungeon",
     "karuulm-slayer-dungeon-greater-demons",
-    "wilderness-slayer-cave"
+    "wilderness-slayer-cave",
+    "god-wars-dungeon",
+    "ancient-guthixian-temple"
   ],
   "variantInfo": [
     {
@@ -365,6 +367,30 @@
         "Level 28 Wilderness.",
         "Fast experience with Viggora's chainmace before acquiring Arclight or Emberlight.",
         "One of the only Greater demon areas that is both cannonable and multicombat."
+      ]
+    },
+    {
+      "locationId": "god-wars-dungeon",
+      "name": "God Wars Dungeon",
+      "amount": null,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Boss alternative only: K'ril Tsutsaroth and Tstanon Karlak in the Zamorak Fortress count as Greater demons.",
+        "Requires God Wars Dungeon access, Zamorak kill count, and boss-trip gear."
+      ]
+    },
+    {
+      "locationId": "ancient-guthixian-temple",
+      "name": "Ancient Guthixian Temple",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Tormented demons count as Greater demons here after While Guthix Sleeps.",
+        "A cannon cannot be set up and tormented demons are immune to cannon damage."
       ]
     }
   ],

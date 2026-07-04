@@ -1,7 +1,7 @@
 {
   "taskId": "green-dragons",
   "name": "Green dragons",
-  "wikiPageId": null,
+  "wikiPageId": 270386,
   "combatLevel": 79,
   "slayerTargetId": 259,
   "slayerLevel": 1,
@@ -74,11 +74,12 @@
       "name": "Graveyard of Shadows (green dragons)",
       "amount": 5,
       "multicombat": false,
-      "cannonable": false,
+      "cannonable": true,
       "safespottable": false,
       "notes": [
         "5 green dragon spawns north of the Graveyard of Shadows.",
-        "In the Wilderness (around levels 18-21); a popular player-killing area."
+        "In the Wilderness (around levels 18-21); a popular player-killing area.",
+        "Single-way combat, open Wilderness so cannonable (the wiki table leaves the boolean as Unknown, but Wilderness green dragons are a common cannon target)."
       ]
     },
     {
@@ -86,11 +87,11 @@
       "name": "Wilderness green dragon spawns",
       "amount": null,
       "multicombat": false,
-      "cannonable": false,
+      "cannonable": true,
       "safespottable": false,
       "notes": [
         "Other Wilderness green dragon clusters: south of the Lava Maze (5 spawns), west of the Dark Warriors' Fortress (3 spawns), and the Boneyard.",
-        "All are in the Wilderness; multi/cannon status is not wiki-stated, so treated conservatively."
+        "All are single-way Wilderness spawns and cannonable per the wiki (west of Dark Warriors' Fortress and south of the Lava Maze are both Yes); the Boneyard/south-of-Venenatis cluster is also safespottable."
       ]
     }
   ],

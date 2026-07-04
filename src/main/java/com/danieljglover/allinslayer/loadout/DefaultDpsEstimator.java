@@ -3,7 +3,9 @@ package com.danieljglover.allinslayer.loadout;
 import com.danieljglover.allinslayer.model.CombatStyle;
 import com.danieljglover.allinslayer.model.EquipmentSlot;
 import com.danieljglover.allinslayer.model.MonsterDefence;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.function.IntPredicate;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 
@@ -66,6 +68,29 @@ public class DefaultDpsEstimator implements DpsEstimator
         double accM = conditionalMultiplier(equipped, style, ctx, false);
         double dmgM = conditionalMultiplier(equipped, style, ctx, true);
         MonsterDefence def = profile == null ? null : profile.getDefence();
+
+        // Armour set synergies that stack MULTIPLICATIVELY on top of the task conditional (SetBonusRegistry):
+        // crystal armour boosts a worn crystal weapon's ranged rolls; Inquisitor armour boosts crush melee
+        // rolls (its mace triples the effect). Reflected here so the shown DPS matches the selector's
+        // set-bonus pick. Each multiplier is 1.0 (no-op) when the relevant pieces are not worn.
+        IntPredicate worn = new HashSet<>(equipped.values())::contains;
+        if (style == CombatStyle.RANGED && SetBonusRegistry.isCrystalWeapon(weaponId))
+        {
+            double[] c = SetBonusRegistry.crystalMultipliers(worn);
+            accM *= c[0];
+            dmgM *= c[1];
+        }
+        else if (style == CombatStyle.MELEE && crushIsBestMeleeVector(def))
+        {
+            // Crush-only gate: meleeCore picks the best of stab/slash/crush internally, and Inquisitor
+            // only boosts crush. Inquisitor pieces can be per-slot picks on raw strength for a non-crush
+            // task, so without this gate the shown DPS would over-credit a stab/slash swing. Mirrors
+            // GearSelector.meleeAttackType's lowest-defence choice (ties count as crush).
+            double[] q = SetBonusRegistry.inquisitorMultipliers(worn,
+                SetBonusRegistry.isInquisitorMace(weaponId));
+            accM *= q[0];
+            dmgM *= q[1];
+        }
 
         switch (style)
         {
@@ -206,6 +231,12 @@ public class DefaultDpsEstimator implements DpsEstimator
         double hc = 1 - Math.pow(1 - singleRollHitChance, effect.getAccuracyRolls());
         double avgHit = hc * (maxHit / 2.0) * effect.getDamageMultiplier();
         return avgHit / (speedTicks * 0.6);
+    }
+
+    /** Whether crush is (jointly) the monster's weakest melee defence, i.e. the vector meleeCore picks. */
+    private static boolean crushIsBestMeleeVector(MonsterDefence d)
+    {
+        return crush(d) <= stab(d) && crush(d) <= slash(d);
     }
 
     private static int defenceLevel(MonsterDefence d)

@@ -4,7 +4,7 @@
   "multi": false,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Requires Cabin Fever to access Mos Le'Harmless. Contains 70 Cave horrors, supports a dwarf multicannon, and has many safespots using mushrooms, stalagmites, boulders, the swamp, and entrance obstacles. A light source is required unless the Fire of eternal light is lit."

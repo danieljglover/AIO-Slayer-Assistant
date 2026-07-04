@@ -141,7 +141,7 @@
       ]
     },
     {
-      "variantId": "dagannoth-prime",
+      "variantId": "dagannoth-dagannoth-prime",
       "name": "Dagannoth Prime",
       "combatLevel": 303,
       "slayerXp": 331.5,
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "variantId": "dagannoth-rex",
+      "variantId": "dagannoth-dagannoth-rex",
       "name": "Dagannoth Rex",
       "combatLevel": 303,
       "slayerXp": 331.5,
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "variantId": "dagannoth-supreme",
+      "variantId": "dagannoth-dagannoth-supreme",
       "name": "Dagannoth Supreme",
       "combatLevel": 303,
       "slayerXp": 255,

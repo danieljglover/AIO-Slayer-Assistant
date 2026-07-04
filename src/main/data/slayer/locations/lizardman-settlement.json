@@ -1,11 +1,11 @@
 {
   "locationId": "lizardman-settlement",
   "name": "Lizardman Settlement",
-  "multi": true,
-  "cannon": true,
+  "multi": false,
+  "cannon": false,
   "burst": false,
-  "konarLockable": false,
+  "konarLockable": true,
   "safeSpot": false,
   "wilderness": false,
-  "accessNote": "In the Kebos Lowlands (not Wilderness). The wiki marks this lizardman spawn as not safespottable; it is a multicombat, cannonable area."
+  "accessNote": "In the Kebos Lowlands (not Wilderness). The Slayer task/Lizardmen table (pageid 297852) lists the Settlement as single-combat and NOT cannonable."
 }

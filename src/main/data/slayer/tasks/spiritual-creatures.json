@@ -118,11 +118,20 @@
   "locationIds": [
     "god-wars-dungeon",
     "god-wars-dungeon-ancient-prison",
+    "spiritual-mages-ancient-prison",
+    "spiritual-mages-god-wars-dungeon",
+    "spiritual-mages-wilderness-god-wars-dungeon",
+    "spiritual-rangers-ancient-prison",
+    "spiritual-rangers-god-wars-dungeon",
+    "spiritual-rangers-wilderness-god-wars-dungeon",
+    "spiritual-warriors-ancient-prison",
+    "spiritual-warriors-god-wars-dungeon",
+    "spiritual-warriors-wilderness-god-wars-dungeon",
     "wilderness-god-wars-dungeon-spiritual-creatures"
   ],
   "variantInfo": [
     {
-      "variantId": "spiritual-ranger",
+      "variantId": null,
       "name": "Spiritual ranger",
       "combatLevel": null,
       "slayerXp": null,
@@ -140,7 +149,7 @@
       ]
     },
     {
-      "variantId": "spiritual-warrior",
+      "variantId": null,
       "name": "Spiritual warrior",
       "combatLevel": null,
       "slayerXp": null,
@@ -158,7 +167,7 @@
       ]
     },
     {
-      "variantId": "spiritual-mage",
+      "variantId": null,
       "name": "Spiritual mage",
       "combatLevel": null,
       "slayerXp": null,

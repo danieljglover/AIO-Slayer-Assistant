@@ -2,10 +2,10 @@
   "locationId": "mudskipper-point",
   "name": "Mudskipper Point",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Mudskipper Point is south of Rimmington on the south-western coast. Mogres hide in the sand and must be lured out with a fishing explosive used on the mud patches; Skippy and the Mogres must be complete. Multi, cannon and safespot are not wiki-confirmed here, so conservative defaults are used."
+  "accessNote": "Mudskipper Point is south of Rimmington on the south-western coast. Mogres hide in the sand and must be lured out with a fishing explosive used on the mud patches; Skippy and the Mogres must be complete. The Slayer task/Ogres table (pageid 298279) lists Mudskipper Point mogres as cannonable (3 spawns), and the Mogre page documents a halberd/cannon safespot."
 }

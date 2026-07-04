@@ -39,12 +39,14 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Aquanites can spawn Elder aquanites while on task."
     },
     {
       "unlockId": "lured-in",
       "name": "Lured In",
       "pointsCost": 80,
+      "type": "TASK_UNLOCK",
       "notes": "Nieve and Duradel will be able to assign Aquanites as a Slayer task."
     },
     {

@@ -1,0 +1,40 @@
+{
+  "variantId": "zogre",
+  "name": "Zogre",
+  "npcIds": [
+    866,
+    867,
+    868,
+    869,
+    870,
+    871,
+    873,
+    874,
+    875,
+    876,
+    877
+  ],
+  "combatLevel": 44,
+  "weakness": {
+    "style": "RANGED",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 35,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Jiggig / Jiggig Dungeon",
+  "locationId": "jiggig-dungeon",
+  "requirement": "Requires starting Zogre Flesh Eaters. Can inflict disease. Brutal arrows (with a Comp ogre bow) or Crumble Undead work best against Zogres.",
+  "bossId": null,
+  "strategyId": null
+}

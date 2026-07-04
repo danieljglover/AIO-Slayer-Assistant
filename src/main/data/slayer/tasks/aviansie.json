@@ -50,7 +50,7 @@
       250
     ],
     "chaeldar": [
-      200,
+      130,
       250
     ],
     "konar": [
@@ -71,6 +71,7 @@
       "unlockId": "watch-the-birdie",
       "name": "Watch the birdie",
       "pointsCost": 80,
+      "type": "TASK_UNLOCK",
       "notes": "Unlocks Aviansie assignments from Konar, Duradel, Nieve, Chaeldar, and Krystilia. Requires 60 Agility or 60 Strength to unlock."
     },
     {
@@ -117,7 +118,7 @@
   ],
   "variantInfo": [
     {
-      "variantId": "aviansie-god-wars-dungeon",
+      "variantId": "aviansie",
       "name": "Aviansie",
       "combatLevel": null,
       "slayerXp": null,
@@ -131,7 +132,7 @@
       ]
     },
     {
-      "variantId": "aviansie-wilderness-god-wars-dungeon",
+      "variantId": "aviansie",
       "name": "Aviansie",
       "combatLevel": null,
       "slayerXp": null,

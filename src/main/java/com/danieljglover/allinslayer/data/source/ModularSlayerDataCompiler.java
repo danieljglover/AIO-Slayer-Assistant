@@ -1,10 +1,13 @@
 package com.danieljglover.allinslayer.data.source;
 
 import com.danieljglover.allinslayer.model.TaskData;
+import com.danieljglover.allinslayer.model.EquipmentSlot;
 import com.danieljglover.allinslayer.model.MasterData;
 import com.danieljglover.allinslayer.model.MasterEconomy;
 import com.danieljglover.allinslayer.model.MasterRequirements;
 import com.danieljglover.allinslayer.model.MonsterStrategy;
+import com.danieljglover.allinslayer.model.StrategyItemRef;
+import com.danieljglover.allinslayer.model.StrategyMethod;
 import com.danieljglover.allinslayer.model.MonsterVariant;
 import com.danieljglover.allinslayer.model.RewardData;
 import com.danieljglover.allinslayer.model.RewardEffect;
@@ -80,6 +83,7 @@ public final class ModularSlayerDataCompiler
         data.setMonsters(loadMonsterFamilies(sourceRoot.resolve("monsters")));
         data.setLocations(loadJson(sourceRoot.resolve("locations"), SourceLocation.class));
         data.setWeapons(loadJson(sourceRoot.resolve("weapons"), SourceWeapon.class));
+        data.setItems(loadJson(sourceRoot.resolve("items"), SourceItem.class));
         data.setStrategies(loadStrategies(sourceRoot.resolve("strategies")));
         data.setRewards(loadJson(sourceRoot.resolve("rewards"), SourceReward.class));
         return data;
@@ -242,6 +246,7 @@ public final class ModularSlayerDataCompiler
         Set<String> variantIds = collectVariantIds(data, errors);
         collectUnique("rewardId", data.getRewards().stream()
             .map(SourceReward::getRewardId).collect(Collectors.toList()), errors);
+        validateItems(data, errors);
 
         // WA-8 (ADR-0018 #6): rewards must be renderable and mappable - a real cost (the runtime
         // RewardData.pointsCost is a primitive) and an effect string that IS a RewardEffect value
@@ -270,13 +275,65 @@ public final class ModularSlayerDataCompiler
             {
                 continue;
             }
+            Set<String> taskMasterIds = new HashSet<>();
             if (task.getMasterIds() != null)
             {
                 for (String masterId : task.getMasterIds())
                 {
+                    if (masterId != null)
+                    {
+                        taskMasterIds.add(masterId);
+                    }
                     if (!masterIds.contains(masterId))
                     {
                         errors.add("task " + task.getTaskId() + " references unknown masterId: " + masterId);
+                    }
+                }
+            }
+            // A task assigned by any master must carry an amount range for each of those masters and no
+            // extras: amountByMaster's key set is exactly masterIds. weightByMaster/extendedAmount are
+            // per-master overlays keyed by a subset (a listed master MAY lack a weight - e.g. araxytes
+            // are assigned indirectly by Turael/Spria - so weight coverage is not required).
+            if (!taskMasterIds.isEmpty())
+            {
+                Set<String> amountKeys = task.getAmountByMaster() == null
+                    ? Collections.<String>emptySet() : task.getAmountByMaster().keySet();
+                for (String masterId : taskMasterIds)
+                {
+                    if (!amountKeys.contains(masterId))
+                    {
+                        errors.add("task " + task.getTaskId() + " masterId " + masterId
+                            + " has no amountByMaster entry");
+                    }
+                }
+                for (String amountKey : amountKeys)
+                {
+                    if (!taskMasterIds.contains(amountKey))
+                    {
+                        errors.add("task " + task.getTaskId()
+                            + " amountByMaster key not in masterIds: " + amountKey);
+                    }
+                }
+            }
+            if (task.getWeightByMaster() != null)
+            {
+                for (String weightKey : task.getWeightByMaster().keySet())
+                {
+                    if (!taskMasterIds.contains(weightKey))
+                    {
+                        errors.add("task " + task.getTaskId()
+                            + " weightByMaster key not in masterIds: " + weightKey);
+                    }
+                }
+            }
+            if (task.getExtendedAmount() != null)
+            {
+                for (String extendedKey : task.getExtendedAmount().keySet())
+                {
+                    if (!taskMasterIds.contains(extendedKey))
+                    {
+                        errors.add("task " + task.getTaskId()
+                            + " extendedAmount key not in masterIds: " + extendedKey);
                     }
                 }
             }
@@ -300,6 +357,21 @@ public final class ModularSlayerDataCompiler
                     {
                         errors.add("defaultVariantId " + defaultVariantId + " is not in task "
                             + task.getTaskId() + " variantIds");
+                    }
+                }
+            }
+            // A variantInfo row's variantId (when present) is a foreign key into the monster variants;
+            // a null variantId is an info-only aggregate row (no linkage). Duplicate variantIds across
+            // rows are allowed - each row carries distinct location/note detail.
+            if (task.getVariantInfo() != null)
+            {
+                for (SourceTaskVariantInfo info : task.getVariantInfo())
+                {
+                    if (info != null && info.getVariantId() != null
+                        && !variantIds.contains(info.getVariantId()))
+                    {
+                        errors.add("task " + task.getTaskId()
+                            + " references unknown variantInfo variantId: " + info.getVariantId());
                     }
                 }
             }
@@ -337,6 +409,8 @@ public final class ModularSlayerDataCompiler
             // location files. It is not compiled into runtime, but validate it so the data stays honest.
             if (task.getLocationComparison() != null)
             {
+                Set<String> taskLocationIds = task.getLocationIds() == null
+                    ? Collections.<String>emptySet() : new HashSet<>(task.getLocationIds());
                 for (SourceTaskLocationComparison row : task.getLocationComparison())
                 {
                     if (row != null && row.getLocationId() != null
@@ -344,6 +418,14 @@ public final class ModularSlayerDataCompiler
                     {
                         errors.add("task " + task.getTaskId()
                             + " references unknown locationComparison locationId: " + row.getLocationId());
+                    }
+                    // A comparison row must join to one of the task's own locations (not just any known
+                    // location) so the runtime quality overlay always attaches to a listed location.
+                    else if (row != null && row.getLocationId() != null
+                        && !taskLocationIds.contains(row.getLocationId()))
+                    {
+                        errors.add("task " + task.getTaskId()
+                            + " locationComparison locationId not in locationIds: " + row.getLocationId());
                     }
                 }
             }
@@ -405,6 +487,44 @@ public final class ModularSlayerDataCompiler
         return errors;
     }
 
+    /**
+     * The supply-item catalogue is structured data (unlike the free-text strategy names it resolves),
+     * so it fails the build the way weapons do: every row needs an {@code itemKey}, a {@code name}, and
+     * a non-empty {@code itemIds}; and no two rows may share an {@code itemKey}, {@code name}, or
+     * {@code alias} (a collision would make resolution ambiguous). Mirrors the weapon-id uniqueness pass.
+     */
+    private static void validateItems(ModularSlayerDataSet data, List<String> errors)
+    {
+        List<String> lookupNames = new ArrayList<>();
+        collectUnique("itemKey", data.getItems().stream()
+            .map(SourceItem::getItemKey).collect(Collectors.toList()), errors);
+        for (SourceItem item : data.getItems())
+        {
+            if (item == null)
+            {
+                continue;
+            }
+            String id = item.getItemKey() == null ? "(null)" : item.getItemKey();
+            if (item.getName() == null || item.getName().trim().isEmpty())
+            {
+                errors.add("item " + id + " has no name");
+            }
+            if (item.getItemIds() == null || item.getItemIds().isEmpty())
+            {
+                errors.add("item " + id + " has empty itemIds");
+            }
+            if (item.getName() != null)
+            {
+                lookupNames.add(item.getName());
+            }
+            if (item.getAliases() != null)
+            {
+                lookupNames.addAll(item.getAliases());
+            }
+        }
+        collectUnique("item name/alias", lookupNames, errors);
+    }
+
     private static void validateWeaponRefs(String strategyId, List<String> refs, Set<String> weaponIds,
         List<String> errors)
     {
@@ -433,6 +553,9 @@ public final class ModularSlayerDataCompiler
         Map<String, SourceWeapon> weapons = data.getWeapons().stream()
             .filter(w -> w != null && w.getWeaponId() != null)
             .collect(Collectors.toMap(SourceWeapon::getWeaponId, w -> w, (a, b) -> a, LinkedHashMap::new));
+        // The item-name resolver over the supply catalogue + weapon catalogue; carries the strategy
+        // methods' free-text item lists to real ids, accumulating unresolved names for the report below.
+        ItemNameResolver resolver = new ItemNameResolver(data.getItems(), data.getWeapons());
 
         List<SourceTask> sourceTasks = new ArrayList<>(data.getTasks());
         sourceTasks.sort((a, b) -> nullToEmpty(a.getTaskId()).compareTo(nullToEmpty(b.getTaskId())));
@@ -466,8 +589,18 @@ public final class ModularSlayerDataCompiler
             task.setRequiredItemName(source.getRequiredItemName());
             task.setLocations(resolveLocations(source, locations));
             task.setRecommendedMethod(source.getRecommendedMethod());
-            task.setVariants(resolveVariants(source, variants, strategies, weapons, locations));
+            task.setVariants(resolveVariants(source, variants, strategies, weapons, locations, resolver));
             tasks.add(task);
+        }
+        List<String> unresolved = resolver.unresolvedReport();
+        if (!unresolved.isEmpty())
+        {
+            System.err.println("[slayer-data] " + unresolved.size()
+                + " unresolved strategy item name(s) - add to items/ to make them packable/actionable:");
+            for (String line : unresolved)
+            {
+                System.err.println("[slayer-data]   " + line);
+            }
         }
         return tasks;
     }
@@ -489,6 +622,7 @@ public final class ModularSlayerDataCompiler
             master.setLocation(source.getLocation());
             master.setRequirements(resolveRequirements(source.getRequirements()));
             master.setEconomy(resolveEconomy(source.getEconomy()));
+            master.setNotes(source.getNotes());
             masters.add(master);
         }
 
@@ -538,6 +672,9 @@ public final class ModularSlayerDataCompiler
         economy.setBlockCost(source.getBlockCost());
         economy.setZeroPoints(source.isZeroPoints());
         economy.setStreakResets(source.isStreakResets());
+        economy.setDiaryBoostedPoints(source.getDiaryBoostedPoints());
+        economy.setDiaryBoostNote(source.getDiaryBoostNote());
+        economy.setSeparateStreak(source.isSeparateStreak());
         return economy;
     }
 
@@ -648,7 +785,7 @@ public final class ModularSlayerDataCompiler
 
     private static List<MonsterVariant> resolveVariants(SourceTask source, Map<String, SourceMonsterVariant> variants,
         Map<String, SourceStrategy> strategies, Map<String, SourceWeapon> weapons,
-        Map<String, SourceLocation> locations)
+        Map<String, SourceLocation> locations, ItemNameResolver resolver)
     {
         List<MonsterVariant> resolved = new ArrayList<>();
         if (source.getVariantIds() == null)
@@ -685,7 +822,8 @@ public final class ModularSlayerDataCompiler
             variant.setBossId(sourceVariant.getBossId());
             if (sourceVariant.getStrategyId() != null)
             {
-                variant.setStrategy(resolveStrategy(strategies.get(sourceVariant.getStrategyId()), weapons));
+                variant.setStrategy(
+                    resolveStrategy(strategies.get(sourceVariant.getStrategyId()), weapons, resolver));
             }
             resolved.add(variant);
         }
@@ -716,14 +854,16 @@ public final class ModularSlayerDataCompiler
      * if it is one of the task's locationIds) first, then the {@code variantInfo[]} rows that match this
      * variantId resolved by exact case-insensitive trimmed name match against the task location names,
      * added in TASK order, deduped. Unmatched strings and out-of-task ids are dropped (no fabrication).
-     * A boss variant emits no linkage (GAP-3): it is surfaced as a free-text note only. Returns null (the
-     * "all task locations apply" fallback sentinel) when nothing links, keeping unlinked variants
-     * byte-identical to today (FR-6).
+     * Boss variants link like any other (amends GAP-3): a boss lives in exactly one place (K'ril in the
+     * God Wars Dungeon, Skotizo under the Catacombs), so hiding the other task locations is MORE honest
+     * than the old fall-through to all of them; a boss with no authored linkage still returns null.
+     * Returns null (the "all task locations apply" fallback sentinel) when nothing links, keeping
+     * unlinked variants byte-identical to today (FR-6).
      */
     private static List<String> deriveLocationNames(String variantId, SourceMonsterVariant variant,
         SourceTask source, Map<String, SourceLocation> locations, List<String> taskLocationNames)
     {
-        if (variant.isBoss() || taskLocationNames.isEmpty())
+        if (taskLocationNames.isEmpty())
         {
             return null;
         }
@@ -777,7 +917,8 @@ public final class ModularSlayerDataCompiler
         return a != null && a.equals(b);
     }
 
-    private static MonsterStrategy resolveStrategy(SourceStrategy source, Map<String, SourceWeapon> weapons)
+    private static MonsterStrategy resolveStrategy(SourceStrategy source, Map<String, SourceWeapon> weapons,
+        ItemNameResolver resolver)
     {
         if (source == null)
         {
@@ -798,7 +939,118 @@ public final class ModularSlayerDataCompiler
         strategy.setSecondaryWeapons(secondary);
         strategy.setNote(note(source));
         strategy.setSourceUrl(source.getSourceUrl());
+        strategy.setMethods(resolveMethods(source.getMethods(), resolver));
         return strategy;
+    }
+
+    /**
+     * The guide's authored {@code methods[]} -> runtime {@link StrategyMethod}s with their item strings
+     * resolved to ids (the dynamic-inventory wiring). Null/empty -> null (FR-6: no methods = today's
+     * weapon-override-only behaviour). Every method is kept, including {@code role == "general"} (a
+     * null-style method documenting strategy-wide key items the planner still reads).
+     */
+    private static List<StrategyMethod> resolveMethods(List<SourceStrategyMethod> source,
+        ItemNameResolver resolver)
+    {
+        if (source == null || source.isEmpty())
+        {
+            return null;
+        }
+        List<StrategyMethod> resolved = new ArrayList<>();
+        for (SourceStrategyMethod row : source)
+        {
+            if (row == null)
+            {
+                continue;
+            }
+            StrategyMethod method = new StrategyMethod();
+            method.setMethodId(row.getMethodId());
+            method.setLabel(row.getLabel());
+            method.setCombatStyle(row.getCombatStyle());
+            method.setRole(row.getRole());
+            method.setSummary(row.getSummary());
+            method.setKeyItems(emptyToNull(resolver.resolveList(row.getRequiredOrKeyItems())));
+            method.setPrayers(emptyToNull(row.getPrayers()));
+            method.setEquipment(resolveEquipment(row.getEquipment(), resolver));
+            method.setInventory(emptyToNull(resolver.resolveList(row.getInventory())));
+            method.setRisks(emptyToNull(row.getRisks()));
+            resolved.add(method);
+        }
+        return resolved.isEmpty() ? null : resolved;
+    }
+
+    /** The method's per-slot equipment -> resolved refs keyed by {@link EquipmentSlot}; unparsable slots skipped. */
+    private static Map<EquipmentSlot, List<StrategyItemRef>> resolveEquipment(
+        SourceStrategyEquipment equipment, ItemNameResolver resolver)
+    {
+        if (equipment == null || equipment.getSlots() == null || equipment.getSlots().isEmpty())
+        {
+            return null;
+        }
+        Map<EquipmentSlot, List<StrategyItemRef>> resolved = new LinkedHashMap<>();
+        for (Map.Entry<String, List<String>> entry : equipment.getSlots().entrySet())
+        {
+            EquipmentSlot slot = parseSlot(entry.getKey());
+            if (slot == null)
+            {
+                continue; // "special" and any unknown key: no runtime slot to place it in
+            }
+            List<StrategyItemRef> refs = resolver.resolveList(entry.getValue());
+            if (!refs.isEmpty())
+            {
+                resolved.put(slot, refs);
+            }
+        }
+        return resolved.isEmpty() ? null : resolved;
+    }
+
+    /** Map an authored equipment-slot key to the runtime {@link EquipmentSlot}, or null when there is none. */
+    private static EquipmentSlot parseSlot(String key)
+    {
+        if (key == null)
+        {
+            return null;
+        }
+        switch (key.trim().toLowerCase(Locale.ROOT))
+        {
+            case "head":
+                return EquipmentSlot.HEAD;
+            case "cape":
+                return EquipmentSlot.CAPE;
+            case "neck":
+            case "amulet":
+                return EquipmentSlot.AMULET;
+            case "ammo":
+            case "ammunition":
+                return EquipmentSlot.AMMO;
+            case "weapon":
+            case "mainhand":
+            case "2h":
+                return EquipmentSlot.WEAPON;
+            case "body":
+            case "torso":
+                return EquipmentSlot.BODY;
+            case "shield":
+            case "offhand":
+                return EquipmentSlot.SHIELD;
+            case "legs":
+                return EquipmentSlot.LEGS;
+            case "hands":
+            case "gloves":
+                return EquipmentSlot.HANDS;
+            case "feet":
+            case "boots":
+                return EquipmentSlot.FEET;
+            case "ring":
+                return EquipmentSlot.RING;
+            default:
+                return null; // e.g. "special" - no worn slot
+        }
+    }
+
+    private static <T> List<T> emptyToNull(List<T> values)
+    {
+        return values == null || values.isEmpty() ? null : values;
     }
 
     private static com.danieljglover.allinslayer.model.CombatStyle primaryStyle(SourceStrategy strategy)

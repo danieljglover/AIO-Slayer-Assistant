@@ -4,6 +4,7 @@
   "aliases": [
     "Steve"
   ],
+  "wikiPageId": 26611,
   "location": "Tree Gnome Stronghold",
   "requirements": {
     "combatLevel": 85
@@ -17,6 +18,13 @@
       "250": 35,
       "1000": 50
     },
-    "blockCost": 90
-  }
+    "blockCost": 90,
+    "diaryBoostedPoints": 15,
+    "diaryBoostNote": "Elite Western Provinces Diary raises points per task from 12 to 15, matching Duradel; milestone bonuses scale with the boosted base."
+  },
+  "notes": [
+    "Replaced by Steve after the events of Monkey Madness II; Steve assigns the identical task list.",
+    "Combat level requirement can be bypassed by showing a Slayer cape (99 Slayer).",
+    "Located by the Stronghold Slayer Cave entrance near the Tree Gnome Stronghold's southern bank; a Slayer ring teleports directly there."
+  ]
 }

@@ -28,4 +28,9 @@ public class MonsterStrategy
     private List<StrategyWeapon> secondaryWeapons; // each carries its own style; documents extra methods (note + override)
     private String note;                           // free-text "Wiki strategy" guidance line (nullable)
     private String sourceUrl;                      // the /Strategies page (provenance; display/audit only)
+    // The guide's per-method detail (key items, prayers, per-slot equipment, authored inventory) carried
+    // through the compiler for the dynamic trip planner + MethodPicker. Gson default null = a strategy
+    // authored before the methods wiring (e.g. an .md-only strategy) = today's weapon-override behaviour
+    // is untouched (the FR-6 regression anchor).
+    private List<StrategyMethod> methods;
 }

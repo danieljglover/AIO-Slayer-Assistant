@@ -62,6 +62,7 @@
       "unlockId": "stop-the-wyvern",
       "name": "Stop the Wyvern",
       "pointsCost": 500,
+      "type": "OTHER",
       "notes": "Allows players to block Fossil Island wyverns without using a block list slot."
     },
     {

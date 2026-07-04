@@ -1,22 +1,28 @@
 {
   "taskId": "hobgoblins",
   "name": "Hobgoblin",
-  "wikiPageId": 13076,
+  "wikiPageId": 298252,
   "combatLevel": 20,
   "slayerTargetId": 292,
   "slayerLevel": 1,
   "questReqs": [],
   "masterIds": [
-    "mazchna"
+    "mazchna",
+    "vannaka"
   ],
   "amountByMaster": {
     "mazchna": [
       30,
       50
+    ],
+    "vannaka": [
+      40,
+      90
     ]
   },
   "weightByMaster": {
-    "mazchna": 7
+    "mazchna": 7,
+    "vannaka": 7
   },
   "unlocks": [],
   "monsterIds": [
@@ -72,11 +78,11 @@
       "name": "Hobgoblin area",
       "amount": 10,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Hobgoblins gather in the Edgeville Dungeon and on the peninsula west of the Crafting Guild.",
-        "Multi, cannon and safespot status are not wiki-stated, so treated conservatively as false."
+        "Both spots are single-way combat but cannonable and safespottable per the wiki Location Comparison."
       ]
     }
   ],

@@ -1,0 +1,11 @@
+{
+  "locationId": "sand-crabs-crabclaw-isle",
+  "name": "Sand Crabs (Crabclaw Isle / Hosidius coast)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Sand Crabs have very plentiful spawn points across many areas: Crabclaw Isle, the Crabclaw Caves, the southern Hosidius coast, east of the Hosidius vinery, the Isle of Souls, the Avium Savannah, and Outer Fortis. They appear as inactive 'sandy rocks' until a player stands adjacent; aggression is reset by leaving and returning after the 10-minute tolerance timer."
+}

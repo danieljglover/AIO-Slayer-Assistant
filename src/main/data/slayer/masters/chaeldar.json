@@ -1,6 +1,7 @@
 {
   "masterId": "chaeldar",
   "name": "Chaeldar",
+  "wikiPageId": 11510,
   "location": "Zanaris",
   "requirements": {
     "combatLevel": 70,
@@ -18,5 +19,10 @@
       "1000": 50
     },
     "blockCost": 70
-  }
+  },
+  "notes": [
+    "Combat level requirement can be bypassed by showing a Slayer cape (99 Slayer).",
+    "Commonly assigns tasks of 110-170 kills.",
+    "Reachable only via a fairy ring to Zanaris or the Lumbridge Swamp shed while wielding a dramen or lunar staff."
+  ]
 }

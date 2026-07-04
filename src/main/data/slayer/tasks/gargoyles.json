@@ -71,18 +71,21 @@
       "unlockId": "gargoyle-smasher",
       "name": "Gargoyle smasher",
       "pointsCost": 120,
+      "type": "FINISHING_BLOW",
       "notes": "Automatically deals the finishing blow if the player has a rock hammer or equivalent in inventory."
     },
     {
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Allows superior Slayer monsters, including Marble gargoyles, to spawn while on task."
     },
     {
       "unlockId": "double-trouble",
       "name": "Double Trouble",
       "pointsCost": 500,
+      "type": "OTHER",
       "notes": "Dusk and Dawn count for two kills toward the task rather than one; the task page strongly recommends avoiding this when killing Grotesque Guardians."
     },
     {

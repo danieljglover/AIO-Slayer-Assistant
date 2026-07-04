@@ -4,7 +4,7 @@
   "multi": false,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Requires Song of the Elves. Contains 2 Prifddinas guards, is close to a bank, and has a south guard safespot by attacking outside wander radius and pushing it against the gate."

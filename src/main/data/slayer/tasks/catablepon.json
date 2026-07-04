@@ -72,10 +72,11 @@
       "amount": 6,
       "multicombat": false,
       "cannonable": false,
-      "safespottable": false,
+      "safespottable": true,
       "notes": [
         "Catablepon spawn in the Stronghold of Security beneath Barbarian Village.",
-        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+        "Ranged/mage safespots are available behind the Stinking/Dripping tendrils in the north-western room and by the doors of that room.",
+        "Multi-combat and cannon status are not wiki-stated, so treated conservatively as false."
       ]
     }
   ],

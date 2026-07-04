@@ -4,7 +4,7 @@
   "multi": false,
   "cannon": false,
   "burst": false,
-  "konarLockable": false,
+  "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Recommended after A Taste of Hope for Drakan's medallion travel. Ten aggressive level 105 Vyrewatch are north of Crombwick Manor near an Altar of Zamorak prayer route."

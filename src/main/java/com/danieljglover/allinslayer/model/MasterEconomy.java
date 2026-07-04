@@ -21,4 +21,9 @@ public class MasterEconomy
     private Integer blockCost;
     private boolean zeroPoints;
     private boolean streakResets;
+    // Mirrors SourceMasterEconomy: elite-diary boosted base points (null = no boost exists) and
+    // Krystilia's separate task-completion counter.
+    private Integer diaryBoostedPoints;
+    private String diaryBoostNote;
+    private boolean separateStreak;
 }

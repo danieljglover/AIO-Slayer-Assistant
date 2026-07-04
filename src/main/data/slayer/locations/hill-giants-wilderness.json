@@ -2,10 +2,10 @@
   "locationId": "hill-giants-wilderness",
   "name": "Deep Wilderness Dungeon",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": true,
-  "accessNote": "Wilderness hill giants for Krystilia: the Deep Wilderness Dungeon holds 6 spawns (~level 50 Wilderness), with further F2P Wilderness spawns at the Boneyard Hunter area and the Lava Maze. Kills count for Krystilia only in the Wilderness. Multicombat, cannon, and safespot status are not stated on the fetched wiki pages and are left conservatively false (honest-UNKNOWN); beware player killers."
+  "accessNote": "Wilderness hill giants for Krystilia: the Deep Wilderness Dungeon holds 6 spawns (~level 50 Wilderness), with further F2P Wilderness spawns at the Boneyard Hunter area and the Lava Maze. Kills count for Krystilia only in the Wilderness. The Slayer task/Hill giants table (pageid 298054) lists the Deep Wilderness Dungeon as cannonable and safespottable (single-combat)."
 }

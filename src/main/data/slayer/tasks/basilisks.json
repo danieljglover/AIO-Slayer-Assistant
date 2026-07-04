@@ -69,12 +69,14 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Enables superior slayer monster spawns, including Monstrous basilisk and Basilisk Sentinel."
     },
     {
       "unlockId": "basilocked",
       "name": "Basilocked",
       "pointsCost": 80,
+      "type": "TASK_UNLOCK",
       "notes": "Konar, Duradel, and Nieve will be able to assign Basilisks as your task."
     },
     {

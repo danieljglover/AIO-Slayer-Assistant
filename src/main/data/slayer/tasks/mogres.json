@@ -9,16 +9,22 @@
     "Skippy and the Mogres"
   ],
   "masterIds": [
-    "mazchna"
+    "mazchna",
+    "vannaka"
   ],
   "amountByMaster": {
     "mazchna": [
       30,
       50
+    ],
+    "vannaka": [
+      40,
+      90
     ]
   },
   "weightByMaster": {
-    "mazchna": 8
+    "mazchna": 8,
+    "vannaka": 7
   },
   "extendedAmount": {},
   "unlocks": [],
@@ -46,7 +52,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": null,
+  "requiredItemId": 6664,
   "requiredItemName": "Fishing explosive",
   "locationIds": [
     "mudskipper-point"
@@ -72,21 +78,22 @@
     {
       "locationId": "mudskipper-point",
       "name": "Mudskipper Point",
-      "amount": null,
+      "amount": 3,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
-        "Mogres hide in the sand at Mudskipper Point (south of Rimmington); use a fishing explosive on the mud/sand to lure one out.",
-        "Skippy and the Mogres must be complete before Mogres can be fought and assigned.",
-        "All defensive bonuses are 0, so any melee weapon is effective; a minor 20% earth weakness exists for a Magic alternative."
+        "Mogres hide in the sand at Mudskipper Point (south of Rimmington); use a fishing explosive on an Ominous Fishing Spot to lure one out.",
+        "Skippy and the Mogres unlocks fighting the lured Mogres; since Sailing, ocean Mogres can instead be killed with cannons from a boat, needing neither the miniquest nor fishing explosives (level 32 Slayer required either way).",
+        "All defensive bonuses are 0, so any melee weapon is effective; a minor 20% earth weakness exists for a Magic alternative.",
+        "Cannonable and safespottable at Mudskipper Point (fairy ring, the western STASH unit, or along the shoreline, including a halberd/cannon safespot); a Protect from Melee altar sits just north."
       ]
     }
   ],
   "taskNotes": [
     "Mogres require 32 Slayer, combat level 30, and completion of Skippy and the Mogres to be assigned by Mazchna.",
     "slayerTargetId 297 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
-    "A fishing explosive is used on the sand/mud patches at Mudskipper Point to lure each Mogre out; the item is named but requiredItemId is left null (bailing/fishing-explosive interaction, not a worn entry gate).",
+    "A fishing explosive is used on the sand/mud patches at Mudskipper Point to lure each Mogre out; requiredItemId 6664 is Fishing explosive (wiki item infobox id); it is an inventory lure, not worn.",
     "Mogre has 48 Hitpoints, max hit 8 (Crush), 6-tick attack speed, and Defence level 48 with all defensive bonuses 0.",
     "Mogre has a 20% elemental weakness to earth spells; weakness.style is MELEE because all defensive bonuses are 0 and melee is the standard kill, with the minor earth weakness documented for a Magic alternative.",
     "No task extension unlock exists for Mogres."

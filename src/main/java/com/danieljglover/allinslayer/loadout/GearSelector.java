@@ -187,47 +187,84 @@ public class GearSelector
             }
         }
 
-        // WD-10 (ADR-0020 #4): the only structural post-pick pass. If the player owns a complete Void
-        // set for the style, compare the whole loadout with the set (its loadout-level acc/dmg
-        // multiplier applied) against the per-slot pick; wear the set when it wins on real DPS.
-        applyVoidSetBonus(owned, worn, style, def, player, ctx, mode);
+        // WD-10 (ADR-0020 #4): the only structural post-pick pass. If the player owns an armour set that
+        // beats the per-slot pick on real DPS (Void for the style, Crystal for a ranged crystal-weapon
+        // loadout, or Inquisitor for a crush melee loadout), the whole loadout is scored WITH the set's
+        // loadout-level multiplier and swapped in only when it strictly wins.
+        applySetBonuses(owned, worn, style, meleeType, def, player, ctx, mode);
         return worn;
     }
 
     /**
-     * WD-10: the Void / Elite void set-bonus post-pick pass (MELEE/RANGED, ADR-0008 §6 scopes magic
-     * weapon ranking specially - the magic void bonus is carried by {@link SetBonusRegistry} but not
-     * yet folded into magic selection). When a complete set is owned, the void loadout's DPS is scored
-     * WITH the set's loadout multiplier (applied once, on top of the loadout's task-conditional
-     * multiplier) and swapped in only if it strictly beats the per-slot pick. Owned-gated and capped by
-     * the registry, so it never over-credits (R2 mitigation).
+     * WD-10: the armour set-bonus post-pick pass (MELEE/RANGED; ADR-0008 §6 scopes magic weapon ranking
+     * specially, so magic set bonuses are a documented boundary). Each applicable owned set scores the
+     * whole loadout WITH the set's loadout multiplier (applied once, on top of the loadout's
+     * task-conditional multiplier) against the per-slot pick, and the strictly-best of {base, void,
+     * crystal, inquisitor} is worn. Owned-gated and capped by the registry, so it never over-credits (R2
+     * mitigation). Like void, this keeps the DPS-ranked weapon - it never re-ranks weapons for a set
+     * synergy (a documented boundary shared with void: a mace/crystal weapon only gets its set credit
+     * when it was already the DPS pick).
      */
-    private void applyVoidSetBonus(OwnedItems owned, EnumMap<EquipmentSlot, Integer> worn,
-        CombatStyle style, MonsterDefence def, PlayerStats player,
+    private void applySetBonuses(OwnedItems owned, EnumMap<EquipmentSlot, Integer> worn,
+        CombatStyle style, MeleeAttackType meleeType, MonsterDefence def, PlayerStats player,
         BonusContext ctx, AdviceMode mode)
     {
         if (mode != AdviceMode.DPS || style == CombatStyle.MAGIC)
         {
             return; // COST mode ignores set bonuses; magic selection is a documented boundary
         }
-        if (!worn.containsKey(EquipmentSlot.WEAPON))
+        Integer weaponId = worn.get(EquipmentSlot.WEAPON);
+        if (weaponId == null)
         {
             return;
         }
-        SetBonus set = SetBonusRegistry.voidBonus(style, owned::has);
+
+        double bestDps = loadoutStyleDps(worn, style, def, player, ctx, 1.0, 1.0);
+        SetBonus bestSet = null;
+
+        // Void: applies to the whole MELEE/RANGED style whenever a complete set is owned.
+        SetBonus voidSet = SetBonusRegistry.voidBonus(style, owned::has);
+        // Crystal: RANGED only, and only when the DPS-picked weapon is a crystal bow / bow of Faerdhinen.
+        SetBonus crystalSet = style == CombatStyle.RANGED
+            && SetBonusRegistry.isCrystalWeapon(weaponId)
+            ? SetBonusRegistry.crystalBonus(owned::has) : null;
+        // Inquisitor: MELEE only, and only when the effective attack type is CRUSH. The mace (when it is
+        // the worn weapon) triples the per-piece effect (registry-modelled).
+        SetBonus inqSet = style == CombatStyle.MELEE && meleeType == MeleeAttackType.CRUSH
+            ? SetBonusRegistry.inquisitorBonus(owned::has, SetBonusRegistry.isInquisitorMace(weaponId))
+            : null;
+
+        for (SetBonus set : new SetBonus[] {voidSet, crystalSet, inqSet})
+        {
+            double dps = setDps(worn, set, style, def, player, ctx);
+            if (dps > bestDps)
+            {
+                bestDps = dps;
+                bestSet = set;
+            }
+        }
+        if (bestSet != null)
+        {
+            worn.putAll(bestSet.getPieces());
+        }
+    }
+
+    /**
+     * The whole loadout's DPS with {@code set}'s pieces overlaid and its loadout multiplier applied, or
+     * {@code -1} when {@code set} is null (never wins). Used to compare each applicable set against the
+     * per-slot pick in {@link #applySetBonuses}.
+     */
+    private double setDps(EnumMap<EquipmentSlot, Integer> worn, SetBonus set, CombatStyle style,
+        MonsterDefence def, PlayerStats player, BonusContext ctx)
+    {
         if (set == null)
         {
-            return;
+            return -1;
         }
-        double baseDps = loadoutStyleDps(worn, style, def, player, ctx, 1.0, 1.0);
-        EnumMap<EquipmentSlot, Integer> voidWorn = new EnumMap<>(worn);
-        voidWorn.putAll(set.getPieces());
-        double voidDps = loadoutStyleDps(voidWorn, style, def, player, ctx,
+        EnumMap<EquipmentSlot, Integer> setWorn = new EnumMap<>(worn);
+        setWorn.putAll(set.getPieces());
+        return loadoutStyleDps(setWorn, style, def, player, ctx,
             set.getAccMultiplier(), set.getDmgMultiplier());
-        if (voidDps > baseDps)
-        {
-            worn.putAll(set.getPieces());
-        }
     }
 
     /**

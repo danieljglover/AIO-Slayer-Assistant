@@ -1,6 +1,7 @@
 {
   "masterId": "krystilia",
   "name": "Krystilia",
+  "wikiPageId": 25302,
   "location": "Edgeville",
   "economy": {
     "basePoints": 25,
@@ -11,6 +12,17 @@
       "250": 35,
       "1000": 50
     },
-    "blockCost": 100
-  }
+    "blockCost": 100,
+    "separateStreak": true
+  },
+  "notes": [
+    "All tasks must be completed within the Wilderness.",
+    "Has no combat or Slayer level requirement and ignores the player's combat level, so she can assign monsters of any level.",
+    "Task monsters can drop Larran's keys (rate scales with monster combat level) for Larran's small or big chest.",
+    "The free 'I Wildy More Slayer' reward toggle controls whether she can assign jellies, dust devils, nechryael, and abyssal demons; toggling it off removes only those four tasks from her list.",
+    "Assignments run a separate task-completion counter from standard masters: the first four completions on that counter award no points, and resetting one of those early assignments restarts the counter.",
+    "Cannot assign a new task while the player holds an incomplete task from a standard master.",
+    "Highest points per task of any master, at the cost of the separate Wilderness streak.",
+    "Found by the jailhouse in Edgeville, north-east of the bank."
+  ]
 }

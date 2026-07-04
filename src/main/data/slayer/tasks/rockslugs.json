@@ -18,7 +18,15 @@
   "weightByMaster": {
     "mazchna": 8
   },
-  "unlocks": [],
+  "unlocks": [
+    {
+      "unlockId": "slug-salter",
+      "name": "Slug Salter",
+      "pointsCost": 10,
+      "type": "FINISHING_BLOW",
+      "notes": "Rockslugs are automatically dealt the finishing blow if the player has a bag of salt in their inventory. Cost was reduced from 80 to 10 points in the Summer Sweep Up update (27 August 2025)."
+    }
+  ],
   "monsterIds": [
     "rockslugs"
   ],
@@ -43,7 +51,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": null,
+  "requiredItemId": 4161,
   "requiredItemName": "Bag of salt",
   "locationIds": [
     "fremennik-slayer-dungeon-rockslugs",
@@ -76,7 +84,7 @@
       "safespottable": false,
       "notes": [
         "Seven rockslug spawns in the Fremennik Slayer Dungeon; a light source is required.",
-        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+        "A cannon cannot be placed in the Fremennik Slayer Dungeon (cannon prohibited-areas list); multicombat is not wiki-stated (conservative false)."
       ]
     },
     {
@@ -95,7 +103,7 @@
   "taskNotes": [
     "SYNTHETIC slayerTargetId 301 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Rockslugs is not wiki-published; QA live-verify.",
     "Assigned only by Mazchna (30-50) in this dataset; requires Slayer level 20.",
-    "A bag of salt must be thrown on a rockslug at 4 or fewer Hitpoints to kill it, unless a brine sabre is used; the requiredItemId is honest-UNKNOWN (bag of salt item id not wiki-published).",
+    "A bag of salt must be thrown on a rockslug at 4 or fewer Hitpoints to kill it, unless a brine sabre is used; requiredItemId 4161 is Bag of salt (wiki item infobox id).",
     "25% weakness to earth spells; a light source is required in both the Fremennik Slayer Dungeon and Lumbridge Swamp Caves.",
     "fremennik-slayer-dungeon base file is a basilisk file (safeSpot/konarLockable true); this family uses a tuned copy fremennik-slayer-dungeon-rockslugs. lumbridge-swamp-caves is referenced by id (owned by cave-bugs, CT-L shared #1)."
   ],

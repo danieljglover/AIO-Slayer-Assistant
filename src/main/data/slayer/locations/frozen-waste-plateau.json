@@ -2,10 +2,10 @@
   "locationId": "frozen-waste-plateau",
   "name": "Frozen Waste Plateau",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": true,
-  "accessNote": "Frozen Waste Plateau in the western Wilderness (around level 50). Ice giants (9 spawns) and ice warriors also spawn here. Multi and cannon status are not wiki-stated, so treated conservatively as false. Bring low-risk gear and a one-click escape teleport."
+  "accessNote": "Frozen Waste Plateau in the western Wilderness (around level 50). Ice giants (9 spawns) and ice warriors also spawn here. Bring low-risk gear and a one-click escape teleport. The Slayer task/Ice giants table (pageid 566858) lists the Frozen Waste Plateau as cannonable and safespottable (single-combat)."
 }

@@ -4,7 +4,7 @@
   "multi": false,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Requires Heroes' Quest. Contains one adult Blue dragon, supports a cannon, and can be safespotted."

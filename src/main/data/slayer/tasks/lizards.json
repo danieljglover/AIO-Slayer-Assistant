@@ -31,7 +31,15 @@
     "mazchna": 8
   },
   "extendedAmount": {},
-  "unlocks": [],
+  "unlocks": [
+    {
+      "unlockId": "reptile-freezer",
+      "name": "Reptile Freezer",
+      "pointsCost": 10,
+      "type": "FINISHING_BLOW",
+      "notes": "Desert lizards are automatically dealt the finishing blow if the player has an ice cooler in their inventory. Cost was reduced from 90 to 10 points in the Summer Sweep Up update (27 August 2025)."
+    }
+  ],
   "monsterIds": [
     "lizards"
   ],
@@ -84,12 +92,13 @@
       "name": "Kharidian Desert",
       "amount": null,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Desert Lizards are found in the Kharidian Desert; the Desert Heat mechanic means waterskins (or desert-resistant gear) are needed.",
         "Each lizard must be finished with an ice cooler while below 5 Hitpoints; the Reptile freezer perk (10 points) automates this if an ice cooler is carried.",
-        "No elemental weakness; any melee weapon brings them into ice-cooler range quickly."
+        "No elemental weakness; any melee weapon brings them into ice-cooler range quickly.",
+        "The wiki task table marks this area cannonable and safespottable, but a cannon is counterproductive here because a cannon kill does not count - each lizard must be finished with an ice cooler below 5 Hitpoints."
       ]
     }
   ],

@@ -1,0 +1,98 @@
+{
+  "taskId": "molanisks",
+  "name": "Molanisks",
+  "wikiPageId": 299143,
+  "combatLevel": 50,
+  "slayerTargetId": 10997,
+  "slayerLevel": 39,
+  "questReqs": [
+    "Death to the Dorgeshuun"
+  ],
+  "masterIds": [
+    "vannaka"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      50
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "molanisks"
+  ],
+  "variantIds": [
+    "molanisk"
+  ],
+  "defaultVariantId": "molanisk",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 45,
+    "slash": 45,
+    "crush": 35,
+    "magic": 30,
+    "range": 55
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": 10952,
+  "requiredItemName": "Slayer bell",
+  "locationIds": [
+    "dorgesh-kaan-south-dungeon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "molanisk",
+      "name": "Molanisk",
+      "combatLevel": 51,
+      "slayerXp": 52.0,
+      "locations": [
+        "Dorgesh-Kaan South Dungeon"
+      ],
+      "notes": [
+        "Requires 39 Slayer, combat level 50, and completion of Death to the Dorgeshuun to be assigned.",
+        "52 Hitpoints, max hit 5 (Crush), 4-tick attack speed; Defence level 50 (stab 45, slash 45, crush 35, magic 30, ranged 55).",
+        "60% elemental weakness to earth spells (added 25 June 2025); crush defence (35) is the lowest melee defence, so crush melee is the standard kill.",
+        "Molanisks disguise themselves attached to cave walls and must be lured off with a Slayer bell (works within 3 tiles) before they can be attacked; once lured they are aggressive to the player who rang the bell.",
+        "A light source is required as they are only found underground."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "dorgesh-kaan-south-dungeon",
+      "name": "Dorgesh-Kaan South Dungeon",
+      "amount": 10,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Around 10 Molanisks spawn in the Dorgesh-Kaan South Dungeon (near fairy ring AJQ).",
+        "Entry to the dungeon requires completion of Death to the Dorgeshuun and a rope to climb down; a light source is required.",
+        "Safespottable on certain rocks, notably the large rock down the path south of the AJQ fairy ring.",
+        "A spot south of the fairy ring has two spawns close together for faster kills."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Only Vannaka assigns Molanisks in this dataset (40-50, weighting 7); verified against Vannaka's raw task table on 2026-07-03.",
+    "Chaeldar and Duradel formerly assigned Molanisks but no longer do (Duradel removed 10 September 2015; Chaeldar removed 8 May 2024).",
+    "Requires 39 Slayer, combat level 50, and completion of Death to the Dorgeshuun; the task infobox id 10997 is used as slayerTargetId.",
+    "A Slayer bell is required to lure each Molanisk off the cave wall before it can be attacked; requiredItemId 10952 is Slayer bell (wiki item infobox id).",
+    "Molanisk has 52 Hitpoints, max hit 5 (Crush), 4-tick attack speed, Defence level 50 (stab 45, slash 45, crush 35, magic 30, ranged 55).",
+    "60% earth elemental weakness (Summer Sweep Up: Combat, 25 June 2025); weakness.style is MELEE (crush is lowest melee defence) with element 'earth' recorded for a Magic alternative.",
+    "No task extension unlock exists for Molanisks."
+  ],
+  "recommendedMethod": "Complete Death to the Dorgeshuun, then bring a Slayer bell, a light source and a rope to descend into the Dorgesh-Kaan South Dungeon (near fairy ring AJQ). Ring the Slayer bell within 3 tiles of a wall-attached Molanisk to lure it off, then kill it with crush melee (they have the lowest defence against crush). They hit only up to 5, so a mid-level player in decent armour can kill several safely. The 60% earth weakness makes earth spells a strong Magic alternative, and certain rocks (notably south of the AJQ fairy ring) can be used to safespot."
+}

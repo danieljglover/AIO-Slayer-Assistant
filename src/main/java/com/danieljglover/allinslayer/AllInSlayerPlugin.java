@@ -23,6 +23,7 @@ import com.danieljglover.allinslayer.ui.SlayerDebugSnapshot;
 import com.danieljglover.allinslayer.ui.SlayerOverlay;
 import com.danieljglover.allinslayer.ui.SlayerPanel;
 import com.danieljglover.allinslayer.ui.SlayerPanelState;
+import com.danieljglover.allinslayer.ui.components.MethodSelector;
 import com.google.inject.Provides;
 import java.time.Duration;
 import java.time.Instant;
@@ -71,6 +72,7 @@ public class AllInSlayerPlugin extends Plugin
     @Inject private Client client;
     @Inject private ClientThread clientThread;
     @Inject private AllInSlayerConfig config;
+    @Inject private ConfigManager configManager;
     @Inject private SlayerDataService dataService;
     @Inject private TaskDetector taskDetector;
     @Inject private InventoryService inventoryService;
@@ -93,6 +95,12 @@ public class AllInSlayerPlugin extends Plugin
     // for the Boss meta-task from varbit 4723 (MV-B8). Set by the panel variant/method combos (MV-FE1/FE3).
     private volatile String selectedVariantName;
     private volatile CombatStyle selectedMethod;
+    // Dynamic inventory (Phase 1): the user-selected strategy-method id, REMEMBERED per task (unlike the
+    // reset-on-change selectedMethod style toggle). Derived each pass from the per-task config memory;
+    // null = auto-pick the best feasible method. currentTaskName is the active task, so the panel method
+    // callback can key the memory without threading the name through.
+    private volatile String selectedMethodId;
+    private volatile String currentTaskName;
     // WA-11 (ADR-0018 #8 / PD-E): the user-selected assigning master. Null = no pick yet - recompute
     // seeds it from the seam's currentMaster() (varbit-backed default, WA-10) when that master
     // actually assigns the task. Reset on task change; validated against task.assignedBy every pass.
@@ -109,6 +117,9 @@ public class AllInSlayerPlugin extends Plugin
         panel.setOnToggleMode(() ->
         {
             mode = (mode == AdviceMode.DPS) ? AdviceMode.COST : AdviceMode.DPS;
+            // Persist so the toggle survives restarts; this write fires onConfigChanged, but that handler
+            // is a no-op when the field already matches (as it does here), so no re-entrant loop.
+            configManager.setConfiguration(AllInSlayerConfig.GROUP, "adviceMode", mode);
             clientThread.invoke(() -> recompute(RefreshSource.MODE_TOGGLE));
         });
         panel.setOnSelectLocation(locationName ->
@@ -119,13 +130,27 @@ public class AllInSlayerPlugin extends Plugin
         panel.setOnSelectVariant(variantName ->
         {
             selectedVariantName = variantName;
-            // A manual variant pick resets the method to the new variant's recommended style (ADR-0013.5).
+            // A manual variant pick resets the method to the new variant's recommended style (ADR-0013.5)
+            // and the location to the new variant's recommended spot - the old pick may not even exist
+            // for this monster, and the guided flow re-suggests the best option at each step.
             selectedMethod = null;
+            clearMethodChoice(currentTaskName); // the old strategy-method id may not exist for the new variant
+            selectedLocationName = null;
             clientThread.invoke(() -> recompute(RefreshSource.VARIANT_SELECT));
         });
         panel.setOnSelectMethod(methodName ->
         {
             selectedMethod = parseMethod(methodName);
+            // A style toggle re-picks the strategy method within that style, so drop any remembered
+            // method-id override (an override would otherwise win over the toggled style).
+            clearMethodChoice(currentTaskName);
+            clientThread.invoke(() -> recompute(RefreshSource.METHOD_SELECT));
+        });
+        panel.setOnSelectMethodId(methodId ->
+        {
+            // Remember the explicit strategy-method choice for this task (null = back to auto-pick); saved
+            // before the recompute so recompute's reload returns it.
+            saveMethodChoice(currentTaskName, methodId);
             clientThread.invoke(() -> recompute(RefreshSource.METHOD_SELECT));
         });
         panel.setOnSelectMaster(masterId ->
@@ -224,10 +249,26 @@ public class AllInSlayerPlugin extends Plugin
     {
         // Pick up a developer-mode toggle live; ConfigChanged arrives on the EDT, so read game state
         // back on the client thread.
-        if (TaskRefreshTrigger.isConfigGroupChange(ev, AllInSlayerConfig.GROUP))
+        if (!TaskRefreshTrigger.isConfigGroupChange(ev, AllInSlayerConfig.GROUP))
         {
-            clientThread.invokeLater(() -> recompute(RefreshSource.MANUAL));
+            return;
         }
+        // InventoryService persists the bank snapshot into this same config group on every bank mutation;
+        // those writes would schedule a redundant recompute on top of the one onItemContainerChanged
+        // already ran. Ignore them - the container event is the authoritative trigger.
+        if (InventoryService.BANK_SNAPSHOT_KEY.equals(ev.getKey())
+            || InventoryService.BANK_TS_KEY.equals(ev.getKey()))
+        {
+            return;
+        }
+        // Keep the "Loadout mode" config item live: re-seed the field the panel toggle also drives, so a
+        // direct config edit takes effect. When our own persist-on-toggle write echoes back the field
+        // already matches, so this is a harmless no-op - no re-entrant loop.
+        if ("adviceMode".equals(ev.getKey()))
+        {
+            mode = config.adviceMode();
+        }
+        clientThread.invokeLater(() -> recompute(RefreshSource.MANUAL));
     }
 
     /** Runs on the client thread; reads game state, computes a recommendation, updates UI on the EDT. */
@@ -261,10 +302,21 @@ public class AllInSlayerPlugin extends Plugin
         {
             lastRecommendation = null;
             lastSetupName = null;
+            // Crossing a task boundary via a no-task gap nulls lastSetupName, so the clear-on-task-change
+            // branch is skipped when the next task arrives. Clear every per-task selection here or a stale
+            // pick (variant/method/master) silently leaks into the next task.
             selectedLocationName = null;
+            selectedVariantName = null;
+            selectedMethod = null;
+            selectedMethodId = null;
+            currentTaskName = null;
+            selectedMaster = null;
+            overlay.setEnabled(config.showOverlay());
             overlay.setTaskName(null);
             overlay.setRemaining(0);
             overlay.setMethod(null);
+            overlay.setLocation(null);
+            clearOverlayWarnings();
 
             SlayerPanelState state = targetId > 0
                 ? SlayerPanelState.unsupportedTask(targetId, remaining, mode, bankAge, refreshSource, Instant.now(), debug, config.developerMode())
@@ -282,6 +334,12 @@ public class AllInSlayerPlugin extends Plugin
             selectedMethod = null;
             selectedMaster = null;
         }
+        // Dynamic inventory (Phase 1): the active task drives the per-task method memory. selectedMethodId
+        // is derived from persistent config each pass (the panel's method callback saves before it fires a
+        // recompute, so this reload returns that just-saved choice); a new task loads its own remembered
+        // choice, or null (auto-pick) when none was saved.
+        currentTaskName = t.getTask();
+        selectedMethodId = loadMethodChoice(t.getTask());
         if (!hasLocation(t, selectedLocationName))
         {
             selectedLocationName = null;
@@ -328,6 +386,13 @@ public class AllInSlayerPlugin extends Plugin
             overlay.setTaskName(t.getTask());
             overlay.setRemaining(remaining);
             overlay.setMethod(null);
+            overlay.setLocation(null);
+            // No loadout was produced, so no antifire/boss note is known yet: only the required-item
+            // ownership (resolved above) and the open-bank nudge apply.
+            overlay.setRequiredItemMissing(requiredItemMissingName(t, requiredItemOwned));
+            overlay.setAntifireWarning(false);
+            overlay.setBossTrip(false);
+            overlay.setBankHint("Open bank for gear advice");
 
             final SlayerPanelState gateState = SlayerPanelState.bankNotScanned(
                 t,
@@ -351,7 +416,8 @@ public class AllInSlayerPlugin extends Plugin
         // WD-12 (ADR-0020 #5): the config-declared disliked/blocked task set drives the skip/block note.
         java.util.Set<String> dislikedTasks = parseDislikedTasks(config.dislikedTasks());
         Optional<Recommendation> rec = loadoutAdvisor.recommend(t, owned, stats, mode, config.haveCannon(),
-            selectedLocationName, selectedVariantName, selectedMethod, stateSelectedMaster, dislikedTasks);
+            selectedLocationName, selectedVariantName, selectedMethod, stateSelectedMaster, dislikedTasks,
+            selectedMethodId, remaining);
         String stateSelectedLocation = rec
             .map(Recommendation::getLocation)
             .map(SlayerLocation::getName)
@@ -363,7 +429,14 @@ public class AllInSlayerPlugin extends Plugin
         overlay.setEnabled(config.showOverlay());
         overlay.setTaskName(t.getTask());
         overlay.setRemaining(remaining);
-        overlay.setMethod(rec.map(Recommendation::getMethod).orElse(null));
+        // Compact overlay: show the effective combat-style label (user override included), not the
+        // multi-sentence wiki recommendedMethod that would balloon the in-game panel.
+        overlay.setMethod(rec.map(Recommendation::getStyle).map(MethodSelector::label).orElse(null));
+        overlay.setLocation(rec.map(Recommendation::getLocation).map(SlayerLocation::getName).orElse(null));
+        overlay.setRequiredItemMissing(requiredItemMissingName(t, requiredItemOwned));
+        overlay.setAntifireWarning(rec.map(Recommendation::getAntifireNote).isPresent());
+        overlay.setBossTrip(rec.map(Recommendation::isBoss).orElse(false));
+        overlay.setBankHint(bankStale ? "Bank data stale - reopen bank" : null);
 
         // Resolve item names and GE prices here, off one id list so they cover the same items;
         // ItemManager must not be called from the EDT.
@@ -445,9 +518,53 @@ public class AllInSlayerPlugin extends Plugin
         Map<Integer, String> names = new HashMap<>();
         for (Integer id : ids)
         {
-            names.put(id, itemManager.getItemComposition(id).getName());
+            // A single unloaded/bad id must not abort the whole client-thread recompute and leave the
+            // panel silently stale (B?): guard per-item so it degrades to a missing name instead.
+            try
+            {
+                net.runelite.api.ItemComposition comp = itemManager.getItemComposition(id);
+                if (comp != null && comp.getName() != null)
+                {
+                    names.put(id, comp.getName());
+                }
+            }
+            catch (Exception e)
+            {
+                log.debug("Skipping name for item id {}", id, e);
+            }
         }
         return names;
+    }
+
+    /** Resets every conditional overlay warning so a stale nudge never lingers across a task change. */
+    private void clearOverlayWarnings()
+    {
+        overlay.setRequiredItemMissing(null);
+        overlay.setAntifireWarning(false);
+        overlay.setBankHint(null);
+        overlay.setBossTrip(false);
+    }
+
+    /**
+     * The display name for a required item the player does NOT own, for the overlay "Bring:" warning.
+     * Null when the task has no required item or ownership is owned/unknown - only a resolved FALSE
+     * surfaces the nudge. Name resolution stays on the client thread (never the overlay/EDT).
+     */
+    private String requiredItemMissingName(TaskData task, Boolean requiredItemOwned)
+    {
+        if (task.getRequiredItemId() == null || !Boolean.FALSE.equals(requiredItemOwned))
+        {
+            return null;
+        }
+        try
+        {
+            net.runelite.api.ItemComposition comp = itemManager.getItemComposition(task.getRequiredItemId());
+            return comp == null ? null : comp.getName();
+        }
+        catch (Exception e)
+        {
+            return null;
+        }
     }
 
     private void exportCurrent()
@@ -462,6 +579,47 @@ public class AllInSlayerPlugin extends Plugin
         log.debug("Copied Inventory Setups import string for {}", lastSetupName);
     }
 
+    // --- Per-task strategy-method memory (Phase 1 dynamic inventory) ----------------------------------
+    // Stored under unregistered config keys "methodChoice.<sanitised task>" (the bankSnapshot pattern),
+    // so a chosen method survives task switches and restarts. Null taskName is a no-op (no active task).
+
+    private String loadMethodChoice(String taskName)
+    {
+        String key = methodChoiceKey(taskName);
+        return key == null ? null : configManager.getConfiguration(AllInSlayerConfig.GROUP, key);
+    }
+
+    private void saveMethodChoice(String taskName, String methodId)
+    {
+        String key = methodChoiceKey(taskName);
+        if (key == null)
+        {
+            return;
+        }
+        if (methodId == null || methodId.isEmpty())
+        {
+            configManager.unsetConfiguration(AllInSlayerConfig.GROUP, key);
+        }
+        else
+        {
+            configManager.setConfiguration(AllInSlayerConfig.GROUP, key, methodId);
+        }
+    }
+
+    private void clearMethodChoice(String taskName)
+    {
+        saveMethodChoice(taskName, null);
+    }
+
+    private static String methodChoiceKey(String taskName)
+    {
+        if (taskName == null || taskName.trim().isEmpty())
+        {
+            return null;
+        }
+        return "methodChoice." + taskName.toLowerCase(java.util.Locale.ROOT).replaceAll("[^a-z0-9]+", "-");
+    }
+
     private PlayerStats buildStats()
     {
         return new PlayerStats(
@@ -470,7 +628,9 @@ public class AllInSlayerPlugin extends Plugin
             client.getRealSkillLevel(Skill.DEFENCE),
             client.getRealSkillLevel(Skill.RANGED),
             client.getRealSkillLevel(Skill.MAGIC),
-            client.getRealSkillLevel(Skill.SLAYER));
+            client.getRealSkillLevel(Skill.SLAYER),
+            client.getRealSkillLevel(Skill.HITPOINTS),
+            client.getRealSkillLevel(Skill.PRAYER));
     }
 
     /**

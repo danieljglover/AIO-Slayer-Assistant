@@ -1,0 +1,11 @@
+{
+  "locationId": "gu-tanoth",
+  "name": "Gu'Tanoth",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Ogre city south-east of Yanille. Requires partial completion of Watchtower to enter. Level 53 ogres are secluded across several areas; cannonable and safespottable."
+}

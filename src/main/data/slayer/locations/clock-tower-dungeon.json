@@ -1,0 +1,11 @@
+{
+  "locationId": "clock-tower-dungeon",
+  "name": "Clock Tower Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Dungeon beneath the Clock Tower south of Ardougne. Small number of level 53 ogres; cannonable and safespottable."
+}

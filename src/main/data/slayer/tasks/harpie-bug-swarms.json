@@ -1,0 +1,109 @@
+{
+  "taskId": "harpie-bug-swarms",
+  "name": "Harpie Bug Swarms",
+  "wikiPageId": 13061,
+  "combatLevel": 45,
+  "slayerTargetId": null,
+  "slayerLevel": 33,
+  "questReqs": [],
+  "masterIds": [
+    "vannaka"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "harpie-bug-swarms"
+  ],
+  "variantIds": [
+    "harpie-bug-swarm"
+  ],
+  "defaultVariantId": "harpie-bug-swarm",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "FIRE"
+  },
+  "monsterDefence": {
+    "defenceLevel": 32,
+    "stab": 10,
+    "slash": 5,
+    "crush": 10,
+    "magic": 5,
+    "range": 10
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "Lit bug lantern",
+  "locationIds": [
+    "tai-bwo-wannai",
+    "colossal-wyrm-remains"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "harpie-bug-swarm",
+      "name": "Harpie Bug Swarm",
+      "combatLevel": 46,
+      "slayerXp": 25,
+      "locations": [
+        "North-east of Tai Bwo Wannai",
+        "East of the Colossal Wyrm Remains"
+      ],
+      "notes": [
+        "Requires Slayer 33, combat level 45, and Firemaking 33 to be assigned; a lit bug lantern must be lit AND equipped to deal any damage to the swarm.",
+        "25 Hitpoints, max hit 6 (Crush), 4-tick attack speed; Defence level 32 with defensive bonuses stab 10, slash 5, crush 10, magic 5, ranged 10.",
+        "50% elemental weakness to fire spells (added 25 June 2025); very accurate, so bring 40-50+ Defence and food such as lobsters, or use Protect from Melee.",
+        "Remains aggressive until combat level 93, making the task very click-easy."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "colossal-wyrm-remains",
+      "name": "East of the Colossal Wyrm Remains",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Varlamore location east of the Colossal Wyrm Remains; several safespots and free of the poison hazards found on Karamja, so no antipoison is needed.",
+        "Building a quetzal landing site at Colossal Wyrm Remains gives a quick shortcut to an Auburnvale bank and a prayer altar at The Teomat; nearest fairy ring is AJP.",
+        "Recommended over the Karamja location for convenience and safety."
+      ]
+    },
+    {
+      "locationId": "tai-bwo-wannai",
+      "name": "North-east of Tai Bwo Wannai",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Karamja location north-east of Tai Bwo Wannai (fairy ring DKP); reachable via Tai Bwo Wannai teleport scroll or the Brimhaven boat.",
+        "Two safespots exist; a dwarf multicannon can be used, but the bug lantern must be equipped for the cannon to deal damage, and telegrab runes are needed to collect drops.",
+        "Bring antipoison due to other aggressive, poisonous creatures nearby; completing Tai Bwo Wannai Trio enables the Tribal Statue to recharge prayer."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Harpie bug swarms require Slayer 33, combat level 45, and Firemaking 33 to be assigned; without 33 Firemaking the task cannot be given (Mod Ash confirmed all three checks remain in effect).",
+    "A lit bug lantern (needs Firemaking 33 to light) must be lit AND equipped to deal any damage; requiredItemName records this, but requiredItemId is left null as it is a damage-enabling worn item rather than a modelled RuneLite item gate.",
+    "Only Vannaka assigns this task; Chaeldar stopped assigning it on 8 May 2024 and Duradel on 10 September 2015.",
+    "slayerTargetId is null because the Slayer_task/Harpie Bug Swarms wiki page does not exist (redirect/missing); the SLAYER_TARGET varp value is unverified and left for QA. The monster NPC id is 464.",
+    "Harpie Bug Swarm has 25 Hitpoints, max hit 6 (Crush), 4-tick attack speed, and Defence level 32.",
+    "Monster gained a 50% elemental weakness to fire spells on 25 June 2025; weakness.style is MAGIC with element FIRE to reflect the recommended fire-spell method, though melee also works given low defensive bonuses.",
+    "No task extension unlock exists for Harpie bug swarms."
+  ],
+  "recommendedMethod": "Ensure Slayer 33, combat level 45, and Firemaking 33, then light and equip a bug lantern (mandatory to deal damage). The best location is east of the Colossal Wyrm Remains in Varlamore, which has safespots and no poison hazards; the Karamja spot north-east of Tai Bwo Wannai also works but needs antipoison. Exploit the 50% fire weakness with fire spells, or use melee given the low defensive bonuses. Swarms are very accurate, so bring 40-50+ Defence gear and food such as lobsters, or keep Protect from Melee active. A cannon can speed up kills, but the bug lantern must stay equipped for it to damage the swarms."
+}

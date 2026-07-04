@@ -44,12 +44,14 @@
       "unlockId": "warped-reality",
       "name": "Warped Reality",
       "pointsCost": 60,
+      "type": "TASK_UNLOCK",
       "notes": "Allows Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal to assign Warped creatures."
     },
     {
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Enables superior spawns, including Mutated Tortoise and Mutated Terrorbird."
     }
   ],
@@ -81,7 +83,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": null,
+  "requiredItemId": 28577,
   "requiredItemName": "Crystal chime",
   "locationIds": [
     "poison-waste-dungeon-tortoise-main",

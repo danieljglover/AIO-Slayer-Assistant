@@ -73,11 +73,12 @@
       "name": "Chaos Temple ents (Wilderness)",
       "amount": 10,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "10 spawns total: 4 east of the Chaos Temple and 6 north of it, in the Wilderness.",
-        "Multicombat, cannon and safespot are not wiki-stated for these spots; conservative defaults are used.",
+        "Single-way combat in open Wilderness; ents are not immune to cannon (Ent page immunecannon=No) and the area is not a cannon-prohibited zone, so a dwarf multicannon can be used.",
+        "Ents can be safespotted by moving 1-3 tiles adjacent to a tree and attacking with a ranged weapon, halberd, or magic.",
         "The level 86 Woodcutting Guild ent is non-Wilderness and does not count for Krystilia."
       ]
     }

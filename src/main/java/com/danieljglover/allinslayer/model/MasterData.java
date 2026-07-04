@@ -21,4 +21,7 @@ public class MasterData
     private String location;
     private MasterRequirements requirements;
     private MasterEconomy economy;
+    // Master-intrinsic wiki facts (task-changing/streak rules, key drops, location assignment,
+    // Wilderness constraint) that the structured fields cannot express; null = unauthored.
+    private List<String> notes;
 }

@@ -2,10 +2,10 @@
   "locationId": "ent-wilderness",
   "name": "Chaos Temple ents (Wilderness)",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": true,
-  "accessNote": "10 Wilderness ent spawns near the Chaos Temple: 4 to the east and 6 to the north. Krystilia only counts Wilderness kills, so the level 86 Woodcutting Guild ent does not count. Bring a hatchet to chop the defeated trunks for noted logs. Multicombat, cannon and safespot are not wiki-stated for these spots; conservative defaults are used."
+  "accessNote": "10 Wilderness ent spawns near the Chaos Temple: 4 to the east and 6 to the north. Krystilia only counts Wilderness kills, so the level 86 Woodcutting Guild ent does not count. Bring a hatchet to chop the defeated trunks for noted logs. Ents are not cannon-immune and the open Wilderness area is not cannon-prohibited (Ent pageid 31267); they can be safespotted 1-3 tiles from a tree."
 }

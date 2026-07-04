@@ -1,0 +1,39 @@
+{
+  "variantId": "harpie-bug-swarm",
+  "name": "Harpie Bug Swarm",
+  "npcIds": [
+    464
+  ],
+  "combatLevel": 46,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "FIRE"
+  },
+  "monsterDefence": {
+    "defenceLevel": 32,
+    "stab": 10,
+    "slash": 5,
+    "crush": 10,
+    "magic": 5,
+    "range": 10
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "North-east of Tai Bwo Wannai (Karamja) and east of the Colossal Wyrm Remains (Varlamore)",
+  "requirement": "Slayer 33; combat level 45; Firemaking 33; a lit bug lantern must be lit and equipped to deal any damage",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 25,
+    "maxHit": 6,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

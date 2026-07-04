@@ -1,0 +1,11 @@
+{
+  "locationId": "tarns-lair",
+  "name": "Tarn's Lair",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Tarn's Lair is south of the Haunted Mine in southern Morytania; the terror dog room is the chamber where Tarn Razorlor was fought during the Lair of Tarn Razorlor miniquest (Haunted Mine required). A slayer ring teleport is the fastest access; the trek on foot is long and dangerous (Skeleton mages, traps). The terror dog room is multi-combat, drains Prayer at 1 point per 2 ticks (50/minute), and cannot host a dwarf multicannon. Terror dogs can be safespotted from Tarn's room with Magic or Ranged once tolerant. Burst is left false as it is not wiki-confirmed here."
+}

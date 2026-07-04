@@ -2,7 +2,7 @@
   "taskId": "scorpions",
   "name": "Scorpions",
   "wikiPageId": null,
-  "combatLevel": 14,
+  "combatLevel": 7,
   "slayerTargetId": 270,
   "slayerLevel": 1,
   "questReqs": [],
@@ -119,11 +119,12 @@
       "locationId": "scorpions-wilderness",
       "name": "Wilderness scorpions",
       "amount": 10,
-      "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
-        "Wilderness scorpion spawns for Krystilia; multi/cannon status not wiki-stated (conservative false).",
+        "Wilderness scorpion spawns (Scorpion Pit) count for Krystilia; multicombat area, cannonable and safespottable per the task table.",
+        "With a cannon a scorpions task can be completed in under a minute due to the many low-HP spawns.",
         "Bring risk-appropriate gear and an escape teleport."
       ]
     },
@@ -132,11 +133,11 @@
       "name": "Non-Wilderness scorpions",
       "amount": 12,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Al Kharid mine and the Dwarven Mine hold scorpions for the starter masters.",
-        "Multi and cannon status not wiki-stated (conservative false)."
+        "The Al Kharid mine is cannonable and safespottable (task table); the Dwarven Mine is safespottable but does not permit a cannon (cannon prohibited-areas list)."
       ]
     }
   ],

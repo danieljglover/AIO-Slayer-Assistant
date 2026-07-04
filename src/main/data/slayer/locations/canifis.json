@@ -1,0 +1,11 @@
+{
+  "locationId": "canifis",
+  "name": "Canifis",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Werewolves wander Canifis village as level 24 humans until attacked, then transform into level 88 werewolves. Priest in Peril is required to cross the River Salve into Morytania. Canifis is a single-combat area, but a Dwarf multicannon can be set up in the village centre (40 Agility enables the Canifis Rooftop Course cannon method). Safespots exist over the central STASH unit and inside the pub (behind the bar / across the tables, where 4 werewolves reside)."
+}

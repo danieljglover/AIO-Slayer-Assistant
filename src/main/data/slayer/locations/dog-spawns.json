@@ -2,10 +2,10 @@
   "locationId": "dog-spawns",
   "name": "Dog spawns",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Dogs count guard dogs, jackals and wild dogs. Guard dogs are in McGrubor's Wood (10 spawns), Hosidius (6 spawns), Kourend Castle, Handelmort Mansion and Brimhaven (Heroes' Quest). Jackals roam the Kharidian Desert near Pollnivneach, Nardah, Sophanem and the Ancient Pyramid (largest cluster, 13 spawns, south of the Ancient Pyramid via fairy ring DLQ). Wild dogs are in Brimhaven Dungeon on Karamja (12 spawns). Multi, cannon and safespot availability are not wiki-confirmed for these spots (conservative defaults)."
+  "accessNote": "Dogs count guard dogs, jackals and wild dogs. Guard dogs are in McGrubor's Wood (10 spawns), Hosidius (6 spawns), Kourend Castle, Handelmort Mansion and Brimhaven (Heroes' Quest). Jackals roam the Kharidian Desert near Pollnivneach, Nardah, Sophanem and the Ancient Pyramid (largest cluster, 13 spawns, south of the Ancient Pyramid via fairy ring DLQ). Wild dogs are in Brimhaven Dungeon on Karamja (12 spawns). The Slayer task/Dogs location table (pageid 298041) lists every dog spot as cannonable and safespottable; only the Hosidius marketplace is multi-combat."
 }

@@ -1,0 +1,11 @@
+{
+  "locationId": "ancient-guthixian-temple",
+  "name": "Ancient Guthixian Temple",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires While Guthix Sleeps. Enter via a Guthixian temple teleport or by riding a light creature (sapphire lantern) down the Chasm of Tears. A cannon cannot be set up here and tormented demons are immune to cannon damage. Single-way combat zone with pseudo-multicombat rooms allowing up to 2-3 demons to engage at once."
+}

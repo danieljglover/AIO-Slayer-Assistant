@@ -1,0 +1,11 @@
+{
+  "locationId": "river-elid",
+  "name": "River Elid (south of Pollnivneach)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Crocodiles are found in the Kharidian Desert south of Pollnivneach on either side of the River Elid, with further spawns near the Ruins of Unkah, near the Ruins of Ullek, and (after Icthlarin's Little Helper) just north of Sophanem. Bring waterskins to survive the desert heat. Safespots exist: a cactus west of the magic carpet at Nardah covers two water spawns, and the wall east of the Ruins of Unkah covers others; the water-bound crocodiles can be ranged/maged from one tile back from the shore. Multi and cannon are not wiki-confirmed here, so conservative defaults are used."
+}

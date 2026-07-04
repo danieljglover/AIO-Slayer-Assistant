@@ -43,6 +43,7 @@
       "unlockId": "shroom-sprayer",
       "name": "'Shroom sprayer",
       "pointsCost": 110,
+      "type": "FINISHING_BLOW",
       "notes": "Mutated zygomites are automatically dealt the finishing blow if the player has Fungicide spray and Fungicide."
     }
   ],
@@ -72,7 +73,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": 7806,
+  "requiredItemId": 7421,
   "requiredItemName": "Fungicide spray",
   "locationIds": [
     "zanaris-furnace-zygomites",
@@ -176,6 +177,7 @@
   "taskNotes": [
     "The wiki task page is titled Zygomites; Slayer masters refer to the assignment as Mutated zygomites.",
     "Zygomites cannot be killed unless a fungicide spray is used to deliver the final blow.",
+    "requiredItemId 7421 is the fully-charged Fungicide spray 10 (wiki item infobox id); partially-used sprays use ids 7422-7430, so an owned check against 7421 can miss a part-used spray.",
     "Regular Zygomites must be picked from Fungi before they can be attacked.",
     "Zygomites mostly use magical melee headbutts and occasionally use stronger magical ranged spore attacks.",
     "Dragonhide armour or Karil's armour is strongly recommended because high Magic defence reduces incoming damage.",

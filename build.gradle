@@ -12,18 +12,32 @@ repositories {
 
 def runeLiteVersion = 'latest.release'
 
+def generatedSlayerDataDir = layout.buildDirectory.dir('generated/resources/slayer')
+
+sourceSets {
+    main {
+        resources {
+            srcDir generatedSlayerDataDir
+        }
+    }
+    // No automated tests in this project (verification is manual via `./gradlew run`); the dev
+    // source set only hosts the RuneLite launcher, which needs the client on its runtime path.
+    dev {
+        compileClasspath += sourceSets.main.output
+        runtimeClasspath += sourceSets.main.output
+    }
+}
+
 dependencies {
     compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
 
     compileOnly 'org.projectlombok:lombok:1.18.30'
     annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
-    testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
-    testImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
-    testImplementation 'junit:junit:4.12'
-    testImplementation 'org.mockito:mockito-core:3.12.4'
-    testImplementation 'org.projectlombok:lombok:1.18.30'
-    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+    devImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
+    devImplementation group: 'net.runelite', name: 'jshell', version: runeLiteVersion
+    devImplementation 'org.projectlombok:lombok:1.18.30'
+    devAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
 }
 
 group = 'com.danieljglover.allinslayer'
@@ -36,19 +50,9 @@ tasks.withType(JavaCompile) {
 
 tasks.register('run', JavaExec) {
     dependsOn 'build'
-    mainClass = 'com.danieljglover.allinslayer.AllInSlayerPluginTest'
-    classpath = sourceSets.main.runtimeClasspath + sourceSets.test.runtimeClasspath
+    mainClass = 'com.danieljglover.allinslayer.AllInSlayerPluginLauncher'
+    classpath = sourceSets.main.runtimeClasspath + sourceSets.dev.runtimeClasspath
     jvmArgs '-ea'
-}
-
-def generatedSlayerDataDir = layout.buildDirectory.dir('generated/resources/slayer')
-
-sourceSets {
-    main {
-        resources {
-            srcDir generatedSlayerDataDir
-        }
-    }
 }
 
 tasks.register('generateSlayerData', JavaExec) {
@@ -61,9 +65,5 @@ tasks.register('generateSlayerData', JavaExec) {
 }
 
 tasks.named('processResources') {
-    dependsOn 'generateSlayerData'
-}
-
-tasks.named('test') {
     dependsOn 'generateSlayerData'
 }

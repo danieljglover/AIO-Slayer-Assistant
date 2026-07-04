@@ -1,0 +1,42 @@
+Loaded Jagex session for: xRyze
+> Task :compileJava UP-TO-DATE
+> Task :generateSlayerData
+> Task :processResources UP-TO-DATE
+> Task :classes UP-TO-DATE
+> Task :jar UP-TO-DATE
+> Task :assemble UP-TO-DATE
+> Task :compileTestJava UP-TO-DATE
+> Task :processTestResources UP-TO-DATE
+> Task :testClasses UP-TO-DATE
+> Task :test UP-TO-DATE
+> Task :check UP-TO-DATE
+> Task :build UP-TO-DATE
+
+> Task :run
+2026-07-02 10:06:19 BST [main] INFO  net.runelite.client.RuneLite - RuneLite 1.12.31.1 (launcher version unknown) starting up, args: none
+2026-07-02 10:06:19 BST [main] INFO  net.runelite.client.RuneLite - Java VM arguments: -Dfile.encoding=UTF-8 -Duser.country -Duser.language=en -Duser.variant -ea
+2026-07-02 10:06:20 BST [Preloader] INFO  net.runelite.client.rs.ClientLoader - injected-client 28183107789.176
+2026-07-02 10:06:20 BST [main] INFO  n.r.client.account.SessionManager - No session file exists
+2026-07-02 10:06:20 BST [main] INFO  n.r.client.config.ConfigManager - Profile 'default' (sync: false, active: true, id: 2833396880481)
+2026-07-02 10:06:20 BST [main] INFO  n.r.client.config.ConfigManager - Using profile: default (2833396880481)
+2026-07-02 10:06:20 BST [main] INFO  n.r.c.plugins.kourendlibrary.Library - Library is now reset
+2026-07-02 10:06:21 BST [main] INFO  n.r.client.discord.DiscordService - Initializing Discord RPC service.
+/usr/bin/xdg-mime: line 885: qtpaths: command not found
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by net.runelite.client.util.ReflectUtil (file:/home/danny/.gradle/caches/modules-2/files-2.1/net.runelite/client/1.12.31.1/59c8b93467daab03cfc9c29ec27ba888a0ffde43/client-1.12.31.1.jar) to field java.lang.reflect.Executable.declaredAnnotations
+WARNING: Please consider reporting this to the maintainers of net.runelite.client.util.ReflectUtil
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2026-07-02 10:06:21 BST [main] INFO  net.runelite.client.RuneLite - Client initialization took 2397ms. Uptime: 2822ms
+2026-07-02 10:06:21 BST [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using device: AMD Radeon RX 9070 XT (radeonsi, gfx1201, ACO, DRM 3.64, 7.1.2-2-cachyos)
+2026-07-02 10:06:21 BST [Client] INFO  n.r.client.plugins.gpu.GpuPlugin - Using driver: 4.6 (Compatibility Profile) Mesa 26.1.3-arch3.1
+2026-07-02 10:06:23 BST [pool-2-thread-1] INFO  n.r.client.discord.DiscordService - Discord RPC service is ready with user ryze94.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.10/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 3m 41s
+8 actionable tasks: 2 executed, 6 up-to-date

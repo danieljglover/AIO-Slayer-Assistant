@@ -46,7 +46,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": null,
+  "requiredItemId": 7159,
   "requiredItemName": "Insulated boots",
   "locationIds": [
     "killerwatt-plane"
@@ -78,14 +78,15 @@
       "notes": [
         "Reached through the telescope in the upstairs study of Draynor Manor (Ernest the Chicken must be complete).",
         "Insulated boots roughly halve the Killerwatt's damage; without them their Ranged max hit rises to 15.",
-        "Air spells exploit the 60% elemental weakness, making Magic the fastest style here."
+        "Air spells exploit the 60% elemental weakness, making Magic the fastest style here.",
+        "Cannons cannot be set up on the Killerwatt Plane (the electricity is too powerful), so cannonable is false."
       ]
     }
   ],
   "taskNotes": [
     "Killerwatts require 37 Slayer, combat level 50, and completion of Ernest the Chicken to be assigned by Mazchna.",
     "slayerTargetId 294 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
-    "Insulated boots are strongly recommended: without them the Killerwatt's Ranged max hit rises from 8 to 15. The item is named but requiredItemId is left null because the boots are advisory, not a hard entry gate.",
+    "Insulated boots are strongly recommended: without them the Killerwatt's Ranged max hit rises from 8 to 15. requiredItemId 7159 is Insulated boots (wiki item infobox id); the boots are strongly advised rather than a hard entry gate.",
     "Killerwatts have a 60% elemental weakness to air spells; Magic (e.g. Air Bolt/Air Wave) is the fastest style.",
     "Killerwatt has 51 Hitpoints, attacks at 2 ticks with a Ranged (magical) and Melee attack, and has Defence level 40 (magic defence bonus 20).",
     "No task extension unlock exists for Killerwatts."

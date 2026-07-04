@@ -1,0 +1,11 @@
+{
+  "locationId": "tai-bwo-wannai",
+  "name": "North-east of Tai Bwo Wannai",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Karamja jungle north-east of Tai Bwo Wannai (fairy ring DKP); reached via Tai Bwo Wannai teleport scroll or the Brimhaven boat. Two safespots exist and a dwarf multicannon can be used, but the bug lantern must stay equipped for the cannon to damage swarms. Bring antipoison for nearby aggressive, poisonous creatures; Tai Bwo Wannai Trio unlocks the Tribal Statue prayer recharge."
+}

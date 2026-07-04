@@ -1,0 +1,33 @@
+{
+  "variantId": "mogre-sea",
+  "name": "Mogre (sea)",
+  "npcIds": [
+    15230,
+    15231,
+    15232,
+    15233
+  ],
+  "combatLevel": 54,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 40,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mudskipper Sound, Strait of Khazard, Kharazi Strait",
+  "locationId": null,
+  "requirement": "Requires 32 Slayer. Sea encounter Mogre reached during boat combat. Wiki task table still lists the pre-nerf combat level 61 / 43.5 Slayer XP; the current monster infobox lists combat level 54 and 59 Hitpoints (Hitpoints reduced from 87 to 59 and level from 61 to 54).",
+  "bossId": null,
+  "strategyId": null
+}

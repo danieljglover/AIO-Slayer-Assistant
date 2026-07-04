@@ -83,6 +83,13 @@
       "pointsCost": 100,
       "type": "EXTENSION",
       "notes": "Number of dust devils assigned is increased to 200-250."
+    },
+    {
+      "unlockId": "i-wildy-more-slayer",
+      "name": "I Wildy More Slayer",
+      "pointsCost": 0,
+      "type": "TASK_UNLOCK",
+      "notes": "Free toggleable reward that controls whether Krystilia can assign dust devils as a Wilderness task; toggled off she will not assign it."
     }
   ],
   "monsterIds": [
@@ -110,7 +117,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": 4166,
+  "requiredItemId": 4164,
   "requiredItemName": "Facemask",
   "locationIds": [
     "catacombs-of-kourend",
@@ -189,7 +196,7 @@
       "name": "Smoke Dungeon",
       "amount": 44,
       "multicombat": true,
-      "cannonable": null,
+      "cannonable": true,
       "safespottable": true,
       "notes": [
         "The Smoke Dungeon is remote and usually quieter than the Catacombs, with task-only multicombat Dust devils to the west guarded by Dusty Aliv.",

@@ -13,6 +13,10 @@ public class Recommendation
     private CombatStyle style;
     private Map<EquipmentSlot, Integer> worn;
     private List<Integer> inventory;
+    // The full suggested 28-slot trip inventory composed by TripInventoryPlanner from the owned
+    // supplies + consumables (rendered by the loadout card's inventory grid); ids are drawn only from
+    // `inventory` and `consumables`, so LoadoutItems name/price coverage is unchanged.
+    private List<TripSlot> tripInventory;
     private SlayerLocation location;
     private SlayerLocation recommendedLocation;
     private String locationReason;
@@ -81,4 +85,23 @@ public class Recommendation
     // worn-gear "Est. DPS" (never folded into weapon ranking, ADR-0008); on a multi-combat spot it also
     // carries the ceiling caveat (real rate is higher). FE renders it only when non-null.
     private String cannonDpsNote;
+    // Dynamic-inventory (Phase 1): the strategy method the trip inventory was built for. methodId is the
+    // stable id (persisted as the per-task manual override); methodLabel is the human label for the
+    // method selector and the loadout card. Both null when the variant has no strategy methods (a
+    // pre-methods or .md-only strategy) - the loadout is then byte-identical to today (FR-6).
+    private String methodId;
+    private String methodLabel;
+    // The selected method's prayers, verbatim ("Protect from Melee", "Piety"); null/empty when the
+    // method authored none. Rendered as a loadout note row; never a combat-maths input (NG-4).
+    private java.util.List<String> prayers;
+    // The SustainModel sizing line ("Prayer-primary: ~6 restore potions for 112 kills..."); null when
+    // the method uses no prayers (nothing to say). A note only.
+    private String sustainNote;
+    // The "strategy recommends but you own none" advisory from the trip planner (owned-only
+    // substitution keeps the loadout usable; this tells the player what to buy). Null when nothing is
+    // missing. A note only.
+    private String missingKeyItemsNote;
+    // The pickable strategy methods (style-bearing) for the method selector; null/empty when the variant
+    // has no strategy methods (the selector is then hidden). The selected one is methodId above.
+    private java.util.List<com.danieljglover.allinslayer.model.StrategyMethod> methodOptions;
 }

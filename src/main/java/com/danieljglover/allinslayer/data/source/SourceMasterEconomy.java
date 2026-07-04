@@ -22,4 +22,12 @@ public class SourceMasterEconomy
     private Integer blockCost;
     private boolean zeroPoints;
     private boolean streakResets;
+    // Elite-diary boosted base points (Konar 18 -> 20 with Kourend & Kebos elite, Nieve 12 -> 15
+    // with Western Provinces elite); null = no diary boost exists. The streak multipliers apply
+    // to whichever base is in effect, so only the base needs modelling.
+    private Integer diaryBoostedPoints;
+    private String diaryBoostNote;
+    // Krystilia only: her assignments run a separate task-completion counter from the standard
+    // masters (its own streak, and its own first-four-tasks grace before points accrue).
+    private boolean separateStreak;
 }

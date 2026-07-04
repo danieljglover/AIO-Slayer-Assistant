@@ -1,6 +1,7 @@
 {
   "masterId": "konar",
   "name": "Konar quo Maten",
+  "wikiPageId": 199880,
   "location": "Mount Karuulm",
   "requirements": {
     "combatLevel": 75
@@ -14,6 +15,15 @@
       "250": 35,
       "1000": 50
     },
-    "blockCost": 80
-  }
+    "blockCost": 80,
+    "diaryBoostedPoints": 20,
+    "diaryBoostNote": "Elite Kourend & Kebos Diary raises points per task from 18 to 20; milestone bonuses scale with the boosted base."
+  },
+  "notes": [
+    "Assigns a specific location alongside each monster; kills only count toward the task in that location.",
+    "Never assigns Wilderness locations (outside of boss Slayer) - those belong to Krystilia.",
+    "Task monsters can drop brimstone keys (drop rates similar to Larran's keys) for the brimstone chest beside her.",
+    "Offers the most points per task outside the Wilderness - more than Duradel.",
+    "Combat level requirement can be bypassed by showing a Slayer cape (99 Slayer)."
+  ]
 }

@@ -92,7 +92,13 @@ public class TaskHeader extends JPanel
     private static String meta(SlayerPanelState state)
     {
         String time = state.getUpdatedAt() == null ? "unknown" : TIME.format(state.getUpdatedAt());
-        return "updated " + time + " · " + humaneSource(state.getRefreshSource());
+        String source = humaneSource(state.getRefreshSource());
+        // An empty source (null / unknown-future enum) must not leave a dangling " · " separator.
+        if (source.isEmpty())
+        {
+            return "updated " + time;
+        }
+        return "updated " + time + " · " + source;
     }
 
     /**
@@ -125,6 +131,10 @@ public class TaskHeader extends JPanel
                 return "mode change";
             case LOCATION_SELECT:
                 return "location change";
+            case VARIANT_SELECT:
+                return "variant change";
+            case METHOD_SELECT:
+                return "style change";
             case MASTER_SELECT:
                 return "master change";
             default:

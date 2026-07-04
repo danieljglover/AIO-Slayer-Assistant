@@ -1,7 +1,7 @@
 {
   "taskId": "dwarves",
   "name": "Dwarves",
-  "wikiPageId": 16965,
+  "wikiPageId": 298105,
   "combatLevel": 6,
   "slayerTargetId": 287,
   "slayerLevel": 1,
@@ -94,10 +94,11 @@
       "amount": 36,
       "multicombat": false,
       "cannonable": false,
-      "safespottable": false,
+      "safespottable": true,
       "notes": [
         "The free-to-play Dwarven Mine holds the densest dwarf cluster (36 spawns).",
-        "Ice Mountain and Keldagrim Black Guards also count; multi, cannon and safespot availability are not wiki-confirmed (conservative defaults)."
+        "The Dwarven Mine is single-way combat and safespottable, but a dwarf multicannon cannot be set up here (prohibited area).",
+        "Ice Mountain and Keldagrim Black Guards also count toward the task."
       ]
     }
   ],

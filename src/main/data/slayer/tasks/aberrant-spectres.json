@@ -71,6 +71,7 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Enables superior slayer monster spawns, including Abhorrent spectres and Repugnant spectres."
     },
     {

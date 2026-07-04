@@ -1,0 +1,11 @@
+{
+  "locationId": "zanaris-otherworldly-beings",
+  "name": "Zanaris (south of the bank, flower pond)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Six Otherworldly beings (level 64) roam south of the bank in Zanaris, by the flower pond. Requires Lost City for access (fairy ring / Lost City route). Can be safespotted across or by corner-trapping on the pond corners, though they wander a lot; five of the six have a wander radius that permits safespotting from right next to the pond."
+}

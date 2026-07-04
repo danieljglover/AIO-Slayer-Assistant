@@ -81,6 +81,7 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Allows superior Slayer monsters such as Insatiable Bloodveld and Insatiable mutated Bloodveld to spawn while on task."
     },
     {

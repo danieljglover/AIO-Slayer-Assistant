@@ -1,0 +1,11 @@
+{
+  "locationId": "gnome-maze",
+  "name": "Gnome Maze",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Only a single level 53 ogre spawn; cannonable and safespottable but not an efficient task spot."
+}

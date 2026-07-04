@@ -81,6 +81,13 @@
       "pointsCost": 100,
       "type": "EXTENSION",
       "notes": "Number of nechryael assigned is increased to 200-250."
+    },
+    {
+      "unlockId": "i-wildy-more-slayer",
+      "name": "I Wildy More Slayer",
+      "pointsCost": 0,
+      "type": "TASK_UNLOCK",
+      "notes": "Free toggleable reward that controls whether Krystilia can assign nechryael as a Wilderness task; toggled off she will not assign it."
     }
   ],
   "monsterIds": [

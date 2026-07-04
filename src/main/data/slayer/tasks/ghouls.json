@@ -9,16 +9,22 @@
     "Priest in Peril"
   ],
   "masterIds": [
-    "mazchna"
+    "mazchna",
+    "vannaka"
   ],
   "amountByMaster": {
     "mazchna": [
       10,
       20
+    ],
+    "vannaka": [
+      10,
+      40
     ]
   },
   "weightByMaster": {
-    "mazchna": 7
+    "mazchna": 7,
+    "vannaka": 7
   },
   "unlocks": [],
   "monsterIds": [

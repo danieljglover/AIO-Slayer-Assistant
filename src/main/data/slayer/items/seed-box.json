@@ -1,0 +1,8 @@
+{
+  "itemKey": "seed-box",
+  "name": "Seed box",
+  "aliases": ["open seed box"],
+  "itemIds": [13639],
+  "stackable": false,
+  "dosed": false
+}

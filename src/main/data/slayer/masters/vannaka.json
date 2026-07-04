@@ -1,6 +1,7 @@
 {
   "masterId": "vannaka",
   "name": "Vannaka",
+  "wikiPageId": 11509,
   "location": "Edgeville Dungeon",
   "requirements": {
     "combatLevel": 40
@@ -15,5 +16,11 @@
       "1000": 50
     },
     "blockCost": 60
-  }
+  },
+  "notes": [
+    "Base points were raised from 4 to 8 in the Summer Sweep Up update (27 August 2025).",
+    "Combat level requirement can be bypassed by showing a Slayer cape (99 Slayer).",
+    "Commonly assigns tasks of 60-120 kills and can assign difficult monsters such as abyssal demons.",
+    "Located in Edgeville Dungeon east of the Wilderness gate; entering via the Cooks' Guild entrance requires a brass key."
+  ]
 }

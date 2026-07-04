@@ -1,0 +1,115 @@
+{
+  "taskId": "sea-snakes",
+  "name": "Sea snakes",
+  "wikiPageId": 298057,
+  "combatLevel": 50,
+  "slayerTargetId": 5089,
+  "slayerLevel": 40,
+  "questReqs": [
+    "Royal Trouble"
+  ],
+  "masterIds": [
+    "vannaka"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 6
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "sea-snakes"
+  ],
+  "variantIds": [
+    "sea-snake-hatchling",
+    "sea-snake-young"
+  ],
+  "defaultVariantId": "sea-snake-young",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": "Antipoison",
+  "locationIds": [
+    "miscellania-and-etceteria-dungeon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "sea-snake-hatchling",
+      "name": "Sea snake hatchling",
+      "combatLevel": 62,
+      "slayerXp": 50,
+      "locations": [
+        "Miscellania and Etceteria Dungeon"
+      ],
+      "notes": [
+        "Weakest sea snake variant; occupies a 1x1 square.",
+        "50 Hitpoints, max hit 6 (Crush), 4-tick attack speed; Defence level 50 with all defensive bonuses 0.",
+        "Poisonous, inducing poison starting at 5; carry an antipoison.",
+        "20% elemental weakness to Earth spells and vulnerable to Magic, though melee is effective since all defensive bonuses are 0."
+      ]
+    },
+    {
+      "variantId": "sea-snake-young",
+      "name": "Sea snake young",
+      "combatLevel": 90,
+      "slayerXp": 85,
+      "locations": [
+        "Miscellania and Etceteria Dungeon"
+      ],
+      "notes": [
+        "Stronger sea snake variant; occupies a 2x2 square.",
+        "85 Hitpoints, max hit 8 (Crush), 4-tick attack speed; Defence level 70 with all defensive bonuses 0.",
+        "Poisonous, inducing poison starting at 7; carry an antipoison.",
+        "20% elemental weakness to Earth spells and vulnerable to Magic, though melee is effective since all defensive bonuses are 0."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "miscellania-and-etceteria-dungeon",
+      "name": "Miscellania and Etceteria Dungeon",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Sea snakes are found only in the Miscellania and Etceteria Dungeon, which can be entered during and after Royal Trouble.",
+        "The dungeon is single combat, but a dwarf multicannon may still be used.",
+        "The blue eggs halfway through the tunnel can be used as a safespot; this is easier with the closer sea snake young than the hatchlings.",
+        "Both variants are poisonous, so an antipoison of any tier is strongly recommended."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Sea snakes can be assigned only by Vannaka, requiring 40 Slayer, combat level 50, and completion of Royal Trouble.",
+    "Two counting variants exist: Sea snake hatchling (combat 62, 50 Slayer XP) and Sea snake young (combat 90, 85 Slayer XP).",
+    "Both variants share the same drop table; hatchlings drop regular bones while young drop big bones (and by extension long and curved bones).",
+    "Sea snakes are found only in the Miscellania and Etceteria Dungeon, entered during and after Royal Trouble.",
+    "The dungeon is single combat but permits a dwarf multicannon; the blue eggs halfway through the tunnel are a safespot.",
+    "Both variants are poisonous (hatchling from 5, young from 7), so bring an antipoison; requiredItemId is left null because it is a recommended supply, not a worn entry gate.",
+    "Both variants have all defensive bonuses at 0 with a 20% Earth elemental weakness; weakness.style is MELEE because any melee weapon is effective, with the Earth/Magic weakness recorded for a Magic alternative.",
+    "slayerTargetId 5089 is the Infobox Slayer `id` value recorded from the OSRS Wiki task page.",
+    "No task extension unlock exists for Sea snakes."
+  ],
+  "recommendedMethod": "Complete Royal Trouble, then travel to Miscellania and Etceteria Dungeon. Bring an antipoison of any tier since both hatchlings and young are poisonous. Sea snakes have no defensive bonuses, so any melee weapon works well; their 20% Earth weakness and Magic vulnerability make earth spells a viable alternative. The dungeon is single combat but a dwarf multicannon may be used, and the blue eggs halfway through the tunnel provide a safespot."
+}

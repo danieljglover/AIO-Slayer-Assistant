@@ -70,11 +70,13 @@
       "name": "Wilderness (south-east of Ferox Enclave)",
       "amount": null,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Mammoths roam the Wilderness south-east of Ferox Enclave.",
-        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+        "Their high HP makes this an efficient Dwarf multicannon spot; a nearby altar gives unlimited Prayer and Ferox Enclave is a short resupply walk.",
+        "Easily safespotted behind the many trees and tree stumps thanks to their 3x3 size.",
+        "Wilderness area: beware player killers and avoid carrying excess supplies."
       ]
     }
   ],

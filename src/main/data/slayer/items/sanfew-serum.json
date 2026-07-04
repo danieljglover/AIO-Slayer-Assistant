@@ -1,0 +1,8 @@
+{
+  "itemKey": "sanfew-serum",
+  "name": "Sanfew serum",
+  "aliases": ["sanfew serums", "sanfew", "sanfew serum potion"],
+  "itemIds": [10925, 10927, 10929, 10931],
+  "stackable": false,
+  "dosed": true
+}

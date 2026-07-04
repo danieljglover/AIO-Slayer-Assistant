@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Contains 9 Ancient Zygomites in the Stalker Den under Custodia Pass. The area is multicombat, cannonable, and safespottable."

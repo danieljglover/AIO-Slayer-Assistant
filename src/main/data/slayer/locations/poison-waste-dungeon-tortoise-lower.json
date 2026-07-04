@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": false,
+  "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Requires The Path of Glouphrie and a crystal chime. Lower-level Warped Tortoises are multicombat, cannonable, and safespottable."

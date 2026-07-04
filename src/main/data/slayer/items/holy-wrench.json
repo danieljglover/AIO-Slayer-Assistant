@@ -1,0 +1,8 @@
+{
+  "itemKey": "holy-wrench",
+  "name": "Holy wrench",
+  "aliases": ["holy wrenches"],
+  "itemIds": [2422],
+  "stackable": false,
+  "dosed": false
+}

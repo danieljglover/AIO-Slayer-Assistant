@@ -1,0 +1,8 @@
+{
+  "itemKey": "prayer-potion",
+  "name": "Prayer potion",
+  "aliases": ["prayer potions", "ppot", "ppots"],
+  "itemIds": [2434, 139, 141, 143],
+  "stackable": false,
+  "dosed": true
+}

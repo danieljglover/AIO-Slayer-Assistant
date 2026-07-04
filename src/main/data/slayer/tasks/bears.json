@@ -123,12 +123,12 @@
       "name": "Wilderness bears",
       "amount": 12,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "West of the Graveyard of Shadows (~10 grizzly bears) and near the Dark Warriors' Fortress; north-west of Ferox Enclave.",
         "Required for Krystilia's Wilderness bears task; carries PKer risk.",
-        "Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative."
+        "Single-way combat; a cannon can be set up and the bears can be safespotted per the wiki location table."
       ]
     },
     {
@@ -136,12 +136,12 @@
       "name": "Non-Wilderness bears",
       "amount": 10,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Fremennik Province woods outside Rellekka (~10 bears), Kebos Lowlands, and around the Mind Altar (black bears).",
         "Used for Turael, Spria, and Mazchna bears tasks.",
-        "Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative."
+        "Single-way combat; the wiki location table lists these bear spots as cannonable and safespottable."
       ]
     }
   ],

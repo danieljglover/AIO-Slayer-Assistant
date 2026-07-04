@@ -1,0 +1,11 @@
+{
+  "locationId": "various-wilderness-boss-locations",
+  "name": "Various Wilderness boss locations",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Placeholder for Krystilia's Wilderness boss meta-task; every eligible boss lairs in the Wilderness (Callisto/Artio, Vet'ion/Calvar'ion, Venenatis/Spindel, Scorpia, Chaos Fanatic, Crazy Archaeologist, King Black Dragon, Chaos Elemental, Revenant Maledictus), each with its own arena and PK risk."
+}

@@ -1,0 +1,40 @@
+{
+  "variantId": "king-sand-crab",
+  "name": "King Sand Crab",
+  "npcIds": [
+    7266
+  ],
+  "combatLevel": 107,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Catacombs of Kourend, Crabclaw Caves",
+  "locationId": "catacombs-of-kourend",
+  "requirement": "Slayer 1; no combat or quest requirement (high Hitpoints and Defence make it a drop-focused kill)",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 200,
+    "maxHit": 6,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

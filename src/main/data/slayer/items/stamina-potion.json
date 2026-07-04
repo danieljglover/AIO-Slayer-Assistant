@@ -1,0 +1,8 @@
+{
+  "itemKey": "stamina-potion",
+  "name": "Stamina potion",
+  "aliases": ["stamina potions", "stamina", "stam"],
+  "itemIds": [12625, 12627, 12629, 12631],
+  "stackable": false,
+  "dosed": true
+}

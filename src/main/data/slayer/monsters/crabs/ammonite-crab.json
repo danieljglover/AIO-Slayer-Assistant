@@ -1,0 +1,40 @@
+{
+  "variantId": "ammonite-crab",
+  "name": "Ammonite Crab",
+  "npcIds": [
+    7800
+  ],
+  "combatLevel": 25,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Fossil Island",
+  "locationId": "ammonite-crabs-fossil-island",
+  "requirement": "Slayer 1; completion of Bone Voyage to reach Fossil Island",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 100,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

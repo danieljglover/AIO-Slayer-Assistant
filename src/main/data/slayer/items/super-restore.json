@@ -1,0 +1,8 @@
+{
+  "itemKey": "super-restore",
+  "name": "Super restore",
+  "aliases": ["super restores", "restores", "super restore potion"],
+  "itemIds": [3024, 3026, 3028, 3030],
+  "stackable": false,
+  "dosed": true
+}

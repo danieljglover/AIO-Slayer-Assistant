@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Morytania Spider Cave. Contains normal Araxytes and the Araxxor boss; spider cave teleport reaches the cave entrance."

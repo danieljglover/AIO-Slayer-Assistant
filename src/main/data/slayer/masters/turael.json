@@ -4,11 +4,20 @@
   "aliases": [
     "Aya"
   ],
+  "wikiPageId": 11452,
   "location": "Burthorpe",
   "economy": {
     "basePoints": 0,
     "blockCost": 40,
     "zeroPoints": true,
     "streakResets": true
-  }
+  },
+  "notes": [
+    "Replaced by Aya, his sister, during and after While Guthix Sleeps; Aya assigns the identical task list.",
+    "Can replace a task assigned by another master with an easier one, but only if the current task is not one Turael himself assigns; accepting the replacement resets the task streak to zero.",
+    "Cannot reassign a task that he (or Aya) gave out.",
+    "Completed tasks award no points but still count toward the four completions needed before points start accruing, and they advance the streak toward the 10th/50th/100th/250th/1000th milestone bonuses.",
+    "Block list is shared with Spria and Aya.",
+    "Asking Turael or Aya for a new assignment reveals the current streak count when the held task is not one they assign; confirming the dialogue takes the replacement and resets the streak."
+  ]
 }

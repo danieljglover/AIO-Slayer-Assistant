@@ -1,0 +1,20 @@
+{
+  "variantId": "the-jormungand",
+  "name": "The Jormungand",
+  "npcIds": [
+    9290,
+    9291
+  ],
+  "combatLevel": 363,
+  "weakness": null,
+  "monsterDefence": null,
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Jormungand's Prison (The Fremennik Exiles finale)",
+  "requirement": "The Fremennik Exiles quest fight (one-time); 40 Slayer and mirror shield or V's shield; counts toward a basilisk task",
+  "bossId": null,
+  "strategyId": "basilisks"
+}

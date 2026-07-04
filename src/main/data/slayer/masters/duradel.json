@@ -4,6 +4,7 @@
   "aliases": [
     "Kuradal"
   ],
+  "wikiPageId": 11511,
   "location": "Shilo Village",
   "requirements": {
     "combatLevel": 100,
@@ -22,5 +23,12 @@
       "1000": 50
     },
     "blockCost": 100
-  }
+  },
+  "notes": [
+    "Replaced by Kuradal, his daughter, after the events of While Guthix Sleeps; Kuradal has the same requirements and assigns the identical task list.",
+    "The only master with a Slayer level requirement; the combat level requirement (but not Slayer 50) can be bypassed by showing a Slayer cape.",
+    "Shilo Village quest completion is needed to enter Shilo Village; Karamja gloves 4 teleport directly to him.",
+    "Assigns very similar tasks to Nieve but in slightly higher quantities.",
+    "Reached via the ladder in the fishing shop south of the river - he cannot be accessed from the north bank."
+  ]
 }

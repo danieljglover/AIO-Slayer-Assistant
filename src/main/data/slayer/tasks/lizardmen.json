@@ -40,6 +40,7 @@
       "unlockId": "reptile-got-ripped",
       "name": "Reptile got ripped",
       "pointsCost": 75,
+      "type": "TASK_UNLOCK",
       "notes": "Konar, Duradel, Nieve, and Chaeldar can assign Lizardmen after this unlock."
     }
   ],
@@ -127,6 +128,45 @@
       "notes": [
         "Shaman variant with dragon warhammer drop chance.",
         "Requires shaman-specific movement and poison-spit handling."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "lizardman-canyon",
+      "name": "Lizardman Canyon",
+      "amount": 38,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "West and east sides together hold about 38 level 53/62 Lizardmen, plus 28 Lizardman brutes and 3 Lizardman shamans (west side).",
+        "Multicombat and cannonable - the common cannon spot for Lizardmen tasks.",
+        "The wiki marks these spawns as not safespottable."
+      ]
+    },
+    {
+      "locationId": "lizardman-settlement",
+      "name": "Lizardman Settlement",
+      "amount": 4,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "4 level 53/62 Lizardmen and 5 Lizardman brutes at the Lizardman Settlement.",
+        "Single-combat and not cannonable per the wiki task table; not safespottable."
+      ]
+    },
+    {
+      "locationId": "kebos-lowlands",
+      "name": "Kebos Swamp",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Kebos Swamp holds 7 level 53/62 Lizardmen and 3 Lizardman brutes.",
+        "Single-combat and not cannonable per the wiki task table; not safespottable."
       ]
     }
   ],

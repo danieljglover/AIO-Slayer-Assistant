@@ -1,7 +1,7 @@
 {
   "taskId": "birds",
   "name": "Birds",
-  "wikiPageId": 37232,
+  "wikiPageId": 259880,
   "combatLevel": null,
   "slayerTargetId": 277,
   "slayerLevel": 1,
@@ -77,10 +77,11 @@
       "locationId": "bird-spawns",
       "name": "Bird spawns (various)",
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Chickens and ducks cluster in Lumbridge/Falador farms; no single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "Every bird spawn on the wiki location table is single-way, cannonable, and safespottable.",
         "Birds drop feathers, bones or nothing, so the task is a starter Slayer-XP task."
       ]
     }

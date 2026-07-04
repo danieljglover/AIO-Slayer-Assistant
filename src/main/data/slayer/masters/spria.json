@@ -1,6 +1,7 @@
 {
   "masterId": "spria",
   "name": "Spria",
+  "wikiPageId": 273906,
   "location": "Draynor Village",
   "requirements": {
     "quests": [
@@ -10,7 +11,13 @@
   "economy": {
     "basePoints": 0,
     "blockCost": 40,
-    "zeroPoints": true,
-    "streakResets": true
-  }
+    "zeroPoints": true
+  },
+  "notes": [
+    "Turael's daughter; assigns the same task list as Turael plus sourhogs, which no other master assigns.",
+    "Cannot change a task from another master into an easier one - she directs players to Turael/Aya for that - so unlike Turael she never resets the task streak.",
+    "Completed tasks award no points but still count toward the four completions needed before points start accruing, and they advance the streak toward milestone bonuses.",
+    "Block list is shared with Turael/Aya.",
+    "Tasks she assigns cannot be skipped through Turael."
+  ]
 }

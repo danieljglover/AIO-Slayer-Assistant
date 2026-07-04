@@ -1,0 +1,41 @@
+{
+  "variantId": "crab",
+  "name": "Crab",
+  "npcIds": [
+    4822,
+    4819
+  ],
+  "combatLevel": 21,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 22,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mogre Camp",
+  "locationId": "mogre-camp",
+  "requirement": "Slayer 1; partial completion of Recipe for Disaster (Freeing Pirate Pete) to access the Mogre Camp",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 18,
+    "maxHit": 3,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

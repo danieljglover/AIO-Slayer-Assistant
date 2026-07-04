@@ -1,0 +1,8 @@
+{
+  "itemKey": "rune-pouch",
+  "name": "Rune pouch",
+  "aliases": ["divine rune pouch", "runepouch"],
+  "itemIds": [27281, 12791],
+  "stackable": false,
+  "dosed": false
+}

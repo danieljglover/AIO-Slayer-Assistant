@@ -1,0 +1,11 @@
+{
+  "locationId": "dorgesh-kaan-south-dungeon",
+  "name": "Dorgesh-Kaan South Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Underground dungeon south of Dorgesh-Kaan, near fairy ring AJQ. Entry requires completion of Death to the Dorgeshuun and a rope to climb down; a light source is required. Home to Molanisks, which disguise on the cave walls and must be lured off with a Slayer bell. A Dwarf multicannon can be used and certain rocks (notably the large rock south of the AJQ fairy ring) provide safespots. Multi is not wiki-confirmed (conservative default)."
+}

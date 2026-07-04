@@ -1,7 +1,7 @@
 {
   "taskId": "dogs",
   "name": "Dogs",
-  "wikiPageId": null,
+  "wikiPageId": 298041,
   "combatLevel": 15,
   "slayerTargetId": 286,
   "slayerLevel": 1,
@@ -112,11 +112,12 @@
       "name": "Dog spawns",
       "amount": 10,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
-        "McGrubor's Wood holds the densest guard dog cluster (10 spawns).",
-        "Wild dogs (Brimhaven Dungeon) and jackals (Kharidian Desert) are alternatives; multi, cannon and safespot availability are not wiki-confirmed (conservative defaults)."
+        "McGrubor's Wood holds the densest guard dog cluster (10 spawns); single-combat, so a cannon only hits one target at a time.",
+        "The Slayer task/Dogs wiki table (Hosidius marketplace, west of Nardah jackals, central Brimhaven Dungeon wild dogs, and Handelmort Mansion guard dogs) lists every dog location as cannonable and safespottable; Hosidius marketplace is the only multicombat spot.",
+        "Wild dogs (Brimhaven Dungeon, requires an axe) and jackals (west of Nardah, needs desert heat protection) are alternatives that also count as Dogs."
       ]
     }
   ],

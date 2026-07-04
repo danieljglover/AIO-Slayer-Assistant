@@ -46,7 +46,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": null,
+  "requiredItemId": 24942,
   "requiredItemName": "Reinforced goggles",
   "locationIds": [
     "sourhog-cave"
@@ -85,7 +85,7 @@
     "Requires the quest A Porcine of Interest to access Sourhog Cave; there is no combat or Slayer level requirement.",
     "slayerTargetId 303 is SYNTHETIC (c2-c3-worklist section 1 allocation contract); the real SLAYER_TARGET varp value is a QA live-verify item.",
     "The Sourhog (level 37) has 40 Hitpoints, Defence level 25, a normal max hit of 6, and gives 40 Slayer XP.",
-    "Wear Reinforced goggles (requiredItemName, no single canonical item id published) or a Slayer helmet after the quest: without eye protection the caustic saliva hits 20-30 and drains Attack and Defence by 90%. offence.maxHit pins this 30 worst-case survival number, not the 6 normal hit.",
+    "Wear Reinforced goggles (requiredItemId 24942, wiki item infobox id) or a Slayer helmet after the quest: without eye protection the caustic saliva hits 20-30 and drains Attack and Defence by 90%. offence.maxHit pins this 30 worst-case survival number, not the 6 normal hit.",
     "No elemental weakness; its Defence bonuses are +0 stab and +0 ranged (best) versus +30 slash and +30 magic, so a stab or ranged weapon is most accurate.",
     "No task extension unlock exists for Sourhogs."
   ],

@@ -1,0 +1,11 @@
+{
+  "locationId": "west-of-yanille",
+  "name": "West of Yanille",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Open area of level 53 ogres just west of Yanille; the recommended place to kill ogres for the task. Ogres can be safespotted behind the stone wall and a cannon can be used."
+}

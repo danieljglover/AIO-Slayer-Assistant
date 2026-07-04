@@ -1,0 +1,41 @@
+{
+  "variantId": "rock-crab",
+  "name": "Rock Crab",
+  "npcIds": [
+    100,
+    102
+  ],
+  "combatLevel": 13,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "North of Rellekka",
+  "locationId": "rock-crabs-rellekka",
+  "requirement": "Slayer 1; no combat or quest requirement",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 50,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

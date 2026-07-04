@@ -2,10 +2,10 @@
   "locationId": "kharidian-desert-lizards",
   "name": "Kharidian Desert (Desert Lizards)",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Desert Lizards roam the Kharidian Desert (south of the Shantay Pass and around Pollnivneach). The Desert Heat mechanic drains Hitpoints, so carry waterskins or desert-resistant gear. Each lizard must be finished with an ice cooler below 5 Hitpoints. Multi, cannon and safespot are not wiki-confirmed here, so conservative defaults are used."
+  "accessNote": "Desert Lizards roam the Kharidian Desert (south of the Shantay Pass and around Pollnivneach). The Desert Heat mechanic drains Hitpoints, so carry waterskins or desert-resistant gear. Each lizard must be finished with an ice cooler below 5 Hitpoints. The Slayer task/Lizards table (pageid 298269) lists the Kharidian Desert as cannonable and safespottable, though kills must be finished with an ice cooler so a cannon is counterproductive."
 }

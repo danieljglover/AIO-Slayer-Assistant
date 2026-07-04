@@ -1,14 +1,15 @@
 {
   "taskId": "hill-giants",
   "name": "Hill giants",
-  "wikiPageId": null,
-  "combatLevel": 28,
+  "wikiPageId": 298054,
+  "combatLevel": 25,
   "slayerTargetId": 260,
   "slayerLevel": 1,
   "questReqs": [],
   "masterIds": [
     "krystilia",
-    "mazchna"
+    "mazchna",
+    "vannaka"
   ],
   "amountByMaster": {
     "krystilia": [
@@ -18,11 +19,16 @@
     "mazchna": [
       30,
       50
+    ],
+    "vannaka": [
+      40,
+      90
     ]
   },
   "weightByMaster": {
     "krystilia": 3,
-    "mazchna": 7
+    "mazchna": 7,
+    "vannaka": 7
   },
   "unlocks": [],
   "monsterIds": [
@@ -79,11 +85,11 @@
       "name": "Edgeville Dungeon",
       "amount": 12,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Free-to-play; 12 hill giant spawns in the Edgeville Dungeon, the most convenient spot for Mazchna's assignment.",
-        "Multicombat, cannon, and safespot status not stated on the fetched wiki pages and left conservatively false (honest-UNKNOWN)."
+        "Single-way combat but cannonable and safespottable per the wiki Location Comparison; a common cannon spot due to their high Hitpoints."
       ]
     },
     {
@@ -91,11 +97,11 @@
       "name": "Deep Wilderness Dungeon",
       "amount": 6,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "Wilderness hill giants for Krystilia: the Deep Wilderness Dungeon (~level 50), plus the Boneyard Hunter area and Lava Maze at lower Wilderness levels.",
-        "Multicombat, cannon, and safespot status not stated on the fetched wiki pages and left conservatively false (honest-UNKNOWN)."
+        "Deep Wilderness Dungeon is single-way, cannonable and safespottable per the wiki; the Lava Maze spawns are also cannonable and the Boneyard Hunter area is multicombat."
       ]
     }
   ],
@@ -106,7 +112,7 @@
     "Krystilia's assignment must be completed in the Wilderness (Deep Wilderness Dungeon, Boneyard Hunter area, or Lava Maze).",
     "Mazchna's assignment can be completed anywhere; the free-to-play Edgeville Dungeon is the most convenient spot.",
     "Hill giants always drop big bones and drop a limpwurt root commonly, and are a source of the Giant key for the Obor boss.",
-    "The slayerTargetId 260 is SYNTHETIC (C2/C3 allocation contract, worklist §1); the real SLAYER_TARGET varp value is a QA live-verify item."
+    "The slayerTargetId 260 is SYNTHETIC (C2/C3 allocation contract, worklist \u00a71); the real SLAYER_TARGET varp value is a QA live-verify item."
   ],
   "recommendedMethod": "Any combat style works given their low Defence. Melee them with a decent weapon such as a Dragon scimitar, or safespot/cannon where allowed. Krystilia tasks must be killed in the Wilderness; Mazchna tasks are most convenient at the Edgeville Dungeon."
 }

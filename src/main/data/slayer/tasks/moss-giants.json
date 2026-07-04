@@ -1,22 +1,28 @@
 {
   "taskId": "moss-giants",
   "name": "Moss giants",
-  "wikiPageId": null,
+  "wikiPageId": 298114,
   "combatLevel": 42,
   "slayerTargetId": 266,
   "slayerLevel": 1,
   "questReqs": [],
   "masterIds": [
-    "krystilia"
+    "krystilia",
+    "vannaka"
   ],
   "amountByMaster": {
     "krystilia": [
       100,
       150
+    ],
+    "vannaka": [
+      40,
+      90
     ]
   },
   "weightByMaster": {
-    "krystilia": 4
+    "krystilia": 4,
+    "vannaka": 7
   },
   "unlocks": [],
   "monsterIds": [
@@ -70,11 +76,11 @@
       "name": "Deep Wilderness",
       "amount": 6,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
-        "The Wilderness moss giant spawns (about 6 in the free-to-play deep Wilderness) are the only spawns that count towards a Krystilia assignment.",
-        "The wiki does not document multicombat, cannon, or safespot suitability for the specific Wilderness spawn; treated conservatively as unknown."
+        "The Wilderness moss giant spawns (about 6, by the pond reachable using a canoe) are the only spawns that count towards a Krystilia assignment.",
+        "Single-combat spawn that is cannonable and has a safespot (single moss giant behind the northernmost tree), useful for low-level Wilderness Slayer; beware player killers."
       ]
     }
   ],
@@ -84,7 +90,7 @@
     "Moss giants have 60 Hitpoints and Defence level 30, attack with crush, and carry a 50% Fire weakness.",
     "The Wilderness moss giant spawns sit in the deep Wilderness; carry only what you can afford to lose as this is a PvP area.",
     "The wiki does not document multicombat, cannon, or safespot suitability at the Wilderness spawn, so these flags are left conservatively false (honest UNKNOWN).",
-    "The slayerTargetId 266 is SYNTHETIC (C2/C3 allocation contract, worklist §1); the real SLAYER_TARGET varp value is a QA live-verify item."
+    "The slayerTargetId 266 is SYNTHETIC (C2/C3 allocation contract, worklist \u00a71); the real SLAYER_TARGET varp value is a QA live-verify item."
   ],
   "recommendedMethod": "Melee the moss giants with any decent weapon in the deep Wilderness; their 50% Fire weakness makes fire spells fastest, but melee is usually preferred to keep risk low in a PvP area. Bring only cheap, expendable gear."
 }

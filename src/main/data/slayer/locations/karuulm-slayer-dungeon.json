@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": false,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
   "accessNote": "Beneath Mount Karuulm in the Kebos Lowlands (not Wilderness). Boots of stone, boots of brimstone, or granite boots are needed to cross the heated floor, or complete the Elite Kourend & Kebos Diary to ignore it. No safespot is documented for its wyrms, drakes, and hydras."

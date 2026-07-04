@@ -1,0 +1,99 @@
+{
+  "taskId": "crocodiles",
+  "name": "Crocodiles",
+  "wikiPageId": 15028,
+  "combatLevel": 50,
+  "slayerTargetId": null,
+  "slayerLevel": null,
+  "questReqs": [],
+  "masterIds": [
+    "vannaka"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 6
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "crocodiles"
+  ],
+  "variantIds": [
+    "crocodile"
+  ],
+  "defaultVariantId": "crocodile",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "EARTH"
+  },
+  "monsterDefence": {
+    "defenceLevel": 54,
+    "stab": 20,
+    "slash": 12,
+    "crush": 22,
+    "magic": 10,
+    "range": 20
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "river-elid"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "crocodile",
+      "name": "Crocodile",
+      "combatLevel": 63,
+      "slayerXp": 62,
+      "locations": [
+        "River Elid (south of Pollnivneach)",
+        "Ruins of Unkah",
+        "Ruins of Ullek",
+        "North of Sophanem"
+      ],
+      "notes": [
+        "Assigned only by Vannaka; requires combat level 50 (no Slayer level and no quest requirement).",
+        "62 Hitpoints, max hit 6 (Slash), 4-tick attack speed; Defence level 54 with melee defensive bonuses stab 20 / slash 12 / crush 22, magic 10, ranged 20.",
+        "40% elemental weakness to earth spells (added 25 June 2025); melee also works well because defence in all three melee styles is low, with slash the lowest.",
+        "Three NPC forms share identical stats: water-only (id 11581), land-only (id 11582), and water & land (id 4184). Water-bound crocodiles are easily safespotted or ranged/maged from one tile back from the shore.",
+        "A crocodile only drops bones if its south-west tile is on land."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "river-elid",
+      "name": "River Elid (south of Pollnivneach)",
+      "amount": null,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Main concentration of spawns is south of Pollnivneach on either side of the River Elid; fighting on the south bank draws crocodiles across from the water and is less click-intensive.",
+        "Safespot two water spawns from the cactus west of the magic carpet at Nardah, or use the wall east of the Ruins of Unkah to negate food and waterskin needs.",
+        "The grassy area south of the Ruins of Ullek has 12 spawns and does not require waterskins if you stay near the water.",
+        "After Icthlarin's Little Helper, spawns just north of Sophanem allow long trips using the nearby altar and water sink.",
+        "Bring waterskins for the desert heat; Nardah (after Spirits of the Elid) and Sophanem altars recharge Prayer."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Crocodiles are assigned only by Vannaka at 40-90 per task with a weighting of 6; there is no task extension.",
+    "The assignment gate is combat level 50 only (no Slayer level, no quest); the monsters themselves are combat level 63.",
+    "There is no Slayer_task/Crocodiles wiki page (verified missing on 2026-07-03); task facts are taken from the Crocodile monster page (pageid 15028) and the master-supplied assignment data.",
+    "slayerTargetId is null because no task infobox with an 'id' field exists; the monster page exposes NPC ids 11581 (water), 11582 (land), and 4184 (water & land) rather than a Slayer target id.",
+    "Crocodiles have a 40% elemental weakness to earth spells; weakness.style is MAGIC/EARTH to reflect this, though their low melee defence (slash 12) makes any melee weapon effective as well.",
+    "Waterskins are strongly recommended but are not a worn entry gate, so requiredItemId and requiredItemName are left null."
+  ],
+  "recommendedMethod": "Accept the task from Vannaka (combat level 50) and travel to the River Elid south of Pollnivneach. Earth spells hit nearly every cast thanks to the 40% earth weakness, and crocodiles can also be killed quickly with melee since their defence in every melee style is low. Because many crocodiles are water-bound, ranging or maging them from one tile back from the shore is safe and efficient; safespots west of Nardah and east of the Ruins of Unkah remove almost all incoming damage. Bring waterskins (and optionally desert clothing) for the heat, and recharge Prayer at the Nardah or Sophanem altars."
+}

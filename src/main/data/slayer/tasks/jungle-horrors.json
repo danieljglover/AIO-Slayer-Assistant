@@ -73,11 +73,13 @@
       "locationId": "mos-le-harmless",
       "name": "Mos Le'Harmless",
       "amount": 50,
+      "multicombat": false,
+      "cannonable": true,
       "safespottable": true,
       "notes": [
         "Roughly 50 Jungle horror spawns across the island surface; the largest camp holds 10-12 north of the cave exit.",
         "Multiple safespots are available using walls, plants, and trees.",
-        "Multicombat and cannon-placement status of the island surface are not stated on the wiki pages fetched at authoring time."
+        "Jungle horrors are not immune to cannon damage (monster page immunecannon=No) and Mos Le'Harmless is not a cannon-prohibited area, so a cannon can be set up; the island surface is single-combat (no wiki task table exists, multicombat treated as false)."
       ]
     }
   ],

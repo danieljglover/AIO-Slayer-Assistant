@@ -1,6 +1,10 @@
 {
   "masterId": "mazchna",
   "name": "Mazchna",
+  "aliases": [
+    "Achtryn"
+  ],
+  "wikiPageId": 10150,
   "location": "Canifis",
   "requirements": {
     "combatLevel": 20,
@@ -18,5 +22,11 @@
       "1000": 50
     },
     "blockCost": 50
-  }
+  },
+  "notes": [
+    "Temporarily replaced by Achtryn during the events of While Guthix Sleeps.",
+    "Base points were raised from 2 to 6 in the Summer Sweep Up update (27 August 2025).",
+    "Combat level requirement can be bypassed by showing a Slayer cape (99 Slayer).",
+    "Tasks are relatively easy and short; located north-east of Canifis."
+  ]
 }

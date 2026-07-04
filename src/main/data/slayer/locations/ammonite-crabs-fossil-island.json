@@ -1,0 +1,11 @@
+{
+  "locationId": "ammonite-crabs-fossil-island",
+  "name": "Ammonite Crabs (Fossil Island)",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Ammonite Crabs are found on Fossil Island, which requires completion of Bone Voyage to reach. They give more Slayer XP than the low-level training crabs (100 XP) and appear as 'Fossil Rocks' until a player stands adjacent; aggression is reset by leaving and returning after the tolerance timer."
+}

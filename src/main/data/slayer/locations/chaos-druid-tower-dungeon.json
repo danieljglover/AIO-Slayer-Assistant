@@ -1,0 +1,11 @@
+{
+  "locationId": "chaos-druid-tower-dungeon",
+  "name": "Chaos Druid Tower Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Dungeon beneath the Chaos Druid Tower near Ardougne; requires 46 Thieving to open the door. Level 53 ogres here; fairly unpopulated, cannonable and safespottable."
+}

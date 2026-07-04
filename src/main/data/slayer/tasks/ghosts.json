@@ -1,7 +1,7 @@
 {
   "taskId": "ghosts",
   "name": "Ghosts",
-  "wikiPageId": 16777,
+  "wikiPageId": 298241,
   "combatLevel": 13,
   "slayerTargetId": 289,
   "slayerLevel": 1,
@@ -87,7 +87,8 @@
       "cannonable": false,
       "safespottable": false,
       "notes": [
-        "Ghosts are spread across many low-density spots; no single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "Ghosts are spread across ~20 low-density spots (e.g. Catacombs of Kourend, Crumbling Tower, Taverley Dungeon, Wilderness graveyards); this dataset uses one generic catch-all row instead of per-location rows.",
+        "Cannonability varies by spot per the wiki task table: cannon-prohibited at Catacombs of Kourend and Revenant Caves, but permitted at most other ghost spots; multicombat and safespot also vary. The all-false booleans here are a conservative placeholder, not a per-spot verification.",
         "Ghosts drop nothing at most locations, so they are rarely trained; this is a starter Slayer-XP task."
       ]
     }

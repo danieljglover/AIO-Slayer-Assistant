@@ -9,6 +9,7 @@ import com.danieljglover.allinslayer.model.CombatStyle;
 import com.danieljglover.allinslayer.model.EquipmentSlot;
 import com.danieljglover.allinslayer.model.MonsterVariant;
 import com.danieljglover.allinslayer.model.SlayerLocation;
+import com.danieljglover.allinslayer.model.StrategyMethod;
 import com.danieljglover.allinslayer.model.TaskData;
 import com.danieljglover.allinslayer.model.TaskUnlock;
 import com.danieljglover.allinslayer.model.UnlockType;
@@ -32,6 +33,7 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -54,8 +56,15 @@ import net.runelite.client.ui.PluginPanel;
 import net.runelite.client.ui.components.PluginErrorPanel;
 
 /**
- * The All-In Slayer side panel: one scrollable dashboard ordered by the three player questions -
- * header (task + actions, anchored) -&gt; TASK -&gt; WHERE &amp; HOW -&gt; LOADOUT (ADR-0002).
+ * The All-In Slayer side panel: one scrollable dashboard laid out as a guided flow - header (task +
+ * actions, anchored) -&gt; TASK -&gt; MONSTER -&gt; LOCATION -&gt; LOADOUT (ADR-0002).
+ *
+ * <p>The flow gates progressively: a multi-variant task shows a "Choose a monster" placeholder and
+ * keeps the Location and Loadout steps locked until the player picks which monster to fight; the
+ * location list is then filtered to where that monster exists, with the advisor's recommendation
+ * pre-selected, and the loadout renders with the recommended attack style pre-selected but
+ * overridable. Single-variant (and variant-less) tasks auto-complete the Monster step so nothing
+ * blocks.</p>
  *
  * <p>{@link #render(SlayerPanelState)} is the sole public update entry (FR-1). Re-render is
  * non-destructive: the header, mode and export-enabled update in place; the location combo is built
@@ -66,6 +75,9 @@ import net.runelite.client.ui.components.PluginErrorPanel;
  */
 public class SlayerPanel extends PluginPanel
 {
+    /** The strategy-method combo's first item: revert to the engine's auto-pick (Phase 1 dynamic inventory). */
+    private static final String METHOD_AUTO_LABEL = "Auto (recommended)";
+
     private final ItemIconRenderer renderer;
 
     private final HeaderBand headerBand;
@@ -74,7 +86,8 @@ public class SlayerPanel extends PluginPanel
     private final JPanel dashboardBody;
     private final PluginErrorPanel emptyState;
     private final TaskSection taskSection;
-    private final WhereSection whereSection;
+    private final MonsterSection monsterSection;
+    private final LocationSection locationSection;
     private final LoadoutSection loadoutSection;
     private final DiagnosticsSection diagnosticsSection;
 
@@ -92,6 +105,11 @@ public class SlayerPanel extends PluginPanel
     private Consumer<String> onSelectVariant;
     @Setter
     private Consumer<String> onSelectMethod;
+    // Dynamic inventory (Phase 1): the strategy-method override callback. Receives the method id (or null
+    // for "Auto"); the plugin saves it per task and recomputes. Distinct from onSelectMethod, which
+    // toggles the combat style.
+    @Setter
+    private Consumer<String> onSelectMethodId;
     // WA-11 (ADR-0018 #8 / PD-E): the master-selection callback. Receives the masterId slug (never
     // the display label); the plugin stores it and recomputes, mirroring the variant callback.
     @Setter
@@ -129,7 +147,8 @@ public class SlayerPanel extends PluginPanel
         emptyState = new PluginErrorPanel();
         emptyState.setAlignmentX(LEFT_ALIGNMENT);
         taskSection = new TaskSection();
-        whereSection = new WhereSection();
+        monsterSection = new MonsterSection();
+        locationSection = new LocationSection();
         loadoutSection = new LoadoutSection();
         diagnosticsSection = new DiagnosticsSection();
 
@@ -137,7 +156,9 @@ public class SlayerPanel extends PluginPanel
         dashboardBody.add(Box.createVerticalStrut(SlayerTheme.SPACE_3));
         dashboardBody.add(taskSection);
         dashboardBody.add(Box.createVerticalStrut(SlayerTheme.SPACE_5));
-        dashboardBody.add(whereSection);
+        dashboardBody.add(monsterSection);
+        dashboardBody.add(Box.createVerticalStrut(SlayerTheme.SPACE_5));
+        dashboardBody.add(locationSection);
         dashboardBody.add(Box.createVerticalStrut(SlayerTheme.SPACE_5));
         dashboardBody.add(loadoutSection);
         dashboardBody.add(Box.createVerticalStrut(SlayerTheme.SPACE_5));
@@ -189,10 +210,12 @@ public class SlayerPanel extends PluginPanel
         {
             emptyState.setVisible(false);
             taskSection.setVisible(true);
-            whereSection.setVisible(true);
+            monsterSection.setVisible(true);
+            locationSection.setVisible(true);
             loadoutSection.setVisible(true);
             taskSection.update(state);
-            whereSection.update(state);
+            monsterSection.update(state);
+            locationSection.update(state);
             loadoutSection.update(state);
         }
         else
@@ -200,7 +223,8 @@ public class SlayerPanel extends PluginPanel
             applyEmptyState(state);
             emptyState.setVisible(true);
             taskSection.setVisible(false);
-            whereSection.setVisible(false);
+            monsterSection.setVisible(false);
+            locationSection.setVisible(false);
             loadoutSection.setVisible(false);
         }
 
@@ -214,8 +238,8 @@ public class SlayerPanel extends PluginPanel
     /** Total section-body rebuilds since construction (the self-diff probe for the NFR tests). */
     int sectionRebuildCount()
     {
-        return taskSection.rebuilds + whereSection.rebuilds + loadoutSection.rebuilds
-            + diagnosticsSection.rebuilds;
+        return taskSection.rebuilds + monsterSection.rebuilds + locationSection.rebuilds
+            + loadoutSection.rebuilds + diagnosticsSection.rebuilds;
     }
 
     /** Diagnostics is developer-only (ADR-0003): rendered solely when developer mode is on. */
@@ -348,7 +372,7 @@ public class SlayerPanel extends PluginPanel
 
         TaskSection()
         {
-            super("Task");
+            super("1. Task");
             setName("task-section");
             addContent(body);
 
@@ -521,41 +545,33 @@ public class SlayerPanel extends PluginPanel
         }
     }
 
-    // ---- WHERE & HOW section ---------------------------------------------------------------------
+    // ---- MONSTER section (step 2) ----------------------------------------------------------------
 
-    private final class WhereSection extends SectionCard
+    /**
+     * Step 2 of the guided flow: pick WHICH monster of the assignment to hunt (MV-FE1). A
+     * multi-variant task with no explicit pick shows a {@code Choose a monster...} placeholder and
+     * keeps the Location and Loadout steps gated ({@link #variantResolved}); a single-variant task
+     * shows its monster in a disabled combo (nothing to choose) and a variant-less task shows the
+     * task name - both auto-complete the step. The combo is built once and reconciled
+     * non-destructively, like the master/location combos (ADR-0002).
+     */
+    private final class MonsterSection extends SectionCard
     {
-        private final JPanel whereBody = column();
+        private static final String CHOOSE_PLACEHOLDER = "Choose a monster...";
 
-        // Variant axis (MV-FE1): which monster of the assignment to gear for. Built once + reconciled
-        // non-destructively, hidden+inert for a <=1-variant task - identical to the location combo.
-        private final JLabel variantCaption;
         private final JComboBox<String> variantCombo = new JComboBox<>();
         private boolean updatingVariant;
         private List<MonsterVariant> currentVariants = Collections.emptyList();
 
-        // Method axis (MV-FE3): the combat style to use, overriding the variant's recommended style.
-        private final JLabel methodCaption;
-        private final MethodSelector methodSelector;
-
-        private final JLabel locationCaption;
-        private final JComboBox<String> combo = new JComboBox<>();
-        private boolean updatingCombo;
+        private final JPanel body = column();
         private List<Object> lastKey;
         private int rebuilds;
 
-        WhereSection()
+        MonsterSection()
         {
-            super("Where & How");
-            setName("where-section");
+            super("2. Monster");
+            setName("monster-section");
 
-            // Panel order (DT-FE1 / ADR-0017 #6, G7): variant -> attack style -> location, THEN the
-            // recommended-location headline + why/method prose. whereBody used to sit at the top (the
-            // prose printed above the variant); it now renders last, with/after the location control it
-            // describes. Everything is still built once here and reconciled/rebuilt in place - only the
-            // vertical order changed, so the non-destructive re-render contract (ADR-0002) holds.
-            variantCaption = caption("Variant");
-            addContent(variantCaption);
             variantCombo.setName("variant-combo");
             styleCombo(variantCombo);
             variantCombo.addActionListener(e ->
@@ -568,7 +584,8 @@ public class SlayerPanel extends PluginPanel
                 if (selected != null)
                 {
                     // The combo shows a display label ("(Boss)" suffix); the callback gets the raw
-                    // variant name so MonsterVariant.resolve can match it.
+                    // variant name so MonsterVariant.resolve can match it. The placeholder maps to
+                    // no variant name, so re-selecting it can never fire the callback.
                     String name = variantNameForLabel(currentVariants, selected.toString());
                     if (name != null)
                     {
@@ -577,20 +594,111 @@ public class SlayerPanel extends PluginPanel
                 }
             });
             addContent(variantCombo);
-            addGap(SlayerTheme.SPACE_2);
+            addContent(body);
+        }
 
-            methodCaption = caption("Attack style");
-            addContent(methodCaption);
-            methodSelector = new MethodSelector(style -> runWith(onSelectMethod, MethodSelector.label(style)));
-            methodSelector.setName("method-selector");
-            methodSelector.setAlignmentX(LEFT_ALIGNMENT);
-            methodSelector.setMaximumSize(
-                new Dimension(Integer.MAX_VALUE, methodSelector.getPreferredSize().height));
-            addContent(methodSelector);
-            addGap(SlayerTheme.SPACE_2);
+        void update(SlayerPanelState state)
+        {
+            reconcileVariant(state);
 
-            locationCaption = caption("Location");
-            addContent(locationCaption);
+            List<Object> key = Arrays.asList(
+                variantLabels(currentVariants),
+                state.getSelectedVariantName(),
+                variantResolved(state),
+                state.getTask() == null ? null : state.getTask().getTask());
+            if (key.equals(lastKey))
+            {
+                return;
+            }
+            lastKey = key;
+            rebuilds++;
+            rebuild(state);
+        }
+
+        private void rebuild(SlayerPanelState state)
+        {
+            body.removeAll();
+            if (currentVariants.isEmpty())
+            {
+                // No variant data: the monster IS the task, so the step auto-completes.
+                addLeft(body, new KeyValueRow("Monster", state.getTask().getTask()));
+            }
+            else if (!variantResolved(state))
+            {
+                JTextArea hint = wrappingNote(
+                    "Pick which monster you'll fight - its locations and loadout unlock once chosen.",
+                    SlayerTheme.TEXT_SECONDARY);
+                hint.setName("monster-gate-hint");
+                addLeft(body, hint);
+            }
+            body.revalidate();
+            body.repaint();
+        }
+
+        /**
+         * Reconcile the variant combo non-destructively (MV-FE1). Items are display labels (a boss
+         * variant gets a {@code " (Boss)"} suffix, FR-7). While the step is unresolved (multiple
+         * variants, no pick) a placeholder heads the list and is pre-selected; once resolved the
+         * placeholder disappears and the effective variant is pre-selected without firing. A
+         * single-variant combo stays visible but disabled so the completed step still reads.
+         */
+        private void reconcileVariant(SlayerPanelState state)
+        {
+            currentVariants = variantsOf(state);
+            boolean resolved = variantResolved(state);
+            List<String> items = new ArrayList<>(variantLabels(currentVariants));
+            if (!resolved)
+            {
+                items.add(0, CHOOSE_PLACEHOLDER);
+            }
+            if (!comboItemsEqual(variantCombo, items))
+            {
+                updatingVariant = true;
+                variantCombo.removeAllItems();
+                for (String item : items)
+                {
+                    variantCombo.addItem(item);
+                }
+                updatingVariant = false;
+            }
+
+            String selectedLabel = resolved
+                ? selectedVariantLabel(state, currentVariants)
+                : CHOOSE_PLACEHOLDER;
+            if (selectedLabel != null && !selectedLabel.equals(variantCombo.getSelectedItem()))
+            {
+                updatingVariant = true;
+                variantCombo.setSelectedItem(selectedLabel);
+                updatingVariant = false;
+            }
+
+            variantCombo.setVisible(!currentVariants.isEmpty());
+            variantCombo.setEnabled(currentVariants.size() > 1);
+        }
+    }
+
+    // ---- LOCATION section (step 3) ---------------------------------------------------------------
+
+    /**
+     * Step 3 of the guided flow: WHERE to fight the chosen monster. Locked behind the Monster step
+     * ({@link #variantResolved}) - while gated it shows only a hint. Once unlocked, the combo lists
+     * the task's locations filtered to the chosen variant ({@link #locationNames}) with the advisor's
+     * recommendation pre-selected (best option first, manual override via the combo), followed by the
+     * recommended-location headline, its tags and the why/method prose.
+     */
+    private final class LocationSection extends SectionCard
+    {
+        private final JComboBox<String> combo = new JComboBox<>();
+        private boolean updatingCombo;
+
+        private final JPanel body = column();
+        private List<Object> lastKey;
+        private int rebuilds;
+
+        LocationSection()
+        {
+            super("3. Location");
+            setName("where-section");
 
             combo.setName("where-location-combo");
             styleCombo(combo);
@@ -608,19 +716,22 @@ public class SlayerPanel extends PluginPanel
             });
             addContent(combo);
 
-            // The recommended-location headline + why/method prose read LAST, below the location combo
+            // The recommended-location headline + why/method prose read below the location control
             // they describe (DT-FE1 / G7).
             addGap(SlayerTheme.SPACE_3);
-            addContent(whereBody);
+            addContent(body);
         }
 
         void update(SlayerPanelState state)
         {
-            reconcileVariant(state);
-            reconcileMethod(state);
-            reconcileCombo(state);
+            boolean gated = !variantResolved(state);
+            if (!gated)
+            {
+                reconcileCombo(state);
+            }
+            combo.setVisible(!gated && !locationNames(state).isEmpty());
 
-            List<Object> key = Arrays.asList(
+            List<Object> key = Arrays.asList(gated,
                 recommendedLocation(state), locationReason(state), methodText(state));
             if (key.equals(lastKey))
             {
@@ -628,12 +739,23 @@ public class SlayerPanel extends PluginPanel
             }
             lastKey = key;
             rebuilds++;
-            rebuild(state);
+            rebuild(state, gated);
         }
 
-        private void rebuild(SlayerPanelState state)
+        private void rebuild(SlayerPanelState state, boolean gated)
         {
-            whereBody.removeAll();
+            body.removeAll();
+
+            if (gated)
+            {
+                JTextArea hint = wrappingNote("Choose a monster above to see where to fight it.",
+                    SlayerTheme.TEXT_MUTED);
+                hint.setName("where-gate-hint");
+                addLeft(body, hint);
+                body.revalidate();
+                body.repaint();
+                return;
+            }
 
             SlayerLocation recommended = recommendedLocation(state);
             JLabel recommendedLabel = new JLabel(recommended == null ? "" : recommended.getName());
@@ -641,14 +763,14 @@ public class SlayerPanel extends PluginPanel
             recommendedLabel.setFont(SlayerTheme.TYPE_TITLE);
             recommendedLabel.setForeground(SlayerTheme.ACCENT_BRAND); // the one real-state brand use here
             recommendedLabel.setAlignmentX(LEFT_ALIGNMENT);
-            whereBody.add(recommendedLabel);
+            body.add(recommendedLabel);
 
             if (recommended != null)
             {
                 JPanel tags = tagRow(recommended);
                 if (tags.getComponentCount() > 0)
                 {
-                    whereBody.add(tags);
+                    body.add(tags);
                 }
             }
 
@@ -657,58 +779,129 @@ public class SlayerPanel extends PluginPanel
             String reason = locationReason(state);
             if (!reason.isEmpty())
             {
-                whereBody.add(caption("Why"));
+                body.add(caption("Why"));
                 JTextArea why = wrappingNote(reason, SlayerTheme.TEXT_PRIMARY);
                 why.setName("where-why");
-                whereBody.add(why);
+                body.add(why);
             }
             String method = methodText(state);
             if (!method.isEmpty())
             {
                 // "Wiki method" (WB-3 / D7): the prose is the wiki's recommendedMethod free text,
                 // which can differ from the effective style the loadout gears for - honest label.
-                whereBody.add(caption("Wiki method"));
+                body.add(caption("Wiki method"));
                 JTextArea methodNote = wrappingNote(method, SlayerTheme.TEXT_PRIMARY);
                 methodNote.setName("where-method");
-                whereBody.add(methodNote);
+                body.add(methodNote);
             }
 
-            whereBody.revalidate();
-            whereBody.repaint();
+            body.revalidate();
+            body.repaint();
         }
 
-        /**
-         * Reconcile the variant combo non-destructively (MV-FE1). Items are display labels (a boss
-         * variant gets a {@code " (Boss)"} suffix, FR-7); the default/selected variant is pre-selected
-         * from {@code state.getSelectedVariantName()} (FR-6); the combo is hidden + inert when the task
-         * has <=1 variant (FR-3) - identical to how the location combo hides with no locations.
-         */
-        private void reconcileVariant(SlayerPanelState state)
+        private void reconcileCombo(SlayerPanelState state)
         {
-            currentVariants = variantsOf(state);
-            List<String> labels = variantLabels(currentVariants);
-            if (!comboItemsEqual(variantCombo, labels))
+            List<String> names = locationNames(state);
+            if (!comboItemsEqual(combo, names))
             {
-                updatingVariant = true;
-                variantCombo.removeAllItems();
-                for (String label : labels)
+                updatingCombo = true;
+                combo.removeAllItems();
+                for (String name : names)
                 {
-                    variantCombo.addItem(label);
+                    combo.addItem(name);
                 }
-                updatingVariant = false;
+                updatingCombo = false;
             }
 
-            String selectedLabel = selectedVariantLabel(state, currentVariants);
-            if (selectedLabel != null && !selectedLabel.equals(variantCombo.getSelectedItem()))
+            String selected = selectedLocationName(state);
+            if (selected != null && !selected.equals(combo.getSelectedItem()))
             {
-                updatingVariant = true;
-                variantCombo.setSelectedItem(selectedLabel);
-                updatingVariant = false;
+                updatingCombo = true;
+                combo.setSelectedItem(selected);
+                updatingCombo = false;
             }
+        }
+    }
 
-            boolean multiple = currentVariants.size() > 1;
-            variantCombo.setVisible(multiple);
-            variantCaption.setVisible(multiple);
+    // ---- LOADOUT section -------------------------------------------------------------------------
+
+    private final class LoadoutSection extends SectionCard
+    {
+        // Method axis (MV-FE3): the combat style override for the suggested loadout. Lives with the
+        // loadout it re-gears (the recommended style is pre-selected; a click overrides it).
+        private final JLabel methodCaption;
+        private final MethodSelector methodSelector;
+        // Dynamic inventory (Phase 1): the strategy-method override combo, below the style segments.
+        // "Auto (recommended)" plus each pickable method; shown only when the strategy has >=2 methods.
+        private final JLabel strategyMethodCaption;
+        private final JComboBox<String> strategyMethodCombo = new JComboBox<>();
+        private final Map<String, String> methodLabelToId = new HashMap<>();
+        private boolean suppressMethodEvent;
+
+        private final JPanel body = column();
+        private List<Object> lastKey;
+        private int rebuilds;
+
+        LoadoutSection()
+        {
+            super("4. Loadout");
+            setName("loadout-section");
+
+            methodCaption = caption("Attack style");
+            addContent(methodCaption);
+            methodSelector = new MethodSelector(style -> runWith(onSelectMethod, MethodSelector.label(style)));
+            methodSelector.setName("method-selector");
+            methodSelector.setAlignmentX(LEFT_ALIGNMENT);
+            methodSelector.setMaximumSize(
+                new Dimension(Integer.MAX_VALUE, methodSelector.getPreferredSize().height));
+            addContent(methodSelector);
+            addGap(SlayerTheme.SPACE_3);
+
+            strategyMethodCaption = caption("Strategy method");
+            addContent(strategyMethodCaption);
+            strategyMethodCombo.setName("strategy-method-combo");
+            styleCombo(strategyMethodCombo);
+            strategyMethodCombo.addActionListener(e ->
+            {
+                if (suppressMethodEvent)
+                {
+                    return;
+                }
+                Object selected = strategyMethodCombo.getSelectedItem();
+                runWith(onSelectMethodId, selected == null ? null : methodLabelToId.get(selected.toString()));
+            });
+            addContent(strategyMethodCombo);
+            addGap(SlayerTheme.SPACE_3);
+
+            addContent(body);
+        }
+
+        void update(SlayerPanelState state)
+        {
+            // Gated behind the Monster step, like the Location section: until the player picks a
+            // monster the loadout would be for a monster they may not fight.
+            boolean gated = !variantResolved(state);
+            methodCaption.setVisible(!gated);
+            methodSelector.setVisible(!gated);
+            if (!gated)
+            {
+                reconcileMethod(state);
+            }
+            reconcileStrategyMethod(state, gated);
+
+            // Status is in the key so BANK_NOT_SCANNED (gate prompt) and TASK_WITHOUT_LOADOUT (empty
+            // state) - both rec==null - render distinctly. Status is stable across a value-equal
+            // re-render, so the zero-rebuild NFR-4 still holds.
+            List<Object> key = Arrays.asList(gated, state.getStatus(), state.getRecommendation(),
+                state.getItemNames(), state.getItemPrices(), state.getBankAge(), state.isBankStale(),
+                state.getTask() == null ? null : state.getTask().getRequiredItemId());
+            if (key.equals(lastKey))
+            {
+                return;
+            }
+            lastKey = key;
+            rebuilds++;
+            rebuild(state, gated);
         }
 
         /**
@@ -734,70 +927,88 @@ public class SlayerPanel extends PluginPanel
             }
         }
 
-        private void reconcileCombo(SlayerPanelState state)
+        /**
+         * Reconcile the strategy-method override combo (Phase 1 dynamic inventory). Shown only when the
+         * variant is resolved AND its strategy has >=2 pickable methods; the items are "Auto
+         * (recommended)" plus each method label, and the active method (rec.methodId) is pre-selected
+         * without firing the callback. Selecting "Auto" clears the per-task override.
+         */
+        private void reconcileStrategyMethod(SlayerPanelState state, boolean gated)
         {
-            List<String> names = locationNames(state);
-            if (!comboItemsEqual(combo, names))
-            {
-                updatingCombo = true;
-                combo.removeAllItems();
-                for (String name : names)
-                {
-                    combo.addItem(name);
-                }
-                updatingCombo = false;
-            }
-
-            String selected = selectedLocationName(state);
-            if (selected != null && !selected.equals(combo.getSelectedItem()))
-            {
-                updatingCombo = true;
-                combo.setSelectedItem(selected);
-                updatingCombo = false;
-            }
-
-            boolean hasLocations = !names.isEmpty();
-            combo.setVisible(hasLocations);
-            locationCaption.setVisible(hasLocations);
-        }
-
-    }
-
-    // ---- LOADOUT section -------------------------------------------------------------------------
-
-    private final class LoadoutSection extends SectionCard
-    {
-        private final JPanel body = column();
-        private List<Object> lastKey;
-        private int rebuilds;
-
-        LoadoutSection()
-        {
-            super("Loadout");
-            setName("loadout-section");
-            addContent(body);
-        }
-
-        void update(SlayerPanelState state)
-        {
-            // Status is in the key so BANK_NOT_SCANNED (gate prompt) and TASK_WITHOUT_LOADOUT (empty
-            // state) - both rec==null - render distinctly. Status is stable across a value-equal
-            // re-render, so the zero-rebuild NFR-4 still holds.
-            List<Object> key = Arrays.asList(state.getStatus(), state.getRecommendation(),
-                state.getItemNames(), state.getItemPrices(), state.getBankAge(), state.isBankStale(),
-                state.getTask() == null ? null : state.getTask().getRequiredItemId());
-            if (key.equals(lastKey))
+            Recommendation rec = gated ? null : state.getRecommendation();
+            List<StrategyMethod> options = rec == null ? null : rec.getMethodOptions();
+            boolean visible = options != null && options.size() >= 2;
+            strategyMethodCaption.setVisible(visible);
+            strategyMethodCombo.setVisible(visible);
+            if (!visible)
             {
                 return;
             }
-            lastKey = key;
-            rebuilds++;
-            rebuild(state);
+
+            List<String> labels = new ArrayList<>();
+            labels.add(METHOD_AUTO_LABEL);
+            methodLabelToId.clear();
+            for (StrategyMethod method : options)
+            {
+                String label = method.getLabel() == null ? method.getMethodId() : method.getLabel();
+                if (label == null)
+                {
+                    continue;
+                }
+                labels.add(label);
+                methodLabelToId.put(label, method.getMethodId());
+            }
+
+            suppressMethodEvent = true;
+            try
+            {
+                if (!comboItemsEqual(strategyMethodCombo, labels))
+                {
+                    strategyMethodCombo.removeAllItems();
+                    for (String label : labels)
+                    {
+                        strategyMethodCombo.addItem(label);
+                    }
+                }
+                String activeLabel = labelForMethodId(options, rec.getMethodId());
+                strategyMethodCombo.setSelectedItem(activeLabel == null ? METHOD_AUTO_LABEL : activeLabel);
+            }
+            finally
+            {
+                suppressMethodEvent = false;
+            }
         }
 
-        private void rebuild(SlayerPanelState state)
+        private String labelForMethodId(List<StrategyMethod> options, String methodId)
+        {
+            if (methodId == null)
+            {
+                return null;
+            }
+            for (StrategyMethod method : options)
+            {
+                if (methodId.equals(method.getMethodId()))
+                {
+                    return method.getLabel() == null ? method.getMethodId() : method.getLabel();
+                }
+            }
+            return null;
+        }
+
+        private void rebuild(SlayerPanelState state, boolean gated)
         {
             body.removeAll();
+
+            if (gated)
+            {
+                JTextArea hint = wrappingNote("Choose a monster above to get a suggested loadout.",
+                    SlayerTheme.TEXT_MUTED);
+                hint.setName("loadout-gate-hint");
+                addLeft(body, hint);
+                body.revalidate();
+                body.repaint();
+                return;
+            }
 
             // Bank-gate (ADR-0003 / FR-1): a task is present but the bank has never been scanned, so no
             // loadout exists yet. Show the "open your bank" prompt and NO gear rows; Task + Where/How
@@ -893,6 +1104,25 @@ public class SlayerPanel extends PluginPanel
                 addLeft(body, Box.createVerticalStrut(SlayerTheme.SPACE_3));
             }
 
+            // Dynamic inventory (Phase 1): the selected method's prayers, the sustain sizing line, and the
+            // "strategy wants but you own none" advisory. Each renders only when the advisor set it,
+            // mirroring the notes above. Prayers are a compact KeyValueRow; the others are wrapping notes.
+            if (rec.getPrayers() != null && !rec.getPrayers().isEmpty())
+            {
+                addLeft(body, new KeyValueRow("Prayers", String.join(", ", rec.getPrayers())));
+                addLeft(body, Box.createVerticalStrut(SlayerTheme.SPACE_3));
+            }
+            if (rec.getSustainNote() != null && !rec.getSustainNote().trim().isEmpty())
+            {
+                addLeft(body, wrappingNote(rec.getSustainNote().trim(), SlayerTheme.TEXT_PRIMARY));
+                addLeft(body, Box.createVerticalStrut(SlayerTheme.SPACE_3));
+            }
+            if (rec.getMissingKeyItemsNote() != null && !rec.getMissingKeyItemsNote().trim().isEmpty())
+            {
+                addLeft(body, wrappingNote(rec.getMissingKeyItemsNote().trim(), SlayerTheme.TEXT_SECONDARY));
+                addLeft(body, Box.createVerticalStrut(SlayerTheme.SPACE_3));
+            }
+
             // The unlock-gated gear guard (WA-12 / ADR-0018 #9b): the advisor sets it only when a
             // recommended item's gear family is gated behind an unowned reward-shop unlock. A note
             // only (NG-4), rendered only when set, mirroring the strategy/antifire notes above.
@@ -928,11 +1158,13 @@ public class SlayerPanel extends PluginPanel
                 }
             }
 
-            if (rec.getInventory() != null && !rec.getInventory().isEmpty())
+            // The full 28-slot suggested trip inventory (owned supplies + consumables); empty wells
+            // pad the unfilled slots so the bag keeps its 4x7 in-game shape.
+            if (rec.getTripInventory() != null && !rec.getTripInventory().isEmpty())
             {
                 addLeft(body, Box.createVerticalStrut(SlayerTheme.SPACE_3));
                 addLeft(body, caption("Inventory"));
-                addLeft(body, leftRow(new InventoryGrid(renderer, rec.getInventory(), state.getItemNames())));
+                addLeft(body, leftRow(new InventoryGrid(renderer, rec.getTripInventory(), state.getItemNames())));
             }
 
             addConsumables(body, state, rec.getConsumables());
@@ -1415,7 +1647,7 @@ public class SlayerPanel extends PluginPanel
         {
             panel.add(new Tag("multi"));
         }
-        if (location.isCannon())
+        if (location.isCannonEffective())
         {
             panel.add(new Tag("cannon"));
         }
@@ -1557,6 +1789,17 @@ public class SlayerPanel extends PluginPanel
             return Collections.emptyList();
         }
         return state.getTask().getVariants();
+    }
+
+    /**
+     * Whether the Monster step (step 2) is complete, unlocking Location and Loadout. A task with at
+     * most one variant auto-resolves (there is nothing to choose); a multi-variant task resolves only
+     * once {@code selectedVariantName} is set - by the player's pick or the plugin's boss-varbit seed
+     * (MV-B8) - never by the silent deterministic default, which the player has not confirmed.
+     */
+    private static boolean variantResolved(SlayerPanelState state)
+    {
+        return variantsOf(state).size() <= 1 || state.getSelectedVariantName() != null;
     }
 
     private static List<String> variantLabels(List<MonsterVariant> variants)

@@ -1,7 +1,7 @@
 {
   "taskId": "banshees",
   "name": "Banshees",
-  "wikiPageId": 15230449,
+  "wikiPageId": 298044,
   "combatLevel": 20,
   "slayerTargetId": 275,
   "slayerLevel": 15,
@@ -97,11 +97,13 @@
     {
       "locationId": "slayer-tower",
       "name": "Slayer Tower (ground floor)",
+      "amount": 8,
       "multicombat": false,
       "cannonable": false,
       "safespottable": true,
       "notes": [
-        "Standard Banshees spawn on the eastern side of the ground floor; the exact spawn count is not wiki-stated (honest UNKNOWN), so no amount overlay is authored.",
+        "8 standard Banshees spawn on the eastern side of the ground floor.",
+        "Cannon cannot be placed anywhere in the Slayer Tower (prohibited area).",
         "Wear earmuffs or a Slayer helmet to avoid the 6-damage stat-draining scream."
       ]
     },
@@ -114,7 +116,7 @@
       "safespottable": true,
       "notes": [
         "6 Twisted Banshee spawns; requires 69 Slayer to harm them.",
-        "Cannon placement is not wiki-stated, so the conservative default is used."
+        "Cannon cannot be placed in the Catacombs of Kourend (prohibited area)."
       ]
     }
   ],

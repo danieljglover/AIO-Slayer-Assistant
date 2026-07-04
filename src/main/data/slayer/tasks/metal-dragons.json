@@ -52,6 +52,13 @@
       "pointsCost": 200,
       "type": "EXTENSION",
       "notes": "Increases the number of metal dragons assigned to 150-200."
+    },
+    {
+      "unlockId": "duly-noted",
+      "name": "Duly Noted",
+      "pointsCost": 200,
+      "type": "OTHER",
+      "notes": "Mithril dragons drop mithril bars in banknote form while killed on assignment."
     }
   ],
   "monsterIds": [

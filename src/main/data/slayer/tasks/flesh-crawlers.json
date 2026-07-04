@@ -71,10 +71,11 @@
       "amount": 10,
       "multicombat": false,
       "cannonable": false,
-      "safespottable": false,
+      "safespottable": true,
       "notes": [
         "Flesh Crawlers cluster densely on the Catacomb of Famine (2nd level) of the Stronghold of Security.",
-        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+        "Single-way combat with ranged safespots (e.g. the south-west corner of the south-east room, or hiding behind non-aggressive giant rats).",
+        "Cannon status is not wiki-confirmed for the Stronghold of Security; the Flesh Crawler is not cannon-immune (immunecannon=No) but area placement is unverified, so cannonable is kept conservatively false."
       ]
     }
   ],

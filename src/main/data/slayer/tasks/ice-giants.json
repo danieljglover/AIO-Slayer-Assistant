@@ -1,22 +1,28 @@
 {
   "taskId": "ice-giants",
   "name": "Ice giants",
-  "wikiPageId": null,
-  "combatLevel": 53,
+  "wikiPageId": 566858,
+  "combatLevel": 50,
   "slayerTargetId": 261,
   "slayerLevel": 1,
   "questReqs": [],
   "masterIds": [
-    "krystilia"
+    "krystilia",
+    "vannaka"
   ],
   "amountByMaster": {
     "krystilia": [
       100,
       150
+    ],
+    "vannaka": [
+      30,
+      80
     ]
   },
   "weightByMaster": {
-    "krystilia": 6
+    "krystilia": 6,
+    "vannaka": 7
   },
   "unlocks": [],
   "monsterIds": [
@@ -86,12 +92,12 @@
       "name": "Frozen Waste Plateau",
       "amount": 9,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "9 ice giant spawns in the western Wilderness (around level 50).",
         "Ice warriors also spawn here.",
-        "Multi and cannon status are not wiki-stated, so treated conservatively as false."
+        "Single-way combat but cannonable and safespottable per the wiki Location Comparison."
       ]
     },
     {
@@ -100,9 +106,9 @@
       "amount": 14,
       "multicombat": true,
       "cannonable": true,
-      "safespottable": false,
+      "safespottable": true,
       "notes": [
-        "14 spawns of the combat level 67 variant; multicombat and cannonable.",
+        "14 spawns of the combat level 67 variant; multicombat, cannonable and safespottable per the wiki Location Comparison.",
         "A popular player-killing hotspot; keep near one-click teleport range."
       ]
     }

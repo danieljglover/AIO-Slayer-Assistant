@@ -81,6 +81,7 @@
       "unlockId": "actual-vampyre-slayer",
       "name": "Actual Vampyre Slayer",
       "pointsCost": 80,
+      "type": "TASK_UNLOCK",
       "notes": "Allows Chaeldar, Konar, Nieve/Steve, and Duradel/Kuradal to assign Vampyres."
     },
     {

@@ -44,7 +44,7 @@
   },
   "weightByMaster": {
     "krystilia": 5,
-    "vannaka": 8,
+    "vannaka": 5,
     "chaeldar": 12,
     "konar": 9,
     "nieve": 9,
@@ -88,13 +88,22 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Abyssal demons can spawn Greater abyssal demons while on task."
     },
     {
       "unlockId": "unholy-helmet",
       "name": "Unholy Helmet",
       "pointsCost": 1000,
+      "type": "COSMETIC",
       "notes": "Learn how to combine an Abyssal demon head with a Slayer helmet to recolour it red."
+    },
+    {
+      "unlockId": "i-wildy-more-slayer",
+      "name": "I Wildy More Slayer",
+      "pointsCost": 0,
+      "type": "TASK_UNLOCK",
+      "notes": "Free toggleable reward that controls whether Krystilia can assign abyssal demons as a Wilderness task; toggled off she will not assign it."
     }
   ],
   "monsterIds": [
@@ -148,7 +157,7 @@
       ]
     },
     {
-      "variantId": "abyssal-demon-catacombs",
+      "variantId": "abyssal-demon",
       "name": "Abyssal demon",
       "combatLevel": 124,
       "slayerXp": 150,

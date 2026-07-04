@@ -1,0 +1,40 @@
+{
+  "variantId": "otherworldly-being",
+  "name": "Otherworldly being",
+  "npcIds": [
+    2843
+  ],
+  "combatLevel": 64,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 46,
+    "stab": 15,
+    "slash": 10,
+    "crush": 20,
+    "magic": -5,
+    "range": 15
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Zanaris (south of the bank, by the flower pond)",
+  "locationId": "zanaris-otherworldly-beings",
+  "requirement": "Combat level 40 and completion of Lost City to be assigned; found in Zanaris (Lost City required for fairy ring / access)",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 66,
+    "maxHit": 7,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

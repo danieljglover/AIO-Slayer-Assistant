@@ -10,6 +10,7 @@ import com.danieljglover.allinslayer.model.MasterData;
 import com.danieljglover.allinslayer.model.MasterEconomy;
 import com.danieljglover.allinslayer.model.MonsterOffence;
 import com.danieljglover.allinslayer.model.MonsterStrategy;
+import com.danieljglover.allinslayer.model.StrategyMethod;
 import com.danieljglover.allinslayer.model.LocationQuality;
 import com.danieljglover.allinslayer.model.MonsterVariant;
 import com.danieljglover.allinslayer.model.SlayerLocation;
@@ -17,6 +18,7 @@ import com.danieljglover.allinslayer.model.StrategyWeapon;
 import com.danieljglover.allinslayer.model.TaskData;
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -101,6 +103,21 @@ public class LoadoutAdvisor
         AdviceMode mode, boolean haveCannon, String selectedLocationName, String selectedVariantName,
         CombatStyle selectedMethod, String selectedMaster, Set<String> dislikedTasks)
     {
+        return recommend(task, owned, stats, mode, haveCannon, selectedLocationName, selectedVariantName,
+            selectedMethod, selectedMaster, dislikedTasks, null, 0);
+    }
+
+    /**
+     * @param selectedMethodId the user's explicit strategy-method choice (the manual override behind
+     *     {@link MethodPicker}), remembered per task; null = auto-pick the best feasible method.
+     * @param remaining the remaining task kill count (SLAYER_COUNT), sizing the trip's sustain (food vs
+     *     restore potions); &le; 0 clamps to a default trip length so the bag is still sensible.
+     */
+    public Optional<Recommendation> recommend(TaskData task, OwnedItems owned, PlayerStats stats,
+        AdviceMode mode, boolean haveCannon, String selectedLocationName, String selectedVariantName,
+        CombatStyle selectedMethod, String selectedMaster, Set<String> dislikedTasks,
+        String selectedMethodId, int remaining)
+    {
         if (task == null)
         {
             return Optional.empty();
@@ -137,6 +154,17 @@ public class LoadoutAdvisor
         SlayerLocation effectiveLocation = findLocation(task, selectedLocationName)
             .orElse(recommendedLocation);
         boolean wilderness = effectiveLocation != null && effectiveLocation.isWilderness();
+
+        // Dynamic inventory (Phase 1): auto-pick the strategy method (or honour the manual override),
+        // constrained to the user's style toggle when set. The picked method's style refines the
+        // effective style when the user has NOT toggled one - so the bag/prayers/sizing follow the
+        // guide's chosen method. A null pick (no strategy methods) leaves today's style/behaviour intact.
+        StrategyMethod pickedMethod = validStrategy == null ? null
+            : MethodPicker.pick(validStrategy, owned, effectiveLocation, selectedMethod, selectedMethodId);
+        if (selectedMethod == null && pickedMethod != null && pickedMethod.getCombatStyle() != null)
+        {
+            style = pickedMethod.getCombatStyle();
+        }
 
         // The wiki /Strategies override ids for the EFFECTIVE style (ADR-0015 / MV-S2). Empty unless the
         // variant has a strategy that documents this style and at least one such weapon could apply.
@@ -215,6 +243,31 @@ public class LoadoutAdvisor
         rec.setEstimatedDps(dps);
         rec.setTotalGearCost(cost);
         rec.setConsumables(consumables);
+        // Dynamic inventory (Phase 1): size the trip's sustain (prayer-restore vs food) from the picked
+        // method's prayers, the monster's offence, and the remaining kill count, then compose the 28-slot
+        // bag in layers (owned base supplies -> method key/inventory supplies -> sized sustain -> food
+        // fill). With no picked method + no prayers this reduces to today's supplies + potion x2 + runes
+        // + combo x4 + food-fill (FR-6). The missing-key-items advisory lists resolved strategy items the
+        // player owns none of (owned-only substitution keeps the loadout usable).
+        SustainModel.Result sustain =
+            SustainModel.estimate(pickedMethod, profile.getOffence(), dps, stats, remaining);
+        TripPlanContext tripContext = new TripPlanContext(owned, profile, task, effectiveLocation,
+            validStrategy, pickedMethod, consumables, sustain);
+        TripPlanner.TripPlan tripPlan = TripPlanner.plan(tripContext);
+        rec.setTripInventory(tripPlan.getSlots());
+        rec.setMissingKeyItemsNote(tripPlan.getMissingKeyItemsNote());
+        rec.setSustainNote(sustain == null ? null : sustain.getNote());
+        if (pickedMethod != null)
+        {
+            rec.setMethodId(pickedMethod.getMethodId());
+            rec.setMethodLabel(pickedMethod.getLabel());
+            rec.setPrayers(pickedMethod.getPrayers());
+        }
+        if (validStrategy != null)
+        {
+            List<StrategyMethod> options = MethodPicker.pickable(validStrategy);
+            rec.setMethodOptions(options.isEmpty() ? null : options);
+        }
         // The resolved variant identity for the UI card (FR-7 boss separateness, MV-FE2).
         if (variant != null)
         {
@@ -297,8 +350,11 @@ public class LoadoutAdvisor
 
     /**
      * The "Wiki strategy" guidance line (ADR-0015 / MV-S4), e.g. {@code "Wiki strategy: Emberlight
-     * (MELEE); also Scorching bow (RANGED). <note>"}. Composed whenever a strategy exists (informational,
-     * ownership-independent); the SECONDARY weapons live here, never as a second auto-equipped loadout.
+     * (MELEE); also Scorching bow / Toxic blowpipe (RANGED). <note>"}. Composed whenever a strategy
+     * exists (informational, ownership-independent); the SECONDARY weapons live here, never as a second
+     * auto-equipped loadout. Secondary weapons sharing a style are priority-ordered ALTERNATIVES, so
+     * they join into one {@code " / "} clause per style (like the primaries) rather than reading as
+     * "bring all of these" - one "also" clause per style, not per weapon.
      * Returns null when there is no strategy or it is malformed (no usable primary weapons).
      */
     private static String composeStrategyNote(MonsterStrategy strategy)
@@ -313,16 +369,22 @@ public class LoadoutAdvisor
             .append(" (").append(strategy.getPrimaryStyle()).append(')');
         if (strategy.getSecondaryWeapons() != null)
         {
+            Map<CombatStyle, List<String>> byStyle = new LinkedHashMap<>();
             for (StrategyWeapon weapon : strategy.getSecondaryWeapons())
             {
-                if (weapon == null || weapon.getName() == null)
+                if (weapon == null || weapon.getName() == null || weapon.getName().trim().isEmpty())
                 {
                     continue;
                 }
-                note.append("; also ").append(weapon.getName().trim());
-                if (weapon.getStyle() != null)
+                byStyle.computeIfAbsent(weapon.getStyle(), s -> new ArrayList<>())
+                    .add(weapon.getName().trim());
+            }
+            for (Map.Entry<CombatStyle, List<String>> entry : byStyle.entrySet())
+            {
+                note.append("; also ").append(String.join(" / ", entry.getValue()));
+                if (entry.getKey() != null)
                 {
-                    note.append(" (").append(weapon.getStyle()).append(')');
+                    note.append(" (").append(entry.getKey()).append(')');
                 }
             }
         }
@@ -405,7 +467,7 @@ public class LoadoutAdvisor
         SlayerLocation burstLoc = null;
         for (SlayerLocation l : candidates)
         {
-            if (haveCannon && l.isCannon() && cannonLoc == null)
+            if (haveCannon && l.isCannonEffective() && cannonLoc == null)
             {
                 cannonLoc = l;
             }
@@ -452,7 +514,7 @@ public class LoadoutAdvisor
      */
     static String cannonDpsNote(SlayerLocation location, OwnedItems owned, boolean multicombat)
     {
-        if (location == null || !location.isCannon() || !InventorySelector.ownsCannon(owned))
+        if (location == null || !location.isCannonEffective() || !InventorySelector.ownsCannon(owned))
         {
             return null;
         }
@@ -754,7 +816,7 @@ public class LoadoutAdvisor
         if (location != null)
         {
             List<String> locationTraits = new ArrayList<>();
-            if (location.isCannon())
+            if (location.isCannonEffective())
             {
                 locationTraits.add(haveCannon ? "cannon enabled" : "cannon permitted");
             }

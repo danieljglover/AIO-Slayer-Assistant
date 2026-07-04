@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
   "accessNote": "Hellhounds here require 60 Sailing to access. Contains 5 spawns, supports multicombat cannoning, and is discouraged due to the low spawn count."

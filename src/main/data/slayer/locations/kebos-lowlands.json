@@ -1,11 +1,11 @@
 {
   "locationId": "kebos-lowlands",
   "name": "Kebos Lowlands",
-  "multi": true,
-  "cannon": true,
+  "multi": false,
+  "cannon": false,
   "burst": false,
-  "konarLockable": false,
+  "konarLockable": true,
   "safeSpot": false,
   "wilderness": false,
-  "accessNote": "Open region south-west of Great Kourend (not Wilderness). The wiki marks the lizardman spawns here as not safespottable; it is a multicombat, cannonable area."
+  "accessNote": "Open region south-west of Great Kourend (not Wilderness). The Slayer task/Lizardmen table (pageid 297852) lists the Kebos Swamp spawns as single-combat and NOT cannonable."
 }

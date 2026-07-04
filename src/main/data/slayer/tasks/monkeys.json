@@ -1,7 +1,7 @@
 {
   "taskId": "monkeys",
   "name": "Monkeys",
-  "wikiPageId": 18457,
+  "wikiPageId": 298251,
   "combatLevel": null,
   "slayerTargetId": 298,
   "slayerLevel": 1,
@@ -78,11 +78,11 @@
       "name": "Monkey spawns",
       "amount": 12,
       "multicombat": false,
-      "cannonable": false,
+      "cannonable": true,
       "safespottable": false,
       "notes": [
         "Karamja holds numerous monkey clusters and is the most convenient place to complete the task.",
-        "Ape Atoll and Mos Le'Harmless also count; multi, cannon and safespot availability are not wiki-confirmed (conservative defaults)."
+        "Nearly every monkey spawn is cannonable per the wiki; the Karamja overworld clusters shown here are single-combat and not safespottable, while spots such as Marim, Temple of Marimbo and Ape Atoll Dungeon are multicombat and/or safespottable."
       ]
     }
   ],

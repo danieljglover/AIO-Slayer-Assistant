@@ -2,10 +2,10 @@
   "locationId": "graveyard-of-shadows",
   "name": "Graveyard of Shadows",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": true,
-  "accessNote": "The Graveyard of Shadows sits in Wilderness levels 18-21 on the site of the former Zarosian fortress of Carrallanger; wandering zombies (levels 18 and 24) roam it. Reach it by running north from Ferox Enclave or via the Carrallanger (Ancient Magicks) teleport. Multicombat, cannon placement and safespots are not wiki-stated, so conservative defaults are used. This is a PvP zone; bring Wilderness-appropriate risk gear."
+  "accessNote": "The Graveyard of Shadows sits in Wilderness levels 18-21 on the site of the former Zarosian fortress of Carrallanger; wandering zombies (levels 18 and 24) roam it. Reach it by running north from Ferox Enclave or via the Carrallanger (Ancient Magicks) teleport. Single-combat but cannonable and safespottable per the Slayer task/Zombies location table (pageid 298268). This is a PvP zone; bring Wilderness-appropriate risk gear."
 }

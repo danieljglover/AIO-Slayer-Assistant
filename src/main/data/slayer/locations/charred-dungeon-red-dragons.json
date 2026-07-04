@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Contains 4 adult Red dragons. Requires 60 Sailing to access; Black dragons and Baby black dragons are also in the same large room."

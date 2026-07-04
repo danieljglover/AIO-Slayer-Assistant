@@ -7,16 +7,22 @@
   "slayerLevel": 30,
   "questReqs": [],
   "masterIds": [
-    "mazchna"
+    "mazchna",
+    "vannaka"
   ],
   "amountByMaster": {
     "mazchna": [
       30,
       50
+    ],
+    "vannaka": [
+      40,
+      90
     ]
   },
   "weightByMaster": {
-    "mazchna": 8
+    "mazchna": 8,
+    "vannaka": 8
   },
   "unlocks": [],
   "monsterIds": [
@@ -78,7 +84,7 @@
       "safespottable": true,
       "notes": [
         "Pyrefiend area of the Fremennik Slayer Dungeon; 13 spawns, no smoke protection needed.",
-        "Cannon usability here is not wiki-confirmed (conservative default: off)."
+        "A cannon cannot be placed in the Fremennik Slayer Dungeon (task table and cannon prohibited-areas list); the area is safespottable."
       ]
     },
     {
@@ -87,10 +93,10 @@
       "amount": 23,
       "multicombat": false,
       "cannonable": true,
-      "safespottable": true,
+      "safespottable": false,
       "notes": [
         "Largest concentration; 23 spawns. A facemask or Slayer helmet is required for the smoke.",
-        "A Dwarf multicannon can be used here."
+        "A Dwarf multicannon can be used here (task table Cannonable=Yes; the pyrefiend area is outside the task-only cannon ban). Not safespottable per the task table."
       ]
     }
   ],

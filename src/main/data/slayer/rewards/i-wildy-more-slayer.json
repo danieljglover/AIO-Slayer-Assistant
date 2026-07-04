@@ -3,5 +3,5 @@
   "name": "I Wildy More Slayer",
   "pointsCost": 0,
   "effect": "TASK_UNLOCK",
-  "notes": "Enables Krystilia's Wilderness slayer task list. Costs nothing to unlock."
+  "notes": "Free toggle that lets Krystilia assign jellies, dust devils, nechryaels, and abyssal demons as Wilderness tasks; toggling it off removes only those four tasks from her list."
 }

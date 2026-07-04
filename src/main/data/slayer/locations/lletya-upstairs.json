@@ -4,7 +4,7 @@
   "multi": false,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
   "accessNote": "Requires enough Mourning's End Part I progress to access Lletya. Contains 1 upstairs Elf Archer; the task page marks this upstairs spawn as cannonable but not safespottable."

@@ -97,10 +97,11 @@
       "amount": null,
       "multicombat": false,
       "cannonable": true,
-      "safespottable": false,
+      "safespottable": true,
       "notes": [
         "Alternative location; requires a rope to enter and a light source inside.",
         "A Dwarf multicannon can be used here.",
+        "A ranged/mage safespot exists between a stalactite and a gas hole in the Lumbridge caves.",
         "Spawn count not stated on the wiki (honest UNKNOWN)."
       ]
     }

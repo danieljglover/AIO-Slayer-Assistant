@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Requires 60 Sailing to access. The Fire giant page notes Charred Dungeon is the only Fire giant location where cannonable spawns are also in multicombat."

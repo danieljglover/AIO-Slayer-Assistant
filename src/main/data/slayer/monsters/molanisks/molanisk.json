@@ -1,0 +1,40 @@
+{
+  "variantId": "molanisk",
+  "name": "Molanisk",
+  "npcIds": [
+    1
+  ],
+  "combatLevel": 51,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 45,
+    "slash": 45,
+    "crush": 35,
+    "magic": 30,
+    "range": 55
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Dorgesh-Kaan South Dungeon",
+  "locationId": "dorgesh-kaan-south-dungeon",
+  "requirement": "Slayer 39; combat level 50; completion of Death to the Dorgeshuun; a Slayer bell to lure them off the wall and a light source",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 52,
+    "maxHit": 5,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

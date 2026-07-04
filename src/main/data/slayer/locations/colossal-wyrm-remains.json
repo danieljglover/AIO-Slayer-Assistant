@@ -1,0 +1,11 @@
+{
+  "locationId": "colossal-wyrm-remains",
+  "name": "East of the Colossal Wyrm Remains",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Varlamore savannah east of the Colossal Wyrm Remains; several safespots and free of Karamja poison hazards, so no antipoison is needed. A quetzal landing site at Colossal Wyrm Remains gives a quick shortcut to an Auburnvale bank and a prayer altar at The Teomat; nearest fairy ring is AJP."
+}

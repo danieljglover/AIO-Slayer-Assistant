@@ -1,0 +1,57 @@
+{
+  "variantId": "werewolf-canifis",
+  "name": "Werewolf (Canifis)",
+  "npcIds": [
+    2593,
+    2594,
+    2595,
+    2596,
+    2597,
+    2598,
+    2599,
+    2600,
+    2601,
+    2602,
+    2603,
+    2604,
+    2605,
+    2606,
+    2607,
+    2608,
+    2609,
+    2610,
+    2611,
+    2612
+  ],
+  "combatLevel": 88,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 60,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Canifis",
+  "locationId": "canifis",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 100,
+    "maxHit": 8,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  }
+}

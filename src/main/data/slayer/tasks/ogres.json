@@ -1,0 +1,361 @@
+{
+  "taskId": "ogres",
+  "name": "Ogres",
+  "wikiPageId": 298279,
+  "combatLevel": 40,
+  "slayerTargetId": null,
+  "slayerLevel": 1,
+  "questReqs": [],
+  "masterIds": [
+    "vannaka"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 7
+  },
+  "extendedAmount": null,
+  "unlocks": [],
+  "monsterIds": [
+    "ogres"
+  ],
+  "variantIds": [
+    "ogre-lvl53",
+    "ogre-gwd-lvl58",
+    "ogre-lvl63",
+    "ogress-warrior",
+    "ogress-shaman",
+    "mogre",
+    "mogre-sea",
+    "zogre",
+    "skogre"
+  ],
+  "defaultVariantId": "ogre-lvl53",
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 43,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "west-of-yanille",
+    "gu-tanoth",
+    "feldip-hills",
+    "chaos-druid-tower-dungeon",
+    "clock-tower-dungeon",
+    "combat-training-camp",
+    "gnome-maze",
+    "god-wars-dungeon",
+    "underground-pass-dungeon",
+    "witchaven-dungeon",
+    "wilderness-god-wars-dungeon",
+    "corsair-cove-dungeon",
+    "mudskipper-point",
+    "jiggig",
+    "jiggig-dungeon"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "mogre-sea",
+      "name": "Mogre (sea)",
+      "combatLevel": 61,
+      "slayerXp": 43.5,
+      "locations": [
+        "Mudskipper Sound",
+        "Strait of Khazard",
+        "Kharazi Strait"
+      ],
+      "notes": [
+        "Requires 32 Slayer.",
+        "The task page still lists the pre-nerf combat level 61 and 43.5 Slayer XP; the current monster infobox lists combat level 54 with 59 Hitpoints (honest note: task-table value retained here, current stats captured on the variant file)."
+      ]
+    },
+    {
+      "variantId": "mogre",
+      "name": "Mogre",
+      "combatLevel": 60,
+      "slayerXp": 48,
+      "locations": [
+        "Mudskipper Point"
+      ],
+      "notes": [
+        "Requires completion of Skippy and the Mogres and 32 Slayer.",
+        "Fishing explosives are required to make Mogres surface and engage in combat."
+      ]
+    },
+    {
+      "variantId": "ogre-lvl53",
+      "name": "Ogre",
+      "combatLevel": 53,
+      "slayerXp": 60,
+      "locations": [
+        "Chaos Druid Tower Dungeon",
+        "Clock Tower Dungeon",
+        "Combat Training Camp",
+        "Feldip Hills",
+        "Gnome Maze",
+        "God Wars Dungeon",
+        "Gu'Tanoth",
+        "Underground Pass (dungeon)",
+        "West of Yanille",
+        "Wilderness God Wars Dungeon",
+        "Witchaven Dungeon"
+      ],
+      "notes": [
+        "Ogre has three combat variants: level 53 (most common), level 58 (God Wars Dungeon), and level 63 (Combat Training Camp, requires Biohazard).",
+        "The best place to kill ogres is west of Yanille.",
+        "Attacks with crush; 20% susceptible to earth spells."
+      ]
+    },
+    {
+      "variantId": "ogress-shaman",
+      "name": "Ogress Shaman",
+      "combatLevel": 82,
+      "slayerXp": 82,
+      "locations": [
+        "Corsair Cove Dungeon"
+      ],
+      "notes": [
+        "Requires partial completion of The Corsair Curse or level 10 Agility.",
+        "Attacks with Magic. Offers a unique cosmetic drop."
+      ]
+    },
+    {
+      "variantId": "ogress-warrior",
+      "name": "Ogress Warrior",
+      "combatLevel": 82,
+      "slayerXp": 82,
+      "locations": [
+        "Corsair Cove Dungeon"
+      ],
+      "notes": [
+        "Requires partial completion of The Corsair Curse or level 10 Agility.",
+        "Attacks with crush."
+      ]
+    },
+    {
+      "variantId": "skogre",
+      "name": "Skogre",
+      "combatLevel": 44,
+      "slayerXp": 71,
+      "locations": [
+        "Jiggig",
+        "Jiggig Dungeon"
+      ],
+      "notes": [
+        "Requires partial completion of Zogre Flesh Eaters.",
+        "Can inflict disease. Brutal arrows work best against Zogres and Skogres."
+      ]
+    },
+    {
+      "variantId": "zogre",
+      "name": "Zogre",
+      "combatLevel": 44,
+      "slayerXp": 71,
+      "locations": [
+        "Jiggig",
+        "Jiggig Dungeon"
+      ],
+      "notes": [
+        "Requires the starting of Zogre Flesh Eaters.",
+        "Undead. Can inflict disease. Brutal arrows work best against Zogres and Skogres."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "chaos-druid-tower-dungeon",
+      "name": "Chaos Druid Tower Dungeon",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Level 53 ogres; requires 46 Thieving. This location is fairly unpopulated."
+      ]
+    },
+    {
+      "locationId": "clock-tower-dungeon",
+      "name": "Clock Tower Dungeon",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Level 53 ogres."
+      ]
+    },
+    {
+      "locationId": "combat-training-camp",
+      "name": "Combat Training Camp",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Level 63 ogres. Requires completion of Biohazard."
+      ]
+    },
+    {
+      "locationId": "corsair-cove-dungeon",
+      "name": "Corsair Cove Dungeon",
+      "amount": 32,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Ogress Warriors and Ogress Shamans (level 82). The entrance is a commonly used safespot, so expect not to be able to use it. Ogress shamans offer a unique cosmetic drop."
+      ]
+    },
+    {
+      "locationId": "feldip-hills",
+      "name": "Feldip Hills",
+      "amount": 18,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Level 53 ogres; fairly spread out."
+      ]
+    },
+    {
+      "locationId": "gnome-maze",
+      "name": "Gnome Maze",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Single level 53 ogre spawn."
+      ]
+    },
+    {
+      "locationId": "god-wars-dungeon",
+      "name": "God Wars Dungeon",
+      "amount": 3,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Level 58 ogres. As this is a multicombat area, other monsters will attack you.",
+        "The wiki lists this spot as cannonable, but God Wars Dungeon inhabitants can destroy a placed cannon."
+      ]
+    },
+    {
+      "locationId": "gu-tanoth",
+      "name": "Gu'Tanoth",
+      "amount": 18,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Level 53 ogres; requires partial completion of Watchtower. The ogres in this area are secluded in many areas."
+      ]
+    },
+    {
+      "locationId": "jiggig",
+      "name": "Jiggig",
+      "amount": 11,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Zogres and Skogres (level 44). Brutal arrows work best against Zogres and Skogres."
+      ]
+    },
+    {
+      "locationId": "jiggig-dungeon",
+      "name": "Jiggig Dungeon",
+      "amount": 36,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": true,
+      "notes": [
+        "Zogres and Skogres (level 44). Brutal arrows work best against Zogres and Skogres."
+      ]
+    },
+    {
+      "locationId": "mudskipper-point",
+      "name": "Mudskipper Point",
+      "amount": 3,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Mogres (level 60). Fishing explosives are required to engage in combat with Mogres."
+      ]
+    },
+    {
+      "locationId": "underground-pass-dungeon",
+      "name": "Underground Pass (dungeon)",
+      "amount": 2,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Level 53 ogres. Requires completion of Plague City."
+      ]
+    },
+    {
+      "locationId": "west-of-yanille",
+      "name": "West of Yanille",
+      "amount": 14,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Level 53 ogres; the recommended place to kill ogres for the task. Can be safespotted behind the stone wall."
+      ]
+    },
+    {
+      "locationId": "wilderness-god-wars-dungeon",
+      "name": "Wilderness God Wars Dungeon",
+      "amount": 1,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Single level 58 ogre. As this is a multicombat Wilderness area, other monsters and players will attack you.",
+        "The wiki lists this spot as cannonable, but God Wars Dungeon inhabitants can destroy a placed cannon."
+      ]
+    },
+    {
+      "locationId": "witchaven-dungeon",
+      "name": "Witchaven Dungeon",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Level 53 ogres."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Ogres are assigned only by Vannaka (40-90) at combat level 40; there is no Slayer level or quest requirement for the task itself, and no extended range.",
+    "Ogres are most commonly found in Kandarin.",
+    "Along with ogres, Ogress Warriors and Ogress Shamans, Mogres, Zogres, and Skogres all count towards the task. Jogres do NOT count.",
+    "Zogres and Skogres have a lower combat level but can inflict disease, so take caution; brutal arrows work best against them.",
+    "Individual variants carry their own access requirements: Mogres need 32 Slayer (and Skippy and the Mogres / Fishing explosives), Ogresses need The Corsair Curse progress or 10 Agility, and Zogres/Skogres need Zogre Flesh Eaters progress.",
+    "Players with 41 Magic can use ensouled ogre heads to cast Adept Reanimation and kill reanimated ogres.",
+    "The infobox id field is 'No', so this task has no SLAYER_TARGET id (slayerTargetId left null)."
+  ],
+  "recommendedMethod": "The best spot is the level 53 ogres west of Yanille, where you can safespot behind the stone wall and/or use a Dragon cannon. Ogres attack with crush, have low Defence, and are 20% weak to earth spells, so any combat style works. Zogres and Skogres at Jiggig require brutal arrows and can inflict disease."
+}

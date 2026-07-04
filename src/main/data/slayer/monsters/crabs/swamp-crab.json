@@ -1,0 +1,41 @@
+{
+  "variantId": "swamp-crab",
+  "name": "Swamp Crab",
+  "npcIds": [
+    8297,
+    8298
+  ],
+  "combatLevel": 55,
+  "weakness": {
+    "style": "RANGED",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 50,
+    "stab": 100,
+    "slash": 100,
+    "crush": 100,
+    "magic": 100,
+    "range": -55
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Haunted Woods, Slepe",
+  "locationId": "haunted-woods",
+  "requirement": "Slayer 1; no combat or quest requirement",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 75,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

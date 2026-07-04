@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Chasm of Fire / Charred Dungeon black demon and black dragon location requiring 60 Sailing to access; Red dragons are in the same large room as black dragons. Hellhounds here are multicombat and cannonable but discouraged because there are only 5 spawns."

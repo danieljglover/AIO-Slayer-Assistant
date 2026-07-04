@@ -1,5 +1,6 @@
 package com.danieljglover.allinslayer.ui;
 
+import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics2D;
 import javax.inject.Inject;
@@ -19,6 +20,18 @@ public class SlayerOverlay extends OverlayPanel
     private volatile int remaining;
     @Setter
     private volatile String method;
+    @Setter
+    private volatile String location;
+    // Compact conditional warnings fed by recompute (client thread). Name resolution happens there - the
+    // overlay never touches ItemManager. Each field null/false hides its line so nothing lingers stale.
+    @Setter
+    private volatile String requiredItemMissing;
+    @Setter
+    private volatile boolean antifireWarning;
+    @Setter
+    private volatile String bankHint;
+    @Setter
+    private volatile boolean bossTrip;
 
     @Inject
     public SlayerOverlay()
@@ -46,6 +59,31 @@ public class SlayerOverlay extends OverlayPanel
         {
             panelComponent.getChildren().add(LineComponent.builder()
                 .left("Method:").right(method).build());
+        }
+        if (location != null)
+        {
+            panelComponent.getChildren().add(LineComponent.builder()
+                .left("Where:").right(location).build());
+        }
+        if (requiredItemMissing != null)
+        {
+            panelComponent.getChildren().add(LineComponent.builder()
+                .left("Bring:").right(requiredItemMissing).rightColor(Color.RED).build());
+        }
+        if (antifireWarning)
+        {
+            panelComponent.getChildren().add(LineComponent.builder()
+                .left("Bring antifire").leftColor(Color.RED).build());
+        }
+        if (bossTrip)
+        {
+            panelComponent.getChildren().add(LineComponent.builder()
+                .left("Boss - separate trip").build());
+        }
+        if (bankHint != null)
+        {
+            panelComponent.getChildren().add(LineComponent.builder()
+                .left(bankHint).leftColor(Color.ORANGE).build());
         }
         return super.render(graphics);
     }

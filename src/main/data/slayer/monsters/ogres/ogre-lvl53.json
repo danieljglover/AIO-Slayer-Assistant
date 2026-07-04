@@ -1,0 +1,32 @@
+{
+  "variantId": "ogre-lvl53",
+  "name": "Ogre",
+  "npcIds": [
+    136,
+    2095,
+    2096
+  ],
+  "combatLevel": 53,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 43,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "West of Yanille",
+  "locationId": "west-of-yanille",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": null
+}

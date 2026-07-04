@@ -1,0 +1,40 @@
+{
+  "variantId": "sea-snake-young",
+  "name": "Sea snake young",
+  "npcIds": [
+    1097
+  ],
+  "combatLevel": 90,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 70,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Miscellania and Etceteria Dungeon",
+  "locationId": "miscellania-and-etceteria-dungeon",
+  "requirement": "Slayer 40; combat level 50; completion of Royal Trouble",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 85,
+    "maxHit": 8,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": true,
+    "venomous": false
+  }
+}

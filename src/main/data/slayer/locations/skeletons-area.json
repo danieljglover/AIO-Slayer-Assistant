@@ -2,10 +2,10 @@
   "locationId": "skeletons-area",
   "name": "Non-Wilderness skeletons",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
-  "accessNote": "Non-Wilderness skeletons for Turael, Spria, and Mazchna tasks: the Edgeville Dungeon, Varrock Sewers, and Draynor/Wizards' Tower basements hold level 21/22 skeletons. Multicombat, cannon, and safespot status are not documented on the wiki and are left conservative (false)."
+  "accessNote": "Non-Wilderness skeletons for Turael, Spria, and Mazchna tasks: the Edgeville Dungeon, Varrock Sewers, and Draynor/Wizards' Tower basements hold level 21/22 skeletons. The Slayer task/Skeletons table (pageid 298266) lists both Edgeville Dungeon and Varrock Sewers as cannonable."
 }

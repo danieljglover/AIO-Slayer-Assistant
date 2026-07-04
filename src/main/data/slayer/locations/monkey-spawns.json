@@ -2,10 +2,10 @@
   "locationId": "monkey-spawns",
   "name": "Monkey spawns",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
-  "accessNote": "Common monkeys (combat level 3) are scattered across Karamja (south-east, near Shilo Village, around Brimhaven and the volcano, east of Tai Bwo Wannai), Ape Atoll, Mos Le'Harmless and the Ardougne Zoo. Karamja spawns are the most convenient. Maniacal monkeys and the boss Kruk / M'amba do NOT count toward this task. Multi, cannon and safespot availability are not wiki-confirmed (conservative defaults)."
+  "accessNote": "Common monkeys (combat level 3) are scattered across Karamja (south-east, near Shilo Village, around Brimhaven and the volcano, east of Tai Bwo Wannai), Ape Atoll, Mos Le'Harmless and the Ardougne Zoo. Karamja spawns are the most convenient. Maniacal monkeys and the boss Kruk / M'amba do NOT count toward this task. The Slayer task/Monkeys table (pageid 298251) lists essentially every monkey spot as cannonable (single-combat)."
 }

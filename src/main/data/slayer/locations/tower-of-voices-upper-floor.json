@@ -4,7 +4,7 @@
   "multi": false,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
   "accessNote": "Requires Song of the Elves. Contains 8 Prifddinas guards on the upper walkways between the towers, but the task page notes great distances between each."

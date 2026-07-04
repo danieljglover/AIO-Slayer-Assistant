@@ -1,0 +1,11 @@
+{
+  "locationId": "underground-pass-dungeon",
+  "name": "Underground Pass (dungeon)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Requires completion of Plague City to access the Underground Pass. Only two level 53 ogre spawns; cannonable but not safespottable."
+}

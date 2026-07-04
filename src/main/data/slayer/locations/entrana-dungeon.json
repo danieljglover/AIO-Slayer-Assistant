@@ -4,8 +4,8 @@
   "multi": false,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Greater demon location. Weapons and armour cannot be taken to Entrana, so this is not advisable for normal Slayer task completion."
+  "accessNote": "Greater demon location under Entrana. Weapons and armour cannot be taken through Entrana (bring cannon parts and unarmed/allowed gear only), but the dungeon itself allows cannon placement: the Slayer task/Greater demons table (pageid 298108) lists Entrana Dungeon as cannonable - the multicannon prohibited-list Entrana entry covers the island surface."
 }

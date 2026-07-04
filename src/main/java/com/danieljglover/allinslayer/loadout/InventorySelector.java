@@ -51,6 +51,16 @@ public final class InventorySelector
         11283,                      // Dragonfire shield
     };
 
+    // --- Slayer bracelets (net.runelite.api.ItemID). These change task-kill accounting, NOT DPS, so
+    // they are ONLY ever inventory suggestions - never fed to any combat maths (NG-4). Verified item
+    // ids (OSRS Wiki): Expeditious bracelet 21177 (id=21177, revid 15188169) counts some kills twice to
+    // finish tasks faster; Bracelet of slaughter 21183 (id=21183, revid 15188180) extends tasks by
+    // sometimes not decrementing. Preference order below suggests the faster (expeditious) when both are
+    // owned - the default "get the task done" bias; ambiguity resolves to whichever single one is owned.
+    private static final int EXPEDITIOUS_BRACELET = 21177;
+    private static final int BRACELET_OF_SLAUGHTER = 21183;
+    private static final int[] SLAYER_BRACELETS = {EXPEDITIOUS_BRACELET, BRACELET_OF_SLAUGHTER};
+
     /** The PD-3 "note when unowned" nudge (DT-B11): shown when draconic but no antifire is owned. */
     private static final String ANTIFIRE_UNOWNED_NOTE =
         "Antifire recommended - none found in your bank.";
@@ -86,7 +96,7 @@ public final class InventorySelector
         // Cannon + cannonballs, when the location is cannonable and the player owns a full cannon
         // (PD-2, owned-driven). The four parts are packed; a cannonball is added only when owned
         // (owned-only - no fabricated ammo).
-        if (effectiveLocation != null && effectiveLocation.isCannon() && ownsCannon(owned))
+        if (effectiveLocation != null && effectiveLocation.isCannonEffective() && ownsCannon(owned))
         {
             for (int part : CANNON_PARTS)
             {
@@ -108,6 +118,16 @@ public final class InventorySelector
             {
                 supplies.add(antifire);
             }
+        }
+
+        // Slayer bracelet, when owned: a task-pace supply (expeditious to finish faster, slaughter to
+        // extend), never a combat-maths input (NG-4). Every task the plugin advises IS a Slayer task, so
+        // this is unconditionally relevant when a bracelet is owned. Only one is suggested (the preference
+        // order prefers expeditious); the player swaps to slaughter deliberately if they want longer tasks.
+        Integer bracelet = firstOwned(owned, SLAYER_BRACELETS);
+        if (bracelet != null)
+        {
+            supplies.add(bracelet);
         }
         return supplies;
     }

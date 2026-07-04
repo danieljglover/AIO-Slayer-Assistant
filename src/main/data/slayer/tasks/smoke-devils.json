@@ -35,6 +35,7 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Allows superior slayer monsters to spawn, including Nuclear smoke devils from Smoke devil kills."
     }
   ],
@@ -64,7 +65,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": 4166,
+  "requiredItemId": 4164,
   "requiredItemName": "Facemask",
   "locationIds": [
     "smoke-devil-dungeon"
@@ -123,9 +124,9 @@
     {
       "locationId": "smoke-devil-dungeon",
       "name": "Smoke Devil Dungeon",
-      "amount": null,
+      "amount": 36,
       "multicombat": true,
-      "cannonable": null,
+      "cannonable": true,
       "safespottable": false,
       "notes": [
         "Only Smoke devils location and the area is task-only.",

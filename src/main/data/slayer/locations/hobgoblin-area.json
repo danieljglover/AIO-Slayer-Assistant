@@ -2,10 +2,10 @@
   "locationId": "hobgoblin-area",
   "name": "Hobgoblin area",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Hobgoblins in the Edgeville Dungeon (non-Wilderness section) and on the peninsula west of the Crafting Guild. Not the Wilderness hobgoblin spawns. Multi, cannon and safespot status are not wiki-stated and left conservative (false)."
+  "accessNote": "Hobgoblins in the Edgeville Dungeon (non-Wilderness section) and on the peninsula west of the Crafting Guild. Not the Wilderness hobgoblin spawns. The Slayer task/Hobgoblins table (pageid 298252) lists Edgeville Dungeon and the Crafting Guild peninsula as cannonable and safespottable (single-combat)."
 }

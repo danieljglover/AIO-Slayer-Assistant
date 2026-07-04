@@ -1,7 +1,7 @@
 {
   "taskId": "bandits",
   "name": "Bandits",
-  "wikiPageId": 20203,
+  "wikiPageId": 298779,
   "combatLevel": null,
   "slayerTargetId": 252,
   "slayerLevel": 1,
@@ -48,7 +48,8 @@
   "requiredItemId": null,
   "requiredItemName": null,
   "locationIds": [
-    "bandit-camp-wilderness"
+    "bandit-camp-wilderness",
+    "wilderness-slayer-cave"
   ],
   "variantInfo": [
     {
@@ -83,14 +84,26 @@
     {
       "locationId": "bandit-camp-wilderness",
       "name": "Bandit Camp (Wilderness)",
-      "amount": 23,
-      "multicombat": false,
-      "cannonable": false,
+      "amount": 16,
+      "multicombat": true,
+      "cannonable": true,
       "safespottable": false,
       "notes": [
         "The Bandit Camp east of the Ruins holds both the level 22 and level 130 bandits.",
         "Bandits are aggressive; approach with caution.",
-        "Multicombat, cannon placement and safespots are not wiki-stated for this camp; conservative defaults are used."
+        "Multicombat area where a cannon can be set up; this location is well populated."
+      ]
+    },
+    {
+      "locationId": "wilderness-slayer-cave",
+      "name": "Wilderness Slayer Cave",
+      "amount": 1,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": false,
+      "notes": [
+        "Only a single level 130 bandit spawns here, so it is not recommended.",
+        "Multicombat area where a cannon can be set up."
       ]
     }
   ],

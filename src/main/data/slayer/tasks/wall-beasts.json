@@ -43,7 +43,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": null,
+  "requiredItemId": 4551,
   "requiredItemName": "Spiny helmet",
   "locationIds": [
     "lumbridge-swamp-caves"
@@ -83,7 +83,7 @@
   "taskNotes": [
     "SYNTHETIC slayerTargetId 304 (252-305 C2/C3 block): the real SLAYER_TARGET varp for Wall beasts is not wiki-published; QA live-verify.",
     "Assigned only by Mazchna (10-20) in this dataset; requires Slayer level 35. Mazchna's combat-level threshold is around 30.",
-    "A spiny helmet or Slayer helmet is required to fight wall beasts safely; without it they land an 18-damage grab. The requiredItemId is honest-UNKNOWN (spiny helmet item id not wiki-published).",
+    "A spiny helmet or Slayer helmet is required to fight wall beasts safely; without it they land an 18-damage grab. requiredItemId 4551 is Spiny helmet (wiki item infobox id).",
     "No elemental weakness (weakness.element honest null); all defensive bonuses are 0 so any accurate melee works.",
     "lumbridge-swamp-caves is referenced by id (owned by cave-bugs, CT-L shared #1); its accessNote already documents the spiny helmet and cannon."
   ],

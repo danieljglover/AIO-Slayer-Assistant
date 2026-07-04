@@ -1,0 +1,8 @@
+{
+  "itemKey": "herb-sack",
+  "name": "Herb sack",
+  "aliases": ["herb sacks", "open herb sack"],
+  "itemIds": [13226],
+  "stackable": false,
+  "dosed": false
+}

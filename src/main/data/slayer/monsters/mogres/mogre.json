@@ -35,5 +35,6 @@
     "attackSpeedTicks": 6,
     "poisonous": false,
     "venomous": false
-  }
+  },
+  "locationId": "mudskipper-point"
 }

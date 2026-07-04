@@ -3,5 +3,5 @@
   "name": "Ring bling",
   "pointsCost": 150,
   "effect": "GEAR_UNLOCK",
-  "notes": "Unlocks crafting the Ring of slaying (slayer ring) from a gold bar and an enchanted gem."
+  "notes": "Unlocks crafting the Ring of slaying (slayer ring) from a gold bar and an enchanted gem at 75 Crafting. Cost was reduced from 300 to 150 points in the Summer Sweep Up update (27 August 2025)."
 }

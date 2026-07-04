@@ -1,0 +1,11 @@
+{
+  "locationId": "jiggig-dungeon",
+  "name": "Jiggig Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Dungeon beneath Jiggig with the largest concentration of Zogres and Skogres (requires Zogre Flesh Eaters progress). Not cannonable, but safespottable. Brutal arrows work best."
+}

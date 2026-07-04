@@ -1,11 +1,11 @@
 {
   "locationId": "white-wolf-mountain",
   "name": "White Wolf Mountain",
-  "multi": false,
-  "cannon": false,
+  "multi": true,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": false,
-  "accessNote": "White Wolf Mountain lies between Taverley and Catherby (gnome glider or the mountain path). It holds a dense pack of wolves, white wolves and big wolves. Multi, cannon and safespot are conservative defaults and not wiki-confirmed."
+  "accessNote": "White Wolf Mountain lies between Taverley and Catherby (gnome glider or the mountain path). It holds a dense pack of wolves, white wolves and big wolves. Multi-combat, cannonable and safespottable per the Slayer task/Wolves location table (pageid 298281)."
 }

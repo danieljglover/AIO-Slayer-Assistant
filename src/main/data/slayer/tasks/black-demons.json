@@ -113,7 +113,8 @@
     "crash-site-cavern",
     "edgeville-dungeon-wilderness",
     "taverley-dungeon",
-    "wilderness-slayer-cave"
+    "wilderness-slayer-cave",
+    "god-wars-dungeon"
   ],
   "variantInfo": [
     {
@@ -155,7 +156,7 @@
       "combatLevel": 151,
       "slayerXp": 161,
       "locations": [
-        "Zamorak Fortress, God Wars Dungeon"
+        "God Wars Dungeon"
       ],
       "notes": [
         "Three-faced black demon.",
@@ -298,6 +299,18 @@
       "notes": [
         "Multicombat area and high-risk player killing makes this a very dangerous location.",
         "Under 30 Wilderness, but hopping inside is difficult due to demon aggression."
+      ]
+    },
+    {
+      "locationId": "god-wars-dungeon",
+      "name": "God Wars Dungeon",
+      "amount": null,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Boss alternative only: Balfrug Kreeyath in the Zamorak Fortress counts as a Black demon.",
+        "Requires God Wars Dungeon access, Zamorak kill count, and boss-trip gear."
       ]
     }
   ],

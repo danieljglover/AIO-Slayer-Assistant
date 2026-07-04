@@ -46,7 +46,7 @@
   "requiredItemId": null,
   "requiredItemName": null,
   "locationIds": [
-    "various-boss-locations"
+    "various-wilderness-boss-locations"
   ],
   "variantInfo": [
     {
@@ -162,7 +162,7 @@
   ],
   "locationComparison": [
     {
-      "locationId": "various-boss-locations",
+      "locationId": "various-wilderness-boss-locations",
       "name": "Various boss locations",
       "amount": null,
       "multicombat": true,
@@ -171,7 +171,8 @@
       "notes": [
         "Meta-task placeholder: each Wilderness boss has its own arena, access requirements and safespot behaviour.",
         "Most of these arenas are multi-way Wilderness (the singles-plus alternatives Artio, Spindel and Calvar'ion are the exceptions), so player-killer risk is high.",
-        "Density is not a meaningful figure for a boss task, so amount is left unknown."
+        "Density is not a meaningful figure for a boss task, so amount is left unknown.",
+        "Cannon availability varies by boss: Callisto's Den, Silk Chasm (Venenatis) and Vet'ion's Rest are cannon-prohibited per the multicannon page, while lower demi-boss arenas such as Chaos Fanatic and Crazy archaeologist allow a cannon; cannonable is left false as a conservative meta-task default."
       ]
     }
   ],

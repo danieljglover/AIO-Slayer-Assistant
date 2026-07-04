@@ -3,5 +3,5 @@
   "name": "Broader Fletching",
   "pointsCost": 300,
   "effect": "GEAR_UNLOCK",
-  "notes": "Unlocks fletching broad arrows and broad bolts (and broad knives on some worlds)."
+  "notes": "Unlocks fletching broad arrows (52 Fletching), broad bolts (55 Fletching), and amethyst broad bolts (76 Fletching)."
 }

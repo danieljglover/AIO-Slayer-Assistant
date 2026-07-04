@@ -2,10 +2,10 @@
   "locationId": "mammoth-wilderness",
   "name": "Wilderness (south-east of Ferox Enclave)",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": true,
-  "accessNote": "Mammoths roam the Wilderness south-east of Ferox Enclave. The exact Wilderness level is not wiki-stated; multi and cannon status are not wiki-stated, so treated conservatively as false. Bring low-risk gear and a one-click escape teleport."
+  "accessNote": "Mammoths roam the Wilderness south-east of Ferox Enclave. Bring low-risk gear and a one-click escape teleport. The Mammoth wiki page (pageid 30180) calls this an efficient dwarf multicannon spot; their 3x3 size makes them easy to safespot (single-combat)."
 }

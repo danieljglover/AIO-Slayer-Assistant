@@ -77,10 +77,11 @@
       "amount": 12,
       "multicombat": false,
       "cannonable": false,
-      "safespottable": false,
+      "safespottable": true,
       "notes": [
         "Minotaurs spawn densely in the Vault of War (first level) of the Stronghold of Security.",
-        "Multi, cannon and safespot status are not wiki-stated, so treated conservatively as false."
+        "Commonly safespotted for Ranged training: the central room south of the spiked chains, the room east of the floor start behind the spiked fences, and the large south-easternmost room behind the spiked fence.",
+        "The Stronghold of Security is not on the cannon-prohibited list, but cannon use here is not wiki-documented, so cannonable is left conservatively false."
       ]
     }
   ],

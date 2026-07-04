@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": false,
+  "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Requires The Path of Glouphrie, a crystal chime, and earmuffs or Slayer helmet for safer terrorbird damage. Lower-level terrorbirds are multicombat and cannonable."

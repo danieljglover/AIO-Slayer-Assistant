@@ -1,22 +1,28 @@
 {
   "taskId": "shades",
   "name": "Shades",
-  "wikiPageId": 36404,
+  "wikiPageId": 298238,
   "combatLevel": 30,
   "slayerTargetId": 302,
   "slayerLevel": 1,
   "questReqs": [],
   "masterIds": [
-    "mazchna"
+    "mazchna",
+    "vannaka"
   ],
   "amountByMaster": {
     "mazchna": [
       30,
       70
+    ],
+    "vannaka": [
+      40,
+      90
     ]
   },
   "weightByMaster": {
-    "mazchna": 8
+    "mazchna": 8,
+    "vannaka": 8
   },
   "extendedAmount": {},
   "unlocks": [],
@@ -99,20 +105,21 @@
     {
       "locationId": "mortton",
       "name": "Mort'ton",
-      "amount": null,
+      "amount": 25,
       "multicombat": false,
       "cannonable": false,
-      "safespottable": false,
+      "safespottable": true,
       "notes": [
         "Loar Shades in Mort'ton are the fastest kill for the task; Priest in Peril is required for access.",
-        "Undead, so a salve amulet (e) applies; 40% wind weakness makes Wind Bolt strong."
+        "Undead, so a salve amulet (e) applies; 40% wind weakness makes Wind Bolt strong.",
+        "A cannon cannot be placed in Mort'ton proper (cannon prohibited-areas list); the task table notes one can be set up along the eastern boundary, so cannonable is kept false for the main area."
       ]
     },
     {
       "locationId": "catacombs-of-kourend",
       "name": "Catacombs of Kourend",
-      "amount": null,
-      "multicombat": false,
+      "amount": 6,
+      "multicombat": true,
       "cannonable": false,
       "safespottable": true,
       "notes": [
@@ -123,12 +130,13 @@
     {
       "locationId": "stronghold-of-security",
       "name": "Stronghold of Security",
-      "amount": null,
+      "amount": 4,
       "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
-        "Level-159 Shades here have drastically reduced combat XP (1 XP per 10 damage) and only 4.2 Slayer XP; not recommended."
+        "Level-159 Shades here have drastically reduced combat XP (1 XP per 10 damage) and only 4.2 Slayer XP; not recommended.",
+        "Cannonable and safespottable per the task table; safespot using a skeleton on the eastern side of the northern part of the room."
       ]
     }
   ],

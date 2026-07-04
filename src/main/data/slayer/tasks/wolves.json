@@ -1,7 +1,7 @@
 {
   "taskId": "wolves",
   "name": "Wolves",
-  "wikiPageId": 16539,
+  "wikiPageId": 298281,
   "combatLevel": 20,
   "slayerTargetId": 305,
   "slayerLevel": 1,
@@ -109,12 +109,14 @@
     {
       "locationId": "white-wolf-mountain",
       "name": "White Wolf Mountain",
-      "multicombat": false,
-      "cannonable": false,
-      "safespottable": false,
+      "amount": 6,
+      "multicombat": true,
+      "cannonable": true,
+      "safespottable": true,
       "notes": [
         "White Wolf Mountain (between Taverley and Catherby) has a dense pack of wolves, white wolves and big wolves.",
-        "No single canonical spawn count is wiki-stated (honest UNKNOWN), so no amount overlay is authored."
+        "The Slayer_task/Wolves location table lists White Wolf Mountain as 6 spawns, multicombat, cannonable and safespottable.",
+        "A Dwarf multicannon can be used here."
       ]
     }
   ],

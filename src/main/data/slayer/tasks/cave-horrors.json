@@ -51,6 +51,7 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Enables superior slayer monster spawns, including Cave abomination."
     },
     {
@@ -86,7 +87,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": 6740,
+  "requiredItemId": 8923,
   "requiredItemName": "Witchwood icon",
   "locationIds": [
     "mos-le-harmless-cave"

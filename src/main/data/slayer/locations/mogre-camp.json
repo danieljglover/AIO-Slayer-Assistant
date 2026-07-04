@@ -1,0 +1,11 @@
+{
+  "locationId": "mogre-camp",
+  "name": "Mogre Camp",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "The Mogre Camp holds level 21/23 Crabs and requires partial completion of Recipe for Disaster (Freeing Pirate Pete) to access. Conservative multi, cannon and safespot defaults are used as they are not wiki-confirmed here."
+}

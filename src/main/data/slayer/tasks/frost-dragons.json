@@ -39,6 +39,7 @@
       "unlockId": "chance-of-heavy-frost",
       "name": "Chance of Heavy Frost",
       "pointsCost": 100,
+      "type": "OTHER",
       "notes": "Increases the weighting of frost dragons from 5 to 8."
     },
     {

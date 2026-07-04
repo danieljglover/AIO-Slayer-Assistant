@@ -1,0 +1,11 @@
+{
+  "locationId": "miscellania-and-etceteria-dungeon",
+  "name": "Miscellania and Etceteria Dungeon",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "The dungeon beneath Miscellania and Etceteria, entered during and after Royal Trouble. It houses the Sea snake hatchling and Sea snake young Slayer monsters. The area is single combat but a dwarf multicannon may be used; the blue eggs halfway through the tunnel serve as a safespot. Sea snakes are poisonous, so an antipoison is recommended."
+}

@@ -4,7 +4,7 @@
   "multi": true,
   "cannon": true,
   "burst": false,
-  "konarLockable": false,
+  "konarLockable": true,
   "safeSpot": false,
   "wilderness": false,
   "accessNote": "In the Kebos Lowlands (not Wilderness). The wiki marks this lizardman spawn as not safespottable; it is a multicombat, cannonable area."

@@ -41,6 +41,7 @@
       "unlockId": "bigger-and-badder",
       "name": "Bigger and Badder",
       "pointsCost": 50,
+      "type": "SUPERIOR",
       "notes": "Allows Ancient Custodian to spawn after killing an Elder custodian stalker."
     },
     {

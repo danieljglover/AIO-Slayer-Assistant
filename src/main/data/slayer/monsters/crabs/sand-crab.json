@@ -1,0 +1,41 @@
+{
+  "variantId": "sand-crab",
+  "name": "Sand Crab",
+  "npcIds": [
+    5935,
+    7206
+  ],
+  "combatLevel": 15,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 1,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Crabclaw Isle, Hosidius coast, Crabclaw Caves, Isle of Souls, Avium Savannah, Outer Fortis",
+  "locationId": "sand-crabs-crabclaw-isle",
+  "requirement": "Slayer 1; no combat or quest requirement",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 60,
+    "maxHit": 1,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

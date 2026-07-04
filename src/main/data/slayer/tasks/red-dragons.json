@@ -37,6 +37,7 @@
       "unlockId": "seeing-red",
       "name": "Seeing red",
       "pointsCost": 50,
+      "type": "TASK_UNLOCK",
       "notes": "Konar, Duradel and Nieve will be able to assign Red dragons as a task."
     }
   ],

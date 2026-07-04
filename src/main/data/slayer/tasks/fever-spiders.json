@@ -52,7 +52,7 @@
   "dragon": false,
   "demon": false,
   "kalphite": false,
-  "requiredItemId": 6708,
+  "requiredItemId": 6720,
   "requiredItemName": "Slayer gloves",
   "locationIds": [
     "braindeath-island"
@@ -83,7 +83,7 @@
       "notes": [
         "11 spawns in the brewery basement; the sole Fever spider location.",
         "Many crate safespots; the south-west corner is noted.",
-        "Cannon placement is not wiki-stated; the conservative default is used."
+        "The Fever spider is not cannon-immune (immunecannon=No), but a cannon in the Braindeath Island brewery basement is not wiki-confirmed, so cannonable is kept conservatively false."
       ]
     }
   ],

@@ -4,8 +4,8 @@
   "multi": true,
   "cannon": false,
   "burst": false,
-  "konarLockable": false,
+  "konarLockable": true,
   "safeSpot": true,
   "wilderness": false,
-  "accessNote": "Bloodveld safespotting requires Saradomin and Zamorak item protection; first-time access requires rope. God Wars Bloodveld are Zamorak followers and no superior Bloodveld can spawn here. God Wars Hellhounds are Zamorak followers, count for Zamorak kill count, are safespottable, and are discouraged because their spawns are far and sparse. Spiritual creatures require Death Plateau and either 60 Strength or 60 Agility to receive assignments; main Spiritual creature variants require god-affiliated item protection for tolerance, with Zamorak and usually Saradomin protection recommended."
+  "accessNote": "Bloodveld safespotting requires Saradomin and Zamorak item protection; first-time access requires rope. God Wars Bloodveld are Zamorak followers and no superior Bloodveld can spawn here. God Wars Hellhounds are Zamorak followers, count for Zamorak kill count, are safespottable, and are discouraged because their spawns are far and sparse. Spiritual creatures require Death Plateau and either 60 Strength or 60 Agility to receive assignments; main Spiritual creature variants require god-affiliated item protection for tolerance, with Zamorak and usually Saradomin protection recommended. Cannon nuance: a cannon can physically be set up in the God Wars Dungeon but its inhabitants may destroy it (Dwarf multicannon pageid 13551); wiki task tables split on the verdict (ogres/vampyres Yes, aviansie/bloodveld/hellhounds No), so trust the per-task row here."
 }

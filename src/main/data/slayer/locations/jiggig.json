@@ -1,0 +1,11 @@
+{
+  "locationId": "jiggig",
+  "name": "Jiggig",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": false,
+  "accessNote": "Ogre burial ground west of Castle Wars; Zogres and Skogres spawn here (requires Zogre Flesh Eaters progress). Multicombat, not cannonable, but safespottable. Brutal arrows work best."
+}

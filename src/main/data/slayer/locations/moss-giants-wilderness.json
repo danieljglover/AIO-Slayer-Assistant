@@ -2,10 +2,10 @@
   "locationId": "moss-giants-wilderness",
   "name": "Deep Wilderness",
   "multi": false,
-  "cannon": false,
+  "cannon": true,
   "burst": false,
   "konarLockable": false,
-  "safeSpot": false,
+  "safeSpot": true,
   "wilderness": true,
-  "accessNote": "Moss giants spawn in the deep Wilderness (about 6 free-to-play spawns); only Wilderness kills count towards a Krystilia assignment. This is a PvP area, so bring only expendable gear. The wiki does not document multicombat, cannon, or safespot suitability for this spawn, so those flags are left conservatively false (honest UNKNOWN)."
+  "accessNote": "Moss giants spawn in the deep Wilderness (about 6 free-to-play spawns); only Wilderness kills count towards a Krystilia assignment. This is a PvP area, so bring only expendable gear. The Slayer task/Moss giants table (pageid 298114) lists the Wilderness canoe pond spot as cannonable and safespottable (single-combat, 6 spawns)."
 }

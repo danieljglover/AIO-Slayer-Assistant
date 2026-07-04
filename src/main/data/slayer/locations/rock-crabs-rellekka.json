@@ -1,0 +1,11 @@
+{
+  "locationId": "rock-crabs-rellekka",
+  "name": "Rock Crabs (North of Rellekka)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Rock Crabs are found on the coast directly north of Rellekka, with very plentiful spawn points; other spawns exist at Waterbirth Island, west of Mount Quidamortem, in the Waterbirth Island Dungeon, and in the Brine Rat Cavern. They appear as inactive 'rocks' until a player stands adjacent, then become aggressive; aggression must be reset by leaving and returning after 10 minutes."
+}

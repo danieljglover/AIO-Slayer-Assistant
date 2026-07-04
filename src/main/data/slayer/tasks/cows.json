@@ -1,8 +1,8 @@
 {
   "taskId": "cows",
   "name": "Cows",
-  "wikiPageId": 12398,
-  "combatLevel": null,
+  "wikiPageId": 522977,
+  "combatLevel": 5,
   "slayerTargetId": 283,
   "slayerLevel": 1,
   "questReqs": [],

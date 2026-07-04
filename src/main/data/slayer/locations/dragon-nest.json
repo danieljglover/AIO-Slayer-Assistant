@@ -4,7 +4,7 @@
   "multi": false,
   "cannon": true,
   "burst": false,
-  "konarLockable": true,
+  "konarLockable": false,
   "safeSpot": true,
   "wilderness": false,
   "accessNote": "Blue dragon area contains 5 adults and 2 babies, is close to the bank in Tal Teklan, supports a cannon, can be safespotted, and has a shortcut available with level 40 Agility."

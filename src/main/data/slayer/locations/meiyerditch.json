@@ -4,7 +4,7 @@
   "multi": false,
   "cannon": false,
   "burst": false,
-  "konarLockable": false,
+  "konarLockable": true,
   "safeSpot": false,
   "wilderness": false,
   "accessNote": "Requires starting Darkness of Hallowvale. Contains Vampyre Juvinates and many Vyrewatch across the city."

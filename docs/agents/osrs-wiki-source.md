@@ -187,9 +187,10 @@ remain the preferred source for per-task `amount`, `multi`, `cannon`, `burst`,
 For every migrated page:
 
 - record OSRS Wiki source URLs used
-- record page IDs and revision IDs when tests or docs depend on source evidence
-- run focused source coverage tests for data migrations
-- run `./gradlew test --tests 'com.danieljglover.allinslayer.data.source.*'`
-  after source-data changes
-- run `./gradlew cleanTest test` before claiming a migration is complete
+- record page IDs and revision IDs when docs depend on source evidence
 - run `jq empty` across changed JSON files before claiming JSON source validity
+- run `./gradlew generateSlayerData` so the compiler validates IDs and
+  cross-file references
+- run `./gradlew build` before claiming a migration is complete; there are no
+  automated tests by design - the owner verifies behavior manually with
+  `./gradlew run`

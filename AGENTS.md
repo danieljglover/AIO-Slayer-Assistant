@@ -6,14 +6,10 @@ performs game actions.
 
 ## Commands
 
-- `./gradlew cleanTest test`: full verification; run before claiming code or
-  data migrations are complete.
-- `./gradlew test --tests 'com.danieljglover.allinslayer.data.source.*'`:
-  modular Slayer source coverage tests.
-- `./gradlew test --tests com.danieljglover.allinslayer.data.source.WaterfiendsSourceCoverageTest`:
-  example single source-coverage test.
+- `./gradlew build`: compile verification; run before claiming code or data
+  migrations are complete.
 - `./gradlew generateSlayerData`: compile modular Slayer source JSON into the
-  generated runtime resource.
+  generated runtime resource; also validates IDs and cross-file references.
 - `find src/main/data/slayer -type f -name '*.json' -print0 | xargs -0 -n1 jq empty`:
   validate all Slayer source JSON files.
 - `./gradlew run`: launch RuneLite with the plugin loaded for manual testing.
@@ -38,7 +34,7 @@ performs game actions.
 
 ## Code Style
 
-- Java targets release 11; tests use JUnit 4 and Mockito.
+- Java targets release 11.
 - Follow existing package boundaries. Put source-data models and compiler logic
   in `data/source`, runtime plugin models in `model`, and UI code in `ui`.
 - Existing source DTOs use Lombok `@Data` and `@NoArgsConstructor`; match that
@@ -86,7 +82,7 @@ Detailed field interpretation: `docs/agents/slayer-data-source.md`.
 
 For Slayer data migrations, verify against current OSRS Wiki MediaWiki source
 through the API, not just rendered HTML. Record source URLs, page IDs, revision
-IDs, and timestamps when tests or docs depend on that evidence.
+IDs, and timestamps when docs depend on that evidence.
 
 Use this pattern:
 
@@ -104,16 +100,18 @@ their full strategy on `Slayer_task/<monster>` instead.
 
 Detailed MediaWiki syntax notes: `docs/agents/osrs-wiki-source.md`.
 
-## Testing
+## Verification
 
-- Data-only changes need focused source coverage plus the source suite:
-  `./gradlew test --tests 'com.danieljglover.allinslayer.data.source.*'`.
-- JSON source edits also need `jq empty` across changed files, or all Slayer
-  JSON files when the migration is broad.
-- Shared compiler, runtime model, or plugin behavior changes need
-  `./gradlew cleanTest test`.
-- UI or RuneLite-client behavior changes should compile and, where possible, be
-  manually checked with `./gradlew run`.
+This project has NO automated tests by design: the owner tests everything
+manually. Do not create test files, test source sets, or JUnit/Mockito
+dependencies.
+
+- JSON source edits need `jq empty` across changed files, or all Slayer JSON
+  files when the migration is broad, plus a `./gradlew generateSlayerData` run
+  so the compiler validates IDs and cross-file references.
+- Code changes need `./gradlew build` to compile cleanly.
+- Behavior is verified manually with `./gradlew run` (the dev source set's
+  `AllInSlayerPluginLauncher` boots RuneLite with the plugin loaded).
 
 ## Security And Boundaries
 
@@ -129,7 +127,7 @@ Detailed MediaWiki syntax notes: `docs/agents/osrs-wiki-source.md`.
 ## Git And Docs
 
 - Commit messages should be concise and conventional where practical, for
-  example `docs: update agent instructions` or `test: pin waterfiends source`.
+  example `docs: update agent instructions` or `data: pin waterfiends source`.
 - Root `AGENTS.md` should stay concise. Add detailed, project-specific agent
   references under `docs/agents/` and link them from this file.
 - Avoid duplicating README or manifest information unless agents regularly get

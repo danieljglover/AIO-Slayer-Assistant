@@ -1,0 +1,19 @@
+{
+  "variantId": "kolodion-final-form",
+  "name": "Kolodion (final form)",
+  "npcIds": [
+    1609
+  ],
+  "combatLevel": 112,
+  "weakness": null,
+  "monsterDefence": null,
+  "demon": true,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Mage Arena (Kolodion battle, final form)",
+  "requirement": "Mage Arena miniquest battle (one-time, final demon form only); magic-only zone; counts toward a black demon task",
+  "bossId": null,
+  "strategyId": null
+}

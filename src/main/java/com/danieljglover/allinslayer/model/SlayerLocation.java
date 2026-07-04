@@ -28,6 +28,22 @@ public class SlayerLocation
     private LocationQuality quality;
 
     /**
+     * Cannon usability for THIS task at this location. The task-scoped {@link
+     * LocationQuality#getCannonable() cannonable} overlay wins when authored: it carries per-area truth
+     * the shared location flag cannot (partial in-dungeon cannon bans like Karuulm's wyrm/Alchemical
+     * Hydra areas, and cannon-immune targets like kurask in the Iorwerth Dungeon). An absent overlay or
+     * null flag falls back to the location's {@code cannon} flag (FR-6).
+     */
+    public boolean isCannonEffective()
+    {
+        if (quality != null && quality.getCannonable() != null)
+        {
+            return quality.getCannonable();
+        }
+        return cannon;
+    }
+
+    /**
      * Backward-compatible constructor for locations without the WD-5a quality overlay: {@code quality
      * = null}. Keeps the compiler emission (DT-B4) and every 8-arg call site compiling and byte-
      * identical for tasks lacking a locationComparison.

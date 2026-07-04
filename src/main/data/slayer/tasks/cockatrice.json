@@ -7,16 +7,22 @@
   "slayerLevel": 25,
   "questReqs": [],
   "masterIds": [
-    "mazchna"
+    "mazchna",
+    "vannaka"
   ],
   "amountByMaster": {
     "mazchna": [
       30,
       50
+    ],
+    "vannaka": [
+      40,
+      90
     ]
   },
   "weightByMaster": {
-    "mazchna": 8
+    "mazchna": 8,
+    "vannaka": 8
   },
   "unlocks": [],
   "monsterIds": [

@@ -1,0 +1,41 @@
+{
+  "variantId": "giant-rock-crab",
+  "name": "Giant Rock Crab",
+  "npcIds": [
+    2261,
+    5940
+  ],
+  "combatLevel": 137,
+  "weakness": {
+    "style": "MAGIC",
+    "element": "EARTH"
+  },
+  "monsterDefence": {
+    "defenceLevel": 200,
+    "stab": 225,
+    "slash": 200,
+    "crush": 175,
+    "magic": -10,
+    "range": 250
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Waterbirth Island Dungeon",
+  "locationId": "waterbirth-island-dungeon",
+  "requirement": "Slayer 1; no combat or quest requirement (very high Defence, kill only for drops such as rock-shell armour and medium clue scrolls)",
+  "bossId": null,
+  "strategyId": null,
+  "offence": {
+    "hitpoints": 180,
+    "maxHit": 9,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  }
+}

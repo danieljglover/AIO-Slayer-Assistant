@@ -1,0 +1,95 @@
+{
+  "taskId": "otherworldly-beings",
+  "name": "Otherworldly beings",
+  "wikiPageId": 13550,
+  "combatLevel": 40,
+  "slayerTargetId": 306,
+  "slayerLevel": 0,
+  "questReqs": [
+    "Lost City"
+  ],
+  "masterIds": [
+    "vannaka"
+  ],
+  "amountByMaster": {
+    "vannaka": [
+      40,
+      90
+    ]
+  },
+  "weightByMaster": {
+    "vannaka": 8
+  },
+  "extendedAmount": {},
+  "unlocks": [],
+  "monsterIds": [
+    "otherworldly-beings"
+  ],
+  "variantIds": [
+    "otherworldly-being"
+  ],
+  "defaultVariantId": "otherworldly-being",
+  "weakness": {
+    "style": "MAGIC",
+    "element": "air"
+  },
+  "monsterDefence": {
+    "defenceLevel": 46,
+    "stab": 15,
+    "slash": 10,
+    "crush": 20,
+    "magic": -5,
+    "range": 15
+  },
+  "slayerHelmApplies": true,
+  "undead": false,
+  "dragon": false,
+  "demon": false,
+  "kalphite": false,
+  "requiredItemId": null,
+  "requiredItemName": null,
+  "locationIds": [
+    "zanaris-otherworldly-beings"
+  ],
+  "variantInfo": [
+    {
+      "variantId": "otherworldly-being",
+      "name": "Otherworldly being",
+      "combatLevel": 64,
+      "slayerXp": 66,
+      "locations": [
+        "Zanaris"
+      ],
+      "notes": [
+        "Assigned only by Vannaka; requires combat level 40 and completion of Lost City.",
+        "66 Hitpoints, max hit 7 (Crush), 4-tick attack speed; Defence level 46 (stab 15, slash 10, crush 20, magic -5, ranged 15) with a -2 flat armour value.",
+        "35% elemental weakness to air (wind) spells; considered spectral, so the Ectoplasmator grants Prayer XP on kill.",
+        "Found in Zanaris, south of the bank by the flower pond; can be safespotted or corner-trapped on the pond corners."
+      ]
+    }
+  ],
+  "locationComparison": [
+    {
+      "locationId": "zanaris-otherworldly-beings",
+      "name": "Zanaris (south of the bank, flower pond)",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": true,
+      "safespottable": true,
+      "notes": [
+        "Six Otherworldly beings roam south of the Zanaris bank by the flower pond; Lost City is required for access.",
+        "Safespot by standing next to the pond and attacking across it, or corner-trap on the pond corners; five of the six have a wander radius that allows safespotting, though they move around a lot.",
+        "They are weak to air spells (35%), making Magic a strong option; also a source of runes, herbs, and Magic XP."
+      ]
+    }
+  ],
+  "taskNotes": [
+    "Otherworldly beings are assigned only by Vannaka (40-90), weighting 8, with no extended amount.",
+    "Assignment requires combat level 40 and completion of Lost City; no Slayer level requirement (slayerLevel set to 0).",
+    "The dedicated Slayer_task/Otherworldly beings wiki page does not exist; data was taken from the Otherworldly being monster page (pageid 13550, revid 15199250, 2026-04-28). Assignment values (Vannaka 40-90, weighting 8) were verified against Vannaka's task table on 2026-07-03.",
+    "slayerTargetId 306 is SYNTHETIC (extends the existing synthetic 285-305 allocation block); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "Otherworldly beings have 66 Hitpoints, max hit 7 (Crush), 4-tick attack speed, and Defence level 46; a 25 June 2025 update gave them a 35% air weakness and a -2 flat armour value.",
+    "Considered spectral: the Ectoplasmator grants Prayer XP on kill. Not undead."
+  ],
+  "recommendedMethod": "Complete Lost City and reach combat level 40, then travel to Zanaris (via a fairy ring or the Lost City route). The Otherworldly beings roam south of the bank by the flower pond. They have a 35% weakness to air spells, so Magic (air spells) is the most effective style; melee also works given their modest defences. Safespot them across the flower pond or corner-trap them on the pond corners to avoid taking damage, as they can be hard to pin down when they wander."
+}
