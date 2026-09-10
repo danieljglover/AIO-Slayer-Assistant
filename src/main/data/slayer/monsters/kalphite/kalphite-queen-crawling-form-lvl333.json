@@ -24,8 +24,8 @@
   "undead": false,
   "boss": true,
   "location": "Kalphite Lair",
-  "locationId": "kalphite-lair",
-  "requirement": "boss - separate trip",
+  "locationId": "kalphite-queen-lair",
+  "requirement": null,
   "bossId": null,
   "strategyId": "kalphite-queen-crawling-form"
 }

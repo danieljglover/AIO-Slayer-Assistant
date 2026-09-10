@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "West of the Lava Maze, ~Level 38+ Wilderness",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "chaos-fanatic"
+  "strategyId": "chaos-fanatic",
+  "locationId": "chaos-fanatic-lava-maze"
 }

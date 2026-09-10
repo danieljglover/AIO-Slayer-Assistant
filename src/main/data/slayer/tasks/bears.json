@@ -1,7 +1,7 @@
 {
   "taskId": "bears",
   "name": "Bears",
-  "wikiPageId": null,
+  "wikiPageId": 297754,
   "combatLevel": 13,
   "slayerTargetId": 253,
   "slayerLevel": 1,
@@ -43,7 +43,9 @@
   "variantIds": [
     "grizzly-bear",
     "grizzly-bear-cub",
-    "black-bear"
+    "black-bear",
+    "callisto",
+    "artio"
   ],
   "defaultVariantId": "grizzly-bear",
   "weakness": {
@@ -67,7 +69,9 @@
   "requiredItemName": null,
   "locationIds": [
     "bears-wilderness",
-    "bears-area"
+    "bears-area",
+    "callistos-den",
+    "hunters-end"
   ],
   "variantInfo": [
     {
@@ -115,6 +119,34 @@
         "Attacks with slash (4-tick); 30% weakness to fire spells (June 2025).",
         "A common non-Wilderness bear for Turael, Spria, and Mazchna tasks."
       ]
+    },
+    {
+      "variantId": "callisto",
+      "name": "Callisto",
+      "combatLevel": 470,
+      "slayerXp": 1300.0,
+      "locations": [
+        "Callisto's Den"
+      ],
+      "notes": [
+        "Counts for Bears tasks, including Krystilia assignments in the Wilderness.",
+        "Requires the Medium Wilderness Diary for a Bears task; a matching Callisto boss task can bypass the diary requirement.",
+        "Boss alternative with Wilderness player killing risk; use the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "artio",
+      "name": "Artio",
+      "combatLevel": 320,
+      "slayerXp": 518.0,
+      "locations": [
+        "Hunter's End"
+      ],
+      "notes": [
+        "Counts for Bears tasks, including Krystilia assignments in the Wilderness.",
+        "Requires the Hard Wilderness Diary for a Bears task; a matching Callisto boss task can bypass the diary requirement.",
+        "Boss alternative with Wilderness player killing risk; use the dedicated strategy."
+      ]
     }
   ],
   "locationComparison": [
@@ -147,11 +179,11 @@
   ],
   "taskNotes": [
     "Bears can be assigned by Krystilia (Wilderness, 65-100), Turael and Spria (10-20), and Mazchna (30-50); no Slayer level is required, only 13 combat.",
-    "Black bears, bear cubs, grizzly bears, grizzly bear cubs, reanimated bears, and Callisto count for the task; Angry bears, the Headless Beast, and Crystalline/Corrupted Bears do NOT count.",
+    "Black bears, bear cubs, grizzly bears, grizzly bear cubs, reanimated bears, Artio, and Callisto count for the task; Angry bears, the Headless Beast, and Crystalline/Corrupted Bears do NOT count.",
     "Krystilia's bears must be killed in the Wilderness (west of the Graveyard of Shadows or near the Dark Warriors' Fortress); starter-master bears are killed anywhere.",
     "Grizzly bear cubs are found only in Isafdar and require partial completion of Regicide to reach.",
     "Bears have a fire spell weakness (grizzly 20%, black bear 30% as of June 2025) but are trivial with any melee weapon.",
-    "The slayerTargetId 253 is SYNTHETIC (C2/C3 allocation contract, worklist §1); the real SLAYER_TARGET varp value is a QA live-verify item."
+    "The slayerTargetId 253 is SYNTHETIC (C2/C3 allocation contract, worklist \u00a71); the real SLAYER_TARGET varp value is a QA live-verify item."
   ],
-  "recommendedMethod": "Kill any counting bear with any melee weapon - they have negligible Defence and low Hitpoints. Krystilia tasks must be done in the Wilderness (bring only risk-appropriate gear); starter-master tasks are fastest at the Fremennik Province woods or around the Mind Altar."
+  "recommendedMethod": "Kill ordinary bears with any melee weapon - they have negligible Defence and low Hitpoints. Krystilia tasks must be done in the Wilderness (bring only risk-appropriate gear); starter-master tasks are fastest at the Fremennik Province woods or around the Mind Altar. Callisto and Artio are slower boss alternatives with dedicated preparation."
 }

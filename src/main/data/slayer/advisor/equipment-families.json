@@ -1,0 +1,379 @@
+{
+  "optionFamilies": {
+    "Cape of Accomplishment": [
+      "Attack cape(t)",
+      "Strength cape(t)",
+      "Defence cape(t)",
+      "Ranging cape(t)",
+      "Prayer cape(t)",
+      "Magic cape(t)",
+      "Hitpoints cape(t)",
+      "Agility cape(t)",
+      "Herblore cape(t)",
+      "Thieving cape(t)",
+      "Crafting cape(t)",
+      "Fletching cape(t)",
+      "Slayer cape(t)",
+      "Hunter cape(t)",
+      "Mining cape(t)",
+      "Smithing cape(t)",
+      "Fishing cape(t)",
+      "Cooking cape(t)",
+      "Firemaking cape(t)",
+      "Woodcut. cape(t)",
+      "Runecraft cape(t)",
+      "Farming cape(t)",
+      "Construct. cape(t)",
+      "Sailing cape(t)",
+      "Attack cape",
+      "Strength cape",
+      "Defence cape",
+      "Ranging cape",
+      "Prayer cape",
+      "Magic cape",
+      "Hitpoints cape",
+      "Agility cape",
+      "Herblore cape",
+      "Thieving cape",
+      "Crafting cape",
+      "Fletching cape",
+      "Slayer cape",
+      "Hunter cape",
+      "Mining cape",
+      "Smithing cape",
+      "Fishing cape",
+      "Cooking cape",
+      "Firemaking cape",
+      "Woodcutting cape",
+      "Runecraft cape",
+      "Farming cape",
+      "Construct. cape",
+      "Sailing cape"
+    ],
+    "Cape of Accomplishment (t)": [
+      "Attack cape(t)",
+      "Strength cape(t)",
+      "Defence cape(t)",
+      "Ranging cape(t)",
+      "Prayer cape(t)",
+      "Magic cape(t)",
+      "Hitpoints cape(t)",
+      "Agility cape(t)",
+      "Herblore cape(t)",
+      "Thieving cape(t)",
+      "Crafting cape(t)",
+      "Fletching cape(t)",
+      "Slayer cape(t)",
+      "Hunter cape(t)",
+      "Mining cape(t)",
+      "Smithing cape(t)",
+      "Fishing cape(t)",
+      "Cooking cape(t)",
+      "Firemaking cape(t)",
+      "Woodcut. cape(t)",
+      "Runecraft cape(t)",
+      "Farming cape(t)",
+      "Construct. cape(t)",
+      "Sailing cape(t)"
+    ],
+    "Cape of Accomplishment(t)": [
+      "Attack cape(t)",
+      "Strength cape(t)",
+      "Defence cape(t)",
+      "Ranging cape(t)",
+      "Prayer cape(t)",
+      "Magic cape(t)",
+      "Hitpoints cape(t)",
+      "Agility cape(t)",
+      "Herblore cape(t)",
+      "Thieving cape(t)",
+      "Crafting cape(t)",
+      "Fletching cape(t)",
+      "Slayer cape(t)",
+      "Hunter cape(t)",
+      "Mining cape(t)",
+      "Smithing cape(t)",
+      "Fishing cape(t)",
+      "Cooking cape(t)",
+      "Firemaking cape(t)",
+      "Woodcut. cape(t)",
+      "Runecraft cape(t)",
+      "Farming cape(t)",
+      "Construct. cape(t)",
+      "Sailing cape(t)"
+    ],
+    "Rada's blessing": [
+      "Rada's blessing 4",
+      "Rada's blessing 3",
+      "Rada's blessing 2",
+      "Rada's blessing 1"
+    ],
+    "Blessed d'hide boots": [
+      "Ancient d'hide boots",
+      "Armadyl d'hide boots",
+      "Bandos d'hide boots",
+      "Guthix d'hide boots",
+      "Saradomin d'hide boots",
+      "Zamorak d'hide boots"
+    ],
+    "Blessed boots": [
+      "Ancient d'hide boots",
+      "Armadyl d'hide boots",
+      "Bandos d'hide boots",
+      "Guthix d'hide boots",
+      "Saradomin d'hide boots",
+      "Zamorak d'hide boots"
+    ],
+    "Blessed d'hide coif": [
+      "Ancient coif",
+      "Armadyl coif",
+      "Bandos coif",
+      "Guthix coif",
+      "Saradomin coif",
+      "Zamorak coif"
+    ],
+    "Blessed coif": [
+      "Ancient coif",
+      "Armadyl coif",
+      "Bandos coif",
+      "Guthix coif",
+      "Saradomin coif",
+      "Zamorak coif"
+    ],
+    "Blessed d'hide shield": [
+      "Ancient d'hide shield",
+      "Armadyl d'hide shield",
+      "Bandos d'hide shield",
+      "Guthix d'hide shield",
+      "Saradomin d'hide shield",
+      "Zamorak d'hide shield"
+    ],
+    "Blessed shield": [
+      "Ancient d'hide shield",
+      "Armadyl d'hide shield",
+      "Bandos d'hide shield",
+      "Guthix d'hide shield",
+      "Saradomin d'hide shield",
+      "Zamorak d'hide shield"
+    ],
+    "Broodoo shield": [
+      "Broodoo shield (combat)",
+      "Broodoo shield (disease)",
+      "Broodoo shield (poison)"
+    ],
+    "Cape of accomplishment": [
+      "Attack cape(t)",
+      "Strength cape(t)",
+      "Defence cape(t)",
+      "Ranging cape(t)",
+      "Prayer cape(t)",
+      "Magic cape(t)",
+      "Hitpoints cape(t)",
+      "Agility cape(t)",
+      "Herblore cape(t)",
+      "Thieving cape(t)",
+      "Crafting cape(t)",
+      "Fletching cape(t)",
+      "Slayer cape(t)",
+      "Hunter cape(t)",
+      "Mining cape(t)",
+      "Smithing cape(t)",
+      "Fishing cape(t)",
+      "Cooking cape(t)",
+      "Firemaking cape(t)",
+      "Woodcut. cape(t)",
+      "Runecraft cape(t)",
+      "Farming cape(t)",
+      "Construct. cape(t)",
+      "Sailing cape(t)",
+      "Attack cape",
+      "Strength cape",
+      "Defence cape",
+      "Ranging cape",
+      "Prayer cape",
+      "Magic cape",
+      "Hitpoints cape",
+      "Agility cape",
+      "Herblore cape",
+      "Thieving cape",
+      "Crafting cape",
+      "Fletching cape",
+      "Slayer cape",
+      "Hunter cape",
+      "Mining cape",
+      "Smithing cape",
+      "Fishing cape",
+      "Cooking cape",
+      "Firemaking cape",
+      "Woodcutting cape",
+      "Runecraft cape",
+      "Farming cape",
+      "Construct. cape",
+      "Sailing cape"
+    ]
+  },
+  "itemAliases": {
+    "Woodcutting cape(t)": "Woodcut. cape(t)",
+    "Construction cape": "Construct. cape",
+    "Construction cape(t)": "Construct. cape(t)"
+  },
+  "familyEvidence": {
+    "Cape of Accomplishment": [
+      {
+        "url": "https://oldschool.runescape.wiki/w/Cape_of_Accomplishment",
+        "title": "Cape of Accomplishment",
+        "pageId": 10501,
+        "revisionId": 15327887,
+        "timestamp": "2026-09-02T00:25:20Z",
+        "missing": false
+      }
+    ],
+    "Rada's blessing": [
+      {
+        "url": "https://oldschool.runescape.wiki/w/Rada's_blessing",
+        "title": "Rada's blessing",
+        "pageId": 200557,
+        "revisionId": 15089496,
+        "timestamp": "2025-12-18T17:49:45Z",
+        "missing": false
+      }
+    ],
+    "Blessed d'hide boots": [
+      {
+        "url": "https://oldschool.runescape.wiki/w/Blessed_dragonhide_armour",
+        "title": "Blessed dragonhide armour",
+        "pageId": 25252,
+        "revisionId": 15066378,
+        "timestamp": "2025-11-25T21:17:49Z",
+        "missing": false
+      }
+    ],
+    "Blessed d'hide coif": [
+      {
+        "url": "https://oldschool.runescape.wiki/w/Blessed_dragonhide_armour",
+        "title": "Blessed dragonhide armour",
+        "pageId": 25252,
+        "revisionId": 15066378,
+        "timestamp": "2025-11-25T21:17:49Z",
+        "missing": false
+      }
+    ],
+    "Blessed d'hide shield": [
+      {
+        "url": "https://oldschool.runescape.wiki/w/Blessed_dragonhide_armour",
+        "title": "Blessed dragonhide armour",
+        "pageId": 25252,
+        "revisionId": 15066378,
+        "timestamp": "2025-11-25T21:17:49Z",
+        "missing": false
+      }
+    ],
+    "God book": [
+      {
+        "url": "https://oldschool.runescape.wiki/w/God_book",
+        "title": "God book",
+        "pageId": 9534,
+        "revisionId": 15314632,
+        "timestamp": "2026-08-20T23:36:09Z",
+        "missing": false
+      },
+      {
+        "url": "https://oldschool.runescape.wiki/w/Holy_book",
+        "title": "Holy book",
+        "pageId": 13151,
+        "revisionId": 15320125,
+        "timestamp": "2026-08-25T22:20:54Z",
+        "missing": false
+      },
+      {
+        "url": "https://oldschool.runescape.wiki/w/Unholy_book",
+        "title": "Unholy book",
+        "pageId": 15304,
+        "revisionId": 15320126,
+        "timestamp": "2026-08-25T22:21:06Z",
+        "missing": false
+      },
+      {
+        "url": "https://oldschool.runescape.wiki/w/Book_of_Balance",
+        "title": "Book of Balance",
+        "pageId": 11489,
+        "revisionId": 15320127,
+        "timestamp": "2026-08-25T22:21:18Z",
+        "missing": false
+      },
+      {
+        "url": "https://oldschool.runescape.wiki/w/Book_of_War",
+        "title": "Book of War",
+        "pageId": 39087,
+        "revisionId": 15320128,
+        "timestamp": "2026-08-25T22:21:28Z",
+        "missing": false
+      },
+      {
+        "url": "https://oldschool.runescape.wiki/w/Book_of_Law",
+        "title": "Book of Law",
+        "pageId": 39086,
+        "revisionId": 15320129,
+        "timestamp": "2026-08-25T22:21:36Z",
+        "missing": false
+      },
+      {
+        "url": "https://oldschool.runescape.wiki/w/Book_of_Darkness",
+        "title": "Book of Darkness",
+        "pageId": 39079,
+        "revisionId": 15320130,
+        "timestamp": "2026-08-25T22:21:41Z",
+        "missing": false
+      }
+    ],
+    "Broodoo shield": [
+      {
+        "url": "https://oldschool.runescape.wiki/w/Broodoo_shield",
+        "title": "Broodoo shield",
+        "pageId": 10486,
+        "revisionId": 15261109,
+        "timestamp": "2026-07-11T16:45:24Z",
+        "missing": false
+      }
+    ]
+  },
+  "familyNotes": {
+    "Cape of Accomplishment": [
+      "This requested skillcape expansion contains all 24 individual skills including Sailing. Quest point, music, achievement diary, and max capes belong to the wider Wiki category but are intentionally not silently substituted into this skill-only expansion.",
+      "All trimmed skillcapes share basic equipment bonuses and precede the untrimmed group because of +4 Prayer. Ordering within each group is stable membership order, not a ranking of individual cape perks.",
+      "Apply itemUpdates as well as items: existing trimmed aliases otherwise keep untrimmed IDs under the same option."
+    ],
+    "Rada's blessing": [
+      "Tier order is 4, 3, 2, 1. Tier 4 provides +2 Prayer, tiers 3 and 2 +1, tier 1 zero; all are nonstackable AMMO-slot blessings, not fired ammunition.",
+      "Tier 3 and tier 2 have the same equipment bonus; their diary utility differs."
+    ],
+    "Blessed d'hide boots": [
+      "The six gods have identical equipment bonuses in this slot. Alphabetical god order is stable membership order, not a combat ranking.",
+      "Do not replace a specifically required god-protection item with an arbitrary family member; god affiliation is not equivalent."
+    ],
+    "Blessed d'hide coif": [
+      "The six gods have identical equipment bonuses in this slot. Alphabetical god order is stable membership order, not a combat ranking.",
+      "Do not replace a specifically required god-protection item with an arbitrary family member; god affiliation is not equivalent."
+    ],
+    "Blessed d'hide shield": [
+      "The six gods have identical equipment bonuses in this slot. Alphabetical god order is stable membership order, not a combat ranking.",
+      "Do not replace a specifically required god-protection item with an arbitrary family member; god affiliation is not equivalent."
+    ],
+    "God book": [
+      "Membership contains only the six completed books; damaged and incomplete books do not grant the same attack/defence bonuses.",
+      "No global best-first order is supplied in optionFamilies. Proposed style orders are authoring inferences from the pinned bonuses, not a Wiki ranking.",
+      "Magic: Darkness +10 Magic accuracy, Unholy +8, Balance +4, remaining books 0. Ranged: Law +10 Ranged accuracy, Unholy +8, Balance +4, remaining books 0.",
+      "Melee: War gives +2 Strength while Unholy gives +8 melee accuracy. Their best choice depends on target defence and max-hit breakpoints. The suggested War-then-Unholy order is a strength-priority convention, not a universal comparison.",
+      "Defensive: Holy +8 all defence, Balance +4 all defence, remaining books 0. All six completed books give +5 Prayer.",
+      "God allegiance remains relevant to explicit god-protection constraints."
+    ],
+    "Broodoo shield": [
+      "All three colours have the same equipment bonuses. Their passive effect drains different opponent combat stats; family equivalence applies to equipment bonuses only.",
+      "Every concrete colour record includes all eleven raw-Wiki item IDs, including zero charges. Do not globally reject uncharged shields as unusable."
+    ]
+  },
+  "notes": [
+    "God book remains contextual guidance: source bonus differences do not establish one global combat priority.",
+    "Stable membership order within equal-stat cosmetic or skillcape tiers does not rank god protection or cape utility."
+  ]
+}

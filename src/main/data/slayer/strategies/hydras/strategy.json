@@ -105,6 +105,13 @@
         "Take the task to the Alchemical Hydra on the lower level of Karuulm Slayer Dungeon, past the Tasakaal.",
         "The boss can only be killed while on a hydra Slayer task and offers very lucrative common drops.",
         "Follow the boss strategy: lure it over the matching coloured vent each phase to remove its 75% damage reduction."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      },
+      "notes": [
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
       ]
     },
     {

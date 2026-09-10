@@ -91,7 +91,12 @@
       "notes": [
         "Abyssal whip is a 1/512 drop; Abyssal dagger is much rarer.",
         "Catacombs kills can add Dark totem value, and Greater abyssal demons in the Catacombs always drop a Dark totem piece."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "catacombs-magic",
@@ -244,7 +249,12 @@
         "Kodai wand gives high magic damage, infinite water runes, and rune-saving utility.",
         "Elidinis' ward (f), Occult necklace, Tormented bracelet, Virtus robes, Ancestral robes, imbued god capes, and Magus ring increase damage or kill speed.",
         "Slayer helmet (i) should be used because this is a Slayer task."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "catacombs-ranged",
@@ -360,7 +370,12 @@
         "Teleport to house tablet",
         "Ash sanctifier",
         "Rune pouch with Fire and Nature runes"
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "wilderness-slayer-cave",
@@ -461,7 +476,12 @@
       "notes": [
         "Magic damage and prayer bonus matter more than magic accuracy because Abyssal demons have low magic defence.",
         "Dinh's bulwark is recommended as an escape option and can also be used to gain aggression."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "melee",
@@ -570,6 +590,11 @@
             "Dragon dagger(p++)"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     }
   ],
@@ -606,6 +631,11 @@
             "Eldritch nightmare staff"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -630,6 +660,11 @@
             "Ring of the gods (i)"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -653,6 +688,11 @@
             "Dinh's bulwark"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -683,6 +723,11 @@
             "Dragon dagger(p++)"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     }
   ]

@@ -1,0 +1,980 @@
+{
+  "notes": [
+    "All Wilderness catalogue locations have explicit profiles. Unknown depth (-1/-1) must be assessed above level 20.",
+    "Ranges include documented encounter exposure; alternate travel routes may be deeper. King Black Dragon chamber is safe but access crosses level42-43 Wilderness.",
+    "Shared boss entryFee50,000 gp is a conservative maximum; qualifying kills reduce it and leaving Wilderness changes liability. Revenant Caves fee100,000 gp is additional.",
+    "Wilderness Slayer Cave table contains chambers reaching33 even though lead says32; widest reviewed chamber range17-33 is used.",
+    "Family-specific areas lacking an exact reviewed spawn range remain unknown instead of inheriting a possibly wrong nearby named area depth."
+  ],
+  "areas": {
+    "axe-hut": {
+      "minLevel": 54,
+      "maxLevel": 54,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Magic_axe_hut",
+          "title": "Magic axe hut",
+          "pageId": 96168,
+          "revisionId": 15271678,
+          "timestamp": "2026-07-22T01:08:46Z",
+          "missing": false
+        }
+      ]
+    },
+    "bandit-camp-wilderness": {
+      "minLevel": 17,
+      "maxLevel": 24,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Bandit_Camp_(Wilderness)",
+          "title": "Bandit Camp (Wilderness)",
+          "pageId": 25534,
+          "revisionId": 15332929,
+          "timestamp": "2026-09-07T00:19:37Z",
+          "missing": false
+        }
+      ]
+    },
+    "bandit-camp-wilderness-black-knights": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "bears-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "callistos-den": {
+      "minLevel": 40,
+      "maxLevel": 40,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 50000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto's_Den",
+          "title": "Callisto's Den",
+          "pageId": 374963,
+          "revisionId": 15165439,
+          "timestamp": "2026-04-04T19:15:47Z",
+          "missing": false
+        }
+      ]
+    },
+    "chaos-druid-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville_Dungeon",
+          "title": "Edgeville Dungeon",
+          "pageId": 15477,
+          "revisionId": 15285142,
+          "timestamp": "2026-08-01T15:03:19Z",
+          "missing": false
+        }
+      ]
+    },
+    "chaos-elemental-rogues-castle": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Rogues'_Castle",
+          "title": "Rogues' Castle",
+          "pageId": 29130,
+          "revisionId": 15215668,
+          "timestamp": "2026-05-23T18:10:14Z",
+          "missing": false
+        }
+      ]
+    },
+    "chaos-fanatic-lava-maze": {
+      "minLevel": 42,
+      "maxLevel": 42,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Chaos_Fanatic",
+          "title": "Chaos Fanatic",
+          "pageId": 31314,
+          "revisionId": 15295376,
+          "timestamp": "2026-08-13T00:23:08Z",
+          "missing": false
+        }
+      ]
+    },
+    "chaos-temple-wilderness": {
+      "minLevel": 11,
+      "maxLevel": 12,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Chaos_Temple_(Wilderness)",
+          "title": "Chaos Temple (Wilderness)",
+          "pageId": 31266,
+          "revisionId": 15286798,
+          "timestamp": "2026-08-04T02:33:59Z",
+          "missing": false
+        }
+      ]
+    },
+    "dark-warriors-fortress": {
+      "minLevel": 14,
+      "maxLevel": 16,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Dark_Warriors'_Fortress",
+          "title": "Dark Warriors' Fortress",
+          "pageId": 29787,
+          "revisionId": 15285152,
+          "timestamp": "2026-08-01T15:25:41Z",
+          "missing": false
+        }
+      ]
+    },
+    "deep-wilderness-dungeon-fire-giants": {
+      "minLevel": 49,
+      "maxLevel": 56,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Deep_Wilderness_Dungeon",
+          "title": "Deep Wilderness Dungeon",
+          "pageId": 31530,
+          "revisionId": 15293947,
+          "timestamp": "2026-08-12T18:11:30Z",
+          "missing": false
+        }
+      ]
+    },
+    "demonic-ruins": {
+      "minLevel": 44,
+      "maxLevel": 48,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Demonic_Ruins",
+          "title": "Demonic Ruins",
+          "pageId": 22138,
+          "revisionId": 15303154,
+          "timestamp": "2026-08-16T15:56:24Z",
+          "missing": false
+        }
+      ]
+    },
+    "earth-warriors-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville_Dungeon",
+          "title": "Edgeville Dungeon",
+          "pageId": 15477,
+          "revisionId": 15285142,
+          "timestamp": "2026-08-01T15:03:19Z",
+          "missing": false
+        }
+      ]
+    },
+    "edgeville-dungeon-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville_Dungeon",
+          "title": "Edgeville Dungeon",
+          "pageId": 15477,
+          "revisionId": 15285142,
+          "timestamp": "2026-08-01T15:03:19Z",
+          "missing": false
+        }
+      ]
+    },
+    "edgeville-dungeon-wilderness-skeletons": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville_Dungeon",
+          "title": "Edgeville Dungeon",
+          "pageId": 15477,
+          "revisionId": 15285142,
+          "timestamp": "2026-08-01T15:03:19Z",
+          "missing": false
+        }
+      ]
+    },
+    "ent-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "forgotten-cemetery": {
+      "minLevel": 30,
+      "maxLevel": 30,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/The_Forgotten_Cemetery",
+          "title": "The Forgotten Cemetery",
+          "pageId": 28983,
+          "revisionId": 15266153,
+          "timestamp": "2026-07-17T15:29:29Z",
+          "missing": false
+        }
+      ]
+    },
+    "frozen-waste-plateau": {
+      "minLevel": 50,
+      "maxLevel": 50,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Frozen_Waste_Plateau",
+          "title": "Frozen Waste Plateau",
+          "pageId": 21650,
+          "revisionId": 15275973,
+          "timestamp": "2026-07-26T19:29:15Z",
+          "missing": false
+        }
+      ]
+    },
+    "graveyard-of-shadows": {
+      "minLevel": 18,
+      "maxLevel": 21,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Graveyard_of_Shadows",
+          "title": "Graveyard of Shadows",
+          "pageId": 28980,
+          "revisionId": 15233557,
+          "timestamp": "2026-06-14T17:43:48Z",
+          "missing": false
+        }
+      ]
+    },
+    "graveyard-of-shadows-green-dragons": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Graveyard_of_Shadows",
+          "title": "Graveyard of Shadows",
+          "pageId": 28980,
+          "revisionId": 15233557,
+          "timestamp": "2026-06-14T17:43:48Z",
+          "missing": false
+        }
+      ]
+    },
+    "graveyard-of-shadows-skeletons": {
+      "minLevel": 18,
+      "maxLevel": 21,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Graveyard_of_Shadows",
+          "title": "Graveyard of Shadows",
+          "pageId": 28980,
+          "revisionId": 15233557,
+          "timestamp": "2026-06-14T17:43:48Z",
+          "missing": false
+        }
+      ]
+    },
+    "green-dragons-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "hill-giants-wilderness": {
+      "minLevel": 49,
+      "maxLevel": 56,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Deep_Wilderness_Dungeon",
+          "title": "Deep Wilderness Dungeon",
+          "pageId": 31530,
+          "revisionId": 15293947,
+          "timestamp": "2026-08-12T18:11:30Z",
+          "missing": false
+        }
+      ]
+    },
+    "hunters-end": {
+      "minLevel": 20,
+      "maxLevel": 21,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 50000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Hunter's_End",
+          "title": "Hunter's End",
+          "pageId": 374965,
+          "revisionId": 15292444,
+          "timestamp": "2026-08-11T01:46:39Z",
+          "missing": false
+        }
+      ]
+    },
+    "king-black-dragon-lair": {
+      "minLevel": 42,
+      "maxLevel": 43,
+      "wildernessTravel": true,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/King_Black_Dragon_Lair",
+          "title": "King Black Dragon Lair",
+          "pageId": 19532,
+          "revisionId": 15167741,
+          "timestamp": "2026-04-07T04:44:35Z",
+          "missing": false
+        }
+      ]
+    },
+    "lava-dragon-isle": {
+      "minLevel": 36,
+      "maxLevel": 42,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_Dragon_Isle",
+          "title": "Lava Dragon Isle",
+          "pageId": 24651,
+          "revisionId": 15272972,
+          "timestamp": "2026-07-23T01:30:29Z",
+          "missing": false
+        }
+      ]
+    },
+    "lava-maze": {
+      "minLevel": 40,
+      "maxLevel": 45,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_Maze",
+          "title": "Lava Maze",
+          "pageId": 18647,
+          "revisionId": 15290512,
+          "timestamp": "2026-08-08T17:11:16Z",
+          "missing": false
+        }
+      ]
+    },
+    "lava-maze-dungeon": {
+      "minLevel": 41,
+      "maxLevel": 47,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_Maze_Dungeon",
+          "title": "Lava Maze Dungeon",
+          "pageId": 43447,
+          "revisionId": 15210121,
+          "timestamp": "2026-05-13T03:20:05Z",
+          "missing": false
+        }
+      ]
+    },
+    "mammoth-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "moss-giants-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "pirates-hideout": {
+      "minLevel": 54,
+      "maxLevel": 54,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Pirates'_Hideout",
+          "title": "Pirates' Hideout",
+          "pageId": 31542,
+          "revisionId": 15302203,
+          "timestamp": "2026-08-15T18:41:13Z",
+          "missing": false
+        }
+      ]
+    },
+    "revenant-caves": {
+      "minLevel": 17,
+      "maxLevel": 40,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": true,
+      "entryFee": 100000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Revenant_Caves",
+          "title": "Revenant Caves",
+          "pageId": 106797,
+          "revisionId": 15274504,
+          "timestamp": "2026-07-25T13:02:38Z",
+          "missing": false
+        }
+      ]
+    },
+    "rogues-castle": {
+      "minLevel": 52,
+      "maxLevel": 56,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Rogues'_Castle",
+          "title": "Rogues' Castle",
+          "pageId": 29130,
+          "revisionId": 15215668,
+          "timestamp": "2026-05-23T18:10:14Z",
+          "missing": false
+        }
+      ]
+    },
+    "scorpion-pit-cave": {
+      "minLevel": 53,
+      "maxLevel": 55,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Scorpion_Pit",
+          "title": "Scorpion Pit",
+          "pageId": 9429,
+          "revisionId": 15270634,
+          "timestamp": "2026-07-20T20:02:28Z",
+          "missing": false
+        }
+      ]
+    },
+    "scorpions-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "silk-chasm": {
+      "minLevel": 35,
+      "maxLevel": 35,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 50000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Silk_Chasm",
+          "title": "Silk Chasm",
+          "pageId": 374962,
+          "revisionId": 15165438,
+          "timestamp": "2026-04-04T19:15:17Z",
+          "missing": false
+        }
+      ]
+    },
+    "skeletal-tomb": {
+      "minLevel": 21,
+      "maxLevel": 21,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 50000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skeletal_Tomb",
+          "title": "Skeletal Tomb",
+          "pageId": 374983,
+          "revisionId": 15292449,
+          "timestamp": "2026-08-11T01:48:47Z",
+          "missing": false
+        }
+      ]
+    },
+    "spiders-wilderness": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "spiritual-mages-wilderness-god-wars-dungeon": {
+      "minLevel": 28,
+      "maxLevel": 28,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_God_Wars_Dungeon",
+          "title": "Wilderness God Wars Dungeon",
+          "pageId": 31536,
+          "revisionId": 15303152,
+          "timestamp": "2026-08-16T15:53:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "spiritual-rangers-wilderness-god-wars-dungeon": {
+      "minLevel": 28,
+      "maxLevel": 28,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_God_Wars_Dungeon",
+          "title": "Wilderness God Wars Dungeon",
+          "pageId": 31536,
+          "revisionId": 15303152,
+          "timestamp": "2026-08-16T15:53:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "spiritual-warriors-wilderness-god-wars-dungeon": {
+      "minLevel": 28,
+      "maxLevel": 28,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_God_Wars_Dungeon",
+          "title": "Wilderness God Wars Dungeon",
+          "pageId": 31536,
+          "revisionId": 15303152,
+          "timestamp": "2026-08-16T15:53:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "various-wilderness-boss-locations": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "vetion-hellhound-spawns": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "vetions-rest": {
+      "minLevel": 35,
+      "maxLevel": 35,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 50000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vet'ion's_Rest",
+          "title": "Vet'ion's Rest",
+          "pageId": 374960,
+          "revisionId": 15165442,
+          "timestamp": "2026-04-04T19:18:04Z",
+          "missing": false
+        }
+      ]
+    },
+    "web-chasm": {
+      "minLevel": 29,
+      "maxLevel": 29,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 50000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Web_Chasm",
+          "title": "Web Chasm",
+          "pageId": 374984,
+          "revisionId": 15292447,
+          "timestamp": "2026-08-11T01:48:29Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-ankou-area": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-god-wars-dungeon": {
+      "minLevel": 28,
+      "maxLevel": 28,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_God_Wars_Dungeon",
+          "title": "Wilderness God Wars Dungeon",
+          "pageId": 31536,
+          "revisionId": 15303152,
+          "timestamp": "2026-08-16T15:53:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-god-wars-dungeon-spiritual-creatures": {
+      "minLevel": 28,
+      "maxLevel": 28,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_God_Wars_Dungeon",
+          "title": "Wilderness God Wars Dungeon",
+          "pageId": 31536,
+          "revisionId": 15303152,
+          "timestamp": "2026-08-16T15:53:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-god-wars-dungeon-vampyres": {
+      "minLevel": 28,
+      "maxLevel": 28,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_God_Wars_Dungeon",
+          "title": "Wilderness God Wars Dungeon",
+          "pageId": 31536,
+          "revisionId": 15303152,
+          "timestamp": "2026-08-16T15:53:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-resource-area-hellhounds": {
+      "minLevel": -1,
+      "maxLevel": -1,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-slayer-cave": {
+      "minLevel": 17,
+      "maxLevel": 33,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_Slayer_Cave",
+          "title": "Wilderness Slayer Cave",
+          "pageId": 277451,
+          "revisionId": 15252501,
+          "timestamp": "2026-07-04T15:36:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-slayer-cave-dust-devils": {
+      "minLevel": 17,
+      "maxLevel": 33,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_Slayer_Cave",
+          "title": "Wilderness Slayer Cave",
+          "pageId": 277451,
+          "revisionId": 15252501,
+          "timestamp": "2026-07-04T15:36:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-slayer-cave-hellhounds": {
+      "minLevel": 17,
+      "maxLevel": 33,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_Slayer_Cave",
+          "title": "Wilderness Slayer Cave",
+          "pageId": 277451,
+          "revisionId": 15252501,
+          "timestamp": "2026-07-04T15:36:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-slayer-cave-ice-giants": {
+      "minLevel": 17,
+      "maxLevel": 33,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_Slayer_Cave",
+          "title": "Wilderness Slayer Cave",
+          "pageId": 277451,
+          "revisionId": 15252501,
+          "timestamp": "2026-07-04T15:36:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-slayer-cave-jellies": {
+      "minLevel": 17,
+      "maxLevel": 33,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_Slayer_Cave",
+          "title": "Wilderness Slayer Cave",
+          "pageId": 277451,
+          "revisionId": 15252501,
+          "timestamp": "2026-07-04T15:36:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-slayer-cave-lesser-demons": {
+      "minLevel": 17,
+      "maxLevel": 33,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_Slayer_Cave",
+          "title": "Wilderness Slayer Cave",
+          "pageId": 277451,
+          "revisionId": 15252501,
+          "timestamp": "2026-07-04T15:36:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "wilderness-slayer-cave-nechryael": {
+      "minLevel": 17,
+      "maxLevel": 33,
+      "wildernessTravel": false,
+      "pvmUsesPvpRules": false,
+      "entryFee": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness_Slayer_Cave",
+          "title": "Wilderness Slayer Cave",
+          "pageId": 277451,
+          "revisionId": 15252501,
+          "timestamp": "2026-07-04T15:36:34Z",
+          "missing": false
+        }
+      ]
+    }
+  }
+}

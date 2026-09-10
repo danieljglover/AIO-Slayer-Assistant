@@ -46,7 +46,17 @@
   "requiredItemId": null,
   "requiredItemName": null,
   "locationIds": [
-    "various-wilderness-boss-locations"
+    "various-wilderness-boss-locations",
+    "callistos-den",
+    "hunters-end",
+    "silk-chasm",
+    "web-chasm",
+    "vetions-rest",
+    "skeletal-tomb",
+    "chaos-elemental-rogues-castle",
+    "chaos-fanatic-lava-maze",
+    "forgotten-cemetery",
+    "scorpion-pit-cave"
   ],
   "variantInfo": [
     {

@@ -3,8 +3,7 @@
   "variantIds": [
     "sulphur-nagua",
     "frost-nagua",
-    "earthen-nagua",
-    "lesser-nagua-amoxliatl"
+    "earthen-nagua"
   ],
   "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Lesser_Nagua",
   "plugin": {
@@ -110,6 +109,13 @@
       "steps": [
         "Players assigned Lesser Nagua at the Ruins of Tapoyauik may kill Amoxliatl instead.",
         "Brimstone keys only drop when the task was given by Konar quo Maten."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      },
+      "notes": [
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
       ]
     }
   ],

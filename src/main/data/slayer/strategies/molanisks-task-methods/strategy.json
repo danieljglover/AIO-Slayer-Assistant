@@ -1,0 +1,71 @@
+{
+  "strategyId": "molanisks-task-methods",
+  "variantIds": [
+    "molanisk"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Molanisks",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [],
+    "secondaryWeapons": [],
+    "note": "Complete Death to the Dorgeshuun, then bring a Slayer bell, a light source and a rope to descend into the Dorgesh-Kaan South Dungeon (near fairy ring AJQ). Ring the Slayer bell within 3 tiles of a wall-attached Molanisk to lure it off, then kill it with crush melee (they have the lowest defence against crush). They hit only up to 5, so a mid-level player in decent armour can kill several safely. The 60% earth weakness makes earth spells a strong Magic alternative, and certain rocks (notably south of the AJQ fairy ring) can be used to safespot."
+  },
+  "requirements": [
+    "Death to the Dorgeshuun"
+  ],
+  "mechanics": [
+    "Only Vannaka assigns Molanisks in this dataset (40-50, weighting 7); verified against Vannaka's raw task table on 2026-07-03.",
+    "Chaeldar and Duradel formerly assigned Molanisks but no longer do (Duradel removed 10 September 2015; Chaeldar removed 8 May 2024).",
+    "Requires 39 Slayer, combat level 50, and completion of Death to the Dorgeshuun; the task infobox id 10997 is used as slayerTargetId.",
+    "A Slayer bell is required to lure each Molanisk off the cave wall before it can be attacked; requiredItemId 10952 is Slayer bell (wiki item infobox id).",
+    "Molanisk has 52 Hitpoints, max hit 5 (Crush), 4-tick attack speed, Defence level 50 (stab 45, slash 45, crush 35, magic 30, ranged 55).",
+    "60% earth elemental weakness (Summer Sweep Up: Combat, 25 June 2025); weakness.style is MELEE (crush is lowest melee defence) with element 'earth' recorded for a Magic alternative.",
+    "No task extension unlock exists for Molanisks."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Ordinary melee task",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Complete Death to the Dorgeshuun, then bring a Slayer bell, a light source and a rope to descend into the Dorgesh-Kaan South Dungeon (near fairy ring AJQ). Ring the Slayer bell within 3 tiles of a wall-attached Molanisk to lure it off, then kill it with crush melee (they have the lowest defence against crush). They hit only up to 5, so a mid-level player in decent armour can kill several safely. The 60% earth weakness makes earth spells a strong Magic alternative, and certain rocks (notably south of the AJQ fairy ring) can be used to safespot.",
+      "steps": [
+        "Only Vannaka assigns Molanisks in this dataset (40-50, weighting 7); verified against Vannaka's raw task table on 2026-07-03.",
+        "Chaeldar and Duradel formerly assigned Molanisks but no longer do (Duradel removed 10 September 2015; Chaeldar removed 8 May 2024).",
+        "Requires 39 Slayer, combat level 50, and completion of Death to the Dorgeshuun; the task infobox id 10997 is used as slayerTargetId.",
+        "A Slayer bell is required to lure each Molanisk off the cave wall before it can be attacked; requiredItemId 10952 is Slayer bell (wiki item infobox id).",
+        "Molanisk has 52 Hitpoints, max hit 5 (Crush), 4-tick attack speed, Defence level 50 (stab 45, slash 45, crush 35, magic 30, ranged 55).",
+        "60% earth elemental weakness (Summer Sweep Up: Combat, 25 June 2025); weakness.style is MELEE (crush is lowest melee defence) with element 'earth' recorded for a Magic alternative.",
+        "No task extension unlock exists for Molanisks."
+      ],
+      "notes": [
+        "General Slayer training equipment is supplemented by the task's exact required protection and damage constraints."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "molanisk"
+        ],
+        "coverageStatus": "Existing detailed task guidance preserved; general equipment from Slayer training; current task prose completeness not certified"
+      }
+    },
+    {
+      "methodId": "location-dorgesh-kaan-south-dungeon",
+      "label": "Dorgesh-Kaan South Dungeon",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Around 10 Molanisks spawn in the Dorgesh-Kaan South Dungeon (near fairy ring AJQ).",
+        "Entry to the dungeon requires completion of Death to the Dorgeshuun and a rope to climb down; a light source is required.",
+        "Safespottable on certain rocks, notably the large rock down the path south of the AJQ fairy ring.",
+        "A spot south of the fairy ring has two spawns close together for faster kills."
+      ],
+      "advisor": {
+        "locationIds": [
+          "dorgesh-kaan-south-dungeon"
+        ],
+        "selectable": false
+      }
+    }
+  ]
+}

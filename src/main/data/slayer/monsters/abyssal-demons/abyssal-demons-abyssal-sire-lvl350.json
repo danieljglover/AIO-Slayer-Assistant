@@ -29,7 +29,8 @@
   "undead": false,
   "boss": true,
   "location": "Abyssal Nexus",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "abyssal-sire"
+  "strategyId": "abyssal-sire",
+  "locationId": "abyssal-nexus"
 }

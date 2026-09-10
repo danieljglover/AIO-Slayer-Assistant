@@ -25,7 +25,8 @@
   "undead": false,
   "boss": false,
   "location": "Wilderness Slayer Cave",
-  "requirement": "None; Combat 60 to be assigned; Krystilia Wilderness assignment",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "lesser-demons"
+  "strategyId": "lesser-demons",
+  "locationId": "wilderness-slayer-cave-lesser-demons"
 }

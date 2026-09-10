@@ -26,7 +26,7 @@
   "locationId": "tarns-lair",
   "requirement": "Slayer 40 (unboostable); combat level 60; completion of Haunted Mine; access to Tarn's Lair via the Lair of Tarn Razorlor miniquest",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "terror-dogs-task-methods",
   "offence": {
     "hitpoints": 82,
     "maxHit": 11,

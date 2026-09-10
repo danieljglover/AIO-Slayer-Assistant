@@ -1,0 +1,5488 @@
+{
+  "strategyId": "flockleader-geerin",
+  "variantIds": [
+    "flockleader-geerin"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+      "title": "Kree'arra/Strategies",
+      "pageId": 41793,
+      "revisionId": 15299717,
+      "timestamp": "2026-08-14T03:48:26Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+      "title": "Flockleader Geerin",
+      "pageId": 28715,
+      "revisionId": 15329496,
+      "timestamp": "2026-09-03T17:40:52Z",
+      "missing": false
+    }
+  ],
+  "plugin": {
+    "primaryStyle": "RANGED",
+    "primaryWeapons": [
+      "toxic-blowpipe",
+      "bow-of-faerdhinen",
+      "eclipse-atlatl",
+      "hunters-sunlight-crossbow",
+      "zaryte-crossbow",
+      "armadyl-crossbow",
+      "dragon-crossbow"
+    ],
+    "secondaryWeapons": [],
+    "note": "Flockleader Geerin is a ranged bodyguard inside Kree'arra's encounter. Use the reviewed Armadyl setup and kill-order plan; generic aviansie routes do not describe this boss room."
+  },
+  "requirements": [
+    "The Armadyl encampment requires 70 Ranged, a crossbow and mith grapple, and the applicable killcount or a valid entry bypass.",
+    "Death Plateau and Troll Stronghold progress through Dad are one approach; Ghommal's hilt provides an alternative Trollheim route.",
+    "An aviansie task is optional; Kree'arra and all three bodyguards count towards it."
+  ],
+  "mechanics": [
+    "Kree'arra and the bodyguards form one encounter. Ranged protection is central while Kree'arra is alive because his ranged hit reaches 69.",
+    "Kree'arra's magic attack rolls against ranged defence. His ranged and magic attacks damage all players, so teams have no single designated tank.",
+    "Flight Kilisa uses melee up to 15, Wingman Skree magic up to 16, and Flockleader Geerin ranged up to 25."
+  ],
+  "methods": [
+    {
+      "methodId": "solo-defensive-ranged",
+      "label": "Solo defensive ranged encounter",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "A defensive crossbow setup handles the complete Armadyl encounter and its ranged bodyguard.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Justiciar faceguard",
+            "Verac's helm",
+            "Masori mask (f)",
+            "Armadyl helmet"
+          ],
+          "AMULET": [
+            "Amulet of fury",
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Dragonbone necklace",
+            "Bonecrusher necklace",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Karil's leathertop",
+            "Armadyl d'hide body",
+            "Zamorak d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Karil's leatherskirt",
+            "Verac's plateskirt",
+            "Armadyl chaps",
+            "Zamorak chaps"
+          ],
+          "WEAPON": [
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon hunter crossbow",
+            "Dragon crossbow"
+          ],
+          "SHIELD": [
+            "Elysian spirit shield",
+            "Dragonfire ward",
+            "Twisted buckler",
+            "Crystal shield",
+            "Odium ward"
+          ],
+          "AMMO": [
+            "Diamond dragon bolts (e)",
+            "Diamond bolts (e)",
+            "Ruby bolts (e)"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Armadyl bracers",
+            "Zamorak bracers"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Armadyl d'hide boots",
+            "Pegasian boots",
+            "Echo boots"
+          ],
+          "RING": [
+            "Ring of suffering (ri)",
+            "Venator ring"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Missiles while Kree'arra is alive"
+      ],
+      "steps": [
+        "Keep Kree'arra targeted between attacks and retain ranged protection while he is alive. Untargeted Kree'arra can approach for melee.",
+        "Use a corner to prevent knockback, and step under the boss between attacks where the chosen weapon cadence permits.",
+        "After Kree'arra dies, kill Wingman Skree with the main ranged weapon or an optional blowpipe, then finish or heal from Kilisa and Geerin."
+      ],
+      "notes": [
+        "The Wiki calls this equipment grid Ranged Tank; it describes defensive equipment, not a designated tank role in a group."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Justiciar faceguard",
+              "itemIds": [
+                22326
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Verac's helm",
+              "itemIds": [
+                4753,
+                4976,
+                4977,
+                4978,
+                4979
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Masori mask (f)",
+              "itemIds": [
+                27235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl helmet",
+              "itemIds": [
+                11826
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Dragonbone necklace",
+              "itemIds": [
+                22111
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 70"
+              ]
+            },
+            {
+              "name": "Bonecrusher necklace",
+              "itemIds": [
+                22986
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 70"
+              ]
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Max cape",
+              "itemIds": [
+                13280,
+                13342
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 99",
+                "STRENGTH >= 99",
+                "DEFENCE >= 99",
+                "RANGED >= 99",
+                "MAGIC >= 99",
+                "PRAYER >= 99",
+                "HITPOINTS >= 99",
+                "AGILITY >= 99",
+                "HERBLORE >= 99",
+                "THIEVING >= 99",
+                "CRAFTING >= 99",
+                "FLETCHING >= 99",
+                "SLAYER >= 99",
+                "HUNTER >= 99",
+                "MINING >= 99",
+                "SMITHING >= 99",
+                "FISHING >= 99",
+                "COOKING >= 99",
+                "FIREMAKING >= 99",
+                "WOODCUTTING >= 99",
+                "RUNECRAFT >= 99",
+                "FARMING >= 99",
+                "CONSTRUCTION >= 99",
+                "SAILING >= 99"
+              ]
+            },
+            {
+              "name": "Ranging cape(t)",
+              "itemIds": [
+                9757
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 99"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chestplate",
+              "itemIds": [
+                11828
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Karil's leathertop",
+              "itemIds": [
+                4736,
+                4940,
+                4941,
+                4942,
+                4943
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide body",
+              "itemIds": [
+                12508
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak d'hide body",
+              "itemIds": [
+                10370
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Masori chaps (f)",
+              "itemIds": [
+                27241
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chainskirt",
+              "itemIds": [
+                11830
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Karil's leatherskirt",
+              "itemIds": [
+                4738,
+                4946,
+                4947,
+                4948,
+                4949
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Verac's plateskirt",
+              "itemIds": [
+                4759,
+                4994,
+                4995,
+                4996,
+                4997
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl chaps",
+              "itemIds": [
+                12510
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak chaps",
+              "itemIds": [
+                10372
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Zaryte crossbow",
+              "itemIds": [
+                26374
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl crossbow",
+              "itemIds": [
+                11785
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Dragon hunter crossbow",
+              "itemIds": [
+                21012
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Dragon crossbow",
+              "itemIds": [
+                21902
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 64"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Elysian spirit shield",
+              "itemIds": [
+                12817
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75",
+                "PRAYER >= 75"
+              ]
+            },
+            {
+              "name": "Dragonfire ward",
+              "itemIds": [
+                22002
+              ],
+              "requires": [],
+              "requirements": [
+                "Started Dragon Slayer I",
+                "RANGED >= 70",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Twisted buckler",
+              "itemIds": [
+                21000
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Crystal shield",
+              "itemIds": [
+                23991,
+                24127
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Roving Elves",
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            },
+            {
+              "name": "Odium ward",
+              "itemIds": [
+                11926
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Diamond dragon bolts (e)",
+              "itemIds": [
+                21946
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Diamond bolts (e)",
+              "itemIds": [
+                9243
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ruby bolts (e)",
+              "itemIds": [
+                9242
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 46"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Armadyl bracers",
+              "itemIds": [
+                12506
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak bracers",
+              "itemIds": [
+                10368
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide boots",
+              "itemIds": [
+                19930
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Echo boots",
+              "itemIds": [
+                28945
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "god-wars-dungeon-armadyl"
+        ],
+        "requirements": [
+          "RANGED >= 70",
+          "PRAYER >= 40"
+        ],
+        "requiredItems": [
+          {
+            "name": "Zaryte crossbow or Armadyl crossbow or Dragon hunter crossbow or Dragon crossbow",
+            "itemIds": [
+              26374,
+              11785,
+              21012,
+              21902
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [],
+        "inventory": [
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 6,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 9,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Bones to peaches (tablet)",
+            "itemIds": [
+              8015
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Ecumenical key",
+            "itemIds": [
+              11942
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Rune crossbow or Dragon crossbow or Armadyl crossbow or Zaryte crossbow or Dragon hunter crossbow",
+            "itemIds": [
+              9185,
+              21902,
+              11785,
+              26374,
+              21012
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mith grapple",
+            "itemIds": [
+              9419
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: A defensive crossbow setup handles the complete Armadyl encounter and its ranged bodyguard.",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "team-defensive-ranged",
+      "label": "Team defensive ranged encounter",
+      "combatStyle": "RANGED",
+      "role": "team",
+      "summary": "A defensive crossbow setup handles the complete Armadyl encounter and its ranged bodyguard.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Justiciar faceguard",
+            "Verac's helm",
+            "Masori mask (f)",
+            "Armadyl helmet"
+          ],
+          "AMULET": [
+            "Amulet of fury",
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Dragonbone necklace",
+            "Bonecrusher necklace",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Karil's leathertop",
+            "Armadyl d'hide body",
+            "Zamorak d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Karil's leatherskirt",
+            "Verac's plateskirt",
+            "Armadyl chaps",
+            "Zamorak chaps"
+          ],
+          "WEAPON": [
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon hunter crossbow",
+            "Dragon crossbow"
+          ],
+          "SHIELD": [
+            "Elysian spirit shield",
+            "Dragonfire ward",
+            "Twisted buckler",
+            "Crystal shield",
+            "Odium ward"
+          ],
+          "AMMO": [
+            "Diamond dragon bolts (e)",
+            "Diamond bolts (e)",
+            "Ruby bolts (e)"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Armadyl bracers",
+            "Zamorak bracers"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Armadyl d'hide boots",
+            "Pegasian boots",
+            "Echo boots"
+          ],
+          "RING": [
+            "Ring of suffering (ri)",
+            "Venator ring"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Missiles while Kree'arra is alive"
+      ],
+      "steps": [
+        "Keep Kree'arra targeted between attacks and retain ranged protection while he is alive. Untargeted Kree'arra can approach for melee.",
+        "Use a corner to prevent knockback, and step under the boss between attacks where the chosen weapon cadence permits.",
+        "After Kree'arra dies, kill Wingman Skree with the main ranged weapon or an optional blowpipe, then finish or heal from Kilisa and Geerin."
+      ],
+      "notes": [
+        "The Wiki calls this equipment grid Ranged Tank; it describes defensive equipment, not a designated tank role in a group."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Justiciar faceguard",
+              "itemIds": [
+                22326
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Verac's helm",
+              "itemIds": [
+                4753,
+                4976,
+                4977,
+                4978,
+                4979
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Masori mask (f)",
+              "itemIds": [
+                27235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl helmet",
+              "itemIds": [
+                11826
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Dragonbone necklace",
+              "itemIds": [
+                22111
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 70"
+              ]
+            },
+            {
+              "name": "Bonecrusher necklace",
+              "itemIds": [
+                22986
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 70"
+              ]
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Max cape",
+              "itemIds": [
+                13280,
+                13342
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 99",
+                "STRENGTH >= 99",
+                "DEFENCE >= 99",
+                "RANGED >= 99",
+                "MAGIC >= 99",
+                "PRAYER >= 99",
+                "HITPOINTS >= 99",
+                "AGILITY >= 99",
+                "HERBLORE >= 99",
+                "THIEVING >= 99",
+                "CRAFTING >= 99",
+                "FLETCHING >= 99",
+                "SLAYER >= 99",
+                "HUNTER >= 99",
+                "MINING >= 99",
+                "SMITHING >= 99",
+                "FISHING >= 99",
+                "COOKING >= 99",
+                "FIREMAKING >= 99",
+                "WOODCUTTING >= 99",
+                "RUNECRAFT >= 99",
+                "FARMING >= 99",
+                "CONSTRUCTION >= 99",
+                "SAILING >= 99"
+              ]
+            },
+            {
+              "name": "Ranging cape(t)",
+              "itemIds": [
+                9757
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 99"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chestplate",
+              "itemIds": [
+                11828
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Karil's leathertop",
+              "itemIds": [
+                4736,
+                4940,
+                4941,
+                4942,
+                4943
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide body",
+              "itemIds": [
+                12508
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak d'hide body",
+              "itemIds": [
+                10370
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Masori chaps (f)",
+              "itemIds": [
+                27241
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chainskirt",
+              "itemIds": [
+                11830
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Karil's leatherskirt",
+              "itemIds": [
+                4738,
+                4946,
+                4947,
+                4948,
+                4949
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Verac's plateskirt",
+              "itemIds": [
+                4759,
+                4994,
+                4995,
+                4996,
+                4997
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl chaps",
+              "itemIds": [
+                12510
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak chaps",
+              "itemIds": [
+                10372
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Zaryte crossbow",
+              "itemIds": [
+                26374
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl crossbow",
+              "itemIds": [
+                11785
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Dragon hunter crossbow",
+              "itemIds": [
+                21012
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Dragon crossbow",
+              "itemIds": [
+                21902
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 64"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Elysian spirit shield",
+              "itemIds": [
+                12817
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75",
+                "PRAYER >= 75"
+              ]
+            },
+            {
+              "name": "Dragonfire ward",
+              "itemIds": [
+                22002
+              ],
+              "requires": [],
+              "requirements": [
+                "Started Dragon Slayer I",
+                "RANGED >= 70",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Twisted buckler",
+              "itemIds": [
+                21000
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Crystal shield",
+              "itemIds": [
+                23991,
+                24127
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Roving Elves",
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            },
+            {
+              "name": "Odium ward",
+              "itemIds": [
+                11926
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Diamond dragon bolts (e)",
+              "itemIds": [
+                21946
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Diamond bolts (e)",
+              "itemIds": [
+                9243
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ruby bolts (e)",
+              "itemIds": [
+                9242
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 46"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Armadyl bracers",
+              "itemIds": [
+                12506
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak bracers",
+              "itemIds": [
+                10368
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide boots",
+              "itemIds": [
+                19930
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Echo boots",
+              "itemIds": [
+                28945
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "god-wars-dungeon-armadyl"
+        ],
+        "requirements": [
+          "RANGED >= 70",
+          "PRAYER >= 40"
+        ],
+        "requiredItems": [
+          {
+            "name": "Zaryte crossbow or Armadyl crossbow or Dragon hunter crossbow or Dragon crossbow",
+            "itemIds": [
+              26374,
+              11785,
+              21012,
+              21902
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [],
+        "inventory": [
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 6,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 9,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Bones to peaches (tablet)",
+            "itemIds": [
+              8015
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Ecumenical key",
+            "itemIds": [
+              11942
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Rune crossbow or Dragon crossbow or Armadyl crossbow or Zaryte crossbow or Dragon hunter crossbow",
+            "itemIds": [
+              9185,
+              21902,
+              11785,
+              26374,
+              21012
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mith grapple",
+            "itemIds": [
+              9419
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "group": true,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: A defensive crossbow setup handles the complete Armadyl encounter and its ranged bodyguard.",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "solo-twisted-bow",
+      "label": "Solo Twisted bow encounter",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "A bow setup trades some chinchompa speed for lower supply cost and fewer target changes.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Masori mask (f)"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "BODY": [
+            "Masori body (f)"
+          ],
+          "LEGS": [
+            "Masori chaps (f)"
+          ],
+          "AMMO": [
+            "Seeking dragon arrow",
+            "Dragon arrow"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Armadyl bracers",
+            "Zamorak bracers"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Armadyl d'hide boots",
+            "Ranger boots",
+            "Echo boots"
+          ],
+          "RING": [
+            "Ring of suffering (ri)",
+            "Venator ring",
+            "Lightbearer",
+            "Ring of the gods (i)"
+          ],
+          "WEAPON": [
+            "Twisted bow"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Missiles while Kree'arra is alive"
+      ],
+      "steps": [
+        "Keep Kree'arra targeted between attacks and retain ranged protection while he is alive. Untargeted Kree'arra can approach for melee.",
+        "Use a corner to prevent knockback, and step under the boss between attacks where the chosen weapon cadence permits.",
+        "After Kree'arra dies, kill Wingman Skree with the main ranged weapon or an optional blowpipe, then finish or heal from Kilisa and Geerin."
+      ],
+      "notes": [
+        "The Wiki favours twisted bow with fortified Masori and dragon arrows. Missing two of those three damage supports favours Bow of Faerdhinen with crystal armour.",
+        "The five-tick twisted bow particularly benefits from stepping under between attacks; Bow of Faerdhinen attacks every four ticks."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Masori mask (f)",
+              "itemIds": [
+                27235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Max cape",
+              "itemIds": [
+                13280,
+                13342
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 99",
+                "STRENGTH >= 99",
+                "DEFENCE >= 99",
+                "RANGED >= 99",
+                "MAGIC >= 99",
+                "PRAYER >= 99",
+                "HITPOINTS >= 99",
+                "AGILITY >= 99",
+                "HERBLORE >= 99",
+                "THIEVING >= 99",
+                "CRAFTING >= 99",
+                "FLETCHING >= 99",
+                "SLAYER >= 99",
+                "HUNTER >= 99",
+                "MINING >= 99",
+                "SMITHING >= 99",
+                "FISHING >= 99",
+                "COOKING >= 99",
+                "FIREMAKING >= 99",
+                "WOODCUTTING >= 99",
+                "RUNECRAFT >= 99",
+                "FARMING >= 99",
+                "CONSTRUCTION >= 99",
+                "SAILING >= 99"
+              ]
+            },
+            {
+              "name": "Ranging cape(t)",
+              "itemIds": [
+                9757
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 99"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Masori chaps (f)",
+              "itemIds": [
+                27241
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Seeking dragon arrow",
+              "itemIds": [
+                33595
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Dragon arrow",
+              "itemIds": [
+                11212,
+                11227,
+                11228,
+                11229
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Armadyl bracers",
+              "itemIds": [
+                12506
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak bracers",
+              "itemIds": [
+                10368
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide boots",
+              "itemIds": [
+                19930
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ranger boots",
+              "itemIds": [
+                2577
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            },
+            {
+              "name": "Echo boots",
+              "itemIds": [
+                28945
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of the gods (i)",
+              "itemIds": [
+                13202,
+                25252,
+                26764
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Twisted bow",
+              "itemIds": [
+                20997
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 85"
+              ]
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "god-wars-dungeon-armadyl"
+        ],
+        "requirements": [
+          "RANGED >= 70",
+          "PRAYER >= 40"
+        ],
+        "requiredItems": [
+          {
+            "name": "Twisted bow",
+            "itemIds": [
+              20997
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Masori body (f)",
+            "itemIds": [
+              27238
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Masori chaps (f)",
+            "itemIds": [
+              27241
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [],
+        "inventory": [
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 6,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 9,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Bones to peaches (tablet)",
+            "itemIds": [
+              8015
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Ecumenical key",
+            "itemIds": [
+              11942
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Rune crossbow or Dragon crossbow or Armadyl crossbow or Zaryte crossbow or Dragon hunter crossbow",
+            "itemIds": [
+              9185,
+              21902,
+              11785,
+              26374,
+              21012
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mith grapple",
+            "itemIds": [
+              9419
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: A bow setup trades some chinchompa speed for lower supply cost and fewer target changes.",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "solo-crystal-bowfa",
+      "label": "Solo Bow of Faerdhinen encounter",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "A bow setup trades some chinchompa speed for lower supply cost and fewer target changes.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Crystal helm"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "BODY": [
+            "Crystal body"
+          ],
+          "LEGS": [
+            "Crystal legs"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Honourable blessing"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Armadyl bracers",
+            "Zamorak bracers"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Armadyl d'hide boots",
+            "Ranger boots",
+            "Echo boots"
+          ],
+          "RING": [
+            "Ring of suffering (ri)",
+            "Venator ring",
+            "Lightbearer",
+            "Ring of the gods (i)"
+          ],
+          "WEAPON": [
+            "Bow of Faerdhinen"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Missiles while Kree'arra is alive"
+      ],
+      "steps": [
+        "Keep Kree'arra targeted between attacks and retain ranged protection while he is alive. Untargeted Kree'arra can approach for melee.",
+        "Use a corner to prevent knockback, and step under the boss between attacks where the chosen weapon cadence permits.",
+        "After Kree'arra dies, kill Wingman Skree with the main ranged weapon or an optional blowpipe, then finish or heal from Kilisa and Geerin."
+      ],
+      "notes": [
+        "The Wiki favours twisted bow with fortified Masori and dragon arrows. Missing two of those three damage supports favours Bow of Faerdhinen with crystal armour.",
+        "The five-tick twisted bow particularly benefits from stepping under between attacks; Bow of Faerdhinen attacks every four ticks."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Crystal helm",
+              "itemIds": [
+                23971
+              ],
+              "requires": [
+                [
+                  25865,
+                  23983,
+                  24123
+                ]
+              ],
+              "requirements": [
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Max cape",
+              "itemIds": [
+                13280,
+                13342
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 99",
+                "STRENGTH >= 99",
+                "DEFENCE >= 99",
+                "RANGED >= 99",
+                "MAGIC >= 99",
+                "PRAYER >= 99",
+                "HITPOINTS >= 99",
+                "AGILITY >= 99",
+                "HERBLORE >= 99",
+                "THIEVING >= 99",
+                "CRAFTING >= 99",
+                "FLETCHING >= 99",
+                "SLAYER >= 99",
+                "HUNTER >= 99",
+                "MINING >= 99",
+                "SMITHING >= 99",
+                "FISHING >= 99",
+                "COOKING >= 99",
+                "FIREMAKING >= 99",
+                "WOODCUTTING >= 99",
+                "RUNECRAFT >= 99",
+                "FARMING >= 99",
+                "CONSTRUCTION >= 99",
+                "SAILING >= 99"
+              ]
+            },
+            {
+              "name": "Ranging cape(t)",
+              "itemIds": [
+                9757
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 99"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Crystal body",
+              "itemIds": [
+                23975
+              ],
+              "requires": [
+                [
+                  25865,
+                  23983,
+                  24123
+                ]
+              ],
+              "requirements": [
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Crystal legs",
+              "itemIds": [
+                23979
+              ],
+              "requires": [
+                [
+                  25865,
+                  23983,
+                  24123
+                ]
+              ],
+              "requirements": [
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Honourable blessing",
+              "itemIds": [
+                20229
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Armadyl bracers",
+              "itemIds": [
+                12506
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak bracers",
+              "itemIds": [
+                10368
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide boots",
+              "itemIds": [
+                19930
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ranger boots",
+              "itemIds": [
+                2577
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            },
+            {
+              "name": "Echo boots",
+              "itemIds": [
+                28945
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of the gods (i)",
+              "itemIds": [
+                13202,
+                25252,
+                26764
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Bow of Faerdhinen",
+              "itemIds": [
+                25865
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "AGILITY >= 70"
+              ]
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "god-wars-dungeon-armadyl"
+        ],
+        "requirements": [
+          "RANGED >= 70",
+          "PRAYER >= 40"
+        ],
+        "requiredItems": [
+          {
+            "name": "Bow of Faerdhinen",
+            "itemIds": [
+              25865
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Crystal body",
+            "itemIds": [
+              23975
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Crystal legs",
+            "itemIds": [
+              23979
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [],
+        "inventory": [
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 6,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 9,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Bones to peaches (tablet)",
+            "itemIds": [
+              8015
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Ecumenical key",
+            "itemIds": [
+              11942
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Rune crossbow or Dragon crossbow or Armadyl crossbow or Zaryte crossbow or Dragon hunter crossbow",
+            "itemIds": [
+              9185,
+              21902,
+              11785,
+              26374,
+              21012
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mith grapple",
+            "itemIds": [
+              9419
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: A bow setup trades some chinchompa speed for lower supply cost and fewer target changes.",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "solo-shadow",
+      "label": "Solo Tumeken's shadow encounter",
+      "combatStyle": "MAGIC",
+      "role": "solo",
+      "summary": "Shadow with near-max magic armour is the Wiki's strongest conventional direct method; downgrades materially reduce its benefit.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Ancestral hat",
+            "Virtus mask"
+          ],
+          "AMULET": [
+            "Occult necklace"
+          ],
+          "CAPE": [
+            "Imbued Zamorak cape"
+          ],
+          "BODY": [
+            "Ancestral robe top"
+          ],
+          "LEGS": [
+            "Ancestral robe bottom"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Honourable blessing",
+            "Rada's blessing 3"
+          ],
+          "HANDS": [
+            "Confliction gauntlets",
+            "Tormented bracelet"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Eternal boots"
+          ],
+          "RING": [
+            "Magus ring",
+            "Lightbearer",
+            "Ring of suffering (ri)",
+            "Seers ring (i)"
+          ],
+          "WEAPON": [
+            "Tumeken's shadow"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Missiles while Kree'arra is alive"
+      ],
+      "steps": [
+        "Keep Kree'arra targeted between attacks and retain ranged protection while he is alive. Untargeted Kree'arra can approach for melee.",
+        "Use a corner to prevent knockback, and step under the boss between attacks where the chosen weapon cadence permits.",
+        "After Kree'arra dies, kill Wingman Skree with the main ranged weapon or an optional blowpipe, then finish or heal from Kilisa and Geerin."
+      ],
+      "notes": [
+        "Optional freezing of Kilisa and blood-spell healing require Ancient Magicks, the relevant level and runes; they are separated into their own preparation reference."
+      ],
+      "risks": [
+        "Magic armour has less ranged defence, increasing damage from Kree'arra's magic attack and Kilisa.",
+        "Confirm the powered staff has sufficient internal charges; ordinary magic weapons do not provide an equivalent direct method."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Ancestral hat",
+              "itemIds": [
+                21018
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75",
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Virtus mask",
+              "itemIds": [
+                26241
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 78",
+                "DEFENCE >= 75"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Occult necklace",
+              "itemIds": [
+                12002
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 70"
+              ]
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Imbued Zamorak cape",
+              "itemIds": [
+                21795,
+                24250
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Ancestral robe top",
+              "itemIds": [
+                21021
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75",
+                "DEFENCE >= 65"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Ancestral robe bottom",
+              "itemIds": [
+                21024
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75",
+                "DEFENCE >= 65"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Honourable blessing",
+              "itemIds": [
+                20229
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Confliction gauntlets",
+              "itemIds": [
+                31106
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Tormented bracelet",
+              "itemIds": [
+                19544
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Eternal boots",
+              "itemIds": [
+                13235
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75",
+                "DEFENCE >= 75"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Magus ring",
+              "itemIds": [
+                28313
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated Duke Sucellus during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Seers ring (i)",
+              "itemIds": [
+                11770,
+                25258,
+                26767
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Tumeken's shadow",
+              "itemIds": [
+                27275
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 85"
+              ]
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "god-wars-dungeon-armadyl"
+        ],
+        "requirements": [
+          "RANGED >= 70",
+          "PRAYER >= 40"
+        ],
+        "requiredItems": [
+          {
+            "name": "Tumeken's shadow",
+            "itemIds": [
+              27275
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Ancestral robe top",
+            "itemIds": [
+              21021
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Ancestral robe bottom",
+            "itemIds": [
+              21024
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [],
+        "inventory": [
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 6,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 9,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Bones to peaches (tablet)",
+            "itemIds": [
+              8015
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Ecumenical key",
+            "itemIds": [
+              11942
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Rune crossbow or Dragon crossbow or Armadyl crossbow or Zaryte crossbow or Dragon hunter crossbow",
+            "itemIds": [
+              9185,
+              21902,
+              11785,
+              26374,
+              21012
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mith grapple",
+            "itemIds": [
+              9419
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: Shadow with near-max magic armour is the Wiki's strongest conventional direct method; downgrades materially reduce its benefit.",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "solo-chinchompas",
+      "label": "Solo chinchompa overlap encounter",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "Chinchompas target the low-defence bodyguard and deal area damage to overlapping Kree'arra.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Justiciar faceguard",
+            "Verac's helm",
+            "Armadyl helmet"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Dragonbone necklace",
+            "Bonecrusher necklace"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Max cape",
+            "Ranging cape(t)",
+            "Ava's assembler"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Karil's leathertop",
+            "Armadyl d'hide body",
+            "Zamorak d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Karil's leatherskirt",
+            "Armadyl chaps",
+            "Zamorak chaps"
+          ],
+          "WEAPON": [
+            "Black chinchompa",
+            "Red chinchompa"
+          ],
+          "SHIELD": [
+            "Elysian spirit shield",
+            "Dragonfire ward",
+            "Twisted buckler",
+            "Dragonfire shield",
+            "Crystal shield"
+          ],
+          "AMMO": [
+            "Diamond bolts (e)"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Armadyl bracers",
+            "Zamorak bracers"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Armadyl d'hide boots",
+            "Pegasian boots",
+            "Echo boots"
+          ],
+          "RING": [
+            "Ring of suffering (ri)",
+            "Lightbearer",
+            "Venator ring"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Missiles while Kree'arra is alive"
+      ],
+      "steps": [
+        "Start in the southwest corner and align Kilisa with Kree'arra's southwest anchor tile.",
+        "Throw red or black chinchompas at Kilisa while maintaining Kree'arra as the off-tick target between throws to prevent his melee approach.",
+        "Kilisa commonly dies first. Switch to the carried rune crossbow and diamond bolts until the targets overlap again.",
+        "When Kree'arra respawns, Geerin can become the alternate overlap target; this is less forgiving and may reduce subsequent blood-spell healing."
+      ],
+      "notes": [],
+      "risks": [
+        "Chinchompas are costly and targeting errors can let Kree'arra leave the area or use melee.",
+        "The bodyguard is the accuracy target; directly throwing at Kree'arra loses the low-defence targeting advantage."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Justiciar faceguard",
+              "itemIds": [
+                22326
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Verac's helm",
+              "itemIds": [
+                4753,
+                4976,
+                4977,
+                4978,
+                4979
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl helmet",
+              "itemIds": [
+                11826
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Dragonbone necklace",
+              "itemIds": [
+                22111
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 70"
+              ]
+            },
+            {
+              "name": "Bonecrusher necklace",
+              "itemIds": [
+                22986
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 70"
+              ]
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Max cape",
+              "itemIds": [
+                13280,
+                13342
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 99",
+                "STRENGTH >= 99",
+                "DEFENCE >= 99",
+                "RANGED >= 99",
+                "MAGIC >= 99",
+                "PRAYER >= 99",
+                "HITPOINTS >= 99",
+                "AGILITY >= 99",
+                "HERBLORE >= 99",
+                "THIEVING >= 99",
+                "CRAFTING >= 99",
+                "FLETCHING >= 99",
+                "SLAYER >= 99",
+                "HUNTER >= 99",
+                "MINING >= 99",
+                "SMITHING >= 99",
+                "FISHING >= 99",
+                "COOKING >= 99",
+                "FIREMAKING >= 99",
+                "WOODCUTTING >= 99",
+                "RUNECRAFT >= 99",
+                "FARMING >= 99",
+                "CONSTRUCTION >= 99",
+                "SAILING >= 99"
+              ]
+            },
+            {
+              "name": "Ranging cape(t)",
+              "itemIds": [
+                9757
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 99"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chestplate",
+              "itemIds": [
+                11828
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Karil's leathertop",
+              "itemIds": [
+                4736,
+                4940,
+                4941,
+                4942,
+                4943
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide body",
+              "itemIds": [
+                12508
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak d'hide body",
+              "itemIds": [
+                10370
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Masori chaps (f)",
+              "itemIds": [
+                27241
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chainskirt",
+              "itemIds": [
+                11830
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Karil's leatherskirt",
+              "itemIds": [
+                4738,
+                4946,
+                4947,
+                4948,
+                4949
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl chaps",
+              "itemIds": [
+                12510
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak chaps",
+              "itemIds": [
+                10372
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Black chinchompa",
+              "itemIds": [
+                11959
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 65"
+              ]
+            },
+            {
+              "name": "Red chinchompa",
+              "itemIds": [
+                10034
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 55"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Elysian spirit shield",
+              "itemIds": [
+                12817
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75",
+                "PRAYER >= 75"
+              ]
+            },
+            {
+              "name": "Dragonfire ward",
+              "itemIds": [
+                22002
+              ],
+              "requires": [],
+              "requirements": [
+                "Started Dragon Slayer I",
+                "RANGED >= 70",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Twisted buckler",
+              "itemIds": [
+                21000
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Dragonfire shield",
+              "itemIds": [
+                11283
+              ],
+              "requires": [],
+              "requirements": [
+                "Started Dragon Slayer I",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Crystal shield",
+              "itemIds": [
+                23991,
+                24127
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Roving Elves",
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Diamond bolts (e)",
+              "itemIds": [
+                9243
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Armadyl bracers",
+              "itemIds": [
+                12506
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak bracers",
+              "itemIds": [
+                10368
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide boots",
+              "itemIds": [
+                19930
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Echo boots",
+              "itemIds": [
+                28945
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "god-wars-dungeon-armadyl"
+        ],
+        "requirements": [
+          "RANGED >= 70",
+          "PRAYER >= 40"
+        ],
+        "requiredItems": [
+          {
+            "name": "Black chinchompa or Red chinchompa",
+            "itemIds": [
+              11959,
+              10034
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          }
+        ],
+        "switches": [
+          {
+            "name": "Rune crossbow",
+            "itemIds": [
+              9185
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Diamond bolts (e)",
+            "itemIds": [
+              9243
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 6,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 9,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Bones to peaches (tablet)",
+            "itemIds": [
+              8015
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Ecumenical key",
+            "itemIds": [
+              11942
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Rune crossbow or Dragon crossbow or Armadyl crossbow or Zaryte crossbow or Dragon hunter crossbow",
+            "itemIds": [
+              9185,
+              21902,
+              11785,
+              26374,
+              21012
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mith grapple",
+            "itemIds": [
+              9419
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Black chinchompa or Red chinchompa",
+            "itemIds": [
+              11959,
+              10034
+            ],
+            "quantity": 500,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 1,
+        "profitRank": 3,
+        "effortRank": 3,
+        "rankingReason": "Qualitative encounter trade-off: Chinchompas target the low-defence bodyguard and deal area damage to overlapping Kree'arra.",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "team-horn-halberd",
+      "label": "Duo or trio soulflame horn and halberd",
+      "combatStyle": "MELEE",
+      "role": "team",
+      "summary": "The soulflame horn enables guaranteed halberd hits only with a nearby teammate, making this an explicit group method.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Oathplate helm",
+            "Neitiznot faceguard"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of blood fury"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape"
+          ],
+          "BODY": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Bandos chestplate",
+            "Blood moon chestplate"
+          ],
+          "LEGS": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Bandos tassets",
+            "Blood moon tassets"
+          ],
+          "WEAPON": [
+            "Noxious halberd"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Unholy blessing",
+            "Honourable blessing"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots"
+          ],
+          "RING": [
+            "Lightbearer",
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Ring of suffering (ri)"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Missiles while Kree'arra is alive; Protect from Magic when handling Skree afterwards"
+      ],
+      "steps": [
+        "Use Noxious halberd as the main weapon; ordinary melee weapons cannot reach airborne Kree'arra.",
+        "Stand underneath after each attack and use the soulflame horn special with another player nearby.",
+        "Coordinate remaining special energy; each member carrying a horn is more reliable than trading one between kills.",
+        "After Kree'arra dies, use magic protection while handling Skree, then finish the remaining minions."
+      ],
+      "notes": [
+        "The Wiki identifies Noxious halberd as the viable halberd for this method; its extended reach and the horn effect are both essential."
+      ],
+      "risks": [
+        "The horn special requires another player nearby. This method is unavailable as a solo encounter."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Torva full helm",
+              "itemIds": [
+                26382
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Oathplate helm",
+              "itemIds": [
+                30750
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Neitiznot faceguard",
+              "itemIds": [
+                24271
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: The Fremennik Exiles",
+                "DEFENCE >= 70"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of rancour",
+              "itemIds": [
+                29801
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Amulet of torture",
+              "itemIds": [
+                19553
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of blood fury",
+              "itemIds": [
+                24780
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Infernal cape",
+              "itemIds": [
+                21295,
+                24224
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Torva platebody",
+              "itemIds": [
+                26384
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Oathplate chest",
+              "itemIds": [
+                30753
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Bandos chestplate",
+              "itemIds": [
+                11832
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Blood moon chestplate",
+              "itemIds": [
+                29022,
+                29043
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Torva platelegs",
+              "itemIds": [
+                26386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Oathplate legs",
+              "itemIds": [
+                30756
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Bandos tassets",
+              "itemIds": [
+                11834
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Blood moon tassets",
+              "itemIds": [
+                29025,
+                29045
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Noxious halberd",
+              "itemIds": [
+                29796
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Unholy blessing",
+              "itemIds": [
+                20223
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Honourable blessing",
+              "itemIds": [
+                20229
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Ferocious gloves",
+              "itemIds": [
+                22981
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Primordial boots",
+              "itemIds": [
+                13239
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Dragon boots",
+              "itemIds": [
+                11840
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ultor ring",
+              "itemIds": [
+                28307
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated Vardorvis during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "god-wars-dungeon-armadyl"
+        ],
+        "requirements": [
+          "RANGED >= 70",
+          "PRAYER >= 40"
+        ],
+        "requiredItems": [
+          {
+            "name": "Noxious halberd",
+            "itemIds": [
+              29796
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Soulflame horn",
+            "itemIds": [
+              30759
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 6,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 9,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Bones to peaches (tablet)",
+            "itemIds": [
+              8015
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Ecumenical key",
+            "itemIds": [
+              11942
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Rune crossbow or Dragon crossbow or Armadyl crossbow or Zaryte crossbow or Dragon hunter crossbow",
+            "itemIds": [
+              9185,
+              21902,
+              11785,
+              26374,
+              21012
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mith grapple",
+            "itemIds": [
+              9419
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "group": true,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: The soulflame horn enables guaranteed halberd hits only with a nearby teammate, making this an explicit group method.",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "bodyguard-role",
+      "label": "Flockleader Geerin: ranged support and healing target",
+      "combatStyle": "RANGED",
+      "role": "mechanics",
+      "summary": "Geerin is normally blocked by the ranged protection needed for Kree'arra.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Geerin uses ranged attacks up to 25. Keep the full encounter prayer plan in mind instead of changing protection for an isolated minion.",
+        "After an initial room clear, Kree'arra can overlap Geerin as it approaches; experienced players can use this as a second chinchompa accuracy target.",
+        "This pivot requires correct overlap and timing. If Geerin dies before the boss, the player may lose a useful subsequent blood-spell healing target.",
+        "After Kree'arra and Skree are dead, stack Geerin with Kilisa for Blood Barrage, or use Blood Blitz on Geerin when Kilisa is already dead or too low."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "entry-and-killcount",
+      "label": "Armadyl entry and assignment cost",
+      "combatStyle": "RANGED",
+      "role": "access",
+      "summary": "Plan both the dungeon approach and the Armadyl entry check.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Use Death Plateau and Troll Stronghold progress through Dad, or the Ghommal's hilt route to Trollheim.",
+        "Carry a crossbow and mith grapple for the 70 Ranged entry. A grapple can be stored in Dizana's quiver where available.",
+        "The room normally needs 40 Armadyl killcount, reduced by Combat Achievement tiers, or an ecumenical key or other valid bypass. A key is optional when the killcount requirement is already satisfied.",
+        "Collecting Armadyl killcount consumes aviansie task kills, so a bypass preserves more of the assignment for boss-room kills. Appropriate god items prevent aggression on the approach."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "boss-targeting-and-protection",
+      "label": "Encounter targeting and protection",
+      "combatStyle": "RANGED",
+      "role": "mechanics",
+      "summary": "Kree'arra governs the safe setup while any bodyguard is alive.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Kree'arra ranged attacks hit up to 69 and magic up to 21; the magic accuracy roll checks ranged defence.",
+        "Both attacks affect all players and can knock them back unless positioned in a corner. A group therefore has no designated tank.",
+        "When not targeted, Kree'arra approaches for a melee attack up to 26. Off-tick retargeting is essential for the chinchompa method.",
+        "Team players normally bring their strongest ranged weapon; additional player damage makes chinchompas unnecessary."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "ancient-healing-and-freezing",
+      "label": "Ancient Magicks sustain and freezing",
+      "combatStyle": "MAGIC",
+      "role": "support",
+      "summary": "Blood and ice spells are optional extensions with explicit spell preparation.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "After the boss dies, Blood Barrage can heal from stacked Kilisa and Geerin. Blood Blitz is the single-target alternative when Kilisa is dead or nearly dead.",
+        "Blood Barrage needs 92 Magic and 4 blood, 4 death and 1 soul rune per cast. Blood Blitz needs 80 Magic and 4 blood plus 2 death runes per cast. Both require Desert Treasure I and Ancient Magicks selected.",
+        "Ice Barrage requires 94 Magic with 6 water, 4 death and 2 blood runes per cast and can freeze Kilisa while stacking her with Geerin.",
+        "Carry an Ancient-autocasting staff such as a blood ancient sceptre, Kodai wand or eldritch Nightmare staff, plus suitable magic gear. Eldritch specials can restore Prayer; Lightbearer shortens the special-energy recovery wait.",
+        "The horn setup can instead use Arceuus Death Charge for special energy; that is a different spellbook preparation and cannot be assumed alongside Ancient Magicks."
+      ],
+      "notes": [],
+      "risks": [
+        "A ranged or melee preset does not silently include the level, runes or spellbook for these optional extensions."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Blood_Barrage",
+            "title": "Blood Barrage",
+            "pageId": 19221,
+            "revisionId": 15020225,
+            "timestamp": "2025-11-08T10:59:27Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Blood_Blitz",
+            "title": "Blood Blitz",
+            "pageId": 29038,
+            "revisionId": 14779887,
+            "timestamp": "2024-10-18T19:35:45Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Ice_Barrage",
+            "title": "Ice Barrage",
+            "pageId": 10736,
+            "revisionId": 15304596,
+            "timestamp": "2026-08-17T21:38:17Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "methodId": "supplies-and-banking",
+      "label": "Supplies, drops and trip length",
+      "combatStyle": "RANGED",
+      "role": "inventory",
+      "summary": "Use food drops and bones to extend a prepared trip.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "The boss and three bodyguards each drop bones. Four Bones to Peaches conversions yield 32 healing; a tablet is the portable option without relying on the spell unlock.",
+        "Bodyguards may drop two manta rays for 44 healing or three mushroom potatoes for 60; floor juggling can preserve them when inventory is full.",
+        "Shadow trips commonly use three to five brews and five to seven restores; ranged tank trips use twelve to sixteen brews and six to eight restores. Adjust the plan for optional Ancient healing.",
+        "Bow and chinchompa trips reserve space for a direct weapon, crossbow/grapple, optional Ancient gear, ammunition, boosts and teleport. Re-check loaded darts, scales, staff charges and crystal charges.",
+        "Soulflame teams may switch to Lightbearer after a kill and use restoration or healing supplies while special energy returns."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "wiki-table-1",
+      "label": "Near-max Shadow magic priorities",
+      "combatStyle": "MAGIC",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Ancestral hat",
+            "Virtus mask"
+          ],
+          "AMULET": [
+            "Occult necklace"
+          ],
+          "CAPE": [
+            "Imbued Zamorak cape"
+          ],
+          "BODY": [
+            "Ancestral robe top",
+            "Virtus robe top"
+          ],
+          "LEGS": [
+            "Ancestral robe bottom",
+            "Virtus robe bottom"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Honourable blessing",
+            "Rada's blessing 3"
+          ],
+          "HANDS": [
+            "Confliction gauntlets",
+            "Tormented bracelet"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Eternal boots"
+          ],
+          "RING": [
+            "Magus ring",
+            "Lightbearer",
+            "Ring of suffering (ri)",
+            "Seers ring (i)"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-2",
+      "label": "Chinchompa overlap priorities",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Justiciar faceguard",
+            "Verac's helm",
+            "Armadyl helmet"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Dragonbone necklace",
+            "Bonecrusher necklace"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Max cape",
+            "Ranging cape(t)",
+            "Ava's assembler"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Karil's leathertop",
+            "Armadyl d'hide body",
+            "Zamorak d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Karil's leatherskirt",
+            "Armadyl chaps",
+            "Zamorak chaps"
+          ],
+          "WEAPON": [
+            "Black chinchompa",
+            "Red chinchompa"
+          ],
+          "SHIELD": [
+            "Elysian spirit shield",
+            "Dragonfire ward",
+            "Twisted buckler",
+            "Dragonfire shield",
+            "Crystal shield"
+          ],
+          "AMMO": [
+            "Seeking dragon arrow",
+            "Diamond dragon bolts (e)",
+            "Diamond bolts (e)",
+            "Mith grapple"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Armadyl bracers",
+            "Zamorak bracers"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Armadyl d'hide boots",
+            "Pegasian boots",
+            "Echo boots"
+          ],
+          "RING": [
+            "Ring of suffering (ri)",
+            "Lightbearer",
+            "Venator ring"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-3",
+      "label": "Defensive ranged priorities",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Justiciar faceguard",
+            "Verac's helm",
+            "Masori mask (f)",
+            "Armadyl helmet"
+          ],
+          "AMULET": [
+            "Amulet of fury",
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Dragonbone necklace",
+            "Bonecrusher necklace",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Karil's leathertop",
+            "Armadyl d'hide body",
+            "Zamorak d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Karil's leatherskirt",
+            "Verac's plateskirt",
+            "Armadyl chaps",
+            "Zamorak chaps"
+          ],
+          "WEAPON": [
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon hunter crossbow",
+            "Dragon crossbow",
+            "Twisted bow"
+          ],
+          "SHIELD": [
+            "Elysian spirit shield",
+            "Dragonfire ward",
+            "Twisted buckler",
+            "Crystal shield",
+            "Odium ward"
+          ],
+          "AMMO": [
+            "Diamond dragon bolts (e)",
+            "Diamond bolts (e)",
+            "Ruby bolts (e)"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Armadyl bracers",
+            "Zamorak bracers"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Armadyl d'hide boots",
+            "Pegasian boots",
+            "Echo boots"
+          ],
+          "RING": [
+            "Ring of suffering (ri)",
+            "Venator ring"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-4",
+      "label": "Twisted bow and crystal bow priorities",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Crystal helm"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Crystal body",
+            "Karil's leathertop",
+            "Armadyl d'hide body",
+            "Zamorak d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Crystal legs",
+            "Karil's leatherskirt",
+            "Verac's plateskirt",
+            "Armadyl chaps",
+            "Zamorak chaps"
+          ],
+          "AMMO": [
+            "Seeking dragon arrow",
+            "Rada's blessing 4",
+            "Mith grapple",
+            "Unholy blessing",
+            "Honourable blessing"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Armadyl bracers",
+            "Zamorak bracers"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Armadyl d'hide boots",
+            "Ranger boots",
+            "Echo boots"
+          ],
+          "RING": [
+            "Ring of suffering (ri)",
+            "Venator ring",
+            "Lightbearer",
+            "Ring of the gods (i)"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-5",
+      "label": "Soulflame horn team melee priorities",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Oathplate helm",
+            "Neitiznot faceguard"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of blood fury"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape"
+          ],
+          "BODY": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Bandos chestplate",
+            "Blood moon chestplate"
+          ],
+          "LEGS": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Bandos tassets",
+            "Blood moon tassets"
+          ],
+          "WEAPON": [
+            "Noxious halberd"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Unholy blessing",
+            "Honourable blessing"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots"
+          ],
+          "RING": [
+            "Lightbearer",
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Ring of suffering (ri)"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Kree'arra/Strategies",
+            "title": "Kree'arra/Strategies",
+            "pageId": 41793,
+            "revisionId": 15299717,
+            "timestamp": "2026-08-14T03:48:26Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Flockleader_Geerin",
+            "title": "Flockleader Geerin",
+            "pageId": 28715,
+            "revisionId": 15329496,
+            "timestamp": "2026-09-03T17:40:52Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "flockleader-geerin"
+        ]
+      }
+    }
+  ]
+}

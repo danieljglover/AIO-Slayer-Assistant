@@ -1,0 +1,25 @@
+{
+  "locationId": "web-chasm",
+  "name": "Web Chasm",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Wilderness boss lair. Requires the hard Wilderness Diary or the matching Venenatis boss Slayer assignment; an ordinary creature assignment does not waive the diary. Entry costs 50,000 coins, repayable after the applicable PvP death. Check the linked strategy for travel and risk.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Web_Chasm",
+  "advisorRequirements": [
+    "Hard Wilderness Diary completed or Venenatis boss assignment"
+  ],
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Spindel",
+      "title": "Spindel",
+      "pageId": 374849,
+      "revisionId": 15309918,
+      "timestamp": "2026-08-19T21:20:00Z",
+      "missing": false
+    }
+  ]
+}

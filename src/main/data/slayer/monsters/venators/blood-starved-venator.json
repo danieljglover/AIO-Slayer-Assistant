@@ -1,0 +1,25 @@
+{
+  "variantId": "blood-starved-venator",
+  "name": "Blood-starved venator",
+  "npcIds": [
+    15770
+  ],
+  "combatLevel": 246,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": -5,
+    "slash": 60,
+    "crush": 130,
+    "magic": 110,
+    "range": -5
+  },
+  "boss": false,
+  "location": "Apsul and Virer Hunting Grounds in Vampyrium",
+  "locationId": "apsul-hunting-ground",
+  "requirement": "The Blood Moon Rises",
+  "strategyId": "venators"
+}

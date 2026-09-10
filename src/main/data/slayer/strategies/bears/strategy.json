@@ -42,7 +42,12 @@
         "For starter masters, go to the Fremennik Province woods outside Rellekka or the Mind Altar black bears.",
         "For Krystilia, kill grizzly bears in the Wilderness west of the Graveyard of Shadows with risk-appropriate gear.",
         "Attack with any melee weapon until the task completes."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "bears-wilderness"
+        ]
+      }
     },
     {
       "methodId": "wilderness-safe",
@@ -63,7 +68,12 @@
         "Bank valuables; wear only risk-appropriate gear before entering the Wilderness.",
         "Kill grizzly bears west of the Graveyard of Shadows; they die in one or two hits.",
         "Watch the minimap for PKers and teleport out when threatened."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "bears-wilderness"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -84,6 +94,11 @@
             "Slayer helmet"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "bears-wilderness"
+        ]
       }
     }
   ],

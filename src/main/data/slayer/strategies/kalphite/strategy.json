@@ -253,8 +253,13 @@
         "The boss attacks with all three styles and is not comparable to normal cannon tasking."
       ],
       "notes": [
-        "The task page says Kalphite Queen is not recommended unless the player is progressing or has completed the Elite Desert diary and has 86 Agility."
-      ]
+        "The task page says Kalphite Queen is not recommended unless the player is progressing or has completed the Elite Desert diary and has 86 Agility.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     },
     {
       "methodId": "inventory-and-loot",

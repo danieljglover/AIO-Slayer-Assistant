@@ -259,8 +259,13 @@
       ],
       "notes": [
         "The task page says the helmet boost works for Branda but not for Eldric.",
-        "Branda remains linked to the Royal Titans strategy source because the fight is a separate boss encounter."
-      ]
+        "Branda remains linked to the Royal Titans strategy source because the fight is a separate boss encounter.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     },
     {
       "methodId": "inventory-and-loot",

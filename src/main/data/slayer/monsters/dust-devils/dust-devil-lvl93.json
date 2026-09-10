@@ -25,7 +25,7 @@
   "undead": false,
   "boss": false,
   "location": "Catacombs of Kourend / Wilderness Slayer Cave / Smoke Dungeon",
-  "requirement": "65 Slayer; started Desert Treasure I; facemask or Slayer helmet required",
+  "requirement": "SLAYER >= 65",
   "bossId": null,
   "strategyId": "dust-devils"
 }

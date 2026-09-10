@@ -1,0 +1,2725 @@
+{
+  "strategyId": "araxxor",
+  "variantIds": [
+    "araxxor"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+      "title": "Araxxor/Strategies",
+      "pageId": 529623,
+      "revisionId": 15322538,
+      "timestamp": "2026-08-27T23:23:46Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Araxxor",
+      "title": "Araxxor",
+      "pageId": 443990,
+      "revisionId": 15326066,
+      "timestamp": "2026-08-31T06:17:34Z",
+      "missing": false
+    }
+  ],
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "inquisitor-s-mace",
+      "soulreaper-axe",
+      "abyssal-bludgeon",
+      "zamorakian-hasta",
+      "sarachnis-cudgel",
+      "dual-macuahuitl",
+      "zombie-axe"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "noxious-halberd",
+        "style": "MELEE"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "karil-s-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "heavy-ballista",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Crush melee with venom protection; carry a halberd or a heavy ranged switch for mirrorbacks. Araxxor requires 92 Slayer and an active araxyte or spider task."
+  },
+  "requirements": [
+    "92 Slayer, completion of Priest in Peril and an active araxyte or spider assignment are required.",
+    "The Wiki recommends 85 Attack, Strength and Hitpoints, 70 Defence and Prayer; these recommendations are not entry requirements.",
+    "Sins of the Father is an optional Hallowed Sepulchre travel route requirement, not an encounter requirement."
+  ],
+  "mechanics": [
+    "Araxxor favours crush melee; ranged is an alternative with expensive equipment. The listed fire weakness does not make ordinary magic competitive against his magic defence.",
+    "Venom protection, spawn handling and the enrage phase are separate preparation requirements; Protect from Melee alone does not prevent special-attack damage."
+  ],
+  "methods": [
+    {
+      "methodId": "crush-halberd",
+      "label": "Crush melee with mirrorback halberd",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "The main melee setup uses crush damage and a Noxious halberd switch to avoid mirrorback melee recoil.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of blood fury",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape"
+          ],
+          "BODY": [
+            "Inquisitor's hauberk",
+            "Torva platebody",
+            "Bandos chestplate",
+            "Oathplate chest",
+            "Blood moon chestplate",
+            "Fighter torso"
+          ],
+          "LEGS": [
+            "Inquisitor's plateskirt",
+            "Torva platelegs",
+            "Bandos tassets",
+            "Oathplate legs",
+            "Blood moon tassets"
+          ],
+          "WEAPON": [
+            "Scythe of Vitur",
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Abyssal bludgeon",
+            "Ursine chainmace (u)",
+            "Zamorakian hasta",
+            "Sarachnis cudgel",
+            "Dual macuahuitl",
+            "Zombie axe"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Rada's blessing 3",
+            "Rada's blessing 2",
+            "Peaceful blessing"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Dragon boots",
+            "Aranea boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Berserker ring (i)"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Melee; best available melee offensive prayer"
+      ],
+      "steps": [
+        "Use the main weapon on crush where supported; keep Araxxor in melee distance for his lower-damage standard attacks.",
+        "Use the specified switch on white mirrorbacks from beyond adjacent melee range. Hatched araxytes have 58 Hitpoints; eggs have 65 and do not share the guaranteed-max-hit rule.",
+        "Plan movement around acid and red araxytes, then use the separate enrage reference below the 25% health threshold."
+      ],
+      "notes": [],
+      "risks": [
+        "An adjacent halberd hit still takes mirrorback recoil; the extra tile of reach is essential."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of rancour",
+              "itemIds": [
+                29801
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Amulet of torture",
+              "itemIds": [
+                19553
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of blood fury",
+              "itemIds": [
+                24780
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Infernal cape",
+              "itemIds": [
+                21295,
+                24224
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Mythical cape",
+              "itemIds": [
+                22114
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Dragon Slayer II"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Inquisitor's hauberk",
+              "itemIds": [
+                24420
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 70",
+                "DEFENCE >= 30"
+              ]
+            },
+            {
+              "name": "Torva platebody",
+              "itemIds": [
+                26384
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Bandos chestplate",
+              "itemIds": [
+                11832
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Oathplate chest",
+              "itemIds": [
+                30753
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Blood moon chestplate",
+              "itemIds": [
+                29022,
+                29043
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Fighter torso",
+              "itemIds": [
+                10551,
+                24175
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Inquisitor's plateskirt",
+              "itemIds": [
+                24421
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 70",
+                "DEFENCE >= 30"
+              ]
+            },
+            {
+              "name": "Torva platelegs",
+              "itemIds": [
+                26386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Bandos tassets",
+              "itemIds": [
+                11834
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Oathplate legs",
+              "itemIds": [
+                30756
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Blood moon tassets",
+              "itemIds": [
+                29025,
+                29045
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Scythe of Vitur",
+              "itemIds": [
+                22325
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "STRENGTH >= 90"
+              ]
+            },
+            {
+              "name": "Inquisitor's mace",
+              "itemIds": [
+                24417
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80"
+              ]
+            },
+            {
+              "name": "Soulreaper axe",
+              "itemIds": [
+                28338
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "STRENGTH >= 80"
+              ]
+            },
+            {
+              "name": "Abyssal bludgeon",
+              "itemIds": [
+                13263
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "STRENGTH >= 70"
+              ]
+            },
+            {
+              "name": "Ursine chainmace",
+              "itemIds": [
+                27660
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70"
+              ]
+            },
+            {
+              "name": "Zamorakian hasta",
+              "itemIds": [
+                11889
+              ],
+              "requires": [],
+              "requirements": [
+                "Barbarian Training: hasta wielding",
+                "ATTACK >= 70"
+              ]
+            },
+            {
+              "name": "Sarachnis cudgel",
+              "itemIds": [
+                23528
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 65"
+              ]
+            },
+            {
+              "name": "Dual macuahuitl",
+              "itemIds": [
+                28997
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "STRENGTH >= 75"
+              ]
+            },
+            {
+              "name": "Zombie axe",
+              "itemIds": [
+                28810
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 65"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Avernic defender",
+              "itemIds": [
+                22322,
+                24186
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 2",
+              "itemIds": [
+                22943
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Peaceful blessing",
+              "itemIds": [
+                20226
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Ferocious gloves",
+              "itemIds": [
+                22981
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Primordial boots",
+              "itemIds": [
+                13239
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Dragon boots",
+              "itemIds": [
+                11840
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ultor ring",
+              "itemIds": [
+                28307
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated Vardorvis during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "araxxor-lair"
+        ],
+        "requirements": [
+          "SLAYER >= 92",
+          "Quest: Priest in Peril"
+        ],
+        "requiredItems": [
+          {
+            "name": "Scythe of Vitur or Inquisitor's mace or Soulreaper axe or Abyssal bludgeon or Ursine chainmace (u) or Zamorakian hasta or Sarachnis cudgel or Dual macuahuitl or Zombie axe",
+            "itemIds": [
+              22325,
+              24417,
+              28338,
+              13263,
+              27660,
+              11889,
+              23528,
+              28997,
+              28810
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Noxious halberd",
+            "itemIds": [
+              29796
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Extended anti-venom+",
+            "itemIds": [
+              29824,
+              29827,
+              29830,
+              29833
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 12,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": false,
+        "taskOnly": true,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: The main melee setup uses crush damage and a Noxious halberd switch to avoid mirrorback melee recoil.",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "crush-heavy-ranged",
+      "label": "Crush melee with ballista switch",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Heavy ballista and dragon javelins provide a ranged mirrorback alternative when the ranged attack bonus is the highest applicable attack style.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of blood fury",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape"
+          ],
+          "BODY": [
+            "Inquisitor's hauberk",
+            "Torva platebody",
+            "Bandos chestplate",
+            "Oathplate chest",
+            "Blood moon chestplate",
+            "Fighter torso"
+          ],
+          "LEGS": [
+            "Inquisitor's plateskirt",
+            "Torva platelegs",
+            "Bandos tassets",
+            "Oathplate legs",
+            "Blood moon tassets"
+          ],
+          "WEAPON": [
+            "Scythe of Vitur",
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Abyssal bludgeon",
+            "Ursine chainmace (u)",
+            "Zamorakian hasta",
+            "Sarachnis cudgel",
+            "Dual macuahuitl",
+            "Zombie axe"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Rada's blessing 3",
+            "Rada's blessing 2",
+            "Peaceful blessing"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Dragon boots",
+            "Aranea boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Berserker ring (i)"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Melee; best available melee offensive prayer"
+      ],
+      "steps": [
+        "Use the main weapon on crush where supported; keep Araxxor in melee distance for his lower-damage standard attacks.",
+        "Use the specified switch on white mirrorbacks from beyond adjacent melee range. Hatched araxytes have 58 Hitpoints; eggs have 65 and do not share the guaranteed-max-hit rule.",
+        "Plan movement around acid and red araxytes, then use the separate enrage reference below the 25% health threshold."
+      ],
+      "notes": [
+        "Bring additional ranged gear if needed so heavy ranged is the highest attack style against hatched araxytes; this conditional guarantee does not apply to unhatched eggs."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of rancour",
+              "itemIds": [
+                29801
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Amulet of torture",
+              "itemIds": [
+                19553
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of blood fury",
+              "itemIds": [
+                24780
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Infernal cape",
+              "itemIds": [
+                21295,
+                24224
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Mythical cape",
+              "itemIds": [
+                22114
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Dragon Slayer II"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Inquisitor's hauberk",
+              "itemIds": [
+                24420
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 70",
+                "DEFENCE >= 30"
+              ]
+            },
+            {
+              "name": "Torva platebody",
+              "itemIds": [
+                26384
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Bandos chestplate",
+              "itemIds": [
+                11832
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Oathplate chest",
+              "itemIds": [
+                30753
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Blood moon chestplate",
+              "itemIds": [
+                29022,
+                29043
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Fighter torso",
+              "itemIds": [
+                10551,
+                24175
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Inquisitor's plateskirt",
+              "itemIds": [
+                24421
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 70",
+                "DEFENCE >= 30"
+              ]
+            },
+            {
+              "name": "Torva platelegs",
+              "itemIds": [
+                26386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Bandos tassets",
+              "itemIds": [
+                11834
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Oathplate legs",
+              "itemIds": [
+                30756
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Blood moon tassets",
+              "itemIds": [
+                29025,
+                29045
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Scythe of Vitur",
+              "itemIds": [
+                22325
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "STRENGTH >= 90"
+              ]
+            },
+            {
+              "name": "Inquisitor's mace",
+              "itemIds": [
+                24417
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80"
+              ]
+            },
+            {
+              "name": "Soulreaper axe",
+              "itemIds": [
+                28338
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "STRENGTH >= 80"
+              ]
+            },
+            {
+              "name": "Abyssal bludgeon",
+              "itemIds": [
+                13263
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "STRENGTH >= 70"
+              ]
+            },
+            {
+              "name": "Ursine chainmace",
+              "itemIds": [
+                27660
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70"
+              ]
+            },
+            {
+              "name": "Zamorakian hasta",
+              "itemIds": [
+                11889
+              ],
+              "requires": [],
+              "requirements": [
+                "Barbarian Training: hasta wielding",
+                "ATTACK >= 70"
+              ]
+            },
+            {
+              "name": "Sarachnis cudgel",
+              "itemIds": [
+                23528
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 65"
+              ]
+            },
+            {
+              "name": "Dual macuahuitl",
+              "itemIds": [
+                28997
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "STRENGTH >= 75"
+              ]
+            },
+            {
+              "name": "Zombie axe",
+              "itemIds": [
+                28810
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 65"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Avernic defender",
+              "itemIds": [
+                22322,
+                24186
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 2",
+              "itemIds": [
+                22943
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Peaceful blessing",
+              "itemIds": [
+                20226
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Ferocious gloves",
+              "itemIds": [
+                22981
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Primordial boots",
+              "itemIds": [
+                13239
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Dragon boots",
+              "itemIds": [
+                11840
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ultor ring",
+              "itemIds": [
+                28307
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated Vardorvis during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "araxxor-lair"
+        ],
+        "requirements": [
+          "SLAYER >= 92",
+          "Quest: Priest in Peril"
+        ],
+        "requiredItems": [
+          {
+            "name": "Scythe of Vitur or Inquisitor's mace or Soulreaper axe or Abyssal bludgeon or Ursine chainmace (u) or Zamorakian hasta or Sarachnis cudgel or Dual macuahuitl or Zombie axe",
+            "itemIds": [
+              22325,
+              24417,
+              28338,
+              13263,
+              27660,
+              11889,
+              23528,
+              28997,
+              28810
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Heavy ballista",
+            "itemIds": [
+              19481
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Dragon javelin",
+            "itemIds": [
+              19484,
+              19486,
+              19488,
+              19490
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Extended anti-venom+",
+            "itemIds": [
+              29824,
+              29827,
+              29830,
+              29833
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 12,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": false,
+        "taskOnly": true,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: Heavy ballista and dragon javelins provide a ranged mirrorback alternative when the ranged attack bonus is the highest applicable attack style.",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "twisted-bow",
+      "label": "Twisted bow alternative",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "Twisted bow with fortified Masori is a ranged alternative; the Wiki still prefers the strongest crush melee setups.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "BODY": [
+            "Masori body (f)"
+          ],
+          "LEGS": [
+            "Masori chaps (f)"
+          ],
+          "WEAPON": [
+            "Twisted bow"
+          ],
+          "AMMO": [
+            "Seeking dragon arrow",
+            "Dragon arrow",
+            "Amethyst arrow"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Blessed vambraces"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Aranea boots",
+            "Ranger boots",
+            "Devout boots",
+            "Ancient d'hide boots"
+          ],
+          "RING": [
+            "Lightbearer",
+            "Ring of the gods (i)",
+            "Archers ring (i)"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Melee; best available ranged offensive prayer"
+      ],
+      "steps": [
+        "Maintain melee distance where practical to reduce Araxxor standard-attack damage; ranged weapons do not make the encounter a safespot.",
+        "Use heavy ballista and javelins for mirrorbacks; follow the same egg, acid and enrage procedures as melee."
+      ],
+      "notes": [],
+      "risks": [
+        "Ranged attacks used by Araxxor outside melee distance drain Defence; magic attacks drain Prayer."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Max cape",
+              "itemIds": [
+                13280,
+                13342
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 99",
+                "STRENGTH >= 99",
+                "DEFENCE >= 99",
+                "RANGED >= 99",
+                "MAGIC >= 99",
+                "PRAYER >= 99",
+                "HITPOINTS >= 99",
+                "AGILITY >= 99",
+                "HERBLORE >= 99",
+                "THIEVING >= 99",
+                "CRAFTING >= 99",
+                "FLETCHING >= 99",
+                "SLAYER >= 99",
+                "HUNTER >= 99",
+                "MINING >= 99",
+                "SMITHING >= 99",
+                "FISHING >= 99",
+                "COOKING >= 99",
+                "FIREMAKING >= 99",
+                "WOODCUTTING >= 99",
+                "RUNECRAFT >= 99",
+                "FARMING >= 99",
+                "CONSTRUCTION >= 99",
+                "SAILING >= 99"
+              ]
+            },
+            {
+              "name": "Ranging cape(t)",
+              "itemIds": [
+                9757
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 99"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Masori chaps (f)",
+              "itemIds": [
+                27241
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Twisted bow",
+              "itemIds": [
+                20997
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 85"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Seeking dragon arrow",
+              "itemIds": [
+                33595
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Dragon arrow",
+              "itemIds": [
+                11212,
+                11227,
+                11228,
+                11229
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amethyst arrow",
+              "itemIds": [
+                21326,
+                21332,
+                21334,
+                21336
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Saradomin bracers",
+              "itemIds": [
+                10384
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix bracers",
+              "itemIds": [
+                10376
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak bracers",
+              "itemIds": [
+                10368
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl bracers",
+              "itemIds": [
+                12506
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient bracers",
+              "itemIds": [
+                12490
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos bracers",
+              "itemIds": [
+                12498
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ranger boots",
+              "itemIds": [
+                2577
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            },
+            {
+              "name": "Devout boots",
+              "itemIds": [
+                22954
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 60"
+              ]
+            },
+            {
+              "name": "Ancient d'hide boots",
+              "itemIds": [
+                19921
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of the gods (i)",
+              "itemIds": [
+                13202,
+                25252,
+                26764
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Archers ring (i)",
+              "itemIds": [
+                11771,
+                25260,
+                26768
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "araxxor-lair"
+        ],
+        "requirements": [
+          "SLAYER >= 92",
+          "Quest: Priest in Peril"
+        ],
+        "requiredItems": [
+          {
+            "name": "Twisted bow",
+            "itemIds": [
+              20997
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Masori body (f)",
+            "itemIds": [
+              27238
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Masori chaps (f)",
+            "itemIds": [
+              27241
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Heavy ballista",
+            "itemIds": [
+              19481
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Dragon javelin",
+            "itemIds": [
+              19484,
+              19486,
+              19488,
+              19490
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Extended anti-venom+",
+            "itemIds": [
+              29824,
+              29827,
+              29830,
+              29833
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 12,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": false,
+        "taskOnly": true,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: Twisted bow with fortified Masori is a ranged alternative; the Wiki still prefers the strongest crush melee setups.",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "access-and-travel",
+      "label": "Task access and routes",
+      "combatStyle": "MELEE",
+      "role": "travel",
+      "summary": "Choose a route to the Morytania spider cave before the trip.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Araxxor needs an active araxyte or spider task and 92 Slayer; destroying spawns does not decrement the assignment.",
+        "Spider cave teleport is the direct route. Hallowed crystal travel requires the Sins of the Father route and the relevant shortcut; the Wiki lists 63 Agility and two long ropes for that route.",
+        "Ectophial or fairy ring ALQ are longer approaches. Prepare venom protection, an emergency teleport and sufficient prayer supplies."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "standard-attacks",
+      "label": "Standard attacks and defence reduction",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Melee positioning lowers incoming standard damage; defence reduction has a limited floor.",
+      "requiredOrKeyItems": [
+        "Elder maul",
+        "Dragon warhammer"
+      ],
+      "steps": [
+        "Araxxor has 135 Defence with +15 crush defence. Defence may be reduced by at most 45 levels; one successful elder maul special reaches this cap, while dragon warhammer reduces 40.",
+        "Melee can hit 38, reduced to 5 through protection. Outside melee range the ranged attack can hit 34, reduced to 18, and drains 9% Defence; magic can hit 21 and drains 9% Prayer.",
+        "The ranged or magic choice considers the player defence rolls when the attack begins. Plan the main position and prayers before the attack rather than expecting a late equipment swap to change it."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "aranea-ranged-negation",
+      "label": "Aranea boots ranged-negation alternative",
+      "combatStyle": "RANGED",
+      "role": "positioning",
+      "summary": "High magic defence can steer Araxxor towards the ranged attack that Aranea boots periodically block.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Aranea boots negate Araxxor's ranged attack once every eight ticks, but do not block his magic attack.",
+        "High magic defence, most readily achieved with fortified Masori, can make ranged the chosen out-of-melee attack. Moving outside melee range every second attack exploits the boot cooldown.",
+        "Offensive prayers can change defence rolls and therefore the selected attack style. This advanced alternative requires the actual equipped defence profile; wearing the boots alone does not establish it."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "egg-rotation",
+      "label": "Egg rotation and spawn selection",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "The southeast egg colour fixes the repeating spawn order and associated boss special for the kill.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Nine eggs surround the arena: three red, three white and three green. The first hatch follows three normal attacks, later hatches follow six. Hatching proceeds clockwise from the southeast egg.",
+        "The repeating colour sequences are green-white-red, white-red-green or red-green-white. The southeast colour determines the special attack sequence for that kill.",
+        "Destroying a full-health egg skips that spawn; damage to an egg carries into the hatch. More than 58 damage to an egg can make its hatch immediately despawn, advancing the next scheduled hatch after six attacks.",
+        "Hatched araxytes take guaranteed maximum hits from Noxious halberd, crush when crush is the highest attack bonus, or heavy ranged when ranged is the highest. Unhatched eggs do not receive this guarantee."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "white-mirrorback",
+      "label": "White mirrorbacks and recoil",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Remove mirrorbacks safely before continuing boss damage.",
+      "requiredOrKeyItems": [
+        "Noxious halberd",
+        "Heavy ballista"
+      ],
+      "steps": [
+        "A mirrorback redirects 20% of damage dealt to Araxxor and reflects half of that redirected damage, effectively 10%, to the player.",
+        "Direct adjacent melee attacks against mirrorbacks recoil half the hit. Use ranged, magic, or a halberd with a one-tile gap to avoid the direct melee recoil.",
+        "Noxious halberd is the preferred switch. Hunters' sunlight crossbow with antler bolts, Karil's crossbow with bolt racks, heavy ballista with javelins, or rune crossbow with broad bolts are source-listed ranged alternatives.",
+        "Vengeance is an optional Lunar alternative to exploit recoil, with its own spellbook and rune requirements; the Wiki generally favours Arceuus utility instead."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "acid-splatter",
+      "label": "White-start acid-splatter special",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "A white southeast egg identifies the acid-splatter special for the kill.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Araxxor throws venom blobs in a broad arc around the player, dealing low venom damage and leaving acid pools.",
+        "As with acid ball, splatter damage can occur before the acid pool graphic forms. Do not assume visually clear newly targeted ground is safe.",
+        "Standing in acid deals progressively increasing damage starting at four, independently of whether venom is being cured or prevented."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "green-acidic",
+      "label": "Green araxytes and acid",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Green araxytes and acid specials create persistent movement hazards.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Green araxytes use ranged attacks up to 15 and leave a 7-by-7 acid area on death. Killing or deliberately leaving them alive is a damage-versus-movement trade-off.",
+        "Acid ball travels in a line and creates 3-by-3 pools; a wall impact spreads a 7-by-7 area. Damage can occur before the acid graphic appears.",
+        "During acid drip, move continuously while staying within Araxxor melee reach. The Wiki describes a walking pattern for four-tick weapons; learn the pattern as static preparation before attempting it."
+      ],
+      "notes": [],
+      "risks": [
+        "Venom protection does not prevent standing-acid damage."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "red-ruptura",
+      "label": "Red araxytes and explosions",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Red araxytes can damage the boss or remove another egg when carefully positioned.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "A red araxyte follows the player, then explodes in an 8-by-8 area. Player damage depends on remaining health and distance: up to 70 underneath, 49 adjacent, 28 at a one-tile gap and 7 at a two-tile gap.",
+        "Luring its explosion underneath Araxxor deals 80 damage, adjacent 64, decreasing to at least 33 at distance three.",
+        "An explosion can also be used on a white egg to avoid that mirrorback spawn. This is an optional efficiency technique with substantial positioning risk."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "enrage",
+      "label": "Enrage below 255 Hitpoints",
+      "combatStyle": "MELEE",
+      "role": "phase",
+      "summary": "The final quarter changes attack speed and adds an acid cleave.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "At less than 255 Hitpoints, Araxxor gains 35 Defence, 28 Magic and 31 Ranged while retaining prior defence reductions; the attack cycle accelerates from six to four ticks.",
+        "The cleave covers a 1-by-3 strip two tiles long and leaves acid. Protection reduces its damage by roughly two thirds; remaining outside melee distance can trigger an alternate attack.",
+        "A two-tile sideways move or a one-tile retreat followed by a delayed move can avoid the strip. Stepping under Araxxor can bait 8-12 self-damage when performed correctly.",
+        "Five-tick weapons need a different cadence: three attacks over four cleaves, omitting a step-under when necessary to avoid losing an attack.",
+        "Aranea boots can negate a cleave once per twenty ticks but do not negate acid. Leaving green araxytes alive and using ranged protection is an advanced alternative only when cleaves are consistently avoided."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "methodId": "corpse-and-supplies",
+      "label": "Loot choice and trip sustain",
+      "combatStyle": "MELEE",
+      "role": "trip-planning",
+      "summary": "The corpse must be resolved before the next spawn.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Harvest for ordinary loot or destroy the corpse to double the pet roll while sacrificing ordinary loot other than an elite clue. Loot cannot be previewed before making that choice.",
+        "Araxxor does not respawn until the corpse is resolved, allowing planned restoration and supply collection. Dropped supplies remain for three hours.",
+        "Bring venom protection, prayer restoration, food, a boost potion, a special-attack option and the selected mirrorback switch. Re-check charged weapons and loaded ammunition before leaving."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "wiki-table-1",
+      "label": "Hatched-araxyte weapon and ammunition alternatives",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "WEAPON": [
+            "Noxious halberd",
+            "Hunters' sunlight crossbow",
+            "Karil's crossbow",
+            "Heavy ballista",
+            "Rune crossbow"
+          ],
+          "AMMO": [
+            "Moonlight antler bolts",
+            "Bolt rack",
+            "Dragon javelin",
+            "Broad bolts"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Pair Hunters' sunlight crossbow with moonlight antler bolts, Karil's crossbow with bolt racks, heavy ballista with dragon javelins, and rune crossbow with broad bolts; Noxious halberd uses no ammunition."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-2",
+      "label": "Main crush melee priorities",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of blood fury",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape"
+          ],
+          "BODY": [
+            "Inquisitor's hauberk",
+            "Torva platebody",
+            "Bandos chestplate",
+            "Oathplate chest",
+            "Blood moon chestplate",
+            "Fighter torso",
+            "Barrows equipment"
+          ],
+          "LEGS": [
+            "Inquisitor's plateskirt",
+            "Torva platelegs",
+            "Bandos tassets",
+            "Oathplate legs",
+            "Blood moon tassets",
+            "Barrows equipment"
+          ],
+          "WEAPON": [
+            "Scythe of Vitur",
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Abyssal bludgeon",
+            "Ursine chainmace (u)",
+            "Zamorakian hasta",
+            "Sarachnis cudgel",
+            "Dual macuahuitl",
+            "Zombie axe"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Rada's blessing 3",
+            "Rada's blessing 2",
+            "Peaceful blessing"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Dragon boots",
+            "Aranea boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Berserker ring (i)"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-3",
+      "label": "Twisted bow ranged priorities",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "BODY": [
+            "Masori body (f)"
+          ],
+          "LEGS": [
+            "Masori chaps (f)"
+          ],
+          "WEAPON": [
+            "Twisted bow"
+          ],
+          "AMMO": [
+            "Seeking dragon arrow",
+            "Dragon arrow",
+            "Amethyst arrow"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Blessed vambraces"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Aranea boots",
+            "Ranger boots",
+            "Devout boots",
+            "Ancient d'hide boots"
+          ],
+          "RING": [
+            "Lightbearer",
+            "Ring of the gods (i)",
+            "Archers ring (i)"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor/Strategies",
+            "title": "Araxxor/Strategies",
+            "pageId": 529623,
+            "revisionId": 15322538,
+            "timestamp": "2026-08-27T23:23:46Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Araxxor",
+            "title": "Araxxor",
+            "pageId": 443990,
+            "revisionId": 15326066,
+            "timestamp": "2026-08-31T06:17:34Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "araxxor"
+        ]
+      }
+    }
+  ]
+}

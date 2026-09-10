@@ -37,9 +37,7 @@
     "note": "Weakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit."
   },
   "requirements": [
-    "Access to Venenatis's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
-    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
-    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+    "Review the exact selected boss location access requirements and planned Wilderness risk."
   ],
   "mechanics": [
     "Weakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit.",
@@ -73,7 +71,10 @@
       ],
       "steps": [
         "Weakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "crush-melee-wilderness-kill",
@@ -105,7 +106,10 @@
       "risks": [
         "Venenatis is in multi-combat Wilderness.",
         "Webs and player-killers can combine into lethal situations."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "ranged-exit-or-singles-alternative",
@@ -127,7 +131,499 @@
         "Use ranged setups when they make escape positioning easier.",
         "Bank frequently and avoid carrying unnecessary risk.",
         "Use the lower-risk related spider encounter when account goals allow it."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "reviewed-venenatis-melee-1",
+      "label": "Venenatis - Melee Wilderness setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use Ursine chainmace first when owned, eligible and within the chosen risk constraints; alternatives retain this Venenatis Wiki order.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Helm of Neitiznot",
+            "Zombie helmet",
+            "Dwarven helmet",
+            "Proselyte sallet"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Amulet of strength",
+            "Amulet of glory",
+            "Amulet of power"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Mixed hide cape",
+            "Ardougne cloak 4",
+            "Cape of legends"
+          ],
+          "body": [
+            "Fighter torso",
+            "Mixed hide top",
+            "Black d'hide body",
+            "Proselyte hauberk",
+            "Monk's robe top"
+          ],
+          "legs": [
+            "Black d'hide chaps",
+            "Proselyte cuisse",
+            "Proselyte tasset",
+            "Monk's robe"
+          ],
+          "weapon": [
+            "Ursine chainmace",
+            "Viggora's chainmace",
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Abyssal bludgeon",
+            "Zombie axe",
+            "Zamorakian hasta",
+            "Sarachnis cudgel"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Rune defender",
+            "Toktz-ket-xil",
+            "Book of War",
+            "Falador shield 4"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Rune gloves",
+            "Adamant gloves",
+            "Combat bracelet"
+          ],
+          "feet": [
+            "Dragon boots",
+            "Mixed hide boots",
+            "Rune boots",
+            "Climbing boots",
+            "Fremennik sea boots 4",
+            "Adamant boots"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Ring of shadows",
+            "Tyrannical ring (i)",
+            "Ring of wealth (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Use Ursine chainmace first when owned, eligible and within the chosen risk constraints; alternatives retain this Venenatis Wiki order.",
+        "Use the source-listed crush attack style; Salve applies to undead Vet'ion/Calvar'ion and does not stack with Slayer headgear."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "venenatis"
+        ],
+        "locationIds": [
+          "silk-chasm"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+            "title": "Venenatis/Strategies",
+            "pageId": 61746,
+            "revisionId": 15330927,
+            "timestamp": "2026-09-04T18:51:19Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-venenatis-ranged-2",
+      "label": "Venenatis - Ranged Wilderness setup",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Venenatis Wiki order.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Ancient coif",
+            "Karil's coif",
+            "Archer helm"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Dragonbone necklace",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Ava's assembler",
+            "Mixed hide cape",
+            "Ava's accumulator",
+            "Ava's attractor"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "legs": [
+            "Masori chaps (f)",
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward",
+            "Book of Law",
+            "Unholy book",
+            "Dragonhide shield"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Blessed vambraces",
+            "Black d'hide vambraces"
+          ],
+          "feet": [
+            "Blessed d'hide boots",
+            "Mixed hide boots",
+            "Shayzien boots (5)",
+            "Snakeskin boots"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3",
+            "Diamond dragon bolts (e)",
+            "Diamond bolts (e)"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Ring of wealth (i)",
+            "Explorer's ring"
+          ]
+        }
+      },
+      "steps": [
+        "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Venenatis Wiki order."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "venenatis"
+        ],
+        "locationIds": [
+          "silk-chasm"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+            "title": "Venenatis/Strategies",
+            "pageId": 61746,
+            "revisionId": 15330927,
+            "timestamp": "2026-09-04T18:51:19Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-spindel-melee-1",
+      "label": "Spindel - Melee Wilderness setup",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Use Ursine chainmace first when owned, eligible and within the chosen risk constraints; alternatives retain this Spindel Wiki order.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Helm of Neitiznot",
+            "Zombie helmet",
+            "Dwarven helmet",
+            "Proselyte sallet"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Amulet of strength",
+            "Amulet of glory",
+            "Amulet of power"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Trouver parchment",
+            "Fire cape",
+            "Mythical cape",
+            "Mixed hide cape",
+            "Ardougne cloak 4",
+            "Cape of legends"
+          ],
+          "body": [
+            "Fighter torso",
+            "Trouver parchment",
+            "Mixed hide top",
+            "Black d'hide body",
+            "Proselyte hauberk",
+            "Monk's robe top"
+          ],
+          "legs": [
+            "Black d'hide chaps",
+            "Proselyte cuisse",
+            "Proselyte tasset",
+            "Monk's robe"
+          ],
+          "weapon": [
+            "Ursine chainmace",
+            "Viggora's chainmace",
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Abyssal bludgeon",
+            "Zombie axe",
+            "Zamorakian hasta",
+            "Sarachnis cudgel",
+            "Dragon mace"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Rune defender",
+            "Toktz-ket-xil",
+            "Book of War",
+            "Falador shield 4"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Rune gloves",
+            "Adamant gloves",
+            "Combat bracelet"
+          ],
+          "feet": [
+            "Dragon boots",
+            "Aranea boots",
+            "Mixed hide boots",
+            "Rune boots",
+            "Climbing boots",
+            "Fremennik sea boots 4",
+            "Adamant boots"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Ring of shadows",
+            "Tyrannical ring (i)",
+            "Ring of wealth (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Use Ursine chainmace first when owned, eligible and within the chosen risk constraints; alternatives retain this Spindel Wiki order.",
+        "Use the source-listed crush attack style; Salve applies to undead Vet'ion/Calvar'ion and does not stack with Slayer headgear."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "spindel"
+        ],
+        "locationIds": [
+          "web-chasm"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+            "title": "Spindel/Strategies",
+            "pageId": 382059,
+            "revisionId": 15330947,
+            "timestamp": "2026-09-04T19:07:47Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-spindel-ranged-2",
+      "label": "Spindel - Ranged Wilderness setup",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Spindel Wiki order.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Crystal helm",
+            "Ancient coif",
+            "Archer helm"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Dizana's quiver",
+            "Trouver parchment",
+            "Ava's assembler",
+            "Ava's accumulator",
+            "Ranging cape",
+            "Ava's attractor"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Crystal body",
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "legs": [
+            "Blessed chaps",
+            "Crystal legs",
+            "Black d'hide chaps"
+          ],
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Bow of Faerdhinen",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward",
+            "Book of Law",
+            "Unholy book",
+            "Dragonhide shield"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Blessed vambraces",
+            "Black d'hide vambraces"
+          ],
+          "feet": [
+            "Ancient d'hide boots",
+            "Aranea boots",
+            "Mixed hide boots",
+            "Shayzien boots (5)",
+            "Snakeskin boots"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3",
+            "Diamond dragon bolts (e)",
+            "Diamond bolts (e)"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Ring of wealth (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Spindel Wiki order."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "spindel"
+        ],
+        "locationIds": [
+          "web-chasm"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+            "title": "Spindel/Strategies",
+            "pageId": 382059,
+            "revisionId": 15330947,
+            "timestamp": "2026-09-04T19:07:47Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [],
+        "inventory": [],
+        "switches": []
+      }
     }
   ],
   "styleOptions": [
@@ -150,6 +646,9 @@
             "Sarachnis cudgel"
           ]
         }
+      },
+      "advisor": {
+        "selectable": false
       }
     },
     {
@@ -167,8 +666,343 @@
             "Toxic blowpipe"
           ]
         }
+      },
+      "advisor": {
+        "selectable": false
       }
     }
   ],
-  "body": "# Venenatis\n\nWeakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit."
+  "body": "# Venenatis\n\nWeakest to crush. Ursine chainmace is strongest (Wilderness mace); Viggora's is the budget alt. Ranged stays competitive near the exit.",
+  "reviewedReferenceSections": [
+    {
+      "sectionId": "transportation-1",
+      "label": "Transportation",
+      "sourceWikitext": "Venenatis is located in the [[Silk Chasm]], which is a lair in the far east of the Wilderness at level 35.\n\n* A [[Wilderness crabs teleport]] is the fastest way to reach Venenatis, and will teleport you to the dark crab fishing spot just south-east of the lair.\n* With 90 [[Magic]], players on the [[Ancient spellbook]] can use [[Annakarl Teleport]], which will teleport them into the [[Demonic Ruins]]. Simply go south-east of your location after arriving. Be wary of [[PK'ers]] upon arrival.\n** Alternatives to this also include the [[Annakarl teleport (tablet)|Annakarl teleport]] tablet and a portal attuned to Annakarl. Be wary of PK'ers on arrival; if using the house portal, you should have a [[scrying pool]] to check the area first.\n* With 57 [[Woodcutting]], players can make a [[Waka canoe]] and use it to go to the [[Wilderness]]. Go east of your location past Vet'ion's rest and the poisonous spiders.\n* A [[games necklace]] to teleport to the [[Corporeal Beast]]'s lair, exit the cave then run north-east.\n* Players who have completed the Hard [[Wilderness Diary]] can utilize the Wilderness obelisks to teleport to levels 19, 35, or 55 to get closer to the Silk Chasm.\n* Players who have completed the Hard or Elite [[Wilderness Diary]] can use the [[Wilderness Sword 4|Wilderness Sword]] to teleport to the [[Fountain of Rune]] and run south-west to Venenatis.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "attacks-2",
+      "label": "Attacks",
+      "sourceWikitext": "Venenatis has many attacks that she uses against her target. \n\n*[[Melee]] attack: She simply lunges at the player\n*Ranged attack: Launches green spit at players\n*Magic attack: Launches webs at players\n*Sticky Web: Venenatis will occasionally deploy a sticky web at a player, sending a white-blue web at the target's location. It will then expand into a 7x5 AoE - while in this web, any player caught in it will take rapid hits of 3 damage, have their prayer drained by 3, and run energy by 10.\n**Note that [[aranea boots]] will only negate the first tick of damage taken from the web attack. Because of this, it is not recommended to use them at Venenatis due to the extremely small benefit they will provide, while adding unnecessary risk.\n*Spiderlings: Venenatis will occasionally call some [[Venenatis' Spiderling (monster)|spiderlings]] to assist her in battle. While fairly weak, they will drain prayer on every hit regardless if prayed against or hits. They will also increase her damage and allow her to hit through prayers if left alive.  Thrall damage is reduced while spiderlings are alive.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "suggested-skills-3",
+      "label": "Suggested skills",
+      "sourceWikitext": "*{{SCP|Attack|75}} (85+ Recommended)\n*{{SCP|Strength|80}} (90+ Recommended)\n*{{SCP|Hitpoints|70}} (85+ Recommended)\n*{{SCP|Ranged|75}} (85+ Recommended if ranging)\n*{{SCP|Defence|70}} (75+ Recommended)\n*{{SCP|Magic|94+}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "overview-4",
+      "label": "Overview",
+      "sourceWikitext": "[[File:Fighting Venenatis.png|thumb|300px|A trio of players fighting Venenatis.]]\n\nVenenatis can attack with all three forms of combat. While she will only use one combat style at a time, players in melee distance will instead only be attacked by melee. Like [[Vet'ion]], she is weakest to crush.\n\nShe will begin the fight using 8 range attacks, followed by 8 magic attacks, all while moving position every 4 attacks. She will spawn spiderlings on the 1st range attack in cycle, and deploy her web attack on the 3rd mage attack in the cycle.  This pattern will repeat until Venenatis is defeated.\n\nAll players who enter the arena will appear to the north, so it is recommended to hang south as much as possible to escape player killers, as she is no longer under level 30 Wilderness following the [[Update:Wilderness_Boss_Rework|Wilderness boss rework]]. This does not apply to the weaker variant of the boss, [[Spindel]], as her lair is still below level 30 Wilderness and can be teleported out of directly.\n\nPlayers should avoid the webs at all costs, as their ability to drain run energy will prevent them from escaping from player killers. \n\nThe web can be positioned safely by standing on the outskirt of the arena on the 3rd magic attack to help prevent accidentally walking into the web. \n\nThe spiderlings should be killed as soon as they spawn to prevent them from empowering her too much; fortunately, they only have 5 health and can be killed in one hit by any combat style.\n\n* [[Dart|Darts]] or [[Throwing knives]] can quickly eliminate individual spiderlings.\n* Any tier of [[Chinchompa (weapon)|Chinchompa]] can eliminate multiple spiderlings with a well-placed shot (Ensure PK Skull prevention is activated).\n* Players with 70+ Magic and [[Ancient Magicks]] can use a burst spell with [[Blighted ancient ice sack|Blighted ancient ice sacks]] to eliminate multiple spiderlings at once.\n\n*",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-5",
+      "label": "Equipment",
+      "sourceWikitext": "For [[Venenatis]], her location in deep wild in multicombat should warrant extra precautions. Bring defensive armour, especially against magic attacks from other players, as even with a scout and perfect reactions you can be caught inside the cave. Reduce risk accordingly.\n\nFor [[Spindel]], her location below 30 wilderness means escaping other players is much easier. However, players may bring more powerful equipment that can deal more damage. Spindel also has a lower defence level compared to Venenatis, so your equipment and setup can focus more on strength bonus and longevity.<tabber>\nMelee=\nThe [[Ursine chainmace]] is the strongest weapon against Venenatis while costing {{Coins|{{GEP|Ursine chainmace (u)}}}}. The strongest 4 items to bring are generally the Chainmace, your strongest defender, the [[Amulet of rancour]], and your best strength ring ([[Ultor ring]] or [[Berserker ring(i)]]). A 4th item can be brought if you are confident in not getting [[Smite|Smited]] by Pkers. Further upgrades are generally very expensive and add little additional damage for their risk and cost. [[Trouver parchment]]s can be used on certain gear, such as an [[Infernal cape]] or [[Fighter torso]], to gain additional strength bonus for additional risk of {{Coins|500000+{{GEP|trouver parchment}}}} each, however this is not generally recommended due to the risk of multi-wilderness.\n{{Recommended equipment\n|style = Melee\n|head1 = {{plink|Slayer helmet (i)}}\n|head2 = {{plink|Helm of Neitiznot}} / {{plink|Zombie helmet}} / {{plink|Dwarven helmet}}\n|head3 = {{plink|Proselyte sallet}}\n|neck1 = {{plink|Amulet of rancour}}\n|neck2 = {{plink|Amulet of strength}}\n|neck3 = {{plink|Amulet of glory}}\n|neck4 = {{plink|Amulet of power}}\n|cape1 = {{plink|Infernal cape}}{{efn|name=trouver}}\n|cape2 = {{plink|Fire cape}}{{efn|name=trouver}} / {{plink|Mythical cape}}\n|cape3 = {{plink|Mixed hide cape}}\n|cape4 = {{plink|Ardougne cloak 4}}\n|cape5 = {{plink|Cape of legends}}\n|body1 = {{plink|Fighter torso}}{{efn|name=trouver}}\n|body2 = {{plink|Mixed hide top}} / {{plink|Black d'hide body}}\n|body3 = {{plink|Proselyte hauberk}}\n|body4 = {{plink|Monk's robe top}}\n|legs1 = {{plink|Black d'hide chaps}}\n|legs2 = {{plink|Proselyte cuisse}} / {{plink|Proselyte tasset}}\n|legs3 = {{plink|Monk's robe}}\n|weapon1 = {{plink|Ursine chainmace}} / {{plink|Viggora's chainmace}}\n|weapon2 = {{plink|Inquisitor's mace}}\n|weapon3 = {{plink|Soulreaper axe}}{{efn|Set to crush|name=crush}} / {{plink|Abyssal bludgeon}}\n|weapon4 = {{plink|Zombie axe}}{{efn|name=crush}} / {{plink|Zamorakian hasta}}{{efn|name=crush}}\n|weapon5 = {{plink|Sarachnis cudgel}}\n|shield1 = {{plink|Avernic defender}}{{efn|If not one of the protected items, the player can protect it with a [[trouver parchment]]. However this adds {{Coins|500000+{{GEP|trouver parchment}}}} risk on death.|name=trouver}}\n|shield2 = {{plink|Dragon defender}}{{efn|name=trouver}}\n|shield3 = {{plink|Dragonfire shield}}\n|shield4 = {{plink|Rune defender}}{{efn|May be lost on death}} / {{plink|Toktz-ket-xil}}\n|shield5 = {{plink|Book of War}} / {{plink|Falador shield 4}}\n|hands1 = {{plink|Barrows gloves}}\n|hands2 = {{plink|Rune gloves}}\n|hands3 = {{plink|Adamant gloves}} / {{plink|Combat bracelet}}\n|feet1 =  {{plink|Dragon boots}}\n|feet2 = {{plink|Mixed hide boots}}\n|feet3 = {{plink|Rune boots}}\n|feet4 = {{plink|Climbing boots}}\n|feet5 = {{plink|Fremennik sea boots 4}} / {{plink|Adamant boots}}\n|ammo1 = {{plink|Rada's blessing 4}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n|ring1 = {{plink|Ultor ring}}\n|ring2 = {{plink|Berserker ring (i)}}\n|ring3 = {{plink|Ring of shadows}}\n|ring4 = {{plink|Tyrannical ring (i)}}\n|ring5 = {{plink|Ring of wealth (i)}}\n|special1 = {{plink|Dinh's bulwark}}{{efn|One-shots all spiderlings and excellent switch for tanking pkers. Greatly speeds up 3-4 man teams in multiples.|name=dinh}}\n|special2 = {{plink|Elder maul}} <br>/ {{plink|Dragon warhammer}}\n|special3 = {{plink|Ursine chainmace}}\n|special4 = {{plink|Dragon mace}}\n|special5 = {{plink|Dragon 2h sword}}\n}}\n\n{{Notelist}}\n\n|-|\nRanged=\nThe [[Webweaver]] and [[Craw's bow]] offer competitive damage against Venenatis and Spindel despite their higher ranged defences. Ranged also has the luxury of staying closer to the exit in case of pkers, however you need to monitor and change your overhead prayers depending on the attack cycle. The [[Twisted bow]] and [[Bow of Faerdhinen]] are also both strong alternatives to some melee setups, although are generally not advised due the significant risk of being smited in multi-combat and from Venenatis' webs. Crossbows generally perform worse than most melee weapons, but offer the relative safety of being able to stay south of the entrance.\n{{Recommended equipment\n|style = Ranged\n|head1 = {{plink|Slayer helmet (i)}}{{efn|On a spider or boss slayer task|name=slayer}}\n|head2 = {{plink|Blessed coif|pic=Ancient coif}}\n|head3 = {{plink|Karil's coif}}\n|head4 = {{plink|Archer helm}}\n|neck1 = {{plink|Necklace of rupture}}\n|neck2 = {{plink|Necklace of anguish}}\n|neck3 = {{plink|Dragonbone necklace}}\n|neck4 = {{plink|Amulet of glory}}\n|cape1 = {{plink|Ava's assembler}}\n|cape2 = {{plink|Mixed hide cape}}{{Efn|name=ammo}}\n|cape3 = {{plink|Ava's accumulator}}\n|cape4 = {{plink|Ava's attractor}}\n|body1 = {{plink|Masori body (f)}}\n|body2 = {{plink|Blessed body|pic=Ancient d'hide body}}\n|body3 = {{plink|Black d'hide body}}\n|legs1 = {{plink|Masori chaps (f)}}\n|legs2 = {{plink|Blessed chaps|pic=Ancient chaps}}\n|legs3 = {{plink|Black d'hide chaps}}\n|weapon1 = {{plink|Webweaver bow}} / {{plink|Craw's bow}}\n|weapon2 = {{plink|Zaryte crossbow}}\n|weapon3 = {{plink|Armadyl crossbow}}\n|weapon4 = {{plink|Dragon crossbow}}\n|weapon5 = {{plink|Rune crossbow}}\n|shield1 = {{plink|Twisted buckler}}{{efn|If using a crossbow|name=crossbow}}\n|shield2 = {{plink|Dragonfire ward}}{{efn|name=crossbow}} > {{plink|Odium ward}}{{efn|name=crossbow}}\n|shield3 = {{plink|Book of Law}} > {{plink|Unholy book}}\n|shield4 = {{plink|Dragonhide shield|pic=Black d'hide shield|txt=Dragonhide shield}}\n|hands1 = {{plink|Barrows gloves}}\n|hands2 = {{plink|Blessed vambraces|pic=Ancient bracers}}\n|hands3 = {{plink|Black d'hide vambraces}}\n|feet1 = {{plink|Blessed d'hide boots|pic=Ancient d'hide boots}}\n|feet2 = {{plink|Mixed hide boots}}\n|feet3 = {{plink|Shayzien boots (5)}}\n|feet4 = {{plink|Snakeskin boots}}\n|ammo1 = {{plink|Rada's blessing 4}} {{Efn|If using [[Craw's bow]]/[[Webweaver bow]]/[[Bow of Faerdhinen]]|name=ammo}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}{{Efn|name=ammo}}\n|ammo3 = {{plink|Diamond dragon bolts (e)}}{{efn|name=crossbow}}\n|ammo4 = {{plink|Diamond bolts (e)}}{{efn|name=crossbow}}\n|ring1 = {{plink|Ring of shadows}}\n|ring2 = {{plink|Ring of wealth (i)}}\n|ring3 = {{plink|Explorer's ring|pic=Explorer's ring 4}}\n|special1 = {{plink|Zaryte crossbow}}{{Efn|Not worth bringing unless it is your primary weapon}}\n|special2 = {{plink|Webweaver bow}}\n}}\n\n{{notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-6",
+      "label": "Inventory",
+      "sourceWikitext": "{{Inventory|align = right\n|1=Divine bastion potion(4)\n|2=Divine bastion potion(4)\n|3=Blighted anglerfish\n|4=Blighted anglerfish\n|5=Anti-venom+(4)\n|6=Stamina potion(4)\n|7=Blighted anglerfish\n|8=Blighted anglerfish\n|9=Teleport to house (tablet)\n|10=Saradomin brew(4)\n|11=Blighted super restore(4)\n|12=Blighted super restore(4)\n|13=Saradomin brew(4)\n|14=Saradomin brew(4)\n|15=Blighted super restore(4)\n|16=Blighted super restore(4)\n|17=Saradomin brew(4)\n|18=Saradomin brew(4)\n|19=Blighted super restore(4)\n|20=Blighted super restore(4)\n|21=Saradomin brew(4)\n|22=Saradomin brew(4)\n|23=Blighted super restore(4)\n|24=Blighted super restore(4)\n|25=Dinh's bulwark\n|26=Royal seed pod\n|27=Looting bag\n|28=Sanfew serum(4)\n}}\nYou should aim to take 4 valuable items you wish to keep if killed by another player, usually Craw's bow, Necklace of rupture, Slayer helmet (i) (on-task), and Dinh's bulwark provide the best balance of damage against Venenatis and survivability against other players.\n\n* [[Dinh's Bulwark]], [[Grey chinchompa]]s, [[Dart]]s/[[throwing knife|Throwing knives]], or [[Blighted ancient ice sack]]s \u2014 kill spiderlings quickly, ordered from fastest to slowest\n** Note that setting your [[Combat Options]] to defensive provides an invisble +5 level boost to your defence and also reduces non-pvp damage by 20% (with the Bulwark equipped) [Prevents attacking]\n** The shield's animation will play when the wielder fails to block an incoming attack. This can alert the wielder to heal as it occurs prior to the hit landing.\n* [[Looting bag]]\n* [[Stamina potion]]\n* [[Ranging potion]]\n* [[Anti-venom]]/[[Sanfew serum]](s) \u2014 cures/prevents venom from player killers and poisonous spiders in the [[Escape Caves]]\n* [[Blighted super restores]]\n* [[Blighted anglerfish]]/[[Blighted manta ray]] for the rest, at least one [[Blighted karambwan]](s)\nOptional:\n* [[Phoenix necklace]] \u2014 emergency healing whilst tanking\n* [[Saradomin brews]] \u2014 more expensive outlast healing, combo eating with hard food is invaluable\n* [[Royal seed pod]] \u2014 if not bringing a charged [[amulet of glory]] or [[ring of wealth]]\n* [[Wilderness crabs teleport]], [[Annakarl teleport (tablet)]], or [[Wilderness sword 4]]'s [[fountain of rune]] \u2014 reach the [[Silk Chasm]] faster\n{{Clear}}\n</tabber>",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "example-melee-setup-7",
+      "label": "Example melee setup",
+      "sourceWikitext": "The aim is to maximise damage output while minimising risk. The protected items should be items that either grant very high melee strength bonus increases or a large percentage damage increase like the [[Slayer helmet (i)]]. The [[ultor ring]] and the [[avernic defender]] both give major buffs to the player's offensive stats, and can be used along with cheaper items to deal high damage with limited risk. Items that can be easily replaced such as [[barrows gloves]], [[amulet of strength]], and [[black dragonhide armour|dragonhide armour]] are wise choices as the chance of dying is fairly high. \n\nIf on a [[boss task]], the player can use [[bracelet of slaughter]] to extend the task. This will affect damage output, but lower the player's risk slightly. \n\n{{Equipment\n|align = right\n|head = Slayer helmet (i)\n|cape = Mixed hide cape\n|neck = Amulet of strength\n|ammo = Rada's blessing 4\n|weapon = Ursine chainmace\n|torso = Black d'hide body\n|legs = Black d'hide chaps\n|shield = Avernic defender\n|gloves = Barrows gloves\n|boots = Mixed hide boots\n|ring = Ultor ring\n}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "items-protected-8",
+      "label": "Items protected:",
+      "sourceWikitext": "* [[Ultor ring]]\n* [[Ursine chainmace]]{{efn|name=mace}} / [[Viggora's chainmace]]{{efn|With around 1500 revenant ether. Do not overcharge the mace, as all charges are lost on death|name=mace}} \u2014 This adds between {{NoCoins|{{GEP|Revenant ether|1100}}}} and {{NoCoins|{{GEP|Revenant ether|1500}}}} to the value risked, as it uses [[revenant ether]] for charges. The DPS difference from [[Inquisitor's mace]] is [https://dps.osrs.wiki?id=WizardMustyLightbearer significant].\n* [[Avernic defender]] (Can be switched out to [[Book of War]] in order to use [[Dinh's bulwark]], as this can be used to AoE minions and survive attacks from PKers)\n* [[Slayer helmet (i)]] if on a slayer task",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "items-lost-9",
+      "label": "Items lost:",
+      "sourceWikitext": "* Mixed hide boots {{Coins|{{GEP|Mixed hide boots}}}} and Mixed hide cape {{Coins|{{GEP|Mixed hide cape}}}} \n* Black d'hide body{{efn|[[Mixed hide top]], if it increases the player's max hit, can be the ideal option at a cost of {{NoCoins|{{GEP|Mixed hide top}}}}, although it often reduces damage. Use the DPS calculator to determine its benefit before using.}} {{Coins|{{GEP|Black d'hide body}}}} and black d'hide chaps {{Coins|{{GEP|Black d'hide chaps}}}}\n* 1,500 Revenant ether {{Coins|{{GEP|Revenant ether|1500}}}}\n* Barrows gloves {{Coins|130,000}} \u2014 Culinaromancer's Chest (or {{Coins|104,000}} after completing the elite Lumbridge & Draynor Diary)\n* Amulet of strength {{Coins|{{GEP|Amulet of strength}}}}\n* Rada's blessing 4\n{{notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "example-ranged-setup-10",
+      "label": "Example ranged setup",
+      "sourceWikitext": "The [[Masori body (f)]] can be traded out for a [[Black d'hide body]] and [[Dinh's bulwark]] for survivability and AoE damage against the spiderlings. Ranged allows the player to more easily damage the enemy for the duration of the entire fight, and stand closer to the door where it may be more safe. In lower risk gear, the damage output of the bow doesn't match up to melee; the difference is [https://dps.osrs.wiki?id=KebbitRobberyTrap significant]. \n\nAdditionally, due to the bows faster attack speed, the player consumes more revenant ether than if they were using melee. This is compounded by the longer fights with more hits. Because of this, extra ether is risked and used for slower fights, reducing potential profits.\n\nAs with melee, the player can use [[bracelet of slaughter]] to extend the task, if on a boss task for Venenatis. This will affect the player's accuracy and magic defence slightly.\n\n{{Equipment\n|align = right\n|head = Slayer helmet (i)\n|cape = Ava's accumulator\n|neck = Necklace of anguish\n|ammo = Rada's blessing 4\n|weapon = Webweaver bow\n|torso = Masori body (f)\n|legs = Black d'hide chaps\n|gloves = Black d'hide vambraces\n|boots = Mixed hide boots\n}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "items-protected-11",
+      "label": "Items protected:",
+      "sourceWikitext": "* [[Slayer helmet (i)]]\n* [[Webweaver bow]]{{efn|name=webow}} / [[Craw's bow]]{{efn|With around 1600 revenant ether. Do not overcharge the bow, as all charges are lost on death|name=webow}} \u2014 This adds between {{NoCoins|{{GEP|Revenant ether|1100}}}} and {{NoCoins|{{GEP|Revenant ether|1700}}}} to the value risked, as it uses [[revenant ether]] for charges.\n* [[Masori body (f)]] or [[Dinh's bulwark]] \t\n* [[Necklace of anguish]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "items-lost-12",
+      "label": "Items lost:",
+      "sourceWikitext": "* Mixed hide boots {{Coins|{{GEP|Mixed hide boots}}}} \n* Black d'hide chaps {{Coins|{{GEP|Black d'hide chaps}}}} and Black d'hide vambraces {{Coins|{{GEP|Black d'hide vambraces}}}}\n* 1,700 Revenant ether {{Coins|{{GEP|Revenant ether|1700}}}}\n* Rada's blessing 4\n* Ava's accumulator\n\n{{notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-13",
+      "label": "Inventory",
+      "sourceWikitext": "{{Inventory|align=right\n|1=Stamina potion(4)\n|2=Divine super combat potion(4)\n|3=Sanfew serum(4)\n|4=Blighted super restore(4)\n|5=Blighted super restore(4)\n|6=Blighted super restore(4)\n|7=Blighted super restore(4)\n|8 =Blighted super restore(4)\n|9 = Blighted manta ray\n|10 = Blighted manta ray\n|11 = Blighted manta ray\n|12 = Blighted manta ray\n|13 = Blighted manta ray\n|14 = Blighted manta ray\n|15 = Blighted manta ray\n|16 = Blighted manta ray\n|17 = Blighted karambwan\n|18 = Blighted karambwan\n|19 = Blighted karambwan\n|20 = Blighted karambwan\n|21 = Blighted karambwan\n|22 = Blighted karambwan\n|23 = Blighted karambwan\n|24 = Looting bag\n|25 = Dinh's bulwark\n|26 = Blisterwood stake\n|27 = Annakarl teleport (tablet)\n|28 = Royal seed pod\n}}\nInventory setup will vary greatly depending on your gear and team. When deciding what supplies to bring, keep in mind that Venenatis frequently drops large quantities of un-noted blighted food or potions that replace supplies used during the fight. Make sure to have the following:\n* [[Dinh's Bulwark]], [[grey chinchompa]]s, [[blisterwood stake]]s, [[dart]]s/[[throwing knife|throwing knives]], or [[Blighted ancient ice sack]]s \u2014 kill spiderlings quickly, ordered from fastest to slowest\n* [[Looting bag]]\n* [[Stamina potion]]\n* [[Divine super combat potion|Divine]]/[[Super combat potion]]\n* [[Anti-venom]]/[[Sanfew serum]](s) \u2014 cures/prevents venom from player killers and poisonous spiders in the [[Escape Caves]]\n* [[Blighted super restore]]s\n* [[Blighted manta ray]] or [[blighted anglerfish]]{{efn|If level 93 hitpoints or higher}} for the rest of the inventory, and multiple [[karambwan]]\nOptional:\n* [[Phoenix necklace]] \u2014 emergency healing whilst tanking\n* [[Saradomin brew]]s \u2014 more expensive outlast healing, combo eating with hard food is invaluable\n* [[Royal seed pod]] \u2014 if not bringing a charged [[amulet of glory]] or [[ring of wealth]]\n* [[Wilderness crabs teleport]], [[Annakarl teleport (tablet)]], or [[Wilderness sword 4]]'s [[fountain of rune]] \u2014 reach the [[Silk Chasm]] faster\n* [[Blighted vengeance sack]]s, [[Vengeance]] [[runes]], or runes for [[thralls]] and/or [[death charge]] - Death charge can be cast off cooldown with frequent minion spawns, this allows for ~1 [[Dragon warhammer]] spec every kill if solo.\n* [[Divine rune pouch]] locked with a trouver parchment \u2014 if using Arceeus spellbook, allows for more supplies\n{{Clear}}\n{{notelist}}\n\n*\n[[Category:Wilderness]]\n[[Category:Strategies]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Venenatis/Strategies",
+          "title": "Venenatis/Strategies",
+          "pageId": 61746,
+          "revisionId": 15330927,
+          "timestamp": "2026-09-04T18:51:19Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "transportation-1",
+      "label": "Transportation",
+      "sourceWikitext": "Spindel is located in the [[Web Chasm]], which is a lair located in the ruins north of the [[Graveyard of Shadows]] in level 29 [[Wilderness]].\n\n* [[Carrallanger teleport (tablet)|Graveyard of Shadows teleport]], then run north.\n* Teleport to [[Ferox Enclave]] and run north past [[Green dragon|green dragons]], or head north-east around the graveyard.\n* Teleport to the level 26 [[Revenant Caves]] entrance with a [[revenant cave teleport]] and run east.\n* With the [[Hunter cape]], teleport to the [[Black chinchompa (Hunter)|black chinchompas]] and run south east.\n* Take a [[canoe]] to the [[wilderness pond]] and run south east.\n* A [[games necklace]] to teleport to the [[Corporeal Beast's Lair|Corporeal Beast's lair]], exit the cave then run north-west.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "attacks-2",
+      "label": "Attacks",
+      "sourceWikitext": "Spindel has many attacks that she uses against her target. \n\n*Melee attack: She simply lunges at the player. This is the only normal attack she will use if the player is within melee distance.\n*Ranged attack: Launches green spit at players.\n*Magic attack: Launches webs at players.\n*Sticky Web: Spindel will occasionally deploy a sticky web at a player, sending a white-blue web at the target's location. It will then expand into a 7x5 AoE - while in this web, any player caught in it will take rapid hits of 3 damage, have their prayer drained by 3, and run energy by 10.\n**Note that [[aranea boots]] will only negate the first tick of damage taken from the web attack.\n*Spiderlings: Spindel will occasionally call some [[Spindel's Spiderling|spiderlings]] to assist her in battle. While fairly weak, they will drain prayer on every hit regardless if the attack does damage or if [[protection prayers]] are active. They will also increase her damage and allow her to hit through prayers if left alive. Player and thrall damage is slightly reduced while spiderlings are alive. Currently, spiderlings cannot spawn east of Spindel's location for reasons unknown.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "suggested-skills-3",
+      "label": "Suggested skills",
+      "sourceWikitext": "*{{SCP|Attack|70+}}\n*{{SCP|Strength|70+}}\n*{{SCP|Hitpoints|70+}}\n*{{SCP|Ranged|75+}} (if ranging)\n*{{SCP|Defence|70+}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "overview-4",
+      "label": "Overview",
+      "sourceWikitext": "[[File:Spindel.png|thumb|width=300x300|Spindel's in-game appearance.]]\nSpindel can attack with all three forms of combat. While she will only use one combat style at a time, players in melee distance will instead only be attacked by melee. Like [[Calvar'ion]], she is weakest to crush.\n\nShe will begin the fight using 8 ranged attacks, followed by 8 magic attacks, all while moving position every 4 attacks. She will spawn spiderlings on the 1st ranged attack in cycle, and deploy her web attack on the 3rd mage attack in the cycle.  This pattern will repeat until Spindel is defeated.\n\nPlayers who enter the arena will appear to the north, so always keep an eye out for PKers and teleport or run to the exit if needed. \n\nPlayers should avoid the webs at all costs, as their ability to drain run energy will prevent them from escaping from player killers. The web can be positioned safely by standing on the outskirt of the arena on the 3rd magic attack to help prevent accidentally walking into the web. \n\nThe spiderlings should be killed as soon as they spawn to prevent them from empowering her too much; fortunately, they only have 5 health and can be killed in one hit by any combat style.\n\n* Any tier of [[Chinchompa (weapon)|chinchompa]] can eliminate multiple spiderlings with a well-placed shot as well as damage Spindel's south-west tile, (Ensure PK Skull prevention is activated).\n* [[Blisterwood stake]]s, [[dart]]s, or [[throwing knives]] can quickly eliminate individual spiderlings. Blisterwood stakes have longer range than darts and knives, and can be reclaimed from a gravestone for free on PvP death due to being untradeable.\n* Players with 70+ [[Magic]] and [[Ancient Magicks]] can use a burst spell with [[Blighted ancient ice sack|blighted ancient ice sacks]] to eliminate multiple spiderlings at once.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-5",
+      "label": "Equipment",
+      "sourceWikitext": "Spindel's location in the Wilderness should warrant extra precautions. Bring defensive armour, especially against magic attacks from other players, as even with a scout and perfect reactions you can be caught inside the cave. Reduce risk accordingly.\n\nSpindel has a lower defence level compared to her stronger counterpart, [[Venenatis]].<tabber>\nMelee=\nThe [[ursine chainmace]] is the strongest weapon against Spindel, costing {{Coins|{{GEP|Ursine chainmace (u)}}}}. The four strongest items to bring are generally the chainmace, your strongest defender, the [[amulet of rancour]], and your best strength ring ([[ultor ring]] or [[berserker ring (i)]]). A fourth valuable item should only be brought if you are confident in not getting [[Smite|Smited]] by [[player killers]]. Further upgrades are generally very expensive and add little additional damage for their risk and cost. [[Trouver parchment]]s can be used on certain gear, such as an [[infernal cape]] or [[fighter torso]], to gain additional strength bonus for additional risk of {{Coins|500000+{{GEP|trouver parchment}}}} each. \n{{Recommended equipment\n|style = Melee\n|head1 = {{plink|Slayer helmet (i)}}{{efn|If on a [[Venenatis]] or [[spider]] Slayer task|name=slayer}}\n|head2 = {{plink|Helm of Neitiznot}} / {{plink|Zombie helmet}} / {{plink|Dwarven helmet}}\n|head3 = {{plink|Proselyte sallet}}\n|neck1 = {{plink|Amulet of rancour}}\n|neck2 = {{plink|Amulet of strength}}\n|neck3 = {{plink|Amulet of glory}}\n|neck4 = {{plink|Amulet of power}}\n|cape1 = {{plink|Infernal cape}}{{efn|name=break}}+{{plinkp|Trouver parchment}}{{efn|<big>'''ITEM WILL BE LOST'''</big> above 20 wilderness to a PVP death unless locked with a [[trouver parchment]] at [[Perdu]]. Adds an additional 500,000 GP to repair|name=trouver}}\n|cape2 = {{plink|Fire cape}} / {{plink|Mythical cape}}\n|cape3 = {{plink|Mixed hide cape}}\n|cape4 = {{plink|Ardougne cloak 4}}\n|cape5 = {{plink|Cape of legends}}\n|body1 = {{plink|Fighter torso}}{{efn|name=break}}+{{plinkp|Trouver parchment}}{{efn|name=trouver}}\n|body2 = {{plink|Mixed hide top}} / {{plink|Black d'hide body}}\n|body3 = {{plink|Proselyte hauberk}}\n|body4 = {{plink|Monk's robe top}}\n|legs1 = {{plink|Black d'hide chaps}}\n|legs2 = {{plink|Proselyte cuisse}} / {{plink|Proselyte tasset}}\n|legs3 = {{plink|Monk's robe}}\n|weapon1 = {{plink|Ursine chainmace}} / {{plink|Viggora's chainmace}}\n|weapon2 = {{plink|Inquisitor's mace}}\n|weapon3 = {{plink|Soulreaper axe}}{{efn|Set to crush|name=crush}} / {{plink|Abyssal bludgeon}}\n|weapon4 = {{plink|Zombie axe}}{{efn|name=crush}} / {{plink|Zamorakian hasta}}{{efn|name=crush}}\n|weapon5 = {{plink|Sarachnis cudgel}} / {{plink|Dragon mace}}\n|shield1 = {{plink|Avernic defender}}{{efn|Has an additional [[(broken)#PvP breakable items|repair fee]] if not a protected item in a PVP death|name=break}}\n|shield2 = {{plink|Dragon defender}}{{efn|name=break}}\n|shield3 = {{plink|Dragonfire shield}}\n|shield4 = {{plink|Rune defender}}{{efn|name=break}} / {{plink|Toktz-ket-xil}}\n|shield5 = {{plink|Book of War}} / {{plink|Falador shield 4}}\n|hands1 = {{plink|Barrows gloves}}\n|hands2 = {{plink|Rune gloves}}\n|hands3 = {{plink|Adamant gloves}} / {{plink|Combat bracelet}}\n|feet1 =  {{plink|Dragon boots}} / {{plink|Aranea boots}}\n|feet2 = {{plink|Mixed hide boots}}\n|feet3 = {{plink|Rune boots}}\n|feet4 = {{plink|Climbing boots}}\n|feet5 = {{plink|Fremennik sea boots 4}} / {{plink|Adamant boots}}\n|ammo1 = {{plink|Rada's blessing 4}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n|ring1 = {{plink|Ultor ring}}\n|ring2 = {{plink|Berserker ring (i)}}\n|ring3 = {{plink|Ring of shadows}}\n|ring4 = {{plink|Tyrannical ring (i)}}\n|ring5 = {{plink|Ring of wealth (i)}}\n|special1 = {{plink|Ursine chainmace}}\n|special2 = {{plink|Elder maul}}\n|special3 = {{plink|Dragon warhammer}}\n|special4 = {{plink|Dragon mace}}\n}}\n\n{{Notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-6",
+      "label": "Inventory",
+      "sourceWikitext": "{{Inventory|align=right\n|1=Stamina potion(4)\n|2=Divine super combat potion(4)\n|3=Sanfew serum(4)\n|4=Blighted super restore(4)\n|5=Blighted super restore(4)\n|6=Blighted super restore(4)\n|7=Blighted super restore(4)\n|8 =Blighted super restore(4)\n|9 = Blighted manta ray\n|10 = Blighted manta ray\n|11 = Blighted manta ray\n|12 = Blighted manta ray\n|13 = Blighted manta ray\n|14 = Blighted manta ray\n|15 = Blighted manta ray\n|16 = Blighted manta ray\n|17 = Blighted karambwan\n|18 = Blighted karambwan\n|19 = Blighted karambwan\n|20 = Blighted karambwan\n|21 = Blighted karambwan\n|22 = Blighted karambwan\n|23 = Blighted karambwan\n|24 = Blighted karambwan\n|25 = Looting bag\n|26 = Blisterwood stake\n|27 = Games necklace\n|28 = Royal seed pod\n}}\nInventory setup will vary greatly depending on your gear and team. When deciding what supplies to bring, keep in mind that Spindel frequently drops large quantities of un-noted blighted food or potions that replace supplies used during the fight. Make sure to have the following:\n* [[Grey chinchompa]]s, [[blisterwood stake]]s, [[dart]]s/[[throwing knife|throwing knives]], or [[blighted ancient ice sack]]s for killing the spiderlings quickly, ordered from fastest to slowest\n* [[Looting bag]]\n* [[Stamina potion]]\n* ([[Divine super combat potion|Divine]]) [[super combat potion]]\n* [[Anti-venom]]/[[Sanfew serum]](s) \u2014 cures/prevents venom from player killers.\n* [[Blighted super restore]]s\n* [[Blighted manta ray]] or [[blighted anglerfish]] (if the player is 93 or higher hitpoints) for the rest, and multiple [[blighted karambwan]]\nOptional:\n* [[Phoenix necklace]] \u2014 emergency healing whilst tanking\n* [[Saradomin brew]]s \u2014 more expensive outlast healing, combo eating with hard food is invaluable\n* [[Royal seed pod]] \u2014 if not bringing a charged [[amulet of glory]] or [[ring of wealth]]\n* [[Games necklace]] or [[revenant cave teleport]] to reach the [[Web Chasm]] faster.\n* [[Runes]] for [[thralls]] and/or [[Death Charge]]\n** Death charge can be cast off cooldown with frequent spiderling spawns.\n* [[Divine rune pouch]] locked with a trouver parchment \u2014 if using Arceeus spellbook, allows for more supplies.\n{{Clear}}\n|-|\nRanged=\nBoth the [[webweaver bow]] and [[Craw's bow]] offer very competitive damage against Spindel despite her higher ranged defences. Ranged also has the luxury of staying closer to the exit in case of [[player killers]], although you will need to monitor and change your overhead prayers depending on the attack cycle. The [[twisted bow]] and [[bow of Faerdhinen]] are also both strong alternatives to some melee setups, but the former is generally not recommended due to the higher likelihood of being smited from PKers and Spindel's webs. Crossbows generally perform worse than most melee weapons, but offer some relative safety by being able to stay south of the entrance.\n{{Recommended equipment\n|style = Ranged\n|head1 = {{plink|Slayer helmet (i)}}{{efn|If on a [[Venenatis]] or [[spider]] Slayer task|name=slayer}}\n|head2 = {{plink|Crystal helm}}{{efn|name=crystal}} / {{plink|Blessed coif|pic=Ancient coif}}\n|head3 = {{plink|Archer helm}}\n|neck1 = {{plink|Necklace of rupture}}\n|neck2 = {{plink|Necklace of anguish}}\n|neck3 = {{plink|Amulet of glory}}\n|cape1 = {{plink|Dizana's quiver}}{{efn|Has an additional [[(broken)#PvP breakable items|repair fee]] if not a protected item in a PVP death|name=break}}+{{plinkp|Trouver parchment}}{{efn|<big>'''ITEM WILL BE LOST'''</big> above 20 wilderness to a PVP death unless locked with a [[trouver parchment]] at [[Perdu]]. Adds an additional 500,000 GP to repair|name=trouver}}\n|cape2 = {{plink|Ava's assembler}}\n|cape3 = {{plink|Ava's accumulator}}\n|cape4 = {{plink|Ranging cape}}\n|cape5 = {{plink|Ava's attractor}}\n|body1 = {{plink|Masori body (f)}}\n|body2 = {{plink|Crystal body}}{{efn|If using a [[bow of Faerdhinen]], ensure all pieces are protected equipment|name=crystal}} / {{plink|Blessed body|pic=Ancient d'hide body}}\n|body3 = {{plink|Black d'hide body}}\n|legs1 = {{plink|Blessed chaps|pic=Ancient chaps}}\n|legs2 = {{plink|Crystal legs}}{{efn|name=crystal}}\n|legs3 = {{plink|Black d'hide chaps}}\n|weapon1 = {{plink|Webweaver bow}} / {{plink|Craw's bow}}\n|weapon2 = {{plink|Bow of Faerdhinen}}{{efn|name=crystal}}\n|weapon3 = {{plink|Zaryte crossbow}}\n|weapon4 = {{plink|Armadyl crossbow}} / {{plink|Dragon crossbow}}\n|weapon5 = {{plink|Rune crossbow}}\n|shield1 = {{plink|Twisted buckler}}{{efn|If using a crossbow|name=crossbow}}\n|shield2 = {{plink|Dragonfire ward}}{{efn|name=crossbow}} > {{plink|Odium ward}}{{efn|name=crossbow}}\n|shield3 = {{plink|Book of Law}}{{efn|name=crossbow}}<br>> {{plink|Unholy book}}{{efn|name=crossbow}}\n|shield4 = {{plink|Dragonhide shield|pic=Black d'hide shield}}{{efn|name=crossbow}}\n|hands1 = {{plink|Barrows gloves}}\n|hands2 = {{plink|Blessed vambraces|pic=Ancient bracers}}\n|hands3 = {{plink|Black d'hide vambraces}}\n|feet1 = {{plink|Blessed boots|pic=Ancient d'hide boots}} / {{plink|Aranea boots}}\n|feet2 = {{plink|Mixed hide boots}}\n|feet3 = {{plink|Shayzien boots (5)}}\n|feet4 = {{plink|Snakeskin boots}}\n|ammo1 = {{plink|Rada's blessing 4}}{{efn|If using [[Craw's bow]]/[[webweaver bow]]/[[bow of Faerdhinen]]|name=ammo}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}{{efn|name=ammo}}\n|ammo3 = {{plink|Diamond dragon bolts (e)}}{{efn|name=crossbow}}\n|ammo4 = {{plink|Diamond bolts (e)}}{{efn|name=crossbow}}\n|ring1 = {{plink|Ring of shadows}}\n|ring3 = {{plink|Ring of wealth (i)}}\n|special1 = {{plink|Zaryte crossbow}}{{Efn|Only if it is your primary weapon}}\n|special2 = {{plink|Webweaver bow}}\n}}\n\n{{notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-7",
+      "label": "Inventory",
+      "sourceWikitext": "{{Inventory|align = right\n|1=Divine bastion potion(4)\n|2=Divine bastion potion(4)\n|3=Blighted anglerfish\n|4=Blighted anglerfish\n|5=Anti-venom+(4)\n|6=Stamina potion(4)\n|7=Blighted anglerfish\n|8=Blighted anglerfish\n|9=Blighted karambwan\n|10=Saradomin brew(4)\n|11=Blighted super restore(4)\n|12=Blighted super restore(4)\n|13=Saradomin brew(4)\n|14=Saradomin brew(4)\n|15=Blighted super restore(4)\n|16=Blighted super restore(4)\n|17=Saradomin brew(4)\n|18=Saradomin brew(4)\n|19=Blighted super restore(4)\n|20=Blighted super restore(4)\n|21=Saradomin brew(4)\n|22=Saradomin brew(4)\n|23=Blighted super restore(4)\n|24=Blighted super restore(4)\n|25=Teleport to house (tablet)\n|26=Royal seed pod\n|27=Looting bag\n|28=Sanfew serum(4)\n}}\n\n* [[Royal seed pod]] acts as a one-click emergency [[teleport]] from up to level 30 [[Wilderness]]\n* [[Super restore potion]]s can be used in place of [[blighted super restore]]s\n* [[Blighted manta ray]] or [[blighted anglerfish]] (if the player is 93 or higher hitpoints) for the rest, and multiple [[blighted karambwan]]\n{{Clear}}\n</tabber>",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "plugins-8",
+      "label": "Plugins",
+      "sourceWikitext": "All of the following plugins are available on both officially approved third-party [[Game client|Game clients]]. On RuneLite they must be installed separately from the Plugin Hub, accessed from the Configuration button (wrench icon on sidebar), then clicking the Plugin Hub button (right-most plug icon). On HDOS these plugins come preinstalled.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "custom-menu-swaps-9",
+      "label": "Custom Menu Swaps",
+      "sourceWikitext": "* To have the Spinderling attack options appear on top of Spindel: Add <code>Attack,Spindel's Spiderling*</code> to \"Custom Swaps\"\n\n[[Category:Wilderness]]\n[[Category:Strategies]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spindel/Strategies",
+          "title": "Spindel/Strategies",
+          "pageId": 382059,
+          "revisionId": 15330947,
+          "timestamp": "2026-09-04T19:07:47Z",
+          "missing": false
+        }
+      ]
+    }
+  ]
 }

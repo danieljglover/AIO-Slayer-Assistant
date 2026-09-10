@@ -26,7 +26,8 @@
   "undead": true,
   "boss": true,
   "location": "Ungael (Dragon Slayer II access)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "vorkath"
+  "strategyId": "vorkath",
+  "locationId": "ungael-vorkath"
 }

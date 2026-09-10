@@ -1,0 +1,25 @@
+{
+  "locationId": "skeletal-tomb",
+  "name": "Skeletal Tomb",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Wilderness boss lair. Requires the hard Wilderness Diary or the matching Vet'ion boss Slayer assignment; an ordinary creature assignment does not waive the diary. Entry costs 50,000 coins, repayable after the applicable PvP death. Check the linked strategy for travel and risk.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Skeletal_Tomb",
+  "advisorRequirements": [
+    "Hard Wilderness Diary completed or Vet'ion boss assignment"
+  ],
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Calvar'ion",
+      "title": "Calvar'ion",
+      "pageId": 374839,
+      "revisionId": 15309944,
+      "timestamp": "2026-08-19T21:25:26Z",
+      "missing": false
+    }
+  ]
+}

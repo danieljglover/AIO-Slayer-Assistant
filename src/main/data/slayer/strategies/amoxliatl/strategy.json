@@ -1,0 +1,668 @@
+{
+  "strategyId": "amoxliatl",
+  "variantIds": [
+    "lesser-nagua-amoxliatl"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Amoxliatl/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "inquisitor-s-mace",
+      "dual-macuahuitl",
+      "abyssal-bludgeon",
+      "dragon-mace"
+    ],
+    "secondaryWeapons": [],
+    "note": "Use melee for unstable ice; exploit crush weakness and negative flat armour. Scythe, ordinary crush and complete Blood Moon sets are separate preparations."
+  },
+  "requirements": [
+    "The Heart of Darkness is required for repeatable encounters.",
+    "Recommended combat levels are 60 Attack/Strength/Defence/Hitpoints;37 Prayer enables Protect from Magic."
+  ],
+  "mechanics": [
+    "Amoxliatl has negative 2 flat armour and low crush defence.",
+    "Fire spells have a 30% weakness bonus, but unstable ice can only be damaged with melee.",
+    "Protect from Magic covers the initial magical hit but not the typeless ice-spike damage or lingering icy pools.",
+    "Leave the targeted tile during ordinary attacks; pools deal 6-10 damage per tick and reduce safe floor space.",
+    "Destroy unstable ice with melee before 15 ticks elapse. Surviving blocks create 3 x3 pools and heal Amoxliatl 16-25 each.",
+    "Attacks on unstable ice deal a guaranteed maximum hit and have a 1 tick attack delay; food eaten after destroying a block does not impose the usual attack delay.",
+    "Icicle Crash disables active prayers before its attack; Protect from Magic negates that attack when reactivated.",
+    "The first special is random; later specials alternate after 2-4 ordinary attacks unless the narrow approach prevents Unstable Ice.",
+    "Leave the chamber between kills for optional moonlight-moth prayer restoration."
+  ],
+  "methods": [
+    {
+      "methodId": "scythe",
+      "label": "Scythe melee",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Melee preparation for the repeatable Amoxliatl encounter, exploiting low crush defence and negative flat armour while retaining melee damage for unstable ice.",
+      "steps": [
+        "Protect from Magic covers the initial magical hit but not the typeless ice-spike damage or lingering icy pools.",
+        "Leave the targeted tile during ordinary attacks; pools deal 6-10 damage per tick and reduce safe floor space.",
+        "Destroy unstable ice with melee before 15 ticks elapse. Surviving blocks create 3 x3 pools and heal Amoxliatl 16-25 each.",
+        "Attacks on unstable ice deal a guaranteed maximum hit and have a 1 tick attack delay; food eaten after destroying a block does not impose the usual attack delay.",
+        "Icicle Crash disables active prayers before its attack; Protect from Magic negates that attack when reactivated.",
+        "The first special is random; later specials alternate after 2-4 ordinary attacks unless the narrow approach prevents Unstable Ice.",
+        "Leave the chamber between kills for optional moonlight-moth prayer restoration."
+      ],
+      "risks": [
+        "The special attack can hit 34 without protection. Typeless ground damage bypasses protection prayers.",
+        "Torag's hammers are slower than the recommended budget alternatives despite their multi-hit appearance.",
+        "Recommendations are preparation guidance; no live movement, prayer or click prompts are produced."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Inquisitor's great helm",
+            "Torva full helm",
+            "Neitiznot faceguard",
+            "Zombie helmet",
+            "Helm of Neitiznot",
+            "Dwarven helmet",
+            "Berserker helm"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury",
+            "Amulet of strength",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Ardougne cloak 4",
+            "Mixed hide cape",
+            "Strength cape(t)"
+          ],
+          "body": [
+            "Inquisitor's hauberk",
+            "Oathplate chest",
+            "Torva platebody",
+            "Bandos chestplate",
+            "Fighter torso",
+            "Obsidian platebody",
+            "Proselyte hauberk",
+            "Monk's robe top"
+          ],
+          "legs": [
+            "Inquisitor's plateskirt",
+            "Oathplate legs",
+            "Torva platelegs",
+            "Bandos tassets",
+            "Obsidian platelegs",
+            "Proselyte cuisse",
+            "Monk's robe"
+          ],
+          "weapon": [
+            "Scythe of Vitur"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Rune defender",
+            "Dragonfire shield",
+            "Adamant defender",
+            "Toktz-ket-xil"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Barrows gloves",
+            "Dragon gloves",
+            "Rune gloves",
+            "Combat bracelet"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots",
+            "Spiked manacles",
+            "Echo boots",
+            "Guardian boots",
+            "Granite boots",
+            "Mixed hide boots",
+            "Rune boots",
+            "Climbing boots"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer",
+            "Tyrannical ring (i)",
+            "Ring of shadows"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Rada's blessing 3",
+            "Rada's blessing 2",
+            "Peaceful blessing"
+          ]
+        }
+      },
+      "advisor": {
+        "equipmentReviewed": true,
+        "monsterIds": [
+          "lesser-nagua-amoxliatl"
+        ],
+        "locationIds": [
+          "amoxliatl-chamber"
+        ],
+        "requirements": [
+          "Quest: The Heart of Darkness",
+          "PRAYER >= 37"
+        ],
+        "requiredItems": [
+          {
+            "name": "Scythe of Vitur",
+            "quantity": 1,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Divine super combat potion(4)",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Prayer potion(4)",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Manta ray",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Cooked karambwan",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Ectoplasmator",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Pendant of Ates",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Dragon claws or Burning claws or Dragon dagger",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "coverageStatus": "Current Amoxliatl strategy equipment, mechanics, access and inventory reviewed against revision 15329075; conditional Blood Moon equipment is a separate complete-set preparation"
+      },
+      "notes": [
+        "Use slash unless wearing at least two Inquisitor pieces, then use crush. Oathplate is the documented alternative specifically with the scythe.",
+        "A scythe swing may hit Amoxliatl and unstable ice together; the block's faster attack cycle can increase damage."
+      ]
+    },
+    {
+      "methodId": "crush",
+      "label": "Crush melee and budget alternatives",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Melee preparation for the repeatable Amoxliatl encounter, exploiting low crush defence and negative flat armour while retaining melee damage for unstable ice.",
+      "steps": [
+        "Protect from Magic covers the initial magical hit but not the typeless ice-spike damage or lingering icy pools.",
+        "Leave the targeted tile during ordinary attacks; pools deal 6-10 damage per tick and reduce safe floor space.",
+        "Destroy unstable ice with melee before 15 ticks elapse. Surviving blocks create 3 x3 pools and heal Amoxliatl 16-25 each.",
+        "Attacks on unstable ice deal a guaranteed maximum hit and have a 1 tick attack delay; food eaten after destroying a block does not impose the usual attack delay.",
+        "Icicle Crash disables active prayers before its attack; Protect from Magic negates that attack when reactivated.",
+        "The first special is random; later specials alternate after 2-4 ordinary attacks unless the narrow approach prevents Unstable Ice.",
+        "Leave the chamber between kills for optional moonlight-moth prayer restoration."
+      ],
+      "risks": [
+        "The special attack can hit 34 without protection. Typeless ground damage bypasses protection prayers.",
+        "Torag's hammers are slower than the recommended budget alternatives despite their multi-hit appearance.",
+        "Recommendations are preparation guidance; no live movement, prayer or click prompts are produced."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Inquisitor's great helm",
+            "Torva full helm",
+            "Neitiznot faceguard",
+            "Zombie helmet",
+            "Helm of Neitiznot",
+            "Dwarven helmet",
+            "Berserker helm"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury",
+            "Amulet of strength",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Ardougne cloak 4",
+            "Mixed hide cape",
+            "Strength cape(t)"
+          ],
+          "body": [
+            "Inquisitor's hauberk",
+            "Torva platebody",
+            "Bandos chestplate",
+            "Fighter torso",
+            "Obsidian platebody",
+            "Proselyte hauberk",
+            "Monk's robe top"
+          ],
+          "legs": [
+            "Inquisitor's plateskirt",
+            "Torva platelegs",
+            "Bandos tassets",
+            "Obsidian platelegs",
+            "Proselyte cuisse",
+            "Monk's robe"
+          ],
+          "weapon": [
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Abyssal bludgeon",
+            "Dual macuahuitl",
+            "Ursine chainmace (u)",
+            "Zamorakian hasta",
+            "Sarachnis cudgel",
+            "Glacial temotli",
+            "Ghrazi rapier",
+            "Saradomin sword",
+            "Zombie axe",
+            "Dragon mace"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Rune defender",
+            "Dragonfire shield",
+            "Adamant defender",
+            "Toktz-ket-xil"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Barrows gloves",
+            "Dragon gloves",
+            "Rune gloves",
+            "Combat bracelet"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots",
+            "Spiked manacles",
+            "Echo boots",
+            "Guardian boots",
+            "Granite boots",
+            "Mixed hide boots",
+            "Rune boots",
+            "Climbing boots"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer",
+            "Tyrannical ring (i)",
+            "Ring of shadows"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Rada's blessing 3",
+            "Rada's blessing 2",
+            "Peaceful blessing"
+          ]
+        }
+      },
+      "advisor": {
+        "equipmentReviewed": true,
+        "monsterIds": [
+          "lesser-nagua-amoxliatl"
+        ],
+        "locationIds": [
+          "amoxliatl-chamber"
+        ],
+        "requirements": [
+          "Quest: The Heart of Darkness",
+          "PRAYER >= 37"
+        ],
+        "requiredItems": [
+          {
+            "name": "Inquisitor's mace or Soulreaper axe or Abyssal bludgeon or Dual macuahuitl or Ursine chainmace (u) or Zamorakian hasta or Sarachnis cudgel or Glacial temotli or Ghrazi rapier or Saradomin sword or Zombie axe or Dragon mace",
+            "quantity": 1,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Divine super combat potion(4)",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Prayer potion(4)",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Manta ray",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Cooked karambwan",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Ectoplasmator",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Pendant of Ates",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Dragon claws or Burning claws or Dragon dagger",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "coverageStatus": "Current Amoxliatl strategy equipment, mechanics, access and inventory reviewed against revision 15329075; conditional Blood Moon equipment is a separate complete-set preparation"
+      },
+      "notes": [
+        "Use crush with Soulreaper axe, Zamorakian hasta, Saradomin sword and Zombie axe. Inquisitor's mace performs best with the corresponding armour and high strength bonus.",
+        "Dual macuahuitl is below its full-Blood-Moon position here because this preparation does not assume the set effect."
+      ]
+    },
+    {
+      "methodId": "blood-moon",
+      "label": "Complete Blood Moon set",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Melee preparation for the repeatable Amoxliatl encounter, exploiting low crush defence and negative flat armour while retaining melee damage for unstable ice.",
+      "steps": [
+        "Protect from Magic covers the initial magical hit but not the typeless ice-spike damage or lingering icy pools.",
+        "Leave the targeted tile during ordinary attacks; pools deal 6-10 damage per tick and reduce safe floor space.",
+        "Destroy unstable ice with melee before 15 ticks elapse. Surviving blocks create 3 x3 pools and heal Amoxliatl 16-25 each.",
+        "Attacks on unstable ice deal a guaranteed maximum hit and have a 1 tick attack delay; food eaten after destroying a block does not impose the usual attack delay.",
+        "Icicle Crash disables active prayers before its attack; Protect from Magic negates that attack when reactivated.",
+        "The first special is random; later specials alternate after 2-4 ordinary attacks unless the narrow approach prevents Unstable Ice.",
+        "Leave the chamber between kills for optional moonlight-moth prayer restoration."
+      ],
+      "risks": [
+        "The special attack can hit 34 without protection. Typeless ground damage bypasses protection prayers.",
+        "Torag's hammers are slower than the recommended budget alternatives despite their multi-hit appearance.",
+        "Recommendations are preparation guidance; no live movement, prayer or click prompts are produced."
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Blood moon helm"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury",
+            "Amulet of strength",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Ardougne cloak 4",
+            "Mixed hide cape",
+            "Strength cape(t)"
+          ],
+          "body": [
+            "Blood moon chestplate"
+          ],
+          "legs": [
+            "Blood moon tassets"
+          ],
+          "weapon": [
+            "Dual macuahuitl"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Rune defender",
+            "Dragonfire shield",
+            "Adamant defender",
+            "Toktz-ket-xil"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Barrows gloves",
+            "Dragon gloves",
+            "Rune gloves",
+            "Combat bracelet"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots",
+            "Spiked manacles",
+            "Echo boots",
+            "Guardian boots",
+            "Granite boots",
+            "Mixed hide boots",
+            "Rune boots",
+            "Climbing boots"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer",
+            "Tyrannical ring (i)",
+            "Ring of shadows"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Rada's blessing 3",
+            "Rada's blessing 2",
+            "Peaceful blessing"
+          ]
+        }
+      },
+      "advisor": {
+        "equipmentReviewed": true,
+        "monsterIds": [
+          "lesser-nagua-amoxliatl"
+        ],
+        "locationIds": [
+          "amoxliatl-chamber"
+        ],
+        "requirements": [
+          "Quest: The Heart of Darkness",
+          "PRAYER >= 37"
+        ],
+        "requiredItems": [
+          {
+            "name": "Blood moon helm",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Blood moon chestplate",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Blood moon tassets",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Dual macuahuitl",
+            "quantity": 1,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Divine super combat potion(4)",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Prayer potion(4)",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Manta ray",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Cooked karambwan",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Ectoplasmator",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Pendant of Ates",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Dragon claws or Burning claws or Dragon dagger",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "coverageStatus": "Current Amoxliatl strategy equipment, mechanics, access and inventory reviewed against revision 15329075; conditional Blood Moon equipment is a separate complete-set preparation"
+      },
+      "notes": [
+        "All three Blood Moon armour pieces and dual macuahuitl are required together for the documented full-set priority."
+      ]
+    },
+    {
+      "methodId": "narrow-approach",
+      "label": "Narrow approach technique",
+      "combatStyle": "MELEE",
+      "role": "reference",
+      "summary": "The three-tile-wide approach prevents Unstable Ice, so Amoxliatl uses Icicle Crash for every special.",
+      "steps": [
+        "This can save time destroying blocks but leaves less room to avoid ice spikes and pools. It is an optional technique for any of the melee preparations."
+      ],
+      "advisor": {
+        "selectable": false,
+        "monsterIds": [
+          "lesser-nagua-amoxliatl"
+        ],
+        "locationIds": [
+          "amoxliatl-chamber"
+        ]
+      }
+    },
+    {
+      "methodId": "transport",
+      "label": "Transport and permanent shortcut",
+      "combatStyle": "MELEE",
+      "role": "reference",
+      "summary": "Use the Twilight Temple statue or a quetzal route, then the unlocked Tower of Ascension shortcut.",
+      "steps": [
+        "A Pendant of Ates must be charged and its Twilight Temple statue activated.",
+        "Build the Salvager Overlook landing site and travel south-east, or travel to Quetzacalli Gorge and pass the large gate.",
+        "After The Heart of Darkness, take the lift from the mural/statue chamber to permanently unlock the Tower of Ascension shortcut."
+      ],
+      "advisor": {
+        "selectable": false,
+        "monsterIds": [
+          "lesser-nagua-amoxliatl"
+        ],
+        "locationIds": [
+          "amoxliatl-chamber"
+        ]
+      }
+    },
+    {
+      "methodId": "support-spells",
+      "label": "Optional thralls and Death Charge",
+      "combatStyle": "MELEE",
+      "role": "reference",
+      "summary": "Melee remains the damage baseline; Arceuus support spells are optional.",
+      "steps": [
+        "Prepare the Arceuus spellbook, Book of the Dead and the level/runes for the selected resurrection spell.",
+        "The Wiki inventory carries fire, blood, cosmic and death runes in a rune pouch, plus soul runes for Death Charge. Quantities depend on the chosen spells and intended trip; they are not included in the baseline rune calculation."
+      ],
+      "advisor": {
+        "selectable": false,
+        "monsterIds": [
+          "lesser-nagua-amoxliatl"
+        ],
+        "locationIds": [
+          "amoxliatl-chamber"
+        ]
+      }
+    },
+    {
+      "methodId": "trip-sustain",
+      "label": "Prayer restoration and trip supplies",
+      "combatStyle": "MELEE",
+      "role": "reference",
+      "summary": "Moonlight moths outside the chamber can replace some prayer potions at the cost of time.",
+      "steps": [
+        "75 Hunter with an equipped butterfly net or85 Hunter barehanded permits moonlight-moth restoration.",
+        "An ectoplasmator grants Prayer experience per kill; this is not prayer-point restoration.",
+        "Carry a special weapon, combat boost, food, emergency teleport and prayer restoration. The displayed quantities are planning defaults, not a complete-assignment estimate.",
+        "A Saradomin godsword special on unstable ice has a guaranteed maximum hit for sustain."
+      ],
+      "advisor": {
+        "selectable": false,
+        "monsterIds": [
+          "lesser-nagua-amoxliatl"
+        ],
+        "locationIds": [
+          "amoxliatl-chamber"
+        ]
+      }
+    }
+  ],
+  "styleOptions": []
+}

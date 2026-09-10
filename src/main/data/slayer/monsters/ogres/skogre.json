@@ -3,7 +3,6 @@
   "name": "Skogre",
   "npcIds": [
     872,
-    878,
     879
   ],
   "combatLevel": 44,
@@ -28,5 +27,5 @@
   "locationId": "jiggig",
   "requirement": "Requires partial completion of Zogre Flesh Eaters. Can inflict disease. Brutal arrows (with a Comp ogre bow) or Crumble Undead work best against Skogres.",
   "bossId": null,
-  "strategyId": null
+  "strategyId": "ogres-task-methods"
 }

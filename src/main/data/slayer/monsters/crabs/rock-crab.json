@@ -27,7 +27,7 @@
   "locationId": "rock-crabs-rellekka",
   "requirement": "Slayer 1; no combat or quest requirement",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "crabs-task-methods",
   "offence": {
     "hitpoints": 50,
     "maxHit": 1,

@@ -61,7 +61,12 @@
       "notes": [
         "The level 67 cave variant grants more Slayer XP and stacks well with a cannon.",
         "Ice giants are weak to fire spells if training Magic."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-ice-giants"
+        ]
+      }
     },
     {
       "methodId": "cannon-cave",
@@ -88,7 +93,12 @@
       "notes": [
         "The cave is multicombat, so the cannon hits several giants at once.",
         "Do not risk items you are unwilling to lose in the Wilderness Slayer Cave."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-ice-giants"
+        ]
+      }
     }
   ]
 }

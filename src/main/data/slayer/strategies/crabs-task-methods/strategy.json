@@ -1,0 +1,204 @@
+{
+  "strategyId": "crabs-task-methods",
+  "variantIds": [
+    "rock-crab",
+    "sand-crab",
+    "ammonite-crab",
+    "frost-crab",
+    "swamp-crab",
+    "king-sand-crab",
+    "giant-rock-crab",
+    "crab"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Crabs",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [],
+    "secondaryWeapons": [],
+    "note": "Crabs need only Slayer level 1, so any master (Mazchna, Vannaka, or Chaeldar) can assign them. For fast, no-requirement kills, use Sand Crabs (Crabclaw Isle, the Hosidius coast, or the Isle of Souls) or Rock Crabs north of Rellekka; Ammonite Crabs on Fossil Island (after Bone Voyage) give the most XP of the low-level crabs. Crabs appear as 'rocks' and emerge when you stand next to them, so reset their aggression by stepping a few tiles away and returning whenever they stop attacking. Kill the low-defence crabs with any melee weapon (a crush weapon or high-crush-defence armour helps if you take damage). Use Ranged on Swamp Crabs (negative ranged defence), fire spells on Frost Crabs (100% fire weakness), and only fight King Sand Crabs or Giant Rock Crabs if you want their specific drops, as they have much higher Defence and Hitpoints."
+  },
+  "requirements": [],
+  "mechanics": [
+    "Crabs require only Slayer level 1 with no combat or quest requirement to be assigned by Mazchna, Vannaka, or Chaeldar.",
+    "Assignment data verified 2026-07-03 against the raw wikitext of Slayer task/Crabs (pageid 574430): Mazchna 30-50, Vannaka 40-90, Chaeldar 70-130, each weighting 8; no extended amounts (task extensions are N/A for all three masters).",
+    "slayerTargetId 154 is the 'id' field from the Slayer task/Crabs infobox.",
+    "Counting variants: Rock Crab, Sand Crab, Ammonite Crab, Frost Crab, Swamp Crab, King Sand Crab, Giant Rock Crab, and the Mogre Camp Crab. The Gemstone Crab and hermit crabs do NOT count toward the task.",
+    "All crabs use the Crush attack style and are low-damage; most need no special gear. Crabs appear as inactive 'rocks' and emerge when a player stands adjacent, becoming aggressive until the 10-minute tolerance timer expires, after which aggression is reset by leaving and returning.",
+    "Most crabs have a small earth-spell elemental weakness and negligible melee defence, so melee is the standard kill. Exceptions: Swamp Crabs resist melee/magic but have -55 ranged defence (use Ranged); Frost Crabs have a 100% fire-spell weakness; Giant Rock Crabs have very high melee/ranged defence and are best hit with earth spells.",
+    "King Sand Crabs and Giant Rock Crabs have much higher combat stats and are only advisable to kill on task when seeking their specific drops (e.g. rock-shell armour, Ancient shards, Dark totem pieces, medium clue scrolls).",
+    "No task extension unlock or related Slayer shop unlock exists for Crabs.",
+    "defaultVariantId is sand-crab: Sand Crabs are the most popular crab for the task, have no quest requirement, plentiful spawns across many locations, and negligible defence."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Ordinary melee task",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Crabs need only Slayer level 1, so any master (Mazchna, Vannaka, or Chaeldar) can assign them. For fast, no-requirement kills, use Sand Crabs (Crabclaw Isle, the Hosidius coast, or the Isle of Souls) or Rock Crabs north of Rellekka; Ammonite Crabs on Fossil Island (after Bone Voyage) give the most XP of the low-level crabs. Crabs appear as 'rocks' and emerge when you stand next to them, so reset their aggression by stepping a few tiles away and returning whenever they stop attacking. Kill the low-defence crabs with any melee weapon (a crush weapon or high-crush-defence armour helps if you take damage). Use Ranged on Swamp Crabs (negative ranged defence), fire spells on Frost Crabs (100% fire weakness), and only fight King Sand Crabs or Giant Rock Crabs if you want their specific drops, as they have much higher Defence and Hitpoints.",
+      "steps": [
+        "Crabs require only Slayer level 1 with no combat or quest requirement to be assigned by Mazchna, Vannaka, or Chaeldar.",
+        "Assignment data verified 2026-07-03 against the raw wikitext of Slayer task/Crabs (pageid 574430): Mazchna 30-50, Vannaka 40-90, Chaeldar 70-130, each weighting 8; no extended amounts (task extensions are N/A for all three masters).",
+        "slayerTargetId 154 is the 'id' field from the Slayer task/Crabs infobox.",
+        "Counting variants: Rock Crab, Sand Crab, Ammonite Crab, Frost Crab, Swamp Crab, King Sand Crab, Giant Rock Crab, and the Mogre Camp Crab. The Gemstone Crab and hermit crabs do NOT count toward the task.",
+        "All crabs use the Crush attack style and are low-damage; most need no special gear. Crabs appear as inactive 'rocks' and emerge when a player stands adjacent, becoming aggressive until the 10-minute tolerance timer expires, after which aggression is reset by leaving and returning.",
+        "Most crabs have a small earth-spell elemental weakness and negligible melee defence, so melee is the standard kill. Exceptions: Swamp Crabs resist melee/magic but have -55 ranged defence (use Ranged); Frost Crabs have a 100% fire-spell weakness; Giant Rock Crabs have very high melee/ranged defence and are best hit with earth spells.",
+        "King Sand Crabs and Giant Rock Crabs have much higher combat stats and are only advisable to kill on task when seeking their specific drops (e.g. rock-shell armour, Ancient shards, Dark totem pieces, medium clue scrolls).",
+        "No task extension unlock or related Slayer shop unlock exists for Crabs.",
+        "defaultVariantId is sand-crab: Sand Crabs are the most popular crab for the task, have no quest requirement, plentiful spawns across many locations, and negligible defence."
+      ],
+      "notes": [
+        "General Slayer training equipment is supplemented by the task's exact required protection and damage constraints."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "rock-crab",
+          "sand-crab",
+          "ammonite-crab",
+          "frost-crab",
+          "swamp-crab",
+          "king-sand-crab",
+          "giant-rock-crab",
+          "crab"
+        ],
+        "coverageStatus": "Existing detailed task guidance preserved; general equipment from Slayer training; current task prose completeness not certified"
+      }
+    },
+    {
+      "methodId": "location-rock-crabs-rellekka",
+      "label": "Rock Crabs (North of Rellekka)",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Rock Crabs (level 13) with very plentiful spawns directly north of Rellekka; also at Waterbirth Island, west of Mount Quidamortem, and in the Brine Rat Cavern.",
+        "Appear as inactive 'rocks' until a player stands adjacent; aggression must be reset by leaving and returning after 10 minutes."
+      ],
+      "advisor": {
+        "locationIds": [
+          "rock-crabs-rellekka"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-sand-crabs-crabclaw-isle",
+      "label": "Sand Crabs (Crabclaw Isle / Hosidius coast)",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Sand Crabs (level 15) with very plentiful spawns across Crabclaw Isle, the Crabclaw Caves, the southern Hosidius coast, east of the Hosidius vinery, the Isle of Souls, the Avium Savannah, and Outer Fortis.",
+        "The most popular modern crab for training and Slayer tasks; reset aggression by stepping away and returning."
+      ],
+      "advisor": {
+        "locationIds": [
+          "sand-crabs-crabclaw-isle"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-ammonite-crabs-fossil-island",
+      "label": "Ammonite Crabs (Fossil Island)",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Ammonite Crabs (level 25) on Fossil Island give 100 Slayer XP each, the most of the low-level crabs.",
+        "Requires completion of Bone Voyage to reach Fossil Island."
+      ],
+      "advisor": {
+        "locationIds": [
+          "ammonite-crabs-fossil-island"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-ruins-of-tapoyauik",
+      "label": "Ruins of Tapoyauik",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Frost Crabs (level 15) with a 100% weakness to fire spells; requires partial completion of The Heart of Darkness.",
+        "Melee works fine, but fire spells are extremely effective."
+      ],
+      "advisor": {
+        "locationIds": [
+          "ruins-of-tapoyauik"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-haunted-woods",
+      "label": "Haunted Woods / Slepe",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Swamp Crabs (level 55) in the Haunted Woods and at Slepe; they have high melee/magic defence but -55 ranged defence, so Ranged is best.",
+        "The Haunted Woods/Slepe area is not on the cannon-prohibited list and Swamp Crabs are targetable, so a cannon can be placed (unlike Sand/Ammonite Crabs, which cannons ignore)."
+      ],
+      "advisor": {
+        "locationIds": [
+          "haunted-woods"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-catacombs-of-kourend",
+      "label": "Catacombs of Kourend / Crabclaw Caves",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "King Sand Crabs (level 107) give the most Slayer XP per kill (200) but have high Hitpoints and Defence.",
+        "Can drop Ancient shards, Dark totem pieces, and medium clue scrolls; best killed on task mainly for those drops."
+      ],
+      "advisor": {
+        "locationIds": [
+          "catacombs-of-kourend"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-waterbirth-island-dungeon",
+      "label": "Waterbirth Island Dungeon",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Giant Rock Crabs (level 137) have very high Defence; only worth killing on task for drops such as rock-shell armour pieces or medium clue scrolls.",
+        "Magic (earth spells) is the least-resisted style against them."
+      ],
+      "advisor": {
+        "locationIds": [
+          "waterbirth-island-dungeon"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-mogre-camp",
+      "label": "Mogre Camp",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Crabs (levels 21/23) require partial completion of Recipe for Disaster (Freeing Pirate Pete) to access the Mogre Camp.",
+        "Low Slayer XP (18/19) compared with Sand or Ammonite Crabs."
+      ],
+      "advisor": {
+        "locationIds": [
+          "mogre-camp"
+        ],
+        "selectable": false
+      }
+    }
+  ]
+}

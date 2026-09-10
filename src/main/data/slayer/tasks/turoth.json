@@ -10,7 +10,8 @@
     "vannaka",
     "chaeldar",
     "konar",
-    "nieve"
+    "nieve",
+    "mortimer"
   ],
   "amountByMaster": {
     "vannaka": [
@@ -28,13 +29,18 @@
     "nieve": [
       120,
       185
+    ],
+    "mortimer": [
+      80,
+      120
     ]
   },
   "weightByMaster": {
     "vannaka": 8,
     "chaeldar": 10,
     "konar": 3,
-    "nieve": 3
+    "nieve": 3,
+    "mortimer": 10
   },
   "unlocks": [
     {

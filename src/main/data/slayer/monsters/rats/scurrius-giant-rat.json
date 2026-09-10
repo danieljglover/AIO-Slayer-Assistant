@@ -1,0 +1,57 @@
+{
+  "variantId": "scurrius-giant-rat",
+  "name": "Giant rat (Scurrius)",
+  "npcIds": [
+    7223
+  ],
+  "combatLevel": 46,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 10,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": false,
+  "location": "Varrock Sewers - summoned during Scurrius encounters",
+  "locationId": "scurrius-lair",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "scurrius",
+  "advisorRepeatable": false,
+  "offence": {
+    "hitpoints": 15,
+    "maxHit": 4,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  },
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Giant_rat_(Scurrius)",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Giant_rat_(Scurrius)",
+      "title": "Giant rat (Scurrius)",
+      "pageId": 413416,
+      "revisionId": 15276431,
+      "timestamp": "2026-07-27T03:57:42Z",
+      "missing": false
+    }
+  ],
+  "notes": [
+    "Summoned in waves of six; this is not an independently repeatable boss preparation.",
+    "Counts for Rat assignments. Always dies to a single hit; rat bone weapons remove the attack cooldown against these minions.",
+    "Protect from Melee reduces damage by 75% but does not completely prevent it."
+  ]
+}

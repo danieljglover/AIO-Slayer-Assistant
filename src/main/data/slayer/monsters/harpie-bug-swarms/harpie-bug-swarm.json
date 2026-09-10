@@ -25,7 +25,7 @@
   "location": "North-east of Tai Bwo Wannai (Karamja) and east of the Colossal Wyrm Remains (Varlamore)",
   "requirement": "Slayer 33; combat level 45; Firemaking 33; a lit bug lantern must be lit and equipped to deal any damage",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "harpie-bug-swarms-task-methods",
   "offence": {
     "hitpoints": 25,
     "maxHit": 6,

@@ -1,0 +1,15 @@
+{
+  "locationId": "alchemical-hydra-lair",
+  "name": "Karuulm Slayer Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Boss encounter area; prepare a separate boss trip. Consult the linked strategy for encounter access and hazards.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Karuulm_Slayer_Dungeon",
+  "advisorRequirements": [
+    "SLAYER >= 95"
+  ]
+}

@@ -60,7 +60,13 @@
       "notes": [
         "Green dragons have low defence, so gear choice matters less than speed and survivability.",
         "Bank green dragon bones and hides between trips if desired."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "graveyard-of-shadows-green-dragons",
+          "green-dragons-wilderness"
+        ]
+      }
     },
     {
       "methodId": "ranged",
@@ -87,7 +93,13 @@
       "notes": [
         "Ranged keeps you mobile for a faster Wilderness escape.",
         "Green dragons still deal dragonfire at range, so do not drop antifire."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "graveyard-of-shadows-green-dragons",
+          "green-dragons-wilderness"
+        ]
+      }
     }
   ]
 }

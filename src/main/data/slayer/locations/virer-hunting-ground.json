@@ -1,0 +1,11 @@
+{
+  "locationId": "virer-hunting-ground",
+  "name": "Virer Hunting Ground",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Twelve venators; one cannot be reached with melee. Requires The Blood Moon Rises. Drakan's medallion to Castle Drakan, then use the Vampyrium portal. A 73 Agility shortcut and pickaxe shorten the route; a bank chest can be built in Sangvesti at 70 Construction."
+}

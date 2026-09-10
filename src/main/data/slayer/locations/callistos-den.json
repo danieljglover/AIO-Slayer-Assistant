@@ -1,0 +1,25 @@
+{
+  "locationId": "callistos-den",
+  "name": "Callisto's Den",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Wilderness boss lair. Requires the medium Wilderness Diary or the matching Callisto boss Slayer assignment; an ordinary creature assignment does not waive the diary. Entry costs 50,000 coins, repayable after the applicable PvP death. Check the linked strategy for travel and risk.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Callisto's_Den",
+  "advisorRequirements": [
+    "Medium Wilderness Diary completed or Callisto boss assignment"
+  ],
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Callisto",
+      "title": "Callisto",
+      "pageId": 31268,
+      "revisionId": 15309935,
+      "timestamp": "2026-08-19T21:24:40Z",
+      "missing": false
+    }
+  ]
+}

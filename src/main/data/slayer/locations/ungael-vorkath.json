@@ -1,0 +1,15 @@
+{
+  "locationId": "ungael-vorkath",
+  "name": "Ungael",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Boss encounter area; prepare a separate boss trip. Consult the linked strategy for encounter access and hazards.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Ungael",
+  "advisorRequirements": [
+    "Dragon Slayer II"
+  ]
+}

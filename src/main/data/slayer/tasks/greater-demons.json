@@ -119,7 +119,9 @@
     "karuulm-slayer-dungeon-greater-demons",
     "wilderness-slayer-cave",
     "god-wars-dungeon",
-    "ancient-guthixian-temple"
+    "ancient-guthixian-temple",
+    "skotizos-lair",
+    "zamorak-fortress"
   ],
   "variantInfo": [
     {
@@ -178,7 +180,8 @@
       ],
       "notes": [
         "Wilderness Slayer Cave variant.",
-        "Cannonable multicombat option with player-killing risk."
+        "Cannonable multicombat option with player-killing risk.",
+        "The Wilderness Slayer Cave carries player-killer risk."
       ]
     },
     {

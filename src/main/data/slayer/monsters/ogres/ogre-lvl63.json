@@ -26,5 +26,5 @@
   "locationId": "combat-training-camp",
   "requirement": "Requires completion of Biohazard to access the Combat Training Camp.",
   "bossId": null,
-  "strategyId": null
+  "strategyId": "ogres-task-methods"
 }

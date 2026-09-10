@@ -24,7 +24,8 @@
   "undead": false,
   "boss": true,
   "location": "King Black Dragon Lair (Wilderness, via lever); also Nightmare Zone",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "king-black-dragon"
+  "strategyId": "king-black-dragon",
+  "locationId": "king-black-dragon-lair"
 }

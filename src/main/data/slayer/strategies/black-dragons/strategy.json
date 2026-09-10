@@ -77,7 +77,13 @@
       "notes": [
         "Most profitable variants are slower than baby black dragons.",
         "Black dragons have multiple quest-gated alternative locations."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "baby-black-dragons",
@@ -101,7 +107,13 @@
       "notes": [
         "Baby black dragons do not use dragonfire.",
         "They drop only baby dragon bones."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "normal-black-dragons",
@@ -129,7 +141,13 @@
       "notes": [
         "Standard black dragons hit accurately and relatively hard.",
         "Taverley Dungeon lower level has two adult dragon spawns."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "brutal-black-dragons",
@@ -162,7 +180,13 @@
       "notes": [
         "Brutal black dragons have long-ranged dragonfire.",
         "Dragon hunter lance or other melee can be faster with flinching."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "wilderness",
@@ -190,7 +214,13 @@
         "Wilderness Slayer Cave is multicombat and a popular player killing spot.",
         "A royal seed pod or other one-click teleport is useful for Wilderness Slayer Cave, but players must safespot the dragons.",
         "Lava Maze Dungeon is troublesome without 82 Agility."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "king-black-dragon",
@@ -216,8 +246,17 @@
       ],
       "notes": [
         "The Wilderness approach is a popular player killing spot.",
-        "Escape is likely impossible if attacked by a player killer near the lair approach."
-      ]
+        "Escape is likely impossible if attacked by a player killer near the lair approach.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements",
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -240,6 +279,12 @@
             "Dragonfire shield"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -260,6 +305,12 @@
             "Dragonfire shield"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -274,6 +325,12 @@
             "Dragon hunter wand"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
       }
     }
   ]

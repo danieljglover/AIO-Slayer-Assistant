@@ -86,7 +86,12 @@
       "notes": [
         "Salve amulet bonuses apply because Ankou are undead.",
         "Slayer helmet and Black mask do not stack with Salve amulet bonuses."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "single-combat-melee",
@@ -141,6 +146,11 @@
             "Dragon scimitar"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -189,6 +199,11 @@
             "Occult necklace"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -231,6 +246,11 @@
             "Necklace of anguish"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -257,7 +277,12 @@
       "risks": [
         "Higher cost than melee-only task completion.",
         "Wilderness cannoning increases exposure to player killers."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "wilderness",
@@ -290,7 +315,12 @@
       "risks": [
         "Player killing hotspots.",
         "Teleport restrictions become more dangerous around level 30 Wilderness."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -315,6 +345,11 @@
             "Salve amulet"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -333,6 +368,11 @@
             "Ancient staff"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -347,6 +387,11 @@
             "Venator bow"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave"
+        ]
       }
     }
   ]

@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Callisto's Den, ~Level 40+ Wilderness (Artio is the singles-plus alternative)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "callisto"
+  "strategyId": "callisto",
+  "locationId": "callistos-den"
 }

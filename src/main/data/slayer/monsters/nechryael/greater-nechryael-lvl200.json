@@ -25,7 +25,7 @@
   "boss": false,
   "location": "Catacombs of Kourend, Iorwerth Dungeon, Wilderness Slayer Cave",
   "locationId": "catacombs-of-kourend-nechryael",
-  "requirement": "80 Slayer and 85 combat for assignment",
+  "requirement": "SLAYER >= 80",
   "bossId": null,
   "strategyId": "nechryael"
 }

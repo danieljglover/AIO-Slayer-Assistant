@@ -92,7 +92,8 @@
   "requiredItemName": null,
   "locationIds": [
     "kalphite-lair",
-    "kalphite-cave"
+    "kalphite-cave",
+    "kalphite-queen-lair"
   ],
   "variantInfo": [
     {

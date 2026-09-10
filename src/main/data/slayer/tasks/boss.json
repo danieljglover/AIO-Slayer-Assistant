@@ -64,7 +64,12 @@
     "vet-ion",
     "boss-vorkath",
     "zulrah-serpentine-green-form",
-    "zulrah-tanzanite-blue-form"
+    "zulrah-tanzanite-blue-form",
+    "calvar-ion",
+    "artio",
+    "spindel",
+    "araxxor",
+    "kraken"
   ],
   "defaultVariantId": "boss-abyssal-sire",
   "weakness": null,
@@ -77,7 +82,108 @@
   "requiredItemId": null,
   "requiredItemName": null,
   "locationIds": [
-    "various-boss-locations"
+    "various-boss-locations",
+    "abyssal-nexus",
+    "alchemical-hydra-lair",
+    "barrows",
+    "callistos-den",
+    "cerberus-lair",
+    "chaos-elemental-rogues-castle",
+    "chaos-fanatic-lava-maze",
+    "forgotten-cemetery",
+    "dagannoth-kings-lair",
+    "bandos-stronghold",
+    "mole-hole",
+    "slayer-tower-roof",
+    "zamorak-fortress",
+    "kalphite-queen-lair",
+    "king-black-dragon-lair",
+    "god-wars-dungeon-armadyl",
+    "ghorrock-dungeon",
+    "forthos-sarachnis",
+    "scorpion-pit-cave",
+    "shellbane-gryphon-cave",
+    "thermonuclear-smoke-devil-lair",
+    "silk-chasm",
+    "vetions-rest",
+    "ungael-vorkath",
+    "zulrahs-shrine",
+    "skeletal-tomb",
+    "hunters-end",
+    "web-chasm",
+    "araxxor-lair",
+    "kraken-boss-cove"
   ],
-  "recommendedMethod": "Random boss assignment; requires the Like a boss unlock (200 reward points). Gear to the specific boss rolled"
+  "recommendedMethod": "Random boss assignment; requires the Like a boss unlock (200 reward points). Gear to the specific boss rolled",
+  "variantInfo": [
+    {
+      "variantId": "calvar-ion",
+      "name": "Calvar'ion",
+      "combatLevel": 264,
+      "slayerXp": 322.5,
+      "locations": [
+        "Skeletal Tomb"
+      ],
+      "notes": [
+        "Counts as an alternative for a Vet'ion boss assignment.",
+        "A matching Vet'ion boss task bypasses the Hard Wilderness Diary requirement. An ordinary creature task does not.",
+        "Use the weaker boss variant's location and encounter preparation; Wilderness player killing risk remains."
+      ]
+    },
+    {
+      "variantId": "artio",
+      "name": "Artio",
+      "combatLevel": 320,
+      "slayerXp": 518.0,
+      "locations": [
+        "Hunter's End"
+      ],
+      "notes": [
+        "Counts as an alternative for a Callisto boss assignment.",
+        "A matching Callisto boss task bypasses the Hard Wilderness Diary requirement. An ordinary creature task does not.",
+        "Use the weaker boss variant's location and encounter preparation; Wilderness player killing risk remains."
+      ]
+    },
+    {
+      "variantId": "spindel",
+      "name": "Spindel",
+      "combatLevel": 302,
+      "slayerXp": 541.0,
+      "locations": [
+        "Web Chasm"
+      ],
+      "notes": [
+        "Counts as an alternative for a Venenatis boss assignment.",
+        "A matching Venenatis boss task bypasses the Hard Wilderness Diary requirement. An ordinary creature task does not.",
+        "Use the weaker boss variant's location and encounter preparation; Wilderness player killing risk remains."
+      ]
+    },
+    {
+      "variantId": "araxxor",
+      "name": "Araxxor",
+      "combatLevel": 890,
+      "slayerXp": 1708.0,
+      "locations": [
+        "Araxyte Lair"
+      ],
+      "notes": [
+        "Konar can assign Araxxor specifically as a Boss task.",
+        "Requires 92 Slayer and access to Morytania; use the dedicated Araxxor strategy."
+      ]
+    },
+    {
+      "variantId": "kraken",
+      "name": "Kraken",
+      "combatLevel": 291,
+      "slayerXp": 255.0,
+      "locations": [
+        "Kraken Cove"
+      ],
+      "notes": [
+        "Kraken can be assigned as a Boss task after the Like a boss unlock.",
+        "Requires 87 Slayer and a Kraken or matching Boss task; use the dedicated Kraken strategy."
+      ]
+    }
+  ],
+  "wikiPageId": 29375
 }

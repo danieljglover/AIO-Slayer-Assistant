@@ -1,0 +1,112 @@
+{
+  "strategyId": "werewolves-task-methods",
+  "variantIds": [
+    "werewolf-canifis",
+    "werewolf-gwd"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Werewolf",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [],
+    "secondaryWeapons": [],
+    "note": "Werewolves are a Vannaka-only task in Canifis (Priest in Peril required for Morytania access). They wander as level 24 humans and transform into level 88 werewolves when attacked - only the transformed form counts. Their melee defensive bonuses are all +0, so any melee style is accurate, and magic works well too despite a high listed Magic defence; bring a Slayer helmet. The fastest approach is a Dwarf multicannon in the village centre: with 40 Agility, run the Canifis Rooftop Course so the cannon clears werewolves while you earn Agility XP and Marks of grace, or tuck into a building and close the door to stack them for the cannon. Melee players can hold them in human form with Wolfbane (lower max hit) and swap weapons when their HP is low."
+  },
+  "requirements": [
+    "Priest in Peril"
+  ],
+  "mechanics": [
+    "Assigned only by Vannaka in this dataset (30-60 kills, Weighting 7). No Slayer level requirement; the combat-level gate is 60.",
+    "The task page Slayer_task/Werewolves does not exist on the wiki (verified missing 2026-07-03); data is taken from the Werewolf monster page (pageid 13198, revid 15199240).",
+    "slayerTargetId is not wiki-published for Werewolves; left null pending QA live-verification of the SLAYER_TARGET varp.",
+    "Access requires Priest in Peril to cross the River Salve into Morytania (Canifis).",
+    "Only the transformed level 88 werewolf counts for the task. Killing the level 24 human form with Wolfbane equipped gives no Slayer XP and does not decrement the counter.",
+    "Werewolves do NOT count towards a regular Wolf slayer task, and Wolf tasks do not count for Werewolves.",
+    "Werewolves are not undead - the Salve amulet does not apply. Slayer helmet does apply.",
+    "The unlock requirement per the wiki is Combat 60 and completion of Priest in Peril.",
+    "Human-form (untransformed) NPC ids are not published on the Werewolf monster page (Mod Ash: only the 20 transformed versions are listed), so only the transformed werewolf ids are captured."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Ordinary melee task",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Werewolves are a Vannaka-only task in Canifis (Priest in Peril required for Morytania access). They wander as level 24 humans and transform into level 88 werewolves when attacked - only the transformed form counts. Their melee defensive bonuses are all +0, so any melee style is accurate, and magic works well too despite a high listed Magic defence; bring a Slayer helmet. The fastest approach is a Dwarf multicannon in the village centre: with 40 Agility, run the Canifis Rooftop Course so the cannon clears werewolves while you earn Agility XP and Marks of grace, or tuck into a building and close the door to stack them for the cannon. Melee players can hold them in human form with Wolfbane (lower max hit) and swap weapons when their HP is low.",
+      "steps": [
+        "Assigned only by Vannaka in this dataset (30-60 kills, Weighting 7). No Slayer level requirement; the combat-level gate is 60.",
+        "The task page Slayer_task/Werewolves does not exist on the wiki (verified missing 2026-07-03); data is taken from the Werewolf monster page (pageid 13198, revid 15199240).",
+        "slayerTargetId is not wiki-published for Werewolves; left null pending QA live-verification of the SLAYER_TARGET varp.",
+        "Access requires Priest in Peril to cross the River Salve into Morytania (Canifis).",
+        "Only the transformed level 88 werewolf counts for the task. Killing the level 24 human form with Wolfbane equipped gives no Slayer XP and does not decrement the counter.",
+        "Werewolves do NOT count towards a regular Wolf slayer task, and Wolf tasks do not count for Werewolves.",
+        "Werewolves are not undead - the Salve amulet does not apply. Slayer helmet does apply.",
+        "The unlock requirement per the wiki is Combat 60 and completion of Priest in Peril.",
+        "Human-form (untransformed) NPC ids are not published on the Werewolf monster page (Mod Ash: only the 20 transformed versions are listed), so only the transformed werewolf ids are captured."
+      ],
+      "notes": [
+        "General Slayer training equipment is supplemented by the task's exact required protection and damage constraints."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "werewolf-canifis",
+          "werewolf-gwd"
+        ],
+        "coverageStatus": "Existing detailed task guidance preserved; general equipment from Slayer training; current task prose completeness not certified"
+      }
+    },
+    {
+      "methodId": "location-canifis",
+      "label": "Canifis",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Werewolves roam Canifis village as level 24 humans and transform into level 88 werewolves when attacked.",
+        "Single-combat area, but a Dwarf multicannon set in the village centre hits every werewolf in range; with 40 Agility, cannon-and-run the Canifis Rooftop Course for Agility XP and Marks of grace while the cannon clears the task.",
+        "Alternative cannon method: place the cannon, run into a nearby building and close the door so werewolves stack aggressively behind it while the cannon fires (reload from outside periodically).",
+        "Safespots: over the central STASH unit, and inside the pub behind the bar or across the two tables (4 werewolves are inside the pub). Attacking stops when a human transforms, so re-target the werewolf form.",
+        "Melee: attack with Wolfbane equipped to keep them in human form (lower max hit ~2), then swap weapons when their HP is very low; they regain 38 HP on transforming but overall take less damage."
+      ],
+      "advisor": {
+        "locationIds": [
+          "canifis"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-god-wars-dungeon",
+      "label": "God Wars Dungeon",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Level 93 Zamorakian werewolves; aggressive unless a Zamorak item is worn.",
+        "A cannon can be placed in the God Wars Dungeon, but its inhabitants quickly destroy it, so it is effectively unusable here. Inconvenient compared with the Canifis task location."
+      ],
+      "advisor": {
+        "locationIds": [
+          "god-wars-dungeon"
+        ],
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "location-wilderness-god-wars-dungeon",
+      "label": "Wilderness God Wars Dungeon",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Level 93 Zamorakian werewolves in the Wilderness variant of the God Wars Dungeon.",
+        "Wilderness location - bring an emergency teleport; only relevant if killing werewolves outside the Canifis task location."
+      ],
+      "advisor": {
+        "locationIds": [
+          "wilderness-god-wars-dungeon"
+        ],
+        "selectable": false
+      }
+    }
+  ]
+}

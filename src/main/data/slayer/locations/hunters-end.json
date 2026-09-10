@@ -1,0 +1,25 @@
+{
+  "locationId": "hunters-end",
+  "name": "Hunter's End",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Wilderness boss lair. Requires the hard Wilderness Diary or the matching Callisto boss Slayer assignment; an ordinary creature assignment does not waive the diary. Entry costs 50,000 coins, repayable after the applicable PvP death. Check the linked strategy for travel and risk.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Hunter's_End",
+  "advisorRequirements": [
+    "Hard Wilderness Diary completed or Callisto boss assignment"
+  ],
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Artio",
+      "title": "Artio",
+      "pageId": 374838,
+      "revisionId": 15309934,
+      "timestamp": "2026-08-19T21:24:33Z",
+      "missing": false
+    }
+  ]
+}

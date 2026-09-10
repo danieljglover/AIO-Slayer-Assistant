@@ -27,7 +27,7 @@
   "locationId": "god-wars-dungeon",
   "requirement": "Zamorakian-aligned; aggressive unless a Zamorak item is worn. Access to the God Wars Dungeon.",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "werewolves-task-methods",
   "offence": {
     "hitpoints": 92,
     "maxHit": 9,

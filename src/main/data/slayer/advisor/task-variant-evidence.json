@@ -1,0 +1,5059 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-08T16:07:37.432280+00:00",
+  "purpose": "Review evidence for explicit task.variantIds joins; authoring provenance only, never runtime wiki fetching.",
+  "sourcePages": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Araxxor",
+      "title": "Araxxor",
+      "pageId": 443990,
+      "revisionId": 15326066,
+      "timestamp": "2026-08-31T06:17:34Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Araxyte",
+      "title": "Araxyte",
+      "pageId": 325423,
+      "revisionId": 15283167,
+      "timestamp": "2026-07-30T14:10:37Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Artio",
+      "title": "Artio",
+      "pageId": 374838,
+      "revisionId": 15309934,
+      "timestamp": "2026-08-19T21:24:33Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Boss",
+      "title": "Boss",
+      "pageId": 29375,
+      "revisionId": 15323824,
+      "timestamp": "2026-08-28T20:54:00Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Brine_rat",
+      "title": "Brine rat",
+      "pageId": 11604,
+      "revisionId": 15273490,
+      "timestamp": "2026-07-23T17:40:39Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Callisto",
+      "title": "Callisto",
+      "pageId": 31268,
+      "revisionId": 15309935,
+      "timestamp": "2026-08-19T21:24:40Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Calvar'ion",
+      "title": "Calvar'ion",
+      "pageId": 374839,
+      "revisionId": 15309944,
+      "timestamp": "2026-08-19T21:25:26Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Deadly_red_spider",
+      "title": "Deadly red spider",
+      "pageId": 15682,
+      "revisionId": 15199305,
+      "timestamp": "2026-04-28T07:18:51Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Demonic_gorilla",
+      "title": "Demonic gorilla",
+      "pageId": 72329,
+      "revisionId": 15324274,
+      "timestamp": "2026-08-29T03:31:44Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Dreadborn_Araxyte",
+      "title": "Dreadborn Araxyte",
+      "pageId": 529595,
+      "revisionId": 15286747,
+      "timestamp": "2026-08-04T00:00:16Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Fever_spider",
+      "title": "Fever spider",
+      "pageId": 15976,
+      "revisionId": 15275482,
+      "timestamp": "2026-07-25T23:29:37Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Greater_Skeleton_Hellhound_(Calvar'ion)",
+      "title": "Greater Skeleton Hellhound (Calvar'ion)",
+      "pageId": 374844,
+      "revisionId": 15303626,
+      "timestamp": "2026-08-17T00:38:42Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Greater_Skeleton_Hellhound_(Vet'ion)",
+      "title": "Greater Skeleton Hellhound (Vet'ion)",
+      "pageId": 52279,
+      "revisionId": 15303624,
+      "timestamp": "2026-08-17T00:38:31Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Kraken",
+      "title": "Kraken",
+      "pageId": 29357,
+      "revisionId": 15313825,
+      "timestamp": "2026-08-20T10:09:43Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Reanimated_bloodveld",
+      "title": "Reanimated bloodveld",
+      "pageId": 70523,
+      "revisionId": 15302125,
+      "timestamp": "2026-08-15T17:05:52Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Reanimated_dagannoth",
+      "title": "Reanimated dagannoth",
+      "pageId": 70522,
+      "revisionId": 15302166,
+      "timestamp": "2026-08-15T18:14:00Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Reanimated_elf",
+      "title": "Reanimated elf",
+      "pageId": 70518,
+      "revisionId": 15273511,
+      "timestamp": "2026-07-23T18:18:42Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Reanimated_troll",
+      "title": "Reanimated troll",
+      "pageId": 70519,
+      "revisionId": 15290803,
+      "timestamp": "2026-08-09T13:22:33Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_cyclops",
+      "title": "Revenant cyclops",
+      "pageId": 106812,
+      "revisionId": 15215910,
+      "timestamp": "2026-05-24T00:13:05Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_dark_beast",
+      "title": "Revenant dark beast",
+      "pageId": 106739,
+      "revisionId": 15200032,
+      "timestamp": "2026-04-28T07:25:01Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_demon",
+      "title": "Revenant demon",
+      "pageId": 106770,
+      "revisionId": 15215913,
+      "timestamp": "2026-05-24T00:17:24Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_dragon",
+      "title": "Revenant dragon",
+      "pageId": 106734,
+      "revisionId": 15329309,
+      "timestamp": "2026-09-03T05:50:53Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_goblin",
+      "title": "Revenant goblin",
+      "pageId": 106779,
+      "revisionId": 15215914,
+      "timestamp": "2026-05-24T00:17:52Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_hellhound",
+      "title": "Revenant hellhound",
+      "pageId": 106736,
+      "revisionId": 15260794,
+      "timestamp": "2026-07-11T11:14:47Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_hobgoblin",
+      "title": "Revenant hobgoblin",
+      "pageId": 106763,
+      "revisionId": 15215911,
+      "timestamp": "2026-05-24T00:15:28Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_imp",
+      "title": "Revenant imp",
+      "pageId": 106767,
+      "revisionId": 15215915,
+      "timestamp": "2026-05-24T00:18:10Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_knight",
+      "title": "Revenant knight",
+      "pageId": 106766,
+      "revisionId": 15283391,
+      "timestamp": "2026-07-30T18:53:42Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_ork",
+      "title": "Revenant ork",
+      "pageId": 106737,
+      "revisionId": 15200030,
+      "timestamp": "2026-04-28T07:25:00Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_pyrefiend",
+      "title": "Revenant pyrefiend",
+      "pageId": 106738,
+      "revisionId": 15215912,
+      "timestamp": "2026-05-24T00:16:27Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Sarachnis",
+      "title": "Sarachnis",
+      "pageId": 222974,
+      "revisionId": 15310368,
+      "timestamp": "2026-08-19T22:32:51Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Scorpia",
+      "title": "Scorpia",
+      "pageId": 31286,
+      "revisionId": 15303772,
+      "timestamp": "2026-08-17T06:53:34Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skeleton_Hellhound",
+      "title": "Skeleton Hellhound",
+      "pageId": 26484,
+      "revisionId": 15199509,
+      "timestamp": "2026-04-28T07:20:58Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skeleton_Hellhound_(Calvar'ion)",
+      "title": "Skeleton Hellhound (Calvar'ion)",
+      "pageId": 374847,
+      "revisionId": 15303625,
+      "timestamp": "2026-08-17T00:38:37Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skeleton_Hellhound_(Vet'ion)",
+      "title": "Skeleton Hellhound (Vet'ion)",
+      "pageId": 52276,
+      "revisionId": 15303627,
+      "timestamp": "2026-08-17T00:38:50Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skogre",
+      "title": "Skogre",
+      "pageId": 22158,
+      "revisionId": 15199447,
+      "timestamp": "2026-04-28T07:20:03Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Basilisks",
+      "title": "Slayer task/Basilisks",
+      "pageId": 256653,
+      "revisionId": 15316304,
+      "timestamp": "2026-08-22T05:42:09Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Bears",
+      "title": "Slayer task/Bears",
+      "pageId": 297754,
+      "revisionId": 15250961,
+      "timestamp": "2026-07-04T03:17:10Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Bloodveld",
+      "title": "Slayer task/Bloodveld",
+      "pageId": 297737,
+      "revisionId": 15302926,
+      "timestamp": "2026-08-16T10:08:01Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Dagannoth",
+      "title": "Slayer task/Dagannoth",
+      "pageId": 298104,
+      "revisionId": 15276899,
+      "timestamp": "2026-07-27T22:52:31Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Elves",
+      "title": "Slayer task/Elves",
+      "pageId": 256687,
+      "revisionId": 15264257,
+      "timestamp": "2026-07-15T14:40:12Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Ghosts",
+      "title": "Slayer task/Ghosts",
+      "pageId": 298241,
+      "revisionId": 15250974,
+      "timestamp": "2026-07-04T03:17:16Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Monkeys",
+      "title": "Slayer task/Monkeys",
+      "pageId": 298251,
+      "revisionId": 15250976,
+      "timestamp": "2026-07-04T03:17:16Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Rats",
+      "title": "Slayer task/Rats",
+      "pageId": 300146,
+      "revisionId": 15251205,
+      "timestamp": "2026-07-04T06:14:04Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Scorpions",
+      "title": "Slayer task/Scorpions",
+      "pageId": 297991,
+      "revisionId": 15316864,
+      "timestamp": "2026-08-22T21:56:11Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Skeletons",
+      "title": "Slayer task/Skeletons",
+      "pageId": 298266,
+      "revisionId": 15325000,
+      "timestamp": "2026-08-29T22:05:41Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Spiders",
+      "title": "Slayer task/Spiders",
+      "pageId": 298267,
+      "revisionId": 15250979,
+      "timestamp": "2026-07-04T03:17:18Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Trolls",
+      "title": "Slayer task/Trolls",
+      "pageId": 298280,
+      "revisionId": 15316236,
+      "timestamp": "2026-08-22T05:15:21Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Zombies",
+      "title": "Slayer task/Zombies",
+      "pageId": 298268,
+      "revisionId": 15327782,
+      "timestamp": "2026-09-01T22:05:26Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Spindel",
+      "title": "Spindel",
+      "pageId": 374849,
+      "revisionId": 15309918,
+      "timestamp": "2026-08-19T21:20:00Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/The_Jormungand",
+      "title": "The Jormungand",
+      "pageId": 235947,
+      "revisionId": 15215873,
+      "timestamp": "2026-05-23T22:49:15Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Venenatis",
+      "title": "Venenatis",
+      "pageId": 31270,
+      "revisionId": 15324347,
+      "timestamp": "2026-08-29T08:17:05Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Vet'ion",
+      "title": "Vet'ion",
+      "pageId": 31269,
+      "revisionId": 15332958,
+      "timestamp": "2026-09-07T00:55:18Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Vorkath",
+      "title": "Vorkath",
+      "pageId": 108371,
+      "revisionId": 15310356,
+      "timestamp": "2026-08-19T22:29:43Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Zogre",
+      "title": "Zogre",
+      "pageId": 16527,
+      "revisionId": 15199334,
+      "timestamp": "2026-04-28T07:19:07Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Zombie_pirate",
+      "title": "Zombie pirate",
+      "pageId": 473281,
+      "revisionId": 15283956,
+      "timestamp": "2026-07-31T05:57:32Z",
+      "missing": false
+    }
+  ],
+  "changes": [
+    {
+      "taskId": "ogres",
+      "addedVariantIds": [
+        "skogre-zombie"
+      ],
+      "links": [
+        {
+          "variantId": "skogre-zombie",
+          "sourceTitles": [
+            "Skogre"
+          ],
+          "context": [
+            "Skogre NPC 878 counts as an Ogre or Zombie; the other existing Skogre IDs, 872 and 879, count as Ogres or Skeletons.",
+            "Requires partial Zogre Flesh Eaters. Prepare for disease and reduced damage without suitable ogre weapons or Crumble Undead."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "skeletons",
+      "addedVariantIds": [
+        "vet-ion",
+        "calvar-ion",
+        "skogre",
+        "skeleton-hellhound-vet-ion",
+        "greater-skeleton-hellhound-vet-ion",
+        "skeleton-hellhound-calvar-ion",
+        "greater-skeleton-hellhound-calvar-ion"
+      ],
+      "links": [
+        {
+          "variantId": "vet-ion",
+          "sourceTitles": [
+            "Vet'ion"
+          ],
+          "context": [
+            "Vet'ion counts for Skeleton tasks, including Krystilia assignments in the Wilderness.",
+            "Requires the Medium Wilderness Diary for a Skeleton task; a matching Vet'ion boss task can bypass the diary requirement.",
+            "Use the dedicated boss strategy and prepare for Wilderness player killing risk."
+          ]
+        },
+        {
+          "variantId": "calvar-ion",
+          "sourceTitles": [
+            "Calvar'ion"
+          ],
+          "context": [
+            "Calvar'ion counts for Skeleton tasks, including Krystilia assignments in the Wilderness.",
+            "Requires the Hard Wilderness Diary for a Skeleton task; a matching Vet'ion boss task can bypass the diary requirement.",
+            "Use the dedicated boss strategy and prepare for Wilderness player killing risk."
+          ]
+        },
+        {
+          "variantId": "skogre",
+          "sourceTitles": [
+            "Skogre"
+          ],
+          "context": [
+            "Skogre NPCs 872 and 879 count as Skeletons and Ogres; NPC 878 instead counts as Zombies and Ogres.",
+            "Requires partial Zogre Flesh Eaters; prepare for disease and reduced damage without suitable ogre weapons or Crumble Undead."
+          ]
+        },
+        {
+          "variantId": "skeleton-hellhound-vet-ion",
+          "sourceTitles": [
+            "Skeleton Hellhound (Vet'ion)"
+          ],
+          "context": [
+            "Boss-summoned Skeleton Hellhound; counts for both Skeleton and Hellhound tasks.",
+            "Incidental encounter spawn, not a separately repeatable Slayer target. Boss access and Wilderness risks apply."
+          ]
+        },
+        {
+          "variantId": "greater-skeleton-hellhound-vet-ion",
+          "sourceTitles": [
+            "Greater Skeleton Hellhound (Vet'ion)"
+          ],
+          "context": [
+            "Boss-summoned Skeleton Hellhound; counts for both Skeleton and Hellhound tasks.",
+            "Incidental encounter spawn, not a separately repeatable Slayer target. Boss access and Wilderness risks apply."
+          ]
+        },
+        {
+          "variantId": "skeleton-hellhound-calvar-ion",
+          "sourceTitles": [
+            "Skeleton Hellhound (Calvar'ion)"
+          ],
+          "context": [
+            "Boss-summoned Skeleton Hellhound; counts for both Skeleton and Hellhound tasks.",
+            "Incidental encounter spawn, not a separately repeatable Slayer target. Boss access and Wilderness risks apply."
+          ]
+        },
+        {
+          "variantId": "greater-skeleton-hellhound-calvar-ion",
+          "sourceTitles": [
+            "Greater Skeleton Hellhound (Calvar'ion)"
+          ],
+          "context": [
+            "Boss-summoned Skeleton Hellhound; counts for both Skeleton and Hellhound tasks.",
+            "Incidental encounter spawn, not a separately repeatable Slayer target. Boss access and Wilderness risks apply."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "bears",
+      "addedVariantIds": [
+        "callisto",
+        "artio"
+      ],
+      "links": [
+        {
+          "variantId": "callisto",
+          "sourceTitles": [
+            "Callisto"
+          ],
+          "context": [
+            "Counts for Bears tasks, including Krystilia assignments in the Wilderness.",
+            "Requires the Medium Wilderness Diary for a Bears task; a matching Callisto boss task can bypass the diary requirement.",
+            "Boss alternative with Wilderness player killing risk; use the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "artio",
+          "sourceTitles": [
+            "Artio"
+          ],
+          "context": [
+            "Counts for Bears tasks, including Krystilia assignments in the Wilderness.",
+            "Requires the Hard Wilderness Diary for a Bears task; a matching Callisto boss task can bypass the diary requirement.",
+            "Boss alternative with Wilderness player killing risk; use the dedicated strategy."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "spiders",
+      "addedVariantIds": [
+        "venenatis",
+        "spindel",
+        "sarachnis",
+        "araxxor",
+        "araxyte-level-96",
+        "araxyte-level-146",
+        "dreadborn-araxyte",
+        "fever-spider"
+      ],
+      "links": [
+        {
+          "variantId": "venenatis",
+          "sourceTitles": [
+            "Venenatis"
+          ],
+          "context": [
+            "Counts for Spiders tasks; prepare using the dedicated boss strategy.",
+            "Requires the Medium Wilderness Diary for a Spider task; a matching Venenatis boss task can bypass the diary requirement.",
+            "Wilderness boss alternative. Spiderlings summoned during the fight do not reduce the remaining task count."
+          ]
+        },
+        {
+          "variantId": "spindel",
+          "sourceTitles": [
+            "Spindel"
+          ],
+          "context": [
+            "Counts for Spiders tasks; prepare using the dedicated boss strategy.",
+            "Requires the Hard Wilderness Diary for a Spider task; a matching Venenatis boss task can bypass the diary requirement.",
+            "Wilderness boss alternative. Spiderlings summoned during the fight do not reduce the remaining task count."
+          ]
+        },
+        {
+          "variantId": "sarachnis",
+          "sourceTitles": [
+            "Sarachnis"
+          ],
+          "context": [
+            "Counts for Spiders tasks; prepare using the dedicated boss strategy.",
+            "Sarachnis minions also count, so killing them can consume a short Spider task quickly."
+          ]
+        },
+        {
+          "variantId": "araxxor",
+          "sourceTitles": [
+            "Araxxor"
+          ],
+          "context": [
+            "Counts for Spiders tasks; prepare using the dedicated boss strategy.",
+            "Requires 92 Slayer and access to Morytania. A Spider or Araxyte task permits this task-only boss.",
+            "Araxxor egg-spawned araxytes receive task bonuses but do not reduce the remaining task count."
+          ]
+        },
+        {
+          "variantId": "araxyte-level-96",
+          "sourceTitles": [
+            "Araxyte"
+          ],
+          "context": [
+            "Counts for a Spiders task; requires 92 Slayer and access to Morytania.",
+            "Use the ordinary Araxyte strategy with venom protection. Level 146 araxytes can spawn the superior; level 96 araxytes cannot."
+          ]
+        },
+        {
+          "variantId": "araxyte-level-146",
+          "sourceTitles": [
+            "Araxyte"
+          ],
+          "context": [
+            "Counts for a Spiders task; requires 92 Slayer and access to Morytania.",
+            "Use the ordinary Araxyte strategy with venom protection. Level 146 araxytes can spawn the superior; level 96 araxytes cannot."
+          ]
+        },
+        {
+          "variantId": "dreadborn-araxyte",
+          "sourceTitles": [
+            "Dreadborn Araxyte"
+          ],
+          "context": [
+            "Superior Araxyte that counts for Spiders and Araxytes tasks.",
+            "Incidental spawn from level 146 Araxytes after unlocking Bigger and Badder; not a separately repeatable target."
+          ]
+        },
+        {
+          "variantId": "fever-spider",
+          "sourceTitles": [
+            "Slayer task/Spiders"
+          ],
+          "context": [
+            "The Spider task table explicitly lists Fever spiders, although the monster infobox lists only the narrower Fever Spiders category.",
+            "Requires 42 Slayer and partial Rum Deal to access Braindeath Island. Wear Slayer gloves when taking hits, or use the reviewed safespot method with disease treatment."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "rats",
+      "addedVariantIds": [
+        "brine-rat"
+      ],
+      "links": [
+        {
+          "variantId": "brine-rat",
+          "sourceTitles": [
+            "Brine rat"
+          ],
+          "context": [
+            "Brine rats count for both Rats and Brine Rats assignments.",
+            "Requires 47 Slayer and partial Olaf's Quest to access the Brine Rat Cavern. Use the dedicated Brine rats strategy."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "monkeys",
+      "addedVariantIds": [
+        "demonic-gorilla"
+      ],
+      "links": [
+        {
+          "variantId": "demonic-gorilla",
+          "sourceTitles": [
+            "Demonic gorilla"
+          ],
+          "context": [
+            "Demonic gorillas count for Monkeys as well as Black demons assignments.",
+            "Requires Monkey Madness II access, two combat styles and the dedicated gorilla strategy."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "zombies",
+      "addedVariantIds": [
+        "blue-dragons-vorkath",
+        "zombie-pirate",
+        "zogre",
+        "skogre-zombie"
+      ],
+      "links": [
+        {
+          "variantId": "blue-dragons-vorkath",
+          "sourceTitles": [
+            "Vorkath"
+          ],
+          "context": [
+            "Post-quest Vorkath counts for Zombies and Blue dragons tasks; use the same canonical post-quest variant as the Blue dragons task.",
+            "Requires Dragon Slayer II and dedicated dragonfire, venom and special-phase preparation. Not eligible for Krystilia because Ungael is outside the Wilderness."
+          ]
+        },
+        {
+          "variantId": "zombie-pirate",
+          "sourceTitles": [
+            "Zombie pirate"
+          ],
+          "context": [
+            "Wilderness Zombie pirates count for Zombies and Pirates tasks, including Krystilia assignments.",
+            "The surrounding Elder Chaos druids and other players are hazards; the Medium Wilderness Diary improves the zombie pirate loot chance."
+          ]
+        },
+        {
+          "variantId": "zogre",
+          "sourceTitles": [
+            "Zogre"
+          ],
+          "context": [
+            "Zogres count for Zombies and Ogres tasks.",
+            "Requires partial Zogre Flesh Eaters; prepare for disease and reduced damage without suitable ogre weapons or Crumble Undead."
+          ]
+        },
+        {
+          "variantId": "skogre-zombie",
+          "sourceTitles": [
+            "Skogre"
+          ],
+          "context": [
+            "Skogre NPC 878 counts for Zombies and Ogres; the visually similar NPCs 872 and 879 count for Skeletons and Ogres.",
+            "Requires partial Zogre Flesh Eaters; prepare for disease and reduced damage without suitable ogre weapons or Crumble Undead."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "scorpions",
+      "addedVariantIds": [
+        "scorpia"
+      ],
+      "links": [
+        {
+          "variantId": "scorpia",
+          "sourceTitles": [
+            "Scorpia"
+          ],
+          "context": [
+            "Scorpia counts for Scorpions tasks, including Krystilia assignments.",
+            "Deep Wilderness multicombat boss with substantial player killing risk; use the dedicated freezing and magic strategy."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "ghosts",
+      "addedVariantIds": [
+        "revenant-imp",
+        "revenant-goblin",
+        "revenant-pyrefiend",
+        "revenant-hobgoblin",
+        "revenant-cyclops",
+        "revenant-hellhound",
+        "revenant-demon",
+        "revenant-ork",
+        "revenant-dark-beast",
+        "revenant-knight",
+        "revenant-dragon"
+      ],
+      "links": [
+        {
+          "variantId": "revenant-imp",
+          "sourceTitles": [
+            "Revenant imp"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-goblin",
+          "sourceTitles": [
+            "Revenant goblin"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-pyrefiend",
+          "sourceTitles": [
+            "Revenant pyrefiend"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-hobgoblin",
+          "sourceTitles": [
+            "Revenant hobgoblin"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-cyclops",
+          "sourceTitles": [
+            "Revenant cyclops"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-hellhound",
+          "sourceTitles": [
+            "Revenant hellhound"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-demon",
+          "sourceTitles": [
+            "Revenant demon"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-ork",
+          "sourceTitles": [
+            "Revenant ork"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-dark-beast",
+          "sourceTitles": [
+            "Revenant dark beast"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-knight",
+          "sourceTitles": [
+            "Revenant knight"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        },
+        {
+          "variantId": "revenant-dragon",
+          "sourceTitles": [
+            "Revenant dragon"
+          ],
+          "context": [
+            "Revenants count for Ghosts tasks as well as Revenants assignments.",
+            "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "elves",
+      "addedVariantIds": [
+        "reanimated-elf"
+      ],
+      "links": [
+        {
+          "variantId": "reanimated-elf",
+          "sourceTitles": [
+            "Reanimated elf"
+          ],
+          "context": [
+            "Counts for the corresponding Slayer task, giving 35 Slayer XP alongside Prayer XP.",
+            "Incidental reanimation target requiring the relevant Arceuus reanimation spell and ensouled head; not an independently spawned repeatable monster.",
+            "Reanimation works near the original drop while the head has not entered a bank, trade, Grand Exchange or price checker; otherwise use the Dark Altar."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "dagannoth",
+      "addedVariantIds": [
+        "reanimated-dagannoth"
+      ],
+      "links": [
+        {
+          "variantId": "reanimated-dagannoth",
+          "sourceTitles": [
+            "Reanimated dagannoth"
+          ],
+          "context": [
+            "Counts for the corresponding Slayer task, giving 35 Slayer XP alongside Prayer XP.",
+            "Incidental reanimation target requiring the relevant Arceuus reanimation spell and ensouled head; not an independently spawned repeatable monster.",
+            "Reanimation works near the original drop while the head has not entered a bank, trade, Grand Exchange or price checker; otherwise use the Dark Altar."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "bloodveld",
+      "addedVariantIds": [
+        "reanimated-bloodveld"
+      ],
+      "links": [
+        {
+          "variantId": "reanimated-bloodveld",
+          "sourceTitles": [
+            "Reanimated bloodveld"
+          ],
+          "context": [
+            "Counts for the corresponding Slayer task, giving 35 Slayer XP alongside Prayer XP.",
+            "Incidental reanimation target requiring the relevant Arceuus reanimation spell and ensouled head; not an independently spawned repeatable monster.",
+            "Reanimation works near the original drop while the head has not entered a bank, trade, Grand Exchange or price checker; otherwise use the Dark Altar."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "trolls",
+      "addedVariantIds": [
+        "reanimated-troll"
+      ],
+      "links": [
+        {
+          "variantId": "reanimated-troll",
+          "sourceTitles": [
+            "Reanimated troll"
+          ],
+          "context": [
+            "Counts for the corresponding Slayer task, giving 35 Slayer XP alongside Prayer XP.",
+            "Incidental reanimation target requiring the relevant Arceuus reanimation spell and ensouled head; not an independently spawned repeatable monster.",
+            "Reanimation works near the original drop while the head has not entered a bank, trade, Grand Exchange or price checker; otherwise use the Dark Altar."
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "boss",
+      "addedVariantIds": [
+        "calvar-ion",
+        "artio",
+        "spindel",
+        "araxxor",
+        "kraken"
+      ],
+      "links": [
+        {
+          "variantId": "calvar-ion",
+          "sourceTitles": [
+            "Calvar'ion"
+          ],
+          "context": [
+            "Counts as an alternative for a Vet'ion boss assignment.",
+            "A matching Vet'ion boss task bypasses the Hard Wilderness Diary requirement. An ordinary creature task does not.",
+            "Use the weaker boss variant's location and encounter preparation; Wilderness player killing risk remains."
+          ]
+        },
+        {
+          "variantId": "artio",
+          "sourceTitles": [
+            "Artio"
+          ],
+          "context": [
+            "Counts as an alternative for a Callisto boss assignment.",
+            "A matching Callisto boss task bypasses the Hard Wilderness Diary requirement. An ordinary creature task does not.",
+            "Use the weaker boss variant's location and encounter preparation; Wilderness player killing risk remains."
+          ]
+        },
+        {
+          "variantId": "spindel",
+          "sourceTitles": [
+            "Spindel"
+          ],
+          "context": [
+            "Counts as an alternative for a Venenatis boss assignment.",
+            "A matching Venenatis boss task bypasses the Hard Wilderness Diary requirement. An ordinary creature task does not.",
+            "Use the weaker boss variant's location and encounter preparation; Wilderness player killing risk remains."
+          ]
+        },
+        {
+          "variantId": "araxxor",
+          "sourceTitles": [
+            "Araxxor"
+          ],
+          "context": [
+            "Konar can assign Araxxor specifically as a Boss task.",
+            "Requires 92 Slayer and access to Morytania; use the dedicated Araxxor strategy."
+          ]
+        },
+        {
+          "variantId": "kraken",
+          "sourceTitles": [
+            "Kraken",
+            "Boss"
+          ],
+          "context": [
+            "Kraken can be assigned as a Boss task after the Like a boss unlock.",
+            "Requires 87 Slayer and a Kraken or matching Boss task; use the dedicated Kraken strategy."
+          ]
+        }
+      ]
+    }
+  ],
+  "identityDecisions": [
+    {
+      "decision": "Split NPC 878 into skogre-zombie; keep NPCs 872 and 879 in skogre.",
+      "sourceTitles": [
+        "Skogre"
+      ],
+      "reason": "The raw versioned infobox assigns 878 to Ogres/Zombies and 872/879 to Ogres/Skeletons; category unions would incorrectly allow kills."
+    },
+    {
+      "decision": "Keep existing task-specific boss IDs as the canonical task joins.",
+      "reason": "King Black Dragon, Dagannoth Kings, Alchemical Hydra, Sire, Kree'arra, K'ril, Cerberus, Vorkath, Thermonuclear smoke devil and Kalphite Queen already have task or phase representations. Do not add duplicate boss-prefixed IDs."
+    },
+    {
+      "decision": "Mark reanimated elf/dagannoth/bloodveld/troll, Dreadborn Araxyte and four skeleton hellhound summons advisorRepeatable=false.",
+      "reason": "Keep task-counting context visible without recommending independently farmable encounters; reanimation is anchored at the Dark Altar with local-drop alternatives in task notes."
+    },
+    {
+      "decision": "Do not link the-jormungand as a repeatable Basilisks recommendation.",
+      "sourceTitles": [
+        "The Jormungand",
+        "Slayer task/Basilisks"
+      ],
+      "reason": "The current source identifies a one-off quest form. Quest-specific catalogue and preparation support remains outside this link correction."
+    },
+    {
+      "decision": "Do not link Tarn's Lair Skeleton Hellhound to Skeletons.",
+      "sourceTitles": [
+        "Skeleton Hellhound"
+      ],
+      "reason": "Its own monster infobox declares Hellhounds only; boss summons have separate pages explicitly declaring Hellhounds and Skeletons."
+    },
+    {
+      "decision": "Include fever-spider under Spiders.",
+      "sourceTitles": [
+        "Slayer task/Spiders",
+        "Fever spider"
+      ],
+      "reason": "The task variant table explicitly lists it, while the monster infobox records the narrower Fever Spiders category. Task membership follows the explicit task table; do not require every infobox to repeat umbrella categories."
+    },
+    {
+      "decision": "Correct false exclusions for Deadly red spiders, Maniacal monkeys and Brine rats.",
+      "sourceTitles": [
+        "Slayer task/Spiders",
+        "Deadly red spider",
+        "Slayer task/Monkeys",
+        "Brine rat"
+      ],
+      "reason": "Current task tables and monster categories confirm membership. Missing combat source records are documented, not invented."
+    },
+    {
+      "decision": "Do not add Venenatis/Spindel spiderlings or Araxxor egg-spawned araxytes as task-decrementing targets.",
+      "sourceTitles": [
+        "Slayer task/Spiders",
+        "Araxxor"
+      ],
+      "reason": "Current prose explicitly distinguishes task bonuses/Slayer XP from reduction of the remaining assignment count."
+    }
+  ],
+  "bossAccess": [
+    {
+      "variantId": "vet-ion",
+      "diary": "Medium Wilderness Diary",
+      "alternativeBossTask": "Vet'ion",
+      "creatureTaskBypassesDiary": false,
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Vet'ion",
+        "title": "Vet'ion",
+        "pageId": 31269,
+        "revisionId": 15332958,
+        "timestamp": "2026-09-07T00:55:18Z",
+        "missing": false
+      }
+    },
+    {
+      "variantId": "calvar-ion",
+      "diary": "Hard Wilderness Diary",
+      "alternativeBossTask": "Vet'ion",
+      "creatureTaskBypassesDiary": false,
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Calvar'ion",
+        "title": "Calvar'ion",
+        "pageId": 374839,
+        "revisionId": 15309944,
+        "timestamp": "2026-08-19T21:25:26Z",
+        "missing": false
+      }
+    },
+    {
+      "variantId": "callisto",
+      "diary": "Medium Wilderness Diary",
+      "alternativeBossTask": "Callisto",
+      "creatureTaskBypassesDiary": false,
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Callisto",
+        "title": "Callisto",
+        "pageId": 31268,
+        "revisionId": 15309935,
+        "timestamp": "2026-08-19T21:24:40Z",
+        "missing": false
+      }
+    },
+    {
+      "variantId": "artio",
+      "diary": "Hard Wilderness Diary",
+      "alternativeBossTask": "Callisto",
+      "creatureTaskBypassesDiary": false,
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Artio",
+        "title": "Artio",
+        "pageId": 374838,
+        "revisionId": 15309934,
+        "timestamp": "2026-08-19T21:24:33Z",
+        "missing": false
+      }
+    },
+    {
+      "variantId": "venenatis",
+      "diary": "Medium Wilderness Diary",
+      "alternativeBossTask": "Venenatis",
+      "creatureTaskBypassesDiary": false,
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Venenatis",
+        "title": "Venenatis",
+        "pageId": 31270,
+        "revisionId": 15324347,
+        "timestamp": "2026-08-29T08:17:05Z",
+        "missing": false
+      }
+    },
+    {
+      "variantId": "spindel",
+      "diary": "Hard Wilderness Diary",
+      "alternativeBossTask": "Venenatis",
+      "creatureTaskBypassesDiary": false,
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Spindel",
+        "title": "Spindel",
+        "pageId": 374849,
+        "revisionId": 15309918,
+        "timestamp": "2026-08-19T21:20:00Z",
+        "missing": false
+      }
+    }
+  ],
+  "taskVariantTableAudit": [
+    {
+      "taskId": "aberrant-spectres",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Aberrant_spectres",
+        "title": "Slayer task/Aberrant spectres",
+        "pageId": 298029,
+        "revisionId": 15282882,
+        "timestamp": "2026-07-30T11:22:08Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Aberrant spectre",
+          "linkedVariantIds": [
+            "aberrant-spectre"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Abhorrent spectre",
+          "linkedVariantIds": [
+            "abhorrent-spectre"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Deviant spectre",
+          "linkedVariantIds": [
+            "deviant-spectre"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Repugnant spectre",
+          "linkedVariantIds": [
+            "repugnant-spectre"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "abyssal-demons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Abyssal_demons",
+        "title": "Slayer task/Abyssal demons",
+        "pageId": 298016,
+        "revisionId": 15311146,
+        "timestamp": "2026-08-20T00:20:33Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Abyssal demon",
+          "linkedVariantIds": [
+            "abyssal-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Abyssal demon",
+          "linkedVariantIds": [
+            "abyssal-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Greater abyssal demon",
+          "linkedVariantIds": [
+            "greater-abyssal-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Abyssal Sire",
+          "linkedVariantIds": [
+            "abyssal-demons-abyssal-sire"
+          ],
+          "otherExistingVariantIds": [
+            "boss-abyssal-sire"
+          ]
+        },
+        {
+          "wikiMonster": "Abyssal Area",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Catacombs of Kourend",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Slayer Tower",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Slayer Tower",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Wilderness Slayer Cave",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "ankou",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Ankou",
+        "title": "Slayer task/Ankou",
+        "pageId": 357194,
+        "revisionId": 15329414,
+        "timestamp": "2026-09-03T12:24:07Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Ankou",
+          "linkedVariantIds": [
+            "ankou-level-95",
+            "ankou-level-98",
+            "ankou-level-82",
+            "ankou-level-86",
+            "ankou-level-75"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dark Ankou",
+          "linkedVariantIds": [
+            "dark-ankou"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "araxytes",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Araxytes",
+        "title": "Slayer task/Araxytes",
+        "pageId": 529981,
+        "revisionId": 15322536,
+        "timestamp": "2026-08-27T23:23:03Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Araxyte",
+          "linkedVariantIds": [
+            "araxyte-level-96",
+            "araxyte-level-146"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Araxyte",
+          "linkedVariantIds": [
+            "araxyte-level-96",
+            "araxyte-level-146"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dreadborn Araxyte",
+          "linkedVariantIds": [
+            "dreadborn-araxyte"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Araxxor",
+          "linkedVariantIds": [
+            "araxxor"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "aviansie",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Aviansie",
+        "title": "Slayer task/Aviansie",
+        "pageId": 342833,
+        "revisionId": 15299787,
+        "timestamp": "2026-08-14T03:54:54Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Aviansie",
+          "linkedVariantIds": [
+            "aviansie"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Aviansie",
+          "linkedVariantIds": [
+            "aviansie"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Kree'arra",
+          "linkedVariantIds": [
+            "aviansie-kree-arra"
+          ],
+          "otherExistingVariantIds": [
+            "boss-kree-arra"
+          ]
+        },
+        {
+          "wikiMonster": "Flight Kilisa",
+          "linkedVariantIds": [
+            "flight-kilisa"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Wingman Skree",
+          "linkedVariantIds": [
+            "wingman-skree"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Flockleader Geerin",
+          "linkedVariantIds": [
+            "flockleader-geerin"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "bandits",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Bandits",
+        "title": "Slayer task/Bandits",
+        "pageId": 298779,
+        "revisionId": 15250998,
+        "timestamp": "2026-07-04T03:18:19Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Bandit",
+          "linkedVariantIds": [
+            "bandit-lvl22",
+            "bandit-lvl130"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Guard Bandit",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Speedy Keith",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Donny the lad",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Black Heather",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "banshees",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Banshees",
+        "title": "Slayer task/Banshees",
+        "pageId": 298044,
+        "revisionId": 15330527,
+        "timestamp": "2026-09-04T03:19:20Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Banshee",
+          "linkedVariantIds": [
+            "banshee"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Screaming banshee",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Twisted Banshee",
+          "linkedVariantIds": [
+            "twisted-banshee"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Screaming twisted banshee",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "basilisks",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Basilisks",
+        "title": "Slayer task/Basilisks",
+        "pageId": 256653,
+        "revisionId": 15316304,
+        "timestamp": "2026-08-22T05:42:09Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Basilisk",
+          "linkedVariantIds": [
+            "basilisk"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Monstrous basilisk",
+          "linkedVariantIds": [
+            "monstrous-basilisk"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Basilisk Knight",
+          "linkedVariantIds": [
+            "basilisk-knight"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Basilisk Sentinel",
+          "linkedVariantIds": [
+            "basilisk-sentinel"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "The Jormungand",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": [
+            "the-jormungand"
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "bats",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Bats",
+        "title": "Slayer task/Bats",
+        "pageId": 268303,
+        "revisionId": 15333631,
+        "timestamp": "2026-09-08T04:01:25Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Bat",
+          "linkedVariantIds": [
+            "bat-lvl6"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant bat",
+          "linkedVariantIds": [
+            "giant-bat-lvl27"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Albino bat",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Death wing",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "bears",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Bears",
+        "title": "Slayer task/Bears",
+        "pageId": 297754,
+        "revisionId": 15250961,
+        "timestamp": "2026-07-04T03:17:10Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Bear Cub",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Black bear",
+          "linkedVariantIds": [
+            "black-bear"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Callisto",
+          "linkedVariantIds": [
+            "callisto"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Artio",
+          "linkedVariantIds": [
+            "artio"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Grizzly bear",
+          "linkedVariantIds": [
+            "grizzly-bear"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Grizzly bear cub",
+          "linkedVariantIds": [
+            "grizzly-bear-cub"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Grizzly bear (Escape Caves)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "birds",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Birds",
+        "title": "Slayer task/Birds",
+        "pageId": 259880,
+        "revisionId": 15250958,
+        "timestamp": "2026-07-04T03:17:09Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Duck",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Chicken",
+          "linkedVariantIds": [
+            "chicken-lvl1"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Undead chicken",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Rooster",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Seagull",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Penguin (monster)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Entrana firebird",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Bird",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Chompy bird",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Terrorbird",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vulture",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Oomlie bird",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mounted terrorbird",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Baby Roc",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "black-demons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Black_demons",
+        "title": "Slayer task/Black demons",
+        "pageId": 298036,
+        "revisionId": 15296848,
+        "timestamp": "2026-08-13T08:16:27Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Black demon",
+          "linkedVariantIds": [
+            "black-demon-level-178",
+            "black-demon-level-184",
+            "black-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Demonic gorilla",
+          "linkedVariantIds": [
+            "demonic-gorilla"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Balfrug Kreeyath",
+          "linkedVariantIds": [
+            "balfrug-kreeyath"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skotizo",
+          "linkedVariantIds": [
+            "skotizo"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Porazdir",
+          "linkedVariantIds": [
+            "porazdir"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Kolodion",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "black-dragons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Black_dragons",
+        "title": "Slayer task/Black dragons",
+        "pageId": 271133,
+        "revisionId": 15267651,
+        "timestamp": "2026-07-19T14:27:08Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Baby black dragon",
+          "linkedVariantIds": [
+            "baby-black-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Black dragon",
+          "linkedVariantIds": [
+            "black-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Black dragon",
+          "linkedVariantIds": [
+            "black-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "King Black Dragon",
+          "linkedVariantIds": [
+            "black-dragons-king-black-dragon"
+          ],
+          "otherExistingVariantIds": [
+            "boss-king-black-dragon"
+          ]
+        },
+        {
+          "wikiMonster": "Brutal black dragon",
+          "linkedVariantIds": [
+            "brutal-black-dragon"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "bloodveld",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Bloodveld",
+        "title": "Slayer task/Bloodveld",
+        "pageId": 297737,
+        "revisionId": 15302926,
+        "timestamp": "2026-08-16T10:08:01Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Bloodveld",
+          "linkedVariantIds": [
+            "bloodveld"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Bloodveld",
+          "linkedVariantIds": [
+            "bloodveld"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Insatiable Bloodveld",
+          "linkedVariantIds": [
+            "insatiable-bloodveld"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mutated Bloodveld",
+          "linkedVariantIds": [
+            "mutated-bloodveld"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Insatiable mutated Bloodveld",
+          "linkedVariantIds": [
+            "insatiable-mutated-bloodveld"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Reanimated bloodveld",
+          "linkedVariantIds": [
+            "reanimated-bloodveld"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "blue-dragons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Blue_dragons",
+        "title": "Slayer task/Blue dragons",
+        "pageId": 297956,
+        "revisionId": 15319394,
+        "timestamp": "2026-08-25T05:49:06Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Baby blue dragon",
+          "linkedVariantIds": [
+            "baby-blue-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Blue dragon",
+          "linkedVariantIds": [
+            "blue-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Brutal blue dragon",
+          "linkedVariantIds": [
+            "brutal-blue-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vorkath",
+          "linkedVariantIds": [
+            "blue-dragons-vorkath"
+          ],
+          "otherExistingVariantIds": [
+            "boss-vorkath"
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "cave-horrors",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Cave_horrors",
+        "title": "Slayer task/Cave horrors",
+        "pageId": 298271,
+        "revisionId": 15325063,
+        "timestamp": "2026-08-29T23:18:15Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Cave horror",
+          "linkedVariantIds": [
+            "cave-horror"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cave abomination",
+          "linkedVariantIds": [
+            "cave-abomination"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "cave-kraken",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Cave_krakens",
+        "title": "Slayer task/Cave krakens",
+        "pageId": 357207,
+        "revisionId": 15332650,
+        "timestamp": "2026-09-06T18:30:35Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Cave kraken",
+          "linkedVariantIds": [
+            "cave-kraken"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Kraken",
+          "linkedVariantIds": [
+            "kraken"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "crabs",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Crabs",
+        "title": "Slayer task/Crabs",
+        "pageId": 574430,
+        "revisionId": 15250994,
+        "timestamp": "2026-07-04T03:17:24Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Crab",
+          "linkedVariantIds": [
+            "crab"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ammonite Crab",
+          "linkedVariantIds": [
+            "ammonite-crab"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Frost Crab",
+          "linkedVariantIds": [
+            "frost-crab"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "King Sand Crab",
+          "linkedVariantIds": [
+            "king-sand-crab"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Rock Crab",
+          "linkedVariantIds": [
+            "rock-crab"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant Rock Crab",
+          "linkedVariantIds": [
+            "giant-rock-crab"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Sand Crab",
+          "linkedVariantIds": [
+            "sand-crab"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Swamp Crab",
+          "linkedVariantIds": [
+            "swamp-crab"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "custodian-stalker",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Custodian_stalker",
+        "title": "Slayer task/Custodian stalker",
+        "pageId": 601070,
+        "revisionId": 15321461,
+        "timestamp": "2026-08-26T20:00:29Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Juvenile custodian stalker",
+          "linkedVariantIds": [
+            "juvenile-custodian-stalker"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mature custodian stalker",
+          "linkedVariantIds": [
+            "mature-custodian-stalker"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Elder custodian stalker",
+          "linkedVariantIds": [
+            "elder-custodian-stalker"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "dagannoth",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Dagannoth",
+        "title": "Slayer task/Dagannoth",
+        "pageId": 298104,
+        "revisionId": 15276899,
+        "timestamp": "2026-07-27T22:52:31Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Dagannoth",
+          "linkedVariantIds": [
+            "dagannoth"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dagannoth (Waterbirth Island)",
+          "linkedVariantIds": [
+            "dagannoth-waterbirth"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dagannoth spawn",
+          "linkedVariantIds": [
+            "dagannoth-spawn"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dagannoth fledgeling",
+          "linkedVariantIds": [
+            "dagannoth-fledgeling"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dagannoth Prime",
+          "linkedVariantIds": [
+            "dagannoth-dagannoth-prime"
+          ],
+          "otherExistingVariantIds": [
+            "boss-dagannoth-prime"
+          ]
+        },
+        {
+          "wikiMonster": "Reanimated Dagannoth",
+          "linkedVariantIds": [
+            "reanimated-dagannoth"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dagannoth mother (Nightmare Zone)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "dogs",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Dogs",
+        "title": "Slayer task/Dogs",
+        "pageId": 298041,
+        "revisionId": 15266099,
+        "timestamp": "2026-07-17T14:38:35Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Jackal",
+          "linkedVariantIds": [
+            "jackal"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Temple guardian",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Guard dog",
+          "linkedVariantIds": [
+            "guard-dog"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Wild dog",
+          "linkedVariantIds": [
+            "wild-dog"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Shadow hound",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Reanimated dog",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "dust-devils",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Dust_devils",
+        "title": "Slayer task/Dust devils",
+        "pageId": 267355,
+        "revisionId": 15319311,
+        "timestamp": "2026-08-25T05:21:15Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Dust devil",
+          "linkedVariantIds": [
+            "dust-devil"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Choke devil",
+          "linkedVariantIds": [
+            "choke-devil"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "dwarves",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Dwarves",
+        "title": "Slayer task/Dwarves",
+        "pageId": 298105,
+        "revisionId": 15250970,
+        "timestamp": "2026-07-04T03:17:14Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Dwarf",
+          "linkedVariantIds": [
+            "dwarf"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dwarf",
+          "linkedVariantIds": [
+            "dwarf"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Guard (dwarf)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dwarf",
+          "linkedVariantIds": [
+            "dwarf"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dwarf",
+          "linkedVariantIds": [
+            "dwarf"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Black Guard",
+          "linkedVariantIds": [
+            "black-guard"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dwarf gang member",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dwarf gang member",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Black Guard",
+          "linkedVariantIds": [
+            "black-guard"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Chaos dwarf",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dwarf gang member",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Black Guard Berserker",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "earth-warriors",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Earth_warriors",
+        "title": "Slayer task/Earth warriors",
+        "pageId": 299251,
+        "revisionId": 15251008,
+        "timestamp": "2026-07-04T03:22:25Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Earth warrior",
+          "linkedVariantIds": [
+            "earth-warrior-lvl51"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "elves",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Elves",
+        "title": "Slayer task/Elves",
+        "pageId": 256687,
+        "revisionId": 15264257,
+        "timestamp": "2026-07-15T14:40:12Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Iorwerth Archer",
+          "linkedVariantIds": [
+            "iorwerth-archer"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Elf Archer",
+          "linkedVariantIds": [
+            "elf-archer"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Iorwerth Warrior",
+          "linkedVariantIds": [
+            "iorwerth-warrior"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Elf Warrior",
+          "linkedVariantIds": [
+            "elf-warrior"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mourner",
+          "linkedVariantIds": [
+            "mourner"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Guard (Prifddinas)",
+          "linkedVariantIds": [
+            "guard-prifddinas"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Reanimated elf",
+          "linkedVariantIds": [
+            "reanimated-elf"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "fossil-island-wyverns",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Fossil_Island_wyverns",
+        "title": "Slayer task/Fossil Island wyverns",
+        "pageId": 297887,
+        "revisionId": 15316214,
+        "timestamp": "2026-08-22T05:11:38Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Spitting Wyvern",
+          "linkedVariantIds": [
+            "spitting-wyvern"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Taloned Wyvern",
+          "linkedVariantIds": [
+            "taloned-wyvern"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Long-tailed Wyvern",
+          "linkedVariantIds": [
+            "long-tailed-wyvern"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ancient Wyvern",
+          "linkedVariantIds": [
+            "ancient-wyvern"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "gargoyles",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Gargoyles",
+        "title": "Slayer task/Gargoyles",
+        "pageId": 256647,
+        "revisionId": 15316243,
+        "timestamp": "2026-08-22T05:16:24Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Gargoyle",
+          "linkedVariantIds": [
+            "gargoyle"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Marble gargoyle",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dawn",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dusk",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "ghosts",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Ghosts",
+        "title": "Slayer task/Ghosts",
+        "pageId": 298241,
+        "revisionId": 15250974,
+        "timestamp": "2026-07-04T03:17:16Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Ghost",
+          "linkedVariantIds": [
+            "ghost-lvl19"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Revenants",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Forgotten Soul",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Tortured soul",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Death wing",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "goblins",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Goblins",
+        "title": "Slayer task/Goblins",
+        "pageId": 298253,
+        "revisionId": 14871486,
+        "timestamp": "2025-03-26T23:05:19Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Goblin",
+          "linkedVariantIds": [
+            "goblin-lvl2"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Goblin (Vault of War)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cave goblin (monster)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cave goblin miner",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cave goblin guard",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Sergeant Strongstack",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "greater-demons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Greater_demons",
+        "title": "Slayer task/Greater demons",
+        "pageId": 298108,
+        "revisionId": 15270275,
+        "timestamp": "2026-07-20T17:56:15Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Greater Demon",
+          "linkedVariantIds": [
+            "greater-demon-level-101",
+            "greater-demon",
+            "greater-demon-level-100",
+            "greater-demon-level-104",
+            "greater-demon-level-113"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Greater Demon",
+          "linkedVariantIds": [
+            "greater-demon-level-101",
+            "greater-demon",
+            "greater-demon-level-100",
+            "greater-demon-level-104",
+            "greater-demon-level-113"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Greater Demon",
+          "linkedVariantIds": [
+            "greater-demon-level-101",
+            "greater-demon",
+            "greater-demon-level-100",
+            "greater-demon-level-104",
+            "greater-demon-level-113"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Greater Demon",
+          "linkedVariantIds": [
+            "greater-demon-level-101",
+            "greater-demon",
+            "greater-demon-level-100",
+            "greater-demon-level-104",
+            "greater-demon-level-113"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Greater Demon",
+          "linkedVariantIds": [
+            "greater-demon-level-101",
+            "greater-demon",
+            "greater-demon-level-100",
+            "greater-demon-level-104",
+            "greater-demon-level-113"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skotizo",
+          "linkedVariantIds": [
+            "skotizo"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Tormented Demon",
+          "linkedVariantIds": [
+            "tormented-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Tstanon Karlak",
+          "linkedVariantIds": [
+            "tstanon-karlak"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "K'ril Tsutsaroth",
+          "linkedVariantIds": [
+            "greater-demons-k-ril-tsutsaroth"
+          ],
+          "otherExistingVariantIds": [
+            "boss-k-ril-tsutsaroth"
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "green-dragons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Green_dragons",
+        "title": "Slayer task/Green dragons",
+        "pageId": 270386,
+        "revisionId": 14898890,
+        "timestamp": "2025-05-11T19:55:29Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Green dragon",
+          "linkedVariantIds": [
+            "green-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Green dragon",
+          "linkedVariantIds": [
+            "green-dragon"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "gryphons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Gryphons",
+        "title": "Slayer task/Gryphons",
+        "pageId": 613360,
+        "revisionId": 15287277,
+        "timestamp": "2026-08-04T16:32:41Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Gryphon",
+          "linkedVariantIds": [
+            "gryphon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dire gryphon",
+          "linkedVariantIds": [
+            "dire-gryphon-superior"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Shellbane Gryphon",
+          "linkedVariantIds": [
+            "shellbane-gryphon"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "hellhounds",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Hellhounds",
+        "title": "Slayer task/Hellhounds",
+        "pageId": 256645,
+        "revisionId": 15329467,
+        "timestamp": "2026-09-03T14:40:56Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Hellhound",
+          "linkedVariantIds": [
+            "hellhound"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Hellhound",
+          "linkedVariantIds": [
+            "hellhound"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Hellhound",
+          "linkedVariantIds": [
+            "hellhound"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton Hellhound (Vet'ion)",
+          "linkedVariantIds": [
+            "skeleton-hellhound-vet-ion"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Greater Skeleton Hellhound (Vet'ion)",
+          "linkedVariantIds": [
+            "greater-skeleton-hellhound-vet-ion"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton Hellhound (Calvar'ion)",
+          "linkedVariantIds": [
+            "skeleton-hellhound-calvar-ion"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Greater Skeleton Hellhound (Calvar'ion)",
+          "linkedVariantIds": [
+            "greater-skeleton-hellhound-calvar-ion"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cerberus",
+          "linkedVariantIds": [
+            "hellhounds-cerberus"
+          ],
+          "otherExistingVariantIds": [
+            "boss-cerberus"
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "hill-giants",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Hill_giants",
+        "title": "Slayer task/Hill giants",
+        "pageId": 298054,
+        "revisionId": 15272947,
+        "timestamp": "2026-07-23T01:13:05Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Hill Giant",
+          "linkedVariantIds": [
+            "hill-giant"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Hill Giant (Giants' Plateau)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Hill Giant (Dark)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cyclops",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cyclops",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cyclops (God Wars Dungeon)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Cyclops",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Obor",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Reanimated giant",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "hobgoblins",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Hobgoblins",
+        "title": "Slayer task/Hobgoblins",
+        "pageId": 298252,
+        "revisionId": 15251007,
+        "timestamp": "2026-07-04T03:22:21Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Hobgoblin",
+          "linkedVariantIds": [
+            "hobgoblin"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Hobgoblin",
+          "linkedVariantIds": [
+            "hobgoblin"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Hobgoblin",
+          "linkedVariantIds": [
+            "hobgoblin"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "hydras",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Hydras",
+        "title": "Slayer task/Hydras",
+        "pageId": 297876,
+        "revisionId": 15317930,
+        "timestamp": "2026-08-24T07:52:11Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Hydra",
+          "linkedVariantIds": [
+            "hydra"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Colossal Hydra",
+          "linkedVariantIds": [
+            "colossal-hydra"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Alchemical Hydra",
+          "linkedVariantIds": [
+            "hydras-alchemical-hydra"
+          ],
+          "otherExistingVariantIds": [
+            "alchemical-hydra"
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "ice-giants",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Ice_giants",
+        "title": "Slayer task/Ice giants",
+        "pageId": 566858,
+        "revisionId": 15251009,
+        "timestamp": "2026-07-04T03:22:30Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Ice giant",
+          "linkedVariantIds": [
+            "ice-giant",
+            "ice-giant-wilderness-cave"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice giant",
+          "linkedVariantIds": [
+            "ice-giant",
+            "ice-giant-wilderness-cave"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Eldric the Ice King",
+          "linkedVariantIds": [
+            "eldric-the-ice-king"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "jellies",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Jellies",
+        "title": "Slayer task/Jellies",
+        "pageId": 298051,
+        "revisionId": 15316242,
+        "timestamp": "2026-08-22T05:16:18Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Jelly",
+          "linkedVariantIds": [
+            "jelly"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vitreous Jelly",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Warped jelly",
+          "linkedVariantIds": [
+            "warped-jelly"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vitreous Warped Jelly",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Chilled jelly",
+          "linkedVariantIds": [
+            "chilled-jelly"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vitreous Chilled Jelly",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "kalphite",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Kalphites",
+        "title": "Slayer task/Kalphites",
+        "pageId": 259777,
+        "revisionId": 15314674,
+        "timestamp": "2026-08-20T23:54:11Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Kalphite Worker",
+          "linkedVariantIds": [
+            "kalphite-worker"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Kalphite Soldier",
+          "linkedVariantIds": [
+            "kalphite-soldier"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Kalphite Guardian",
+          "linkedVariantIds": [
+            "kalphite-guardian"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Kalphite Queen",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": [
+            "kalphite-queen"
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "kurask",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Kurasks",
+        "title": "Slayer task/Kurasks",
+        "pageId": 634049,
+        "revisionId": 15316245,
+        "timestamp": "2026-08-22T05:25:12Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Kurask",
+          "linkedVariantIds": [
+            "kurask"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "King kurask",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "lesser-demons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Lesser_demon",
+        "title": "Slayer task/Lesser demon",
+        "pageId": 548773,
+        "revisionId": 15252584,
+        "timestamp": "2026-07-04T16:27:36Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Lesser demon",
+          "linkedVariantIds": [
+            "lesser-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Lesser demon",
+          "linkedVariantIds": [
+            "lesser-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Lesser demon",
+          "linkedVariantIds": [
+            "lesser-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Lesser demon",
+          "linkedVariantIds": [
+            "lesser-demon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zakl'n Gritch",
+          "linkedVariantIds": [
+            "zakln-gritch"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "lesser-nagua",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Lesser_Nagua",
+        "title": "Slayer task/Lesser Nagua",
+        "pageId": 540924,
+        "revisionId": 14988042,
+        "timestamp": "2025-09-18T05:53:48Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Sulphur Nagua",
+          "linkedVariantIds": [
+            "sulphur-nagua"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Frost Nagua",
+          "linkedVariantIds": [
+            "frost-nagua"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Amoxliatl",
+          "linkedVariantIds": [
+            "lesser-nagua-amoxliatl"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Earthen Nagua",
+          "linkedVariantIds": [
+            "earthen-nagua"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "lizardmen",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Lizardmen",
+        "title": "Slayer task/Lizardmen",
+        "pageId": 297852,
+        "revisionId": 15250962,
+        "timestamp": "2026-07-04T03:17:11Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Lizardman",
+          "linkedVariantIds": [
+            "lizardman"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Lizardman brute",
+          "linkedVariantIds": [
+            "lizardman-brute"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Lizardman shaman",
+          "linkedVariantIds": [
+            "lizardman-shaman"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "lizards",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Lizards",
+        "title": "Slayer task/Lizards",
+        "pageId": 298269,
+        "revisionId": 15116877,
+        "timestamp": "2026-01-30T10:40:07Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Small Lizard",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Desert Lizard",
+          "linkedVariantIds": [
+            "desert-lizard"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Lizard",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Sulphur Lizard",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Grimy Lizard",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "metal-dragons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Metal_dragons",
+        "title": "Slayer task/Metal dragons",
+        "pageId": 602634,
+        "revisionId": 15332692,
+        "timestamp": "2026-09-06T19:23:12Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Bronze dragon",
+          "linkedVariantIds": [
+            "bronze-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Iron dragon",
+          "linkedVariantIds": [
+            "iron-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Steel dragon",
+          "linkedVariantIds": [
+            "steel-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mithril dragon",
+          "linkedVariantIds": [
+            "mithril-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Adamant dragon",
+          "linkedVariantIds": [
+            "adamant-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Rune dragon",
+          "linkedVariantIds": [
+            "rune-dragon"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "molanisks",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Molanisks",
+        "title": "Slayer task/Molanisks",
+        "pageId": 299143,
+        "revisionId": 15250984,
+        "timestamp": "2026-07-04T03:17:20Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Molanisk",
+          "linkedVariantIds": [
+            "molanisk"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "monkeys",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Monkeys",
+        "title": "Slayer task/Monkeys",
+        "pageId": 298251,
+        "revisionId": 15250976,
+        "timestamp": "2026-07-04T03:17:16Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Monkey (monster)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Monkey Archer",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Monkey Guard",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Monkey Zombie",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Maniacal monkey",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Tortured gorilla",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Demonic gorilla",
+          "linkedVariantIds": [
+            "demonic-gorilla"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "moss-giants",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Moss_giants",
+        "title": "Slayer task/Moss giants",
+        "pageId": 298114,
+        "revisionId": 15250972,
+        "timestamp": "2026-07-04T03:17:15Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Moss giant",
+          "linkedVariantIds": [
+            "moss-giant"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Moss giant",
+          "linkedVariantIds": [
+            "moss-giant"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Moss Giant (Iorwerth Dungeon)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Bryophyta",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "mutated-zygomites",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Zygomites",
+        "title": "Slayer task/Zygomites",
+        "pageId": 271838,
+        "revisionId": 15161085,
+        "timestamp": "2026-03-29T23:49:08Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Zygomite",
+          "linkedVariantIds": [
+            "zygomite-level-74",
+            "zygomite-level-86"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zygomite",
+          "linkedVariantIds": [
+            "zygomite-level-74",
+            "zygomite-level-86"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ancient Zygomite",
+          "linkedVariantIds": [
+            "ancient-zygomite"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "nechryael",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Nechryael",
+        "title": "Slayer task/Nechryael",
+        "pageId": 523205,
+        "revisionId": 15332773,
+        "timestamp": "2026-09-06T21:04:19Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Nechryael",
+          "linkedVariantIds": [
+            "nechryael"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Greater Nechryael",
+          "linkedVariantIds": [
+            "greater-nechryael"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Nechryarch",
+          "linkedVariantIds": [
+            "nechryarch"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "ogres",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Ogres",
+        "title": "Slayer task/Ogres",
+        "pageId": 298279,
+        "revisionId": 15320380,
+        "timestamp": "2026-08-26T00:55:50Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "File:Ogre (West of Yanille) safespot.png",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mogre (sea)",
+          "linkedVariantIds": [
+            "mogre-sea"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mogre",
+          "linkedVariantIds": [
+            "mogre"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ogre",
+          "linkedVariantIds": [
+            "ogre-lvl53"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ogress Shaman",
+          "linkedVariantIds": [
+            "ogress-shaman"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ogress Warrior",
+          "linkedVariantIds": [
+            "ogress-warrior"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skogre",
+          "linkedVariantIds": [
+            "skogre"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zogre",
+          "linkedVariantIds": [
+            "zogre"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "pyrefiends",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Pyrefiends",
+        "title": "Slayer task/Pyrefiends",
+        "pageId": 297865,
+        "revisionId": 15285080,
+        "timestamp": "2026-08-01T12:22:24Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Pyrefiend",
+          "linkedVariantIds": [
+            "pyrefiend"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Flaming pyrelord",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Pyrelord",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Infernal pyrelord",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "rats",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Rats",
+        "title": "Slayer task/Rats",
+        "pageId": 300146,
+        "revisionId": 15251205,
+        "timestamp": "2026-07-04T06:14:04Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Rat",
+          "linkedVariantIds": [
+            "rat"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant rat",
+          "linkedVariantIds": [
+            "giant-rat"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zombie rat",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Brine rat",
+          "linkedVariantIds": [
+            "brine-rat"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Hell-rat behemoth",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dungeon rat",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Crypt rat",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant crypt rat",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scurrius",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant rat (Scurrius)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": [
+            "scurrius-giant-rat"
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "red-dragons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Red_dragons",
+        "title": "Slayer task/Red dragons",
+        "pageId": 297868,
+        "revisionId": 15250964,
+        "timestamp": "2026-07-04T03:17:11Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Red Dragon",
+          "linkedVariantIds": [
+            "red-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Baby red dragon",
+          "linkedVariantIds": [
+            "baby-red-dragon"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Brutal red dragon",
+          "linkedVariantIds": [
+            "brutal-red-dragon"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "scabarites",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Scabarites",
+        "title": "Slayer task/Scabarites",
+        "pageId": 298250,
+        "revisionId": 15250975,
+        "timestamp": "2026-07-04T03:17:16Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Scarab Mage",
+          "linkedVariantIds": [
+            "scarab-mage"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Locust rider",
+          "linkedVariantIds": [
+            "locust-rider"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scarab swarm",
+          "linkedVariantIds": [
+            "scarab-swarm"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Small scarab",
+          "linkedVariantIds": [
+            "small-scarab"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant Scarab",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "scorpions",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Scorpions",
+        "title": "Slayer task/Scorpions",
+        "pageId": 297991,
+        "revisionId": 15316864,
+        "timestamp": "2026-08-22T21:56:11Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Scorpion",
+          "linkedVariantIds": [
+            "scorpion",
+            "scorpion-wilderness"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Grave scorpion",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scorpion",
+          "linkedVariantIds": [
+            "scorpion",
+            "scorpion-wilderness"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scorpia's offspring (monster",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Poison scorpion",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Pit Scorpion",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "King Scorpion",
+          "linkedVariantIds": [
+            "king-scorpion"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant lobster (Ghosts Ahoy)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scorpion",
+          "linkedVariantIds": [
+            "scorpion",
+            "scorpion-wilderness"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scorpion",
+          "linkedVariantIds": [
+            "scorpion",
+            "scorpion-wilderness"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant lobster",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scorpia's guardian",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scorpion",
+          "linkedVariantIds": [
+            "scorpion",
+            "scorpion-wilderness"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Lobstrosity",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Scorpia",
+          "linkedVariantIds": [
+            "scorpia"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Reanimated scorpion",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "sea-snakes",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Sea_snakes",
+        "title": "Slayer task/Sea snakes",
+        "pageId": 298057,
+        "revisionId": 15124331,
+        "timestamp": "2026-02-09T15:45:28Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Sea snake hatchling",
+          "linkedVariantIds": [
+            "sea-snake-hatchling"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Sea snake young",
+          "linkedVariantIds": [
+            "sea-snake-young"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "shades",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Shades",
+        "title": "Slayer task/Shades",
+        "pageId": 298238,
+        "revisionId": 15322941,
+        "timestamp": "2026-08-28T11:55:53Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Shade",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Shade",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Loar Shade",
+          "linkedVariantIds": [
+            "loar-shade"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Phrin Shade",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Riyl Shade",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Asyn Shade",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Fiyr Shade",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Urium Shade",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "skeletons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Skeletons",
+        "title": "Slayer task/Skeletons",
+        "pageId": 298266,
+        "revisionId": 15325000,
+        "timestamp": "2026-08-29T22:05:41Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Skeleton",
+          "linkedVariantIds": [
+            "skeleton-area",
+            "skeleton-edgeville-wilderness",
+            "skeleton"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton (Tarn's Lair)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton (mage)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton (Barrows)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton (Shayzien Crypts)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton (Melzar's Maze)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton (Ape Atoll)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton (Draynor Manor)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skogre",
+          "linkedVariantIds": [
+            "skogre"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Skeleton Mage",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Calvar'ion",
+          "linkedVariantIds": [
+            "calvar-ion"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vet'ion",
+          "linkedVariantIds": [
+            "vet-ion"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "smoke-devils",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Smoke_devils",
+        "title": "Slayer task/Smoke devils",
+        "pageId": 298012,
+        "revisionId": 15282865,
+        "timestamp": "2026-07-30T11:11:25Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Smoke devil",
+          "linkedVariantIds": [
+            "smoke-devil"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Nuclear smoke devil",
+          "linkedVariantIds": [
+            "nuclear-smoke-devil"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Thermonuclear smoke devil",
+          "linkedVariantIds": [
+            "smoke-devils-thermonuclear-smoke-devil"
+          ],
+          "otherExistingVariantIds": [
+            "boss-thermonuclear-smoke-devil"
+          ]
+        }
+      ]
+    },
+    {
+      "taskId": "spiders",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Spiders",
+        "title": "Slayer task/Spiders",
+        "pageId": 298267,
+        "revisionId": 15250979,
+        "timestamp": "2026-07-04T03:17:18Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Spider",
+          "linkedVariantIds": [
+            "spider"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Spider (Ape Atoll)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Spider (Ungael)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Araxyte",
+          "linkedVariantIds": [
+            "araxyte-level-96",
+            "araxyte-level-146"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Araxxor",
+          "linkedVariantIds": [
+            "araxxor"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Blessed spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Crypt spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Deadly red spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dreadborn Araxyte",
+          "linkedVariantIds": [
+            "dreadborn-araxyte"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Fever spider",
+          "linkedVariantIds": [
+            "fever-spider"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant crypt spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Giant spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Jungle spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Poison spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Poison spider (Escape Caves)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Shadow spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Sarachnis",
+          "linkedVariantIds": [
+            "sarachnis"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Spawn of Sarachnis",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Spindel",
+          "linkedVariantIds": [
+            "spindel"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Temple Spider",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Venenatis",
+          "linkedVariantIds": [
+            "venenatis"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "spiritual-creatures",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Spiritual_creatures",
+        "title": "Slayer task/Spiritual creatures",
+        "pageId": 526458,
+        "revisionId": 15287407,
+        "timestamp": "2026-08-04T22:40:26Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Spiritual ranger",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Spiritual warrior",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Spiritual mage",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "trolls",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Trolls",
+        "title": "Slayer task/Trolls",
+        "pageId": 298280,
+        "revisionId": 15316236,
+        "timestamp": "2026-08-22T05:15:21Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "River troll",
+          "linkedVariantIds": [
+            "river-troll"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Thrower Troll",
+          "linkedVariantIds": [
+            "thrower-troll"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Thrower troll (Trollheim)",
+          "linkedVariantIds": [
+            "thrower-troll-trollheim"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mountain troll",
+          "linkedVariantIds": [
+            "mountain-troll"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Troll spectator",
+          "linkedVariantIds": [
+            "troll-spectator"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Twig",
+          "linkedVariantIds": [
+            "twig"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Berry",
+          "linkedVariantIds": [
+            "berry"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice troll runt",
+          "linkedVariantIds": [
+            "ice-troll-runt"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice troll male",
+          "linkedVariantIds": [
+            "ice-troll-male"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice troll female",
+          "linkedVariantIds": [
+            "ice-troll-female"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Pee Hat",
+          "linkedVariantIds": [
+            "pee-hat"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Kraka",
+          "linkedVariantIds": [
+            "kraka"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dad",
+          "linkedVariantIds": [
+            "dad"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice troll grunt",
+          "linkedVariantIds": [
+            "ice-troll-grunt"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Stick",
+          "linkedVariantIds": [
+            "stick"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Rock (Troll)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Troll general",
+          "linkedVariantIds": [
+            "troll-general"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Arrg",
+          "linkedVariantIds": [
+            "arrg"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice troll",
+          "linkedVariantIds": [
+            "ice-troll"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice Troll King",
+          "linkedVariantIds": [
+            "ice-troll-king"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "turoth",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Turoth",
+        "title": "Slayer task/Turoth",
+        "pageId": 343297,
+        "revisionId": 15299275,
+        "timestamp": "2026-08-14T02:59:43Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Turoth",
+          "linkedVariantIds": [
+            "turoth"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Spiked Turoth",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "tzhaar",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/TzHaar",
+        "title": "Slayer task/TzHaar",
+        "pageId": 514851,
+        "revisionId": 15316995,
+        "timestamp": "2026-08-23T02:16:29Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "TzHaar-Hur",
+          "linkedVariantIds": [
+            "tzhaar-hur"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "TzHaar-Mej (monster)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "TzHaar-Xil",
+          "linkedVariantIds": [
+            "tzhaar-xil"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "TzHaar-Ket",
+          "linkedVariantIds": [
+            "tzhaar-ket-level-221",
+            "tzhaar-ket-level-149"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "TzTok-Jad",
+          "linkedVariantIds": [
+            "tztok-jad"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "TzKal-Zuk",
+          "linkedVariantIds": [
+            "tzkal-zuk"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "vampyres",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Vampyres",
+        "title": "Slayer task/Vampyres",
+        "pageId": 298140,
+        "revisionId": 15320360,
+        "timestamp": "2026-08-25T23:58:49Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Feral Vampyre",
+          "linkedVariantIds": [
+            "feral-vampyre"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vampyre Juvenile",
+          "linkedVariantIds": [
+            "vampyre-juvenile"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vampyre Juvinate",
+          "linkedVariantIds": [
+            "vampyre-juvinate"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vyrewatch",
+          "linkedVariantIds": [
+            "vyrewatch"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vyrewatch Sentinel",
+          "linkedVariantIds": [
+            "vyrewatch-sentinel"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Venator",
+          "linkedVariantIds": [
+            "venator"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "venators",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Venators",
+        "title": "Slayer task/Venators",
+        "pageId": 674589,
+        "revisionId": 15327318,
+        "timestamp": "2026-09-01T14:15:27Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Venator",
+          "linkedVariantIds": [
+            "venator"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "warped-creatures",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Warped_creatures",
+        "title": "Slayer task/Warped creatures",
+        "pageId": 601420,
+        "revisionId": 15322535,
+        "timestamp": "2026-08-27T23:21:05Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Warped Tortoise",
+          "linkedVariantIds": [
+            "warped-tortoise"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Warped Terrorbird",
+          "linkedVariantIds": [
+            "warped-terrorbird-level-138",
+            "warped-terrorbird-level-96"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mutated Tortoise",
+          "linkedVariantIds": [
+            "mutated-tortoise"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Mutated Terrorbird",
+          "linkedVariantIds": [
+            "mutated-terrorbird"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "waterfiends",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Waterfiends",
+        "title": "Slayer task/Waterfiends",
+        "pageId": 362720,
+        "revisionId": 15319421,
+        "timestamp": "2026-08-25T05:58:30Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Waterfiend",
+          "linkedVariantIds": [
+            "waterfiend"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "wolves",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Wolves",
+        "title": "Slayer task/Wolves",
+        "pageId": 298281,
+        "revisionId": 14976155,
+        "timestamp": "2025-08-29T04:08:53Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Wolves",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Big Wolf",
+          "linkedVariantIds": [
+            "big-wolf"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Desert Wolf",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Dire Wolf",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Ice wolf",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Jungle wolf",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "White wolves",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "wyrms",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Wyrms",
+        "title": "Slayer task/Wyrms",
+        "pageId": 356964,
+        "revisionId": 15332468,
+        "timestamp": "2026-09-06T11:58:19Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Wyrm",
+          "linkedVariantIds": [
+            "wyrm"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Shadow Wyrm",
+          "linkedVariantIds": [
+            "shadow-wyrm"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Wyrmling",
+          "linkedVariantIds": [
+            "wyrmling"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Lava Strykewyrm",
+          "linkedVariantIds": [
+            "lava-strykewyrm"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Magma strykewyrm",
+          "linkedVariantIds": [
+            "magma-strykewyrm"
+          ],
+          "otherExistingVariantIds": []
+        }
+      ]
+    },
+    {
+      "taskId": "zombies",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Zombies",
+        "title": "Slayer task/Zombies",
+        "pageId": 298268,
+        "revisionId": 15327782,
+        "timestamp": "2026-09-01T22:05:26Z",
+        "missing": false
+      },
+      "scope": "Task variant table compared with existing monster names; unmatched names require manual identity review, not automatic creation.",
+      "rows": [
+        {
+          "wikiMonster": "Monkey Zombie",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Undead chicken",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Undead cow",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Undead Druid",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Undead Lumberjack",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Undead one",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Undead Zealot",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Vorkath",
+          "linkedVariantIds": [
+            "blue-dragons-vorkath"
+          ],
+          "otherExistingVariantIds": [
+            "boss-vorkath"
+          ]
+        },
+        {
+          "wikiMonster": "Zombie",
+          "linkedVariantIds": [
+            "zombie-lvl18",
+            "zombie-lvl24",
+            "zombie-lvl13"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zombie pirate",
+          "linkedVariantIds": [
+            "zombie-pirate"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zombie pirate (Braindeath Island)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zombie rat",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zombie swab",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Zogre",
+          "linkedVariantIds": [
+            "zogre"
+          ],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Armoured zombie (Zemouregal's Base)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Armoured zombie (Zemouregal's Fort)",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        },
+        {
+          "wikiMonster": "Sorebones",
+          "linkedVariantIds": [],
+          "otherExistingVariantIds": []
+        }
+      ]
+    }
+  ],
+  "remainingSourceGaps": [
+    {
+      "taskId": "bears",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Bears",
+        "title": "Slayer task/Bears",
+        "pageId": 297754,
+        "revisionId": 15250961,
+        "timestamp": "2026-07-04T03:17:10Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Bear Cub",
+        "Grizzly bear (Escape Caves)"
+      ]
+    },
+    {
+      "taskId": "ghosts",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Ghosts",
+        "title": "Slayer task/Ghosts",
+        "pageId": 298241,
+        "revisionId": 15250974,
+        "timestamp": "2026-07-04T03:17:16Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Forgotten Soul",
+        "Tortured soul",
+        "Death wing"
+      ]
+    },
+    {
+      "taskId": "monkeys",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Monkeys",
+        "title": "Slayer task/Monkeys",
+        "pageId": 298251,
+        "revisionId": 15250976,
+        "timestamp": "2026-07-04T03:17:16Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Monkey Archer",
+        "Monkey Guard",
+        "Monkey Zombie",
+        "Maniacal monkey",
+        "Tortured gorilla"
+      ]
+    },
+    {
+      "taskId": "rats",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Rats",
+        "title": "Slayer task/Rats",
+        "pageId": 300146,
+        "revisionId": 15251205,
+        "timestamp": "2026-07-04T06:14:04Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Zombie rat",
+        "Hell-rat behemoth",
+        "Dungeon rat",
+        "Crypt rat",
+        "Giant crypt rat"
+      ]
+    },
+    {
+      "taskId": "scorpions",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Scorpions",
+        "title": "Slayer task/Scorpions",
+        "pageId": 297991,
+        "revisionId": 15316864,
+        "timestamp": "2026-08-22T21:56:11Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Grave scorpion",
+        "Scorpia's offspring (monster",
+        "Poison scorpion",
+        "Pit Scorpion",
+        "Giant lobster (Ghosts Ahoy)",
+        "Giant lobster",
+        "Scorpia's guardian",
+        "Lobstrosity",
+        "Reanimated scorpion"
+      ]
+    },
+    {
+      "taskId": "skeletons",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Skeletons",
+        "title": "Slayer task/Skeletons",
+        "pageId": 298266,
+        "revisionId": 15325000,
+        "timestamp": "2026-08-29T22:05:41Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Skeleton (Tarn's Lair)",
+        "Skeleton (mage)",
+        "Skeleton (Barrows)",
+        "Skeleton (Shayzien Crypts)",
+        "Skeleton (Melzar's Maze)",
+        "Skeleton (Ape Atoll)",
+        "Skeleton (Draynor Manor)",
+        "Skeleton Mage"
+      ]
+    },
+    {
+      "taskId": "spiders",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Spiders",
+        "title": "Slayer task/Spiders",
+        "pageId": 298267,
+        "revisionId": 15250979,
+        "timestamp": "2026-07-04T03:17:18Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Spider (Ape Atoll)",
+        "Spider (Ungael)",
+        "Blessed spider",
+        "Crypt spider",
+        "Deadly red spider",
+        "Giant crypt spider",
+        "Giant spider",
+        "Ice spider",
+        "Jungle spider",
+        "Poison spider",
+        "Poison spider (Escape Caves)",
+        "Shadow spider",
+        "Spawn of Sarachnis",
+        "Temple Spider"
+      ]
+    },
+    {
+      "taskId": "zombies",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Slayer_task/Zombies",
+        "title": "Slayer task/Zombies",
+        "pageId": 298268,
+        "revisionId": 15327782,
+        "timestamp": "2026-09-01T22:05:26Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Monkey Zombie",
+        "Undead chicken",
+        "Undead cow",
+        "Undead Druid",
+        "Undead Lumberjack",
+        "Undead one",
+        "Undead Zealot",
+        "Zombie pirate (Braindeath Island)",
+        "Zombie rat",
+        "Zombie swab",
+        "Armoured zombie (Zemouregal's Base)",
+        "Armoured zombie (Zemouregal's Fort)",
+        "Sorebones"
+      ]
+    },
+    {
+      "taskId": "boss",
+      "source": {
+        "url": "https://oldschool.runescape.wiki/w/Boss",
+        "title": "Boss",
+        "pageId": 29375,
+        "revisionId": 15323824,
+        "timestamp": "2026-08-28T20:54:00Z",
+        "missing": false
+      },
+      "unmodelledOrUnresolvedWikiRows": [
+        "Commander Zilyana",
+        "Duke Sucellus",
+        "The Leviathan",
+        "Maggot King",
+        "Vardorvis",
+        "The Whisperer",
+        "Deranged archaeologist"
+      ],
+      "notes": [
+        "The first six are explicitly assignable bosses without current monster source records.",
+        "Deranged archaeologist is a Crazy archaeologist substitute, except for Konar assignments.",
+        "Kraken and Araxxor had existing source records and are now linked; Scurrius is not an assignable Boss task."
+      ]
+    }
+  ],
+  "limits": [
+    "This repairs links to existing source variants and a necessary Skogre identity split. It is not a complete new migration of every current wiki combat variant or strategy.",
+    "Name comparisons aid review but do not establish Slayer membership; repeated boss identities and aliases are reviewed explicitly.",
+    "Scurrius is authored separately and is not included in this link-change inventory.",
+    "Current Spider task table lists 4658 Slayer XP for Dreadborn Araxyte, while the current monster infobox lists 4462.5; the new variantInfo row uses the monster infobox.",
+    "Calvar'ion minion pages note a variable spawn-count bug. Task notes do not promise exactly five task decrements per boss kill."
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "masterId": "mortimer",
+  "name": "Mortimer",
+  "wikiPageId": 663129,
+  "location": "Wyrmscraig Cavern",
+  "requirements": {
+    "combatLevel": 100,
+    "slayerLevel": 70,
+    "quests": [
+      "Fallen From Grace (partial completion for Wyrmscraig Cavern access)"
+    ]
+  },
+  "economy": {
+    "basePoints": 0,
+    "blockCost": 120,
+    "separateStreak": true
+  },
+  "notes": [
+    "Offers two tasks, increasing to three choices after completing 50 Mortimer tasks.",
+    "Assigns tasks with superior variants. Venators are assigned directly only by Mortimer.",
+    "Slayer points are awarded only with the point modifier; the default task gives no points.",
+    "Task modifiers can change quantity, points, clue rates, superior rewards, and Slayer experience.",
+    "Skipping costs 100 points and there are only two block slots. Turael cannot replace Mortimer tasks.",
+    "Mortimer maintains a separate task streak. Combat requirement can be bypassed by showing a Slayer cape at 99 Slayer."
+  ]
+}

@@ -25,7 +25,8 @@
   "undead": false,
   "boss": true,
   "location": "Cerberus's Lair, beneath Taverley Dungeon",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "cerberus"
+  "strategyId": "cerberus",
+  "locationId": "cerberus-lair"
 }

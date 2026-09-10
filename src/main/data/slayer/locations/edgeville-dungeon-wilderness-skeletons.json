@@ -1,0 +1,30 @@
+{
+  "locationId": "edgeville-dungeon-wilderness-skeletons",
+  "name": "Edgeville Dungeon (Wilderness skeletons)",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": true,
+  "wilderness": true,
+  "accessNote": "Northern Wilderness section of Edgeville Dungeon: seven level 45 skeletons. This section permits player-versus-player combat; the southern skeleton rooms are outside the Wilderness.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Skeleton",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skeleton",
+      "title": "Skeleton",
+      "pageId": 13405,
+      "revisionId": 15323222,
+      "timestamp": "2026-08-28T15:58:12Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Skeletons",
+      "title": "Slayer task/Skeletons",
+      "pageId": 298266,
+      "revisionId": 15325000,
+      "timestamp": "2026-08-29T22:05:41Z",
+      "missing": false
+    }
+  ]
+}

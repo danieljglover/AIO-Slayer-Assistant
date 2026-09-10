@@ -1,0 +1,39 @@
+{
+  "locationId": "scurrius-lair",
+  "name": "Varrock Sewers - Scurrius lair",
+  "multi": true,
+  "cannon": false,
+  "burst": true,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "taskOnly": false,
+  "accessNote": "Enter Varrock Sewers through the manhole east of Varrock Palace and continue east to the broken bars. The free private instance contains the weaker solo form; the public arena contains the stronger group form. Group Ironmen can share an instance. Exit through the sewage water; re-entry has an approximately 15-second delay. Cannons and fires are prohibited. The Wiki includes Blood Barrage as a magic alternative in this multicombat area; this is not a safespot. Graves appear beside Historian Aldo outside the lair.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Scurrius/Strategies",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Scurrius/Strategies",
+      "title": "Scurrius/Strategies",
+      "pageId": 413365,
+      "revisionId": 15331669,
+      "timestamp": "2026-09-05T18:19:34Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Scurrius",
+      "title": "Scurrius",
+      "pageId": 404457,
+      "revisionId": 15201009,
+      "timestamp": "2026-04-28T23:49:13Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Varrock_Sewers",
+      "title": "Varrock Sewers",
+      "pageId": 14927,
+      "revisionId": 15273145,
+      "timestamp": "2026-07-23T04:11:02Z",
+      "missing": false
+    }
+  ]
+}

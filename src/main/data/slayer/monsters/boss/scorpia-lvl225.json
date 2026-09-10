@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Scorpion Pit cave, north-east Wilderness (~Level 53-55)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "scorpia"
+  "strategyId": "scorpia",
+  "locationId": "scorpion-pit-cave"
 }

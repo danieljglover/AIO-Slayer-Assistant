@@ -1,0 +1,431 @@
+{
+  "strategyId": "demonic-gorilla",
+  "variantIds": [
+    "demonic-gorilla"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Demonic_gorilla/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "arclight",
+      "osmumten-s-fang",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Use a melee/ranged hybrid with few switches. Monkey Madness II is mandatory; demonic gorillas count as black demons or monkeys."
+  },
+  "requirements": [
+    "Monkey Madness II",
+    "At least two usable combat styles."
+  ],
+  "mechanics": [
+    "Gorillas use melee, ranged and magic attacks, each capable of hitting 30.",
+    "Their boulder attack deals one third of current health if it lands; it does not count as one of the three missed attacks.",
+    "After three attacks dealing no damage, with the third protected correctly, the gorilla changes attack style.",
+    "Its protection prayer changes after at least four damaging hits and a combined 70 damage; the previous attack style then becomes immune.",
+    "A boulder is only used during ranged or magic combat.",
+    "Magic is a possible second style but is generally less efficient because of higher rune costs and the gorilla's magic defence."
+  ],
+  "methods": [
+    {
+      "methodId": "melee-ranged",
+      "label": "Melee and ranged hybrid",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Use a demonbane melee weapon and a ranged switch. Keep swaps small: weapon, body and amulet are usually sufficient.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Oathplate helm",
+            "Neitiznot faceguard",
+            "Blood moon helm",
+            "Eclipse moon helm",
+            "Helm of Neitiznot"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of blood fury",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Mixed hide cape"
+          ],
+          "body": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Bandos chestplate",
+            "Blood moon chestplate",
+            "Eclipse moon chestplate",
+            "Fighter torso"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Bandos tassets",
+            "Blood moon tassets",
+            "Eclipse moon tassets",
+            "Barrows equipment",
+            "Dragon platelegs",
+            "Dragon plateskirt"
+          ],
+          "weapon": [
+            "Emberlight",
+            "Soulreaper axe",
+            "Arclight",
+            "Osmumten's fang",
+            "Noxious halberd",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Zamorakian hasta",
+            "Zombie axe"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots",
+            "Guardian boots"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer",
+            "Ring of suffering (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Enter the Crash Site Cavern after Monkey Madness II; choose its single-combat areas for a solo trip.",
+        "Bring a second combat style to continue dealing damage when the gorilla changes protection prayer.",
+        "Reduce the number of armour switches because protection changes occur frequently.",
+        "Treat the attack-count and boulder mechanics as preparation knowledge; this plugin never tracks them to issue live prayer or tile prompts."
+      ],
+      "advisor": {
+        "requirements": [
+          "Monkey Madness II",
+          "Assignment permits demonic gorillas (not a Konar or Krystilia task)"
+        ],
+        "locationIds": [
+          "crash-site-cavern"
+        ],
+        "switches": [
+          {
+            "name": "Scorching bow",
+            "required": true
+          },
+          {
+            "name": "Necklace of anguish",
+            "required": false
+          },
+          {
+            "name": "Black d'hide body",
+            "required": false
+          }
+        ],
+        "requiredItems": [
+          {
+            "name": "Dragon arrow or Amethyst arrow",
+            "quantity": 1000,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion(4) or Super restore(4)",
+            "quantity": 6
+          },
+          {
+            "name": "Shark",
+            "quantity": 12
+          },
+          {
+            "name": "Royal seed pod",
+            "quantity": 1
+          }
+        ],
+        "coverageStatus": "Hybrid requirement, mechanics and limited-switch equipment reviewed against wiki revision 15329349",
+        "equipmentReviewed": true
+      }
+    },
+    {
+      "methodId": "melee-crossbow",
+      "label": "Melee and crossbow hybrid",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Use a demonbane melee weapon and a ranged switch. Keep swaps small: weapon, body and amulet are usually sufficient.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Oathplate helm",
+            "Neitiznot faceguard",
+            "Blood moon helm",
+            "Eclipse moon helm",
+            "Helm of Neitiznot"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of blood fury",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Mixed hide cape"
+          ],
+          "body": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Bandos chestplate",
+            "Blood moon chestplate",
+            "Eclipse moon chestplate",
+            "Fighter torso"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Bandos tassets",
+            "Blood moon tassets",
+            "Eclipse moon tassets",
+            "Barrows equipment",
+            "Dragon platelegs",
+            "Dragon plateskirt"
+          ],
+          "weapon": [
+            "Emberlight",
+            "Soulreaper axe",
+            "Arclight",
+            "Osmumten's fang",
+            "Noxious halberd",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Zamorakian hasta",
+            "Zombie axe"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots",
+            "Guardian boots"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer",
+            "Ring of suffering (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Enter the Crash Site Cavern after Monkey Madness II; choose its single-combat areas for a solo trip.",
+        "Bring a second combat style to continue dealing damage when the gorilla changes protection prayer.",
+        "Reduce the number of armour switches because protection changes occur frequently.",
+        "Treat the attack-count and boulder mechanics as preparation knowledge; this plugin never tracks them to issue live prayer or tile prompts."
+      ],
+      "advisor": {
+        "requirements": [
+          "Monkey Madness II",
+          "Assignment permits demonic gorillas (not a Konar or Krystilia task)"
+        ],
+        "locationIds": [
+          "crash-site-cavern"
+        ],
+        "switches": [
+          {
+            "name": "Rune crossbow or Armadyl crossbow or Dragon crossbow",
+            "required": true
+          },
+          {
+            "name": "Necklace of anguish",
+            "required": false
+          },
+          {
+            "name": "Black d'hide body",
+            "required": false
+          }
+        ],
+        "requiredItems": [
+          {
+            "name": "Diamond bolts (e) or Broad bolts",
+            "quantity": 1000,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion(4) or Super restore(4)",
+            "quantity": 6
+          },
+          {
+            "name": "Shark",
+            "quantity": 12
+          },
+          {
+            "name": "Royal seed pod",
+            "quantity": 1
+          }
+        ],
+        "coverageStatus": "Hybrid requirement, mechanics and limited-switch equipment reviewed against wiki revision 15329349",
+        "equipmentReviewed": true
+      }
+    },
+    {
+      "methodId": "travel",
+      "label": "Crash Site Cavern transportation",
+      "role": "travel",
+      "summary": "Royal seed pod is the fastest route to the Grand Tree. Spirit trees and the glider to Ta Quir Priw are alternatives.",
+      "steps": [
+        "Leave via the fence gap north-west of the Grand Tree and run north-east to the cavern.",
+        "Avoid the multicombat areas when preparing a solo trip."
+      ]
+    },
+    {
+      "methodId": "healing",
+      "label": "Trip extension and special attacks",
+      "role": "support",
+      "summary": "Saradomin godsword, toxic blowpipe specials, or a complete Guthan set can restore health.",
+      "steps": [
+        "Bring the entire Guthan set if relying on its healing effect.",
+        "Demonic Offering can restore prayer and train Prayer from malicious ashes.",
+        "Multi-hit specials can lose later hits when a prayer change happens; burn damage is cleared when prayers change.",
+        "Scorching bow binding can offer more time between switches, but the gorilla may change attack style if prevented from reaching melee."
+      ]
+    },
+    {
+      "methodId": "magic-alternative",
+      "label": "Magic as the second style",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Magic can replace ranged in a hybrid, with higher rune costs and less favourable enemy magic defence.",
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Documented alternative; no dedicated wiki magic equipment or rune preset supplied"
+      }
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "ranged-switch",
+      "label": "Ranged equipment switch priorities",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Masori mask",
+            "Crystal helm",
+            "Eclipse moon helm"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Necklace of fangs"
+          ],
+          "cape": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Ranging cape(t)",
+            "Ava's accumulator"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Masori body",
+            "Crystal body",
+            "Eclipse moon chestplate",
+            "Karil's leathertop",
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "legs": [
+            "Masori chaps (f)",
+            "Masori chaps",
+            "Crystal legs",
+            "Eclipse moon tassets",
+            "Karil's leatherskirt",
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "weapon": [
+            "Twisted bow",
+            "Scorching bow",
+            "Toxic blowpipe",
+            "Bow of Faerdhinen",
+            "Eclipse atlatl",
+            "Hunters' sunlight crossbow",
+            "Karil's crossbow"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward"
+          ],
+          "ammo": [
+            "Peaceful blessing"
+          ],
+          "hands": [
+            "Zaryte vambraces",
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)"
+          ],
+          "ring": [
+            "Lightbearer",
+            "Ring of suffering (i)"
+          ]
+        }
+      },
+      "advisor": {
+        "selectable": false
+      }
+    }
+  ]
+}

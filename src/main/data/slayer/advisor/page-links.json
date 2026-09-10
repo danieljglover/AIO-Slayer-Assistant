@@ -1,0 +1,174 @@
+{
+  "meaning": "Explicit current main-page links where task-page names are missing, renamed, or use a broader category. Retrieval is not semantic certification.",
+  "records": {
+    "tasks/black-knights.json": [
+      "Black Knight"
+    ],
+    "tasks/brine-rats.json": [
+      "Brine rat"
+    ],
+    "tasks/cave-kraken.json": [
+      "Slayer task/Cave krakens"
+    ],
+    "tasks/cave-slime.json": [
+      "Cave slime"
+    ],
+    "tasks/crawling-hands.json": [
+      "Crawling Hand"
+    ],
+    "tasks/crocodiles.json": [
+      "Crocodile"
+    ],
+    "tasks/dark-beasts.json": [
+      "Slayer task/Dark beast"
+    ],
+    "tasks/dark-warriors.json": [
+      "Dark warrior"
+    ],
+    "tasks/fever-spiders.json": [
+      "Fever spider"
+    ],
+    "tasks/frost-dragons.json": [
+      "Frost dragon"
+    ],
+    "tasks/ghouls.json": [
+      "Ghoul"
+    ],
+    "tasks/harpie-bug-swarms.json": [
+      "Harpie Bug Swarm"
+    ],
+    "tasks/hobgoblins.json": [
+      "Slayer task/Hobgoblins"
+    ],
+    "tasks/icefiends.json": [
+      "Icefiend"
+    ],
+    "tasks/infernal-mages.json": [
+      "Infernal Mage"
+    ],
+    "tasks/jungle-horrors.json": [
+      "Jungle horror"
+    ],
+    "tasks/kalphite.json": [
+      "Slayer task/Kalphites"
+    ],
+    "tasks/killerwatts.json": [
+      "Killerwatt"
+    ],
+    "tasks/kurask.json": [
+      "Slayer task/Kurasks"
+    ],
+    "tasks/lesser-demons.json": [
+      "Slayer task/Lesser demon"
+    ],
+    "tasks/minotaurs.json": [
+      "Minotaur"
+    ],
+    "tasks/mogres.json": [
+      "Mogre"
+    ],
+    "tasks/mutated-zygomites.json": [
+      "Slayer task/Zygomites"
+    ],
+    "tasks/otherworldly-beings.json": [
+      "Otherworldly being"
+    ],
+    "tasks/shadow-warriors.json": [
+      "Shadow warrior"
+    ],
+    "tasks/skeletal-wyverns.json": [
+      "Skeletal Wyvern"
+    ],
+    "tasks/sourhogs.json": [
+      "Sourhog"
+    ],
+    "tasks/suqahs.json": [
+      "Slayer task/Suqah"
+    ],
+    "tasks/terror-dogs.json": [
+      "Terror dog"
+    ],
+    "tasks/werewolves.json": [
+      "Werewolf"
+    ],
+    "tasks/boss.json": [
+      "Slayer task/Bosses"
+    ],
+    "tasks/catablepon.json": [
+      "Catablepon"
+    ],
+    "tasks/cave-bugs.json": [
+      "Cave bug"
+    ],
+    "tasks/chaos-druids.json": [
+      "Chaos druid"
+    ],
+    "tasks/cockatrice.json": [
+      "Cockatrice"
+    ],
+    "tasks/ents.json": [
+      "Ent"
+    ],
+    "tasks/flesh-crawlers.json": [
+      "Flesh Crawler"
+    ],
+    "tasks/ice-warriors.json": [
+      "Ice warrior"
+    ],
+    "tasks/lava-dragons.json": [
+      "Lava dragon"
+    ],
+    "tasks/magic-axes.json": [
+      "Magic axe"
+    ],
+    "tasks/mammoths.json": [
+      "Mammoth"
+    ],
+    "tasks/pirates.json": [
+      "Pirate"
+    ],
+    "tasks/revenants.json": [
+      "Revenants"
+    ],
+    "tasks/rockslugs.json": [
+      "Rockslug"
+    ],
+    "tasks/rogues.json": [
+      "Rogue"
+    ],
+    "tasks/wall-beasts.json": [
+      "Wall beast"
+    ],
+    "tasks/wilderness-bosses.json": [
+      "Krystilia"
+    ],
+    "monsters/boss/boss-grotesque-guardians-dawn-lvl228.json": [
+      "Dawn",
+      "Dawn/Strategies"
+    ],
+    "monsters/boss/zulrah-serpentine-green-form-lvl725.json": [
+      "Zulrah",
+      "Zulrah/Strategies"
+    ],
+    "monsters/boss/zulrah-tanzanite-blue-form-lvl725.json": [
+      "Zulrah",
+      "Zulrah/Strategies"
+    ],
+    "monsters/gargoyles/gargoyles-grotesque-guardians-dawn-lvl228.json": [
+      "Dawn",
+      "Dawn/Strategies"
+    ],
+    "monsters/gargoyles/grotesque-guardians-dusk-lvl248.json": [
+      "Dusk",
+      "Dusk/Strategies"
+    ],
+    "monsters/jellies/chilled-jelly-lvl112.json": [
+      "Chilled jelly",
+      "Chilled jelly/Strategies"
+    ],
+    "monsters/jellies/vitreous-chilled-jelly-superior-lvl241.json": [
+      "Vitreous Chilled Jelly",
+      "Vitreous Chilled Jelly/Strategies"
+    ]
+  }
+}

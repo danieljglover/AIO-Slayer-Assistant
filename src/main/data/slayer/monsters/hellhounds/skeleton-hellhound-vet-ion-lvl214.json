@@ -22,9 +22,10 @@
   "kalphite": false,
   "undead": true,
   "boss": false,
-  "location": "Vet'ion fight, Wilderness",
-  "locationId": "vetion-hellhound-spawns",
+  "location": "Vet'ion's Rest",
+  "locationId": "vetions-rest",
   "requirement": "summoned by Vet'ion - separate trip (boss fight)",
   "bossId": null,
-  "strategyId": "vet-ion"
+  "strategyId": "vet-ion",
+  "advisorRepeatable": false
 }

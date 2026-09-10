@@ -29,5 +29,5 @@
   "locationId": null,
   "requirement": "Requires 32 Slayer. Sea encounter Mogre reached during boat combat. Wiki task table still lists the pre-nerf combat level 61 / 43.5 Slayer XP; the current monster infobox lists combat level 54 and 59 Hitpoints (Hitpoints reduced from 87 to 59 and level from 61 to 54).",
   "bossId": null,
-  "strategyId": null
+  "strategyId": "ogres-task-methods"
 }

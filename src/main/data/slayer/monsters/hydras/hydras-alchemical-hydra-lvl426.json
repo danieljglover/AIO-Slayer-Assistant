@@ -30,7 +30,8 @@
   "undead": false,
   "boss": true,
   "location": "Karuulm Slayer Dungeon lower level, past the Tasakaal - killable only while on a hydra task",
-  "requirement": "boss - can only be killed on a hydra Slayer task (Konar-only)",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "alchemical-hydra"
+  "strategyId": "alchemical-hydra",
+  "locationId": "alchemical-hydra-lair"
 }

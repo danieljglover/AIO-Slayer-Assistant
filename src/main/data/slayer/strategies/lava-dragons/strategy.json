@@ -3,13 +3,12 @@
   "variantIds": [
     "lava-dragon"
   ],
-  "sourceUrl": "https://oldschool.runescape.wiki/w/Lava_dragon",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
   "plugin": {
-    "primaryStyle": "RANGED",
+    "primaryStyle": "MAGIC",
     "primaryWeapons": [
-      "craw-s-bow",
-      "dragon-hunter-crossbow",
-      "rune-crossbow"
+      "accursed-sceptre",
+      "thammaron-s-sceptre"
     ],
     "secondaryWeapons": [
       {
@@ -21,12 +20,10 @@
         "style": "MELEE"
       }
     ],
-    "note": "Bring dragonfire protection (anti-dragon shield or dragonfire shield plus an antifire potion). Lava dragons have low actual Magic and Ranged levels, so ranged and magic are accurate against them; use low-risk Wilderness gear such as Craw's bow given the deep-Wilderness player-killing risk. Keep a one-click escape teleport ready."
+    "note": "Current Wiki prefers Accursed sceptre magic overall; stab chainmaces and Wilderness bows remain distinct alternatives."
   },
   "requirements": [
-    "Dragonfire protection (anti-dragon shield / dragonfire shield and an antifire potion)",
-    "Low-risk gear for the deep Wilderness",
-    "A one-click teleport for emergency escape"
+    "Review the exact selected boss location access requirements and planned Wilderness risk."
   ],
   "mechanics": [
     "Lava dragons use melee (slash) and short-ranged dragonfire (max 50 without protection).",
@@ -60,7 +57,10 @@
       "notes": [
         "Lava dragon bones give strong Prayer XP at the nearby Chaos Altar but attract player killers.",
         "The deep-Wilderness location makes escape difficult if attacked."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "melee",
@@ -87,6 +87,473 @@
       "notes": [
         "Dragon hunter lance gains its dragonbane bonus against lava dragons.",
         "Melee kills are faster but require standing in melee range in deep Wilderness."
+      ],
+      "advisor": {
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "reviewed-lava-dragon-magic-1",
+      "label": "Lava dragon - Magic Wilderness setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Lava dragon Wiki order. Magic is preferred overall; melee chainmaces use stab. Teleports are restricted by the deep-Wilderness level.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Bloodbark helm",
+            "Slayer helmet (i)",
+            "Helm of Neitiznot",
+            "Xerician hat"
+          ],
+          "amulet": [
+            "Occult necklace",
+            "Amulet of glory",
+            "Bonecrusher necklace"
+          ],
+          "cape": [
+            "Imbued Saradomin cape",
+            "Ardougne cloak 4",
+            "Saradomin cape",
+            "Strength cape(t)",
+            "Ardougne cloak 3",
+            "Ardougne cloak 2",
+            "Ardougne cloak 1"
+          ],
+          "body": [
+            "Bloodbark body",
+            "Xerician top"
+          ],
+          "legs": [
+            "Bloodbark legs",
+            "Xerician robe"
+          ],
+          "weapon": [
+            "Accursed sceptre",
+            "Dragon hunter wand",
+            "Eye of Ayak",
+            "Sanguinesti staff",
+            "Trident of the Swamp",
+            "Trident of the Seas",
+            "Twinflame staff"
+          ],
+          "shield": [
+            "Book of Darkness",
+            "Book of the Dead",
+            "Unholy book",
+            "Anti-dragon shield",
+            "Tome of Water"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "hands": [
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves",
+            "Rune gloves",
+            "Adamant gloves"
+          ],
+          "feet": [
+            "Bloodbark boots",
+            "Mystic boots",
+            "Lunar boots",
+            "Ghostly boots"
+          ],
+          "ring": [
+            "Ring of wealth (i)",
+            "Ring of shadows",
+            "Ring of shadows (uncharged)",
+            "Beacon ring",
+            "Lunar ring"
+          ]
+        }
+      },
+      "steps": [
+        "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Lava dragon Wiki order. Magic is preferred overall; melee chainmaces use stab. Teleports are restricted by the deep-Wilderness level."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "lava-dragon"
+        ],
+        "locationIds": [
+          "lava-dragon-isle"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+            "title": "Lava dragon/Strategies",
+            "pageId": 82925,
+            "revisionId": 15316268,
+            "timestamp": "2026-08-22T05:30:31Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [
+          "Lava dragon dragonfire protection or verified safespot prepared"
+        ],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-lava-dragon-ranged-2",
+      "label": "Lava dragon - Ranged Wilderness setup",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Lava dragon Wiki order. Magic is preferred overall; melee chainmaces use stab. Teleports are restricted by the deep-Wilderness level.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Armadyl coif",
+            "Archer helm"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Ava's assembler",
+            "Ardougne cloak 4",
+            "Strength cape(t)",
+            "Ava's accumulator"
+          ],
+          "body": [
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "legs": [
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Blessed vambraces",
+            "Black d'hide vambraces"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Ranger boots",
+            "Armadyl d'hide boots"
+          ],
+          "ring": [
+            "Ring of wealth (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Lava dragon Wiki order. Magic is preferred overall; melee chainmaces use stab. Teleports are restricted by the deep-Wilderness level."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "lava-dragon"
+        ],
+        "locationIds": [
+          "lava-dragon-isle"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+            "title": "Lava dragon/Strategies",
+            "pageId": 82925,
+            "revisionId": 15316268,
+            "timestamp": "2026-08-22T05:30:31Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [
+          "Lava dragon dragonfire protection or verified safespot prepared"
+        ],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-lava-dragon-melee-3",
+      "label": "Lava dragon - Melee Wilderness setup",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Use Ursine chainmace first when owned, eligible and within the chosen risk constraints; alternatives retain this Lava dragon Wiki order. Magic is preferred overall; melee chainmaces use stab. Teleports are restricted by the deep-Wilderness level.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Helm of Neitiznot"
+          ],
+          "amulet": [
+            "Amulet of strength",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Mythical cape",
+            "Mixed hide cape"
+          ],
+          "body": [
+            "Mixed hide top",
+            "Fighter torso",
+            "Black d'hide body"
+          ],
+          "legs": [
+            "Mixed hide legs",
+            "Black d'hide chaps"
+          ],
+          "weapon": [
+            "Ursine chainmace",
+            "Viggora's chainmace"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Anti-dragon shield"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Rune gloves",
+            "Combat bracelet"
+          ],
+          "feet": [
+            "Dragon boots",
+            "Mixed hide boots",
+            "Climbing boots"
+          ],
+          "ring": [
+            "Ring of wealth (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Use Ursine chainmace first when owned, eligible and within the chosen risk constraints; alternatives retain this Lava dragon Wiki order. Magic is preferred overall; melee chainmaces use stab. Teleports are restricted by the deep-Wilderness level."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "lava-dragon"
+        ],
+        "locationIds": [
+          "lava-dragon-isle"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+            "title": "Lava dragon/Strategies",
+            "pageId": 82925,
+            "revisionId": 15316268,
+            "timestamp": "2026-08-22T05:30:31Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [
+          "Lava dragon dragonfire protection or verified safespot prepared"
+        ],
+        "inventory": [],
+        "switches": []
+      }
+    }
+  ],
+  "reviewedReferenceSections": [
+    {
+      "sectionId": "transportation-1",
+      "label": "Transportation",
+      "sourceWikitext": "[[File:Lava dragon routes.png|right|thumb|Reaching the lava dragons.]]\nThere are two entrances to Lava Dragon Isle: The main gate on the north side and an [[Agility]] [[shortcut]], a [[Stepping stone (Lava Dragon Isle)|stepping stone]], on the southern side requiring 74 Agility to use.\n\n*The fastest teleport is a [[revenant cave teleport]] and then go north-east to the main entrance.\n*[[Minigame Teleport]] to [[Last Man Standing]] ([[Ferox Enclave]]) and then go north to agility shortcut. \n*[[Annakarl teleport]] and go west to the main entrance.\n*[[Games necklace]] teleport to the [[Corporeal Beast]] lair, or make a [[waka canoe]] (requiring 57 [[Woodcutting]] and an [[axe]]), and go north to use the Agility shortcut.\n*The [[Wilderness lever]], requiring a weapon with [[slash]] bonus or a [[knife]] to cut a web, run south through the deep Wilderness gate to the northern entrance.\n\nBanking can be done at the [[Mage Arena]] bank or via an [[amulet of glory]] by going south to level 30 [[Wilderness]] and teleporting to [[Edgeville]].",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "requirements-2",
+      "label": "Requirements",
+      "sourceWikitext": "As always, '''only bring items you are willing to risk'''. It is therefore strongly recommended to only bring [[3-item|3]] or [[4-item]] with a [[Body slot table|top]], [[Legs slot table|bottom]], [[weapon]] and [[shield]], preferably an [[anti-dragon shield]]. Anything else should be expendable and easily obtainable, such as [[God cape]], [[God book|book]], or [[Achievement Diary|diary]] items.\n\nAt 74 [[Agility]], an [[Agility shortcut]] becomes available for back-door access in the south. Furthermore, completion of the elite [[Wilderness Diary]] grants noted [[bones]] in the [[Wilderness]].",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "suggested-skills-3",
+      "label": "Suggested skills",
+      "sourceWikitext": "*{{SCP|Magic|70+}} or (80+ Recommended)\n*{{SCP|Prayer|43+}}\n*{{SCP|Defence|70+}} (optional)\n*{{SCP|Agility|74+}} (optional)",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-4",
+      "label": "Equipment",
+      "sourceWikitext": "[[Lava dragon]]s attack with both [[Melee]] and [[dragonfire]], so as long as you maintain distance, you'll be safe from their attacks. As you'll be [[safespotting]], your biggest threat is [[player killer]]s. '''You want to keep risk to a minimum at all times!'''\n\n<tabber>\nMagic=\n\nThe [[accursed sceptre]] is the most effective magic weapon to use against lava dragons. Due to the fact that Lava dragons are very weak to Magic, it's also most effective weapon outclassing ranged alternatives. However, the revenant ether adds a considerable amount of risk, making the player a somewhat lucrative target to player killers. This is somewhat mitigated by the fact that only gear with Magic damage bonuses matter for maximizing DPS (Occult necklace, Imbued god cape, etc.) and the rest can simply be tank gear or Prayer bonus equipment. In addition, the high magic bonus from this equipment enables players to escape from PKers more easily by using Entangle or Ice Barrage.\n\nA strong alternative is the [[Eye of Ayak]], providing similar dps while avoiding the risk revenant ether.\n<br></br><p>\n'''Note:''' Only bring items that you are comfortable with losing. Ensure PK skull prevention is turned on in the settings as added security. It is recommended that the player only brings three items of high value, to ensure they are protected. Four can be brought if using [[Protect item]] with [[blighted super restore]], though as the isle is multi-combat, you may be easily [[Smite]]d for the fourth item. While bloodbark is recommended, it does have a relatively high cost so keep this in mind and check items lost on death before entering the Wilderness. \n\n{{Recommended equipment\n|style = Magic\n|head1 = {{plink|Bloodbark helm}} /<br />{{plink|Slayer helmet (i)}}{{efn|If on a slayer task to kill this monster}}\n|head2 = {{plink|Helm of Neitiznot}}\n|head3 = {{plink|Xerician hat}}\n|neck1 = {{plink|Occult necklace}}\n|neck2 = {{plink|Amulet of glory}} \n|neck3 = {{plink|Bonecrusher necklace}}{{efn|Will consume the dragon bones for prayer. This recommendation is for players on task who wish to stay longer to finish their task.}}\n|cape1 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}\n|cape2 = {{plink|Ardougne cloak 4}}\n|cape3 = {{plink|God capes|pic=Saradomin cape}} /<br />{{plink|Cape of Accomplishment (t)|pic=Strength cape(t)}}\n|cape4 = {{plink|Ardougne cloak 3}} (or: {{plinkp|Ardougne cloak 2}}{{plinkp|Ardougne cloak 1}})\n|body1 = {{plink|Bloodbark body}}\n|body2 = {{plink|Xerician top}}\n|legs1 = {{plink|Bloodbark legs}}\n|legs2 = {{plink|Xerician robe}}\n|weapon1 = {{plink|Accursed sceptre}}\n|weapon2 = {{plink|Dragon hunter wand}}{{efn|Strong option off task, but significant risk in runes}} /<br />{{plink|Eye of Ayak}}{{efn|While on slayer task}}\n|weapon3 = {{plink|Sanguinesti staff}}\n|weapon4 = {{plink|Trident of the Swamp}}\n|weapon5 = {{plink|Trident of the Seas}} /<br />{{plink|Twinflame staff}}\n|shield1 = {{plink|Book of Darkness}} (or: {{plinkp|Book of the Dead}}{{plinkp|Unholy book}}) /<br />{{plink|Anti-dragon shield}}\n|shield2 = {{plink|Tome of Water}}{{efn|With [[Water Wave]] or [[Water Surge]], the 10% damage boost makes this an excellent option and is recommended as one of the player's protected items. With [[extended super antifire]] potions, if taking hits.}}\n|ammo1 = {{plink|Rada's blessing 4}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} /<br />{{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n|hands1 = {{plink|Confliction gauntlets}}\n|hands2 = {{plink|Tormented bracelet}}\n|hands3 = {{plink|Barrows gloves}}\n|hands4 = {{plink|Rune gloves}} /<br />{{plink|Adamant gloves}}\n|feet1 = {{plink|Bloodbark boots}}\n|feet2 = {{plink|Mystic boots}}\n|feet3 = {{plink|Lunar boots}} /<br />{{plink|Ghostly boots}}\n|ring1 = {{plink|Ring of wealth (i)}}\n|ring2 = {{plink|Ring of shadows}} /<br />{{plink|Ring of shadows (uncharged)|txt=(uncharged)}}\n|ring3 = {{plink|Beacon ring}} /<br />{{plink|Lunar ring}}\n}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "additional-gear-5",
+      "label": "Additional gear",
+      "sourceWikitext": "In their inventory, the player may choose to bring the following to use when attacked by other players:\n\n* {{plink|Black d'hide body}}\n* {{plink|Black d'hide chaps}}\n* {{plink|Dinh's bulwark}}\n\n----",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "notes-6",
+      "label": "Notes",
+      "sourceWikitext": "{{notelist}}\n\n|-|\n\nRanged=\n\nThe [[webweaver bow]] is most effective ranged weapon to use against lava dragons although it is not as accurate as Magic. However, the [[revenant ether]] adds a considerable amount of risk, making the player a somewhat lucrative target to player killers.\n\n{{Recommended equipment\n|style = Ranged\n|head1 = {{plink|Blessed coif|pic=Armadyl coif}}\n|head2 = {{plink|Archer helm}}\n|neck1 = {{plink|Necklace of rupture}}\n|neck2 = {{plink|Necklace of anguish}}\n|neck3 = {{plink|Amulet of glory}}\n|cape1 = {{plink|Ava's assembler}}\n|cape2 = {{plink|Ardougne cloak 4}}\n|cape3 = {{plink|Cape of Accomplishment (t)|pic=Strength cape(t)}}\n|cape4 = {{plink|Ava's accumulator}}\n|body1 = {{plink|Blessed body|pic=Armadyl d'hide body}}\n|body2 = {{plink|Black d'hide body}}\n|legs1 = {{plink|Blessed chaps|pic=Armadyl chaps}}\n|legs2 = {{plink|Black d'hide chaps}}\n|weapon1 = {{plink|Webweaver bow}}\n|weapon2 = {{plink|Craw's bow}}\n|ammo1 = {{plink|Rada's blessing 4}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n|hands1 = {{plink|Barrows gloves}}\n|hands2 = {{plink|Blessed vambraces|pic=Armadyl bracers}}\n|hands3 = {{plink|Black d'hide vambraces}}\n|feet1 = {{plink|Avernic treads (max)}}\n|feet2 = {{plink|Pegasian boots}}\n|feet3 = {{plink|Ranger boots}}\n|feet4 = {{plink|Blessed boots|pic=Armadyl d'hide boots}}\n|ring1 = {{plink|Ring of wealth (i)}}{{efn|For the doubled clue drop chance.}}\n}}\n\n----",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "notes-7",
+      "label": "Notes",
+      "sourceWikitext": "{{notelist}}\n\n|-|\n\nMelee=\n\nThe [[Ursine chainmace]] offers high accuracy against lava dragons when set to the stab attack style. While the lava dragons cannot be safespotted using melee, praying [[protect from melee]] and using a [[super antifire potion]] offers complete protection from damage, and the chainmace offers better DPS than comparable [[Webweaver bow]] setups. The DPS of the chainmace is still inferior to magic setups using the [[Accursed sceptre]], however.\n\n{{Recommended equipment\n|style = Melee\n|head1 = {{plink|Slayer helmet (i)}} (on task)\n|head2 = {{plink|Helm of Neitiznot}}\n|neck1 = {{plink|Amulet of strength}}\n|neck2 = {{plink|Amulet of glory}}\n|cape1 = {{plink|Infernal cape}}{{efn|Locked with a [[Trouver parchment]].|name=parched}}\n|cape2 = {{plink|Mythical cape}}\n|cape3 = {{plink|Mixed hide cape}}\n|body1 = {{plink|Mixed hide top}}\n|body2 = {{plink|Fighter torso}}{{efn|name=parched}}\n|body3 = {{plink|Black d'hide body}}\n|legs1 = {{plink|Mixed hide legs}}\n|legs2 = {{plink|Black d'hide chaps}}\n|weapon1 = {{plink|Ursine chainmace}}{{efn|Set to the stab attack style.|name=stab}}\n|weapon2 = {{plink|Viggora's chainmace}}{{efn|name=stab}}\n|shield1 = {{plink|Avernic defender}}{{efn|name=parched}}\n|shield2 = {{plink|Dragon defender}}{{efn|name=parched}}\n|shield3 = {{plink|Dragonfire shield}}\n|shield4 = {{plink|Anti-dragon shield}}\n|ammo1 = {{plink|Rada's blessing 4}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n|hands1 = {{plink|Barrows gloves}}\n|hands2 = {{plink|Rune gloves}}\n|hands3 = {{plink|Combat bracelet}}\n|feet1 = {{plink|Dragon boots}}\n|feet2 = {{plink|Mixed hide boots}}\n|feet3 = {{plink|Climbing boots}}\n|ring1 = {{plink|Ring of wealth (i)}}{{efn|For the doubled clue drop chance.}}\n}}\n\n----",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "notes-8",
+      "label": "Notes",
+      "sourceWikitext": "{{notelist}}\n\n</tabber>",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "dragonfire-9",
+      "label": "Dragonfire",
+      "sourceWikitext": "{{:Dragonfire/Chromatic}}\n{{clear}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-10",
+      "label": "Inventory",
+      "sourceWikitext": "[[File:Looting bag detail.png|left|60x60px]]\nFor the inventory, you want to bring some [[food]], [[runes]] if not using a [[powered staff]] or [[Ranged]], a [[looting bag]], [[pestle and mortar]] (to grind up [[Lava scale|scales]], but optional), and a [[games necklace]] if teleporting to the [[Corporeal Beast]] cave. A [[stamina potion]] could help for [[running]], but if taking potions, it's recommended to take a [[stamina]], [[saradomin brew]], [[super restore]], and a [[ranging potion]] if ranging with the latter omitted if [[maging]] instead.\nAs for food, it is recommended to take four to six [[lobster]]s or better.\n[[Category:Strategies]]\n[[Category:Wilderness]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lava_dragon/Strategies",
+          "title": "Lava dragon/Strategies",
+          "pageId": 82925,
+          "revisionId": 15316268,
+          "timestamp": "2026-08-22T05:30:31Z",
+          "missing": false
+        }
       ]
     }
   ]

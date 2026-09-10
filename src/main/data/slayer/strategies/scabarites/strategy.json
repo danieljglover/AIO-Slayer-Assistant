@@ -122,7 +122,52 @@
         "Wear full Guthan's and attack locust riders on the cavern level.",
         "Heal off the melee lancers while Protect from Missiles blocks the rangers.",
         "Swap to a stab weapon when Guthan's healing is not needed."
-      ]
+      ],
+      "equipment": {
+        "slots": {
+          "head": [
+            "Guthan's helm"
+          ],
+          "body": [
+            "Guthan's platebody"
+          ],
+          "legs": [
+            "Guthan's chainskirt"
+          ],
+          "weapon": [
+            "Guthan's warspear"
+          ]
+        }
+      },
+      "advisor": {
+        "monsterIds": [
+          "locust-rider"
+        ],
+        "locationIds": [
+          "sophanem-dungeon-cavern"
+        ],
+        "requirements": [
+          "Contact! (partial completion)"
+        ],
+        "requiredItems": [
+          {
+            "name": "Guthan's helm",
+            "required": true
+          },
+          {
+            "name": "Guthan's platebody",
+            "required": true
+          },
+          {
+            "name": "Guthan's chainskirt",
+            "required": true
+          },
+          {
+            "name": "Guthan's warspear",
+            "required": true
+          }
+        ]
+      }
     },
     {
       "methodId": "maze-prayer-flick",

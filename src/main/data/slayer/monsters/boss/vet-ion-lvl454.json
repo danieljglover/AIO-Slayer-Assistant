@@ -24,7 +24,8 @@
   "undead": true,
   "boss": true,
   "location": "Vet'ion's Rest, ~Level 30+ Wilderness (Calvar'ion is the singles-plus alternative)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "vet-ion"
+  "strategyId": "vet-ion",
+  "locationId": "vetions-rest"
 }

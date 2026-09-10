@@ -26,7 +26,7 @@
   "locationId": "zanaris-otherworldly-beings",
   "requirement": "Combat level 40 and completion of Lost City to be assigned; found in Zanaris (Lost City required for fairy ring / access)",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "otherworldly-beings-task-methods",
   "offence": {
     "hitpoints": 66,
     "maxHit": 7,

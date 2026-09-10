@@ -1,0 +1,429 @@
+{
+  "strategyId": "dagannoth-kings-solo",
+  "variantIds": [
+    "boss-dagannoth-prime",
+    "boss-dagannoth-rex",
+    "boss-dagannoth-supreme",
+    "dagannoth-dagannoth-prime",
+    "dagannoth-dagannoth-rex",
+    "dagannoth-dagannoth-supreme"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Dagannoth_Kings/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "osmumten-s-fang",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Solo rotation uses melee for Supreme, ranged for Prime and magic for Rex. All three styles are mandatory."
+  },
+  "requirements": [
+    "Usable melee, ranged and magic weapons",
+    "Prepare either the 85 Agility shortcut or pet rock and rune thrownaxe route."
+  ],
+  "mechanics": [
+    "Prime attacks with powerful magic and is weak to ranged.",
+    "Supreme attacks with ranged and is weak to melee.",
+    "Rex attacks with melee and is vulnerable to magic and edge safespots.",
+    "Spinolyps can poison and drain Prayer."
+  ],
+  "methods": [
+    {
+      "methodId": "solo-three-kings",
+      "label": "Solo rotation with twisted bow",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "A solo rotation of Supreme (melee), Prime (ranged) and Rex (magic). Carry all three styles and use the room edges to avoid fighting several kings at once.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Serpentine helm",
+            "Neitiznot faceguard",
+            "Crystal helm",
+            "Helm of Neitiznot"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Occult necklace",
+            "Necklace of rupture",
+            "Amulet of blood fury",
+            "Amulet of fury",
+            "Bonecrusher necklace",
+            "Dragonbone necklace",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Blessed Dizana's quiver",
+            "Fire cape",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "body": [
+            "Torva platebody",
+            "Masori body (f)",
+            "Bandos chestplate",
+            "Masori body",
+            "Crystal body",
+            "Eclipse moon chestplate",
+            "Blessed body"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Masori chaps (f)",
+            "Masori chaps",
+            "Crystal legs",
+            "Eclipse moon tassets",
+            "Blessed chaps"
+          ],
+          "weapon": [
+            "Scythe of Vitur",
+            "Inquisitor's mace",
+            "Ghrazi rapier",
+            "Noxious halberd",
+            "Osmumten's fang",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Zombie axe"
+          ],
+          "shield": [
+            "Spectral spirit shield",
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Crystal shield",
+            "Toktz-ket-xil"
+          ],
+          "ammo": [
+            "Seeking dragon arrow",
+            "Moonlight antler bolts",
+            "Amethyst arrow",
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Confliction gauntlets",
+            "Zaryte vambraces",
+            "Tormented bracelet",
+            "Barrows gloves",
+            "Regen bracelet",
+            "Combat bracelet"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Echo boots",
+            "Guardian boots",
+            "Dragon boots"
+          ],
+          "ring": [
+            "Lightbearer",
+            "Ring of the gods (i)",
+            "Brimstone ring",
+            "Ring of suffering (i)",
+            "Granite ring (i)",
+            "Berserker ring (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Enter with protection against Prime's magic and establish a rotation without engaging all three kings together.",
+        "Supreme is the melee target; Prime is the ranged target; Rex is the magic target.",
+        "Choose the initial king based on which other kings are aggressive, then work through the rotation during respawn downtime.",
+        "Rex can be trapped at the island edge; high ranged defence and antipoison reduce Spinolyp pressure.",
+        "Carry the full set if using Guthan's to heal on Spinolyps between spawns."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "boss-dagannoth-prime",
+          "boss-dagannoth-rex",
+          "boss-dagannoth-supreme",
+          "dagannoth-dagannoth-prime",
+          "dagannoth-dagannoth-rex",
+          "dagannoth-dagannoth-supreme"
+        ],
+        "locationIds": [
+          "dagannoth-kings-lair"
+        ],
+        "selectable": true,
+        "requirements": [
+          "PRAYER >= 43"
+        ],
+        "requiredItems": [
+          {
+            "name": "Dragon arrow or Amethyst arrow",
+            "quantity": 1000,
+            "required": true
+          },
+          {
+            "name": "Pet rock",
+            "quantity": 1,
+            "required": true,
+            "waiverRequirement": "Waterbirth Dungeon 85 Agility shortcuts"
+          }
+        ],
+        "switches": [
+          {
+            "name": "Twisted bow",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Trident of the Seas or Trident of the Swamp",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Rune thrownaxe",
+            "quantity": 1,
+            "required": true,
+            "waiverRequirement": "Waterbirth Dungeon 85 Agility shortcuts"
+          },
+          {
+            "name": "Occult necklace",
+            "quantity": 1
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "quantity": 1
+          },
+          {
+            "name": "Necklace of anguish",
+            "quantity": 1
+          },
+          {
+            "name": "Ava's assembler or Ava's accumulator",
+            "quantity": 1
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion(4) or Super restore(4)",
+            "quantity": 6
+          },
+          {
+            "name": "Antipoison(4) or Superantipoison(4)",
+            "quantity": 2
+          },
+          {
+            "name": "Shark",
+            "quantity": 8
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1
+          }
+        ],
+        "coverageStatus": "Solo three-style equipment and entry requirements reviewed against wiki revision 15331444; potion/food amounts are planning defaults",
+        "equipmentReviewed": true
+      }
+    },
+    {
+      "methodId": "solo-three-kings-budget",
+      "label": "Solo rotation with magic shortbow",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "A solo rotation of Supreme (melee), Prime (ranged) and Rex (magic). Carry all three styles and use the room edges to avoid fighting several kings at once.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Serpentine helm",
+            "Neitiznot faceguard",
+            "Crystal helm",
+            "Helm of Neitiznot"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Occult necklace",
+            "Necklace of rupture",
+            "Amulet of blood fury",
+            "Amulet of fury",
+            "Bonecrusher necklace",
+            "Dragonbone necklace",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Blessed Dizana's quiver",
+            "Fire cape",
+            "Ava's assembler",
+            "Max cape",
+            "Ranging cape(t)"
+          ],
+          "body": [
+            "Torva platebody",
+            "Masori body (f)",
+            "Bandos chestplate",
+            "Masori body",
+            "Crystal body",
+            "Eclipse moon chestplate",
+            "Blessed body"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Masori chaps (f)",
+            "Masori chaps",
+            "Crystal legs",
+            "Eclipse moon tassets",
+            "Blessed chaps"
+          ],
+          "weapon": [
+            "Scythe of Vitur",
+            "Inquisitor's mace",
+            "Ghrazi rapier",
+            "Noxious halberd",
+            "Osmumten's fang",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Zombie axe"
+          ],
+          "shield": [
+            "Spectral spirit shield",
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Crystal shield",
+            "Toktz-ket-xil"
+          ],
+          "ammo": [
+            "Seeking dragon arrow",
+            "Moonlight antler bolts",
+            "Amethyst arrow",
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Confliction gauntlets",
+            "Zaryte vambraces",
+            "Tormented bracelet",
+            "Barrows gloves",
+            "Regen bracelet",
+            "Combat bracelet"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Echo boots",
+            "Guardian boots",
+            "Dragon boots"
+          ],
+          "ring": [
+            "Lightbearer",
+            "Ring of the gods (i)",
+            "Brimstone ring",
+            "Ring of suffering (i)",
+            "Granite ring (i)",
+            "Berserker ring (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Enter with protection against Prime's magic and establish a rotation without engaging all three kings together.",
+        "Supreme is the melee target; Prime is the ranged target; Rex is the magic target.",
+        "Choose the initial king based on which other kings are aggressive, then work through the rotation during respawn downtime.",
+        "Rex can be trapped at the island edge; high ranged defence and antipoison reduce Spinolyp pressure.",
+        "Carry the full set if using Guthan's to heal on Spinolyps between spawns."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "boss-dagannoth-prime",
+          "boss-dagannoth-rex",
+          "boss-dagannoth-supreme",
+          "dagannoth-dagannoth-prime",
+          "dagannoth-dagannoth-rex",
+          "dagannoth-dagannoth-supreme"
+        ],
+        "locationIds": [
+          "dagannoth-kings-lair"
+        ],
+        "selectable": true,
+        "requirements": [
+          "PRAYER >= 43"
+        ],
+        "requiredItems": [
+          {
+            "name": "Amethyst arrow or Rune arrow",
+            "quantity": 1000,
+            "required": true
+          },
+          {
+            "name": "Pet rock",
+            "quantity": 1,
+            "required": true,
+            "waiverRequirement": "Waterbirth Dungeon 85 Agility shortcuts"
+          }
+        ],
+        "switches": [
+          {
+            "name": "Magic shortbow (i)",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Trident of the Seas or Trident of the Swamp",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Rune thrownaxe",
+            "quantity": 1,
+            "required": true,
+            "waiverRequirement": "Waterbirth Dungeon 85 Agility shortcuts"
+          },
+          {
+            "name": "Occult necklace",
+            "quantity": 1
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "quantity": 1
+          },
+          {
+            "name": "Necklace of anguish",
+            "quantity": 1
+          },
+          {
+            "name": "Ava's assembler or Ava's accumulator",
+            "quantity": 1
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion(4) or Super restore(4)",
+            "quantity": 6
+          },
+          {
+            "name": "Antipoison(4) or Superantipoison(4)",
+            "quantity": 2
+          },
+          {
+            "name": "Shark",
+            "quantity": 8
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1
+          }
+        ],
+        "coverageStatus": "Solo three-style equipment and entry requirements reviewed against wiki revision 15331444; potion/food amounts are planning defaults",
+        "equipmentReviewed": true
+      }
+    }
+  ]
+}

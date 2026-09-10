@@ -1,7 +1,7 @@
 {
   "taskId": "spiders",
   "name": "Spiders",
-  "wikiPageId": null,
+  "wikiPageId": 298267,
   "combatLevel": null,
   "slayerTargetId": 272,
   "slayerLevel": 1,
@@ -36,7 +36,15 @@
     "spiders"
   ],
   "variantIds": [
-    "spider"
+    "spider",
+    "venenatis",
+    "spindel",
+    "sarachnis",
+    "araxxor",
+    "araxyte-level-96",
+    "araxyte-level-146",
+    "dreadborn-araxyte",
+    "fever-spider"
   ],
   "defaultVariantId": "spider",
   "weakness": {
@@ -60,7 +68,13 @@
   "requiredItemName": null,
   "locationIds": [
     "spiders-wilderness",
-    "spiders-area"
+    "spiders-area",
+    "silk-chasm",
+    "web-chasm",
+    "forthos-sarachnis",
+    "araxxor-lair",
+    "araxyte-lair-morytania",
+    "braindeath-island"
   ],
   "variantInfo": [
     {
@@ -75,7 +89,115 @@
       "notes": [
         "The common Spider (npc 3019) has 2 hitpoints, a max hit of 0 and negligible defence; it spawns both in the Wilderness (assigned by Krystilia) and across free-to-play areas (assigned by Turael and Spria).",
         "Spiders are a nuisance kill with almost no drops; the task is completed purely for the Slayer count.",
-        "Deadly red spiders are a DISTINCT Slayer task and do not count towards Spiders."
+        "Deadly red spiders also count for Spiders tasks; the current source graph does not yet model their combat variants.",
+        "Krystilia kills must occur in the Wilderness to count towards the task."
+      ]
+    },
+    {
+      "variantId": "venenatis",
+      "name": "Venenatis",
+      "combatLevel": 464,
+      "slayerXp": 956.2,
+      "locations": [
+        "Silk Chasm"
+      ],
+      "notes": [
+        "Counts for Spiders tasks; prepare using the dedicated boss strategy.",
+        "Requires the Medium Wilderness Diary for a Spider task; a matching Venenatis boss task can bypass the diary requirement.",
+        "Wilderness boss alternative. Spiderlings summoned during the fight do not reduce the remaining task count."
+      ]
+    },
+    {
+      "variantId": "spindel",
+      "name": "Spindel",
+      "combatLevel": 302,
+      "slayerXp": 541.0,
+      "locations": [
+        "Web Chasm"
+      ],
+      "notes": [
+        "Counts for Spiders tasks; prepare using the dedicated boss strategy.",
+        "Requires the Hard Wilderness Diary for a Spider task; a matching Venenatis boss task can bypass the diary requirement.",
+        "Wilderness boss alternative. Spiderlings summoned during the fight do not reduce the remaining task count."
+      ]
+    },
+    {
+      "variantId": "sarachnis",
+      "name": "Sarachnis",
+      "combatLevel": 318,
+      "slayerXp": 430.0,
+      "locations": [
+        "Forthos Dungeon"
+      ],
+      "notes": [
+        "Counts for Spiders tasks; prepare using the dedicated boss strategy.",
+        "Sarachnis minions also count, so killing them can consume a short Spider task quickly."
+      ]
+    },
+    {
+      "variantId": "araxxor",
+      "name": "Araxxor",
+      "combatLevel": 890,
+      "slayerXp": 1708.0,
+      "locations": [
+        "Araxyte Lair"
+      ],
+      "notes": [
+        "Counts for Spiders tasks; prepare using the dedicated boss strategy.",
+        "Requires 92 Slayer and access to Morytania. A Spider or Araxyte task permits this task-only boss.",
+        "Araxxor egg-spawned araxytes receive task bonuses but do not reduce the remaining task count."
+      ]
+    },
+    {
+      "variantId": "araxyte-level-96",
+      "name": "Araxyte (level 96)",
+      "combatLevel": 96,
+      "slayerXp": 60,
+      "locations": [
+        "Araxyte Lair (Morytania)"
+      ],
+      "notes": [
+        "Counts for a Spiders task; requires 92 Slayer and access to Morytania.",
+        "Use the ordinary Araxyte strategy with venom protection. Level 146 araxytes can spawn the superior; level 96 araxytes cannot."
+      ]
+    },
+    {
+      "variantId": "araxyte-level-146",
+      "name": "Araxyte (level 146)",
+      "combatLevel": 146,
+      "slayerXp": 100,
+      "locations": [
+        "Araxyte Lair (Morytania)"
+      ],
+      "notes": [
+        "Counts for a Spiders task; requires 92 Slayer and access to Morytania.",
+        "Use the ordinary Araxyte strategy with venom protection. Level 146 araxytes can spawn the superior; level 96 araxytes cannot."
+      ]
+    },
+    {
+      "variantId": "dreadborn-araxyte",
+      "name": "Dreadborn Araxyte",
+      "combatLevel": 281,
+      "slayerXp": 4462.5,
+      "locations": [
+        "Araxyte Lair (Morytania)"
+      ],
+      "notes": [
+        "Superior Araxyte that counts for Spiders and Araxytes tasks.",
+        "Incidental spawn from level 146 Araxytes after unlocking Bigger and Badder; not a separately repeatable target."
+      ]
+    },
+    {
+      "variantId": "fever-spider",
+      "name": "Fever spider",
+      "combatLevel": 49,
+      "slayerXp": 40,
+      "locations": [
+        "Braindeath Island"
+      ],
+      "notes": [
+        "The Spider task table explicitly lists Fever spiders, although the monster infobox lists only the narrower Fever Spiders category.",
+        "Requires 42 Slayer and partial Rum Deal to access Braindeath Island. Wear Slayer gloves when taking hits, or use the reviewed safespot method with disease treatment."
       ]
     }
   ],
@@ -109,10 +231,9 @@
     "Spiders are a shared task assigned by Krystilia (Wilderness, 65-100, weight 6) and by the starter masters Turael and Spria (15-30, weight 6 each); Mazchna does not assign Spiders.",
     "Krystilia kills only count in the Wilderness; Turael and Spria kills count on common spiders anywhere.",
     "slayerTargetId 272 is SYNTHETIC (C2/C3 allocation contract: 252 + worklist index); the real SLAYER_TARGET varp value is a QA live-verify item.",
-    "wikiPageId is UNKNOWN (not captured at authoring); a QA live-verify item.",
-    "Deadly red spiders are a separate Slayer task and are NOT folded into this generic Spiders family.",
     "Spiders have negligible defence, so any weapon works; they carry a 50% fire weakness for players who prefer fire spells.",
-    "No task extension unlock exists for Spiders."
+    "No task extension unlock exists for Spiders.",
+    "Venenatis, Spindel, Sarachnis, Araxxor, ordinary Araxytes, Dreadborn Araxytes, Fever spiders and Deadly red spiders are listed as task-counting alternatives. Their access, Slayer-level and encounter requirements still apply."
   ],
   "recommendedMethod": "Kill common spiders with any weapon; they have 2 hitpoints and negligible defence. On a Krystilia task the kills must occur in the Wilderness, so bring risk-appropriate gear."
 }

@@ -43,7 +43,12 @@
         "Bring a lockpick and travel to the Pirates' Hideout in the deep Wilderness (level 54).",
         "Pick the door lock (39 Thieving) and enter.",
         "Kill the aggressive pirates with melee; carry only low-risk gear due to PKer risk."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "chaos-temple-wilderness"
+        ]
+      }
     },
     {
       "methodId": "zombie-pirates-chaos-temple",
@@ -63,7 +68,12 @@
         "Travel to the Chaos Temple in the low-level Wilderness.",
         "Use a Salve amulet and fire spells or melee to kill the undead Zombie pirates.",
         "These count towards the task and carry lower PKer risk than the Hideout."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "chaos-temple-wilderness"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -84,6 +94,11 @@
             "Slayer helmet"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "chaos-temple-wilderness"
+        ]
       }
     },
     {
@@ -102,6 +117,11 @@
             "Salve amulet (e)"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "chaos-temple-wilderness"
+        ]
       }
     }
   ],

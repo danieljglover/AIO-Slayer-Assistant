@@ -1,0 +1,76 @@
+{
+  "strategyId": "terror-dogs-task-methods",
+  "variantIds": [
+    "terror-dog-level-100",
+    "terror-dog-level-110"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Terror_dog",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [],
+    "secondaryWeapons": [],
+    "note": "Ensure Slayer 40 (unboostable), combat level 60, and completion of Haunted Mine, then teleport to Tarn's Lair with a slayer ring (the trek on foot is long and dangerous). Fight the terror dogs in the room where Tarn Razorlor was beaten. They hit hard and accurately with Crush but have all-zero defensive bonuses, so any strong melee or Ranged setup works well; high-level players often use a Venator bow. The room is multi-combat and drains Prayer at 50 points/minute, and a cannon cannot be used, so bring plenty of food and prayer potions. Wait for the dogs to become tolerant, or lure one onto the tile in front of the doorway to safespot from Tarn's room with Magic or Ranged."
+  },
+  "requirements": [
+    "Haunted Mine"
+  ],
+  "mechanics": [
+    "Terror dogs require Slayer 40 (unboostable), combat level 60, and completion of Haunted Mine (via the Lair of Tarn Razorlor miniquest, which first spawns them) to be assigned.",
+    "Only Vannaka assigns terror dogs, in amounts of 20-45 with a weighting of 6; there is no extended-amount unlock.",
+    "Terror dogs do NOT count toward a dogs Slayer task; they are their own separate task category (cat = Terror Dogs).",
+    "slayerTargetId is null because the Slayer_task/Terror dogs wiki page does not exist (missing); values are taken from the Terror dog monster page (pageid 16436, revid 15199331). The SLAYER_TARGET varp value is unverified and left for QA.",
+    "Two counting variants exist: level 100 (NPC id 6474, 82 HP, max hit 11, 82 Slayer XP, Defence 74) and level 110 (NPC id 6473, 87 HP, max hit 15, 87 Slayer XP, Defence 78); both use a 4-tick Crush attack with all defensive bonuses 0.",
+    "weakness.style is MELEE with no element because the monster has no listed elemental weakness and all defensive bonuses are 0; Ranged (e.g. a Venator bow) is also a popular method for higher-level players, and Magic/Ranged is used for safespotting.",
+    "The room at Tarn's Lair drains Prayer at 50 points per minute and blocks cannon placement; terror dogs are multi-combat and can be safespotted from Tarn's room once tolerant.",
+    "Both variants are the only monsters that drop the Granite helm; killing a terror dog is also a Medium Morytania Diary task."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Ordinary melee task",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Ensure Slayer 40 (unboostable), combat level 60, and completion of Haunted Mine, then teleport to Tarn's Lair with a slayer ring (the trek on foot is long and dangerous). Fight the terror dogs in the room where Tarn Razorlor was beaten. They hit hard and accurately with Crush but have all-zero defensive bonuses, so any strong melee or Ranged setup works well; high-level players often use a Venator bow. The room is multi-combat and drains Prayer at 50 points/minute, and a cannon cannot be used, so bring plenty of food and prayer potions. Wait for the dogs to become tolerant, or lure one onto the tile in front of the doorway to safespot from Tarn's room with Magic or Ranged.",
+      "steps": [
+        "Terror dogs require Slayer 40 (unboostable), combat level 60, and completion of Haunted Mine (via the Lair of Tarn Razorlor miniquest, which first spawns them) to be assigned.",
+        "Only Vannaka assigns terror dogs, in amounts of 20-45 with a weighting of 6; there is no extended-amount unlock.",
+        "Terror dogs do NOT count toward a dogs Slayer task; they are their own separate task category (cat = Terror Dogs).",
+        "slayerTargetId is null because the Slayer_task/Terror dogs wiki page does not exist (missing); values are taken from the Terror dog monster page (pageid 16436, revid 15199331). The SLAYER_TARGET varp value is unverified and left for QA.",
+        "Two counting variants exist: level 100 (NPC id 6474, 82 HP, max hit 11, 82 Slayer XP, Defence 74) and level 110 (NPC id 6473, 87 HP, max hit 15, 87 Slayer XP, Defence 78); both use a 4-tick Crush attack with all defensive bonuses 0.",
+        "weakness.style is MELEE with no element because the monster has no listed elemental weakness and all defensive bonuses are 0; Ranged (e.g. a Venator bow) is also a popular method for higher-level players, and Magic/Ranged is used for safespotting.",
+        "The room at Tarn's Lair drains Prayer at 50 points per minute and blocks cannon placement; terror dogs are multi-combat and can be safespotted from Tarn's room once tolerant.",
+        "Both variants are the only monsters that drop the Granite helm; killing a terror dog is also a Medium Morytania Diary task."
+      ],
+      "notes": [
+        "General Slayer training equipment is supplemented by the task's exact required protection and damage constraints."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "terror-dog-level-100",
+          "terror-dog-level-110"
+        ],
+        "coverageStatus": "Existing detailed task guidance preserved; general equipment from Slayer training; current task prose completeness not certified"
+      }
+    },
+    {
+      "methodId": "location-tarns-lair",
+      "label": "Tarn's Lair",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "The only place terror dogs are found is the room at the end of Tarn's Lair where Tarn Razorlor was fought; teleporting there with a slayer ring is by far the fastest access.",
+        "The room is multi-combat, so several terror dogs can attack at once; a dwarf multicannon cannot be set up here.",
+        "The room drains Prayer at 1 point per 2 game ticks (50 points/minute, much faster than Barrows), so avoid relying on overhead prayers for long.",
+        "Terror dogs can be safespotted from Tarn's room with Magic or Ranged (lure a dog onto the tile directly in front of the doorway), and they become tolerant over time to reduce the danger.",
+        "Reaching the lair on foot without a slayer ring is long and dangerous (Skeleton mages, traps); bring high-healing food, prayer potions, and stamina/energy management."
+      ],
+      "advisor": {
+        "locationIds": [
+          "tarns-lair"
+        ],
+        "selectable": false
+      }
+    }
+  ]
+}

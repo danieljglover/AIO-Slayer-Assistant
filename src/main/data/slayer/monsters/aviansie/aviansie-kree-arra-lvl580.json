@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "God Wars Dungeon - Armadyl boss room",
-  "requirement": "boss - separate trip; 40 KC + 70 Ranged access. Counts as aviansie task",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "kree-arra"
+  "strategyId": "kree-arra",
+  "locationId": "god-wars-dungeon-armadyl"
 }

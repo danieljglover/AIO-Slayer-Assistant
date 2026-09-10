@@ -23,7 +23,7 @@
   "undead": true,
   "boss": false,
   "location": "Wilderness Slayer Cave / The Forgotten Cemetery / Deepfin Mine",
-  "requirement": "none (Wilderness - PKer risk for Wilderness locations)",
+  "requirement": null,
   "bossId": null,
   "strategyId": "ankou"
 }

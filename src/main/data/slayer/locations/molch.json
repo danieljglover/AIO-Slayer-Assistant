@@ -1,0 +1,12 @@
+{
+  "locationId": "molch",
+  "name": "Molch",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Konar assignment area covering Molch and the Lizardman Temple beneath it. Use the dedicated Temple chamber location for shamans; its one-way entrances, single-combat rooms and non-cannon rules are recorded separately. Parent-area capability flags are conservative; this record is used to match the exact assignment area.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Molch"
+}

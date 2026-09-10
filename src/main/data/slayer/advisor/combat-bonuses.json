@@ -1,0 +1,229 @@
+{
+  "notes": [
+    "Only the applicable Salve boost is used when both Salve and Slayer equipment are worn; their boosts never stack.",
+    "Slayer bonuses require a current matching assignment and assigned area. Salve bonuses require the actual target variant to be undead.",
+    "Regular Slayer helmet/Black mask: melee 7/6. Imbued: melee 7/6, ranged and magic 1.15.",
+    "Salve: melee 7/6. Salve (e): melee 1.20. Salve (i): melee and ranged 7/6, magic 1.15. Salve (ei): all styles 1.20.",
+    "Salve ranged and magic boosts apply only to the primary target of area attacks; neither family boosts cannon accuracy."
+  ],
+  "families": [
+    {
+      "bonus": "SLAYER",
+      "itemIds": [
+        11864,
+        19639,
+        19643,
+        19647,
+        21264,
+        21888,
+        23073,
+        24370,
+        25898,
+        25904,
+        25910,
+        29816,
+        33066,
+        33338,
+        33340,
+        8919,
+        8917,
+        8915,
+        8913,
+        8911,
+        8909,
+        8907,
+        8905,
+        8903,
+        8901,
+        8921
+      ],
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_helmet",
+          "title": "Slayer helmet",
+          "pageId": 27486,
+          "revisionId": 15322450,
+          "timestamp": "2026-08-27T21:55:37Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Black_mask",
+          "title": "Black mask",
+          "pageId": 12925,
+          "revisionId": 15290821,
+          "timestamp": "2026-08-09T14:13:43Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "bonus": "SLAYER_IMBUED",
+      "itemIds": [
+        11865,
+        19641,
+        19645,
+        19649,
+        21266,
+        21890,
+        23075,
+        24444,
+        25177,
+        25179,
+        25181,
+        25183,
+        25185,
+        25187,
+        25189,
+        25191,
+        25900,
+        25902,
+        25906,
+        25908,
+        25912,
+        25914,
+        26674,
+        26675,
+        26676,
+        26677,
+        26678,
+        26679,
+        26680,
+        26681,
+        26682,
+        26683,
+        26684,
+        29818,
+        29820,
+        29822,
+        33068,
+        33070,
+        33072,
+        33439,
+        33441,
+        33443,
+        33445,
+        33447,
+        33449,
+        11783,
+        11782,
+        11781,
+        11780,
+        11779,
+        11778,
+        11777,
+        11776,
+        11775,
+        11774,
+        11784,
+        25276,
+        26781,
+        25275,
+        25274,
+        25273,
+        25272,
+        25271,
+        25270,
+        25269,
+        25268,
+        25267,
+        25266,
+        26780,
+        26779,
+        26778,
+        26777,
+        26776,
+        26775,
+        26774,
+        26773,
+        26772,
+        26771
+      ],
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_helmet_(i)",
+          "title": "Slayer helmet (i)",
+          "pageId": 27974,
+          "revisionId": 15322452,
+          "timestamp": "2026-08-27T21:55:53Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Black_mask_(i)",
+          "title": "Black mask (i)",
+          "pageId": 23398,
+          "revisionId": 15213278,
+          "timestamp": "2026-05-20T03:54:56Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "bonus": "SALVE",
+      "itemIds": [
+        4081
+      ],
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Salve_amulet",
+          "title": "Salve amulet",
+          "pageId": 13206,
+          "revisionId": 15241628,
+          "timestamp": "2026-06-28T12:50:11Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "bonus": "SALVE_ENCHANTED",
+      "itemIds": [
+        10588
+      ],
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Salve_amulet_(e)",
+          "title": "Salve amulet (e)",
+          "pageId": 11031,
+          "revisionId": 15183197,
+          "timestamp": "2026-04-22T02:51:55Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "bonus": "SALVE_IMBUED",
+      "itemIds": [
+        12017,
+        25250,
+        26763
+      ],
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Salve_amulet(i)",
+          "title": "Salve amulet(i)",
+          "pageId": 34093,
+          "revisionId": 15242254,
+          "timestamp": "2026-06-29T20:10:56Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "bonus": "SALVE_ENCHANTED_IMBUED",
+      "itemIds": [
+        12018,
+        25278,
+        26782
+      ],
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Salve_amulet(ei)",
+          "title": "Salve amulet(ei)",
+          "pageId": 34094,
+          "revisionId": 15330245,
+          "timestamp": "2026-09-03T19:21:00Z",
+          "missing": false
+        }
+      ]
+    }
+  ]
+}

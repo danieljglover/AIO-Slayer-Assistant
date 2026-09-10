@@ -9,7 +9,8 @@
   "masterIds": [
     "konar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "konar": [
@@ -23,12 +24,17 @@
     "duradel": [
       130,
       200
+    ],
+    "mortimer": [
+      80,
+      120
     ]
   },
   "weightByMaster": {
     "konar": 7,
     "nieve": 7,
-    "duradel": 9
+    "duradel": 9,
+    "mortimer": 8
   },
   "unlocks": [
     {
@@ -68,7 +74,8 @@
   "requiredItemId": 4164,
   "requiredItemName": "Facemask",
   "locationIds": [
-    "smoke-devil-dungeon"
+    "smoke-devil-dungeon",
+    "thermonuclear-smoke-devil-lair"
   ],
   "variantInfo": [
     {

@@ -93,14 +93,17 @@
     }
   ],
   "monsterIds": [
-    "vampyres"
+    "vampyres",
+    "venators"
   ],
   "variantIds": [
     "feral-vampyre",
     "vampyre-juvenile",
     "vampyre-juvinate",
     "vyrewatch",
-    "vyrewatch-sentinel"
+    "vyrewatch-sentinel",
+    "venator",
+    "blood-starved-venator"
   ],
   "defaultVariantId": "vyrewatch-sentinel",
   "weakness": {
@@ -129,7 +132,9 @@
     "haunted-woods",
     "meiyerditch",
     "slepe",
-    "wilderness-god-wars-dungeon-vampyres"
+    "wilderness-god-wars-dungeon-vampyres",
+    "apsul-hunting-ground",
+    "virer-hunting-ground"
   ],
   "variantInfo": [
     {
@@ -213,6 +218,32 @@
         "Requires completion of Sins of the Father to kill.",
         "Can only be damaged with an Ivandis flail, Blisterwood flail, Hallowed flail, blisterwood sickle, or blisterwood stakes.",
         "Only found in Darkmeyer and valued for the blood shard drop, nearby bank, and nearby altar."
+      ]
+    },
+    {
+      "variantId": "venator",
+      "name": "Venator",
+      "combatLevel": 246,
+      "slayerXp": 405.0,
+      "locations": [
+        "Apsul Hunting Ground",
+        "Virer Hunting Ground"
+      ],
+      "notes": [
+        "Normal Venator."
+      ]
+    },
+    {
+      "variantId": "blood-starved-venator",
+      "name": "Blood-starved venator",
+      "combatLevel": 246,
+      "slayerXp": 3622.5,
+      "locations": [
+        "Apsul Hunting Ground",
+        "Virer Hunting Ground"
+      ],
+      "notes": [
+        "Superior spawn; cannot be selected as a repeatable farming target."
       ]
     }
   ],
@@ -308,6 +339,28 @@
         "Most of the dungeon is below level 30 Wilderness, so bring an emergency teleport.",
         "Feral Vampyres are Zamorak followers and are aggressive unless the player wears a Zamorak item."
       ]
+    },
+    {
+      "locationId": "apsul-hunting-ground",
+      "name": "Apsul Hunting Ground",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "More spawns are near the altar."
+      ]
+    },
+    {
+      "locationId": "virer-hunting-ground",
+      "name": "Virer Hunting Ground",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "More spawns, but many are farther from the altar. One spawn cannot be reached with melee."
+      ]
     }
   ],
   "taskNotes": [
@@ -318,7 +371,8 @@
     "Vampyre Juveniles and Juvinates can mist at 25% or lower health unless held with Rod of ivandis or Ivandis flail special attack, then handled with Guthix balance.",
     "Vyrewatch can only be damaged with an Ivandis flail, Blisterwood flail, or Hallowed flail.",
     "Vyrewatch Sentinels are the best higher-tier target because they are near a bank and altar and can drop the blood shard.",
-    "Count Draynor counts toward a Vampyre task but does not grant Slayer experience; Vanstrom Klause does not count toward a Vampyre task."
+    "Count Draynor counts toward a Vampyre task but does not grant Slayer experience; Vanstrom Klause does not count toward a Vampyre task.",
+    "Venators in Vampyrium count for Vampyre assignments after The Blood Moon Rises and require 74 Slayer and a designated vampyrebane weapon."
   ],
   "recommendedMethod": "Use Feral Vampyres for the simplest task, Slepe Vyrewatch after A Taste of Hope, or Vyrewatch Sentinels in Darkmeyer after Sins of the Father for the profitable blood shard path."
 }

@@ -27,7 +27,7 @@
   "boss": true,
   "location": "Grotesque Guardians arena (Slayer Tower roof)",
   "locationId": "slayer-tower-roof",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
   "strategyId": "grotesque-guardians-dawn"
 }

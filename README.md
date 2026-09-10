@@ -1,193 +1,269 @@
 # All-In Slayer
 
-A **read-only Slayer advisor** for [RuneLite](https://runelite.net) (Old School RuneScape). It detects your current Slayer task and shows — in a side panel and a compact in-game overlay — the task's Slayer level, weakness, where to do it, and the most efficient method, plus a **bank-aware loadout** built from gear you actually own, toggleable between **DPS** and **cost**, with one-click export to the [Inventory Setups](https://github.com/dillydill123/inventory-setups) plugin.
+A passive, Java 11 RuneLite plugin for planning Slayer trips with equipment you
+own. All task information, browsing, equipment recommendations, inventory
+checklists, and strategy guidance live in the RuneLite sidebar.
 
-It is a pure **advisor**: it never plays the game for you. You do every click.
+The plugin never performs game actions, switches equipment, generates input,
+or displays live prayer/tile instructions.
 
-> **Status — v1 vertical slice.** This version covers **Duradel's** task set as an end-to-end proof of the design; the remaining masters are planned for v2 (see [Roadmap](#roadmap)). Two things still gate a real release and are described in [Data & accuracy](#data--accuracy): the plugin has **not yet been run in the live RuneLite client**, and several dataset fields (notably the in-game task ids) are **best-effort placeholders pending in-game verification**.
+## Using the plugin
 
----
+- **Active Task** reads your assignment and remaining count from the game. Boss
+  assignments and location restrictions come from RuneLite's current game tables.
+- **Catalogue** lets you search Slayer masters and their assignments, then explore
+  monster variants, locations, and methods without an active task.
+- **Setup** shows the destination, equipment, compact inventory, and packing list.
+  **Checks** lists outstanding preparation and account checks plus detailed death
+  risk. Its count covers the selected setup, not unused equipment alternatives.
+  **Guide** contains the selected strategy, equipment reasoning, travel, other
+  setups, assignment details, and Wiki sources.
+- Open **Change setup** for location/method overrides, master filtering, ranking,
+  and Wilderness/group preferences. The monster selector and Catalogue search
+  stay visible; **Refresh** and **Copy setup** remain at the bottom of each view.
+- Choose **Slayer XP**, **Profit**, or **Low effort**. Recommendations explain their
+  ordering; they are qualitative rankings, not XP/hour or GP/hour predictions.
+- Equipment follows the wiki's ordered alternatives for each documented slot.
+  The plugin chooses the best usable alternative you own. Compatible owned items
+  may fill gaps, marked **Owned fallback**. Missing mandatory equipment prevents
+  a method from being recommended as ready.
+- Helmet and amulet choices are compared together for applicable Slayer and
+  Salve bonuses, including imbued and cosmetic forms. Salve and Slayer boosts
+  never stack. Changes are labelled **Bonus comparison** and explain the active
+  bonus; this is a relative stat estimate, not measured DPS.
+- Equipment switches, required items, supplies, and travel items appear in the
+  inventory checklist, with carried, withdraw, and missing quantities.
+- Trip packing reserves required items, casting resources, a return to the
+  selected Slayer master, and a usable Wilderness escape before filling spare
+  slots with owned food. A shield switch can reserve one empty slot. Shortages
+  remain visible; the planner never invents bank stock to fill the inventory.
+- **Trip preparation** holds return, escape, casting and looting-bag details.
+  Spells are checked against current levels, spellbook, unlocks and casting
+  weapons. Rune quantities include both combat and travel. An owned rune pouch
+  gets an exact configuration when its capacity and risk make it worthwhile;
+  contained runes appear separately from the 28 physical slots.
+- Wilderness preparations consider blighted food, restores and eligible spell
+  sacks, plus an owned looting bag when it fits the loss budget. The planned
+  bag must be emptied at a bank before departure; current contents are assessed
+  separately. Bag contents are loot storage, never usable combat supplies.
+- Select a different monster, location, or strategy to compare its setup.
+  Unavailable options show why they cannot currently be used.
+- **Route** beside the selected location sends its verified monster tiles or
+  encounter entrance to **Shortest Path**, using the same plugin-message handoff
+  as Quest Helper. Install and enable Shortest Path from RuneLite's Plugin Hub.
+  It finds a route from your position using its account unlock checks and owned
+  teleport items. Open your bank while both plugins are enabled to include
+  banked items and the stop needed to collect them.
+  **Clear** removes the current Slayer route; changing the destination clears it
+  too. Unverified destinations remain unavailable. See **Guide > Getting there
+  & access** for destination evidence and travel details.
+- **Copy setup** copies an Inventory Setups import string. Import it yourself
+  through Inventory Setups in RuneLite; the plugin does not change other plugins'
+  configuration or your bank.
+- **Filter bank**, at the bottom of the panel, shows the selected equipment and
+  inventory in your open bank, arranged like the panel: equipment on the left,
+  the 28 inventory slots on the right, and pouch runes below the equipment.
+  Food repeats in its planned slots; each copy still represents the same bank
+  stock. Unavailable items appear faded. Withdraw and equip items yourself;
+  the packing list retains the required quantities. **Clear bank filter**
+  returns to the normal bank view.
+  The filter follows item changes within the setup and ends when you change
+  setups, close the bank, log out, or switch to another bank view. It uses
+  RuneLite's built-in **Bank Tags** plugin, which is enabled with All-In Slayer;
+  Inventory Setups and Bank Tag Layouts are optional. Saved item tags and layouts
+  are preserved, and charged item variants match the selected setup.
+- The **Ready to leave** check above **Filter bank** compares the selected setup
+  with your actual worn equipment and backpack. Click **N things left** to see
+  remaining actions in **Checks**; each row expands for details. Bank ownership
+  does not count as equipped or packed. Pouch runes must match the displayed
+  configuration, and Wilderness checks include extra carried items and risk.
+  **Charges & looting bag** shows automatic **Weapon Charges** estimates and your
+  own in-game **Check** observations, including blowpipe darts and scales. Fresh
+  checks can verify loaded charges; estimates remain labelled. Viewing the bag
+  once records its contents, including an empty bag, after you close the view.
+  Possible contents changes prompt another check. Catalogue reports **Packed for
+  preview**, with assignment assumptions kept visible. See the
+  [departure check notes](docs/reconstruction/ready-to-leave.md).
+- **Wildy charge limit** in AIO settings warns only above your chosen
+  usable-charge balance (default 500), excluding the 1,000 activation ether.
+  A confirmed 500 usable charges / 1,500 total ether passes a 500 limit. Empty
+  and unverified weapons still need attention. Planned ether preparation and
+  actual carried risk remain separate from this alert limit.
 
-## Features
+**Change setup > After task** chooses a return to your Slayer master, a bank,
+or your house. Owned seed pods and charged jewellery are checked separately
+for Wilderness escape; the trip details list other owned escape options. House
+tablets work across spellbooks; spells require the appropriate level, book and
+runes. Saved Shortest Path POH settings are reused when its house routing is
+enabled and labelled as configured facilities. Otherwise, optional house
+shortcuts can be confirmed in **Checks**. See the
+[teleport source notes](docs/reconstruction/return-teleport-sources.md).
 
-- **Automatic task detection.** Reads your assigned task straight from the game's Slayer varplayers (no fragile chat-log scraping) and updates the moment your task changes.
-- **Task intel panel.** For the current task: required Slayer level, combat-style weakness (e.g. *weak to magic*), any required item (nose peg, facemask, rock hammer, …), the recommended location, and the recommended method (cannon / burst / safespot).
-- **Bank-aware loadout advisor.** Looks at what you own across **inventory, worn equipment, and your last-seen bank** and recommends the best setup you can actually assemble — with a **DPS ⇄ Cost** toggle.
-- **"Upgrades you don't own"** hints — flags the best-in-slot item for each slot when you don't have it yet.
-- **Cannon-aware recommendations.** Tell it whether you own a cannon and it steers location/method accordingly (and respects the areas where cannons are banned).
-- **One-click Inventory Setups export.** Copies the recommended loadout to your clipboard as an Inventory Setups import string — paste it straight into that plugin's importer.
-- **Compact overlay** showing the current task + method, toggleable and unobtrusive.
+Open your bank to capture what you own. Before the first scan, recommendations
+use inventory and equipped items only. A last-seen bank observation is stored
+per RuneScape account and shown with its age. It is an estimate while the bank
+is closed: reopen the bank to refresh purchases, consumption, and transfers.
+Bank placeholders and noted items are not treated as usable equipment/supplies.
 
----
+**Account requirements** in **Checks** automatically checks quests, achievement diaries, base
+skill levels, the selected spellbook, and supported account unlocks. Confirmed
+requirements are hidden; unmet or unresolved level checks show your current
+base level and the required level. Other access requirements can be
+confirmed manually. Those confirmations are account-scoped and reversible,
+and cannot override a known failed check. Catalogue uses an explicitly labelled
+on-task planning assumption; it does not change the detected assignment or
+confirm completion of quests, diaries or other account unlocks.
 
-## How it works
+Wilderness and group methods are visible, but excluded from automatic advice
+unless enabled. An active Wilderness assignment still requires eligible
+Wilderness kills, but does not override the checkbox: enable it explicitly to
+receive a location recommendation. Wilderness travel, including the route to
+King Black Dragon, is included in that restriction.
 
-### Task detection
-`TaskDetector` reads the Slayer varplayers via the client — `SLAYER_TARGET` (varp 395) for the assigned monster and `SLAYER_COUNT` (varp 394) for the remaining count — and resolves them against the bundled dataset. Recomputation is triggered on Slayer varp changes (395 / 394 / `SLAYER_AREA` 2096), on inventory/equipment/bank container changes, and on game-state changes. Varp ids are defined locally (`SlayerVarbits`) so a RuneLite constant rename can't break the build.
+Routing temporarily includes regular transport types without changing saved
+Shortest Path settings. Its travel costs, spending limit, configured house
+teleports, unlock knowledge and search cutoff still apply. It may report an
+incomplete route. The packing list includes bundled travel, return and escape
+preparations in its death-loss estimate. Additional items suggested dynamically
+by Shortest Path still need checking against the packing list and risk. You
+collect items and travel yourself. See the
+[integration notes](docs/reconstruction/shortest-path-integration.md).
 
-### Loadout engine (DPS vs cost)
-`LoadoutAdvisor` walks each combat style the task supports and fills every equipment slot from a curated, ordered (best-in-slot → budget) option list, keeping only items you own:
+**Wilderness death risk** compares the proposed equipment, inventory, ammunition
+and switches with what you currently carry. It shows ordinary protected items,
+conditional Protect Item scenarios, replacement losses, repair fees and permanent
+untradeable losses. Exact owned IDs distinguish Trouver locks and ornamented
+forms. The bundled rules reflect the June 2026 death-system rework.
 
-- **DPS mode** picks the highest-ranked owned option per slot (closest to BIS).
-- **Cost mode** picks the cheapest owned option per slot (by Grand Exchange price).
+The default loss budget is **500,000 gp**, adjustable in plugin configuration.
+Automatic Wilderness picks must fit it without relying on Protect Item, avoid
+permanent untradeable loss, and have sufficiently known death rules and prices.
+Owned alternatives and optional empty slots are considered while preserving
+mandatory equipment, set dependencies and ammunition compatibility. Searches are
+bounded; select a monster/location to focus a large task's comparison.
 
-A lightweight `DpsEstimator` (equipment bonuses + a simplified max-hit/accuracy model against the monster's defence) scores each assembled style, and the **highest-DPS style is chosen**. The DPS/Cost toggle changes *which owned variant* fills each slot — style selection is always by DPS. The recommendation records the worn set, suggested inventory, location, method, an estimated DPS, the total gear cost, and any missing best-in-slot upgrades.
+Wilderness methods follow the current Krystilia and boss strategy priorities:
+chainmaces, Webweaver/Craw bows, powered or autocasting sceptres, Venator in
+suitable multi-target locations, and cannon alternatives where supported. The
+weapon order remains contextual when comparing affordable owned setups.
 
-> The DPS estimate is intentionally a **light ordering model** — good enough to rank gear you own, not a full combat simulator. It does not model prayers, special attacks, or set effects (that's on the roadmap).
+Catalogue searches assume the selected assignment for Slayer bonuses and
+task-only preparations, including when your detected task is different. These
+results and copied setups are labelled **On-task preview**. Account levels,
+quests, unlocks and Wilderness loss still use observed state; a selected
+Krystilia preview still requires an eligible Wilderness location. Preview
+assumptions never change your detected assignment or saved account facts.
 
-### Inventory Setups export
-The **Export to Inventory Setups** button builds the Inventory Setups import JSON (`eq` array indexed by equipment slot, `inv` array, `rp`, and the task name) and copies it to the system clipboard — paste it into Inventory Setups' import. Nothing is written to disk.
+Ether-weapon plans use an explicit preparation target: **500 usable charges plus
+1,000 activation ether per weapon** by default. Change `Planned ether charges`
+for a different trip. Setup says **Can prepare - check charges**, links to the
+full preparation details in **Checks**, and
+requires observed loose ether to fund the target. This does not read or confirm
+loaded charges; carrying more ether increases loss. A protected Venator retains
+its charges, while an unprotected bow still has an incomplete contents estimate.
 
-### Threading & data
-All game-state reads (varps, item containers, skills, item prices/stats, item names) happen on the client thread; UI updates are marshalled to the Swing EDT. Bank contents are only readable while the bank is open, so the plugin persists a **last-seen bank snapshot** and shows how stale it is ("just now", "5m ago", …). All task data is **bundled in the jar** — no task data is fetched at runtime.
+Unknown prices, internal charges and container contents remain explicit rather
+than being valued at zero. Carried estimates include bank notes and separately
+observed containers; they describe exposure at the selected destination/route,
+not an assertion about the current tile. The game's Items Kept on Death interface
+remains authoritative. See the [rule evidence and limits](docs/reconstruction/wilderness-risk-sources.md).
 
----
+## Settings
 
-## Configuration
+| Setting | Default |
+| --- | --- |
+| Recommendation goal | Slayer XP |
+| Include Wilderness | Off |
+| Include group methods | Off |
+| Wilderness loss budget (gp) | 500,000 |
+| Planned ether charges (usable, plus activation) | 500 |
+| Show task overlay | On |
 
-| Setting | Default | Description |
-| --- | --- | --- |
-| **I own a cannon** (`haveCannon`) | Off | Allow cannon-based location/method recommendations where cannons are permitted. |
-| **Loadout mode** (`adviceMode`) | `DPS` | Whether the recommended loadout favours DPS or lowest cost. |
-| **Show task overlay** (`showOverlay`) | On | Show the compact in-game overlay for the current task. |
+The rebuilt engine replaces the previous DPS/Cost and manual cannon ownership
+settings. Cannon methods now depend on observed equipment and supplies. The
+existing overlay preference is preserved; bank snapshots start fresh in the
+versioned format.
 
----
+## Data and accuracy
 
-## Rules compliance
+Editable data lives in `src/main/data/slayer`. The build validates and compiles
+that source graph into bundled resources, including `data/advisor-catalogue.json`.
+There are no runtime wiki requests or custom HTTP data collection.
 
-This plugin is a **passive advisor**, designed from the start to stay within both Jagex's Third-Party Client Guidelines and RuneLite's Plugin Hub rules.
+The source audit uses the OSRS Wiki MediaWiki API and records URLs, page IDs,
+revision IDs, timestamps, missing pages, and extraction gaps. Retrieval of a page
+is distinct from verification of every strategy detail. Read the current
+[coverage report](docs/reconstruction/data-coverage.md) for the exact boundaries
+of the migrated knowledge and any unresolved evidence.
 
-**It does:** render a side panel and overlay, read game state (skills, inventory/equipment/bank, varbits, NPCs), and display **static recommendations** (gear, weakness, location, method). Item prices and stats come only from RuneLite's own `ItemManager` — there are no custom network calls — and all task data is bundled and fully reviewable.
+Wiki priorities remain contextual. A charged item with unobservable remaining
+charges, an unknown quest gate, or incomplete strategy data cannot be treated as
+proof that a trip is ready. These cases are reported as requirements or guidance.
 
-**It deliberately does NOT:**
+## Build and manual verification
 
-- generate mouse/keyboard input or auto-perform any in-game action (no automation of any kind);
-- show automatic "stand here / don't stand here" tile indicators;
-- show live "switch prayer now" / next-attack prediction (weakness is static info, never a real-time prompt);
-- add menu entries that send server actions, or conditionally hide combat menu entries;
-- expose, POST, or crowdsource player data over HTTP;
-- use reflection, JNI, native code, or subprocesses;
-- download or vendor executable code at runtime.
-
-See the [design spec](docs/superpowers/specs/2026-06-28-all-in-slayer-design.md) §3 for the full compliance analysis.
-
----
-
-## Build & run
-
-**Requirements:** a JDK (built and tested on JDK 17; the plugin targets Java 11 bytecode). No system Gradle install is needed — the repo ships a self-bootstrapping **Gradle 8.10** wrapper. The first build downloads the Gradle distribution and the RuneLite client.
+Use the checked-in Gradle wrapper with JDK 11 or newer:
 
 ```sh
-gradlew build      # compile + run the unit tests
-gradlew test       # run the unit tests only
-gradlew run        # launch RuneLite with the plugin loaded (for manual testing)
+./gradlew build
+./gradlew generateSlayerData
+./gradlew run
 ```
 
-(On macOS/Linux use `./gradlew`.)
+On Windows, open PowerShell in the repository folder and use:
 
-### Launching with a Jagex account (Linux / Bolt)
-
-OSRS now requires a **Jagex account**, so the dev client (`gradlew run`) needs a live
-Jagex session to log in — the old email/password login screen will reject you. The
-launcher passes the session to RuneLite via `JX_*` environment variables; the helper
-scripts in [`scripts/`](scripts/) capture those from a running client and inject them
-into the dev run.
-
-This repo's flow uses [**Bolt**](https://codeberg.org/Adamcake/Bolt) (a third-party
-Jagex launcher; install via `flatpak install com.adamcake.Bolt`). Any launcher that
-sets the `JX_*` variables works the same way.
-
-**One-time:** a JDK on your `PATH` (Java 11 — `sudo pacman -S jdk11-openjdk` on Arch/CachyOS).
-
-**Each session:**
-
-```sh
-# 1. Open Bolt, click Play on RuneLite, and reach the login/loading screen.
-# 2. While that client is running, capture the session:
-scripts/capture-jagex-creds.sh        # writes scripts/.jagex-env (gitignored)
-
-# 3. Close the RuneLite that Bolt opened (one account can't be logged in twice).
-# 4. Launch the dev client with the plugin loaded + your session:
-scripts/dev-run.sh                    # sources .jagex-env, then runs ./gradlew run
+```powershell
+.\gradlew.bat build
+.\gradlew.bat run
 ```
 
-You'll be logged straight in — no login screen. Bolt hands over only the game session
-(not refresh tokens), so after a few hours login will start failing; just repeat steps
-1–4 to grab a fresh session.
+`run` opens RuneLite with AIO loaded and uses your own RuneLite profiles and Hub
+plugins. For a Jagex Account, complete the one-time login setup in the
+[Windows guide](packaging/windows/READ-ME-FIRST.txt), based on
+[RuneLite's official instructions](https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts).
+Account credentials stay on your computer and must never be committed or shared.
 
-> `scripts/.jagex-env` holds your live session and is **git-ignored** — never commit or
-> share it. It logs in to your account directly. Revoke leaked sessions via *End sessions*
-> in your account settings on runescape.com.
+The plugin targets Java 11 bytecode. This project deliberately has no automated
+tests, test files, or testing dependencies. Compilation and source validation are
+followed by manual checks in RuneLite. See the
+[manual verification record](docs/reconstruction/verification.md).
 
----
+The existing local Jagex launcher helpers remain in `scripts/`. Their session
+file, `scripts/.jagex-env`, must stay local and is never part of the plugin or
+source-data tooling.
 
-## Project structure
+For a Windows clan preview, run `./gradlew windowsPreviewZip`. Share only the ZIP
+under `build/distributions/`. It contains the plugin, its existing development
+launcher, intact runtime dependency JARs, a Windows batch launcher and
+[tester instructions](packaging/windows/READ-ME-FIRST.txt). Testers need Java
+11+ (the launcher can use RuneLite's bundled Java), but no build tools. Jagex
+Accounts use RuneLite's documented local development-login setup. Personal
+profiles, session files, repository scripts and other development plugins are
+excluded. Rebuild and redistribute after incompatible game/client updates.
+After an update, use `./gradlew --refresh-dependencies windowsPreviewZip` (Windows:
+`.\gradlew.bat --refresh-dependencies windowsPreviewZip`) so Gradle checks the
+current RuneLite release instead of reusing its cached dynamic-version result.
+Check `BUILD-INFO.txt` in the ZIP for the included client version. Use the same
+`--refresh-dependencies` flag with `run` when updating a local development client.
 
-```
-com.danieljglover.allinslayer
-├─ AllInSlayerPlugin      // @PluginDescriptor, DI, event subscriptions, recompute loop
-├─ AllInSlayerConfig      // settings (cannon owned, DPS/cost default, overlay)
-├─ AdviceMode             // DPS | COST
-├─ data/                  // SlayerDataService — loads + indexes the bundled JSON
-├─ task/                  // TaskDetector + SlayerVarbits (varp-based detection)
-├─ bank/                  // OwnedItems + InventoryService (live + last-seen-bank snapshot)
-├─ loadout/               // LoadoutAdvisor, DpsEstimator, PriceService, EquipmentStatsProvider
-├─ integration/           // InventorySetupsExporter (clipboard import string)
-└─ ui/                    // SlayerPanel + SlayerOverlay
+## Architecture
 
-src/main/resources/data/slayer-data.json   // 42 Duradel tasks (the bundled knowledge base)
-```
+- `AllInSlayerPlugin`: lifecycle, event coalescing, background computation, and EDT publication.
+- `bank/advisor`: account-scoped inventory, equipment, bank, skill, and quest snapshots.
+- `task/advisor`: active assignment and location-table resolution.
+- `model/advisor`: catalogue and immutable recommendation request/result snapshots.
+- `loadout/advisor`: eligibility, equipment dependencies, inventory planning, and ranking.
+- `ui/advisor`: native Swing catalogue/task panel and optional passive overlay.
+- `data/source`: authoring-time source compilation and validation.
+- `integration/advisor`: explicit clipboard export for Inventory Setups.
 
-**Build/tooling:** RuneLite external-plugin Gradle setup (`net.runelite:client:latest.release`), Lombok 1.18.30; tests use JUnit 4.12 + Mockito 3.12.4 (with the inline mock-maker, since some RuneLite API types are `final`). The core logic operates on plain data structures so it is unit-testable without mocking the RuneLite client — there are 10 unit-test classes covering the data loader, task detection, bank merging, DPS ordering, loadout selection, panel rendering, the exporter, and a dataset-completeness gate (plus a dev-runner main class).
-
----
-
-## Data & accuracy
-
-The v1 dataset covers **42 Duradel tasks**. Be aware of what is and isn't verified:
-
-- **Wiki-accurate:** task names, Slayer-level requirements, quest/unlock requirements, weaknesses, assignment amounts, locations, and cannon/burst flags.
-- **Best-effort placeholders (must be verified before a real release):**
-  - **`slayerTargetId`** — the in-game `SLAYER_TARGET` varp value per task. These are placeholders. **Until they are confirmed in-game (`::varp 395` while on each task), live task detection will not match for most tasks.** This is the single biggest gap to functional in-game behaviour.
-  - **`npcIds`**, **`monsterDefence`**, and some **gear item ids** are illustrative and need verification against live data.
-- The plugin's UI/overlay glue and the `ItemManager`-backed adapters have **only been compiled and unit-tested for pure logic** — they have not yet been exercised in the live client.
-- The Inventory Setups export string shape is best-effort and may need a `layout`/`rp` fallback depending on your installed Inventory Setups version.
-
-A `DuradelDatasetValidationTest` gates structural completeness (≥40 tasks, unique names + ids, all required fields present) and explicitly guards against a known hallucinated row.
-
----
-
-## Roadmap
-
-- Remaining 8 Slayer masters + full task coverage (data fill only — no re-architecture).
-- Task/master **planner** + Slayer-point optimisation (skip/block/extend strategy).
-- NPC highlighting via RuneLite's `NpcOverlayService`.
-- Richer DPS model (prayers, special attacks, set effects).
-- Konar location-lock handling surfaced in the UI (the data model already supports it).
-- Optional GP/xp-efficiency cost mode.
-- Boss-task disambiguation via `SLAYER_TARGET_BOSSID`.
-- An automated data-generation pipeline (seed from machine-readable sources, replacing hand-curation) — see the design spec.
-
----
-
-## Publishing to the Plugin Hub
-
-Submission is a manual step (not done yet): push this repo to a public GitHub remote, then fork [`runelite/plugin-hub`](https://github.com/runelite/plugin-hub), add a `plugins/all-in-slayer` manifest (template at [`docs/plugin-hub-manifest.txt`](docs/plugin-hub-manifest.txt)) with the release commit hash, and open a PR.
-
----
-
-## Documentation
-
-- **Design spec:** [`docs/superpowers/specs/2026-06-28-all-in-slayer-design.md`](docs/superpowers/specs/2026-06-28-all-in-slayer-design.md)
-- **Implementation plan:** [`docs/superpowers/plans/2026-06-28-all-in-slayer-v1.md`](docs/superpowers/plans/2026-06-28-all-in-slayer-v1.md)
-- **Plugin Hub manifest template:** [`docs/plugin-hub-manifest.txt`](docs/plugin-hub-manifest.txt)
-
----
+Historical design documents describe superseded implementations. The current
+[reconstruction contract](docs/reconstruction/implementation.md) and code define
+the new implementation.
 
 ## License
 
-[BSD 2-Clause "Simplified" License](LICENSE) — Copyright (c) 2026, danieljglover. (Required by the RuneLite Plugin Hub.)
+[BSD 2-Clause](LICENSE). Wiki-derived material retains its source attribution;
+see the source evidence and [OSRS Wiki copyright policy](https://oldschool.runescape.wiki/w/RuneScape:Copyrights).
 
----
-
-*This is an unofficial, fan-made plugin. Old School RuneScape and RuneScape are trademarks of Jagex Ltd. Not affiliated with or endorsed by Jagex or the RuneLite developers.*
+Unofficial fan project, not affiliated with Jagex or the RuneLite developers.

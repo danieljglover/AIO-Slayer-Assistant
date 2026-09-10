@@ -30,7 +30,8 @@
   "undead": false,
   "boss": true,
   "location": "Karuulm Slayer Dungeon (lower level), Mount Karuulm - Konar-exclusive boss roll",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "alchemical-hydra"
+  "strategyId": "alchemical-hydra",
+  "locationId": "alchemical-hydra-lair"
 }

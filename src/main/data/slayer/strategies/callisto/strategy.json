@@ -33,12 +33,9 @@
     "note": "Low ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus."
   },
   "requirements": [
-    "Access to Callisto's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
-    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
-    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+    "Review the exact selected boss location access requirements and planned Wilderness risk."
   ],
   "mechanics": [
-    "Low ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus.",
     "Treat this as a boss-specific method: positioning, prayer swaps, phase handling, and death-risk setup should come from the linked source strategy.",
     "Use listed secondary weapons only where their combat style or phase role is relevant."
   ],
@@ -68,7 +65,10 @@
       ],
       "steps": [
         "Low ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "wilderness-ranged-kill",
@@ -101,7 +101,10 @@
       "risks": [
         "Deep Wilderness player-killer encounters are part of the method.",
         "Callisto can disrupt positioning with knockback."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "team-or-singles-plus-alternative",
@@ -125,7 +128,513 @@
       ],
       "notes": [
         "The plugin strategy remains Callisto-focused; lower-risk related variants are a planning alternative, not the same boss record."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "reviewed-callisto-ranged-1",
+      "label": "Callisto - Ranged Wilderness setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Callisto Wiki order. Prepare a freezing spell outside large groups; ranged is the main damage style.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Crystal helm",
+            "Karil's coif",
+            "Archer helm"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory",
+            "Amulet of power"
+          ],
+          "cape": [
+            "Ava's assembler",
+            "Ava's accumulator",
+            "Ranging cape",
+            "Ava's attractor"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Crystal body",
+            "Masori body",
+            "Black d'hide body"
+          ],
+          "legs": [
+            "Black d'hide chaps",
+            "Crystal legs",
+            "Red d'hide chaps"
+          ],
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Bow of Faerdhinen",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow",
+            "Ruby bolts (e)",
+            "Runite bolts",
+            "Magic shortbow (i)",
+            "Amethyst arrow",
+            "Rune arrow",
+            "Rune crossbow"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward",
+            "Book of Law",
+            "Unholy book"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Black d'hide vambraces",
+            "Red d'hide vambraces"
+          ],
+          "feet": [
+            "Ancient d'hide boots",
+            "Mixed hide boots",
+            "Shayzien boots (5)",
+            "Snakeskin boots"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Ring of shadows (uncharged)",
+            "Explorer's ring",
+            "Ring of wealth (i)"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3",
+            "Ruby dragon bolts (e)",
+            "Ruby bolts (e)",
+            "Amethyst arrow",
+            "Rune arrow",
+            "Broad bolts",
+            "Adamant bolts"
+          ]
+        }
+      },
+      "steps": [
+        "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Callisto Wiki order. Prepare a freezing spell outside large groups; ranged is the main damage style."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "callisto"
+        ],
+        "locationIds": [
+          "callistos-den"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+            "title": "Callisto/Strategies",
+            "pageId": 61964,
+            "revisionId": 15318347,
+            "timestamp": "2026-08-25T00:24:18Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [
+          "Freeze spell and sufficient runes prepared for Callisto"
+        ],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-callisto-magic-2",
+      "label": "Callisto - Magic Wilderness setup",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Callisto Wiki order. Prepare a freezing spell outside large groups; ranged is the main damage style.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Bloodbark helm",
+            "Ahrim's hood",
+            "Mystic hat",
+            "Zamorak mitre"
+          ],
+          "amulet": [
+            "Occult necklace",
+            "Amulet of glory",
+            "Amulet of power"
+          ],
+          "cape": [
+            "Imbued Saradomin cape",
+            "Saradomin cape",
+            "Ardougne cloak",
+            "Vestment cloak"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "body": [
+            "Bloodbark body",
+            "Ahrim's robetop",
+            "Mystic robe top",
+            "Monk's robe top"
+          ],
+          "legs": [
+            "Bloodbark legs",
+            "Ahrim's robeskirt",
+            "Mystic robe bottom",
+            "Monk's robe"
+          ],
+          "feet": [
+            "Bloodbark boots",
+            "Mystic boots",
+            "Ghostly boots",
+            "Splitbark boots",
+            "Moonclan boots"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Elidinis' ward",
+            "Book of Darkness",
+            "Unholy book",
+            "Broodoo shield"
+          ],
+          "weapon": [
+            "Accursed sceptre",
+            "Thammaron's sceptre",
+            "Eye of Ayak",
+            "Sanguinesti staff",
+            "Trident of the Swamp",
+            "Trident of the Seas",
+            "Warped sceptre"
+          ],
+          "hands": [
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves",
+            "Rune gloves",
+            "Combat bracelet"
+          ],
+          "ring": [
+            "Ring of shadows (uncharged)",
+            "Explorer's ring 4",
+            "Beacon ring",
+            "Lunar ring",
+            "Ring of wealth (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Callisto Wiki order. Prepare a freezing spell outside large groups; ranged is the main damage style."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "callisto"
+        ],
+        "locationIds": [
+          "callistos-den"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+            "title": "Callisto/Strategies",
+            "pageId": 61964,
+            "revisionId": 15318347,
+            "timestamp": "2026-08-25T00:24:18Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [
+          "Freeze spell and sufficient runes prepared for Callisto"
+        ],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-artio-ranged-1",
+      "label": "Artio - Ranged Wilderness setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Artio Wiki order. Prepare a freezing spell; Artio requires non-negative Magic attack for guaranteed freezes with the relevant spell.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Crystal helm",
+            "Karil's coif",
+            "Archer helm",
+            "Bloodbark helm",
+            "Farseer helm",
+            "Ancient mitre"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory",
+            "Amulet of power"
+          ],
+          "cape": [
+            "Ava's assembler",
+            "Ava's accumulator",
+            "Ava's attractor",
+            "Imbued Saradomin cape",
+            "Ardougne cloak 4",
+            "Saradomin cape"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Masori body",
+            "Crystal body",
+            "Black d'hide body",
+            "Mixed hide top"
+          ],
+          "legs": [
+            "Black d'hide chaps",
+            "Crystal legs",
+            "Red d'hide chaps"
+          ],
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Bow of Faerdhinen",
+            "Eclipse atlatl",
+            "Dragon crossbow",
+            "Hunters' sunlight crossbow",
+            "Magic shortbow (i)"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward",
+            "Book of Law",
+            "Unholy book"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Rune gloves",
+            "Black d'hide vambraces",
+            "Red d'hide vambraces"
+          ],
+          "feet": [
+            "Ancient d'hide boots",
+            "Mixed hide boots",
+            "Bloodbark boots",
+            "Mystic boots",
+            "Snakeskin boots"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Beacon ring",
+            "Lunar ring",
+            "Explorer's ring",
+            "Ring of wealth (i)"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3",
+            "Atlatl dart",
+            "Ruby dragon bolts (e)",
+            "dragon bolts",
+            "moonlight antler bolts",
+            "Amethyst arrow",
+            "Rune arrow"
+          ]
+        }
+      },
+      "steps": [
+        "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Artio Wiki order. Prepare a freezing spell; Artio requires non-negative Magic attack for guaranteed freezes with the relevant spell."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "artio"
+        ],
+        "locationIds": [
+          "hunters-end"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+            "title": "Artio/Strategies",
+            "pageId": 392950,
+            "revisionId": 15331538,
+            "timestamp": "2026-09-05T15:58:33Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [
+          "Freeze spell and sufficient runes prepared for Artio"
+        ],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-artio-magic-2",
+      "label": "Artio - Magic Wilderness setup",
+      "combatStyle": "MAGIC",
+      "role": "alternative",
+      "summary": "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Artio Wiki order. Prepare a freezing spell; Artio requires non-negative Magic attack for guaranteed freezes with the relevant spell.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Ahrim's hood",
+            "Bloodbark helm",
+            "Zamorak mitre"
+          ],
+          "amulet": [
+            "Occult necklace",
+            "Amulet of glory",
+            "Amulet of power",
+            "Amulet of magic"
+          ],
+          "cape": [
+            "Imbued Saradomin cape",
+            "Saradomin cape",
+            "Ardougne cloak 4",
+            "Vestment cloak"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "body": [
+            "Ancestral robe top",
+            "Virtus robe top",
+            "Bloodbark body",
+            "Mystic robe top"
+          ],
+          "legs": [
+            "Ancestral robe bottom",
+            "Virtus robe bottom",
+            "Bloodbark legs",
+            "Mystic robe bottom"
+          ],
+          "feet": [
+            "Bloodbark boots",
+            "Mystic boots",
+            "Ghostly boots",
+            "Splitbark boots",
+            "Moonclan boots"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Book of Darkness",
+            "Unholy book",
+            "Elidinis' ward"
+          ],
+          "weapon": [
+            "Accursed sceptre",
+            "Thammaron's sceptre",
+            "Eye of Ayak",
+            "Tumeken's shadow",
+            "Sanguinesti staff",
+            "Trident of the Swamp",
+            "Trident of the Seas",
+            "Warped sceptre"
+          ],
+          "hands": [
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves",
+            "Rune gloves",
+            "Combat bracelet"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Ring of shadows (uncharged)",
+            "Explorer's ring 4",
+            "Beacon ring",
+            "Lunar ring",
+            "Ring of wealth (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Artio Wiki order. Prepare a freezing spell; Artio requires non-negative Magic attack for guaranteed freezes with the relevant spell."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "artio"
+        ],
+        "locationIds": [
+          "hunters-end"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+            "title": "Artio/Strategies",
+            "pageId": 392950,
+            "revisionId": 15331538,
+            "timestamp": "2026-09-05T15:58:33Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [
+          "Freeze spell and sufficient runes prepared for Artio"
+        ],
+        "inventory": [],
+        "switches": []
+      }
     }
   ],
   "styleOptions": [
@@ -148,6 +657,9 @@
             "Magic shortbow (i)"
           ]
         }
+      },
+      "advisor": {
+        "selectable": false
       }
     },
     {
@@ -164,8 +676,283 @@
             "Eye of ayak"
           ]
         }
+      },
+      "advisor": {
+        "selectable": false
       }
     }
   ],
-  "body": "# Callisto\n\nLow ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus."
+  "body": "# Callisto\n\nLow ranged defence - guide is RANGED (not the data MAGIC). Webweaver/Craw's bow carry the Wilderness bonus.",
+  "reviewedReferenceSections": [
+    {
+      "sectionId": "suggested-skills-1",
+      "label": "Suggested skills",
+      "sourceWikitext": "*{{SCP|Combat|90}} (95+ Recommended)\n*{{SCP|Hitpoints|60}} (90+ Recommended)\n*{{SCP|Defence|70}} (For [[Rigour]])\n*{{SCP|Prayer|44}} (74+ Recommended)\n*{{SCP|Ranged|75}} (90+ Recommended)\n*{{SCP|Magic|79}} (94+ Recommended)",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "transportation-2",
+      "label": "Transportation",
+      "sourceWikitext": "{{Map|3292,3849,desc:Entrance to Callisto's Den|mtype=pin|align=right|caption=Entrance to Callisto's Den}}\n*With 90 [[Magic]], players on the [[Ancient spellbook]] can use [[Annakarl Teleport]], which will teleport them into the [[Demonic Ruins]]. Simply go south of your location after arriving. Be wary of [[PK'ers]] upon arrival. This is the fastest way to reach Callisto. \n**Alternatives to this also include the [[Annakarl teleport (tablet)|Annakarl teleport]] tablet and a portal attuned to Annakarl. Be wary of PK'ers on arrival; if using the house portal, you should have a [[scrying pool]] to check the area first.\n*With 57 [[Woodcutting]], players can make a [[Waka canoe]] and use it to go to the [[Wilderness]]. Go north-east of your location, but be wary of PKers.\n** Having a [[royal seed pod]] makes this strategy more effective as this teleport takes the player close to a [[gnome glider]] which they can then take to [[Al Kharid]] (specified as [[Kar-Hewo]] on the destinations menu) and then walk to the canoe station past the Al Kharid toll gate. This means that the royal seed pod can be used as a lv 30 Wilderness teleport, as a banking tool, and as a way to reach Callisto.\n*If you have neither of these requirements, simply use the [[games necklace]] to teleport to the [[Corporeal Beast]]'s lair, exit the cave then run up north. Be wary of PKers and the [[poison spider]]s if you do not plan to hug the lava river.\n* Players who have completed the Hard or Elite [[Wilderness Diary]] can use the [[Wilderness Sword 4|Wilderness Sword]] to teleport to the [[Fountain of Rune]] and run south-west to Callisto.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "setups-3",
+      "label": "Setups",
+      "sourceWikitext": "Callisto can deal incredibly high melee damage through prayer, so melee combat is not advised. Callisto is no longer immune to magic damage but has a high magic level, so ranged is the ideal method for doing damage. However, the boss will approach targets constantly, so a method of freezing the boss in place is strongly recommended outside of the largest of groups. Spells such as [[Ice Barrage]] or [[Entangle]] are commonly used. Spells such as [[Vulnerability]], (especially when combined with the [[tome of water]] effect), or even a dragon warhammer are sometimes also used to lower its defence.  A charged [[Webweaver bow]] has a powerful bonus against Wilderness monsters and can provide the fastest kills, but it carries higher risk compared to other setups. Players (especially [[Ironman mode|Ironmen]]) who do not have access to the above weapons commonly use a rune crossbow with broad or [[Ruby bolts (e)]] in a group for effective damage.\n<tabber>\nRanged=\n[[Callisto]] has very low defence against ranged, and is particularly dangerous when up close. The ideal setup is 3-4 items to maximize ranged strength and accuracy, along with [[magical]] defence and tank equipment, such as a [[Dinh's bulwark]], for [[PK'ers]]. In a team, consider having 1 group member equipped with a charged [[tome of water]] and runes to cast [[vulnerability]] to reduce Callisto's defence by 15% on a successful hit, increasing the group's DPS by around 5-7% depending on gear.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-4",
+      "label": "Equipment",
+      "sourceWikitext": "{{Recommended equipment\n|style = Ranged\n|head1 = {{plink|Slayer helmet (i)}} (only on task)\n|head2 = {{plink|Crystal helm}}<ref name=CArmour>Takes priority over other high-value items on death.</ref>\n|head3 = {{plink| Karil's coif}}\n|head4 = {{plink| Archer helm}}\n|neck1 = {{plink|Necklace of rupture}}\n|neck2 = {{plink|Necklace of anguish}}\n|neck3 = {{plink|Amulet of fury}}\n|neck4 = {{plink|Amulet of glory}}\n|neck5 = {{plink|Amulet of power}}\n|cape1 = {{plink|Ava's assembler}}\n|cape2 = {{plink|Ava's accumulator}}\n|cape3 = {{plink|Ranging cape}}\n|cape4 = {{plink|Ava's attractor}}\n|body1 = {{plink|Masori body (f)}}\n|body2 = {{plink|Crystal body}}<ref name=CArmour></ref>\n|body3 = {{plink|Masori body}}<ref name=CArmour></ref>\n|body4 = {{plink|Black d'hide body}}\n|legs1 = {{plink|Black d'hide chaps}}\n|legs2 = {{plink|Crystal legs}}<ref name=CArmour></ref>\n|legs3 = {{plink|Red d'hide chaps}}\n|weapon1 = {{plink|Webweaver bow}} / {{plink|Craw's bow}}\n|weapon2 = {{plink|Bow of Faerdhinen}}<ref name=Crystal>With or without crystal armour.</ref>\n|weapon3 = {{plink|Zaryte crossbow}} / {{plink|Armadyl crossbow}} / {{plink|Dragon crossbow}}<ref name=Msb>Only if using {{plink|Ruby bolts (e)}} or {{plink|Runite bolts}} or better. Otherwise use {{plink|Magic shortbow (i)}} with {{plink|Amethyst arrow}} / {{plink|Rune arrow}}</ref>\n|weapon4 = {{plink|Rune crossbow}}<ref name=Msb>Only if using {{plink|Ruby bolts (e)}} or {{plink|Runite bolts}} or better. Otherwise use {{plink|Magic shortbow (i)}} with {{plink|Amethyst arrow}} / {{plink|Rune arrow}}</ref>\n|weapon5 = {{plink|Magic shortbow (i)}}\n|shield1 = None if using a 2 handed weapon\n|shield2 = {{plink|Twisted buckler}}\n|shield3 = {{plink|Dragonfire ward}} / {{plink|Odium ward}} \n|shield4 = {{plink|Book of Law}} / {{plink|Unholy book}} \n|hands1 = {{plink|Barrows gloves}}\n|hands2 = {{plink|Black d'hide vambraces}}\n|hands3 = {{plink|Red d'hide vambraces}}\n|feet1 = {{plink|Blessed boots|pic=Ancient d'hide boots}}\n|feet2 = {{plink|Mixed hide boots}}\n|feet3 = {{plink|Shayzien boots (5)}}\n|feet4 = {{plink|Snakeskin boots}}\n|ring1 = {{plink|Ring of shadows}} / {{plink|Ring of shadows (uncharged)|txt=(uncharged)}}\n|ring2 = {{plink|Explorer's ring|pic=Explorer's ring 4}}\n|ring3= {{plink|Ring of wealth (i)}}\n|ammo1 = {{plink|Rada's blessing 4}} (if using [[Webweaver bow|Webweaver]]/[[Craw's bow]])\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}} (if using [[Webweaver bow|Webweaver]]/[[Craw's bow]])\n|ammo3 = {{plink|Ruby dragon bolts (e)}} (if using Dragon crossbow or better) / {{plink|Ruby bolts (e)}}\n|ammo4 = {{plink|Amethyst arrow}} / {{plink|Rune arrow}} (if using a bow)\n|ammo5 = {{plink|Broad bolts}} / {{plink|Adamant bolts}} (if using crossbow)\n|special1 = {{plink|Zaryte crossbow}}\n}}\n\n;References\n<references/>",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-5",
+      "label": "Inventory",
+      "sourceWikitext": "{{Inventory|align=right\n|1= Royal seed pod\n|2= Blighted super restore(4)\n|3= Divine ranging potion(4)\n|4= Antidote++(4)\n|5= Blighted ancient ice sack\n|6= Blighted super restore(4)\n|7= Blighted super restore(4)\n|8= Stamina potion(4)\n|9= Looting bag\n|10= Blighted karambwan\n|11= Blighted manta ray\n|12= Blighted karambwan\n|13= Blighted manta ray\n|14= Blighted karambwan\n|15= Blighted manta ray\n|16= Blighted karambwan\n|17= Blighted manta ray\n|18= Blighted karambwan\n|19= Saradomin brew(4)\n|20= Saradomin brew(4)\n|21= Blighted manta ray\n|22= Blighted karambwan\n|23= Saradomin brew(4)\n|24= Blighted super restore(4)\n|25= Blighted manta ray\n|26= Blighted karambwan\n|27= Phoenix necklace\n|28= Wilderness sword 4\n}}\n*[[Looting bag]]\n*[[Stamina potion]] (for running)\n*[[Divine ranging potion]]\n*[[Antidote++]] (to cure [[poison]] from [[poison spider]]s). Can use [[Antidote+ mix]] for extra healing.\n*Some [[prayer potion]]s\n*Some [[Blighted ancient ice sack]]s or [[Blighted entangle sack]]s to freeze Callisto.\n*A [[Royal seed pod]] to teleport at level 30 [[Wilderness]] (if you choose not to wear [[Amulet of glory]])\n*Rest of inventory spaces to be filled with food (you may want to leave 2-3 slots empty for picking up items)\n|-|\nMagic=\nCallisto is fairly vulnerable to Magic. Compared to Ranged, a Magic setup typically results in lesser defences, leaving the player more vulnerable in the event of PKers arriving.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-6",
+      "label": "Equipment",
+      "sourceWikitext": "{{Recommended equipment\n|style = Magic\n|head1 = {{plink|Slayer helmet (i)}}<ref>Only when on slayer task.</ref><ref name=\"Protect\">Player is advised to make sure item is protected on death. Prioritise the 3-4 highest magic damage increases.</ref>\n|head2 = {{plink|Bloodbark helm}} / {{plink|Ahrim's hood}}\n|head3 = {{plink|Mystic hat}}\n|head4 = {{plink|Mitre|pic=Zamorak mitre}}\n|neck1 = {{plink|Occult necklace}}<ref name=\"Protect\" />\n|neck2 = {{plink|Amulet of glory}}\n|neck3 = {{plink|Amulet of power}}\n|cape1 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}\n|cape2 = {{plink|God capes|pic=Saradomin cape}}\n|cape3 = {{plink|Ardougne cloak|pic=Ardougne cloak 4}}\n|cape4 = {{plink|Vestment cloak|pic=Guthix cloak}}\n|ammo1 = {{plink|Rada's blessing 4}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n|body1 = {{plink|Bloodbark body}} / {{plink|Ahrim's robetop}}<ref name=\"Protect\" />\n|body2 = {{plink|Mystic robe top}}\n|body3 = {{plink|Monk's robe top}}\n|legs1 = {{plink|Bloodbark legs}} / {{plink|Ahrim's robeskirt}}<ref name=\"Protect\" />\n|legs2 = {{plink|Mystic robe bottom}}\n|legs3 = {{plink|Monk's robe}}\n|feet1 = {{plink|Bloodbark boots}}\n|feet2 = {{plink|Mystic boots}}\n|feet3 = {{plink|Ghostly boots}}\n|feet4 = {{plink|Splitbark boots}}\n|feet5 = {{plink|Moonclan boots}}\n|shield1 = {{plink|Elidinis' ward (f)}}<ref name=\"Protect\" />\n|shield2 = {{plink|Elidinis' ward}}<ref name=\"Protect\" />\n|shield3 = {{plink|Book of Darkness}}\n|shield4 = {{plink|Unholy book}}\n|shield5 = {{plink|Broodoo shield|pic=Broodoo shield (combat)}}\n|weapon1 = {{plink|Accursed sceptre}}<ref name=\"Protect\" /> > {{plink|Thammaron's sceptre}}<ref name=\"Protect\" />\n|weapon2 = {{plink|Eye of Ayak}}\n|weapon3 = {{plink|Sanguinesti staff}}<ref name=\"Protect\" /> / {{plink|Trident of the Swamp}}<ref name=\"Protect\" />\n|weapon4 = {{plink|Trident of the Seas}}<ref name=\"Protect\" />\n|weapon5 = {{plink|Warped sceptre}}<ref name=\"Protect\" />\n|hands1 = {{plink|Confliction gauntlets}}<ref name=\"Protect\" />\n|hands2 = {{plink|Tormented bracelet}}<ref name=\"Protect\" />\n|hands3 = {{plink|Barrows gloves}}\n|hands4 = {{plink|Rune gloves}}\n|hands5 = {{plink|Combat bracelet}}\n|ring1 = {{plink|Ring of shadows (uncharged)}}\n|ring2 = {{plink|Explorer's ring 4}}\n|ring3 = {{plink|Beacon ring}} / {{plink|Lunar ring}}\n|ring4 = {{plink|Ring of wealth (i)}}\n|special1 = {{plink|Accursed sceptre}}\n|special2 = {{plink|Eye of Ayak}}\n}}\n\n;References\n<references/>",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-7",
+      "label": "Inventory",
+      "sourceWikitext": "{{Inventory|align=right\n|1= Royal seed pod\n|2= Blighted super restore(4)\n|3= Saturated heart\n|4= Antidote++(4)\n|5= Blighted ancient ice sack\n|6= Blighted super restore(4)\n|7= Blighted super restore(4)\n|8= Stamina potion(4)\n|9= Looting bag\n|10= Blighted karambwan\n|11= Blighted manta ray\n|12= Blighted karambwan\n|13= Blighted manta ray\n|14= Blighted karambwan\n|15= Blighted manta ray\n|16= Blighted karambwan\n|17= Blighted manta ray\n|18= Blighted karambwan\n|19= Saradomin brew(4)\n|20= Saradomin brew(4)\n|21= Blighted manta ray\n|22= Blighted karambwan\n|23= Saradomin brew(4)\n|24= Blighted super restore(4)\n|25= Black d'hide body\n|26= Black d'hide chaps\n|27= Phoenix necklace\n|28= Wilderness sword 4\n}}\n*[[Looting bag]]\n*[[Stamina potion]] (for running)\n*[[Saturated heart|Saturated]] or [[Imbued heart]] (ensure it is protected), [[Forgotten brew]], [[Ancient brew]], or [[Divine magic potion]]\n*[[Antidote++]] (to cure [[poison]] from [[poison spider]]s). Can use [[Antidote+ mix]] for extra healing.\n*Some [[prayer potion]]s\n*Some [[Blighted ancient ice sack]]s or [[Blighted entangle sack]]s to freeze Callisto\n*A [[Royal seed pod]] to teleport at level 30 [[Wilderness]] (if you choose not to wear [[Amulet of glory]])\n*[[Black d'hide body]] and [[Black d'hide chaps|chaps]] (if not already wearing Ranged body and legs) if wanting to try escape PKers\n*Rest of inventory spaces to be filled with food (you may want to leave 2-3 slots empty for picking up items)\n|-|\n</tabber>",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "attacks-8",
+      "label": "Attacks",
+      "sourceWikitext": "[[File:Fighting Callisto.png|thumb|300px|A group of players fighting Callisto.]]\n\n*Melee: Callisto swipes at the player. This has AoE capabilities and deals massive damage; using [[Protect from Melee]] reduces the damage by ~50%. This attack is extremely accurate and has a maximum hit of 55, with a minimum of 35. It has AoE capabilities, damaging anyone else near his main target and he can also attack diagonally across.\n*Ranged: Callisto launches crescent-shaped projectiles at everyone in the den if he cannot attack with melee. This has a maximum hit of 31 and can be fully blocked with prayer.\n*Knockback: Callisto will launch a white orb-like projectile at a targeted player, which will send them flying backwards and inflict damage if [[Protect from Magic]] is not activated when the attack visually hits the player.\n** The knockback attack is a single-target attack with splash AOE. This means that it will only target one player, but the spell will affect all players within a 3x3 square of the targeted player when it hits.\n** The damage the player will take from this attack when it hits them off prayer depends on how far the player can be knocked back before they hit an object (the walls of the arena or any bear traps on the floor). The attack will attempt to knock the player back 3 tiles. If the player can be knocked back the full 3 tiles without hitting an object, they will take 5 damage. This scales up by 15 damage for each tile of knockback that cannot be completed, so the player will take 20 damage if they were 2 tiles away from an object they were pushed into, and 35 damage if they were 1 tile away. If the player is directly next to an object that the attack pushes them into, they will take 50 damage.\n*Bear Traps: At 66% health, Callisto will deploy red, ghostly-like bear traps around the arena. Getting caught in a trap will deal up to 15 damage and briefly bind the player. The traps will be redeployed again at ~33% health and appear afterwards with every attack he makes.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "strategy-9",
+      "label": "Strategy",
+      "sourceWikitext": "Callisto will spawn to the south of the den, right in front of the exit leading into the Escape Caves. If you wish to avoid [[player killer]]s, it is recommended to place a secondary account waiting outside the entrance to scout potential threats. All players who enter the den will spawn to the north, similar to Venenatis' lair. \n\nCallisto uses highly damaging melee attacks and is weakest to ranged attacks. Due to hitting much harder, players are recommended to range him. The first immobilizing spell (such as ice barrage) will always land if he is not already frozen, and the attacking player has equipment with a total Magic accuracy greater than or equal to 0. Binds past the first are not guaranteed to hit.\n\nIf he cannot attack with melee, he will begin using a much weaker ranged attack until he can reach his target. Callisto will occasionally launch a white orb at his target, of which they should switch on Protect from Magic or risk taking up to 50 damage from the attack.\n\nUpon reaching 66 and 33% of his health, Callisto will roar, launching bear traps all across the arena. Stepping on one will deal up to 15 damage and bind the player for a few seconds. The traps will linger around for a short duration before expiring, but will immediately be replaced with a fresh set of traps. While roaring, he will also glow red, breaking free of binds in the process and requiring a player to refreeze him.\n\nIf bringing low risk items, it is recommended that rather than trying to leave via the Escape Caves to rebank, the player instead [[death|suicide]] to Callisto, as they will be able to reclaim items for free as apart from the rares (which should be covered via [[Protect Item]]) none of the drops are individually over 100,000 coins. The player will lose untradeable items such as [[looting bag]]s however.\n\n[[Category:Wilderness]]\n[[Category:Strategies]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Callisto/Strategies",
+          "title": "Callisto/Strategies",
+          "pageId": 61964,
+          "revisionId": 15318347,
+          "timestamp": "2026-08-25T00:24:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "suggested-skills-1",
+      "label": "Suggested skills",
+      "sourceWikitext": "*{{SCP|Combat|90}} (95+ recommended)\n*{{SCP|Hitpoints|60}} (90+ recommended)\n*{{SCP|Defence|70}} (for [[Rigour]]/[[Augury]])\n*{{SCP|Prayer|44}} (77+ recommended for [[Augury]])\n*{{SCP|Ranged|75}} (90+ recommended)\n*{{SCP|Magic|92}} (94+ recommended for [[Ice Barrage]])",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "transportation-2",
+      "label": "Transportation",
+      "sourceWikitext": "{{Map|3116,3677,desc:Entrance to Hunter's end|mtype=pin|align=right|caption=Entrance to Hunter's end}}\n*Teleport to [[Ferox Enclave]] with a [[ring of dueling]] and run north.\n*Teleport to [[Carrallanger]] with 84 magic or a teletab and run west.\n*Teleport to [[Corporeal Beast]] with a games necklace and run west. (BEWARE: The area directly outside the Corporeal beast cave is [[Multicombat area|multicombat]])",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "attacks-3",
+      "label": "Attacks",
+      "sourceWikitext": "*Melee: Artio swipes at the player. This has AoE capabilities and can be used diagonally across a target. This deals up to 35 damage, with a minimum of 15; using [[Protect from Melee]] reduces the damage by ~50%.\n*Ranged: Artio launches crescent-shaped projectiles at everyone in the den dealing up to 17 damage if she cannot attack with melee.\n*Knockback: Artio will launch a white orb-like projectile at a targeted player, which will send them flying backwards and inflict damage if [[Protect from Magic]] is not activated when the attack visually hits the player.\n** The knockback attack is a single-target attack with splash AOE. This means that it will only target one player, but the spell will affect all players within a 3x3 square of the targeted player when it hits.\n** The damage the player will take from this attack when it hits them off prayer depends on how far the player can be knocked back before they hit an object (the walls of the arena or any bear traps on the floor). The attack will attempt to knock the player back 3 tiles. If the player can be knocked back the full 3 tiles without hitting an object, they will take 5 damage. This scales up by 15 damage for each tile of knockback that cannot be completed, so the player will take 20 damage if they were 2 tiles away from an object they were pushed into, and 35 damage if they were 1 tile away. If the player is directly next to an object that the attack pushes them into, they will take 50 damage.\n*Bear Traps: At 66% health, Artio will deploy red, ghostly-like bear traps around the arena. Getting caught in a trap will deal up to 15 damage and briefly bind the player. The traps will be redeployed again at ~33% health and appear afterwards with every attack she makes.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "strategy-4",
+      "label": "Strategy",
+      "sourceWikitext": "Artio will spawn to the south of the den, right in front of the exit. If you wish to avoid [[player killer]]s, it is recommended to place a secondary account waiting outside the entrance to scout potential threats. All players who enter the den will spawn to the north, similar to Callisto's lair. \n\nArtio uses highly damaging melee attacks and is weakest to magic and ranged attacks. Ice spells will land often even with minimal magic gear, binding her temporarily. If she cannot attack with melee, she will begin using a much weaker ranged attack until she can reach her target. Artio will occasionally launch a white orb at her target, which should be protected against by switching on Protect from Magic or risk taking up to 50 damage from the attack.\n\nUpon reaching 66% and 33% of her health, Artio will roar, launching bear traps all across the arena. Stepping on one will deal up to 15 damage and bind the player for a few seconds. The traps will linger around for a short duration before expiring, but will immediately be replaced with a fresh set of traps. While roaring, she will also glow red, breaking free of binds in the process and requiring a player to refreeze her.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "setups-5",
+      "label": "Setups",
+      "sourceWikitext": "'''Note''': As Artio is in the Wilderness in an area that is active with PKers, ensure valuables are kept protected, and check items screens for kept on death equipment\u2014you may lose untradeables here if [[trouver parchment]] is not used on them. The best way is to not take anything into the Wilderness you are not willing to lose. The [[Skull_(status)#Skull prevention|PK skull prevention]] option is highly recommended for added security.\n\nArtio can deal incredibly high melee damage through prayer, so melee combat is not advised. She is not immune to magic damage, so [[Stun (status)#Spells|binding]] her in place is strongly recommended. [[Ice spells]], such as [[Ice Barrage]] or [[Ice Blitz]], are commonly used. They are also guaranteed to hit Artio while she is not frozen, if the player has 0 or higher magic accuracy bonus. Players can use either ranged or magic after freezing the boss. One method involves using [[Protect from Melee]] and healing with [[Bloodbark armour]] and [[Blood Barrage]].  Players with high Magic and Defence levels will find they are able to heal more with Blood Barrage than Artio can damage them with melee, making this a very low-effort method, only requiring occasional eating and prayer restoration.\n<tabber>\nRanged=\n[[Webweaver]] is the strongest weapon against Artio. Ideally you want to maximize range damage, while keeping your magic attack bonus at 0 or higher to allow for guaranteed freezes on Artio. Gear like [[bloodbark boots]], [[barrows gloves]], [[imbued god capes]], [[god books]] and [[ring of shadows]] are good to keep your magic bonus high enough, without sacrificing much range dps or incurring high risk. Defence bonus -- particularly magic defence -- is also beneficial for tanking [[PKers]].",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-6",
+      "label": "Equipment",
+      "sourceWikitext": "{{Recommended equipment\n|style = Ranged\n|head1 = {{plink|Slayer helmet (i)}}{{efn|name=slay|If on task}}\n|head2 = {{plink|Crystal helm}}{{efn|name=CArmour|With bow of Faerdhinen. Takes priority over other high-value items on death.}}\n|head3 = {{plink|Karil's coif}}\n|head4 = {{plink|Archer helm}}\n|head5 = {{plink|Bloodbark helm}} / {{plink|Farseer helm}} / {{plink|Mitre|pic=Ancient mitre}}\n|neck1 = {{plink|Necklace of rupture}}\n|neck2 = {{plink|Necklace of anguish}}\n|neck3 = {{plink|Amulet of fury}}\n|neck4 = {{plink|Amulet of glory}}\n|neck5 = {{plink|Amulet of power}}\n|cape1 = {{plink|Ava's assembler}}\n|cape2 = {{plink|Ava's accumulator}} > {{plinkp|Ava's attractor}}\n|cape3 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}\n|cape4 = {{plink|Ardougne cloak 4}}\n|cape5 = {{plink|God capes|pic=Saradomin cape}} \n|body1 = {{plink|Masori body (f)}}\n|body2 = {{plink|Masori body}}\n|body3 = {{plink|Crystal body}}{{efn|name=CArmour}}\n|body4 = {{plink|Black d'hide body}}\n|body5 = {{plink|Mixed hide top}}\n|legs1 = {{plink|Black d'hide chaps}}\n|legs2 = {{plink|Crystal legs}}{{efn|name=CArmour}}\n|legs3 = {{plink|Red d'hide chaps}}\n|weapon1 = {{plink|Webweaver bow}} > {{plink|Craw's bow}}\n|weapon2 = {{plink|Bow of Faerdhinen}}{{efn|name=Crystal|With or without crystal armour.}}\n|weapon3 = {{plink|Eclipse atlatl}}{{efn|With strength bonus gear and [[atlatl dart]]s}} / </br>{{plink|Dragon crossbow}}{{efn|name=ruby|With [[ruby dragon bolts (e)]] + [[dragon bolts]]}}\n|weapon4 = {{plink|Hunters' sunlight crossbow}}{{efn|name=antler|With [[moonlight antler bolts]]}}\n|weapon5 = {{plink|Magic shortbow (i)}}\n|shield1 = {{plink|Twisted buckler}}\n|shield2 = {{plink|Dragonfire ward}} / {{plink|Odium ward}} \n|shield3 = {{plink|Book of Law}}\n|shield4 = {{plink|Unholy book}} \n|hands1 = {{plink|Barrows gloves}}\n|hands2 = {{plink|Rune gloves}}\n|hands3 = {{plink|Black d'hide vambraces}}\n|hands4 = {{plink|Red d'hide vambraces}}\n|feet1 = {{plink|Blessed boots|pic=Ancient d'hide boots}}\n|feet2 = {{plink|Mixed hide boots}}\n|feet3 = {{plink|Bloodbark boots}}\n|feet4 = {{plink|Mystic boots}}\n|feet5 = {{plink|Snakeskin boots}}\n|ring1 = {{plink|Ring of shadows}}\n|ring2 = {{plink|Beacon ring}} / {{plink|Lunar ring}}\n|ring3 = {{plink|Explorer's ring|pic=Explorer's ring 4}}\n|ring4 = {{plink|Ring of wealth (i)}}\n|ammo1 = {{plink|Rada's blessing 4}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n|ammo3 = {{plink|Atlatl dart}} / {{plink|Ruby dragon bolts (e)}} + {{plink|dragon bolts}}\n|ammo4 =  {{plink|moonlight antler bolts}}\n|ammo5 =  {{plink|Amethyst arrow}} / {{plink|Rune arrow}} \n|special1 = {{plink|Zaryte crossbow}}\n}}\n'''Note''': Ensure items are protected. Do not take anything into the Wilderness you are not willing to lose. The [[Skull_(status)#Skull prevention|PK skull prevention]] option is highly recommended for added security.\n{{notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-7",
+      "label": "Inventory",
+      "sourceWikitext": "If the player is 93 or higher hitpoints, [[blighted anglerfish]] are superior, cheaper, and have higher utility than the alternative manta rays. Therefore they should be used for higher levelled players. The player can also switch out a protected item for [[Dinh's bulwark]] if looking for added survivability.\n\n{{Inventory|align=right\n|1= Royal seed pod\n|2= Divine ranging potion(4)\n|3= Blighted super restore(4)\n|4= Blighted super restore(4)\n|5= Blighted ancient ice sack\n|6= Blighted super restore(4)\n|7= Blighted super restore(4)\n|8= Blighted super restore(4)\n|9= Looting bag\n|10= Blighted karambwan\n|11= Blighted manta ray\n|12= Blighted karambwan\n|13= Blighted manta ray\n|14= Blighted karambwan\n|15= Blighted manta ray\n|16= Blighted karambwan\n|17= Blighted manta ray\n|18= Blighted karambwan\n|19= Stamina potion(4)\n|20= Saradomin brew(4)\n|21= Blighted manta ray\n|22= Blighted karambwan\n|23= Anti-venom+(4)\n|24= Saradomin brew(4)\n|25= Blighted manta ray\n|26= Blighted karambwan\n|27= Phoenix necklace\n|28= Saradomin brew(4)\n}}\n*[[Looting bag]]\n*[[Stamina potion]] (for running)\n*[[Divine ranging potion]]\n*[[Anti-venom+]] in case of venom from PKers\n*Some [[blighted super restore]]s\n*Some [[blighted ancient ice sack]]s or [[blighted entangle sack]]s to freeze Artio.\n*A [[royal seed pod]] to teleport at level 30 [[Wilderness]] (if you choose not to wear [[amulet of glory]])\n*Rest of inventory spaces to be filled with food (you may want to leave 2-3 slots empty for picking up items)\n|-|\nMagic=\n\nArtio is significantly vulnerable to Magic. However, compared to Ranged, a Magic setup typically results in lesser defences which leaves the player more vulnerable to PKers.\n\nIt can be difficult to survive PKers if using magic equipment. Therefore, swapping out a protected item for [[Dinh's bulwark]] can aid in survivability; the player can simply switch to Dinh's if under attack. Bringing [[black dragonhide armour|black d'hide]] to switch to is also wise. Players using [[Tumeken's shadow]] can get away with wearing defensive ranged items like [[Masori_armour#Fortified_2|fortified masori]] or [[Armadyl armour|Armadyl]], if they have a high magic accuracy bonus (+100, or higher).",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-8",
+      "label": "Equipment",
+      "sourceWikitext": "{{Recommended equipment\n|style = Magic\n|head1 = {{plink|Slayer helmet (i)}}{{efn|Only when on slayer task.}}\n|head2 = {{plink|Ahrim's hood}}\n|head3 = {{plink|Bloodbark helm}}\n|head4 = {{plink|Mitre|pic=Zamorak mitre}}\n|neck1 = {{plink|Occult necklace}}\n|neck2 = {{plink|Amulet of glory}}\n|neck3 = {{plink|Amulet of power}}\n|neck4 = {{plink|Amulet of magic}}\n|cape1 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}\n|cape2 = {{plink|God capes|pic=Saradomin cape}}\n|cape3 = {{plink|Ardougne cloak 4}}\n|cape4 = {{plink|Vestment cloak|pic=Guthix cloak}}\n|ammo1 = {{plink|Rada's blessing 4}}\n|ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n|body1 = {{plink|Ancestral robe top}}\n|body2 = {{plink|Virtus robe top}}\n|body3 = {{plink|Bloodbark body}}\n|body4 = {{plink|Mystic robe top}}\n|legs1 = {{plink|Ancestral robe bottom}}\n|legs2 = {{plink|Virtus robe bottom}}\n|legs3 = {{plink|Bloodbark legs}}\n|legs4 = {{plink|Mystic robe bottom}}\n|feet1 = {{plink|Bloodbark boots}}\n|feet2 = {{plink|Mystic boots}}\n|feet3 = {{plink|Ghostly boots}}\n|feet4 = {{plink|Splitbark boots}}\n|feet5 = {{plink|Moonclan boots}}\n|shield1 = {{plink|Elidinis' ward (f)}}\n|shield2 = {{plink|Book of Darkness}}\n|shield3 = {{plink|Unholy book}}\n|shield4 = {{plink|Elidinis' ward}}\n|weapon1 = {{plink|Accursed sceptre}} > {{plink|Thammaron's sceptre}}\n|weapon2 = {{plink|Eye of Ayak}}\n|weapon3 = {{plink|Tumeken's shadow}}\n|weapon4 = {{plink|Sanguinesti staff}} > {{plink|Trident of the Swamp}}\n|weapon5 = {{plink|Trident of the Seas}} > {{plink|Warped sceptre}} \n|hands1 = {{plink|Confliction gauntlets}}\n|hands2 = {{plink|Tormented bracelet}}\n|hands3 = {{plink|Barrows gloves}}\n|hands4 = {{plink|Rune gloves}}\n|hands5 = {{plink|Combat bracelet}}\n|ring1 = {{plink|Ring of shadows}} / {{plink|Ring of shadows (uncharged)|txt=(uncharged)}}\n|ring2 = {{plink|Explorer's ring 4}}\n|ring3 = {{plink|Beacon ring}} / {{plink|Lunar ring}}\n|ring4 = {{plink|Ring of wealth (i)}}\n}}\n'''Note''': Ensure items are protected. Do not take anything into the Wilderness you are not willing to lose. The [[Skull_(status)#Skull prevention|PK skull prevention]] option is highly recommended for added security.\n{{notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-9",
+      "label": "Inventory",
+      "sourceWikitext": "If the player is 93 or higher hitpoints, [[blighted anglerfish]] are superior, cheaper, and have higher utility than the alternative manta rays. Therefore they should be used for higher levelled players. The player can also switch out a protected item for [[Dinh's bulwark]] if looking for added survivability.\n\n{{Inventory|align=right\n|1= Royal seed pod\n|2= Forgotten brew(4)\n|3= Blighted super restore(4)\n|4= Blighted super restore(4)\n|5= Blighted ancient ice sack\n|6= Blighted super restore(4)\n|7= Blighted super restore(4)\n|8= Blighted super restore(4)\n|9= Looting bag\n|10= Blighted karambwan\n|11= Blighted manta ray\n|12= Blighted karambwan\n|13= Blighted manta ray\n|14= Blighted karambwan\n|15= Blighted manta ray\n|16= Blighted karambwan\n|17= Blighted manta ray\n|18= Blighted karambwan\n|19= Stamina potion(4)\n|20= Saradomin brew(4)\n|21= Blighted manta ray\n|22= Blighted karambwan\n|23= Extended anti-venom+(1)\n|24= Saradomin brew(4)\n|25= Black d'hide body\n|26= Black d'hide chaps\n|27= Phoenix necklace\n|28= Saradomin brew(4)\n}}\n*[[Looting bag]]\n*[[Stamina potion]] (for running)\n*[[Forgotten brew]]\n*[[Anti-venom+]] in case of venom from PKers\n*Some [[blighted super restore]]s\n*Some [[blighted ancient ice sack]]s or [[blighted entangle sack]]s to freeze Artio\n*A [[royal seed pod]] to teleport at level 30 [[Wilderness]] (regardless whether you bring an [[amulet of glory]] or not)\n*[[Black d'hide body]] and [[black d'hide chaps|chaps]] (if not already wearing Ranged body and legs) if wanting to try escape PKers\n*Rest of inventory spaces to be filled with food (you may want to leave 2-3 slots empty for picking up items)\n|-|\n</tabber>\n\n[[Category:Wilderness]]\n[[Category:Strategies]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+          "title": "Artio/Strategies",
+          "pageId": 392950,
+          "revisionId": 15331538,
+          "timestamp": "2026-09-05T15:58:33Z",
+          "missing": false
+        }
+      ]
+    }
+  ]
 }

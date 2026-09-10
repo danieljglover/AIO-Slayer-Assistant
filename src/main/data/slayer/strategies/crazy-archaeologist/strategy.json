@@ -20,9 +20,7 @@
     "note": "Weak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons."
   },
   "requirements": [
-    "Access to Crazy Archaeologist's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
-    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
-    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+    "Review the exact selected boss location access requirements and planned Wilderness risk."
   ],
   "mechanics": [
     "Weak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons.",
@@ -52,7 +50,10 @@
       ],
       "steps": [
         "Weak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "magic-kill-and-book-bomb",
@@ -83,7 +84,10 @@
       "risks": [
         "The book-bomb special can stack heavy damage.",
         "The Wilderness location creates player-killer risk."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "low-risk-wilderness-trip",
@@ -104,7 +108,137 @@
         "Risk only the gear needed to keep kills consistent.",
         "Bring enough food for book-bomb mistakes and player interruptions.",
         "Bank valuable drops instead of extending with full inventory."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "reviewed-crazy-archaeologist-magic-1",
+      "label": "Crazy archaeologist - Magic Wilderness setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Crazy archaeologist Wiki order.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Bloodbark helm",
+            "Zamorak mitre",
+            "Mystic hat",
+            "Xerician hat",
+            "Fremennik hat"
+          ],
+          "amulet": [
+            "Occult necklace",
+            "Amulet of fury",
+            "Amulet of glory",
+            "Amulet of magic",
+            "Amulet of power"
+          ],
+          "cape": [
+            "Imbued god cape",
+            "Saradomin cape",
+            "Ardougne cloak 4",
+            "Ardougne cloak 3",
+            "Ardougne cloak 2"
+          ],
+          "body": [
+            "Bloodbark body",
+            "Mystic robe top",
+            "Xerician top",
+            "Zamorak monk top",
+            "Monk's robe top"
+          ],
+          "legs": [
+            "Bloodbark legs",
+            "Mystic robe bottom",
+            "Xerician robe",
+            "Zamorak monk bottom",
+            "Monk's robe"
+          ],
+          "weapon": [
+            "Accursed sceptre",
+            "Thammaron's sceptre",
+            "Eye of Ayak",
+            "Sanguinesti staff",
+            "Trident of the Swamp",
+            "Trident of the Seas",
+            "Warped sceptre",
+            "Iban's staff (u)"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Elidinis' ward",
+            "Book of Darkness",
+            "Unholy book",
+            "Tome of Fire",
+            "Broodoo shield"
+          ],
+          "hands": [
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves",
+            "Dragon gloves",
+            "Rune gloves"
+          ],
+          "feet": [
+            "Mystic boots",
+            "Ghostly boots",
+            "Splitbark boots",
+            "Moonclan boots"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Ring of shadows (uncharged)",
+            "Explorer's ring",
+            "Beacon ring",
+            "Lunar ring",
+            "Ring of wealth (i)"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ]
+        }
+      },
+      "steps": [
+        "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Crazy archaeologist Wiki order."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "crazy-archaeologist"
+        ],
+        "locationIds": [
+          "forgotten-cemetery"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Crazy_archaeologist/Strategies",
+            "title": "Crazy archaeologist/Strategies",
+            "pageId": 52454,
+            "revisionId": 15318138,
+            "timestamp": "2026-08-24T16:48:49Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [],
+        "inventory": [],
+        "switches": []
+      }
     }
   ],
   "styleOptions": [
@@ -127,8 +261,73 @@
             "Iban's staff (u)"
           ]
         }
+      },
+      "advisor": {
+        "selectable": false
       }
     }
   ],
-  "body": "# Crazy archaeologist\n\nWeak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons."
+  "body": "# Crazy archaeologist\n\nWeak to magic (guide MAGIC, not the data MELEE) - negligible magic level so prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons.",
+  "reviewedReferenceSections": [
+    {
+      "sectionId": "suggested-skills-1",
+      "label": "Suggested skills",
+      "sourceWikitext": "*{{SCP|Attack|50}} (if using [[Iban's staff (u)]])\n*{{SCP|Prayer|40+}}\n*{{SCP|Magic|75+}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Crazy_archaeologist/Strategies",
+          "title": "Crazy archaeologist/Strategies",
+          "pageId": 52454,
+          "revisionId": 15318138,
+          "timestamp": "2026-08-24T16:48:49Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-2",
+      "label": "Equipment",
+      "sourceWikitext": "The setup focuses on only '''taking 3 or 4 expensive items''' as this boss is located in the [[Wilderness]] with the possibility of [[player killers]] appearing. Although the Crazy Archaeologist wanders between levels 22 and 25 Wilderness, meaning you can teleport out, you can still get [[teleblock]]ed or killed before you are able to teleport.\n\nWith a [[powered staff]], a magic boost such as [[Magic potion]], [[Forgotten brew]], or [[Saturated heart|Saturated]] or [[Imbued heart]] will provide a bigger damage increase than additional magic damage gear.\n\n{{Recommended equipment\n| style = Magic\n| head1 = {{plink|Slayer helmet (i)}}{{efn|Only while on a Slayer task.}}\n| head2 = {{plink|Bloodbark helm}}\n| head3 = {{plink|Mitre|pic=Zamorak mitre}}\n| head4 = {{plink|Mystic hat}}\n| head5 = {{plink|Xerician hat}} / {{plink|Fremennik hat}}\n| neck1 = {{plink|Occult necklace}}\n| neck2 = {{plink|Amulet of fury}}\n| neck3 = {{plink|Amulet of glory}}\n| neck4 = {{plink|Amulet of magic}}\n| neck5 = {{plink|Amulet of power}}\n| cape1 = {{plink|Imbued god cape|txt=Imbued god capes|pic=Imbued Saradomin cape}}{{efn|Will be lost on death above 20 wilderness.}}\n| cape2 = {{plink|God capes|pic=Saradomin cape}}\n| cape3 = {{plink|Ardougne cloak 4}}\n| cape4 = {{plink|Ardougne cloak 3}}\n| cape5 = {{plink|Ardougne cloak 2}}\n| body1 = {{plink|Bloodbark body}}\n| body2 = {{plink|Mystic robe top}}\n| body3 = {{plink|Xerician top}}\n| body4 = {{plink|Zamorak monk top}}\n| body5 = {{plink|Monk's robe top}}\n| legs1 = {{plink|Bloodbark legs}}\n| legs2 = {{plink|Mystic robe bottom}}\n| legs3 = {{plink|Xerician robe}}\n| legs4 = {{plink|Zamorak monk bottom}}\n| legs5 = {{plink|Monk's robe}}\n| weapon1 = {{plink|Accursed sceptre}} / {{plink|Thammaron's sceptre}}\n| weapon2 = {{plink|Eye of Ayak}} > {{plink|Sanguinesti staff}}\n| weapon3 = {{plink|Trident of the Swamp}}\n| weapon4 = {{plink|Trident of the Seas}}\n| weapon5 = {{plink|Warped sceptre}} / {{plink|Iban's staff (u)}}\n| shield1 = {{plink|Elidinis' ward (f)}} / {{plink|Elidinis' ward}}\n| shield2 = {{plink|Book of Darkness}}\n| shield3 = {{plink|Unholy book}}\n| shield4 = {{plink|Tome of Fire}}\n| shield5 = {{plink|Broodoo shield|pic=Broodoo shield (combat)}}\n| hands1 = {{plink|Confliction gauntlets}}{{efn|name=replace|Replace with an imbued/saturated heart if using a powered staff.}}\n| hands2 = {{plink|Tormented bracelet}}{{efn|name=replace}}\n| hands3 = {{plink|Barrows gloves}}\n| hands4 = {{plink|Dragon gloves}}\n| hands5 = {{plink|Rune gloves}}\n| feet1 = {{plink|Mystic boots}}\n| feet2 = {{plink|Ghostly boots}}\n| feet3 = {{plink|Splitbark boots}}\n| feet4 = {{plink|Moonclan boots}}\n| ring1 = {{plink|Ring of shadows}} / {{plink|Ring of shadows (uncharged)|txt=(uncharged)}}\n| ring2 = {{plink|Explorer's ring|pic=Explorer's ring 4}}\n| ring3 = {{plink|Beacon ring}} / {{plink|Lunar ring}}\n| ring4 = {{plink|Ring of wealth (i)}}\n| ammo1 = {{plink|Rada's blessing 4}}\n| ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n}}\n{{notelist}}\n{{Inventory\n|align = right|Blighted super restore(4)|Blighted super restore(4)|Blighted super restore(4)|Blighted super restore(4)|Stamina potion(4)|Fire rune\\500|Death rune\\100|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Blighted manta ray|Looting bag|Royal seed pod\n}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Crazy_archaeologist/Strategies",
+          "title": "Crazy archaeologist/Strategies",
+          "pageId": 52454,
+          "revisionId": 15318138,
+          "timestamp": "2026-08-24T16:48:49Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-3",
+      "label": "Inventory",
+      "sourceWikitext": "*3\u20134 [[Blighted super restore]] potions (or [[Prayer potion|prayer potions]])\n*1 [[super energy]] or [[stamina potion]] (optional)\n*[[Imbued heart|Imbued]]/[[saturated heart]] (optional if using a powered staff, replaces tormented bracelet)\n*[[Runes]] to cast [[Iban Blast]] if using [[Iban's staff]]\n*Food ([[lobsters]] or better)\n*A [[looting bag]], be aware you will drop any items within the looting bag should you die, regardless of the value of the items\n*A teleport that works up to level 30 Wilderness, such as a [[royal seed pod]], [[Amulet of glory (6)|charged amulet of glory]], or [[Slayer ring]].",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Crazy_archaeologist/Strategies",
+          "title": "Crazy archaeologist/Strategies",
+          "pageId": 52454,
+          "revisionId": 15318138,
+          "timestamp": "2026-08-24T16:48:49Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "references-4",
+      "label": "References",
+      "sourceWikitext": "{{Reflist}}\n\n[[Category:Strategies]]\n[[Category:Wilderness]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Crazy_archaeologist/Strategies",
+          "title": "Crazy archaeologist/Strategies",
+          "pageId": 52454,
+          "revisionId": 15318138,
+          "timestamp": "2026-08-24T16:48:49Z",
+          "missing": false
+        }
+      ]
+    }
+  ]
 }

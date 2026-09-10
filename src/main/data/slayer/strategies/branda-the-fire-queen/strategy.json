@@ -1,0 +1,5306 @@
+{
+  "strategyId": "branda-the-fire-queen",
+  "variantIds": [
+    "branda-the-fire-queen",
+    "eldric-the-ice-king"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+      "title": "Royal Titans/Strategies",
+      "pageId": 566475,
+      "revisionId": 15329439,
+      "timestamp": "2026-09-03T13:43:40Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+      "title": "Royal Titans",
+      "pageId": 553602,
+      "revisionId": 15325397,
+      "timestamp": "2026-08-30T12:17:07Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+      "title": "Branda the Fire Queen",
+      "pageId": 565719,
+      "revisionId": 15200593,
+      "timestamp": "2026-04-28T07:29:22Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+      "title": "Eldric the Ice King",
+      "pageId": 565718,
+      "revisionId": 15271709,
+      "timestamp": "2026-07-22T02:24:22Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+      "title": "Fire Wave",
+      "pageId": 10614,
+      "revisionId": 15252657,
+      "timestamp": "2026-07-04T17:47:41Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+      "title": "Water Wave",
+      "pageId": 16467,
+      "revisionId": 14970059,
+      "timestamp": "2025-08-20T19:24:28Z",
+      "missing": false
+    }
+  ],
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "scythe-of-vitur",
+      "inquisitor-s-mace",
+      "soulreaper-axe",
+      "blade-of-saeldor",
+      "ghrazi-rapier",
+      "noxious-halberd",
+      "dual-macuahuitl",
+      "osmumten-s-fang",
+      "abyssal-tentacle",
+      "dragon-scimitar"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "toxic-blowpipe",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "eclipse-atlatl",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "hunters-sunlight-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "karil-s-crossbow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "magic-shortbow-i",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "twinflame-staff",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "kodai-wand",
+        "style": "MAGIC"
+      },
+      {
+        "weaponId": "ancient-sceptre",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "Solo or duo Royal Titans: prioritise melee, carry ranged for distant phases, and use opposing-element spells for barriers and minions. High-end duo resetting can omit the magic switch."
+  },
+  "requirements": [
+    "There are no quest or skill requirements to enter the Royal Titans arena.",
+    "The Wiki recommends about 70 combat skills, 43 Prayer and 75 Magic. Wave-spell presets explicitly require 75 Magic and the standard spellbook for reliable 40-damage elemental hits.",
+    "Branda counts as a fire giant and Eldric as an ice giant. Slayer assignment bonuses apply only to the matching Titan; neither boss requires a task."
+  ],
+  "mechanics": [
+    "The two Titans each have 600 Hitpoints and 100 Defence. Their slight crush weakness does not justify replacing a stronger weapon with a weaker crush weapon.",
+    "Ranged accuracy is multiplied by six when Titans are outside melee reach and during elemental blast, including its charge and a few ticks afterwards; prioritise melee while it is available.",
+    "The preset uses melee as its primary style and lists required ranged and magic switches explicitly. Static phase guidance does not produce live tile or prayer prompts."
+  ],
+  "methods": [
+    {
+      "methodId": "solo-wave-sustain",
+      "label": "Solo melee, ranged and Wave sustain",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "A supply-focused setup uses a complete magic switch and a shortbow ranged switch to clear minions reliably.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Helm of Neitiznot"
+          ],
+          "AMULET": [
+            "Amulet of fury",
+            "Amulet of strength",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Fire cape",
+            "Mythical cape"
+          ],
+          "BODY": [
+            "Blood moon chestplate",
+            "Fighter torso",
+            "Eclipse moon chestplate",
+            "Blue moon chestplate"
+          ],
+          "LEGS": [
+            "Blood moon tassets",
+            "Eclipse moon tassets",
+            "Blue moon tassets"
+          ],
+          "WEAPON": [
+            "Dual macuahuitl",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Saradomin's blessed sword",
+            "Zombie axe",
+            "Sarachnis cudgel",
+            "Dragon scimitar"
+          ],
+          "SHIELD": [
+            "Dragon defender",
+            "Antler guard"
+          ],
+          "HANDS": [
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Aranea boots"
+          ],
+          "RING": [
+            "Berserker ring (i)",
+            "Lightbearer"
+          ],
+          "AMMO": [
+            "Rune arrow"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Melee during stomps; appropriate offensive prayers for the chosen style"
+      ],
+      "steps": [
+        "Start with melee while the Titans are adjacent, then switch weapon, ammunition, body, legs and cape for the ranged portion.",
+        "Use the full listed magic switch for opposing-element Wave spells on elementals. Twinflame automatically changes fire/water and provides those elemental runes; the supplied air and blood runes cover 500 total Wave casts.",
+        "Water spells clear Branda's fire walls and fire elementals; fire spells clear Eldric's ice walls and ice elementals. Return to melee when the boss is reachable.",
+        "Before taking a Titan below 210 Hitpoints, manage both health bars so the other is also low. Follow the phase-two blast reference."
+      ],
+      "notes": [
+        "The seven magic switch pieces total +93 magic attack before the remaining head, boots, ammunition and ring. The fixed head and Aranea boots keep this above the required +70 threshold.",
+        "This authored budget switch uses the Wiki's suggested magic-accuracy approach; individual item bonuses were checked against their current raw infoboxes."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Helm of Neitiznot",
+              "itemIds": [
+                10828
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: The Fremennik Isles",
+                "DEFENCE >= 55"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of strength",
+              "itemIds": [
+                1725
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Mythical cape",
+              "itemIds": [
+                22114
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Dragon Slayer II"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Blood moon chestplate",
+              "itemIds": [
+                29022,
+                29043
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Fighter torso",
+              "itemIds": [
+                10551,
+                24175
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40"
+              ]
+            },
+            {
+              "name": "Eclipse moon chestplate",
+              "itemIds": [
+                29004,
+                29031
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Blue moon chestplate",
+              "itemIds": [
+                29013,
+                29037
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Blood moon tassets",
+              "itemIds": [
+                29025,
+                29045
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Eclipse moon tassets",
+              "itemIds": [
+                29007,
+                29033
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Blue moon tassets",
+              "itemIds": [
+                29016,
+                29039
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Dual macuahuitl",
+              "itemIds": [
+                28997
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "STRENGTH >= 75"
+              ]
+            },
+            {
+              "name": "Abyssal tentacle",
+              "itemIds": [
+                12006
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            },
+            {
+              "name": "Abyssal whip",
+              "itemIds": [
+                4151
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin's blessed sword",
+              "itemIds": [
+                12809,
+                12808
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            },
+            {
+              "name": "Zombie axe",
+              "itemIds": [
+                28810
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 65"
+              ]
+            },
+            {
+              "name": "Sarachnis cudgel",
+              "itemIds": [
+                23528
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 65"
+              ]
+            },
+            {
+              "name": "Dragon scimitar",
+              "itemIds": [
+                4587
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Monkey Madness I",
+                "ATTACK >= 60"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Antler guard",
+              "itemIds": [
+                31081
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 50"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rune arrow",
+              "itemIds": [
+                892,
+                893,
+                5621,
+                5627
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "royal-titans-arena"
+        ],
+        "requirements": [
+          "MAGIC >= 75",
+          "Standard spellbook selected"
+        ],
+        "requiredItems": [
+          {
+            "name": "Dual macuahuitl or Abyssal tentacle or Abyssal whip or Saradomin's blessed sword or Zombie axe or Sarachnis cudgel or Dragon scimitar",
+            "itemIds": [
+              28997,
+              12006,
+              4151,
+              12809,
+              12808,
+              28810,
+              23528,
+              4587
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Helm of Neitiznot",
+            "itemIds": [
+              10828
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Aranea boots",
+            "itemIds": [
+              29806
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Barrows gloves",
+            "itemIds": [
+              7462
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Twinflame staff",
+            "itemIds": [
+              30634
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mystic robe top",
+            "itemIds": [
+              4091
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mystic robe bottom",
+            "itemIds": [
+              4093
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mage's book",
+            "itemIds": [
+              6889
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Amulet of fury",
+            "itemIds": [
+              6585
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "itemIds": [
+              21791,
+              24248
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Barrows gloves",
+            "itemIds": [
+              7462
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Magic shortbow (i)",
+            "itemIds": [
+              12788
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Rune arrow",
+            "itemIds": [
+              892,
+              893,
+              5621,
+              5627
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Black d'hide body",
+            "itemIds": [
+              2503
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Black d'hide chaps",
+            "itemIds": [
+              2497
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Ava's accumulator",
+            "itemIds": [
+              10499
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Air rune",
+            "itemIds": [
+              556
+            ],
+            "quantity": 2500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Blood rune",
+            "itemIds": [
+              565
+            ],
+            "quantity": 500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 7,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Twinflame_staff",
+            "title": "Twinflame staff",
+            "pageId": 565302,
+            "revisionId": 15317784,
+            "timestamp": "2026-08-24T05:27:34Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Mystic_robe_top",
+            "title": "Mystic robe top",
+            "pageId": 32721,
+            "revisionId": 15322464,
+            "timestamp": "2026-08-27T21:57:37Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Mystic_robe_bottom",
+            "title": "Mystic robe bottom",
+            "pageId": 30989,
+            "revisionId": 15322454,
+            "timestamp": "2026-08-27T21:56:12Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Mage's_book",
+            "title": "Mage's book",
+            "pageId": 10866,
+            "revisionId": 15183115,
+            "timestamp": "2026-04-22T02:51:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Amulet_of_fury",
+            "title": "Amulet of fury",
+            "pageId": 10271,
+            "revisionId": 15317804,
+            "timestamp": "2026-08-24T05:39:18Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Imbued_Saradomin_cape",
+            "title": "Imbued Saradomin cape",
+            "pageId": 106847,
+            "revisionId": 15296476,
+            "timestamp": "2026-08-13T06:46:51Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Barrows_gloves",
+            "title": "Barrows gloves",
+            "pageId": 14796,
+            "revisionId": 15322401,
+            "timestamp": "2026-08-27T21:40:07Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: A supply-focused setup uses a complete magic switch and a shortbow ranged switch to clear minions reliably.",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "duo-wave-sustain",
+      "label": "Duo melee, ranged and Wave sustain",
+      "combatStyle": "MELEE",
+      "role": "duo",
+      "summary": "A supply-focused setup uses a complete magic switch and a shortbow ranged switch to clear minions reliably.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Helm of Neitiznot"
+          ],
+          "AMULET": [
+            "Amulet of fury",
+            "Amulet of strength",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Fire cape",
+            "Mythical cape"
+          ],
+          "BODY": [
+            "Blood moon chestplate",
+            "Fighter torso",
+            "Eclipse moon chestplate",
+            "Blue moon chestplate"
+          ],
+          "LEGS": [
+            "Blood moon tassets",
+            "Eclipse moon tassets",
+            "Blue moon tassets"
+          ],
+          "WEAPON": [
+            "Dual macuahuitl",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Saradomin's blessed sword",
+            "Zombie axe",
+            "Sarachnis cudgel",
+            "Dragon scimitar"
+          ],
+          "SHIELD": [
+            "Dragon defender",
+            "Antler guard"
+          ],
+          "HANDS": [
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Aranea boots"
+          ],
+          "RING": [
+            "Berserker ring (i)",
+            "Lightbearer"
+          ],
+          "AMMO": [
+            "Rune arrow"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Melee during stomps; appropriate offensive prayers for the chosen style"
+      ],
+      "steps": [
+        "Start with melee while the Titans are adjacent, then switch weapon, ammunition, body, legs and cape for the ranged portion.",
+        "Use the full listed magic switch for opposing-element Wave spells on elementals. Twinflame automatically changes fire/water and provides those elemental runes; the supplied air and blood runes cover 500 total Wave casts.",
+        "Water spells clear Branda's fire walls and fire elementals; fire spells clear Eldric's ice walls and ice elementals. Return to melee when the boss is reachable.",
+        "Before taking a Titan below 210 Hitpoints, manage both health bars so the other is also low. Follow the phase-two blast reference."
+      ],
+      "notes": [
+        "The seven magic switch pieces total +93 magic attack before the remaining head, boots, ammunition and ring. The fixed head and Aranea boots keep this above the required +70 threshold.",
+        "This authored budget switch uses the Wiki's suggested magic-accuracy approach; individual item bonuses were checked against their current raw infoboxes."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Helm of Neitiznot",
+              "itemIds": [
+                10828
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: The Fremennik Isles",
+                "DEFENCE >= 55"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of strength",
+              "itemIds": [
+                1725
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Mythical cape",
+              "itemIds": [
+                22114
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Dragon Slayer II"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Blood moon chestplate",
+              "itemIds": [
+                29022,
+                29043
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Fighter torso",
+              "itemIds": [
+                10551,
+                24175
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40"
+              ]
+            },
+            {
+              "name": "Eclipse moon chestplate",
+              "itemIds": [
+                29004,
+                29031
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Blue moon chestplate",
+              "itemIds": [
+                29013,
+                29037
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Blood moon tassets",
+              "itemIds": [
+                29025,
+                29045
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Eclipse moon tassets",
+              "itemIds": [
+                29007,
+                29033
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Blue moon tassets",
+              "itemIds": [
+                29016,
+                29039
+              ],
+              "requires": [],
+              "requirements": [
+                "MAGIC >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Dual macuahuitl",
+              "itemIds": [
+                28997
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "STRENGTH >= 75"
+              ]
+            },
+            {
+              "name": "Abyssal tentacle",
+              "itemIds": [
+                12006
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            },
+            {
+              "name": "Abyssal whip",
+              "itemIds": [
+                4151
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin's blessed sword",
+              "itemIds": [
+                12809,
+                12808
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            },
+            {
+              "name": "Zombie axe",
+              "itemIds": [
+                28810
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 65"
+              ]
+            },
+            {
+              "name": "Sarachnis cudgel",
+              "itemIds": [
+                23528
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 65"
+              ]
+            },
+            {
+              "name": "Dragon scimitar",
+              "itemIds": [
+                4587
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Monkey Madness I",
+                "ATTACK >= 60"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Antler guard",
+              "itemIds": [
+                31081
+              ],
+              "requires": [],
+              "requirements": [
+                "PRAYER >= 50"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rune arrow",
+              "itemIds": [
+                892,
+                893,
+                5621,
+                5627
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "royal-titans-arena"
+        ],
+        "requirements": [
+          "MAGIC >= 75",
+          "Standard spellbook selected"
+        ],
+        "requiredItems": [
+          {
+            "name": "Dual macuahuitl or Abyssal tentacle or Abyssal whip or Saradomin's blessed sword or Zombie axe or Sarachnis cudgel or Dragon scimitar",
+            "itemIds": [
+              28997,
+              12006,
+              4151,
+              12809,
+              12808,
+              28810,
+              23528,
+              4587
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Helm of Neitiznot",
+            "itemIds": [
+              10828
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Aranea boots",
+            "itemIds": [
+              29806
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Barrows gloves",
+            "itemIds": [
+              7462
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Twinflame staff",
+            "itemIds": [
+              30634
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mystic robe top",
+            "itemIds": [
+              4091
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mystic robe bottom",
+            "itemIds": [
+              4093
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mage's book",
+            "itemIds": [
+              6889
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Amulet of fury",
+            "itemIds": [
+              6585
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "itemIds": [
+              21791,
+              24248
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Barrows gloves",
+            "itemIds": [
+              7462
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Magic shortbow (i)",
+            "itemIds": [
+              12788
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Rune arrow",
+            "itemIds": [
+              892,
+              893,
+              5621,
+              5627
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Black d'hide body",
+            "itemIds": [
+              2503
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Black d'hide chaps",
+            "itemIds": [
+              2497
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Ava's accumulator",
+            "itemIds": [
+              10499
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Air rune",
+            "itemIds": [
+              556
+            ],
+            "quantity": 2500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Blood rune",
+            "itemIds": [
+              565
+            ],
+            "quantity": 500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 7,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": true,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Twinflame_staff",
+            "title": "Twinflame staff",
+            "pageId": 565302,
+            "revisionId": 15317784,
+            "timestamp": "2026-08-24T05:27:34Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Mystic_robe_top",
+            "title": "Mystic robe top",
+            "pageId": 32721,
+            "revisionId": 15322464,
+            "timestamp": "2026-08-27T21:57:37Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Mystic_robe_bottom",
+            "title": "Mystic robe bottom",
+            "pageId": 30989,
+            "revisionId": 15322454,
+            "timestamp": "2026-08-27T21:56:12Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Mage's_book",
+            "title": "Mage's book",
+            "pageId": 10866,
+            "revisionId": 15183115,
+            "timestamp": "2026-04-22T02:51:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Amulet_of_fury",
+            "title": "Amulet of fury",
+            "pageId": 10271,
+            "revisionId": 15317804,
+            "timestamp": "2026-08-24T05:39:18Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Imbued_Saradomin_cape",
+            "title": "Imbued Saradomin cape",
+            "pageId": 106847,
+            "revisionId": 15296476,
+            "timestamp": "2026-08-13T06:46:51Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Barrows_gloves",
+            "title": "Barrows gloves",
+            "pageId": 14796,
+            "revisionId": 15322401,
+            "timestamp": "2026-08-27T21:40:07Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: A supply-focused setup uses a complete magic switch and a shortbow ranged switch to clear minions reliably.",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "solo-void-switches",
+      "label": "Solo full void with helmet switches",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "The full void set reduces the magic-accuracy threshold to +39 and needs fewer armour switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Void melee helm"
+          ],
+          "AMULET": [
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Void knight top"
+          ],
+          "LEGS": [
+            "Void knight robe"
+          ],
+          "SHIELD": [
+            "Dragon defender"
+          ],
+          "HANDS": [
+            "Void knight gloves"
+          ],
+          "FEET": [
+            "Aranea boots"
+          ],
+          "WEAPON": [
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Dragon scimitar"
+          ],
+          "RING": [
+            "Lightbearer"
+          ],
+          "AMMO": [
+            "Atlatl dart"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Melee during stomps"
+      ],
+      "steps": [
+        "Keep the complete void body, robe and gloves equipped throughout. Use the melee helm with the melee weapon.",
+        "Switch to the ranger helm and Eclipse atlatl with atlatl darts for distant Titans.",
+        "For magic, equip Void mage helm, Twinflame staff and the imbued cape while retaining fury, Aranea boots and dragon defender. The Wiki's exact combination totals +39 magic attack.",
+        "Use opposing Wave spells on minions and barriers; 75 Magic supplies the 40-damage elemental max hit."
+      ],
+      "notes": [],
+      "risks": [
+        "Replacing any void set piece removes the reduced accuracy threshold; the fixed fury, boots, defender and magic cape are part of this exact preset."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Void melee helm",
+              "itemIds": [
+                11665,
+                24185
+              ],
+              "requires": [
+                [
+                  8839,
+                  24177,
+                  13072,
+                  24178
+                ],
+                [
+                  8840,
+                  24179,
+                  13073,
+                  24180
+                ],
+                [
+                  8842,
+                  24182
+                ]
+              ],
+              "requirements": [
+                "ATTACK >= 42",
+                "STRENGTH >= 42",
+                "DEFENCE >= 42",
+                "HITPOINTS >= 42",
+                "RANGED >= 42",
+                "MAGIC >= 42",
+                "PRAYER >= 22"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ava's accumulator",
+              "itemIds": [
+                10499
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 50"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Void knight top",
+              "itemIds": [
+                8839,
+                24177
+              ],
+              "requires": [
+                [
+                  11665,
+                  24185,
+                  11664,
+                  24184,
+                  11663,
+                  24183
+                ],
+                [
+                  8840,
+                  24179,
+                  13073,
+                  24180
+                ],
+                [
+                  8842,
+                  24182
+                ]
+              ],
+              "requirements": [
+                "ATTACK >= 42",
+                "STRENGTH >= 42",
+                "DEFENCE >= 42",
+                "HITPOINTS >= 42",
+                "RANGED >= 42",
+                "MAGIC >= 42",
+                "PRAYER >= 22"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Void knight robe",
+              "itemIds": [
+                8840,
+                24179
+              ],
+              "requires": [
+                [
+                  11665,
+                  24185,
+                  11664,
+                  24184,
+                  11663,
+                  24183
+                ],
+                [
+                  8839,
+                  24177,
+                  13072,
+                  24178
+                ],
+                [
+                  8842,
+                  24182
+                ]
+              ],
+              "requirements": [
+                "ATTACK >= 42",
+                "STRENGTH >= 42",
+                "DEFENCE >= 42",
+                "HITPOINTS >= 42",
+                "RANGED >= 42",
+                "MAGIC >= 42",
+                "PRAYER >= 22"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Void knight gloves",
+              "itemIds": [
+                8842,
+                24182
+              ],
+              "requires": [
+                [
+                  11665,
+                  24185,
+                  11664,
+                  24184,
+                  11663,
+                  24183
+                ],
+                [
+                  8839,
+                  24177,
+                  13072,
+                  24178
+                ],
+                [
+                  8840,
+                  24179,
+                  13073,
+                  24180
+                ]
+              ],
+              "requirements": [
+                "ATTACK >= 42",
+                "STRENGTH >= 42",
+                "DEFENCE >= 42",
+                "HITPOINTS >= 42",
+                "RANGED >= 42",
+                "MAGIC >= 42",
+                "PRAYER >= 22"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Abyssal tentacle",
+              "itemIds": [
+                12006
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            },
+            {
+              "name": "Abyssal whip",
+              "itemIds": [
+                4151
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70"
+              ]
+            },
+            {
+              "name": "Dragon scimitar",
+              "itemIds": [
+                4587
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Monkey Madness I",
+                "ATTACK >= 60"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Atlatl dart",
+              "itemIds": [
+                28991
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "royal-titans-arena"
+        ],
+        "requirements": [
+          "MAGIC >= 75",
+          "Standard spellbook selected"
+        ],
+        "requiredItems": [
+          {
+            "name": "Void melee helm",
+            "itemIds": [
+              11665,
+              24185
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Void knight top",
+            "itemIds": [
+              8839,
+              24177
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Void knight robe",
+            "itemIds": [
+              8840,
+              24179
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Void knight gloves",
+            "itemIds": [
+              8842,
+              24182
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Amulet of fury",
+            "itemIds": [
+              6585
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Aranea boots",
+            "itemIds": [
+              29806
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Dragon defender",
+            "itemIds": [
+              12954,
+              24143
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Lightbearer",
+            "itemIds": [
+              25975
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Abyssal tentacle or Abyssal whip or Dragon scimitar",
+            "itemIds": [
+              12006,
+              4151,
+              4587
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Void ranger helm",
+            "itemIds": [
+              11664,
+              24184
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Void mage helm",
+            "itemIds": [
+              11663,
+              24183
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Eclipse atlatl",
+            "itemIds": [
+              29000
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Atlatl dart",
+            "itemIds": [
+              28991
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Twinflame staff",
+            "itemIds": [
+              30634
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "itemIds": [
+              21791,
+              24248
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Air rune",
+            "itemIds": [
+              556
+            ],
+            "quantity": 2500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Blood rune",
+            "itemIds": [
+              565
+            ],
+            "quantity": 500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: The full void set reduces the magic-accuracy threshold to +39 and needs fewer armour switches.",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "duo-void-switches",
+      "label": "Duo full void with helmet switches",
+      "combatStyle": "MELEE",
+      "role": "duo",
+      "summary": "The full void set reduces the magic-accuracy threshold to +39 and needs fewer armour switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Void melee helm"
+          ],
+          "AMULET": [
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Void knight top"
+          ],
+          "LEGS": [
+            "Void knight robe"
+          ],
+          "SHIELD": [
+            "Dragon defender"
+          ],
+          "HANDS": [
+            "Void knight gloves"
+          ],
+          "FEET": [
+            "Aranea boots"
+          ],
+          "WEAPON": [
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Dragon scimitar"
+          ],
+          "RING": [
+            "Lightbearer"
+          ],
+          "AMMO": [
+            "Atlatl dart"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Melee during stomps"
+      ],
+      "steps": [
+        "Keep the complete void body, robe and gloves equipped throughout. Use the melee helm with the melee weapon.",
+        "Switch to the ranger helm and Eclipse atlatl with atlatl darts for distant Titans.",
+        "For magic, equip Void mage helm, Twinflame staff and the imbued cape while retaining fury, Aranea boots and dragon defender. The Wiki's exact combination totals +39 magic attack.",
+        "Use opposing Wave spells on minions and barriers; 75 Magic supplies the 40-damage elemental max hit."
+      ],
+      "notes": [],
+      "risks": [
+        "Replacing any void set piece removes the reduced accuracy threshold; the fixed fury, boots, defender and magic cape are part of this exact preset."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Void melee helm",
+              "itemIds": [
+                11665,
+                24185
+              ],
+              "requires": [
+                [
+                  8839,
+                  24177,
+                  13072,
+                  24178
+                ],
+                [
+                  8840,
+                  24179,
+                  13073,
+                  24180
+                ],
+                [
+                  8842,
+                  24182
+                ]
+              ],
+              "requirements": [
+                "ATTACK >= 42",
+                "STRENGTH >= 42",
+                "DEFENCE >= 42",
+                "HITPOINTS >= 42",
+                "RANGED >= 42",
+                "MAGIC >= 42",
+                "PRAYER >= 22"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ava's accumulator",
+              "itemIds": [
+                10499
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 50"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Void knight top",
+              "itemIds": [
+                8839,
+                24177
+              ],
+              "requires": [
+                [
+                  11665,
+                  24185,
+                  11664,
+                  24184,
+                  11663,
+                  24183
+                ],
+                [
+                  8840,
+                  24179,
+                  13073,
+                  24180
+                ],
+                [
+                  8842,
+                  24182
+                ]
+              ],
+              "requirements": [
+                "ATTACK >= 42",
+                "STRENGTH >= 42",
+                "DEFENCE >= 42",
+                "HITPOINTS >= 42",
+                "RANGED >= 42",
+                "MAGIC >= 42",
+                "PRAYER >= 22"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Void knight robe",
+              "itemIds": [
+                8840,
+                24179
+              ],
+              "requires": [
+                [
+                  11665,
+                  24185,
+                  11664,
+                  24184,
+                  11663,
+                  24183
+                ],
+                [
+                  8839,
+                  24177,
+                  13072,
+                  24178
+                ],
+                [
+                  8842,
+                  24182
+                ]
+              ],
+              "requirements": [
+                "ATTACK >= 42",
+                "STRENGTH >= 42",
+                "DEFENCE >= 42",
+                "HITPOINTS >= 42",
+                "RANGED >= 42",
+                "MAGIC >= 42",
+                "PRAYER >= 22"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Void knight gloves",
+              "itemIds": [
+                8842,
+                24182
+              ],
+              "requires": [
+                [
+                  11665,
+                  24185,
+                  11664,
+                  24184,
+                  11663,
+                  24183
+                ],
+                [
+                  8839,
+                  24177,
+                  13072,
+                  24178
+                ],
+                [
+                  8840,
+                  24179,
+                  13073,
+                  24180
+                ]
+              ],
+              "requirements": [
+                "ATTACK >= 42",
+                "STRENGTH >= 42",
+                "DEFENCE >= 42",
+                "HITPOINTS >= 42",
+                "RANGED >= 42",
+                "MAGIC >= 42",
+                "PRAYER >= 22"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Abyssal tentacle",
+              "itemIds": [
+                12006
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            },
+            {
+              "name": "Abyssal whip",
+              "itemIds": [
+                4151
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70"
+              ]
+            },
+            {
+              "name": "Dragon scimitar",
+              "itemIds": [
+                4587
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Monkey Madness I",
+                "ATTACK >= 60"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Atlatl dart",
+              "itemIds": [
+                28991
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "royal-titans-arena"
+        ],
+        "requirements": [
+          "MAGIC >= 75",
+          "Standard spellbook selected"
+        ],
+        "requiredItems": [
+          {
+            "name": "Void melee helm",
+            "itemIds": [
+              11665,
+              24185
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Void knight top",
+            "itemIds": [
+              8839,
+              24177
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Void knight robe",
+            "itemIds": [
+              8840,
+              24179
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Void knight gloves",
+            "itemIds": [
+              8842,
+              24182
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Amulet of fury",
+            "itemIds": [
+              6585
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Aranea boots",
+            "itemIds": [
+              29806
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Dragon defender",
+            "itemIds": [
+              12954,
+              24143
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Lightbearer",
+            "itemIds": [
+              25975
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Abyssal tentacle or Abyssal whip or Dragon scimitar",
+            "itemIds": [
+              12006,
+              4151,
+              4587
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Void ranger helm",
+            "itemIds": [
+              11664,
+              24184
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Void mage helm",
+            "itemIds": [
+              11663,
+              24183
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Eclipse atlatl",
+            "itemIds": [
+              29000
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Atlatl dart",
+            "itemIds": [
+              28991
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Twinflame staff",
+            "itemIds": [
+              30634
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "itemIds": [
+              21791,
+              24248
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Air rune",
+            "itemIds": [
+              556
+            ],
+            "quantity": 2500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Blood rune",
+            "itemIds": [
+              565
+            ],
+            "quantity": 500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 10,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": true,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: The full void set reduces the magic-accuracy threshold to +39 and needs fewer armour switches.",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "duo-high-level-wave",
+      "label": "High-level duo with Wave clearing",
+      "combatStyle": "MELEE",
+      "role": "duo",
+      "summary": "High-damage melee and ranged switches retain reliable elemental clearing instead of ignoring minions.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Torva full helm"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape"
+          ],
+          "BODY": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Inquisitor's hauberk",
+            "Bandos chestplate",
+            "Blood moon chestplate",
+            "Fighter torso"
+          ],
+          "LEGS": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Inquisitor's plateskirt",
+            "Bandos tassets",
+            "Blood moon tassets"
+          ],
+          "WEAPON": [
+            "Scythe of Vitur",
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Blade of Saeldor",
+            "Ghrazi rapier",
+            "Noxious halberd",
+            "Dual macuahuitl",
+            "Osmumten's fang",
+            "Abyssal tentacle"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "AMMO": [
+            "Rune arrow"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Aranea boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer"
+          ]
+        }
+      },
+      "prayers": [],
+      "steps": [
+        "Start with melee while the Titans are adjacent, then switch weapon, ammunition, body, legs and cape for the ranged portion.",
+        "Use the full listed magic switch for opposing-element Wave spells on elementals. Twinflame automatically changes fire/water and provides those elemental runes; the supplied air and blood runes cover 500 total Wave casts.",
+        "Water spells clear Branda's fire walls and fire elementals; fire spells clear Eldric's ice walls and ice elementals. Return to melee when the boss is reachable.",
+        "Before taking a Titan below 210 Hitpoints, manage both health bars so the other is also low. Follow the phase-two blast reference."
+      ],
+      "notes": [
+        "The toxic blowpipe must be charged with scales and loaded darts; its internal ammunition is checked by the player before departure.",
+        "The fixed magic switch replaces rancour and ferocious gloves as well as the armour and weapon so their negative magic bonuses cannot undermine the threshold."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Torva full helm",
+              "itemIds": [
+                26382
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of rancour",
+              "itemIds": [
+                29801
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Amulet of torture",
+              "itemIds": [
+                19553
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Infernal cape",
+              "itemIds": [
+                21295,
+                24224
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Torva platebody",
+              "itemIds": [
+                26384
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Oathplate chest",
+              "itemIds": [
+                30753
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Inquisitor's hauberk",
+              "itemIds": [
+                24420
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 70",
+                "DEFENCE >= 30"
+              ]
+            },
+            {
+              "name": "Bandos chestplate",
+              "itemIds": [
+                11832
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Blood moon chestplate",
+              "itemIds": [
+                29022,
+                29043
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Fighter torso",
+              "itemIds": [
+                10551,
+                24175
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Torva platelegs",
+              "itemIds": [
+                26386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Oathplate legs",
+              "itemIds": [
+                30756
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Inquisitor's plateskirt",
+              "itemIds": [
+                24421
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 70",
+                "DEFENCE >= 30"
+              ]
+            },
+            {
+              "name": "Bandos tassets",
+              "itemIds": [
+                11834
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Blood moon tassets",
+              "itemIds": [
+                29025,
+                29045
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Scythe of Vitur",
+              "itemIds": [
+                22325
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "STRENGTH >= 90"
+              ]
+            },
+            {
+              "name": "Inquisitor's mace",
+              "itemIds": [
+                24417
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80"
+              ]
+            },
+            {
+              "name": "Soulreaper axe",
+              "itemIds": [
+                28338
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "STRENGTH >= 80"
+              ]
+            },
+            {
+              "name": "Blade of Saeldor",
+              "itemIds": [
+                23995
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80"
+              ]
+            },
+            {
+              "name": "Ghrazi rapier",
+              "itemIds": [
+                22324
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80"
+              ]
+            },
+            {
+              "name": "Noxious halberd",
+              "itemIds": [
+                29796
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80"
+              ]
+            },
+            {
+              "name": "Dual macuahuitl",
+              "itemIds": [
+                28997
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "STRENGTH >= 75"
+              ]
+            },
+            {
+              "name": "Osmumten's fang",
+              "itemIds": [
+                26219
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 82"
+              ]
+            },
+            {
+              "name": "Abyssal tentacle",
+              "itemIds": [
+                12006
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Avernic defender",
+              "itemIds": [
+                22322,
+                24186
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rune arrow",
+              "itemIds": [
+                892,
+                893,
+                5621,
+                5627
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Ferocious gloves",
+              "itemIds": [
+                22981
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ultor ring",
+              "itemIds": [
+                28307
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated Vardorvis during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "royal-titans-arena"
+        ],
+        "requirements": [
+          "MAGIC >= 75",
+          "Standard spellbook selected"
+        ],
+        "requiredItems": [
+          {
+            "name": "Scythe of Vitur or Inquisitor's mace or Soulreaper axe or Blade of Saeldor or Ghrazi rapier or Noxious halberd or Dual macuahuitl or Osmumten's fang or Abyssal tentacle",
+            "itemIds": [
+              22325,
+              24417,
+              28338,
+              23995,
+              22324,
+              29796,
+              28997,
+              26219,
+              12006
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Torva full helm",
+            "itemIds": [
+              26382
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Aranea boots",
+            "itemIds": [
+              29806
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Twinflame staff",
+            "itemIds": [
+              30634
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mystic robe top",
+            "itemIds": [
+              4091
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mystic robe bottom",
+            "itemIds": [
+              4093
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Mage's book",
+            "itemIds": [
+              6889
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Amulet of fury",
+            "itemIds": [
+              6585
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "itemIds": [
+              21791,
+              24248
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Barrows gloves",
+            "itemIds": [
+              7462
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Toxic blowpipe",
+            "itemIds": [
+              12926
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Masori body (f)",
+            "itemIds": [
+              27238
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Masori chaps (f)",
+            "itemIds": [
+              27241
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Ava's assembler",
+            "itemIds": [
+              22109,
+              24222
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Air rune",
+            "itemIds": [
+              556
+            ],
+            "quantity": 2500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Blood rune",
+            "itemIds": [
+              565
+            ],
+            "quantity": 500,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 6,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": true,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 1,
+        "profitRank": 2,
+        "effortRank": 3,
+        "rankingReason": "Qualitative encounter trade-off: High-damage melee and ranged switches retain reliable elemental clearing instead of ignoring minions.",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "duo-resetting",
+      "label": "High-level duo with restoration between kills",
+      "combatStyle": "MELEE",
+      "role": "duo",
+      "summary": "A high-end duo can omit elemental clearing and restore health, Prayer and special attack between kills.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Torva full helm"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape"
+          ],
+          "BODY": [
+            "Oathplate chest"
+          ],
+          "LEGS": [
+            "Oathplate legs"
+          ],
+          "WEAPON": [
+            "Scythe of Vitur"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "AMMO": [
+            "Ruby dragon bolts (e)"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer"
+          ]
+        }
+      },
+      "prayers": [],
+      "steps": [
+        "Use high-end melee with a full ranged switch for distant phases. Both players need sufficient damage to keep time exposed to elementals short.",
+        "This route deliberately accepts elemental and wall damage and restores between kills using an ornate rejuvenation pool or the elite Desert diary statuette.",
+        "Use Giantsoul amulet to return quickly. Standard-spell clearing remains the alternative when damage output is insufficient."
+      ],
+      "notes": [
+        "Arceuus thralls and dragon claws are optional speed extensions with their own spellbook, quest, rune and equipment requirements. They are not silently assumed by this baseline."
+      ],
+      "risks": [
+        "Omitting elemental-clearing magic is appropriate only for short high-damage duo kills; longer fights accumulate avoidable damage."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Torva full helm",
+              "itemIds": [
+                26382
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of rancour",
+              "itemIds": [
+                29801
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Amulet of torture",
+              "itemIds": [
+                19553
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Infernal cape",
+              "itemIds": [
+                21295,
+                24224
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Oathplate chest",
+              "itemIds": [
+                30753
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Oathplate legs",
+              "itemIds": [
+                30756
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Scythe of Vitur",
+              "itemIds": [
+                22325
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "STRENGTH >= 90"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Avernic defender",
+              "itemIds": [
+                22322,
+                24186
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Ruby dragon bolts (e)",
+              "itemIds": [
+                21944
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Ferocious gloves",
+              "itemIds": [
+                22981
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Primordial boots",
+              "itemIds": [
+                13239
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Dragon boots",
+              "itemIds": [
+                11840
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ultor ring",
+              "itemIds": [
+                28307
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated Vardorvis during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Lightbearer",
+              "itemIds": [
+                25975
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "royal-titans-arena"
+        ],
+        "requirements": [
+          "Royal Titans restoration route prepared: ornate rejuvenation pool or elite Desert diary statuette"
+        ],
+        "requiredItems": [
+          {
+            "name": "Scythe of Vitur",
+            "itemIds": [
+              22325
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Torva full helm",
+            "itemIds": [
+              26382
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Oathplate chest",
+            "itemIds": [
+              30753
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Oathplate legs",
+            "itemIds": [
+              30756
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Toxic blowpipe",
+            "itemIds": [
+              12926
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Zaryte crossbow",
+            "itemIds": [
+              26374
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Ruby dragon bolts (e)",
+            "itemIds": [
+              21944
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": true
+          },
+          {
+            "name": "Masori mask (f)",
+            "itemIds": [
+              27235
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Masori body (f)",
+            "itemIds": [
+              27238
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Masori chaps (f)",
+            "itemIds": [
+              27241
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Necklace of anguish",
+            "itemIds": [
+              19547
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Ava's assembler",
+            "itemIds": [
+              22109,
+              24222
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Giantsoul amulet",
+            "itemIds": [
+              30638
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 2,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 5,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          }
+        ],
+        "group": true,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 1,
+        "profitRank": 3,
+        "effortRank": 3,
+        "rankingReason": "Qualitative encounter trade-off: A high-end duo can omit elemental clearing and restore health, Prayer and special attack between kills.",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "blue-moon-and-ranged-armour",
+      "label": "Blue moon and ranged-armour sustain alternatives",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Hybrid armour can reduce the number of switches in solo or duo sustain trips.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Blue moon armour can meet the magic threshold with fewer changes while retaining melee strength. Confirm the complete equipped magic attack total, including negative glove, amulet, defender and boot bonuses.",
+        "Wearing ranged armour through the melee portion is another low-switch approach. Eclipse atlatl uses melee strength for maximum hit and is especially suited to that compromise.",
+        "Use the preserved minimal-switch equipment grid to compare full void and Blue moon choices; mixing isolated void pieces does not grant the void threshold."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "single-style",
+      "label": "Single-style alternatives",
+      "combatStyle": "MELEE",
+      "role": "source-context",
+      "summary": "Melee-only or ranged-only kills are possible but materially slower.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Melee-only requires waiting or repositioning when Titans move out of reach; ranged-only sacrifices the stronger melee windows.",
+        "Magic mainly clears barriers and minions. It is not presented by the Wiki as a primary boss-damage setup.",
+        "The lower-effort gear transition does not remove the need to handle stomps, elementals and elemental blasts."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "access-and-travel",
+      "label": "Arena access and travel",
+      "combatStyle": "MELEE",
+      "role": "travel",
+      "summary": "Choose a direct amulet route or an approach through the Asgarnian Ice Dungeon.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Giantsoul amulet teleports directly outside the boss room.",
+        "Without it, enter the Asgarnian Ice Dungeon, run north past pirates and muggers, then west; the shortcut immediately west of the ladder requires 60 Agility.",
+        "Fairy ring AIQ is south of the entrance. Rat Pits teleport, Port Sarim spirit tree, Explorer's ring and Rimmington house portal are alternative approaches with their own access conditions."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "walls-and-elementals",
+      "label": "Walls, opposing elements and accuracy",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Barriers and minions have distinct accuracy and spell rules.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Walls form after four ticks. Standing on a forming tile takes up to 12 damage and prevents that obstacle from appearing.",
+        "Water Blast or stronger and ice spells extinguish fire; Fire Blast or stronger melts ice. A successful targeted removal also clears the two adjacent obstacles and does not incur an attack delay, regardless of magic attack bonus.",
+        "Each Titan summons three elementals. They melee and eventually explode for 8-10 damage in a 3-by-3 area. Opposing fire/water spells deal area damage and receive their doubled elemental weakness.",
+        "At +70 magic attack, or +39 with full void mage, elemental hits are guaranteed maximum damage. Each elemental killed reduces the current attack delay by one tick.",
+        "Luring an elemental onto an emerging wall of the opposing element can kill it, but random wall placement makes this unreliable as the main plan."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "phase-one",
+      "label": "Phase one: melee and ranged windows",
+      "combatStyle": "MELEE",
+      "role": "phase",
+      "summary": "The opening and each retreat offer different weapon windows.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "The opening allows one or two melee hits before the Titans move away. A four-tick weapon can hit each Titan once; a halberd can obtain two hits on one.",
+        "Use ranged during their retreat; after roughly twenty seconds they return to melee and use stomps covering the nearest three rows for up to 26.",
+        "Elementals begin after one Titan has taken 100 damage. Deal with the accumulating waves when using the standard-spell plan.",
+        "Solo players can stagger the return to melee by staying far from a Titan so it walks farther. This can leave one Titan reachable while the other retreats.",
+        "Taking either Titan to 210 Hitpoints or below transitions both into phase two; aim to lower both before triggering it."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "phase-two",
+      "label": "Phase two: elemental blasts",
+      "combatStyle": "MELEE",
+      "role": "phase",
+      "summary": "The final phase expands stomp coverage and limits safe blast positioning.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Both Titans enter the platform at the transition and can knock players for 15-30 damage. Stomps cover the full arena during this phase.",
+        "An elemental blast strikes the arena three times with one safe tile. Stomps are generally synchronised until one Titan falls below 100 Hitpoints.",
+        "Leaving one Titan healthy makes the finish harder: its stomp can hit 10 through prayer and the blast safe tile is on the farthest row.",
+        "Between blast strikes there is one safe tick for a melee hit only when the safe tile is two tiles from that Titan; a halberd can reach from three. Otherwise use ranged.",
+        "Subduing a Titan during the blast charge removes that Titan's covered area for that cast. This is a static timing reference rather than a live prompt."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "supplies-and-reset-routes",
+      "label": "Sustain inventories and restoration routes",
+      "combatStyle": "MELEE",
+      "role": "inventory",
+      "summary": "Switch count and restoration access determine trip length.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Budget and mid-game sustain use melee, ranged and accurate magic gear, prayer restoration, combat boosts, Wave runes and an emergency teleport.",
+        "Twinflame supplies infinite fire and water runes, leaving air and blood for Wave spells; other staves require the missing elemental runes.",
+        "Late-game standard-spell setups can carry Noxious halberd for the central blast reach option. Full ranged and magic switches leave fewer food slots.",
+        "The resetting duo route uses Giantsoul and a return teleport to an ornate pool or the elite Desert diary statuette. Thralls are an optional Arceuus extension, not compatible with a simultaneously selected standard spellbook."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "methodId": "slayer-tasks",
+      "label": "Fire and ice giant task choices",
+      "combatStyle": "MELEE",
+      "role": "task-management",
+      "summary": "Only the matching Titan receives assignment benefits.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Branda counts for fire giants and Eldric for ice giants. An imbued Slayer helmet boosts damage only against the assigned type.",
+        "Vannaka is the master listed by the Wiki that assigns both types. Chaeldar, Nieve and Duradel offer fire giants without the ice-giant possibility.",
+        "A task-focused blocklist is an optional assignment strategy; the boss can also be fought off-task."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "wiki-table-1",
+      "label": "Elemental-clearing staff alternatives",
+      "combatStyle": "MAGIC",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "WEAPON": [
+            "Twinflame staff",
+            "Purging staff",
+            "Kodai wand",
+            "Ancient sceptre",
+            "Master wand",
+            "Ancient staff"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-2",
+      "label": "Low-level sustain melee priorities",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Blood moon helm",
+            "Helm of Neitiznot",
+            "Eclipse moon helm"
+          ],
+          "AMULET": [
+            "Amulet of fury",
+            "Amulet of strength",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Fire cape",
+            "Mythical cape"
+          ],
+          "BODY": [
+            "Blood moon chestplate",
+            "Fighter torso",
+            "Eclipse moon chestplate",
+            "Blue moon chestplate"
+          ],
+          "LEGS": [
+            "Blood moon tassets",
+            "Eclipse moon tassets",
+            "Blue moon tassets"
+          ],
+          "WEAPON": [
+            "Dual macuahuitl",
+            "Abyssal tentacle",
+            "Abyssal whip",
+            "Saradomin's blessed sword",
+            "Zombie axe",
+            "Sarachnis cudgel",
+            "Dragon scimitar"
+          ],
+          "SHIELD": [
+            "Dragon defender",
+            "Antler guard"
+          ],
+          "HANDS": [
+            "Barrows gloves",
+            "Combat bracelet"
+          ],
+          "FEET": [
+            "Aranea boots",
+            "Dragon boots",
+            "Climbing boots"
+          ],
+          "RING": [
+            "Berserker ring (i)",
+            "Lightbearer"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-3",
+      "label": "Low-level sustain ranged priorities",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Eclipse moon helm"
+          ],
+          "AMULET": [
+            "Amulet of fury",
+            "Necklace of fangs",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Eclipse moon chestplate",
+            "Hueycoatl hide body",
+            "Blessed d'hide body",
+            "Karil's leathertop",
+            "Black d'hide body"
+          ],
+          "LEGS": [
+            "Eclipse moon tassets",
+            "Hueycoatl hide chaps",
+            "Blessed d'hide chaps",
+            "Karil's leatherskirt",
+            "Black d'hide chaps"
+          ],
+          "WEAPON": [
+            "Eclipse atlatl",
+            "Toxic blowpipe",
+            "Dragon crossbow",
+            "Rune crossbow",
+            "Hunters' sunlight crossbow",
+            "Karil's crossbow",
+            "Magic shortbow (i)"
+          ],
+          "SHIELD": [
+            "Antler guard"
+          ],
+          "AMMO": [
+            "Atlatl dart",
+            "Rada's blessing 3",
+            "Ruby dragon bolts (e)",
+            "Ruby bolts (e)",
+            "Moonlight antler bolts",
+            "Sunlight antler bolts",
+            "Bolt rack",
+            "Amethyst arrow",
+            "Rune arrow"
+          ],
+          "HANDS": [
+            "Barrows gloves",
+            "Combat bracelet"
+          ],
+          "FEET": [
+            "Aranea boots",
+            "Dragon boots",
+            "Climbing boots"
+          ],
+          "RING": [
+            "Berserker ring (i)",
+            "Lightbearer"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-4",
+      "label": "Full void and Blue moon minimal-switch alternatives",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Void melee helm",
+            "Void ranger helm",
+            "Void mage helm",
+            "Blue moon helm"
+          ],
+          "AMULET": [
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Elite void top",
+            "Void knight top",
+            "Blue moon chestplate"
+          ],
+          "LEGS": [
+            "Elite void robe",
+            "Void knight robe",
+            "Blue moon tassets"
+          ],
+          "SHIELD": [
+            "Dragon defender",
+            "Mage's book",
+            "Antler guard",
+            "Unholy book",
+            "Book of Darkness"
+          ],
+          "HANDS": [
+            "Void knight gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Aranea boots",
+            "Dragon boots",
+            "Climbing boots"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-5",
+      "label": "High-level resetting melee priorities",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Oathplate helm",
+            "Inquisitor's great helm",
+            "Neitiznot faceguard",
+            "Serpentine helm",
+            "Blood moon helm"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape"
+          ],
+          "BODY": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Inquisitor's hauberk",
+            "Bandos chestplate",
+            "Blood moon chestplate",
+            "Fighter torso"
+          ],
+          "LEGS": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Inquisitor's plateskirt",
+            "Bandos tassets",
+            "Blood moon tassets"
+          ],
+          "WEAPON": [
+            "Scythe of Vitur",
+            "Inquisitor's mace",
+            "Soulreaper axe",
+            "Blade of Saeldor",
+            "Ghrazi rapier",
+            "Noxious halberd",
+            "Dual macuahuitl",
+            "Osmumten's fang",
+            "Abyssal tentacle"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Rada's blessing 3"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-6",
+      "label": "High-level resetting ranged priorities",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Crystal helm",
+            "Eclipse moon helm"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Masori body",
+            "Crystal body",
+            "Eclipse moon chestplate"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Masori chaps",
+            "Crystal legs",
+            "Eclipse moon tassets"
+          ],
+          "WEAPON": [
+            "Toxic blowpipe",
+            "Bow of Faerdhinen",
+            "Eclipse atlatl",
+            "Zaryte crossbow",
+            "Armadyl crossbow"
+          ],
+          "SHIELD": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward",
+            "Aquanite hopper"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Ruby dragon bolts (e)",
+            "Rada's blessing 3",
+            "Atlatl dart"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Aranea boots",
+            "Primordial boots",
+            "Dragon boots"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans/Strategies",
+            "title": "Royal Titans/Strategies",
+            "pageId": 566475,
+            "revisionId": 15329439,
+            "timestamp": "2026-09-03T13:43:40Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Royal_Titans",
+            "title": "Royal Titans",
+            "pageId": 553602,
+            "revisionId": 15325397,
+            "timestamp": "2026-08-30T12:17:07Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Branda_the_Fire_Queen",
+            "title": "Branda the Fire Queen",
+            "pageId": 565719,
+            "revisionId": 15200593,
+            "timestamp": "2026-04-28T07:29:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King",
+            "title": "Eldric the Ice King",
+            "pageId": 565718,
+            "revisionId": 15271709,
+            "timestamp": "2026-07-22T02:24:22Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+            "title": "Fire Wave",
+            "pageId": 10614,
+            "revisionId": 15252657,
+            "timestamp": "2026-07-04T17:47:41Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+            "title": "Water Wave",
+            "pageId": 16467,
+            "revisionId": 14970059,
+            "timestamp": "2025-08-20T19:24:28Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "branda-the-fire-queen",
+          "eldric-the-ice-king"
+        ]
+      }
+    }
+  ]
+}

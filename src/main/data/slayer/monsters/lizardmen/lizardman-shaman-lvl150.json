@@ -27,7 +27,8 @@
   "undead": false,
   "boss": false,
   "location": "Lizardman Canyon (west) / Lizardman Caves (slayer only) / Lizardman Temple (beneath Molch)",
-  "requirement": "Reptile got ripped unlock (75 pts); Shayzien tier-5 armour for Temple poison spit",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "lizardman-shaman"
+  "strategyId": "lizardman-shaman",
+  "locationId": "lizardman-canyon"
 }

@@ -1,0 +1,13 @@
+{
+  "locationId": "forthos-sarachnis",
+  "name": "Forthos Dungeon",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Boss encounter area; prepare a separate boss trip. Consult the linked strategy for encounter access and hazards.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Forthos_Dungeon",
+  "advisorRequirements": []
+}

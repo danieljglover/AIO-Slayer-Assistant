@@ -216,8 +216,13 @@
       ],
       "notes": [
         "See Vorkath/Strategies for the full boss method.",
-        "The task page describes Vorkath as the maximum-profit Blue dragons option."
-      ]
+        "The task page describes Vorkath as the maximum-profit Blue dragons option.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     }
   ],
   "styleOptions": [

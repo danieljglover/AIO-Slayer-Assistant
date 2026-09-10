@@ -1,0 +1,980 @@
+{
+  "runeIds": {
+    "Air rune": 556,
+    "Water rune": 555,
+    "Earth rune": 557,
+    "Fire rune": 554,
+    "Mind rune": 558,
+    "Body rune": 559,
+    "Chaos rune": 562,
+    "Death rune": 560,
+    "Blood rune": 565,
+    "Soul rune": 566,
+    "Astral rune": 9075,
+    "Cosmic rune": 564,
+    "Nature rune": 561,
+    "Law rune": 563,
+    "Wrath rune": 21880,
+    "Mist rune": 4695,
+    "Dust rune": 4696,
+    "Mud rune": 4698,
+    "Smoke rune": 4697,
+    "Steam rune": 4694,
+    "Lava rune": 4699,
+    "Aether rune": 30843
+  },
+  "infiniteRunes": {
+    "1381": [
+      "Air rune"
+    ],
+    "1397": [
+      "Air rune"
+    ],
+    "1405": [
+      "Air rune"
+    ],
+    "1383": [
+      "Water rune"
+    ],
+    "1395": [
+      "Water rune"
+    ],
+    "1403": [
+      "Water rune"
+    ],
+    "1385": [
+      "Earth rune"
+    ],
+    "1399": [
+      "Earth rune"
+    ],
+    "1407": [
+      "Earth rune"
+    ],
+    "1387": [
+      "Fire rune"
+    ],
+    "1393": [
+      "Fire rune"
+    ],
+    "1401": [
+      "Fire rune"
+    ],
+    "20730": [
+      "Air rune",
+      "Water rune"
+    ],
+    "20733": [
+      "Air rune",
+      "Water rune"
+    ],
+    "20736": [
+      "Air rune",
+      "Earth rune"
+    ],
+    "20739": [
+      "Air rune",
+      "Earth rune"
+    ],
+    "6562": [
+      "Water rune",
+      "Earth rune"
+    ],
+    "6563": [
+      "Water rune",
+      "Earth rune"
+    ],
+    "11998": [
+      "Air rune",
+      "Fire rune"
+    ],
+    "12000": [
+      "Air rune",
+      "Fire rune"
+    ],
+    "11787": [
+      "Water rune",
+      "Fire rune"
+    ],
+    "11789": [
+      "Water rune",
+      "Fire rune"
+    ],
+    "3053": [
+      "Earth rune",
+      "Fire rune"
+    ],
+    "3054": [
+      "Earth rune",
+      "Fire rune"
+    ],
+    "12795": [
+      "Water rune",
+      "Fire rune"
+    ],
+    "12796": [
+      "Water rune",
+      "Fire rune"
+    ],
+    "21198": [
+      "Earth rune",
+      "Fire rune"
+    ],
+    "21200": [
+      "Earth rune",
+      "Fire rune"
+    ],
+    "30634": [
+      "Water rune",
+      "Fire rune"
+    ],
+    "21006": [
+      "Water rune"
+    ]
+  },
+  "combinationRunes": {
+    "4695": [
+      "Air rune",
+      "Water rune"
+    ],
+    "4696": [
+      "Air rune",
+      "Earth rune"
+    ],
+    "4698": [
+      "Water rune",
+      "Earth rune"
+    ],
+    "4697": [
+      "Air rune",
+      "Fire rune"
+    ],
+    "4694": [
+      "Water rune",
+      "Fire rune"
+    ],
+    "4699": [
+      "Earth rune",
+      "Fire rune"
+    ],
+    "30843": [
+      "Cosmic rune",
+      "Soul rune"
+    ]
+  },
+  "pouches": [
+    {
+      "itemId": 12791,
+      "capacity": 3,
+      "maxPerRune": 16000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Rune_pouch",
+          "title": "Rune pouch",
+          "pageId": 36526,
+          "revisionId": 15316472,
+          "timestamp": "2026-08-22T08:27:20Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "itemId": 24416,
+      "capacity": 3,
+      "maxPerRune": 16000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Rune_pouch",
+          "title": "Rune pouch",
+          "pageId": 36526,
+          "revisionId": 15316472,
+          "timestamp": "2026-08-22T08:27:20Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "itemId": 27281,
+      "capacity": 4,
+      "maxPerRune": 16000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Divine_rune_pouch",
+          "title": "Divine rune pouch",
+          "pageId": 363149,
+          "revisionId": 15315583,
+          "timestamp": "2026-08-21T08:43:52Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "itemId": 27509,
+      "capacity": 4,
+      "maxPerRune": 16000,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Divine_rune_pouch",
+          "title": "Divine rune pouch",
+          "pageId": 363149,
+          "revisionId": 15315583,
+          "timestamp": "2026-08-21T08:43:52Z",
+          "missing": false
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 556,
+      "name": "Air rune",
+      "stackable": true
+    },
+    {
+      "id": 555,
+      "name": "Water rune",
+      "stackable": true
+    },
+    {
+      "id": 557,
+      "name": "Earth rune",
+      "stackable": true
+    },
+    {
+      "id": 554,
+      "name": "Fire rune",
+      "stackable": true
+    },
+    {
+      "id": 558,
+      "name": "Mind rune",
+      "stackable": true
+    },
+    {
+      "id": 559,
+      "name": "Body rune",
+      "stackable": true
+    },
+    {
+      "id": 562,
+      "name": "Chaos rune",
+      "stackable": true
+    },
+    {
+      "id": 560,
+      "name": "Death rune",
+      "stackable": true
+    },
+    {
+      "id": 565,
+      "name": "Blood rune",
+      "stackable": true
+    },
+    {
+      "id": 566,
+      "name": "Soul rune",
+      "stackable": true
+    },
+    {
+      "id": 9075,
+      "name": "Astral rune",
+      "stackable": true
+    },
+    {
+      "id": 564,
+      "name": "Cosmic rune",
+      "stackable": true
+    },
+    {
+      "id": 561,
+      "name": "Nature rune",
+      "stackable": true
+    },
+    {
+      "id": 563,
+      "name": "Law rune",
+      "stackable": true
+    },
+    {
+      "id": 21880,
+      "name": "Wrath rune",
+      "stackable": true
+    },
+    {
+      "id": 4695,
+      "name": "Mist rune",
+      "stackable": true
+    },
+    {
+      "id": 4696,
+      "name": "Dust rune",
+      "stackable": true
+    },
+    {
+      "id": 4698,
+      "name": "Mud rune",
+      "stackable": true
+    },
+    {
+      "id": 4697,
+      "name": "Smoke rune",
+      "stackable": true
+    },
+    {
+      "id": 4694,
+      "name": "Steam rune",
+      "stackable": true
+    },
+    {
+      "id": 4699,
+      "name": "Lava rune",
+      "stackable": true
+    },
+    {
+      "id": 30843,
+      "name": "Aether rune",
+      "stackable": true
+    },
+    {
+      "id": 24607,
+      "name": "Blighted ancient ice sack",
+      "stackable": true
+    },
+    {
+      "id": 26705,
+      "name": "Blighted surge sack",
+      "stackable": true
+    },
+    {
+      "id": 24613,
+      "name": "Blighted entangle sack",
+      "stackable": true
+    },
+    {
+      "id": 24621,
+      "name": "Blighted vengeance sack",
+      "stackable": true
+    },
+    {
+      "id": 12791,
+      "name": "Rune pouch",
+      "stackable": false
+    },
+    {
+      "id": 24416,
+      "name": "Rune pouch (l)",
+      "stackable": false
+    },
+    {
+      "id": 27281,
+      "name": "Divine rune pouch",
+      "stackable": false
+    },
+    {
+      "id": 27509,
+      "name": "Divine rune pouch (l)",
+      "stackable": false
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Staff_of_air",
+      "title": "Staff of air",
+      "pageId": 11107,
+      "revisionId": 15322361,
+      "timestamp": "2026-08-27T21:24:41Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Air_battlestaff",
+      "title": "Air battlestaff",
+      "pageId": 10266,
+      "revisionId": 15182754,
+      "timestamp": "2026-04-22T02:47:59Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_air_staff",
+      "title": "Mystic air staff",
+      "pageId": 10931,
+      "revisionId": 15267487,
+      "timestamp": "2026-07-19T13:25:10Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Staff_of_water",
+      "title": "Staff of water",
+      "pageId": 11108,
+      "revisionId": 15322362,
+      "timestamp": "2026-08-27T21:24:49Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Water_battlestaff",
+      "title": "Water battlestaff",
+      "pageId": 19811,
+      "revisionId": 15184146,
+      "timestamp": "2026-04-22T03:00:31Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_water_staff",
+      "title": "Mystic water staff",
+      "pageId": 22390,
+      "revisionId": 15267488,
+      "timestamp": "2026-07-19T13:25:26Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Staff_of_earth",
+      "title": "Staff of earth",
+      "pageId": 11103,
+      "revisionId": 15183241,
+      "timestamp": "2026-04-22T02:52:21Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Earth_battlestaff",
+      "title": "Earth battlestaff",
+      "pageId": 10584,
+      "revisionId": 15182985,
+      "timestamp": "2026-04-22T02:50:05Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_earth_staff",
+      "title": "Mystic earth staff",
+      "pageId": 28485,
+      "revisionId": 15267489,
+      "timestamp": "2026-07-19T13:25:45Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Staff_of_fire",
+      "title": "Staff of fire",
+      "pageId": 11105,
+      "revisionId": 15274561,
+      "timestamp": "2026-07-25T15:16:10Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Fire_battlestaff",
+      "title": "Fire battlestaff",
+      "pageId": 10615,
+      "revisionId": 15320213,
+      "timestamp": "2026-08-25T22:50:14Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_fire_staff",
+      "title": "Mystic fire staff",
+      "pageId": 19808,
+      "revisionId": 15322430,
+      "timestamp": "2026-08-27T21:52:27Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mist_battlestaff",
+      "title": "Mist battlestaff",
+      "pageId": 80097,
+      "revisionId": 15188014,
+      "timestamp": "2026-04-22T04:18:53Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_mist_staff",
+      "title": "Mystic mist staff",
+      "pageId": 80099,
+      "revisionId": 15188016,
+      "timestamp": "2026-04-22T04:18:54Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Dust_battlestaff",
+      "title": "Dust battlestaff",
+      "pageId": 80096,
+      "revisionId": 15188013,
+      "timestamp": "2026-04-22T04:18:52Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_dust_staff",
+      "title": "Mystic dust staff",
+      "pageId": 80098,
+      "revisionId": 15188015,
+      "timestamp": "2026-04-22T04:18:53Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mud_battlestaff",
+      "title": "Mud battlestaff",
+      "pageId": 10924,
+      "revisionId": 15318343,
+      "timestamp": "2026-08-25T00:22:46Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_mud_staff",
+      "title": "Mystic mud staff",
+      "pageId": 27320,
+      "revisionId": 15318348,
+      "timestamp": "2026-08-25T00:24:25Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Smoke_battlestaff",
+      "title": "Smoke battlestaff",
+      "pageId": 32658,
+      "revisionId": 15223188,
+      "timestamp": "2026-06-01T08:36:24Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_smoke_staff",
+      "title": "Mystic smoke staff",
+      "pageId": 32664,
+      "revisionId": 15211016,
+      "timestamp": "2026-05-14T17:22:07Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Steam_battlestaff",
+      "title": "Steam battlestaff",
+      "pageId": 23882,
+      "revisionId": 15299046,
+      "timestamp": "2026-08-14T02:23:31Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_steam_staff",
+      "title": "Mystic steam staff",
+      "pageId": 23883,
+      "revisionId": 15184506,
+      "timestamp": "2026-04-22T03:03:48Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Lava_battlestaff",
+      "title": "Lava battlestaff",
+      "pageId": 10831,
+      "revisionId": 15322333,
+      "timestamp": "2026-08-27T21:15:00Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_lava_staff",
+      "title": "Mystic lava staff",
+      "pageId": 22391,
+      "revisionId": 15184314,
+      "timestamp": "2026-04-22T03:02:02Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Steam_battlestaff_(or)",
+      "title": "Steam battlestaff (or)",
+      "pageId": 41816,
+      "revisionId": 15186419,
+      "timestamp": "2026-04-22T04:07:49Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_steam_staff_(or)",
+      "title": "Mystic steam staff (or)",
+      "pageId": 41864,
+      "revisionId": 15216015,
+      "timestamp": "2026-05-24T03:48:10Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Lava_battlestaff_(or)",
+      "title": "Lava battlestaff (or)",
+      "pageId": 93055,
+      "revisionId": 15188195,
+      "timestamp": "2026-04-22T04:20:10Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mystic_lava_staff_(or)",
+      "title": "Mystic lava staff (or)",
+      "pageId": 93057,
+      "revisionId": 15188196,
+      "timestamp": "2026-04-22T04:20:10Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Twinflame_staff",
+      "title": "Twinflame staff",
+      "pageId": 565302,
+      "revisionId": 15317784,
+      "timestamp": "2026-08-24T05:27:34Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Kodai_wand",
+      "title": "Kodai wand",
+      "pageId": 82097,
+      "revisionId": 15188070,
+      "timestamp": "2026-04-22T04:19:14Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Air_rune",
+      "title": "Air rune",
+      "pageId": 10091,
+      "revisionId": 15182633,
+      "timestamp": "2026-04-22T02:45:06Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Water_rune",
+      "title": "Water rune",
+      "pageId": 11938,
+      "revisionId": 15183376,
+      "timestamp": "2026-04-22T02:53:37Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Earth_rune",
+      "title": "Earth rune",
+      "pageId": 12881,
+      "revisionId": 15183469,
+      "timestamp": "2026-04-22T02:54:28Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Fire_rune",
+      "title": "Fire rune",
+      "pageId": 12178,
+      "revisionId": 15183395,
+      "timestamp": "2026-04-22T02:53:49Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mind_rune",
+      "title": "Mind rune",
+      "pageId": 11315,
+      "revisionId": 15183304,
+      "timestamp": "2026-04-22T02:52:57Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Body_rune",
+      "title": "Body rune",
+      "pageId": 12969,
+      "revisionId": 15183485,
+      "timestamp": "2026-04-22T02:54:39Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Chaos_rune",
+      "title": "Chaos rune",
+      "pageId": 12232,
+      "revisionId": 15327927,
+      "timestamp": "2026-09-02T01:01:50Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Death_rune",
+      "title": "Death rune",
+      "pageId": 13440,
+      "revisionId": 15327928,
+      "timestamp": "2026-09-02T01:02:02Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Blood_rune",
+      "title": "Blood rune",
+      "pageId": 65846,
+      "revisionId": 15327930,
+      "timestamp": "2026-09-02T01:02:15Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Soul_rune",
+      "title": "Soul rune",
+      "pageId": 17830,
+      "revisionId": 15183944,
+      "timestamp": "2026-04-22T02:58:42Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Astral_rune",
+      "title": "Astral rune",
+      "pageId": 10209,
+      "revisionId": 15182702,
+      "timestamp": "2026-04-22T02:47:28Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Cosmic_rune",
+      "title": "Cosmic rune",
+      "pageId": 12900,
+      "revisionId": 15327926,
+      "timestamp": "2026-09-02T01:01:44Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Nature_rune",
+      "title": "Nature rune",
+      "pageId": 12222,
+      "revisionId": 15315058,
+      "timestamp": "2026-08-21T03:51:45Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Law_rune",
+      "title": "Law rune",
+      "pageId": 12692,
+      "revisionId": 15240509,
+      "timestamp": "2026-06-27T04:33:40Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Wrath_rune",
+      "title": "Wrath rune",
+      "pageId": 108555,
+      "revisionId": 15328082,
+      "timestamp": "2026-09-02T08:21:45Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mist_rune",
+      "title": "Mist rune",
+      "pageId": 12183,
+      "revisionId": 15327919,
+      "timestamp": "2026-09-02T01:00:49Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Dust_rune",
+      "title": "Dust rune",
+      "pageId": 15029,
+      "revisionId": 15327921,
+      "timestamp": "2026-09-02T01:01:13Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mud_rune",
+      "title": "Mud rune",
+      "pageId": 16920,
+      "revisionId": 15327922,
+      "timestamp": "2026-09-02T01:01:19Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Smoke_rune",
+      "title": "Smoke rune",
+      "pageId": 22488,
+      "revisionId": 15327923,
+      "timestamp": "2026-09-02T01:01:24Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Steam_rune",
+      "title": "Steam rune",
+      "pageId": 22484,
+      "revisionId": 15327924,
+      "timestamp": "2026-09-02T01:01:31Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Lava_rune",
+      "title": "Lava rune",
+      "pageId": 22489,
+      "revisionId": 15327925,
+      "timestamp": "2026-09-02T01:01:36Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Aether_rune",
+      "title": "Aether rune",
+      "pageId": 570960,
+      "revisionId": 15287366,
+      "timestamp": "2026-08-04T20:16:17Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Combination_rune",
+      "title": "Combination rune",
+      "pageId": 19381,
+      "revisionId": 15223401,
+      "timestamp": "2026-06-01T15:53:48Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Rune_pouch",
+      "title": "Rune pouch",
+      "pageId": 36526,
+      "revisionId": 15316472,
+      "timestamp": "2026-08-22T08:27:20Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_rune_pouch",
+      "title": "Divine rune pouch",
+      "pageId": 363149,
+      "revisionId": 15315583,
+      "timestamp": "2026-08-21T08:43:52Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Tome_of_Fire",
+      "title": "Tome of Fire",
+      "pageId": 79809,
+      "revisionId": 15316547,
+      "timestamp": "2026-08-22T12:28:55Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Tome_of_Water",
+      "title": "Tome of Water",
+      "pageId": 301308,
+      "revisionId": 15315430,
+      "timestamp": "2026-08-21T06:20:15Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Tome_of_Earth",
+      "title": "Tome of Earth",
+      "pageId": 454533,
+      "revisionId": 15310850,
+      "timestamp": "2026-08-19T23:39:31Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Bryophyta's_staff",
+      "title": "Bryophyta's staff",
+      "pageId": 115746,
+      "revisionId": 15317782,
+      "timestamp": "2026-08-24T05:24:01Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Artio/Strategies",
+      "title": "Artio/Strategies",
+      "pageId": 392950,
+      "revisionId": 15331538,
+      "timestamp": "2026-09-05T15:58:33Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Warped_sceptre",
+      "title": "Warped sceptre",
+      "pageId": 393149,
+      "revisionId": 15223410,
+      "timestamp": "2026-06-01T16:00:58Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Bone_staff",
+      "title": "Bone staff",
+      "pageId": 413289,
+      "revisionId": 15192241,
+      "timestamp": "2026-04-22T04:49:14Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Trident_of_the_Seas",
+      "title": "Trident of the Seas",
+      "pageId": 29314,
+      "revisionId": 15317937,
+      "timestamp": "2026-08-24T07:55:00Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Trident_of_the_Seas_(e)",
+      "title": "Trident of the Seas (e)",
+      "pageId": 111717,
+      "revisionId": 15316738,
+      "timestamp": "2026-08-22T21:06:50Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Trident_of_the_Swamp",
+      "title": "Trident of the Swamp",
+      "pageId": 44142,
+      "revisionId": 15316842,
+      "timestamp": "2026-08-22T21:51:40Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Trident_of_the_Swamp_(e)",
+      "title": "Trident of the Swamp (e)",
+      "pageId": 111720,
+      "revisionId": 15317835,
+      "timestamp": "2026-08-24T06:01:53Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Sanguinesti_staff",
+      "title": "Sanguinesti staff",
+      "pageId": 112767,
+      "revisionId": 15327870,
+      "timestamp": "2026-09-01T23:24:39Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Holy_sanguinesti_staff",
+      "title": "Holy sanguinesti staff",
+      "pageId": 314377,
+      "revisionId": 15276380,
+      "timestamp": "2026-07-27T02:40:16Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Thammaron's_sceptre",
+      "title": "Thammaron's sceptre",
+      "pageId": 119519,
+      "revisionId": 15316847,
+      "timestamp": "2026-08-22T21:53:25Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Accursed_sceptre",
+      "title": "Accursed sceptre",
+      "pageId": 365515,
+      "revisionId": 15316849,
+      "timestamp": "2026-08-22T21:53:54Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Tumeken's_shadow",
+      "title": "Tumeken's shadow",
+      "pageId": 359587,
+      "revisionId": 15316596,
+      "timestamp": "2026-08-22T16:46:43Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Eye_of_Ayak",
+      "title": "Eye of Ayak",
+      "pageId": 570270,
+      "revisionId": 15332761,
+      "timestamp": "2026-09-06T20:38:44Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Powered_staff",
+      "title": "Powered staff",
+      "pageId": 112444,
+      "revisionId": 15318151,
+      "timestamp": "2026-08-24T16:59:13Z",
+      "missing": false
+    }
+  ],
+  "poweredWeapons": {
+    "28585": "Loaded Warped sceptre charges prepared for this trip",
+    "28796": "Loaded Bone staff charges prepared for this trip",
+    "11907": "Loaded Trident of the Seas charges prepared for this trip",
+    "11905": "Loaded Trident of the Seas charges prepared for this trip",
+    "22288": "Loaded Trident of the Seas (e) charges prepared for this trip",
+    "12899": "Loaded Trident of the Swamp charges prepared for this trip",
+    "22292": "Loaded Trident of the Swamp (e) charges prepared for this trip",
+    "22323": "Loaded Sanguinesti staff charges prepared for this trip",
+    "25731": "Loaded Holy sanguinesti staff charges prepared for this trip",
+    "22555": "Loaded Thammaron's sceptre charges prepared for this trip",
+    "27665": "Loaded Accursed sceptre charges prepared for this trip",
+    "27275": "Loaded Tumeken's shadow charges prepared for this trip",
+    "31113": "Loaded Eye of Ayak charges prepared for this trip"
+  }
+}

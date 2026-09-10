@@ -26,7 +26,8 @@
   "undead": false,
   "boss": true,
   "location": "Kalphite Lair (Kharidian Desert)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "kalphite-queen"
+  "strategyId": "kalphite-queen",
+  "locationId": "kalphite-queen-lair"
 }

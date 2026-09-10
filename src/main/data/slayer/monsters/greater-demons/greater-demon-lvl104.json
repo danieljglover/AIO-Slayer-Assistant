@@ -25,7 +25,7 @@
   "undead": false,
   "boss": false,
   "location": "Wilderness Slayer Cave",
-  "requirement": "Wilderness Slayer Cave; player-killing risk",
+  "requirement": null,
   "bossId": null,
   "strategyId": "greater-demons"
 }

@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Royal Titans arena (Asgarnia)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "branda-the-fire-queen"
+  "strategyId": "branda-the-fire-queen",
+  "locationId": "royal-titans-arena"
 }

@@ -55,7 +55,8 @@
     "dagannoth-fledgeling",
     "dagannoth-dagannoth-rex",
     "dagannoth-dagannoth-prime",
-    "dagannoth-dagannoth-supreme"
+    "dagannoth-dagannoth-supreme",
+    "reanimated-dagannoth"
   ],
   "defaultVariantId": "dagannoth",
   "weakness": {
@@ -81,7 +82,9 @@
     "lighthouse-basement",
     "catacombs-of-kourend",
     "jormungand-s-prison-dagannoth",
-    "waterbirth-island"
+    "waterbirth-island",
+    "dagannoth-kings-lair",
+    "dark-altar"
   ],
   "variantInfo": [
     {
@@ -181,16 +184,16 @@
     },
     {
       "variantId": "reanimated-dagannoth",
-      "name": "Reanimated Dagannoth",
+      "name": "Reanimated dagannoth",
       "combatLevel": null,
-      "slayerXp": 35,
+      "slayerXp": 35.0,
       "locations": [
-        "Dark Altar",
-        "Other"
+        "Dark Altar"
       ],
       "notes": [
-        "Expert Reanimation on an ensouled dagannoth head summons a Reanimated Dagannoth for 35 Slayer XP and 936 Prayer experience.",
-        "If the spell is not cast soon enough after picking up the head, or if the player trades the head or teleports away, it must be reanimated at the Dark Altar."
+        "Counts for the corresponding Slayer task, giving 35 Slayer XP alongside Prayer XP.",
+        "Incidental reanimation target requiring the relevant Arceuus reanimation spell and ensouled head; not an independently spawned repeatable monster.",
+        "Reanimation works near the original drop while the head has not entered a bank, trade, Grand Exchange or price checker; otherwise use the Dark Altar."
       ]
     }
   ],

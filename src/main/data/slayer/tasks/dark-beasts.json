@@ -11,7 +11,8 @@
   "masterIds": [
     "konar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "konar": [
@@ -25,12 +26,17 @@
     "duradel": [
       10,
       20
+    ],
+    "mortimer": [
+      40,
+      60
     ]
   },
   "weightByMaster": {
     "konar": 5,
     "nieve": 5,
-    "duradel": 11
+    "duradel": 11,
+    "mortimer": 10
   },
   "extendedAmount": {
     "konar": [

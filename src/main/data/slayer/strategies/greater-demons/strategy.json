@@ -65,7 +65,14 @@
       "risks": [
         "Brimhaven spawns are spread out and are not ideal unless assigned there.",
         "Entrana is not advisable because normal weapons and armour cannot be taken there."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "demonic-ruins",
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "catacombs-shards",
@@ -84,7 +91,14 @@
       ],
       "notes": [
         "The Catacombs row is multicombat, safespottable, and not cannonable."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "demonic-ruins",
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "wilderness-cannon",
@@ -109,7 +123,14 @@
       ],
       "risks": [
         "The location is level 28 Wilderness and multicombat."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "demonic-ruins",
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -125,6 +146,13 @@
           "Arclight",
           "Abyssal whip"
         ]
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "demonic-ruins",
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -137,6 +165,13 @@
         "weapons": [
           "Scorching bow",
           "Toxic blowpipe"
+        ]
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "demonic-ruins",
+          "lava-maze-dungeon",
+          "wilderness-slayer-cave"
         ]
       }
     }

@@ -1,0 +1,2366 @@
+{
+  "spells": {
+    "Blood Rush": {
+      "name": "Blood Rush",
+      "family": "BLOOD",
+      "magicLevel": 56,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Blood rune": 1,
+        "Death rune": 2,
+        "Chaos rune": 2
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blood_Rush",
+          "title": "Blood Rush",
+          "pageId": 26590,
+          "revisionId": 14779879,
+          "timestamp": "2024-10-18T19:34:28Z",
+          "missing": false
+        }
+      ]
+    },
+    "Blood Burst": {
+      "name": "Blood Burst",
+      "family": "BLOOD",
+      "magicLevel": 68,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Death rune": 2,
+        "Blood rune": 2,
+        "Chaos rune": 4
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blood_Burst",
+          "title": "Blood Burst",
+          "pageId": 25023,
+          "revisionId": 15102375,
+          "timestamp": "2026-01-09T12:19:56Z",
+          "missing": false
+        }
+      ]
+    },
+    "Blood Blitz": {
+      "name": "Blood Blitz",
+      "family": "BLOOD",
+      "magicLevel": 80,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Death rune": 2,
+        "Blood rune": 4
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blood_Blitz",
+          "title": "Blood Blitz",
+          "pageId": 29038,
+          "revisionId": 14779887,
+          "timestamp": "2024-10-18T19:35:45Z",
+          "missing": false
+        }
+      ]
+    },
+    "Blood Barrage": {
+      "name": "Blood Barrage",
+      "family": "BLOOD",
+      "magicLevel": 92,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Death rune": 4,
+        "Blood rune": 4,
+        "Soul rune": 1
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blood_Barrage",
+          "title": "Blood Barrage",
+          "pageId": 19221,
+          "revisionId": 15020225,
+          "timestamp": "2025-11-08T10:59:27Z",
+          "missing": false
+        }
+      ]
+    },
+    "Ice Rush": {
+      "name": "Ice Rush",
+      "family": "ICE",
+      "magicLevel": 58,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Death rune": 2,
+        "Chaos rune": 2,
+        "Water rune": 2
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 24607,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ice_Rush",
+          "title": "Ice Rush",
+          "pageId": 10741,
+          "revisionId": 15304585,
+          "timestamp": "2026-08-17T21:28:36Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_ancient_ice_sack",
+          "title": "Blighted ancient ice sack",
+          "pageId": 261723,
+          "revisionId": 15255302,
+          "timestamp": "2026-07-06T18:22:11Z",
+          "missing": false
+        }
+      ]
+    },
+    "Ice Burst": {
+      "name": "Ice Burst",
+      "family": "ICE",
+      "magicLevel": 70,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Death rune": 2,
+        "Chaos rune": 4,
+        "Water rune": 4
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 24607,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ice_Burst",
+          "title": "Ice Burst",
+          "pageId": 10739,
+          "revisionId": 15304594,
+          "timestamp": "2026-08-17T21:36:48Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_ancient_ice_sack",
+          "title": "Blighted ancient ice sack",
+          "pageId": 261723,
+          "revisionId": 15255302,
+          "timestamp": "2026-07-06T18:22:11Z",
+          "missing": false
+        }
+      ]
+    },
+    "Ice Blitz": {
+      "name": "Ice Blitz",
+      "family": "ICE",
+      "magicLevel": 82,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Death rune": 2,
+        "Blood rune": 2,
+        "Water rune": 3
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 24607,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ice_Blitz",
+          "title": "Ice Blitz",
+          "pageId": 10738,
+          "revisionId": 15304591,
+          "timestamp": "2026-08-17T21:34:30Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_ancient_ice_sack",
+          "title": "Blighted ancient ice sack",
+          "pageId": 261723,
+          "revisionId": 15255302,
+          "timestamp": "2026-07-06T18:22:11Z",
+          "missing": false
+        }
+      ]
+    },
+    "Ice Barrage": {
+      "name": "Ice Barrage",
+      "family": "ICE",
+      "magicLevel": 94,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Death rune": 4,
+        "Blood rune": 2,
+        "Water rune": 6
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 24607,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ice_Barrage",
+          "title": "Ice Barrage",
+          "pageId": 10736,
+          "revisionId": 15304596,
+          "timestamp": "2026-08-17T21:38:17Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_ancient_ice_sack",
+          "title": "Blighted ancient ice sack",
+          "pageId": 261723,
+          "revisionId": 15255302,
+          "timestamp": "2026-07-06T18:22:11Z",
+          "missing": false
+        }
+      ]
+    },
+    "Shadow Rush": {
+      "name": "Shadow Rush",
+      "family": "SHADOW",
+      "magicLevel": 52,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Soul rune": 1,
+        "Death rune": 2,
+        "Chaos rune": 2,
+        "Air rune": 1
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Shadow_Rush",
+          "title": "Shadow Rush",
+          "pageId": 15818,
+          "revisionId": 15094176,
+          "timestamp": "2025-12-24T20:27:38Z",
+          "missing": false
+        }
+      ]
+    },
+    "Shadow Burst": {
+      "name": "Shadow Burst",
+      "family": "SHADOW",
+      "magicLevel": 64,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Soul rune": 2,
+        "Chaos rune": 4,
+        "Air rune": 1,
+        "Death rune": 2
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Shadow_Burst",
+          "title": "Shadow Burst",
+          "pageId": 29039,
+          "revisionId": 15252682,
+          "timestamp": "2026-07-04T18:23:07Z",
+          "missing": false
+        }
+      ]
+    },
+    "Shadow Blitz": {
+      "name": "Shadow Blitz",
+      "family": "SHADOW",
+      "magicLevel": 76,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Soul rune": 2,
+        "Blood rune": 2,
+        "Air rune": 2,
+        "Death rune": 2
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Shadow_Blitz",
+          "title": "Shadow Blitz",
+          "pageId": 29040,
+          "revisionId": 14779886,
+          "timestamp": "2024-10-18T19:35:38Z",
+          "missing": false
+        }
+      ]
+    },
+    "Shadow Barrage": {
+      "name": "Shadow Barrage",
+      "family": "SHADOW",
+      "magicLevel": 88,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Air rune": 4,
+        "Soul rune": 3,
+        "Blood rune": 2,
+        "Death rune": 4
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Shadow_Barrage",
+          "title": "Shadow Barrage",
+          "pageId": 28393,
+          "revisionId": 15142245,
+          "timestamp": "2026-03-04T04:33:21Z",
+          "missing": false
+        }
+      ]
+    },
+    "Smoke Rush": {
+      "name": "Smoke Rush",
+      "family": "SMOKE",
+      "magicLevel": 50,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Air rune": 1,
+        "Fire rune": 1,
+        "Chaos rune": 2,
+        "Death rune": 2
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Smoke_Rush",
+          "title": "Smoke Rush",
+          "pageId": 15817,
+          "revisionId": 14938734,
+          "timestamp": "2025-07-16T09:22:17Z",
+          "missing": false
+        }
+      ]
+    },
+    "Smoke Burst": {
+      "name": "Smoke Burst",
+      "family": "SMOKE",
+      "magicLevel": 62,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Air rune": 2,
+        "Fire rune": 2,
+        "Chaos rune": 4,
+        "Death rune": 2
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Smoke_Burst",
+          "title": "Smoke Burst",
+          "pageId": 28373,
+          "revisionId": 14938742,
+          "timestamp": "2025-07-16T09:36:25Z",
+          "missing": false
+        }
+      ]
+    },
+    "Smoke Blitz": {
+      "name": "Smoke Blitz",
+      "family": "SMOKE",
+      "magicLevel": 74,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Blood rune": 2,
+        "Air rune": 2,
+        "Death rune": 2,
+        "Fire rune": 2
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Smoke_Blitz",
+          "title": "Smoke Blitz",
+          "pageId": 29041,
+          "revisionId": 14938735,
+          "timestamp": "2025-07-16T09:22:48Z",
+          "missing": false
+        }
+      ]
+    },
+    "Smoke Barrage": {
+      "name": "Smoke Barrage",
+      "family": "SMOKE",
+      "magicLevel": 86,
+      "spellbook": "ANCIENT",
+      "offensive": true,
+      "runes": {
+        "Blood rune": 2,
+        "Air rune": 4,
+        "Death rune": 4,
+        "Fire rune": 4
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Smoke_Barrage",
+          "title": "Smoke Barrage",
+          "pageId": 22805,
+          "revisionId": 15132555,
+          "timestamp": "2026-02-22T07:45:47Z",
+          "missing": false
+        }
+      ]
+    },
+    "Kharyrll Teleport": {
+      "name": "Kharyrll Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 66,
+      "spellbook": "ANCIENT",
+      "offensive": false,
+      "runes": {
+        "Law rune": 2,
+        "Blood rune": 1
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Kharyrll_Teleport",
+          "title": "Kharyrll Teleport",
+          "pageId": 24986,
+          "revisionId": 15331348,
+          "timestamp": "2026-09-05T08:05:02Z",
+          "missing": false
+        }
+      ]
+    },
+    "Inferior Demonbane": {
+      "name": "Inferior Demonbane",
+      "family": "DEMONBANE",
+      "magicLevel": 44,
+      "spellbook": "ARCEUUS",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 3,
+        "Chaos rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Inferior_Demonbane",
+          "title": "Inferior Demonbane",
+          "pageId": 291980,
+          "revisionId": 15252750,
+          "timestamp": "2026-07-04T18:33:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Superior Demonbane": {
+      "name": "Superior Demonbane",
+      "family": "DEMONBANE",
+      "magicLevel": 62,
+      "spellbook": "ARCEUUS",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 5,
+        "Soul rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Superior_Demonbane",
+          "title": "Superior Demonbane",
+          "pageId": 291981,
+          "revisionId": 15148995,
+          "timestamp": "2026-03-15T01:35:20Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Dark Demonbane": {
+      "name": "Dark Demonbane",
+      "family": "DEMONBANE",
+      "magicLevel": 82,
+      "spellbook": "ARCEUUS",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 7,
+        "Soul rune": 2
+      },
+      "requirements": [
+        "A Kingdom Divided completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Dark_Demonbane",
+          "title": "Dark Demonbane",
+          "pageId": 291982,
+          "revisionId": 15148996,
+          "timestamp": "2026-03-15T01:35:31Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Ghostly Grasp": {
+      "name": "Ghostly Grasp",
+      "family": "GRASP",
+      "magicLevel": 35,
+      "spellbook": "ARCEUUS",
+      "offensive": true,
+      "runes": {
+        "Air rune": 4,
+        "Chaos rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ghostly_Grasp",
+          "title": "Ghostly Grasp",
+          "pageId": 291968,
+          "revisionId": 15252749,
+          "timestamp": "2026-07-04T18:33:55Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Skeletal Grasp": {
+      "name": "Skeletal Grasp",
+      "family": "GRASP",
+      "magicLevel": 56,
+      "spellbook": "ARCEUUS",
+      "offensive": true,
+      "runes": {
+        "Earth rune": 8,
+        "Death rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skeletal_Grasp",
+          "title": "Skeletal Grasp",
+          "pageId": 291970,
+          "revisionId": 14779872,
+          "timestamp": "2024-10-18T19:32:31Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Undead Grasp": {
+      "name": "Undead Grasp",
+      "family": "GRASP",
+      "magicLevel": 79,
+      "spellbook": "ARCEUUS",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 12,
+        "Blood rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Undead_Grasp",
+          "title": "Undead Grasp",
+          "pageId": 291971,
+          "revisionId": 15303961,
+          "timestamp": "2026-08-17T10:03:33Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Battlefront Teleport": {
+      "name": "Battlefront Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 23,
+      "spellbook": "ARCEUUS",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Earth rune": 1,
+        "Fire rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Battlefront_Teleport",
+          "title": "Battlefront Teleport",
+          "pageId": 204502,
+          "revisionId": 15252748,
+          "timestamp": "2026-07-04T18:33:55Z",
+          "missing": false
+        }
+      ]
+    },
+    "Cemetery Teleport": {
+      "name": "Cemetery Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 71,
+      "spellbook": "ARCEUUS",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Soul rune": 1,
+        "Blood rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Cemetery_Teleport",
+          "title": "Cemetery Teleport",
+          "pageId": 70041,
+          "revisionId": 15266150,
+          "timestamp": "2026-07-17T15:29:00Z",
+          "missing": false
+        }
+      ]
+    },
+    "Resurrect Lesser Ghost": {
+      "name": "Resurrect Lesser Ghost",
+      "family": "THRALL",
+      "magicLevel": 38,
+      "spellbook": "ARCEUUS",
+      "offensive": false,
+      "runes": {
+        "Air rune": 10,
+        "Mind rune": 5,
+        "Cosmic rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed",
+        "Book of the Dead carried or equipped",
+        "2 current Prayer points available for summoning a thrall"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Resurrect_Lesser_Ghost",
+          "title": "Resurrect Lesser Ghost",
+          "pageId": 314814,
+          "revisionId": 15300128,
+          "timestamp": "2026-08-14T04:41:28Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Resurrect Superior Ghost": {
+      "name": "Resurrect Superior Ghost",
+      "family": "THRALL",
+      "magicLevel": 57,
+      "spellbook": "ARCEUUS",
+      "offensive": false,
+      "runes": {
+        "Earth rune": 10,
+        "Death rune": 5,
+        "Cosmic rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed",
+        "Book of the Dead carried or equipped",
+        "4 current Prayer points available for summoning a thrall"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Resurrect_Superior_Ghost",
+          "title": "Resurrect Superior Ghost",
+          "pageId": 314817,
+          "revisionId": 15300136,
+          "timestamp": "2026-08-14T04:42:22Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Resurrect Greater Ghost": {
+      "name": "Resurrect Greater Ghost",
+      "family": "THRALL",
+      "magicLevel": 76,
+      "spellbook": "ARCEUUS",
+      "offensive": false,
+      "runes": {
+        "Fire rune": 10,
+        "Blood rune": 5,
+        "Cosmic rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed",
+        "Book of the Dead carried or equipped",
+        "6 current Prayer points available for summoning a thrall"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Resurrect_Greater_Ghost",
+          "title": "Resurrect Greater Ghost",
+          "pageId": 314820,
+          "revisionId": 15300140,
+          "timestamp": "2026-08-14T04:43:09Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Dark Lure": {
+      "name": "Dark Lure",
+      "family": "UTILITY",
+      "magicLevel": 50,
+      "spellbook": "ARCEUUS",
+      "offensive": false,
+      "runes": {
+        "Nature rune": 1,
+        "Death rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Dark_Lure",
+          "title": "Dark Lure",
+          "pageId": 291988,
+          "revisionId": 15284695,
+          "timestamp": "2026-07-31T20:12:03Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Mark of Darkness": {
+      "name": "Mark of Darkness",
+      "family": "UTILITY",
+      "magicLevel": 59,
+      "spellbook": "ARCEUUS",
+      "offensive": false,
+      "runes": {
+        "Cosmic rune": 1,
+        "Soul rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Mark_of_Darkness",
+          "title": "Mark of Darkness",
+          "pageId": 291991,
+          "revisionId": 15267261,
+          "timestamp": "2026-07-19T06:28:37Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Death Charge": {
+      "name": "Death Charge",
+      "family": "UTILITY",
+      "magicLevel": 80,
+      "spellbook": "ARCEUUS",
+      "offensive": false,
+      "runes": {
+        "Death rune": 1,
+        "Blood rune": 1,
+        "Soul rune": 1
+      },
+      "requirements": [
+        "A Kingdom Divided completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Death_Charge",
+          "title": "Death Charge",
+          "pageId": 291989,
+          "revisionId": 15252754,
+          "timestamp": "2026-07-04T18:33:57Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Arceuus_spellbook",
+          "title": "Arceuus spellbook",
+          "pageId": 68468,
+          "revisionId": 15322953,
+          "timestamp": "2026-08-28T12:13:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Moonclan Teleport": {
+      "name": "Moonclan Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 69,
+      "spellbook": "LUNAR",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Earth rune": 2,
+        "Astral rune": 2
+      },
+      "requirements": [
+        "Lunar Diplomacy completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Moonclan_Teleport",
+          "title": "Moonclan Teleport",
+          "pageId": 20045,
+          "revisionId": 14863798,
+          "timestamp": "2025-03-17T22:14:58Z",
+          "missing": false
+        }
+      ]
+    },
+    "Ourania Teleport": {
+      "name": "Ourania Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 71,
+      "spellbook": "LUNAR",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Earth rune": 6,
+        "Astral rune": 2
+      },
+      "requirements": [
+        "Lunar Diplomacy completed",
+        "Ourania Teleport unlocked by speaking to Baba Yaga"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ourania_Teleport",
+          "title": "Ourania Teleport",
+          "pageId": 80514,
+          "revisionId": 15207048,
+          "timestamp": "2026-05-06T11:05:57Z",
+          "missing": false
+        }
+      ]
+    },
+    "Catherby Teleport": {
+      "name": "Catherby Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 87,
+      "spellbook": "LUNAR",
+      "offensive": false,
+      "runes": {
+        "Law rune": 3,
+        "Water rune": 10,
+        "Astral rune": 3
+      },
+      "requirements": [
+        "Lunar Diplomacy completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Catherby_Teleport",
+          "title": "Catherby Teleport",
+          "pageId": 21647,
+          "revisionId": 14863808,
+          "timestamp": "2025-03-17T22:15:29Z",
+          "missing": false
+        }
+      ]
+    },
+    "Astral Contact": {
+      "name": "Astral Contact",
+      "family": "UTILITY",
+      "magicLevel": 67,
+      "spellbook": "LUNAR",
+      "offensive": false,
+      "runes": {
+        "Astral rune": 1,
+        "Cosmic rune": 1,
+        "Air rune": 2
+      },
+      "requirements": [
+        "Lunar Diplomacy completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lunar_spellbook",
+          "title": "Lunar spellbook",
+          "pageId": 17467,
+          "revisionId": 15279811,
+          "timestamp": "2026-07-29T12:18:32Z",
+          "missing": false
+        }
+      ]
+    },
+    "Vengeance Other": {
+      "name": "Vengeance Other",
+      "family": "UTILITY",
+      "magicLevel": 93,
+      "spellbook": "LUNAR",
+      "offensive": false,
+      "runes": {
+        "Astral rune": 3,
+        "Earth rune": 10,
+        "Death rune": 2
+      },
+      "requirements": [
+        "Lunar Diplomacy completed",
+        "Defence 40"
+      ],
+      "weaponIds": [],
+      "sackItemId": 24621,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vengeance_Other",
+          "title": "Vengeance Other",
+          "pageId": 28048,
+          "revisionId": 15125802,
+          "timestamp": "2026-02-12T17:28:28Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_vengeance_sack",
+          "title": "Blighted vengeance sack",
+          "pageId": 262468,
+          "revisionId": 15189717,
+          "timestamp": "2026-04-22T04:32:36Z",
+          "missing": false
+        }
+      ]
+    },
+    "Vengeance": {
+      "name": "Vengeance",
+      "family": "UTILITY",
+      "magicLevel": 94,
+      "spellbook": "LUNAR",
+      "offensive": false,
+      "runes": {
+        "Astral rune": 4,
+        "Earth rune": 10,
+        "Death rune": 2
+      },
+      "requirements": [
+        "Lunar Diplomacy completed",
+        "Defence 40"
+      ],
+      "weaponIds": [],
+      "sackItemId": 24621,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vengeance",
+          "title": "Vengeance",
+          "pageId": 25690,
+          "revisionId": 15258609,
+          "timestamp": "2026-07-09T13:01:46Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_vengeance_sack",
+          "title": "Blighted vengeance sack",
+          "pageId": 262468,
+          "revisionId": 15189717,
+          "timestamp": "2026-04-22T04:32:36Z",
+          "missing": false
+        }
+      ]
+    },
+    "Bind": {
+      "name": "Bind",
+      "family": "BIND",
+      "magicLevel": 20,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Nature rune": 2,
+        "Earth rune": 3,
+        "Water rune": 3
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 24613,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Bind",
+          "title": "Bind",
+          "pageId": 19965,
+          "revisionId": 15165009,
+          "timestamp": "2026-04-04T13:14:13Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_entangle_sack",
+          "title": "Blighted entangle sack",
+          "pageId": 261724,
+          "revisionId": 15189710,
+          "timestamp": "2026-04-22T04:32:33Z",
+          "missing": false
+        }
+      ]
+    },
+    "Snare": {
+      "name": "Snare",
+      "family": "BIND",
+      "magicLevel": 50,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Nature rune": 3,
+        "Earth rune": 4,
+        "Water rune": 4
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 24613,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Snare",
+          "title": "Snare",
+          "pageId": 19968,
+          "revisionId": 15175486,
+          "timestamp": "2026-04-14T05:01:46Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_entangle_sack",
+          "title": "Blighted entangle sack",
+          "pageId": 261724,
+          "revisionId": 15189710,
+          "timestamp": "2026-04-22T04:32:33Z",
+          "missing": false
+        }
+      ]
+    },
+    "Entangle": {
+      "name": "Entangle",
+      "family": "BIND",
+      "magicLevel": 79,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Nature rune": 4,
+        "Earth rune": 5,
+        "Water rune": 5
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 24613,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Entangle",
+          "title": "Entangle",
+          "pageId": 19973,
+          "revisionId": 15332714,
+          "timestamp": "2026-09-06T19:42:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_entangle_sack",
+          "title": "Blighted entangle sack",
+          "pageId": 261724,
+          "revisionId": 15189710,
+          "timestamp": "2026-04-22T04:32:33Z",
+          "missing": false
+        }
+      ]
+    },
+    "Earth Strike": {
+      "name": "Earth Strike",
+      "family": "EARTH",
+      "magicLevel": 9,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Earth rune": 2,
+        "Air rune": 1,
+        "Mind rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Earth_Strike",
+          "title": "Earth Strike",
+          "pageId": 14303,
+          "revisionId": 14970064,
+          "timestamp": "2025-08-20T19:30:11Z",
+          "missing": false
+        }
+      ]
+    },
+    "Earth Bolt": {
+      "name": "Earth Bolt",
+      "family": "EARTH",
+      "magicLevel": 29,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Earth rune": 3,
+        "Air rune": 2,
+        "Chaos rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Earth_Bolt",
+          "title": "Earth Bolt",
+          "pageId": 14289,
+          "revisionId": 14970065,
+          "timestamp": "2025-08-20T19:30:28Z",
+          "missing": false
+        }
+      ]
+    },
+    "Earth Blast": {
+      "name": "Earth Blast",
+      "family": "EARTH",
+      "magicLevel": 53,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Earth rune": 4,
+        "Air rune": 3,
+        "Death rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Earth_Blast",
+          "title": "Earth Blast",
+          "pageId": 17491,
+          "revisionId": 14970066,
+          "timestamp": "2025-08-20T19:30:54Z",
+          "missing": false
+        }
+      ]
+    },
+    "Earth Wave": {
+      "name": "Earth Wave",
+      "family": "EARTH",
+      "magicLevel": 70,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Earth rune": 7,
+        "Air rune": 5,
+        "Blood rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 26705,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Earth_Wave",
+          "title": "Earth Wave",
+          "pageId": 12879,
+          "revisionId": 14970067,
+          "timestamp": "2025-08-20T19:31:12Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_surge_sack",
+          "title": "Blighted surge sack",
+          "pageId": 350767,
+          "revisionId": 15291155,
+          "timestamp": "2026-08-09T16:10:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "Earth Surge": {
+      "name": "Earth Surge",
+      "family": "EARTH",
+      "magicLevel": 90,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Earth rune": 10,
+        "Air rune": 7,
+        "Wrath rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 26705,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Earth_Surge",
+          "title": "Earth Surge",
+          "pageId": 108580,
+          "revisionId": 14970068,
+          "timestamp": "2025-08-20T19:31:52Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_surge_sack",
+          "title": "Blighted surge sack",
+          "pageId": 350767,
+          "revisionId": 15291155,
+          "timestamp": "2026-08-09T16:10:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "Fire Strike": {
+      "name": "Fire Strike",
+      "family": "FIRE",
+      "magicLevel": 13,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 3,
+        "Air rune": 2,
+        "Mind rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fire_Strike",
+          "title": "Fire Strike",
+          "pageId": 14308,
+          "revisionId": 15144674,
+          "timestamp": "2026-03-08T09:13:55Z",
+          "missing": false
+        }
+      ]
+    },
+    "Fire Bolt": {
+      "name": "Fire Bolt",
+      "family": "FIRE",
+      "magicLevel": 35,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 4,
+        "Air rune": 3,
+        "Chaos rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fire_Bolt",
+          "title": "Fire Bolt",
+          "pageId": 10613,
+          "revisionId": 14970052,
+          "timestamp": "2025-08-20T19:22:43Z",
+          "missing": false
+        }
+      ]
+    },
+    "Fire Blast": {
+      "name": "Fire Blast",
+      "family": "FIRE",
+      "magicLevel": 59,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 5,
+        "Air rune": 4,
+        "Death rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fire_Blast",
+          "title": "Fire Blast",
+          "pageId": 10612,
+          "revisionId": 14970057,
+          "timestamp": "2025-08-20T19:23:44Z",
+          "missing": false
+        }
+      ]
+    },
+    "Fire Wave": {
+      "name": "Fire Wave",
+      "family": "FIRE",
+      "magicLevel": 75,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 7,
+        "Air rune": 5,
+        "Blood rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 26705,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fire_Wave",
+          "title": "Fire Wave",
+          "pageId": 10614,
+          "revisionId": 15252657,
+          "timestamp": "2026-07-04T17:47:41Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_surge_sack",
+          "title": "Blighted surge sack",
+          "pageId": 350767,
+          "revisionId": 15291155,
+          "timestamp": "2026-08-09T16:10:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "Fire Surge": {
+      "name": "Fire Surge",
+      "family": "FIRE",
+      "magicLevel": 95,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 10,
+        "Air rune": 7,
+        "Wrath rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 26705,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fire_Surge",
+          "title": "Fire Surge",
+          "pageId": 108581,
+          "revisionId": 14970075,
+          "timestamp": "2025-08-20T19:33:41Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_surge_sack",
+          "title": "Blighted surge sack",
+          "pageId": 350767,
+          "revisionId": 15291155,
+          "timestamp": "2026-08-09T16:10:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "Claws of Guthix": {
+      "name": "Claws of Guthix",
+      "family": "GOD",
+      "magicLevel": 60,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 1,
+        "Blood rune": 2,
+        "Air rune": 4
+      },
+      "requirements": [
+        "Mage Arena I completed",
+        "Claws of Guthix unlocked outside the Mage Arena"
+      ],
+      "weaponIds": [
+        2416,
+        8841,
+        24181,
+        24144
+      ],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Claws_of_Guthix",
+          "title": "Claws of Guthix",
+          "pageId": 16177,
+          "revisionId": 15083160,
+          "timestamp": "2025-12-10T16:23:49Z",
+          "missing": false
+        }
+      ]
+    },
+    "Flames of Zamorak": {
+      "name": "Flames of Zamorak",
+      "family": "GOD",
+      "magicLevel": 60,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 4,
+        "Blood rune": 2,
+        "Air rune": 1
+      },
+      "requirements": [
+        "Mage Arena I completed",
+        "Flames of Zamorak unlocked outside the Mage Arena"
+      ],
+      "weaponIds": [
+        2417,
+        11791,
+        12902,
+        12904
+      ],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Flames_of_Zamorak",
+          "title": "Flames of Zamorak",
+          "pageId": 15365,
+          "revisionId": 15298989,
+          "timestamp": "2026-08-14T02:14:39Z",
+          "missing": false
+        }
+      ]
+    },
+    "Saradomin Strike": {
+      "name": "Saradomin Strike",
+      "family": "GOD",
+      "magicLevel": 60,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Air rune": 4,
+        "Fire rune": 2,
+        "Blood rune": 2
+      },
+      "requirements": [
+        "Mage Arena I completed",
+        "Saradomin Strike unlocked outside the Mage Arena"
+      ],
+      "weaponIds": [
+        2415,
+        22296
+      ],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Saradomin_Strike",
+          "title": "Saradomin Strike",
+          "pageId": 13617,
+          "revisionId": 15274056,
+          "timestamp": "2026-07-24T18:51:15Z",
+          "missing": false
+        }
+      ]
+    },
+    "Iban Blast": {
+      "name": "Iban Blast",
+      "family": "IBAN",
+      "magicLevel": 50,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Fire rune": 5,
+        "Death rune": 1
+      },
+      "requirements": [
+        "Underground Pass completed",
+        "Attack 50"
+      ],
+      "weaponIds": [
+        1409,
+        12658
+      ],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Iban_Blast",
+          "title": "Iban Blast",
+          "pageId": 12443,
+          "revisionId": 15252693,
+          "timestamp": "2026-07-04T18:33:32Z",
+          "missing": false
+        }
+      ]
+    },
+    "Tele Block": {
+      "name": "Tele Block",
+      "family": "PVP_ONLY",
+      "magicLevel": 85,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Chaos rune": 1,
+        "Death rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Tele_Block",
+          "title": "Tele Block",
+          "pageId": 15712,
+          "revisionId": 15301572,
+          "timestamp": "2026-08-14T21:21:37Z",
+          "missing": false
+        }
+      ]
+    },
+    "Magic Dart": {
+      "name": "Magic Dart",
+      "family": "SLAYER_DART",
+      "magicLevel": 50,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Mind rune": 4,
+        "Death rune": 1
+      },
+      "requirements": [
+        "Slayer 55"
+      ],
+      "weaponIds": [
+        4170,
+        21255,
+        11791,
+        12902,
+        12904,
+        22296,
+        24144
+      ],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Magic_Dart",
+          "title": "Magic Dart",
+          "pageId": 17519,
+          "revisionId": 15299008,
+          "timestamp": "2026-08-14T02:18:10Z",
+          "missing": false
+        }
+      ]
+    },
+    "Varrock Teleport": {
+      "name": "Varrock Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 25,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Air rune": 3,
+        "Fire rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock_Teleport",
+          "title": "Varrock Teleport",
+          "pageId": 17435,
+          "revisionId": 14918406,
+          "timestamp": "2025-06-12T04:59:52Z",
+          "missing": false
+        }
+      ]
+    },
+    "Lumbridge Teleport": {
+      "name": "Lumbridge Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 31,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Air rune": 3,
+        "Earth rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lumbridge_Teleport",
+          "title": "Lumbridge Teleport",
+          "pageId": 16739,
+          "revisionId": 14918404,
+          "timestamp": "2025-06-12T04:59:25Z",
+          "missing": false
+        }
+      ]
+    },
+    "Falador Teleport": {
+      "name": "Falador Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 37,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Water rune": 1,
+        "Air rune": 3
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Falador_Teleport",
+          "title": "Falador Teleport",
+          "pageId": 16740,
+          "revisionId": 14918402,
+          "timestamp": "2025-06-12T04:59:03Z",
+          "missing": false
+        }
+      ]
+    },
+    "Teleport to House": {
+      "name": "Teleport to House",
+      "family": "TELEPORT",
+      "magicLevel": 40,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Earth rune": 1,
+        "Law rune": 1,
+        "Air rune": 1
+      },
+      "requirements": [
+        "Own a player-owned house"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_to_House",
+          "title": "Teleport to House",
+          "pageId": 17634,
+          "revisionId": 14918405,
+          "timestamp": "2025-06-12T04:59:41Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Player-owned_house",
+          "title": "Player-owned house",
+          "pageId": 6913,
+          "revisionId": 15272470,
+          "timestamp": "2026-07-22T18:12:24Z",
+          "missing": false
+        }
+      ]
+    },
+    "Camelot Teleport": {
+      "name": "Camelot Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 45,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Law rune": 1,
+        "Air rune": 5
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Camelot_Teleport",
+          "title": "Camelot Teleport",
+          "pageId": 18347,
+          "revisionId": 14918400,
+          "timestamp": "2025-06-12T04:58:38Z",
+          "missing": false
+        }
+      ]
+    },
+    "Kourend Castle Teleport": {
+      "name": "Kourend Castle Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 48,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Law rune": 2,
+        "Water rune": 1,
+        "Fire rune": 1
+      },
+      "requirements": [
+        "Client of Kourend completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Kourend_Castle_Teleport",
+          "title": "Kourend Castle Teleport",
+          "pageId": 68397,
+          "revisionId": 15311656,
+          "timestamp": "2026-08-20T00:33:04Z",
+          "missing": false
+        }
+      ]
+    },
+    "Ardougne Teleport": {
+      "name": "Ardougne Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 51,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Law rune": 2,
+        "Water rune": 2
+      },
+      "requirements": [
+        "Plague City completed",
+        "Ardougne teleport scroll read"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ardougne_Teleport",
+          "title": "Ardougne Teleport",
+          "pageId": 18348,
+          "revisionId": 14918399,
+          "timestamp": "2025-06-12T04:58:22Z",
+          "missing": false
+        }
+      ]
+    },
+    "Watchtower Teleport": {
+      "name": "Watchtower Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 58,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Earth rune": 2,
+        "Law rune": 2
+      },
+      "requirements": [
+        "Watchtower completed",
+        "Watchtower spell scroll read"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Watchtower_Teleport",
+          "title": "Watchtower Teleport",
+          "pageId": 18349,
+          "revisionId": 14863767,
+          "timestamp": "2025-03-17T22:10:57Z",
+          "missing": false
+        }
+      ]
+    },
+    "Crumble Undead": {
+      "name": "Crumble Undead",
+      "family": "UNDEAD",
+      "magicLevel": 39,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Earth rune": 2,
+        "Air rune": 2,
+        "Chaos rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Crumble_Undead",
+          "title": "Crumble Undead",
+          "pageId": 13204,
+          "revisionId": 15327729,
+          "timestamp": "2026-09-01T19:24:12Z",
+          "missing": false
+        }
+      ]
+    },
+    "Low Level Alchemy": {
+      "name": "Low Level Alchemy",
+      "family": "UTILITY",
+      "magicLevel": 21,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Nature rune": 1,
+        "Fire rune": 3
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Low_Level_Alchemy",
+          "title": "Low Level Alchemy",
+          "pageId": 11408,
+          "revisionId": 14959703,
+          "timestamp": "2025-08-06T02:35:11Z",
+          "missing": false
+        }
+      ]
+    },
+    "High Level Alchemy": {
+      "name": "High Level Alchemy",
+      "family": "UTILITY",
+      "magicLevel": 55,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Nature rune": 1,
+        "Fire rune": 5
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/High_Level_Alchemy",
+          "title": "High Level Alchemy",
+          "pageId": 11385,
+          "revisionId": 15311010,
+          "timestamp": "2026-08-19T23:59:33Z",
+          "missing": false
+        }
+      ]
+    },
+    "Bones to Peaches": {
+      "name": "Bones to Peaches",
+      "family": "UTILITY",
+      "magicLevel": 60,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Nature rune": 2,
+        "Water rune": 4,
+        "Earth rune": 4
+      },
+      "requirements": [
+        "Bones to Peaches unlocked from the Mage Training Arena"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Bones_to_Peaches",
+          "title": "Bones to Peaches",
+          "pageId": 16178,
+          "revisionId": 15252658,
+          "timestamp": "2026-07-04T17:48:11Z",
+          "missing": false
+        }
+      ]
+    },
+    "Charge": {
+      "name": "Charge",
+      "family": "UTILITY",
+      "magicLevel": 80,
+      "spellbook": "STANDARD",
+      "offensive": false,
+      "runes": {
+        "Fire rune": 3,
+        "Blood rune": 3,
+        "Air rune": 3
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Charge",
+          "title": "Charge",
+          "pageId": 17574,
+          "revisionId": 15299009,
+          "timestamp": "2026-08-14T02:18:28Z",
+          "missing": false
+        }
+      ]
+    },
+    "Water Strike": {
+      "name": "Water Strike",
+      "family": "WATER",
+      "magicLevel": 5,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Water rune": 1,
+        "Air rune": 1,
+        "Mind rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Water_Strike",
+          "title": "Water Strike",
+          "pageId": 16737,
+          "revisionId": 14970071,
+          "timestamp": "2025-08-20T19:32:47Z",
+          "missing": false
+        }
+      ]
+    },
+    "Water Bolt": {
+      "name": "Water Bolt",
+      "family": "WATER",
+      "magicLevel": 23,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Water rune": 2,
+        "Air rune": 2,
+        "Chaos rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Water_Bolt",
+          "title": "Water Bolt",
+          "pageId": 16448,
+          "revisionId": 14970050,
+          "timestamp": "2025-08-20T19:21:05Z",
+          "missing": false
+        }
+      ]
+    },
+    "Water Blast": {
+      "name": "Water Blast",
+      "family": "WATER",
+      "magicLevel": 47,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Water rune": 3,
+        "Air rune": 3,
+        "Death rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Water_Blast",
+          "title": "Water Blast",
+          "pageId": 15586,
+          "revisionId": 14970055,
+          "timestamp": "2025-08-20T19:23:22Z",
+          "missing": false
+        }
+      ]
+    },
+    "Water Wave": {
+      "name": "Water Wave",
+      "family": "WATER",
+      "magicLevel": 65,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Water rune": 7,
+        "Air rune": 5,
+        "Blood rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 26705,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Water_Wave",
+          "title": "Water Wave",
+          "pageId": 16467,
+          "revisionId": 14970059,
+          "timestamp": "2025-08-20T19:24:28Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_surge_sack",
+          "title": "Blighted surge sack",
+          "pageId": 350767,
+          "revisionId": 15291155,
+          "timestamp": "2026-08-09T16:10:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "Water Surge": {
+      "name": "Water Surge",
+      "family": "WATER",
+      "magicLevel": 85,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Water rune": 10,
+        "Air rune": 7,
+        "Wrath rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 26705,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Water_Surge",
+          "title": "Water Surge",
+          "pageId": 108579,
+          "revisionId": 14970074,
+          "timestamp": "2025-08-20T19:33:28Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_surge_sack",
+          "title": "Blighted surge sack",
+          "pageId": 350767,
+          "revisionId": 15291155,
+          "timestamp": "2026-08-09T16:10:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "Wind Strike": {
+      "name": "Wind Strike",
+      "family": "WIND",
+      "magicLevel": 1,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Air rune": 1,
+        "Mind rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wind_Strike",
+          "title": "Wind Strike",
+          "pageId": 15867,
+          "revisionId": 14970070,
+          "timestamp": "2025-08-20T19:32:35Z",
+          "missing": false
+        }
+      ]
+    },
+    "Wind Bolt": {
+      "name": "Wind Bolt",
+      "family": "WIND",
+      "magicLevel": 17,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Air rune": 2,
+        "Chaos rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wind_Bolt",
+          "title": "Wind Bolt",
+          "pageId": 16476,
+          "revisionId": 14970049,
+          "timestamp": "2025-08-20T19:20:10Z",
+          "missing": false
+        }
+      ]
+    },
+    "Wind Blast": {
+      "name": "Wind Blast",
+      "family": "WIND",
+      "magicLevel": 41,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Air rune": 3,
+        "Death rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wind_Blast",
+          "title": "Wind Blast",
+          "pageId": 17490,
+          "revisionId": 14970053,
+          "timestamp": "2025-08-20T19:22:55Z",
+          "missing": false
+        }
+      ]
+    },
+    "Wind Wave": {
+      "name": "Wind Wave",
+      "family": "WIND",
+      "magicLevel": 62,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Air rune": 5,
+        "Blood rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 26705,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wind_Wave",
+          "title": "Wind Wave",
+          "pageId": 17494,
+          "revisionId": 14970058,
+          "timestamp": "2025-08-20T19:23:57Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_surge_sack",
+          "title": "Blighted surge sack",
+          "pageId": 350767,
+          "revisionId": 15291155,
+          "timestamp": "2026-08-09T16:10:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "Wind Surge": {
+      "name": "Wind Surge",
+      "family": "WIND",
+      "magicLevel": 81,
+      "spellbook": "STANDARD",
+      "offensive": true,
+      "runes": {
+        "Air rune": 7,
+        "Wrath rune": 1
+      },
+      "requirements": [],
+      "weaponIds": [],
+      "sackItemId": 26705,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wind_Surge",
+          "title": "Wind Surge",
+          "pageId": 108578,
+          "revisionId": 14970073,
+          "timestamp": "2025-08-20T19:33:08Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_surge_sack",
+          "title": "Blighted surge sack",
+          "pageId": 350767,
+          "revisionId": 15291155,
+          "timestamp": "2026-08-09T16:10:20Z",
+          "missing": false
+        }
+      ]
+    },
+    "Paddewwa Teleport": {
+      "name": "Paddewwa Teleport",
+      "family": "TELEPORT",
+      "magicLevel": 54,
+      "spellbook": "ANCIENT",
+      "offensive": false,
+      "runes": {
+        "Law rune": 2,
+        "Air rune": 1,
+        "Fire rune": 1
+      },
+      "requirements": [
+        "Desert Treasure I completed"
+      ],
+      "weaponIds": [],
+      "sackItemId": 0,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Paddewwa_Teleport",
+          "title": "Paddewwa Teleport",
+          "pageId": 14144,
+          "revisionId": 15331334,
+          "timestamp": "2026-09-05T07:55:52Z",
+          "missing": false
+        }
+      ]
+    }
+  },
+  "quantityPolicy": "Use the configured combat cast target (default 500). Merge per-spell demand, verify current Magic/spellbook/unlocks, then substitute only equipped infinite sources and fully funded combination runes or valid blighted sacks. Planned pouch packing is separate from observed contents."
+}

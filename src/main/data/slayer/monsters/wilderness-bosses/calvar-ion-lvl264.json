@@ -24,8 +24,8 @@
   "undead": true,
   "boss": true,
   "location": "Skeletal Tomb, level 21 Wilderness singles-plus combat area (the singles-plus alternative to Vet'ion).",
-  "locationId": null,
-  "requirement": "boss - separate trip",
+  "locationId": "skeletal-tomb",
+  "requirement": null,
   "bossId": null,
   "strategyId": "vet-ion",
   "offence": {

@@ -1,0 +1,56 @@
+{
+  "variantId": "skeleton-edgeville-wilderness",
+  "name": "Skeleton",
+  "npcIds": [
+    82
+  ],
+  "combatLevel": 45,
+  "weakness": {
+    "style": "MELEE",
+    "element": "earth"
+  },
+  "monsterDefence": {
+    "defenceLevel": 36,
+    "stab": 9,
+    "slash": 11,
+    "crush": -2,
+    "magic": 1,
+    "range": 4
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Edgeville Dungeon (Wilderness skeletons)",
+  "locationId": "edgeville-dungeon-wilderness-skeletons",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "skeletons",
+  "offence": {
+    "hitpoints": 59,
+    "maxHit": 5,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 4
+  },
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skeleton",
+      "title": "Skeleton",
+      "pageId": 13405,
+      "revisionId": 15323222,
+      "timestamp": "2026-08-28T15:58:12Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Skeletons",
+      "title": "Slayer task/Skeletons",
+      "pageId": 298266,
+      "revisionId": 15325000,
+      "timestamp": "2026-08-29T22:05:41Z",
+      "missing": false
+    }
+  ]
+}

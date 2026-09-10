@@ -27,5 +27,5 @@
   "locationId": "corsair-cove-dungeon",
   "requirement": "Requires partial completion of The Corsair Curse or level 10 Agility to reach the Corsair Cove Dungeon. Attacks with Magic.",
   "bossId": null,
-  "strategyId": null
+  "strategyId": "ogres-task-methods"
 }

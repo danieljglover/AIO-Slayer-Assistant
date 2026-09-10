@@ -7,5 +7,9 @@
   "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
-  "accessNote": "Boss-only area for Abyssal Sire, used as an optional Abyssal demons task boss alternative."
+  "accessNote": "Boss-only area for Abyssal Sire, used as an optional Abyssal demons task boss alternative.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Abyssal_Nexus",
+  "advisorRequirements": [
+    "SLAYER >= 85"
+  ]
 }

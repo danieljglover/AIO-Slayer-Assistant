@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "West of the Rogues' Castle, deep Wilderness",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "chaos-elemental"
+  "strategyId": "chaos-elemental",
+  "locationId": "chaos-elemental-rogues-castle"
 }

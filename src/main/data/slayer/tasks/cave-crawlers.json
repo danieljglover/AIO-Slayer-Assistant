@@ -9,7 +9,8 @@
   "masterIds": [
     "turael",
     "spria",
-    "mazchna"
+    "mazchna",
+    "mortimer"
   ],
   "amountByMaster": {
     "turael": [
@@ -23,12 +24,17 @@
     "mazchna": [
       30,
       50
+    ],
+    "mortimer": [
+      35,
+      50
     ]
   },
   "weightByMaster": {
     "turael": 8,
     "spria": 8,
-    "mazchna": 8
+    "mazchna": 8,
+    "mortimer": 10
   },
   "unlocks": [],
   "monsterIds": [

@@ -14,7 +14,8 @@
     "chaeldar",
     "konar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "krystilia": [
@@ -40,6 +41,10 @@
     "duradel": [
       130,
       200
+    ],
+    "mortimer": [
+      120,
+      180
     ]
   },
   "weightByMaster": {
@@ -48,7 +53,8 @@
     "chaeldar": 9,
     "konar": 6,
     "nieve": 6,
-    "duradel": 5
+    "duradel": 5,
+    "mortimer": 8
   },
   "extendedAmount": {
     "krystilia": [
@@ -142,7 +148,8 @@
         "Dust devils use a ranged melee attack: it is treated as melee, but rolls against the player's ranged defence.",
         "A facemask or Slayer helmet is required; without one, Dust devils rapidly damage the player and drain combat stats.",
         "Dust devils have very low Defence and a 35% air elemental weakness.",
-        "They are popular for Ancient Magicks burst and barrage tasks in multicombat areas."
+        "They are popular for Ancient Magicks burst and barrage tasks in multicombat areas.",
+        "Dust devil assignments require 65 Slayer and starting Desert Treasure I; a facemask or Slayer helmet provides required protection."
       ]
     },
     {

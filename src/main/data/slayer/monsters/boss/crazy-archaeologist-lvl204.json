@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Ruins south of the Forgotten Cemetery, ~Level 23 Wilderness",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "crazy-archaeologist"
+  "strategyId": "crazy-archaeologist",
+  "locationId": "forgotten-cemetery"
 }

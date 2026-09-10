@@ -26,7 +26,7 @@
   "locationId": "dorgesh-kaan-south-dungeon",
   "requirement": "Slayer 39; combat level 50; completion of Death to the Dorgeshuun; a Slayer bell to lure them off the wall and a light source",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "molanisks-task-methods",
   "offence": {
     "hitpoints": 52,
     "maxHit": 5,

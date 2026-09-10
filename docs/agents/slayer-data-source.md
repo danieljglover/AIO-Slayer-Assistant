@@ -5,11 +5,13 @@ or interpreting `src/main/data/slayer`.
 
 ## Source Folder
 
-`src/main/data/slayer` is the editable Slayer knowledge base. Gradle compiles it
-with `ModularSlayerDataCompiler` into
-`build/generated/resources/slayer/data/slayer-data.json`. Runtime consumers still
-load `/data/slayer-data.json` through `SlayerDataService`; do not edit generated
-runtime JSON directly.
+`src/main/data/slayer` is the editable Slayer knowledge base. The rebuilt runtime
+loads `/data/advisor-catalogue.json` through `AdvisorDataService`.
+`AdvisorCatalogueCompiler` combines the modular graph with the reviewed wiki
+equipment and context mappings under `advisor/`. The existing modular compiler
+also runs to validate the original source contracts. Do not edit generated JSON.
+See [Advisor catalogue authoring](advisor-catalogue.md) for the additional inputs
+and eligibility constraints.
 
 Current layout:
 
@@ -21,11 +23,12 @@ src/main/data/slayer/
   locations/    Location capability records used by task routing and Konar.
   weapons/      Stable weapon IDs mapped to RuneLite item IDs and effects.
   strategies/   Strategy records; prefer <strategy-id>/strategy.json.
+  advisor/      Wiki evidence, equipment eligibility, and reviewed runtime mappings.
 ```
 
-As of 2026-07-03, the folder contains 1047 source files: 9 masters, 117 tasks,
-377 monster variant files, 286 locations, 81 weapons, 151 JSON strategy files,
-and 9 legacy strategy Markdown files. New or migrated strategy work should use
+Current counts and unresolved contexts are recorded in
+[the reconstruction coverage report](../reconstruction/data-coverage.md).
+New or migrated strategy work should use
 `src/main/data/slayer/strategies/<strategy-id>/strategy.json`.
 
 ## IDs And Joins

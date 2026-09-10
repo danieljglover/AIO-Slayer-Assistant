@@ -5,6 +5,12 @@ build/
 out/
 bin/
 .DS_Store
+__pycache__/
 
 # captured Jagex dev session (secret)
 scripts/.jagex-env
+
+# Local client output and login state must not be distributed.
+scratchpad/*.log
+.runelite/
+credentials.properties

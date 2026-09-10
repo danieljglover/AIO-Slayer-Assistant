@@ -26,7 +26,7 @@
   "locationId": "ammonite-crabs-fossil-island",
   "requirement": "Slayer 1; completion of Bone Voyage to reach Fossil Island",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "crabs-task-methods",
   "offence": {
     "hitpoints": 100,
     "maxHit": 1,

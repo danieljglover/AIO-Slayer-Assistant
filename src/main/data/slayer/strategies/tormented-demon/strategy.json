@@ -1,0 +1,954 @@
+{
+  "strategyId": "tormented-demon",
+  "variantIds": [
+    "tormented-demon"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Tormented_Demon/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "arclight",
+      "abyssal-bludgeon",
+      "abyssal-whip"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "purging-staff",
+        "style": "MAGIC"
+      }
+    ],
+    "note": "A hybrid encounter requiring at least two styles. Use demonbane or abyssal weapons; carry the second style and appropriate ammunition/runes."
+  },
+  "requirements": [
+    "While Guthix Sleeps",
+    "At least two combat styles and protection prayers."
+  ],
+  "mechanics": [
+    "Tormented demons change protection prayer after taking 150 damage and pause their attacks for six ticks.",
+    "Non-demonbane and non-abyssal damage is reduced by the fire shield.",
+    "The shield drops at the beginning and following fire bombs; a slow crush weapon, heavy ranged weapon, or manually cast spell can exploit the next hit.",
+    "Shield-down attack bonuses depend on weapon speed; powered staves do not qualify as spells for this bonus.",
+    "After roughly 30 ticks of ordinary combat the demon becomes defenceless, granting 100% accuracy until the first hit after fire bombs.",
+    "Fire bombs bind briefly, disable run, and damage their landing areas even after the demon dies. Open spaces offer more escape room.",
+    "With two demons one uses melee and the other ranged or magic. A third uses fire bombs, greatly increasing attention."
+  ],
+  "methods": [
+    {
+      "methodId": "max-melee-magic",
+      "label": "Max Melee/Magic",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Use melee with a magic switch whenever the demon protects against the current style. A high-damage hybrid with more equipment switches.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Torva full helm"
+          ],
+          "cape": [
+            "Infernal cape"
+          ],
+          "neck": [
+            "Amulet of rancour"
+          ],
+          "ammo": [
+            "Rada's blessing 4"
+          ],
+          "weapon": [
+            "Emberlight"
+          ],
+          "body": [
+            "Torva platebody"
+          ],
+          "legs": [
+            "Torva platelegs"
+          ],
+          "shield": [
+            "Avernic defender"
+          ],
+          "hands": [
+            "Ferocious gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)"
+          ],
+          "ring": [
+            "Ultor ring"
+          ]
+        }
+      },
+      "steps": [
+        "Start with a style the demon does not protect against; change style after its protection prayer changes.",
+        "Use the second style as a complete usable setup, including ammunition or spell runes.",
+        "Use slow crush or heavy ranged weapons for the shield-down hit; set heavy ranged weapons to Accurate.",
+        "Use the defenceless period for suitable special attacks or high damage with fewer accuracy switches."
+      ],
+      "notes": [
+        "The setup is a preparation reference; the plugin does not issue live prayer or movement prompts.",
+        "Rune quantities are trip-planning defaults, not a guarantee for a full assignment.",
+        "If choosing an alternative magic staff, check its autocast compatibility and rune supply."
+      ],
+      "advisor": {
+        "requirements": [
+          "While Guthix Sleeps",
+          "MAGIC >= 82",
+          "A Kingdom Divided",
+          "Arceuus spellbook with Dark Demonbane and Mark of Darkness selected"
+        ],
+        "requiredItems": [
+          {
+            "name": "Soul rune",
+            "quantity": 1000,
+            "required": true
+          },
+          {
+            "name": "Fire rune",
+            "quantity": 5000,
+            "required": true
+          },
+          {
+            "name": "Cosmic rune",
+            "quantity": 100,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion(4) or Super restore(4)",
+            "quantity": 8,
+            "required": false
+          },
+          {
+            "name": "Shark",
+            "quantity": 4,
+            "required": false
+          },
+          {
+            "name": "Divine super combat potion(4)",
+            "quantity": 2,
+            "required": false
+          },
+          {
+            "name": "Guthixian temple teleport",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Purging staff or Toxic staff of the dead",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Ancestral robe top",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Ancestral robe bottom",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Ancestral hat",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Occult necklace",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Confliction gauntlets",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Elidinis' ward (f)",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "coverageStatus": "Hybrid requirements, equipment and inventory alternatives reviewed against wiki revision 15332199",
+        "locationIds": [
+          "ancient-guthixian-temple"
+        ],
+        "equipmentReviewed": true
+      }
+    },
+    {
+      "methodId": "max-melee-ranged",
+      "label": "Max Melee/Ranged",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Use melee with a ranged switch whenever the demon protects against the current style. A high-damage hybrid with more equipment switches.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Torva full helm"
+          ],
+          "cape": [
+            "Infernal cape"
+          ],
+          "neck": [
+            "Amulet of rancour"
+          ],
+          "ammo": [
+            "Dragon javelin"
+          ],
+          "weapon": [
+            "Emberlight"
+          ],
+          "body": [
+            "Torva platebody"
+          ],
+          "legs": [
+            "Torva platelegs"
+          ],
+          "shield": [
+            "Avernic defender"
+          ],
+          "hands": [
+            "Ferocious gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)"
+          ],
+          "ring": [
+            "Ultor ring"
+          ]
+        }
+      },
+      "steps": [
+        "Start with a style the demon does not protect against; change style after its protection prayer changes.",
+        "Use the second style as a complete usable setup, including ammunition or spell runes.",
+        "Use slow crush or heavy ranged weapons for the shield-down hit; set heavy ranged weapons to Accurate.",
+        "Use the defenceless period for suitable special attacks or high damage with fewer accuracy switches."
+      ],
+      "notes": [
+        "The setup is a preparation reference; the plugin does not issue live prayer or movement prompts.",
+        "Rune quantities are trip-planning defaults, not a guarantee for a full assignment.",
+        "If choosing an alternative magic staff, check its autocast compatibility and rune supply."
+      ],
+      "advisor": {
+        "requirements": [
+          "While Guthix Sleeps"
+        ],
+        "requiredItems": [
+          {
+            "name": "Dragon arrow or Amethyst arrow",
+            "quantity": 1000,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion(4) or Super restore(4)",
+            "quantity": 8,
+            "required": false
+          },
+          {
+            "name": "Shark",
+            "quantity": 4,
+            "required": false
+          },
+          {
+            "name": "Divine super combat potion(4)",
+            "quantity": 2,
+            "required": false
+          },
+          {
+            "name": "Guthixian temple teleport",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Scorching bow or Twisted bow",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Elite void top",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Elite void robe",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Void ranger helm",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Void knight gloves",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Necklace of rupture",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Dizana's quiver",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "coverageStatus": "Hybrid requirements, equipment and inventory alternatives reviewed against wiki revision 15332199",
+        "locationIds": [
+          "ancient-guthixian-temple"
+        ],
+        "equipmentReviewed": true
+      }
+    },
+    {
+      "methodId": "budget-melee-magic",
+      "label": "Budget Melee/Magic",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Use melee with a magic switch whenever the demon protects against the current style. Moon armour reduces switches and leaves more room for food.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Blue moon helm"
+          ],
+          "cape": [
+            "Fire cape"
+          ],
+          "neck": [
+            "Amulet of fury"
+          ],
+          "ammo": [
+            "Rada's blessing 4"
+          ],
+          "weapon": [
+            "Arclight"
+          ],
+          "body": [
+            "Blue moon chestplate"
+          ],
+          "legs": [
+            "Blue moon tassets"
+          ],
+          "shield": [
+            "Dragon defender"
+          ],
+          "hands": [
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Dragon boots"
+          ],
+          "ring": [
+            "Berserker ring (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Start with a style the demon does not protect against; change style after its protection prayer changes.",
+        "Use the second style as a complete usable setup, including ammunition or spell runes.",
+        "Use slow crush or heavy ranged weapons for the shield-down hit; set heavy ranged weapons to Accurate.",
+        "Use the defenceless period for suitable special attacks or high damage with fewer accuracy switches."
+      ],
+      "notes": [
+        "The setup is a preparation reference; the plugin does not issue live prayer or movement prompts.",
+        "Rune quantities are trip-planning defaults, not a guarantee for a full assignment.",
+        "If choosing an alternative magic staff, check its autocast compatibility and rune supply."
+      ],
+      "advisor": {
+        "requirements": [
+          "While Guthix Sleeps",
+          "MAGIC >= 82",
+          "A Kingdom Divided",
+          "Arceuus spellbook with Dark Demonbane and Mark of Darkness selected"
+        ],
+        "requiredItems": [
+          {
+            "name": "Soul rune",
+            "quantity": 1000,
+            "required": true
+          },
+          {
+            "name": "Fire rune",
+            "quantity": 5000,
+            "required": true
+          },
+          {
+            "name": "Cosmic rune",
+            "quantity": 100,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion(4) or Super restore(4)",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Shark",
+            "quantity": 10,
+            "required": false
+          },
+          {
+            "name": "Divine super combat potion(4)",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Guthixian temple teleport",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Ahrim's staff or Staff of the dead",
+            "quantity": 1,
+            "required": true
+          },
+          {
+            "name": "Imbued Saradomin cape",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Occult necklace",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "coverageStatus": "Hybrid requirements, equipment and inventory alternatives reviewed against wiki revision 15332199",
+        "locationIds": [
+          "ancient-guthixian-temple"
+        ],
+        "equipmentReviewed": true
+      }
+    },
+    {
+      "methodId": "budget-melee-ranged",
+      "label": "Budget Melee/Ranged",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Use melee with a ranged switch whenever the demon protects against the current style. Moon armour reduces switches and leaves more room for food.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Eclipse moon helm"
+          ],
+          "cape": [
+            "Fire cape"
+          ],
+          "neck": [
+            "Amulet of fury"
+          ],
+          "ammo": [
+            "Atlatl dart"
+          ],
+          "weapon": [
+            "Arclight"
+          ],
+          "body": [
+            "Eclipse moon chestplate"
+          ],
+          "legs": [
+            "Eclipse moon tassets"
+          ],
+          "shield": [
+            "Dragon defender"
+          ],
+          "hands": [
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Dragon boots"
+          ],
+          "ring": [
+            "Berserker ring (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Start with a style the demon does not protect against; change style after its protection prayer changes.",
+        "Use the second style as a complete usable setup, including ammunition or spell runes.",
+        "Use slow crush or heavy ranged weapons for the shield-down hit; set heavy ranged weapons to Accurate.",
+        "Use the defenceless period for suitable special attacks or high damage with fewer accuracy switches."
+      ],
+      "notes": [
+        "The setup is a preparation reference; the plugin does not issue live prayer or movement prompts.",
+        "Rune quantities are trip-planning defaults, not a guarantee for a full assignment.",
+        "If choosing an alternative magic staff, check its autocast compatibility and rune supply."
+      ],
+      "advisor": {
+        "requirements": [
+          "While Guthix Sleeps"
+        ],
+        "requiredItems": [
+          {
+            "name": "Atlatl dart",
+            "quantity": 1000,
+            "required": true
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Prayer potion(4) or Super restore(4)",
+            "quantity": 6,
+            "required": false
+          },
+          {
+            "name": "Shark",
+            "quantity": 10,
+            "required": false
+          },
+          {
+            "name": "Divine super combat potion(4)",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Guthixian temple teleport",
+            "quantity": 1,
+            "required": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "quantity": 1,
+            "required": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Eclipse atlatl",
+            "quantity": 1,
+            "required": true
+          }
+        ],
+        "coverageStatus": "Hybrid requirements, equipment and inventory alternatives reviewed against wiki revision 15332199",
+        "locationIds": [
+          "ancient-guthixian-temple"
+        ],
+        "equipmentReviewed": true
+      }
+    },
+    {
+      "methodId": "travel",
+      "label": "Temple transportation",
+      "combatStyle": "MELEE",
+      "role": "travel",
+      "summary": "Direct teleport scrolls are fastest; games necklace plus a lit sapphire lantern is the alternative.",
+      "steps": [
+        "Use Guthixian temple teleport scrolls to reach the temple directly.",
+        "Alternatively teleport to Tears of Guthix using a games necklace or jewellery box, use a lit sapphire lantern on a light creature, and continue via the chasm and central skull."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Procedural alternative reviewed against wiki revision 15332199"
+      }
+    },
+    {
+      "methodId": "multi-demon",
+      "label": "Fighting two or three demons",
+      "combatStyle": "MELEE",
+      "role": "advanced",
+      "summary": "Multiple demons change attack timing and shorten shield-down punish attacks.",
+      "steps": [
+        "Two demons use separate melee and ranged/magic attacks; movement can disrupt their attack cadence.",
+        "A third demon uses additional fire bombs.",
+        "Open terrain reduces the chance of being trapped by bomb landing areas."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Procedural alternative reviewed against wiki revision 15332199"
+      }
+    },
+    {
+      "methodId": "shield-down",
+      "label": "Shield-down punish alternatives",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Slow crush, heavy ranged, and manual spells gain damage and speed on the shield-down hit.",
+      "steps": [
+        "Dharok's greataxe on crush, Heavy ballista on Accurate, Dragon 2h sword, and Tzhaar-ket-om are options.",
+        "Full Dharok multiplies the shield-down bonus based on missing health. Tzhaar-ket-om with Berserker necklace multiplies damage.",
+        "Godswords must be set to crush to qualify; powered staves do not receive the spell bonus.",
+        "A manually cast spell with a slow Dark bow or Ogre bow equipped can exploit weapon speed."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Procedural alternative reviewed against wiki revision 15332199"
+      }
+    },
+    {
+      "methodId": "trip-extension",
+      "label": "Special attacks and trip extension",
+      "combatStyle": "MELEE",
+      "role": "support",
+      "summary": "Healing special attacks, Death Charge and a third-style thrall can extend trips.",
+      "steps": [
+        "Saradomin godsword and Eldritch nightmare staff are sustain options during guaranteed-accuracy periods.",
+        "The godsword's flat shield-down bonus does not restore extra health or prayer.",
+        "Use a thrall of the third combat style for uptime; it may occasionally trigger a protection-prayer switch.",
+        "Death Charge competes with High Alchemy spellbook access; Explorer's ring 4 is an alchemy alternative."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Procedural alternative reviewed against wiki revision 15332199"
+      }
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "wiki-1",
+      "label": "Defencelessness / Equipment / Melee",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Style switch or shield-down equipment priority reference, used within a hybrid setup.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Torva full helm",
+            "Oathplate helm",
+            "Neitiznot faceguard",
+            "Serpentine helm",
+            "Inquisitor's great helm",
+            "Blood moon helm",
+            "Helm of Neitiznot",
+            "Eclipse moon helm",
+            "Blue moon helm"
+          ],
+          "amulet": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of blood fury",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Infernal cape",
+            "Fire cape"
+          ],
+          "body": [
+            "Torva platebody",
+            "Oathplate chest",
+            "Bandos chestplate",
+            "Inquisitor's hauberk",
+            "Blood moon chestplate",
+            "Fighter torso",
+            "Eclipse moon chestplate",
+            "Obsidian platebody",
+            "Blue moon chestplate",
+            "Mixed hide top"
+          ],
+          "legs": [
+            "Torva platelegs",
+            "Oathplate legs",
+            "Bandos tassets",
+            "Inquisitor's plateskirt",
+            "Blood moon tassets",
+            "Eclipse moon tassets",
+            "Obsidian platelegs",
+            "Blue moon tassets",
+            "Mixed hide legs"
+          ],
+          "weapon": [
+            "Emberlight",
+            "Arclight",
+            "Abyssal bludgeon",
+            "Abyssal dagger (p++)",
+            "Osmumten's fang",
+            "Abyssal tentacle",
+            "Abyssal whip"
+          ],
+          "shield": [
+            "Avernic defender",
+            "Dragon defender"
+          ],
+          "hands": [
+            "Ferocious gloves",
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Aranea boots",
+            "Dragon boots",
+            "Echo boots",
+            "Mixed hide boots"
+          ],
+          "ring": [
+            "Ultor ring",
+            "Berserker ring (i)",
+            "Lightbearer"
+          ]
+        }
+      },
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Equipment priority table reviewed against wiki revision 15332199"
+      }
+    },
+    {
+      "styleId": "wiki-2",
+      "label": "Defencelessness / Equipment / Melee",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Style switch or shield-down equipment priority reference, used within a hybrid setup.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Dharok's greataxe",
+            "Tzhaar-ket-om",
+            "Dragon 2h sword",
+            "Tzhaar-ket-om",
+            "Granite maul",
+            "Rune 2h sword",
+            "Saradomin godsword"
+          ]
+        }
+      },
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Equipment priority table reviewed against wiki revision 15332199"
+      }
+    },
+    {
+      "styleId": "wiki-3",
+      "label": "Defencelessness / Equipment / Ranged",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Style switch or shield-down equipment priority reference, used within a hybrid setup.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Void ranger helm",
+            "Masori mask (f)",
+            "Masori mask",
+            "Crystal helm",
+            "Eclipse moon helm"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Elite void top",
+            "Masori body",
+            "Crystal body",
+            "Eclipse moon chestplate",
+            "Blessed body",
+            "Black d'hide body",
+            "Mixed hide top"
+          ],
+          "legs": [
+            "Masori chaps (f)",
+            "Elite void robe",
+            "Masori chaps",
+            "Crystal legs",
+            "Eclipse moon tassets",
+            "Blessed chaps",
+            "Black d'hide chaps",
+            "Mixed hide legs"
+          ],
+          "weapon": [
+            "Scorching bow",
+            "Twisted bow",
+            "Toxic blowpipe",
+            "Bow of Faerdhinen",
+            "Eclipse atlatl",
+            "Hunters' sunlight crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ],
+          "shield": [
+            "Twisted buckler",
+            "Dragonfire ward",
+            "Odium ward",
+            "Antler guard"
+          ],
+          "ammo": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rada's blessing 4",
+            "Atlatl dart",
+            "Moonlight antler bolts",
+            "Sunlight antler bolts",
+            "Ruby dragon bolts (e)",
+            "Ruby bolts (e)"
+          ],
+          "hands": [
+            "Zaryte vambraces",
+            "Void knight gloves",
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Aranea boots"
+          ],
+          "ring": [
+            "Venator ring"
+          ]
+        }
+      },
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Equipment priority table reviewed against wiki revision 15332199"
+      }
+    },
+    {
+      "styleId": "wiki-4",
+      "label": "Defencelessness / Equipment / Ranged",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Style switch or shield-down equipment priority reference, used within a hybrid setup.",
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Heavy ballista",
+            "Light ballista",
+            "Zaryte crossbow",
+            "Armadyl crossbow",
+            "Dragon crossbow",
+            "Rune crossbow"
+          ]
+        }
+      },
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Equipment priority table reviewed against wiki revision 15332199"
+      }
+    },
+    {
+      "styleId": "wiki-5",
+      "label": "Defencelessness / Equipment / Magic",
+      "combatStyle": "MAGIC",
+      "role": "equipment",
+      "summary": "Style switch or shield-down equipment priority reference, used within a hybrid setup.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Ancestral hat",
+            "Virtus mask",
+            "Ahrim's hood",
+            "Blue moon helm",
+            "Bloodbark helm",
+            "Dagon'hai hat",
+            "Infinity hat"
+          ],
+          "amulet": [
+            "Occult necklace",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "cape": [
+            "Imbued Saradomin cape"
+          ],
+          "body": [
+            "Ancestral robe top",
+            "Virtus robe top",
+            "Ahrim's robetop",
+            "Blue moon chestplate",
+            "Bloodbark body",
+            "Dagon'hai robe top",
+            "Infinity top"
+          ],
+          "legs": [
+            "Ancestral robe bottom",
+            "Virtus robe bottom",
+            "Ahrim's robeskirt",
+            "Blue moon tassets",
+            "Bloodbark legs",
+            "Dagon'hai robe bottom",
+            "Infinity bottoms"
+          ],
+          "weapon": [
+            "Purging staff",
+            "Toxic staff of the dead",
+            "Staff of the Dead",
+            "Master wand",
+            "Ahrim's staff"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Arcane spirit shield",
+            "Elidinis' ward",
+            "Malediction ward",
+            "Ancient wyvern shield",
+            "Mage's book",
+            "Book of Darkness",
+            "Book of the Dead"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Holy blessing"
+          ],
+          "hands": [
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves"
+          ],
+          "feet": [
+            "Avernic treads (max)",
+            "Eternal boots",
+            "Aranea boots"
+          ],
+          "ring": [
+            "Magus ring"
+          ]
+        }
+      },
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Equipment priority table reviewed against wiki revision 15332199"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "locationId": "lizardman-temple",
+  "name": "Lizardman Temple",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "taskOnly": false,
+  "accessNote": "Six shamans, two per chamber, below Molch. Enter through a one-way lizard dwelling and leave through the south-west strange hole or teleport. Cannons cannot be placed. Repeated barrier crossings cause escalating10/20 damage after3/6 crossings; each crossing adds a minute to recovery. No Slayer assignment is required.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Lizardman_Temple",
+  "assignmentAreaId": "molch"
+}

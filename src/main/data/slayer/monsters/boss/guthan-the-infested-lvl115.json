@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Barrows - Morytania",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "guthan-the-infested"
+  "strategyId": "guthan-the-infested",
+  "locationId": "barrows"
 }

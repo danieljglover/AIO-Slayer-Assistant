@@ -28,5 +28,5 @@
   "locationId": "west-of-yanille",
   "requirement": null,
   "bossId": null,
-  "strategyId": null
+  "strategyId": "ogres-task-methods"
 }

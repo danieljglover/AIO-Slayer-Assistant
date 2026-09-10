@@ -32,7 +32,8 @@
     "mogre",
     "mogre-sea",
     "zogre",
-    "skogre"
+    "skogre",
+    "skogre-zombie"
   ],
   "defaultVariantId": "ogre-lvl53",
   "weakness": {
@@ -161,7 +162,8 @@
       ],
       "notes": [
         "Requires partial completion of Zogre Flesh Eaters.",
-        "Can inflict disease. Brutal arrows work best against Zogres and Skogres."
+        "Can inflict disease. Brutal arrows work best against Zogres and Skogres.",
+        "NPCs 872 and 879 count for Ogres and Skeletons. The separate skogre-zombie variant (NPC 878) counts for Ogres and Zombies."
       ]
     },
     {
@@ -176,6 +178,20 @@
       "notes": [
         "Requires the starting of Zogre Flesh Eaters.",
         "Undead. Can inflict disease. Brutal arrows work best against Zogres and Skogres."
+      ]
+    },
+    {
+      "variantId": "skogre-zombie",
+      "name": "Skogre (zombie task variant)",
+      "combatLevel": 44,
+      "slayerXp": 71.0,
+      "locations": [
+        "Jiggig",
+        "Jiggig Dungeon"
+      ],
+      "notes": [
+        "Skogre NPC 878 counts as an Ogre or Zombie; the other existing Skogre IDs, 872 and 879, count as Ogres or Skeletons.",
+        "Requires partial Zogre Flesh Eaters. Prepare for disease and reduced damage without suitable ogre weapons or Crumble Undead."
       ]
     }
   ],

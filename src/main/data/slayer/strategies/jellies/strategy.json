@@ -66,7 +66,12 @@
       "steps": [
         "Turn on Protect from Melee to negate all Jelly damage.",
         "Kill Warped Jellies in the Catacombs of Kourend for the better loot table when possible."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-jellies"
+        ]
+      }
     },
     {
       "methodId": "magic-burst-catacombs",
@@ -90,7 +95,12 @@
         "Lure a pile of Warped Jellies in the multicombat Catacombs.",
         "Burst or barrage the pile while praying Protect from Melee.",
         "Collect ancient shards and dark totem pieces."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-jellies"
+        ]
+      }
     },
     {
       "methodId": "ranged-venator",
@@ -109,7 +119,12 @@
       "steps": [
         "Attack clumped Jellies so the Venator bow's ricochet hits multiple targets.",
         "Expect slower kills than Magic but significantly less effort."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-jellies"
+        ]
+      }
     },
     {
       "methodId": "wilderness-krystilia",
@@ -132,7 +147,12 @@
         "Bring only what you are willing to lose.",
         "Keep a one-click teleport ready and escape on sight of player killers.",
         "A cannon can be used but is at risk."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-jellies"
+        ]
+      }
     },
     {
       "methodId": "vitreous-superiors",
@@ -153,7 +173,12 @@
       "steps": [
         "Keep Protect from Melee on - superiors also use magic-based melee.",
         "Expect max hits of 17-19 but no additional mechanics."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-jellies"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -175,6 +200,11 @@
             "Slayer helmet"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-jellies"
+        ]
       }
     },
     {
@@ -190,6 +220,11 @@
             "Nightmare staff"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-jellies"
+        ]
       }
     },
     {
@@ -204,6 +239,11 @@
             "Venator bow"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-jellies"
+        ]
       }
     }
   ],

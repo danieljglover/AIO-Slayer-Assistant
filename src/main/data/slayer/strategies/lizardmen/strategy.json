@@ -112,8 +112,13 @@
       ],
       "notes": [
         "The dedicated shaman strategy source is https://oldschool.runescape.wiki/w/Lizardman_shaman/Strategies.",
-        "The task page lists Lizardman shamans as task-counting variants with 157.5 Slayer experience."
-      ]
+        "The task page lists Lizardman shamans as task-counting variants with 157.5 Slayer experience.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     }
   ],
   "styleOptions": [

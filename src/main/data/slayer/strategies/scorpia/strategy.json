@@ -19,9 +19,7 @@
     "note": "Very low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons."
   },
   "requirements": [
-    "Access to Scorpia's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
-    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
-    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+    "Review the exact selected boss location access requirements and planned Wilderness risk."
   ],
   "mechanics": [
     "Very low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons.",
@@ -50,7 +48,10 @@
       ],
       "steps": [
         "Very low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "freeze-and-magic-kill",
@@ -82,7 +83,10 @@
       "risks": [
         "Scorpia is in deep Wilderness.",
         "A failed freeze can force extra food use."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "healer-control-and-risk",
@@ -103,7 +107,142 @@
         "Watch for Scorpia guardians and prevent them from undoing too much damage.",
         "Re-freeze or reposition when adds disrupt the fight.",
         "Bank valuable drops instead of extending in deep Wilderness."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "reviewed-scorpia-magic-1",
+      "label": "Scorpia - Magic Wilderness setup",
+      "combatStyle": "MAGIC",
+      "role": "primary",
+      "summary": "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Scorpia Wiki order.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Bloodbark helm",
+            "Zamorak mitre",
+            "Farseer helm",
+            "Mystic hat"
+          ],
+          "amulet": [
+            "Occult necklace",
+            "Guthix stole",
+            "Amulet of glory",
+            "Amulet of power",
+            "Unholy symbol"
+          ],
+          "cape": [
+            "Imbued Saradomin cape",
+            "Ardougne cloak",
+            "Saradomin cape",
+            "Vestment cloak"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3"
+          ],
+          "body": [
+            "Bloodbark body",
+            "Monk's robe top",
+            "Zamorak monk top",
+            "Mystic robe top",
+            "Xerician top"
+          ],
+          "legs": [
+            "Bloodbark legs",
+            "Monk's robe",
+            "Zamorak monk bottom",
+            "Mystic robe bottom",
+            "Xerician robe"
+          ],
+          "feet": [
+            "Bloodbark boots",
+            "Mystic boots",
+            "Ghostly boots",
+            "Splitbark boots",
+            "Moonclan boots",
+            "Fremennik sea boots 4"
+          ],
+          "shield": [
+            "Elidinis' ward (f)",
+            "Elidinis' ward",
+            "Malediction ward",
+            "Ancient wyvern shield",
+            "Book of Darkness",
+            "God book",
+            "Broodoo shield"
+          ],
+          "weapon": [
+            "Accursed sceptre",
+            "Thammaron's sceptre",
+            "Eye of Ayak",
+            "Sanguinesti staff",
+            "Trident of the Swamp",
+            "Trident of the Seas",
+            "Warped sceptre"
+          ],
+          "hands": [
+            "Confliction gauntlets",
+            "Tormented bracelet",
+            "Barrows gloves",
+            "Dragon gloves",
+            "Rune gloves",
+            "Adamant gloves",
+            "Combat bracelet"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Ring of shadows (uncharged)",
+            "Explorer's ring 4",
+            "Beacon ring",
+            "Lunar ring",
+            "Ring of recoil",
+            "Ring of wealth (i)"
+          ]
+        }
+      },
+      "steps": [
+        "Use Accursed sceptre first when owned, eligible and within the chosen risk constraints; alternatives retain this Scorpia Wiki order."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "scorpia"
+        ],
+        "locationIds": [
+          "scorpion-pit-cave"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Scorpia/Strategies",
+            "title": "Scorpia/Strategies",
+            "pageId": 52453,
+            "revisionId": 15317574,
+            "timestamp": "2026-08-23T21:22:52Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [
+          "Guardian freeze spell and sufficient runes prepared for Scorpia"
+        ],
+        "inventory": [],
+        "switches": []
+      }
     }
   ],
   "styleOptions": [
@@ -125,8 +264,73 @@
             "Warped sceptre"
           ]
         }
+      },
+      "advisor": {
+        "selectable": false
       }
     }
   ],
-  "body": "# Scorpia\n\nVery low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons."
+  "body": "# Scorpia\n\nVery low magic defence - prioritise magic damage + prayer bonus. Accursed/Thammaron's sceptre are Wilderness weapons; Trident of the swamp also poisons.",
+  "reviewedReferenceSections": [
+    {
+      "sectionId": "tips-1",
+      "label": "Tips",
+      "sourceWikitext": "* If you are comfortable with it, set NPC attack options to \"always right click\" so you don't accidentally target the [[Scorpia's offspring (monster)|offspring]], as this hinders your movement and wastes runes and Scorpion slayer kills. Alternatively, a plugin available in any approved third-party [[game client]] called \"Menu Entry Swapper\" will allow customizable left/shift click settings, allowing you to set the left-click option of the offspring as \"Walk here\".\n* Consider using longrange/defensive casting. Standing further away makes positioning easier when Scorpia unfreezes.\n* A good way to lure Scorpia away from her guardians is to position yourself at the side where you will be luring her just before she reaches half hp and freezing the healers immediately as they spawn. This requires careful timing, as Scorpia should ideally unfreeze very soon after you freeze both the guardians.\n* If using Ancient Magicks, you may utilise manual casting of blood spells to heal yourself when Scorpia is frozen and minions are not around.\n* Lower levelled players not using a toxic weapon may also try to poison Scorpia with a couple casts of [[Smoke spells|Smoke Blitz/Barrage]] when starting the kill for a little bit of extra damage.\n* The guardians give highly reduced experience. Do not rely on experience drops to see whether you hit them.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Scorpia/Strategies",
+          "title": "Scorpia/Strategies",
+          "pageId": 52453,
+          "revisionId": 15317574,
+          "timestamp": "2026-08-23T21:22:52Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "suggested-skills-2",
+      "label": "Suggested skills",
+      "sourceWikitext": "*{{SCP|Magic|70+}} for [[Accursed sceptre]]\n*{{SCP|Prayer|40+}} for [[Protect from Missiles]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Scorpia/Strategies",
+          "title": "Scorpia/Strategies",
+          "pageId": 52453,
+          "revisionId": 15317574,
+          "timestamp": "2026-08-23T21:22:52Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-3",
+      "label": "Equipment",
+      "sourceWikitext": "The setup primarily consists of only '''taking 3 or 4 expensive items''' as this [[boss]] resides in a [[multi-combat area]] in '''level 50+ [[Wilderness]]''', meaning player killers may quickly kill off-guard players.\n\nScorpia is not immune to [[venom]] and [[poison]]; therefore, using a [[trident of the swamp]] will do some additional damage over the course of the kill. Due to her low magic defence, a minimally geared player will rarely miss, therefore magic damage and prayer bonus should be prioritised over magic accuracy to reduce risk and prolong trips.\n\nIf bringing a [[powered staff]], a magic boost such as a [[Magic potion]], [[forgotten brew]], or [[Saturated heart|saturated]]/[[imbued heart]] will provide additional magic damage.\n\n{{Recommended equipment\n| style = Magic\n| head1 = {{plink|Slayer helmet (i)}}{{efn|Only when on slayer task. Adjust risk accordingly.|name=slayer}}\n| head2 = {{plink|Bloodbark helm}}\n| head3 = {{plink|Mitre|pic=Zamorak mitre}}\n| head4 = {{plink|Farseer helm}}\n| head5 = {{plink|Mystic hat}}\n| neck1 = {{plink|Occult necklace}}\n| neck2 = {{plink|Guthix stole|txt=God stole}}\n| neck3 = {{plink|Amulet of glory}}\n| neck4 = {{plink|Amulet of power}}\n| neck5 = {{plink|Unholy symbol}}\n| cape1 = {{plink|God capes#Imbuing|txt=Imbued god cape|pic=Imbued Saradomin cape}}\n| cape2 = {{plink|Ardougne cloak|pic=Ardougne cloak 4}}\n| cape3 = {{plink|God capes|pic=Saradomin cape}}\n| cape4 = {{plink|Vestment cloak|pic=Guthix cloak}}\n| ammo1 = {{plink|Rada's blessing 4}}\n| ammo2 = {{plink|God blessing|pic=Peaceful blessing}} / {{plink|Rada's blessing 3|txt=Rada's blessing 3/2}}\n| body1 = {{plink|Bloodbark body}}\n| body2 = {{plink|Monk's robe top}}\n| body3 = {{plink|Zamorak monk top}}\n| body4 = {{plink|Mystic robe top}}\n| body5 = {{plink|Xerician top}}\n| legs1 = {{plink|Bloodbark legs}}\n| legs2 = {{plink|Monk's robe}}\n| legs3 = {{plink|Zamorak monk bottom}}\n| legs4 = {{plink|Mystic robe bottom}}\n| legs5 = {{plink|Xerician robe}}\n| feet1 = {{plink|Bloodbark boots}} / {{plink|Mystic boots}}\n| feet2 = {{plink|Ghostly boots}}\n| feet3 = {{plink|Splitbark boots}}\n| feet4 = {{plink|Moonclan boots}}\n| shield1 = {{plink|Elidinis' ward (f)}}\n| shield2 = {{plink|Elidinis' ward}} / {{plink|Malediction ward}} / {{plink|Ancient wyvern shield}}\n| shield3 = {{plink|Book of Darkness}}\n| shield4 = {{plink|God book|Pic=Unholy book}}\n| shield5 = {{plink|Broodoo shield|pic=Broodoo shield (combat)}}\n| weapon1 = {{plink|Accursed sceptre}} <br> / {{plink|Thammaron's sceptre}}\n| weapon2 = {{plink|Eye of Ayak}}\n| weapon3 = {{plink|Sanguinesti staff}} / {{plink|Trident of the Swamp}}\n| weapon4 = {{plink|Trident of the Seas}}\n| weapon5 = {{plink|Warped sceptre}}\n| hands1 = {{plink|Confliction gauntlets}}\n| hands2 = {{plink|Tormented bracelet}}\n| hands3 = {{plink|Barrows gloves}} / {{plink|Dragon gloves}}\n| hands4 = {{plink|Rune gloves}} / {{plink|Adamant gloves}}\n| hands5 = {{plink|Combat bracelet}}\n| feet5 = {{plink|Fremennik sea boots 4}}\n| ring1 = {{plink|Ring of shadows}} / {{plink|Ring of shadows (uncharged)|txt=(uncharged)}}\n| ring2 = {{plink|Explorer's ring 4}}\n| ring3 = {{plink|Beacon ring}} / {{plink|Lunar ring}}\n| ring4 = {{plink|Ring of recoil}}\n| ring5 = {{plink|Ring of wealth (i)}}\n}}\n{{Notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Scorpia/Strategies",
+          "title": "Scorpia/Strategies",
+          "pageId": 52453,
+          "revisionId": 15317574,
+          "timestamp": "2026-08-23T21:22:52Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-4",
+      "label": "Inventory",
+      "sourceWikitext": "{{Inventory\n|align = right\n|1 = Araxyte venom sac\\12\n|2 = Saradomin brew(4)\n|3 = Saradomin brew(4)\n|4 = Saradomin brew(4)\n|5 = Blighted super restore(4)\n|6 = Blighted super restore(4)\n|7 = Saradomin brew(4)\n|8 = Saradomin brew(4)\n|9 = Blighted super restore(4)\n|10 = Blighted super restore(4)\n|11 = Blighted manta ray\n|12 = Blighted anglerfish\n|13 = Blighted super restore(4)\n|14 = Blighted super restore(4)\n|15 = Blighted manta ray\n|16 = Blighted karambwan\n|17 = Blighted super restore(4)\n|18 = Blighted super restore(4)\n|19 = Black d'hide body\n|20 = Stamina potion(4)\n|21 = Blighted super restore(4)\n|22 = Blighted super restore(4)\n|23 = Black d'hide chaps\n|24 = Blighted ancient ice sack\\300\n|25 = Looting bag\n|26 = Saturated heart\n|27 = Lockpick\n|28 = Wilderness sword 4\n}}\n*Multiple [[araxyte venom sac]]s or 2 [[antidote++]]/[[superantipoison]]\n** Can be replaced with twice the number of [[Sanfew serum]]s for more prayer\n*6+ [[blighted super restore]]s (can bring more or fewer)\n*High healing food primarily for escaping player-killers. A mix of [[manta ray]]s and [[cooked karambwan]] is recommended as both can be consumed in the same tick.\n*4+ [[Saradomin brew]]s\n*[[Saturated heart]] (ensure the item is protected on death)\n** [[Forgotten brew]] can be substituted instead to reduce risk with an added benefit of boosting prayer above current level.\n*100+ casts of [[blighted ancient ice sack]]/[[blighted entangle sack]] for [[Ice Blitz]], [[Ice Barrage]], or [[Entangle]]. If lasting a full trip with the recommended inventory bring 300+ casts.\n*1 or 2 [[Stamina potion]]s for escaping [[player-killing|player-killers]] and during kills, especially if finishing a kill after running out of binds\n*[[Wilderness sword 1]] or better, [[knife]], or [[Slash weapons|slash weapon]] if running from Edgeville lever\n*[[Lockpick]], for escaping into the [[magic axe hut]]\n*[[Black d'hide body]] and [[Black d'hide chaps|chaps]], for tanking player killers\n*[[Looting bag]]\n\n[[Category:Strategies]]\n[[Category:Wilderness]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Scorpia/Strategies",
+          "title": "Scorpia/Strategies",
+          "pageId": 52453,
+          "revisionId": 15317574,
+          "timestamp": "2026-08-23T21:22:52Z",
+          "missing": false
+        }
+      ]
+    }
+  ]
 }

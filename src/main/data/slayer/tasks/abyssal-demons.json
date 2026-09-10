@@ -14,7 +14,8 @@
     "chaeldar",
     "konar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "krystilia": [
@@ -40,6 +41,10 @@
     "duradel": [
       130,
       200
+    ],
+    "mortimer": [
+      120,
+      180
     ]
   },
   "weightByMaster": {
@@ -48,7 +53,8 @@
     "chaeldar": 12,
     "konar": 9,
     "nieve": 9,
-    "duradel": 12
+    "duradel": 12,
+    "mortimer": 8
   },
   "extendedAmount": {
     "krystilia": [
@@ -139,7 +145,8 @@
     "catacombs-of-kourend",
     "slayer-tower",
     "slayer-tower-basement",
-    "wilderness-slayer-cave"
+    "wilderness-slayer-cave",
+    "abyssal-nexus"
   ],
   "variantInfo": [
     {

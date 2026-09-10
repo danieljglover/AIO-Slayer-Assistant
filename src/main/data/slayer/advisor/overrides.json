@@ -1,0 +1,1700 @@
+{
+  "items": {
+    "Imbued god cape": {
+      "name": "Imbued god cape",
+      "itemIds": [
+        21791,
+        24248,
+        21793,
+        24249,
+        21795,
+        24250
+      ],
+      "slot": "CAPE",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": false
+    },
+    "God blessing": {
+      "name": "God blessing",
+      "itemIds": [
+        20220,
+        20223,
+        20229,
+        20226,
+        20232,
+        20235
+      ],
+      "slot": "AMMO",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": false
+    },
+    "Blessed boots": {
+      "name": "Blessed boots",
+      "itemIds": [
+        19933,
+        19927,
+        19936,
+        19930,
+        19921,
+        19924
+      ],
+      "slot": "FEET",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": false
+    },
+    "Mitre": {
+      "name": "Mitre",
+      "itemIds": [
+        10452,
+        10454,
+        10456
+      ],
+      "slot": "HEAD",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": false
+    },
+    "Stole": {
+      "name": "Stole",
+      "itemIds": [
+        10470,
+        10472,
+        10474
+      ],
+      "slot": "AMULET",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": false
+    },
+    "Vestment cloak": {
+      "name": "Vestment cloak",
+      "itemIds": [
+        10446,
+        10448,
+        10450
+      ],
+      "slot": "CAPE",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": false
+    },
+    "Vestment robe top": {
+      "name": "Vestment robe top",
+      "itemIds": [
+        10458,
+        10462,
+        10460
+      ],
+      "slot": "BODY",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": false
+    },
+    "Vestment robe legs": {
+      "name": "Vestment robe legs",
+      "itemIds": [
+        10464,
+        10466,
+        10468
+      ],
+      "slot": "LEGS",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": false
+    },
+    "Void melee helm": {
+      "requires": [
+        [
+          8839,
+          24177,
+          26463,
+          27000,
+          13072,
+          24178,
+          26469,
+          27003
+        ],
+        [
+          8840,
+          24179,
+          26465,
+          27001,
+          13073,
+          24180,
+          26471,
+          27004
+        ],
+        [
+          8842,
+          24182,
+          26467,
+          27002
+        ]
+      ],
+      "levels": {
+        "ATTACK": 42,
+        "STRENGTH": 42,
+        "DEFENCE": 42,
+        "HITPOINTS": 42,
+        "RANGED": 42,
+        "MAGIC": 42,
+        "PRAYER": 22
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Void ranger helm": {
+      "requires": [
+        [
+          8839,
+          24177,
+          26463,
+          27000,
+          13072,
+          24178,
+          26469,
+          27003
+        ],
+        [
+          8840,
+          24179,
+          26465,
+          27001,
+          13073,
+          24180,
+          26471,
+          27004
+        ],
+        [
+          8842,
+          24182,
+          26467,
+          27002
+        ]
+      ],
+      "levels": {
+        "ATTACK": 42,
+        "STRENGTH": 42,
+        "DEFENCE": 42,
+        "HITPOINTS": 42,
+        "RANGED": 42,
+        "MAGIC": 42,
+        "PRAYER": 22
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Void mage helm": {
+      "requires": [
+        [
+          8839,
+          24177,
+          26463,
+          27000,
+          13072,
+          24178,
+          26469,
+          27003
+        ],
+        [
+          8840,
+          24179,
+          26465,
+          27001,
+          13073,
+          24180,
+          26471,
+          27004
+        ],
+        [
+          8842,
+          24182,
+          26467,
+          27002
+        ]
+      ],
+      "levels": {
+        "ATTACK": 42,
+        "STRENGTH": 42,
+        "DEFENCE": 42,
+        "HITPOINTS": 42,
+        "RANGED": 42,
+        "MAGIC": 42,
+        "PRAYER": 22
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Void knight top": {
+      "requires": [
+        [
+          11665,
+          24185,
+          26477,
+          27007,
+          11664,
+          24184,
+          26475,
+          27006,
+          11663,
+          24183,
+          26473,
+          27005
+        ],
+        [
+          8840,
+          24179,
+          26465,
+          27001,
+          13073,
+          24180,
+          26471,
+          27004
+        ],
+        [
+          8842,
+          24182,
+          26467,
+          27002
+        ]
+      ],
+      "levels": {
+        "ATTACK": 42,
+        "STRENGTH": 42,
+        "DEFENCE": 42,
+        "HITPOINTS": 42,
+        "RANGED": 42,
+        "MAGIC": 42,
+        "PRAYER": 22
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Elite void top": {
+      "requires": [
+        [
+          11665,
+          24185,
+          26477,
+          27007,
+          11664,
+          24184,
+          26475,
+          27006,
+          11663,
+          24183,
+          26473,
+          27005
+        ],
+        [
+          8840,
+          24179,
+          26465,
+          27001,
+          13073,
+          24180,
+          26471,
+          27004
+        ],
+        [
+          8842,
+          24182,
+          26467,
+          27002
+        ]
+      ],
+      "levels": {
+        "ATTACK": 42,
+        "STRENGTH": 42,
+        "DEFENCE": 42,
+        "HITPOINTS": 42,
+        "RANGED": 42,
+        "MAGIC": 42,
+        "PRAYER": 22
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Void knight robe": {
+      "requires": [
+        [
+          11665,
+          24185,
+          26477,
+          27007,
+          11664,
+          24184,
+          26475,
+          27006,
+          11663,
+          24183,
+          26473,
+          27005
+        ],
+        [
+          8839,
+          24177,
+          26463,
+          27000,
+          13072,
+          24178,
+          26469,
+          27003
+        ],
+        [
+          8842,
+          24182,
+          26467,
+          27002
+        ]
+      ],
+      "levels": {
+        "ATTACK": 42,
+        "STRENGTH": 42,
+        "DEFENCE": 42,
+        "HITPOINTS": 42,
+        "RANGED": 42,
+        "MAGIC": 42,
+        "PRAYER": 22
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Elite void robe": {
+      "requires": [
+        [
+          11665,
+          24185,
+          26477,
+          27007,
+          11664,
+          24184,
+          26475,
+          27006,
+          11663,
+          24183,
+          26473,
+          27005
+        ],
+        [
+          8839,
+          24177,
+          26463,
+          27000,
+          13072,
+          24178,
+          26469,
+          27003
+        ],
+        [
+          8842,
+          24182,
+          26467,
+          27002
+        ]
+      ],
+      "levels": {
+        "ATTACK": 42,
+        "STRENGTH": 42,
+        "DEFENCE": 42,
+        "HITPOINTS": 42,
+        "RANGED": 42,
+        "MAGIC": 42,
+        "PRAYER": 22
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Void knight gloves": {
+      "requires": [
+        [
+          11665,
+          24185,
+          26477,
+          27007,
+          11664,
+          24184,
+          26475,
+          27006,
+          11663,
+          24183,
+          26473,
+          27005
+        ],
+        [
+          8839,
+          24177,
+          26463,
+          27000,
+          13072,
+          24178,
+          26469,
+          27003
+        ],
+        [
+          8840,
+          24179,
+          26465,
+          27001,
+          13073,
+          24180,
+          26471,
+          27004
+        ]
+      ],
+      "levels": {
+        "ATTACK": 42,
+        "STRENGTH": 42,
+        "DEFENCE": 42,
+        "HITPOINTS": 42,
+        "RANGED": 42,
+        "MAGIC": 42,
+        "PRAYER": 22
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Guthan's helm": {
+      "requires": [
+        [
+          4728,
+          4916,
+          4917,
+          4918,
+          4919
+        ],
+        [
+          4730,
+          4922,
+          4923,
+          4924,
+          4925
+        ],
+        [
+          4726,
+          4910,
+          4911,
+          4912,
+          4913
+        ]
+      ]
+    },
+    "Guthan's platebody": {
+      "requires": [
+        [
+          4724,
+          4904,
+          4905,
+          4906,
+          4907
+        ],
+        [
+          4730,
+          4922,
+          4923,
+          4924,
+          4925
+        ],
+        [
+          4726,
+          4910,
+          4911,
+          4912,
+          4913
+        ]
+      ]
+    },
+    "Guthan's chainskirt": {
+      "requires": [
+        [
+          4724,
+          4904,
+          4905,
+          4906,
+          4907
+        ],
+        [
+          4728,
+          4916,
+          4917,
+          4918,
+          4919
+        ],
+        [
+          4726,
+          4910,
+          4911,
+          4912,
+          4913
+        ]
+      ]
+    },
+    "Guthan's warspear": {
+      "requires": [
+        [
+          4724,
+          4904,
+          4905,
+          4906,
+          4907
+        ],
+        [
+          4728,
+          4916,
+          4917,
+          4918,
+          4919
+        ],
+        [
+          4730,
+          4922,
+          4923,
+          4924,
+          4925
+        ]
+      ]
+    },
+    "Dharok's helm": {
+      "requires": [
+        [
+          4720,
+          4892,
+          4893,
+          4894,
+          4895
+        ],
+        [
+          4722,
+          4898,
+          4899,
+          4900,
+          4901
+        ],
+        [
+          4718,
+          4886,
+          4887,
+          4888,
+          4889
+        ]
+      ]
+    },
+    "Dharok's platebody": {
+      "requires": [
+        [
+          4716,
+          4880,
+          4881,
+          4882,
+          4883
+        ],
+        [
+          4722,
+          4898,
+          4899,
+          4900,
+          4901
+        ],
+        [
+          4718,
+          4886,
+          4887,
+          4888,
+          4889
+        ]
+      ]
+    },
+    "Dharok's platelegs": {
+      "requires": [
+        [
+          4716,
+          4880,
+          4881,
+          4882,
+          4883
+        ],
+        [
+          4720,
+          4892,
+          4893,
+          4894,
+          4895
+        ],
+        [
+          4718,
+          4886,
+          4887,
+          4888,
+          4889
+        ]
+      ]
+    },
+    "Crystal helm": {
+      "requires": [
+        [
+          25865,
+          23983,
+          24123
+        ]
+      ]
+    },
+    "Crystal body": {
+      "requires": [
+        [
+          25865,
+          23983,
+          24123
+        ]
+      ]
+    },
+    "Crystal legs": {
+      "requires": [
+        [
+          25865,
+          23983,
+          24123
+        ]
+      ]
+    },
+    "Slayer helmet": {
+      "levels": {
+        "DEFENCE": 10
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Slayer helmet (i)": {
+      "levels": {
+        "DEFENCE": 10
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Twisted bow": {
+      "levels": {
+        "RANGED": 85
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Rune crossbow": {
+      "levels": {
+        "RANGED": 61
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Ancestral robe top": {
+      "levels": {
+        "MAGIC": 75,
+        "DEFENCE": 65
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Ancestral robe bottom": {
+      "levels": {
+        "MAGIC": 75,
+        "DEFENCE": 65
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Ancestral hat": {
+      "levels": {
+        "MAGIC": 75,
+        "DEFENCE": 65
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Avernic defender": {
+      "levels": {
+        "ATTACK": 70,
+        "DEFENCE": 70
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Toxic blowpipe": {
+      "levels": {
+        "RANGED": 75
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Bandos chestplate": {
+      "levels": {
+        "DEFENCE": 65
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Bandos tassets": {
+      "levels": {
+        "DEFENCE": 65
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Torva full helm": {
+      "levels": {
+        "DEFENCE": 80
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Torva platebody": {
+      "levels": {
+        "DEFENCE": 80
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Torva platelegs": {
+      "levels": {
+        "DEFENCE": 80
+      },
+      "requirementsKnown": true,
+      "requirements": []
+    },
+    "Lit bug lantern": {
+      "itemIds": [
+        7053
+      ]
+    }
+  },
+  "aliases": {
+    "Cannonball": "Steel cannonballs",
+    "Woodcutting cape(t)": "Woodcut. cape(t)",
+    "Construction cape": "Construct. cape",
+    "Construction cape(t)": "Construct. cape(t)",
+    "Blessing": "God blessing",
+    "Imbued god capes": "Imbued god cape",
+    "Cannonballs": "Cannonball",
+    "Blowpipe": "Toxic blowpipe",
+    "Prayer potions": "Prayer potion(4)",
+    "Prayer potion": "Prayer potion(4)",
+    "Super restores": "Super restore(4)",
+    "Super restore": "Super restore(4)",
+    "Antipoison": "Antipoison(4)",
+    "Antipoisons": "Antipoison(4)",
+    "Superantipoison": "Superantipoison(4)",
+    "Sharks": "Shark",
+    "High healing food": "Shark",
+    "Stamina potions": "Stamina potion(4)",
+    "Stamina potion": "Stamina potion(4)",
+    "Teleport to house tablet": "Teleport to house (tablet)",
+    "Extended antifire": "Extended antifire(4)",
+    "Divine super combat potion": "Divine super combat potion(4)",
+    "Divine super combat potions": "Divine super combat potion(4)",
+    "Divine ranging potion": "Divine ranging potion(4)",
+    "Divine ranging potions": "Divine ranging potion(4)",
+    "Efaritay's aid": "Efaritay's aid"
+  },
+  "optionFamilies": {
+    "Blessed body": [
+      "Saradomin d'hide body",
+      "Guthix d'hide body",
+      "Zamorak d'hide body",
+      "Armadyl d'hide body",
+      "Ancient d'hide body",
+      "Bandos d'hide body"
+    ],
+    "Blessed chaps": [
+      "Saradomin chaps",
+      "Guthix chaps",
+      "Zamorak chaps",
+      "Armadyl chaps",
+      "Ancient chaps",
+      "Bandos chaps"
+    ],
+    "Blessed vambraces": [
+      "Saradomin bracers",
+      "Guthix bracers",
+      "Zamorak bracers",
+      "Armadyl bracers",
+      "Ancient bracers",
+      "Bandos bracers"
+    ],
+    "Blessed bracers": [
+      "Saradomin bracers",
+      "Guthix bracers",
+      "Zamorak bracers",
+      "Armadyl bracers",
+      "Ancient bracers",
+      "Bandos bracers"
+    ],
+    "Blessed d'hide body": [
+      "Saradomin d'hide body",
+      "Guthix d'hide body",
+      "Zamorak d'hide body",
+      "Armadyl d'hide body",
+      "Ancient d'hide body",
+      "Bandos d'hide body"
+    ],
+    "Blessed d'hide chaps": [
+      "Saradomin chaps",
+      "Guthix chaps",
+      "Zamorak chaps",
+      "Armadyl chaps",
+      "Ancient chaps",
+      "Bandos chaps"
+    ],
+    "Ardougne cloak": [
+      "Ardougne cloak 4",
+      "Ardougne cloak 3",
+      "Ardougne cloak 2",
+      "Ardougne cloak 1"
+    ],
+    "Explorer's ring": [
+      "Explorer's ring 4",
+      "Explorer's ring 3",
+      "Explorer's ring 2",
+      "Explorer's ring 1"
+    ],
+    "Cape of Accomplishment": [
+      "Attack cape(t)",
+      "Strength cape(t)",
+      "Defence cape(t)",
+      "Ranging cape(t)",
+      "Prayer cape(t)",
+      "Magic cape(t)",
+      "Hitpoints cape(t)",
+      "Agility cape(t)",
+      "Herblore cape(t)",
+      "Thieving cape(t)",
+      "Crafting cape(t)",
+      "Fletching cape(t)",
+      "Slayer cape(t)",
+      "Hunter cape(t)",
+      "Mining cape(t)",
+      "Smithing cape(t)",
+      "Fishing cape(t)",
+      "Cooking cape(t)",
+      "Firemaking cape(t)",
+      "Woodcut. cape(t)",
+      "Runecraft cape(t)",
+      "Farming cape(t)",
+      "Construct. cape(t)",
+      "Sailing cape(t)",
+      "Attack cape",
+      "Strength cape",
+      "Defence cape",
+      "Ranging cape",
+      "Prayer cape",
+      "Magic cape",
+      "Hitpoints cape",
+      "Agility cape",
+      "Herblore cape",
+      "Thieving cape",
+      "Crafting cape",
+      "Fletching cape",
+      "Slayer cape",
+      "Hunter cape",
+      "Mining cape",
+      "Smithing cape",
+      "Fishing cape",
+      "Cooking cape",
+      "Firemaking cape",
+      "Woodcutting cape",
+      "Runecraft cape",
+      "Farming cape",
+      "Construct. cape",
+      "Sailing cape"
+    ],
+    "Cape of Accomplishment (t)": [
+      "Attack cape(t)",
+      "Strength cape(t)",
+      "Defence cape(t)",
+      "Ranging cape(t)",
+      "Prayer cape(t)",
+      "Magic cape(t)",
+      "Hitpoints cape(t)",
+      "Agility cape(t)",
+      "Herblore cape(t)",
+      "Thieving cape(t)",
+      "Crafting cape(t)",
+      "Fletching cape(t)",
+      "Slayer cape(t)",
+      "Hunter cape(t)",
+      "Mining cape(t)",
+      "Smithing cape(t)",
+      "Fishing cape(t)",
+      "Cooking cape(t)",
+      "Firemaking cape(t)",
+      "Woodcut. cape(t)",
+      "Runecraft cape(t)",
+      "Farming cape(t)",
+      "Construct. cape(t)",
+      "Sailing cape(t)"
+    ],
+    "Cape of Accomplishment(t)": [
+      "Attack cape(t)",
+      "Strength cape(t)",
+      "Defence cape(t)",
+      "Ranging cape(t)",
+      "Prayer cape(t)",
+      "Magic cape(t)",
+      "Hitpoints cape(t)",
+      "Agility cape(t)",
+      "Herblore cape(t)",
+      "Thieving cape(t)",
+      "Crafting cape(t)",
+      "Fletching cape(t)",
+      "Slayer cape(t)",
+      "Hunter cape(t)",
+      "Mining cape(t)",
+      "Smithing cape(t)",
+      "Fishing cape(t)",
+      "Cooking cape(t)",
+      "Firemaking cape(t)",
+      "Woodcut. cape(t)",
+      "Runecraft cape(t)",
+      "Farming cape(t)",
+      "Construct. cape(t)",
+      "Sailing cape(t)"
+    ],
+    "Rada's blessing": [
+      "Rada's blessing 4",
+      "Rada's blessing 3",
+      "Rada's blessing 2",
+      "Rada's blessing 1"
+    ],
+    "Blessed d'hide boots": [
+      "Ancient d'hide boots",
+      "Armadyl d'hide boots",
+      "Bandos d'hide boots",
+      "Guthix d'hide boots",
+      "Saradomin d'hide boots",
+      "Zamorak d'hide boots"
+    ],
+    "Blessed boots": [
+      "Ancient d'hide boots",
+      "Armadyl d'hide boots",
+      "Bandos d'hide boots",
+      "Guthix d'hide boots",
+      "Saradomin d'hide boots",
+      "Zamorak d'hide boots"
+    ],
+    "Blessed d'hide coif": [
+      "Ancient coif",
+      "Armadyl coif",
+      "Bandos coif",
+      "Guthix coif",
+      "Saradomin coif",
+      "Zamorak coif"
+    ],
+    "Blessed coif": [
+      "Ancient coif",
+      "Armadyl coif",
+      "Bandos coif",
+      "Guthix coif",
+      "Saradomin coif",
+      "Zamorak coif"
+    ],
+    "Blessed d'hide shield": [
+      "Ancient d'hide shield",
+      "Armadyl d'hide shield",
+      "Bandos d'hide shield",
+      "Guthix d'hide shield",
+      "Saradomin d'hide shield",
+      "Zamorak d'hide shield"
+    ],
+    "Blessed shield": [
+      "Ancient d'hide shield",
+      "Armadyl d'hide shield",
+      "Bandos d'hide shield",
+      "Guthix d'hide shield",
+      "Saradomin d'hide shield",
+      "Zamorak d'hide shield"
+    ],
+    "Broodoo shield": [
+      "Broodoo shield (combat)",
+      "Broodoo shield (disease)",
+      "Broodoo shield (poison)"
+    ],
+    "Cape of accomplishment": [
+      "Attack cape(t)",
+      "Strength cape(t)",
+      "Defence cape(t)",
+      "Ranging cape(t)",
+      "Prayer cape(t)",
+      "Magic cape(t)",
+      "Hitpoints cape(t)",
+      "Agility cape(t)",
+      "Herblore cape(t)",
+      "Thieving cape(t)",
+      "Crafting cape(t)",
+      "Fletching cape(t)",
+      "Slayer cape(t)",
+      "Hunter cape(t)",
+      "Mining cape(t)",
+      "Smithing cape(t)",
+      "Fishing cape(t)",
+      "Cooking cape(t)",
+      "Firemaking cape(t)",
+      "Woodcut. cape(t)",
+      "Runecraft cape(t)",
+      "Farming cape(t)",
+      "Construct. cape(t)",
+      "Sailing cape(t)",
+      "Attack cape",
+      "Strength cape",
+      "Defence cape",
+      "Ranging cape",
+      "Prayer cape",
+      "Magic cape",
+      "Hitpoints cape",
+      "Agility cape",
+      "Herblore cape",
+      "Thieving cape",
+      "Crafting cape",
+      "Fletching cape",
+      "Slayer cape",
+      "Hunter cape",
+      "Mining cape",
+      "Smithing cape",
+      "Fishing cape",
+      "Cooking cape",
+      "Firemaking cape",
+      "Woodcutting cape",
+      "Runecraft cape",
+      "Farming cape",
+      "Construct. cape",
+      "Sailing cape"
+    ]
+  },
+  "tasks": {
+    "aberrant-spectres": {
+      "requiredItems": [
+        {
+          "name": "Nose peg or Slayer helmet",
+          "itemIds": [
+            4168,
+            11865,
+            19641,
+            19645,
+            19649,
+            21266,
+            21890,
+            23075,
+            24444,
+            25177,
+            25179,
+            25181,
+            25183,
+            25185,
+            25187,
+            25189,
+            25191,
+            25900,
+            25902,
+            25906,
+            25908,
+            25912,
+            25914,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            29818,
+            29820,
+            29822,
+            33068,
+            33070,
+            33072,
+            33439,
+            33441,
+            33443,
+            33445,
+            33447,
+            33449,
+            11864,
+            19639,
+            19643,
+            19647,
+            21264,
+            21888,
+            23073,
+            24370,
+            25898,
+            25904,
+            25910,
+            29816,
+            33066,
+            33338,
+            33340
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "banshees": {
+      "requiredItems": [
+        {
+          "name": "Earmuffs or Slayer helmet",
+          "itemIds": [
+            4166,
+            11865,
+            19641,
+            19645,
+            19649,
+            21266,
+            21890,
+            23075,
+            24444,
+            25177,
+            25179,
+            25181,
+            25183,
+            25185,
+            25187,
+            25189,
+            25191,
+            25900,
+            25902,
+            25906,
+            25908,
+            25912,
+            25914,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            29818,
+            29820,
+            29822,
+            33068,
+            33070,
+            33072,
+            33439,
+            33441,
+            33443,
+            33445,
+            33447,
+            33449,
+            11864,
+            19639,
+            19643,
+            19647,
+            21264,
+            21888,
+            23073,
+            24370,
+            25898,
+            25904,
+            25910,
+            29816,
+            33066,
+            33338,
+            33340
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "dust-devils": {
+      "requiredItems": [
+        {
+          "name": "Facemask or Slayer helmet",
+          "itemIds": [
+            4164,
+            11865,
+            19641,
+            19645,
+            19649,
+            21266,
+            21890,
+            23075,
+            24444,
+            25177,
+            25179,
+            25181,
+            25183,
+            25185,
+            25187,
+            25189,
+            25191,
+            25900,
+            25902,
+            25906,
+            25908,
+            25912,
+            25914,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            29818,
+            29820,
+            29822,
+            33068,
+            33070,
+            33072,
+            33439,
+            33441,
+            33443,
+            33445,
+            33447,
+            33449,
+            11864,
+            19639,
+            19643,
+            19647,
+            21264,
+            21888,
+            23073,
+            24370,
+            25898,
+            25904,
+            25910,
+            29816,
+            33066,
+            33338,
+            33340
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "smoke-devils": {
+      "requiredItems": [
+        {
+          "name": "Facemask or Slayer helmet",
+          "itemIds": [
+            4164,
+            11865,
+            19641,
+            19645,
+            19649,
+            21266,
+            21890,
+            23075,
+            24444,
+            25177,
+            25179,
+            25181,
+            25183,
+            25185,
+            25187,
+            25189,
+            25191,
+            25900,
+            25902,
+            25906,
+            25908,
+            25912,
+            25914,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            29818,
+            29820,
+            29822,
+            33068,
+            33070,
+            33072,
+            33439,
+            33441,
+            33443,
+            33445,
+            33447,
+            33449,
+            11864,
+            19639,
+            19643,
+            19647,
+            21264,
+            21888,
+            23073,
+            24370,
+            25898,
+            25904,
+            25910,
+            29816,
+            33066,
+            33338,
+            33340
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "wall-beasts": {
+      "requiredItems": [
+        {
+          "name": "Spiny helmet or Slayer helmet",
+          "itemIds": [
+            4551,
+            11865,
+            19641,
+            19645,
+            19649,
+            21266,
+            21890,
+            23075,
+            24444,
+            25177,
+            25179,
+            25181,
+            25183,
+            25185,
+            25187,
+            25189,
+            25191,
+            25900,
+            25902,
+            25906,
+            25908,
+            25912,
+            25914,
+            26674,
+            26675,
+            26676,
+            26677,
+            26678,
+            26679,
+            26680,
+            26681,
+            26682,
+            26683,
+            26684,
+            29818,
+            29820,
+            29822,
+            33068,
+            33070,
+            33072,
+            33439,
+            33441,
+            33443,
+            33445,
+            33447,
+            33449,
+            11864,
+            19639,
+            19643,
+            19647,
+            21264,
+            21888,
+            23073,
+            24370,
+            25898,
+            25904,
+            25910,
+            29816,
+            33066,
+            33338,
+            33340
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "basilisks": {
+      "requiredItems": [
+        {
+          "name": "Mirror shield or V's shield",
+          "itemIds": [
+            4156,
+            24266,
+            24265
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "cockatrice": {
+      "requiredItems": [
+        {
+          "name": "Mirror shield or V's shield",
+          "itemIds": [
+            4156,
+            24266,
+            24265
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "harpie-bug-swarms": {
+      "requiredItems": [
+        {
+          "name": "Bug lantern (light before fighting)",
+          "itemIds": [
+            7053
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "skeletal-wyverns": {
+      "requiredItems": [
+        {
+          "name": "Wyvern breath shield",
+          "itemIds": [
+            2890,
+            9731,
+            11283,
+            21633,
+            22002
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "fossil-island-wyverns": {
+      "requiredItems": [
+        {
+          "name": "Wyvern breath shield",
+          "itemIds": [
+            2890,
+            9731,
+            11283,
+            21633,
+            22002
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "vampyres": {
+      "requiredItems": []
+    },
+    "wyrms": {
+      "requiredItems": []
+    },
+    "drakes": {
+      "requiredItems": []
+    },
+    "hydras": {
+      "requiredItems": []
+    },
+    "metal-dragons": {
+      "requiredItems": [
+        {
+          "name": "Anti-dragon shield or super antifire",
+          "itemIds": [
+            1540,
+            11283,
+            21987,
+            21984,
+            21981,
+            21978,
+            22218,
+            22215,
+            22212,
+            22209
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "sea-snakes": {
+      "requiredItems": [
+        {
+          "name": "Antipoison",
+          "itemIds": [
+            179,
+            177,
+            175,
+            2446,
+            185,
+            183,
+            181,
+            2448
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    },
+    "cave-slime": {
+      "requiredItems": [
+        {
+          "name": "Lit bullseye lantern",
+          "itemIds": [
+            4550
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false
+        }
+      ]
+    }
+  },
+  "locations": {
+    "karuulm-slayer-dungeon-drakes": {
+      "requiredItems": [
+        {
+          "name": "Karuulm heat protection",
+          "itemIds": [
+            23037,
+            22951,
+            21643
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false,
+          "waiverRequirement": "Elite Kourend & Kebos Diary reward claimed"
+        }
+      ]
+    },
+    "karuulm-slayer-dungeon-wyrms": {
+      "requiredItems": [
+        {
+          "name": "Karuulm heat protection",
+          "itemIds": [
+            23037,
+            22951,
+            21643
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false,
+          "waiverRequirement": "Elite Kourend & Kebos Diary reward claimed"
+        }
+      ]
+    },
+    "karuulm-slayer-dungeon-fire-giants": {
+      "requiredItems": [
+        {
+          "name": "Karuulm heat protection",
+          "itemIds": [
+            23037,
+            22951,
+            21643
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false,
+          "waiverRequirement": "Elite Kourend & Kebos Diary reward claimed"
+        }
+      ]
+    },
+    "karuulm-slayer-dungeon-hydras": {
+      "requiredItems": [
+        {
+          "name": "Karuulm heat protection",
+          "itemIds": [
+            23037,
+            22951,
+            21643
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false,
+          "waiverRequirement": "Elite Kourend & Kebos Diary reward claimed"
+        }
+      ]
+    },
+    "karuulm-slayer-dungeon": {
+      "requiredItems": [
+        {
+          "name": "Karuulm heat protection",
+          "itemIds": [
+            23037,
+            22951,
+            21643
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false,
+          "waiverRequirement": "Elite Kourend & Kebos Diary reward claimed"
+        }
+      ]
+    },
+    "karuulm-slayer-dungeon-greater-demons": {
+      "requiredItems": [
+        {
+          "name": "Karuulm heat protection",
+          "itemIds": [
+            23037,
+            22951,
+            21643
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false,
+          "waiverRequirement": "Elite Kourend & Kebos Diary reward claimed"
+        }
+      ]
+    },
+    "karuulm-slayer-dungeon-hellhounds": {
+      "requiredItems": [
+        {
+          "name": "Karuulm heat protection",
+          "itemIds": [
+            23037,
+            22951,
+            21643
+          ],
+          "quantity": 1,
+          "required": true,
+          "stackable": false,
+          "waiverRequirement": "Elite Kourend & Kebos Diary reward claimed"
+        }
+      ]
+    }
+  },
+  "methods": {},
+  "notes": [
+    "Only explicitly reviewed dependency and protection semantics are asserted here. Other item equip requirements require confirmation."
+  ]
+}

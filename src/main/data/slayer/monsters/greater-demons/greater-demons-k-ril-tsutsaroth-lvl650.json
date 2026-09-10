@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "God Wars Dungeon - Zamorak's Fortress",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "k-ril-tsutsaroth"
+  "strategyId": "k-ril-tsutsaroth",
+  "locationId": "zamorak-fortress"
 }

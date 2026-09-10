@@ -46,7 +46,12 @@
       ],
       "notes": [
         "On a Krystilia task the kills must occur in the Wilderness; bring risk gear."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "spiders-wilderness"
+        ]
+      }
     },
     {
       "methodId": "fire-magic",
@@ -66,7 +71,12 @@
       ],
       "notes": [
         "Overkill for 2-hitpoint spiders, but useful for magic experience."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "spiders-wilderness"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -83,6 +93,11 @@
             "Abyssal whip"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "spiders-wilderness"
+        ]
       }
     }
   ]

@@ -64,6 +64,94 @@ tasks.register('generateSlayerData', JavaExec) {
         generatedSlayerDataDir.get().file('data/slayer-meta.json').asFile.absolutePath
 }
 
+tasks.register('generateAdvisorCatalogue', JavaExec) {
+    dependsOn 'compileJava'
+    mainClass = 'com.danieljglover.allinslayer.data.source.AdvisorCatalogueCompiler'
+    classpath = sourceSets.main.output.classesDirs + configurations.compileClasspath
+    args file('src/main/data/slayer').absolutePath,
+        generatedSlayerDataDir.get().file('data/advisor-catalogue.json').asFile.absolutePath
+}
+
+tasks.named('generateSlayerData') {
+    dependsOn 'generateAdvisorCatalogue'
+}
+
 tasks.named('processResources') {
     dependsOn 'generateSlayerData'
+}
+
+// A preview uses the same passive launcher as `run`. Keep dependency jars intact so
+// service descriptors, signatures and platform natives retain their original paths.
+def previewRuntimeJars = providers.provider {
+    configurations.devRuntimeClasspath.files.findAll { it.name.endsWith('.jar') }.sort { it.name }
+}
+
+def previewJar = tasks.register('previewJar', Jar) {
+    dependsOn 'classes', 'devClasses'
+    inputs.files(previewRuntimeJars).withPropertyName('previewRuntime')
+    archiveFileName.set('aio-slayer-preview.jar')
+    from sourceSets.main.output
+    from sourceSets.dev.output
+    doFirst {
+        manifest.attributes(
+            'Main-Class': 'com.danieljglover.allinslayer.AllInSlayerPluginLauncher',
+            'Class-Path': previewRuntimeJars.get().collect { 'lib/' + it.name }.join(' '),
+            'Implementation-Title': 'AIO Slayer clan preview',
+            'Implementation-Version': project.version.toString()
+        )
+    }
+}
+
+def previewMetadataDir = layout.buildDirectory.dir('generated/windows-preview')
+def previewMetadata = tasks.register('generatePreviewMetadata') {
+    dependsOn previewJar
+    inputs.file(previewJar.flatMap { it.archiveFile })
+    inputs.files(previewRuntimeJars)
+    outputs.dir(previewMetadataDir)
+    doLast {
+        File output = previewMetadataDir.get().asFile
+        output.mkdirs()
+        File plugin = previewJar.get().archiveFile.get().asFile
+        def digest = { File file ->
+            def hash = java.security.MessageDigest.getInstance('SHA-256')
+            file.withInputStream { stream ->
+                byte[] buffer = new byte[65536]
+                int count
+                while ((count = stream.read(buffer)) != -1) { hash.update(buffer, 0, count) }
+            }
+            hash.digest().encodeHex().toString()
+        }
+        def artifacts = [(plugin.name): digest(plugin)]
+        previewRuntimeJars.get().each { artifacts['lib/' + it.name] = digest(it) }
+        new File(output, 'SHA256SUMS.txt').text = artifacts.collect { path, hash -> "$hash  $path" }.join('\n') + '\n'
+        def client = previewRuntimeJars.get().find { it.name ==~ /client-[0-9].*\.jar/ }
+        new File(output, 'BUILD-INFO.txt').text = """AIO Slayer clan preview
+Plugin version: ${project.version}
+Built (UTC): ${new Date().format("yyyy-MM-dd HH:mm:ss", TimeZone.getTimeZone('UTC'))}
+RuneLite client: ${client == null ? 'unknown' : client.name}
+Plugin SHA-256: ${artifacts[plugin.name]}
+Runtime: Java 11 or newer; Windows 10/11 x64 preview.
+This build contains the current working-tree code, including uncommitted changes.
+This preview does not update itself. Request a fresh ZIP after a game/client update.
+"""
+    }
+}
+
+tasks.register('windowsPreviewZip', Zip) {
+    group = 'distribution'
+    description = 'Build a self-contained classpath and Windows launcher for clan testing (Java required).'
+    dependsOn 'build', previewMetadata
+    archiveFileName.set("aio-slayer-windows-preview-${project.version}.zip")
+    destinationDirectory.set(layout.buildDirectory.dir('distributions'))
+    duplicatesStrategy = DuplicatesStrategy.FAIL
+    into('AIO-Slayer-Preview') {
+        from(previewJar.flatMap { it.archiveFile })
+        into('lib') { from(previewRuntimeJars) }
+        from('packaging/windows') {
+            include 'Start-AIO-Slayer.bat', 'READ-ME-FIRST.txt', 'THIRD-PARTY-NOTICES.txt', 'LICENSE-RUNELITE.txt'
+            filter(org.apache.tools.ant.filters.FixCrLfFilter, eol: org.apache.tools.ant.filters.FixCrLfFilter.CrLf.newInstance('crlf'))
+        }
+        from('LICENSE') { rename { 'LICENSE-AIO-SLAYER.txt' } }
+        from(previewMetadataDir) { include 'BUILD-INFO.txt', 'SHA256SUMS.txt' }
+    }
 }

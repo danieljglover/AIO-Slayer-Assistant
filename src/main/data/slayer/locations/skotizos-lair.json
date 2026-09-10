@@ -1,0 +1,15 @@
+{
+  "locationId": "skotizos-lair",
+  "name": "Catacombs of Kourend",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Boss encounter area; prepare a separate boss trip. Consult the linked strategy for encounter access and hazards.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Catacombs_of_Kourend",
+  "advisorRequirements": [
+    "Dark totem available for each entry"
+  ]
+}

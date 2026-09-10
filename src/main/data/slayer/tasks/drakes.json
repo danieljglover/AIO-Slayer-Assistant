@@ -9,7 +9,8 @@
   "masterIds": [
     "konar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "konar": [
@@ -23,12 +24,17 @@
     "duradel": [
       50,
       110
+    ],
+    "mortimer": [
+      40,
+      60
     ]
   },
   "weightByMaster": {
     "konar": 10,
     "nieve": 7,
-    "duradel": 8
+    "duradel": 8,
+    "mortimer": 10
   },
   "unlocks": [],
   "monsterIds": [

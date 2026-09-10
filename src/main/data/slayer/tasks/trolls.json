@@ -67,7 +67,8 @@
     "troll-general",
     "arrg",
     "ice-troll",
-    "ice-troll-king"
+    "ice-troll-king",
+    "reanimated-troll"
   ],
   "defaultVariantId": "mountain-troll",
   "weakness": {
@@ -96,7 +97,8 @@
     "mount-quidamortem-north-east-trolls",
     "mount-quidamortem-south-west-trolls",
     "death-plateau-trolls",
-    "troll-stronghold-outside-trolls"
+    "troll-stronghold-outside-trolls",
+    "dark-altar"
   ],
   "variantInfo": [
     {
@@ -393,15 +395,14 @@
       "variantId": "reanimated-troll",
       "name": "Reanimated troll",
       "combatLevel": null,
-      "slayerXp": 35,
+      "slayerXp": 35.0,
       "locations": [
-        "Adept Reanimation"
+        "Dark Altar"
       ],
       "notes": [
-        "Combat level is N/A on the monster page.",
-        "Reanimated trolls are spawned with Adept Reanimation on an ensouled troll head.",
-        "They grant 780 Prayer XP and reduced Slayer XP.",
-        "The monster page assigns them to the Trolls category."
+        "Counts for the corresponding Slayer task, giving 35 Slayer XP alongside Prayer XP.",
+        "Incidental reanimation target requiring the relevant Arceuus reanimation spell and ensouled head; not an independently spawned repeatable monster.",
+        "Reanimation works near the original drop while the head has not entered a bank, trade, Grand Exchange or price checker; otherwise use the Dark Altar."
       ]
     }
   ],

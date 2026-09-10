@@ -15,5 +15,7 @@
   "location": "Dark Altar or current location after casting Expert Reanimation",
   "requirement": "Expert Reanimation on Arceuus spellbook; ensouled dagannoth head",
   "bossId": null,
-  "strategyId": null
+  "strategyId": null,
+  "locationId": "dark-altar",
+  "advisorRepeatable": false
 }

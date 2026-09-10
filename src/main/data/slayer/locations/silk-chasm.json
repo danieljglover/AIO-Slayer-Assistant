@@ -1,0 +1,25 @@
+{
+  "locationId": "silk-chasm",
+  "name": "Silk Chasm",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Wilderness boss lair. Requires the medium Wilderness Diary or the matching Venenatis boss Slayer assignment; an ordinary creature assignment does not waive the diary. Entry costs 50,000 coins, repayable after the applicable PvP death. Check the linked strategy for travel and risk.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Silk_Chasm",
+  "advisorRequirements": [
+    "Medium Wilderness Diary completed or Venenatis boss assignment"
+  ],
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Venenatis",
+      "title": "Venenatis",
+      "pageId": 31270,
+      "revisionId": 15324347,
+      "timestamp": "2026-08-29T08:17:05Z",
+      "missing": false
+    }
+  ]
+}

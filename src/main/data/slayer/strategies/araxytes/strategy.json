@@ -116,8 +116,13 @@
       ],
       "notes": [
         "Araxxor is more profitable but much slower than normal Araxytes.",
-        "A strong crush weapon is highly recommended for Araxxor."
-      ]
+        "A strong crush weapon is highly recommended for Araxxor.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     }
   ],
   "styleOptions": [

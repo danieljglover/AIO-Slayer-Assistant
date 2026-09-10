@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Skotizo's Lair, beneath Catacombs of Kourend",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "skotizo"
+  "strategyId": "skotizo",
+  "locationId": "skotizos-lair"
 }

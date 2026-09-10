@@ -1,0 +1,77 @@
+{
+  "strategyId": "sea-snakes-task-methods",
+  "variantIds": [
+    "sea-snake-hatchling",
+    "sea-snake-young"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Slayer_task/Sea_snakes",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [],
+    "secondaryWeapons": [],
+    "note": "Complete Royal Trouble, then travel to Miscellania and Etceteria Dungeon. Bring an antipoison of any tier since both hatchlings and young are poisonous. Sea snakes have no defensive bonuses, so any melee weapon works well; their 20% Earth weakness and Magic vulnerability make earth spells a viable alternative. The dungeon is single combat but a dwarf multicannon may be used, and the blue eggs halfway through the tunnel provide a safespot."
+  },
+  "requirements": [
+    "Royal Trouble"
+  ],
+  "mechanics": [
+    "Sea snakes can be assigned only by Vannaka, requiring 40 Slayer, combat level 50, and completion of Royal Trouble.",
+    "Two counting variants exist: Sea snake hatchling (combat 62, 50 Slayer XP) and Sea snake young (combat 90, 85 Slayer XP).",
+    "Both variants share the same drop table; hatchlings drop regular bones while young drop big bones (and by extension long and curved bones).",
+    "Sea snakes are found only in the Miscellania and Etceteria Dungeon, entered during and after Royal Trouble.",
+    "The dungeon is single combat but permits a dwarf multicannon; the blue eggs halfway through the tunnel are a safespot.",
+    "Both variants are poisonous (hatchling from 5, young from 7), so bring an antipoison; requiredItemId is left null because it is a recommended supply, not a worn entry gate.",
+    "Both variants have all defensive bonuses at 0 with a 20% Earth elemental weakness; weakness.style is MELEE because any melee weapon is effective, with the Earth/Magic weakness recorded for a Magic alternative.",
+    "slayerTargetId 5089 is the Infobox Slayer `id` value recorded from the OSRS Wiki task page.",
+    "No task extension unlock exists for Sea snakes."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Ordinary melee task",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Complete Royal Trouble, then travel to Miscellania and Etceteria Dungeon. Bring an antipoison of any tier since both hatchlings and young are poisonous. Sea snakes have no defensive bonuses, so any melee weapon works well; their 20% Earth weakness and Magic vulnerability make earth spells a viable alternative. The dungeon is single combat but a dwarf multicannon may be used, and the blue eggs halfway through the tunnel provide a safespot.",
+      "steps": [
+        "Sea snakes can be assigned only by Vannaka, requiring 40 Slayer, combat level 50, and completion of Royal Trouble.",
+        "Two counting variants exist: Sea snake hatchling (combat 62, 50 Slayer XP) and Sea snake young (combat 90, 85 Slayer XP).",
+        "Both variants share the same drop table; hatchlings drop regular bones while young drop big bones (and by extension long and curved bones).",
+        "Sea snakes are found only in the Miscellania and Etceteria Dungeon, entered during and after Royal Trouble.",
+        "The dungeon is single combat but permits a dwarf multicannon; the blue eggs halfway through the tunnel are a safespot.",
+        "Both variants are poisonous (hatchling from 5, young from 7), so bring an antipoison; requiredItemId is left null because it is a recommended supply, not a worn entry gate.",
+        "Both variants have all defensive bonuses at 0 with a 20% Earth elemental weakness; weakness.style is MELEE because any melee weapon is effective, with the Earth/Magic weakness recorded for a Magic alternative.",
+        "slayerTargetId 5089 is the Infobox Slayer `id` value recorded from the OSRS Wiki task page.",
+        "No task extension unlock exists for Sea snakes."
+      ],
+      "notes": [
+        "General Slayer training equipment is supplemented by the task's exact required protection and damage constraints."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "sea-snake-hatchling",
+          "sea-snake-young"
+        ],
+        "coverageStatus": "Existing detailed task guidance preserved; general equipment from Slayer training; current task prose completeness not certified"
+      }
+    },
+    {
+      "methodId": "location-miscellania-and-etceteria-dungeon",
+      "label": "Miscellania and Etceteria Dungeon",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Sea snakes are found only in the Miscellania and Etceteria Dungeon, which can be entered during and after Royal Trouble.",
+        "The dungeon is single combat, but a dwarf multicannon may still be used.",
+        "The blue eggs halfway through the tunnel can be used as a safespot; this is easier with the closer sea snake young than the hatchlings.",
+        "Both variants are poisonous, so an antipoison of any tier is strongly recommended."
+      ],
+      "advisor": {
+        "locationIds": [
+          "miscellania-and-etceteria-dungeon"
+        ],
+        "selectable": false
+      }
+    }
+  ]
+}

@@ -23,7 +23,8 @@
   "undead": false,
   "boss": false,
   "location": "Spawned by Adept Reanimation on an ensouled troll head.",
-  "locationId": "death-plateau-trolls",
+  "locationId": "dark-altar",
   "requirement": "Adept Reanimation",
-  "bossId": null
+  "bossId": null,
+  "advisorRepeatable": false
 }

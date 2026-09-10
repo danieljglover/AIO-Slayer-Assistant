@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "God Wars Dungeon - Armadyl's Eyrie (flying; ranged/magic in practice) (40 Armadyl KC + GWD access)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "kree-arra"
+  "strategyId": "kree-arra",
+  "locationId": "god-wars-dungeon-armadyl"
 }

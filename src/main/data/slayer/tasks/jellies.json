@@ -10,7 +10,8 @@
     "krystilia",
     "vannaka",
     "chaeldar",
-    "konar"
+    "konar",
+    "mortimer"
   ],
   "amountByMaster": {
     "krystilia": [
@@ -28,13 +29,18 @@
     "konar": [
       120,
       170
+    ],
+    "mortimer": [
+      80,
+      120
     ]
   },
   "weightByMaster": {
     "krystilia": 5,
     "vannaka": 8,
     "chaeldar": 10,
-    "konar": 6
+    "konar": 6,
+    "mortimer": 10
   },
   "unlocks": [
     {

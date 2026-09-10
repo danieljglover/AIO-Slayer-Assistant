@@ -1,0 +1,19 @@
+AIO Slayer clan preview
+
+AIO Slayer is provided under the accompanying LICENSE-AIO-SLAYER.txt.
+
+RuneLite is provided under LICENSE-RUNELITE.txt.
+RuneLite source: https://github.com/runelite/runelite
+Bundled dependency versions and hashes are listed in SHA256SUMS.txt and
+BUILD-INFO.txt. Dependency JARs are distributed intact, retaining any embedded
+license, notice and service metadata. Each remains under its own license.
+
+RuneLite's external-plugin launcher pattern:
+https://github.com/runelite/example-plugin
+
+Bundled Slayer knowledge derives from the Old School RuneScape Wiki. Source
+URLs and revision evidence are retained in the generated data. Wiki content
+retains its attribution and applicable license:
+https://oldschool.runescape.wiki/w/RuneScape:Copyrights
+
+This is an unofficial clan preview, not an official RuneLite or Jagex release.

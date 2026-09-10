@@ -52,7 +52,12 @@
       "notes": [
         "Ferox Enclave offers a safe restock and re-entry point nearby.",
         "Mammoths give solid Slayer XP (130) per kill for a low-level Wilderness task."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "mammoth-wilderness"
+        ]
+      }
     },
     {
       "methodId": "ranged",
@@ -78,7 +83,12 @@
       "notes": [
         "Mammoths have no elemental weakness, so any accurate style works.",
         "Ranged keeps you mobile for a quick escape to Ferox Enclave."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "mammoth-wilderness"
+        ]
+      }
     }
   ]
 }

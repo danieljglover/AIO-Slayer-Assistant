@@ -1,0 +1,108 @@
+{
+  "taskId": "venators",
+  "name": "Venators",
+  "wikiPageId": 674589,
+  "combatLevel": 100,
+  "slayerTargetId": 0,
+  "slayerLevel": 74,
+  "questReqs": [
+    "The Blood Moon Rises"
+  ],
+  "masterIds": [
+    "mortimer"
+  ],
+  "amountByMaster": {
+    "mortimer": [
+      120,
+      180
+    ]
+  },
+  "monsterIds": [
+    "venators"
+  ],
+  "variantIds": [
+    "venator",
+    "blood-starved-venator"
+  ],
+  "defaultVariantId": "venator",
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": -5,
+    "slash": 20,
+    "crush": 90,
+    "magic": 100,
+    "range": 100
+  },
+  "locationIds": [
+    "apsul-hunting-ground",
+    "virer-hunting-ground"
+  ],
+  "taskNotes": [
+    "Mortimer assigns Venators directly. Other masters assign the Vampyres category; Venators count for those assignments.",
+    "74 Slayer and The Blood Moon Rises are required. Only designated vampyrebane weapons deal damage.",
+    "Venators are living vampyres; Salve amulet bonuses do not apply.",
+    "Earmuffs or a Slayer helmet reduce shriek damage. Protection prayer during the shriek causes repeated damage and prayer loss.",
+    "Venators can be killed off-task by paying the nearby aranei 30 Stymphike feathers per kill.",
+    "Superior blood-starved venators can spawn with Bigger and Badder even when killing venators off-task."
+  ],
+  "recommendedMethod": "Use a Sunspear or hallowed flail with Efaritay's aid and a Slayer helmet on task. Sunspear special-attack finishing blows produce hearts for the nearby Aranei shrine; ranged blisterwood stakes are an alternative with lower accuracy.",
+  "locationComparison": [
+    {
+      "locationId": "apsul-hunting-ground",
+      "name": "Apsul Hunting Ground",
+      "amount": 7,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "More spawns are near the altar."
+      ]
+    },
+    {
+      "locationId": "virer-hunting-ground",
+      "name": "Virer Hunting Ground",
+      "amount": 12,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "More spawns, but many are farther from the altar. One spawn cannot be reached with melee."
+      ]
+    }
+  ],
+  "variantInfo": [
+    {
+      "variantId": "venator",
+      "name": "Venator",
+      "combatLevel": 246,
+      "slayerXp": 405.0,
+      "locations": [
+        "Apsul Hunting Ground",
+        "Virer Hunting Ground"
+      ],
+      "notes": [
+        "Normal Venator."
+      ]
+    },
+    {
+      "variantId": "blood-starved-venator",
+      "name": "Blood-starved venator",
+      "combatLevel": 246,
+      "slayerXp": 3622.5,
+      "locations": [
+        "Apsul Hunting Ground",
+        "Virer Hunting Ground"
+      ],
+      "notes": [
+        "Superior spawn; cannot be selected as a repeatable farming target."
+      ]
+    }
+  ],
+  "weightByMaster": {
+    "mortimer": 10
+  }
+}

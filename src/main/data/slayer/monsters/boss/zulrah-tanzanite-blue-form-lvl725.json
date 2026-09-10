@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Zulrah's Shrine, east of Zul-Andra (tanzanite/blue phase)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "zulrah-tanzanite-blue-form"
+  "strategyId": "zulrah-tanzanite-blue-form",
+  "locationId": "zulrahs-shrine"
 }

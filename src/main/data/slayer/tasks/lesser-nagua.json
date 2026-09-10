@@ -59,7 +59,9 @@
   "locationIds": [
     "neypotzli-sulphur-nagua",
     "ruins-of-tapoyauik-frost-nagua",
-    "crypt-of-tonali"
+    "crypt-of-tonali",
+    "ruins-of-tapoyauik",
+    "amoxliatl-chamber"
   ],
   "variantInfo": [
     {
@@ -106,7 +108,9 @@
       "name": "Amoxliatl",
       "combatLevel": 263,
       "slayerXp": 546,
-      "locations": [],
+      "locations": [
+        "Ruins of Tapoyauik - Amoxliatl chamber"
+      ],
       "notes": [
         "Boss variant of Frost Nagua at the Ruins of Tapoyauik; players assigned Lesser Nagua there may kill Amoxliatl as an alternative for better profit.",
         "Brimstone keys are only dropped if killed on a Slayer task given by Konar quo Maten."
@@ -148,6 +152,17 @@
       "notes": [
         "Earthen Nagua in the eastern sun chamber; the wiki does not state a spawn count.",
         "Requires completion of The Final Dawn; moonlight moths can be caught nearby."
+      ]
+    },
+    {
+      "locationId": "amoxliatl-chamber",
+      "name": "Ruins of Tapoyauik - Amoxliatl chamber",
+      "amount": 1,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Repeatable boss after The Heart of Darkness. Counts for Lesser Nagua assignments at the Ruins of Tapoyauik."
       ]
     }
   ],

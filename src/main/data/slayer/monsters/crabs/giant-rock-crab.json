@@ -27,7 +27,7 @@
   "locationId": "waterbirth-island-dungeon",
   "requirement": "Slayer 1; no combat or quest requirement (very high Defence, kill only for drops such as rock-shell armour and medium clue scrolls)",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "crabs-task-methods",
   "offence": {
     "hitpoints": 180,
     "maxHit": 9,

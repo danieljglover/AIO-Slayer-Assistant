@@ -7,5 +7,7 @@
   "konarLockable": false,
   "safeSpot": false,
   "wilderness": false,
-  "accessNote": "Accessed through a lever in the Wilderness, but the King Black Dragon arena itself is NOT considered part of the Wilderness. Do not bring items you are unwilling to lose on the approach."
+  "accessNote": "The boss chamber is outside PvP Wilderness, but the normal route crosses Wilderness and can expose carried equipment to other players.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/King_Black_Dragon_Lair",
+  "advisorRequirements": []
 }

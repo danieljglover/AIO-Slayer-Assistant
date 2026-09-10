@@ -24,7 +24,7 @@
   "boss": false,
   "location": "Wilderness Slayer Cave",
   "locationId": "wilderness-slayer-cave-hellhounds",
-  "requirement": "Wilderness Slayer Cave; accepts Wilderness PK risk",
+  "requirement": null,
   "bossId": null,
   "strategyId": "hellhounds"
 }

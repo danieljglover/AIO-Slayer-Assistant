@@ -36,7 +36,18 @@
     "ghosts"
   ],
   "variantIds": [
-    "ghost-lvl19"
+    "ghost-lvl19",
+    "revenant-imp",
+    "revenant-goblin",
+    "revenant-pyrefiend",
+    "revenant-hobgoblin",
+    "revenant-cyclops",
+    "revenant-hellhound",
+    "revenant-demon",
+    "revenant-ork",
+    "revenant-dark-beast",
+    "revenant-knight",
+    "revenant-dragon"
   ],
   "defaultVariantId": "ghost-lvl19",
   "weakness": {
@@ -59,7 +70,8 @@
   "requiredItemId": null,
   "requiredItemName": null,
   "locationIds": [
-    "ghost-spawns"
+    "ghost-spawns",
+    "revenant-caves"
   ],
   "variantInfo": [
     {
@@ -76,6 +88,149 @@
         "The standard level-19 Ghost has 25 Hitpoints and max hit 2; combat level 13 is required to be assigned.",
         "Undead and spectral: the salve amulet and Crumble Undead both apply.",
         "50% elemental weakness to air spells (magic defence -5)."
+      ]
+    },
+    {
+      "variantId": "revenant-imp",
+      "name": "Revenant imp",
+      "combatLevel": 7,
+      "slayerXp": 10.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-goblin",
+      "name": "Revenant goblin",
+      "combatLevel": 15,
+      "slayerXp": 14.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-pyrefiend",
+      "name": "Revenant pyrefiend",
+      "combatLevel": 52,
+      "slayerXp": 48.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-hobgoblin",
+      "name": "Revenant hobgoblin",
+      "combatLevel": 60,
+      "slayerXp": 73.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-cyclops",
+      "name": "Revenant cyclops",
+      "combatLevel": 82,
+      "slayerXp": 119.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-hellhound",
+      "name": "Revenant hellhound",
+      "combatLevel": 90,
+      "slayerXp": 86.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-demon",
+      "name": "Revenant demon",
+      "combatLevel": 98,
+      "slayerXp": 86.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-ork",
+      "name": "Revenant ork",
+      "combatLevel": 105,
+      "slayerXp": 115.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-dark-beast",
+      "name": "Revenant dark beast",
+      "combatLevel": 120,
+      "slayerXp": 157.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-knight",
+      "name": "Revenant knight",
+      "combatLevel": 126,
+      "slayerXp": 168.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
+      ]
+    },
+    {
+      "variantId": "revenant-dragon",
+      "name": "Revenant dragon",
+      "combatLevel": 135,
+      "slayerXp": 186.0,
+      "locations": [
+        "Revenant Caves"
+      ],
+      "notes": [
+        "Revenants count for Ghosts tasks as well as Revenants assignments.",
+        "Wilderness alternative; prepare for player killing risk, the cave entry fee and revenant protection using the dedicated strategy."
       ]
     }
   ],
@@ -100,7 +255,8 @@
     "Ghosts are undead and spectral: the salve amulet and Crumble Undead both apply.",
     "Ghosts have a 50% elemental weakness to air spells (magic defence -5).",
     "Higher-level Ghost variants (levels 25, 76/77) exist in the Sepulchre of Death; the level-25 variant gives 75 Slayer XP but its combat stats are honest-UNKNOWN.",
-    "No required protective item and no task extension unlock exist for Ghosts."
+    "No required protective item and no task extension unlock exist for Ghosts.",
+    "All currently modelled revenant forms count for Ghosts tasks. Their Wilderness location and dedicated encounter requirements apply even when the assignment comes from a starter master."
   ],
   "recommendedMethod": "A low-level Slayer-XP task: kill the level-19 Ghosts with any melee weapon, or cast air spells to exploit the 50% elemental weakness. A salve amulet gives an undead damage bonus. Ghosts drop nothing at most spots, so they are done for the Slayer XP and task streak rather than loot."
 }

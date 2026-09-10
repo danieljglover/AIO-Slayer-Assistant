@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Zulrah's Shrine, east of Zul-Andra (serpentine/green phase)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "zulrah-serpentine-green-form"
+  "strategyId": "zulrah-serpentine-green-form",
+  "locationId": "zulrahs-shrine"
 }

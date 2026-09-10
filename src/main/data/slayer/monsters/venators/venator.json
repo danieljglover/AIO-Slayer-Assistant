@@ -1,0 +1,29 @@
+{
+  "variantId": "venator",
+  "name": "Venator",
+  "npcIds": [
+    15765,
+    15766,
+    15767,
+    15768,
+    15769
+  ],
+  "combatLevel": 246,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 120,
+    "stab": -5,
+    "slash": 20,
+    "crush": 90,
+    "magic": 100,
+    "range": 100
+  },
+  "boss": false,
+  "location": "Apsul and Virer Hunting Grounds in Vampyrium",
+  "locationId": "apsul-hunting-ground",
+  "requirement": "The Blood Moon Rises",
+  "strategyId": "venators"
+}

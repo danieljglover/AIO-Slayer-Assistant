@@ -27,7 +27,7 @@
   "locationId": "ruins-of-tapoyauik",
   "requirement": "Slayer 1; partial completion of The Heart of Darkness to reach the Ruins of Tapoyauik",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "crabs-task-methods",
   "offence": {
     "hitpoints": 60,
     "maxHit": 1,

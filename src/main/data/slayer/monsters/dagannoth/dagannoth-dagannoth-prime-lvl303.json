@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Dagannoth Kings, Waterbirth Island Dungeon",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "dagannoth-prime"
+  "strategyId": "dagannoth-prime",
+  "locationId": "dagannoth-kings-lair"
 }

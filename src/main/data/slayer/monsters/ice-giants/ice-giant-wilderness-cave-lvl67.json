@@ -27,5 +27,6 @@
   "location": "Wilderness Slayer Cave (combat level 67 variant).",
   "requirement": "none",
   "strategyId": "ice-giants",
-  "bossId": null
+  "bossId": null,
+  "locationId": "wilderness-slayer-cave-ice-giants"
 }

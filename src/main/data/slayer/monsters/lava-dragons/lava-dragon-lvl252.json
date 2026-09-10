@@ -25,5 +25,6 @@
   "location": "Lava Dragon Isle in the deep Wilderness (around levels 36-42).",
   "requirement": "none",
   "strategyId": "lava-dragons",
-  "bossId": null
+  "bossId": null,
+  "locationId": "lava-dragon-isle"
 }

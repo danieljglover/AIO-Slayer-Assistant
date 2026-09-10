@@ -23,7 +23,7 @@
   "undead": false,
   "boss": false,
   "location": "Wilderness and common free-to-play spider spawns",
-  "requirement": "Krystilia kills must occur in the Wilderness to count towards the task",
+  "requirement": null,
   "bossId": null,
   "strategyId": "spiders",
   "offence": {

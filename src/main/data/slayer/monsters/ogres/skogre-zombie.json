@@ -1,0 +1,30 @@
+{
+  "variantId": "skogre-zombie",
+  "name": "Skogre (zombie task variant)",
+  "npcIds": [
+    878
+  ],
+  "combatLevel": 44,
+  "weakness": {
+    "style": "RANGED",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 35,
+    "stab": 0,
+    "slash": 0,
+    "crush": 0,
+    "magic": 0,
+    "range": 0
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": true,
+  "boss": false,
+  "location": "Jiggig / Jiggig Dungeon",
+  "locationId": "jiggig",
+  "requirement": "Requires partial completion of Zogre Flesh Eaters. Can inflict disease. Brutal arrows (with a Comp ogre bow) or Crumble Undead work best against Skogres.",
+  "bossId": null,
+  "strategyId": "ogres-task-methods"
+}

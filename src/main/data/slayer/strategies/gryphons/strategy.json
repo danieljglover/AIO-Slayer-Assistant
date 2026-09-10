@@ -256,8 +256,13 @@
         "Avoid toggling Gryphons for Nieve or Duradel if neither regular nor boss Gryphon loot is desired."
       ],
       "notes": [
-        "The task page says Shellbane drops are somewhat lackluster but slightly better than normal Gryphons."
-      ]
+        "The task page says Shellbane drops are somewhat lackluster but slightly better than normal Gryphons.",
+        "Choose the Shellbane Gryphon variant to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     },
     {
       "methodId": "inventory-and-loot",

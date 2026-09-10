@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Mole Hole (under Falador Park)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "giant-mole"
+  "strategyId": "giant-mole",
+  "locationId": "mole-hole"
 }

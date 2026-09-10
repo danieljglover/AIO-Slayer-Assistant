@@ -1,0 +1,17 @@
+{
+  "locationId": "amoxliatl-chamber",
+  "name": "Ruins of Tapoyauik - Amoxliatl chamber",
+  "assignmentAreaId": "ruins-of-tapoyauik",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "taskOnly": false,
+  "advisorRequirements": [
+    "Quest: The Heart of Darkness"
+  ],
+  "accessNote": "Repeatable Amoxliatl boss chamber after The Heart of Darkness. Use the lift from the mural/statue chamber after the quest to unlock the permanent Tower of Ascension shortcut. A charged Pendant of Ates can reach Twilight Temple after its statue is activated; quetzal routes are alternatives. This boss chamber is distinct from the nearby blue-dragon safespots.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Amoxliatl/Strategies"
+}

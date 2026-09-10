@@ -22,9 +22,10 @@
   "kalphite": false,
   "undead": true,
   "boss": false,
-  "location": "Calvar'ion fight (second phase), Wilderness (singles)",
-  "locationId": "vetion-hellhound-spawns",
+  "location": "Skeletal Tomb",
+  "locationId": "skeletal-tomb",
   "requirement": "summoned by Calvar'ion - separate trip (boss fight)",
   "bossId": null,
-  "strategyId": "vet-ion"
+  "strategyId": "vet-ion",
+  "advisorRepeatable": false
 }

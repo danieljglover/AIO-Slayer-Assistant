@@ -1,0 +1,82 @@
+AIO SLAYER - WINDOWS CLAN PREVIEW
+
+This is a private preview of the passive All-In Slayer plugin. It opens RuneLite
+with AIO loaded. AIO advises; you perform all game actions yourself.
+
+QUICK START
+
+1. Use Windows 10/11, 64-bit, with normal RuneLite installed from runelite.net.
+2. Right-click the ZIP, choose Extract All, and open AIO-Slayer-Preview.
+   Keep the JAR, lib folder and launcher together.
+3. If you use a Jagex Account, complete the one-time setup below first.
+4. Double-click Start-AIO-Slayer.bat. No Git, Gradle or IDE is needed.
+   Leave its console open while using the preview.
+5. Log in yourself. Enable All-In Slayer in RuneLite's plugin settings if needed,
+   then open the Slayer helmet icon in the sidebar.
+
+The launcher looks for RuneLite's bundled Java, then JAVA_HOME and PATH.
+If Java is missing, install 64-bit Java 11 or newer and enable JAVA_HOME or PATH
+in its installer: https://adoptium.net/temurin/releases/?version=11
+The Java runtime itself is not included in this ZIP.
+
+JAGEX ACCOUNT: ONE-TIME SETUP ON YOUR OWN PC
+
+This follows RuneLite's documented development-login method. Use RuneLite
+launcher 2.6.3 or newer. You do not enter credentials into an AIO script.
+
+1. Close RuneLite. Open "RuneLite (configure)" from the Windows Start menu.
+2. Add --insecure-write-credentials to Client arguments, preserving other args,
+   then save.
+3. Open RuneLite through the Jagex Launcher with the character you want to test.
+   This writes a local login file. Close that RuneLite client afterwards.
+4. Remove --insecure-write-credentials from Client arguments and save again.
+5. Start-AIO-Slayer.bat can now use that local login file. Log into the game
+   yourself; avoid opening two clients on the same character at once.
+
+The file is normally %USERPROFILE%\.runelite\credentials.properties.
+It grants access to your account: NEVER share it, include it in a bug report,
+or send your whole .runelite folder. The distributed ZIP contains no such file.
+After testing, delete that file to stop the preview reusing the saved login.
+If the session expires or you switch characters, repeat the setup.
+
+Official guide:
+https://github.com/runelite/runelite/wiki/Using-Jagex-Accounts
+
+If your launcher no longer offers this configuration flow, use the current
+official guide above; do not send anyone your account credentials.
+Non-Jagex accounts that still support direct login can skip these steps.
+
+FIRST THINGS TO TRY
+
+- Open your bank once so AIO can see the gear and supplies you own.
+- Compare Active Task and Catalogue, including monster variants and locations.
+- Select a setup, then try Filter bank and the Ready to leave checklist.
+- Install/enable Shortest Path from Plugin Hub to try Route. Weapon Charges is
+  optional: AIO reads its estimates and observes your own supported item Checks.
+- Check a weapon while equipped; open Checks > Charges & looting bag to see its
+  confirmed balance. Wildy charge limit excludes the 1,000 activation ether.
+- View a looting bag, close its view, and inspect the retained bag status.
+
+YOUR EXISTING PLUGINS AND SETTINGS
+
+The preview uses your own .runelite folder and profiles. It adds AIO at launch;
+normal Plugin Hub plugins remain available. It does not use Danny's profile,
+bank data, login session or Wilderness Sentinel development build.
+The normal RuneLite/Jagex shortcut still launches normal RuneLite without AIO.
+
+UPDATES AND FEEDBACK
+
+This ZIP pins the included RuneLite build; it does not update itself. If the
+game updates or the client reports it is outdated, ask Danny for a rebuilt ZIP.
+Extract updates into a new folder, keeping the whole package together.
+
+Send: BUILD-INFO.txt, the task/monster/location/method, expected vs actual result,
+and an AIO panel screenshot. Mention relevant owned gear and enabled plugins.
+For the charge-limit check, 500 usable charges should pass a 500 limit and
+trigger an excess alert with the limit set to 499. Restore your preferred limit.
+
+Windows launch and real-account behavior need clan verification. The package
+is built on Linux; it includes the Windows native libraries supplied by RuneLite.
+Use normal RuneLite again if a game update makes this preview incompatible.
+
+Licenses and source links are included in the accompanying notices.

@@ -10,7 +10,8 @@
   ],
   "masterIds": [
     "chaeldar",
-    "nieve"
+    "nieve",
+    "mortimer"
   ],
   "amountByMaster": {
     "chaeldar": [
@@ -20,11 +21,16 @@
     "nieve": [
       110,
       170
+    ],
+    "mortimer": [
+      80,
+      120
     ]
   },
   "weightByMaster": {
     "chaeldar": 11,
-    "nieve": 8
+    "nieve": 8,
+    "mortimer": 8
   },
   "extendedAmount": {
     "chaeldar": [

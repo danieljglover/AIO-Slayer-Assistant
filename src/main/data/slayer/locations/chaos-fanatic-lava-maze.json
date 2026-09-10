@@ -1,0 +1,13 @@
+{
+  "locationId": "chaos-fanatic-lava-maze",
+  "name": "Chaos Fanatic",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": true,
+  "accessNote": "Boss encounter area; prepare a separate boss trip. Consult the linked strategy for encounter access and hazards.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Chaos_Fanatic",
+  "advisorRequirements": []
+}

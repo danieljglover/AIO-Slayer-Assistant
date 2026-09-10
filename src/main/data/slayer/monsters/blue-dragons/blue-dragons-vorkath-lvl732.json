@@ -24,7 +24,8 @@
   "undead": true,
   "boss": true,
   "location": "Ungael (north of Fossil Island); requires Dragon Slayer II",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "vorkath"
+  "strategyId": "vorkath",
+  "locationId": "ungael-vorkath"
 }

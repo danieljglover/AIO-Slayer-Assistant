@@ -88,7 +88,13 @@
       "notes": [
         "Regular black demons have a near non-existent drop table for the time spent killing them.",
         "Lower-level players may need safespotting, which significantly lowers kill rates."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "taverley-cannon",
@@ -114,7 +120,13 @@
       ],
       "notes": [
         "The task page highlights Taverley Dungeon as one of the two best regular Black demon spots."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "chasm-of-fire",
@@ -141,7 +153,13 @@
       "notes": [
         "The page says Chasm of Fire has more safespots than Taverley Dungeon.",
         "Yama contract drop rate is increased when killing according to preference, but doing so can prolong tasks."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "catacombs-of-kourend",
@@ -163,7 +181,13 @@
       ],
       "notes": [
         "The page says it is generally not worth killing Black demons in the Catacombs."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "wilderness",
@@ -189,7 +213,13 @@
       "notes": [
         "Both Wilderness Black demon locations are under 30 Wilderness.",
         "Wilderness Slayer Cave has one entrance and is multicombat."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "demonic-gorillas",
@@ -216,7 +246,15 @@
       ],
       "notes": [
         "Demonic gorillas are quite profitable but slower than regular Black demons."
-      ]
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Cross-family referral; select the dedicated demonic gorilla hybrid method",
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
+      }
     },
     {
       "methodId": "boss-and-miniquest-variants",
@@ -238,7 +276,13 @@
       "notes": [
         "Kolodion can only be killed once during the Mage Arena miniquest.",
         "The Grand Tree black demon can be killed again in Nightmare Zone and counts for Black demon tasks."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -257,6 +301,12 @@
             "Noxious halberd"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -273,6 +323,12 @@
             "Venator bow"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
       }
     },
     {
@@ -289,6 +345,12 @@
             "Accursed sceptre"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness",
+          "wilderness-slayer-cave"
+        ]
       }
     }
   ]

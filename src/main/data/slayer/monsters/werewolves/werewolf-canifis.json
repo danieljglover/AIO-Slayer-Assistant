@@ -45,7 +45,7 @@
   "locationId": "canifis",
   "requirement": null,
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "werewolves-task-methods",
   "offence": {
     "hitpoints": 100,
     "maxHit": 8,

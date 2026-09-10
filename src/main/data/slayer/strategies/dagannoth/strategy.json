@@ -220,8 +220,13 @@
         "The Kings require separate boss-trip preparation."
       ],
       "notes": [
-        "Full boss methods are in https://oldschool.runescape.wiki/w/Dagannoth_Kings/Strategies."
-      ]
+        "Full boss methods are in https://oldschool.runescape.wiki/w/Dagannoth_Kings/Strategies.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     },
     {
       "methodId": "expert-reanimation",
@@ -332,7 +337,14 @@
             "Osmumten's fang"
           ]
         }
-      }
+      },
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      },
+      "notes": [
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ]
     }
   ],
   "body": "# Dagannoth\n\nTask-page strategy covering Lighthouse cannon melee, Jormungand's Prison cannon melee, Catacombs prayer AFK and safespots, Waterbirth Island tasking, Dagannoth Kings as the profitable alternative, Expert Reanimation, and seed box notes."

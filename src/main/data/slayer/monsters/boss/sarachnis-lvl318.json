@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Forthos Dungeon - Burial tomb",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "sarachnis"
+  "strategyId": "sarachnis",
+  "locationId": "forthos-sarachnis"
 }

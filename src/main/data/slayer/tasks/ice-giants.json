@@ -30,7 +30,8 @@
   ],
   "variantIds": [
     "ice-giant",
-    "ice-giant-wilderness-cave"
+    "ice-giant-wilderness-cave",
+    "eldric-the-ice-king"
   ],
   "defaultVariantId": "ice-giant",
   "weakness": {
@@ -54,7 +55,8 @@
   "requiredItemName": null,
   "locationIds": [
     "frozen-waste-plateau",
-    "wilderness-slayer-cave-ice-giants"
+    "wilderness-slayer-cave-ice-giants",
+    "royal-titans-arena"
   ],
   "variantInfo": [
     {
@@ -84,6 +86,20 @@
         "Grants more Slayer XP (100) than the standard variant.",
         "The cave is multicombat and cannonable but a popular player-killing hotspot."
       ]
+    },
+    {
+      "variantId": "eldric-the-ice-king",
+      "name": "Eldric the Ice King",
+      "combatLevel": 350,
+      "slayerXp": 735,
+      "locations": [
+        "Royal Titans"
+      ],
+      "notes": [
+        "Counts for Ice giants assigned by Vannaka. Krystilia requires Wilderness kills, so this arena does not qualify.",
+        "The full Royal Titans encounter also requires fighting Branda, but Ice giant task damage bonuses and credit apply only to Eldric.",
+        "Combat NPC14147 is the target; defeated loot NPC14149 is not a combat variant."
+      ]
     }
   ],
   "locationComparison": [
@@ -111,6 +127,18 @@
         "14 spawns of the combat level 67 variant; multicombat, cannonable and safespottable per the wiki Location Comparison.",
         "A popular player-killing hotspot; keep near one-click teleport range."
       ]
+    },
+    {
+      "locationId": "royal-titans-arena",
+      "name": "Royal Titans",
+      "amount": 1,
+      "multicombat": true,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Eldric counts for Vannaka Ice giant assignments. Fight both Royal Titans using the shared complete encounter preparation.",
+        "The encounter has no access requirements and supports solo or duo play. It is outside the Wilderness and cannot satisfy Krystilia assignments."
+      ]
     }
   ],
   "taskNotes": [
@@ -118,7 +146,7 @@
     "Krystilia assigns ice giants as a Wilderness-only task; only Wilderness ice giant kills (Frozen Waste Plateau or Wilderness Slayer Cave) count.",
     "Ice giants are weak to fire (100%); fire spells and any melee are effective given their very low defence.",
     "The Wilderness Slayer Cave holds a higher-level combat level 67 variant that grants 100 Slayer XP and is multicombat/cannonable.",
-    "Both spawn areas are in the Wilderness; keep low-risk gear and a one-click escape teleport ready."
+    "Vannaka assignments can instead be completed at Eldric the Ice King in the Royal Titans encounter. Ice giant task buffs do not apply to Branda; both bosses must still be fought."
   ],
-  "recommendedMethod": "Kill ice giants at the Frozen Waste Plateau or, for faster XP with a cannon, the level 67 variant in the Wilderness Slayer Cave. Ice giants have very low defence, so any strong melee weapon (or fire spells) works; wear low-risk Wilderness gear and keep a one-click escape teleport ready."
+  "recommendedMethod": "Kill ice giants at the Frozen Waste Plateau or, for faster XP with a cannon, the level 67 variant in the Wilderness Slayer Cave. Ice giants have very low defence, so any strong melee weapon (or fire spells) works; wear low-risk Wilderness gear and keep a one-click escape teleport ready. On a Vannaka assignment, Eldric the Ice King is a boss alternative; use the shared Royal Titans preparation and bring all required combat styles."
 }

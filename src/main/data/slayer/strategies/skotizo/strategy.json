@@ -1,0 +1,5334 @@
+{
+  "strategyId": "skotizo",
+  "variantIds": [
+    "skotizo"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+      "title": "Skotizo/Strategies",
+      "pageId": 119426,
+      "revisionId": 15316231,
+      "timestamp": "2026-08-22T05:14:13Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skotizo",
+      "title": "Skotizo",
+      "pageId": 74417,
+      "revisionId": 15310354,
+      "timestamp": "2026-08-19T22:29:01Z",
+      "missing": false
+    }
+  ],
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [
+      "emberlight",
+      "arclight"
+    ],
+    "secondaryWeapons": [
+      {
+        "weaponId": "twisted-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "scorching-bow",
+        "style": "RANGED"
+      },
+      {
+        "weaponId": "bow-of-faerdhinen",
+        "style": "RANGED"
+      }
+    ],
+    "note": "Demonbane melee or ranged with an explicit altar switch. Sacrifice a dark totem for each entry; Emberlight and Arclight alone have the altar one-hit effect."
+  },
+  "requirements": [
+    "A dark totem is consumed at the central Catacombs altar to enter.",
+    "Skotizo counts for black demon or greater demon assignments, but an assignment is not required to fight.",
+    "The Wiki suggests 75+ combat skills; weapon equip requirements and actual entry access are checked separately."
+  ],
+  "mechanics": [
+    "Each active altar reduces damage by 15% for Arclight/Emberlight or 25% for other weapons, reaching 60% or 100% with all four.",
+    "Arclight and Emberlight disable an altar in one hit regardless of stats. Scorching bow, demonbane spells, Silverlight and Darklight do not share this effect."
+  ],
+  "methods": [
+    {
+      "methodId": "demonbane-melee",
+      "label": "Demonbane melee",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "Emberlight or Arclight attacks both the boss and its altars without a separate altar weapon.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Oathplate helm",
+            "Torva full helm",
+            "Neitiznot faceguard",
+            "Serpentine helm",
+            "Blood moon helm",
+            "Helm of Neitiznot",
+            "Zombie helmet",
+            "Dwarven helmet"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury",
+            "Amulet of glory",
+            "Amulet of power"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Ardougne cloak 4"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3",
+            "Rada's blessing 2"
+          ],
+          "BODY": [
+            "Oathplate chest",
+            "Masori body (f)",
+            "Torva platebody",
+            "Karil's leathertop",
+            "Bandos chestplate",
+            "Fighter torso",
+            "Blood moon chestplate",
+            "Obsidian platebody",
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "LEGS": [
+            "Oathplate legs",
+            "Torva platelegs",
+            "Bandos tassets",
+            "Blood moon tassets",
+            "Obsidian platelegs",
+            "Karil's leatherskirt",
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "WEAPON": [
+            "Emberlight",
+            "Arclight"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Rune defender"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves",
+            "Rune gloves",
+            "Regen bracelet",
+            "Combat bracelet"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Dragon boots",
+            "Spiked manacles",
+            "Guardian boots",
+            "Mixed hide boots",
+            "Rune boots",
+            "Climbing boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Bellator ring",
+            "Berserker ring (i)",
+            "Brimstone ring",
+            "Ring of shadows"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Magic while travelling; Protect from Melee or Magic according to the chosen position"
+      ],
+      "steps": [
+        "Use Emberlight or a charged Arclight on Skotizo.",
+        "Deactivate altars as they accumulate; use magic protection while travelling away from melee range.",
+        "With strong melee armour, use magic protection and step away between attacks; choose the high magic defence variant for the alternative prayer trade-off."
+      ],
+      "notes": [],
+      "risks": [
+        "Arclight needs charges; ownership does not establish sufficient internal charges."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Oathplate helm",
+              "itemIds": [
+                30750
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Torva full helm",
+              "itemIds": [
+                26382
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Neitiznot faceguard",
+              "itemIds": [
+                24271
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: The Fremennik Exiles",
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Serpentine helm",
+              "itemIds": [
+                12931
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Blood moon helm",
+              "itemIds": [
+                29028,
+                29047
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Helm of Neitiznot",
+              "itemIds": [
+                10828
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: The Fremennik Isles",
+                "DEFENCE >= 55"
+              ]
+            },
+            {
+              "name": "Zombie helmet",
+              "itemIds": [
+                30321
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 50",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Dwarven helmet",
+              "itemIds": [
+                11200
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Grim Tales",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of rancour",
+              "itemIds": [
+                29801
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Amulet of torture",
+              "itemIds": [
+                19553
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of power",
+              "itemIds": [
+                1731
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Infernal cape",
+              "itemIds": [
+                21295,
+                24224
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Mythical cape",
+              "itemIds": [
+                22114
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Dragon Slayer II"
+              ]
+            },
+            {
+              "name": "Ardougne cloak 4",
+              "itemIds": [
+                13124
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Peaceful blessing",
+              "itemIds": [
+                20226
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 2",
+              "itemIds": [
+                22943
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Oathplate chest",
+              "itemIds": [
+                30753
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Torva platebody",
+              "itemIds": [
+                26384
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Karil's leathertop",
+              "itemIds": [
+                4736,
+                4940,
+                4941,
+                4942,
+                4943
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos chestplate",
+              "itemIds": [
+                11832
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Fighter torso",
+              "itemIds": [
+                10551,
+                24175
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40"
+              ]
+            },
+            {
+              "name": "Blood moon chestplate",
+              "itemIds": [
+                29022,
+                29043
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Obsidian platebody",
+              "itemIds": [
+                21301
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Saradomin d'hide body",
+              "itemIds": [
+                10386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix d'hide body",
+              "itemIds": [
+                10378
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak d'hide body",
+              "itemIds": [
+                10370
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide body",
+              "itemIds": [
+                12508
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient d'hide body",
+              "itemIds": [
+                12492
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos d'hide body",
+              "itemIds": [
+                12500
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide body",
+              "itemIds": [
+                2503
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70",
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Oathplate legs",
+              "itemIds": [
+                30756
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Torva platelegs",
+              "itemIds": [
+                26386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Bandos tassets",
+              "itemIds": [
+                11834
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 65"
+              ]
+            },
+            {
+              "name": "Blood moon tassets",
+              "itemIds": [
+                29025,
+                29045
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Obsidian platelegs",
+              "itemIds": [
+                21304
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Karil's leatherskirt",
+              "itemIds": [
+                4738,
+                4946,
+                4947,
+                4948,
+                4949
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin chaps",
+              "itemIds": [
+                10388
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix chaps",
+              "itemIds": [
+                10380
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak chaps",
+              "itemIds": [
+                10372
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl chaps",
+              "itemIds": [
+                12510
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient chaps",
+              "itemIds": [
+                12494
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos chaps",
+              "itemIds": [
+                12502
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide chaps",
+              "itemIds": [
+                2497
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Emberlight",
+              "itemIds": [
+                29589
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 77"
+              ]
+            },
+            {
+              "name": "Arclight",
+              "itemIds": [
+                19675
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Avernic defender",
+              "itemIds": [
+                22322,
+                24186
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Dragonfire shield",
+              "itemIds": [
+                11283
+              ],
+              "requires": [],
+              "requirements": [
+                "Started Dragon Slayer I",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Rune defender",
+              "itemIds": [
+                8850,
+                24142
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 40",
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Ferocious gloves",
+              "itemIds": [
+                22981
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rune gloves",
+              "itemIds": [
+                7460
+              ],
+              "requires": [],
+              "requirements": [
+                "Completed Daero's training or defeated the Culinaromancer"
+              ]
+            },
+            {
+              "name": "Regen bracelet",
+              "itemIds": [
+                11133
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Combat bracelet",
+              "itemIds": [
+                11124,
+                11122,
+                11120,
+                11118,
+                11974,
+                11972,
+                11126
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Primordial boots",
+              "itemIds": [
+                13239
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Dragon boots",
+              "itemIds": [
+                11840
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Spiked manacles",
+              "itemIds": [
+                23389
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Guardian boots",
+              "itemIds": [
+                21733
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Mixed hide boots",
+              "itemIds": [
+                29286
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 60",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Rune boots",
+              "itemIds": [
+                4131
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40"
+              ]
+            },
+            {
+              "name": "Climbing boots",
+              "itemIds": [
+                3105
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Death Plateau"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ultor ring",
+              "itemIds": [
+                28307
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated Vardorvis during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Bellator ring",
+              "itemIds": [
+                28316
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Whisperer during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Brimstone ring",
+              "itemIds": [
+                22975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of shadows",
+              "itemIds": [
+                28327,
+                28329
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "skotizos-lair"
+        ],
+        "requirements": [],
+        "requiredItems": [
+          {
+            "name": "Emberlight or Arclight",
+            "itemIds": [
+              29589,
+              19675
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [],
+        "inventory": [
+          {
+            "name": "Dark totem",
+            "itemIds": [
+              19685
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 16,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Stamina potion(4)",
+            "itemIds": [
+              12631,
+              12629,
+              12627,
+              12625
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: Emberlight or Arclight attacks both the boss and its altars without a separate altar weapon.",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "magic-defence-melee",
+      "label": "Demonbane melee with magic defence",
+      "combatStyle": "MELEE",
+      "role": "solo",
+      "summary": "High magic defence armour supports staying in melee distance with melee protection.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Oathplate helm",
+            "Torva full helm",
+            "Neitiznot faceguard",
+            "Serpentine helm",
+            "Blood moon helm",
+            "Helm of Neitiznot",
+            "Zombie helmet",
+            "Dwarven helmet"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury",
+            "Amulet of glory",
+            "Amulet of power"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Ardougne cloak 4"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3",
+            "Rada's blessing 2"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Karil's leathertop",
+            "Black d'hide body"
+          ],
+          "LEGS": [
+            "Karil's leatherskirt",
+            "Black d'hide chaps"
+          ],
+          "WEAPON": [
+            "Emberlight",
+            "Arclight"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Rune defender"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves",
+            "Rune gloves",
+            "Regen bracelet",
+            "Combat bracelet"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Dragon boots",
+            "Spiked manacles",
+            "Guardian boots",
+            "Mixed hide boots",
+            "Rune boots",
+            "Climbing boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Bellator ring",
+            "Berserker ring (i)",
+            "Brimstone ring",
+            "Ring of shadows"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Melee at the boss; Protect from Magic during altar travel"
+      ],
+      "steps": [
+        "Use demonbane melee while protecting from melee and let armour reduce the remaining magic damage.",
+        "Use magic protection during altar trips, then return to the chosen melee position.",
+        "Ignore re-summonable minions and focus on the boss and active altars."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Oathplate helm",
+              "itemIds": [
+                30750
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 78"
+              ]
+            },
+            {
+              "name": "Torva full helm",
+              "itemIds": [
+                26382
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Neitiznot faceguard",
+              "itemIds": [
+                24271
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: The Fremennik Exiles",
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Serpentine helm",
+              "itemIds": [
+                12931
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Blood moon helm",
+              "itemIds": [
+                29028,
+                29047
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Helm of Neitiznot",
+              "itemIds": [
+                10828
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: The Fremennik Isles",
+                "DEFENCE >= 55"
+              ]
+            },
+            {
+              "name": "Zombie helmet",
+              "itemIds": [
+                30321
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 50",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Dwarven helmet",
+              "itemIds": [
+                11200
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Grim Tales",
+                "DEFENCE >= 50"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Amulet of rancour",
+              "itemIds": [
+                29801
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Amulet of torture",
+              "itemIds": [
+                19553
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of power",
+              "itemIds": [
+                1731
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Infernal cape",
+              "itemIds": [
+                21295,
+                24224
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Fire cape",
+              "itemIds": [
+                6570,
+                24223
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Mythical cape",
+              "itemIds": [
+                22114
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Dragon Slayer II"
+              ]
+            },
+            {
+              "name": "Ardougne cloak 4",
+              "itemIds": [
+                13124
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Peaceful blessing",
+              "itemIds": [
+                20226
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 2",
+              "itemIds": [
+                22943
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Karil's leathertop",
+              "itemIds": [
+                4736,
+                4940,
+                4941,
+                4942,
+                4943
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide body",
+              "itemIds": [
+                2503
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70",
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Karil's leatherskirt",
+              "itemIds": [
+                4738,
+                4946,
+                4947,
+                4948,
+                4949
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide chaps",
+              "itemIds": [
+                2497
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Emberlight",
+              "itemIds": [
+                29589
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 77"
+              ]
+            },
+            {
+              "name": "Arclight",
+              "itemIds": [
+                19675
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 75"
+              ]
+            }
+          ],
+          "SHIELD": [
+            {
+              "name": "Avernic defender",
+              "itemIds": [
+                22322,
+                24186
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 70",
+                "DEFENCE >= 70"
+              ]
+            },
+            {
+              "name": "Dragon defender",
+              "itemIds": [
+                12954,
+                24143
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Dragonfire shield",
+              "itemIds": [
+                11283
+              ],
+              "requires": [],
+              "requirements": [
+                "Started Dragon Slayer I",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Rune defender",
+              "itemIds": [
+                8850,
+                24142
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 40",
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Ferocious gloves",
+              "itemIds": [
+                22981
+              ],
+              "requires": [],
+              "requirements": [
+                "ATTACK >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rune gloves",
+              "itemIds": [
+                7460
+              ],
+              "requires": [],
+              "requirements": [
+                "Completed Daero's training or defeated the Culinaromancer"
+              ]
+            },
+            {
+              "name": "Regen bracelet",
+              "itemIds": [
+                11133
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Combat bracelet",
+              "itemIds": [
+                11124,
+                11122,
+                11120,
+                11118,
+                11974,
+                11972,
+                11126
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Primordial boots",
+              "itemIds": [
+                13239
+              ],
+              "requires": [],
+              "requirements": [
+                "STRENGTH >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Dragon boots",
+              "itemIds": [
+                11840
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 60"
+              ]
+            },
+            {
+              "name": "Spiked manacles",
+              "itemIds": [
+                23389
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Guardian boots",
+              "itemIds": [
+                21733
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Mixed hide boots",
+              "itemIds": [
+                29286
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 60",
+                "DEFENCE >= 50"
+              ]
+            },
+            {
+              "name": "Rune boots",
+              "itemIds": [
+                4131
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40"
+              ]
+            },
+            {
+              "name": "Climbing boots",
+              "itemIds": [
+                3105
+              ],
+              "requires": [],
+              "requirements": [
+                "Quest: Death Plateau"
+              ]
+            }
+          ],
+          "RING": [
+            {
+              "name": "Ultor ring",
+              "itemIds": [
+                28307
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated Vardorvis during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Bellator ring",
+              "itemIds": [
+                28316
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Whisperer during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Berserker ring (i)",
+              "itemIds": [
+                11773,
+                25264,
+                26770
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Brimstone ring",
+              "itemIds": [
+                22975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of shadows",
+              "itemIds": [
+                28327,
+                28329
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "skotizos-lair"
+        ],
+        "requirements": [],
+        "requiredItems": [
+          {
+            "name": "Emberlight or Arclight",
+            "itemIds": [
+              29589,
+              19675
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [],
+        "inventory": [
+          {
+            "name": "Dark totem",
+            "itemIds": [
+              19685
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 16,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Stamina potion(4)",
+            "itemIds": [
+              12631,
+              12629,
+              12627,
+              12625
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: High magic defence armour supports staying in melee distance with melee protection.",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "scorching-bow",
+      "label": "Scorching bow with demonbane altar switch",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "Keep distance with Scorching bow and carry Emberlight or Arclight for guaranteed altar hits.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Armadyl helmet",
+            "Ancient coif"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "WEAPON": [
+            "Scorching bow"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Black d'hide vambraces",
+            "Ranger gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Ranger boots",
+            "Ancient d'hide boots",
+            "Aranea boots"
+          ],
+          "RING": [
+            "Venator ring",
+            "Archers ring (i)",
+            "Brimstone ring",
+            "Ring of the gods (i)",
+            "Ring of suffering (i)"
+          ],
+          "AMMO": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow",
+            "Rada's blessing",
+            "Peaceful blessing"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Magic while ranging and travelling"
+      ],
+      "steps": [
+        "Keep out of melee range while attacking Skotizo and use magic protection.",
+        "Switch to Emberlight or Arclight for each altar; ranged demonbane damage does not grant the altar one-hit effect.",
+        "Restore run energy as needed and focus on the boss and altars rather than the re-summonable minions."
+      ],
+      "notes": [
+        "The Wiki recommends scorching bow and twisted bow particularly strongly; other ranged choices can favour distance or account restrictions over damage."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Masori mask (f)",
+              "itemIds": [
+                27235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl helmet",
+              "itemIds": [
+                11826
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient coif",
+              "itemIds": [
+                12496
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ava's accumulator",
+              "itemIds": [
+                10499
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 50"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chestplate",
+              "itemIds": [
+                11828
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin d'hide body",
+              "itemIds": [
+                10386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix d'hide body",
+              "itemIds": [
+                10378
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak d'hide body",
+              "itemIds": [
+                10370
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide body",
+              "itemIds": [
+                12508
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient d'hide body",
+              "itemIds": [
+                12492
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos d'hide body",
+              "itemIds": [
+                12500
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide body",
+              "itemIds": [
+                2503
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70",
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Masori chaps (f)",
+              "itemIds": [
+                27241
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chainskirt",
+              "itemIds": [
+                11830
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin chaps",
+              "itemIds": [
+                10388
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix chaps",
+              "itemIds": [
+                10380
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak chaps",
+              "itemIds": [
+                10372
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl chaps",
+              "itemIds": [
+                12510
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient chaps",
+              "itemIds": [
+                12494
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos chaps",
+              "itemIds": [
+                12502
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide chaps",
+              "itemIds": [
+                2497
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Scorching bow",
+              "itemIds": [
+                29591
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 77"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Black d'hide vambraces",
+              "itemIds": [
+                2491
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ranger gloves",
+              "itemIds": [
+                19994
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Ranger boots",
+              "itemIds": [
+                2577
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            },
+            {
+              "name": "Ancient d'hide boots",
+              "itemIds": [
+                19921
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Archers ring (i)",
+              "itemIds": [
+                11771,
+                25260,
+                26768
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Brimstone ring",
+              "itemIds": [
+                22975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of the gods (i)",
+              "itemIds": [
+                13202,
+                25252,
+                26764
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Dragon arrow",
+              "itemIds": [
+                11212,
+                11227,
+                11228,
+                11229
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amethyst arrow",
+              "itemIds": [
+                21326,
+                21332,
+                21334,
+                21336
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rune arrow",
+              "itemIds": [
+                892,
+                893,
+                5621,
+                5627
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 2",
+              "itemIds": [
+                22943
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 1",
+              "itemIds": [
+                22941
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Peaceful blessing",
+              "itemIds": [
+                20226
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "skotizos-lair"
+        ],
+        "requirements": [],
+        "requiredItems": [
+          {
+            "name": "Scorching bow",
+            "itemIds": [
+              29591
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Emberlight or Arclight",
+            "itemIds": [
+              29589,
+              19675
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Dark totem",
+            "itemIds": [
+              19685
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 16,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Stamina potion(4)",
+            "itemIds": [
+              12631,
+              12629,
+              12627,
+              12625
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: Keep distance with Scorching bow and carry Emberlight or Arclight for guaranteed altar hits.",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "twisted-bow",
+      "label": "Twisted bow with demonbane altar switch",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "Keep distance with Twisted bow and carry Emberlight or Arclight for guaranteed altar hits.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Armadyl helmet",
+            "Ancient coif"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "WEAPON": [
+            "Twisted bow"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Black d'hide vambraces",
+            "Ranger gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Ranger boots",
+            "Ancient d'hide boots",
+            "Aranea boots"
+          ],
+          "RING": [
+            "Venator ring",
+            "Archers ring (i)",
+            "Brimstone ring",
+            "Ring of the gods (i)",
+            "Ring of suffering (i)"
+          ],
+          "AMMO": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow",
+            "Rada's blessing",
+            "Peaceful blessing"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Magic while ranging and travelling"
+      ],
+      "steps": [
+        "Keep out of melee range while attacking Skotizo and use magic protection.",
+        "Switch to Emberlight or Arclight for each altar; ranged demonbane damage does not grant the altar one-hit effect.",
+        "Restore run energy as needed and focus on the boss and altars rather than the re-summonable minions."
+      ],
+      "notes": [
+        "The Wiki recommends scorching bow and twisted bow particularly strongly; other ranged choices can favour distance or account restrictions over damage."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Masori mask (f)",
+              "itemIds": [
+                27235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl helmet",
+              "itemIds": [
+                11826
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient coif",
+              "itemIds": [
+                12496
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ava's accumulator",
+              "itemIds": [
+                10499
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 50"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chestplate",
+              "itemIds": [
+                11828
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin d'hide body",
+              "itemIds": [
+                10386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix d'hide body",
+              "itemIds": [
+                10378
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak d'hide body",
+              "itemIds": [
+                10370
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide body",
+              "itemIds": [
+                12508
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient d'hide body",
+              "itemIds": [
+                12492
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos d'hide body",
+              "itemIds": [
+                12500
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide body",
+              "itemIds": [
+                2503
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70",
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Masori chaps (f)",
+              "itemIds": [
+                27241
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chainskirt",
+              "itemIds": [
+                11830
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin chaps",
+              "itemIds": [
+                10388
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix chaps",
+              "itemIds": [
+                10380
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak chaps",
+              "itemIds": [
+                10372
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl chaps",
+              "itemIds": [
+                12510
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient chaps",
+              "itemIds": [
+                12494
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos chaps",
+              "itemIds": [
+                12502
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide chaps",
+              "itemIds": [
+                2497
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Twisted bow",
+              "itemIds": [
+                20997
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 85"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Black d'hide vambraces",
+              "itemIds": [
+                2491
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ranger gloves",
+              "itemIds": [
+                19994
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Ranger boots",
+              "itemIds": [
+                2577
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            },
+            {
+              "name": "Ancient d'hide boots",
+              "itemIds": [
+                19921
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Archers ring (i)",
+              "itemIds": [
+                11771,
+                25260,
+                26768
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Brimstone ring",
+              "itemIds": [
+                22975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of the gods (i)",
+              "itemIds": [
+                13202,
+                25252,
+                26764
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Dragon arrow",
+              "itemIds": [
+                11212,
+                11227,
+                11228,
+                11229
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amethyst arrow",
+              "itemIds": [
+                21326,
+                21332,
+                21334,
+                21336
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rune arrow",
+              "itemIds": [
+                892,
+                893,
+                5621,
+                5627
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 2",
+              "itemIds": [
+                22943
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 1",
+              "itemIds": [
+                22941
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Peaceful blessing",
+              "itemIds": [
+                20226
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "skotizos-lair"
+        ],
+        "requirements": [],
+        "requiredItems": [
+          {
+            "name": "Twisted bow",
+            "itemIds": [
+              20997
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Emberlight or Arclight",
+            "itemIds": [
+              29589,
+              19675
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Dark totem",
+            "itemIds": [
+              19685
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 16,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Stamina potion(4)",
+            "itemIds": [
+              12631,
+              12629,
+              12627,
+              12625
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: Keep distance with Twisted bow and carry Emberlight or Arclight for guaranteed altar hits.",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "crystal-bowfa",
+      "label": "Bow of Faerdhinen with demonbane altar switch",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "Keep distance with Bow of Faerdhinen and carry Emberlight or Arclight for guaranteed altar hits.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Crystal helm"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Crystal body"
+          ],
+          "LEGS": [
+            "Crystal legs"
+          ],
+          "WEAPON": [
+            "Bow of Faerdhinen"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Black d'hide vambraces",
+            "Ranger gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Ranger boots",
+            "Ancient d'hide boots",
+            "Aranea boots"
+          ],
+          "RING": [
+            "Venator ring",
+            "Archers ring (i)",
+            "Brimstone ring",
+            "Ring of the gods (i)",
+            "Ring of suffering (i)"
+          ],
+          "AMMO": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow",
+            "Rada's blessing",
+            "Peaceful blessing"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Magic while ranging and travelling"
+      ],
+      "steps": [
+        "Keep out of melee range while attacking Skotizo and use magic protection.",
+        "Switch to Emberlight or Arclight for each altar; ranged demonbane damage does not grant the altar one-hit effect.",
+        "Restore run energy as needed and focus on the boss and altars rather than the re-summonable minions."
+      ],
+      "notes": [
+        "The Wiki recommends scorching bow and twisted bow particularly strongly; other ranged choices can favour distance or account restrictions over damage."
+      ],
+      "risks": [],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Crystal helm",
+              "itemIds": [
+                23971
+              ],
+              "requires": [
+                [
+                  25865,
+                  23983,
+                  24123
+                ]
+              ],
+              "requirements": [
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ava's accumulator",
+              "itemIds": [
+                10499
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 50"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Crystal body",
+              "itemIds": [
+                23975
+              ],
+              "requires": [
+                [
+                  25865,
+                  23983,
+                  24123
+                ]
+              ],
+              "requirements": [
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Crystal legs",
+              "itemIds": [
+                23979
+              ],
+              "requires": [
+                [
+                  25865,
+                  23983,
+                  24123
+                ]
+              ],
+              "requirements": [
+                "DEFENCE >= 70",
+                "AGILITY >= 50"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Bow of Faerdhinen",
+              "itemIds": [
+                25865
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "AGILITY >= 70"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Black d'hide vambraces",
+              "itemIds": [
+                2491
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ranger gloves",
+              "itemIds": [
+                19994
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Ranger boots",
+              "itemIds": [
+                2577
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            },
+            {
+              "name": "Ancient d'hide boots",
+              "itemIds": [
+                19921
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Archers ring (i)",
+              "itemIds": [
+                11771,
+                25260,
+                26768
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Brimstone ring",
+              "itemIds": [
+                22975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of the gods (i)",
+              "itemIds": [
+                13202,
+                25252,
+                26764
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Dragon arrow",
+              "itemIds": [
+                11212,
+                11227,
+                11228,
+                11229
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amethyst arrow",
+              "itemIds": [
+                21326,
+                21332,
+                21334,
+                21336
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rune arrow",
+              "itemIds": [
+                892,
+                893,
+                5621,
+                5627
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 2",
+              "itemIds": [
+                22943
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 1",
+              "itemIds": [
+                22941
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Peaceful blessing",
+              "itemIds": [
+                20226
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "skotizos-lair"
+        ],
+        "requirements": [],
+        "requiredItems": [
+          {
+            "name": "Bow of Faerdhinen",
+            "itemIds": [
+              25865
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Crystal body",
+            "itemIds": [
+              23975
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Crystal legs",
+            "itemIds": [
+              23979
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Emberlight or Arclight",
+            "itemIds": [
+              29589,
+              19675
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Dark totem",
+            "itemIds": [
+              19685
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 16,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Stamina potion(4)",
+            "itemIds": [
+              12631,
+              12629,
+              12627,
+              12625
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: Keep distance with Bow of Faerdhinen and carry Emberlight or Arclight for guaranteed altar hits.",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "ranged-blowpipe-altars",
+      "label": "Ranged with blowpipe altar alternative",
+      "combatStyle": "RANGED",
+      "role": "solo",
+      "summary": "A charged toxic blowpipe is a source-listed altar alternative for players not using Arclight.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Armadyl helmet",
+            "Ancient coif"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Blessed body",
+            "Black d'hide body"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "WEAPON": [
+            "Scorching bow",
+            "Twisted bow"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Black d'hide vambraces",
+            "Ranger gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Ranger boots",
+            "Ancient d'hide boots",
+            "Aranea boots"
+          ],
+          "RING": [
+            "Venator ring",
+            "Archers ring (i)",
+            "Brimstone ring",
+            "Ring of the gods (i)",
+            "Ring of suffering (i)"
+          ],
+          "AMMO": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow",
+            "Rada's blessing",
+            "Peaceful blessing"
+          ]
+        }
+      },
+      "prayers": [
+        "Protect from Magic at distance"
+      ],
+      "steps": [
+        "Attack Skotizo at distance with the main bow.",
+        "Use the charged toxic blowpipe to damage active altars; this takes normal attacks rather than a guaranteed demonbane one-hit.",
+        "Prioritise altar control before damage reduction prevents boss damage."
+      ],
+      "notes": [],
+      "risks": [
+        "The blowpipe requires scales and loaded darts; altar kills are slower than the guaranteed Arclight/Emberlight effect."
+      ],
+      "advisor": {
+        "equipmentReviewed": true,
+        "equipment": {
+          "HEAD": [
+            {
+              "name": "Slayer helmet (i)",
+              "itemIds": [
+                11865,
+                19641,
+                19645,
+                19649,
+                21266,
+                21890,
+                23075,
+                24444,
+                25177,
+                25179,
+                25181,
+                25183,
+                25185,
+                25187,
+                25189,
+                25191,
+                25900,
+                25902,
+                25906,
+                25908,
+                25912,
+                25914,
+                26674,
+                26675,
+                26676,
+                26677,
+                26678,
+                26679,
+                26680,
+                26681,
+                26682,
+                26683,
+                26684,
+                29818,
+                29820,
+                29822,
+                33068,
+                33070,
+                33072,
+                33439,
+                33441,
+                33443,
+                33445,
+                33447,
+                33449
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 10",
+                "Active Slayer task"
+              ]
+            },
+            {
+              "name": "Masori mask (f)",
+              "itemIds": [
+                27235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl helmet",
+              "itemIds": [
+                11826
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient coif",
+              "itemIds": [
+                12496
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "AMULET": [
+            {
+              "name": "Necklace of rupture",
+              "itemIds": [
+                33639
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 90"
+              ]
+            },
+            {
+              "name": "Necklace of anguish",
+              "itemIds": [
+                19547
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            },
+            {
+              "name": "Amulet of fury",
+              "itemIds": [
+                6585
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amulet of glory",
+              "itemIds": [
+                1706,
+                1708,
+                1710,
+                1712,
+                11976,
+                11978,
+                1704
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "CAPE": [
+            {
+              "name": "Dizana's quiver",
+              "itemIds": [
+                28951,
+                28953
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75"
+              ]
+            },
+            {
+              "name": "Ava's assembler",
+              "itemIds": [
+                22109,
+                24222
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ava's accumulator",
+              "itemIds": [
+                10499
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 50"
+              ]
+            }
+          ],
+          "BODY": [
+            {
+              "name": "Masori body (f)",
+              "itemIds": [
+                27238
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chestplate",
+              "itemIds": [
+                11828
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin d'hide body",
+              "itemIds": [
+                10386
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix d'hide body",
+              "itemIds": [
+                10378
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak d'hide body",
+              "itemIds": [
+                10370
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl d'hide body",
+              "itemIds": [
+                12508
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient d'hide body",
+              "itemIds": [
+                12492
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos d'hide body",
+              "itemIds": [
+                12500
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide body",
+              "itemIds": [
+                2503
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70",
+                "DEFENCE >= 40"
+              ]
+            }
+          ],
+          "LEGS": [
+            {
+              "name": "Masori chaps (f)",
+              "itemIds": [
+                27241
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 80"
+              ]
+            },
+            {
+              "name": "Armadyl chainskirt",
+              "itemIds": [
+                11830
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 70",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Saradomin chaps",
+              "itemIds": [
+                10388
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Guthix chaps",
+              "itemIds": [
+                10380
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Zamorak chaps",
+              "itemIds": [
+                10372
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Armadyl chaps",
+              "itemIds": [
+                12510
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ancient chaps",
+              "itemIds": [
+                12494
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Bandos chaps",
+              "itemIds": [
+                12502
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Black d'hide chaps",
+              "itemIds": [
+                2497
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            }
+          ],
+          "WEAPON": [
+            {
+              "name": "Scorching bow",
+              "itemIds": [
+                29591
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 77"
+              ]
+            },
+            {
+              "name": "Twisted bow",
+              "itemIds": [
+                20997
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 85"
+              ]
+            }
+          ],
+          "HANDS": [
+            {
+              "name": "Zaryte vambraces",
+              "itemIds": [
+                26235
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 80",
+                "DEFENCE >= 45"
+              ]
+            },
+            {
+              "name": "Barrows gloves",
+              "itemIds": [
+                7462
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Black d'hide vambraces",
+              "itemIds": [
+                2491
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Ranger gloves",
+              "itemIds": [
+                19994
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            }
+          ],
+          "FEET": [
+            {
+              "name": "Avernic treads (max)",
+              "itemIds": [
+                31097
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 80",
+                "STRENGTH >= 80",
+                "RANGED >= 80",
+                "MAGIC >= 80"
+              ]
+            },
+            {
+              "name": "Pegasian boots",
+              "itemIds": [
+                13237
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 75",
+                "DEFENCE >= 75"
+              ]
+            },
+            {
+              "name": "Ranger boots",
+              "itemIds": [
+                2577
+              ],
+              "requires": [],
+              "requirements": [
+                "RANGED >= 40"
+              ]
+            },
+            {
+              "name": "Ancient d'hide boots",
+              "itemIds": [
+                19921
+              ],
+              "requires": [],
+              "requirements": [
+                "DEFENCE >= 40",
+                "RANGED >= 70"
+              ]
+            },
+            {
+              "name": "Aranea boots",
+              "itemIds": [
+                29806
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ],
+          "RING": [
+            {
+              "name": "Venator ring",
+              "itemIds": [
+                28310
+              ],
+              "requires": [],
+              "requirements": [
+                "Defeated the Leviathan during Desert Treasure II"
+              ]
+            },
+            {
+              "name": "Archers ring (i)",
+              "itemIds": [
+                11771,
+                25260,
+                26768
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Brimstone ring",
+              "itemIds": [
+                22975
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of the gods (i)",
+              "itemIds": [
+                13202,
+                25252,
+                26764
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Ring of suffering (i)",
+              "itemIds": [
+                20657,
+                19710,
+                25246,
+                26761
+              ],
+              "requires": [],
+              "requirements": [
+                "HITPOINTS >= 75"
+              ]
+            }
+          ],
+          "AMMO": [
+            {
+              "name": "Dragon arrow",
+              "itemIds": [
+                11212,
+                11227,
+                11228,
+                11229
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Amethyst arrow",
+              "itemIds": [
+                21326,
+                21332,
+                21334,
+                21336
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rune arrow",
+              "itemIds": [
+                892,
+                893,
+                5621,
+                5627
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 4",
+              "itemIds": [
+                22947
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 3",
+              "itemIds": [
+                22945
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 2",
+              "itemIds": [
+                22943
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Rada's blessing 1",
+              "itemIds": [
+                22941
+              ],
+              "requires": [],
+              "requirements": []
+            },
+            {
+              "name": "Peaceful blessing",
+              "itemIds": [
+                20226
+              ],
+              "requires": [],
+              "requirements": []
+            }
+          ]
+        },
+        "selectable": true,
+        "locationIds": [
+          "skotizos-lair"
+        ],
+        "requirements": [],
+        "requiredItems": [
+          {
+            "name": "Scorching bow or Twisted bow",
+            "itemIds": [
+              29591,
+              20997
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "switches": [
+          {
+            "name": "Toxic blowpipe",
+            "itemIds": [
+              12926
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ],
+        "inventory": [
+          {
+            "name": "Dark totem",
+            "itemIds": [
+              19685
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Prayer potion",
+            "itemIds": [
+              143,
+              141,
+              139,
+              2434
+            ],
+            "quantity": 3,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Shark",
+            "itemIds": [
+              385
+            ],
+            "quantity": 16,
+            "required": false,
+            "stackable": false
+          },
+          {
+            "name": "Teleport to house (tablet)",
+            "itemIds": [
+              8013
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": true
+          },
+          {
+            "name": "Stamina potion(4)",
+            "itemIds": [
+              12631,
+              12629,
+              12627,
+              12625
+            ],
+            "quantity": 1,
+            "required": false,
+            "stackable": false
+          }
+        ],
+        "group": false,
+        "taskOnly": false,
+        "cannon": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki strategy reviewed; complete authored equipment and mandatory dependencies",
+        "xpRank": 2,
+        "profitRank": 2,
+        "effortRank": 2,
+        "rankingReason": "Qualitative encounter trade-off: A charged toxic blowpipe is a source-listed altar alternative for players not using Arclight.",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "access-and-travel",
+      "label": "Dark totem entry and Catacombs routes",
+      "combatStyle": "MELEE",
+      "role": "travel",
+      "summary": "Prepare one complete dark totem for each arena entry.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Assemble the three totem parts and sacrifice the dark totem at the central Catacombs altar.",
+        "Enter through King Rada I's statue in Kourend Castle courtyard; Xeric's heart is a nearby teleport route. The Wiki also lists Kourend Castle Teleport after Client of Kourend.",
+        "Carry an emergency teleport, prayer restoration and food before using the totem."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "altar-control",
+      "label": "Awakened altar control",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Altars reduce outgoing damage and can be reactivated after a cooldown.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Four altars may activate independently. Each applies 15% damage reduction against Emberlight/Arclight or 25% against other weapons.",
+        "Deactivate altars with the selected altar weapon; a deactivated altar has a one-minute reactivation cooldown.",
+        "Arclight and Emberlight always one-hit altars. Blood fury can heal from such a hit; the Wiki describes a 30-Hitpoint heal with Arclight when its effect activates.",
+        "Use stamina for repeated travel and magic protection while out of Skotizo melee reach."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "minions-and-specials",
+      "label": "Minions and special weapons",
+      "combatStyle": "MELEE",
+      "role": "mechanics",
+      "summary": "Ignore replaceable minions and reserve special attacks for the boss.",
+      "requiredOrKeyItems": [
+        "Elder maul",
+        "Dragon warhammer",
+        "Bandos godsword",
+        "Burning claws",
+        "Voidwaker"
+      ],
+      "steps": [
+        "Below one third health Skotizo summons three reanimated demon spawns. A dark ankou may also appear while an altar is active.",
+        "Melee protection handles their attacks; killing these minions gives no strategic benefit and they can be summoned again.",
+        "Elder maul, dragon warhammer and Bandos godsword provide defence reduction, especially useful below best-in-slot gear. Burning claws or Voidwaker provide direct special-attack damage."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "methodId": "supplies",
+      "label": "Melee and ranged supplies",
+      "combatStyle": "MELEE",
+      "role": "inventory",
+      "summary": "Use a short boss-trip inventory with the entry item and the correct altar solution.",
+      "requiredOrKeyItems": [],
+      "steps": [
+        "Melee: divine super combat or a super set, optional special weapon, two or three prayer potions, optional stamina, emergency teleport, dark totem and sharks or better.",
+        "Ranged: divine bastion, optional melee special and supporting equipment, mandatory altar solution, two or three prayer potions, stamina, teleport, dark totem and food.",
+        "Twisted bow and scorching bow are strong distance options; the Wiki equipment comparison also retains Bow of Faerdhinen and void alternatives with their complete set dependencies."
+      ],
+      "notes": [],
+      "risks": [],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki supporting strategy reviewed; static reference",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    }
+  ],
+  "styleOptions": [
+    {
+      "styleId": "wiki-table-1",
+      "label": "Demonbane melee and magic-defence armour priorities",
+      "combatStyle": "MELEE",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Oathplate helm",
+            "Torva full helm",
+            "Neitiznot faceguard",
+            "Serpentine helm",
+            "Blood moon helm",
+            "Helm of Neitiznot",
+            "Zombie helmet",
+            "Dwarven helmet"
+          ],
+          "AMULET": [
+            "Amulet of rancour",
+            "Amulet of torture",
+            "Amulet of fury",
+            "Amulet of glory",
+            "Amulet of power"
+          ],
+          "CAPE": [
+            "Infernal cape",
+            "Fire cape",
+            "Mythical cape",
+            "Ardougne cloak 4"
+          ],
+          "AMMO": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Rada's blessing 3",
+            "Rada's blessing 2"
+          ],
+          "BODY": [
+            "Oathplate chest",
+            "Masori body (f)",
+            "Torva platebody",
+            "Karil's leathertop",
+            "Bandos chestplate",
+            "Fighter torso",
+            "Blood moon chestplate",
+            "Obsidian platebody",
+            "Blessed body",
+            "Elite void top",
+            "Void knight top",
+            "Black d'hide body"
+          ],
+          "LEGS": [
+            "Oathplate legs",
+            "Torva platelegs",
+            "Bandos tassets",
+            "Blood moon tassets",
+            "Obsidian platelegs",
+            "Elite void robe",
+            "Void knight robe",
+            "Karil's leatherskirt",
+            "Blessed chaps",
+            "Black d'hide chaps"
+          ],
+          "WEAPON": [
+            "Emberlight",
+            "Arclight"
+          ],
+          "SHIELD": [
+            "Avernic defender",
+            "Dragon defender",
+            "Dragonfire shield",
+            "Rune defender"
+          ],
+          "HANDS": [
+            "Ferocious gloves",
+            "Barrows gloves",
+            "Rune gloves",
+            "Regen bracelet",
+            "Combat bracelet"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Primordial boots",
+            "Dragon boots",
+            "Spiked manacles",
+            "Guardian boots",
+            "Mixed hide boots",
+            "Rune boots",
+            "Climbing boots"
+          ],
+          "RING": [
+            "Ultor ring",
+            "Bellator ring",
+            "Berserker ring (i)",
+            "Brimstone ring",
+            "Ring of shadows"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    },
+    {
+      "styleId": "wiki-table-2",
+      "label": "Ranged priorities and complete-set alternatives",
+      "combatStyle": "RANGED",
+      "role": "equipment",
+      "summary": "Ordered alternatives from the reviewed Wiki equipment table. Read the combat presets for required sets, ammunition and switches.",
+      "equipment": {
+        "slots": {
+          "HEAD": [
+            "Slayer helmet (i)",
+            "Masori mask (f)",
+            "Armadyl helmet",
+            "Crystal helm",
+            "Ancient coif",
+            "Void ranger helm"
+          ],
+          "AMULET": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of fury",
+            "Amulet of glory"
+          ],
+          "CAPE": [
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Ava's accumulator"
+          ],
+          "BODY": [
+            "Masori body (f)",
+            "Armadyl chestplate",
+            "Crystal body",
+            "Blessed body",
+            "Black d'hide body",
+            "Elite void top",
+            "Void knight top"
+          ],
+          "LEGS": [
+            "Masori chaps (f)",
+            "Armadyl chainskirt",
+            "Crystal legs",
+            "Blessed chaps",
+            "Black d'hide chaps",
+            "Elite void robe",
+            "Void knight robe"
+          ],
+          "WEAPON": [
+            "Twisted bow",
+            "Scorching bow",
+            "Bow of Faerdhinen"
+          ],
+          "HANDS": [
+            "Zaryte vambraces",
+            "Barrows gloves",
+            "Black d'hide vambraces",
+            "Ranger gloves",
+            "Void knight gloves"
+          ],
+          "FEET": [
+            "Avernic treads (max)",
+            "Pegasian boots",
+            "Ranger boots",
+            "Ancient d'hide boots",
+            "Aranea boots"
+          ],
+          "RING": [
+            "Venator ring",
+            "Archers ring (i)",
+            "Brimstone ring",
+            "Ring of the gods (i)",
+            "Ring of suffering (i)"
+          ],
+          "AMMO": [
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow",
+            "Rada's blessing",
+            "Peaceful blessing"
+          ]
+        }
+      },
+      "notes": [
+        "Alternatives in a slot are choices, not a list of mandatory carried switches.",
+        "Slayer helmet priority assumes an active matching assignment; use the ordinary helmet alternatives off-task."
+      ],
+      "advisor": {
+        "selectable": false,
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo/Strategies",
+            "title": "Skotizo/Strategies",
+            "pageId": 119426,
+            "revisionId": 15316231,
+            "timestamp": "2026-08-22T05:14:13Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skotizo",
+            "title": "Skotizo",
+            "pageId": 74417,
+            "revisionId": 15310354,
+            "timestamp": "2026-08-19T22:29:01Z",
+            "missing": false
+          }
+        ],
+        "coverageStatus": "Current raw Wiki equipment priorities preserved as reference",
+        "monsterIds": [
+          "skotizo"
+        ]
+      }
+    }
+  ]
+}

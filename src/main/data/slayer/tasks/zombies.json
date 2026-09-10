@@ -44,7 +44,11 @@
   "variantIds": [
     "zombie-lvl13",
     "zombie-lvl18",
-    "zombie-lvl24"
+    "zombie-lvl24",
+    "blue-dragons-vorkath",
+    "zombie-pirate",
+    "zogre",
+    "skogre-zombie"
   ],
   "defaultVariantId": "zombie-lvl24",
   "weakness": {
@@ -68,7 +72,11 @@
   "requiredItemName": null,
   "locationIds": [
     "graveyard-of-shadows",
-    "zombies-area"
+    "zombies-area",
+    "ungael-vorkath",
+    "chaos-temple-wilderness",
+    "jiggig",
+    "jiggig-dungeon"
   ],
   "variantInfo": [
     {
@@ -111,6 +119,60 @@
         "Level 24 Zombie (npc 49): 30 hitpoints, defence level 16, bonuses stab +9 / slash +8 / crush +12 / magic +10 / range +11, max hit 3 (slash).",
         "The wandering zombies at the Graveyard of Shadows (Wilderness levels 18-21) count towards a Krystilia task. Undead."
       ]
+    },
+    {
+      "variantId": "blue-dragons-vorkath",
+      "name": "Vorkath",
+      "combatLevel": 732,
+      "slayerXp": null,
+      "locations": [
+        "Ungael"
+      ],
+      "notes": [
+        "Post-quest Vorkath counts for Zombies and Blue dragons tasks; use the same canonical post-quest variant as the Blue dragons task.",
+        "Requires Dragon Slayer II and dedicated dragonfire, venom and special-phase preparation. Not eligible for Krystilia because Ungael is outside the Wilderness."
+      ]
+    },
+    {
+      "variantId": "zombie-pirate",
+      "name": "Zombie pirate",
+      "combatLevel": 34,
+      "slayerXp": null,
+      "locations": [
+        "Chaos Temple (Wilderness)"
+      ],
+      "notes": [
+        "Wilderness Zombie pirates count for Zombies and Pirates tasks, including Krystilia assignments.",
+        "The surrounding Elder Chaos druids and other players are hazards; the Medium Wilderness Diary improves the zombie pirate loot chance."
+      ]
+    },
+    {
+      "variantId": "zogre",
+      "name": "Zogre",
+      "combatLevel": 44,
+      "slayerXp": 71.0,
+      "locations": [
+        "Jiggig",
+        "Jiggig Dungeon"
+      ],
+      "notes": [
+        "Zogres count for Zombies and Ogres tasks.",
+        "Requires partial Zogre Flesh Eaters; prepare for disease and reduced damage without suitable ogre weapons or Crumble Undead."
+      ]
+    },
+    {
+      "variantId": "skogre-zombie",
+      "name": "Skogre (zombie task variant)",
+      "combatLevel": 44,
+      "slayerXp": 71.0,
+      "locations": [
+        "Jiggig",
+        "Jiggig Dungeon"
+      ],
+      "notes": [
+        "Skogre NPC 878 counts for Zombies and Ogres; the visually similar NPCs 872 and 879 count for Skeletons and Ogres.",
+        "Requires partial Zogre Flesh Eaters; prepare for disease and reduced damage without suitable ogre weapons or Crumble Undead."
+      ]
     }
   ],
   "locationComparison": [
@@ -145,9 +207,9 @@
     "Krystilia kills only count in the Wilderness (e.g. the Graveyard of Shadows wandering zombies); starter-master kills count on common zombies anywhere.",
     "Zombies are undead, so the Salve amulet (and its variants) and Crumble Undead apply.",
     "slayerTargetId 273 is SYNTHETIC (C2/C3 allocation contract: 252 + worklist index); the real SLAYER_TARGET varp value is a QA live-verify item.",
-    "wikiPageId is UNKNOWN (not captured at authoring); a QA live-verify item.",
     "Zombies carry a 50% fire weakness; the level 24 zombie's lowest melee defence bonus is slash, so a slashing weapon with a Salve amulet is efficient.",
-    "No task extension unlock exists for Zombies."
+    "No task extension unlock exists for Zombies.",
+    "Zombie pirates are a Wilderness alternative. Vorkath, Zogres and the zombie-category Skogre are non-Wilderness alternatives; their individual access and equipment requirements apply."
   ],
   "recommendedMethod": "Kill zombies with a slashing melee weapon and a Salve amulet (they are undead). On a Krystilia task the kills must occur in the Wilderness - the Graveyard of Shadows wandering zombies are the canonical spot; bring risk gear."
 }

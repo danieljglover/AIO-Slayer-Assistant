@@ -19,9 +19,7 @@
     "note": "High magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons."
   },
   "requirements": [
-    "Access to Chaos Fanatic's boss encounter and any prerequisite quests, keys, instances, or killcount listed by the linked strategy source.",
-    "Use the boss-task Slayer helm or Slayer helmet bonuses when the assignment permits it.",
-    "Bring supplies and teleports appropriate to a separate boss trip rather than a normal multi-kill Slayer location."
+    "Review the exact selected boss location access requirements and planned Wilderness risk."
   ],
   "mechanics": [
     "High magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons.",
@@ -50,7 +48,10 @@
       ],
       "steps": [
         "High magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "ranged-fanatic-kill",
@@ -82,7 +83,10 @@
       "risks": [
         "The explosive attack can hit hard if the player does not move.",
         "Wilderness interruptions are a primary risk."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
     },
     {
       "methodId": "wilderness-risk-control",
@@ -103,7 +107,250 @@
         "Choose gear around acceptable risk instead of maximum theoretical DPS.",
         "Keep protect item available when carrying a valuable weapon.",
         "Leave immediately if a hostile player appears and escape is still possible."
-      ]
+      ],
+      "advisor": {
+        "selectable": false
+      }
+    },
+    {
+      "methodId": "reviewed-chaos-fanatic-ranged-1",
+      "label": "Chaos Fanatic - Ranged Wilderness setup",
+      "combatStyle": "RANGED",
+      "role": "primary",
+      "summary": "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Chaos Fanatic Wiki order.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Blessed d'hide coif",
+            "Archer helm",
+            "Karil's coif",
+            "Snakeskin bandana"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of glory",
+            "Dragonbone necklace",
+            "Amulet of power"
+          ],
+          "cape": [
+            "Ava's accumulator",
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Mixed hide cape",
+            "Ardougne cloak 4",
+            "Ranging cape"
+          ],
+          "body": [
+            "Masori body (f)",
+            "Blessed d'hide body",
+            "Black d'hide body"
+          ],
+          "legs": [
+            "Black d'hide chaps",
+            "Masori chaps"
+          ],
+          "weapon": [
+            "Webweaver bow",
+            "Craw's bow",
+            "Twisted bow",
+            "Scorching bow",
+            "Magic shortbow (i)",
+            "Crystal bow"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Explorer's ring 4"
+          ],
+          "feet": [
+            "Mixed hide boots",
+            "Shayzien boots (5)",
+            "Snakeskin boots",
+            "Bloodbark boots"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Blessed bracers",
+            "Black d'hide vambraces",
+            "Rune gloves",
+            "Adamant gloves"
+          ]
+        }
+      },
+      "steps": [
+        "Use Webweaver bow first when owned, eligible and within the chosen risk constraints; alternatives retain this Chaos Fanatic Wiki order."
+      ],
+      "risks": [
+        "Wilderness PvP exposure and all carried gear/supplies remain subject to the selected death-risk scenario.",
+        "Ether is consumed and can be lost even when the Wilderness weapon is protected."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "chaos-fanatic"
+        ],
+        "locationIds": [
+          "chaos-fanatic-lava-maze"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "Reviewed Wilderness method priority from the linked Wiki context; no measured DPS/XP claim.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Chaos_Fanatic/Strategies",
+            "title": "Chaos Fanatic/Strategies",
+            "pageId": 81998,
+            "revisionId": 15325298,
+            "timestamp": "2026-08-30T03:53:24Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [],
+        "inventory": [],
+        "switches": []
+      }
+    },
+    {
+      "methodId": "reviewed-chaos-fanatic-crystal-armour",
+      "label": "Chaos Fanatic - Bow of Faerdhinen with crystal armour",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Use Bow of Faerdhinen with the crystal body and legs required by this Wiki equipment row. Keep the listed Slayer helmet or ranged head alternatives.",
+      "equipment": {
+        "slots": {
+          "head": [
+            "Slayer helmet (i)",
+            "Blessed d'hide coif",
+            "Archer helm",
+            "Karil's coif",
+            "Snakeskin bandana"
+          ],
+          "amulet": [
+            "Necklace of rupture",
+            "Necklace of anguish",
+            "Amulet of glory",
+            "Dragonbone necklace",
+            "Amulet of power"
+          ],
+          "cape": [
+            "Ava's accumulator",
+            "Dizana's quiver",
+            "Ava's assembler",
+            "Mixed hide cape",
+            "Ardougne cloak 4",
+            "Ranging cape"
+          ],
+          "body": [
+            "Crystal body"
+          ],
+          "legs": [
+            "Crystal legs"
+          ],
+          "weapon": [
+            "Bow of Faerdhinen"
+          ],
+          "ring": [
+            "Ring of shadows",
+            "Explorer's ring 4"
+          ],
+          "feet": [
+            "Mixed hide boots",
+            "Shayzien boots (5)",
+            "Snakeskin boots",
+            "Bloodbark boots"
+          ],
+          "ammo": [
+            "Rada's blessing 4",
+            "Peaceful blessing",
+            "Dragon arrow",
+            "Amethyst arrow",
+            "Rune arrow"
+          ],
+          "hands": [
+            "Barrows gloves",
+            "Blessed bracers",
+            "Black d'hide vambraces",
+            "Rune gloves",
+            "Adamant gloves"
+          ]
+        }
+      },
+      "steps": [
+        "Use Bow of Faerdhinen with the crystal body and legs required by this Wiki equipment row. Keep the listed Slayer helmet or ranged head alternatives."
+      ],
+      "risks": [
+        "Wilderness PvP exposure includes all crystal equipment and other carried gear, ammunition and supplies."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "chaos-fanatic"
+        ],
+        "locationIds": [
+          "chaos-fanatic-lava-maze"
+        ],
+        "equipmentReviewed": true,
+        "xpRank": 1,
+        "profitRank": 1,
+        "effortRank": 2,
+        "rankingReason": "A conditional alternative from the ranged grid: Bow of Faerdhinen is paired with crystal body and legs for this boss only.",
+        "coverageStatus": "Current Wilderness strategy and equipment reviewed for this exact monster/location.",
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Chaos_Fanatic/Strategies",
+            "title": "Chaos Fanatic/Strategies",
+            "pageId": 81998,
+            "revisionId": 15325298,
+            "timestamp": "2026-08-30T03:53:24Z",
+            "missing": false
+          }
+        ],
+        "cannon": false,
+        "barrage": false,
+        "requirements": [],
+        "inventory": [],
+        "switches": [],
+        "requiredItems": [
+          {
+            "name": "Bow of Faerdhinen",
+            "itemIds": [
+              25865
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Crystal body",
+            "itemIds": [
+              23975
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          },
+          {
+            "name": "Crystal legs",
+            "itemIds": [
+              23979
+            ],
+            "quantity": 1,
+            "required": true,
+            "stackable": false
+          }
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -125,8 +372,58 @@
             "Crystal bow"
           ]
         }
+      },
+      "advisor": {
+        "selectable": false
       }
     }
   ],
-  "body": "# Chaos Fanatic\n\nHigh magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons."
+  "body": "# Chaos Fanatic\n\nHigh magic level/defence - range him. Webweaver/Craw's bow are top picks and Wilderness weapons.",
+  "reviewedReferenceSections": [
+    {
+      "sectionId": "suggested-skills-1",
+      "label": "Suggested skills",
+      "sourceWikitext": "<poem>\n*{{SCP|Ranged|75+}}\n*{{SCP|Defence|70+}}\n*{{SCP|Prayer|37+}}\n*{{SCP|Magic|96+}} (optional for [[Ghorrock Teleport]])\n</poem>",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Chaos_Fanatic/Strategies",
+          "title": "Chaos Fanatic/Strategies",
+          "pageId": 81998,
+          "revisionId": 15325298,
+          "timestamp": "2026-08-30T03:53:24Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "equipment-2",
+      "label": "Equipment",
+      "sourceWikitext": "Activate [[Protect from Magic]], and be prepared to use [[Protect Item]] if [[4-iteming]]. Similar to the [[Chaos Elemental|chaos elemental]], he can unequip your items.  \n\n'''Note:''' Ensure you are not risking more than you are willing to lose. \n\nIt is recommended to use [[inventory blocking food]] as he cannot disarm you if there are no slots in your inventory for your weapons. Examples of this are [[Pies]], [[Curry]], and [[Stew]].\n\nIf you are using potions, it is advised to make sure that vial smashing is turned off. This option can be turned off in the settings menu under the gameplay section. [[Blighted super restore]] can be used, as it's in the [[Wilderness]].\n\n{{Recommended equipment\n| style = Ranged\n| head1 = {{plink|Slayer helmet (i)}}{{efn|If on a Chaos Fanatic slayer task|name=task}}\n| head2 = {{plink|Blessed d'hide coif|pic=Armadyl coif}}\n| head3 = {{plink|Archer helm}}\n| head4 = {{plink|Karil's coif}}\n| head5 = {{plink|Snakeskin bandana}}\n| neck1 = {{plink|Necklace of rupture}}\n| neck2 = {{plink|Necklace of anguish}}\n| neck3 = {{plink|Amulet of glory}} / {{plink|Dragonbone necklace}}\n| neck4 = {{plink|Amulet of power}}\n| cape1 = {{plink|Ava's accumulator}} (Or {{plinkp|Dizana's quiver}}/{{plinkp|Ava's assembler}}\n| cape2 = {{plink|Mixed hide cape}}{{efn|name=noarrow|If using a bow that doesn't require arrows}} / {{plink|Ardougne cloak 4}}{{efn|name=noarrow}}\n| cape3 = {{plink|Ranging cape}}\n| body1 = {{plink|Masori body (f)}}\n| body2 = {{plink|Crystal body}}{{efn|name=crystal}}\n| body3 = {{plink|Blessed d'hide body|pic=Armadyl d'hide body}}\n| body4 = {{plink|Black d'hide body}}\n| legs1 = {{plink|Black d'hide chaps}} ({{plinkp|Masori chaps}} if comfortable with the risk)\n| legs2 = {{plink|Crystal legs}}{{efn|name=crystal}}\n| weapon1 = {{plink|Webweaver bow}} / {{plink|Craw's bow}}\n| weapon2 = {{plink|Twisted bow}} > {{plink|Bow of Faerdhinen}}{{efn|With [[Crystal armour]] and [[Bow of Faerdhinen]]|name=crystal}}\n| weapon3 = {{plink|Scorching bow}}\n| weapon4 = {{plink|Magic shortbow (i)}} / {{plink|Crystal bow}}\n| weapon5 = \n| ring1 = {{plink|Ring of shadows}}\n| ring2 = {{plink|Explorer's ring 4}}\n| feet1 = {{plink|Mixed hide boots}}\n| feet2 = {{plink|Shayzien boots (5)}}\n| feet3 = {{plink|Snakeskin boots}}\n| feet4 = {{plink|Bloodbark boots}}\n| ammo1 = {{plink|Rada's blessing 4}}{{efn|If using a weapon that doesn't require the ammo slot|name=noammo}} > <br/>{{plink|God blessing|pic=Peaceful blessing}}{{efn|name=noammo}}\n| ammo2 = {{plink|Dragon arrow}}/{{plink|Amethyst arrow}}/{{plink|Rune arrow}}\n| hands1 = {{plink|Barrows gloves}}\n| hands2 = {{plink|Blessed bracers|pic=Armadyl bracers}}\n| hands3 = {{plink|Black d'hide vambraces}}\n| hands4 = {{plink|Rune gloves}} / {{plink|Adamant gloves}}\n}}\n{{Inventory\n|align = right\n|1 = Divine ranging potion(4)\n|2 = Blighted super restore(4)\n|3 = Blighted super restore(4)\n|4 = Blighted super restore(4)\n|5 = Divine ranging potion(4)\n|6 = Blighted super restore(4)\n|7 = Blighted super restore(4)\n|8 = Blighted super restore(4)\n|9 = Summer pie\n|10 = Summer pie\n|11 = Summer pie\n|12 = Summer pie\n|13 = Summer pie\n|14 = Summer pie\n|15 = Summer pie\n|16 = Summer pie\n|17 = Summer pie\n|18 = Summer pie\n|19 = Summer pie\n|20 = Summer pie\n|21 = Summer pie\n|22 = Summer pie\n|23 = Summer pie\n|24 = Summer pie\n|25 = Summer pie\n|26 = Ghorrock teleport (tablet)\n|27 = Royal seed pod\n|28 = Looting bag\n}}\n{{Notelist}}",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Chaos_Fanatic/Strategies",
+          "title": "Chaos Fanatic/Strategies",
+          "pageId": 81998,
+          "revisionId": 15325298,
+          "timestamp": "2026-08-30T03:53:24Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "sectionId": "inventory-3",
+      "label": "Inventory",
+      "sourceWikitext": "*2 [[divine ranging potion]].\n*4\u20136 [[Blighted super restore|blighted super restores]].\n*[[Looting bag]] (recommended).\n*[[Ghorrock teleport]] (at least 2 as otherwise you will be left with an empty inventory space after you use the first one, and the boss would unequip your gear), [[runes]] for casting, or [[burning amulet]] (optional, as you can get to the boss via the Wilderness obelisk to the north).\n*An emergency [[teleport]] (optional\u2014only works in level 30 or 20 Wilderness or less. See [[Wilderness#Teleport_restrictions|Wilderness teleport restrictions]] for info).\n*[[Summer pie]]s or [[Wild pie]]s are the best food to bring here, as they heal 22 per slot and leave the pie dish in the inventory, to counter the disarming ability of the chaos fanatic. Alternatively, [[Curry]] heals less (19 Hitpoints) but heals in one bite, whereas the pies are eaten in two bites healing 11 per bite.  \n\n[[Category:Strategies]]\n[[Category:Wilderness]]",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Chaos_Fanatic/Strategies",
+          "title": "Chaos Fanatic/Strategies",
+          "pageId": 81998,
+          "revisionId": 15325298,
+          "timestamp": "2026-08-30T03:53:24Z",
+          "missing": false
+        }
+      ]
+    }
+  ]
 }

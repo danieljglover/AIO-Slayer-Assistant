@@ -74,7 +74,12 @@
       ],
       "notes": [
         "Single-combat, cannonable, and safespottable."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-lesser-demons"
+        ]
+      }
     },
     {
       "methodId": "catacombs",
@@ -96,7 +101,12 @@
       ],
       "notes": [
         "Multicombat but not cannonable; safespottable."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-lesser-demons"
+        ]
+      }
     },
     {
       "methodId": "wilderness-slayer-cave",
@@ -122,7 +132,12 @@
       ],
       "notes": [
         "Wilderness weapons gain their bonus here."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-lesser-demons"
+        ]
+      }
     },
     {
       "methodId": "cage-safespot",
@@ -144,7 +159,12 @@
       ],
       "notes": [
         "Only one spawn per cage, so these are slow for full tasks."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-lesser-demons"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -163,6 +183,11 @@
             "Abyssal tentacle"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-lesser-demons"
+        ]
       }
     },
     {
@@ -178,6 +203,11 @@
             "Venator bow"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-lesser-demons"
+        ]
       }
     },
     {
@@ -193,6 +223,11 @@
             "Trident of the swamp"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-lesser-demons"
+        ]
       }
     }
   ]

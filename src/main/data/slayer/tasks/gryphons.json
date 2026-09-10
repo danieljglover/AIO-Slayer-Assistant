@@ -11,7 +11,8 @@
     "vannaka",
     "chaeldar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "vannaka": [
@@ -29,13 +30,18 @@
     "duradel": [
       100,
       210
+    ],
+    "mortimer": [
+      80,
+      120
     ]
   },
   "weightByMaster": {
     "vannaka": 10,
     "chaeldar": 10,
     "nieve": 7,
-    "duradel": 7
+    "duradel": 7,
+    "mortimer": 10
   },
   "extendedAmount": {
     "vannaka": [

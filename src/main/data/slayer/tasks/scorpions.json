@@ -1,7 +1,7 @@
 {
   "taskId": "scorpions",
   "name": "Scorpions",
-  "wikiPageId": null,
+  "wikiPageId": 297991,
   "combatLevel": 7,
   "slayerTargetId": 270,
   "slayerLevel": 1,
@@ -43,7 +43,8 @@
   "variantIds": [
     "scorpion-wilderness",
     "scorpion",
-    "king-scorpion"
+    "king-scorpion",
+    "scorpia"
   ],
   "defaultVariantId": "scorpion-wilderness",
   "weakness": {
@@ -67,7 +68,8 @@
   "requiredItemName": null,
   "locationIds": [
     "scorpions-wilderness",
-    "scorpions-area"
+    "scorpions-area",
+    "scorpion-pit-cave"
   ],
   "variantInfo": [
     {
@@ -111,6 +113,19 @@
       "notes": [
         "NPC id 3027 (level 32); 30 Hitpoints, Defence 23, max hit 4.",
         "Stab melee; 20% weakness to fire spells (June 2025). Counts for a Scorpions task."
+      ]
+    },
+    {
+      "variantId": "scorpia",
+      "name": "Scorpia",
+      "combatLevel": 225,
+      "slayerXp": 260.0,
+      "locations": [
+        "Scorpion Pit"
+      ],
+      "notes": [
+        "Scorpia counts for Scorpions tasks, including Krystilia assignments.",
+        "Deep Wilderness multicombat boss with substantial player killing risk; use the dedicated freezing and magic strategy."
       ]
     }
   ],

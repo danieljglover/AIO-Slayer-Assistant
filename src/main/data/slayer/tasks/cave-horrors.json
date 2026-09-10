@@ -11,7 +11,8 @@
   "masterIds": [
     "chaeldar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "chaeldar": [
@@ -25,12 +26,17 @@
     "duradel": [
       130,
       200
+    ],
+    "mortimer": [
+      80,
+      120
     ]
   },
   "weightByMaster": {
     "chaeldar": 10,
     "nieve": 5,
-    "duradel": 4
+    "duradel": 4,
+    "mortimer": 10
   },
   "extendedAmount": {
     "chaeldar": [

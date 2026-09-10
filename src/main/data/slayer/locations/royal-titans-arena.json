@@ -1,0 +1,13 @@
+{
+  "locationId": "royal-titans-arena",
+  "name": "Royal Titans",
+  "multi": true,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "Royal Titans encounter in the Asgarnian Ice Dungeon. No quest, skill or item is required to access the encounter; prepare for both Branda and Eldric using the shared strategy. Solo and duo approaches are supported. The fight is outside the Wilderness and bosses are immune to cannons.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Royal_Titans",
+  "advisorRequirements": []
+}

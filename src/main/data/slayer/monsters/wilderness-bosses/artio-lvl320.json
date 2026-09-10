@@ -23,8 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Hunter's End, a singles-plus combat area in level 21 Wilderness (the singles-plus alternative to Callisto).",
-  "locationId": null,
-  "requirement": "boss - separate trip",
+  "locationId": "hunters-end",
+  "requirement": null,
   "bossId": null,
   "strategyId": "callisto",
   "offence": {

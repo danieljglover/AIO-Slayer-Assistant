@@ -18,19 +18,22 @@ performs game actions.
 
 - `src/main/java/com/danieljglover/allinslayer/`: plugin entry point, config,
   recompute loop, and top-level orchestration.
-- `src/main/java/com/danieljglover/allinslayer/task/`: Slayer task detection
-  from RuneLite varps.
+- `src/main/java/com/danieljglover/allinslayer/task/advisor/`: Slayer task,
+  boss, and assignment-area detection from RuneLite game tables.
 - `src/main/java/com/danieljglover/allinslayer/data/`: runtime data loading and
   indexing.
 - `src/main/java/com/danieljglover/allinslayer/data/source/`: modular Slayer
   source compiler, source models, validation, and CLI generation.
-- `src/main/java/com/danieljglover/allinslayer/loadout/`: bank-aware loadout and
-  DPS/cost recommendation logic.
-- `src/main/java/com/danieljglover/allinslayer/ui/`: Swing panel and overlay.
+- `src/main/java/com/danieljglover/allinslayer/loadout/advisor/`: wiki-first
+  equipment, eligibility, inventory, and qualitative goal ranking.
+- `src/main/java/com/danieljglover/allinslayer/ui/advisor/`: native task and
+  catalogue panel plus passive overlay.
 - `src/main/data/slayer/`: editable Slayer knowledge base; see
   `docs/agents/slayer-data-source.md`.
-- `build/generated/resources/slayer/data/slayer-data.json`: generated runtime
-  resource consumed by `SlayerDataService`.
+- `build/generated/resources/slayer/data/advisor-catalogue.json`: generated
+  runtime resource consumed by `AdvisorDataService`.
+- `docs/reconstruction/implementation.md`: current reconstruction interfaces;
+  historical design documents describe superseded runtime code.
 
 ## Code Style
 
@@ -70,6 +73,8 @@ The modular Slayer data is a normalized source graph:
 - `weapons/*.json`: stable strategy weapon IDs mapped to item IDs.
 - `strategies/<strategy-id>/strategy.json`: preferred strategy format with
   plugin recommendations plus LLM-readable methods and style options.
+- `advisor/*.json`: reviewed wiki equipment, eligibility and context mappings;
+  see `docs/agents/advisor-catalogue.md` before changing runtime data rules.
 
 When migrating OSRS Wiki content, every meaningful strategy method must be
 represented in JSON, including solo, tank, attacker, safespot, cannon, barrage,

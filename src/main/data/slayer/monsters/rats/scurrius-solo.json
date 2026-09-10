@@ -1,0 +1,58 @@
+{
+  "variantId": "scurrius-solo",
+  "name": "Scurrius (solo)",
+  "npcIds": [
+    7222
+  ],
+  "combatLevel": 200,
+  "weakness": {
+    "style": "MELEE",
+    "element": null
+  },
+  "monsterDefence": {
+    "defenceLevel": 60,
+    "stab": 20,
+    "slash": 20,
+    "crush": 20,
+    "magic": 10,
+    "range": 20
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Varrock Sewers - Scurrius private instance",
+  "locationId": "scurrius-lair",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "scurrius",
+  "offence": {
+    "hitpoints": 500,
+    "maxHit": 22,
+    "attackStyles": [
+      "MELEE",
+      "MAGIC",
+      "RANGED"
+    ],
+    "attackSpeedTicks": 4,
+    "poisonous": false,
+    "venomous": false
+  },
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Scurrius",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Scurrius",
+      "title": "Scurrius",
+      "pageId": 404457,
+      "revisionId": 15201009,
+      "timestamp": "2026-04-28T23:49:13Z",
+      "missing": false
+    }
+  ],
+  "notes": [
+    "Rat assignment credit is confirmed by the monster infobox and 31 January 2024 change entry.",
+    "Melee maximum hit 13; magic maximum hit 8; ranged maximum hit 7; rockfall maximum hit 22.",
+    "No elemental weakness is listed. Rat bone weapons have a rat-specific damage bonus."
+  ]
+}

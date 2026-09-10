@@ -27,7 +27,7 @@
   "locationId": "mogre-camp",
   "requirement": "Slayer 1; partial completion of Recipe for Disaster (Freeing Pirate Pete) to access the Mogre Camp",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "crabs-task-methods",
   "offence": {
     "hitpoints": 18,
     "maxHit": 3,

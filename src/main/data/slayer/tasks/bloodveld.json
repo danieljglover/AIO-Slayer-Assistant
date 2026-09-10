@@ -14,7 +14,8 @@
     "chaeldar",
     "konar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "krystilia": [
@@ -40,6 +41,10 @@
     "duradel": [
       130,
       200
+    ],
+    "mortimer": [
+      120,
+      180
     ]
   },
   "weightByMaster": {
@@ -48,7 +53,8 @@
     "chaeldar": 8,
     "konar": 9,
     "nieve": 9,
-    "duradel": 8
+    "duradel": 8,
+    "mortimer": 8
   },
   "extendedAmount": {
     "krystilia": [
@@ -100,7 +106,8 @@
     "bloodveld-god-wars-dungeon",
     "mutated-bloodveld",
     "insatiable-bloodveld",
-    "insatiable-mutated-bloodveld"
+    "insatiable-mutated-bloodveld",
+    "reanimated-bloodveld"
   ],
   "defaultVariantId": "bloodveld",
   "weakness": {
@@ -131,7 +138,8 @@
     "slayer-tower",
     "slayer-tower-basement",
     "stronghold-slayer-cave",
-    "wilderness-god-wars-dungeon"
+    "wilderness-god-wars-dungeon",
+    "dark-altar"
   ],
   "variantInfo": [
     {
@@ -217,15 +225,14 @@
       "variantId": "reanimated-bloodveld",
       "name": "Reanimated bloodveld",
       "combatLevel": null,
-      "slayerXp": 35,
+      "slayerXp": 35.0,
       "locations": [
-        "Dark Altar",
-        "Other"
+        "Dark Altar"
       ],
       "notes": [
-        "Using Expert Reanimation on an ensouled bloodveld head reanimates a bloodveld for greatly reduced Slayer experience.",
-        "The player also receives 1,040 Prayer experience for each kill.",
-        "If the spell is not cast quickly enough after picking up the head, or if the player trades the head or teleports away, it must be reanimated at the Dark Altar."
+        "Counts for the corresponding Slayer task, giving 35 Slayer XP alongside Prayer XP.",
+        "Incidental reanimation target requiring the relevant Arceuus reanimation spell and ensouled head; not an independently spawned repeatable monster.",
+        "Reanimation works near the original drop while the head has not entered a bank, trade, Grand Exchange or price checker; otherwise use the Dark Altar."
       ]
     }
   ],

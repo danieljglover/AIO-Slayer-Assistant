@@ -36,5 +36,5 @@
   "locationId": "jiggig-dungeon",
   "requirement": "Requires starting Zogre Flesh Eaters. Can inflict disease. Brutal arrows (with a Comp ogre bow) or Crumble Undead work best against Zogres.",
   "bossId": null,
-  "strategyId": null
+  "strategyId": "ogres-task-methods"
 }

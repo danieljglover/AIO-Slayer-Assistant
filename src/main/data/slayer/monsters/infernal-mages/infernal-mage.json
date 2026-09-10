@@ -30,7 +30,7 @@
   "locationId": "slayer-tower",
   "requirement": "45 Slayer.",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "infernal-mages-task-methods",
   "offence": {
     "hitpoints": 60,
     "maxHit": 8,

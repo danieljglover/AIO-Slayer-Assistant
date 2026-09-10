@@ -25,5 +25,6 @@
   "location": "GWD - Armadyl boss room",
   "requirement": "boss room (separate trip); counts toward aviansie task",
   "bossId": null,
-  "strategyId": "wingman-skree"
+  "strategyId": "wingman-skree",
+  "locationId": "god-wars-dungeon-armadyl"
 }

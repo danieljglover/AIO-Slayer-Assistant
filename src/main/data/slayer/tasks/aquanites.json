@@ -8,7 +8,8 @@
   "questReqs": [],
   "masterIds": [
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "nieve": [
@@ -18,11 +19,16 @@
     "duradel": [
       30,
       50
+    ],
+    "mortimer": [
+      40,
+      60
     ]
   },
   "weightByMaster": {
     "nieve": 5,
-    "duradel": 5
+    "duradel": 5,
+    "mortimer": 10
   },
   "extendedAmount": {
     "nieve": [

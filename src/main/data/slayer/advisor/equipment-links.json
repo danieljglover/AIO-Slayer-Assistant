@@ -1,0 +1,562 @@
+{
+  "general": {
+    "page": "Slayer training",
+    "MELEE": 1,
+    "MAGIC": 3,
+    "RANGED": 4
+  },
+  "pages": {
+    "Abyssal Sire/Strategies": {
+      "styles": {
+        "MELEE": 5,
+        "MAGIC": 7,
+        "RANGED": 8
+      }
+    },
+    "Adamant dragon/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 3
+      }
+    },
+    "Alchemical Hydra/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2
+      }
+    },
+    "Amoxliatl/Strategies": {
+      "styles": {
+        "MELEE": 1
+      }
+    },
+    "Aquanite/Strategies": {
+      "styles": {
+        "MELEE": 1
+      }
+    },
+    "Araxxor/Strategies": {
+      "styles": {
+        "MELEE": 2,
+        "RANGED": 3
+      }
+    },
+    "Artio/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MAGIC": 2
+      }
+    },
+    "Aviansie/Strategies": {
+      "styles": {
+        "RANGED": 1
+      }
+    },
+    "Barrows/Strategies": {
+      "styles": {
+        "MAGIC": 2,
+        "RANGED": 3
+      },
+      "selectors": [
+        {
+          "contains": "low-level",
+          "style": "MAGIC",
+          "index": 1
+        }
+      ]
+    },
+    "Basilisk Knight/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2,
+        "MAGIC": 3
+      }
+    },
+    "Brutal black dragon/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MAGIC": 2
+      }
+    },
+    "Callisto/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MAGIC": 2
+      }
+    },
+    "Calvar'ion/Strategies": {
+      "styles": {
+        "MELEE": 1
+      }
+    },
+    "Cerberus/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2
+      }
+    },
+    "Chaos Elemental/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2
+      }
+    },
+    "Chaos Fanatic/Strategies": {
+      "styles": {
+        "RANGED": 1
+      }
+    },
+    "Crazy archaeologist/Strategies": {
+      "styles": {
+        "MAGIC": 1
+      }
+    },
+    "Dagannoth Kings/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 2,
+        "RANGED": 3
+      }
+    },
+    "Demonic gorilla/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2
+      }
+    },
+    "Fossil Island Wyverns/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 3,
+        "RANGED": 4
+      },
+      "selectors": [
+        {
+          "contains": "prayer",
+          "style": "MELEE",
+          "index": 2
+        }
+      ]
+    },
+    "Frost dragon/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 3
+      }
+    },
+    "General Graardor/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 2,
+        "RANGED": 3
+      },
+      "selectors": [
+        {
+          "contains": "tank",
+          "style": "MELEE",
+          "index": 4
+        },
+        {
+          "contains": "tank",
+          "style": "RANGED",
+          "index": 5
+        },
+        {
+          "contains": "attacker",
+          "style": "MELEE",
+          "index": 6
+        },
+        {
+          "contains": "attacker",
+          "style": "RANGED",
+          "index": 7
+        },
+        {
+          "contains": "attacker",
+          "style": "MAGIC",
+          "index": 8
+        }
+      ]
+    },
+    "Giant Mole/Strategies": {
+      "styles": {
+        "MELEE": 3,
+        "MAGIC": 2,
+        "RANGED": 1
+      },
+      "selectors": [
+        {
+          "contains": "dharok",
+          "style": "MELEE",
+          "index": 4
+        },
+        {
+          "contains": "budget",
+          "style": "MELEE",
+          "index": 5
+        }
+      ]
+    },
+    "Green dragon/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 3
+      }
+    },
+    "Grotesque Guardians/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2
+      }
+    },
+    "Inferno/Strategies": {
+      "styles": {
+        "MAGIC": 1
+      }
+    },
+    "K'ril Tsutsaroth/Strategies": {
+      "styles": {
+        "MELEE": 2,
+        "MAGIC": 5,
+        "RANGED": 1
+      },
+      "selectors": [
+        {
+          "contains": "tank",
+          "style": "MELEE",
+          "index": 3
+        },
+        {
+          "contains": "attacker",
+          "style": "MELEE",
+          "index": 4
+        }
+      ]
+    },
+    "Kalphite Queen/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 3
+      }
+    },
+    "King Black Dragon/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 3
+      }
+    },
+    "Kraken/Strategies": {
+      "styles": {
+        "MAGIC": 1
+      }
+    },
+    "Kree'arra/Strategies": {
+      "styles": {
+        "MAGIC": 1,
+        "RANGED": 4,
+        "MELEE": 5
+      },
+      "selectors": [
+        {
+          "contains": "chinchompa",
+          "style": "RANGED",
+          "index": 2
+        },
+        {
+          "contains": "tank",
+          "style": "RANGED",
+          "index": 3
+        }
+      ]
+    },
+    "Lava dragon/Strategies": {
+      "styles": {
+        "MAGIC": 1,
+        "RANGED": 2,
+        "MELEE": 3
+      }
+    },
+    "Lizardman shaman/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2
+      }
+    },
+    "Metal dragons/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 3
+      }
+    },
+    "Mithril dragon/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 2,
+        "RANGED": 3
+      }
+    },
+    "Phantom Muspah/Strategies": {
+      "styles": {
+        "MAGIC": 1,
+        "RANGED": 2,
+        "MELEE": 3
+      }
+    },
+    "Revenants/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2,
+        "MAGIC": 3
+      }
+    },
+    "Royal Titans/Strategies": {
+      "styles": {
+        "MELEE": 5,
+        "RANGED": 6
+      }
+    },
+    "Rune dragon/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 3
+      }
+    },
+    "Sarachnis/Strategies": {
+      "styles": {
+        "MELEE": 2,
+        "MAGIC": 3
+      }
+    },
+    "Scorpia/Strategies": {
+      "styles": {
+        "MAGIC": 1
+      }
+    },
+    "Shellbane gryphon/Strategies": {
+      "styles": {
+        "MELEE": 1
+      }
+    },
+    "Skeletal Wyvern/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 4
+      }
+    },
+    "Skotizo/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2
+      }
+    },
+    "Slayer task/Abyssal demons": {
+      "styles": {
+        "MAGIC": 1,
+        "RANGED": 2,
+        "MELEE": 3
+      }
+    },
+    "Slayer task/Aquanites": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2
+      }
+    },
+    "Slayer task/Custodian stalker": {
+      "styles": {
+        "RANGED": 1,
+        "MAGIC": 2,
+        "MELEE": 3
+      }
+    },
+    "Slayer task/Dark beast": {
+      "styles": {
+        "MELEE": 1
+      }
+    },
+    "Slayer task/Drakes": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 3
+      }
+    },
+    "Slayer task/Dust devils": {
+      "styles": {
+        "MAGIC": 1,
+        "RANGED": 2,
+        "MELEE": 3
+      }
+    },
+    "Slayer task/Fossil Island wyverns": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 3,
+        "RANGED": 4
+      }
+    },
+    "Slayer task/Gargoyles": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2
+      }
+    },
+    "Slayer task/Jellies": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 2,
+        "RANGED": 3
+      }
+    },
+    "Slayer task/Kurasks": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2,
+        "MAGIC": 3
+      }
+    },
+    "Slayer task/Nechryael": {
+      "styles": {
+        "MAGIC": 1,
+        "MELEE": 2
+      }
+    },
+    "Slayer task/Skeletons": {
+      "styles": {
+        "RANGED": 1,
+        "MAGIC": 2
+      }
+    },
+    "Slayer task/Suqah": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2
+      }
+    },
+    "Slayer task/Trolls": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 2
+      }
+    },
+    "Slayer task/Waterfiends": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 2
+      }
+    },
+    "Slayer task/Wyrms": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2,
+        "MAGIC": 3
+      }
+    },
+    "Smoke devil/Strategies": {
+      "styles": {
+        "MAGIC": 1
+      }
+    },
+    "Spindel/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2
+      }
+    },
+    "Thermonuclear smoke devil/Strategies": {
+      "styles": {
+        "MAGIC": 1,
+        "MELEE": 3
+      },
+      "selectors": [
+        {
+          "contains": "redemption",
+          "style": "MAGIC",
+          "index": 2
+        },
+        {
+          "contains": "redemption",
+          "style": "MELEE",
+          "index": 4
+        }
+      ]
+    },
+    "Tormented Demon/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 3,
+        "MAGIC": 5
+      }
+    },
+    "TzHaar Fight Cave/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2,
+        "MAGIC": 3
+      }
+    },
+    "Venator/Strategies": {
+      "styles": {
+        "MELEE": 1
+      }
+    },
+    "Venenatis/Strategies": {
+      "styles": {
+        "MELEE": 1,
+        "RANGED": 2
+      }
+    },
+    "Vet'ion/Strategies": {
+      "styles": {
+        "MELEE": 1
+      }
+    },
+    "Vorkath/Strategies": {
+      "styles": {
+        "RANGED": 1,
+        "MELEE": 2
+      }
+    },
+    "Vyrewatch Sentinel/Strategies": {
+      "styles": {
+        "MELEE": 1
+      },
+      "selectors": [
+        {
+          "contains": "prayer",
+          "style": "MELEE",
+          "index": 2
+        },
+        {
+          "contains": "afk",
+          "style": "MELEE",
+          "index": 2
+        }
+      ]
+    },
+    "Zulrah/Strategies": {
+      "styles": {
+        "MAGIC": 1,
+        "RANGED": 2,
+        "MELEE": 3
+      }
+    },
+    "Slayer training": {
+      "styles": {
+        "MELEE": 1,
+        "MAGIC": 3,
+        "RANGED": 4
+      }
+    }
+  },
+  "notes": [
+    "These links bind equipment priorities to an existing authored method of the same style. Mandatory task/variant/location constraints are applied separately. General Slayer training gear is used only for ordinary monsters without a method-specific equipment table."
+  ]
+}

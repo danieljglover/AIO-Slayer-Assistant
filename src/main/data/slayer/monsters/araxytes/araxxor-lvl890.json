@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Morytania Spider Cave (crush strongly recommended; cannon-immune)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "araxxor"
+  "strategyId": "araxxor",
+  "locationId": "araxxor-lair"
 }

@@ -261,8 +261,13 @@
       ],
       "notes": [
         "Grotesque Guardians are the only source of granite dust.",
-        "Granite dust turns cannonballs into granite cannonballs with a max hit of 35 instead of 30."
-      ]
+        "Granite dust turns cannonballs into granite cannonballs with a max hit of 35 instead of 30.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     },
     {
       "methodId": "inventory-and-loot",

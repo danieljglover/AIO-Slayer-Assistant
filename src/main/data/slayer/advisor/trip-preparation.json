@@ -1,0 +1,5359 @@
+{
+  "combatCasts": 500,
+  "teleports": {
+    "glory-edgeville": {
+      "id": "glory-edgeville",
+      "name": "Amulet of glory - Edgeville",
+      "destination": "Edgeville",
+      "itemIds": [
+        1706,
+        1708,
+        1710,
+        1712,
+        11976,
+        11978,
+        10360,
+        10358,
+        10356,
+        10354,
+        11966,
+        11964,
+        19707
+      ],
+      "charges": {
+        "1706": 1,
+        "1708": 2,
+        "1710": 3,
+        "1712": 4,
+        "11976": 5,
+        "11978": 6,
+        "10360": 1,
+        "10358": 2,
+        "10356": 3,
+        "10354": 4,
+        "11966": 5,
+        "11964": 6,
+        "19707": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Rub in inventory or select Edgeville while equipped. Walk to Krystilia, or enter Edgeville Dungeon for Vannaka. Charged and eternal versions work; uncharged amulets do not. Edgeville bank is a short walk from the arrival point.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_eternal_glory",
+          "title": "Amulet of eternal glory",
+          "pageId": 74899,
+          "revisionId": 15244819,
+          "timestamp": "2026-06-30T18:22:52Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville",
+          "title": "Edgeville",
+          "pageId": 12681,
+          "revisionId": 15276296,
+          "timestamp": "2026-07-27T00:31:38Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 30
+    },
+    "glory-draynor": {
+      "id": "glory-draynor",
+      "name": "Amulet of glory - Draynor Village",
+      "destination": "Draynor Village",
+      "itemIds": [
+        1706,
+        1708,
+        1710,
+        1712,
+        11976,
+        11978,
+        10360,
+        10358,
+        10356,
+        10354,
+        11966,
+        11964,
+        19707
+      ],
+      "charges": {
+        "1706": 1,
+        "1708": 2,
+        "1710": 3,
+        "1712": 4,
+        "11976": 5,
+        "11978": 6,
+        "10360": 1,
+        "10358": 2,
+        "10356": 3,
+        "10354": 4,
+        "11966": 5,
+        "11964": 6,
+        "19707": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Walk to Spria in Draynor Village after arrival. Draynor Village bank is nearby.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_eternal_glory",
+          "title": "Amulet of eternal glory",
+          "pageId": 74899,
+          "revisionId": 15244819,
+          "timestamp": "2026-06-30T18:22:52Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spria",
+          "title": "Spria",
+          "pageId": 273906,
+          "revisionId": 15327896,
+          "timestamp": "2026-09-02T00:40:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 30
+    },
+    "games-burthorpe": {
+      "id": "games-burthorpe",
+      "name": "Games necklace - Burthorpe",
+      "destination": "Burthorpe Games Room",
+      "itemIds": [
+        3867,
+        3865,
+        3863,
+        3861,
+        3859,
+        3857,
+        3855,
+        3853
+      ],
+      "charges": {
+        "3867": 1,
+        "3865": 2,
+        "3863": 3,
+        "3861": 4,
+        "3859": 5,
+        "3857": 6,
+        "3855": 7,
+        "3853": 8
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Run east to Turael or Aya, south of the general store.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Turael",
+          "title": "Turael",
+          "pageId": 11452,
+          "revisionId": 15327867,
+          "timestamp": "2026-09-01T23:22:30Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Aya",
+          "title": "Aya",
+          "pageId": 516011,
+          "revisionId": 15279905,
+          "timestamp": "2026-07-29T12:40:31Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 50
+    },
+    "combat-warriors-guild": {
+      "id": "combat-warriors-guild",
+      "name": "Combat bracelet - Warriors Guild",
+      "destination": "Warriors Guild entrance",
+      "itemIds": [
+        11124,
+        11122,
+        11120,
+        11118,
+        11974,
+        11972
+      ],
+      "charges": {
+        "11124": 1,
+        "11122": 2,
+        "11120": 3,
+        "11118": 4,
+        "11974": 5,
+        "11972": 6
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue to Turael or Aya in Burthorpe; entering the Warriors Guild is unnecessary.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Turael",
+          "title": "Turael",
+          "pageId": 11452,
+          "revisionId": 15327867,
+          "timestamp": "2026-09-01T23:22:30Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 50
+    },
+    "passage-wizards-tower": {
+      "id": "passage-wizards-tower",
+      "name": "Necklace of passage - Wizards Tower",
+      "destination": "Wizards Tower",
+      "itemIds": [
+        21155,
+        21153,
+        21151,
+        21149,
+        21146
+      ],
+      "charges": {
+        "21155": 1,
+        "21153": 2,
+        "21151": 3,
+        "21149": 4,
+        "21146": 5
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue north to Spria in Draynor Village.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Necklace_of_passage",
+          "title": "Necklace of passage",
+          "pageId": 92766,
+          "revisionId": 15309251,
+          "timestamp": "2026-08-19T19:56:18Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spria",
+          "title": "Spria",
+          "pageId": 273906,
+          "revisionId": 15327896,
+          "timestamp": "2026-09-02T00:40:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 50
+    },
+    "passage-outpost": {
+      "id": "passage-outpost",
+      "name": "Necklace of passage - Outpost",
+      "destination": "Outpost",
+      "itemIds": [
+        21155,
+        21153,
+        21151,
+        21149,
+        21146
+      ],
+      "charges": {
+        "21155": 1,
+        "21153": 2,
+        "21151": 3,
+        "21149": 4,
+        "21146": 5
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue through the Tree Gnome Stronghold gates, then north-west to Nieve or Steve.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Necklace_of_passage",
+          "title": "Necklace of passage",
+          "pageId": 92766,
+          "revisionId": 15309251,
+          "timestamp": "2026-08-19T19:56:18Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Nieve",
+          "title": "Nieve",
+          "pageId": 26611,
+          "revisionId": 15297222,
+          "timestamp": "2026-08-13T14:33:58Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 50
+    },
+    "slayer-stronghold": {
+      "id": "slayer-stronghold",
+      "name": "Slayer ring - Stronghold Slayer Cave",
+      "destination": "Stronghold Slayer Cave",
+      "itemIds": [
+        11873,
+        11872,
+        11871,
+        11870,
+        11869,
+        11868,
+        11867,
+        11866,
+        21268
+      ],
+      "charges": {
+        "11873": 1,
+        "11872": 2,
+        "11871": 3,
+        "11870": 4,
+        "11869": 5,
+        "11868": 6,
+        "11867": 7,
+        "11866": 8,
+        "21268": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Nieve or Steve stands beside the cave. The ring Master dialogue cannot assign a new task; use the teleport and speak in person. The nearby Gnome Stronghold bank requires climbing one set of stairs. Teleport selection uses the ring menu.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring_(eternal)",
+          "title": "Slayer ring (eternal)",
+          "pageId": 98439,
+          "revisionId": 15322601,
+          "timestamp": "2026-08-28T04:44:06Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Nieve",
+          "title": "Nieve",
+          "pageId": 26611,
+          "revisionId": 15297222,
+          "timestamp": "2026-08-13T14:33:58Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 100
+    },
+    "slayer-tower": {
+      "id": "slayer-tower",
+      "name": "Slayer ring - Slayer Tower",
+      "destination": "Slayer Tower",
+      "itemIds": [
+        11873,
+        11872,
+        11871,
+        11870,
+        11869,
+        11868,
+        11867,
+        11866,
+        21268
+      ],
+      "charges": {
+        "11873": 1,
+        "11872": 2,
+        "11871": 3,
+        "11870": 4,
+        "11869": 5,
+        "11868": 6,
+        "11867": 7,
+        "11866": 8,
+        "21268": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Priest in Peril"
+      ],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue south-east to Mazchna or Achtryn in north-eastern Canifis.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring_(eternal)",
+          "title": "Slayer ring (eternal)",
+          "pageId": 98439,
+          "revisionId": 15322601,
+          "timestamp": "2026-08-28T04:44:06Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Mazchna",
+          "title": "Mazchna",
+          "pageId": 10150,
+          "revisionId": 15279911,
+          "timestamp": "2026-07-29T12:42:12Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "slayer-wyrmscraig": {
+      "id": "slayer-wyrmscraig",
+      "name": "Slayer ring - Wyrmscraig Cavern",
+      "destination": "Wyrmscraig Cavern",
+      "itemIds": [
+        11873,
+        11872,
+        11871,
+        11870,
+        11869,
+        11868,
+        11867,
+        11866,
+        21268
+      ],
+      "charges": {
+        "11873": 1,
+        "11872": 2,
+        "11871": 3,
+        "11870": 4,
+        "11869": 5,
+        "11868": 6,
+        "11867": 7,
+        "11866": 8,
+        "21268": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Fallen From Grace"
+      ],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue through the cavern to Mortimer. This teleport requires the completed quest, beyond the partial quest access needed to receive tasks.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring_(eternal)",
+          "title": "Slayer ring (eternal)",
+          "pageId": 98439,
+          "revisionId": 15322601,
+          "timestamp": "2026-08-28T04:44:06Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wyrmscraig_Cavern",
+          "title": "Wyrmscraig Cavern",
+          "pageId": 674686,
+          "revisionId": 15288292,
+          "timestamp": "2026-08-05T22:26:53Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Mortimer",
+          "title": "Mortimer",
+          "pageId": 663129,
+          "revisionId": 15327685,
+          "timestamp": "2026-09-01T18:26:44Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "skills-farming-guild": {
+      "id": "skills-farming-guild",
+      "name": "Skills necklace - Farming Guild",
+      "destination": "Farming Guild",
+      "itemIds": [
+        11111,
+        11109,
+        11107,
+        11105,
+        11970,
+        11968
+      ],
+      "charges": {
+        "11111": 1,
+        "11109": 2,
+        "11107": 3,
+        "11105": 4,
+        "11970": 5,
+        "11968": 6
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue north and climb Mount Karuulm to Konar. Below 45 Farming, arrival is outside the guild; no Farming level is required for this route.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skills_necklace",
+          "title": "Skills necklace",
+          "pageId": 11078,
+          "revisionId": 15235017,
+          "timestamp": "2026-06-18T13:22:33Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Konar_quo_Maten",
+          "title": "Konar quo Maten",
+          "pageId": 199880,
+          "revisionId": 15291798,
+          "timestamp": "2026-08-10T07:26:15Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 50
+    },
+    "wealth-grand-exchange": {
+      "id": "wealth-grand-exchange",
+      "name": "Ring of wealth - Grand Exchange",
+      "destination": "Grand Exchange entrance",
+      "itemIds": [
+        11988,
+        11986,
+        11984,
+        11982,
+        11980,
+        20790,
+        20789,
+        20788,
+        20787,
+        20786
+      ],
+      "charges": {
+        "11988": 1,
+        "11986": 2,
+        "11984": 3,
+        "11982": 4,
+        "11980": 5,
+        "20790": 1,
+        "20789": 2,
+        "20788": 3,
+        "20787": 4,
+        "20786": 5
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "An alternative escape destination. Use Rub in inventory or the equipped teleport option. Grand Exchange bankers are a short walk north. Continue north-west to Edgeville for Krystilia, or use the Edgeville Dungeon entrance for Vannaka.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth",
+          "title": "Ring of wealth",
+          "pageId": 11005,
+          "revisionId": 15322347,
+          "timestamp": "2026-08-27T21:19:22Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth_(i)",
+          "title": "Ring of wealth (i)",
+          "pageId": 41594,
+          "revisionId": 15322517,
+          "timestamp": "2026-08-27T22:20:00Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 50
+    },
+    "dueling-ferox": {
+      "id": "dueling-ferox",
+      "name": "Ring of dueling - Ferox Enclave",
+      "destination": "Ferox Enclave",
+      "itemIds": [
+        2566,
+        2564,
+        2562,
+        2560,
+        2558,
+        2556,
+        2554,
+        2552
+      ],
+      "charges": {
+        "2566": 1,
+        "2564": 2,
+        "2562": 3,
+        "2560": 4,
+        "2558": 5,
+        "2556": 6,
+        "2554": 7,
+        "2552": 8
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Level 20 Wilderness limit. Ferox is a safe enclave; Tele Block prevents entry and teleportation. The bank chest and banker are in the western part of the enclave, near the restoration pools.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Tele_Block",
+          "title": "Tele Block",
+          "pageId": 15712,
+          "revisionId": 15301572,
+          "timestamp": "2026-08-14T21:21:37Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ferox_Enclave",
+          "title": "Ferox Enclave",
+          "pageId": 269560,
+          "revisionId": 15327854,
+          "timestamp": "2026-09-01T23:12:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 50
+    },
+    "royal-seed-pod": {
+      "id": "royal-seed-pod",
+      "name": "Royal seed pod",
+      "destination": "Grand Tree",
+      "itemIds": [
+        19564
+      ],
+      "charges": {
+        "19564": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Monkey Madness II"
+      ],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Unlimited teleport. Use Commune; walk south-west for Nieve or Steve after returning. Commune is a one-click inventory escape. The Grand Tree bank is upstairs: climb one ladder, then walk to a banker. Arrival is not a safe area on PvP worlds.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Royal_seed_pod",
+          "title": "Royal seed pod",
+          "pageId": 72458,
+          "revisionId": 15323014,
+          "timestamp": "2026-08-28T13:14:02Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Grand_Tree",
+          "title": "Grand Tree",
+          "pageId": 17297,
+          "revisionId": 15114413,
+          "timestamp": "2026-01-28T04:51:50Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 0
+    },
+    "grand-seed-pod": {
+      "id": "grand-seed-pod",
+      "name": "Grand seed pod",
+      "destination": "Grand Tree",
+      "itemIds": [
+        9469
+      ],
+      "charges": {
+        "9469": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Use Squash for the faster indoor-capable escape. Launch requires outdoors. Squash temporarily reduces Farming by 5; one pod is consumed. Squash is a right-click option, not the default Launch action. The Grand Tree bank is upstairs, reached by one ladder after Squash.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Grand_seed_pod",
+          "title": "Grand seed pod",
+          "pageId": 39678,
+          "revisionId": 15195675,
+          "timestamp": "2026-04-24T06:33:33Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Grand_Tree",
+          "title": "Grand Tree",
+          "pageId": 17297,
+          "revisionId": 15114413,
+          "timestamp": "2026-01-28T04:51:50Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 50
+    },
+    "ectophial": {
+      "id": "ectophial",
+      "name": "Ectophial",
+      "destination": "Ectofuntus",
+      "itemIds": [
+        4251
+      ],
+      "charges": {
+        "4251": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Ghosts Ahoy"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Only the filled ectophial is usable. It refills automatically after arrival; continue west to Canifis for Mazchna.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ectophial",
+          "title": "Ectophial",
+          "pageId": 12680,
+          "revisionId": 15195604,
+          "timestamp": "2026-04-24T01:51:36Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 10
+    },
+    "lumbridge-tablet": {
+      "id": "lumbridge-tablet",
+      "name": "Lumbridge teleport (tablet)",
+      "destination": "Lumbridge",
+      "itemIds": [
+        8008
+      ],
+      "charges": {
+        "8008": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Break one tablet; no Magic level or spellbook requirement for using an owned tablet. For banking, enter Lumbridge Castle and climb to the top-floor bank; no Recipe for Disaster cellar access is assumed. Continue west to Draynor Village for Spria.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lumbridge_teleport_(tablet)",
+          "title": "Lumbridge teleport (tablet)",
+          "pageId": 28072,
+          "revisionId": 15185081,
+          "timestamp": "2026-04-22T03:09:27Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lumbridge",
+          "title": "Lumbridge",
+          "pageId": 9837,
+          "revisionId": 15275326,
+          "timestamp": "2026-07-25T20:45:54Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spria",
+          "title": "Spria",
+          "pageId": 273906,
+          "revisionId": 15327896,
+          "timestamp": "2026-09-02T00:40:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 10
+    },
+    "kharyrll-tablet": {
+      "id": "kharyrll-tablet",
+      "name": "Kharyrll teleport (tablet)",
+      "destination": "Canifis",
+      "itemIds": [
+        12779
+      ],
+      "charges": {
+        "12779": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Desert Treasure I"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Break one tablet and continue to Mazchna. No casting Magic level or Ancient spellbook is needed, but Desert Treasure I is required to use the tablet. Canifis bank is beside the arrival pub.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Kharyrll_teleport_(tablet)",
+          "title": "Kharyrll teleport (tablet)",
+          "pageId": 41567,
+          "revisionId": 15186392,
+          "timestamp": "2026-04-22T04:07:35Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Canifis",
+          "title": "Canifis",
+          "pageId": 6916,
+          "revisionId": 15276281,
+          "timestamp": "2026-07-27T00:20:46Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 10
+    },
+    "karamja-gloves-duradel": {
+      "id": "karamja-gloves-duradel",
+      "name": "Karamja gloves 4",
+      "destination": "Duradel or Kuradal",
+      "itemIds": [
+        13103
+      ],
+      "charges": {
+        "13103": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Shilo Village"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Unlimited Slayer Master teleport directly beside Duradel or Kuradal; usable while carried or worn.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Karamja_gloves_4",
+          "title": "Karamja gloves 4",
+          "pageId": 16445,
+          "revisionId": 15266078,
+          "timestamp": "2026-07-17T14:29:11Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Duradel",
+          "title": "Duradel",
+          "pageId": 11511,
+          "revisionId": 15326700,
+          "timestamp": "2026-08-31T23:16:40Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 50
+    },
+    "karamja-gloves-gem-mine": {
+      "id": "karamja-gloves-gem-mine",
+      "name": "Karamja gloves 3",
+      "destination": "Shilo Village gem mine",
+      "itemIds": [
+        11140
+      ],
+      "charges": {
+        "11140": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Shilo Village"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Unlimited Gem Mine teleport; climb out, cross the bridge south and continue east to Duradel or Kuradal.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Karamja_gloves_3",
+          "title": "Karamja gloves 3",
+          "pageId": 15672,
+          "revisionId": 15266075,
+          "timestamp": "2026-07-17T14:26:22Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Duradel",
+          "title": "Duradel",
+          "pageId": 11511,
+          "revisionId": 15326700,
+          "timestamp": "2026-08-31T23:16:40Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 50
+    },
+    "rada-karuulm-unlimited": {
+      "id": "rada-karuulm-unlimited",
+      "name": "Rada's blessing 4",
+      "destination": "Mount Karuulm",
+      "itemIds": [
+        22947
+      ],
+      "charges": {
+        "22947": 0
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Unlimited Mount Karuulm teleport beside Konar, usable while carried or worn. Mount Karuulm bank is a short walk from the arrival point.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Rada's_blessing_4",
+          "title": "Rada's blessing 4",
+          "pageId": 199914,
+          "revisionId": 15242366,
+          "timestamp": "2026-06-29T21:19:12Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Konar_quo_Maten",
+          "title": "Konar quo Maten",
+          "pageId": 199880,
+          "revisionId": 15291798,
+          "timestamp": "2026-08-10T07:26:15Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 50
+    },
+    "rada-karuulm-daily": {
+      "id": "rada-karuulm-daily",
+      "name": "Rada's blessing 3",
+      "destination": "Mount Karuulm",
+      "itemIds": [
+        22945
+      ],
+      "charges": {
+        "22945": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Mount Karuulm daily teleport charge remains"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Three Mount Karuulm teleports per day; remaining daily uses are not inferred from ownership. Check manually before departure. Mount Karuulm bank is a short walk from the arrival point.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Rada's_blessing_3",
+          "title": "Rada's blessing 3",
+          "pageId": 199912,
+          "revisionId": 15240310,
+          "timestamp": "2026-06-26T20:36:59Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Konar_quo_Maten",
+          "title": "Konar quo Maten",
+          "pageId": 199880,
+          "revisionId": 15291798,
+          "timestamp": "2026-08-10T07:26:15Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 50
+    },
+    "pharaoh-jaleustrophos": {
+      "id": "pharaoh-jaleustrophos",
+      "name": "Pharaoh's sceptre - Jaleustrophos",
+      "destination": "Agility Pyramid camp",
+      "itemIds": [
+        26948,
+        26950
+      ],
+      "charges": {
+        "26948": 1,
+        "26950": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Choose Jaleustrophos in the teleport menu. Charged IDs establish at least one use; the total loaded charges are not inferred. Using it from inventory does not require wielding it.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Pharaoh's_sceptre",
+          "title": "Pharaoh's sceptre",
+          "pageId": 12985,
+          "revisionId": 15322386,
+          "timestamp": "2026-08-27T21:33:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "crystal-lletya": {
+      "id": "crystal-lletya",
+      "name": "Teleport crystal - Lletya",
+      "destination": "Lletya",
+      "itemIds": [
+        6102,
+        6101,
+        6100,
+        6099,
+        13102
+      ],
+      "charges": {
+        "6102": 1,
+        "6101": 2,
+        "6100": 3,
+        "6099": 4,
+        "13102": 5
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Use the Lletya destination; crystal seeds without charges are excluded. Lletya bank is nearby. Lletya can be configured as the left-click destination; the plugin does not inspect this toggle.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_crystal",
+          "title": "Teleport crystal",
+          "pageId": 26720,
+          "revisionId": 15261004,
+          "timestamp": "2026-07-11T12:18:11Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lletya",
+          "title": "Lletya",
+          "pageId": 9393,
+          "revisionId": 15322229,
+          "timestamp": "2026-08-27T18:21:11Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 10
+    },
+    "lumbridge-zanaris": {
+      "id": "lumbridge-zanaris",
+      "name": "Lumbridge tablet - walk to Zanaris",
+      "destination": "Zanaris via Lumbridge Swamp",
+      "itemIds": [
+        8008
+      ],
+      "charges": {
+        "8008": 1
+      },
+      "requiredItemIds": [
+        772,
+        9084
+      ],
+      "requirements": [
+        "Lost City"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Walk to the Lumbridge Swamp shed and enter Zanaris, then go south to Chaeldar. Pack a dramen or lunar staff and wield it to enter the shed; the chosen staff must be usable with your levels.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lumbridge_teleport_(tablet)",
+          "title": "Lumbridge teleport (tablet)",
+          "pageId": 28072,
+          "revisionId": 15185081,
+          "timestamp": "2026-04-22T03:09:27Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Dramen_staff",
+          "title": "Dramen staff",
+          "pageId": 10581,
+          "revisionId": 15182983,
+          "timestamp": "2026-04-22T02:50:04Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lunar_staff",
+          "title": "Lunar staff",
+          "pageId": 17895,
+          "revisionId": 15183957,
+          "timestamp": "2026-04-22T02:58:48Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Zanaris",
+          "title": "Zanaris",
+          "pageId": 9435,
+          "revisionId": 15332213,
+          "timestamp": "2026-09-06T04:25:54Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Chaeldar",
+          "title": "Chaeldar",
+          "pageId": 11510,
+          "revisionId": 15319052,
+          "timestamp": "2026-08-25T03:23:21Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 10
+    },
+    "astral-contact-turael": {
+      "id": "astral-contact-turael",
+      "name": "Astral Contact - Turael",
+      "destination": "Turael",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Turael",
+          "title": "Turael",
+          "pageId": 11452,
+          "revisionId": 15327867,
+          "timestamp": "2026-09-01T23:22:30Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-spria": {
+      "id": "astral-contact-spria",
+      "name": "Astral Contact - Spria",
+      "destination": "Spria",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "A Porcine of Interest"
+      ],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Spria",
+          "title": "Spria",
+          "pageId": 273906,
+          "revisionId": 15327896,
+          "timestamp": "2026-09-02T00:40:34Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-mazchna": {
+      "id": "astral-contact-mazchna",
+      "name": "Astral Contact - Mazchna",
+      "destination": "Mazchna",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Mazchna",
+          "title": "Mazchna",
+          "pageId": 10150,
+          "revisionId": 15279911,
+          "timestamp": "2026-07-29T12:42:12Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-vannaka": {
+      "id": "astral-contact-vannaka",
+      "name": "Astral Contact - Vannaka",
+      "destination": "Vannaka",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-chaeldar": {
+      "id": "astral-contact-chaeldar",
+      "name": "Astral Contact - Chaeldar",
+      "destination": "Chaeldar",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Lost City"
+      ],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Chaeldar",
+          "title": "Chaeldar",
+          "pageId": 11510,
+          "revisionId": 15319052,
+          "timestamp": "2026-08-25T03:23:21Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-nieve": {
+      "id": "astral-contact-nieve",
+      "name": "Astral Contact - Nieve",
+      "destination": "Nieve",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Nieve",
+          "title": "Nieve",
+          "pageId": 26611,
+          "revisionId": 15297222,
+          "timestamp": "2026-08-13T14:33:58Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-duradel": {
+      "id": "astral-contact-duradel",
+      "name": "Astral Contact - Duradel",
+      "destination": "Duradel",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Duradel",
+          "title": "Duradel",
+          "pageId": 11511,
+          "revisionId": 15326700,
+          "timestamp": "2026-08-31T23:16:40Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-krystilia": {
+      "id": "astral-contact-krystilia",
+      "name": "Astral Contact - Krystilia",
+      "destination": "Krystilia",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Krystilia has assigned the first Wilderness Slayer task"
+      ],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-konar": {
+      "id": "astral-contact-konar",
+      "name": "Astral Contact - Konar quo Maten",
+      "destination": "Konar quo Maten",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Konar Astral Contact unlocked by using Talk-to in person"
+      ],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Konar_quo_Maten",
+          "title": "Konar quo Maten",
+          "pageId": 199880,
+          "revisionId": 15291798,
+          "timestamp": "2026-08-10T07:26:15Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "astral-contact-mortimer": {
+      "id": "astral-contact-mortimer",
+      "name": "Astral Contact - Mortimer",
+      "destination": "Mortimer",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Fallen From Grace progressed to unlock Mortimer assignments"
+      ],
+      "wildernessLimit": 0,
+      "emergency": false,
+      "consumable": false,
+      "remoteContact": true,
+      "note": "Receive the next task remotely on the Lunar spellbook; this does not move the player or provide an escape. Runes are consumed when the contact interface opens.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+          "title": "Astral Contact",
+          "pageId": 17845,
+          "revisionId": 15320080,
+          "timestamp": "2026-08-25T21:06:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Mortimer",
+          "title": "Mortimer",
+          "pageId": 663129,
+          "revisionId": 15327685,
+          "timestamp": "2026-09-01T18:26:44Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Astral Contact",
+      "bankNearby": false,
+      "escapePriority": 100
+    },
+    "lumbridge-spell": {
+      "id": "lumbridge-spell",
+      "name": "Lumbridge Teleport",
+      "destination": "Lumbridge",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue west to Draynor Village for Spria. For banking, enter Lumbridge Castle and climb to the top-floor bank; no Recipe for Disaster cellar access is assumed.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lumbridge_Teleport",
+          "title": "Lumbridge Teleport",
+          "pageId": 16739,
+          "revisionId": 14918404,
+          "timestamp": "2025-06-12T04:59:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lumbridge",
+          "title": "Lumbridge",
+          "pageId": 9837,
+          "revisionId": 15275326,
+          "timestamp": "2026-07-25T20:45:54Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Lumbridge Teleport",
+      "bankNearby": true,
+      "escapePriority": 20
+    },
+    "varrock-spell": {
+      "id": "varrock-spell",
+      "name": "Varrock Teleport",
+      "destination": "Varrock",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue north-west to Edgeville for Krystilia, or enter Edgeville Dungeon for Vannaka. Varrock west bank is available on the onward walk. The Grand Exchange destination requires the Medium Varrock Diary and is a separate route.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock",
+          "title": "Varrock",
+          "pageId": 11655,
+          "revisionId": 15314401,
+          "timestamp": "2026-08-20T20:54:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock_Teleport",
+          "title": "Varrock Teleport",
+          "pageId": 17435,
+          "revisionId": 14918406,
+          "timestamp": "2025-06-12T04:59:52Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Varrock Teleport",
+      "bankNearby": true,
+      "escapePriority": 20
+    },
+    "falador-spell": {
+      "id": "falador-spell",
+      "name": "Falador Teleport",
+      "destination": "Falador",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue north through Taverley to Burthorpe for Turael or Aya. Falador west bank is a short walk from the arrival point.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Falador_Teleport",
+          "title": "Falador Teleport",
+          "pageId": 16740,
+          "revisionId": 14918402,
+          "timestamp": "2025-06-12T04:59:03Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Falador",
+          "title": "Falador",
+          "pageId": 11657,
+          "revisionId": 15332935,
+          "timestamp": "2026-09-07T00:26:18Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Falador Teleport",
+      "bankNearby": true,
+      "escapePriority": 20
+    },
+    "ardougne-spell": {
+      "id": "ardougne-spell",
+      "name": "Ardougne Teleport",
+      "destination": "Ardougne",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Requires the Ardougne teleport unlock. This is an escape destination, with any onward journey planned separately. East Ardougne southern bank is available a short walk south of the market.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ardougne_Teleport",
+          "title": "Ardougne Teleport",
+          "pageId": 18348,
+          "revisionId": 14918399,
+          "timestamp": "2025-06-12T04:58:22Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/East_Ardougne",
+          "title": "East Ardougne",
+          "pageId": 18831,
+          "revisionId": 15332699,
+          "timestamp": "2026-09-06T19:32:00Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Ardougne Teleport",
+      "bankNearby": true,
+      "escapePriority": 20
+    },
+    "kharyrll-spell": {
+      "id": "kharyrll-spell",
+      "name": "Kharyrll Teleport",
+      "destination": "Canifis",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue to Mazchna or Achtryn in north-eastern Canifis. Canifis bank is beside the arrival pub.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Kharyrll_Teleport",
+          "title": "Kharyrll Teleport",
+          "pageId": 24986,
+          "revisionId": 15331348,
+          "timestamp": "2026-09-05T08:05:02Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Canifis",
+          "title": "Canifis",
+          "pageId": 6916,
+          "revisionId": 15276281,
+          "timestamp": "2026-07-27T00:20:46Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Kharyrll Teleport",
+      "bankNearby": true,
+      "escapePriority": 20
+    },
+    "battlefront-spell": {
+      "id": "battlefront-spell",
+      "name": "Battlefront Teleport",
+      "destination": "Battlefront",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Continue north and climb Mount Karuulm to Konar.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Battlefront_Teleport",
+          "title": "Battlefront Teleport",
+          "pageId": 204502,
+          "revisionId": 15252748,
+          "timestamp": "2026-07-04T18:33:55Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Battlefront Teleport",
+      "bankNearby": false,
+      "escapePriority": 20
+    },
+    "lumbridge-zanaris-spell": {
+      "id": "lumbridge-zanaris-spell",
+      "name": "Lumbridge Teleport - Zanaris route",
+      "destination": "Zanaris via Lumbridge Swamp",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [
+        772,
+        9084
+      ],
+      "requirements": [
+        "Lost City"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Walk to the swamp shed and wield a dramen or lunar staff to enter Zanaris; Chaeldar is south of the entrance.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lumbridge_Teleport",
+          "title": "Lumbridge Teleport",
+          "pageId": 16739,
+          "revisionId": 14918404,
+          "timestamp": "2025-06-12T04:59:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Zanaris",
+          "title": "Zanaris",
+          "pageId": 9435,
+          "revisionId": 15332213,
+          "timestamp": "2026-09-06T04:25:54Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Dramen_staff",
+          "title": "Dramen staff",
+          "pageId": 10581,
+          "revisionId": 15182983,
+          "timestamp": "2026-04-22T02:50:04Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lunar_staff",
+          "title": "Lunar staff",
+          "pageId": 17895,
+          "revisionId": 15183957,
+          "timestamp": "2026-04-22T02:58:48Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Chaeldar",
+          "title": "Chaeldar",
+          "pageId": 11510,
+          "revisionId": 15319052,
+          "timestamp": "2026-08-25T03:23:21Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Lumbridge Teleport",
+      "bankNearby": false,
+      "escapePriority": 20
+    },
+    "moonclan-spell": {
+      "id": "moonclan-spell",
+      "name": "Moonclan Teleport",
+      "destination": "Moonclan Island",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Lunar escape option; retreat to level 20 Wilderness or below before casting. Lunar banking additionally needs a carried seal of passage, Dream Mentor completion for Birds-Eye Jack, or the Elite Fremennik Diary; use the reviewed bank routes for those conditions.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Moonclan_Teleport",
+          "title": "Moonclan Teleport",
+          "pageId": 20045,
+          "revisionId": 14863798,
+          "timestamp": "2025-03-17T22:14:58Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lunar_Isle_bank",
+          "title": "Lunar Isle bank",
+          "pageId": 396119,
+          "revisionId": 15285646,
+          "timestamp": "2026-08-02T10:48:21Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Seal_of_passage",
+          "title": "Seal of passage",
+          "pageId": 22624,
+          "revisionId": 15325966,
+          "timestamp": "2026-08-31T01:55:49Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Moonclan Teleport",
+      "bankNearby": false,
+      "escapePriority": 20
+    },
+    "house-tablet": {
+      "id": "house-tablet",
+      "name": "Teleport to house (tablet)",
+      "destination": "Player-owned house",
+      "itemIds": [
+        8013
+      ],
+      "charges": {
+        "8013": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Own a player-owned house"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 10,
+      "bankNearby": false,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Break one owned tablet to return home; choose Inside for house facilities. Using the tablet has no Magic level or spellbook requirement. A house does not itself provide a bank.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_to_house_(tablet)",
+          "title": "Teleport to house (tablet)",
+          "pageId": 28090,
+          "revisionId": 15185086,
+          "timestamp": "2026-04-22T03:09:29Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Player-owned_house",
+          "title": "Player-owned house",
+          "pageId": 6913,
+          "revisionId": 15272470,
+          "timestamp": "2026-07-22T18:12:24Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "house-spell": {
+      "id": "house-spell",
+      "name": "Teleport to House",
+      "destination": "Player-owned house",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Own a player-owned house"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 20,
+      "bankNearby": false,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Cast Teleport to House and choose Inside for house facilities. Requires the Standard spellbook, level 40 Magic and the listed runes. A house does not itself provide a bank.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_to_House",
+          "title": "Teleport to House",
+          "pageId": 17634,
+          "revisionId": 14918405,
+          "timestamp": "2025-06-12T04:59:41Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Player-owned_house",
+          "title": "Player-owned house",
+          "pageId": 6913,
+          "revisionId": 15272470,
+          "timestamp": "2026-07-22T18:12:24Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Teleport to House"
+    },
+    "house-edgeville-tablet": {
+      "id": "house-edgeville-tablet",
+      "name": "House tablet - Edgeville via POH",
+      "destination": "Edgeville via player-owned house",
+      "itemIds": [
+        8013
+      ],
+      "charges": {
+        "8013": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Own a player-owned house",
+        "POH has an Edgeville teleport (mounted glory or ornate jewellery box)"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 10,
+      "bankNearby": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Teleport inside your own house, then use its mounted glory or ornate jewellery box to reach Edgeville. The bank is nearby; walk north-east to Krystilia or enter Edgeville Dungeon for Vannaka. Furniture availability needs explicit account confirmation; ownership of a portable glory does not prove it.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_to_house_(tablet)",
+          "title": "Teleport to house (tablet)",
+          "pageId": 28090,
+          "revisionId": 15185086,
+          "timestamp": "2026-04-22T03:09:29Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Player-owned_house",
+          "title": "Player-owned house",
+          "pageId": 6913,
+          "revisionId": 15272470,
+          "timestamp": "2026-07-22T18:12:24Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_Glory_(mounted)",
+          "title": "Amulet of Glory (mounted)",
+          "pageId": 53165,
+          "revisionId": 14913382,
+          "timestamp": "2025-06-01T19:23:02Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ornate_jewellery_box",
+          "title": "Ornate jewellery box",
+          "pageId": 79149,
+          "revisionId": 15262552,
+          "timestamp": "2026-07-13T18:53:29Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville",
+          "title": "Edgeville",
+          "pageId": 12681,
+          "revisionId": 15276296,
+          "timestamp": "2026-07-27T00:31:38Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        }
+      ]
+    },
+    "house-bank-tablet": {
+      "id": "house-bank-tablet",
+      "name": "House tablet - bank via jewellery box",
+      "destination": "Castle Wars bank via player-owned house",
+      "itemIds": [
+        8013
+      ],
+      "charges": {
+        "8013": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Own a player-owned house",
+        "POH has a jewellery box"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 10,
+      "bankNearby": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Teleport inside your own house, then use the jewellery box Castle Wars option for the nearby bank chest. Any jewellery box tier supports this route; its presence needs explicit account confirmation. No portable ring of dueling or furniture construction level is required to use an existing box.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_to_house_(tablet)",
+          "title": "Teleport to house (tablet)",
+          "pageId": 28090,
+          "revisionId": 15185086,
+          "timestamp": "2026-04-22T03:09:29Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Player-owned_house",
+          "title": "Player-owned house",
+          "pageId": 6913,
+          "revisionId": 15272470,
+          "timestamp": "2026-07-22T18:12:24Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Basic_jewellery_box",
+          "title": "Basic jewellery box",
+          "pageId": 79147,
+          "revisionId": 15262556,
+          "timestamp": "2026-07-13T18:55:42Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ornate_jewellery_box",
+          "title": "Ornate jewellery box",
+          "pageId": 79149,
+          "revisionId": 15262552,
+          "timestamp": "2026-07-13T18:53:29Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    "house-edgeville-spell": {
+      "id": "house-edgeville-spell",
+      "name": "House spell - Edgeville via POH",
+      "destination": "Edgeville via player-owned house",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Own a player-owned house",
+        "POH has an Edgeville teleport (mounted glory or ornate jewellery box)"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 20,
+      "bankNearby": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Teleport inside your own house, then use its mounted glory or ornate jewellery box to reach Edgeville. The bank is nearby; walk north-east to Krystilia or enter Edgeville Dungeon for Vannaka. Furniture availability needs explicit account confirmation; ownership of a portable glory does not prove it.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_to_House",
+          "title": "Teleport to House",
+          "pageId": 17634,
+          "revisionId": 14918405,
+          "timestamp": "2025-06-12T04:59:41Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Player-owned_house",
+          "title": "Player-owned house",
+          "pageId": 6913,
+          "revisionId": 15272470,
+          "timestamp": "2026-07-22T18:12:24Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_Glory_(mounted)",
+          "title": "Amulet of Glory (mounted)",
+          "pageId": 53165,
+          "revisionId": 14913382,
+          "timestamp": "2025-06-01T19:23:02Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ornate_jewellery_box",
+          "title": "Ornate jewellery box",
+          "pageId": 79149,
+          "revisionId": 15262552,
+          "timestamp": "2026-07-13T18:53:29Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville",
+          "title": "Edgeville",
+          "pageId": 12681,
+          "revisionId": 15276296,
+          "timestamp": "2026-07-27T00:31:38Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Teleport to House"
+    },
+    "house-bank-spell": {
+      "id": "house-bank-spell",
+      "name": "House spell - bank via jewellery box",
+      "destination": "Castle Wars bank via player-owned house",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Own a player-owned house",
+        "POH has a jewellery box"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 20,
+      "bankNearby": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Teleport inside your own house, then use the jewellery box Castle Wars option for the nearby bank chest. Any jewellery box tier supports this route; its presence needs explicit account confirmation. No portable ring of dueling or furniture construction level is required to use an existing box.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_to_House",
+          "title": "Teleport to House",
+          "pageId": 17634,
+          "revisionId": 14918405,
+          "timestamp": "2025-06-12T04:59:41Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Player-owned_house",
+          "title": "Player-owned house",
+          "pageId": 6913,
+          "revisionId": 15272470,
+          "timestamp": "2026-07-22T18:12:24Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Basic_jewellery_box",
+          "title": "Basic jewellery box",
+          "pageId": 79147,
+          "revisionId": 15262556,
+          "timestamp": "2026-07-13T18:55:42Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ornate_jewellery_box",
+          "title": "Ornate jewellery box",
+          "pageId": 79149,
+          "revisionId": 15262552,
+          "timestamp": "2026-07-13T18:53:29Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Teleport to House"
+    },
+    "dueling-castle-wars": {
+      "id": "dueling-castle-wars",
+      "name": "Ring of dueling - Castle Wars",
+      "destination": "Castle Wars",
+      "itemIds": [
+        2566,
+        2564,
+        2562,
+        2560,
+        2558,
+        2556,
+        2554,
+        2552
+      ],
+      "charges": {
+        "2566": 1,
+        "2564": 2,
+        "2562": 3,
+        "2560": 4,
+        "2558": 5,
+        "2556": 6,
+        "2554": 7,
+        "2552": 8
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Use Rub in inventory or the equipped Castle Wars option. The bank chest is just a few tiles from arrival. Every listed item ID has at least one teleport charge.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Tele_Block",
+          "title": "Tele Block",
+          "pageId": 15712,
+          "revisionId": 15301572,
+          "timestamp": "2026-08-14T21:21:37Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ferox_Enclave",
+          "title": "Ferox Enclave",
+          "pageId": 269560,
+          "revisionId": 15327854,
+          "timestamp": "2026-09-01T23:12:25Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": true,
+      "escapePriority": 50
+    },
+    "combat-monastery": {
+      "id": "combat-monastery",
+      "name": "Combat bracelet - Edgeville Monastery",
+      "destination": "Edgeville Monastery",
+      "itemIds": [
+        11124,
+        11122,
+        11120,
+        11118,
+        11974,
+        11972
+      ],
+      "charges": {
+        "11124": 1,
+        "11122": 2,
+        "11120": 3,
+        "11118": 4,
+        "11974": 5,
+        "11972": 6
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 30,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Select Monastery, then walk east to Edgeville for Krystilia or the dungeon entrance for Vannaka. No Prayer level or guild entry is needed; owned charged bracelets work without the recharge quest requirements.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Turael",
+          "title": "Turael",
+          "pageId": 11452,
+          "revisionId": 15327867,
+          "timestamp": "2026-09-01T23:22:30Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville",
+          "title": "Edgeville",
+          "pageId": 12681,
+          "revisionId": 15276296,
+          "timestamp": "2026-07-27T00:31:38Z",
+          "missing": false
+        }
+      ],
+      "bankNearby": false,
+      "escapePriority": 50
+    },
+    "paddewwa-tablet": {
+      "id": "paddewwa-tablet",
+      "name": "Paddewwa teleport (tablet)",
+      "destination": "Edgeville Dungeon",
+      "itemIds": [
+        12781
+      ],
+      "charges": {
+        "12781": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Desert Treasure I"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 10,
+      "bankNearby": false,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Arrive inside Edgeville Dungeon. Continue through the dungeon to Vannaka, or climb the nearby exit ladder and walk north to Krystilia in Edgeville. Desert Treasure I is required. An owned tablet needs no casting Magic level or Ancient spellbook.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Paddewwa_teleport_(tablet)",
+          "title": "Paddewwa teleport (tablet)",
+          "pageId": 41572,
+          "revisionId": 15186395,
+          "timestamp": "2026-04-22T04:07:37Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville_Dungeon",
+          "title": "Edgeville Dungeon",
+          "pageId": 15477,
+          "revisionId": 15285142,
+          "timestamp": "2026-08-01T15:03:19Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "paddewwa-spell": {
+      "id": "paddewwa-spell",
+      "name": "Paddewwa Teleport",
+      "destination": "Edgeville Dungeon",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Desert Treasure I"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 20,
+      "bankNearby": false,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Arrive inside Edgeville Dungeon. Continue through the dungeon to Vannaka, or climb the nearby exit ladder and walk north to Krystilia in Edgeville. Desert Treasure I is required. Casting requires the Ancient spellbook, level 54 Magic, two law runes, one air rune and one fire rune.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Paddewwa_Teleport",
+          "title": "Paddewwa Teleport",
+          "pageId": 14144,
+          "revisionId": 15331334,
+          "timestamp": "2026-09-05T07:55:52Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Edgeville_Dungeon",
+          "title": "Edgeville Dungeon",
+          "pageId": 15477,
+          "revisionId": 15285142,
+          "timestamp": "2026-08-01T15:03:19Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Paddewwa Teleport"
+    },
+    "varrock-tablet": {
+      "id": "varrock-tablet",
+      "name": "Varrock teleport (tablet)",
+      "destination": "Varrock",
+      "itemIds": [
+        8007
+      ],
+      "charges": {
+        "8007": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 10,
+      "bankNearby": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Break one owned tablet; using it has no casting Magic level or spellbook requirement. Walk to Varrock west bank, or continue north-west to Edgeville for Krystilia or Vannaka. The Grand Exchange destination needs the Medium Varrock Diary and is a separate route.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock_teleport_(tablet)",
+          "title": "Varrock teleport (tablet)",
+          "pageId": 20972,
+          "revisionId": 15184222,
+          "timestamp": "2026-04-22T03:01:13Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock",
+          "title": "Varrock",
+          "pageId": 11655,
+          "revisionId": 15314401,
+          "timestamp": "2026-08-20T20:54:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "falador-tablet": {
+      "id": "falador-tablet",
+      "name": "Falador teleport (tablet)",
+      "destination": "Falador",
+      "itemIds": [
+        8009
+      ],
+      "charges": {
+        "8009": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 10,
+      "bankNearby": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Break one owned tablet; using it has no casting Magic level or spellbook requirement. Walk to Falador west bank. For Turael or Aya, continue north through Taverley to Burthorpe.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Falador_teleport_(tablet)",
+          "title": "Falador teleport (tablet)",
+          "pageId": 28066,
+          "revisionId": 15185079,
+          "timestamp": "2026-04-22T03:09:26Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Falador",
+          "title": "Falador",
+          "pageId": 11657,
+          "revisionId": 15332935,
+          "timestamp": "2026-09-07T00:26:18Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        }
+      ]
+    },
+    "varrock-grand-exchange-tablet": {
+      "id": "varrock-grand-exchange-tablet",
+      "name": "Varrock tablet - Grand Exchange",
+      "destination": "Grand Exchange",
+      "itemIds": [
+        8007
+      ],
+      "charges": {
+        "8007": 1
+      },
+      "requiredItemIds": [],
+      "requirements": [
+        "Medium Varrock Diary"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "escapePriority": 10,
+      "bankNearby": true,
+      "consumable": true,
+      "remoteContact": false,
+      "note": "Choose the Grand Exchange destination, unlocked by the Medium Varrock Diary; bankers are nearby. The plugin does not inspect the default Varrock teleport destination. Continue north-west to Edgeville for Krystilia or the dungeon route to Vannaka.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock",
+          "title": "Varrock",
+          "pageId": 11655,
+          "revisionId": 15314401,
+          "timestamp": "2026-08-20T20:54:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock_Teleport",
+          "title": "Varrock Teleport",
+          "pageId": 17435,
+          "revisionId": 14918406,
+          "timestamp": "2025-06-12T04:59:52Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock_teleport_(tablet)",
+          "title": "Varrock teleport (tablet)",
+          "pageId": 20972,
+          "revisionId": 15184222,
+          "timestamp": "2026-04-22T03:01:13Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        }
+      ]
+    },
+    "varrock-grand-exchange-spell": {
+      "id": "varrock-grand-exchange-spell",
+      "name": "Varrock spell - Grand Exchange",
+      "destination": "Grand Exchange",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Medium Varrock Diary"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Choose the Grand Exchange destination, unlocked by the Medium Varrock Diary; bankers are nearby. The plugin does not inspect the default Varrock teleport destination. Continue north-west to Edgeville for Krystilia or the dungeon route to Vannaka.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock",
+          "title": "Varrock",
+          "pageId": 11655,
+          "revisionId": 15314401,
+          "timestamp": "2026-08-20T20:54:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock_Teleport",
+          "title": "Varrock Teleport",
+          "pageId": 17435,
+          "revisionId": 14918406,
+          "timestamp": "2025-06-12T04:59:52Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock_teleport_(tablet)",
+          "title": "Varrock teleport (tablet)",
+          "pageId": 20972,
+          "revisionId": 15184222,
+          "timestamp": "2026-04-22T03:01:13Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Krystilia",
+          "title": "Krystilia",
+          "pageId": 25302,
+          "revisionId": 15318319,
+          "timestamp": "2026-08-24T23:31:56Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Varrock Teleport",
+      "bankNearby": true,
+      "escapePriority": 20
+    },
+    "moonclan-bank-spell": {
+      "id": "moonclan-bank-spell",
+      "name": "Moonclan Teleport - bank",
+      "destination": "Lunar Isle bank",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [],
+      "requirements": [
+        "Dream Mentor OR Elite Fremennik Diary"
+      ],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Walk to the nearby Lunar Isle bank. After Dream Mentor, use Birds-Eye Jack; the Elite Fremennik Diary removes the seal requirement for all Lunar bankers. Do not assume that Lunar Diplomacy alone permits banking without a seal.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Moonclan_Teleport",
+          "title": "Moonclan Teleport",
+          "pageId": 20045,
+          "revisionId": 14863798,
+          "timestamp": "2025-03-17T22:14:58Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lunar_Isle_bank",
+          "title": "Lunar Isle bank",
+          "pageId": 396119,
+          "revisionId": 15285646,
+          "timestamp": "2026-08-02T10:48:21Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Seal_of_passage",
+          "title": "Seal of passage",
+          "pageId": 22624,
+          "revisionId": 15325966,
+          "timestamp": "2026-08-31T01:55:49Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Moonclan Teleport",
+      "bankNearby": true,
+      "escapePriority": 20
+    },
+    "moonclan-bank-seal-spell": {
+      "id": "moonclan-bank-seal-spell",
+      "name": "Moonclan Teleport - bank with seal of passage",
+      "destination": "Lunar Isle bank",
+      "itemIds": [],
+      "charges": {},
+      "requiredItemIds": [
+        9083
+      ],
+      "requirements": [],
+      "wildernessLimit": 20,
+      "emergency": true,
+      "consumable": false,
+      "remoteContact": false,
+      "note": "Carry the seal of passage and walk to the nearby Lunar Isle bank. Holding it in inventory is sufficient; it does not need to replace equipped neckwear.",
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Wilderness",
+          "title": "Wilderness",
+          "pageId": 12459,
+          "revisionId": 15317990,
+          "timestamp": "2026-08-24T10:38:34Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Moonclan_Teleport",
+          "title": "Moonclan Teleport",
+          "pageId": 20045,
+          "revisionId": 14863798,
+          "timestamp": "2025-03-17T22:14:58Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lunar_Isle_bank",
+          "title": "Lunar Isle bank",
+          "pageId": 396119,
+          "revisionId": 15285646,
+          "timestamp": "2026-08-02T10:48:21Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Seal_of_passage",
+          "title": "Seal of passage",
+          "pageId": 22624,
+          "revisionId": 15325966,
+          "timestamp": "2026-08-31T01:55:49Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Fastest_bank_teleports",
+          "title": "Fastest bank teleports",
+          "pageId": 394064,
+          "revisionId": 15309284,
+          "timestamp": "2026-08-19T20:00:40Z",
+          "missing": false
+        }
+      ],
+      "spellName": "Moonclan Teleport",
+      "bankNearby": true,
+      "escapePriority": 20
+    }
+  },
+  "masterRoutes": {
+    "turael": [
+      "games-burthorpe",
+      "combat-warriors-guild",
+      "astral-contact-turael",
+      "falador-tablet",
+      "falador-spell"
+    ],
+    "spria": [
+      "glory-draynor",
+      "passage-wizards-tower",
+      "astral-contact-spria",
+      "lumbridge-tablet",
+      "lumbridge-spell"
+    ],
+    "mazchna": [
+      "kharyrll-tablet",
+      "slayer-tower",
+      "ectophial",
+      "astral-contact-mazchna",
+      "kharyrll-spell"
+    ],
+    "vannaka": [
+      "glory-edgeville",
+      "house-edgeville-tablet",
+      "house-edgeville-spell",
+      "paddewwa-tablet",
+      "paddewwa-spell",
+      "combat-monastery",
+      "wealth-grand-exchange",
+      "varrock-grand-exchange-tablet",
+      "varrock-grand-exchange-spell",
+      "astral-contact-vannaka",
+      "varrock-tablet",
+      "varrock-spell"
+    ],
+    "chaeldar": [
+      "lumbridge-zanaris",
+      "astral-contact-chaeldar",
+      "lumbridge-zanaris-spell"
+    ],
+    "nieve": [
+      "slayer-stronghold",
+      "royal-seed-pod",
+      "grand-seed-pod",
+      "passage-outpost",
+      "astral-contact-nieve"
+    ],
+    "duradel": [
+      "karamja-gloves-duradel",
+      "karamja-gloves-gem-mine",
+      "astral-contact-duradel"
+    ],
+    "krystilia": [
+      "glory-edgeville",
+      "house-edgeville-tablet",
+      "house-edgeville-spell",
+      "paddewwa-tablet",
+      "paddewwa-spell",
+      "combat-monastery",
+      "wealth-grand-exchange",
+      "varrock-grand-exchange-tablet",
+      "varrock-grand-exchange-spell",
+      "astral-contact-krystilia",
+      "varrock-tablet",
+      "varrock-spell"
+    ],
+    "konar": [
+      "rada-karuulm-unlimited",
+      "rada-karuulm-daily",
+      "skills-farming-guild",
+      "astral-contact-konar",
+      "battlefront-spell"
+    ],
+    "mortimer": [
+      "slayer-wyrmscraig",
+      "astral-contact-mortimer"
+    ]
+  },
+  "lootingBagIds": [
+    11941,
+    22586
+  ],
+  "blightedReplacements": {
+    "391": 24589,
+    "13441": 24592,
+    "3144": 24595,
+    "3030": 24605,
+    "3028": 24603,
+    "3026": 24601,
+    "3024": 24598
+  },
+  "wildernessEscapeNotes": [
+    "Most portable teleports work through Wilderness level 20; reviewed dragonstone jewellery, seed pods, Slayer rings and the pharaoh's sceptre work through level 30. Above the item limit, first reach a permitted Wilderness level; carrying an escape item does not make it usable at the current destination.",
+    "Tele Block prevents ordinary portable teleports, Wilderness levers and obelisks. Its normal duration is 5 minutes, or 2.5 minutes when Protect from Magic was active as it landed. This trip plan does not verify live Tele Block state or guarantee escape.",
+    "Artio, Spindel and Calvar'ion have a 3-tick teleport delay unless the Hard Wilderness Diary is complete. Boss-assignment access does not remove the delay.",
+    "In the Revenant Caves, teleporting while in NPC combat has a 2-tick delay that an incoming NPC attack can restart, unless the Hard Wilderness Diary is complete.",
+    "A brief PvP teleport lock can follow using a special attack against another player. Return and escape plans are conditional on teleport availability; no live combat timing is inferred.",
+    "Ring of life, Defence cape and Escape crystal automatic effects are not guaranteed manual escape substitutes. Chronicle and minigame teleports do not provide Wilderness escape coverage.",
+    "Blighted food and restores are used only for a Wilderness combat destination in this ordinary-world planner. Wilderness travel to a non-Wilderness room such as the King Black Dragon lair does not make those supplies usable there.",
+    "Blighted teleport spell sacks supply offensive Tele Block or Teleport to Target casts; they do not teleport the carrier to safety."
+  ],
+  "lootingBagNotes": [
+    "A looting bag occupies one of the 28 inventory slots and holds up to 28 loot stacks. Its contents are unavailable as food, potions, runes or equipment during the trip; it does not create extra usable supply slots.",
+    "Only tradeable items can be deposited in the Wilderness, including Ferox Enclave on an ordinary world. Contents are normally recovered through a bank. Only one looting bag may be possessed; a looting bag note must first be exchanged at a bank.",
+    "On a Wilderness PvP death the bag is always lost; the killer receives its contents except food and potions. On a Wilderness PvM death the bag is destroyed and all contents go to the gravestone.",
+    "Destroying the bag outside Wilderness on an ordinary world, including Ferox Enclave, destroys all contents. Destroying it in Wilderness drops contents publicly and destroys unnoted cooked food, potions and vials of water."
+  ],
+  "items": [
+    {
+      "id": 1704,
+      "name": "Amulet of glory",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 1706,
+      "name": "Amulet of glory(1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 1708,
+      "name": "Amulet of glory(2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 1710,
+      "name": "Amulet of glory(3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 1712,
+      "name": "Amulet of glory(4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11976,
+      "name": "Amulet of glory(5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11978,
+      "name": "Amulet of glory(6)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory",
+          "title": "Amulet of glory",
+          "pageId": 10272,
+          "revisionId": 15320178,
+          "timestamp": "2026-08-25T22:41:01Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 10362,
+      "name": "Amulet of glory (t)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 10360,
+      "name": "Amulet of glory (t1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 10358,
+      "name": "Amulet of glory (t2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 10356,
+      "name": "Amulet of glory (t3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 10354,
+      "name": "Amulet of glory (t4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11966,
+      "name": "Amulet of glory (t5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11964,
+      "name": "Amulet of glory (t6)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_glory_(t)",
+          "title": "Amulet of glory (t)",
+          "pageId": 10273,
+          "revisionId": 15324765,
+          "timestamp": "2026-08-29T20:46:13Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 19707,
+      "name": "Amulet of eternal glory",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Amulet_of_eternal_glory",
+          "title": "Amulet of eternal glory",
+          "pageId": 74899,
+          "revisionId": 15244819,
+          "timestamp": "2026-06-30T18:22:52Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11873,
+      "name": "Slayer ring (1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11872,
+      "name": "Slayer ring (2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11871,
+      "name": "Slayer ring (3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11870,
+      "name": "Slayer ring (4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11869,
+      "name": "Slayer ring (5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11868,
+      "name": "Slayer ring (6)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11867,
+      "name": "Slayer ring (7)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11866,
+      "name": "Slayer ring (8)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring",
+          "title": "Slayer ring",
+          "pageId": 27936,
+          "revisionId": 15286008,
+          "timestamp": "2026-08-03T03:49:08Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 21268,
+      "name": "Slayer ring (eternal)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_ring_(eternal)",
+          "title": "Slayer ring (eternal)",
+          "pageId": 98439,
+          "revisionId": 15322601,
+          "timestamp": "2026-08-28T04:44:06Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3867,
+      "name": "Games necklace(1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3865,
+      "name": "Games necklace(2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3863,
+      "name": "Games necklace(3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3861,
+      "name": "Games necklace(4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3859,
+      "name": "Games necklace(5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3857,
+      "name": "Games necklace(6)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3855,
+      "name": "Games necklace(7)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3853,
+      "name": "Games necklace(8)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Games_necklace",
+          "title": "Games necklace",
+          "pageId": 10636,
+          "revisionId": 15183028,
+          "timestamp": "2026-04-22T02:50:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 21155,
+      "name": "Necklace of passage(1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Necklace_of_passage",
+          "title": "Necklace of passage",
+          "pageId": 92766,
+          "revisionId": 15309251,
+          "timestamp": "2026-08-19T19:56:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 21153,
+      "name": "Necklace of passage(2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Necklace_of_passage",
+          "title": "Necklace of passage",
+          "pageId": 92766,
+          "revisionId": 15309251,
+          "timestamp": "2026-08-19T19:56:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 21151,
+      "name": "Necklace of passage(3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Necklace_of_passage",
+          "title": "Necklace of passage",
+          "pageId": 92766,
+          "revisionId": 15309251,
+          "timestamp": "2026-08-19T19:56:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 21149,
+      "name": "Necklace of passage(4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Necklace_of_passage",
+          "title": "Necklace of passage",
+          "pageId": 92766,
+          "revisionId": 15309251,
+          "timestamp": "2026-08-19T19:56:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 21146,
+      "name": "Necklace of passage(5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Necklace_of_passage",
+          "title": "Necklace of passage",
+          "pageId": 92766,
+          "revisionId": 15309251,
+          "timestamp": "2026-08-19T19:56:18Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11126,
+      "name": "Combat bracelet",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11124,
+      "name": "Combat bracelet(1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11122,
+      "name": "Combat bracelet(2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11120,
+      "name": "Combat bracelet(3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11118,
+      "name": "Combat bracelet(4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11974,
+      "name": "Combat bracelet(5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11972,
+      "name": "Combat bracelet(6)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Combat_bracelet",
+          "title": "Combat bracelet",
+          "pageId": 10524,
+          "revisionId": 15320281,
+          "timestamp": "2026-08-25T23:13:02Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11113,
+      "name": "Skills necklace",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skills_necklace",
+          "title": "Skills necklace",
+          "pageId": 11078,
+          "revisionId": 15235017,
+          "timestamp": "2026-06-18T13:22:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11111,
+      "name": "Skills necklace(1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skills_necklace",
+          "title": "Skills necklace",
+          "pageId": 11078,
+          "revisionId": 15235017,
+          "timestamp": "2026-06-18T13:22:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11109,
+      "name": "Skills necklace(2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skills_necklace",
+          "title": "Skills necklace",
+          "pageId": 11078,
+          "revisionId": 15235017,
+          "timestamp": "2026-06-18T13:22:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11107,
+      "name": "Skills necklace(3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skills_necklace",
+          "title": "Skills necklace",
+          "pageId": 11078,
+          "revisionId": 15235017,
+          "timestamp": "2026-06-18T13:22:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11105,
+      "name": "Skills necklace(4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skills_necklace",
+          "title": "Skills necklace",
+          "pageId": 11078,
+          "revisionId": 15235017,
+          "timestamp": "2026-06-18T13:22:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11970,
+      "name": "Skills necklace(5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skills_necklace",
+          "title": "Skills necklace",
+          "pageId": 11078,
+          "revisionId": 15235017,
+          "timestamp": "2026-06-18T13:22:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11968,
+      "name": "Skills necklace(6)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Skills_necklace",
+          "title": "Skills necklace",
+          "pageId": 11078,
+          "revisionId": 15235017,
+          "timestamp": "2026-06-18T13:22:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2572,
+      "name": "Ring of wealth",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth",
+          "title": "Ring of wealth",
+          "pageId": 11005,
+          "revisionId": 15322347,
+          "timestamp": "2026-08-27T21:19:22Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11988,
+      "name": "Ring of wealth (1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth",
+          "title": "Ring of wealth",
+          "pageId": 11005,
+          "revisionId": 15322347,
+          "timestamp": "2026-08-27T21:19:22Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11986,
+      "name": "Ring of wealth (2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth",
+          "title": "Ring of wealth",
+          "pageId": 11005,
+          "revisionId": 15322347,
+          "timestamp": "2026-08-27T21:19:22Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11984,
+      "name": "Ring of wealth (3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth",
+          "title": "Ring of wealth",
+          "pageId": 11005,
+          "revisionId": 15322347,
+          "timestamp": "2026-08-27T21:19:22Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11982,
+      "name": "Ring of wealth (4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth",
+          "title": "Ring of wealth",
+          "pageId": 11005,
+          "revisionId": 15322347,
+          "timestamp": "2026-08-27T21:19:22Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11980,
+      "name": "Ring of wealth (5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth",
+          "title": "Ring of wealth",
+          "pageId": 11005,
+          "revisionId": 15322347,
+          "timestamp": "2026-08-27T21:19:22Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 12785,
+      "name": "Ring of wealth (i)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth_(i)",
+          "title": "Ring of wealth (i)",
+          "pageId": 41594,
+          "revisionId": 15322517,
+          "timestamp": "2026-08-27T22:20:00Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 20790,
+      "name": "Ring of wealth (i1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth_(i)",
+          "title": "Ring of wealth (i)",
+          "pageId": 41594,
+          "revisionId": 15322517,
+          "timestamp": "2026-08-27T22:20:00Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 20789,
+      "name": "Ring of wealth (i2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth_(i)",
+          "title": "Ring of wealth (i)",
+          "pageId": 41594,
+          "revisionId": 15322517,
+          "timestamp": "2026-08-27T22:20:00Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 20788,
+      "name": "Ring of wealth (i3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth_(i)",
+          "title": "Ring of wealth (i)",
+          "pageId": 41594,
+          "revisionId": 15322517,
+          "timestamp": "2026-08-27T22:20:00Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 20787,
+      "name": "Ring of wealth (i4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth_(i)",
+          "title": "Ring of wealth (i)",
+          "pageId": 41594,
+          "revisionId": 15322517,
+          "timestamp": "2026-08-27T22:20:00Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 20786,
+      "name": "Ring of wealth (i5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_wealth_(i)",
+          "title": "Ring of wealth (i)",
+          "pageId": 41594,
+          "revisionId": 15322517,
+          "timestamp": "2026-08-27T22:20:00Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2566,
+      "name": "Ring of dueling(1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2564,
+      "name": "Ring of dueling(2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2562,
+      "name": "Ring of dueling(3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2560,
+      "name": "Ring of dueling(4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2558,
+      "name": "Ring of dueling(5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2556,
+      "name": "Ring of dueling(6)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2554,
+      "name": "Ring of dueling(7)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 2552,
+      "name": "Ring of dueling(8)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ring_of_dueling",
+          "title": "Ring of dueling",
+          "pageId": 11003,
+          "revisionId": 15322346,
+          "timestamp": "2026-08-27T21:18:50Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 19564,
+      "name": "Royal seed pod",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Royal_seed_pod",
+          "title": "Royal seed pod",
+          "pageId": 72458,
+          "revisionId": 15323014,
+          "timestamp": "2026-08-28T13:14:02Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 9469,
+      "name": "Grand seed pod",
+      "stackable": true,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Grand_seed_pod",
+          "title": "Grand seed pod",
+          "pageId": 39678,
+          "revisionId": 15195675,
+          "timestamp": "2026-04-24T06:33:33Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 4251,
+      "name": "Ectophial",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ectophial",
+          "title": "Ectophial",
+          "pageId": 12680,
+          "revisionId": 15195604,
+          "timestamp": "2026-04-24T01:51:36Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 4252,
+      "name": "Ectophial",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Ectophial",
+          "title": "Ectophial",
+          "pageId": 12680,
+          "revisionId": 15195604,
+          "timestamp": "2026-04-24T01:51:36Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 8008,
+      "name": "Lumbridge teleport",
+      "stackable": true,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lumbridge_teleport_(tablet)",
+          "title": "Lumbridge teleport (tablet)",
+          "pageId": 28072,
+          "revisionId": 15185081,
+          "timestamp": "2026-04-22T03:09:27Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 12779,
+      "name": "Kharyrll teleport",
+      "stackable": true,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Kharyrll_teleport_(tablet)",
+          "title": "Kharyrll teleport (tablet)",
+          "pageId": 41567,
+          "revisionId": 15186392,
+          "timestamp": "2026-04-22T04:07:35Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 13103,
+      "name": "Karamja gloves 4",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Karamja_gloves_4",
+          "title": "Karamja gloves 4",
+          "pageId": 16445,
+          "revisionId": 15266078,
+          "timestamp": "2026-07-17T14:29:11Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11140,
+      "name": "Karamja gloves 3",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Karamja_gloves_3",
+          "title": "Karamja gloves 3",
+          "pageId": 15672,
+          "revisionId": 15266075,
+          "timestamp": "2026-07-17T14:26:22Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 22947,
+      "name": "Rada's blessing 4",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Rada's_blessing_4",
+          "title": "Rada's blessing 4",
+          "pageId": 199914,
+          "revisionId": 15242366,
+          "timestamp": "2026-06-29T21:19:12Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 22945,
+      "name": "Rada's blessing 3",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Rada's_blessing_3",
+          "title": "Rada's blessing 3",
+          "pageId": 199912,
+          "revisionId": 15240310,
+          "timestamp": "2026-06-26T20:36:59Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 26945,
+      "name": "Pharaoh's sceptre (uncharged)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Pharaoh's_sceptre",
+          "title": "Pharaoh's sceptre",
+          "pageId": 12985,
+          "revisionId": 15322386,
+          "timestamp": "2026-08-27T21:33:34Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 26948,
+      "name": "Pharaoh's sceptre",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Pharaoh's_sceptre",
+          "title": "Pharaoh's sceptre",
+          "pageId": 12985,
+          "revisionId": 15322386,
+          "timestamp": "2026-08-27T21:33:34Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 26950,
+      "name": "Pharaoh's sceptre",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Pharaoh's_sceptre",
+          "title": "Pharaoh's sceptre",
+          "pageId": 12985,
+          "revisionId": 15322386,
+          "timestamp": "2026-08-27T21:33:34Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 6102,
+      "name": "Teleport crystal (1)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_crystal",
+          "title": "Teleport crystal",
+          "pageId": 26720,
+          "revisionId": 15261004,
+          "timestamp": "2026-07-11T12:18:11Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 6101,
+      "name": "Teleport crystal (2)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_crystal",
+          "title": "Teleport crystal",
+          "pageId": 26720,
+          "revisionId": 15261004,
+          "timestamp": "2026-07-11T12:18:11Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 6100,
+      "name": "Teleport crystal (3)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_crystal",
+          "title": "Teleport crystal",
+          "pageId": 26720,
+          "revisionId": 15261004,
+          "timestamp": "2026-07-11T12:18:11Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 6099,
+      "name": "Teleport crystal (4)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_crystal",
+          "title": "Teleport crystal",
+          "pageId": 26720,
+          "revisionId": 15261004,
+          "timestamp": "2026-07-11T12:18:11Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 13102,
+      "name": "Teleport crystal (5)",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_crystal",
+          "title": "Teleport crystal",
+          "pageId": 26720,
+          "revisionId": 15261004,
+          "timestamp": "2026-07-11T12:18:11Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 772,
+      "name": "Dramen staff",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Dramen_staff",
+          "title": "Dramen staff",
+          "pageId": 10581,
+          "revisionId": 15182983,
+          "timestamp": "2026-04-22T02:50:04Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 9084,
+      "name": "Lunar staff",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Lunar_staff",
+          "title": "Lunar staff",
+          "pageId": 17895,
+          "revisionId": 15183957,
+          "timestamp": "2026-04-22T02:58:48Z",
+          "missing": false
+        }
+      ],
+      "slot": "WEAPON",
+      "levels": {
+        "MAGIC": 65,
+        "DEFENCE": 40
+      },
+      "requirements": [],
+      "requirementsKnown": true
+    },
+    {
+      "id": 24589,
+      "name": "Blighted manta ray",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_manta_ray",
+          "title": "Blighted manta ray",
+          "pageId": 261721,
+          "revisionId": 15189707,
+          "timestamp": "2026-04-22T04:32:32Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 24592,
+      "name": "Blighted anglerfish",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_anglerfish",
+          "title": "Blighted anglerfish",
+          "pageId": 261719,
+          "revisionId": 15317632,
+          "timestamp": "2026-08-24T00:07:42Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 24595,
+      "name": "Blighted karambwan",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_karambwan",
+          "title": "Blighted karambwan",
+          "pageId": 261720,
+          "revisionId": 15331033,
+          "timestamp": "2026-09-04T21:26:21Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 24605,
+      "name": "Blighted super restore(1)",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_super_restore",
+          "title": "Blighted super restore",
+          "pageId": 261717,
+          "revisionId": 15233476,
+          "timestamp": "2026-06-14T15:03:44Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 24603,
+      "name": "Blighted super restore(2)",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_super_restore",
+          "title": "Blighted super restore",
+          "pageId": 261717,
+          "revisionId": 15233476,
+          "timestamp": "2026-06-14T15:03:44Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 24601,
+      "name": "Blighted super restore(3)",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_super_restore",
+          "title": "Blighted super restore",
+          "pageId": 261717,
+          "revisionId": 15233476,
+          "timestamp": "2026-06-14T15:03:44Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 24598,
+      "name": "Blighted super restore(4)",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Blighted_super_restore",
+          "title": "Blighted super restore",
+          "pageId": 261717,
+          "revisionId": 15233476,
+          "timestamp": "2026-06-14T15:03:44Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3030,
+      "name": "Super restore(1)",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Super_restore",
+          "title": "Super restore",
+          "pageId": 18131,
+          "revisionId": 15183989,
+          "timestamp": "2026-04-22T02:59:05Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3028,
+      "name": "Super restore(2)",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Super_restore",
+          "title": "Super restore",
+          "pageId": 18131,
+          "revisionId": 15183989,
+          "timestamp": "2026-04-22T02:59:05Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3026,
+      "name": "Super restore(3)",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Super_restore",
+          "title": "Super restore",
+          "pageId": 18131,
+          "revisionId": 15183989,
+          "timestamp": "2026-04-22T02:59:05Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3024,
+      "name": "Super restore(4)",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Super_restore",
+          "title": "Super restore",
+          "pageId": 18131,
+          "revisionId": 15183989,
+          "timestamp": "2026-04-22T02:59:05Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 391,
+      "name": "Manta ray",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Manta_ray",
+          "title": "Manta ray",
+          "pageId": 23257,
+          "revisionId": 15184402,
+          "timestamp": "2026-04-22T03:02:54Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 13441,
+      "name": "Anglerfish",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Anglerfish",
+          "title": "Anglerfish",
+          "pageId": 68424,
+          "revisionId": 15317631,
+          "timestamp": "2026-08-24T00:05:46Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 3144,
+      "name": "Cooked karambwan",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Cooked_karambwan",
+          "title": "Cooked karambwan",
+          "pageId": 24277,
+          "revisionId": 15331032,
+          "timestamp": "2026-09-04T21:26:05Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 11941,
+      "name": "Looting bag",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Looting_bag",
+          "title": "Looting bag",
+          "pageId": 31284,
+          "revisionId": 15318005,
+          "timestamp": "2026-08-24T11:28:34Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 22586,
+      "name": "Looting bag",
+      "stackable": false,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Looting_bag",
+          "title": "Looting bag",
+          "pageId": 31284,
+          "revisionId": 15318005,
+          "timestamp": "2026-08-24T11:28:34Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 8013,
+      "name": "Teleport to house",
+      "stackable": true,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Teleport_to_house_(tablet)",
+          "title": "Teleport to house (tablet)",
+          "pageId": 28090,
+          "revisionId": 15185086,
+          "timestamp": "2026-04-22T03:09:29Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 12781,
+      "name": "Paddewwa teleport",
+      "stackable": true,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Paddewwa_teleport_(tablet)",
+          "title": "Paddewwa teleport (tablet)",
+          "pageId": 41572,
+          "revisionId": 15186395,
+          "timestamp": "2026-04-22T04:07:37Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 8007,
+      "name": "Varrock teleport",
+      "stackable": true,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Varrock_teleport_(tablet)",
+          "title": "Varrock teleport (tablet)",
+          "pageId": 20972,
+          "revisionId": 15184222,
+          "timestamp": "2026-04-22T03:01:13Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 8009,
+      "name": "Falador teleport",
+      "stackable": true,
+      "inventoryResource": true,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Falador_teleport_(tablet)",
+          "title": "Falador teleport (tablet)",
+          "pageId": 28066,
+          "revisionId": 15185079,
+          "timestamp": "2026-04-22T03:09:26Z",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "id": 9083,
+      "name": "Seal of passage",
+      "stackable": false,
+      "inventoryResource": false,
+      "evidence": [
+        {
+          "url": "https://oldschool.runescape.wiki/w/Seal_of_passage",
+          "title": "Seal of passage",
+          "pageId": 22624,
+          "revisionId": 15325966,
+          "timestamp": "2026-08-31T01:55:49Z",
+          "missing": false
+        }
+      ],
+      "slot": "NECK",
+      "levels": {},
+      "requirements": [],
+      "requirementsKnown": true
+    }
+  ],
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Wilderness",
+      "title": "Wilderness",
+      "pageId": 12459,
+      "revisionId": 15317990,
+      "timestamp": "2026-08-24T10:38:34Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Tele_Block",
+      "title": "Tele Block",
+      "pageId": 15712,
+      "revisionId": 15301572,
+      "timestamp": "2026-08-14T21:21:37Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Revenant_Caves",
+      "title": "Revenant Caves",
+      "pageId": 106797,
+      "revisionId": 15274504,
+      "timestamp": "2026-07-25T13:02:38Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Calvar'ion",
+      "title": "Calvar'ion",
+      "pageId": 374839,
+      "revisionId": 15309944,
+      "timestamp": "2026-08-19T21:25:26Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Spindel",
+      "title": "Spindel",
+      "pageId": 374849,
+      "revisionId": 15309918,
+      "timestamp": "2026-08-19T21:20:00Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Artio",
+      "title": "Artio",
+      "pageId": 374838,
+      "revisionId": 15309934,
+      "timestamp": "2026-08-19T21:24:33Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Looting_bag",
+      "title": "Looting bag",
+      "pageId": 31284,
+      "revisionId": 15318005,
+      "timestamp": "2026-08-24T11:28:34Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Looting_bag_note",
+      "title": "Looting bag note",
+      "pageId": 261761,
+      "revisionId": 15189714,
+      "timestamp": "2026-04-22T04:32:35Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Blighted_manta_ray",
+      "title": "Blighted manta ray",
+      "pageId": 261721,
+      "revisionId": 15189707,
+      "timestamp": "2026-04-22T04:32:32Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Blighted_anglerfish",
+      "title": "Blighted anglerfish",
+      "pageId": 261719,
+      "revisionId": 15317632,
+      "timestamp": "2026-08-24T00:07:42Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Blighted_karambwan",
+      "title": "Blighted karambwan",
+      "pageId": 261720,
+      "revisionId": 15331033,
+      "timestamp": "2026-09-04T21:26:21Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Blighted_super_restore",
+      "title": "Blighted super restore",
+      "pageId": 261717,
+      "revisionId": 15233476,
+      "timestamp": "2026-06-14T15:03:44Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Blighted_teleport_spell_sack",
+      "title": "Blighted teleport spell sack",
+      "pageId": 261727,
+      "revisionId": 15189712,
+      "timestamp": "2026-04-22T04:32:34Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Astral_Contact",
+      "title": "Astral Contact",
+      "pageId": 17845,
+      "revisionId": 15320080,
+      "timestamp": "2026-08-25T21:06:25Z",
+      "missing": false
+    }
+  ],
+  "houseRoutes": [
+    "house-tablet",
+    "house-spell"
+  ],
+  "bankRoutes": [
+    "dueling-castle-wars",
+    "dueling-ferox",
+    "glory-edgeville",
+    "wealth-grand-exchange",
+    "house-bank-tablet",
+    "house-bank-spell",
+    "house-edgeville-tablet",
+    "house-edgeville-spell",
+    "crystal-lletya",
+    "royal-seed-pod",
+    "grand-seed-pod",
+    "glory-draynor",
+    "slayer-stronghold",
+    "varrock-grand-exchange-tablet",
+    "varrock-grand-exchange-spell",
+    "moonclan-bank-spell",
+    "moonclan-bank-seal-spell",
+    "kharyrll-tablet",
+    "kharyrll-spell",
+    "falador-tablet",
+    "falador-spell",
+    "varrock-tablet",
+    "varrock-spell",
+    "ardougne-spell",
+    "lumbridge-tablet",
+    "lumbridge-spell",
+    "rada-karuulm-unlimited",
+    "rada-karuulm-daily"
+  ]
+}

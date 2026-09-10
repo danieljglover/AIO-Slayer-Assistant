@@ -28,7 +28,7 @@
   "locationId": "river-elid",
   "requirement": "Combat level 50 to be assigned by Vannaka; waterskins recommended for the desert",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "crocodiles-task-methods",
   "offence": {
     "hitpoints": 62,
     "maxHit": 6,

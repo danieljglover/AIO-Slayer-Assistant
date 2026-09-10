@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "God Wars Dungeon - Bandos's Stronghold (40 Bandos KC + GWD access)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "general-graardor"
+  "strategyId": "general-graardor",
+  "locationId": "bandos-stronghold"
 }

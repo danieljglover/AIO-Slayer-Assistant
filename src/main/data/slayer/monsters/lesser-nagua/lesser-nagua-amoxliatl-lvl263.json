@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Ruins of Tapoyauik, Varlamore - boss alternative when assigned Lesser Nagua there",
-  "requirement": "boss - killable any time post-quest; Brimstone keys only drop on a Konar task",
+  "requirement": "Quest: The Heart of Darkness",
   "bossId": null,
-  "strategyId": "lesser-nagua"
+  "strategyId": "amoxliatl",
+  "locationId": "amoxliatl-chamber"
 }

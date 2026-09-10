@@ -2,7 +2,8 @@
   "strategyId": "skeletons",
   "variantIds": [
     "skeleton",
-    "skeleton-area"
+    "skeleton-area",
+    "skeleton-edgeville-wilderness"
   ],
   "sourceUrl": "https://oldschool.runescape.wiki/w/Skeleton",
   "plugin": {
@@ -15,10 +16,10 @@
   },
   "requirements": [
     "No Slayer level is required to receive a Skeletons task.",
-    "Krystilia's skeletons must be killed in the Wilderness (e.g. the Graveyard of Shadows)."
+    "Krystilia's skeletons must be killed in the Wilderness (e.g. the northern Wilderness section of Edgeville Dungeon)."
   ],
   "mechanics": [
-    "Skeletons attack with crush melee for up to 3 damage at a 4-tick speed.",
+    "Lower-level skeletons can hit up to 3 damage; the armed level 45 skeletons in northern Edgeville Dungeon hit up to 5 with slash melee at a 4-tick speed.",
     "They are undead: the Salve amulet applies and they have a 35% earth spell weakness.",
     "Their crush defensive bonus is negative (-5), so crush weapons hit most accurately."
   ],
@@ -40,8 +41,13 @@
       "steps": [
         "Equip a Salve amulet for the undead damage boost.",
         "For starter masters, kill skeletons in the Edgeville Dungeon or Varrock Sewers.",
-        "For Krystilia, kill Wilderness skeletons at the Graveyard of Shadows with risk-appropriate gear."
-      ]
+        "For Krystilia, kill Wilderness skeletons at the northern Wilderness section of Edgeville Dungeon with risk-appropriate gear."
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness-skeletons"
+        ]
+      }
     },
     {
       "methodId": "wilderness-safe",
@@ -60,10 +66,57 @@
       ],
       "steps": [
         "Bank valuables; wear only risk-appropriate gear before entering the Wilderness.",
-        "Kill skeletons at the Graveyard of Shadows; they die in one or two hits.",
+        "Kill skeletons at the northern Wilderness section of Edgeville Dungeon; they die in one or two hits.",
         "Watch the minimap for PKers and teleport out when threatened."
-      ]
+      ],
+      "advisor": {
+        "monsterIds": [
+          "skeleton-edgeville-wilderness"
+        ],
+        "locationIds": [
+          "edgeville-dungeon-wilderness-skeletons"
+        ],
+        "evidence": [
+          {
+            "url": "https://oldschool.runescape.wiki/w/Skeleton",
+            "title": "Skeleton",
+            "pageId": 13405,
+            "revisionId": 15323222,
+            "timestamp": "2026-08-28T15:58:12Z",
+            "missing": false
+          },
+          {
+            "url": "https://oldschool.runescape.wiki/w/Slayer_task/Skeletons",
+            "title": "Slayer task/Skeletons",
+            "pageId": 298266,
+            "revisionId": 15325000,
+            "timestamp": "2026-08-29T22:05:41Z",
+            "missing": false
+          }
+        ],
+        "excludeLocationIds": [
+          "edgeville-dungeon-wilderness-skeletons"
+        ]
+      }
     }
   ],
-  "body": "# Skeletons\n\nSkeletons are a low-level Slayer task assigned by Krystilia, Turael, Spria, and Mazchna. They are undead, so a Salve amulet boosts every hit; they are weakest to crush (crush -5) and carry a 35% earth spell weakness. Any melee weapon clears them quickly. Starter-master tasks are fastest in the Edgeville Dungeon or Varrock Sewers; Krystilia's task must be done in the low-level Wilderness at the Graveyard of Shadows with risk-appropriate gear."
+  "body": "# Skeletons\n\nSkeletons are a low-level Slayer task assigned by Krystilia, Turael, Spria, and Mazchna. They are undead, so a Salve amulet boosts every hit; they are weakest to crush (crush -5) and carry a 35% earth spell weakness. Any melee weapon clears them quickly. Starter-master tasks are fastest in the Edgeville Dungeon or Varrock Sewers; Krystilia's task must be done in the low-level Wilderness at the northern Wilderness section of Edgeville Dungeon with risk-appropriate gear.",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skeleton",
+      "title": "Skeleton",
+      "pageId": 13405,
+      "revisionId": 15323222,
+      "timestamp": "2026-08-28T15:58:12Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Skeletons",
+      "title": "Slayer task/Skeletons",
+      "pageId": 298266,
+      "revisionId": 15325000,
+      "timestamp": "2026-08-29T22:05:41Z",
+      "missing": false
+    }
+  ]
 }

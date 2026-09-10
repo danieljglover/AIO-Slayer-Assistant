@@ -22,8 +22,8 @@
   "kalphite": false,
   "undead": true,
   "boss": false,
-  "location": "Graveyard of Shadows (Wilderness levels 18-21)",
-  "locationId": "graveyard-of-shadows-skeletons",
+  "location": "Edgeville Dungeon / Varrock Sewers (non-Wilderness)",
+  "locationId": "skeletons-area",
   "requirement": null,
   "bossId": null,
   "strategyId": "skeletons",
@@ -34,5 +34,15 @@
       "MELEE"
     ],
     "attackSpeedTicks": 4
-  }
+  },
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Skeleton",
+      "title": "Skeleton",
+      "pageId": 13405,
+      "revisionId": 15323222,
+      "timestamp": "2026-08-28T15:58:12Z",
+      "missing": false
+    }
+  ]
 }

@@ -41,7 +41,12 @@
         "For starter masters, go to the Al Kharid mine or Dwarven Mine scorpions.",
         "For Krystilia, kill Wilderness scorpions with risk-appropriate gear.",
         "Attack with any melee weapon until the task completes."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "scorpions-wilderness"
+        ]
+      }
     },
     {
       "methodId": "wilderness-safe",
@@ -62,7 +67,12 @@
         "Bank valuables; wear only risk-appropriate gear before entering the Wilderness.",
         "Kill Wilderness scorpions; they die in one or two hits.",
         "Watch the minimap for PKers and teleport out when threatened."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "scorpions-wilderness"
+        ]
+      }
     }
   ],
   "body": "# Scorpions\n\nScorpions are a trivial low-level Slayer task assigned by Krystilia, Turael, Spria, and Mazchna. With -53 melee defensive bonuses and very low Hitpoints, any melee weapon clears them instantly; a small fire spell weakness (25%, King scorpion 20%) helps Magic trainers. Starter-master tasks are fastest at the Al Kharid mine or Dwarven Mine; Krystilia's task must be done in the low-level Wilderness with risk-appropriate gear."

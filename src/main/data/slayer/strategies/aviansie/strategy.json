@@ -174,8 +174,13 @@
       "notes": [
         "Kree'arra and his bodyguards count as alternatives for an Aviansie task.",
         "With max mage gear, an Eldritch nightmare staff, and optional Lightbearer, players can often complete full tasks at Kree'arra without banking.",
-        "Armadylean spiritual warriors, rangers, and mages do not count as Aviansie task alternatives."
-      ]
+        "Armadylean spiritual warriors, rangers, and mages do not count as Aviansie task alternatives.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     },
     {
       "methodId": "reanimated-aviansie-alternative",

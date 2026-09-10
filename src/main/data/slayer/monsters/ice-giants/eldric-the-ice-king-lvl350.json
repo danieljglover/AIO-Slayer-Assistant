@@ -1,0 +1,41 @@
+{
+  "variantId": "eldric-the-ice-king",
+  "name": "Eldric the Ice King",
+  "npcIds": [
+    14147
+  ],
+  "combatLevel": 350,
+  "slayerLevel": 1,
+  "weakness": {
+    "style": "MELEE",
+    "element": "fire"
+  },
+  "monsterDefence": {
+    "defenceLevel": 100,
+    "stab": 12,
+    "slash": 12,
+    "crush": 0,
+    "magic": 700,
+    "range": 700
+  },
+  "demon": false,
+  "dragon": false,
+  "kalphite": false,
+  "undead": false,
+  "boss": true,
+  "location": "Royal Titans arena (Asgarnia)",
+  "requirement": null,
+  "bossId": null,
+  "strategyId": "branda-the-fire-queen",
+  "locationId": "royal-titans-arena",
+  "offence": {
+    "hitpoints": 600,
+    "maxHit": 26,
+    "attackStyles": [
+      "MELEE"
+    ],
+    "attackSpeedTicks": 7,
+    "slayerXp": 735
+  },
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Eldric_the_Ice_King"
+}

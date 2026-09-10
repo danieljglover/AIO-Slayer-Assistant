@@ -24,7 +24,8 @@
   "undead": false,
   "boss": true,
   "location": "Kraken Cove - boss whirlpool",
-  "requirement": "boss - separate trip; magic only",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "kraken"
+  "strategyId": "kraken",
+  "locationId": "kraken-boss-cove"
 }

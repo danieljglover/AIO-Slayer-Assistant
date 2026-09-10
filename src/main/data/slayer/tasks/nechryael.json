@@ -12,7 +12,8 @@
     "chaeldar",
     "konar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "krystilia": [
@@ -38,6 +39,10 @@
     "duradel": [
       130,
       200
+    ],
+    "mortimer": [
+      150,
+      200
     ]
   },
   "weightByMaster": {
@@ -46,7 +51,8 @@
     "chaeldar": 12,
     "konar": 7,
     "nieve": 7,
-    "duradel": 9
+    "duradel": 9,
+    "mortimer": 8
   },
   "extendedAmount": {
     "krystilia": [
@@ -153,7 +159,8 @@
       ],
       "notes": [
         "A stronger variant of Nechryael, with a slightly different drop table.",
-        "Greater Nechryael are highly recommended whenever possible because their drop table is more lucrative."
+        "Greater Nechryael are highly recommended whenever possible because their drop table is more lucrative.",
+        "Requires 80 Slayer to kill; 85 combat is an assignment requirement."
       ]
     },
     {

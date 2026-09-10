@@ -1,0 +1,100 @@
+{
+  "reviewedAt": "2026-09-08",
+  "evidence": [
+    {
+      "url": "https://oldschool.runescape.wiki/w/Mortimer",
+      "title": "Mortimer",
+      "pageId": 663129,
+      "revisionId": 15327685,
+      "timestamp": "2026-09-01T18:26:44Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Venator",
+      "title": "Venator",
+      "pageId": 665466,
+      "revisionId": 15323400,
+      "timestamp": "2026-08-28T18:27:40Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Blood-starved_venator",
+      "title": "Blood-starved venator",
+      "pageId": 667188,
+      "revisionId": 15325584,
+      "timestamp": "2026-08-30T20:09:21Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Apsul_Hunting_Ground",
+      "title": "Apsul Hunting Ground",
+      "pageId": 667326,
+      "revisionId": 15266513,
+      "timestamp": "2026-07-17T22:37:24Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Virer_Hunting_Ground",
+      "title": "Virer Hunting Ground",
+      "pageId": 667327,
+      "revisionId": 15319892,
+      "timestamp": "2026-08-25T16:51:21Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Slayer_task/Venators",
+      "title": "Slayer task/Venators",
+      "pageId": 674589,
+      "revisionId": 15327318,
+      "timestamp": "2026-09-01T14:15:27Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Wyrmscraig_Cavern",
+      "title": "Wyrmscraig Cavern",
+      "pageId": 674686,
+      "revisionId": 15288292,
+      "timestamp": "2026-08-05T22:26:53Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Venator/Strategies",
+      "title": "Venator/Strategies",
+      "pageId": 678481,
+      "revisionId": 15319166,
+      "timestamp": "2026-08-25T04:05:09Z",
+      "missing": false
+    }
+  ],
+  "reviewedFacts": [
+    "Mortimer identity, requirements, assignment ranges and task-choice mechanics",
+    "Venator task, combat variants, hunting-ground locations, damage restrictions and strategy alternatives"
+  ],
+  "mortimerTaskIds": [
+    "cave-crawlers",
+    "banshees",
+    "pyrefiends",
+    "basilisks",
+    "bloodveld",
+    "gryphons",
+    "jellies",
+    "custodian-stalker",
+    "turoth",
+    "warped-creatures",
+    "cave-horrors",
+    "aberrant-spectres",
+    "wyrms",
+    "dust-devils",
+    "kurask",
+    "venators",
+    "gargoyles",
+    "aquanites",
+    "nechryael",
+    "drakes",
+    "abyssal-demons",
+    "dark-beasts",
+    "araxytes",
+    "smoke-devils",
+    "hydras"
+  ]
+}

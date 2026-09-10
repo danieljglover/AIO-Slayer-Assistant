@@ -1,0 +1,14 @@
+{
+  "locationId": "lizardman-caves",
+  "name": "Lizardman Caves",
+  "multi": false,
+  "cannon": false,
+  "burst": false,
+  "konarLockable": true,
+  "safeSpot": false,
+  "wilderness": false,
+  "taskOnly": true,
+  "accessNote": "Eight shamans in a single-combat cave network. Only the northern entrance is usable. Captain Cleive prevents combat without a Lizardmen Slayer assignment. Cannons cannot be set up. Fairy ring BLS is south of the entrance; Xeric's Lookout and the Graveyard of Heroes are other routes.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Lizardman_Caves",
+  "assignmentAreaId": "lizardman-settlement"
+}

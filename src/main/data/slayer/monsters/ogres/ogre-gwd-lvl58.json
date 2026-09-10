@@ -26,5 +26,5 @@
   "locationId": "god-wars-dungeon",
   "requirement": "Aggressive unless wearing a Bandos-affiliated item; multicombat area.",
   "bossId": null,
-  "strategyId": null
+  "strategyId": "ogres-task-methods"
 }

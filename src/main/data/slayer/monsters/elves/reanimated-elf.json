@@ -25,5 +25,7 @@
   "location": "Dark Altar / local ensouled elf head reanimation area",
   "requirement": "Adept Reanimation on an ensouled elf head",
   "bossId": null,
-  "strategyId": "elves"
+  "strategyId": "elves",
+  "locationId": "dark-altar",
+  "advisorRepeatable": false
 }

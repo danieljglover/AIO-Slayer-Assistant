@@ -1,0 +1,13 @@
+{
+  "locationId": "mole-hole",
+  "name": "Mole Hole",
+  "multi": false,
+  "cannon": true,
+  "burst": false,
+  "konarLockable": false,
+  "safeSpot": false,
+  "wilderness": false,
+  "accessNote": "A lit light source is needed in the Mole Hole. A Falador shield 3 or 4 helps locate the mole after it burrows.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Mole_Hole",
+  "advisorRequirements": []
+}

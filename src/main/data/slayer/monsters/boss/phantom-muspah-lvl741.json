@@ -27,7 +27,8 @@
   "undead": false,
   "boss": true,
   "location": "Ghorrock Dungeon (via Weiss salt mine)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "phantom-muspah"
+  "strategyId": "phantom-muspah",
+  "locationId": "ghorrock-dungeon"
 }

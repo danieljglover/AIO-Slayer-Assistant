@@ -41,7 +41,12 @@
         "Bring fire-spell runes and low-risk gear for the Wilderness.",
         "Cast Fire Bolt or Fire Blast at ice warriors on the Frozen Waste Plateau.",
         "Watch the minimap for PKers and teleport out when threatened."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "frozen-waste-plateau"
+        ]
+      }
     },
     {
       "methodId": "melee",
@@ -61,7 +66,12 @@
         "For Mazchna, go to the Asgarnian Ice Dungeon and attack ice warriors with melee.",
         "For Krystilia, kill Wilderness ice warriors at the Frozen Waste Plateau with risk-appropriate gear.",
         "Attack with any strong crush/slash weapon until the task completes."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "frozen-waste-plateau"
+        ]
+      }
     }
   ],
   "body": "# Ice warriors\n\nIce warriors are assigned by Krystilia (Wilderness) and Mazchna (starter). They have 59 Hitpoints, Defence 47, and a 100% weakness to fire spells, so Fire Bolt/Fire Blast is fastest; a Dragon scimitar or better also clears them quickly. Krystilia's task must be done in the Wilderness at the Frozen Waste Plateau with risk-appropriate gear, while Mazchna's can be done safely in the Asgarnian Ice Dungeon."

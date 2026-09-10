@@ -98,7 +98,12 @@
       "notes": [
         "Protect from Melee is enough for standard Hellhound damage control.",
         "The standard task loop is simple; location choice matters more than monster mechanics."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
+      }
     },
     {
       "methodId": "stronghold-cannon",
@@ -127,7 +132,12 @@
       ],
       "notes": [
         "The task page highlights Stronghold Slayer Cave as the primary outside-Wilderness location because it has multiple Hellhound rooms and allows cannoning."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
+      }
     },
     {
       "methodId": "catacombs-afk-venator",
@@ -161,7 +171,12 @@
       ],
       "notes": [
         "Catacombs are multicombat and can be fairly AFK with Venator bow."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
+      }
     },
     {
       "methodId": "wilderness-slayer-cave",
@@ -200,7 +215,12 @@
       "notes": [
         "The level 136 Wilderness Slayer Cave Hellhound has 150 Slayer XP and access to the cave drop table.",
         "The smouldering stone drop rate is increased by 50% from these Hellhounds."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
+      }
     },
     {
       "methodId": "safespots",
@@ -225,7 +245,12 @@
       ],
       "notes": [
         "Safespots trade speed for safety and lower supply use."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
+      }
     },
     {
       "methodId": "vetion-calvarion-spawns",
@@ -254,8 +279,16 @@
         "The summoned Hellhounds have no drops other than the looting bag."
       ],
       "notes": [
-        "Use Vet'ion/Strategies for the boss mechanics."
-      ]
+        "Use Vet'ion/Strategies for the boss mechanics.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements",
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
+      }
     },
     {
       "methodId": "cerberus-choice",
@@ -289,8 +322,16 @@
         "Poor setups can consume too many prayer potions compared with regular Hellhound kills."
       ],
       "notes": [
-        "Cerberus is a task alternative with boss mechanics and valuable uniques, not the standard fast task option."
-      ]
+        "Cerberus is a task alternative with boss mechanics and valuable uniques, not the standard fast task option.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements",
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
+      }
     },
     {
       "methodId": "inventory-and-loot",
@@ -320,7 +361,12 @@
       "notes": [
         "Revenant hellhounds do not count for normal Hellhound tasks.",
         "Bouncer and the quest Skeleton Hellhound have special quest-only task-count exceptions."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -344,6 +390,11 @@
             "Slayer helmet"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
       }
     },
     {
@@ -363,6 +414,11 @@
             "Slayer helmet (i)"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
       }
     },
     {
@@ -383,6 +439,11 @@
             "Elidinis' ward"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-hellhounds"
+        ]
       }
     }
   ],

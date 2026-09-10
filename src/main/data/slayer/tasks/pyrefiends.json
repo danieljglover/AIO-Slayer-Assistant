@@ -8,7 +8,8 @@
   "questReqs": [],
   "masterIds": [
     "mazchna",
-    "vannaka"
+    "vannaka",
+    "mortimer"
   ],
   "amountByMaster": {
     "mazchna": [
@@ -18,11 +19,16 @@
     "vannaka": [
       40,
       90
+    ],
+    "mortimer": [
+      35,
+      50
     ]
   },
   "weightByMaster": {
     "mazchna": 8,
-    "vannaka": 8
+    "vannaka": 8,
+    "mortimer": 10
   },
   "unlocks": [],
   "monsterIds": [

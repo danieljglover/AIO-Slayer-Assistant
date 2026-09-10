@@ -27,7 +27,7 @@
   "locationId": "sand-crabs-crabclaw-isle",
   "requirement": "Slayer 1; no combat or quest requirement",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "crabs-task-methods",
   "offence": {
     "hitpoints": 60,
     "maxHit": 1,

@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Smoke Devil Dungeon (south of Castle Wars)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "thermonuclear-smoke-devil"
+  "strategyId": "thermonuclear-smoke-devil",
+  "locationId": "thermonuclear-smoke-devil-lair"
 }

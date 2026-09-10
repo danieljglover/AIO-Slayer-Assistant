@@ -23,7 +23,8 @@
   "undead": false,
   "boss": true,
   "location": "Silk Chasm (Venenatis' web), ~Level 35+ Wilderness (Spindel is the singles-plus alternative)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "venenatis"
+  "strategyId": "venenatis",
+  "locationId": "silk-chasm"
 }

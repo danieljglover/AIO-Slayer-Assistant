@@ -12,7 +12,8 @@
     "chaeldar",
     "konar",
     "nieve",
-    "duradel"
+    "duradel",
+    "mortimer"
   ],
   "amountByMaster": {
     "chaeldar": [
@@ -30,13 +31,18 @@
     "duradel": [
       130,
       200
+    ],
+    "mortimer": [
+      80,
+      120
     ]
   },
   "weightByMaster": {
     "chaeldar": 6,
     "konar": 4,
     "nieve": 6,
-    "duradel": 8
+    "duradel": 8,
+    "mortimer": 10
   },
   "extendedAmount": {},
   "unlocks": [

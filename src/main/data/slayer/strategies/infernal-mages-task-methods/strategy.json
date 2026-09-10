@@ -1,0 +1,77 @@
+{
+  "strategyId": "infernal-mages-task-methods",
+  "variantIds": [
+    "infernal-mage"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Infernal_Mage",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [],
+    "secondaryWeapons": [],
+    "note": "Travel to the first floor of the Slayer Tower (Priest in Peril required for Morytania access) and kill Infernal Mages with melee - they have no melee or ranged defensive bonuses (+40 magic defence). They cast an accurate Magic attack (max hit 8, magic level 75), so use Protect from Magic to negate all incoming damage, or safespot them. Bring Earmuffs/Nose peg or a Slayer helmet for the aggressive Banshees and Aberrant spectres on the route."
+  },
+  "requirements": [
+    "Priest in Peril"
+  ],
+  "mechanics": [
+    "Infernal Mages are assigned only by Vannaka (40-90 per task, weighting 8) and require 45 Slayer; Vannaka additionally gates assignment at combat level 40 and completion of Priest in Peril (needed to enter Morytania / the Slayer Tower).",
+    "Assignment data (masterIds, amountByMaster, weightByMaster) was verified against the raw wikitext of Vannaka's task table on 2026-07-03.",
+    "Chaeldar (8 May 2024, Project Rebalance) and Duradel (10 September 2015, Slayer Assignment Rework) no longer assign Infernal Mages, so Vannaka is the sole current assigner.",
+    "There is no dedicated Slayer_task/Infernal Mages wiki page (missing); combat and location facts were taken from the Infernal Mage monster page (pageid 12370, revid 15199194, 2026-04-28T07:11:57Z).",
+    "Infernal Mage has 60 Hitpoints, max hit 8, a 4-tick Magic attack (magic level 75), Defence level 60, and defensive bonuses of 0 to all melee and ranged styles with +40 magic defence; weakness.style is MELEE because melee has no defensive resistance and the monster page lists no elemental weakness.",
+    "Protect from Magic negates their accurate magic attack completely; they are immune to weak burns.",
+    "npc IDs are 443-447; the superior variant is the Malevolent Mage (not authored here).",
+    "No task extension unlock exists for Infernal Mages.",
+    "slayerTargetId 284 is SYNTHETIC (unused in-range placeholder); the real SLAYER_TARGET varp value is a QA live-verify item.",
+    "No Slayer_task/Infernal Mages page exists; wikiPageId 12370 pins the Infernal Mage monster page (https://oldschool.runescape.wiki/w/Infernal_Mage) instead."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Ordinary melee task",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Travel to the first floor of the Slayer Tower (Priest in Peril required for Morytania access) and kill Infernal Mages with melee - they have no melee or ranged defensive bonuses (+40 magic defence). They cast an accurate Magic attack (max hit 8, magic level 75), so use Protect from Magic to negate all incoming damage, or safespot them. Bring Earmuffs/Nose peg or a Slayer helmet for the aggressive Banshees and Aberrant spectres on the route.",
+      "steps": [
+        "Infernal Mages are assigned only by Vannaka (40-90 per task, weighting 8) and require 45 Slayer; Vannaka additionally gates assignment at combat level 40 and completion of Priest in Peril (needed to enter Morytania / the Slayer Tower).",
+        "Assignment data (masterIds, amountByMaster, weightByMaster) was verified against the raw wikitext of Vannaka's task table on 2026-07-03.",
+        "Chaeldar (8 May 2024, Project Rebalance) and Duradel (10 September 2015, Slayer Assignment Rework) no longer assign Infernal Mages, so Vannaka is the sole current assigner.",
+        "There is no dedicated Slayer_task/Infernal Mages wiki page (missing); combat and location facts were taken from the Infernal Mage monster page (pageid 12370, revid 15199194, 2026-04-28T07:11:57Z).",
+        "Infernal Mage has 60 Hitpoints, max hit 8, a 4-tick Magic attack (magic level 75), Defence level 60, and defensive bonuses of 0 to all melee and ranged styles with +40 magic defence; weakness.style is MELEE because melee has no defensive resistance and the monster page lists no elemental weakness.",
+        "Protect from Magic negates their accurate magic attack completely; they are immune to weak burns.",
+        "npc IDs are 443-447; the superior variant is the Malevolent Mage (not authored here).",
+        "No task extension unlock exists for Infernal Mages.",
+        "slayerTargetId 284 is SYNTHETIC (unused in-range placeholder); the real SLAYER_TARGET varp value is a QA live-verify item.",
+        "No Slayer_task/Infernal Mages page exists; wikiPageId 12370 pins the Infernal Mage monster page (https://oldschool.runescape.wiki/w/Infernal_Mage) instead."
+      ],
+      "notes": [
+        "General Slayer training equipment is supplemented by the task's exact required protection and damage constraints."
+      ],
+      "advisor": {
+        "monsterIds": [
+          "infernal-mage"
+        ],
+        "coverageStatus": "Existing detailed task guidance preserved; general equipment from Slayer training; current task prose completeness not certified"
+      }
+    },
+    {
+      "methodId": "location-slayer-tower",
+      "label": "Slayer Tower (first floor)",
+      "combatStyle": "MELEE",
+      "role": "routing",
+      "summary": "Location-specific access and combat trade-offs.",
+      "steps": [
+        "Infernal Mages occupy the first floor of the Slayer Tower (Morytania); the monster page lists ~15 spawn tiles.",
+        "Reach the area via the south-east stairs; 60 Slayer and 61 Agility allow a shortcut past aggressive Aberrant spectres (wear a Nose peg or Slayer helmet).",
+        "Without the shortcut the route passes aggressive Banshees, so Earmuffs or a Slayer helmet are recommended; 18 Agility allows the broken-window shortcut to the stairs.",
+        "Cannons cannot be placed anywhere in the Slayer Tower (a strange magical force prevents it), so cannonable is false."
+      ],
+      "advisor": {
+        "locationIds": [
+          "slayer-tower"
+        ],
+        "selectable": false
+      }
+    }
+  ]
+}

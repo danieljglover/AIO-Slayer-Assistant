@@ -22,5 +22,7 @@
   "location": "Dark Altar or current location after casting Expert Reanimation",
   "requirement": "Slayer 50; 65 Magic; Arceuus spellbook; ensouled bloodveld head",
   "bossId": null,
-  "strategyId": "bloodveld"
+  "strategyId": "bloodveld",
+  "locationId": "dark-altar",
+  "advisorRepeatable": false
 }

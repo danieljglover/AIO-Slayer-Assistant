@@ -7,5 +7,10 @@
   "konarLockable": true,
   "safeSpot": false,
   "wilderness": false,
-  "accessNote": "Requires Death Plateau and God Wars Dungeon access. Armadyl-aligned protection is required to make Aviansie tolerant; Kree'arra access also needs 70 Ranged, a crossbow, and a mith grapple."
+  "accessNote": "Requires Death Plateau and God Wars Dungeon access. Armadyl-aligned protection is required to make Aviansie tolerant; Kree'arra access also needs 70 Ranged, a crossbow, and a mith grapple.",
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Armadyl's_Eyrie",
+  "advisorRequirements": [
+    "RANGED >= 70",
+    "God Wars Dungeon Armadyl killcount or valid entry bypass"
+  ]
 }

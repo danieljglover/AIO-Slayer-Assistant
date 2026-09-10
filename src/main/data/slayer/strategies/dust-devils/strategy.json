@@ -107,7 +107,12 @@
       "notes": [
         "The task page recommends Catacombs unless the assignment is locked to Smoke Dungeon by Konar or assigned by Krystilia.",
         "Drops usually cover supply costs when using efficient burst or barrage setups."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
+      }
     },
     {
       "methodId": "smoke-dungeon",
@@ -143,7 +148,12 @@
       ],
       "notes": [
         "This location has the highest Dust devil count on the task page, but the useful method depends on whether the player wants multicombat spells or cannon use."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
+      }
     },
     {
       "methodId": "wilderness-slayer-cave",
@@ -181,7 +191,12 @@
       ],
       "notes": [
         "Dust devils here use the Wilderness Slayer Cave drop table."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
+      }
     },
     {
       "methodId": "luring",
@@ -217,7 +232,12 @@
       ],
       "notes": [
         "The task page lists Dinh's bulwark, blowpipe, darts, knives, Hunters' crossbows, goading potion, and Venator bow as effective luring or alternative tools."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
+      }
     },
     {
       "methodId": "choke-devil",
@@ -250,7 +270,12 @@
       "notes": [
         "Choke devils require Bigger and Badder and give 3000 Slayer XP.",
         "On Konar assignments, Choke devils guarantee a Brimstone key."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
+      }
     },
     {
       "methodId": "inventory-and-loot",
@@ -291,7 +316,12 @@
       "notes": [
         "The task page notes that Tormented bracelet damage is often less useful than bracelet of slaughter because extending Dust devil tasks is valuable experience.",
         "Kodai wand is especially effective because of its magic damage bonus, infinite water runes, and rune-saving effect."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -341,6 +371,11 @@
             "Bracelet of slaughter"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
       }
     },
     {
@@ -363,6 +398,11 @@
             "Lightbearer"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
       }
     },
     {
@@ -388,6 +428,11 @@
             "Only risked supplies"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "wilderness-slayer-cave-dust-devils"
+        ]
       }
     }
   ]

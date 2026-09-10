@@ -25,5 +25,6 @@
   "location": "Morytania Spider Cave (superior; spawns only from level 146 araxytes)",
   "requirement": "Slayer 92; Priest in Peril",
   "strategyId": "araxytes",
-  "bossId": null
+  "bossId": null,
+  "advisorRepeatable": false
 }

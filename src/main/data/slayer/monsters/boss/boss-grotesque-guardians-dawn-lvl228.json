@@ -26,7 +26,8 @@
   "undead": false,
   "boss": true,
   "location": "Slayer Tower roof (fought alongside Dusk; gargoyle task + brittle key)",
-  "requirement": "boss - separate trip",
+  "requirement": null,
   "bossId": null,
-  "strategyId": "grotesque-guardians-dawn"
+  "strategyId": "grotesque-guardians-dawn",
+  "locationId": "slayer-tower-roof"
 }

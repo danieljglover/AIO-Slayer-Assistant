@@ -1,0 +1,109 @@
+{
+  "strategyId": "venators",
+  "variantIds": [
+    "venator",
+    "blood-starved-venator"
+  ],
+  "sourceUrl": "https://oldschool.runescape.wiki/w/Venator/Strategies",
+  "plugin": {
+    "primaryStyle": "MELEE",
+    "primaryWeapons": [],
+    "secondaryWeapons": [],
+    "note": "Use vampyrebane melee, Efaritay's aid, and earmuffs/Slayer helmet. Sunspear finishing special attacks produce hearts for shrine restoration."
+  },
+  "requirements": [
+    "74 Slayer",
+    "The Blood Moon Rises",
+    "43 Prayer for Protect from Melee"
+  ],
+  "mechanics": [
+    "Venators are living vampyres; Salve amulet bonuses do not apply.",
+    "Earmuffs or a Slayer helmet reduce shriek damage. Protection prayer during the shriek causes repeated damage and prayer loss.",
+    "Venators can be killed off-task by paying the nearby aranei 30 Stymphike feathers per kill.",
+    "Superior blood-starved venators can spawn with Bigger and Badder even when killing venators off-task."
+  ],
+  "methods": [
+    {
+      "methodId": "melee",
+      "label": "Vampyrebane melee",
+      "combatStyle": "MELEE",
+      "role": "primary",
+      "summary": "Fight in melee using Sunspear or hallowed flail. Efaritay's aid stacks with the Slayer helmet.",
+      "requiredOrKeyItems": [
+        "Sunspear or hallowed flail",
+        "Slayer helmet",
+        "Efaritay's aid"
+      ],
+      "steps": [
+        "Use a designated vampyrebane weapon; ordinary weapons and Salve amulets do not provide their usual benefits here.",
+        "Prepare for the shriek mechanic: an active protection prayer during it causes repeated damage and prayer drain.",
+        "A Sunspear special attack that kills a venator produces a heart; sacrifice it at the Aranei shrine to restore 50% special attack energy and up to 24 prayer points."
+      ],
+      "notes": [
+        "Saradomin godsword and Ancient godsword specials can heal despite doing zero damage. Burning claws can apply burn despite dealing no direct damage."
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Sunspear",
+            "Hallowed flail",
+            "Blisterwood flail",
+            "Ivandis flail"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Slayer helmet",
+            "Earmuffs"
+          ],
+          "ring": [
+            "Efaritay's aid"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "blisterwood-ranged",
+      "label": "Blisterwood stakes",
+      "combatStyle": "RANGED",
+      "role": "alternative",
+      "summary": "Blisterwood stakes are a valid ranged damage source, including the Virer spawn inaccessible to melee. Ranged defence is higher than melee defence.",
+      "requiredOrKeyItems": [
+        "Blisterwood stake"
+      ],
+      "equipment": {
+        "slots": {
+          "weapon": [
+            "Blisterwood stake"
+          ],
+          "head": [
+            "Slayer helmet (i)",
+            "Earmuffs"
+          ],
+          "ring": [
+            "Efaritay's aid"
+          ]
+        }
+      }
+    },
+    {
+      "methodId": "travel",
+      "label": "Vampyrium travel and banking",
+      "role": "travel",
+      "summary": "Reach Vampyrium using Drakan's medallion and the Castle Drakan portal, then travel south to the hunting grounds.",
+      "steps": [
+        "Gear at Sangvesti bank chest when available (70 Construction to build).",
+        "Use the pillar shortcut at 73 Agility; bring a pickaxe for the rubble south of it."
+      ]
+    },
+    {
+      "methodId": "off-task",
+      "label": "Off-task feather payment",
+      "combatStyle": "MELEE",
+      "role": "alternative",
+      "summary": "Pay the nearby aranei 30 Stymphike feathers per kill to fight off-task. Bigger and Badder still permits superior spawns.",
+      "requiredOrKeyItems": [
+        "30 Stymphike feathers per kill"
+      ]
+    }
+  ]
+}

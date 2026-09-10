@@ -48,7 +48,8 @@
     "iorwerth-warrior",
     "elf-warrior",
     "mourner",
-    "guard-prifddinas"
+    "guard-prifddinas",
+    "reanimated-elf"
   ],
   "defaultVariantId": "iorwerth-warrior",
   "weakness": {
@@ -82,7 +83,8 @@
     "prifddinas-west-gate",
     "tower-of-voices-ground-floor",
     "tower-of-voices-upper-floor",
-    "prifddinas-market-place"
+    "prifddinas-market-place",
+    "dark-altar"
   ],
   "variantInfo": [
     {
@@ -177,15 +179,14 @@
       "variantId": "reanimated-elf",
       "name": "Reanimated elf",
       "combatLevel": null,
-      "slayerXp": 35,
+      "slayerXp": 35.0,
       "locations": [
-        "Dark Altar",
-        "Other reanimation area"
+        "Dark Altar"
       ],
       "notes": [
-        "Using Adept Reanimation on an ensouled elf head gives greatly reduced Slayer XP but 754 Prayer XP per kill.",
-        "The spell can be cast near the dropped head if it has not been banked, traded, put on the Grand Exchange, or price-checked.",
-        "If the local reanimation window is lost, the head must be reanimated within range of the Dark Altar in Kourend."
+        "Counts for the corresponding Slayer task, giving 35 Slayer XP alongside Prayer XP.",
+        "Incidental reanimation target requiring the relevant Arceuus reanimation spell and ensouled head; not an independently spawned repeatable monster.",
+        "Reanimation works near the original drop while the head has not entered a bank, trade, Grand Exchange or price checker; otherwise use the Dark Altar."
       ]
     }
   ],

@@ -25,5 +25,6 @@
   "location": "Smoke Devil Dungeon boss lair",
   "requirement": "Slayer 93; active Smoke devils task except one Western Provinces Diary kill; facemask or slayer helmet",
   "bossId": null,
-  "strategyId": "thermonuclear-smoke-devil"
+  "strategyId": "thermonuclear-smoke-devil",
+  "locationId": "thermonuclear-smoke-devil-lair"
 }

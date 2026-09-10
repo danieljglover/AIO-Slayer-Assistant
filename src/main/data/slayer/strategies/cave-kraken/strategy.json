@@ -125,8 +125,13 @@
       ],
       "notes": [
         "Kraken/Strategies is the authoritative boss method source.",
-        "Kraken's typeless magic damage cannot be blocked by protection prayers."
-      ]
+        "Kraken's typeless magic damage cannot be blocked by protection prayers.",
+        "Choose the named monster in the catalogue to use its dedicated strategy, equipment, location and preparation requirements."
+      ],
+      "advisor": {
+        "selectable": false,
+        "coverageStatus": "Task alternative reference; choose the dedicated monster strategy for its complete equipment and requirements"
+      }
     },
     {
       "methodId": "konar-and-krack-on",

@@ -75,7 +75,10 @@
   "locationIds": [
     "lizardman-canyon",
     "kebos-lowlands",
-    "lizardman-settlement"
+    "lizardman-settlement",
+    "lizardman-caves",
+    "lizardman-temple",
+    "molch"
   ],
   "variantInfo": [
     {
@@ -168,6 +171,28 @@
         "Kebos Swamp holds 7 level 53/62 Lizardmen and 3 Lizardman brutes.",
         "Single-combat and not cannonable per the wiki task table; not safespottable."
       ]
+    },
+    {
+      "locationId": "lizardman-caves",
+      "name": "Lizardman Caves",
+      "amount": 8,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Eight shamans in a single-combat cave network. Only the northern entrance is usable. Captain Cleive prevents combat without a Lizardmen Slayer assignment. Cannons cannot be set up. Fairy ring BLS is south of the entrance; Xeric's Lookout and the Graveyard of Heroes are other routes."
+      ]
+    },
+    {
+      "locationId": "lizardman-temple",
+      "name": "Lizardman Temple",
+      "amount": 6,
+      "multicombat": false,
+      "cannonable": false,
+      "safespottable": false,
+      "notes": [
+        "Six shamans, two per chamber, below Molch. Enter through a one-way lizard dwelling and leave through the south-west strange hole or teleport. Cannons cannot be placed. Repeated barrier crossings cause escalating10/20damage after3/6crossings; each crossing adds a minute to recovery. No Slayer assignment is required."
+      ]
     }
   ],
   "taskNotes": [
@@ -178,7 +203,7 @@
     "Duradel assigns 130-210 Lizardmen after the unlock.",
     "Lizardman Canyon is the common cannon task location.",
     "Lizardman shamans are the profit-focused alternative because of the dragon warhammer drop, but they require shaman-specific mechanics.",
-    "Use Shayzien favour and appropriate Shayzien armour or location-specific protection where required by the chosen method."
+    "Shaman poison-spit protection is provided by the dedicated shaman method; Shayzien favour is no longer an access requirement."
   ],
   "recommendedMethod": "Requires the Reptile got ripped unlock. Use cannon plus melee or ranged in the Lizardman Canyon for normal Lizardmen tasks, or kill Lizardman shamans when choosing the slower dragon warhammer profit route."
 }

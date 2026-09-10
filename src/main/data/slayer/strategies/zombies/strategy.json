@@ -50,7 +50,12 @@
       ],
       "notes": [
         "The Graveyard of Shadows is a PvP zone; bring risk gear."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "chaos-temple-wilderness"
+        ]
+      }
     },
     {
       "methodId": "fire-magic",
@@ -71,7 +76,12 @@
       ],
       "notes": [
         "A Salve amulet (i) also boosts magic against undead."
-      ]
+      ],
+      "advisor": {
+        "excludeLocationIds": [
+          "chaos-temple-wilderness"
+        ]
+      }
     }
   ],
   "styleOptions": [
@@ -88,6 +98,11 @@
             "Abyssal whip"
           ]
         }
+      },
+      "advisor": {
+        "excludeLocationIds": [
+          "chaos-temple-wilderness"
+        ]
       }
     }
   ]

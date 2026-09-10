@@ -26,7 +26,7 @@
   "locationId": "catacombs-of-kourend",
   "requirement": "Slayer 1; no combat or quest requirement (high Hitpoints and Defence make it a drop-focused kill)",
   "bossId": null,
-  "strategyId": null,
+  "strategyId": "crabs-task-methods",
   "offence": {
     "hitpoints": 200,
     "maxHit": 6,
