@@ -3,8 +3,8 @@
 Reviewed: 2026-09-11. Baseline: `1f7183a593afe6606455e7b247f93d876edaefe4`.
 
 **Status: submitted for review in [Plugin Hub PR #16428](https://github.com/runelite/plugin-hub/pull/16428).
-Published source `e55d0c9` passed strict official packaging. CI/reviewer response
-and approval remain pending.**
+Published source `e55d0c9` passed strict official packaging and the PR build CI.
+Reviewer response and approval remain pending.**
 
 Work through the blockers first, then the release checks and submission steps.
 Tick an item only when its completion criteria have been met. Record the fixing
@@ -295,3 +295,4 @@ acceptance complete until the corresponding external action has occurred.
 | 2026-09-11 | S2 / readiness review | Current official submission instructions, local candidate evidence and remote refs checked | Release checks reviewed; O1 deferred and R4 dropped. S1 still awaits B2 verification; no push or PR performed. |
 | 2026-09-11 | B2 / S1 | Owner confirmed the requested carried/equipped Check, charge-limit and activation-ether checks passed | B2 closed; S1 complete for verified candidate `977a21e`. Later source commits require their own packaging verification. |
 | 2026-09-11 | S3-S5 | Published `e55d0c9`; [PR #16428](https://github.com/runelite/plugin-hub/pull/16428) | Official remote clone and strict packaging passed; manifest pinned; one Hub PR opened with screenshots and integration/policy notes. S6/S7 pending. |
+| 2026-09-11 | S6 initial CI | [Build run 34651751127](https://github.com/runelite/plugin-hub/actions/runs/34651751127) | Build passed in 42 seconds; upload job skipped. No reviewer findings yet; S6 stays open for review follow-up. |
