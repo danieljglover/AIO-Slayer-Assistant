@@ -33,8 +33,8 @@ state or account transition.
 ## Charge observations
 
 There is no universal loaded-charge field in RuneLite item containers. This
-plugin reads the active Weapon Charges plugin's public item metadata and current
-RuneScape-profile balances when it is installed and enabled. Its persisted
+plugin uses a reviewed bundled item-to-charge-family mapping and reads current
+RuneScape-profile balances when Weapon Charges is installed and enabled. Its persisted
 floats are floored and shown as estimates: upstream records one balance per
 weapon family, without an observation timestamp or individual-item identity.
 Even a saved zero can originate from an uninitialised consumption estimate.
@@ -58,7 +58,7 @@ Native Check support covers Wilderness ether weapons, Iban's staff, tridents,
 warped sceptre, Sanguinesti staff, Tumeken's shadow, Eye of Ayak, abyssal tentacle,
 scythes, blood fury, Arclight, crystal weapons and armour, Venator bow, serpentine
 helm variants, fire/water tomes and blowpipes. Known ornamented forms are
-included; active Weapon Charges metadata extends supported item-family IDs.
+included in the bundled mapping. New upstream item forms require a reviewed update.
 Blowpipe observations keep both the exact dart type/count and scale count. The
 lower of the two counts is only a conservative readiness bound, not an attack
 count prediction. Recharge dialogues handled by Weapon Charges update the
@@ -88,9 +88,10 @@ existing death model still flags unsupported loaded-resource values as unknown.
 
 Charge message evidence: maintained Plugin Hub weapon-charges-2 source,
 [ChargedWeapon.java](https://github.com/geheur/weapon-charges/blob/8da860f3628cbd4fc72ba09cfdff4b67ad88bac9/src/main/java/com/weaponcharges/ChargedWeapon.java),
-reviewed 2026-09-10. The bridge uses public enum fields and reads config; it never
-invokes upstream game handlers or writes another plugin's settings. Weapon
-Charges is optional and there is no runtime network fetching.
+reviewed against the Plugin Hub revision on 2026-09-11. The bridge reads config
+using bundled mappings, with no reflective access, upstream handler calls or
+writes to another plugin's settings. Weapon Charges is optional and there is no
+runtime network fetching. See [integration evidence and maintenance](weapon-charges-integration.md).
 
 ## Looting bag observations
 

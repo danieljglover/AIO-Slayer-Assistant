@@ -22,8 +22,8 @@ performs game actions.
   boss, and assignment-area detection from RuneLite game tables.
 - `src/main/java/com/danieljglover/allinslayer/data/`: runtime data loading and
   indexing.
-- `src/main/java/com/danieljglover/allinslayer/data/source/`: modular Slayer
-  source compiler, source models, validation, and CLI generation.
+- `src/dataGenerator/java/com/danieljglover/allinslayer/data/source/`: build-only
+  modular Slayer compiler, source models, validation, and CLI generation.
 - `src/main/java/com/danieljglover/allinslayer/loadout/advisor/`: wiki-first
   equipment, eligibility, inventory, and qualitative goal ranking.
 - `src/main/java/com/danieljglover/allinslayer/ui/advisor/`: native task and
@@ -39,7 +39,8 @@ performs game actions.
 
 - Java targets release 11.
 - Follow existing package boundaries. Put source-data models and compiler logic
-  in `data/source`, runtime plugin models in `model`, and UI code in `ui`.
+  in the `dataGenerator` source set's `data/source` package, runtime plugin models
+  in `main` under `model`, and UI code in `ui`.
 - Existing source DTOs use Lombok `@Data` and `@NoArgsConstructor`; match that
   pattern for new modular data source classes.
 - Keep RuneLite client-state reads on the client thread and Swing updates on the

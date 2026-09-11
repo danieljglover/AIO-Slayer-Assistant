@@ -11,6 +11,10 @@ license, notice and service metadata. Each remains under its own license.
 RuneLite's external-plugin launcher pattern:
 https://github.com/runelite/example-plugin
 
+Weapon Charges compatibility mappings derive from geheur/weapon-charges.
+The BSD-2-Clause notice is bundled in aio-slayer-preview.jar at
+META-INF/LICENSE-weapon-charges.txt.
+
 Bundled Slayer knowledge derives from the Old School RuneScape Wiki. Source
 URLs and revision evidence are retained in the generated data. Wiki content
 retains its attribution and applicable license:

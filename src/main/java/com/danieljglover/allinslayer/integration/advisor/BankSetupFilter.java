@@ -19,7 +19,6 @@ import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.widgets.ItemQuantityMode;
 import net.runelite.api.widgets.Widget;
 import net.runelite.api.widgets.JavaScriptCallback;
-import net.runelite.api.widgets.WidgetInfo;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.game.ItemManager;
@@ -232,7 +231,7 @@ public final class BankSetupFilter
 
     private void hideLayoutPreview()
     {
-        Widget content = client.getWidget(WidgetInfo.BANK_CONTENT_CONTAINER);
+        Widget content = client.getWidget(InterfaceID.Bankmain.ITEMS_CONTAINER);
         if (content == null) { return; }
         for (Widget child : content.getDynamicChildren())
         {

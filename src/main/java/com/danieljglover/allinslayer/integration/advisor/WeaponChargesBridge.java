@@ -1,6 +1,5 @@
 package com.danieljglover.allinslayer.integration.advisor;
 
-import java.lang.reflect.Field;
 import java.util.Collections;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -10,7 +9,6 @@ import javax.inject.Inject;
 import javax.inject.Singleton;
 import javax.swing.SwingUtilities;
 import lombok.Getter;
-import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.client.config.ConfigManager;
@@ -18,7 +16,6 @@ import net.runelite.client.plugins.Plugin;
 import net.runelite.client.plugins.PluginManager;
 
 /** Reads the active Weapon Charges plugin's account estimates without invoking its handlers. */
-@Slf4j
 @Singleton
 public final class WeaponChargesBridge
 {
@@ -63,7 +60,10 @@ public final class WeaponChargesBridge
             if (candidate != null)
             {
                 next = new State(true, Collections.emptyMap(), Collections.emptyMap());
-                if (pluginManager.isPluginActive(candidate)) { next = describe(candidate); }
+                if (pluginManager.isPluginActive(candidate))
+                {
+                    next = new State(true, WeaponChargeMappings.ITEMS, WeaponChargeMappings.DARTS);
+                }
             }
             if (running && request == generation.get()) { state = next; }
         });
@@ -75,8 +75,7 @@ public final class WeaponChargesBridge
 
     public String familyKey(int itemId)
     {
-        Descriptor descriptor = state.items.get(itemId);
-        return descriptor == null ? null : descriptor.key;
+        return state.items.get(itemId);
     }
 
     /**
@@ -93,9 +92,9 @@ public final class WeaponChargesBridge
         long accountHash = client.getAccountHash();
         Map<String, Reading> families = new LinkedHashMap<>();
         Map<Integer, Reading> result = new LinkedHashMap<>();
-        for (Map.Entry<Integer, Descriptor> item : captured.items.entrySet())
+        for (Map.Entry<Integer, String> item : captured.items.entrySet())
         {
-            String key = item.getValue().key;
+            String key = item.getValue();
             if (!families.containsKey(key))
             {
                 families.put(key, BLOWPIPE.equals(key) ? blowpipe(captured) : charges(key));
@@ -142,70 +141,6 @@ public final class WeaponChargesBridge
         catch (NumberFormatException ex) { return null; }
     }
 
-    private State describe(Plugin plugin)
-    {
-        try
-        {
-            // Public metadata and config keys are the upstream compatibility surface. See
-            // geheur/weapon-charges commit 8da860f3628cbd4fc72ba09cfdff4b67ad88bac9.
-            ClassLoader loader = plugin.getClass().getClassLoader();
-            Class<?> weapons = Class.forName("com.weaponcharges.ChargedWeapon", false, loader);
-            Object[] constants = weapons.getEnumConstants();
-            if (constants == null) { return new State(true, Collections.emptyMap(), Collections.emptyMap()); }
-            Field keyField = weapons.getField("configKeyName");
-            Field itemIdsField = weapons.getField("itemIds");
-            Map<Integer, Descriptor> items = new LinkedHashMap<>();
-            for (Object weapon : constants)
-            {
-                Object rawKey = keyField.get(weapon);
-                String key = "TOXIC_BLOWPIPE".equals(((Enum<?>) weapon).name()) ? BLOWPIPE
-                    : rawKey instanceof String ? (String) rawKey : null;
-                if (key == null || !key.matches("[a-z][a-z0-9_]*")) { continue; }
-                Object rawIds = itemIdsField.get(weapon);
-                if (!(rawIds instanceof Iterable<?>)) { continue; }
-                Descriptor descriptor = new Descriptor(key);
-                for (Object rawId : (Iterable<?>) rawIds)
-                {
-                    if (rawId instanceof Integer && (Integer) rawId > 0)
-                    {
-                        items.put((Integer) rawId, descriptor);
-                    }
-                }
-            }
-            return new State(true, items, dartTypes(loader));
-        }
-        catch (ReflectiveOperationException | RuntimeException | LinkageError ex)
-        {
-            log.debug("Weapon Charges metadata is unavailable", ex);
-            return new State(true, Collections.emptyMap(), Collections.emptyMap());
-        }
-    }
-
-    private Map<String, Integer> dartTypes(ClassLoader loader)
-    {
-        Map<String, Integer> result = new LinkedHashMap<>();
-        try
-        {
-            Class<?> darts = Class.forName(PLUGIN_CLASS + "$DartType", false, loader);
-            Object[] constants = darts.getEnumConstants();
-            if (constants == null) { return result; }
-            Field itemIdField = darts.getField("itemId");
-            for (Object dart : constants)
-            {
-                Object id = itemIdField.get(dart);
-                if (id instanceof Integer && (Integer) id > 0)
-                {
-                    result.put(((Enum<?>) dart).name(), (Integer) id);
-                }
-            }
-        }
-        catch (ReflectiveOperationException | RuntimeException | LinkageError ex)
-        {
-            log.debug("Weapon Charges dart metadata is unavailable", ex);
-        }
-        return result;
-    }
-
     @Getter
     public static final class Reading
     {
@@ -222,20 +157,13 @@ public final class WeaponChargesBridge
         }
     }
 
-    private static final class Descriptor
-    {
-        private final String key;
-
-        private Descriptor(String key) { this.key = key; }
-    }
-
     private static final class State
     {
         private final boolean installed;
-        private final Map<Integer, Descriptor> items;
+        private final Map<Integer, String> items;
         private final Map<String, Integer> darts;
 
-        private State(boolean installed, Map<Integer, Descriptor> items, Map<String, Integer> darts)
+        private State(boolean installed, Map<Integer, String> items, Map<String, Integer> darts)
         {
             this.installed = installed;
             this.items = Collections.unmodifiableMap(new LinkedHashMap<>(items));

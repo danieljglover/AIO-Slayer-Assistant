@@ -9,12 +9,20 @@ import com.google.gson.JsonObject;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import javax.inject.Inject;
 
 /** Inventory Setups' portable JSON format; copying/importing is always an explicit user action. */
 public final class SetupExporter
 {
     private static final List<String> EQUIPMENT = Arrays.asList("HEAD", "CAPE", "AMULET", "WEAPON",
         "BODY", "SHIELD", "ARMS", "LEGS", "HAIR", "HANDS", "FEET", "JAW", "RING", "AMMO");
+    private final Gson gson;
+
+    @Inject
+    public SetupExporter(Gson gson)
+    {
+        this.gson = gson;
+    }
 
     public String export(RecommendationResult.Setup recommendation, PlayerSnapshot player)
     {
@@ -95,7 +103,7 @@ public final class SetupExporter
         JsonObject portable = new JsonObject();
         portable.add("setup", setup);
         portable.add("layout", new JsonArray());
-        return new Gson().toJson(portable);
+        return gson.toJson(portable);
     }
 
     private static boolean isPouchContent(RecommendationResult.Choice choice)

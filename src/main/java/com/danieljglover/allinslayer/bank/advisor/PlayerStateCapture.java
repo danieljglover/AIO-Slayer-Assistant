@@ -24,10 +24,10 @@ import net.runelite.api.Item;
 import net.runelite.api.ItemComposition;
 import net.runelite.api.ItemContainer;
 import net.runelite.api.Skill;
+import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.gameval.InventoryID;
 import net.runelite.api.gameval.VarbitID;
 import net.runelite.api.widgets.Widget;
-import net.runelite.api.widgets.WidgetInfo;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.game.ItemEquipmentStats;
 import net.runelite.client.game.ItemManager;
@@ -160,7 +160,7 @@ public final class PlayerStateCapture
         Map<Integer, Integer> riskCarried = deathStateCapture.readCarried(client.getItemContainer(InventoryID.INV));
         merge(riskCarried, deathStateCapture.readCarried(client.getItemContainer(InventoryID.WORN)));
         DeathContext deathContext = deathStateCapture.capture();
-        Widget bankWidget = client.getWidget(WidgetInfo.BANK_ITEM_CONTAINER);
+        Widget bankWidget = client.getWidget(InterfaceID.Bankmain.ITEMS);
         boolean bankOpen = bankWidget != null && !bankWidget.isHidden();
         ItemContainer liveBank = client.getItemContainer(InventoryID.BANK);
         if (bankOpen && liveBank != null && (bankDirty || bank == null || !bankWasOpen))

@@ -92,9 +92,9 @@ public class AllInSlayerPlugin extends Plugin
     @Inject private ScheduledExecutorService executor;
     @Inject private ShortestPathBridge shortestPath;
     @Inject private BankSetupFilter bankFilter;
+    @Inject private SetupExporter exporter;
 
     private final RecommendationEngine engine = new RecommendationEngine();
-    private final SetupExporter exporter = new SetupExporter();
     private final AtomicReference<Work> pending = new AtomicReference<>();
     private final AtomicBoolean computing = new AtomicBoolean();
     private final AtomicLong revision = new AtomicLong();

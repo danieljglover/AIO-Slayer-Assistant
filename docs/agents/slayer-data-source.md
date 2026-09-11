@@ -31,6 +31,43 @@ Current counts and unresolved contexts are recorded in
 New or migrated strategy work should use
 `src/main/data/slayer/strategies/<strategy-id>/strategy.json`.
 
+## Compiler Source Set
+
+Authoring Java lives under
+`src/dataGenerator/java/com/danieljglover/allinslayer/data/source/`, retaining the
+`com.danieljglover.allinslayer.data.source` package. Keep compiler code and source
+DTOs there; runtime models remain under `src/main/java/.../model`.
+
+The `dataGenerator` source set compiles against `main.output.classesDirs` and
+the main compile dependency classpath, preserving the client's Gson dependency
+version. It has its own Lombok annotation processor. Neither its output nor its
+dependencies are added to the plugin runtime classpath or either plugin JAR.
+
+Generation follows this dependency order:
+
+```text
+compileJava (runtime classes and shared models)
+  -> compileDataGeneratorJava -> dataGeneratorClasses
+  -> generateAdvisorCatalogue -> generateSlayerData
+  -> processResources -> classes -> jar
+```
+
+Both generation tasks use `dataGenerator.runtimeClasspath` and still read only
+`src/main/data/slayer`. They write `advisor-catalogue.json`,
+`advisor-coverage.json`, `slayer-data.json`, and `slayer-meta.json` into
+`build/generated/resources/slayer/data/`; `processResources` includes them in
+the runtime artifact. `generateAdvisorCatalogue` also works on its own.
+
+Do not put `main.output` or `main.runtimeClasspath` on the generator classpaths:
+those include generated resources and would introduce a dependency cycle.
+Do not make `compileJava` depend on resource generation. The Hub records runtime
+API calls during that compilation, before authoring code is compiled separately.
+
+After changing this wiring, run `./gradlew clean generateSlayerData build`.
+Compare generated resources with the pre-change build and inspect the packaged
+JAR for required data and absence of `data/source` classes. Do not recreate the
+removed editable `src/main/resources/data/slayer-data.json`.
+
 ## IDs And Joins
 
 All source IDs are stable, lowercase, hyphenated identifiers. File names should

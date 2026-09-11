@@ -884,7 +884,7 @@ public final class AdvisorPanel extends PluginPanel
             if (showing)
             {
                 card.add(prose(routeState.getMessage() + ("ENTRANCE".equals(destination.getArrival()) ? " (entrance)" : ""),
-                    routeState.getPhase() == ShortestPathBridge.Phase.INCOMPLETE ? WARNING : ACCENT));
+                    ACCENT));
             }
         }
         if (method != null)
@@ -1225,6 +1225,7 @@ public final class AdvisorPanel extends PluginPanel
         body.add(prose(routeState.isBankSeen()
             ? "Banked teleport items can be included, with a bank stop to collect them. Reopen the bank after changing its contents."
             : "Using carried items. Open your bank while Shortest Path is enabled to include banked teleport items.", MUTED));
+        body.add(prose("Route sent confirms the handoff only. Check Shortest Path for completion or an unreachable destination.", MUTED));
         body.add(prose("Travel items suggested by Shortest Path are separate from the combat packing list and its loss estimate. Check any added items before entering the Wilderness.", MUTED));
         if (!empty(routeState.getMessage())) { body.add(prose(routeState.getMessage(), MUTED)); }
         body.add(disclosure("route-source:" + destination.getId(), "Destination sources", () -> evidenceDetails(destination.getEvidence())));

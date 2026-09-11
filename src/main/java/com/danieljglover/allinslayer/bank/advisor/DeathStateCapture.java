@@ -27,13 +27,13 @@ import net.runelite.api.Player;
 import net.runelite.api.Prayer;
 import net.runelite.api.SkullIcon;
 import net.runelite.api.WorldType;
+import net.runelite.api.gameval.InterfaceID;
 import net.runelite.api.gameval.InventoryID;
 import net.runelite.api.gameval.ItemID;
 import net.runelite.api.gameval.VarbitID;
 import net.runelite.api.gameval.VarPlayerID;
 import net.runelite.api.vars.AccountType;
 import net.runelite.api.widgets.Widget;
-import net.runelite.api.widgets.WidgetInfo;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.util.Text;
 
@@ -71,7 +71,7 @@ public final class DeathStateCapture
         int result = status().hashCode();
         try
         {
-            Widget bag = client.getWidget(WidgetInfo.LOOTING_BAG_CONTAINER);
+            Widget bag = client.getWidget(InterfaceID.WildernessLootingbag.ITEMS);
             return 31 * result + (bag != null && !bag.isHidden() ? 1 : 0);
         }
         catch (RuntimeException ignored)
@@ -192,7 +192,7 @@ public final class DeathStateCapture
         {
             return 0;
         }
-        Widget level = client.getWidget(WidgetInfo.PVP_WILDERNESS_LEVEL);
+        Widget level = client.getWidget(InterfaceID.PvpIcons.WILDERNESSLEVEL);
         if (level == null || level.isHidden() || level.getText() == null)
         {
             return -1;

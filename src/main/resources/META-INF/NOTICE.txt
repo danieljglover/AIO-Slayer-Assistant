@@ -1,0 +1,39 @@
+All-In Slayer
+
+Plugin code
+Copyright (c) 2026, danieljglover. BSD 2-Clause License.
+The full license is included in LICENSE-AIO-SLAYER.txt in this directory.
+Source: https://github.com/danieljglover/AIO-Slayer-Assistant
+
+OSRS Wiki content
+The bundled Slayer catalogue adapts text and strategy information contributed
+by the Old School RuneScape Wiki community:
+https://oldschool.runescape.wiki/
+
+Except where a source specifies otherwise, post-1 October 2018 article content
+is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0
+Unported. Adapted Wiki text in this distribution retains that license; the
+plugin's BSD license does not replace it. The full CC license is included in
+LICENSE-CC-BY-NC-SA-3.0.txt in this directory:
+https://creativecommons.org/licenses/by-nc-sa/3.0/
+
+Changes include extracting, combining, summarizing and restructuring Wiki
+material into task, monster, location, equipment, route and preparation data.
+Source article URLs and revision evidence are retained in the bundled data
+under /data/ and in the source repository's src/main/data/slayer directory.
+The plugin's Guide panel links to its sources. Article history pages identify
+the contributing authors. Earlier revisions and separately licensed material
+retain their applicable terms. See the Wiki's additional licensing terms:
+https://meta.weirdgloop.org/w/Licensing
+
+Weapon Charges compatibility mappings
+Derived from geheur/weapon-charges under the BSD 2-Clause License.
+The upstream copyright and full terms are in LICENSE-weapon-charges.txt.
+Source: https://github.com/geheur/weapon-charges
+
+Game and client assets
+RuneScape and Old School RuneScape are trademarks of Jagex Limited. Game
+artwork remains the property of its respective rights holders. Wiki text
+licensing does not relicense images or other non-text media. RuneLite and its
+dependencies are supplied by the client and retain their own licenses.
+This is an unofficial project, not affiliated with Jagex or RuneLite.
