@@ -1,5 +1,2 @@
-# Submit by: forking github.com/runelite/plugin-hub, adding this file as
-# plugins/all-in-slayer (no extension), and opening a PR. Fill `commit` with the
-# release commit hash AFTER pushing this repo to a public GitHub remote.
 repository=https://github.com/danieljglover/AIO-Slayer-Assistant.git
-commit=<40-char release commit hash>
+commit=e55d0c98fd0bb09116fd8161e0e997df8cfbbe8b

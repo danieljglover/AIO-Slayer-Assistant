@@ -2,8 +2,9 @@
 
 Reviewed: 2026-09-11. Baseline: `1f7183a593afe6606455e7b247f93d876edaefe4`.
 
-**Status: submission blockers and release checks are resolved for verified
-candidate `977a21e`. Publication and Plugin Hub submission have not been performed.**
+**Status: submitted for review in [Plugin Hub PR #16428](https://github.com/runelite/plugin-hub/pull/16428).
+Published source `e55d0c9` passed strict official packaging. CI/reviewer response
+and approval remain pending.**
 
 Work through the blockers first, then the release checks and submission steps.
 Tick an item only when its completion criteria have been met. Record the fixing
@@ -244,13 +245,13 @@ Follow the current [Plugin Hub submission process](https://github.com/runelite/p
 
 - [x] S1: Resolve B1-B5 and record R1 packaging evidence for the final source commit.
 - [x] S2: Review remaining release checks and explicitly record any deferred items.
-- [ ] S3: Push the release commit and replace the placeholder in the manifest template with its full 40-character hash.
-- [ ] S4: Create a branch in a Plugin Hub fork and add `plugins/all-in-slayer` containing the repository URL and release commit.
-- [ ] S5: Open one pull request with the feature summary, screenshots and integration/compliance explanation.
+- [x] S3: Push the release commit and replace the placeholder in the manifest template with its full 40-character hash.
+- [x] S4: Create a branch in a Plugin Hub fork and add `plugins/all-in-slayer` containing the repository URL and release commit.
+- [x] S5: Open one pull request with the feature summary, screenshots and integration/compliance explanation.
 - [ ] S6: Address CI/reviewer findings in that PR, updating the pinned source commit as fixes are pushed.
 - [ ] S7: After merge and availability, verify installation through the normal RuneLite Plugin Hub.
 
-Readiness review (2026-09-11): the owner confirmed the remaining B2 manual
+Pre-submission readiness review (2026-09-11): the owner confirmed the remaining B2 manual
 checks passed, closing B1-B5. S1 is complete for the exact candidate verified by R1:
 `977a21e5158c15a1481b7c23de31a9411208b342`; subsequent commits change only
 documentation, including the README. If a later commit is selected for
@@ -262,9 +263,13 @@ submission as a non-blocking support enhancement. B2 is complete through owner-r
 The boss-preparation policy interpretation is disclosed for reviewers in R5;
 no approval is assumed.
 
-A read-only remote check found `main` at `1f7183a` and no published release branch.
-The manifest still contains its placeholder. S3-S5 have not been performed;
-S6 depends on an actual PR and S7 on merge and Hub availability. The current
+Submission update (2026-09-11): source commit
+`e55d0c98fd0bb09116fd8161e0e997df8cfbbe8b` was pushed on
+`release/plugin-hub-2026-09-11`. The official packager cloned it from GitHub
+and passed strict checks. The manifest now pins that exact commit. The fork
+branch `danieljglover:add-all-in-slayer` contains only the two-line descriptor;
+[PR #16428](https://github.com/runelite/plugin-hub/pull/16428) is open. S6 remains
+open for CI/reviewer findings; S7 requires merge and Hub availability. The current
 upstream submission instructions still require a fork branch, a source-repository
 URL and full commit hash in one plugin descriptor, and one PR updated for findings.
 
@@ -289,3 +294,4 @@ acceptance complete until the corresponding external action has occurred.
 | 2026-09-11 | R5 | [Draft submission description](plugin-hub-submission-description.md); implementation and current policy review | Passive behavior and integration boundaries documented; boss-guide review risk explicit. No external submission. |
 | 2026-09-11 | S2 / readiness review | Current official submission instructions, local candidate evidence and remote refs checked | Release checks reviewed; O1 deferred and R4 dropped. S1 still awaits B2 verification; no push or PR performed. |
 | 2026-09-11 | B2 / S1 | Owner confirmed the requested carried/equipped Check, charge-limit and activation-ether checks passed | B2 closed; S1 complete for verified candidate `977a21e`. Later source commits require their own packaging verification. |
+| 2026-09-11 | S3-S5 | Published `e55d0c9`; [PR #16428](https://github.com/runelite/plugin-hub/pull/16428) | Official remote clone and strict packaging passed; manifest pinned; one Hub PR opened with screenshots and integration/policy notes. S6/S7 pending. |

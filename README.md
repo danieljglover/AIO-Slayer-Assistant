@@ -6,8 +6,8 @@ Plan your next Slayer trip with the gear you own. All-In Slayer brings master
 assignments, monster variants, locations, equipment, supplies and preparation
 checks into one RuneLite sidebar.
 
-**Pre-release:** this plugin has not been submitted to or approved for the
-RuneLite Plugin Hub. Follow the [release tracker](docs/plugin-hub-readiness.md)
+**Pre-release:** [Plugin Hub submission #16428](https://github.com/runelite/plugin-hub/pull/16428)
+is open for review. The plugin has not been approved. Follow the [release tracker](docs/plugin-hub-readiness.md)
 for verification evidence and publication progress.
 
 ## Start a trip

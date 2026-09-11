@@ -109,3 +109,19 @@ metadata). The corrected launch displayed the installed plugin sidebar alongside
 AIO and Wilderness Sentinel Lite. Official Hub installation uses its own plugin
 class loader and is still pending; do not use the Hub artifact as an application
 classpath entry for normal play. No runtime plugin code change was required.
+
+## Published submission candidate
+
+On 2026-09-11, candidate `e55d0c98fd0bb09116fd8161e0e997df8cfbbe8b` was
+pushed to the release branch and cloned directly from GitHub by the same
+unmodified official packager. `Plugin.build("1.12.38", true)` passed. No local
+Git URL rewrite was used for this run. The 2,851,407-byte final JAR has SHA-256
+`d4ea95a5283feb89da8f870e536c4c670aa80cc2c4815d27a39d9dcc8f54f105`.
+All 130 runtime class files, generated data and notices match the earlier
+verified artifact byte for byte; the packaged version identifies `e55d0c98`.
+Evidence is retained locally under `/tmp/aio-submission/`.
+
+[Plugin Hub PR #16428](https://github.com/runelite/plugin-hub/pull/16428) pins
+this published commit. Later documentation commits record submission progress
+and do not change the descriptor's source pin. CI/reviewer acceptance and normal
+Hub installation are not claimed complete.
