@@ -117,6 +117,7 @@ Both policy pages were checked on 2026-09-11.
 - [Submission checklist and outstanding work](plugin-hub-readiness.md)
 
 The recorded candidate passed strict official packaging/API checks and packaged
-catalogue startup. Fresh owner-operated Weapon Charges Check and charge-limit
-boundary verification remain outstanding in B2. This description does not mark
-those checks passed or imply that RuneLite performs functional testing.
+catalogue startup. The owner confirmed the remaining Weapon Charges checks
+passed: carried/equipped Check observations, charge-limit boundaries and separate
+activation ether. This is owner-reported manual verification and does not imply
+that RuneLite performs functional testing.

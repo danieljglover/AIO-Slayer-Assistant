@@ -88,8 +88,10 @@ does not change planned ether or reduce actual death risk.
   Weapon Charges enabled, Calvar'ion's Ursine chainmace showed a 500-charge
   estimate with unknown last-check time. Disabling the provider changed it to
   Balance unknown and kept the Check requirement outstanding.
-- Fresh owner-operated Check and charge-limit verification are pending; B2
-  stays unchecked until completed.
+- The owner subsequently confirmed the requested carried/equipped Check,
+  charge-limit boundary and separate activation-ether checks passed on 2026-09-11.
+  This closes B2 on owner-reported manual evidence; no additional agent-operated
+  game interaction or new screenshot evidence is claimed.
 
 Live checklist (the owner performs all game interactions):
 

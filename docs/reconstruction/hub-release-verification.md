@@ -89,3 +89,8 @@ excludes functional, performance, compatibility and factual-accuracy testing.
 B2's owner-operated checks, R5's submission explanation, publishing and the
 Plugin Hub pull request remain separate outstanding work. Changed release
 source requires a new candidate and packaging verification.
+
+Follow-up on 2026-09-11: R5 documentation was completed and the owner confirmed
+the remaining B2 manual charge checks passed. The pending statements above
+describe the original packaging session; publication and submission remain
+pending. The verified artifact and candidate hash are unchanged.

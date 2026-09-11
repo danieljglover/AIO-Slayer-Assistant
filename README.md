@@ -8,7 +8,7 @@ checks into one RuneLite sidebar.
 
 **Pre-release:** this plugin has not been submitted to or approved for the
 RuneLite Plugin Hub. Follow the [release tracker](docs/plugin-hub-readiness.md)
-for remaining checks, including the final Weapon Charges Check/limit verification.
+for verification evidence and publication progress.
 
 ## Start a trip
 

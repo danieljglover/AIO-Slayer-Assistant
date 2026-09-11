@@ -2,8 +2,8 @@
 
 Reviewed: 2026-09-11. Baseline: `1f7183a593afe6606455e7b247f93d876edaefe4`.
 
-**Status: enough functionality for a first release, with submission blockers
-still to resolve. No Plugin Hub submission has been made.**
+**Status: submission blockers and release checks are resolved for verified
+candidate `977a21e`. Publication and Plugin Hub submission have not been performed.**
 
 Work through the blockers first, then the release checks and submission steps.
 Tick an item only when its completion criteria have been met. Record the fixing
@@ -44,7 +44,7 @@ changes. See [B1 verification and protocol limits](reconstruction/shortest-path-
 
 ### B2. Remove reflection from Weapon Charges
 
-- [ ] B2: Replace reflective charge metadata lookup and verify charge checks.
+- [x] B2: Replace reflective charge metadata lookup and verify charge checks.
 
 The baseline `WeaponChargesBridge.java` dynamically loaded enums and read their fields around
 lines 152-164 and 189-195. Replace this with reviewed bundled mappings
@@ -61,8 +61,9 @@ reviewed the finished patch with no blocking findings; Claude Sonnet/medium was
 unavailable because of its account usage limit. In the rebuilt client, the
 Ursine chainmace showed a 500-charge provider estimate; disabling Weapon Charges
 correctly changed it to Balance unknown and retained the Check requirement.
-The fresh owner-operated Check and charge-limit boundary checks are still
-pending, so B2 remains unchecked. See [B2 verification](reconstruction/weapon-charges-integration.md#b2-verification-2026-09-11).
+The owner subsequently confirmed that the carried/equipped Check, charge-limit
+boundaries and separate activation-ether checks passed on 2026-09-11. This is
+owner-reported manual verification; no new agent-operated game check is claimed. See [B2 verification](reconstruction/weapon-charges-integration.md#b2-verification-2026-09-11).
 
 ### B3. Replace restricted runtime API calls
 
@@ -185,7 +186,7 @@ Completed in the working tree (2026-09-11): root `icon.png` is the current
 capabilities, three real panel screenshots, optional integrations and limits.
 Detailed settings and behavior are preserved in `docs/user-guide.md`. Captures
 exclude account names, chat and the surrounding game view. The pre-release and
-outstanding Weapon Charges verification status remain explicit.
+release verification status remain explicit.
 
 The runtime JAR now includes the AIO BSD license, CC BY-NC-SA 3.0 legal text,
 Wiki attribution/adaptation notice, and existing Weapon Charges BSD notice in
@@ -224,8 +225,8 @@ explains Bank Tags widget/layout adjustments and retained withdrawal handlers,
 explicit routing and ownership limitations, charge observations, account-scoped
 bank persistence, bundled data and static boss preparation. Both linked policy
 pages were checked against their current published content. Boss-guide scope
-remains explicitly subject to reviewer interpretation. No PR was opened; B2
-verification and publication remain pending.
+remains explicitly subject to reviewer interpretation. No PR was opened; publication remains pending. B2 was subsequently confirmed
+by the owner.
 
 ## 3. Optional improvement
 
@@ -241,13 +242,31 @@ It is not a submission blocker and can be deferred.
 
 Follow the current [Plugin Hub submission process](https://github.com/runelite/plugin-hub#submitting-a-plugin).
 
-- [ ] S1: Resolve B1-B5 and record R1 packaging evidence for the final source commit.
-- [ ] S2: Review remaining release checks and explicitly record any deferred items.
+- [x] S1: Resolve B1-B5 and record R1 packaging evidence for the final source commit.
+- [x] S2: Review remaining release checks and explicitly record any deferred items.
 - [ ] S3: Push the release commit and replace the placeholder in the manifest template with its full 40-character hash.
 - [ ] S4: Create a branch in a Plugin Hub fork and add `plugins/all-in-slayer` containing the repository URL and release commit.
 - [ ] S5: Open one pull request with the feature summary, screenshots and integration/compliance explanation.
 - [ ] S6: Address CI/reviewer findings in that PR, updating the pinned source commit as fixes are pushed.
 - [ ] S7: After merge and availability, verify installation through the normal RuneLite Plugin Hub.
+
+Readiness review (2026-09-11): the owner confirmed the remaining B2 manual
+checks passed, closing B1-B5. S1 is complete for the exact candidate verified by R1:
+`977a21e5158c15a1481b7c23de31a9411208b342`; subsequent commits change only
+documentation, including the README. If a later commit is selected for
+the manifest, run official packaging against that exact commit before submission.
+
+S2 is complete: R1, R2/R3 and R5 have recorded evidence. R4 is dropped at the
+owner's request. O1 (Copy diagnostic summary) is deferred beyond the first
+submission as a non-blocking support enhancement. B2 is complete through owner-reported manual verification.
+The boss-preparation policy interpretation is disclosed for reviewers in R5;
+no approval is assumed.
+
+A read-only remote check found `main` at `1f7183a` and no published release branch.
+The manifest still contains its placeholder. S3-S5 have not been performed;
+S6 depends on an actual PR and S7 on merge and Hub availability. The current
+upstream submission instructions still require a fork branch, a source-repository
+URL and full commit hash in one plugin descriptor, and one PR updated for findings.
 
 The existing [manifest template](plugin-hub-manifest.txt) is a starting point.
 Submission points to source; the clan Windows ZIP is a separate distribution.
@@ -268,3 +287,5 @@ acceptance complete until the corresponding external action has occurred.
 | 2026-09-11 | R2/R3 | Candidate `977a21e`; README, screenshots, icon and META-INF notices | Presentation and attribution complete; final Hub artifact verified; Claude Sonnet/medium approved. |
 | 2026-09-11 | R4 | Owner request | Removed manual checklist; not marked passed or delegated to RuneLite. |
 | 2026-09-11 | R5 | [Draft submission description](plugin-hub-submission-description.md); implementation and current policy review | Passive behavior and integration boundaries documented; boss-guide review risk explicit. No external submission. |
+| 2026-09-11 | S2 / readiness review | Current official submission instructions, local candidate evidence and remote refs checked | Release checks reviewed; O1 deferred and R4 dropped. S1 still awaits B2 verification; no push or PR performed. |
+| 2026-09-11 | B2 / S1 | Owner confirmed the requested carried/equipped Check, charge-limit and activation-ether checks passed | B2 closed; S1 complete for verified candidate `977a21e`. Later source commits require their own packaging verification. |
