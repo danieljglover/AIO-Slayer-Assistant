@@ -12,8 +12,9 @@ commit or verification evidence in the progress log at the end.
 The initial assessment inspected code and official Hub tooling, including
 CI bundle v3 (`5654eb60d6e664d69dad0dda4fd0e794aea1aa88`). B4 passed the upstream
 Gradle packaging tasks and runtime API scan; B5 passed the strict upstream
-packager on local working-tree build inputs. Recheck rules and run full
-release-commit verification before submission.
+packager on local working-tree build inputs. R1 subsequently passed exact-commit
+verification for candidate `977a21e5158c15a1481b7c23de31a9411208b342`. Recheck
+rules and repeat packaging if the proposed release source changes.
 
 ## 1. Submission blockers
 
@@ -153,17 +154,21 @@ unavailable due to its usage quota. See [B5 verification and scope](reconstructi
 
 ### R1. Verify the actual Hub artifact
 
-- [ ] R1: Run official Hub packaging/API checks on the proposed release commit.
+- [x] R1: Run official Hub packaging/API checks on the proposed release commit.
 
 Run the project's clean generation/build after compiler changes, then follow
 the current official Hub tooling instructions. Record its version, target
 RuneLite version, commit and output. A local build or Windows ZIP passing is
 separate evidence from a Hub build passing.
 
-B5 passed the strict upstream packager on local build inputs. R1 is now checking
-a committed candidate through the official clone, checkout and strict build,
-including its complete repository source archive and packaged-client startup.
-The Git source is a local mirror; publishing/submitting remains a later step.
+Completed 2026-09-11 for candidate
+`977a21e5158c15a1481b7c23de31a9411208b342`: the unmodified official tooling
+cloned and checked out that commit, passed strict packaging/API checks against
+RuneLite 1.12.38, and produced a 2,851,407-byte final JAR. All four generated
+resources are unchanged; all 596 recorded API references passed. The final JAR
+loaded catalogue recommendations in the existing Jagex/Main-profile client.
+The clone used a process-local Git mirror; no push or submission occurred.
+See [release verification, artifact hashes and scope](reconstruction/hub-release-verification.md).
 
 At the assessment baseline, the normal plugin JAR was 3,277,428 bytes, contained
 Java 11 classes and generated data, and excluded the development launcher and
@@ -187,8 +192,10 @@ Wiki attribution/adaptation notice, and existing Weapon Charges BSD notice in
 `META-INF/`. Code and adapted Wiki text licenses are distinguished. Licensing
 was checked against Weird Gloop's Licensing page (page 24, revision 1299,
 2026-09-07T14:20:49Z); original source URLs and evidence remain in the data.
-Clean generation/build and normal-JAR resource checks passed; all generated
-catalogue JSON files are unchanged.
+Clean generation/build and both normal-JAR and final Hub-JAR resource checks
+passed; all generated catalogue JSON files are unchanged. Claude Sonnet/medium
+approved the presentation and attribution changes. Kimi was unavailable due to
+its usage quota. These changes are included in candidate `977a21e`.
 
 R4 and its M1-M12 manual checklist were removed at the owner's request on
 2026-09-11. They are not marked passed or delegated. RuneLite's
@@ -249,3 +256,6 @@ acceptance complete until the corresponding external action has occurred.
 | 2026-09-11 | B3 | Working-tree InterfaceID/Gson migration; [verification](reconstruction/runtime-api-compliance.md) | Build, empty-bag capture, JSON export and bank capture/filter/clear passed. Owner level-2 display plus widget/parser equivalence verified. B4's full production API scan now passes; B3 closed. |
 | 2026-09-11 | B4 | Working-tree dataGenerator source set; [verification](reconstruction/data-generation-isolation.md) | Clean generation/build and upstream Hub packaging passed; all four JSON files unchanged, no authoring classes in the artifact, zero restricted API findings. Packaged JAR loaded active-task/catalogue panels using the existing Jagex/Main profile. Final Claude Sonnet/medium and Kimi reviews approved. |
 | 2026-09-11 | B5 | Working-tree explicit build mode and line wrap; [verification](reconstruction/hub-build-configuration.md) | Clean build and strict upstream packager passed using Adoptium Java 11; final JAR includes unchanged data and no authoring classes. Claude review passed; Kimi quota unavailable. Final release-commit verification remains R1. |
+| 2026-09-11 | R1 | Candidate `977a21e`; [release evidence](reconstruction/hub-release-verification.md) | Official clone/checkout, strict packaging/API checks, source archive and final-JAR startup passed. Publication remains pending. |
+| 2026-09-11 | R2/R3 | Candidate `977a21e`; README, screenshots, icon and META-INF notices | Presentation and attribution complete; final Hub artifact verified; Claude Sonnet/medium approved. |
+| 2026-09-11 | R4 | Owner request | Removed manual checklist; not marked passed or delegated to RuneLite. |
