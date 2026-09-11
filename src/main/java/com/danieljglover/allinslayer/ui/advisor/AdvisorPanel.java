@@ -952,8 +952,29 @@ public final class AdvisorPanel extends PluginPanel
         JPanel inventory = new JPanel(new GridLayout(0, 4, 3, 3));
         inventory.setOpaque(false);
         int placed = 0;
+        int reserved = 0;
         for (Choice choice : setup.getInventory())
         {
+            if ("RESERVED BOOST".equals(choice.getSlot()))
+            {
+                for (int index = 0; index < choice.getQuantity() && placed < 28; index++)
+                {
+                    JPanel cell = emptyInventoryCell();
+                    cell.setLayout(new BorderLayout());
+                    JLabel caption = new JLabel("Boost", SwingConstants.CENTER);
+                    caption.setForeground(MUTED);
+                    caption.setFont(caption.getFont().deriveFont(10f));
+                    String tooltip = "Reserved for " + choice.getName() + "; see Checks for missing boosts.";
+                    cell.setToolTipText(tooltip);
+                    caption.setToolTipText(tooltip);
+                    cell.getAccessibleContext().setAccessibleName(tooltip);
+                    cell.add(caption);
+                    inventory.add(cell);
+                    placed++;
+                    reserved++;
+                }
+                continue;
+            }
             if (isPouchContent(choice) || choice.getQuantity() <= 0 || choice.getItemId() <= 0) { continue; }
             PlayerSnapshot.ItemStats stats = context.request.getPlayer().getItems().get(choice.getItemId());
             boolean stackable = stats != null && stats.isStackable();
@@ -969,7 +990,8 @@ public final class AdvisorPanel extends PluginPanel
             }
         }
         for (int index = placed; index < 28; index++) { inventory.add(emptyInventoryCell()); }
-        inventoryHeading.setText("Inventory - " + placed + "/28 slots");
+        inventoryHeading.setText("Inventory - " + (placed - reserved) + "/28 slots");
+        if (reserved > 0) { inventoryHeading.setToolTipText(reserved + " additional slots reserved for missing boosts."); }
         card.add(inventory);
         appendPouchConfiguration(card, setup, false);
         List<Choice> all = new ArrayList<>(setup.getEquipment().values());
@@ -1003,7 +1025,7 @@ public final class AdvisorPanel extends PluginPanel
     {
         return setup.getExplanations().stream().filter(note -> note.startsWith("Return:")
             || note.startsWith("Escape:") || note.startsWith("Looting bag:")
-            || note.startsWith("Rune pouch:") || note.startsWith("Casting:"))
+            || note.startsWith("Rune pouch:") || note.startsWith("Casting:") || note.startsWith("Boosts:"))
             .distinct().collect(Collectors.toList());
     }
 
@@ -1498,6 +1520,11 @@ public final class AdvisorPanel extends PluginPanel
 
     private void appendChoice(JPanel body, Choice choice, String slot)
     {
+        if ("RESERVED BOOST".equals(choice.getSlot()))
+        {
+            body.add(prose(choice.getQuantity() + " empty slots reserved for " + choice.getName(), MUTED));
+            return;
+        }
         if (choice.getItemId() <= 0 && choice.getMissing() == 0)
         {
             body.add(prose((slot == null ? "" : slot + ": ") + choice.getName(), MUTED));

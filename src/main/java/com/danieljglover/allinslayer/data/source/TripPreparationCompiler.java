@@ -24,6 +24,7 @@ import java.nio.file.Path;
 import java.time.Instant;
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
@@ -32,6 +33,7 @@ final class TripPreparationCompiler
 {
     private static final Gson GSON = new Gson();
     private static final Set<String> BOOKS = new HashSet<>(Arrays.asList("STANDARD", "ANCIENT", "LUNAR", "ARCEUUS"));
+    private static final Set<String> BOOST_STYLES = new HashSet<>(Arrays.asList("MELEE", "RANGED", "MAGIC"));
 
     private TripPreparationCompiler() { }
 
@@ -44,6 +46,7 @@ final class TripPreparationCompiler
         require(result != null, "Missing trip preparation rules");
         integer(travel.get("combatCasts"), 1, 100000, "combatCasts");
         evidence(travel.get("evidence"), "trip preparation");
+        validateBoostFamilies(travel);
         evidence(resources.get("evidence"), "casting resources");
         addItems(travel, catalogue, false);
         addItems(resources, catalogue, true);
@@ -196,6 +199,35 @@ final class TripPreparationCompiler
             result.getEvidence().add(GSON.fromJson(raw, Evidence.class));
         }
         catalogue.setPreparation(result);
+    }
+
+    private static void validateBoostFamilies(JsonObject source)
+    {
+        JsonObject families = object(source, "boostFamilies");
+        require(families.keySet().equals(BOOST_STYLES), "Boost families need exactly MELEE, RANGED and MAGIC styles");
+        Set<String> known = new HashSet<>();
+        for (Map.Entry<String, JsonElement> entry : families.entrySet())
+        {
+            known.addAll(boostNames(entry.getValue(), entry.getKey() + " boost families", false));
+        }
+        for (String name : boostNames(source.get("reusableBoosts"), "reusable boosts", true))
+        {
+            require(known.contains(name), "Reusable boost is missing from boost families: " + name);
+        }
+    }
+
+    private static java.util.List<String> boostNames(JsonElement raw, String owner, boolean empty)
+    {
+        java.util.List<String> names = strings(raw, owner, empty);
+        Set<String> seen = new HashSet<>();
+        for (String name : names)
+        {
+            require(name.equals(name.trim()), owner + ": untrimmed family name " + name);
+            require(name.indexOf('(') < 0 && name.indexOf(')') < 0
+                && !name.matches("(?i).*(?:\\d|\\bdoses?)\\s*$"), owner + ": expected family name without doses " + name);
+            require(seen.add(name.toLowerCase(Locale.ROOT)), owner + ": duplicate family name " + name);
+        }
+        return names;
     }
 
     private static void addItems(JsonObject source, SlayerCatalogue catalogue, boolean inventoryDefault)

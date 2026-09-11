@@ -9,6 +9,7 @@ import com.danieljglover.allinslayer.model.advisor.SlayerCatalogue.Method;
 import com.danieljglover.allinslayer.model.advisor.SlayerCatalogue.Supply;
 import com.danieljglover.allinslayer.model.advisor.WildernessRisk.Scenario;
 import com.danieljglover.allinslayer.model.advisor.TripPreparationData;
+import com.danieljglover.allinslayer.model.advisor.BoostReservations;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
@@ -24,6 +25,8 @@ final class SupplyPlanner
 {
 	private static final int CAPACITY = 28;
 	private static final int MAX_SUPPLY_REPLANS = 32;
+	private static final java.util.regex.Pattern BOOST_SPACES = java.util.regex.Pattern.compile("\\s+");
+	private static final java.util.regex.Pattern BOOST_DOSE = java.util.regex.Pattern.compile("\\s*\\([1-4]\\)$");
 	private final RecommendationRequest request;
 	private final PlayerSnapshot player;
 	private final long riskBudget;
@@ -312,9 +315,11 @@ final class SupplyPlanner
 		}
 		validateSwitchAmmunition(equipment, blockers, explanations);
 		packRunePouch(equipment, explanations);
+		packConfiguredBoosts(method, equipment, blockers, explanations);
 		packLootingBag(equipment, blockers, explanations);
 		for (Need need : needs.stream().filter(value -> !value.required).collect(Collectors.toList()))
 		{
+			if (replacedBoost(need, method)) { continue; }
 			allocate(need, equipment, blockers, explanations);
 		}
 		validateSwitchAmmunition(equipment, blockers, explanations);
@@ -324,6 +329,133 @@ final class SupplyPlanner
 		result.addAll(unresolved);
 		explanations.add("Inventory: " + slots + "/28 planned slots. Bank quantities come from the latest observed bank; doses and internal charges are not inferred.");
 		return result;
+	}
+
+	private void packConfiguredBoosts(Method method, Map<String, Choice> equipment,
+		List<String> blockers, List<String> explanations)
+	{
+		BoostReservations.Style configured = request.getBoostReservations().forStyle(method.getStyle());
+		if (configured.getSlots() == 0) { return; }
+		String style = method.getStyle().toLowerCase(Locale.ROOT);
+		List<String> preferences = configured.getPreferences().stream().filter(this::knownBoost).collect(Collectors.toList());
+		List<String> unsupported = configured.getPreferences().stream().filter(name -> !knownBoost(name)).collect(Collectors.toList());
+		if (!unsupported.isEmpty())
+		{
+			explanations.add("Boosts: Ignored unrecognised combat boosts in " + style + " settings: "
+				+ String.join(", ", unsupported) + ". Use the full item name, with or without a dose suffix.");
+		}
+		String selected = preferences.isEmpty() ? "Unspecified " + style + " boost" : preferences.get(0);
+		List<Integer> ids = new ArrayList<>();
+		for (String preference : preferences)
+		{
+			List<Integer> matches = player.getItems().values().stream()
+				.filter(item -> player.getOwned().getOrDefault(item.getId(), 0) > 0
+					&& !item.isStackable() && equipmentPlanner.isInventoryItem(item.getId())
+					&& matchesBoost(preference, item.getName())
+					&& equipmentPlanner.supplyProblems(item.getId()).isEmpty()
+					&& (allowBlighted || !blightedItem(item.getId())))
+				.sorted(Comparator.comparingInt((ItemStats item) -> doses(item.getName())).reversed()
+					.thenComparingInt(ItemStats::getId))
+				.map(ItemStats::getId).collect(Collectors.toList());
+			if (!matches.isEmpty())
+			{
+				selected = preference;
+				ids = matches;
+				break;
+			}
+		}
+		String selectedFamily = boostFamily(selected);
+		boolean heart = preparation.getReusableBoosts().stream().anyMatch(name -> boostFamily(name).equals(selectedFamily));
+		int target = heart ? 1 : configured.getSlots();
+		int missing;
+		if (ids.isEmpty())
+		{
+			missing = target;
+			String message = preferences.isEmpty()
+				? "Choose a recognised combat boost in the " + style + " boost settings, or set reserved slots to 0."
+				: "No owned usable " + style + " boost matches your preferences: "
+					+ String.join(", ", preferences) + ". Open your bank and check the configured item names.";
+			add(blockers, message);
+			unresolved.add(new Choice(0, 0, 0, 0, missing, "BOOST", selected, "Configured boost", true));
+		}
+		else
+		{
+			allocate(new Need(supply(selected, ids, target, true, false), "Configured boost", "BOOST", true),
+				equipment, blockers, explanations);
+			int packed = ids.stream().map(allocations::get).filter(java.util.Objects::nonNull)
+				.mapToInt(allocation -> allocation.quantity).sum();
+			missing = Math.max(0, target - packed);
+			for (int id : ids)
+			{
+				Allocation allocation = allocations.get(id);
+				if (allocation != null)
+				{
+					allocation.slot = "BOOST";
+					allocation.origin = "Configured boost";
+				}
+			}
+		}
+		// Keep shortages free for the requested boost; food and optional supplies must not
+		// consume its reservation. Mandatory supplies have already claimed their space.
+		int held = Math.min(missing, Math.max(0, capacity - slots));
+		capacity -= held;
+		if (held > 0)
+		{
+			unresolved.add(new Choice(0, held, 0, 0, 0, "RESERVED BOOST", selected, "Configured boost", false,
+				"Empty space reserved for missing configured boosts; see Checks."));
+		}
+		if (held < missing)
+		{
+			add(blockers, "Configured " + style + " boosts need " + missing + " more slots, but only " + held
+				+ " remain after required items. Reduce the boost reservation or choose another method.");
+		}
+		explanations.add("Boosts: " + style + " - " + selected + ", " + (target - missing) + "/" + target
+			+ " packed" + (held > 0 ? "; " + held + " inventory slots kept free for missing boosts" : "") + "."
+			+ (heart ? " One reusable heart is enough; extra configured slots remain available for supplies."
+				: " Slots count bottles, not doses; fuller owned bottles are preferred."));
+	}
+
+	private boolean replacedBoost(Need need, Method method)
+	{
+		BoostReservations.Style configured = request.getBoostReservations().forStyle(method.getStyle());
+		if (configured.getSlots() == 0 || !"SUPPLY".equals(need.slot)) { return false; }
+		// Only replace optional boosts for this combat style. Required strategy items and
+		// mixed supply groups (for example a restore/boost alternative) keep their meaning.
+		if (need.supply.getItemIds().isEmpty()) { return styleBoost(need.supply.getName(), method.getStyle(), configured); }
+		return need.supply.getItemIds().stream().allMatch(id -> {
+			ItemStats item = player.getItems().get(id);
+			com.danieljglover.allinslayer.model.advisor.SlayerCatalogue.ItemDefinition definition = equipmentPlanner.catalogue().getItems().get(id);
+			String name = item != null ? item.getName() : definition == null ? "" : definition.getName();
+			return styleBoost(name, method.getStyle(), configured);
+		});
+	}
+
+	private boolean styleBoost(String name, String style, BoostReservations.Style configured)
+	{
+		if (configured.getPreferences().stream().filter(this::knownBoost)
+			.anyMatch(preference -> matchesBoost(preference, name))) { return true; }
+		String family = boostFamily(name);
+		return preparation.getBoostFamilies().getOrDefault(style, java.util.Collections.emptyList()).stream()
+			.anyMatch(boost -> boostFamily(boost).equals(family));
+	}
+
+	private boolean knownBoost(String preference)
+	{
+		String family = boostFamily(preference);
+		return preparation.getBoostFamilies().values().stream().flatMap(List::stream)
+			.anyMatch(boost -> boostFamily(boost).equals(family));
+	}
+
+	private static boolean matchesBoost(String preference, String name)
+	{
+		String wanted = BOOST_SPACES.matcher(preference.trim().toLowerCase(Locale.ROOT)).replaceAll(" ").replace(" (", "(");
+		String actual = BOOST_SPACES.matcher(name.trim().toLowerCase(Locale.ROOT)).replaceAll(" ").replace(" (", "(");
+		return wanted.equals(actual) || wanted.equals(boostFamily(actual));
+	}
+
+	private static String boostFamily(String name)
+	{
+		return BOOST_DOSE.matcher(BOOST_SPACES.matcher(name.trim().toLowerCase(Locale.ROOT)).replaceAll(" ")).replaceFirst("");
 	}
 
 	private void allocate(Need need, Map<String, Choice> equipment, List<String> blockers,

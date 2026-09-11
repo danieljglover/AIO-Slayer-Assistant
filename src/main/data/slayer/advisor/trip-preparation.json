@@ -1,5 +1,43 @@
 {
   "combatCasts": 500,
+  "boostFamilies": {
+    "MELEE": [
+      "Combat potion",
+      "Super combat potion",
+      "Divine super combat potion",
+      "Attack potion",
+      "Strength potion",
+      "Defence potion",
+      "Super attack",
+      "Super strength",
+      "Super defence",
+      "Divine super attack potion",
+      "Divine super strength potion",
+      "Divine super defence potion",
+      "Zamorak brew"
+    ],
+    "RANGED": [
+      "Ranging potion",
+      "Divine ranging potion",
+      "Bastion potion",
+      "Divine bastion potion"
+    ],
+    "MAGIC": [
+      "Magic potion",
+      "Divine magic potion",
+      "Magic essence",
+      "Battlemage potion",
+      "Divine battlemage potion",
+      "Ancient brew",
+      "Forgotten brew",
+      "Imbued heart",
+      "Saturated heart"
+    ]
+  },
+  "reusableBoosts": [
+    "Imbued heart",
+    "Saturated heart"
+  ],
   "teleports": {
     "glory-edgeville": {
       "id": "glory-edgeville",
@@ -5319,6 +5357,214 @@
       "pageId": 17845,
       "revisionId": 15320080,
       "timestamp": "2026-08-25T21:06:25Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Combat_potion",
+      "title": "Combat potion",
+      "pageId": 18171,
+      "revisionId": 15183999,
+      "timestamp": "2026-04-22T02:59:11Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Super_combat_potion",
+      "title": "Super combat potion",
+      "pageId": 40966,
+      "revisionId": 15281186,
+      "timestamp": "2026-07-29T18:56:38Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_super_combat_potion",
+      "title": "Divine super combat potion",
+      "pageId": 226118,
+      "revisionId": 15331555,
+      "timestamp": "2026-09-05T16:34:50Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Attack_potion",
+      "title": "Attack potion",
+      "pageId": 10213,
+      "revisionId": 15247702,
+      "timestamp": "2026-07-02T01:53:48Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Strength_potion",
+      "title": "Strength potion",
+      "pageId": 18169,
+      "revisionId": 15183998,
+      "timestamp": "2026-04-22T02:59:11Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Defence_potion",
+      "title": "Defence potion",
+      "pageId": 18164,
+      "revisionId": 15183997,
+      "timestamp": "2026-04-22T02:59:10Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Super_attack",
+      "title": "Super attack",
+      "pageId": 19385,
+      "revisionId": 15184104,
+      "timestamp": "2026-04-22T03:00:09Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Super_strength",
+      "title": "Super strength",
+      "pageId": 19233,
+      "revisionId": 15184084,
+      "timestamp": "2026-04-22T02:59:59Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Super_defence",
+      "title": "Super defence",
+      "pageId": 17840,
+      "revisionId": 15183946,
+      "timestamp": "2026-04-22T02:58:43Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_super_attack_potion",
+      "title": "Divine super attack potion",
+      "pageId": 226127,
+      "revisionId": 15331554,
+      "timestamp": "2026-09-05T16:34:35Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_super_strength_potion",
+      "title": "Divine super strength potion",
+      "pageId": 226128,
+      "revisionId": 15331557,
+      "timestamp": "2026-09-05T16:35:14Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_super_defence_potion",
+      "title": "Divine super defence potion",
+      "pageId": 226129,
+      "revisionId": 15331556,
+      "timestamp": "2026-09-05T16:35:02Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Zamorak_brew",
+      "title": "Zamorak brew",
+      "pageId": 22750,
+      "revisionId": 15184356,
+      "timestamp": "2026-04-22T03:02:26Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Ranging_potion",
+      "title": "Ranging potion",
+      "pageId": 20252,
+      "revisionId": 15293943,
+      "timestamp": "2026-08-12T18:10:48Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_ranging_potion",
+      "title": "Divine ranging potion",
+      "pageId": 226130,
+      "revisionId": 15331553,
+      "timestamp": "2026-09-05T16:34:24Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Bastion_potion",
+      "title": "Bastion potion",
+      "pageId": 117490,
+      "revisionId": 15293966,
+      "timestamp": "2026-08-12T18:17:18Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_bastion_potion",
+      "title": "Divine bastion potion",
+      "pageId": 262469,
+      "revisionId": 15331551,
+      "timestamp": "2026-09-05T16:33:49Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Magic_potion",
+      "title": "Magic potion",
+      "pageId": 16399,
+      "revisionId": 15247721,
+      "timestamp": "2026-07-02T02:02:44Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_magic_potion",
+      "title": "Divine magic potion",
+      "pageId": 226131,
+      "revisionId": 15331552,
+      "timestamp": "2026-09-05T16:33:58Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Magic_essence",
+      "title": "Magic essence",
+      "pageId": 22121,
+      "revisionId": 15184293,
+      "timestamp": "2026-04-22T03:01:50Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Battlemage_potion",
+      "title": "Battlemage potion",
+      "pageId": 117491,
+      "revisionId": 15188871,
+      "timestamp": "2026-04-22T04:24:56Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Divine_battlemage_potion",
+      "title": "Divine battlemage potion",
+      "pageId": 262470,
+      "revisionId": 15331550,
+      "timestamp": "2026-09-05T16:33:38Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Ancient_brew",
+      "title": "Ancient brew",
+      "pageId": 340212,
+      "revisionId": 15190634,
+      "timestamp": "2026-04-22T04:38:57Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Forgotten_brew",
+      "title": "Forgotten brew",
+      "pageId": 373070,
+      "revisionId": 15191164,
+      "timestamp": "2026-04-22T04:42:30Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Imbued_heart",
+      "title": "Imbued heart",
+      "pageId": 80101,
+      "revisionId": 15293066,
+      "timestamp": "2026-08-11T20:11:59Z",
+      "missing": false
+    },
+    {
+      "url": "https://oldschool.runescape.wiki/w/Saturated_heart",
+      "title": "Saturated heart",
+      "pageId": 373066,
+      "revisionId": 15304376,
+      "timestamp": "2026-08-17T16:21:19Z",
       "missing": false
     }
   ],

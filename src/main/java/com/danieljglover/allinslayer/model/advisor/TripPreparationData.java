@@ -13,6 +13,8 @@ import lombok.NoArgsConstructor;
 public final class TripPreparationData
 {
     private int combatCasts = 500;
+    private Map<String, List<String>> boostFamilies = new LinkedHashMap<>();
+    private List<String> reusableBoosts = new ArrayList<>();
     private Map<String, Spell> spells = new LinkedHashMap<>();
     private Map<String, Integer> runeIds = new LinkedHashMap<>();
     private Map<Integer, List<String>> infiniteRunes = new LinkedHashMap<>();

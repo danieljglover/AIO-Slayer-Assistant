@@ -89,6 +89,15 @@ or displays live prayer/tile instructions.
   A confirmed 500 usable charges / 1,500 total ether passes a 500 limit. Empty
   and unverified weapons still need attention. Planned ether preparation and
   actual carried risk remain separate from this alert limit.
+- **Melee boosts**, **Ranged boosts** and **Magic boosts** in AIO settings let
+  you reserve inventory slots for the chosen strategy's combat style. Set
+  **Boost slots** and list **Preferred boosts** in priority order, separated by
+  commas. For example, two melee slots with `Super combat potion, Combat potion`
+  bring two owned super combat bottles, falling back to combat potions if no
+  super combat is owned. Fuller bottles come first; a reusable heart takes one
+  slot. Missing boosts leave marked empty slots and appear in **Checks**.
+  Required strategy items retain priority. Set the count to **0** to keep
+  automatic packing. See the [boost reservation notes](docs/reconstruction/boost-reservations.md).
 
 **Change setup > After task** chooses a return to your Slayer master, a bank,
 or your house. Owned seed pods and charged jewellery are checked separately

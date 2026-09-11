@@ -26,6 +26,7 @@ public final class RecommendationRequest
 	private final long wildernessRiskBudget;
 	private final int plannedEtherCharges;
 	private final int wildernessChargeLimit;
+	private final BoostReservations boostReservations;
 	private final PlayerSnapshot player;
 	private final Set<String> allowedMonsterIds;
 
@@ -88,10 +89,24 @@ public final class RecommendationRequest
 		long wildernessRiskBudget, int plannedEtherCharges, ReturnDestination returnDestination,
 		int wildernessChargeLimit)
 	{
+		this(taskId, masterId, monsterId, locationId, methodId, activeTask, remaining,
+			lockedLocationId, wildernessAssignment, goal, allowWilderness, allowGroups,
+			player, allowedMonsterIds, wildernessRiskBudget, plannedEtherCharges, returnDestination,
+			wildernessChargeLimit, BoostReservations.disabled());
+	}
+
+	public RecommendationRequest(String taskId, String masterId, String monsterId,
+		String locationId, String methodId, boolean activeTask, int remaining,
+		String lockedLocationId, boolean wildernessAssignment, RecommendationGoal goal,
+		boolean allowWilderness, boolean allowGroups, PlayerSnapshot player, Set<String> allowedMonsterIds,
+		long wildernessRiskBudget, int plannedEtherCharges, ReturnDestination returnDestination,
+		int wildernessChargeLimit, BoostReservations boostReservations)
+	{
 		this.returnDestination = returnDestination == null ? ReturnDestination.SLAYER_MASTER : returnDestination;
 		this.wildernessRiskBudget = Math.max(0, wildernessRiskBudget);
 		this.plannedEtherCharges = Math.max(1, Math.min(16000, plannedEtherCharges));
 		this.wildernessChargeLimit = Math.max(1, Math.min(16000, wildernessChargeLimit));
+		this.boostReservations = boostReservations == null ? BoostReservations.disabled() : boostReservations;
 		this.taskId = optional(taskId);
 		this.masterId = optional(masterId);
 		this.monsterId = optional(monsterId);

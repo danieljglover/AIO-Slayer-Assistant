@@ -9,6 +9,7 @@ import com.danieljglover.allinslayer.integration.advisor.BankSetupFilter;
 import com.danieljglover.allinslayer.integration.advisor.SetupExporter;
 import com.danieljglover.allinslayer.integration.advisor.ShortestPathBridge;
 import com.danieljglover.allinslayer.loadout.advisor.RecommendationEngine;
+import com.danieljglover.allinslayer.model.advisor.BoostReservations;
 import com.danieljglover.allinslayer.model.advisor.PlayerSnapshot;
 import com.danieljglover.allinslayer.model.advisor.RecommendationRequest;
 import com.danieljglover.allinslayer.model.advisor.RecommendationResult;
@@ -531,7 +532,9 @@ public class AllInSlayerPlugin extends Plugin
                 live ? active.getLockedLocationId() : null, live && active.isWilderness(),
                 chosen.getGoal(), chosen.isAllowWilderness(), chosen.isAllowGroups(), player,
                 live ? active.getAllowedMonsterIds() : Collections.emptySet(), config.wildernessRiskBudget(),
-                config.plannedEtherCharges(), chosen.getReturnDestination(), config.wildernessChargeLimit());
+                config.plannedEtherCharges(), chosen.getReturnDestination(), config.wildernessChargeLimit(),
+                new BoostReservations(config.meleeBoostSlots(), config.meleeBoostItems(),
+                    config.rangedBoostSlots(), config.rangedBoostItems(), config.magicBoostSlots(), config.magicBoostItems()));
             if (request.equals(lastCapturedRequest) && active.equals(lastCapturedTask))
             {
                 return;

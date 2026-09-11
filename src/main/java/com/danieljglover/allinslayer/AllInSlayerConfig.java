@@ -5,6 +5,7 @@ import com.danieljglover.allinslayer.model.advisor.ReturnDestination;
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
+import net.runelite.client.config.ConfigSection;
 import net.runelite.client.config.Range;
 
 @ConfigGroup(AllInSlayerConfig.GROUP)
@@ -69,5 +70,68 @@ public interface AllInSlayerConfig extends Config
     default boolean showOverlay()
     {
         return true;
+    }
+
+    @ConfigSection(name = "Melee boosts", description = "Reserve inventory space for melee boosts",
+        position = 8, closedByDefault = true)
+    String MELEE_BOOST_SECTION = "meleeBoosts";
+
+    @Range(min = 0, max = 28)
+    @ConfigItem(keyName = "meleeBoostSlots", name = "Boost slots",
+        description = "Reserve this many inventory slots for melee boosts. Counts bottles, not doses; fullest owned doses first. 0 keeps automatic packing.",
+        position = 0, section = MELEE_BOOST_SECTION)
+    default int meleeBoostSlots()
+    {
+        return 0;
+    }
+
+    @ConfigItem(keyName = "meleeBoostItems", name = "Preferred boosts",
+        description = "Comma-separated priority list. Choose the first owned usable option; pack its fullest owned doses first.",
+        position = 1, section = MELEE_BOOST_SECTION)
+    default String meleeBoostItems()
+    {
+        return "Super combat potion, Divine super combat potion, Combat potion";
+    }
+
+    @ConfigSection(name = "Ranged boosts", description = "Reserve inventory space for ranged boosts",
+        position = 9, closedByDefault = true)
+    String RANGED_BOOST_SECTION = "rangedBoosts";
+
+    @Range(min = 0, max = 28)
+    @ConfigItem(keyName = "rangedBoostSlots", name = "Boost slots",
+        description = "Reserve this many inventory slots for ranged boosts. Counts bottles, not doses; fullest owned doses first. 0 keeps automatic packing.",
+        position = 0, section = RANGED_BOOST_SECTION)
+    default int rangedBoostSlots()
+    {
+        return 0;
+    }
+
+    @ConfigItem(keyName = "rangedBoostItems", name = "Preferred boosts",
+        description = "Comma-separated priority list. Choose the first owned usable option; pack its fullest owned doses first.",
+        position = 1, section = RANGED_BOOST_SECTION)
+    default String rangedBoostItems()
+    {
+        return "Ranging potion, Divine ranging potion, Bastion potion, Divine bastion potion";
+    }
+
+    @ConfigSection(name = "Magic boosts", description = "Reserve inventory space for magic boosts",
+        position = 10, closedByDefault = true)
+    String MAGIC_BOOST_SECTION = "magicBoosts";
+
+    @Range(min = 0, max = 28)
+    @ConfigItem(keyName = "magicBoostSlots", name = "Boost slots",
+        description = "Reserve this many inventory slots for magic boosts. Counts bottles, not doses; fullest owned doses first. A reusable heart uses one slot only. 0 keeps automatic packing.",
+        position = 0, section = MAGIC_BOOST_SECTION)
+    default int magicBoostSlots()
+    {
+        return 0;
+    }
+
+    @ConfigItem(keyName = "magicBoostItems", name = "Preferred boosts",
+        description = "Comma-separated priority list. Choose the first owned usable option; pack its fullest owned doses first. Pack a reusable heart once.",
+        position = 1, section = MAGIC_BOOST_SECTION)
+    default String magicBoostItems()
+    {
+        return "Saturated heart, Imbued heart, Forgotten brew, Ancient brew, Divine magic potion, Magic potion";
     }
 }
