@@ -205,7 +205,7 @@ Existing verification evidence remains in the reconstruction documents.
 
 ### R5. Explain integrations clearly to reviewers
 
-- [ ] R5: Document passive behavior and integration boundaries in the submission description.
+- [x] R5: Document passive behavior and integration boundaries in the submission description.
 
 Explain the Bank Tags layout adjustments, existing withdrawal handlers,
 explicit routing requests, static Wiki boss preparation, account-scoped bank
@@ -218,6 +218,14 @@ That is a review risk, not a confirmed prohibition of this Slayer advisor.
 Link the relevant [RuneLite policy](https://github.com/runelite/runelite/wiki/Rejected-or-Rolled-Back-Features)
 and [Jagex guidelines](https://secure.runescape.com/m=news/third-party-client-guidelines?oldschool=1)
 when explaining the preparation-only behavior.
+
+Completed 2026-09-11: the [draft submission description](plugin-hub-submission-description.md)
+explains Bank Tags widget/layout adjustments and retained withdrawal handlers,
+explicit routing and ownership limitations, charge observations, account-scoped
+bank persistence, bundled data and static boss preparation. Both linked policy
+pages were checked against their current published content. Boss-guide scope
+remains explicitly subject to reviewer interpretation. No PR was opened; B2
+verification and publication remain pending.
 
 ## 3. Optional improvement
 
@@ -259,3 +267,4 @@ acceptance complete until the corresponding external action has occurred.
 | 2026-09-11 | R1 | Candidate `977a21e`; [release evidence](reconstruction/hub-release-verification.md) | Official clone/checkout, strict packaging/API checks, source archive and final-JAR startup passed. Publication remains pending. |
 | 2026-09-11 | R2/R3 | Candidate `977a21e`; README, screenshots, icon and META-INF notices | Presentation and attribution complete; final Hub artifact verified; Claude Sonnet/medium approved. |
 | 2026-09-11 | R4 | Owner request | Removed manual checklist; not marked passed or delegated to RuneLite. |
+| 2026-09-11 | R5 | [Draft submission description](plugin-hub-submission-description.md); implementation and current policy review | Passive behavior and integration boundaries documented; boss-guide review risk explicit. No external submission. |
