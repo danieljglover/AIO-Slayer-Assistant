@@ -3533,7 +3533,10 @@
       "id": "infernal-mages",
       "requestedTitles": [
         "Infernal Mage",
-        "Slayer task/Infernal Mages"
+        "Slayer task/Infernal Mages",
+        "Vannaka",
+        "Mortimer",
+        "Slayer Tower"
       ],
       "originalPageId": 12370,
       "evidence": [
@@ -3541,8 +3544,8 @@
           "url": "https://oldschool.runescape.wiki/w/Infernal_Mage",
           "title": "Infernal Mage",
           "pageId": 12370,
-          "revisionId": 15331013,
-          "timestamp": "2026-09-04T21:07:44Z",
+          "revisionId": 15339658,
+          "timestamp": "2026-09-10T15:17:55Z",
           "missing": false
         },
         {
@@ -3552,9 +3555,33 @@
           "revisionId": 0,
           "timestamp": "",
           "missing": true
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Vannaka",
+          "title": "Vannaka",
+          "pageId": 11509,
+          "revisionId": 15332812,
+          "timestamp": "2026-09-06T21:45:59Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Mortimer",
+          "title": "Mortimer",
+          "pageId": 663129,
+          "revisionId": 15327685,
+          "timestamp": "2026-09-01T18:26:44Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+          "title": "Slayer Tower",
+          "pageId": 6923,
+          "revisionId": 15290578,
+          "timestamp": "2026-08-08T19:39:00Z",
+          "missing": false
         }
       ],
-      "status": "evidence-fetched-not-reviewed",
+      "status": "reviewed-infernal-mage-setup-and-route-2026-09-11",
       "missingTitles": [
         "Slayer task/Infernal Mages"
       ],
@@ -3571,9 +3598,41 @@
           "Coins",
           "Nothing",
           "Tertiary",
+          "Collection log",
           "Changes",
           "Trivia",
           "References"
+        ],
+        "Vannaka": [
+          "Slayer points",
+          "Tasks",
+          "Treasure Trails",
+          "Dialogue",
+          "Changes",
+          "Gallery (historical)",
+          "Trivia",
+          "References"
+        ],
+        "Mortimer": [
+          "Tasks",
+          "Dialogue",
+          "Changes",
+          "Gallery",
+          "Development history",
+          "Trivia",
+          "See also",
+          "References"
+        ],
+        "Slayer Tower": [
+          "History",
+          "Transportation",
+          "Layout",
+          "Basement",
+          "{{FloorNumber|uk=0|caps=y|nohelp=y}}",
+          "{{FloorNumber|uk=1|caps=y|nohelp=y}}",
+          "{{FloorNumber|uk=2|caps=y|nohelp=y}}",
+          "Changes",
+          "Trivia"
         ]
       },
       "pageIdMatches": true,
@@ -17605,8 +17664,8 @@
           "url": "https://oldschool.runescape.wiki/w/Infernal_Mage",
           "title": "Infernal Mage",
           "pageId": 12370,
-          "revisionId": 15331013,
-          "timestamp": "2026-09-04T21:07:44Z",
+          "revisionId": 15339658,
+          "timestamp": "2026-09-10T15:17:55Z",
           "missing": false
         },
         {
@@ -17618,7 +17677,7 @@
           "missing": true
         }
       ],
-      "status": "evidence-fetched-not-reviewed",
+      "status": "reviewed-infernal-mage-setup-and-route-2026-09-11",
       "missingTitles": [
         "Infernal Mage/Strategies"
       ],
@@ -17635,6 +17694,7 @@
           "Coins",
           "Nothing",
           "Tertiary",
+          "Collection log",
           "Changes",
           "Trivia",
           "References"
@@ -38629,7 +38689,10 @@
     "strategies/infernal-mages-task-methods/strategy.json": {
       "id": "infernal-mages-task-methods",
       "requestedTitles": [
-        "Infernal Mage"
+        "Infernal Mage",
+        "Infernal Mage/Strategies",
+        "Slayer task/Infernal Mages",
+        "Slayer Tower"
       ],
       "originalPageId": 0,
       "evidence": [
@@ -38637,13 +38700,40 @@
           "url": "https://oldschool.runescape.wiki/w/Infernal_Mage",
           "title": "Infernal Mage",
           "pageId": 12370,
-          "revisionId": 15331013,
-          "timestamp": "2026-09-04T21:07:44Z",
+          "revisionId": 15339658,
+          "timestamp": "2026-09-10T15:17:55Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Infernal_Mage/Strategies",
+          "title": "Infernal Mage/Strategies",
+          "pageId": 0,
+          "revisionId": 0,
+          "timestamp": "",
+          "missing": true
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_task/Infernal_Mages",
+          "title": "Slayer task/Infernal Mages",
+          "pageId": 0,
+          "revisionId": 0,
+          "timestamp": "",
+          "missing": true
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+          "title": "Slayer Tower",
+          "pageId": 6923,
+          "revisionId": 15290578,
+          "timestamp": "2026-08-08T19:39:00Z",
           "missing": false
         }
       ],
-      "status": "evidence-fetched-not-reviewed",
-      "missingTitles": [],
+      "status": "reviewed-infernal-mage-setup-and-route-2026-09-11",
+      "missingTitles": [
+        "Infernal Mage/Strategies",
+        "Slayer task/Infernal Mages"
+      ],
       "equipmentTableCount": 0,
       "headings": {
         "Infernal Mage": [
@@ -38657,9 +38747,21 @@
           "Coins",
           "Nothing",
           "Tertiary",
+          "Collection log",
           "Changes",
           "Trivia",
           "References"
+        ],
+        "Slayer Tower": [
+          "History",
+          "Transportation",
+          "Layout",
+          "Basement",
+          "{{FloorNumber|uk=0|caps=y|nohelp=y}}",
+          "{{FloorNumber|uk=1|caps=y|nohelp=y}}",
+          "{{FloorNumber|uk=2|caps=y|nohelp=y}}",
+          "Changes",
+          "Trivia"
         ]
       }
     },

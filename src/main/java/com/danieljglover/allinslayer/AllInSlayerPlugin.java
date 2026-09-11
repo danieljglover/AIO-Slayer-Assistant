@@ -525,7 +525,7 @@ public class AllInSlayerPlugin extends Plugin
             PlayerSnapshot player = playerState.capture();
             RecommendationRequest request = new RecommendationRequest(
                 live ? active.getTaskId() : chosen.getTaskId(),
-                live && active.getMasterId() != null ? active.getMasterId() : chosen.getMasterId(),
+                live ? active.getMasterId() : chosen.getMasterId(),
                 live && active.getMonsterId() != null ? active.getMonsterId() : chosen.getMonsterId(),
                 chosen.getLocationId(), chosen.getMethodId(), live, live ? active.getRemaining() : 0,
                 live ? active.getLockedLocationId() : null, live && active.isWilderness(),

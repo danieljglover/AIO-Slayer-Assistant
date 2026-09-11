@@ -77,8 +77,14 @@ public final class RecommendationEngine
 		}
 		if (request.getMasterId() != null && !task.getMasterIds().contains(request.getMasterId()))
 		{
-			notices.add("This task is not listed for the selected Slayer master.");
-			return new RecommendationResult(task.getId(), Collections.emptyList(), notices);
+			if (!request.isActiveTask() || !request.getPlayer().isLoggedIn() || request.getRemaining() <= 0)
+			{
+				notices.add("This task is not listed for the selected Slayer master.");
+				return new RecommendationResult(task.getId(), Collections.emptyList(), notices);
+			}
+			// A live assignment can outlast a master-table update or precede a bundled data
+			// refresh. Its master link is not an access gate for killing the assigned monster.
+			notices.add("Using your detected active assignment; the catalogue's Slayer master list for this task needs updating.");
 		}
 		List<RankedSetup> ranked = new ArrayList<>();
 		boolean excludedWilderness = false;

@@ -28,7 +28,7 @@
   "boss": false,
   "location": "First floor of the Slayer Tower, Morytania.",
   "locationId": "slayer-tower",
-  "requirement": "45 Slayer.",
+  "requirement": "SLAYER >= 45",
   "bossId": null,
   "strategyId": "infernal-mages-task-methods",
   "offence": {

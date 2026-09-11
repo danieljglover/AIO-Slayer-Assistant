@@ -100,6 +100,11 @@ Do not treat generated `build/` resources as source input.
   A Krystilia preview still requires Wilderness kills. A boss-assignment diary
   alternative applies only to a matching concrete Boss preview, not a normal
   creature task. Keep preview assumptions separate from saved account facts.
+- The bundled master/task list filters catalogue previews. A logged-in active
+  assignment with kills remaining takes precedence over a missing master link;
+  retain a coverage notice and continue checking levels, gear, assignment area
+  and Wilderness restrictions. Never substitute a saved catalogue master when
+  the active master is unknown.
 - Ordered alternatives within one slot are not a list of mandatory switches.
   Multi-style methods need explicit required switches and compatible ammunition.
 - `Choice.slot == "RUNE POUCH"` denotes planned contained runes, excluded from

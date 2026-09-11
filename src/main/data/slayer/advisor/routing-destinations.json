@@ -14977,7 +14977,7 @@
         "infernal-mage"
       ],
       "locationId": "slayer-tower",
-      "label": "Slayer Tower - Infernal Mage",
+      "label": "Slayer Tower first floor - Infernal Mage",
       "arrival": "MONSTER",
       "points": [
         {
@@ -15061,12 +15061,20 @@
           "url": "https://oldschool.runescape.wiki/w/Infernal_Mage",
           "title": "Infernal Mage",
           "pageId": 12370,
-          "revisionId": 15331013,
-          "timestamp": "2026-09-04T21:07:44Z",
+          "revisionId": 15339658,
+          "timestamp": "2026-09-10T15:17:55Z",
+          "missing": false
+        },
+        {
+          "url": "https://oldschool.runescape.wiki/w/Slayer_Tower",
+          "title": "Slayer Tower",
+          "pageId": 6923,
+          "revisionId": 15290578,
+          "timestamp": "2026-08-08T19:39:00Z",
           "missing": false
         }
       ],
-      "note": "Spawn locations for the selected monster in this area."
+      "note": "Infernal Mage spawns in the north-east room, one level above ground (plane 1). Use the south-east stairs; the eastern broken window requires 18 Agility. Wear Earmuffs or a Slayer helmet if passing Banshees, and a Nose peg or Slayer helmet if using the spiked-chain route past Aberrant spectres."
     },
     {
       "id": "iorwerth-archer-at-iorwerth-camp",

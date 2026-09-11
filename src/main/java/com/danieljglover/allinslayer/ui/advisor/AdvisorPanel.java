@@ -1524,7 +1524,7 @@ public final class AdvisorPanel extends PluginPanel
         {
             requirements.add("Task-only");
         }
-        if (master != null)
+        if (master != null && !context.request.isActiveTask())
         {
             requirements.addAll(master.getRequirements());
             addLevelRequirement(requirements, "SLAYER", master.getSlayerLevel());
