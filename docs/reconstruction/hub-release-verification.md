@@ -94,3 +94,18 @@ Follow-up on 2026-09-11: R5 documentation was completed and the owner confirmed
 the remaining B2 manual charge checks passed. The pending statements above
 describe the original packaging session; publication and submission remain
 pending. The verified artifact and candidate hash are unchanged.
+
+## Development launcher correction
+
+A later full-profile launch exposed a development-classpath collision: placing
+the final Hub JAR on the application classpath makes its `runelite_plugin.json`
+visible to other Plugin Hub class loaders. Their parent-first resource lookup
+then reads AIO metadata and skips the installed plugins as duplicates. The
+packaged AIO catalogue startup above remains valid, but does not establish
+coexistence with installed Hub plugins.
+
+For the combined development launcher, use the normal Gradle JAR (without Hub
+metadata). The corrected launch displayed the installed plugin sidebar alongside
+AIO and Wilderness Sentinel Lite. Official Hub installation uses its own plugin
+class loader and is still pending; do not use the Hub artifact as an application
+classpath entry for normal play. No runtime plugin code change was required.
