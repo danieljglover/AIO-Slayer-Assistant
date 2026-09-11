@@ -220,10 +220,10 @@ proof that a trip is ready. These cases are reported as requirements or guidance
 
 ## Build and manual verification
 
-Clan testers can [download the Windows preview ZIP](https://github.com/danieljglover/AIO-Slayer-Assistant/raw/refs/heads/main/downloads/aio-slayer-windows-preview-68918a0.zip)
+Clan testers can [download the Windows preview ZIP](https://github.com/danieljglover/AIO-Slayer-Assistant/raw/refs/heads/main/downloads/aio-slayer-windows-preview-f1bfd33.zip)
 without building from source. Extract the entire ZIP and follow `READ-ME-FIRST.txt`,
-then run `Start-AIO-Slayer.bat`. This preview contains source revision `68918a0`;
-its [SHA-256 checksum](downloads/aio-slayer-windows-preview-68918a0.zip.sha256)
+then run `Start-AIO-Slayer.bat`. This preview contains source revision `f1bfd33`;
+its [SHA-256 checksum](downloads/aio-slayer-windows-preview-f1bfd33.zip.sha256)
 is included for verification. Windows launch still needs tester verification.
 
 Use the checked-in Gradle wrapper with JDK 11 or newer:
