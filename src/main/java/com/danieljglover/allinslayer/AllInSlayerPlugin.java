@@ -10,6 +10,7 @@ import com.danieljglover.allinslayer.integration.advisor.SetupExporter;
 import com.danieljglover.allinslayer.integration.advisor.ShortestPathBridge;
 import com.danieljglover.allinslayer.loadout.advisor.RecommendationEngine;
 import com.danieljglover.allinslayer.model.advisor.BoostReservations;
+import com.danieljglover.allinslayer.model.advisor.FoodOverride;
 import com.danieljglover.allinslayer.model.advisor.PlayerSnapshot;
 import com.danieljglover.allinslayer.model.advisor.RecommendationRequest;
 import com.danieljglover.allinslayer.model.advisor.RecommendationResult;
@@ -534,7 +535,8 @@ public class AllInSlayerPlugin extends Plugin
                 live ? active.getAllowedMonsterIds() : Collections.emptySet(), config.wildernessRiskBudget(),
                 config.plannedEtherCharges(), chosen.getReturnDestination(), config.wildernessChargeLimit(),
                 new BoostReservations(config.meleeBoostSlots(), config.meleeBoostItems(),
-                    config.rangedBoostSlots(), config.rangedBoostItems(), config.magicBoostSlots(), config.magicBoostItems()));
+                    config.rangedBoostSlots(), config.rangedBoostItems(), config.magicBoostSlots(), config.magicBoostItems()),
+                new FoodOverride(config.overrideFood(), config.preferredFoods()));
             if (request.equals(lastCapturedRequest) && active.equals(lastCapturedTask))
             {
                 return;

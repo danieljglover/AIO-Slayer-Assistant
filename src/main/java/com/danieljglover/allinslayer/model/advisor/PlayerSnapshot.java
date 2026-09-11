@@ -131,6 +131,7 @@ public final class PlayerSnapshot
 		private final boolean usable;
 		private final boolean twoHanded;
 		private final boolean stackable;
+		private final boolean food;
 		private final double attack;
 		private final double strength;
 		private final double defence;
@@ -156,6 +157,15 @@ public final class PlayerSnapshot
 			double defence, double prayer, double rangedAttack, double rangedStrength,
 			double magicAttack, double magicDamage)
 		{
+			this(id, name, slot, style, usable, twoHanded, stackable, meleeAttack, meleeStrength,
+				defence, prayer, rangedAttack, rangedStrength, magicAttack, magicDamage, false);
+		}
+
+		public ItemStats(int id, String name, String slot, String style, boolean usable,
+			boolean twoHanded, boolean stackable, double meleeAttack, double meleeStrength,
+			double defence, double prayer, double rangedAttack, double rangedStrength,
+			double magicAttack, double magicDamage, boolean food)
+		{
 			this.id = id;
 			this.name = name == null ? "Item " + id : name;
 			this.slot = slot == null ? "" : slot;
@@ -163,6 +173,7 @@ public final class PlayerSnapshot
 			this.usable = usable;
 			this.twoHanded = twoHanded;
 			this.stackable = stackable;
+			this.food = food;
 			this.attack = finite(meleeAttack);
 			this.strength = finite(meleeStrength);
 			this.defence = finite(defence);

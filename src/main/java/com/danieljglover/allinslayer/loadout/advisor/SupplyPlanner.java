@@ -320,7 +320,8 @@ final class SupplyPlanner
 		for (Need need : needs.stream().filter(value -> !value.required).collect(Collectors.toList()))
 		{
 			if (replacedBoost(need, method)) { continue; }
-			allocate(need, equipment, blockers, explanations);
+			Need remaining = withoutOptionalFood(need);
+			if (remaining != null) { allocate(remaining, equipment, blockers, explanations); }
 		}
 		validateSwitchAmmunition(equipment, blockers, explanations);
 		addOwnedBasics(equipment, blockers, explanations);
@@ -473,7 +474,8 @@ final class SupplyPlanner
 				return;
 			}
 		}
-		Supply supply = blightedAlternatives(need.supply);
+		boolean configuredFood = "Configured food".equals(need.origin);
+		Supply supply = configuredFood ? need.supply : blightedAlternatives(need.supply);
 		int target = Math.max(1, supply.getQuantity());
 		boolean mixedProtection = need.required && !"SWITCH".equals(need.slot)
 			&& equipmentPlanner.hasGearAlternative(supply) && !equipmentPlanner.isGear(supply);
@@ -519,8 +521,8 @@ final class SupplyPlanner
 		}
 		// Fallbacks take part in the final full-trip comparison without multiplying work in
 		// the equipment search, which calls the inexpensive plan path for many candidates.
-		if (!"Owned fallback".equals(need.origin)) { preferAffordableAlternatives(usable, target, equipment); }
-		if (collectAlternatives) { preferForcedFamily(need.key(), usable); }
+		if (!configuredFood && !"Owned fallback".equals(need.origin)) { preferAffordableAlternatives(usable, target, equipment); }
+		if (collectAlternatives && !configuredFood) { preferForcedFamily(need.key(), usable); }
 		int previous = usable.stream().distinct().map(allocations::get)
 			.filter(value -> value != null).mapToInt(value -> value.quantity).sum();
 		int missing = Math.max(0, target - previous);
@@ -772,6 +774,11 @@ final class SupplyPlanner
 				.sorted(Comparator.comparingInt((ItemStats item) -> doses(item.getName())).reversed()
 					.thenComparing(ItemStats::getName)).collect(Collectors.toList()), 2, equipment, blockers, explanations);
 		}
+		if (request.getFoodOverride().isEnabled())
+		{
+			packConfiguredFood(equipment, blockers, explanations);
+			return;
+		}
 		if (slots < capacity)
 		{
 			int plannedFood = allocations.values().stream().filter(a -> foodPriority(a.name) > 0).mapToInt(a -> a.quantity).sum();
@@ -787,6 +794,107 @@ final class SupplyPlanner
 		{
 			explanations.add("Owned restoration supplements the method supplies; useful owned food fills the remaining inventory slots after travel, casting and storage items.");
 		}
+	}
+
+	private Need withoutOptionalFood(Need need)
+	{
+		if (!request.getFoodOverride().isEnabled() || need.required || !"SUPPLY".equals(need.slot)) { return need; }
+		if (need.supply.getItemIds().isEmpty())
+		{
+			String name = need.supply.getName().toLowerCase(Locale.ROOT);
+			return foodPriority(name) > 0 || name.equals("food") || name.equals("foods")
+				|| name.equals("high healing food") || name.equals("cooked food") ? null : need;
+		}
+		// Keep non-food alternatives in mixed optional supply groups. Mandatory items,
+		// switches and travel supplies retain their source meaning.
+		List<Integer> ids = need.supply.getItemIds().stream().filter(id -> !foodItem(id)).collect(Collectors.toList());
+		if (ids.isEmpty()) { return null; }
+		if (ids.size() == need.supply.getItemIds().size()) { return need; }
+		return new Need(supply(need.supply.getName(), ids, need.supply.getQuantity(), false,
+			need.supply.isStackable()), need.origin, need.slot, false);
+	}
+
+	private boolean foodItem(int id)
+	{
+		ItemStats item = player.getItems().get(id);
+		if (item != null) { return item.isFood(); }
+		com.danieljglover.allinslayer.model.advisor.SlayerCatalogue.ItemDefinition definition = equipmentPlanner.catalogue().getItems().get(id);
+		return definition != null && foodPriority(definition.getName()) > 0;
+	}
+
+	private void packConfiguredFood(Map<String, Choice> equipment, List<String> blockers, List<String> explanations)
+	{
+		int room = Math.max(0, capacity - slots);
+		if (room == 0)
+		{
+			explanations.add("Food: No slots remain for custom food after required items, reserved boosts and other supplies.");
+			return;
+		}
+		List<String> preferences = request.getFoodOverride().getPreferences();
+		List<Integer> ids = new ArrayList<>();
+		List<String> unavailable = new ArrayList<>();
+		for (String preference : preferences)
+		{
+			List<Integer> matches = player.getItems().values().stream()
+				.filter(item -> player.getOwned().getOrDefault(item.getId(), 0) > 0
+					&& item.isFood() && !item.isStackable() && equipmentPlanner.isInventoryItem(item.getId())
+					&& foodName(preference).equals(foodName(item.getName()))
+					&& equipmentPlanner.supplyProblems(item.getId()).isEmpty()
+					&& (allowBlighted || !blightedItem(item.getId())))
+				.sorted(Comparator.comparingInt(ItemStats::getId)).map(ItemStats::getId).collect(Collectors.toList());
+			if (matches.isEmpty()) { unavailable.add(preference); }
+			ids.addAll(matches);
+		}
+		ids = new ArrayList<>(new LinkedHashSet<>(ids));
+		int previous = ids.stream().map(allocations::get).filter(java.util.Objects::nonNull)
+			.mapToInt(allocation -> allocation.quantity).sum();
+		int target = previous + room;
+		int missing;
+		if (ids.isEmpty())
+		{
+			missing = room;
+			add(blockers, preferences.isEmpty()
+				? "Choose preferred foods in the Food settings, or disable the food override."
+				: "No owned usable food matches your override. Open your bank and check the full food names. "
+					+ "Use recognised non-stackable food; blighted food needs a Wilderness combat destination.");
+			unresolved.add(new Choice(0, 0, 0, 0, missing, "FOOD", "Preferred food", "Configured food", true));
+		}
+		else
+		{
+			allocate(new Need(supply("Preferred food", ids, target, true, false), "Configured food", "FOOD", true),
+				equipment, blockers, explanations);
+			int packed = ids.stream().map(allocations::get).filter(java.util.Objects::nonNull)
+				.mapToInt(allocation -> allocation.quantity).sum();
+			missing = Math.max(0, target - packed);
+			for (int id : ids)
+			{
+				Allocation allocation = allocations.get(id);
+				if (allocation != null)
+				{
+					allocation.slot = "FOOD";
+					allocation.origin = "Configured food";
+				}
+			}
+		}
+		if (missing > 0)
+		{
+			capacity -= missing;
+			unresolved.add(new Choice(0, missing, 0, 0, 0, "RESERVED FOOD", "Preferred food", "Configured food", false,
+				"Empty space reserved for missing custom food; see Checks."));
+		}
+		if (!unavailable.isEmpty())
+		{
+			explanations.add("Food: Unavailable or unsupported for this destination: " + String.join(", ", unavailable) + ".");
+		}
+		explanations.add("Food: Custom preferences filled " + (room - missing) + "/" + room
+			+ " remaining inventory slots in listed order. Required strategy supplies are retained."
+			+ (missing > 0 ? " Missing food leaves " + missing + " slots empty; see Checks." : ""));
+	}
+
+	private static String foodName(String name)
+	{
+		String normalized = name.trim().toLowerCase(Locale.ROOT).replaceAll("\\s+", " ");
+		return normalized.equals("karambwan") ? "cooked karambwan" : normalized;
 	}
 
 	private boolean castingResource(Supply supply)

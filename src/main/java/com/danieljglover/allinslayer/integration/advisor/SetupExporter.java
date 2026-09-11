@@ -54,7 +54,7 @@ public final class SetupExporter
         List<String> preparation = recommendation.getExplanations().stream()
             .filter(note -> note.startsWith("Return:") || note.startsWith("Escape:")
                 || note.startsWith("Looting bag:") || note.startsWith("Rune pouch:") || note.startsWith("Casting:")
-                || note.startsWith("Boosts:"))
+                || note.startsWith("Boosts:") || note.startsWith("Food:"))
             .distinct().collect(Collectors.toList());
         for (RecommendationResult.Choice choice : recommendation.getInventory())
         {

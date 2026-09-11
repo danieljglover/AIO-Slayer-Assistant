@@ -32,6 +32,12 @@ import net.runelite.client.config.ConfigManager;
 import net.runelite.client.game.ItemEquipmentStats;
 import net.runelite.client.game.ItemManager;
 import net.runelite.client.game.ItemStats;
+import net.runelite.client.plugins.itemstats.Effect;
+import net.runelite.client.plugins.itemstats.ItemStatChanges;
+import net.runelite.client.plugins.itemstats.RangeStatChange;
+import net.runelite.client.plugins.itemstats.StatChange;
+import net.runelite.client.plugins.itemstats.StatsChanges;
+import net.runelite.client.plugins.itemstats.stats.Stats;
 
 /** All methods are called on the client thread. Persist only observations tied to an RS profile. */
 @Slf4j
@@ -48,6 +54,7 @@ public final class PlayerStateCapture
     private final Client client;
     private final ConfigManager config;
     private final ItemManager itemManager;
+    private final ItemStatChanges itemStatChanges;
     private final Gson gson;
     private final AccountProgressCapture accountProgressCapture;
     private final DeathStateCapture deathStateCapture;
@@ -78,11 +85,13 @@ public final class PlayerStateCapture
 
     @Inject
     public PlayerStateCapture(Client client, ConfigManager config, ItemManager itemManager, Gson gson,
-        AccountProgressCapture accountProgressCapture, DeathStateCapture deathStateCapture, ChargeStateCapture chargeStateCapture)
+        AccountProgressCapture accountProgressCapture, DeathStateCapture deathStateCapture,
+        ChargeStateCapture chargeStateCapture, ItemStatChanges itemStatChanges)
     {
         this.client = client;
         this.config = config;
         this.itemManager = itemManager;
+        this.itemStatChanges = itemStatChanges;
         this.gson = gson;
         this.accountProgressCapture = accountProgressCapture;
         this.deathStateCapture = deathStateCapture;
@@ -360,12 +369,13 @@ public final class PlayerStateCapture
         String lower = name.toLowerCase(Locale.ROOT);
         boolean usable = !lower.contains("(broken)") && !lower.contains("(mangled)")
             && !lower.matches(".*(?:helm|platebody|platelegs|plateskirt|hood|robe top|robe skirt|staff|warspear|hammers|crossbow) 0$");
+        boolean food = isHealingFood(definition);
         ItemStats stats = itemManager.getItemStats(id);
         ItemEquipmentStats e = stats == null ? null : stats.getEquipment();
         if (e == null)
         {
             return new PlayerSnapshot.ItemStats(id, name, null, "ANY", usable, false,
-                definition.isStackable(), 0, 0, 0, 0);
+                definition.isStackable(), 0, 0, 0, 0, 0, 0, 0, 0, food);
         }
         String slot = e.getSlot() >= 0 && e.getSlot() < SLOTS.length ? SLOTS[e.getSlot()] : null;
         // Uncharged jewellery can retain its combat stats. Powered weapons need a usable
@@ -405,7 +415,41 @@ public final class PlayerStateCapture
         double defence = (e.getDstab() + e.getDslash() + e.getDcrush() + e.getDmagic() + e.getDrange()) / 5.0;
         return new PlayerSnapshot.ItemStats(id, name, slot, style, usable, e.isTwoHanded(),
             definition.isStackable(), melee, e.getStr(), defence, e.getPrayer(),
-            e.getArange(), e.getRstr(), e.getAmagic(), e.getMdmg());
+            e.getArange(), e.getRstr(), e.getAmagic(), e.getMdmg(), food);
+    }
+
+    private boolean isHealingFood(ItemComposition definition)
+    {
+        if (definition.getNote() != -1 || definition.getPlaceholderTemplateId() != -1)
+        {
+            return false;
+        }
+        String[] actions = definition.getInventoryActions();
+        boolean edible = false;
+        if (actions != null)
+        {
+            for (String action : actions)
+            {
+                if ("Eat".equalsIgnoreCase(action)) { edible = true; break; }
+            }
+        }
+        if (!edible) { return false; }
+        Effect effect = itemStatChanges.get(definition.getId());
+        if (effect == null) { return false; }
+        StatsChanges changes = effect.calculate(client);
+        if (changes == null || changes.getStatChanges() == null) { return false; }
+        boolean healing = false;
+        for (StatChange change : changes.getStatChanges())
+        {
+            if (change == null || change.getStat() != Stats.HITPOINTS) { continue; }
+            // Actual healing is zero at full HP. The minimum theoretical effect also
+            // excludes foods whose possible outcomes include damage rather than healing.
+            int minimum = change instanceof RangeStatChange
+                ? ((RangeStatChange) change).getMinTheoretical() : change.getTheoretical();
+            if (minimum < 0) { return false; }
+            healing |= minimum > 0;
+        }
+        return healing;
     }
 
     private static void merge(Map<Integer, Integer> target, Map<Integer, Integer> source)

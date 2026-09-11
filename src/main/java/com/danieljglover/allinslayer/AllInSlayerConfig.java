@@ -134,4 +134,24 @@ public interface AllInSlayerConfig extends Config
     {
         return "Saturated heart, Imbued heart, Forgotten brew, Ancient brew, Divine magic potion, Magic potion";
     }
+
+    @ConfigSection(name = "Food", description = "Choose the food used for all combat styles",
+        position = 11, closedByDefault = true)
+    String FOOD_SECTION = "food";
+
+    @ConfigItem(keyName = "overrideFood", name = "Override food",
+        description = "Fill remaining inventory slots with your preferred foods. Required strategy items and reserved boosts retain priority.",
+        position = 0, section = FOOD_SECTION)
+    default boolean overrideFood()
+    {
+        return false;
+    }
+
+    @ConfigItem(keyName = "preferredFoods", name = "Preferred foods",
+        description = "Full food names, separated by commas, in priority order. Use owned food from each entry before the next. Non-stackable food only; blighted food needs a Wilderness combat destination.",
+        position = 1, section = FOOD_SECTION)
+    default String preferredFoods()
+    {
+        return "Shark";
+    }
 }

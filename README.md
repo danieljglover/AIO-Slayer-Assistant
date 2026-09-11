@@ -98,6 +98,15 @@ or displays live prayer/tile instructions.
   slot. Missing boosts leave marked empty slots and appear in **Checks**.
   Required strategy items retain priority. Set the count to **0** to keep
   automatic packing. See the [boost reservation notes](docs/reconstruction/boost-reservations.md).
+- **Food > Override food** applies one custom food preference to all combat
+  styles. Enter full item names in **Preferred foods**, separated by commas,
+  such as `Shark, Cooked karambwan`. The planner uses owned food in that order
+  to fill remaining slots, moving to the next listed food when stock runs out.
+  Required strategy supplies and boost reservations retain priority. Missing
+  food leaves marked empty slots and appears in **Checks**. Blighted food must
+  be named explicitly and is only used at a Wilderness combat destination.
+  Disable the override to restore automatic food selection. See the
+  [food override notes](docs/reconstruction/food-overrides.md) for supported forms.
 
 **Change setup > After task** chooses a return to your Slayer master, a bank,
 or your house. Owned seed pods and charged jewellery are checked separately
