@@ -2,9 +2,9 @@
 
 Reviewed: 2026-09-11. Baseline: `1f7183a593afe6606455e7b247f93d876edaefe4`.
 
-**Status: submitted for review in [Plugin Hub PR #16428](https://github.com/runelite/plugin-hub/pull/16428).
-Published source `e55d0c9` passed strict official packaging and the PR build CI.
-Reviewer response and approval remain pending.**
+**Status: resubmitted with `build=standard` in [Plugin Hub PR #17237](https://github.com/runelite/plugin-hub/pull/17237),
+after the stale bot closed [PR #16428](https://github.com/runelite/plugin-hub/pull/16428).
+Published source `4975fa0` passed the PR build CI. Reviewer response and approval remain pending.**
 
 Work through the blockers first, then the release checks and submission steps.
 Tick an item only when its completion criteria have been met. Record the fixing
@@ -301,3 +301,5 @@ acceptance complete until the corresponding external action has occurred.
 | 2026-09-11 | B2 / S1 | Owner confirmed the requested carried/equipped Check, charge-limit and activation-ether checks passed | B2 closed; S1 complete for verified candidate `977a21e`. Later source commits require their own packaging verification. |
 | 2026-09-11 | S3-S5 | Published `e55d0c9`; [PR #16428](https://github.com/runelite/plugin-hub/pull/16428) | Official remote clone and strict packaging passed; manifest pinned; one Hub PR opened with screenshots and integration/policy notes. S6/S7 pending. |
 | 2026-09-11 | S6 initial CI | [Build run 34651751127](https://github.com/runelite/plugin-hub/actions/runs/34651751127) | Build passed in 42 seconds; upload job skipped. No reviewer findings yet; S6 stays open for review follow-up. |
+| 2026-09-28 | Standard build | `ab26b7c`, `a0c3237`, `4975fa0`; [standard build record](reconstruction/hub-build-configuration.md#standard-build-2026-09-28) | `build=standard` with the committed catalogue, byte-identical to #16428's (`cce5a503`). Fixed the Windows source-key bug that dropped all Wiki evidence. Standard-template simulation against RuneLite 1.12.39: 2,358,050-byte JAR, 130 Java 11 classes, no authoring classes; the catalogue loads 10 masters, 118 tasks, 388 variants and 1,403 methods. |
+| 2026-09-28 | S6 resubmission | Published `4975fa0`; [PR #17237](https://github.com/runelite/plugin-hub/pull/17237); [build run 36432942530](https://github.com/runelite/plugin-hub/actions/runs/36432942530) | #16428 was closed by the stale bot after the reviewer's `build=standard` request. Fork branch `all-in-slayer` holds only the two-line descriptor. Build passed in 46 seconds; upload skipped; labelled `plugin added`, review required. S6/S7 remain open. |

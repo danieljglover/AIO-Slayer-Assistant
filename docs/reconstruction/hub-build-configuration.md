@@ -132,3 +132,25 @@ classes. A second `./gradlew build` left `git status` clean.
 
 Commits: `ab26b7c` fixes the generator source keys; `a0c3237` switches to
 `build=standard` and commits the catalogue.
+
+`4975fa0` updates the documentation. Before publication, a clone of that commit
+had its root Gradle scripts replaced by plugin-hub-tooling `5893c9f0`'s standard
+templates. It was built with the Hub's RuneLite version pin (1.12.39), Temurin
+11.0.32.1 and Gradle 8.10:
+
+| Check | Result |
+| --- | --- |
+| Simulated JAR | 2,358,050 bytes; 130 Java 11 classes; committed catalogue hash; license notices and icons present |
+| Excluded from the JAR | `data/source` authoring classes, `AllInSlayerPluginLauncher` and the three generator reports |
+| Core source archive estimate | 3,703,868 bytes deflated; the packager fails above 11 MiB |
+| Catalogue load through `AdvisorDataService` | 10 masters, 118 tasks, 388 variants and 1,403 methods; all 118 tasks carry Wiki evidence |
+
+[Plugin Hub PR #17237](https://github.com/runelite/plugin-hub/pull/17237) pins
+`4975fa0656e50e75929e68a2a2f56e3bfb0d477e`. Its
+[build run 36432942530](https://github.com/runelite/plugin-hub/actions/runs/36432942530)
+passed in 46 seconds. It ran only `compileJava`, `processResources`, `classes`
+and the Hub packaging tasks. The CI JAR is 2,358,492 bytes (SHA-256
+`43c5df3b82cc3b7930f771b83a37c943fa5356912b1b89809cd9f376dc7f9c8e`). It adds
+only `runelite_plugin.json` to the simulated contents, keeps the same catalogue
+and 130 classes, and loads the same counts. The official source archive is
+4,714,441 bytes; the packager skipped the four Windows preview ZIPs as too large.
