@@ -13,6 +13,7 @@ import java.util.function.Consumer;
 import javax.inject.Inject;
 import javax.inject.Singleton;
 import lombok.Value;
+import lombok.extern.slf4j.Slf4j;
 import net.runelite.api.Client;
 import net.runelite.api.GameState;
 import net.runelite.api.gameval.InterfaceID;
@@ -22,6 +23,7 @@ import net.runelite.api.widgets.JavaScriptCallback;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.game.ItemManager;
+import net.runelite.client.plugins.PluginManager;
 import net.runelite.client.plugins.bank.BankSearch;
 import net.runelite.client.plugins.banktags.BankTagsPlugin;
 import net.runelite.client.plugins.banktags.BankTagsService;
@@ -29,6 +31,7 @@ import net.runelite.client.plugins.banktags.TagManager;
 import net.runelite.client.plugins.banktags.tabs.Layout;
 
 /** Client-thread-only, temporary bank view. Actual bank positions and the user's saved setups are preserved. */
+@Slf4j
 @Singleton
 public final class BankSetupFilter
 {
@@ -43,11 +46,15 @@ public final class BankSetupFilter
     private final String tag = TAG_PREFIX + UUID.randomUUID();
     @Inject private Client client;
     @Inject private ItemManager itemManager;
-    @Inject private BankTagsPlugin bankTags;
+    // Bank Tags exposes only its services to dependents; the plugin itself is not injectable.
+    @Inject private BankTagsService bankTags;
+    @Inject private PluginManager pluginManager;
     @Inject private TagManager tagManager;
     @Inject private BankSearch bankSearch;
     @Inject private ConfigManager configManager;
     @Inject private ClientThread clientThread;
+    // Only for opening an in-memory Layout, which BankTagsService cannot do.
+    private BankTagsPlugin bankTagsPlugin;
     private Set<Integer> itemIds = Collections.emptySet();
     private int[] layoutItems = new int[0];
     private Layout openedLayout;
@@ -61,6 +68,12 @@ public final class BankSetupFilter
     public void start(Consumer<State> listener)
     {
         this.listener = listener;
+        bankTagsPlugin = pluginManager.getPlugins().stream()
+            .filter(BankTagsPlugin.class::isInstance)
+            .map(BankTagsPlugin.class::cast)
+            .findFirst()
+            .orElse(null);
+        if (bankTagsPlugin == null) { log.warn("Bank Tags plugin instance not found; bank filter unavailable"); }
         // Recover only our private temporary keys if a previous client exited without cleanup.
         for (String group : Arrays.asList(BankTagsPlugin.CONFIG_GROUP, LAYOUTS_GROUP))
         {
@@ -164,7 +177,7 @@ public final class BankSetupFilter
     {
         refresh();
         if (ownsView()) { return; }
-        if (!bankOpen() || itemIds.isEmpty()) { return; }
+        if (bankTagsPlugin == null || !bankOpen() || itemIds.isEmpty()) { return; }
         previousTab = configManager.getConfiguration(BankTagsPlugin.CONFIG_GROUP, "tab");
         tagManager.registerTag(tag, id -> id > 0 && itemIds.contains(itemManager.canonicalize(id)));
         registered = true;
@@ -181,7 +194,7 @@ public final class BankSetupFilter
     private void openLayout()
     {
         openedLayout = new Layout(tag, layoutItems.clone());
-        bankTags.openTag(tag, openedLayout, BankTagsService.OPTION_HIDE_TAG_NAME);
+        bankTagsPlugin.openTag(tag, openedLayout, BankTagsService.OPTION_HIDE_TAG_NAME);
     }
 
     public void finishLayout()
