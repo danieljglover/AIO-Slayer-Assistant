@@ -409,7 +409,7 @@ public final class AdvisorCatalogueCompiler
             JsonObject source = read(path);
             String id = string(source, "strategyId");
             put(strategies, id, source);
-            strategyPaths.put(id, root.relativize(path).toString());
+            strategyPaths.put(id, sourceKey(path));
         }
         for (Path path : files("strategies", ".md"))
         {
@@ -418,7 +418,7 @@ public final class AdvisorCatalogueCompiler
             if (!strategies.containsKey(parsed.getStrategyId()))
             {
                 strategies.put(parsed.getStrategyId(), source);
-                strategyPaths.put(parsed.getStrategyId(), root.relativize(path).toString());
+                strategyPaths.put(parsed.getStrategyId(), sourceKey(path));
             }
         }
         for (Map.Entry<String, JsonObject> entry : strategies.entrySet())
@@ -949,7 +949,7 @@ public final class AdvisorCatalogueCompiler
 
     private List<Evidence> evidence(Path path)
     {
-        JsonObject record = object(object(audit, "records"), root.relativize(path).toString());
+        JsonObject record = object(object(audit, "records"), sourceKey(path));
         return evidenceList(record);
     }
 
@@ -1016,6 +1016,12 @@ public final class AdvisorCatalogueCompiler
         {
             return paths.filter(Files::isRegularFile).filter(p -> p.toString().endsWith(suffix)).sorted().collect(Collectors.toList());
         }
+    }
+
+    // Audit records and strategy paths use '/'-separated keys relative to the source root on every OS.
+    private String sourceKey(Path path)
+    {
+        return root.relativize(path).toString().replace(root.getFileSystem().getSeparator(), "/");
     }
 
     private static JsonObject read(Path path) throws IOException
