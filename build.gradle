@@ -15,11 +15,6 @@ def runeLiteVersion = 'latest.release'
 def generatedSlayerDataDir = layout.buildDirectory.dir('generated/resources/slayer')
 
 sourceSets {
-    main {
-        resources {
-            srcDir generatedSlayerDataDir
-        }
-    }
     // Authoring uses shared model classes and the existing compile dependency versions.
     // Do not include main.output: its resources depend on running these generators.
     dataGenerator {
@@ -84,8 +79,16 @@ tasks.named('generateSlayerData') {
     dependsOn 'generateAdvisorCatalogue'
 }
 
-tasks.named('processResources') {
+// The Plugin Hub's standard build replaces this script and packages src/main/resources as committed, so the
+// runtime catalogue is checked in. Every local build regenerates it; commit it together with data changes.
+tasks.register('updateBundledCatalogue', Copy) {
     dependsOn 'generateSlayerData'
+    from generatedSlayerDataDir.map { it.file('data/advisor-catalogue.json') }
+    into layout.projectDirectory.dir('src/main/resources/data')
+}
+
+tasks.named('processResources') {
+    dependsOn 'updateBundledCatalogue'
 }
 
 // A preview uses the same passive launcher as `run`. Keep dependency jars intact so
