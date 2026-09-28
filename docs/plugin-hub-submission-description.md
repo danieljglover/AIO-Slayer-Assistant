@@ -1,10 +1,10 @@
 # Add All-In Slayer
 
-Draft Plugin Hub pull-request description. No submission has been made. Packaging
-evidence currently covers candidate `977a21e5158c15a1481b7c23de31a9411208b342`;
-the final manifest must identify the published, verified release commit. When
-pasting into the Hub PR, expand repository-relative evidence links to full
-GitHub URLs pinned to that published commit.
+Integration and policy reference for the Plugin Hub submission, first submitted
+as [PR #16428](https://github.com/runelite/plugin-hub/pull/16428) and
+resubmitted with `build=standard`. When quoting it in a Hub PR, expand
+repository-relative evidence links to full GitHub URLs pinned to the published
+commit.
 
 ## Purpose and player interaction
 
@@ -80,8 +80,9 @@ checks use client-provided state, with unknown requirements kept explicit.
 AIO does not publish account or bank contents to a custom service. RuneLite
 controls persistence and any synchronization of its configuration storage.
 
-Wiki-derived advice is compiled from `src/main/data/slayer` during the build and
-ships as generated resources. Runtime code does not fetch Wiki pages or collect
+Wiki-derived advice is compiled offline from `src/main/data/slayer` and committed
+as `src/main/resources/data/advisor-catalogue.json`; the Hub standard build
+packages it unchanged. Runtime code does not fetch Wiki pages or collect
 data over HTTP. Authoring compilers are excluded from runtime classes. Source
 attribution and applicable license notices are bundled. RuneLite-provided item
 data and the optional plugins retain their own behavior and data sources.

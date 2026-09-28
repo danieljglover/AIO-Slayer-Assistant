@@ -152,6 +152,11 @@ four unchanged generated resources. Verification used Adoptium Java 11 after a
 system-JDK ZIP rewrite failure. Claude Sonnet/medium found no issues; Kimi was
 unavailable due to its usage quota. See [B5 verification and scope](reconstruction/hub-build-configuration.md).
 
+Superseded 2026-09-28: `build=standard` replaced the custom build at the
+reviewer's request in #16428. The runtime catalogue is now committed and the
+Hub's standard build packages it unchanged; see the
+[standard build record](reconstruction/hub-build-configuration.md#standard-build-2026-09-28).
+
 ## 2. Release checks
 
 ### R1. Verify the actual Hub artifact

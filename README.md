@@ -91,13 +91,14 @@ Use the checked-in Gradle wrapper with JDK 11 or newer:
 ./gradlew run
 ```
 
-`build` generates the bundled catalogues from `src/main/data/slayer` before
-packaging. Authoring compilers live in the separate `dataGenerator` source set;
+`build` compiles `src/main/data/slayer` and refreshes the committed runtime
+catalogue `src/main/resources/data/advisor-catalogue.json`; commit it with every
+data change. Authoring compilers live in the separate `dataGenerator` source set;
 their classes are excluded from the runtime JAR. See the
 [source and build reference](docs/agents/slayer-data-source.md#compiler-source-set).
-Keep `build=gradle` in `runelite-plugin.properties`: the Plugin Hub must use our
-build script to generate these resources. Its `standard` mode replaces the
-Gradle scripts and would discard the catalogue-generation tasks.
+`runelite-plugin.properties` uses `build=standard`, so the Plugin Hub replaces
+the Gradle scripts and packages `src/main/java` and `src/main/resources` as
+committed.
 
 On Windows, open PowerShell in the repository folder and use:
 

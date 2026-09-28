@@ -8,8 +8,9 @@ performs game actions.
 
 - `./gradlew build`: compile verification; run before claiming code or data
   migrations are complete.
-- `./gradlew generateSlayerData`: compile modular Slayer source JSON into the
-  generated runtime resource; also validates IDs and cross-file references.
+- `./gradlew generateSlayerData`: validate IDs and cross-file references and
+  compile modular Slayer source JSON into `build/generated/`; `./gradlew build`
+  (or `updateBundledCatalogue`) also refreshes the committed catalogue.
 - `find src/main/data/slayer -type f -name '*.json' -print0 | xargs -0 -n1 jq empty`:
   validate all Slayer source JSON files.
 - `./gradlew run`: launch RuneLite with the plugin loaded for manual testing.
@@ -30,8 +31,8 @@ performs game actions.
   catalogue panel plus passive overlay.
 - `src/main/data/slayer/`: editable Slayer knowledge base; see
   `docs/agents/slayer-data-source.md`.
-- `build/generated/resources/slayer/data/advisor-catalogue.json`: generated
-  runtime resource consumed by `AdvisorDataService`.
+- `src/main/resources/data/advisor-catalogue.json`: runtime resource consumed
+  by `AdvisorDataService`; generated and committed, never hand-edited.
 - `docs/reconstruction/implementation.md`: current reconstruction interfaces;
   historical design documents describe superseded runtime code.
 
@@ -50,8 +51,9 @@ performs game actions.
 
 ## Rules
 
-- Edit Slayer knowledge in `src/main/data/slayer`, not in generated `build/`
-  output.
+- Edit Slayer knowledge in `src/main/data/slayer`, never in generated output
+  (`build/` or the committed catalogue). Commit the refreshed catalogue with
+  data changes: the Hub standard build packages it as committed.
 - Treat `src/main/resources/data/slayer-data.json` as removed legacy data; do
   not recreate it as an editable source of truth.
 - Preserve plugin compliance: no automation, no game actions, no input

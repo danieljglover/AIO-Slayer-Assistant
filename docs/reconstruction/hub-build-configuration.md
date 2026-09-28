@@ -89,3 +89,46 @@ Local evidence is under `/tmp/aio-b5-team/`:
 - `jdk-download.json`: temporary JDK version, upstream download URL and checksum.
 - `system-jdk-packager-invocation.log`: initial system-runtime ZIP failure.
 - `claude-corrected.log`, `kimi-review.log`: final review and quota limitation.
+
+## Standard build (2026-09-28)
+
+In [Plugin Hub PR #16428](https://github.com/runelite/plugin-hub/pull/16428),
+the reviewer asked whether the plugin could use `build=standard`, because a
+custom Gradle build needs manual review. The stale bot later closed that PR.
+`runelite-plugin.properties` now declares `build=standard`, superseding the B5
+custom build above.
+
+Standard mode deletes the root Gradle scripts, substitutes plugin-hub-tooling's
+`standard-build.gradle` and `standard-settings.gradle`, and packages
+`src/main/java` and `src/main/resources` as committed, so the generation tasks
+never run on the Hub. Runtime code reads only `/data/advisor-catalogue.json`
+(`AdvisorDataService.RESOURCE`). That catalogue is now committed at
+`src/main/resources/data/advisor-catalogue.json`; local builds refresh it through
+`updateBundledCatalogue`. `advisor-coverage.json`, `slayer-data.json` and
+`slayer-meta.json` stay in `build/` as generator reports and are no longer
+packaged; no runtime code reads them.
+
+Generating on Windows exposed a source-key bug. `AdvisorCatalogueCompiler`
+looked up `advisor/wiki-audit.json` records, keyed like `tasks/bats.json`, with
+`root.relativize(path).toString()`, which yields backslashes on Windows. Every
+Wiki evidence record was silently dropped. The `sourceKey` helper now keys
+audit records and strategy paths with `/` on every OS; Linux output is
+unchanged.
+
+| Generated resource | Windows before fix | Windows after fix |
+| --- | --- | --- |
+| `advisor-catalogue.json` | `7882866e3e7ff1086571006fc50f6a8cb5b246d2e95be0f31a8746cb225962f0` | `cce5a503907996f0e7b96593ca14c308be9a7d19f8b3c754ae1b410870636ef8` |
+| `advisor-coverage.json` | `280ce81539ea2f9c2153849068099fe5dad33151daaaba53f5cc040582fafa76` | `37101dc7c21386c783cae81eea7572bbd0b7af1df1f4fd7ad88834e8447d6a9e` |
+| `slayer-data.json` | `d50528f228e1ad338993235e858e019e56f74babc1bef2e823d6fd898bcaf3c6` | `d50528f228e1ad338993235e858e019e56f74babc1bef2e823d6fd898bcaf3c6` |
+| `slayer-meta.json` | `65dea545f924062b85842447454f8343cb0b0ac87378aa8eb1ce67b73763a248` | `65dea545f924062b85842447454f8343cb0b0ac87378aa8eb1ce67b73763a248` |
+| Tasks with Wiki evidence | 0 of 118 | 118 of 118 |
+
+After the fix, all four resources match the
+[B4 hashes](data-generation-isolation.md#verification-2026-09-11); the catalogue
+is byte-identical to the one in #16428's verified JAR. `./gradlew clean build`
+wrote that catalogue to `src/main/resources/data/` and packaged it with 130
+runtime classes, without the three reports or any authoring or launcher
+classes. A second `./gradlew build` left `git status` clean.
+
+Commits: `ab26b7c` fixes the generator source keys; `a0c3237` switches to
+`build=standard` and commits the catalogue.

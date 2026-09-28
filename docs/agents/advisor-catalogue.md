@@ -1,9 +1,11 @@
 # Advisor catalogue authoring
 
 The RuneLite runtime reads the bundled `data/advisor-catalogue.json` generated
-by `AdvisorCatalogueCompiler`. `./gradlew generateSlayerData` runs this compiler
-and the original modular graph validator. Neither runtime recommendations nor
-Gradle generation fetch wiki pages.
+by `AdvisorCatalogueCompiler`. The compiled catalogue is committed at
+`src/main/resources/data/advisor-catalogue.json` and refreshed by
+`./gradlew build`. `./gradlew generateSlayerData` runs this compiler and the
+original modular graph validator. Neither runtime recommendations nor Gradle
+generation fetch wiki pages.
 
 ## Additional source inputs
 

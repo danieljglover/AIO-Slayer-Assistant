@@ -49,24 +49,27 @@ Generation follows this dependency order:
 compileJava (runtime classes and shared models)
   -> compileDataGeneratorJava -> dataGeneratorClasses
   -> generateAdvisorCatalogue -> generateSlayerData
-  -> processResources -> classes -> jar
+  -> updateBundledCatalogue -> processResources -> classes -> jar
 ```
 
 Both generation tasks use `dataGenerator.runtimeClasspath` and still read only
 `src/main/data/slayer`. They write `advisor-catalogue.json`,
 `advisor-coverage.json`, `slayer-data.json`, and `slayer-meta.json` into
-`build/generated/resources/slayer/data/`; `processResources` includes them in
-the runtime artifact. `generateAdvisorCatalogue` also works on its own.
+`build/generated/resources/slayer/data/`. `updateBundledCatalogue` copies only
+`advisor-catalogue.json` to `src/main/resources/data/`, where it is committed
+and packaged; the other three stay in `build/` as validation and coverage
+reports. `generateAdvisorCatalogue` also works on its own. The Plugin Hub's
+standard build runs none of these tasks.
 
 Do not put `main.output` or `main.runtimeClasspath` on the generator classpaths:
 those include generated resources and would introduce a dependency cycle.
 Do not make `compileJava` depend on resource generation. The Hub records runtime
 API calls during that compilation, before authoring code is compiled separately.
 
-After changing this wiring, run `./gradlew clean generateSlayerData build`.
-Compare generated resources with the pre-change build and inspect the packaged
-JAR for required data and absence of `data/source` classes. Do not recreate the
-removed editable `src/main/resources/data/slayer-data.json`.
+After changing this wiring, run `./gradlew clean build`. `git status` must then
+show the committed catalogue unchanged unless the source data changed. Inspect
+the packaged JAR for required data and absence of `data/source` classes. Do not
+recreate the removed editable `src/main/resources/data/slayer-data.json`.
 
 ## IDs And Joins
 
